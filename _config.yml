@@ -1,7 +1,7 @@
-name: Site Name
+name: ThinkShout
 markdown: redcarpet
 pygments: true
 
 baseurl: /thinkshout
 # Permalink Configuration
-permalink: none # => /:categories/:title.html
+permalink: /:categories/:title

@@ -17,7 +17,7 @@ nav ul li:hover > ul {
 /* line 15, ../sass/defaults.scss */
 nav ul {
   background: #efefef;
-  padding: 0 20px;
+  padding: 0;
   margin-bottom: 0;
   list-style: none;
   position: relative;

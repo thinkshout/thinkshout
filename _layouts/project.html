@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+<h3>{{ page.project_summary }}</h3>
+{% if page.image %}
+  <a href="{{ page.website }}">
+    <img src="{{ page.image.url }}" title="{{ page.image.title }}" alt="{{ page.image.alt }}" />
+  </a>
+{% endif %}
+
+<h3>Challenge:</h3>
+{{ page.challenge }}
+
+
+<h3>Solution:</h3>
+{{ page.solution }}
