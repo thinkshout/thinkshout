@@ -2,5 +2,6 @@ name: Site Name
 markdown: redcarpet
 pygments: true
 
+baseurl: /thinkshout
 # Permalink Configuration
 permalink: none # => /:categories/:title.html

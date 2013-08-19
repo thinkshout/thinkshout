@@ -11,9 +11,9 @@
   <link rel="stylesheet" href="/stylesheets/syntax.css">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="/stylesheets/app.css" />
-  <link rel="stylesheet" href="/stylesheets/defaults.css" />
-  <script src="/javascripts/vendor/custom.modernizr.js"></script>
+  <link rel="stylesheet" href="{{ site.baseurl}}/stylesheets/app.css" />
+  <link rel="stylesheet" href="{{ site.baseurl}}/stylesheets/defaults.css" />
+  <script src="{{ site.baseurl}}/javascripts/vendor/custom.modernizr.js"></script>
 </head>
 <body>
 
@@ -30,25 +30,25 @@
 
   <script>
   document.write('<script src=' +
-    ('__proto__' in {} ? '/javascripts/vendor/zepto' : '/javascripts/vendor/jquery') +
+    ('__proto__' in {} ? '{{ site.baseurl}}/javascripts/vendor/zepto' : '{{ site.baseurl}}/javascripts/vendor/jquery') +
     '.js><\/script>')
   </script>
   
-  <script src="/javascripts/foundation/foundation.js"></script>
-  <script src="/javascripts/foundation/foundation.alerts.js"></script>
-  <script src="/javascripts/foundation/foundation.clearing.js"></script>
-  <script src="/javascripts/foundation/foundation.cookie.js"></script>
-  <script src="/javascripts/foundation/foundation.dropdown.js"></script>
-  <script src="/javascripts/foundation/foundation.forms.js"></script>
-  <script src="/javascripts/foundation/foundation.interchange.js"></script>
-  <script src="/javascripts/foundation/foundation.joyride.js"></script>
-  <script src="/javascripts/foundation/foundation.magellan.js"></script>
-  <script src="/javascripts/foundation/foundation.orbit.js"></script>
-  <script src="/javascripts/foundation/foundation.placeholder.js"></script>
-  <script src="/javascripts/foundation/foundation.reveal.js"></script>
-  <script src="/javascripts/foundation/foundation.section.js"></script>
-  <script src="/javascripts/foundation/foundation.tooltips.js"></script>
-  <script src="/javascripts/foundation/foundation.topbar.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.alerts.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.clearing.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.cookie.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.dropdown.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.forms.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.interchange.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.joyride.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.magellan.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.orbit.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.placeholder.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.reveal.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.section.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.tooltips.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.topbar.js"></script>
   
   <script>
   $(document).foundation();
