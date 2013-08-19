@@ -1,0 +1,6 @@
+name: Site Name
+markdown: redcarpet
+pygments: true
+
+# Permalink Configuration
+permalink: none # => /:categories/:title.html
