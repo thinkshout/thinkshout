@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/stylesheets/syntax.css">
+
+  <!-- Flexslider -->
+  <link rel="stylesheet" href="{{ site.baseurl}}/javascripts/contrib/flexslider/flexslider.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl}}/stylesheets/app.css" />
+  <link rel="stylesheet" href="{{ site.baseurl}}/stylesheets/ts.css" />
+  
+  <script src="{{ site.baseurl}}/javascripts/vendor/custom.modernizr.js"></script>
+  
+</head>
+<body class="{{ page.title }}">
+
+  {% include header.html %}
+  {{ content }}
+  {% include footer.html %}
+
+  <!--
+  <script>
+  document.write('<script src=' +
+    ('__proto__' in {} ? '{{ site.baseurl}}/javascripts/vendor/zepto' : '{{ site.baseurl}}/javascripts/vendor/jquery') +
+    '.js><\/script>')
+  </script>
+  -->
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.alerts.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.clearing.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.cookie.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.dropdown.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.forms.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.interchange.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.joyride.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.magellan.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.orbit.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.placeholder.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.reveal.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.section.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.tooltips.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.topbar.js"></script>
+  
+  <!-- FlexSlider -->
+  <script src="{{ site.baseurl}}/javascripts/contrib/flexslider/jquery.flexslider-min.js"></script>
+  <!-- Masonry -->
+  <script src="{{ site.baseurl}}/javascripts/contrib/masonry.pkgd.min.js"></script>
+  
+  <script>
+  $(document).foundation();
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+      animation: "slide",
+      controlNav: false
+    });
+  });
+  var $container = $('.gridlock');
+  // initialize
+  $container.masonry({
+    columnWidth: ".grid-sizer",
+    itemSelector: '.item',
+    isFitWidth: true,
+    gutter: 0
+  });
+  </script>
+</body>
+</html>
+

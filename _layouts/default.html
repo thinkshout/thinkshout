@@ -12,21 +12,15 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ site.baseurl}}/stylesheets/app.css" />
-  <link rel="stylesheet" href="{{ site.baseurl}}/stylesheets/defaults.css" />
+  <link rel="stylesheet" href="{{ site.baseurl}}/stylesheets/ts.css" />
   <script src="{{ site.baseurl}}/javascripts/vendor/custom.modernizr.js"></script>
+
 </head>
-<body>
+<body class="{{ page.title }}"> 
 
   {% include header.html %}
-
-  <div class="row">
-    <div class="large-12 columns">
-      {{ content }}
-    </div>
-  </div> 
-
+  {{ content }}
   {% include footer.html %}
-
 
   <script>
   document.write('<script src=' +
@@ -49,9 +43,17 @@
   <script src="{{ site.baseurl}}/javascripts/foundation/foundation.section.js"></script>
   <script src="{{ site.baseurl}}/javascripts/foundation/foundation.tooltips.js"></script>
   <script src="{{ site.baseurl}}/javascripts/foundation/foundation.topbar.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/contrib/imagesloaded.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/contrib/classie.js"></script>
+  <script src="{{ site.baseurl}}/javascripts/contrib/AnimOnScroll.js"></script>
   
   <script>
   $(document).foundation();
+  new AnimOnScroll( document.getElementById( 'grid' ), {
+    minDuration : 0.4,
+    maxDuration : 0.7,
+    viewportFactor : 0.2
+  } );
   </script>
 </body>
 </html>

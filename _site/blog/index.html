@@ -12,112 +12,96 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="/stylesheets/app.css" />
-  <link rel="stylesheet" href="/stylesheets/defaults.css" />
+  <link rel="stylesheet" href="/stylesheets/ts.css" />
   <script src="/javascripts/vendor/custom.modernizr.js"></script>
+
 </head>
-<body>
+<body class="Blog"> 
 
   <header>
 	<div class="row">
-		<div class="large-12 columns">
-			<h1 class="title"><a href="/">ThinkShout</a></h1>
+		<div class="large-3 columns">
+			<h1 id="logo" class="title"><a href="/">ThinkShout</a></h1>
 		</div>
-	</div>
-	<div class="row">
-		<div class="large-12 columns">
-			<nav id="primary" class="menu">
-				<ul>
-					<li><a href="/work">Work</a></li>
+		<div class="large-9 columns">
+			<nav class="primary">
+			  <ul class="right">
+			    <li><a href="/work">Work</a></li>
 					<li><a href="/expertise">Expertise</a></li>
 					<li><a href="/team">Team</a></li>
 					<li><a href="/blog">Blog</a></li>
-				</ul>
+			  </ul>
 			</nav>
-		</div>
-	</div>
-	<div class="row">
-		<div class="large-12 columns">
-			<nav id="primary" class="menu">
-				<ul>
-					<li><a href="/redhen">Meet RedHen</a></li>
-					<li><a href="/contact">Contact</a></li>
-					<li><a href="/jobs">We're Hiring</a></li>
-				</ul>
-			</nav>
+			<!--<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>-->
 		</div>
 	</div>
 </header>
 
-  <div class="row">
-    <div class="large-12 columns">
-      <ul class="projects">
-  
-  <li>
-    <article>
-      <div class="project-title"><h1><a href="/blog/post-2">Post 2</a><h1></div>
-        <br />
-        <br />
-      <p class="content-text"><p>You&#39;ll find this post in your <code>_posts</code> directory - edit this post and re-build (or run with the <code>-w</code> switch) to see your changes!
-To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention: YYYY-MM-DD-name-of-post.ext.</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<div class="highlight"><pre><code class="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">&quot;Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">&#39;Tom&#39;</span><span class="p">)</span>
-<span class="c1">#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.</span>
-</code></pre></div>
-
-<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/mojombo/jekyll">Jekyll&#39;s GitHub repo</a>.</p>
-</p>
-    </article>
-  </li>
-  
-  <li>
-    <article>
-      <div class="project-title"><h1><a href="/blog/post-1">Post 1</a><h1></div>
-        <br />
-        <br />
-      <p class="content-text"><p>You&#39;ll find this post in your <code>_posts</code> directory - edit this post and re-build (or run with the <code>-w</code> switch) to see your changes!
-To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention: YYYY-MM-DD-name-of-post.ext.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<div class="highlight"><pre><code class="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">&quot;Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">&#39;Tom&#39;</span><span class="p">)</span>
-<span class="c1">#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.</span>
-</code></pre></div>
-
-<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/mojombo/jekyll">Jekyll&#39;s GitHub repo</a>.</p>
-</p>
-    </article>
-  </li>
-  
-</ul>
-
+  <div class="content">
+  <section class="marquee">
+    <img src="http://placehold.it/1440x300&text=BANNER">
+  </section>
+  <section class="main">
+    
+    <div class="row">
+      <div class="large-8 columns large-centered">
+        <article>
+          <div class="row">
+            <div class="large-4 columns">
+              <img src="http://placehold.it/450x450&text=HERO">
+            </div>
+            <div class="large-8 columns">
+              <div class="project-title"><h1><a href="/blog/plenty-nonprofits-not-single-pirate-badcamp">Plenty of Nonprofits, But Not a Single Pirate at BADCamp</a><h1></div>
+              <p class="content-text">When you first hear that you are attending a conference named BADCamp, you can't help but wonder what kind of conference you are attending. Turns out, BADCamp is actually an awesome introduction into the Drupal community and last weekend I was able to attend my first ever BADCamp.</p>
+              <a class="button default" href="/blog/plenty-nonprofits-not-single-pirate-badcamp">Read More</a>
+            </div>
+          </div>
+        </article>
+      </div>
     </div>
-  </div> 
+    
+    <div class="row">
+      <div class="large-8 columns large-centered">
+        <article>
+          <div class="row">
+            <div class="large-4 columns">
+              <img src="http://placehold.it/450x450&text=HERO">
+            </div>
+            <div class="large-8 columns">
+              <div class="project-title"><h1><a href="/blog/getting-started-sass-drupal-and-zen">Getting Started with SASS for Drupal and Zen</a><h1></div>
+              <p class="content-text">Want to get started using SASS/Compass with Drupal? And fast? This series will give you an introduction to SASS/Compass, plus how get started using it with Drupal right away using the Zen base theme.</p>
+              <a class="button default" href="/blog/getting-started-sass-drupal-and-zen">Read More</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+    
+  </section>
+</div> 
 
   <footer>
 	<div class="row">
-		<div class="large-12 columns">
-			<nav id="primary" class="menu">
-				<ul>
-					<li><a href="#">Work</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Team</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Meet RedHen</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
+		<div class="large-4 columns">
+			<img src="/images/thinkshout-icon.png">
+			<ul>
+	      <li><a href="/work">Work</a></li>
+				<li><a href="/expertise">Expertise</a></li>
+				<li><a href="/team">Team</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="">Meet Redhen</a></li>
+				<li><a href="">Contact</a></li>
+	    </ul>
+		</div>
+		<div class="large-4 columns">
+			<p>[ CONTACT FORM HERE ]</p>
+		</div>
+		<div class="large-4 columns">
+			<p>[ MAP ]</p>
 		</div>
 	</div>
 </footer>
-
 
   <script>
   document.write('<script src=' +
@@ -140,9 +124,17 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
   <script src="/javascripts/foundation/foundation.section.js"></script>
   <script src="/javascripts/foundation/foundation.tooltips.js"></script>
   <script src="/javascripts/foundation/foundation.topbar.js"></script>
+  <script src="/javascripts/contrib/imagesloaded.js"></script>
+  <script src="/javascripts/contrib/classie.js"></script>
+  <script src="/javascripts/contrib/AnimOnScroll.js"></script>
   
   <script>
   $(document).foundation();
+  new AnimOnScroll( document.getElementById( 'grid' ), {
+    minDuration : 0.4,
+    maxDuration : 0.7,
+    viewportFactor : 0.2
+  } );
   </script>
 </body>
 </html>

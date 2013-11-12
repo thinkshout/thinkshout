@@ -1,16 +1,40 @@
 ---
 layout: default
-title: Recent Work 
+title: Team
 ---
-
-<ul class="projects">
-  {% for post in site.categories.team %}
-  <li>
-    <article>
-      <div class="project-title"><h1><a href="{{ post.url }}">{{ post.title}}</a><h1></div>
-      {{ post.short }}
-      <p class="content-text">{{post.content}}</p>
-    </article>
-  </li>
-  {% endfor %}
-</ul>
+<div class="content">
+	<section class="marquee">
+		<img src="{{ base.url }}/images/placeholderslide2.jpg">
+		<div class="caption">
+	  	<h2>We provide web strategy and open source technology to forward-thinking organizations.</h2>
+	  	<a class="button overlay" href="#">Learn More</a>
+	  </div>
+	</section>
+	<section class="main">
+		<div class="row">
+			<div class="large-12 columns">
+				<h2 class="section-header">Meet Our Team</h2>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="row">
+			<div class="large-12 columns">
+				<ul class="team large-block-grid-3">
+				  {% for post in site.categories.team %}
+				  <li>
+				    <article>
+				    	<a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/images/{{post.image}}"></a>
+				      <div class="project-title"><h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h4></div	>
+				      <p class="content-text">{{post.position}}</p>
+				    </article>
+				  </li>
+				  {% endfor %}
+				  <li>
+				  	<h3>Job Opening</h3>
+				  </li>
+				</ul>
+			</div>
+		</div>
+	</section>
+</div>

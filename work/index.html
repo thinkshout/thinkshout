@@ -3,15 +3,41 @@ layout: default
 title: Recent Work 
 ---
 
-<ul class="projects">
+<div class="content">
   {% for post in site.categories.work %}
-  <li>
-    <article>
-      <div class="project-title"><h1><a href="{{ post.url }}">{{ post.title}}</a><h1></div>
-        <br />
-        <br />
-      <p class="content-text">{{post.content}}</p>
-    </article>
-  </li>
+    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% if thecycle == 'odd' %}
+      <div class="project teaser odd">
+        <article>
+          <div class="row">
+            <div class="large-7 columns">
+              <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/images/{{ post.images.hero }}"></a>
+            </div>
+            <div class="large-4 columns">
+              <h2 class="project-title"><a href="{{ post.url }}">{{ post.title}}</a></h2>
+              <p>{{ post.oneliner }}</p>
+              <a class="button default" href="#">Case Study</a><br />
+              <a class="button default" href="#">Visit Website</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    {% else %}
+      <div class="project teaser even">
+        <article>
+          <div class="row">
+            <div class="large-7 columns push-5">
+              <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/images/{{ post.images.hero }}"></a>
+            </div>
+            <div class="large-4 columns pull-7">
+              <h2 class="project-title"><a href="{{ post.url }}">{{ post.title}}</a></h2>
+              <p>{{ post.oneliner }}</p>
+              <a class="button default" href="#">Case Study</a><br />
+              <a class="button default" href="#">Visit Website</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    {% endif %}
   {% endfor %}
-</ul>
+</div>

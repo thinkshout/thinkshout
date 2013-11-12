@@ -12,45 +12,33 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="/stylesheets/app.css" />
-  <link rel="stylesheet" href="/stylesheets/defaults.css" />
+  <link rel="stylesheet" href="/stylesheets/ts.css" />
   <script src="/javascripts/vendor/custom.modernizr.js"></script>
+
 </head>
-<body>
+<body class="Discovery"> 
 
   <header>
 	<div class="row">
-		<div class="large-12 columns">
-			<h1 class="title"><a href="/">ThinkShout</a></h1>
+		<div class="large-3 columns">
+			<h1 id="logo" class="title"><a href="/">ThinkShout</a></h1>
 		</div>
-	</div>
-	<div class="row">
-		<div class="large-12 columns">
-			<nav id="primary" class="menu">
-				<ul>
-					<li><a href="/work">Work</a></li>
+		<div class="large-9 columns">
+			<nav class="primary">
+			  <ul class="right">
+			    <li><a href="/work">Work</a></li>
 					<li><a href="/expertise">Expertise</a></li>
 					<li><a href="/team">Team</a></li>
 					<li><a href="/blog">Blog</a></li>
-				</ul>
+			  </ul>
 			</nav>
-		</div>
-	</div>
-	<div class="row">
-		<div class="large-12 columns">
-			<nav id="primary" class="menu">
-				<ul>
-					<li><a href="/redhen">Meet RedHen</a></li>
-					<li><a href="/contact">Contact</a></li>
-					<li><a href="/jobs">We're Hiring</a></li>
-				</ul>
-			</nav>
+			<!--<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>-->
 		</div>
 	</div>
 </header>
 
-  <div class="row">
-    <div class="large-12 columns">
-      <h1>Discovery</h1>
+
+  <h1>Discovery</h1>
 <h3>Target audiences and organizational goals oh my.</h3>
 
 Target audiences and organizational goals oh my.
@@ -58,26 +46,27 @@ Target audiences and organizational goals oh my.
 
 
 
-    </div>
-  </div> 
-
   <footer>
 	<div class="row">
-		<div class="large-12 columns">
-			<nav id="primary" class="menu">
-				<ul>
-					<li><a href="#">Work</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Team</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Meet RedHen</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
+		<div class="large-4 columns">
+			<img src="/images/thinkshout-icon.png">
+			<ul>
+	      <li><a href="/work">Work</a></li>
+				<li><a href="/expertise">Expertise</a></li>
+				<li><a href="/team">Team</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="">Meet Redhen</a></li>
+				<li><a href="">Contact</a></li>
+	    </ul>
+		</div>
+		<div class="large-4 columns">
+			<p>[ CONTACT FORM HERE ]</p>
+		</div>
+		<div class="large-4 columns">
+			<p>[ MAP ]</p>
 		</div>
 	</div>
 </footer>
-
 
   <script>
   document.write('<script src=' +
@@ -100,9 +89,17 @@ Target audiences and organizational goals oh my.
   <script src="/javascripts/foundation/foundation.section.js"></script>
   <script src="/javascripts/foundation/foundation.tooltips.js"></script>
   <script src="/javascripts/foundation/foundation.topbar.js"></script>
+  <script src="/javascripts/contrib/imagesloaded.js"></script>
+  <script src="/javascripts/contrib/classie.js"></script>
+  <script src="/javascripts/contrib/AnimOnScroll.js"></script>
   
   <script>
   $(document).foundation();
+  new AnimOnScroll( document.getElementById( 'grid' ), {
+    minDuration : 0.4,
+    maxDuration : 0.7,
+    viewportFactor : 0.2
+  } );
   </script>
 </body>
 </html>

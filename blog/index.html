@@ -2,16 +2,28 @@
 layout: default
 title: Blog 
 ---
-
-<ul class="projects">
-  {% for post in site.categories.blog %}
-  <li>
-    <article>
-      <div class="project-title"><h1><a href="{{ post.url }}">{{ post.title}}</a><h1></div>
-        <br />
-        <br />
-      <p class="content-text">{{post.content}}</p>
-    </article>
-  </li>
-  {% endfor %}
-</ul>
+<div class="content">
+  <section class="marquee">
+    <img src="http://placehold.it/1440x300&text=BANNER">
+  </section>
+  <section class="main">
+    {% for post in site.categories.blog %}
+    <div class="row">
+      <div class="large-8 columns large-centered">
+        <article>
+          <div class="row">
+            <div class="large-4 columns">
+              <img src="http://placehold.it/450x450&text=HERO">
+            </div>
+            <div class="large-8 columns">
+              <div class="project-title"><h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a><h1></div>
+              <p class="content-text">{{post.short}}</p>
+              <a class="button default" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+</div> 

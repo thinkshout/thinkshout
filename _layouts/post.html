@@ -1,9 +1,51 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<div class="content">
 
-<div class="post">
-{{ content }}
+	<section class="marquee">
+		<img src="http://placehold.it/1440x450&text=HERO">
+	</section>
+	
+	<section class="main">
+		<div class="row">
+			<div class="large-8 columns large-centered">
+				<div class="large-3 columns">
+					<div class="byline">
+						<img src="http://placehold.it/450x450&text=PHOTO">
+						<p class="author"><a href="#">Sean Larkin</a></p>
+						<p class="position"><a href="#">Director of Strategy</a></p>
+					</div>
+				</div>
+				<div class="large-9 columns">
+					<h2>{{ page.title }}</h2>
+					<p class="meta">{{ page.date | date_to_string }}</p>
+					<p>{{ content }}</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="paginator">
+		<div class="blog-nav previous-post">
+			<img src="http://placehold.it/1440x450&text=HERO">
+			<div class="teaser">
+				<h5>Previous Post</h5>
+				<h4><a href="#">Post Title</a></h4>
+				<a class="button overlay" href="#">Read Now</a>
+			</div>
+			<div class="mute"></div>
+		</div>
+		<div class="blog-nav next-post">
+			<img src="http://placehold.it/1440x450&text=HERO">
+			<div class="teaser">
+				<h5>Next Post</h5>
+				<h4><a href="#">Post Title</a></h4>
+				<a class="button overlay" href="#">Read Now</a>
+			</div>
+			<div class="mute"></div>
+		</div>	
+	</section>
+
 </div>
+
