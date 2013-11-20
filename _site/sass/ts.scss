@@ -5,7 +5,8 @@
 
 html,
 body {
-  background: #FEFEF6;
+  background: #FFF;
+  height: 100%;
 }
 
 h1.title {
@@ -34,6 +35,18 @@ h1#homeLogo {
   margin: 0 auto;
 }
 
+
+
+// TYPOGRAPHY
+
+
+h5 {
+  color: $orange;
+  text-transform: uppercase;
+}
+
+// STRUCTURE
+
 header {
   height: 100px;
   position: fixed;
@@ -59,31 +72,130 @@ header {
   }
 }
 
-.Home header {
-  background: transparent;
+#container, 
+.content {
+  height: 100%;
 }
 
-.Home .content {
-  margin-top: -50px;
+.site-width {
+  width: 90%;
+  margin: 0 auto;
+  clear: left;
+  height: 100%;
 }
 
-.Home .main {
-  padding: 2em 0;
+.row {
+  width: 90%;
+  margin: 0 auto;
 }
 
-h5 {
-  color: $orange;
-  text-transform: uppercase;
+.marquee {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+  background: transparent url(../images/placeholderslide1.jpg) top center no-repeat;
+  background-size: cover;
 }
 
-// From The Blog
-.from-the-blog {
-  background: #f1f1f1;
-  padding: 3em 0;
+.background {
+  position: absolute;
+  z-index: 100;
+  max-width: 1000px;
+  width: 100%;
+  height: 100%;
+}
 
-  h5 {
-    color: $brown;
-    margin-top: 0.5em;
+.leadin {
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
+  box-pack: center;
+  height: 100%;
+  width: 40%;
+  z-index: 200;
+
+  h2 {
+    color: #FFF;
+  }
+}
+
+.home-nav {
+  position: absolute;
+  bottom: 1em;
+  width: 90%;
+  z-index: 300;
+
+  ul.navblocks {
+    li {
+      .content {
+        background: rgba(255,255,255,1);
+        padding: 0.5em 2em;
+        margin: 0 0.5em;
+        height: 150px;
+        a {
+          display: block;
+          vertical-align: middle;
+          color: darken($brown, 20%);
+          &:hover {
+  
+          }
+          .rubric {
+            color: $orange;
+            font-size: 0.5em;
+            text-transform: uppercase;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  .large-block-grid-3 > li {
+    padding: 0;
+  }
+}
+
+body.list .main {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+}
+
+body.detail .main {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+}
+
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  height: 450px;
+  width: 100%;
+  padding-top: 4em;
+  color: #FFF;
+  background: $orange;
+
+  ul {
+    li {
+      a {
+        color: #FFF;
+      }
+    }
   }
 }
 
@@ -91,55 +203,24 @@ h5 {
   z-index: 1000;
 }
 
-ul.navblocks {
-  li {
-    text-align: center;
-    .rubric {
-      color: $brown;
-      font-size: 0.5em;
-      text-transform: uppercase;
-      display: block;
-    }
-    a {
-      display: block;
-      height: 150px;
-      width: 100%;
-      vertical-align: middle;
-      padding: 1em 2em;
-      @include border-radius(6px);
-      border: 1px solid $brown;
-      color: $brown;
-      &:hover {
-        background: rgba(255,255,255,0.3);
-        color: $orange;
-        border: 1px solid $orange;
-      }
-    }
-  }
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100px;
+  background: #FFF;
+  text-align: left;
 }
 
-// Marquee 
 .marquee {
-  margin-top: 0px;
-  z-index: 20;
-  position: relative;
-  max-width: 90em;
-  margin: 0 auto;
-
-  .header {
-    position: absolute;
-    bottom: 0;
-    left: 16.66667%;
-    background: #FEFEF6;
-    padding: 0 1em;
-    h1 {
-      color: #222;
-      margin-bottom: 0;
-    }
-    h3 {
-      color: $orange;
-    }
-  }
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 100px;
 
   .caption {
     position: absolute;
@@ -167,78 +248,107 @@ ul.navblocks {
   }
 }
 
-// Flexslider Overrides
-.flexslider {
-  margin-bottom: 2em;
-  border: 0;
-  @include border-radius(0);
-  @include box-shadow(rgba(0,0,0,0) 0 0 0);
-  li {
-    position: relative;
-  }
-  .caption {
-    position: absolute;
-    left: 2em;
-    top: 10em;
-    max-width: 30em;
-    h2 {
-      color: #FFF;
-    }
-  }
-}
-
-.content {
-  position: relative;
-  z-index: 200;
-  height: 100%;
-  background: #FEFEF6;
-  margin-top: 100px;
-  margin-bottom: 450px;
-  overflow: hidden;
-}
-
-ul.grid {
-  margin: 0;
-  padding: 0;
-  li.item { 
-    width: 20%; 
-    float: left; 
-    box-sizing: border-box;
-    padding: 2em;
-    list-style: none;
-    height: 400px;
-    overflow: hidden;
-    border: 1px solid #f1f1f1;
-  }
-  li.item.x2 { width: 40%; }
-  li.item.x3 { width: 60%; }
-}
-
-
-.intro {}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-  height: 450px;
+.sizer {
+  position: absolute;
+  z-index: 100;
+  max-width: 1000px;
   width: 100%;
-  padding-top: 4em;
-  color: #FFF;
-  background: $orange;
+  height: 100%;
+}
 
-  ul {
-    li {
-      a {
-        color: #FFF;
-      }
-    }
+.lead {
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
+  box-pack: center;
+  height: 100%;
+  z-index: 200;
+}
+
+.heading {
+
+}
+
+section.main {}
+
+//
+// HOME
+//
+.Home header {
+  background: transparent;
+  position: absolute;
+}
+
+.Home .marquee {
+  background: transparent url(../images/placeholderslide1.jpg) top center no-repeat;
+  background-size: cover;
+
+  #leads {
+    position: absolute;
+    bottom: 1em;
+
+
   }
 }
 
-section.main {
-  padding: 2em 0;
+// From The Blog
+.from-the-blog {
+  h5 {
+    color: $brown;
+    margin-top: 0.5em;
+  }
+}
+
+#hiring {
+  background: $orange;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  z-index: 500;
+  color: #FFF;
+  @include border-radius(50%);
+  height: 125px;
+  width: 125px;
+  padding: 3em 0;
+  text-align: center;
+  border: 2px solid #FFF;
+}
+
+//
+// WORK
+//
+
+.Work .marquee {
+  background: transparent url(../images/placeholderslide2.jpg) top center no-repeat;
+  background-size: cover;
+}
+
+// Banner
+.banner {
+  position: relative;
+  .header {
+    position: absolute;
+    bottom: 0;
+    left: 16.66667%;
+    background: #FFF;
+    padding: 0 1em;
+    h1 {
+      color: #222;
+      margin-bottom: 0;
+    }
+    h3 {
+      color: $orange;
+    }
+  }
 }
 
 // Blog
