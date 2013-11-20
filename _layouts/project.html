@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: detail
 ---
-<div class="content">
+<section class="main">
 	<section class="header">
 		<div class="row">
 			<div class="large-8 columns push-2">
@@ -10,9 +10,7 @@ layout: default
 			</div>
 		</div>
 	</section>
-	<section class="marquee">
-		<img src="{{ site.baseurl }}/images/{{ page.images.hero }}" title="{{ page.image.title }}" alt="{{ page.image.	alt }}" />
-	</section>
+	<img src="{{ site.baseurl }}/images/{{ page.images.hero }}" title="{{ page.image.title }}" alt="{{ page.image.	alt }}" />
 	<section class="intro">
 		<div class="row">
 			<div class="large-6 columns push-2">
@@ -26,7 +24,6 @@ layout: default
 					<li><a href="#"></a></li>
 					<li><a href="#"></a></li>
 				</ul>
-				<a class="button default" href="{{ page.url }}">Launch Website</a>
 			</div>
 		</div>
 	</section>
@@ -78,7 +75,8 @@ layout: default
 			</div>
 			<div class="large-6 columns pull-1">
 				<p>{{ page.results.description }}</p>
+				<a class="button default" href="{{ page.url }}">Launch Website</a>
 			</div>
 		</div>
 	</section>
-</div>
+</section>

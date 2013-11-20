@@ -1,32 +1,25 @@
 ---
-layout: default
+layout: detail
 ---
-<div class="content">
-
-	<section class="marquee">
-		<img src="http://placehold.it/1440x450&text=HERO">
-	</section>
-	
-	<section class="main">
-		<div class="row">
-			<div class="large-8 columns large-centered">
-				<div class="large-3 columns">
-					<div class="byline">
-						<img src="http://placehold.it/450x450&text=PHOTO">
-						<p class="author"><a href="#">Sean Larkin</a></p>
-						<p class="position"><a href="#">Director of Strategy</a></p>
-					</div>
-				</div>
-				<div class="large-9 columns">
-					<h2>{{ page.title }}</h2>
-					<p class="meta">{{ page.date | date_to_string }}</p>
-					<p>{{ content }}</p>
+<section class="main">
+	<img src="http://placehold.it/1800x250&text=CATEGORY BANNER">
+	<div class="row" style="margin-top: 2em;">
+		<div class="large-8 columns large-centered">
+			<div class="large-3 columns">
+				<div class="byline">
+					<img src="http://placehold.it/450x450&text=PHOTO">
+					<p class="author"><a href="#">Sean Larkin</a></p>
+					<p class="position"><a href="#">Director of Strategy</a></p>
 				</div>
 			</div>
+			<div class="large-9 columns">
+				<h2>{{ page.title }}</h2>
+				<p class="meta">{{ page.date | date_to_string }}</p>
+				<p>{{ content }}</p>
+			</div>
 		</div>
-	</section>
-
-	<section class="paginator">
+	</div>
+	<div class="paginator">
 		<div class="blog-nav previous-post">
 			<img src="http://placehold.it/1440x450&text=HERO">
 			<div class="teaser">
@@ -45,7 +38,8 @@ layout: default
 			</div>
 			<div class="mute"></div>
 		</div>	
-	</section>
+	</div>
+</section>
 
-</div>
+
 
