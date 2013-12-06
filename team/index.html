@@ -18,14 +18,16 @@ title: Team
 		<div class="row">
 			<div class="large-12 columns">
 				<ul class="team large-block-grid-3">
-				  {% for post in site.categories.team %}
+                  {% for page in site.pages %}
+                  {% if page.layout == 'teammember' %}
 				  <li>
 				    <article>
-				    	<a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/images/{{post.image}}"></a>
-				      <div class="project-title"><h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h4></div	>
+				    	<a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ site.baseurl }}/images/{{page.image}}"></a>
+				      <div class="project-title"><h4><a href="{{ site.baseurl }}{{ page.url }}">{{ post.title}}</a></h4></div	>
 				      <p class="content-text">{{post.position}}</p>
 				    </article>
 				  </li>
+                  {% endif %}
 				  {% endfor %}
 				  <li>
 				  	<h3>Job Opening</h3>
