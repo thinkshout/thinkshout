@@ -1,10 +1,7 @@
 ---
 layout: project
-
 title: Front End Engineer
-
-active: true
-
+active: "true"
 published: true
 ---
 

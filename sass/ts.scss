@@ -3,6 +3,8 @@
 @import "compass/css3/transition";
 @import "_base";
 
+$mobile: 480px;
+
 html,
 body {
   background: #FFF;
@@ -78,7 +80,8 @@ header {
 }
 
 .site-width {
-  width: 90%;
+  width: 100%;
+  padding: 0 1em;
   margin: 0 auto;
   clear: left;
   height: 100%;
@@ -89,15 +92,6 @@ header {
   margin: 0 auto;
 }
 
-.marquee {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 100px;
-  background: transparent url(../images/placeholderslide1.jpg) top center no-repeat;
-  background-size: cover;
-}
 
 .background {
   position: absolute;
@@ -122,78 +116,201 @@ header {
   -ms-box-pack: center;
   box-pack: center;
   height: 100%;
-  width: 40%;
+  width: 50%;
   z-index: 200;
+
+  @media screen and (max-width: $mobile) {
+    float: none;
+    width: 100%;
+  }
 
   h2 {
     color: #FFF;
+    font-weight: 600;
   }
 }
 
-.home-nav {
-  position: absolute;
-  bottom: 1em;
-  width: 90%;
-  z-index: 300;
 
-  ul.navblocks {
-    li {
-      .content {
-        background: rgba(255,255,255,1);
-        padding: 0.5em 2em;
-        margin: 0 0.5em;
-        height: 150px;
-        a {
-          display: block;
-          vertical-align: middle;
-          color: darken($brown, 20%);
-          &:hover {
+
+.main {
+  position: relative;
+  padding: 2em 1em;
+}
+
+/*
+ * HOME
+ */
+body.home {
+  .hero {
+    position: relative;
+    z-index: 200;
+    height: 100%;
+    padding: 0 1em;
+    text-align: left;
+  }
   
-          }
-          .rubric {
-            color: $orange;
-            font-size: 0.5em;
-            text-transform: uppercase;
-            display: block;
+  .hero-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 860px;
+    background-color: $orange;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .home-nav {
+    position: absolute;
+    bottom: 1em;
+    width: 100%;
+    z-index: 300;
+  
+    @media screen and (max-width: $mobile) {
+      position: relative;
+    }
+  
+    ul.navblocks {
+      li {
+        .content {
+          padding: 1em;
+          margin: 0 0.5em;
+          height: 150px;
+          h3 {
+            font-size: 1.5em;
+            font-weight: 600;
+            a {
+              display: block;
+              vertical-align: middle;
+              color: darken($brown, 20%);
+              &:hover {
+      
+              }
+              .rubric {
+                color: #FFF;
+                font-size: 0.5em;
+                text-transform: uppercase;
+                display: block;
+              }
+            }
           }
         }
       }
     }
+    .large-block-grid-3 > li {
+      padding: 0;
+    }
   }
-  .large-block-grid-3 > li {
-    padding: 0;
+
+  ul#most-recent-blog {
+    li {
+      padding: 1em;
+      .quote {
+        position: relative;
+        padding: 1em;
+        background: #FFFFFF;
+        border: 5px solid #d2d2d2;
+        @include border-radius(6px);
+      }
+      .quote:before {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        left: 40px;
+        border-width: 20px 20px 0;
+        border-style: solid;
+        border-color: #d2d2d2 rgba(0, 0, 0, 0);
+        display: block;
+        width: 0;
+      }
+      .quote:after {
+        content: "";
+        position: absolute;
+        bottom: -13px;
+        left: 47px;
+        border-width: 13px 13px 0;
+        border-style: solid;
+        border-color: #FFF rgba(0, 0, 0, 0);
+        display: block;
+        width: 0;
+      }
+      .byline {
+        margin: 2em 0 0 7em;
+        font-size: 0.8em;
+      }
+    }
   }
 }
 
-body.list .main {
-  position: absolute;
-  top: 90%;
-  width: 100%;
+/*
+ * LIST VIEWS
+ * Work, Team, Careers
+ */  
+body.list {
+  .main {
+    position: relative;
+    width: 100%;
+    z-index: 200;
+    background: #FFF;
+  }
+  .hero {
+    height: 760px;
+    text-align: center;
+    width: 100%;
+    .leadin {
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+  .hero-image {
+    height: 760px;
+  }
 }
 
+/*
+ * DETAIL VIEWS
+ * Work, Team, Careers
+ */ 
 body.detail .main {
-  position: absolute;
-  top: 100px;
+  position: relative;
   width: 100%;
+  z-index: 200;
+  background: #FFF;
+  margin-top: 100px;
 }
 
+.hero {
+  position: relative;
+  z-index: 200;
+  height: 100%;
+  padding: 0 1em;
+  text-align: left;
+}
 
+.hero-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 860px;
+  background-color: $orange;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 
 footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
   height: 450px;
   width: 100%;
   padding-top: 4em;
-  color: #FFF;
-  background: $orange;
+  background: #f1f1f1;
 
   ul {
+    list-style: none;
     li {
       a {
-        color: #FFF;
       }
     }
   }
@@ -283,20 +400,26 @@ section.main {}
 //
 // HOME
 //
-.Home header {
+.home header {
   background: transparent;
   position: absolute;
 }
 
-.Home .marquee {
-  background: transparent url(../images/placeholderslide1.jpg) top center no-repeat;
-  background-size: cover;
+.home .marquee {
+  background: $orange;
+  height: 100%;
+  width: 100%;
 
   #leads {
     position: absolute;
     bottom: 1em;
+  }
 
-
+  .leadin {
+    h2 {
+      font-size: 3em;
+      font-weight: 600;
+    }
   }
 }
 
@@ -309,16 +432,17 @@ section.main {}
 }
 
 #hiring {
-  background: $orange;
+  background: #FFF;
   position: absolute;
   top: 1em;
   right: 1em;
   z-index: 500;
-  color: #FFF;
+  color: $orange;
   @include border-radius(50%);
+  font-weight: 800;
   height: 125px;
   width: 125px;
-  padding: 3em 0;
+  padding: 3.25em 0 0;
   text-align: center;
   border: 2px solid #FFF;
 }
@@ -399,16 +523,12 @@ section.intro {
 }
 
 section.discovery {
-  background: #2D3035;
   padding: 3em 0 3em 0;
-  color: #FEFEF6;
   
   h2.section-heading {
-    color: #FEFEF6;
   }
 
   h3 {
-    color: #FEFEF6;
   }
 
   .breakpoints.collapsed {
@@ -428,17 +548,13 @@ section.discovery {
 
 section.strategy {
   padding: 3em 0;
-  background: $brown;
-  color: #FEFEF6;
 
   h2.section-heading {
-    color: #FEFEF6;
   }
 }
 
 section.development {
   padding: 3em 0;
-  background: #f1f1f1;
 }
 
 section.results {
@@ -473,15 +589,6 @@ a.button.default {
   }
 }
 
-// Home
-body.Home {
-	background: #FFF;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 
 // Projects 
 
@@ -497,74 +604,10 @@ body.Home {
 }
 
 .project.teaser.even {
-  background: #FFFFFF;
+  background: #FFF;
 }
 
 .project.teaser.odd {
-  background: #FEFEF6;
+  background: #FFF;
 }
 
-.drawer figcaption {
-  top: 0;
-  left: 0;
-  height: 100%;
-  -webkit-transform: translateX(-100%);
-  -ms-transform: translateX(-100%);
-  -o-transform: translateX(-100%);
-  transform: translateX(-100%);
-  opacity: 0;
-}
-
-.drawer img {
-  width: 100%;
-  height: auto;
-  -webkit-transition: 500ms;
-  -o-transition: 500ms;
-  transition: 500ms;
-  -webkit-transform: translateX(0);
-  -ms-transform: translateX(0);
-  -o-transform: translateX(0);
-  transform: translateX(0);
-}
-
-.drawer:hover figcaption,
-.drawer:active figcaption {
-  -webkit-transform: translateX(0);
-  -ms-transform: translateX(0);
-  -o-transform: translateX(0);
-  transform: translateX(0);
-  opacity: 1;
-}
-
-.drawer:hover img,
-.drawer:active img {
-  -webkit-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  -o-transform: translateX(100%);
-  transform: translateX(100%);
-}
-
-//
-
-.page {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  visibility: hidden;
-  overflow: hidden;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  backface-visibility: hidden;
-  
-  transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  
-  overflow-y: hidden;
-}
