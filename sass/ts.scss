@@ -2,7 +2,9 @@
 @import "compass/css3/box-shadow";
 @import "compass/css3/transition";
 @import "_base";
+@import "_contact-form";
 
+// Breakpoints
 $mobile: 480px;
 
 html,
@@ -289,7 +291,7 @@ body.detail .main {
 }
 
 .hero-image {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 100;
