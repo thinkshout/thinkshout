@@ -3,45 +3,56 @@ layout: default
 title: Careers 
 ---
 
-<div class="container">
-  <section class="marquee">
-    <div class="caption">
-      <h2>We provide web strategy and open source technology to forward-thinking organizations.</h2>
-      <a class="button overlay" href="#">Learn More</a>
+<div class="content">
+  <div class="hero-image" style="background-image: url('{{ site.baseurl }}/images/marquee/careers.jpg');"></div>
+  <div class="hero">
+    <div class="site-width">
+      <div class="background"></div>
+      <div class="leadin">
+        <h2>Want to Work at ThinkShout?</h2>
+      </div>
     </div>
-  </section>
+  </div>
   <section class="main">
+    <div class="section-rubric">
+      <h3><span>Let's Talk</span></h3>
+    </div>
+    <div class="row">
+      <div class="large-6 columns large-centered">
+        <p>At ThinkShout, we pride ourselves on our ability to not only provide web strategy and open source technology to forward-thinking organizations, but we do it with style and a thoughtfulness you won’t find anywhere else.</p>
+        <p>We lead with technical excellence, innovation, and sustainable business practices. We focus on interesting projects that lead to open source contributions serving grassroots organizers and progressive causes. We are maintainers of many popular Drupal tools, such as the MailChimp module, the Salesforce Integration Suite, and RedHen CRM. We’ve got our finger on the pulse of the Drupal community and we are contributing back daily with updates and new tools designed to make everyone’s development process easier.</p>
+        <p>Our company vision boils down to a few basic things:
+        <ul>
+          <li>Invest in the most talented technologists and designers possible</li>
+          <li>Work with clients committed to positive social change</li>
+          <li>Don't compromise on tools, process, or quality</li>
+          <li>Work hard, have fun, and give back</li>
+          <li>Leave the job at office at the end of the day and enjoy living in beautiful Portland, Oregon</li>
+        </ul>
+        <p>We’re pretty convinced that this is the recipe for success. It hasn’t failed us yet.</p>
+        <p>Does this sound like the kind of work you can get behind? Are you you a good communicator, committed to excellence? Do you care about these organizations as much as we do? Do you currently reside in or are willing to locate to beautiful Portland, Oregon? If so, we want to talk to you.</p>
+      </div>
+    </div>
     <div class="row">
       <div class="large-12 columns">
         {% for post in site.categories.careers %}
           {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
           {% if thecycle == 'odd' %}
-            <div class="project teaser">
               <article>
                 <div class="row">
                   <div class="large-6 columns large-centered">
                     <h2 class="project-title"><a href="{{ post.url }}">{{ post.title}}</a></h2>
-                    <p>{{ post.content }}</p>
                   </div>
                 </div>
               </article>
-            </div>
           {% else %}
-            <div class="project teaser">
               <article>
                 <div class="row">
-                  <div class="large-7 columns push-5">
-                    <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/images/{{ post.images.hero }}"></a>
-                  </div>
-                  <div class="large-4 columns pull-7">
+                  <div class="large-6 columns large-centered">
                     <h2 class="project-title"><a href="{{ post.url }}">{{ post.title}}</a></h2>
-                    <p>{{ post.oneliner }}</p>
-                    <a class="button default" href="#">Case Study</a><br />
-                    <a class="button default" href="#">Visit Website</a>
                   </div>
                 </div>
               </article>
-            </div>
           {% endif %}
         {% endfor %}
       </div>

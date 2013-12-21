@@ -1,84 +1,121 @@
 ---
 layout: detail
 ---
-<div class="hero-image" style="background-image: url('{{ site.baseurl }}/images/{{ page.images.hero }}');"></div>
-<div class="hero"></div>
-<section class="main">
-	<section class="header">
-		<div class="row">
+<div class="content">
+  <div class="hero-image" style="background-image: url('{{ site.baseurl }}/images/{{ page.images.hero }}');"></div>
+  <div class="hero">
+    <div class="site-width">
+      <div class="background"></div>
+      <div class="leadin">
+        <h2>Our clients make lasting change. We’re here to help.</h2>
+      </div>
+    </div>
+  </div>
+  <section class="main">
+    <div class="row">
 			<div class="large-8 columns push-2">
 				<h1 class="title">{{ page.title }}</h1>
 				<h4>{{ page.project_summary }}</h4>
 			</div>
 		</div>
-	</section>
-	<!--<img src="{{ site.baseurl }}/images/{{ page.images.hero }}" title="{{ page.image.title }}" alt="{{ page.image.	alt }}" />-->
-	<section class="intro">
-		<div class="row">
-			<div class="large-6 columns push-2">
-				<p>{{ page.client }}</p>
-				<p>{{ page.overview }}</p>
+		<section class="intro">
+			<div class="row">
+				<div class="large-6 columns push-2">
+					<p>{{ page.client }}</p>
+					<p>{{ page.overview }}</p>
+				</div>
+				<div class="large-4 columns">
+					<h5>Expertise:</h5>
+					<ul>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul>
+				</div>
 			</div>
-			<div class="large-4 columns">
-				<h5>Expertise:</h5>
-				<ul>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section class="discovery">
-		<div class="row breakpoints collapsed">
+		</section>
+		<div class="row breakpoints">
 			<div class="large-5 columns">
-				<img src="{{ site.baseurl }}/images/work/lac/desktop.jpg">
+				<img src="{{ site.baseurl }}/images/work/lac/lac-desktop.png">
 			</div>
 			<div class="large-4 columns">
-				<img src="{{ site.baseurl }}/images/work/lac/tablet.jpg">
+				<img src="{{ site.baseurl }}/images/work/lac/lac-tablet.png">
 			</div>
 			<div class="large-3 columns">
-				<img src="{{ site.baseurl }}/images/work/lac/smartphone.jpg">
+				<img src="{{ site.baseurl }}/images/work/lac/lac-mobile.png">
 			</div>
 		</div>
-		<div class="row">
-			<div class="large-4 columns push-2">
-				<h2 class="section-heading"><span>Discovery</span></h2>
+		<section class="discovery">
+			<div class="section-rubric">
+      	<h3><span>Discovery</span></h3>
+    	</div>
+			<div class="row">
+				<div class="large-4 columns push-2">
+				</div>
+				<div class="large-4 columns pull-2">
+					<p>{{ page.discovery.description }}</p>
+				</div>
 			</div>
-			<div class="large-6 columns pull-1">
-				<p>{{ page.discovery.description }}</p>
+		</section>
+		<section class="strategy">
+			<div class="section-rubric">
+      	<h3><span>Strategy</span></h3>
+    	</div>
+			<div class="row">
+				<div class="large-4 columns push-2">
+					<p>{{ page.strategy.description }}</p>
+				</div>
+				<div class="large-4 columns pull-2">
+					
+				</div>
 			</div>
-		</div>
-	</section>
-	<section class="strategy">
-		<div class="row">
-			<div class="large-4 columns push-2">
-				<h2 class="section-heading"><span>Strategy</span></h2>
+		</section>
+		<section class="development">
+			<div class="section-rubric">
+      	<h3><span>Development</span></h3>
+    	</div>
+			<div class="row">
+				<div class="large-4 columns push-2">
+				</div>
+				<div class="large-4 columns pull-2">
+					<p>{{ page.development.description }}</p>
+				</div>
 			</div>
-			<div class="large-6 columns pull-1">
-				<p>{{ page.strategy.description }}</p>
+		</section>
+		<section class="results">
+			<div class="section-rubric">
+      	<h3><span>Results</span></h3>
+    	</div>
+			<div class="row stats">
+				<div class="large-12 columns">
+					<ul class="large-block-grid-3">
+						<li>
+							<div class="stat">
+								<p class="figure">5233</p>
+							</div>
+							<p class="key">Paid event registrations since launch</p>
+						</li>
+						<li>
+							<div class="stat">
+								<p class="figure">186</p>
+							</div>
+							<p class="key">Events managed since launch</p>
+						</li>
+						<li>
+							<div class="stat">
+								<p class="figure">10</p>
+							</div>
+							<p class="key">Fewer web platforms to manage their online presence</p>
+						</li>
+					</ul>
+				</div>
 			</div>
-		</div>
-	</section>
-	<section class="development">
-		<div class="row">
-			<div class="large-4 columns push-2">
-				<h2 class="section-heading"><span>Development</span></h2>
+			<div class="row">
+				<div class="large-6 columns large-centered">
+					<!--<p>{{ page.results.description }}</p>-->
+					<a class="button overlay" href="{{ page.url }}">Launch Website</a>
+				</div>
 			</div>
-			<div class="large-6 columns pull-1">
-				<p>{{ page.development.description }}</p>
-			</div>
-		</div>
-	</section>
-	<section class="results">
-		<div class="row">
-			<div class="large-4 columns push-2">
-				<h2 class="section-heading"><span>Results</span></h2>
-			</div>
-			<div class="large-6 columns pull-1">
-				<p>{{ page.results.description }}</p>
-				<a class="button default" href="{{ page.url }}">Launch Website</a>
-			</div>
-		</div>
+		</section>
 	</section>
 </section>

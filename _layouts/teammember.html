@@ -1,42 +1,66 @@
 ---
 layout: detail
 ---
-<div class="container">
-	<section class="main">
-		<div class="banner">
-			{% if page.image %}
-			  <img src="{{ site.baseurl }}/images/{{page.image}}">
-			{% endif %}
-			<div class="header">
-				<h1>{{ page.title }}</h1>
-				<h3>{{ page.position }}</h3>
-			</div>
-		</div>
-		<div class="row">
-			<div class="large-5 columns push-3">
-				{{ content }}
-			</div>
-			<div class="large-4 columns">
-				<h4>Recent Blog Posts</h4>
-				{% for post in site.categories.blog limit:2 %}
-					<p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></p>
-				{% endfor %}
-			</div>
-		</div>
-		<div class="row">
-			<div class="large-12 columns">
-				<ul class="team large-block-grid-3">
-				  {% for post in site.categories.team %}
-				  <li>
-				    <article>
-				    	<a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/images/{{post.image}}"></a>
-				      <div class="project-title"><h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h4></div	>
-				      <p class="content-text">{{post.position}}</p>
-				    </article>
-				  </li>
-				  {% endfor %}
-				</ul>
-			</div>
-		</div>
+<div class="page-container">
+	<div class="page split">
+		<div class="side side-left" style="background-image: url('{{ base.url }}/images/{{ page.image.large }}')"></div>
+	  <div class="side side-right">
+	    <div class="intro-content">
+	      <h1>{{ page.first_name }} {{ page.last_name }}</h1>
+	      <h5>{{ page.position }}</h5>
+	      <h4>{{ page.leadin }}</h4>
+	      {{ content }}
+	      <ul class="social">
+	      	{% if page.social.github %}
+			  		<li><a href="{{ page.social.github }}"><span class="icon-github"></span></a></li>
+			  	{% endif %}
+	      	{% if page.social.twitter %}
+	      		<li><a href="{{ page.social.twitter }}"><span class="icon-twitter"></span></a></li>
+	      	{% endif %}	
+	      	{% if page.social.linkedin %}
+	      		<li><a href="{{ page.social.linkedin }}"><span class="icon-linkedin"></span></a></li>
+	      	{% endif %}	
+	      	{% if page.social.drupal %}
+	      		<li><a href="{{ page.social.drupal }}"><span class="icon-tint"></span></a></li>
+	      	{% endif %}	
+	      </ul>
+      	<h3>Recent Blog Posts</h3>
+      	{% for post in site.categories.blog %}
+      	  <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h4>
+      	  <p>{{ post.date | date: "%B %-d, %Y" }}</p>
+      	{% endfor %}
+	    </div>
+	  </div>
 	</div>
 </div>
+<section class="content-bottom-1">
+	<div class="row">
+		<div class="large-10 columns large-centered">
+			<ul class="team large-block-grid-5">
+        {% for page in site.pages %}
+        {% if page.layout == 'teammember' %}
+			  <li>
+			    <article>
+			    	<a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ site.baseurl }}/images/{{page.image.medium}}"></a>
+			      <div class="project-title"><h4><a href="{{ site.baseurl }}{{ page.url }}">{{ page.first_name }} {{ page.last_name }}</a></h4></div>
+			      <p class="content-text">{{page.position}}</p>
+			    </article>
+			  </li>
+        {% endif %}
+			  {% endfor %}
+			  <li>
+			  	{% for post in site.categories.careers limit:1 %}
+						{% capture openings %}{{ post.active }}{% endcapture %}
+					  {% if post.active == "true" %}
+					  	<div id="careers-block">
+					  		<h2>Want to Work at ThinkShout?</h2>
+					    	<a class="button overlay" href="{{ site.baseurl }}/careers">Learn More</a>
+					    </div>
+					  {% endif %}
+					{% endfor %}
+			  </li>
+			</ul>
+		</div>
+	</div>
+</section>
+

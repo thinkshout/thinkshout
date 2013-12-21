@@ -2,6 +2,18 @@
 *:first-child + html .goog-inline-block {
   display: inline;
 }
+
+.contact-form-name,
+.contact-form-email {
+  width: 47.5%;
+  float: left;
+}
+
+.contact-form-name {
+  margin-right: 1em;
+}
+
+
 input,
 textarea {
   outline: none;
@@ -342,7 +354,7 @@ td.ss-rightlabel {
 }
 .ss-q-long {
   resize: vertical;
-  min-height: 200px;
+  min-height: 100px;
 }
 .ss-choices {
   list-style: none;

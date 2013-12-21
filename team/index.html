@@ -3,37 +3,44 @@ layout: default
 title: Team
 ---
 <div class="content">
-	<div class="hero-image" style="background-image: url('{{ site.baseurl }}/images/team.png');"></div>
+	<div class="hero-image" style="background-image: url('{{ site.baseurl }}/images/marquee/team.jpg');"></div>
 	<div class="hero">
 		<div class="site-width">
 			<div class="background"></div>
 			<div class="leadin">
-				<h2>We build captivating web solutions for the people who make good things happen.</h2>
+				<h2>Everyone has a story. These are ours.</h2>
 			</div>
 		</div>
 	</div>
 	<section class="main">
+		<div class="section-rubric">
+      <h3><span>Meet The Team</span></h3>
+    </div>
 		<div class="row">
 			<div class="large-12 columns">
-				<h2 class="section-header">Meet Our Team</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="large-12 columns">
-				<ul class="team large-block-grid-3">
+				<ul class="team large-block-grid-4">
           {% for page in site.pages %}
           {% if page.layout == 'teammember' %}
 				  <li>
 				    <article>
-				    	<a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ site.baseurl }}/images/{{page.image}}"></a>
-				      <div class="project-title"><h4><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title}}</a></h4></div	>
+				    	<a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ site.baseurl }}/images/{{page.image.medium}}"></a>
+				      <div class="project-title"><h4><a href="{{ site.baseurl }}{{ page.url }}">{{ page.first_name }} {{ page.last_name }}</a></h4></div>
 				      <p class="content-text">{{page.position}}</p>
 				    </article>
 				  </li>
           {% endif %}
 				  {% endfor %}
 				  <li>
-				  	<h3>Job Opening</h3>
+				  	{% for post in site.categories.careers limit:1 %}
+							{% capture openings %}{{ post.active }}{% endcapture %}
+						  {% if post.active == "true" %}
+						  	<div id="careers-block">
+						  		<h2>Want to Work at ThinkShout?</h2>
+						  		<p>Does this sound like the kind of work you can get behind? Are you you a good communicator, committed to excellence? Do you care about these organizations as much as we do? Do you currently reside in or are willing to locate to beautiful Portland, Oregon? If so, we want to talk to you.</p>
+						    	<a class="button overlay" href="{{ site.baseurl }}/careers">Learn More</a>
+						    </div>
+						  {% endif %}
+						{% endfor %}
 				  </li>
 				</ul>
 			</div>

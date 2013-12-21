@@ -3,6 +3,7 @@
 @import "compass/css3/transition";
 @import "_base";
 @import "_contact-form";
+@import "_icons.scss";
 
 // Breakpoints
 $mobile: 480px;
@@ -39,6 +40,9 @@ h1#homeLogo {
   margin: 0 auto;
 }
 
+section {
+  background: #FFF;
+}
 
 
 // TYPOGRAPHY
@@ -75,12 +79,6 @@ header {
     }
   }
 }
-
-#container, 
-.content {
-  height: 100%;
-}
-
 .site-width {
   width: 100%;
   padding: 0 1em;
@@ -143,6 +141,9 @@ header {
  * HOME
  */
 body.home {
+  #container {
+    height: 100%;
+  }
   .hero {
     position: relative;
     z-index: 200;
@@ -176,9 +177,9 @@ body.home {
     ul.navblocks {
       li {
         .content {
-          padding: 1em;
           margin: 0 0.5em;
           height: 150px;
+          text-align: center;
           h3 {
             font-size: 1.5em;
             font-weight: 600;
@@ -186,14 +187,26 @@ body.home {
               display: block;
               vertical-align: middle;
               color: darken($brown, 20%);
-              &:hover {
-      
-              }
+              padding: 1em 1em 0;
+              border-bottom: 3px solid $orange;
+              background: rgba(255,255,255,0.4);
+              @include transition-property(all);
+              @include transition-duration(0.2s);
               .rubric {
                 color: #FFF;
-                font-size: 0.5em;
+                font-size: 0.75em;
+                background: $orange;
                 text-transform: uppercase;
                 display: block;
+                margin-top: 1em;
+                padding: 0.5em;
+              }
+              &:hover {
+                background: rgba(255,255,255,0.8);
+
+                .rubic {
+                  color: $orange;
+                }
               }
             }
           }
@@ -245,6 +258,35 @@ body.home {
   }
 }
 
+.section-rubric {
+  position: relative;
+  height: 80px;
+  background: transparent;
+  margin: 0 auto;
+  top: -55px;
+  z-index: 1000;
+  text-align: center;
+
+  span {
+    background: #FFF;
+    padding: 0.5em 1em;
+    border: 3px double $brown;
+  }
+}
+
+#careers-block {
+  background: $orange;
+  padding: 1em;
+  height: 100%;
+  h2 {
+    color: #FFF;
+  }
+}
+
+.content-bottom-1 {
+  padding: 8em 0;
+}
+
 /*
  * LIST VIEWS
  * Work, Team, Careers
@@ -279,7 +321,7 @@ body.detail .main {
   width: 100%;
   z-index: 200;
   background: #FFF;
-  margin-top: 100px;
+  margin-top: 600px;
 }
 
 .hero {
@@ -299,15 +341,33 @@ body.detail .main {
   height: 860px;
   background-color: $orange;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
   background-size: cover;
 }
 
+ul.social {
+  border-top: 1px solid $beige;
+  list-style: none;
+  font-size: 2em;
+  margin-bottom: 3em;
+  li {
+    display: inline-block;
+    padding: 0.5em;
+  }
+}
+
+.contact {
+  padding: 4em 0;
+  background: #d5cec3;
+}
+
 footer {
-  height: 450px;
   width: 100%;
+  min-height: 600px;
   padding-top: 4em;
-  background: #f1f1f1;
+  background: #f1f1f1 url('../images/footer.jpg') no-repeat;
+  background-position: top center;
+  background-size: cover;
 
   ul {
     list-style: none;
@@ -332,6 +392,90 @@ footer {
   height: 100px;
   background: #FFF;
   text-align: left;
+}
+
+/* Team */
+.page-container, 
+.page {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.page {
+  position: relative;
+  overflow: hidden;
+  h2.post-title {
+
+  }
+  .content {
+    text-align: left;
+    max-width: 90em;
+    margin: 0 auto;
+    padding: 1em 1em 0;
+  }
+}
+.split {
+  .side {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    -webkit-backface-visibility: hidden;
+    @media screen and (max-width: $mobile) {
+      position: relative;
+      top: auto; 
+      height: 50%;
+    }
+  }
+  .side-left {
+    left: 0;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $brown;
+    outline: 1px solid #47a3da; /* avoid gap */
+    @media screen and (max-width: $mobile) {
+      width: 100%;
+    }
+  }
+  .side-right {
+    right: 0;
+    text-align: left;
+    background: #fff;
+    outline: 1px solid #fff; /* avoid gap */
+    @media screen and (max-width: $mobile) {
+      width: 100%;
+    }
+  }
+  .intro-content {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    padding: 0 1em;
+    width: 80%;
+
+    .profile {
+      margin: 0 auto;
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      background: #47a3da;
+      img {
+        max-width: 100%;
+        border-radius: 50%;
+        opacity: 1;
+      }
+    }
+    h4 > span {
+      display: block;
+      white-space: nowrap;
+    }
+    h4 > span.position {
+      font-size: 0.65em;
+    }
+  }
 }
 
 .marquee {
@@ -408,7 +552,9 @@ section.main {}
 }
 
 .home .marquee {
-  background: $orange;
+  background: $orange url('../images/marquee/standup.jpg') no-repeat;
+  background-position: bottom center;
+  background-size: cover;
   height: 100%;
   width: 100%;
 
@@ -525,42 +671,68 @@ section.intro {
 }
 
 section.discovery {
-  padding: 3em 0 3em 0;
+  padding: 8em 0;
+  background: $beige;
   
   h2.section-heading {
   }
 
   h3 {
   }
+}
 
-  .breakpoints.collapsed {
-    background: #FFF;
-    margin-bottom: 2em;
-  }
+.breakpoints.collapsed {
+  background: #FFF;
+  margin-bottom: 2em;
+}
 
-  .breakpoints.collapsed {
-    height: 600px;
-    overflow: hidden;
-  }
-  .breakpoints.expanded {
-    height: 100%;
-    overflow: hidden;
-  }
+.breakpoints.collapsed {
+  height: 600px;
+  overflow: hidden;
+}
+.breakpoints.expanded {
+  height: 100%;
+  overflow: hidden;
 }
 
 section.strategy {
-  padding: 3em 0;
+  padding: 8em 0;
 
   h2.section-heading {
   }
 }
 
 section.development {
-  padding: 3em 0;
+  padding: 8em 0;
+  background: $beige;
 }
 
 section.results {
-  padding: 3em 0;
+  padding: 8em 0;
+  text-align: center;
+  background: $orange;
+  .stats {
+    .stat {
+      background: #FFF;
+      display: block;
+      height: 250px;
+      width: 250px;
+      margin: 0 auto 1em;
+      padding: 3em 0;
+      @include border-radius(50%);
+
+      .figure {
+        font-size: 5em;
+        font-weight: 600;
+        color: $orange;
+      }
+    }
+    .key {
+      font-size: 1.2em;
+      color: #FFF;
+      font-weight: 600;
+    }
+  }
 }
 
 // Button Styling
@@ -576,6 +748,16 @@ a.button.overlay {
 
   &:hover {
     background: rgba(255,255,255,0.65);
+  }
+}
+
+#client-list {
+  ul {
+    list-style: none;
+    text-align: center;
+    li {
+      padding: 0.75em 0;
+    }
   }
 }
 

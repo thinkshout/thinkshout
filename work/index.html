@@ -4,18 +4,21 @@ title: Recent Work
 ---
 
 <div class="content">
-  <div class="hero-image" style="background-image: url('{{ site.baseurl }}/images/team.png');"></div>
+  <div class="hero-image" style="background-image: url('{{ site.baseurl }}/images/marquee/work.jpg');"></div>
   <div class="hero">
     <div class="site-width">
       <div class="background"></div>
       <div class="leadin">
-        <h2>Our clients make lasting change. We help. This is what we’ve done so far.</h2>
+        <h2>Our clients make lasting change. We’re here to help.</h2>
       </div>
     </div>
   </div>
   <section class="main">
+    <div class="section-rubric">
+      <h3><span>What We've Done</span></h3>
+    </div>
     <div class="row">
-      <div class="large-12 columns">
+      <div class="large-10 columns large-centered">
         {% for post in site.categories.work %}
           {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
           {% if thecycle == 'odd' %}
@@ -52,45 +55,54 @@ title: Recent Work
         {% endfor %}
       </div>
     </div>
+  </section>
+  <section class="main">
+    <div class="section-rubric">
+      <h3><span>Our Clients</span></h3>
+    </div>
     <div class="row">
-      <div class="large-4 columns">
-        <ul>
-          <li>World Wildlife Fund</li>
-          <li>Families USA</li>
-          <li>Donors Forum</li>
-          <li>ILFI</li>
-          <li>Scenic Hudson</li>
-          <li>Save Our Gulf</li>
-          <li>MITX</li>
-          <li>New Day Films</li>
-          <li>Florida Philanthropic Network</li>
-        </ul>
-      </div>
-      <div class="large-4 columns">
-        <ul>
-          <li>University of California, San Francisco</li>
-          <li>Facing History and Ourselves</li>
-          <li>Mobility International US</li>
-          <li>Philanthropy Northwest</li>
-          <li>Portland Opera</li>
-          <li>The Tides Center</li>
-          <li>TAO</li>
-          <li>Public Health Law Research</li>
-          <li>Intel</li>
-        </ul>
-      </div> 
-      <div class="large-4 columns">
-        <ul>
-          <li>Metro</li>
-          <li>GivingForum</li>
-          <li>Robert Wood Johnson Foundation</li>
-          <li>Marketplace from American Public Media</li>
-          <li>Dehen 1920</li>
-          <li>New Tactics in Human Rights</li>
-          <li>Vibrant Village</li>
-          <li>GrantStation</li>
-          <li>Young Survivor Coalition</li>
-        </ul>
+      <div class="large-10 columns large-centered">
+        <div class="row" id="client-list">
+          <div class="large-4 columns">
+            <ul>
+              <li>World Wildlife Fund</li>
+              <li>Families USA</li>
+              <li>Donors Forum</li>
+              <li>ILFI</li>
+              <li>Scenic Hudson</li>
+              <li>Save Our Gulf</li>
+              <li>MITX</li>
+              <li>New Day Films</li>
+              <li>Florida Philanthropic Network</li>
+            </ul>
+          </div>
+          <div class="large-4 columns">
+            <ul>
+              <li>University of California, San Francisco</li>
+              <li>Facing History and Ourselves</li>
+              <li>Mobility International US</li>
+              <li>Philanthropy Northwest</li>
+              <li>Portland Opera</li>
+              <li>The Tides Center</li>
+              <li>TAO</li>
+              <li>Public Health Law Research</li>
+              <li>Intel</li>
+            </ul>
+          </div> 
+          <div class="large-4 columns">
+            <ul>
+              <li>Metro</li>
+              <li>GivingForum</li>
+              <li>Robert Wood Johnson Foundation</li>
+              <li>Marketplace from American Public Media</li>
+              <li>Dehen 1920</li>
+              <li>New Tactics in Human Rights</li>
+              <li>Vibrant Village</li>
+              <li>GrantStation</li>
+              <li>Young Survivor Coalition</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </section>
