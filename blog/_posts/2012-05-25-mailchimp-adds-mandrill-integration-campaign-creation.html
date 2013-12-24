@@ -1,0 +1,72 @@
+---
+layout: post
+title: MailChimp adds Mandrill Integration & Campaign Creation
+---
+
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>We've previously written about a <a href="http://thinkshout.com/blog/2011/06/lev/mailchimp-20-anatomy-drupal-module-rewrite">complete rewrite of the MailChimp module</a>, and while our most recent changes aren't quite as big, they're significant enough that we want to share the details with the community.</p>
+
+<h2>Mandrill</h2>
+
+<p><img src="http://blog.mandrill.com/images/mandrill-shield.gif" style="float: right; margin: 0px 0px 10px 10px" /></p>
+
+<p><a href="http://www.mandrill.com/">Mandrill</a> is MailChimp's new transactional email offering, intended to replace the <a href="http://blog.mailchimp.com/mailchimp-launches-transactional-email-service-on-top-of-amazon-ses">MailChimp STS</a> service. Rather than being based on top of <a href="http://aws.amazon.com/ses/">Amazons SES</a>, Mandrill is built on MailChimp's own infrastructure:</p>
+
+<blockquote>
+  <p>Mandrill runs on the delivery infrastructure that powers MailChimp, the world’s best email service provider.</p>
+</blockquote>
+
+<p>The <a href="http://blog.mandrill.com/public-beta-of-mandrill-smtp-email-service.html">release announcement</a> contains list of current Mandrill features, and there are many more exciting things coming down the pipe.</p>
+
+<blockquote>
+  <ul>
+  <li>Uses MailChimp's awesome email delivery engine</li>
+  <li>Has a <a href="http://mandrillapp.com/api/docs/">simple and powerful API</a></li>
+  <li>Allows simple sending directly using SMTP</li>
+  <li>Tracks opens and clicks</li>
+  <li>Automatically adds Google Analytics tracking data to your URLs</li>
+  <li>Has pretty, visual reports of your email results</li>
+  <li>Allows you to tag your messages and see your stats filtered by tag</li>
+  <li>Integrates with MailChimp's templating system, letting you export your MailChimp templates to Mandrill and use them in your transactional emails</li>
+  </ul>
+</blockquote>
+
+<p>The initial <a href="http://drupal.org/node/1600788">beta release</a> of the <a href="http://drupal.org/project/mandrill">Mandrill module</a> is modeled closely on the STS version, but provides additional options like tracking clicks and improved graphical reports powered by Google Charts out of the box. Our roadmap includes:</p>
+
+<ul>
+<li>Improved reports with filter and display settings.</li>
+<li>The ability to target which types of emails to use Mandrill for, E.g., use Mandrill for the contact form but not password reminders.</li>
+<li>Integration with MailChimp templates.</li>
+</ul>
+
+<p>The <a href="http://drupal.org/project/mailchimp_sts">STS module</a> has been removed from the core MailChimp package and is available as a standalone project for existing users. It will not be actively maintained. New or adventurous users should definitely go with Mandrill and only use STS if you have a project that's already running it.</p>
+
+<h2>Campaigns</h2>
+
+<p>There's long been a demand to add the ability to create campaigns containing Drupal content from within Drupal and it's finally been added with the new <a href="http://drupalcode.org/project/mailchimp.git/tree/refs/heads/7.x-2.x:/modules/mailchimp_campaign">7.x-2.5 release</a>, along with a very long list of improvements and features. The new <a href="http://drupalcode.org/project/mailchimp.git/tree/refs/heads/7.x-2.x:/modules/mailchimp_campaign">MailChimp Campaign submodule</a>, contained in the core MailChimp package, allows users to:</p>
+
+<ol>
+<li>Create a campaign.</li>
+<li>Send campaigns.</li>
+<li>View statistics.</li>
+</ol>
+
+<p>The module adds an input filter, which is applied to every section in a selected template, which converts a macro in the following format into rendered Drupal content.</p>
+
+<pre><code>[mailchimp_campaign|entity_type=node|entity_id=1|view_mode=teaser]
+</code></pre>
+
+<p>We sought an approach that combined flexiblity with ease of use, sacraficing a bit of the former for the latter. But this lets users inject <em>any</em> Drupal entity, using any view mode, into a template section mixed with additional non-Drupal content. Users can also choose to create a campaign that doesn't contain Drupal content at all using this tool. It can also be combined with additional input filters to provide other formatting assistance.</p>
+
+<p>When saved, the rendered content, along with the MailChimp list and other campaign data is sent to MailChimp and <em>hung</em> on a custom campaign entity within Drupal. New campaigns are saved as drafts and can be edited so long as they have not been sent.</p>
+
+<p><img src="http://thinkshout.com/sites/default/files/MailChimp_|_Site-Install-20120525-121341.jpg" /></p>
+
+<p>Sent campaigns have statisics available, including graphical charts powered by Google Charts, similar to those used in Mandrill.</p>
+
+<p><img src="http://thinkshout.com/sites/default/files/Test_campaign_title_|_Site-Install-20120525-122237.png" /></p>
+
+<h2>Summary</h2>
+
+<p>Aside from adding Mandrill and Campaign creation, and removing STS, there's a long list of improvements and new features, including improved Rules integration from @fago. We welcome any feedback, either here or in the queue. Thanks and enjoy the new features!
+<!--break--></p>
+</div></div></div><div class="field field-name-taxonomy-vocabulary-1 field-type-taxonomy-term-reference field-label-above"><div class="field-label">Tags:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/blog/category/mailchimp" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">MailChimp</a></div><div class="field-item odd"><a href="/blog/category/modules" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">modules</a></div><div class="field-item even"><a href="/blog/category/drupal" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Drupal</a></div><div class="field-item odd"><a href="/blog/category/drupal-planet" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Drupal Planet</a></div><div class="field-item even"><a href="/taxonomy/term/45" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Drupal Give</a></div></div></div>

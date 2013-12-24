@@ -1,0 +1,79 @@
+---
+layout: post
+title: ! 'RedHen CRM Part 1: Keeping all your eggs in one Drupal basket…'
+---
+
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h2>Introducing RedHen CRM</h2>
+
+<p><img src="https://dl.dropbox.com/s/3vsjjgva9gimabh/redhen_logo.png" style="float: right; margin: -10px 0px 10px 15px" /></p>
+
+<p>The Drupal community has long aspired for native CRM functionality for many years. Unfortunately, solutions to this problem in older releases of Drupal were less than perfect - usually relying on the node system to manage contact data. Of course, the node system was designed for managing <em>content</em>, so these node-based CRM solutions required lots of extra code and duct tape to keep content and <em>contacts</em> separated.</p>
+
+<p>Fortunately, the arrival of the entity framework in Drupal 7.x core has opened the door to the development of more robust CRM solutions built natively in Drupal. So, after a year of scheming and over 700 hours of very intense development, ThinkShout is proud to announce the Alpha release of <a href="http://drupal.org/project/redhen">RedHen CRM</a>.</p>
+
+<h2>Why Does Native CRM Matter?</h2>
+
+<p><em><a href="http://civicrm.org">CiviCRM</a> is a mature open source CRM solution that integrates with Drupal, so why not just use that? Drupal also integrates well with many 3rd-party SaaS solutions, such as Salesforce, why reinvent the wheel?</em></p>
+
+<p>There are many benefits to integrating your Drupal site with a 3rd-party CRM solution. But there are many missed opportunities and drawbacks to these integrations as well. The most obvious benefits to native CRM in Drupal include:</p>
+
+<ul>
+<li>A more seamless user experience for site visitors registering for events, making donations/payments, or engaging in other website transactions.</li>
+<li>The opportunity to leverage Drupal's growing suite of mobile and responsive tools and themes for CRM interfaces.</li>
+<li>The ability to expose CRM data as content, and/or the ability to display aggregate CRM data on your site.</li>
+<li>Increased opportunities to integrate CRM data with Drupal contributed tools - such as data visualization tools, geo-mapping tools, and more.</li>
+<li>Decreased staff training costs - because staff doesn't need to get trained on multiple platforms.</li>
+<li>Potential reductions in technical risk - because all your tools rely on a single, Drupal framework.</li>
+<li>Potential reductions in hosting and IT costs.</li>
+<li>The ability to do complex <em>engagement scoring</em> or <em>engagement analytics</em> (more on this later).</li>
+<li><strong>And probably most important - the ability to fully customize your CRM solution.</strong></li>
+</ul>
+
+<h2>Native CRM And <em>(Not Versus)</em> Enterprise CRM</h2>
+
+<p>One last point before diving into the guts of RedHen CRM:</p>
+
+<p>While we think that it's possible to build very robust, large-scale CRM solutions natively in Drupal, our goal in releasing RedHen is not to compete with the enterprise CRM market. Platforms like Salesforce will inevitably out scale what we can build with Drupal.</p>
+
+<p>That said, enterprise CRM solutions are often overkill for small to mid-sized organizations. Moreover, even if your organization does need an enterprise CRM solution, we see RedHen as a natural integration point between your website and such a system.</p>
+
+<p>With the right Drupal development partner, tools such as RedHen open the door to the creation of highly innovative "front end" CRM tools. We anticipate that collecting and displaying data in RedHen (and Drupal) will often be much more affordable and nimble than trying to develop comparable features upon larger, more cumbersome enterprise packages.</p>
+
+<h2>What Can You Do With RedHen CRM?</h2>
+
+<p>RedHen CRM has been largely designed around the <strong><a href="http://en.wikipedia.org/wiki/Association_management_system">association management</a></strong> (AMS) needs of membership organizations. That said, the RedHen framework is flexible and can be leveraged to develop a wide range of CRM solutions. For example, RedHen could be used as a light weight sales pipeline management tool for small to mid-size businesses.</p>
+
+<h2>Getting Started</h2>
+
+<p>RedHen CRM is similar to <a href="http://drupal.org/project/commerce">Drupal Commerce</a> in its modular structure. As with Drupal Commerce, the core RedHen modules that can be downloaded on the <a href="http://drupal.org/project/redhen">Drupal.org project page</a> won't provide you with a working CRM right out of the box. They require configuration. In the future, ThinkShout is likely to release RedHen "Features" or "Apps" that provide prepackaged CRM solutions for different use cases.</p>
+
+<p>In the short term, if you would like to explore RedHen CRM, we would encourage you to check out our <a href="http://drupal.org/project/redhen_demo">demonstration RedHen CRM installation profile</a>. This install profile will build out a simple example of how RedHen could be leveraged to support the CRM needs of a fictional "pet shelter" organization.</p>
+
+<h2>Project Structure</h2>
+
+<p>RedHen CRM relies heavily on custom Drupal entity types and bundles. The <a href="http://drupal.org/project/entity">Entity API</a> module is leveraged to do most of the heavy lifting for these custom entities. The <a href="http://drupal.org/project/relation">Relation</a> module is leveraged to manage connections between these custom entity bundles. The core RedHen module provides shared APIs, although the majority of RedHen features are broken out into separate sub-modules that ship with the main module. As with Drupal Commerce, we will continue to include key sub-modules with the main module code base. However, we anticipate that an ecosystem of plug-in modules will soon be available to extend the core feature set.</p>
+
+<h2>Basic Concepts and Features</h2>
+
+<ul>
+<li><p>RedHen CRM defines two main entity types: Contacts and Organizations. Site administrators can then create different entity bundles for each of these types. Each bundle can then be <em>fielded.</em></p></li>
+<li><p><strong>Connections</strong> can then be made between contacts, as well as between contacts and organizations. <strong>Connections</strong> are managed as custom entity bundles as well, based upon the relation entity type defined by the Relation module. As such, these connections can be fielded as well. In other words, you can create a relationship, or connection, between contacts and organizations that include field data about the relationship. Potential connection fields might include "job title" or "job start date."</p></li>
+<li><p><strong>Memberships</strong> are another custom entity type defined by the "RedHen Membership" module. Both contacts and organizations can be associated with memberships. RedHen's membership management features are very flexible and feature rich. Memberships can be associated with the management of Drupal user roles to provide website access based upon individual and organizational membership status.</p></li>
+<li><p>Optionally, contact entities can be associated with Drupal user accounts. Currently, these connections are managed from the contact entity edit screen. Contacts can be associated with existing Drupal user accounts, or a new Drupal user account can be created from the contact entity edit form.</p></li>
+<li><p><strong>Notes</strong> is another custom entity type and bundle provided by the "RedHen Notes" sub-module. Notes provide a site administrator a simple tool for capturing tagged notes about contacts and organizations. As a custom entity bundle, notes are fieldable as well.</p></li>
+<li><p>The Notes module also integrates with the "RedHen engagement scoring" sub-module. Engagement scores allow a site administrator to track and score various types of interactions with contact entities.</p></li>
+<li><p>Finally, RedHen CRM ships with a "RedHen groups" sub-module that allows you to <em>groupify</em> RedHen organizations. Groupified organizations function similarly to <a href="http://drupal.org/project/og">Organic Groups</a>, in that they provide a simple container for managing private node content associated with each organization.</p></li>
+</ul>
+
+<h2>Extending RedHen CRM with Views and Rules Integration</h2>
+
+<p>The RedHen CRM framework does not require <a href="http://drupal.org/project/views">Views</a>. However, because RedHen is built upon Entity API, you can easily extend RedHen to work with Views and Rules. With Views, you can customize your instance of RedHen CRM to create personalized reports of contact, organization, membership and/or engagement scoring data. With Views plugins such as <a href="http://drupal.org/project/views_bulk_operations">Views Bulk Operations</a> and <a href="http://drupal.org/project/views_data_export">Views Data Export</a>, you can further extend RedHen with bulk editing and export tools.</p>
+
+<h2>For More Information</h2>
+
+<p>Complete RedHen site administration docs will be coming soon. You can also check out the README files contained with each RedHen module. For technical issues, please use the <a href="http://drupal.org/project/issues/redhen">D.O. issue queue</a>. For community support and to learn about RedHen usage, please consider joining the <a href="http://groups.drupal.org/redhen-crm">RedHen Drupal group</a> and follow us on Twitter <a href="http://twitter.com/redhen_crm">@RedHen_CRM</a>.</p>
+
+<h2>Next Up: A RedHen CRM Feature Deep-Dive</h2>
+
+<p>For a detailed look at RedHen CRM, check out <a href="/blog/2012/06/sean/redhen-crm-part-2">Part 2</a> of this article.</p>
+</div></div></div><div class="field field-name-taxonomy-vocabulary-1 field-type-taxonomy-term-reference field-label-above"><div class="field-label">Tags:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/blog/category/redhen" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">RedHen</a></div><div class="field-item odd"><a href="/blog/category/nonprofit-tech" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">nonprofit tech</a></div><div class="field-item even"><a href="/blog/category/drupal-planet" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Drupal Planet</a></div><div class="field-item odd"><a href="/taxonomy/term/45" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Drupal Give</a></div></div></div>

@@ -1,0 +1,93 @@
+---
+layout: post
+title: When I say Think, you say Shout! A look into ThinkShout's Site Redesign and
+  Responsive Theme
+---
+
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>When I started at ThinkShout in June 2011, <a href="http://www.abookapart.com/products/responsive-web-design">Responsive Web Design</a> by <a href="http://unstoppablerobotninja.com">Ethan Marcotte</a> had just been released. I read an excerpt of the book, <a href="http://www.alistapart.com/articles/fluid-images/">Fluid Images</a>, on A List Apart and was intrigued. I immediately bought the book and devoured it.</p>
+
+<p>At the same time, Lev Tsypin, one of the partners at ThinkShout, and I started talking about HTML5 themes in an effort to choose a new standard HTML5 Drupal theme for ThinkShout to work off of. We decided to see what HTML5 themes had momentum in the Drupal community and we tested out and reviewed many current HTML5 themes out there.</p>
+
+<p>We looked at a number of different themes and settled on testing out <a href="http://drupal.org/project/adaptivetheme">AdaptiveTheme</a> and <a href="http://drupal.org/project/omega">Omega</a>. But at the time AdaptiveTheme was not yet responsive. It seemed an obvious choice to move to Omega since the four standard media queries are built into the theme.</p>
+
+<h2>Why did we choose Omega?</h2>
+
+<p>With a HTML5 base and built-in mobile, ipad/tablet, normal and wide responses, it seemed like the smartest choice.  Although an initial look at the theme settings file can be daunting, once you dive in and see what is happening behind the scenes, both the configuration and modification of regions and zones is easy to understand. The bonus was the ability to create subthemes on the fly using <a href="http://drupal.org/project/omega_tools">Omega Tools</a> and Drush and the ability to export / revert theme settings.</p>
+
+<h2>Using SCSS with Omega</h2>
+
+<p>I wrote the styles for the ThinkShout site in <a href="http://sass-lang.com/">Sass</a>. The newest syntax for writing Sass is called SCSS (which stands for "Sassy CSS"). SCSS is very similar to CSS but uses slightly different syntax which provides nested rules, variables, mixins and selector inheritance. This language uses <a href="http://compass-style.org/">Compass</a>, which is a Ruby-based open-source CSS Authoring Framework that provides libraries of common code to use within your stylesheets. I mostly use Compass to access CSS3 mixins.</p>
+
+<p>When writing SCSS, the Compass compiler runs and watches the SCSS files. The compiler turns SCSS files into CSS files and converts mixins into readable CSS. Basically it makes writing CSS a lot faster in that one can reuse chunks of code that have the ability to pass variables. And it makes writing styles fun!</p>
+
+<p>Nested rules, selector inheritance and mixins of SCSS are great for writing styles for Drupal sites in that we are often dealing with multi-layered complex markup.  Using SCSS, I can target specific sections of code using nested rules and then avoid code replication by utilizing selector inheritance and mixins.</p>
+
+<p>Sometimes Drupal has been known to provide us with multi-layered complex markup. I find that SCSS's nested rules, selector inheritance and mixins are great for theming this markup.</p>
+
+<p><em>As a side note, ThinkShout as a team is moving to <a href="http://lesscss.org/">Less</a> from SCSS. That will be my next blog post. Compare and Contrast - SCSS vs Less.</em></p>
+
+<h2>The Different Responses of ThinkShout.com</h2>
+
+<div style="text-align: center; margin: 0 0 30px 0; "><img src="http://thinkshout.com/sites/default/files/images/inline/responses.png"  />
+<p style="font-size: 12px; color: #333; font-style: italic; width: 50%; text-align: center; margin: 0 auto;"> Clockwise from top left: Mobile, iPad - Portrait, Normal (960)</p></div>
+
+<h3>Mobile</h3>
+
+<p>For the mobile web experience of the site, we wanted to present a simple, user friendly interface and content layout. To achieve this, we center-aligned the logo, site description and main menu and set the fonts to a legible size for the context. For the recent project section on the homepage, we decided the user only needed to view one recent project and we resized the image to fit in the frame. For simplicity, we removed the search bar, social media links and twitter feed.</p>
+
+<p>One thing to remember for theming for mobile is to add 20px of padding on the left and right-hand side of the content container. This allows the user to have space to scroll up and down to view content. In the Omega theme, I add padding: 0 20px to each .region-inner to provide this space. Some elements without .region-inner will have to be styled individually to allow for space.</p>
+
+<p>Another helpful trick I learned was to use the body tag .responsive-layout-mobile to target only the mobile response.</p>
+
+<p>For styles that I only wanted the mobile response to render, I wrapped those css rules in .responsive-layout-mobile class.</p>
+
+<p>In SCSS, you can easily nest a list of styles under one body class.</p>
+
+<p><code><code>.responsive-layout-mobile {</code></code></p>
+
+<p><code><code>/*put styles here */ </code></code></p>
+
+<p><code><code>}</code></code></p>
+
+<h3>Narrow (iPad / Tablets)</h3>
+
+<p>On the Narrow view, the tagline is positioned to the left, while the menu is positioned at the top and right of the container. We added two featured project thumbnails to enhance the Recent Project section and brought the search bar and social media links into the footer.</p>
+
+<p>The <a href="http://www.thinkshout.com/portfolio">Portfolio landing page</a> now has two columns of thumbnails and the images are larger width and height than the mobile web experience. The user also gets a small bit of interaction bling when they hover over any of the Portfolio thumbnails. The image’s opacity decreases over a black background and the user can now see a short description of the project.</p>
+
+<p>Also, as a bonus, the user can now see the "Put a bird on it" badge/image we have added to the site. If you are lost with this reference, <a href="http://www.hulu.com/watch/210887/portlandia-put-a-bird-on-it">watch and learn</a>.</p>
+
+<h3>Normal (960 wide)</h3>
+
+<p>In this response, the site description's font-size increases and the “Put a bird on it" image and all Recent Projects’ images increases in width and height. The Portfolio landing page now has three columns of images. The Twitter feed appears in the footer.</p>
+
+<h3>Wide (1200 wide)</h3>
+
+<p>This is just an extension of the Normal response. The only significant changes are that the Recent Projects main image increase to its max-width. The portfolio landing page remains three columns but the thumbnails get slightly bigger.</p>
+
+<h2>Omega Lessons Learned</h2>
+
+<p>This isn't very well documented in Omega documentation. But to theme well in Omega, it is essential to understand how the stylesheets in your subtheme work.</p>
+
+<p><a href="http://drupal.org/user/159141">Himerus</a>, creator and maintainer of the Omega theme, outlines it in this <a href="http://drupal.org/node/1239662#comment-4828360">D.O thread</a>:</p>
+
+<blockquote>
+  <p>global.css -> applies to MOBILE AND ALL responsive layouts... it's the base stylesheet that applies on ANY view of the site.</p>
+  
+  <p>THEME-alpha-default.css ONLY applies on any browser capable of understanding media queries (and IE in default mode) BUT this stylesheet will apply to ALL the responsive layouts (narrow, normal, wide)</p>
+  
+  <p>THEME-alpha-default-narrow.css - applies to narrow layout AND anything after it (normal, wide)</p>
+  
+  <p>THEME-alpha-default-normal.css - applies to normal layout AND anything after it (wide)</p>
+  
+  <p>THEME-alpha-default-wide.css - applies to wide layout ONLY (unless you create one after it in the chain)</p>
+</blockquote>
+
+<h2>Future implementation to-dos</h2>
+
+<p>I would like to implement the <a href="http://drupal.org/project/adaptive_image">Adaptive Images</a> module to the Recent Projects section on the homepage. Right now the mobile view is pulling the largest image in, just resized using max-width: 100%.</p>
+
+<h2>Fun Facts</h2>
+
+<p>The name of our Omega subtheme is Swift. Why? When I began the initial theming of the site, it was during the annual time when a flock of <a href="http://en.wikipedia.org/wiki/Chapman_Swifts">Vaux's Swifts</a> visit Chapman Elementary school in Portland. <a href="http://youtu.be/A-YaEWNex2U">Watch a clip of the Vaux swifts in action</a>.</p>
+</div></div></div><div class="field field-name-taxonomy-vocabulary-1 field-type-taxonomy-term-reference field-label-above"><div class="field-label">Tags:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/blog/category/theming" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">theming</a></div><div class="field-item odd"><a href="/blog/category/design" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">design</a></div><div class="field-item even"><a href="/blog/category/drupal-planet" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Drupal Planet</a></div></div></div>

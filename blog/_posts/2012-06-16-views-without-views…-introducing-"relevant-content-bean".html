@@ -1,0 +1,99 @@
+---
+layout: post
+title: Views Without Views… Introducing "Relevant Content Bean"
+---
+
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Have you ever wished that there was a simpler solution for allowing site adminstrators to create their own dynamically-filtered listings of node content in a block? Of course, you can very quickly create such listings with Views, but the Views approach presents certain tradeoffs that aren't always idea for sites managed by non-developers. In our experience, the tradeoffs of site administers using Views often include the following:</p>
+
+<ul>
+<li>Views can present a steep learning curve to site administrators.</li>
+<li>Managing small variations in the block displays of a View (such as blocks with different item counts or different block titles) can lead to very large Views definitions.</li>
+<li>Providing a site administrator with Views access can sometimes lead to deep, unintended changes in your site's presentation layer.</li>
+<li>Accounting for all of the possible variations in the Views display layout, particularly with Views that leverage "fields" rather than "view modes", can lead to a lot of extra theming.</li>
+<li>When managing Views definitions in code with Features, dealing with Views that keep getting overridden in the GUI can be a challenge.</li>
+</ul>
+
+<p><em>What if there was a simple solution for allowing site administrators to create their own dynamically-filtered listings of node content without the tradeoffs of opening up the Views UI?</em></p>
+
+<h2>Enter "Relevant Content Bean"</h2>
+
+<p>The <a href="http://drupal.org/project/bean_relevant">Relevant Content Bean</a> module is a plugin for the awesome <a href="http://drupal.org/project/bean">Bean</a> module. If you've unfamiliar Bean, it basically provides a way to treat blocks as fieldable entities. ("Bean" is an acronym for <strong>B</strong>lock <strong>E</strong>ntities <strong>A</strong>ren't <strong>N</strong>odes.) The Bean module also provides an API for creating new <em>types</em> of blocks, which can have their own properties and fields.</p>
+
+<p>The Relevent Content Bean essentially provides your site administrators with a light-weight query builder (build on top of EntityFieldQuery) for creating blocks that contain dynamically-filtered listings of nodes. Like Views, Relevant Content Bean allows you to select the number of node results to display, apply filters to the list of returned nodes, change the display options for these nodes, and manage the sort order of your results.</p>
+
+<h2>How It Works</h2>
+
+<p>A screenshot of the default Relevant Content Bean configuration screen is shown below:</p>
+
+<p><img src="https://dl.dropbox.com/u/17914943/relevant_bean_screenshots/bean_empty.png" alt="full screenshot" /></p>
+
+<h3>View Modes and Fields</h3>
+
+<p>First, the Relevant Cotent Bean itself can leverage "view modes."</p>
+
+<p><img src="https://dl.dropbox.com/u/17914943/relevant_bean_screenshots/view_mode.png" alt="view modes" /></p>
+
+<p>For developers, this means that you can write your own view modes to create different display options for the overall listing of nodes.</p>
+
+<p>Since Relevent Content Beans themselves are fieldable, you can even extend these Beans to include options, such as custom "Read More" links (using the <a href="http://drupal.org/project/link">Link</a> module) or content areas above and below the node listing returned by the Bean itself.</p>
+
+<h3>Display Options</h3>
+
+<p>Second, you can manage the "display options" for the individual nodes returned by the Bean.</p>
+
+<p><img src="https://dl.dropbox.com/u/17914943/relevant_bean_screenshots/node_display.png" alt="display options" /></p>
+
+<p>The returned list of nodes can be presented as "teasers" or any other view mode defined for your content types. In addition to selecting among view modes, Relevant Content Bean provides an option for simply displaying a list of "linked node titles."</p>
+
+<h3>Sort Options</h3>
+
+<p>Here's where Relevant Content Bean gets really interesting… As with Views, you can sort the returned list of nodes by creation date or the date that each node was last updated. Similarly, you can sort on the "sticky" property.</p>
+
+<p><img src="https://dl.dropbox.com/u/17914943/relevant_bean_screenshots/order_on.png" alt="order nodes" /></p>
+
+<p>But check this out:</p>
+
+<p><img src="https://dl.dropbox.com/u/17914943/relevant_bean_screenshots/order_on_any_date.png" alt="date filter" /></p>
+
+<p>You can actually sort the returned nodes on <em>any</em> date property or field available to each content type. In the example above, we have two content types:</p>
+
+<ul>
+<li>A "publication" content type with a "publication date" field that accepts a month and year.</li>
+<li>An "event" contenty type with an "event date" field that accepts a month, date, year, and time.</li>
+</ul>
+
+<p>In this example, you can use the Relevant Content Bean to create a listing of publication and events nodes - sorting this <em>single</em> listing of nodes by different date fields.</p>
+
+<h3>Filter Options</h3>
+
+<p>Relevant Content Bean also allows you to filter your listing of nodes by content type, taxonomy, and/or various date range options. When filtering by content type or taxonomy, you have the option of specifying which content types or taxonomy terms to return.</p>
+
+<p><img src="https://dl.dropbox.com/u/17914943/relevant_bean_screenshots/filter_content_type_not_same.png" alt="" /></p>
+
+<p><img src="https://dl.dropbox.com/u/17914943/relevant_bean_screenshots/taxonomy_filter.png" alt="" /></p>
+
+<p>Or, you can configure your bean to <strong>contextually</strong> filter nodes based upon the type and terms associated with a full-page node upon which your bean has been placed. (Think "argument handling" with block displays in Views.)</p>
+
+<p><img src="https://dl.dropbox.com/u/17914943/relevant_bean_screenshots/filter_content_type_same.png" alt="" /></p>
+
+<p>Similar to our sort options, you can also filter the returned listing of nodes based upon a date relative to any date property or field found on each content type.</p>
+
+<p><img src="https://dl.dropbox.com/u/17914943/relevant_bean_screenshots/date_filter.png" alt="" /></p>
+
+<h2>Other Coolness</h2>
+
+<p>The Relevant Content Bean module has quickly become a staple on all of our custom Drupal builds - as we continually find more and more interesting use cases for it. For example:</p>
+
+<ul>
+<li>We've had clients create placeholder nodes and then drop a Relevant Content Bean into the page to minic full-page Views displays.</li>
+<li>Writing our own custom Bean view modes, we can return a list of nodes as a javascript slideshow.</li>
+</ul>
+
+<p>And because Relevant Content Bean returns nodes using view modes, on sites that also use Views for returning node listings, we can use the same theme styles across node listings - regardless of whether those listings are generated by Relevant Content Beans or Views.</p>
+
+<h2>In Conclusion</h2>
+
+<p>We'd encourage you to give the Relevant Content Bean module a try. We'd love to get your feedback and talk more about how we can make it even easier on site administrators to customize block content.</p>
+
+<p>And special thanks for ThinkShout developer, <a href="http://thinkshout.com/blog/Brandon">Brandon Lee</a>, for writing this great module!</p>
+</div></div></div><div class="field field-name-taxonomy-vocabulary-1 field-type-taxonomy-term-reference field-label-above"><div class="field-label">Tags:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/blog/category/modules" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">modules</a></div><div class="field-item odd"><a href="/taxonomy/term/45" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Drupal Give</a></div><div class="field-item even"><a href="/blog/category/drupal-planet" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Drupal Planet</a></div></div></div>

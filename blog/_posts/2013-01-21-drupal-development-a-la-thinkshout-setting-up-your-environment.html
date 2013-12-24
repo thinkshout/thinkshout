@@ -1,0 +1,159 @@
+---
+layout: post
+title: ! 'Drupal Development a la ThinkShout: setting up your environment'
+---
+
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>I've done more than my fair share of office IT support, and I feel pretty confident making existing software behave the way I want it to. Until, that is, it's time to set up a development environment: the domain of developers is fraught with some particularly obtuse configuration oddities. To save headaches here at ThinkShout, I documented our basic setup steps, and thought it might be of use to the community. So, for anyone out there who just wants to get a Drupal development environment running with minimal headaches, I present "Drupal Dev a la ThinkShout in x Coherent Steps". I'll try to keep this updated based on feedback and changes over time. Let's call this version 0.9 as of January 2013.</p>
+
+<p>These instructions are designed for the following setup:</p>
+
+<ul>
+<li>Mac OS X 10.8.x (should probably work for 10.6 or 10.7)  </li>
+<li>A fresh installation (if you've gotten started and used something outside our typical toolset, I'm afraid you are likely to have some headaches.)</li>
+</ul>
+
+<p>(Note: If you are in a hurry, you might want to start the large downloads before you begin the rest of the instructions. <a href="http://developer.apple.com/downloads">Xcode</a> is the big one here.)</p>
+
+<h2>Step 0 -- System settings</h2>
+
+<p><code>Apple Menu -&gt; System Preferences -&gt; Users &amp; Groups</code><br />
+Make sure your account is an Administrator.</p>
+
+<p><code>Apple Menu -&gt; System Preferences -&gt; Security &amp; Privacy</code><br />
+Check the radio button for <strong>Anywhere</strong> under <strong>Allow Applications downloaded from</strong>.</p>
+
+<h2>Step 1 -- Basic Tools</h2>
+
+<h3>iTerm 2</h3>
+
+<p>First, get yourself a real Terminal program. We like <a href = "http://www.iterm2.com">iTerm 2</a>.</p>
+
+<h3>Sublime 2</h3>
+
+<p>Now let's get a nice text editor. For simple code edits and configuration file changes, we recommend <a href="http://www.sublimetext.com/2">sublime2</a> -- it's nag-ware, but it's a very gental nag, and if you like it it's only $59.<br />
+(Bonus! Launch Sublime from the command line: <a href="http://www.sublimetext.com/docs/2/osx_command_line.html">http://www.sublimetext.com/docs/2/osx_command_line.html</a> )</p>
+
+<h2>Step 2 -- Developer Tools</h2>
+
+<h3>Homebrew</h3>
+
+<p>Much has been written about package managers, and to be honest I haven't read much of it. But <a href="http://mxcl.github.com/homebrew">Homebrew</a> works for me, and you'll want to use it to make these instructions easy. To install Homebrew, pop on over to iTerm, paste in this command, and follow the prompts:<br />
+<code>ruby -e &quot;$(curl -fsSkL raw.github.com/mxcl/homebrew/go)&quot;</code></p>
+
+<h3>Xcode</h3>
+
+<p>Now let's head on over to Apple's website and install <a href="http://developer.apple.com/downloads">Xcode</a>. You'll have to login with an Apple ID (free registration) to download, and it's a doozy. Go make yourself a sandwich and crack a microbrew while you wait.<br />
+Once Xcode is downloaded, run the installer. When that completes, pop back into iTerm and paste in this command:<br />
+<code>xcodebuild -license</code><br />
+(I'm not a lawyer, so I'll let you make your own decision about agreeing to the license.. but if you don't, the rest of these instructions might not work out)</p>
+
+<h3>git</h3>
+
+<p>No <a href="http://en.wikipedia.org/wiki/Free_and_open_source_software">FOSS</a> development environment is complete without git. You can DIY this part by going <a href="http://help.github.com/articles/set-up-git">here</a>, or you can just use Homebrow from iTerm:<br />
+<div class="codeblock"><code>brew install git<br />brew update</code></div></p>
+
+<h3>drush</h3>
+
+<p>While we're at it, let's install drush with Homebrew too:<br />
+<code>brew install drush</code><br />
+That was easy!</p>
+
+<h2>Step 3 -- Environment</h2>
+
+<h3>MAMP</h3>
+
+<p>Mac, Apache, MySQL, and PHP all in one package should make things easy, right? MAMP is great, but installing it is only the beginning: lots of little configuration options are hiding in the weeds. Some people like to use MAMP Pro, but I'm happy with basic MAMP. I've got the vital configuration options for you here, but you can read more details at <a href="http://drupal.org/node/66187">D.O</a>.</p>
+
+<h3>General MAMP</h3>
+
+<ul>
+<li>Download <a href="http://www.mamp.info">MAMP</a></li>
+<li>Unzip the download and install it into your Applications directory.</li>
+<li>Launch MAMP and click <strong>Preferences</strong></li>
+<li>set <strong>Cache</strong> to <strong>APC</strong></li>
+<li>Click the <strong>Ports</strong> tab</li>
+<li>Click <strong>Set to default Apache and MySQL ports</strong> (this should set them to 80 and 3306 respectively -- if you are running anything else on these ports, you should know it and you should already know not to do this)</li>
+</ul>
+
+<h3>PHP</h3>
+
+<ul>
+<li>Browse to <code>/Applications/MAMP/bin/php</code> and observe the collection of PHP versions available to you. Select exactly 2 that you would like to have available regularly (I recommend the latest 5.3 and 5.4 versions), and rename each of the <em>other</em> folders by adding an underscore to the beginning of the name: "_php5.2.17" for example. </li>
+<li>Restart MAMP. Click <strong>Preferences</strong>: you should see the two versions of PHP that you did <em>not</em> rename available for selection.</li>
+<li>Using Sublime, edit the php.ini files for the versions of PHP that you are going to use. You can find them here: <code>/Applications/MAMP/bin/php/php###/conf/php.ini</code> where ### matches with the PHP versions you selected.</li>
+<li>In each of these php.ini files, find the line that says "memory_limit" and change the value to be 256M (128M will work, if you're a big Scrooge) <code>memory_limit 256M</code></li>
+<li>Now find the line that says "error_reporting" and set it to E_ALL</li>
+<li>Find "display_errors" and "display_startup_errors" and set them to "On"</li>
+</ul>
+
+<h3>Drush Redux</h3>
+
+<p>Thought your Drush was all set? If only we were so lucky... Drush uses PHP, but if it points at a different PHP than MAMP is using, you'll see some wacky errors on certain Drush operations. To avoid this, we put MAMP's PHP at the beginning of our PATH variable:</p>
+
+<ul>
+<li>If you don't already have a file in your home directory called ".bash_profile", create it (<code>touch ~/.bash_profile</code>). Then open it in Sublime.</li>
+<li>At the bottom of your .bash_profile (which may be the top, if it's new), type <code>export PATH=</code> then insert the path to one of your MAMP PHP bin directories (we use php5.4.4 in our example), followed by <code>:$PATH</code>. Mine looks like this:
+<code>/Applications/MAMP/bin/php/php5.4.4/bin:$PATH</code></li>
+<li>Save your .bash_profile and restart iTerm.</li>
+<li>Type <code>which php</code> and hit enter. You should see something like this:
+<code>/Applications/MAMP/bin/php/php5.4.4/bin/php</code>
+That means you are using MAMP's php, and so is Drush. (if it doesn't work, type "echo $PATH" -- is your new php path the first item? Is it accurate?)</li>
+</ul>
+
+<h3>Apache</h3>
+
+<ul>
+<li>Using Sublime, edit <code>/Applications/MAMP/conf/apache/httpd.conf</code></li>
+<li>Search httpd.conf for "Virtual Hosts" and uncomment the following line so that it reads like so:<br />
+<div class="codeblock"><code> # Virtual hosts<br />Include /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf</code></div></li>
+<li>Enable Clean URLs: Search for "AllowOverride", and set it to "All": <code>AllowOverride = All</code></li>
+</ul>
+
+<h3>MySQL</h3>
+
+<p>Put mysql into your PATH by running this command in iTerm:<br />
+<code>ln -s /Applications/MAMP/Library/bin/mysql /usr/local/bin/mysql</code><br />
+(Yes, there are other ways to do this, like adding /Applications/MAMP/Library/bin/ to your PATH -- that's fine if you prefer it and won't interfere with the rest of our plans)</p>
+
+<p>For many Drupal sites, you also need to increase your MySQL max_allowed_packet size:
+<div class="codeblock"><code>cp /Applications/MAMP/Library/support-files/my-small.cnf /Applications/MAMP/conf/<br />mv /Applications/MAMP/conf/my-small.cnf /Applications/MAMP/conf/my.cnf</code></div>
+Now open /Applications/MAMP/conf/my.cnf in Sublime and search for max_allowed_packet. Set it to something like 64M and restart MySQL using MAMP.</p>
+
+<h3>Sequel Pro</h3>
+
+<p>Sequel Pro gives us a friendly interface to interact with MySQL. <a href="http://sequelpro.com/download">Download</a> and install it.<br />
+Now run Sequel Pro. It'll ask you for some settings. Use these:<br />
+<div class="codeblock"><code>name: local&nbsp; <br />server: 127.0.0.1&nbsp; <br />user: root&nbsp; <br />pass: root&nbsp; <br />port: 3306 (must match MAMP setup)</code></div>
+And click <strong>Connect</strong></p>
+
+<h2>Step 4 -- Project Setup</h2>
+
+<p>Now that our environment is all shined-up, we need somewhere to put our work! You can put your Drupal root just about anywhere, but I like to create a file in my home directory called <strong>projects</strong>, so we'll be using that as an example:<br />
+<code>mkdir ~/projects</code><br />
+Our first project is a site that is going to bring about world peace, so let's call it "worldpeace":
+<code>mkdir ~/projects/worldpeace</code><br />
+We need to tell Apache where to find our new website: let's get the path:
+<div class="codeblock"><code>cd ~/projects/worldpeace<br />pwd</code></div><br />
+Now open <code>/Applications/MAMP/conf/apache/extra/httpd-vhosts.conf</code> in Sublime.  There should be a nice example of how to add a virtual host in the file already, but go ahead and paste this code at the bottom:<br />
+<div class="codeblock"><code>&lt;VirtualHost *:80&gt;<br />&nbsp;&nbsp;&nbsp; ServerAdmin email@address.com<br />&nbsp;&nbsp;&nbsp; DocumentRoot &quot;PATH/TO/projects/worldpeace/drupal&quot;<br />&nbsp;&nbsp;&nbsp; ServerName worldpeace.local<br />&nbsp;&nbsp;&nbsp; ErrorLog &quot;logs/worldpeace.local-error_log&quot;<br />&nbsp;&nbsp;&nbsp; CustomLog &quot;logs/worldpeace.local-access_log&quot; common<br />&lt;/VirtualHost&gt;</code></div></p>
+
+<p>You'll want to customize these lines to match your setup. Use the output from the "pwd" you just ran to get the DocumentRoot correct, and make sure to have unique names for each site's log files.
+Now let's tell our computer's domain name service to look for this site on the local computer. Create a backup copy of <code>/etc/hosts</code> (<code>cp /etc/hosts /etc/hosts.bak</code>) before opening it in Sublime. Add a host line that looks like this:<br />
+<code>127.0.0.1 worldpeace.local</code>
+The name must <em>exactly</em> match the "ServerName" we just set in <code>httpd-vhosts.conf</code>.
+Now go into MAMP and stop/start the Servers.</p>
+
+<p>Let's give our site a Database to work in, shall we?</p>
+
+<ul>
+<li>Open up Sequel Pro, and connect to MySQL if you aren't already connected.  </li>
+<li>Click the <strong>Database</strong> menu and select <strong>Add Database</strong></li>
+<li>Give your database an easy name like "worldpeace"</li>
+</ul>
+
+<p>All we need now is Drupal! You can go into your project folder and perform a git checkout if you are fancy, or setup a  fresh installation. Since we installed Drush already, it's pretty easy to setup a fresh site from iTerm (these instructions liberally cribbed from <a href="http://coderintherye.com/install-drupal-7-using-drush">coderintherye.com</a>). Note that these instructions assume that the most recent stable drupal is 7.18. If a newer version has been released, the "mv" command will need to be updated to match:
+<div class="codeblock"><code>cd ~/projects/worldpeace<br />drush dl drupal<br />mv drupal-7.18 drupal<br />cd drupal<br />drush site-install standard --db-url=mysql://root:root@localhost/worldpeace</code></div>
+(That "--db-url" is formatted thusly: mysql://<em>myslqusername</em>:<em>mysqlpassword</em>@localhost/<em>databasename</em>)</p>
+
+<p>Now point a web browser to <a href="http://worldpeace.local">http://worldpeace.local</a> -- so Drupalicious!</p>
+</div></div></div><div class="field field-name-taxonomy-vocabulary-1 field-type-taxonomy-term-reference field-label-above"><div class="field-label">Tags:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/blog/category/drupal-planet" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Drupal Planet</a></div><div class="field-item odd"><a href="/blog/category/git" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">git</a></div><div class="field-item even"><a href="/blog/category/drush" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">drush</a></div><div class="field-item odd"><a href="/blog/category/developer-tools" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Developer Tools</a></div></div></div>
