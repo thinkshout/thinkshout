@@ -18,7 +18,7 @@ components:
     column2: |
       The LAC curates hundreds of unique historical sites across Los Angeles and we knew that each, in turn, would need to be   highlighted in a way that both exited their constituents and encouraged involvement. Mapping would be an integral part of   their new design and we knew we needed to knock it out of the park. 
 discovery:
-  image: todo: switch to column 1/2
+  image: 
   description: |
     The LAC curates hundreds of unique historical sites across Los Angeles and we knew that each, in turn, would need to be highlighted in a way that both exited their constituents and encouraged involvement. Mapping would be an integral part of their new design and we knew we needed to knock it out of the park. 
 strategy:
