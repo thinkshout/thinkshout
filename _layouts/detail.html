@@ -22,38 +22,18 @@
   {{ content }}
   {% include footer.html %}
 
-  <script>
-  document.write('<script src=' +
-    ('__proto__' in {} ? '{{ site.baseurl}}/javascripts/vendor/zepto' : '{{ site.baseurl}}/javascripts/vendor/jquery') +
-    '.js><\/script>')
-  </script>
-  
-  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.js"></script>
-  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.alerts.js"></script>
-  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.clearing.js"></script>
-  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.cookie.js"></script>
-  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.dropdown.js"></script>
-  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.forms.js"></script>
-  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.interchange.js"></script>
-  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.joyride.js"></script>
-  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.magellan.js"></script>
-  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.orbit.js"></script>
-  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.placeholder.js"></script>
-  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.reveal.js"></script>
-  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.section.js"></script>
-  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.tooltips.js"></script>
-  <script src="{{ site.baseurl}}/javascripts/foundation/foundation.topbar.js"></script>
-  <script src="{{ site.baseurl}}/javascripts/contrib/imagesloaded.js"></script>
-  <script src="{{ site.baseurl}}/javascripts/contrib/classie.js"></script>
-  <script src="{{ site.baseurl}}/javascripts/contrib/AnimOnScroll.js"></script>
+  <script src="{{ site.baseurl}}/bower_components/foundation/js/vendor/jquery.js"></script>
+  <script src="{{ site.baseurl}}/bower_components/foundation/js/vendor/fastclick.js"></script>
+  <script src="{{ site.baseurl}}/bower_components/foundation/js/foundation.min.js"></script>
   
   <script>
   $(document).foundation();
-  new AnimOnScroll( document.getElementById( 'grid' ), {
-    minDuration : 0.4,
-    maxDuration : 0.7,
-    viewportFactor : 0.2
-  } );
+
+  // new AnimOnScroll( document.getElementById( 'grid' ), {
+  //   minDuration : 0.4,
+  //   maxDuration : 0.7,
+  //   viewportFactor : 0.2
+  // } );
   </script>
 </body>
 </html>
