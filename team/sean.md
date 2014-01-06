@@ -14,5 +14,6 @@ image:
   medium: team/medium/sean.jpg
   large: team/large/sean.jpg
 published: true
+name: sean
 ---
 Sean spent the last ten years working with some of the best talent in the Drupal Community, providing technical consulting services and developing a wide array of leadership skills. He understands our clients better than most, well-versed in fundraising strategy and implementation. He thrives off building relationships with the organizations we serve, always looking for innovative, inspiring solutions through new technology. He’s worked with environmental groups worldwide in a leadership role, managed two open source software consultancies rooted in Drupal development, and has led national community organizing initiatives and international relief projects. Sean holds a master’s degree in Public Administration (MPA) from Syracuse University’s Maxwell School. In the off hours, he can usually be found somewhere near a river, getting in touch with nature.
