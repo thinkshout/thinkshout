@@ -7,14 +7,14 @@ layout: detail
     <div class="site-width">
       <div class="background"></div>
       <div class="leadin">
-        <h2>Our clients make lasting change. We’re here to help.</h2>
+        <h2>{{ page.title }}</h2>
       </div>
     </div>
   </div>
   <section class="main">
     <div class="row">
 			<div class="large-8 columns push-2">
-				<h1 class="title">{{ page.title }}</h1>
+				<!--<h1 class="title">{{ page.title }}</h1>-->
 				<h4>{{ page.project_summary }}</h4>
 			</div>
 		</div>
@@ -32,7 +32,7 @@ layout: detail
 						<li><a href="#"></a></li>
 					</ul>
 				</div>
-			</div>
+			</div>	
 		</section>
 		<div class="row breakpoints">
 			<div class="large-5 columns">
@@ -45,6 +45,41 @@ layout: detail
 				<img src="{{ site.baseurl }}/images/work/lac/lac-mobile.png">
 			</div>
 		</div>
+
+		{% for item in page.components %}
+      {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+      {% if thecycle == 'odd' %}
+        <section class="odd">
+      		<div class="section-rubric">
+      			<h3><span>{{ page.components.section.title }}</span></h3>
+    			</div>
+          <div class="row">
+            <div class="large-4 columns push-2">
+              <p>{{ page.components.section.column1 }}</p>
+            </div>
+            <div class="large-4 columns pull-2">
+              <p>{{ page.components.section.column2 }}</p>
+            </div>
+          </div>
+        </section>
+      {% else %}
+        <section class="even">
+      		<div class="section-rubric">
+      			<h3><span>{{ page.components.section.title }}</span></h3>
+    			</div>
+          <div class="row">
+            <div class="large-4 columns push-2">
+              <p>{{ page.components.section.column1 }}</p>
+            </div>
+            <div class="large-4 columns pull-2">
+              <p>{{ page.components.section.column2 }}</p>
+            </div>
+          </div>
+        </section>
+      {% endif %}
+    {% endfor %}
+
+    <!--
 		<section class="discovery">
 			<div class="section-rubric">
       	<h3><span>Discovery</span></h3>
@@ -82,6 +117,7 @@ layout: detail
 				</div>
 			</div>
 		</section>
+		-->
 		<section class="results">
 			<div class="section-rubric">
       	<h3><span>Results</span></h3>

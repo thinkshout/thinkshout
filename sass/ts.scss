@@ -58,7 +58,7 @@ h5 {
 header {
   height: 100px;
   position: fixed;
-  background: #FFF;
+  background: rgba(255,255,255,0.8);
   z-index: 1000;
   top: 0;
   left: 0;
@@ -74,7 +74,6 @@ header {
       a {
         display: block;
         padding: 2em 1em;
-
       }
     }
   }
