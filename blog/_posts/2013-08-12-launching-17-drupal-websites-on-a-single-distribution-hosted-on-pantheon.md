@@ -7,6 +7,8 @@ tags:
 - Drupal Planet
 - Drupal
 - Distributions
+short: How we built a flexible, integrated CMS & CRM solution for repeat deployment with Pantheon hosting
+author: sean
 ---
 ##The challenge: To build a flexible, integrated CMS & CRM solution for repeat deployment
 
