@@ -9,6 +9,9 @@ tags:
 - Drupal
 - Drupal Planet
 - Drupal Give
+
+short: We've previously written about a complete rewrite of the MailChimp module, and while our most recent changes aren't quite as big, they're significant enough that we want to share the details with the community.
+author: lev
 ---
 We've previously written about a [complete rewrite of the MailChimp module](http://thinkshout.com/blog/2011/06/lev/mailchimp-20-anatomy-drupal-module-rewrite), and while our most recent changes aren't quite as big, they're significant enough that we want to share the details with the community.
 
