@@ -7,6 +7,9 @@ tags:
 - Drupal
 - Usability
 - Drupal Planet
+
+short: Yesterday I built out a quick Drupal site for a fairly non-technical client. He manages a busy team and doesn't have the time for me to train his staff on the intricacies of Drupal content administration. The project also has a shoestring budget, so I wanted to keep things as simple as possible. Below are a few Drupal modules and tricks that I used to cut down on Drupal admin interface clutter, and more importantly, to make the site bombproof to unexperienced Drupal content editors.
+author: andrea
 ---
 <p>Yesterday I built out a quick Drupal site for a fairly non-technical client. He manages a busy team and doesn't have the time for me to train his staff on the intricacies of Drupal content administration. The project also has a shoestring budget, so I wanted to keep things as simple as possible. Below are a few Drupal modules and tricks that I used to cut down on Drupal admin interface clutter, and more importantly, to make the site <b>bombproof</b> to unexperienced Drupal content editors.</p>
 
