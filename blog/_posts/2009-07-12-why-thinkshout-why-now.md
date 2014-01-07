@@ -3,7 +3,9 @@ layout: post
 title: Why ThinkShout? Why Now?
 created: 1247382000
 permalink: blog/2009/07/sean/why-thinkshout-why-now
-tags: []
+tags: 
+short: A lot of people have been asking me lately why I've decided to set up my own IT company in "the worst economic downturn in modern history" [insert screams of terror]. In the interest of full disclosure, the most immediate impetus was because, like many other people these days, I was recently laid off from my more-comfortable, full-time job. But that's actually just the opportune starting point for this chapter in my entrepreneurial work with start-ups, small businesses and non-profits to make the internet a more inhabitable and productive space. 
+author: sean
 ---
 <p>A lot of people have been asking me lately why I've decided to set up my own IT company in <b><i>"the worst economic downturn in modern history"</i></b> [insert screams of terror]. In the interest of full disclosure, the most immediate impetus was because, like many other people these days, I was recently laid off from my more-comfortable, full-time job. But that's actually just the opportune starting point for this chapter in my entrepreneurial work with start-ups, small businesses and non-profits to make the internet a more inhabitable and productive space. The fact is, I've been promoting open source technologies to start-ups and nonprofits for much of the last seven years, and I couldn't think of a better time for me to start my own web technology business - for four key reasons:</p>
 <p><b>Reason #1 - I don't see dust bowls roving through the Midwest:</b></p>
