@@ -9,6 +9,9 @@ tags:
 - Continuous integration
 - Testing
 - Best practices
+
+short: Developing our first open source Drupal product, Watershed now, as well as in our recent work on internationalization in Drupal 7 with Meedan.net, we've run into some bottlenecks managing the testing of new releases of Drupal installation profiles and features. The only way to make sure that installation profiles are built correctly obviously is to build them up from scratch. Features exports are great, but they too can be a little tricky, and thus require continual testing.
+author: sean
 ---
 		<p>
 			Developing our first open source Drupal product, <a href="http://drupal.org/project/watershednow" target="_blank">Watershed now</a>, as well as in our recent work on internationalization in Drupal 7 with <a href="http://meedan.net" target="_blank">Meedan.net</a>, we've run into some bottlenecks managing the testing of new releases of Drupal <a href="http://drupal.org/project/Installation+profiles" target="_blank">installation profiles</a> and <a href="http://drupal.org/project/features" target="_blank">features</a>. The only way to make sure that installation profiles are built correctly obviously is to build them up from scratch. Features exports are great, but they too can be a little tricky, and thus require continual testing.
