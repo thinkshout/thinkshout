@@ -5,6 +5,9 @@ created: 1257278400
 permalink: blog/2009/11/sean/textmate-and-drupal
 tags:
 - Drupal
+
+short: We're proud to announce that we have new digs in a cool new sustainable industries incubator in the heart of downtown Portland, called the Dekum Beehive. Currently, we're pretty busy moving in, but we did take some time this morning to take some pictures of the new space. Check us out on Flickr and stay tuned to hear more about our rooftop office warming party in two weeks!
+author: sean
 ---
 <p>This summer I joined the dark side...I moved away from using an Ubuntu laptop to a MacBook. More recently, I switched code editors from Komodo Edit to TextMate.</p>
 <p>As a Drupal developer, I can't recommend TextMate enough. The <a href="http://drupal.org/project/textmate" target="_blank">Drupal PHP bundle</a> for Textmate is great. Auto-completion of Drupal hooks saves me considerable time.</p>
