@@ -8,6 +8,8 @@ tags:
 - RedHen
 - conference
 - events
+short: The big week is finally here with DrupalCon Portland kicking off in our own backyard. For those of you not familiar with Portland, we're really big into birds (yes, I'm aware that's very 2010), and chickens in particular. I'm working real hard here to make a clever connection to RedHen, the leading native Drupal CRM, and the only one named after a bird!
+author: lev
 ---
 <a href=http://redhencrm.com""><img src="https://raw.github.com/thinkshout/redhen/gh-pages/images/barnyard.png" style="height: 300px; float:  left; margin: 0 10px 0px 0;" /></a>
 
