@@ -9,6 +9,8 @@ tags:
 - Drupal Give
 - nonprofit tech
 - 13ntc
+short: At ThinkShout, we spend as much time as possible dreaming up and implementing new ways to leverage Drupal to meet the web technology needs of the nonprofit organizations we serve. As the technology conference season ramps up, these 10 topics and tools are foremost on our radar.
+author: sean
 ---
 At ThinkShout, we spend as much time as possible dreaming up and implementing new ways to leverage Drupal to meet the web technology needs of the nonprofit organizations we serve. 
 
