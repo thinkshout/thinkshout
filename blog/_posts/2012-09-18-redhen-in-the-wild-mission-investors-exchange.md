@@ -9,6 +9,8 @@ tags:
 - Apache Solr
 - responsive design
 - Drupal Planet
+short: When Seattle based PRI Makers Network and Harvard based More for Mission decided to merge and rebrand as Mission Investors Exchange, ThinkShout was engaged to re-invent their combined website on Drupal 7 and deploy a tightly integrated consituent relationship management (CRM) system.
+author: tauno
 ---
 When Seattle based PRI Makers Network and Harvard based More for Mission decided to merge and rebrand as [Mission Investors Exchange](http://www.missioninvestors.org), ThinkShout was engaged to re-invent their combined website on Drupal 7 and deploy a tightly integrated constituent relationship management (CRM) system.  
 
