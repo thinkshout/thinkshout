@@ -9,6 +9,8 @@ tags:
 - Drupal Give
 - Drupal Planet
 - Mandrill
+short: RedHen CRM is a native CRM solution for Drupal 7. If you haven't heard about it, check out our recent blog announcements. Mandrill is a pay-as-you-go transactional email service provided by MailChimp. This spring, ThinkShout was fortunate to have the opportunity to release a Mandrill integration module for Drupal.
+author: tauno
 ---
 ### Introduction
 
