@@ -5,6 +5,9 @@ created: 1270662393
 permalink: blog/2010/04/sean/three-modules-released-2010-q1-review
 tags:
 - Drupal
+
+short: As part of ThinkShout's participation in the Portland 10 Service Company Sprint, we've been talking a lot about our goals as a company for the next 12 months. We also decided to take some time this week for a couple of deep breaths, a few beers, and some reflection on all that we've accomplished in the first quarter of 2010.
+author: sean
 ---
 As part of ThinkShout's participation in the <a href="http://www.portlandten.com/" target="_blank">Portland 10 Service Company Sprint</a>, we've been talking a lot about our goals as a company for the next 12 months. We also decided to take some time this week for a couple of deep breaths, a few beers, and some reflection on all that we've accomplished in the first quarter of 2010.
 
