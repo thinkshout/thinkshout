@@ -20,14 +20,12 @@ h1.title {
   font-weight: 700;
 }
 
-h1#logo {
+h1#logo a {
   background: url(../images/thinkshout-id.png) top left no-repeat;
   display: block;
-  width: 250px;
+  width: 220px;
   height: 100px;
-  overflow: hidden;
-  text-indent: -100%;
-  margin: 0; 
+  text-indent: 100%; white-space: nowrap; overflow: hidden;
 }
 
 h1#homeLogo {
@@ -669,9 +667,20 @@ section.intro {
   padding: 3em 0;
 }
 
-section.discovery {
+section.odd {
   padding: 8em 0;
   background: $beige;
+  
+  h2.section-heading {
+  }
+
+  h3 {
+  }
+}
+
+section.even {
+  padding: 8em 0;
+  background: #FFF;
   
   h2.section-heading {
   }
@@ -692,18 +701,6 @@ section.discovery {
 .breakpoints.expanded {
   height: 100%;
   overflow: hidden;
-}
-
-section.strategy {
-  padding: 8em 0;
-
-  h2.section-heading {
-  }
-}
-
-section.development {
-  padding: 8em 0;
-  background: $beige;
 }
 
 section.results {
