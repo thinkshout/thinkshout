@@ -4,5 +4,6 @@ markdown: redcarpet
 pygments: true
 
 baseurl: /thinkshout
+
 # Permalink Configuration
-permalink: /:categories/:title
+permalink: /blog/:year/:month/:title
