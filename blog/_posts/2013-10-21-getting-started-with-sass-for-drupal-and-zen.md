@@ -7,7 +7,9 @@ tags:
 - Drupal
 - theming
 - Drupal Planet
-short: Want to get started using SASS/Compass with Drupal? And fast? This series will give you an introduction to SASS/Compass, plus how get started using it with Drupal right away using the Zen base theme. Welcome to Part 1: Installing and Configuring SASS/Compass.
+
+short: Want to get started using SASS/Compass with Drupal? And fast? This series will give you an introduction to SASS/Compass, plus how get started using it with Drupal right away using the Zen base theme. Welcome to Part 1: Installing and Configuring SASS/Compass
+
 author: candice
 ---
 ## Part 1: Installing and configuring SASS/Compass
