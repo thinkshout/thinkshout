@@ -8,6 +8,9 @@ tags:
 - modules
 - Drupal Planet
 - Drupal Give
+
+short: Historically, the Signup module has been the go-to solution for managing event registrations (i.e., sign-ups) in Drupal. This venerable module has nearly 8000 reported installs, 14 contributors, and a vibrant ecosystem of additional contrib modules (such as Signup Integration for Ubercart). Signup is also a key component of the Conference Organizing Distribution.
+author: lev
 ---
 ## The challenge
 <img src="http://thinkshout.com/sites/default/files/images/inline/ticket-icon.png" style="float: left; margin: 0 10px 10px 0;" />
