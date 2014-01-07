@@ -8,6 +8,8 @@ tags:
 - Drupal Give
 - nonprofit tech
 - events
+short: You are all invited on Monday, May 20th, the first day of DrupalCon Portland, to honor Aaron Winborn's ongoing contributions to the Drupal community and to celebrate Drupal's power to make the world a better place.
+author: sean
 ---
 You are all invited on Monday, May 20th, the first day of [DrupalCon Portland](http://portland2013.drupal.org/), to honor Aaron Winborn's ongoing contributions to the Drupal community and to celebrate Drupal's power to make the world a better place.
 
