@@ -15,5 +15,6 @@ image:
   medium: team/medium/gabe.jpg
   large: team/large/gabe.jpg
 published: true
+name: gabe
 ---
 Gabe is highly experienced in building  custom Salesforce implementations for constituent tracking and fundraising. Before joining ThinkShout, Gabe worked in the nonprofit world at Ecotrust, the Wild Salmon Center, and Immigration Equality. He holds a BA in Computer Science and Theatre from Oberlin College and Gabe really does spend his free time playing Magic: The Gathering in a variety of time zones. 

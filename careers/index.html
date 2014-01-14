@@ -20,6 +20,44 @@ title: Careers
     <div class="row">
       <div class="large-6 columns large-centered">
         <p>At ThinkShout, we pride ourselves on our ability to not only provide web strategy and open source technology to forward-thinking organizations, but we do it with style and a thoughtfulness you won’t find anywhere else.</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="section-rubric">
+      <h3><span>Open Positions</span></h3>
+    </div>
+    <div class="row">
+      <div class="large-6 columns large-centered">
+        {% for post in site.categories.careers %}
+          {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+          {% if thecycle == 'odd' %}
+              <article>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <h2 class="project-title"><a href="{{ post.url }}">{{ post.title}}</a></h2>
+                  </div>
+                </div>
+              </article>
+          {% else %}
+              <article>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <h2 class="project-title"><a href="{{ post.url }}">{{ post.title}}</a></h2>
+                  </div>
+                </div>
+              </article>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="section-rubric">
+      <h3><span>More About Us</span></h3>
+    </div>
+    <div class="row">
+      <div class="large-6 columns large-centered">
         <p>We lead with technical excellence, innovation, and sustainable business practices. We focus on interesting projects that lead to open source contributions serving grassroots organizers and progressive causes. We are maintainers of many popular Drupal tools, such as the MailChimp module, the Salesforce Integration Suite, and RedHen CRM. We’ve got our finger on the pulse of the Drupal community and we are contributing back daily with updates and new tools designed to make everyone’s development process easier.</p>
         <p>Our company vision boils down to a few basic things:
         <ul>
@@ -31,30 +69,6 @@ title: Careers
         </ul>
         <p>We’re pretty convinced that this is the recipe for success. It hasn’t failed us yet.</p>
         <p>Does this sound like the kind of work you can get behind? Are you you a good communicator, committed to excellence? Do you care about these organizations as much as we do? Do you currently reside in or are willing to locate to beautiful Portland, Oregon? If so, we want to talk to you.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="large-12 columns">
-        {% for post in site.categories.careers %}
-          {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-          {% if thecycle == 'odd' %}
-              <article>
-                <div class="row">
-                  <div class="large-6 columns large-centered">
-                    <h2 class="project-title"><a href="{{ post.url }}">{{ post.title}}</a></h2>
-                  </div>
-                </div>
-              </article>
-          {% else %}
-              <article>
-                <div class="row">
-                  <div class="large-6 columns large-centered">
-                    <h2 class="project-title"><a href="{{ post.url }}">{{ post.title}}</a></h2>
-                  </div>
-                </div>
-              </article>
-          {% endif %}
-        {% endfor %}
       </div>
     </div>
   </section>

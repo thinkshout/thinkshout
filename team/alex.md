@@ -14,5 +14,6 @@ image:
   medium: team/medium/alex.jpg
   large: team/large/alex.jpg
 published: true
+name: alex
 ---
-Above all else, Alex wants our clients’ constituents to be inspired by their websites and motivated to take action. At ThinkShout, he gets to do that. With a diverse background in artificial intelligence, existential philosophy, and developmental economics, Alex brings a unique perspective to the team and loves that he gets to apply it to the organizations he works with. Prior to joining ThinkShout, Alex designed and received a BA in Bioinformatics at his alma mater, Connecticut College, and put it to use at Schrödinger developing computational chemistry software.
+Above all else, Alex wants our clients’ constituents to be inspired by their websites and motivated to take action. At ThinkShout, he gets to do just that. With a diverse background in artificial intelligence, existential philosophy, and developmental economics, Alex brings a unique perspective to the team and loves that he gets to apply it to the organizations he works with. Prior to joining ThinkShout, Alex designed and received a BA in Bioinformatics at his alma mater, Connecticut College, and put it to use at Schrödinger developing computational chemistry software.

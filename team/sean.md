@@ -3,7 +3,8 @@ layout: teammember
 first_name: Sean
 last_name: Larkin
 position: Partner - Director of Strategy
-leadin: Sean’s love of the outdoors and passion for open source melded to create a fairly well-balanced geek, but it was his background in nonprofit development that inspired him to create ThinkShout with Lev Tsypin. Now, he leads a team of open source champions, bringing smart technology to the organizations he cares about.
+leadin: |
+  Sean’s love of the outdoors and passion for open source melded to create a fairly well-balanced geek, but it was his background in nonprofit development that inspired him to create ThinkShout with Lev Tsypin. Now, he leads a team of open source champions, bringing smart technology to the organizations he cares about.
 social:
   github: 
   twitter: https://twitter.com/sean_larkin
