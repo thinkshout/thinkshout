@@ -6,6 +6,9 @@ permalink: blog/2009/07/sean/thinkshout-takes-sotomayor-approach-opinionated-tec
 tags:
 - Opinionated Consulting
 - Technology Planning
+
+short: ThinkShout is still largely in the brainstorming phase of our own brand development. Sure, we're busy with client work already, actively solving interesting social media problems for social entrepreneurs - so we don't have a ton of time for navel gazing. But in the evenings, we do get together to discuss what we ultimately want to do with ThinkShout and how we want to carve out our own niche in the social media and web technology business.
+author: sean
 ---
 <p>ThinkShout is still largely in the brainstorming phase of our own brand development. Sure, we're busy with client work already, actively solving interesting social media problems for social entrepreneurs - so we don't have a ton of time for navel gazing. But in the evenings, we do get together to discuss what we ultimately want to do with ThinkShout and how we want to carve out our own niche in the social media and web technology business.</p>
 <p>For the past four or five years I've personally been very interested in doing information technology planning for non-profits and start-ups. To me, <b>information technology planning</b> is defined as a two-step process of:</p>

@@ -8,6 +8,9 @@ tags:
 - Drupal Planet
 - events
 - Drupal Give
+
+short: Recently ThinkShout needed to include an “add to calendar” widget on a client’s event pages, but, to my surprise, no Drupal module existed that fit what I needed. Since this seemed like a relatively common feature, I set out to write my own module to release to the Drupal community.
+author: kyle
 ---
 Recently [ThinkShout](http://thinkshout.com) needed to include an “add to calendar” widget on a client’s event pages, but, to my surprise, no Drupal module existed that fit what I needed. Since this seemed like a relatively common feature, I set out to write my own module to release to the Drupal community.
 

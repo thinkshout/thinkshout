@@ -3,7 +3,9 @@ layout: post
 title: Plenty of Nonprofits, But Not a Single Pirate at BADCamp
 created: 1383030000
 permalink: blog/2013/10/claire-seibert/plenty-nonprofits-not-single-pirate-badcamp
-tags: []
+tags:
+short: When you first hear that you are attending a conference named BADCamp, you can't help but wonder what kind of conference you are attending. Turns out, BADCamp is actually an awesome introduction into the Drupal community and last weekend I was able to attend my first ever BADCamp.
+author: claire
 ---
 When you first hear that you are attending a conference named [BADCamp](http://2013.badcamp.net/), you can't help but wonder what kind of conference you are attending.  Turns out, BADCamp is actually an awesome introduction into the Drupal community and last weekend I was able to attend my first ever BADCamp.
 

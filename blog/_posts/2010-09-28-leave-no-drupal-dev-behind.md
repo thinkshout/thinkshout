@@ -6,6 +6,9 @@ permalink: blog/2010/09/sean/leave-no-drupal-dev-behind
 tags:
 - client relationships
 - Drupal Planet
+
+short: The increased discussion of Drupal engineering certifications concerns me. I question the motivations behind this movement, the efficacy of such certification programs to precisely identify talent within our developer community, and its potentially skewing effects on vendor selection in the the Drupal service provider industry.
+author: sean
 ---
 (In response to http://growingventuresolutions.com/blog/state-drupal-certifications-2010)
 

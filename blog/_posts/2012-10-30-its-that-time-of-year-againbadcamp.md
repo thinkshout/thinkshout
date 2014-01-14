@@ -10,6 +10,8 @@ tags:
 - Nonprofit Summit
 - RedHen
 - Drupal Planet
+short: With a reputation for the largest non-DrupalCon Drupal event in the country, the organizers do not disappoint with a line up that will suit the interests of pretty much every community member in attendance.
+author: betsy
 ---
 ![BADCamp](http://2012.badcamp.net/sites/all/themes/baddercamp/logo.png)
 

@@ -7,6 +7,8 @@ tags:
 - Drupal Planet
 - HowTo
 - PHP
+short: As a Drupal developer, I spend 90% of my time mucking with PHP arrays. And as much as I love a foreach control structure, PHP provides some nice functions that can get you what you need from an array without having to loop through a huge Drupal Node array.
+author: brandon
 ---
 As a Drupal developer, I spend 90% of my time mucking with PHP arrays. And as much as I love a foreach control structure, PHP provides some nice functions that can get you what you need from an array without having to loop through a huge Drupal Node array.
 

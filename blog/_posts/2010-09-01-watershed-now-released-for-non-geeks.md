@@ -5,6 +5,9 @@ created: 1283363186
 permalink: blog/2010/09/sean/watershed-now-released-non-geeks
 tags:
 - Drupal
+
+short: Big day for ThinkShout. Just this morning we released the first, pre-alpha version of Watershed Now!, our free, open source "conservation website in a box" product.
+author: sean
 ---
 Big day for ThinkShout. Just this morning we released the first, pre-alpha version of <a href="http://drupal.org/project/watershednow" target="_blank">Watershed Now!</a>, our free, open source "conservation website in a box" product.
 

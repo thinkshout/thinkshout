@@ -6,6 +6,8 @@ permalink: blog/2013/04/brett-meyer/my-personal-agenda-2013-ntc
 tags:
 - 13ntc
 - conference
+short: I’m in the somewhat novel position of having helped plan the agenda for the 2013 Nonprofit Technology Conference but going as an attendee for the first time -- which is very exciting. People tell me the NTC is the best event of its kind, so I look forward to experiencing it without being pulled in five directions at once.
+author: brett-meyer
 ---
 <p>I’m in the somewhat novel position of having helped plan the agenda for the <a href="http://www.nten.org/ntc">2013 Nonprofit Technology Conference</a> but going as an attendee for the first time -- which is very exciting. People tell me the NTC is the best event of its kind, so I look forward to experiencing it without being pulled in five directions at once.</p>
 

@@ -7,6 +7,9 @@ tags:
 - Drupal
 - Distributions
 - Drupal Planet
+
+short: You can read our non-geek post to learn more about what Watershed Now! does. What Watershed Now! is is a Drupal 6.x installation profile coupled with a few custom modules, a few custom parent-child themes, and some nifty features. We literally just tagged our first 0.1 release of Watershed Now! on GitHub this morning. It's buggy and incomplete - but it's just good enough that we are going to use this tag as the starting point for one of our customers - and in doing so we will drop the cost of development for the site by 300%, while increasing our own profitability on the project.
+author: sean
 ---
 
 Hey geeks, meet <a href="http://drupal.org/project/watershednow" target="_blank">Watershed Now!</a>, our first Drupal distribution.

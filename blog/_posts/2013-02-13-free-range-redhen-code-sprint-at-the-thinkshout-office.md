@@ -11,6 +11,8 @@ tags:
 - CRM
 - Drupal
 - Drupal Planet
+short: With 2013 well underway, we thought it was time to circle up in the office and bust out an open source sprint. Our focus this time was on RedHen, our native Drupal CRM, which is fully open sourced and lives on Drupal.org. In one afternoon, with our team of 8, we were able to give the issue queue some lovin' and also roll the release of RedHen 1.0!
+author: betsy
 ---
 <img src="https://dl.dropbox.com/s/3vsjjgva9gimabh/redhen_logo.png" style="float: right; margin: -10px 0px 10px 15px">With 2013 well underway, we thought it was time to circle up in the office and bust out an open source sprint.  Our focus this time was on [RedHen](http://drupal.org/project/redhen), our [native Drupal CRM](http://thinkshout.com/blog/2012/06/sean/redhen-crm-part-1), which is fully open sourced and lives on Drupal.org.  In one afternoon, with our team of 8, we were able to give the issue queue some lovin' and also roll the release of RedHen 1.0!
 

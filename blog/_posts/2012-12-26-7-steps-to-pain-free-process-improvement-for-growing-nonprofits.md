@@ -8,6 +8,8 @@ tags:
 - process improvement
 - nonprofit tech
 - Drupal Planet
+short: I spent most of my early career as the one-stop technology department for small-to-midsize nonprofits. I have been the first technology employee on more than one occasion -- this means that aside from walking into some chaotic technical situations, I've regularly faced a very common & problematic misunderstanding about whether problems are related to Process or Technology.
+author: gabe
 ---
 I spent most of my early career as the one-stop technology department for small-to-midsize nonprofits. I have been the first technology employee on more than one occasion -- this means that aside from walking into some chaotic technical situations, I've regularly faced a very common & problematic misunderstanding about whether problems are related to Process or Technology.
 

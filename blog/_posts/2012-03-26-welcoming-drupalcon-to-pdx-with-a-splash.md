@@ -7,6 +7,9 @@ tags:
 - Drupal Planet
 - responsive design
 - Drupal Give
+
+short: Probably this single most important announcement at DrupalCon Denver last week (let's face it, the single most important announcement in the universe last week) was that the 2013 DrupalCon will be held in our very own Portland, OR.
+author: sean
 ---
 Probably this single most important announcement at DrupalCon Denver last week (let's face it, the single most important announcement in the universe last week) was that the 2013 DrupalCon will be held in our very own Portland, OR. Forget [Symfony in Drupal 8 core](http://denver2012.drupal.org/program/sessions/drupal-8-meets-symfony2). Forget that dude Luke's [keynote](http://denver2012.drupal.org/keynote/luke-wroblewski). Forget the tall guy with glasses and spiky hair who also did a [keynote](http://denver2012.drupal.org/keynote/dries-buytaert).
 

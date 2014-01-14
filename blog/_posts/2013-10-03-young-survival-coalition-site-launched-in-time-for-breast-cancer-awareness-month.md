@@ -9,6 +9,9 @@ tags:
 - Site Launch
 - Causes
 - Migration
+
+short: October is National Breast Cancer Awareness month, so the timing couldn’t be more right for ThinkShout to officially launch the Young Survival Coalition’s updated site. www.youngsurvival.org
+author: david
 ---
 October is National Breast Cancer Awareness month, so the timing couldn’t be more right for ThinkShout to officially launch the Young Survival Coalition’s updated site. [www.youngsurvival.org](http://www.youngsurvival.org/)
 

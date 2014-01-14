@@ -6,6 +6,9 @@ permalink: blog/2011/11/sean/catching-up
 tags:
 - Drupal Planet
 - ThinkShout
+
+short: Alas, the "we should blog about that" queue is getting pretty heavy here at the office. It's been a busy ten months since Lev and I officially opened the doors here at ThinkShout, Inc. And as we've been talking with developers this month about coming on board with the team, we've realized that we're missing an opportunity to share with the community what's been inspiring us in our own work, as well as in the Drupal community at large.
+author: sean
 ---
 Alas, the "we should blog about that" queue is getting pretty heavy here at the office. It's been a busy ten months since Lev and I officially opened the doors here at ThinkShout, Inc. And as we've been talking with developers this month about coming on board with the team, we've realized that we're missing an opportunity to share with the community what's been inspiring us in our own work, as well as in the Drupal community at large.
 

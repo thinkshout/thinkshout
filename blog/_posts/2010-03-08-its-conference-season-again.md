@@ -6,6 +6,9 @@ permalink: blog/2010/03/sean/its-conference-season-again
 tags:
 - Drupal
 - nonprofit tech
+
+short: Well, it's that time of the year again, conference season! Things are busy here at ThinkShout, but there are just too many good opportunities for us to connect with other social entrepreneurs, technologists, and community activists to stay home. 
+author: sean
 ---
 <p>Well, it's that time of the year again, conference season! Things are busy here at ThinkShout, but there are just too many good opportunities for us to connect with other social entrepreneurs, technologists, and community activists to stay home. So, I've purchased my tickets and will see you at the following conferences:
 <ul>

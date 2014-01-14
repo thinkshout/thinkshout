@@ -3,7 +3,9 @@ layout: post
 title: ThinkShout is hiring...again!
 created: 1319663258
 permalink: blog/2011/10/sean/thinkshout-hiring
-tags: []
+tags: 
+short: We're at it again...our team is growing as we take on more and more exciting Drupal web application development projects. ThinkShout is looking to hire both a senior Drupal engineer and a site-builder with project management skills.
+author: sean
 ---
 Well, we're at it again...our team is growing as we take on more and more exciting Drupal web application development projects. ThinkShout is looking to hire both a **senior Drupal engineer** and a **site-builder with project management skills**.
 
