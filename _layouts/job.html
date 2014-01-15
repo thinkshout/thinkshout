@@ -14,7 +14,9 @@ layout: job
 			</div>
 			<div class="large-9 columns">
 				<h2>{{ page.title }}</h2>
+				{% if page.date %}
 				<p class="meta">{{ page.date | date_to_string }}</p>
+				{% endif %}
 				<p>{{ content }}</p>
 			</div>
 		</div>
