@@ -8,3 +8,5 @@ url: http://thinkshout.com
 
 # Permalink Configuration
 permalink: /blog/:year/:month/:title
+
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'bower.json', '.bowerrc', 'config.rb']
