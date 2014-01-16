@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Front End Engineer
-active: "true"
+active: true
 published: true
 ---
 Front end developers at ThinkShout ensure that every website we ship has a gorgeous, accessible theme. Our front end developers take great pride in their craft and their tools.

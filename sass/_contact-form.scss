@@ -13,6 +13,23 @@
   margin-right: 1em;
 }
 
+input#ss-submit {
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #444;
+  color: #444;
+  font-size: 1.25em;
+  padding: 0.75em 1.5em;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(255, 255, 255, 1);
+  }
+}
 
 input,
 textarea {
