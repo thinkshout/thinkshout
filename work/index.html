@@ -65,7 +65,7 @@ title: Recent Work
     <div class="row">
       <div class="large-10 columns large-centered">        
         <ul>
-          {% for site.data.clients %}
+          {% for client in site.data.clients %}
             <li>{{ client.name }}</li>
           {% endfor %}
         </ul>
