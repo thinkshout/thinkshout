@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>{{ page.title }} | {{ site.title }}</title>
+  <title>{{ page.title }} | {{ site.name }}</title>
   <meta name="viewport" content="width=device-width">
 
   <!-- syntax highlighting CSS -->
@@ -16,11 +16,26 @@
   <script src="{{ site.baseurl}}/bower_components/foundation/js/vendor/custom.modernizr.js"></script>
 
 </head>
-<body class="{{ page.title }} list"> 
+<body class="{{ page.title | downcase }} list">
+  <div class="off-canvas-wrap">
+    <div class="inner-wrap">
+      <!-- Off Canvas Menu -->
+      <aside class="left-off-canvas-menu">
+        <!-- whatever you want goes here -->
+        <ul>
+          <li><a href="#">Item 1</a></li>
+        ...
+        </ul>
+      </aside>
+  
+      <!-- main content goes here -->
+      {% include header.html %}
+      {{ content }}
+      {% include footer.html %}
 
-  {% include header.html %}
-  {{ content }}
-  {% include footer.html %}
+      <a class="exit-off-canvas"></a><!-- close the off-canvas menu -->
+    </div>
+  </div>
 
   <script src="{{ site.baseurl}}/bower_components/foundation/js/vendor/jquery.js"></script>
   <script src="{{ site.baseurl}}/bower_components/foundation/js/vendor/fastclick.js"></script>
