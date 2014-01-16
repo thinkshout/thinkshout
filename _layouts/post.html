@@ -40,10 +40,12 @@ layout: detail
 					</div>
 					<div class="large-3 columns pull-9">
 						<div class="byline">
-							{% for page in site.pages %}
-								{% if page.layout == 'teammember' and page.author == page.name %}
-      				  <h4><a href="{{ site.baseurl }}{{ page.url }}">{{ page.first_name }} {{ page.last_name }}</a></h4>
-								{% endif %}
+							{% for person in site.pages %}
+								{% if person.layout == 'teammember' and page.author == person.name %}
+									<a href="{{ site.baseurl }}{{ person.url }}"><img src="{{ site.baseurl }}/images/{{ person.image.small }}"></a>
+      				  	<h4><a href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a></h4>
+      				  	<p>{{ person.position }}</p>
+      				  {% endif %}
       				{% endfor %}
 						</div>
 					</div>

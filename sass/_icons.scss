@@ -2,8 +2,8 @@
 	font-family: 'ts';
 	src:url('../fonts/ts.eot');
 	src:url('../fonts/ts.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/ts.ttf') format('truetype'),
 		url('../fonts/ts.woff') format('woff'),
+		url('../fonts/ts.ttf') format('truetype'),
 		url('../fonts/ts.svg#ts') format('svg');
 	font-weight: normal;
 	font-style: normal;
@@ -34,4 +34,7 @@
 }
 .icon-tint:before {
 	content: "\e603";
+}
+.icon-reorder:before {
+	content: "\e604";
 }
