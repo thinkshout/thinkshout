@@ -1,47 +1,28 @@
 ---
-layout: job
+layout: default
 ---
-<section class="main">
-	<img src="http://placehold.it/1800x250&text=CATEGORY BANNER">
-	<div class="row" style="margin-top: 2em;">
-		<div class="large-8 columns large-centered">
-			<div class="large-3 columns">
-				<div class="byline">
-					<img src="http://placehold.it/450x450&text=PHOTO">
-					<p class="author"><a href="#">Sean Larkin</a></p>
-					<p class="position"><a href="#">Director of Strategy</a></p>
-				</div>
-			</div>
-			<div class="large-9 columns">
-				<h2>{{ page.title }}</h2>
-				{% if page.date %}
-				<p class="meta">{{ page.date | date_to_string }}</p>
-				{% endif %}
+<div class="content">
+  <div class="hero-image" style="background-image: url('{{ site.baseurl }}/images/marquee/careers.jpg');"></div>
+  <div class="hero">
+    <div class="site-width">
+      <div class="background"></div>
+      <div class="leadin">
+        <h2>{{ page.title }}</h2>
+      </div>
+    </div>
+  </div>
+  <section class="main">
+   	<div class="section-rubric">
+      <h3><span>About This Position</span></h3>
+    </div>
+		<div class="row">
+			<div class="large-7 columns large-centered">
 				<p>{{ content }}</p>
 			</div>
 		</div>
-	</div>
-	<div class="paginator">
-		<div class="blog-nav previous-post">
-			<img src="http://placehold.it/1440x450&text=HERO">
-			<div class="teaser">
-				<h5>Previous Post</h5>
-				<h4><a href="#">Post Title</a></h4>
-				<a class="button overlay" href="#">Read Now</a>
-			</div>
-			<div class="mute"></div>
-		</div>
-		<div class="blog-nav next-post">
-			<img src="http://placehold.it/1440x450&text=HERO">
-			<div class="teaser">
-				<h5>Next Post</h5>
-				<h4><a href="#">Post Title</a></h4>
-				<a class="button overlay" href="#">Read Now</a>
-			</div>
-			<div class="mute"></div>
-		</div>	
-	</div>
-</section>
+	</section>
+</div>
+
 
 
 

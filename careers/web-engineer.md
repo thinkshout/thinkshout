@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Web Engineer
-active: "true"
+active: true
 published: true
 ---
 Web engineers at ThinkShout are responsible for the delivery of world-class open source solutions primarily built with Drupal.

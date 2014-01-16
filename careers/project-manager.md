@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Project Manager
-active: "true"
+active: true
 published: true
 ---
 ###Responsibilities

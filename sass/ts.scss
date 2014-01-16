@@ -5,13 +5,11 @@
 @import "_contact-form";
 @import "_icons.scss";
 
-// Breakpoints
-$mobile: 480px;
-
 html,
 body {
   background: #FFF;
   height: 100%;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 h1.title {
@@ -47,32 +45,60 @@ section {
 // TYPOGRAPHY
 
 
-h5 {
-  color: $orange;
-  text-transform: uppercase;
+// STRUCTURE
+nav#flag {
+  position: fixed;
+  left: 0;
+  right: auto;
+  top: 0;
+  z-index: 2000;
+  margin-top: 25px;
+
+  a#toggle {
+    background: $orange;
+    display: block;
+    float: left;
+    text-align: center;
+    position: relative;
+    color: #FFF;
+    height: 75px;
+    width: 75px;
+    padding: 0.5em;
+  }
+
+  a#branding {
+    background: rgba(255,255,255,0.1);
+    display: block;
+    float: left;
+    text-align: center;
+    position: relative;
+    height: 75px;
+  }
 }
 
-// STRUCTURE
-
 header {
+  position: absolute;
   height: 100px;
-  position: fixed;
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0);
   z-index: 1000;
   top: 0;
   left: 0;
   width: 100%;
-
-  ul {
-    margin: 0;
-    padding: 0;
-    li {
-      display: inline;
-      float: left;
-      list-style: none;
-      a {
-        display: block;
-        padding: 2em 1em;
+  nav#primary-menu {
+    float: right;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline;
+        float: left;
+        list-style: none;
+        a {
+          display: block;
+          padding: 2em 1em;
+          font-size: 1em;
+          text-transform: uppercase;
+        }
       }
     }
   }
@@ -303,6 +329,10 @@ body.list {
     .leadin {
       width: 50%;
       margin: 0 auto;
+      @media screen and (max-width: $mobile) {
+        width: 100%;
+        padding: 0 1em;
+      }
     }
   }
   .hero-image {
@@ -347,7 +377,7 @@ ul.social {
   border-top: 1px solid $beige;
   list-style: none;
   font-size: 2em;
-  margin-bottom: 3em;
+  margin-bottom: 0;
   li {
     display: inline-block;
     padding: 0.5em;
@@ -421,7 +451,7 @@ footer {
     height: 100%;
     text-align: left;
     -webkit-backface-visibility: hidden;
-    @media screen and (max-width: $mobile) {
+    @media screen and (max-width: $tablet) {
       position: relative;
       top: auto; 
       height: 50%;
@@ -434,8 +464,9 @@ footer {
     background-size: cover;
     color: $brown;
     outline: 1px solid #47a3da; /* avoid gap */
-    @media screen and (max-width: $mobile) {
+    @media screen and (max-width: $tablet) {
       width: 100%;
+      height: 600px;
     }
   }
   .side-right {
@@ -443,13 +474,13 @@ footer {
     text-align: left;
     background: #fff;
     outline: 1px solid #fff; /* avoid gap */
-    @media screen and (max-width: $mobile) {
+    @media screen and (max-width: $tablet) {
       width: 100%;
     }
   }
   .intro-content {
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 10%;
     padding: 0 1em;
     width: 80%;
@@ -550,7 +581,7 @@ section.main {}
 }
 
 .home .marquee {
-  background: $orange url('../images/marquee/standup.jpg') no-repeat;
+  background: $orange url('../images/marquee/home.jpg') no-repeat;
   background-position: bottom center;
   background-size: cover;
   height: 100%;

@@ -8,8 +8,7 @@ layout: detail
 	    <div class="intro-content">
 	      <h1>{{ page.first_name }} {{ page.last_name }}</h1>
 	      <h5>{{ page.position }}</h5>
-	      <h4>{{ page.leadin }}</h4>
-	      {{ content }}
+	      <h5>{{ page.leadin }}</h5>
 	      <ul class="social">
 	      	{% if page.social.github %}
 			  		<li><a href="{{ page.social.github }}"><span class="icon-github"></span></a></li>
@@ -24,6 +23,7 @@ layout: detail
 	      		<li><a href="{{ page.social.drupal }}"><span class="icon-tint"></span></a></li>
 	      	{% endif %}	
 	      </ul>
+	      {{ content }}
       	<h3>Recent Blog Posts</h3>
       	{% for post in site.posts %}
 					{% if post.layout == 'post' and post.author == page.name %}
