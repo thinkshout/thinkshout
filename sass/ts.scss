@@ -373,6 +373,7 @@ ul.social {
 .contact {
   padding: 4em 0;
   background: #d5cec3;
+  clear: both;
 }
 
 footer {
@@ -815,4 +816,59 @@ a.button.default {
 .project.teaser.odd {
   background: #FFF;
 }
+
+
+// 
+// FULL WIDTH GRIDS
+//
+
+.fw-grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  width: 100%;
+
+  li {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    padding: 1.5em;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    cursor: pointer;
+    height: 400px;
+    background: $orange;
+    color: #FFF;
+
+    h2 {
+
+    }
+  }
+}
+  
+@media screen and (min-width: 945px) {
+  .fw-grid li {
+    width: 33.3333%; /* Fallback */
+    width: -webkit-calc(100% / 3);
+    width: calc(100% / 3);
+  }
+}
+ 
+@media screen and (max-width: 660px) {
+  .fw-grid li {
+    width: 50%; /* Fallback */
+    width: -webkit-calc(100% / 2);
+    width: calc(100% / 2);
+  }
+}
+  
+@media screen and (max-width: 480px) {
+  .fw-grid li {
+      width: 100%;
+  }
+}
+ 
 

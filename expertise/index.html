@@ -16,18 +16,15 @@ title: Our Expertise
     <div class="section-rubric">
       <h3><span>What We Do</span></h3>
     </div>
-
+    <ul class="fw-grid">
     {% for expertise in site.data.expertise %}
-      <div class="row">
-          <div class="large-4 columns push-2">
-              {{ expertise.image }}
-          </div>
-          <div class="large-4 columns pull-2">
-              <h2>{{ expertise.name }}</h2>
-              <p>{{ expertise.description | markdownify }}</p>
-          </div>
-      </div>
+      <li>
+        <div>
+          <h2>{{ expertise.name }}</h2>
+          <p>{{ expertise.description | markdownify }}</p>
+        </div>
+      </li>
     {% endfor %}
-    
+    </ul>
   </section>
 </div>
