@@ -1,6 +1,8 @@
 @import "compass/css3/border-radius";
 @import "compass/css3/box-shadow";
 @import "compass/css3/transition";
+@import "compass/utilities/general/clearfix";
+@import "compass/css3";
 @import "_base";
 @import "_contact-form";
 @import "_icons.scss";
@@ -436,13 +438,15 @@ footer {
   text-align: left;
 }
 
-/* Team */
-.page-container, 
-.page {
-  display: block;
-  height: 100%;
+//
+// Team
+// 
+.page-container {
+  position: relative;
   width: 100%;
+  height: 1000px;
 }
+
 
 .page {
   position: relative;
@@ -458,13 +462,18 @@ footer {
   }
 }
 .split {
+  position: relative;
+  overflow-x: hidden;
+  min-height: 100%;
+  width: 100%;
   .side {
     position: absolute;
     top: 0;
+    z-index: 100;
     width: 50%;
     height: 100%;
-    text-align: left;
     -webkit-backface-visibility: hidden;
+
     @media screen and (max-width: $tablet) {
       position: relative;
       top: auto; 
