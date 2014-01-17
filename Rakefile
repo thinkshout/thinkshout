@@ -35,6 +35,6 @@ task :publish => [:build] do
     system "git commit -m #{message.shellescape}"
     system "git push origin gh-pages --force"
     system "git checkout master"
-    system "GitHub pages deployment completed."
+    system "echo 'GitHub pages deployment completed.'"
   end
 end
