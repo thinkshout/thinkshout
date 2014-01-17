@@ -1,5 +1,4 @@
 - name: Mobile First Responsive Design
-  image: ""
   description: |
     We strive to build _websites_ that look gorgeous everywhere. Every member of your audience is going to get the same fluid, stunning experience, no matter which platform they use. We always design with “mobile” in mind.
     
@@ -9,41 +8,33 @@
     - Test4
 
 - name: CRM Integration
-  image: ""
   description: |
     As integration specialists, we know how to connect your Drupal site with a wide variety of CRM solutions, such as Salesforce, CiviCRM, and Microsoft Dynamics. As regular contributors to the Salesforce space and probably best known for our work with the MailChimp integration, we know how to make the integration process as seamless as possible.
 
 - name: User Experience
-  image: ""
   description: |
     We understand that your website should be more than a pretty page. It needs to be intuitive, responsive, and most importantly, it needs to compel your audiences to take action. That’s why we make sure the back end is just as user-friendly as the front. We are committed to making your technology work for you as well as the people you’re trying to reach.
 
 - name: Content Strategy
-  image: ""
   description: |
     Your websites needs a message that calls people to action. We encourage our clients to consider content from the perspective of their visitors because your content is only going to be useful if it meets the needs of your audience.
 
 - name: Custom Web Applications
-  image: ""
   description: |
     Sometimes the solution your organization needs isn’t just a website. It might be much more complex with that. We will work with you to identify your needs and build an answer. Let us put our combined development experience to use and show you what we can do.
 
 - name: Online Mapping
-  image: ""
   description: |
     We take pride in our maps and are passionate about leveraging open source technology to develop beautiful, map-driven data visualizations.  We also utilize robust platforms like Leaflet and Mapbox to deliver an engaging, responsive experience
 
 - name: Fundraising Strategy 
-  image: ""
   description: |
     With a collective extensive background in nonprofit development, we understand the importance of fundraising to your organization. At ThinkShout, we work with our clients to identify key fundraising needs and then help build the roadmap that will help get your organization to where it needs to be.
 
 - name: Event and membership management 
-  image: ""
   description: |
     With a collective extensive background in nonprofit development, we understand the importance of fundraising to your organization. At ThinkShout, we work with our clients to identify key fundraising needs and then help build the roadmap that will help get your organization to where it needs to be.
 
 - name: Fundraising Strategy 
-  image: ""
   description: |
     With a collective extensive background in nonprofit development, we understand the importance of fundraising to your organization. At ThinkShout, we work with our clients to identify key fundraising needs and then help build the roadmap that will help get your organization to where it needs to be.
