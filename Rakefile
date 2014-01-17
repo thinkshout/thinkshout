@@ -1,20 +1,26 @@
-require 'rubygems'
-require 'rake'
-require 'rdoc'
-require 'date'
-require 'yaml'
-require 'tmpdir'
-require 'jekyll'
+task :default => :server
 
-desc "Generate blog files"
-task :generate do
-  Jekyll::Site.new(Jekyll.configuration({
-      "source" => ".",
-      "destination" => "_site"
-  })).process
+desc 'Build site with Jekyll'
+task :build do
+  jekyll 'build'
 end
 
-desc "Generate and publish blog to gh-pages"
+desc 'Build and start local server'
+task :server do
+  jekyll 'serve -w --baseurl=""'
+end
+
+desc 'Build and deploy'
+task :deploy => :build do
+  system 'rsync -rtzh --delete _site/ walkah.net:/var/www/walkah.net/'
+end
+
+def jekyll(opts = '')
+  system 'rm -rf _site'
+  system 'jekyll ' + opts
+end
+
+desc "Generate and publish site to gh-pages"
 task :publish => [:generate] do
   Dir.mktmpdir do |tmp|
     system "mv _site/* #{tmp}"
@@ -22,12 +28,10 @@ task :publish => [:generate] do
     system "rm -rf *"
     system "mv #{tmp}/* ."
     message = "Site updated at #{Time.now.utc}"
-    system "git add ."
-    system "git commit -am #{message.shellescape}"
+    system "git add -A"
+    system "git commit -m #{message.shellescape}"
     system "git push origin gh-pages --force"
     system "git checkout master"
-    system "echo yolo"
+    system "GitHub pages deployment completed."
   end
 end
-
-task :default => :publish
