@@ -1,6 +1,7 @@
 ---
 layout: project
-title: Environmental Defense Fund Seafood Selector
+shortname: The Environmental Defense Fund
+title: The Environmental Defense Fund's Seafood Selector
 images:
   hero: work/lac/lac-iphone-in-environment.jpg
   responsive:

@@ -1,6 +1,7 @@
 ---
 layout: project
-title: The Intertwine
+shortname: The Intertwine Alliance
+title: The Intertwine Alliance
 images:
   hero: work/lac/lac-iphone-in-environment.jpg
   responsive:

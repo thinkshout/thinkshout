@@ -1,6 +1,7 @@
 ---
 layout: project
-title: Los Angeles Conservancy
+shortname: LA Conservancy
+title: The Los Angeles Conservancy
 images:
   hero: work/lac/lac-iphone-in-environment.jpg
   responsive:

@@ -1,6 +1,7 @@
 ---
 layout: project
-title: World Wildlife
+shortname: The World Wildlife Fund
+title: The World Wildlife Fund
 images:
   hero: work/lac/lac-iphone-in-environment.jpg
   responsive:
