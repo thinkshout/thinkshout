@@ -6,6 +6,7 @@
 @import "_base";
 @import "_contact-form";
 @import "_icons.scss";
+@import "_layout.scss";
 @import "_navigation.scss";
 
 html,
@@ -21,60 +22,6 @@ h1.title {
   font-weight: 700;
 }
 
-h1#logo a {
-  background: url(../images/thinkshout-id.png) top left no-repeat;
-  display: block;
-  width: 220px;
-  height: 100px;
-  text-indent: 100%; white-space: nowrap; overflow: hidden;
-}
-
-h1#homeLogo {
-  background: url(../images/thinkshout-id-white.png) top left no-repeat;
-  display: block;
-  width: 250px;
-  height: 100px;
-  overflow: hidden;
-  text-indent: -100%;
-  margin: 0 auto;
-}
-
-section {
-  background: #FFF;
-  padding: 8em 0;
-}
-
-
-// TYPOGRAPHY
-
-
-header {
-  position: absolute;
-  height: 100px;
-  background: rgba(255,255,255,0);
-  z-index: 1000;
-  top: 0;
-  left: 0;
-  width: 100%;
-  nav#primary-menu {
-    float: right;
-    ul {
-      margin: 0;
-      padding: 0;
-      li {
-        display: inline;
-        float: left;
-        list-style: none;
-        a {
-          display: block;
-          padding: 2em 1em;
-          font-size: 1em;
-          text-transform: uppercase;
-        }
-      }
-    }
-  }
-}
 .site-width {
   width: 100%;
   padding: 0 1em;
@@ -82,12 +29,6 @@ header {
   clear: left;
   height: 100%;
 }
-
-.row {
-  width: 90%;
-  margin: 0 auto;
-}
-
 
 .background {
   position: absolute;
@@ -125,22 +66,6 @@ header {
     font-weight: 600;
   }
 }
-
-/*
- * Off Canvas Menu Overlays
- */
-
-.left-off-canvas-menu {
-  ul {
-    li {
-      list-style: none;
-      a {
-        color: #FFF;
-      }
-    }
-  }
-}
-
 
 .main {
   position: relative;
@@ -307,6 +232,7 @@ body.list {
     width: 100%;
     z-index: 200;
     background: #FFF;
+    display: table;
   }
   .hero {
     height: 760px;
@@ -393,92 +319,17 @@ footer {
   }
 }
 
-.top-bar {
-  z-index: 1000;
-}
-
-
-.bottom {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 100;
-  width: 100%;
-  height: 100px;
-  background: #FFF;
-  text-align: left;
-}
-
-//
-// Team
 // 
-.page-container {
-  position: relative;
-  width: 100%;
-  height: 1000px;
-}
-
-
-.page {
-  position: relative;
-  overflow: hidden;
-  h2.post-title {
-
-  }
-  .content {
-    text-align: left;
-    max-width: 90em;
-    margin: 0 auto;
-    padding: 1em 1em 0;
-  }
-}
-.split {
-  position: relative;
-  overflow-x: hidden;
-  min-height: 100%;
-  width: 100%;
-  .side {
-    position: absolute;
-    top: 0;
-    z-index: 100;
-    width: 50%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-
-    @media screen and (max-width: $tablet) {
-      position: relative;
-      top: auto; 
-      height: 50%;
-    }
-  }
-  .side-left {
-    left: 0;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: $brown;
-    outline: 1px solid #47a3da; /* avoid gap */
-    @media screen and (max-width: $tablet) {
-      width: 100%;
-      height: 600px;
-    }
-  }
-  .side-right {
-    right: 0;
-    text-align: left;
-    background: #fff;
-    outline: 1px solid #fff; /* avoid gap */
-    @media screen and (max-width: $tablet) {
-      width: 100%;
-    }
-  }
+// EXPERTISE 
+//
+.expertise {
   .intro-content {
     position: absolute;
     top: 15%;
     left: 10%;
     padding: 0 1em;
     width: 80%;
-
+  
     .profile {
       margin: 0 auto;
       width: 250px;
@@ -500,6 +351,16 @@ footer {
     }
   }
 }
+
+//
+// BLOG
+//
+.blog {
+  .side-left {
+    position: fixed;
+  }
+}
+
 
 .marquee {
   position: absolute;
@@ -560,11 +421,7 @@ footer {
   z-index: 200;
 }
 
-.heading {
 
-}
-
-section.main {}
 
 //
 // HOME
@@ -830,18 +687,18 @@ a.button.default {
   width: 100%;
 
   li {
+    display: table;
+    height: 25%;
     position: relative;
     float: left;
     overflow: hidden;
     padding: 1.5em;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: flex;
+    // display: -webkit-flex;
+    // display: -moz-flex;
+    // display: -ms-flex;
+    // display: flex;
     cursor: pointer;
     height: 400px;
-    background: $orange;
-    color: #FFF;
 
     h2 {
 
