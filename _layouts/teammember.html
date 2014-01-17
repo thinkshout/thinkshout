@@ -2,7 +2,7 @@
 layout: detail
 ---
 <div class="page-container">
-	<div class="page split">
+	<div class="split">
 		<div class="side side-left" style="background-image: url('{{ site.baseurl }}/images/{{ page.image.large }}')"></div>
 	  <div class="side side-right">
 	    <div class="intro-content">
@@ -24,17 +24,25 @@ layout: detail
 	      	{% endif %}	
 	      </ul>
 	      {{ content }}
-      	<h3>Recent Blog Posts</h3>
-      	{% for post in site.posts %}
-					{% if post.layout == 'post' and post.author == page.name %}
-      	  <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h4>
-      	  <p>{{ post.date | date: "%B %-d, %Y" }}</p>
-					{% endif %}
-      	{% endfor %}
 	    </div>
 	  </div>
 	</div>
 </div>
+<section class="content-bottom-1">
+	<div class="section-rubric">
+    <h3><span>Recent Blog Posts</span></h3>
+  </div>
+	<div class="row">
+		<div class="large-7 columns large-centered">
+      {% for post in site.posts %}
+				{% if post.layout == 'post' and post.author == page.name %}
+        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h4>
+        <p>{{ post.date | date: "%B %-d, %Y" }}</p>
+				{% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
 <section class="content-bottom-1">
 	<div class="row">
 		<div class="large-10 columns large-centered">
