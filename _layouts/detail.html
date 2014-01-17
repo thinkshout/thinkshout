@@ -17,29 +17,12 @@
 
 </head>
 <body class="{{ page.title | downcase }} detail">
-  <div class="off-canvas-wrap">
-    <div class="inner-wrap">
-      <!-- Off Canvas Menu -->
-      <aside class="left-off-canvas-menu">
-        <!-- whatever you want goes here -->
-        <ul>
-          <li><a href="{{ site.baseurl }}/work">Work</a></li>
-          <li><a href="{{ site.baseurl }}/expertise">Expertise</a></li>
-          <li><a href="{{ site.baseurl }}/team">Team</a></li>
-          <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-          <li><a href="{{ site.baseurl }}/careers">Careers</a></li>
-          <li><a href="{{ site.baseurl }}">Meet RedHen</a></li>
-        </ul>
-      </aside>
-  
-      <!-- main content goes here -->
-      {% include header.html %}
-      {{ content }}
-      {% include footer.html %}
 
-      <a class="exit-off-canvas"></a><!-- close the off-canvas menu -->
-    </div>
-  </div>
+  <!-- main content goes here -->
+  {% include header.html %}
+  {{ content }}
+  {% include footer.html %}
+
 
   <script src="{{ site.baseurl}}/bower_components/foundation/js/vendor/jquery.js"></script>
   <script src="{{ site.baseurl}}/bower_components/foundation/js/vendor/fastclick.js"></script>

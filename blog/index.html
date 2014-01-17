@@ -2,23 +2,19 @@
 layout: detail
 title: Blog 
 ---
-<section class="main">
-  {% for post in site.categories.blog %}
-  <div class="row">
-    <div class="large-8 columns large-centered">
-      <article>
-        <div class="row">
-          <div class="large-4 columns">
-            <img src="http://placehold.it/450x450&text=HERO">
-          </div>
-          <div class="large-8 columns">
-            <div class="project-title"><h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a><h1></div>
-            <p class="content-text">{{post.short}}</p>
-            <a class="button default" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
-          </div>
-        </div>
-      </article>
+<div class="page-container">
+  <div class="split">
+    <div class="side side-left" style="background-image: url('{{ site.baseurl }}/images/blog.jpg')"></div>
+    <div class="side side-right">
+      <div class="intro-content">
+        {% for post in site.categories.blog %}
+        <article>
+          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a><h2>
+          <p class="content-text">{{post.short}}</p>
+          <a class="button default" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+        </article>
+        {% endfor %}
+      </div>
     </div>
   </div>
-  {% endfor %}
-</section>
+</div>
