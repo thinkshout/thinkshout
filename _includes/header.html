@@ -1,8 +1,18 @@
 <header>
-	<nav id="flag">
-		<a class="left-off-canvas-toggle menu-toggle"><span>Menu</span></a>
+	<div id="flag" class="menu-close">
+		<a class="menu-toggle"><span>Menu</span></a>
 		<a id="branding" href="{{ site.baseurl }}">{% include thinkshout-id.html %}</a>
-		<span class="">{{ page.title }}</span>
-	</nav>
+		<div id="title-flag">{{ page.title }}</div>
+		<nav id="primary">
+			<ul>
+		    <li><a href="{{ site.baseurl }}/work">Work</a></li>
+				<li><a href="{{ site.baseurl }}/expertise">Expertise</a></li>
+				<li><a href="{{ site.baseurl }}/team">Team</a></li>
+				<li><a href="{{ site.baseurl }}/careers">Careers</a></li>
+				<li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+				<li><a href="http://redhencrm.com">Meet RedHen</a></li>
+		  </ul>
+		</nav>
+	</div>
 </header>
 

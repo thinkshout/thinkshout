@@ -44,6 +44,33 @@
       @media screen and (max-width: $tablet) {
         width: 100%;
       }
+      .intro-content {
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        padding: 0 1em;
+        width: 80%;
+      
+        .profile {
+          margin: 0 auto;
+          width: 250px;
+          height: 250px;
+          border-radius: 50%;
+          background: #47a3da;
+          img {
+            max-width: 100%;
+            border-radius: 50%;
+            opacity: 1;
+          }
+        }
+        h4 > span {
+          display: block;
+          white-space: nowrap;
+        }
+        h4 > span.position {
+          font-size: 0.65em;
+        }
+      }
     }
   }
 }

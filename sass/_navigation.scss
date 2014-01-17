@@ -1,8 +1,4 @@
-.left-off-canvas-menu {
-	position: fixed;
-}
-
-nav#flag {
+#flag {
   position: fixed;
   left: 0;
   right: auto;
@@ -10,31 +6,19 @@ nav#flag {
   z-index: 2000;
   margin-top: 25px;
 
-  a#toggle {
-    background: $orange;
+  a#branding {
+    background: darken($brown, 25%);
     display: block;
     float: left;
     text-align: center;
     position: relative;
-    color: #FFF;
-    height: 75px;
-    width: 75px;
-    padding: 0.5em;
-  }
-
-  a#branding {
-    background: darken($brown, 20%);
-    display: block;
-    float: left;
-    text-align: center;
-    position: absolute;
-    left: 75px;
     height: 75px;
   }
 }
 
 .menu-toggle {
-	position: absolute;
+	position: relative;
+	float: left;
 	top: 0px;
 	left: 0px;
 	display: block;
@@ -103,15 +87,53 @@ nav#flag {
 	transform: translateY(0) rotate(-45deg);
 }
 
-.left-off-canvas-menu {
+#primary {
+	position: fixed;	
+	top: 100px;	
+	z-index: 2000;
+	background: transparent;
 	ul {
-		margin: 0;
+		margin: 2px 0 0 0;
+		padding: 0;
 		li {
-			border-bottom: 1px dotted #FFF;
+			list-style: none;
+			background: $orange;
+			margin-bottom: 2px;
 			a {
-				padding: 1em;
 				display: block;
+				padding: 1em;
+				color: #FFF;
+				width: 311px;
 			}
 		}
 	}
+}
+
+.menu-open #primary {
+	display: block;
+	opacity: 1;	
+	@include transition-property(all);
+  @include transition-duration(1s);
+}
+
+.menu-close #primary {
+	display: none;
+	opacity: 0;
+}
+
+#title-flag {
+	display: block;
+	height: 75px;
+	margin-left: 311px;
+	padding: 0 25px;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+	background: darken($brown, 20%);
+	border-left: 1px solid lighten($brown, 5%);
+	text-align: center;
+	float: left;
+	margin: 0;
+	line-height: 75px;
+	color: $orange;
 }

@@ -75,7 +75,7 @@ h1.title {
 /*
  * HOME
  */
-body.home {
+body.welcome {
   #container {
     height: 100%;
   }
@@ -286,10 +286,10 @@ body.detail .main {
 }
 
 ul.social {
-  border-top: 1px solid $beige;
   list-style: none;
   font-size: 2em;
   margin-bottom: 0;
+  margin-left: -2em;
   li {
     display: inline-block;
     padding: 0.5em;
@@ -322,41 +322,14 @@ footer {
 // 
 // EXPERTISE 
 //
-.expertise {
-  .intro-content {
-    position: absolute;
-    top: 15%;
-    left: 10%;
-    padding: 0 1em;
-    width: 80%;
-  
-    .profile {
-      margin: 0 auto;
-      width: 250px;
-      height: 250px;
-      border-radius: 50%;
-      background: #47a3da;
-      img {
-        max-width: 100%;
-        border-radius: 50%;
-        opacity: 1;
-      }
-    }
-    h4 > span {
-      display: block;
-      white-space: nowrap;
-    }
-    h4 > span.position {
-      font-size: 0.65em;
-    }
-  }
-}
+
+
 
 //
 // BLOG
 //
 .blog {
-  .side-left {
+  .page-container .split .side.side-left {
     position: fixed;
   }
 }
@@ -426,12 +399,12 @@ footer {
 //
 // HOME
 //
-.home header {
+.welcome header {
   background: transparent;
   position: absolute;
 }
 
-.home .marquee {
+.welcome .marquee {
   background: $orange url('../images/marquee/home.jpg') no-repeat;
   background-position: bottom center;
   background-size: cover;
