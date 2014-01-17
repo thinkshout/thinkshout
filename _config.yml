@@ -10,3 +10,6 @@ url: http://thinkshout.com
 permalink: /blog/:year/:month/:title
 
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'bower.json', '.bowerrc', 'config.rb', 'sass']
+
+# Team directory used by the data_to_pages plugin.
+team_dir: 'team'
