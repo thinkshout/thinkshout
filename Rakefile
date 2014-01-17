@@ -1,3 +1,11 @@
+require 'rubygems'
+require 'rake'
+require 'rdoc'
+require 'date'
+require 'yaml'
+require 'tmpdir'
+require 'jekyll'
+
 task :default => :server
 
 desc 'Build site with Jekyll'
