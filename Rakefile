@@ -14,7 +14,7 @@ task :build do
 end
 
 desc 'Build and start local server'
-task :server do
+task :serve do
   jekyll 'serve -w --baseurl=""'
 end
 
