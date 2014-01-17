@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }} | {{ site.name }}</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/stylesheets/syntax.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl}}/stylesheets/app.css" />
+  <link rel="stylesheet" href="{{ site.baseurl}}/stylesheets/ts.css" />
+  <script src="{{ site.baseurl}}/bower_components/foundation/js/vendor/custom.modernizr.js"></script>
+
+</head>
+<body class="{{ page.title | downcase }} list">
+  <div class="off-canvas-wrap">
+    <div class="inner-wrap">
+      <!-- Off Canvas Menu -->
+      <aside class="left-off-canvas-menu">
+        <!-- whatever you want goes here -->
+        <ul>
+          <li><a href="{{ site.baseurl }}/work">Work</a></li>
+          <li><a href="{{ site.baseurl }}/expertise">Expertise</a></li>
+          <li><a href="{{ site.baseurl }}/team">Team</a></li>
+          <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+          <li><a href="{{ site.baseurl }}/careers">Careers</a></li>
+          <li><a href="{{ site.baseurl }}">Meet RedHen</a></li>
+          <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+        </ul>
+      </aside>
+  
+      <!-- main content goes here -->
+      {% include header.html %}
+      {{ content }}
+      {% include footer-contact.html %}
+
+      <a class="exit-off-canvas"></a><!-- close the off-canvas menu -->
+    </div>
+  </div>
+
+  <script src="{{ site.baseurl}}/bower_components/foundation/js/vendor/jquery.js"></script>
+  <script src="{{ site.baseurl}}/bower_components/foundation/js/vendor/fastclick.js"></script>
+  <script src="{{ site.baseurl}}/bower_components/foundation/js/foundation.min.js"></script>
+
+  <!--<script src="{{ site.baseurl}}/javascripts/contrib/imagesloaded.js"></script>-->
+  <!--<script src="{{ site.baseurl}}/javascripts/contrib/classie.js"></script>-->
+  <!--<script src="{{ site.baseurl}}/javascripts/contrib/AnimOnScroll.js"></script>-->
+  
+  <script>
+  $(document).foundation();
+  // new AnimOnScroll( document.getElementById( 'grid' ), {
+  //   minDuration : 0.4,
+  //   maxDuration : 0.7,
+  //   viewportFactor : 0.2
+  // } );
+  </script>
+</body>
+</html>
+
