@@ -1,6 +1,7 @@
 ---
 layout: project
-title: RidePDW
+shortname: Portland Design Works
+title: Portland Design Works
 images:
   hero: work/lac/lac-iphone-in-environment.jpg
   responsive:

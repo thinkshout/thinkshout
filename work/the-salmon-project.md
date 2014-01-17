@@ -1,5 +1,6 @@
 ---
 layout: project
+shortname: The Salmon Project
 title: The Salmon Project
 images:
   hero: work/lac/lac-iphone-in-environment.jpg

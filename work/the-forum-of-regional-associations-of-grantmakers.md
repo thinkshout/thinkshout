@@ -1,5 +1,6 @@
 ---
 layout: project
+shortname: Giving Forum
 title: The Forum of Regional Associations of Grantmakers
 images:
   hero: work/lac/lac-iphone-in-environment.jpg

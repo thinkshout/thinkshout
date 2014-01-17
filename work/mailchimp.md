@@ -1,6 +1,7 @@
 ---
 layout: project
-title: MailChimp
+shortname: MailChimp
+title: The MailChimp Module
 images:
   hero: work/lac/lac-iphone-in-environment.jpg
   responsive:

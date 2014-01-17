@@ -1,6 +1,7 @@
 ---
 layout: project
-title: MicroMentor
+shortname: Mercy Corps
+title: Mercy Corps' MicroMentor Program
 images:
   hero: work/lac/lac-iphone-in-environment.jpg
   responsive:
