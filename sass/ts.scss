@@ -6,6 +6,7 @@
 @import "_base";
 @import "_contact-form";
 @import "_icons.scss";
+@import "_navigation.scss";
 
 html,
 body {
@@ -46,37 +47,6 @@ section {
 
 // TYPOGRAPHY
 
-
-// STRUCTURE
-nav#flag {
-  position: fixed;
-  left: 0;
-  right: auto;
-  top: 0;
-  z-index: 2000;
-  margin-top: 25px;
-
-  a#toggle {
-    background: $orange;
-    display: block;
-    float: left;
-    text-align: center;
-    position: relative;
-    color: #FFF;
-    height: 75px;
-    width: 75px;
-    padding: 0.5em;
-  }
-
-  a#branding {
-    background: rgba(255,255,255,0.1);
-    display: block;
-    float: left;
-    text-align: center;
-    position: relative;
-    height: 75px;
-  }
-}
 
 header {
   position: absolute;
