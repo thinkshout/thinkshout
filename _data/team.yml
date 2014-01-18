@@ -1,0 +1,226 @@
+- first_name: Lev
+  last_name: Tsypin
+  position: Partner - Director of Engineering
+  leadin: |
+    As a leader in open source, Lev co-founded ThinkShout with the goal of bringing sustainable technology to organizations working for change. Now, he leads a diverse team of forward-thinking creators, helping our clients achieve their goals through innovation and technical excellence.
+  social:
+    github: https://github.com/levelos
+    twitter: https://twitter.com/levelos
+    linkedin: http://www.linkedin.com/in/levtsypin
+    drupal: https://drupal.org/user/54135
+  image:
+    small: team/small/lev.jpg
+    medium: team/medium/lev.jpg
+    large: team/large/lev.jpg
+  published: true
+  name: lev
+  bio: |
+    With over twelve years of experience in technical architecture, user interface, and module development, Lev is integral to ThinkShout’s development process. It’s the organizations we work with that inspire him to constantly improve on existing practices and the technology in place, making it accessible to those who need it. He previously worked as a consultant with Computer Sciences Corporation (CSC) and Inforte Corporation in Chicago and also spent a few years as the Director of Programming at Pop Art, Inc. He holds a bachelors degree in business administration (BBA) and political science from the University of Wisconsin-Madison. Before ThinkShout, Lev ran the highly-respected consultancy, Level Online Strategy, here in Portland, OR. Now he spends his off hours keeping busy with his two boys.
+
+- first_name: Sean
+  last_name: Larkin
+  position: Partner - Director of Strategy
+  leadin: |
+    Sean’s love of the outdoors and passion for open source melded to create a fairly well-balanced geek, but it was his background in nonprofit development that inspired him to create ThinkShout with Lev Tsypin. Now, he leads a team of open source champions, bringing smart technology to the organizations he cares about.
+  social:
+    github:
+    twitter: https://twitter.com/sean_larkin
+    linkedin: http://www.linkedin.com/in/rseanlarkin
+    drupal: https://drupal.org/user/54109
+  image:
+    small: team/small/sean.jpg
+    medium: team/medium/sean.jpg
+    large: team/large/sean.jpg
+  published: true
+  name: sean
+  bio: |
+    Sean spent the last ten years working with some of the best talent in the Drupal Community, providing technical consulting services and developing a wide array of leadership skills. He understands our clients better than most, well-versed in fundraising strategy and implementation. He thrives off building relationships with the organizations we serve, always looking for innovative, inspiring solutions through new technology. He’s worked with environmental groups worldwide in a leadership role, managed two open source software consultancies rooted in Drupal development, and has led national community organizing initiatives and international relief projects. Sean holds a master’s degree in Public Administration (MPA) from Syracuse University’s Maxwell School. In the off hours, he can usually be found somewhere near a river, getting in touch with nature.
+
+- first_name: Betsy
+  last_name: Ensley
+  position: Director of Professional Services
+  leadin: |
+    A driving force behind ThinkShout’s operations, Betsy ensures that we deliver on our promises to our valued clients. She spends most of her time developing efficient systems to help us focus on what we do best: collaborating with clients to create streamlined solutions using open source technology. She also loves puzzles.
+  social:
+    github:
+    twitter: https://twitter.com/BetsyEnsley
+    linkedin: http://www.linkedin.com/in/betsyensley
+    drupal: https://drupal.org/user/1062976
+  image:
+    small: team/small/betsy.jpg
+    medium: team/medium/betsy.jpg
+    large: team/large/betsy.jpg
+  published: true
+  name: betsy
+  bio: |
+    Betsy’s dedication to excellence helps us maintain lasting, meaningful relationships with our clients, ensuring that the solutions we create are the best they can be. Prior to coming to ThinkShout, Betsy was the Marketing Director at Phase2 Technology. Betsy previously managed advocacy websites for Scenic America, Environmental Media Services and MoveOn.org. Betsy holds an MBA from Kenan-Flagler Business School at University of North Carolina at Chapel Hill, where she focused her studies on Entrepreneurship and Sustainable Enterprise and consulted for Burt’s Bees and TransFair, Inc. Her undergraduate degree is from the University of Iowa.
+
+- first_name: Alex
+  last_name: Ellison
+  position: Software Engineer
+  leadin: |
+    Alex strives to build a better user experience for the organizations we serve by combining his passion for the humanities with his skill as a code builder. On weekends, he can usually be found playing ice hockey. Last we checked, he still had all his teeth.
+  social:
+    github: https://github.com/caxy4
+    twitter: https://twitter.com/caxy4
+    linkedin: http://www.linkedin.com/profile/view?id=72923139
+  image:
+    small: team/small/alex.jpg
+    medium: team/medium/alex.jpg
+    large: team/large/alex.jpg
+  published: true
+  name: alex
+  bio: |
+    Above all else, Alex wants our clients’ constituents to be inspired by their websites and motivated to take action. At ThinkShout, he gets to do just that. With a diverse background in artificial intelligence, existential philosophy, and developmental economics, Alex brings a unique perspective to the team and loves that he gets to apply it to the organizations he works with. Prior to joining ThinkShout, Alex designed and received a BA in Bioinformatics at his alma mater, Connecticut College, and put it to use at Schrödinger developing computational chemistry software.
+
+- first_name: Brandon
+  last_name: Lee
+  position: Senior Engineer
+  leadin: |
+    Brandon’s never been a big fan of submarines. We don’t know why, but we do know that he comes to us with an extensive background in Drupal development, web development in general, and a commitment to putting his skills to use for worthwhile organizations. That’s what matters most, right?
+  social:
+    github: https://github.com/bleeDev
+    twitter: https://twitter.com/bleedev
+    linkedin: http://www.linkedin.com/pub/brandon-lee/7/324/370
+    drupal: https://drupal.org/user/1457094
+  image:
+    small: team/small/brandon.jpg
+    medium: team/medium/brandon.jpg
+    large: team/large/brandon.jpg
+  published: true
+  name: brandon
+  bio: |
+    Brandon joined the ThinkShout team in an effort to be part of a community of developers with a passion for open source technology and a dedication to best practices. He brings ten years of experience in enterprise software development to the team and we’re excited to have him on our roster. Prior to joining ThinkShout, Brandon was building a television content distribution system for Portland Community Media. Now that Brandon is good and settled here in Portland, he’s focusing on raising a family with his wife. He considers himself a full-time dad.
+
+- first_name: Brett
+  last_name: Heckman
+  position: User Experience Engineer
+  leadin: |
+    Brett is obsessed with details and tackles his work with a passion for creating a memorable and engaging user experience. His talent for design is remarkable, but it’s his ability to get to the heart of what our clients need that is truly impressive.
+  social:
+    github:
+    twitter: https://twitter.com/brett_meyer
+    linkedin: http://www.linkedin.com/pub/brett-meyer/7/976/930
+    drupal:
+  image:
+    small: team/small/brett.jpg
+    medium: team/medium/brett.jpg
+    large: team/large/brett.jpg
+  published: true
+  name: brett
+  bio: |
+    Prior to joining ThinkShout, Brett was a Production Director at Wardenclyffe, a design and development agency based in New York. Brett worked with clients on high-end fashion and entertainment brands, and his appreciation for mission-based organizations finally led him to ThinkShout.  Here, he gets to utilize his skills for worthy causes, bringing that same high-fashion standard of excellence to our clients. Brett also previously worked at OpenSourcery, a Portland-based web development firm, as a User Experience Developer. After taking off for the day, you’ll often find Brett playing guitar, spending time with his family and two dogs, Gus and Waylon, or building things out of wood.
+
+- first_name: Brett
+  last_name: Meyer
+  position: Content Strategist/Project Manager
+  leadin: |
+    It was a stint in the Peace Corps that eventually drove Brett to the nonprofit world, inspiring him to bring technology to cause-oriented organizations and become the content strategist that he is today. Now he’s settled in at ThinkShout, helping organizations develop their strategies and incite positive change.
+  social:
+    github:
+    twitter: https://twitter.com/brett_meyer
+    linkedin: http://www.linkedin.com/pub/brett-meyer/7/976/930
+    drupal:
+  image:
+    small: team/small/brettmeyer.jpg
+    medium: team/medium/brettmeyer.jpg
+    large: team/large/brettmeyer.jpg
+  published: true
+  name: brett-meyer
+  bio: |
+    Brett thrives off projects that allow him to utilize his skills as a communicator and he loves applying his expertise to the nonprofits that need help marketing their message. His passion for bringing technology to mission-minded organizations eventually brought him to ThinkShout, where he now helps build the applications and sites they need to be agents of change. Before that, Brett served as Communications Director at the Nonprofit Technology Network (NTEN), for six years, helping grow NTEN’s community from a few thousand to over 50,000 engaged participants. Brett has been an active member of the development community since the creation of his first site with an emphasis on project management, user experience, and analytics. He’s also the only person in the office to have worked at a radio station in West Africa.
+
+- first_name: Claire
+  last_name: Seibert
+  position: Project Coordinator
+  leadin: |
+    Bringing order to potential chaos, Claire keeps us on task and under budget while ensuring our clients’ needs are met on all levels.  She loves working through complex projects with clients committed to social change and is never left wanting for deadlines.
+  social:
+    github: https://github.com/CBSwifts
+    twitter:
+    linkedin: http://www.linkedin.com/in/mcseibert/
+    drupal:
+  image:
+    small: team/small/claire.jpg
+    medium: team/medium/claire.jpg
+    large: team/large/claire.jpg
+  published: true
+  name: claire
+  bio: |
+    Claire puts the “management” in project management and lives to perfect systems while maximizing efficiency. Her active involvement in the Portland nonprofit sector brought her to ThinkShout, where she could help provide progressive organizations with sustainable technology. Prior to joining us, Claire implemented and project managed speciality coffee programs for national private label companies throughout the country at Coffee Bean International. A Portland native, she received her Project Management Certificate at Portland State University and has a BA in Education from the University of Oregon. We have an immense respect for her extensive knowledge of coffee.
+
+- first_name: David
+  last_name: Lanier
+  position: Software Engineer
+  leadin: |
+    After fifteen years of developing websites for mission-minded organizations, David has developed what we think is a pretty excellent background with our clientele. He understands open source software and the organizations we serve. He also throws a mean boomerang, so we try not to make him mad.
+  social:
+  github: https://github.com/nadavoid
+  twitter: https://twitter.com/nadavoid
+  linkedin: http://www.linkedin.com/in/davidlanier/
+  drupal: https://drupal.org/user/89512
+  image:
+  small: team/small/david.jpg
+  medium: team/medium/david.jpg
+  large: team/large/david.jpg
+  published: true
+  name: david
+  bio: |
+    A graduate of West Texas A&M University, David most recently worked to develop seamless eCommerce integration for distinct Drupal 7 and Drupal 6 sites for AllPlayers.com, a provider of technology to more than 100,000 national and local community users. Prior to that, he served as the Director of Web Development at Blue Tent Marketing, where he refined the best practices of their internal development team. David continues to be committed to open source and strives to develop sustainable websites for our nonprofit clients. When he’s not busy coding, he’s learning how to play the cello or throwing a boomerang.
+
+- first_name: Gabe
+  last_name: Carlton-Barnes
+  position: Software Engineer
+  leadin: |
+    Gabe’s not only a Magic: The Gathering champion -- he’s a champion for our Salesforce integrations and open source contributions. His experience in streamlining processes for nonprofits drew him to ThinkShout, where he could apply his skills and do some good for the world at the same time.
+  social:
+    github: https://github.com/unclegcb
+    twitter: https://twitter.com/uncle_gcb
+    linkedin: http://www.linkedin.com/profile/view?id=22889597
+    drupal: https://drupal.org/user/1682976
+  image:
+    small: team/small/gabe.jog
+    medium: team/medium/gabe.jpg
+    large: team/large/gabe.jpg
+  published: true
+  name: gabe
+  bio: |
+    Gabe is highly experienced in building  custom Salesforce implementations for constituent tracking and fundraising. Before joining ThinkShout, Gabe worked in the nonprofit world at Ecotrust, the Wild Salmon Center, and Immigration Equality. He holds a BA in Computer Science and Theatre from Oberlin College and Gabe really does spend his free time playing Magic: The Gathering in a variety of time zones.
+
+- first_name: Stephanie
+  last_name: Gutowski
+  position: Special Projects Coordinator
+  leadin: |
+    Stephanie knows firsthand the problems organizations like yours face when it comes to getting the technology they need. She loves being part of the solution at ThinkShout. She also loves video games.
+  social:
+    github:
+    twitter:
+    linkedin:
+    drupal:
+  image:
+    small: team/small/stephanie.jpg
+    medium: team/medium/stephanie.jpg
+    large: team/large/stephanie.jpg
+  published: true
+  name: stephanie
+  bio: |
+    With a background in nonprofit development, Stephanie knows all too well that keeping your technology up to date and accessible to your constituents isn’t always a priority when dealing with a tight budget. She also has some great tips on how to operate lean while still getting results.  Stephanie has a BA from Gonzaga University and spent a few years in freelance video production and content editing for independent online press. She eventually found herself in the nonprofit world, spearheading a social media campaign and communications plan for Families Forward in Southern California. Through this, Stephanie developed a great appreciation for open source tools that help nonprofits better engage their constituents and she continues to be an advocate for nonprofit technology.
+
+- first_name: Tauno
+  last_name: Hogue
+  position: Lead Developer
+  leadin: |
+    Tauno is a technical idealist with over twelve years of web development experience and a strong love for nonprofits. He brings a wealth of expertise to the table and leads by example, tackling each project with earnest fervor and a commitment to excellence.
+  social:
+    github: https://github.com/tauno
+    twitter:
+    linkedin: http://www.linkedin.com/in/taunohogue
+    drupal: https://drupal.org/user/105595
+  image:
+    small: team/small/tauno.jpg
+    medium: team/medium/tauno.jpg
+    large: team/large/tauno.jpg
+  published: true
+  name: tauno
+  bio: |
+    Tauno has the technical knowledge and genuine passion for nonprofits that we look for in a ThinkShout team leader. Naturally, he fits right in here. He sets the bar high and tackles each new challenge with positivity and a thoughtfulness that’s downright contagious. Prior to ThinkShout, Tauno worked at the University of Oregon, where he contributed to the development of a complex Drupal-based online learning platform for language teachers. He holds a degree in Natural Resources Planning & Interpretation and continues to pursue his passion for the outdoors by spending a great deal of his free time neck-deep in nature.
