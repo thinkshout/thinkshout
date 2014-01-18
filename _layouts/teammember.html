@@ -24,13 +24,15 @@ layout: detail
 	      	{% endif %}	
 	      </ul>
 	      {{ content }}
-	      <h4>Recent Blog Posts</h4>
-	    	{% for post in site.posts %}
-					{% if post.layout == 'post' and post.author == page.person.name %}
-      	  <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h4>
-      	  <p>{{ post.date | date: "%B %-d, %Y" }}</p>
-					{% endif %}
-      	{% endfor %}
+	      <div class="team-blog">
+	      	<h4>Recent Blog Posts</h4>
+	    		{% for post in site.posts %}
+						{% if post.layout == 'post' and post.author == page.name %}
+      		  <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h5>
+      		  <p>{{ post.date | date: "%B %-d, %Y" }}</p>
+						{% endif %}
+      		{% endfor %}
+      	</div>
 	    </div>
 	  </div>
 	</div>
@@ -54,14 +56,3 @@ layout: detail
 			</div>
 		</div>
 </section>
-
-
-			  	{% for post in site.categories.careers limit:1 %}
-						{% capture openings %}{{ post.active }}{% endcapture %}
-					  {% if post.active == "true" %}
-					  	<div id="careers-block">
-					  		<h2>Want to Work at ThinkShout?</h2>
-					    	<a class="button overlay" href="{{ site.baseurl }}/careers">Learn More</a>
-					    </div>
-					  {% endif %}
-					{% endfor %}
