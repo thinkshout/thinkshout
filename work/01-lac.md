@@ -36,6 +36,5 @@ results:
   bullet3: 186 events registered since launch
 featured: true
 published: true
+permalink: la-conservancy/
 ---
-
-
