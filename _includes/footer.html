@@ -12,13 +12,10 @@
 	<div class="row">
 		<div class="large-5 columns push-1">
 			<ul>
-	      <li><a href="{{ site.baseurl }}/work">Work</a></li>
-				<li><a href="{{ site.baseurl }}/expertise">Expertise</a></li>
-				<li><a href="{{ site.baseurl }}/team">Team</a></li>
-				<li><a href="{{ site.baseurl }}/careers">Careers</a></li>
-				<li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-				<li><a href="http://redhencrm.com">Meet RedHen</a></li>
-	    </ul>
+				{% for link in site.data.menu %}
+		    <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+				{% endfor %}
+		  </ul>
 		</div>
 		<div class="large-5 columns pull-1">
 

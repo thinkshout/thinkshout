@@ -5,12 +5,9 @@
 		<div id="title-flag">{{ page.title }}</div>
 		<nav id="primary">
 			<ul>
-		    <li><a href="{{ site.baseurl }}/work">Work</a></li>
-				<li><a href="{{ site.baseurl }}/expertise">Expertise</a></li>
-				<li><a href="{{ site.baseurl }}/team">Team</a></li>
-				<li><a href="{{ site.baseurl }}/careers">Careers</a></li>
-				<li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-				<li><a href="http://redhencrm.com">Meet RedHen</a></li>
+				{% for link in site.data.menu %}
+		    <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+				{% endfor %}
 		  </ul>
 		</nav>
 	</div>
