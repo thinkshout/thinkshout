@@ -55,6 +55,25 @@
   bio: |
     Betsy’s dedication to excellence helps us maintain lasting, meaningful relationships with our clients, ensuring that the solutions we create are the best they can be. Prior to coming to ThinkShout, Betsy was the Marketing Director at Phase2 Technology. Betsy previously managed advocacy websites for Scenic America, Environmental Media Services and MoveOn.org. Betsy holds an MBA from Kenan-Flagler Business School at University of North Carolina at Chapel Hill, where she focused her studies on Entrepreneurship and Sustainable Enterprise and consulted for Burt’s Bees and TransFair, Inc. Her undergraduate degree is from the University of Iowa.
 
+- first_name: Tauno
+  last_name: Hogue
+  position: Lead Developer
+  leadin: |
+    Tauno is a technical idealist with over twelve years of web development experience and a strong love for nonprofits. He brings a wealth of expertise to the table and leads by example, tackling each project with earnest fervor and a commitment to excellence.
+  social:
+    github: https://github.com/tauno
+    twitter:
+    linkedin: http://www.linkedin.com/in/taunohogue
+    drupal: https://drupal.org/user/105595
+  image:
+    small: team/small/tauno.jpg
+    medium: team/medium/tauno.jpg
+    large: team/large/tauno.jpg
+  published: true
+  name: tauno
+  bio: |
+    Tauno has the technical knowledge and genuine passion for nonprofits that we look for in a ThinkShout team leader. Naturally, he fits right in here. He sets the bar high and tackles each new challenge with positivity and a thoughtfulness that’s downright contagious. Prior to ThinkShout, Tauno worked at the University of Oregon, where he contributed to the development of a complex Drupal-based online learning platform for language teachers. He holds a degree in Natural Resources Planning & Interpretation and continues to pursue his passion for the outdoors by spending a great deal of his free time neck-deep in nature.
+
 - first_name: Alex
   last_name: Ellison
   position: Software Engineer
@@ -155,14 +174,14 @@
   leadin: |
     After fifteen years of developing websites for mission-minded organizations, David has developed what we think is a pretty excellent background with our clientele. He understands open source software and the organizations we serve. He also throws a mean boomerang, so we try not to make him mad.
   social:
-  github: https://github.com/nadavoid
-  twitter: https://twitter.com/nadavoid
-  linkedin: http://www.linkedin.com/in/davidlanier/
-  drupal: https://drupal.org/user/89512
+    github: https://github.com/nadavoid
+    twitter: https://twitter.com/nadavoid
+    linkedin: http://www.linkedin.com/in/davidlanier/
+    drupal: https://drupal.org/user/89512
   image:
-  small: team/small/david.jpg
-  medium: team/medium/david.jpg
-  large: team/large/david.jpg
+    small: team/small/david.jpg
+    medium: team/medium/david.jpg
+    large: team/large/david.jpg
   published: true
   name: david
   bio: |
@@ -205,22 +224,3 @@
   name: stephanie
   bio: |
     With a background in nonprofit development, Stephanie knows all too well that keeping your technology up to date and accessible to your constituents isn’t always a priority when dealing with a tight budget. She also has some great tips on how to operate lean while still getting results.  Stephanie has a BA from Gonzaga University and spent a few years in freelance video production and content editing for independent online press. She eventually found herself in the nonprofit world, spearheading a social media campaign and communications plan for Families Forward in Southern California. Through this, Stephanie developed a great appreciation for open source tools that help nonprofits better engage their constituents and she continues to be an advocate for nonprofit technology.
-
-- first_name: Tauno
-  last_name: Hogue
-  position: Lead Developer
-  leadin: |
-    Tauno is a technical idealist with over twelve years of web development experience and a strong love for nonprofits. He brings a wealth of expertise to the table and leads by example, tackling each project with earnest fervor and a commitment to excellence.
-  social:
-    github: https://github.com/tauno
-    twitter:
-    linkedin: http://www.linkedin.com/in/taunohogue
-    drupal: https://drupal.org/user/105595
-  image:
-    small: team/small/tauno.jpg
-    medium: team/medium/tauno.jpg
-    large: team/large/tauno.jpg
-  published: true
-  name: tauno
-  bio: |
-    Tauno has the technical knowledge and genuine passion for nonprofits that we look for in a ThinkShout team leader. Naturally, he fits right in here. He sets the bar high and tackles each new challenge with positivity and a thoughtfulness that’s downright contagious. Prior to ThinkShout, Tauno worked at the University of Oregon, where he contributed to the development of a complex Drupal-based online learning platform for language teachers. He holds a degree in Natural Resources Planning & Interpretation and continues to pursue his passion for the outdoors by spending a great deal of his free time neck-deep in nature.
