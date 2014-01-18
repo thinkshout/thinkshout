@@ -2,6 +2,7 @@
 layout: detail
 ---
 <div class="page-container">
+
   <div class="split">
     <div class="side side-left" style="background-image: url('{{ site.baseurl }}/images/{{ page.person.image.large }}')"></div>
     <div class="side side-right">
@@ -32,47 +33,38 @@ layout: detail
           {% endif %}
         </ul>
         {{ content }}
-        <h4>Recent Blog Posts</h4>
-        {% for post in site.posts %}
-        {% if post.layout == 'post' and post.author == page.person.name %}
-        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h4>
+        <div class="team-blog">
+          <h4>Recent Blog Posts</h4>
+          {% for post in site.posts %}
+          {% if post.layout == 'post' and post.author == page.person.name %}
+          <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
+          </h5>
 
-        <p>{{ post.date | date: "%B %-d, %Y" }}</p>
-        {% endif %}
-        {% endfor %}
+          <p>{{ post.date | date: "%B %-d, %Y" }}</p>
+          {% endif %}
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
 </div>
+
 <section class="content-bottom-1">
   <div class="row">
     <div class="large-12 columns">
       <ul class="team large-block-grid-4 medium-block-grid-2">
-        {% for page in site.pages %}
-        {% if page.layout == 'teammember' %}
+        {% for person in site.data.team %}
         <li>
           <article>
-            <a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ site.baseurl }}/images/{{page.image.medium}}"></a>
+            <a href="{{ site.baseurl }}{{ person.url }}"><img src="{{ site.baseurl }}/images/{{person.image.medium}}"></a>
             <div class="project-title"><h4>
-              <a href="{{ site.baseurl }}{{ page.url }}">{{ page.first_name }} {{ page.last_name }}</a>
+              <a href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a>
             </h4></div>
-            <p class="content-text">{{page.position}}</p>
+            <p class="content-text">{{person.position}}</p>
           </article>
         </li>
-        {% endif %}
         {% endfor %}
       </ul>
     </div>
   </div>
 </section>
-
-
-{% for post in site.categories.careers limit:1 %}
-{% capture openings %}{{ post.active }}{% endcapture %}
-{% if post.active == "true" %}
-<div id="careers-block">
-  <h2>Want to Work at ThinkShout?</h2>
-  <a class="button overlay" href="{{ site.baseurl }}/careers">Learn More</a>
-</div>
-{% endif %}
-{% endfor %}

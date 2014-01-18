@@ -64,6 +64,9 @@ h1.title {
   h2 {
     color: #FFF;
     font-weight: 600;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
   }
 }
 
@@ -334,67 +337,12 @@ footer {
   }
 }
 
-
-.marquee {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 100px;
-
-  .caption {
-    position: absolute;
-    left: 2em;
-    top: 10em;
-    max-width: 30em;
-    h2 {
-      color: #FFF;
-    }
-  }
-
-  .learn-more {
-    position: absolute;
-    width: 20em;
-    left: 50%;
-    padding: 1em 0;
-    bottom: -2em;
-    margin-left: -10em;
-    background: #FEFEF6;
-    text-align: center;
-    border: 3px double $brown;
-    p {
-      margin-bottom: 0;
-    }
-  }
+// 
+// TEAM
+//
+.team-blog {
+  margin-top: 4em;
 }
-
-.sizer {
-  position: absolute;
-  z-index: 100;
-  max-width: 1000px;
-  width: 100%;
-  height: 100%;
-}
-
-.lead {
-  position: relative;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-box;
-  display: box;
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  -ms-box-orient: vertical;
-  box-orient: vertical;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  -ms-box-pack: center;
-  box-pack: center;
-  height: 100%;
-  z-index: 200;
-}
-
-
 
 //
 // HOME
