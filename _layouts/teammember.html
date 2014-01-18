@@ -24,13 +24,15 @@ layout: detail
 	      	{% endif %}	
 	      </ul>
 	      {{ content }}
-	      <h4>Recent Blog Posts</h4>
-	    	{% for post in site.posts %}
-					{% if post.layout == 'post' and post.author == page.name %}
-      	  <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h4>
-      	  <p>{{ post.date | date: "%B %-d, %Y" }}</p>
-					{% endif %}
-      	{% endfor %}
+	      <div class="team-blog">
+	      	<h4>Recent Blog Posts</h4>
+	    		{% for post in site.posts %}
+						{% if post.layout == 'post' and post.author == page.name %}
+      		  <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h5>
+      		  <p>{{ post.date | date: "%B %-d, %Y" }}</p>
+						{% endif %}
+      		{% endfor %}
+      	</div>
 	    </div>
 	  </div>
 	</div>
