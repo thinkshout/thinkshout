@@ -53,8 +53,10 @@ h1.title {
   -ms-box-pack: center;
   box-pack: center;
   height: 100%;
-  width: 50%;
+  width: 85%;
+  margin: 0 auto;
   z-index: 200;
+  text-align: center;
 
   @media screen and (max-width: $mobile) {
     float: none;
