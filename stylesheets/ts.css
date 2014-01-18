@@ -1050,6 +1050,12 @@ section {
   line-height: 75px;
   color: #f58026;
 }
+@media screen and (max-width: 480px) {
+  /* line 124, ../sass/_navigation.scss */
+  #title-flag {
+    display: none;
+  }
+}
 
 /* line 13, ../sass/ts.scss */
 html,
