@@ -56,9 +56,9 @@ layout: detail
         {% for person in site.data.team %}
         <li>
           <article>
-            <a href="{{ site.baseurl }}{{ person.url }}"><img src="{{ site.baseurl }}/images/{{person.image.medium}}"></a>
+            <a href="{{ site.baseurl }}{{ site.config.team_dir }}{{ person.name }}.html"><img src="{{ site.baseurl }}/images/{{person.image.medium}}"></a>
             <div class="project-title"><h4>
-              <a href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a>
+              <a href="{{ site.baseurl }}{{ site.config.team_dir }}{{ person.name }}.html">{{ person.first_name }} {{ person.last_name }}</a>
             </h4></div>
             <p class="content-text">{{person.position}}</p>
           </article>
