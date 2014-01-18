@@ -3,30 +3,30 @@ layout: detail
 ---
 <div class="page-container">
 	<div class="split">
-		<div class="side side-left" style="background-image: url('{{ site.baseurl }}/images/{{ page.image.large }}')"></div>
+		<div class="side side-left" style="background-image: url('{{ site.baseurl }}/images/{{ page.person.image.large }}')"></div>
 	  <div class="side side-right">
 	    <div class="intro-content">
-	      <h1>{{ page.first_name }} {{ page.last_name }}</h1>
-	      <h5>{{ page.position }}</h5>
-	      <h5>{{ page.leadin }}</h5>
+	      <h1>{{ page.person.first_name }} {{ page.person.last_name }}</h1>
+	      <h5>{{ page.person.position }}</h5>
+	      <h5>{{ page.person.leadin }}</h5>
 	      <ul class="social">
-	      	{% if page.social.github %}
-			  		<li><a href="{{ page.social.github }}"><span class="icon-github"></span></a></li>
+	      	{% if page.person.social.github %}
+			  		<li><a href="{{ page.person.social.github }}"><span class="icon-github"></span></a></li>
 			  	{% endif %}
-	      	{% if page.social.twitter %}
-	      		<li><a href="{{ page.social.twitter }}"><span class="icon-twitter"></span></a></li>
+	      	{% if page.person.social.twitter %}
+	      		<li><a href="{{ page.person.social.twitter }}"><span class="icon-twitter"></span></a></li>
 	      	{% endif %}	
-	      	{% if page.social.linkedin %}
-	      		<li><a href="{{ page.social.linkedin }}"><span class="icon-linkedin"></span></a></li>
+	      	{% if page.person.social.linkedin %}
+	      		<li><a href="{{ page.person.social.linkedin }}"><span class="icon-linkedin"></span></a></li>
 	      	{% endif %}	
-	      	{% if page.social.drupal %}
-	      		<li><a href="{{ page.social.drupal }}"><span class="icon-tint"></span></a></li>
+	      	{% if page.person.social.drupal %}
+	      		<li><a href="{{ page.person.social.drupal }}"><span class="icon-tint"></span></a></li>
 	      	{% endif %}	
 	      </ul>
 	      {{ content }}
 	      <h4>Recent Blog Posts</h4>
 	    	{% for post in site.posts %}
-					{% if post.layout == 'post' and post.author == page.name %}
+					{% if post.layout == 'post' and post.author == page.person.name %}
       	  <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h4>
       	  <p>{{ post.date | date: "%B %-d, %Y" }}</p>
 					{% endif %}

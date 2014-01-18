@@ -12,6 +12,7 @@ module Jekyll
       self.data['url'] = "#{dir}/#{person['name']}.html"
 
       self.data['title'] = "#{person['first_name']}#{person['last_name']}"
+      self.data['person'] = person
     end
   end
 
