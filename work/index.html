@@ -20,7 +20,7 @@ title: Recent Work
     <div class="row">
       <div class="large-12 columns large-centered">
         {% for page in site.pages %}
-          {% if page.layout == 'project' %}
+          {% if page.layout == 'project' and page.published == true %}
             {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
             {% if thecycle == 'odd' %}
               <div class="project teaser odd">
