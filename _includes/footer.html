@@ -11,14 +11,20 @@
 <footer>
 	<div class="row">
 		<div class="large-5 columns push-1">
-			<ul>
+			<nav class="footer-nav">
+				<ul>
 				{% for link in site.data.menu %}
-		    <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+		    	<li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
 				{% endfor %}
-		  </ul>
+		  	</ul>
+			</nav>
 		</div>
 		<div class="large-5 columns pull-1">
-
+			<h4>ThinkShout, Inc.</h4>
+			<p>433 NW 4th Ave, Suite 100<br />
+			Portland OR 97209<br />
+			(503) 847-9216<br />
+			Founded June 2009 © 2009-2013</p>
 		</div>
 	</div>
 </footer>
