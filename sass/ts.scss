@@ -1,12 +1,17 @@
+// Compass Includes
+@import "compass/css3";
 @import "compass/css3/border-radius";
 @import "compass/css3/box-shadow";
 @import "compass/css3/transition";
+@import "compass/css3/box";
 @import "compass/utilities/general/clearfix";
-@import "compass/css3";
+
+// Project Specific Includes
 @import "_base";
 @import "_contact-form";
 @import "_icons.scss";
 @import "_layout.scss";
+@import "_typography.scss";
 @import "_navigation.scss";
 
 html,
@@ -38,39 +43,6 @@ h1.title {
   height: 100%;
 }
 
-.leadin {
-  position: relative;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-box;
-  display: box;
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  -ms-box-orient: vertical;
-  box-orient: vertical;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  -ms-box-pack: center;
-  box-pack: center;
-  height: 100%;
-  width: 85%;
-  margin: 0 auto;
-  z-index: 200;
-  text-align: center;
-
-  @media screen and (max-width: $mobile) {
-    float: none;
-    width: 100%;
-  }
-
-  h2 {
-    color: #FFF;
-    font-weight: 600;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-             0px 8px 13px rgba(0,0,0,0.1),
-             0px 18px 23px rgba(0,0,0,0.1);
-  }
-}
 
 .main {
   position: relative;
@@ -84,6 +56,7 @@ body.welcome {
   #container {
     height: 100%;
   }
+
   .hero {
     position: relative;
     z-index: 200;
@@ -113,107 +86,17 @@ body.welcome {
     @media screen and (max-width: $mobile) {
       position: relative;
     }
-  
-    ul.navblocks {
-      li {
-        .content {
-          margin: 0 0.5em;
-          height: 150px;
-          text-align: center;
-          h3 {
-            font-size: 1.5em;
-            font-weight: 600;
-            a {
-              display: block;
-              vertical-align: middle;
-              color: darken($brown, 20%);
-              padding: 1em 1em 0;
-              border-bottom: 3px solid $orange;
-              background: rgba(255,255,255,0.4);
-              @include transition-property(all);
-              @include transition-duration(0.2s);
-              .rubric {
-                color: #FFF;
-                font-size: 0.75em;
-                background: $orange;
-                text-transform: uppercase;
-                display: block;
-                margin-top: 1em;
-                padding: 0.5em;
-              }
-              &:hover {
-                background: rgba(255,255,255,0.8);
-
-                .rubic {
-                  color: $orange;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
     .large-block-grid-3 > li {
       padding: 0;
     }
   }
-
-  ul#most-recent-blog {
-    li {
-      padding: 1em;
-      .quote {
-        position: relative;
-        padding: 1em;
-        background: #FFFFFF;
-        border: 5px solid #d2d2d2;
-        @include border-radius(6px);
-      }
-      .quote:before {
-        content: "";
-        position: absolute;
-        bottom: -20px;
-        left: 40px;
-        border-width: 20px 20px 0;
-        border-style: solid;
-        border-color: #d2d2d2 rgba(0, 0, 0, 0);
-        display: block;
-        width: 0;
-      }
-      .quote:after {
-        content: "";
-        position: absolute;
-        bottom: -13px;
-        left: 47px;
-        border-width: 13px 13px 0;
-        border-style: solid;
-        border-color: #FFF rgba(0, 0, 0, 0);
-        display: block;
-        width: 0;
-      }
-      .byline {
-        margin: 2em 0 0 7em;
-        font-size: 0.8em;
-      }
-    }
-  }
 }
 
-.section-rubric {
-  position: relative;
-  height: 80px;
-  background: transparent;
-  margin: 0 auto;
-  top: -55px;
-  z-index: 1000;
-  text-align: center;
+//
+// BLOCKS
+//
 
-  span {
-    background: #FFF;
-    padding: 0.5em 1em;
-    border: 3px double $brown;
-  }
-}
-
+// We're Hiring Block
 #careers-block {
   background: $orange;
   padding: 1em;
@@ -223,72 +106,54 @@ body.welcome {
   }
 }
 
-.content-bottom-1 {
-  padding: 8em 0;
-}
-
-/*
- * LIST VIEWS
- * Work, Team, Careers
- */  
-body.list {
-  .main {
-    position: relative;
-    width: 100%;
-    z-index: 200;
-    background: #FFF;
-    display: table;
-  }
-  .hero {
-    height: 760px;
-    text-align: center;
-    width: 100%;
-    .leadin {
-      width: 50%;
-      margin: 0 auto;
-      @media screen and (max-width: $mobile) {
-        width: 100%;
-        padding: 0 1em;
-      }
+// Homepage Most Recent 3 Blog Posts
+ul#most-recent-blog {
+  li {
+    padding: 1em;
+    .quote {
+      position: relative;
+      padding: 1em;
+      background: #FFFFFF;
+      border: 5px solid #d2d2d2;
+      @include border-radius(6px);
+    }
+    .quote:before {
+      content: "";
+      position: absolute;
+      bottom: -20px;
+      left: 40px;
+      border-width: 20px 20px 0;
+      border-style: solid;
+      border-color: #d2d2d2 rgba(0, 0, 0, 0);
+      display: block;
+      width: 0;
+    }
+    .quote:after {
+      content: "";
+      position: absolute;
+      bottom: -13px;
+      left: 47px;
+      border-width: 13px 13px 0;
+      border-style: solid;
+      border-color: #FFF rgba(0, 0, 0, 0);
+      display: block;
+      width: 0;
+    }
+    .byline {
+      margin: 2em 0 0 7em;
+      font-size: 0.8em;
     }
   }
-  .hero-image {
-    height: 760px;
-  }
 }
 
-/*
- * DETAIL VIEWS
- * Work, Team, Careers
- */ 
-body.detail .main {
-  position: relative;
-  width: 100%;
-  z-index: 200;
-  background: #FFF;
-  margin-top: 600px;
+
+// Contact Widget
+.contact {
+  padding: 4em 0;
+  background: #d5cec3;
+  clear: both;
 }
 
-.hero {
-  position: relative;
-  z-index: 200;
-  height: 100%;
-  padding: 0 1em;
-  text-align: left;
-}
-
-.hero-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  width: 100%;
-  height: 860px;
-  background-color: $orange;
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-}
 
 ul.social {
   list-style: none;
@@ -298,44 +163,6 @@ ul.social {
   li {
     display: inline-block;
     padding: 0.5em;
-  }
-}
-
-.contact {
-  padding: 4em 0;
-  background: #d5cec3;
-  clear: both;
-}
-
-footer {
-  width: 100%;
-  min-height: 600px;
-  padding-top: 4em;
-  background: #f1f1f1 url('../images/footer.jpg') no-repeat;
-  background-position: top center;
-  background-size: cover;
-
-  ul {
-    list-style: none;
-    li {
-      a {
-      }
-    }
-  }
-}
-
-// 
-// EXPERTISE 
-//
-
-
-
-//
-// BLOG
-//
-.blog {
-  .page-container .split .side.side-left {
-    position: fixed;
   }
 }
 
@@ -353,33 +180,10 @@ footer {
   background: transparent;
   position: absolute;
 }
-
 .welcome .marquee {
   background: $orange url('../images/marquee/home.jpg') no-repeat;
   background-position: bottom center;
   background-size: cover;
-  height: 100%;
-  width: 100%;
-
-  #leads {
-    position: absolute;
-    bottom: 1em;
-  }
-
-  .leadin {
-    h2 {
-      font-size: 3em;
-      font-weight: 600;
-    }
-  }
-}
-
-// From The Blog
-.from-the-blog {
-  h5 {
-    color: $brown;
-    margin-top: 0.5em;
-  }
 }
 
 #hiring {
@@ -564,15 +368,7 @@ a.button.overlay {
 }
 
 a.button.default {
-  background: transparent;
-  @include border-radius(3px);
-  border: 1px solid #d2d2d2;
-  color: #444;
-
-  &:hover {
-    border: 1px solid #222;
-    color: #222;
-  }
+  @include ts-button();
 }
 
 
@@ -597,58 +393,9 @@ a.button.default {
   background: #FFF;
 }
 
-
-// 
-// FULL WIDTH GRIDS
-//
-
-.fw-grid {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  position: relative;
-  width: 100%;
-
-  li {
-    display: table;
-    height: 25%;
-    position: relative;
-    float: left;
-    overflow: hidden;
-    padding: 1.5em;
-    // display: -webkit-flex;
-    // display: -moz-flex;
-    // display: -ms-flex;
-    // display: flex;
-    cursor: pointer;
-    height: 400px;
-
-    h2 {
-
-    }
-  }
+footer {
+  background: #f1f1f1 url('../images/footer.jpg') no-repeat;
+  background-position: top center;
+  background-size: cover;
 }
-  
-@media screen and (min-width: 945px) {
-  .fw-grid li {
-    width: 33.3333%; /* Fallback */
-    width: -webkit-calc(100% / 3);
-    width: calc(100% / 3);
-  }
-}
- 
-@media screen and (max-width: 660px) {
-  .fw-grid li {
-    width: 50%; /* Fallback */
-    width: -webkit-calc(100% / 2);
-    width: calc(100% / 2);
-  }
-}
-  
-@media screen and (max-width: 480px) {
-  .fw-grid li {
-      width: 100%;
-  }
-}
- 
 

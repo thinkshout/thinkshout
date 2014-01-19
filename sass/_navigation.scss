@@ -140,3 +140,63 @@
     display: none;
   }
 }
+
+//
+// Homepage Nav Blocks
+// 
+ul.navblocks {
+  li {
+    .content {
+      margin: 0 0.5em;
+      height: 150px;
+      text-align: center;
+      h3 {
+        font-size: 1.5em;
+        font-weight: 600;
+        a {
+          display: block;
+          vertical-align: middle;
+          color: darken($brown, 20%);
+          padding: 1em 1em 0;
+          border-bottom: 3px solid $orange;
+          background: rgba(255,255,255,0.4);
+          @include transition-property(all);
+          @include transition-duration(0.2s);
+          .rubric {
+            color: #FFF;
+            font-size: 0.75em;
+            background: $orange;
+            text-transform: uppercase;
+            display: block;
+            margin-top: 1em;
+            padding: 0.5em;
+          }
+          &:hover {
+            background: rgba(255,255,255,0.8);
+
+            .rubic {
+              color: $orange;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// 
+// Footer Nav
+//
+nav.footer-nav {
+	ul {
+		padding: 0;
+		margin: 0;
+		li {
+			list-style: none;
+			a {
+				color: #FFF;
+				font-size: 1.25rem;
+			}
+		}
+	}
+}

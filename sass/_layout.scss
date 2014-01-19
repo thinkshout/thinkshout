@@ -1,3 +1,47 @@
+// Page Headers
+.main {
+  position: relative;
+  width: 100%;
+  z-index: 200;
+  background: #FFF;
+  display: table;
+}
+
+.hero {
+  position: relative;
+  z-index: 200;
+  padding: 0;
+  text-align: left;
+  height: 760px;
+  .leadin {
+    width: 50%;
+    margin: 0 auto;
+    @media screen and (max-width: $mobile) {
+      width: 100%;
+      padding: 0 1em;
+    }
+  }
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 860px;
+  background-color: $orange;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+footer {
+  width: 100%;
+  min-height: 600px;
+  padding-top: 4em;
+}
+
 //
 // 50/50 Split 
 //
@@ -84,15 +128,24 @@ section {
 }
 
 //
-// Marquee Styling
+// Home
 //
-
 .marquee {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 100px;
+  height: 100%;
+  width: 100%;
 }
 
+//
+// BLOG
+//
+.blog {
+  .page-container .split .side.side-left {
+    position: fixed;
+  }
+}
 
