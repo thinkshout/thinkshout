@@ -206,9 +206,17 @@ ul.social {
 // WORK
 //
 
-.Work .marquee {
-  background: transparent url(../images/placeholderslide2.jpg) top center no-repeat;
-  background-size: cover;
+ul.client-list {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+    display: block;
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+    height: 50px;
+  }
 }
 
 // Banner

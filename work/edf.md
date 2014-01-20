@@ -3,7 +3,7 @@ layout: project
 shortname: The Environmental Defense Fund
 title: The Environmental Defense Fund's Seafood Selector
 images:
-  hero: work/lac/lac-iphone-in-environment.jpg
+  hero: work/edf/edf-hero.jpg
   responsive:
 client: ThinkShout introduced this module to the Drupal Community several years ago and continues to maintain it. It works beautifully with our Mandrill module, providing modern analytics, spam compliance features, and a reliable transactional e-mail system. 
 url: http://seafood.edf.org/

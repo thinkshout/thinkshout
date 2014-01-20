@@ -3,7 +3,7 @@ layout: project
 shortname: Portland Design Works
 title: Portland Design Works
 images:
-  hero: work/lac/lac-iphone-in-environment.jpg
+  hero: work/ridepdw/ridepdw-hero.jpg
   responsive:
 client: |
   Portlanders are big fans of bicycles. Not just bicycles, but bicycle paraphernalia, eco-friendly transportation, and pretty much anything related to that culture. We eat it up. So when we came across Portland Design Works (PDW), a Portland leader in bicycle accessories in need of a new website, we leapt at the opportunity. They manufacture beautiful, simple bicycle accessories designed for everyday use and they wanted a website that reflected the quality of their merchandise. We worked carefully and quickly to deliver exactly that.

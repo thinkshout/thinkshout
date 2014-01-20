@@ -55,14 +55,13 @@ $large: 1400px;
   transition: all 0.25s ease-in;
 }
 
-@mixin ts-button($color:#444, $bg:transparent, $border:#d2d2d2, $hover-bg: darken(#FFF, 10%)) {
+@mixin ts-button($color:#d2d2d2, $bg:rgba(255,255,255,0.2), $border:#d2d2d2, $hover-bg: gba(255,255,255,0.5)) {
   background: $bg;
   border: 1px solid $border;
   color: $color;
   display: inline-block;
   font-weight: 300;
   line-height: 1;
-  font-size: 0.75em;
   margin: 0 0 1.25em;
   padding: 0.8125em 1.5em 0.75em;
   text-align: center;
@@ -71,7 +70,8 @@ $large: 1400px;
   @include ts-transition;
   @include border-radius(3px);
   &:hover {
-    color: #FFF;
+    color: #222;
+    border: 1px solid #222;
     background: $hover-bg;
   }
 }
