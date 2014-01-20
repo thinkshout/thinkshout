@@ -230,8 +230,35 @@ ul.social {
   }
 }
 
-// Blog
+// 
+// Expertise 
+// 
+.expertise {
+  clear: both;
+  padding: 3em 2em 6em;
+  border-bottom: 2px solid $beige;
+  ul {
+    font-size: 0.875em;
+    font-style: italic;
+    color: $brown;
+    margin: 1em 0 5em;
+    padding: 0;
+    li {
+      list-style: none;
+      width: 46%;
+      display: block;
+      float: left;
+      margin-right: 1em;
+    }
+  }
+}
+.expertise:last-child {
+  border-bottom: 0;
+}
 
+//
+// Blog
+//
 .paginator {
   .blog-nav {
     width: 50%;
@@ -397,5 +424,16 @@ footer {
   background: #f1f1f1 url('../images/footer.jpg') no-repeat;
   background-position: top center;
   background-size: cover;
+
+  .contact-info {
+    color: #FFF;
+    font-size: 1.25em;
+    h4 {
+      color: $orange;
+    }
+    .copyright {
+      font-size: 0.75em;
+    }
+  }
 }
 
