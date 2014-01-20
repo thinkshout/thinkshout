@@ -3,9 +3,11 @@ layout: project
 shortname: The Environmental Defense Fund
 title: The Environmental Defense Fund's Seafood Selector
 images:
+  card: work/edf/edf-card.jpg
   hero: work/edf/edf-hero.jpg
   responsive:
-client: ThinkShout introduced this module to the Drupal Community several years ago and continues to maintain it. It works beautifully with our Mandrill module, providing modern analytics, spam compliance features, and a reliable transactional e-mail system. 
+client: |
+  We’re water-lovers here at ThinkShout. Naturally, we care about what lives in it as well. So when we met with the Environmental Defense Fund (EDF) to talk about seafood preservation, we were all ears. Through science and economics, they advocate for seafood preservation and conscientious consumption, and EDF wanted to reach seafood consumers whether they were at home or the market.  We worked with their internal development team to set about redesigning the user experience for the Seafood Selector, a long-standing consumer advocacy tool.  
 url: http://seafood.edf.org/
 expertise: User Experience, Custom Web Applications, User Experience
 components:

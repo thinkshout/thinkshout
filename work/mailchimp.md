@@ -3,7 +3,8 @@ layout: project
 shortname: MailChimp
 title: The MailChimp Module
 images:
-  hero: work/lac/lac-iphone-in-environment.jpg
+  card: work/mailchimp/mailchimp-card.jpg
+  hero: work/mailchimp/lac-iphone-in-environment.jpg
   responsive:
 client: |
   A popular email service we all know and love, MailChimp provides users with fresh, responsive tools to create eye-catching email campaigns. We thought that same robust functionality would really fly in Drupal, so in collaboration with MailChimp, we set out to unite MailChimp and Drupal. The result was the flagship MailChimp Drupal integration module that allowed Drupal site maintainers to capture emails and organize them with ease. We’re now working on their exciting e-mail transaction service, Mandrill.

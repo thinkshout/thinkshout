@@ -55,7 +55,7 @@ $large: 1400px;
   transition: all 0.25s ease-in;
 }
 
-@mixin ts-button($color:#d2d2d2, $bg:rgba(255,255,255,0.2), $border:#d2d2d2, $hover-bg: gba(255,255,255,0.5)) {
+@mixin ts-button($color:#d2d2d2, $bg:rgba(255,255,255,0), $border:#d2d2d2, $hover-bg: gba(255,255,255,0.5)) {
   background: $bg;
   border: 1px solid $border;
   color: $color;

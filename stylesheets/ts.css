@@ -1642,7 +1642,7 @@ a.button.overlay:hover {
 
 /* line 405, ../sass/ts.scss */
 a.button.default {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0);
   border: 1px solid #d2d2d2;
   color: #d2d2d2;
   display: inline-block;
@@ -1677,39 +1677,51 @@ a.button.default:hover {
 
 /* line 412, ../sass/ts.scss */
 .project.teaser {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 6em 0;
+  height: 600px;
+  position: relative;
+  margin: 0 0 1em 0;
 }
-/* line 418, ../sass/ts.scss */
-.project.teaser p {
-  font-size: 1.2em;
+/* line 421, ../sass/ts.scss */
+.project.teaser article {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #1e1b15;
+  padding: 1em;
+}
+/* line 429, ../sass/ts.scss */
+.project.teaser article .project-title {
+  width: 80%;
+  float: left;
+}
+/* line 433, ../sass/ts.scss */
+.project.teaser article .more-link {
+  width: 20%;
+  float: left;
 }
 
-/* line 423, ../sass/ts.scss */
-.project.teaser.even {
-  background: #FFF;
-}
-
-/* line 427, ../sass/ts.scss */
-.project.teaser.odd {
-  background: #FFF;
-}
-
-/* line 431, ../sass/ts.scss */
+/* line 446, ../sass/ts.scss */
 footer {
   background: #f1f1f1 url("../images/footer.jpg") no-repeat;
   background-position: top center;
   background-size: cover;
 }
-/* line 436, ../sass/ts.scss */
+/* line 451, ../sass/ts.scss */
 footer .contact-info {
   color: #FFF;
   font-size: 1.25em;
 }
-/* line 439, ../sass/ts.scss */
+/* line 454, ../sass/ts.scss */
 footer .contact-info h4 {
   color: #f58026;
 }
-/* line 442, ../sass/ts.scss */
+/* line 457, ../sass/ts.scss */
 footer .contact-info .copyright {
   font-size: 0.75em;
 }

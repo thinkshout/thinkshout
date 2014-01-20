@@ -3,6 +3,7 @@ layout: project
 shortname: LA Conservancy
 title: The Los Angeles Conservancy
 images:
+  card: work/lac/lac-card.jpg
   hero: work/lac/lac-iphone-in-environment.jpg
   responsive:
 client: |

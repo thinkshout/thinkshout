@@ -3,6 +3,7 @@ layout: project
 shortname: The Intertwine Alliance
 title: The Intertwine Alliance
 images:
+  card: work/intertwine/intertwine-card.jpg
   hero: work/intertwine/intertwine-hero.jpg
   responsive:
 client: |

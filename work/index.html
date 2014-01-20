@@ -22,37 +22,12 @@ title: Work
         {% for page in site.pages %}
           {% if page.layout == 'project' and page.published == true %}
             {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-            {% if thecycle == 'odd' %}
-              <div class="project teaser odd">
-                <article>
-                  <div class="row">
-                    <div class="large-7 columns">
-                      <a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ site.baseurl }}/images/{{ page.images.hero }}"></a>
-                    </div>
-                    <div class="large-4 columns">
-                      <h2 class="project-title"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.shortname}}</a></h2>
-                      <p>{{ page.oneliner }}</p>
-                      <a class="button default" href="{{ site.baseurl }}{{ page.url }}">Case Study</a><br />
-                    </div>
-                  </div>
-                </article>
-              </div>
-            {% else %}
-              <div class="project teaser even">
-                <article>
-                  <div class="row">
-                    <div class="large-7 columns push-5">
-                      <a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ site.baseurl }}/images/{{ page.images.hero }}"></a>
-                    </div>
-                    <div class="large-4 columns pull-7">
-                      <h2 class="project-title"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.shortname}}</a></h2>
-                      <p>{{ page.oneliner }}</p>
-                      <a class="button default" href="{{ site.baseurl }}{{ page.url }}">Case Study</a><br />
-                    </div>
-                  </div>
-                </article>
-              </div>
-            {% endif %}
+            <div class="project teaser {{ thecycle }}" style="background-image: url('{{ site.baseurl }}/images/{{ page.images.card }}');">
+              <article>
+                <h2 class="project-title"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.shortname}}</a></h2>
+                <a class="button default more-link" href="{{ site.baseurl }}{{ page.url }}">Case Study</a><br />
+              </article>
+            </div>
           {% endif %}
         {% endfor %}
       </div>

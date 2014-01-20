@@ -3,6 +3,7 @@ layout: project
 shortname: The World Wildlife Fund
 title: The World Wildlife Fund
 images:
+  card: work/edf/edf-card.jpg
   hero: work/lac/lac-iphone-in-environment.jpg
   responsive:
 client: When we first started talk with the World Wildlife Fund, it was clear that they had a problem - a big - problem. They were sitting on a mountain of sensitive data without a way to sort or report on their findings. The WWF already had a Drupal infrastructure in place, but there was no pre-existing Drupal application out there that could handle their complex needs. So we built them one. While we can’t share the outcomes given the sensitive nature of the data, the work we did now impacts their decision-making process in the realm of fish conversation.
@@ -28,7 +29,7 @@ results:
   bullet2: 
   bullet3: 
 featured: true
-published: true
+published: false
 ---
 
 

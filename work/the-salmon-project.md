@@ -3,6 +3,7 @@ layout: project
 shortname: The Salmon Project
 title: The Salmon Project
 images:
+  card: work/salmonproject/salmonproject-card.jpg
   hero: work/lac/lac-iphone-in-environment.jpg
   responsive:
 client: |

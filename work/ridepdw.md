@@ -3,6 +3,7 @@ layout: project
 shortname: Portland Design Works
 title: Portland Design Works
 images:
+  card: work/ridepdw/ridepdw-card.jpg
   hero: work/ridepdw/ridepdw-hero.jpg
   responsive:
 client: |
