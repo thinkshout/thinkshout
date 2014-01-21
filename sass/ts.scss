@@ -53,9 +53,9 @@ a.button.default {
   padding: 2em 1em;
 }
 
-/*
- * HOME
- */
+//
+// HOME
+//
 body.welcome {
   #container {
     height: 100%;
@@ -110,7 +110,9 @@ body.welcome {
   }
 }
 
+//
 // Homepage Most Recent 3 Blog Posts
+//
 ul#most-recent-blog {
   li {
     padding: 1em;
@@ -150,15 +152,14 @@ ul#most-recent-blog {
   }
 }
 
-
+//
 // Contact Widget
+//
 .contact {
   padding: 4em 0;
   background: #d5cec3;
   clear: both;
 }
-
-
 ul.social {
   list-style: none;
   font-size: 2em;
@@ -214,7 +215,6 @@ ul.social {
 //
 // WORK
 //
-
 ul.client-list {
   margin: 0;
   padding: 0;
@@ -228,7 +228,9 @@ ul.client-list {
   }
 }
 
+//
 // Banner
+//
 .banner {
   position: relative;
   .header {
@@ -276,40 +278,61 @@ ul.client-list {
 //
 // Blog
 //
-
-// List View
-ul.blog {
-  margin: 0;
-  padding: 0;
-  li {
-    list-style: none;
-    position: relative;
-    display: block;
-    overflow: none;
-    a {
-      display: block;
-      padding: 1.5em 0;
-      &:hover {
-        background: $orange;
-        color: #FFF;
-      }
-    }
-  }
-  li:before {
-    content: '';
-    width: 92px;
-    height: 2px;
-    display: inline-block;
-    background: #DADADA;
-    position: absolute;
-    bottom: -1px;
-    left: 50%;
-    margin-left: -46px;
-  }
+// Landing Page
+.page-container.blog {
+	.split {
+		.side-right {
+			.intro-content {
+				width: 100%;
+				left: 0;
+				padding: 0 0;
+				ul {
+				  margin: 0;
+				  padding: 0;
+				  li {
+				    list-style: none;
+				    position: relative;
+				    display: block;
+				    overflow: none;
+				    padding: 2em 4em;
+				    a {
+				      display: block;
+				      color: #222;
+				      h2 {
+				      	color: $orange;
+				      }
+				    }
+				    &:hover {
+				      background: $orange;
+				    	a {
+				    	  display: block;
+				    	  color: #FFF;
+				    	  h2 {
+				    	  	color: #FFF;
+				    	  }
+				    	}
+				    }
+				  }
+				  li:before {
+				    content: '';
+				    width: 92px;
+				    height: 2px;
+				    display: inline-block;
+				    background: #DADADA;
+				    position: absolute;
+				    bottom: -1px;
+				    left: 50%;
+				    margin-left: -46px;
+				  }
+				}
+			}	
+		}
+	}
 }
 
-
+//
 // Blog Post Detail
+//
 .blog {
   .main {
     margin: 100px 0 0 0;
@@ -344,7 +367,9 @@ ul.blog {
   }
 }
 
+//
 // Blog Archives 
+//
 .blog {
   .hero {
     height: 500px;
@@ -390,7 +415,9 @@ ul.blog {
   }
 }
 
+//
 // Work Detail
+//
 section.header {
   padding: 3em 0 0;
 }
@@ -449,7 +476,9 @@ section.results {
   }
 }
 
+//
 // Projects List View
+//
 .project.teaser {
   background-position: center center;
   background-size: cover;
