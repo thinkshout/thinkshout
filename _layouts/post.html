@@ -1,23 +1,18 @@
 ---
 layout: detail
 ---
-<div class="content">
-	<div class="hero-image" style="background-image: url('http://placehold.it/1800x250&text=CATEGORY BANNER');"></div>
-	<div class="hero">
-		<div class="site-width">
-			<div class="background"></div>
-			<div class="leadin">
-				<h2>Category Name</h2>
+<div class="content blog">
+	<section class="main">
+		<div class="row">
+			<div class="large-10 columns large-centered header">
+				<h1 class="post-title">{{ page.title }}</h1>
+				<p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
 			</div>
 		</div>
-	</div>
-	<section class="main">
 		<div class="row">
 			<div class="large-10 columns large-centered">
 				<div class="row">
-					<div class="large-9 columns push-3">
-						<h1>{{ page.title }}</h1>
-						<p class="meta">{{ page.date | date_to_string }}</p>
+					<div class="large-9 columns">
 						<p>{{ content }}</p>
 						{% if page.comments or page.comments != false %}
 							<div class="comments">
@@ -38,10 +33,10 @@ layout: detail
   		  			</div>
 						{% endif %}
 					</div>
-					<div class="large-3 columns pull-9">
+					<div class="large-3 columns">
 						<div class="byline">
-							{% for person in site.pages %}
-								{% if person.layout == 'teammember' and page.author == person.name %}
+							{% for person in site.data.team %}
+								{% if page.author == person.name %}
 									<a href="{{ site.baseurl }}{{ person.url }}"><img src="{{ site.baseurl }}/images/{{ person.image.small }}"></a>
       				  	<h4><a href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a></h4>
       				  	<p>{{ person.position }}</p>
@@ -54,6 +49,32 @@ layout: detail
 		</div>
 	</section>
 </div>
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+<!--
 <div class="paginator">
 	<div class="blog-nav previous-post">
 		<img src="http://placehold.it/1440x450&text=HERO">
@@ -74,6 +95,6 @@ layout: detail
 		<div class="mute"></div>
 	</div>	
 </div>
-
+-->
 
 
