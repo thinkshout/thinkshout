@@ -188,6 +188,11 @@ ul.social {
   background: $orange url('../images/marquee/home.jpg') no-repeat;
   background-position: bottom center;
   background-size: cover;
+  .leadin {
+    h1 {
+      font-size: 3.5em;
+    }
+  }
 }
 
 #hiring {
@@ -309,9 +314,28 @@ ul.blog {
   .main {
     margin: 100px 0 0 0;
   }
-  .header {
-    text-align: center;
-    padding: 2em 0;
+  .byline {
+    width: 20em;
+    margin: 0 auto;
+    a.team-photo {
+      border-radius: 50%;
+      height: 100px;
+      width: 100px;
+      display: block;
+      margin: 0 auto;
+      border: 2px solid #FFF;
+      img {
+        border-radius: 50%;
+      }
+    }
+    .info {
+      clear: both;
+      a.team-name {
+        font-size: 1.125em;
+        font-weight: 500;
+        color: #FFF;
+      }
+    }
   }
   .post-title {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -321,9 +345,12 @@ ul.blog {
 }
 
 // Blog Archives 
-.archive {
+.blog {
   .hero {
     height: 500px;
+    .leadin {
+      padding: 8em 0 0 0;
+    }
   }
 }
 

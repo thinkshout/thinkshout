@@ -11,7 +11,7 @@ module Jekyll
       self.read_yaml(File.join(base, '_layouts'), 'teammember.html')
       self.data['url'] = "#{dir}/#{person['name']}/"
 
-      self.data['title'] = "#{person['first_name']}#{person['last_name']}"
+      self.data['title'] = "#{person['first_name']} #{person['last_name']}"
       self.data['person'] = person
     end
   end
