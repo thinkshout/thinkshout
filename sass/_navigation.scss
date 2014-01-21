@@ -8,11 +8,16 @@
 
   a#branding {
     background: darken($brown, 25%);
+    background-image: url('../images/assets/thinkshout-id.svg');
+    background-size: 225px 80px;
     display: block;
     float: left;
     text-align: center;
     position: relative;
     height: 75px;
+    width: 225px;
+    overflow: hidden;
+    text-indent: -9999px;
   }
 }
 
@@ -147,38 +152,50 @@
 ul.navblocks {
   li {
     .content {
-      margin: 0 0.5em;
+      margin: 0 0.25em;
       height: 150px;
       text-align: center;
-      h3 {
-        font-size: 1.5em;
-        font-weight: 600;
-        a {
+      padding: 1em 1em 0;
+      background: darken($brown, 25%);
+      @include transition-property(all);
+      @include transition-duration(0.2s);
+      a {
+        display: block;
+        vertical-align: middle;
+        color: #FFF;
+        @include transition-property(all);
+        @include transition-duration(0.2s);
+        .rubric {
+          color: #FFF;
+          font-size: 0.75em;
+          background: $orange;
+          text-transform: uppercase;
           display: block;
-          vertical-align: middle;
-          color: darken($brown, 20%);
-          padding: 1em 1em 0;
-          border-bottom: 3px solid $orange;
-          background: rgba(255,255,255,0.4);
-          @include transition-property(all);
-          @include transition-duration(0.2s);
-          .rubric {
-            color: #FFF;
-            font-size: 0.75em;
-            background: $orange;
-            text-transform: uppercase;
-            display: block;
-            margin-top: 1em;
-            padding: 0.5em;
-          }
-          &:hover {
-            background: rgba(255,255,255,0.8);
-
-            .rubic {
-              color: $orange;
-            }
-          }
+          margin-top: 1em;
+          padding: 0.5em;
         }
+        h3 {
+      		font-size: 1.5em;
+      		font-weight: 600;
+      		color: #FFF;
+      	}
+      }
+      &:hover {
+        background: rgba(255,255,255,0.8);
+      	a {
+      	  .rubric {
+      	    color: #FFF;
+      	    font-size: 0.75em;
+      	    background: $orange;
+      	    text-transform: uppercase;
+      	    display: block;
+      	    margin-top: 1em;
+      	    padding: 0.5em;
+      	  }
+      	  h3 {
+      			color: darken($brown, 25%);
+      		}
+      	}
       }
     }
   }
