@@ -13,3 +13,6 @@ exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'bower.json', '.bo
 
 # Team directory used by the data_to_pages plugin.
 team_dir: 'team'
+
+paginate: 1
+paginate_path: "blog/page:num"
