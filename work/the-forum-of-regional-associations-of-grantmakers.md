@@ -5,7 +5,9 @@ title: The Forum of Regional Associations of Grantmakers
 images:
   card: work/givingforum/givingforum-card.jpg
   hero: work/givingforum/lac-iphone-in-environment.jpg
-  responsive:
+  desktop: 
+  tablet: 
+  mobile: 
 client: |
   The Forum of Regional Associations of Grantmakers is a national network comprised of thirty-four geographically-based professional associations with staff sizes ranging from one to twenty plus. Seventeen of these associations share a similar technology platform. The Forum wanted to transition to a more open and flexible system rather than maintain this highly-custom content management solution. That’s where ThinkShout came in. After careful consideration, we ultimately recommended Pantheon One -- the only solution that allows a network of nonprofits to roll out a custom-built shared Drupal distribution -- as a platform.
 url: http:/www.salmonproject.org
