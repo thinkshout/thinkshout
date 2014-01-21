@@ -334,18 +334,16 @@ section.even {
   }
 }
 
-.breakpoints.collapsed {
+.breakpoints {
   background: #FFF;
-  margin-bottom: 2em;
-}
+  display: block;
+  max-width: 1440px;
+  margin: 0 auto 2em;
+  @include clearfix;
 
-.breakpoints.collapsed {
-  height: 600px;
-  overflow: hidden;
-}
-.breakpoints.expanded {
-  height: 100%;
-  overflow: hidden;
+  img {
+    float: left;
+  }
 }
 
 section.results {

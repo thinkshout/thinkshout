@@ -4,8 +4,10 @@ shortname: The Salmon Project
 title: The Salmon Project
 images:
   card: work/salmonproject/salmonproject-card.jpg
-  hero: work/lac/lac-iphone-in-environment.jpg
-  responsive:
+  hero: work/salmonproject/salmonproject-iphone-in-environment.jpg
+  desktop: work/salmonproject/salmonproject-desktop.jpg
+  tablet: work/salmonproject/salmonproject-tablet.jpg
+  mobile: work/salmonproject/salmonproject-mobile.jpg
 client: |
   When the Salmon Project came to ThinkShout, Alaska had no idea who they were. The Salmon Project wasn’t even sure who they were themselves.  That needed to change, and fast. This brand new organization needed help building their identity and shaping the results they wanted to achieve, and that’s exactly what we did for them. We launched their site ahead of schedule, under budget, and with a custom-built kickoff Salmon Love sweepstakes application that had 10,000 participants total in the thirty days it ran. Now they’re telling the stories that need to be told and, of course, teaching Alaskans to love and save their salmon. 
 url: http:/www.salmonproject.org

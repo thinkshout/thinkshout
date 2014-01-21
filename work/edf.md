@@ -5,7 +5,9 @@ title: The Environmental Defense Fund's Seafood Selector
 images:
   card: work/edf/edf-card.jpg
   hero: work/edf/edf-hero.jpg
-  responsive:
+  desktop: work/edf/edf-desktop.jpg
+  tablet: work/edf/edf-tablet.jpg
+  mobile: work/edf/edf-mobile.jpg
 client: |
   We’re water-lovers here at ThinkShout. Naturally, we care about what lives in it as well. So when we met with the Environmental Defense Fund (EDF) to talk about seafood preservation, we were all ears. Through science and economics, they advocate for seafood preservation and conscientious consumption, and EDF wanted to reach seafood consumers whether they were at home or the market.  We worked with their internal development team to set about redesigning the user experience for the Seafood Selector, a long-standing consumer advocacy tool.  
 url: http://seafood.edf.org/

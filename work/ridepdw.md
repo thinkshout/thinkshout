@@ -5,7 +5,9 @@ title: Portland Design Works
 images:
   card: work/ridepdw/ridepdw-card.jpg
   hero: work/ridepdw/ridepdw-hero.jpg
-  responsive:
+  desktop: work/ridepdw/ridepdw-desktop.jpg
+  tablet: work/ridepdw/ridepdw-tablet.jpg
+  mobile: work/ridepdw/ridepdw-mobile.jpg
 client: |
   Portlanders are big fans of bicycles. Not just bicycles, but bicycle paraphernalia, eco-friendly transportation, and pretty much anything related to that culture. We eat it up. So when we came across Portland Design Works (PDW), a Portland leader in bicycle accessories in need of a new website, we leapt at the opportunity. They manufacture beautiful, simple bicycle accessories designed for everyday use and they wanted a website that reflected the quality of their merchandise. We worked carefully and quickly to deliver exactly that.
 url: http:/www.ridepdw.com
