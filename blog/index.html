@@ -16,9 +16,9 @@ title: Blog
         		<div class="byline">
         		  {% for person in site.data.team %}
         		  {% if post.author == person.name %}
-        		  <a class="team-photo" href="{{ site.baseurl }}{{ person.url }}"><img src="{{ site.baseurl }}/images/{{ person.image.small }}"></a>
+        		  <img class="team-photo" src="{{ site.baseurl }}/images/{{ person.image.small }}">
         		  <div class="info">
-        		    <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a>
+        		    <span class="team-name">{{ person.first_name }} {{ person.last_name }}</span>
         		    <p>{{ person.position }}</p>
         		  </div>
         		  {% endif %}
