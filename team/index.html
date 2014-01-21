@@ -22,8 +22,8 @@ title: Team
           {% for person in site.data.team %}
           <li>
             <article>
-              <a href="{{ site.baseurl }}{{ person.name }}/"><img src="{{ site.baseurl }}/images/{{person.image.medium}}"></a>
-              <div class="project-title"><h4><a href="{{ site.baseurl }}{{ person.name }}/">{{ person.first_name }} {{ person.last_name }}</a></h4></div>
+              <a href="{{ site.baseurl }}/{{ person.name }}/"><img src="{{ site.baseurl }}/images/{{person.image.medium}}"></a>
+              <div class="project-title"><h4><a href="{{ site.baseurl }}/{{ person.name }}/">{{ person.first_name }} {{ person.last_name }}</a></h4></div>
               <p class="content-text">{{person.position}}</p>
             </article>
           </li>
