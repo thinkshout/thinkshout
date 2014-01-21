@@ -1,30 +1,36 @@
 ---
 layout: default
 ---
-<section class="main">
-    <h2>Posts tagged "{{ page.tag }}"</h2>
-    {% for post in site.tags[page.tag] reverse %}
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% unless year == this_year %}
-    {% assign year = this_year %}
-    <h3>{{ year }}</h3>
-    {% endunless %}
-    <div class="row">
-        <div class="large-8 columns large-centered">
-            <article>
-                <div class="row">
-                    <div class="large-4 columns">
-                        <img src="http://placehold.it/450x450&text=HERO">
-                    </div>
-                    <div class="large-8 columns">
-                        <div class="project-title"><h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a><h1></div>
-                        <p class="content-text">{{post.short}}</p>
-                        <a class="button default" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
-                    </div>
-                </div>
-            </article>
-        </div>
+<div class="content blog">
+  <div class="hero-image" style="background-image: url('{{ site.baseurl }}/images/{{ page.images.hero }}');"></div>
+  <div class="hero">
+    <div class="site-width">
+      <div class="background"></div>
+      <div class="leadin">
+        <h1 class="title">Posts tagged "{{ page.tag }}"</h1>
+      </div>
     </div>
-    {% endfor %}
-    <p><a href="/tag/{{ page.tag }}/rss.xml">Subscribe to posts tagged "{{ page.tag }}"</a></p>
-</section>
+  </div>
+  <section class="main">
+      {% for post in site.tags[page.tag] reverse %}
+      {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+      {% unless year == this_year %}
+      {% assign year = this_year %}
+      <div class="row">
+        <div class="large-8 columns large-centered">
+          <h3>{{ year }}</h3>
+        </div>
+      </div>
+      {% endunless %}
+      <div class="row">
+          <div class="large-8 columns large-centered">
+              <article>
+                <div class="project-title"><h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a><h1></div>
+                <p class="content-text">{{post.short}}</p>
+              </article>
+          </div>
+      </div>
+      {% endfor %}
+      <p><a href="/tag/{{ page.tag }}/rss.xml">Subscribe to posts tagged "{{ page.tag }}"</a></p>
+  </section>
+</div>

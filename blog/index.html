@@ -7,13 +7,16 @@ title: Blog
     <div class="side side-left" style="background-image: url('{{ site.baseurl }}/images/blog.jpg')"></div>
     <div class="side side-right">
       <div class="intro-content">
+        <ul class="blog">
         {% for post in site.categories.blog %}
-        <article>
-          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a><h2>
-          <p class="content-text">{{post.short}}</p>
-          <a class="button default" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
-        </article>
+        <li>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <h2>{{ post.title}}</h2>
+            <p class="content-text">{{post.short}}</p>
+          </a>
+        </li>
         {% endfor %}
+        </ul>
       </div>
     </div>
   </div>

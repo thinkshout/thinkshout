@@ -27,6 +27,10 @@ h1.title {
   font-weight: 700;
 }
 
+a.button.default {
+  @include ts-button();
+}
+
 .site-width {
   width: 100%;
   padding: 0 1em;
@@ -267,6 +271,62 @@ ul.client-list {
 //
 // Blog
 //
+
+// List View
+ul.blog {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+    position: relative;
+    display: block;
+    overflow: none;
+    a {
+      display: block;
+      padding: 1.5em 0;
+      &:hover {
+        background: $orange;
+        color: #FFF;
+      }
+    }
+  }
+  li:before {
+    content: '';
+    width: 92px;
+    height: 2px;
+    display: inline-block;
+    background: #DADADA;
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    margin-left: -46px;
+  }
+}
+
+
+// Blog Post Detail
+.blog {
+  .main {
+    margin: 100px 0 0 0;
+  }
+  .header {
+    text-align: center;
+    padding: 2em 0;
+  }
+  .post-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3.5em;
+    font-weight: 700;
+  }
+}
+
+// Blog Archives 
+.archive {
+  .hero {
+    height: 500px;
+  }
+}
+
 .paginator {
   .blog-nav {
     width: 50%;
@@ -312,33 +372,11 @@ section.intro {
   padding: 3em 0;
 }
 
-section.odd {
-  padding: 8em 0;
-  background: $beige;
-  
-  h2.section-heading {
-  }
-
-  h3 {
-  }
-}
-
-section.even {
-  padding: 8em 0;
-  background: #FFF;
-  
-  h2.section-heading {
-  }
-
-  h3 {
-  }
-}
-
 .breakpoints {
   background: #FFF;
   display: block;
   max-width: 1440px;
-  margin: 0 auto 2em;
+  margin: 0 auto;
   @include clearfix;
 
   img {
@@ -374,22 +412,6 @@ section.results {
   }
 }
 
-// Button Styling
-a.button {
-  font-weight: 300;
-}
-
-a.button.overlay {
-  background: rgba(255,255,255,0.25);
-  @include border-radius(3px);
-  border: 1px solid #FFF;
-  color: #FFF;
-
-  &:hover {
-    background: rgba(255,255,255,0.65);
-  }
-}
-
 #client-list {
   ul {
     list-style: none;
@@ -400,13 +422,7 @@ a.button.overlay {
   }
 }
 
-a.button.default {
-  @include ts-button();
-}
-
-
-// Projects 
-
+// Projects List View
 .project.teaser {
   background-position: center center;
   background-size: cover;
@@ -441,6 +457,9 @@ a.button.default {
 .project.teaser.odd {
 }
 
+// 
+// FOOTER 
+//
 footer {
   background: #f1f1f1 url('../images/footer.jpg') no-repeat;
   background-position: top center;
