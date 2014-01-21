@@ -2,17 +2,28 @@
 layout: blog
 title: Blog 
 ---
-<div class="page-container">
+<div class="page-container blog">
   <div class="split">
     <div class="side side-left" style="background-image: url('{{ site.baseurl }}/images/blog.jpg')"></div>
     <div class="side side-right">
       <div class="intro-content">
-        <ul class="blog">
+        <ul>
         {% for post in site.categories.blog %}
         <li>
           <a href="{{ site.baseurl }}{{ post.url }}">
             <h2>{{ post.title}}</h2>
             <p class="content-text">{{post.short}}</p>
+        		<div class="byline">
+        		  {% for person in site.data.team %}
+        		  {% if post.author == person.name %}
+        		  <a class="team-photo" href="{{ site.baseurl }}{{ person.url }}"><img src="{{ site.baseurl }}/images/{{ person.image.small }}"></a>
+        		  <div class="info">
+        		    <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a>
+        		    <p>{{ person.position }}</p>
+        		  </div>
+        		  {% endif %}
+        		  {% endfor %}
+        		</div>
           </a>
         </li>
         {% endfor %}
