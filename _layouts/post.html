@@ -2,99 +2,56 @@
 layout: detail
 ---
 <div class="content blog">
-	<section class="main">
-		<div class="row">
-			<div class="large-10 columns large-centered header">
-				<h1 class="post-title">{{ page.title }}</h1>
-				<p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="large-10 columns large-centered">
-				<div class="row">
-					<div class="large-9 columns">
-						<p>{{ content }}</p>
-						{% if page.comments or page.comments != false %}
-							<div class="comments">
-					  	  <div id="disqus_thread"></div>
-					  	  <script type="text/javascript">
-					  	      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-					  	      var disqus_shortname = 'thinkshout'; // required: replace example with your forum shortname
-			
-					  	      /* * * DON'T EDIT BELOW THIS LINE * * */
-					  	      (function() {
-					  	          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-					  	          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-					  	          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-					  	      })();
-					  	  </script>
-					  	  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-					  	  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-  		  			</div>
-						{% endif %}
-					</div>
-					<div class="large-3 columns">
-						<div class="byline">
-							{% for person in site.data.team %}
-								{% if page.author == person.name %}
-									<a href="{{ site.baseurl }}{{ person.url }}"><img src="{{ site.baseurl }}/images/{{ person.image.small }}"></a>
-      				  	<h4><a href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a></h4>
-      				  	<p>{{ person.position }}</p>
-      				  {% endif %}
-      				{% endfor %}
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-</div>
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
+  <div class="hero-image" style="background-image: url('{{ site.baseurl }}/images/{{ page.images.hero }}');"></div>
+  <div class="hero">
+    <div class="site-width">
+      <div class="background"></div>
+      <div class="leadin">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
 
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
+        <div class="byline">
+          {% for person in site.data.team %}
+          {% if page.author == person.name %}
+          <a class="team-photo" href="{{ site.baseurl }}{{ person.url }}"><img src="{{ site.baseurl }}/images/{{ person.image.small }}"></a>
+          <div class="info">
+            <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a>
+            <p>{{ person.position }}</p>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="main">
+    <div class="row">
+     <div class="large-8 columns large-centered">
+      <p>{{ content }}</p>
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
-<!--
-<div class="paginator">
-	<div class="blog-nav previous-post">
-		<img src="http://placehold.it/1440x450&text=HERO">
-		<div class="teaser">
-			<h5>Previous Post</h5>
-			<h4><a href="#">Post Title</a></h4>
-			<a class="button overlay" href="#">Read Now</a>
-		</div>
-		<div class="mute"></div>
-	</div>
-	<div class="blog-nav next-post">
-		<img src="http://placehold.it/1440x450&text=HERO">
-		<div class="teaser">
-			<h5>Next Post</h5>
-			<h4><a href="#">Post Title</a></h4>
-			<a class="button overlay" href="#">Read Now</a>
-		</div>
-		<div class="mute"></div>
-	</div>	
-</div>
--->
+      {% if page.comments or page.comments != false %}
+      <div class="comments">
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+				      var disqus_shortname = 'thinkshout'; // required: replace example with your forum shortname
+
+				      /* * * DON'T EDIT BELOW THIS LINE * * */
+				      (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+              })();
+              </script>
+              <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+              <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+     </section>
+   </div>
+
+
 
 

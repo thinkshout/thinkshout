@@ -1568,30 +1568,57 @@ ul.blog li:before {
   margin: 100px 0 0 0;
 }
 /* line 312, ../sass/ts.scss */
-.blog .header {
-  text-align: center;
-  padding: 2em 0;
+.blog .byline {
+  width: 20em;
+  margin: 0 auto;
 }
-/* line 316, ../sass/ts.scss */
+/* line 315, ../sass/ts.scss */
+.blog .byline a.team-photo {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #FFF;
+}
+/* line 322, ../sass/ts.scss */
+.blog .byline a.team-photo img {
+  border-radius: 50%;
+}
+/* line 326, ../sass/ts.scss */
+.blog .byline .info {
+  clear: both;
+}
+/* line 328, ../sass/ts.scss */
+.blog .byline .info a.team-name {
+  font-size: 1.125em;
+  font-weight: 500;
+  color: #FFF;
+}
+/* line 335, ../sass/ts.scss */
 .blog .post-title {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 3.5em;
   font-weight: 700;
 }
 
-/* line 325, ../sass/ts.scss */
-.archive .hero {
+/* line 344, ../sass/ts.scss */
+.blog .hero {
   height: 500px;
 }
+/* line 346, ../sass/ts.scss */
+.blog .hero .leadin {
+  padding: 8em 0 0 0;
+}
 
-/* line 331, ../sass/ts.scss */
+/* line 353, ../sass/ts.scss */
 .paginator .blog-nav {
   width: 50%;
   float: left;
   text-align: center;
   position: relative;
 }
-/* line 336, ../sass/ts.scss */
+/* line 358, ../sass/ts.scss */
 .paginator .blog-nav .teaser {
   position: absolute;
   top: 1em;
@@ -1599,13 +1626,13 @@ ul.blog li:before {
   left: 20%;
   z-index: 100;
 }
-/* line 342, ../sass/ts.scss */
+/* line 364, ../sass/ts.scss */
 .paginator .blog-nav .teaser h5 {
   color: #d2d2d2;
   font-size: 1.125em;
   border-bottom: 1px solid #222;
 }
-/* line 348, ../sass/ts.scss */
+/* line 370, ../sass/ts.scss */
 .paginator .blog-nav .mute {
   position: absolute;
   top: 0;
@@ -1615,26 +1642,26 @@ ul.blog li:before {
   background: rgba(0, 0, 0, 0.5);
   z-index: 10;
 }
-/* line 356, ../sass/ts.scss */
+/* line 378, ../sass/ts.scss */
 .paginator .blog-nav .mute:hover {
   background: rgba(0, 0, 0, 0);
 }
-/* line 361, ../sass/ts.scss */
+/* line 383, ../sass/ts.scss */
 .paginator .blog-nav.next-post {
   border-left: 1px dotted #FFF;
 }
 
-/* line 367, ../sass/ts.scss */
+/* line 389, ../sass/ts.scss */
 section.header {
   padding: 3em 0 0;
 }
 
-/* line 371, ../sass/ts.scss */
+/* line 393, ../sass/ts.scss */
 section.intro {
   padding: 3em 0;
 }
 
-/* line 375, ../sass/ts.scss */
+/* line 397, ../sass/ts.scss */
 .breakpoints {
   background: #FFF;
   display: block;
@@ -1643,18 +1670,18 @@ section.intro {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 382, ../sass/ts.scss */
+/* line 404, ../sass/ts.scss */
 .breakpoints img {
   float: left;
 }
 
-/* line 387, ../sass/ts.scss */
+/* line 409, ../sass/ts.scss */
 section.results {
   padding: 8em 0;
   text-align: center;
   background: #f58026;
 }
-/* line 392, ../sass/ts.scss */
+/* line 414, ../sass/ts.scss */
 section.results .stats .stat {
   background: #FFF;
   display: block;
@@ -1668,30 +1695,30 @@ section.results .stats .stat {
   -o-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 401, ../sass/ts.scss */
+/* line 423, ../sass/ts.scss */
 section.results .stats .stat .figure {
   font-size: 5em;
   font-weight: 600;
   color: #f58026;
 }
-/* line 407, ../sass/ts.scss */
+/* line 429, ../sass/ts.scss */
 section.results .stats .key {
   font-size: 1.2em;
   color: #FFF;
   font-weight: 600;
 }
 
-/* line 416, ../sass/ts.scss */
+/* line 438, ../sass/ts.scss */
 #client-list ul {
   list-style: none;
   text-align: center;
 }
-/* line 419, ../sass/ts.scss */
+/* line 441, ../sass/ts.scss */
 #client-list ul li {
   padding: 0.75em 0;
 }
 
-/* line 426, ../sass/ts.scss */
+/* line 448, ../sass/ts.scss */
 .project.teaser {
   background-position: center center;
   background-size: cover;
@@ -1701,7 +1728,7 @@ section.results .stats .key {
   position: relative;
   margin: 0 0 1em 0;
 }
-/* line 435, ../sass/ts.scss */
+/* line 457, ../sass/ts.scss */
 .project.teaser article {
   display: block;
   position: absolute;
@@ -1711,33 +1738,33 @@ section.results .stats .key {
   background: #1e1b15;
   padding: 1em;
 }
-/* line 443, ../sass/ts.scss */
+/* line 465, ../sass/ts.scss */
 .project.teaser article .project-title {
   width: 80%;
   float: left;
 }
-/* line 447, ../sass/ts.scss */
+/* line 469, ../sass/ts.scss */
 .project.teaser article .more-link {
   width: 20%;
   float: left;
 }
 
-/* line 463, ../sass/ts.scss */
+/* line 485, ../sass/ts.scss */
 footer {
   background: #f1f1f1 url("../images/footer.jpg") no-repeat;
   background-position: top center;
   background-size: cover;
 }
-/* line 468, ../sass/ts.scss */
+/* line 490, ../sass/ts.scss */
 footer .contact-info {
   color: #FFF;
   font-size: 1.25em;
 }
-/* line 471, ../sass/ts.scss */
+/* line 493, ../sass/ts.scss */
 footer .contact-info h4 {
   color: #f58026;
 }
-/* line 474, ../sass/ts.scss */
+/* line 496, ../sass/ts.scss */
 footer .contact-info .copyright {
   font-size: 0.75em;
 }
