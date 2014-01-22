@@ -2,7 +2,7 @@
   last_name: Tsypin
   position: Partner - Director of Engineering
   leadin: |
-    As a leader in open source, Lev co-founded ThinkShout with the goal of bringing sustainable technology to organizations working for change. Now, he leads a diverse team of forward-thinking creators, helping our clients achieve their goals through innovation and technical excellence.
+    Lev co-founded ThinkShout with the goal of bringing sustainable technology to organizations working for change. Lev leads a diverse team of forward-thinking engineers, helping our clients achieve their goals through innovation and technical excellence.
   social:
     github: https://github.com/levelos
     twitter: https://twitter.com/levelos
@@ -15,7 +15,7 @@
   published: true
   name: lev
   bio: |
-    With over twelve years of experience in technical architecture, user interface, and module development, Lev is integral to ThinkShout’s development process. It’s the organizations we work with that inspire him to constantly improve on existing practices and the technology in place, making it accessible to those who need it. He previously worked as a consultant with Computer Sciences Corporation (CSC) and Inforte Corporation in Chicago and also spent a few years as the Director of Programming at Pop Art, Inc. He holds a bachelors degree in business administration (BBA) and political science from the University of Wisconsin-Madison. Before ThinkShout, Lev ran the highly-respected consultancy, Level Online Strategy, here in Portland, OR. Now he spends his off hours keeping busy with his two boys.
+    With over twelve years of experience in software development and technical architecture, it's Lev's job to constantly improve on our engineering best practices. He previously worked as a consultant with Computer Sciences Corporation (CSC) and Inforte Corporation in Chicago and also spent a few years as the Director of Programming at Pop Art, Inc. Lev holds a bachelors degree in business administration (BBA) and political science from the University of Wisconsin-Madison. Before ThinkShout, Lev ran the highly-respected consultancy, Level Online Strategy, here in Portland, OR. He spends his off hours keeping busy with his two boys.
 
 - first_name: Sean
   last_name: Larkin
@@ -34,7 +34,7 @@
   published: true
   name: sean
   bio: |
-    Sean spent the last ten years working with some of the best talent in the Drupal Community, providing technical consulting services and developing a wide array of leadership skills. He understands our clients better than most, well-versed in fundraising strategy and implementation. He thrives off building relationships with the organizations we serve, always looking for innovative, inspiring solutions through new technology. He’s worked with environmental groups worldwide in a leadership role, managed two open source software consultancies rooted in Drupal development, and has led national community organizing initiatives and international relief projects. Sean holds a master’s degree in Public Administration (MPA) from Syracuse University’s Maxwell School. In the off hours, he can usually be found somewhere near a river, getting in touch with nature.
+    Sean has spent the last ten years working with some of the best talent in the Drupal Community, providing technical consulting services and developing a wide array of leadership skills. He understands our clients better than most, well-versed in fundraising strategy and implementation. He thrives off building relationships with the organizations we serve, always looking for innovative, inspiring solutions through new technology. He’s worked with environmental groups worldwide in a leadership role, managed two open source software consultancies rooted in Drupal development, and has led national community organizing initiatives and international relief projects. Sean holds a master’s degree in Public Administration (MPA) from Syracuse University’s Maxwell School. In the off hours, he can usually be found somewhere near a river, getting in touch with nature.
 
 - first_name: Betsy
   last_name: Ensley
@@ -151,7 +151,7 @@
 
 - first_name: Claire
   last_name: Seibert
-  position: Project Coordinator
+  position: Project Manager
   leadin: |
     Bringing order to potential chaos, Claire keeps us on task and under budget while ensuring our clients’ needs are met on all levels.  She loves working through complex projects with clients committed to social change and is never left wanting for deadlines.
   social:
@@ -185,13 +185,13 @@
   published: true
   name: david
   bio: |
-    A graduate of West Texas A&M University, David most recently worked to develop seamless eCommerce integration for distinct Drupal 7 and Drupal 6 sites for AllPlayers.com, a provider of technology to more than 100,000 national and local community users. Prior to that, he served as the Director of Web Development at Blue Tent Marketing, where he refined the best practices of their internal development team. David continues to be committed to open source and strives to develop sustainable websites for our nonprofit clients. When he’s not busy coding, he’s learning how to play the cello or throwing a boomerang.
+    A graduate of West Texas A&M University, David most recently worked to develop seamless e-commerce integration for distinct Drupal 7 and Drupal 6 sites for AllPlayers.com, a provider of technology to more than 100,000 national and local community users. Prior to that, he served as the Director of Web Development at Blue Tent Marketing, where he refined the best practices of their internal development team. David continues to be committed to open source and strives to develop sustainable websites for our nonprofit clients. When he’s not busy coding, he’s learning how to play the cello or throwing a boomerang.
 
 - first_name: Gabe
   last_name: Carlton-Barnes
   position: Software Engineer
   leadin: |
-    Gabe’s not only a Magic: The Gathering champion -- he’s a champion for our Salesforce integrations and open source contributions. His experience in streamlining processes for nonprofits drew him to ThinkShout, where he could apply his skills and do some good for the world at the same time.
+    Gabe’s not only a Magic: The Gathering champion -- he’s a champion for our Salesforce integration tools and other open source contributions. His experience in streamlining processes for nonprofits drew him to ThinkShout, where he could apply his skills and do some good for the world at the same time.
   social:
     github: https://github.com/unclegcb
     twitter: https://twitter.com/uncle_gcb
@@ -204,13 +204,13 @@
   published: true
   name: gabe
   bio: |
-    Gabe is highly experienced in building  custom Salesforce implementations for constituent tracking and fundraising. Before joining ThinkShout, Gabe worked in the nonprofit world at Ecotrust, the Wild Salmon Center, and Immigration Equality. He holds a BA in Computer Science and Theatre from Oberlin College and Gabe really does spend his free time playing Magic: The Gathering in a variety of time zones.
+    Gabe is highly experienced in building custom Salesforce implementations for constituent tracking and fundraising. Before joining ThinkShout, Gabe worked in the nonprofit world at Ecotrust, the Wild Salmon Center, and Immigration Equality. He holds a BA in Computer Science and Theatre from Oberlin College. Gabe really does spend his free time playing Magic: The Gathering in a variety of time zones.
 
 - first_name: Stephanie
   last_name: Gutowski
   position: Special Projects Coordinator
   leadin: |
-    Stephanie knows firsthand the problems organizations like yours face when it comes to getting the technology they need. She loves being part of the solution at ThinkShout. She also loves video games.
+    Given her background in nonprofit development, Stephanie knows firsthand the problems that progressive organizations face when it comes to getting the technology they need. She loves being part of the solution at ThinkShout. She also loves video games.
   social:
     github:
     twitter:
@@ -223,4 +223,4 @@
   published: true
   name: stephanie
   bio: |
-    With a background in nonprofit development, Stephanie knows all too well that keeping your technology up to date and accessible to your constituents isn’t always a priority when dealing with a tight budget. She also has some great tips on how to operate lean while still getting results.  Stephanie has a BA from Gonzaga University and spent a few years in freelance video production and content editing for independent online press. She eventually found herself in the nonprofit world, spearheading a social media campaign and communications plan for Families Forward in Southern California. Through this, Stephanie developed a great appreciation for open source tools that help nonprofits better engage their constituents and she continues to be an advocate for nonprofit technology.
+    Having worked extensively in the nonprofit sector, Stephanie knows all too well that keeping your technology up to date and accessible to your constituents isn’t always a priority when dealing with a tight budget. She also has some great tips on how to operate lean while still getting results.  Stephanie has a BA from Gonzaga University and spent a few years in freelance video production and content editing for independent online press. She eventually found herself in the nonprofit world, spearheading a social media campaign and communications plan for Families Forward in Southern California. Through this, Stephanie developed a great appreciation for open source tools that help nonprofits better engage their constituents and she continues to be an advocate for nonprofit technology.
