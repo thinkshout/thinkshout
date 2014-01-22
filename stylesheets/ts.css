@@ -883,7 +883,7 @@ footer {
   text-align: left;
   background: transparent;
   outline: 1px solid #fff;
-  overflow: scroll;
+  overflow: auto;
 }
 @media screen and (max-width: 800px) {
   /* line 82, ../sass/_layout.scss */
@@ -1834,4 +1834,14 @@ footer .contact-info h4 {
 /* line 548, ../sass/ts.scss */
 footer .contact-info .copyright {
   font-size: 0.75em;
+}
+
+/* line 557, ../sass/ts.scss */
+.reveal-modal {
+  z-index: 2000;
+}
+
+/* line 561, ../sass/ts.scss */
+.reveal-modal-bg {
+  z-index: 1999;
 }

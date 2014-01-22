@@ -551,3 +551,15 @@ footer {
   }
 }
 
+// 
+// Foundation Reveal Overrides
+// 
+.reveal-modal {
+	z-index: 2000;
+}
+
+.reveal-modal-bg {
+	z-index: 1999;
+}
+
+

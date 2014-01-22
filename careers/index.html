@@ -25,7 +25,7 @@ title: Careers
           <article>
             <div class="row">
               <div class="large-12 columns">
-                <h4 class="project-title"><a href="{{ page.url }}">{{ page.title}}</a></h4>
+                <h4 class="project-title"><a href="{{ page.url }}" data-reveal-id="myModal" data-reveal-ajax="true">{{ page.title}}</a></h4>
               </div>
             </div>
           </article>
@@ -52,4 +52,8 @@ title: Careers
       </div>
     </div>
   </section>
+</div>
+
+<div id="myModal" class="reveal-modal medium" data-reveal>
+	{{ page.content }}
 </div>
