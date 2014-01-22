@@ -9,48 +9,36 @@ layout: default
       <div class="leadin">
         <h1 class="post-title">{{ page.title }}</h1>
         <p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
-
-        <div class="byline">
-          {% for person in site.data.team %}
-          {% if page.author == person.name %}
-          <a class="team-photo" href="{{ site.baseurl }}{{ person.url }}"><img src="{{ site.baseurl }}/images/{{ person.image.small }}"></a>
-          <div class="info">
-            <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a>
-            <p>{{ person.position }}</p>
-          </div>
-          {% endif %}
-          {% endfor %}
-        </div>
       </div>
     </div>
   </div>
   <section class="main">
     <div class="row">
-     <div class="large-8 columns large-centered">
-      <p>{{ content }}</p>
-
-      {% if page.comments or page.comments != false %}
-      <div class="comments">
-        <div id="disqus_thread"></div>
-        <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-				      var disqus_shortname = 'thinkshout'; // required: replace example with your forum shortname
-
-				      /* * * DON'T EDIT BELOW THIS LINE * * */
-				      (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-              })();
-              </script>
-              <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-              <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-            </div>
-            {% endif %}
-          </div>
-        </div>
-     </section>
-   </div>
+      <div class="large-8 columns large-centered">
+      	<p>{{ content }}</p>
+	
+      	{% if page.comments or page.comments != false %}
+      	<div class="comments">
+      	  <div id="disqus_thread"></div>
+      	  <script type="text/javascript">
+      	  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+				  var disqus_shortname = 'thinkshout'; // required: replace example with your forum shortname
+	
+				  /* * * DON'T EDIT BELOW THIS LINE * * */
+				  (function() {
+      	    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      	    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      	    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      	  })();
+      	  </script>
+      	  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      	  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      	</div>
+      	{% endif %}
+      </div>
+    </div>
+  </section>
+</div>
 
 
 
