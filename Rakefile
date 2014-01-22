@@ -10,6 +10,7 @@ task :default => :server
 
 desc 'Build site with Jekyll'
 task :build do
+  system 'compass compile'
   jekyll 'build'
 end
 
