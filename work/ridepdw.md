@@ -1,7 +1,7 @@
 ---
 layout: project
 shortname: Portland Design Works
-title: Portland Design Works
+title: Portland Design Works' E-Commerce Solution
 images:
   card: work/ridepdw/ridepdw-card.jpg
   hero: work/ridepdw/ridepdw-hero.jpg

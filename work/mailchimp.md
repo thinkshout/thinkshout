@@ -1,7 +1,7 @@
 ---
 layout: project
 shortname: MailChimp
-title: The MailChimp Module
+title: The MailChimp Module for Drupal
 images:
   card: work/mailchimp/mailchimp-card.jpg
   hero: work/mailchimp/lac-iphone-in-environment.jpg

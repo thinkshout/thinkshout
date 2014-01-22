@@ -1,7 +1,7 @@
 ---
 layout: project
 shortname: LA Conservancy
-title: The Los Angeles Conservancy
+title: Redesigning the Los Angeles Conservancy Website
 images:
   card: work/lac/lac-card.jpg
   hero: work/lac/lac-iphone-in-environment.jpg
