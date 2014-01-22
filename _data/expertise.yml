@@ -26,13 +26,13 @@
 
 - name: Open Source Technologies
   description: |
-    Over 24,000 websites are powered by our engineering team's open source contributions. As the maintainers of many powerful Drupal integration solutions, such as the MailChimp and Salesforce integration suites, we are a nationally recognized leader in web application development for nonprofits.
-    
-    - Drupal distribution development
-    - CRM integration (Salesforce)
+    In addition to being nationally recognized leaders in web application development for nonprofits, we're geeks at heart and love playing on the bleeding edge of web technology, which also happens to ensure we're adding the most possible value to our clients. One thing we don't waiver on, however, is our commitment to open source, as demonstrated by the over 24,000 websites running on our contributions.
+
+    - Drupal development
+    - Cloud integration, E.g. Salesforce and MailChimp
+    - Constituent/customer/contact relationship management (CRM)
     - Association management solutions
-    - Nonprofit e-commerce
-    - MailChimp integration
-    - QA and automated testing
     - Event management and ticketing
     - Online mapping
+    - Digital experience management
+    - Front end artistry using tools such as Foundation, Jekyll, and Ember.js.
