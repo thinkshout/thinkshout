@@ -1,6 +1,7 @@
 ---
 layout: job
 title: Project Manager
+mailto: jobs@thinkshout.com
 active: true
 published: true
 ---
