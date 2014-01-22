@@ -81,18 +81,20 @@ footer {
     }
     .side-right {
       right: 0;
+      width: 100%;
       text-align: left;
-      background: #fff;
-      outline: 1px solid #fff; /* avoid gap */
+      background: transparent;
+      outline: 1px solid #fff;
+      overflow: scroll;
       @media screen and (max-width: $tablet) {
         width: 100%;
       }
       .intro-content {
         position: absolute;
         top: 15%;
-        left: 10%;
-        padding: 0 1em;
-        width: 80%;
+        left: 4em;
+        right: 4em;
+        padding-left: 50%;
       
         .profile {
           margin: 0 auto;

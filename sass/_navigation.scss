@@ -156,13 +156,12 @@ ul.navblocks {
       height: 150px;
       text-align: center;
       padding: 1em 1em 0;
-      background: darken($brown, 25%);
+      background: rgba(255,255,255,0.8);
       @include transition-property(all);
       @include transition-duration(0.2s);
       a {
         display: block;
         vertical-align: middle;
-        color: #FFF;
         @include transition-property(all);
         @include transition-duration(0.2s);
         .rubric {
@@ -177,11 +176,12 @@ ul.navblocks {
         h3 {
       		font-size: 1.5em;
       		font-weight: 600;
-      		color: #FFF;
+      		color: darken($brown, 25%);
       	}
       }
       &:hover {
-        background: rgba(255,255,255,0.8);
+      	background: darken($brown, 25%);
+        
       	a {
       	  .rubric {
       	    color: #FFF;
@@ -193,7 +193,7 @@ ul.navblocks {
       	    padding: 0.5em;
       	  }
       	  h3 {
-      			color: darken($brown, 25%);
+      	  	color: #FFF;
       		}
       	}
       }
