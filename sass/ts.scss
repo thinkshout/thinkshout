@@ -181,19 +181,24 @@ ul.social {
 //
 // HOME
 //
-.welcome header {
-  background: transparent;
-  position: absolute;
+#container {
+	height: 100%;
+	.marquee {
+	  background: $orange url('../images/marquee/home.jpg') no-repeat;
+	  background-position: bottom center;
+	  background-size: cover;
+	  .leadin {
+	    h1 {
+	      font-size: 3.5em;
+	    }
+	  }
+	}
 }
-.welcome .marquee {
-  background: $orange url('../images/marquee/home.jpg') no-repeat;
-  background-position: bottom center;
-  background-size: cover;
-  .leadin {
-    h1 {
-      font-size: 3.5em;
-    }
-  }
+.home-nav {
+	position: absolute;
+	bottom: 1em;
+	width: 100%;
+	z-index: 300;
 }
 
 #hiring {
@@ -295,6 +300,8 @@ ul.client-list {
 				    display: block;
 				    overflow: none;
 				    padding: 2em 4em;
+				    border-bottom: 2px solid #DADADA;
+				    @include clearfix;
 				    a {
 				      display: block;
 				      color: #222;
@@ -302,6 +309,29 @@ ul.client-list {
 				      	color: $orange;
 				      }
 				    }
+				    .byline {
+				    	width: 100%;
+  					  .team-photo {
+  					    border-radius: 50%;
+  					    height: 60px;
+  					    width: 60px;
+  					    display: block;
+  					    float: left;
+  					    margin: 0 1em 0 0;
+  					    border: 2px solid #FFF;
+  					    img {
+  					      border-radius: 50%;
+  					    }
+  					  }
+  					  .info {
+  					    float: left;
+  					    clear: none;
+  					    .team-name {
+  					      font-size: 1.125em;
+  					      font-weight: 600;
+  					    }
+  					  }
+  					}
 				    &:hover {
 				      background: $orange;
 				    	a {
@@ -312,17 +342,6 @@ ul.client-list {
 				    	  }
 				    	}
 				    }
-				  }
-				  li:before {
-				    content: '';
-				    width: 92px;
-				    height: 2px;
-				    display: inline-block;
-				    background: #DADADA;
-				    position: absolute;
-				    bottom: -1px;
-				    left: 50%;
-				    margin-left: -46px;
 				  }
 				}
 			}	
