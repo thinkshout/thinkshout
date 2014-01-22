@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="content">
+<div class="content project">
   <div class="hero-image" style="background-image: url('{{ site.baseurl }}/images/{{ page.images.hero }}');"></div>
   <div class="hero">
     <div class="site-width">
@@ -44,11 +44,14 @@ layout: default
       {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
         <section class="{{thecycle}}">
           <div class="row">
-            <div class="large-4 columns push-2">
+          	{% if component.background %}
+          		<div class="section-bg"><img src="{{ site.baseurl }}/images/{{ component.background }}"></div>
+          	{% endif %}
+            <div class="large-5 columns col1">
             	<h2>{{ component.title }}</h2>
               <p>{{ component.column1 }}</p>
             </div>
-            <div class="large-6 columns">
+            <div class="large-6 columns col2">
               <p>{{ component.column2 }}</p>
             </div>
           </div>
