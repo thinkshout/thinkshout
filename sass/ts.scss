@@ -301,6 +301,9 @@ ul.client-list {
 				    padding: 2em 4em;
 				    border-bottom: 2px solid #DADADA;
 				    @include clearfix;
+				    @media screen and (max-width: $tablet) {
+        			padding: 2em;
+      			}
 				    a {
 				      display: block;
 				      color: #222;
