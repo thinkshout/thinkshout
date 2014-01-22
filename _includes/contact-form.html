@@ -1,4 +1,6 @@
-<form action="https://docs.google.com/forms/d/1ce7qWm2XPdRcNeTp733EHt5H3fYz9HDw-gQyW3fvQ34/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""><ol style="padding-	left: 0">
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='{{ site.contact_redirect }}';}"></iframe>
+<form action="https://docs.google.com/forms/d/1ce7qWm2XPdRcNeTp733EHt5H3fYz9HDw-gQyW3fvQ34/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;">
 	<div class="ss-form-question errorbox-good">
 		<div dir="ltr" class="ss-item ss-item-required ss-select">
 			<div class="ss-form-entry">
@@ -9,7 +11,10 @@
 					</div>
 				</label>
 				<select name="entry.1392677642" id="entry_1392677642" aria-label="Category" aria-required="true" required="">
-				<option value="General inquiry">General inquiry</option><option value="Project, partnership, or other opportunity">Project, partnership, or other opportunity</option><option value="Employment at ThinkShout">Employment at ThinkShout</option></select>
+				  <option value="General inquiry">General inquiry</option>
+          <option value="Project, partnership, or other opportunity">Project, partnership, or other opportunity</option>
+          <option value="Employment at ThinkShout">Employment at ThinkShout</option>
+        </select>
 			</div>
 		</div>
 	</div>

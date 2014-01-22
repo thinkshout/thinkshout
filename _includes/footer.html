@@ -1,3 +1,4 @@
+{% if page.contact != false %}
 <div class="contact">
 	<div class="row">
 		<div class="large-8 columns large-centered">
@@ -6,24 +7,29 @@
 		</div>
 	</div>
 </div>
+{% endif %}
 <footer>
 	<div class="row">
-		<div class="large-5 medium-3 small-12 columns push-1">
-			<nav class="footer-nav">
-				<ul>
-				{% for link in site.data.menu %}
-		    	<li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
-				{% endfor %}
-		  	</ul>
-			</nav>
-		</div>
-		<div class="large-3 medium-3 small-12 columns pull-1">
-			<div class="contact-info">
-				<h4>ThinkShout, Inc.</h4>
-				<p>433 NW 4th Ave, Suite 100<br />
-				Portland OR 97209<br />
-				(503) 847-9216<br />
-				<span class="copyright">Founded June 2009 © 2009-2014</span></p>
+		<div class="large-8 columns large-centered">
+			<div class="row">
+				<div class="large-5 small-12 columns">
+					<nav class="footer-nav">
+						<ul>
+						{% for link in site.data.menu %}
+				    	<li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+						{% endfor %}
+				  	</ul>
+					</nav>
+				</div>
+				<div class="large-5 small-12 columns">
+					<div class="contact-info">
+						<h4>ThinkShout, Inc.</h4>
+						<p>433 NW 4th Ave, Suite 100<br />
+						Portland OR 97209<br />
+						(503) 847-9216<br />
+						<span class="copyright">Founded June 2009 © 2009-2014</span></p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

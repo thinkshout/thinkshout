@@ -15,18 +15,19 @@ module Jekyll
   class GoogleForm < Liquid::Tag
     @url = ''
     @formkey = ''
-    @message= ''
+    @redirect = ''
     @formhtml = ''
 
     def initialize(tag_name, markup, tokens)
       if markup =~ /([a-zA-Z0-9_\-]*)?\s(.+)/
         @formkey = $1
-        @message = $2
+        @redirect = $2
 
         #url of the Google Form
         @url = "https://docs.google.com/forms/d/#{@formkey}/viewform?embedded=true"
 
         #parse the HTML and get the form markup only
+        $response = open(@url);
         doc = Nokogiri::HTML(open(@url))
         form = doc.xpath("//form").first.unlink
 
@@ -38,11 +39,12 @@ module Jekyll
     def render(context)
       if @formhtml
         html = '<div class="google-form-wrapper">'
-        html += "<p class='success-msg'>#{@message}</p>"
+        html += '<script type="text/javascript">var submitted=false;</script>'
+        html += '<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='';}"></iframe>'
         html += @formhtml
         html += '</div>'
       else
-        "Error processing input, expected syntax: {% google_form formkey [message] %}"
+        "Error processing input, expected syntax: {% google_form formkey [redirect] %}"
       end
     end
   end

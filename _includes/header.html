@@ -2,7 +2,8 @@
 	<div id="flag" class="menu-close">
 		<a class="menu-toggle"><span>Menu</span></a>
 		<a id="branding" href="{{ site.baseurl }}/">ThinkShout</a>
-		<div id="title-flag">{{ page.title }}</div>
+    {% assign url_parts = page.url | split: '/' %}
+    <div id="title-flag"><a href="{{ site.baseurl}}/{{ url_parts[1] }}/">{{ url_parts[1] | capitalize }}</a></div>
 		<nav id="primary">
 			<ul>
 				{% for link in site.data.menu %}
