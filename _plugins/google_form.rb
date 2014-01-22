@@ -27,6 +27,7 @@ module Jekyll
         @url = "https://docs.google.com/forms/d/#{@formkey}/viewform?embedded=true"
 
         #parse the HTML and get the form markup only
+        $response = open(@url);
         doc = Nokogiri::HTML(open(@url))
         form = doc.xpath("//form").first.unlink
 
