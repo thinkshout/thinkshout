@@ -85,7 +85,7 @@ footer {
       text-align: left;
       background: transparent;
       outline: 1px solid #fff;
-      overflow: scroll;
+      overflow: auto;
       @media screen and (max-width: $tablet) {
         width: 100%;
       }

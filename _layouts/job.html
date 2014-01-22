@@ -1,27 +1,15 @@
----
-layout: default
----
-<div class="content">
-  <div class="hero-image" style="background-image: url('{{ site.baseurl }}/images/marquee/careers.jpg');"></div>
-  <div class="hero">
-    <div class="site-width">
-      <div class="background"></div>
-      <div class="leadin">
-        <h2>{{ page.title }}</h2>
-      </div>
-    </div>
-  </div>
-  <section class="main">
-   	<div class="section-rubric">
-      <h3><span>About This Position</span></h3>
-    </div>
-		<div class="row">
-			<div class="large-7 columns large-centered">
-				<p>{{ content }}</p>
-			</div>
-		</div>
-	</section>
+<div class="section-rubric">
+  <h3><span>{{ page.title }}</span></h3>
 </div>
+<div class="row">
+	<div class="large-7 columns">
+		<p>{{ content }}</p>
+	</div>
+	<div class="large-3 columns">
+		<a class="button default" href="#">Apply Now</a>
+	</div>
+</div>
+<a class="close-reveal-modal">&#215;</a>
 
 
 

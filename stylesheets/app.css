@@ -5054,7 +5054,7 @@ ul.pagination li {
   height: 100%;
   width: 100%;
   background: black;
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(0, 0, 0, 0.75);
   z-index: 98;
   display: none;
   top: 0;
