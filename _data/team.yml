@@ -15,13 +15,13 @@
   published: true
   name: lev
   bio: |
-    With over fourteen years of experience in web development and technical architecture, it is Lev's job to constantly improve upon our engineering best practices and ensure that we remain on the cutting-edge of open source. Lev began his career in software development as a consultant with Computer Sciences Corporation (CSC) and Inforte Corporation in Chicago and also spent two years as the Director of Programming at Pop Art, Inc. Lev holds a bachelors degree in business administration (BBA) and political science from the University of Wisconsin-Madison. Before ThinkShout, Lev ran the highly-respected consultancy, Level Online Strategy, here in Portland, OR. He spends his off hours keeping busy with his two boys.
+    With over fourteen years of experience in web development and technical architecture, it is Lev's job to constantly improve upon our engineering best practices and ensure that we remain on the cutting-edge of open source. Lev began his career in software development as a consultant with Computer Sciences Corporation (CSC) and Inforte Corporation in Chicago and also spent two years as the Director of Programming at Pop Art, Inc. Lev holds a bachelors degree in business administration (BBA) and political science from the University of Wisconsin-Madison. Before ThinkShout, Lev ran the highly-respected consultancy, Level Online Strategy, here in Portland, OR. He spends his off hours chasing after his two boys.
 
 - first_name: Sean
   last_name: Larkin
   position: Partner - Director of Strategy
   leadin: |
-    Sean's interests in open source began in a tent in Honduras. _Ask him about it sometime._ His personal goal in co-founding ThinkShout was to make life easier on his colleagues in the nonprofit sector who were responsible for fundraising and advocacy campaigns. Sean leads our startegy and user experience team, helping our clients communicate their vision and engage stakeholders on the web.
+    Sean's interests in open source began in a tent in Honduras. Ask him about it sometime. He leads our strategy and user experience team, helping our clients communicate their vision and engage stakeholders on the web.
   social:
     github: https://github.com/seanberto
     twitter: https://twitter.com/sean_larkin
@@ -34,7 +34,7 @@
   published: true
   name: sean
   bio: |
-    Sean brings over twelve years of diverse leadership and technical consulting experience to the team. He has been working with the best and brightest software engineers and designers in the Drupal community for the past eight years. He has led national community organizing initiatives and international relief projects, served as a fundraising strategist for environmental groups worldwide, and run two open source software consultancies specializing in Drupal development. He holds a masters of public administration (MPA) degree from Syracuse University's Maxwell School. When not in the office, Sean can either be found fishing on a Pacific Northwest river or at the gymn training Brazilian Jiu Jitsu.
+    Sean's goal in co-founding ThinkShout was to make life easier on his colleagues in the nonprofit sector who were responsible for advocacy campaigns. He brings over twelve years of diverse leadership and technical consulting experience to the team. He has been working with the best and brightest software engineers and designers in the Drupal community for the past eight years. He has led national community organizing initiatives and international relief projects, served as a fundraising strategist for environmental groups worldwide, and ran two open source software consultancies specializing in Drupal development. He holds a masters of public administration (MPA) degree from Syracuse University's Maxwell School. When not in the office, Sean is either fishing on a Northwest stream or at the gym training Brazilian Jiu Jitsu.
 
 - first_name: Betsy
   last_name: Ensley
@@ -59,7 +59,7 @@
   last_name: Hogue
   position: Lead Developer
   leadin: |
-    Tauno is the more accomplished of two professional raft guides on the team. His guiding experience has given him a cool head and great communication skills, which come in handy in his role as our lead developer.
+    Tauno is the more accomplished of two raft guides on the team. His guiding experience has given him a cool head and great communication skills, which come in handy in his role as our lead developer.
   social:
     github: https://github.com/tauno
     twitter:
@@ -78,10 +78,10 @@
   last_name: Ellison
   position: Software Engineer
   leadin: |
-    Alex strives to build a better user experience for the organizations we serve by combining his passion for the humanities with his skill as a code builder. On weekends, he can usually be found playing ice hockey. Last we checked, he still had all his teeth.
+    Alex studied bioinformatics in college. We still don't know exactly what that means, but we do know that it's given him a keen understanding of how humans interact with software.
   social:
     github: https://github.com/caxy4
-    twitter: https://twitter.com/caxy4
+    twitter:
     linkedin: http://www.linkedin.com/profile/view?id=72923139
     drupal: https://drupal.org/user/2735491/
   image:
@@ -91,13 +91,13 @@
   published: true
   name: alex
   bio: |
-    Above all else, Alex wants our clients’ constituents to be inspired by their websites and motivated to take action. At ThinkShout, he gets to do just that. With a diverse background in artificial intelligence, existential philosophy, and developmental economics, Alex brings a unique perspective to the team and loves that he gets to apply it to the organizations he works with. Prior to joining ThinkShout, Alex designed and received a BA in Bioinformatics at his alma mater, Connecticut College, and put it to use at Schrödinger developing computational chemistry software.
+    With a diverse background in artificial intelligence, existential philosophy, and development economics, Alex brings a unique perspective to the team and helps our clients build comprehensive solutions that address a wide range of problems. Prior to joining our team, Alex attended Connecticut College and worked at Schrödinger, developing computational chemistry software. On weekends, he can usually be found playing ice hockey. Last we checked, he still had all his teeth.
 
 - first_name: Brandon
   last_name: Lee
   position: Senior Engineer
   leadin: |
-    Brandon’s never been a big fan of submarines. We don’t know why, but we do know that he comes to us with an extensive background in Drupal development, web development in general, and a commitment to putting his skills to use for worthwhile organizations. That’s what matters most, right?
+    Brandon is not a fan of submarines. He is a fan of large, complicated data migrations. We don't know why. We do know he is committed to putting his engineering skills to use for worthwhile organizations. That’s what matters most, right?
   social:
     github: https://github.com/bleeDev
     twitter: https://twitter.com/bleedev
@@ -110,13 +110,13 @@
   published: true
   name: brandon
   bio: |
-    Brandon joined the ThinkShout team in an effort to be part of a community of developers with a passion for open source technology and a dedication to best practices. He brings ten years of experience in enterprise software development to the team and we’re excited to have him on our roster. Prior to joining ThinkShout, Brandon was building a television content distribution system for Portland Community Media. Now that Brandon is good and settled here in Portland, he’s focusing on raising a family with his wife. He considers himself a full-time dad.
+    After spending ten years in enterprise software development, Brandon came to us to be part of a community of developers that share his passion for open source technology and his dedication to best practices. Prior to joining our team, Brandon built a Drupal-based television content distribution system for Portland Community Media. Brandon and his wife won the prize for having the first ThinkShout baby.
 
 - first_name: Brett
   last_name: Heckman
   position: User Experience Engineer
   leadin: |
-    Brett is obsessed with details and tackles his work with a passion for creating a memorable and engaging user experience. His talent for design is remarkable, but it’s his ability to get to the heart of what our clients need that is truly impressive.
+    Brett creates memorable and engaging web experiences. He is a talented designer and information architect with a knack for turning complex concepts into beautiful digital stories. But we really hired him because we love his two dogs, Gus and Waylon.
   social:
     github: https://github.com/bheckman
     twitter: 
@@ -129,7 +129,7 @@
   published: true
   name: brett
   bio: |
-    Prior to joining ThinkShout, Brett was a Production Director at Wardenclyffe, a design and development agency based in New York. Brett worked with clients on high-end fashion and entertainment brands, and his appreciation for mission-based organizations finally led him to ThinkShout.  Here, he gets to utilize his skills for worthy causes, bringing that same high-fashion standard of excellence to our clients. Brett also previously worked at OpenSourcery, a Portland-based web development firm, as a User Experience Developer. After taking off for the day, you’ll often find Brett playing guitar, spending time with his family and two dogs, Gus and Waylon, or building things out of wood.
+    Before ThinkShout, Brett was a production director at Wardenclyffe, a design agency based in New York City. There, he worked with high-end fashion and entertainment brands, but his appreciation for mission-based organizations ultimately led him to our team.  Here, he utilizes his talents for worthy causes, bringing that same standard of great design to our client work. Brett also worked at OpenSourcery as a front end developer, where he honed his skills with front end technologies such as javascript and HTML5. At home, Brett is usually banging around in the kitchen, building something.
 
 - first_name: Brett
   last_name: Meyer

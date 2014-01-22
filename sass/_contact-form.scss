@@ -3,9 +3,15 @@
   display: inline;
 }
 
+#ss-form {
+	ol {
+		margin-left: 0;
+	}
+}
+
 .contact-form-name,
 .contact-form-email {
-  width: 47.5%;
+  width: 48.5%;
   float: left;
 }
 
@@ -370,7 +376,7 @@ td.ss-rightlabel {
 }
 .ss-q-long {
   resize: vertical;
-  min-height: 100px;
+  min-height: 200px;
 }
 .ss-choices {
   list-style: none;
