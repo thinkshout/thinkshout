@@ -22,12 +22,13 @@ title: Work
         {% for page in site.pages %}
           {% if page.layout == 'project' and page.published == true %}
             {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-            <div class="project teaser {{ thecycle }}" style="background-image: url('{{ site.baseurl }}/images/{{ page.images.card }}');">
-              <article>
-                <h2 class="project-title"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.shortname}}</a></h2>
-                <a class="button default more-link" href="{{ site.baseurl }}{{ page.url }}">Case Study</a><br />
-              </article>
-            </div>
+            <article class="project teaser {{ thecycle }}">
+           		<a class="teaser-hero" href="{{ site.baseurl }}{{ page.url }}"><img src="{{ site.baseurl }}/images/{{ page.images.card }}"></a>
+           		<div class="text">
+              	<h2 class="project-title"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.shortname}}</a></h2>
+              	<a class="button default more-link" href="{{ site.baseurl }}{{ page.url }}">Case Study</a>
+              </div>
+            </article>
           {% endif %}
         {% endfor %}
       </div>
