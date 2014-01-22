@@ -2,6 +2,7 @@
 layout: default
 title: Thank you for contacting us
 permalink: /thanks/
+contact: false
 ---
 
 <div class="content">
