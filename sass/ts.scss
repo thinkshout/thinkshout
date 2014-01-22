@@ -181,19 +181,24 @@ ul.social {
 //
 // HOME
 //
-.welcome header {
-  background: transparent;
-  position: absolute;
+#container {
+	height: 100%;
+	.marquee {
+	  background: $orange url('../images/marquee/home.jpg') no-repeat;
+	  background-position: bottom center;
+	  background-size: cover;
+	  .leadin {
+	    h1 {
+	      font-size: 3.5em;
+	    }
+	  }
+	}
 }
-.welcome .marquee {
-  background: $orange url('../images/marquee/home.jpg') no-repeat;
-  background-position: bottom center;
-  background-size: cover;
-  .leadin {
-    h1 {
-      font-size: 3.5em;
-    }
-  }
+.home-nav {
+	position: absolute;
+	bottom: 1em;
+	width: 100%;
+	z-index: 300;
 }
 
 #hiring {
