@@ -20,10 +20,11 @@ title: Team
       <div class="large-12 columns">
         <ul class="team large-block-grid-4 medium-block-grid-2">
           {% for person in site.data.team %}
+          {% capture url %}{{ site.baseurl }}/{{ site.team_dir }}/{{ person.name }}/{% endcapture %}
           <li>
             <article>
-              <a href="{{ site.baseurl }}/team/{{ person.name }}/"><img src="{{ site.baseurl }}/images/{{person.image.medium}}"></a>
-              <div class="project-title"><h4><a href="{{ site.baseurl }}/team/{{ person.name }}/">{{ person.first_name }} {{ person.last_name }}</a></h4></div>
+              <a href="{{ url }}"><img src="{{ site.baseurl }}/images/{{person.image.medium}}"></a>
+              <div class="project-title"><h4><a href="{{ url }}">{{ person.first_name }} {{ person.last_name }}</a></h4></div>
               <p class="content-text">{{person.position}}</p>
             </article>
           </li>
