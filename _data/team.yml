@@ -83,6 +83,7 @@
     github: https://github.com/caxy4
     twitter: https://twitter.com/caxy4
     linkedin: http://www.linkedin.com/profile/view?id=72923139
+    drupal: https://drupal.org/user/2735491/
   image:
     small: team/small/alex.jpg
     medium: team/medium/alex.jpg
@@ -120,7 +121,7 @@
     github:
     twitter: https://twitter.com/brett_meyer
     linkedin: http://www.linkedin.com/pub/brett-meyer/7/976/930
-    drupal:
+    drupal: https://drupal.org/user/651796
   image:
     small: team/small/brett.jpg
     medium: team/medium/brett.jpg
@@ -213,8 +214,8 @@
     Given her background in nonprofit development, Stephanie knows firsthand the problems that progressive organizations face when it comes to getting the technology they need. She loves being part of the solution at ThinkShout. She also loves video games.
   social:
     github:
-    twitter:
-    linkedin:
+    twitter: https://twitter.com/SigmaRue
+    linkedin: www.linkedin.com/pub/stephanie-gutowski/13/505/79b/
     drupal:
   image:
     small: team/small/stephanie.jpg
