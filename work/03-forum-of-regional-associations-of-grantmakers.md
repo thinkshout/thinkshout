@@ -6,6 +6,7 @@ permalink: work/giving-forum/
 images:
   card: work/givingforum/givingforum-card.jpg
   hero: work/givingforum/lac-iphone-in-environment.jpg
+breakpoints:
   desktop: 
   tablet: 
   mobile: 

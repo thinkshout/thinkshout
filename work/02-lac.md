@@ -6,6 +6,7 @@ permalink: work/la-conservancy/
 images:
   card: work/lac/lac-card.jpg
   hero: work/lac/lac-iphone-in-environment.jpg
+breakpoints:
   desktop: work/lac/lac-desktop.jpg
   tablet: work/lac/lac-tablet.jpg
   mobile: work/lac/lac-mobile.jpg

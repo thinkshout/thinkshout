@@ -6,6 +6,7 @@ permalink: work/ridepdw/
 images:
   card: work/ridepdw/ridepdw-card.jpg
   hero: work/ridepdw/ridepdw-hero.jpg
+breakpoints:
   desktop: work/ridepdw/ridepdw-desktop.jpg
   tablet: work/ridepdw/ridepdw-tablet.jpg
   mobile: work/ridepdw/ridepdw-mobile.jpg
