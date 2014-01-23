@@ -11,7 +11,8 @@ breakpoints:
   tablet: 
   mobile: 
 client: |
-  A popular email service we all know and love, MailChimp provides users with fresh, responsive tools to create eye-catching email campaigns. We thought that same robust functionality would really fly in Drupal, so in collaboration with MailChimp, we set out to unite MailChimp and Drupal. The result was the flagship MailChimp Drupal integration module that allowed Drupal site maintainers to capture emails and organize them with ease. We’re now working on their exciting e-mail transaction service, Mandrill.
+  A popular email service we all know and love, MailChimp provides users with fresh, responsive tools to create eye-catching email campaigns. We are always excited to integrate Drupal with other great tools, so we were thrilled to take on the development of a robust MailChimp integration module.
+  
 url: https://drupal.org/project/mailchimp
 expertise: |
   - User Experience
