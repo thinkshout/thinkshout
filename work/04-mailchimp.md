@@ -20,19 +20,16 @@ expertise: |
   - Custom Web Applications
 
 components:
-  - section:
-    title: Discovery
-    column1: [img-path-here]
+  - title: Discovery
+    column1:
     column2: |
       MailChimp needed to integrate their e-mail service with Drupal and we thought it just made sense to combine these two good-looking, user-friendly platforms. This integration module needed to do more than connect the two. It needed to improve upon the existing system. 
-  - section:
-    title: Strategy
+  - title: Strategy
     column1: |
       This MailChimp integration module allowed us to introduce several great features to Drupal. The module enabled visitors to subscribe to MailChimp during site registration while administrators on the back end could create mail lists, sort the captured data, manage their campaigns, and even track anonymous users.  
-    column2: [img-path-here]
-  - section:
-    title: Implementation
-    column1: [img-path-here]
+    column2:
+  - title: Implementation
+    column1:
     column2: |
       ThinkShout introduced this module to the Drupal Community several years ago and continues to maintain it. It works beautifully with our Mandrill module, providing modern analytics, spam compliance features, and a reliable transactional e-mail system.
 results:

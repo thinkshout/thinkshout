@@ -19,19 +19,16 @@ expertise: |
   - Content Strategy
 
 components:
-  - section:
-    title: Discovery
-    column1: [img-path-here]
+  - title: Discovery
+    column1:
     column2: |
       We initially considered using a multisite approach to host the seventeen sites, but were concerned about the customization and update difficulties we’d face with that platform. In the end, Pantheon One won out. 
-  - section:
-    title: Strategy
+  - title: Strategy
     column1: |
       By building a robust Drupal distribution that each site could use, every member started off with the same tools for uniformity and ease of use. This not only cut down on cost, but still allowed for expansion if the association or individual members ever needed more advanced utilities. Lastly, we also introduced a brand new version of the Salesforce integration suite, which allowed for seamless, quick updates.
-    column2: [img-path-here]
-  - section:
-    title: Implementation
-    column1: [img-path-here]
+    column2:
+  - title: Implementation
+    column1:
     column2: |
       The Forum needed to make frequent, simultaneous updates across all of their sites, so we needed to go with a toolset that would allow for quick changes with minimal downtime. Each participating organization had the capability to customize the look and feel of their site while being empowered to make changes and updates according to their own timeline.
 results:
