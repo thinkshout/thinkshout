@@ -20,23 +20,25 @@ expertise: |
 components:
   - section:
     title: Discovery
-    column1: [img-path-here]
-    column2: |
+    column1: |
       We met with the Salmon Project team to pinpoint what exactly they needed from their new web identity. As this was to be their digital debut, we knew we needed to create something memorable and eye-catching in addition to a solid back end. 
   - section:
     title: Strategy
     column1: |
       Using assets from a partnering agency, our UX team focused on delivering an engaging destination that encouraged users to not just look, but explore. Designing in the browser with  mobile-first wireframes was the right call because one third of site traffic during launch week came from mobile users. Through the development of a custom RedHen CRM tool to integrate with the back end of their site, the Salmon Project team was able to cultivate their constituency from day one.
-    column2: [img-path-here]
   - section:
     title: Implementation
-    column1: [img-path-here]
-    column2: |
+    column1: |
       We launched the Salmon Project site under budget and in just under eight weeks, kicking off with a Salmon Love sweepstakes tool to help boost participation during the first month of the organization going public. Receiving well over 9,000 responses to the initial campaign, the Salmon Project has been able to focus on new and exciting features to engage an even broader audience.
 results:
-  bullet1: Bounce rate for first two months was under 30%
-  bullet2: There were roughly 10,000 participants in the Salmon Love Sweepstakes during its 30 days being live.
-  bullet3: The site had 500-600 visitors per day during its first week live
+  stats:
+    - number: 30%
+      description: Homepage bounce rate for first 2 months (That's excellent!)
+    - number: 10,000
+      description: Participants in the Salmon Love Sweepstakes in the 30 days following the website launch
+    - number: 550
+      description: Average number of site visitors per day in the first week
+  narrative:
 featured: true
 published: true
 ---

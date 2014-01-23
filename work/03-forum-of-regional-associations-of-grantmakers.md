@@ -34,9 +34,14 @@ components:
     column2: |
       The Forum needed to make frequent, simultaneous updates across all of their sites, so we needed to go with a toolset that would allow for quick changes with minimal downtime. Each participating organization had the capability to customize the look and feel of their site while being empowered to make changes and updates according to their own timeline.
 results:
-  bullet1: 4 launches within the first few months
-  bullet2: 
-  bullet3: 
+  stats:
+    - number:
+      description:
+    - number:
+      description:
+    - number:
+      description:
+  narrative:
 featured: true
 published: true
 ---

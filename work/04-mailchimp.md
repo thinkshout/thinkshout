@@ -32,9 +32,14 @@ components:
     column2: |
       ThinkShout introduced this module to the Drupal Community several years ago and continues to maintain it. It works beautifully with our Mandrill module, providing modern analytics, spam compliance features, and a reliable transactional e-mail system.
 results:
-  bullet1: Code is running on over 15,000 sites
-  bullet2: Over 40 releases combined
-  bullet3: 
+  stats:
+    - number: 16,000+
+      description: Number of websites running the MailChimp and Mandrill modules
+    - number: 40
+      description: Number of releases we've developed for the module
+    - number:
+      description:
+  narrative:
 featured: true
 published: true
 ---

@@ -37,9 +37,14 @@ components:
       ThinkShout chose Pantheon to host the site, which would allow for the quick delivery of all that content. It was a visual-heavy project, which called for a host that could handle the data and deliver a smooth user experience without sacrificing speed or reliability. 
     column2: [img-path-here]
 results:
-  bullet1: 
-  bullet2: 
-  bullet3: 
+  stats:
+    - number:
+      description:
+    - number:
+      description:
+    - number:
+      description:
+  narrative: 
 featured: true
 published: true
 ---

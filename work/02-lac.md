@@ -44,9 +44,14 @@ components:
     column2: 
     background:
 results:
-  bullet1: 5542 tickets sold in seven months 
-  bullet2: The LAC went from multiple web platforms to just two (Drupal and Salesforce)
-  bullet3: 186 events registered since launch
+  stats:
+    - number: 186
+      description: Number of events listed on the new system in the first 7 months
+    - number: 5542
+      description: Tickets sold in during this same period
+    - number:
+      description:
+  narrative:
 featured: true
 published: true
 ---
