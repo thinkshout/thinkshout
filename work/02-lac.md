@@ -22,23 +22,20 @@ expertise: |
   - Paid membership management
 
 components:
-  - section:
-    title: Discovery
+  - title: Discovery
     column1: |
       The Conservancy maintains a rich library of photos and articles about hundreds of unique buildings throughout Los Angeles County. We had an opportunity to visit this library when we kicked off our onsite discovery work. During this phase of the project, we utilized a number of "card sorting" exercises to focus our approach to tackling this large, complex redesign.
     column2:
     background: work/lac/lac-discovery.jpg 
-  - section:
-    title: Salesforce Integration
+  - title: Salesforce Integration
     column1: |
-       Upon completing information architecture and graphic design, we embarked upon an ambitious CRM integration, the likes of which had never been done before. This project led to a number of open source contributions, such as improvements to the Leaflet, MailChimp, iATS, and Salesforce modules for Drupal. The result was a seamless e-commerce and event ticketing solution that supports real-time data syncing between Drupal and Salesforce.
+      Upon completing information architecture and graphic design, we embarked upon an ambitious CRM integration, the likes of which had never been done before. This project led to a number of open source contributions, such as improvements to the Leaflet, MailChimp, iATS, and Salesforce modules for Drupal. The result was a seamless e-commerce and event ticketing solution that supports real-time data syncing between Drupal and Salesforce.
     column2:
     background: work/lac/lac-strategy.jpg
-  - section:
-    title: Mapping
+  - title: Mapping
     column1: |
       This project gave us a fun opportunity to play with map-based storytelling. We built interactive maps with geolocation and proximity search features that help people learn about historic locations on their mobile devices while they are out and about exploring the city.
-    column2:  
+    column2:
     background: work/lac/lac-mapping.jpg
 results:
   stats:

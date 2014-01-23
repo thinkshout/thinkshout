@@ -54,15 +54,15 @@ layout: default
               <div class="section-bg"><img src="{{ site.baseurl }}/images/{{ component.background }}"></div>
             {% endif %}
             <div class="large-5 columns col1">
-              <h2>{{ component.title }}</h2>
-              {{% if component.column1 %}}
-                <p>{{ component.column1 }}</p>
-              {{% endif %}}
+              <h2>{{ component.title != nil }}</h2>
+              {% if component.column1 %}
+                <p>{{ component.column1 | markdownify }}</p>
+              {% endif %}
             </div>
             <div class="large-6 columns col2">
-              {{% if component.column2 %}}
-                <p>{{ component.column2 }}</p>
-              {{% endif %}}
+              {% if component.column2 != nil %}
+                <p>{{ component.column2 | markdownify }}</p>
+              {% endif %}
             </div>
           </div>
         </section>
