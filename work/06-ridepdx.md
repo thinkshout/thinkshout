@@ -1,7 +1,7 @@
 ---
 layout: project
 shortname: Portland Design Works
-title: Portland Design Works' E-Commerce Solution
+title: Relaunching Portland Design Works' E-Commerce Site
 permalink: ridepdw/
 images:
   card: work/ridepdw/ridepdw-card.jpg
@@ -10,23 +10,27 @@ images:
   tablet: work/ridepdw/ridepdw-tablet.jpg
   mobile: work/ridepdw/ridepdw-mobile.jpg
 client: |
-  Portlanders are big fans of bicycles. Not just bicycles, but bicycle paraphernalia, eco-friendly transportation, and pretty much anything related to that culture. We eat it up. So when we came across Portland Design Works (PDW), a Portland leader in bicycle accessories in need of a new website, we leapt at the opportunity. They manufacture beautiful, simple bicycle accessories designed for everyday use and they wanted a website that reflected the quality of their merchandise. We worked carefully and quickly to deliver exactly that.
+  Portlanders are big fans of bicycles. We love our custom saddles, our bamboo fenders, our Italian leather handlebar grips...Seriously, we're a little obsessive when it comes to eco-friendly commuting. So, when Portland Design Works, a long-time client of ThinkShout, reached out to us to reimagine their e-commerce website, we couldn't have been more excited. Portland Design Works manufactures beautiful bicycle accessories designed for everyday use. In describing their goals for the redesign, they wanted a website that reflected the craftsmanship of their merchandise, with strong visuals and and an easy-to-use e-commerce checkout process.
 url: http:/www.ridepdw.com
-expertise: Mobile First Responsive Design, Online Mapping, User Experience
+expertise: | 
+  - Mobile First Responsive Design
+  - Online Mapping
+  - User Experience
+
 components:
   - section:
     title: Discovery
-    column1: [img-path-here]
+    column1:
     column2: |
       We began by prototyping with Foundation for the development of responsive wireframes and design in the the browser, which helped us avoid cycling through dozens of design iterations early on. The PDW team needed a platform for a wide variety of options. In addition to the online catalog, they also needed a means to share videos of races and events throughout the city. 
   - section:
     title: Strategy
     column1: |
       We kept detail and presentation at the forefront of our minds during this process, working to make the catalog navigable and visually appealing while providing users with all the detailed specifications necessary to make an informed purchase. On the back end, we planned for a Tumblr integration to meet the on-the-go blogging demands of the site maintainers.  
-    column2: [img-path-here]
+    column2:
   - section:
     title: Implementation
-    column1: [img-path-here]
+    column1:
     column2: |
       The process involved an eCommerce migration from Drupal 6 to preserve a long history of customer orders. With a dealer locator built using Leaflet, the site provides a mobile-friendly experience for online or in-store shopping.  
 results:

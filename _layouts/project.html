@@ -24,12 +24,10 @@ layout: default
 					<p>{{ page.overview }}</p>
 				</div>
 				<div class="large-4 columns">
-					<h5>Expertise:</h5>
-					<ul>
-						<li><a href="#"></a></li>
-						<li><a href="#"></a></li>
-						<li><a href="#"></a></li>
-					</ul>
+				  {% if page.expertise %}
+					  <h5>Applied Expertise:</h5>
+            {{ page.expertise | markdownify }}
+          {% endif %}
 				</div>
 			</div>	
 		</section>

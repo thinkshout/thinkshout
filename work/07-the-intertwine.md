@@ -11,6 +11,9 @@ images:
   mobile: work/intertwine/intertwine-mobile.jpg
 client: |
   The Intertwine exists to advocate for parks and trails in the Portland metropolitan area, uniting local agencies and groups to take a vested interest in the land and promoting conservation. To be effective advocates, they needed to inform and engage their audience. First and foremost, they needed a website that could do the work for them. ThinkShout partnered with Open Plans and Substance to deliver what would become a beautiful, user-friendly web solution.
+expertise: |
+  - ToDO
+
 url: www.theintertwine.org/
 components:
   - section:

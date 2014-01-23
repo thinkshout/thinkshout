@@ -12,7 +12,12 @@ images:
 client: |
   The Los Angeles Conservancy (LAC) is a nonprofit organization that exists to recognize, preserve, and revitalize the historic architectural and cultural resources of Los Angeles County through education and community engagement. When ThinkShout met the LAC team, they were managing a rapidly-aging website that just didn’t meet their needs any more. They wanted a mobile-friendly, interactive solution that would allow their constituents to easily sign up for walking tours and other events centered around the sites they curated.  
 url: http:/www.laconservancy.org
-expertise: Online Mapping, CRM Integration, Mobile First Responsive Design, User Experience
+expertise: |
+  - Online Mapping
+  - CRM Integration
+  - Mobile First Responsive Design
+  - User Experience
+
 components:
   - section:
     title: Discovery
