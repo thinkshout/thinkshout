@@ -32,7 +32,7 @@ layout: default
       </div>  
     </section>
 
-    {% if page.breakpoints %}
+    {% if page.breakpoints.desktop and page.breakpoints.tablet and page.breakpoints.mobile %}
       <section class="breakpoints">
         <div class="large-5 columns">
           <img src="{{ site.baseurl }}/images/{{ page.breakpoints.desktop }}">
