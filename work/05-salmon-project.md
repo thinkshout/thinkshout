@@ -7,9 +7,9 @@ images:
   card: work/salmonproject/salmonproject-card.jpg
   hero: work/salmonproject/salmonproject-hero.jpg
 breakpoints:
-  desktop: work/salmonproject/salmonproject-desktop.jpg
-  tablet: work/salmonproject/salmonproject-tablet.jpg
-  mobile: work/salmonproject/salmonproject-mobile.jpg
+  desktop: work/salmonproject/salmon-desktop.jpg
+  tablet: work/salmonproject/salmon-tablet.jpg
+  mobile: work/salmonproject/salmon-mobile.jpg
 client: |
   When the Salmon Project came to ThinkShout, Alaska had no idea who they were. The Salmon Project wasn’t even sure who they were themselves.  That needed to change, and fast. This brand new organization needed help building their identity and shaping the results they wanted to achieve, and that’s exactly what we did for them. We launched their site ahead of schedule, under budget, and with a custom-built kickoff Salmon Love sweepstakes application that had 10,000 participants total in the thirty days it ran. Now they’re telling the stories that need to be told and, of course, teaching Alaskans to love and save their salmon. 
 url: http:/www.salmonproject.org
@@ -33,7 +33,7 @@ components:
     column1: |
       We launched the Salmon Project site under budget and in just under eight weeks, kicking off with a Salmon Love sweepstakes tool to help boost participation during the first month of the organization going public. Receiving well over 9,000 responses to the initial campaign, the Salmon Project has been able to focus on new and exciting features to engage an even broader audience.
     column2: 
-    background: work/salmonproject/salmonproject-strategy.jpg 
+    background: work/salmonproject/salmonproject-implementation.jpg 
 results:
   stats:
     - number: 30%
