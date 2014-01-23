@@ -10,20 +10,20 @@ images:
   tablet: work/edf/edf-tablet.jpg
   mobile: work/edf/edf-mobile.jpg
 client: |
-  A number of our staff worked in environmental conservation before joining the team. So when we met with the Environmental Defense Fund (EDF) to talk about seafood preservation, we were all ears. Through science and economics, they advocate for seafood preservation and conscientious consumption, and EDF wanted to reach seafood consumers whether they were at home or the market.  We worked with their internal development team to set about redesigning the user experience for the Seafood Selector, a long-standing consumer advocacy tool. EDF's goal was to help seafood consumers to make informed choices, whether they were at home on their desktop or in the aisle of the grocery store using their smart phone.   
+  Through science and economics, the Environmental Defense Fund's Fisheries Program advocates for seafood preservation and conscientious consumption. A vital component of this program is its Seafood Selector App, a mobile website providing shoppers on-the-go with advice on healthy and eco-friendly seafood options. We worked with their internal development team to redesign the user experience for the Seafood Selector. This couldn't have been a more exciting opportunity for us, given our staff's collective background in environmental conservation.
 url: http://seafood.edf.org/
 expertise: |
   - User story development
   - Information architecture
   - Responsive design
   - Engagement metrics
-  - Technical architecture development
+  - Technical architecture consulting
 
 components:
   - section:
     title: Discovery
-    column1:
-      We engaged with EDF staff to interview target audiences for the new web application. We then examined website analytics to identify usage patterns and establish performance benchmarks. Finally, we developed user personas to guide the content and information architecture choices for the redesign.
+    column1: |
+      In collaboration with EDF staff, we interviewed a sampling of the application's target audience. We then examined website analytics to identify usage patterns and establish performance benchmarks. Finally, we developed _user stories_ to guide the content and information architecture choices for the redesign.
     column2:
   - section:
     title: Information Architecture
