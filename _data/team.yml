@@ -148,7 +148,7 @@
   published: true
   name: brett-meyer
   bio: |
-    Brett is a natural storyteller. He began his career as a dot-com software developer. He and his wife then spent two years in Mali with the Peace Corps, where he trained grassroots organizations in technology and media. Following this experience, Brett served as communications director at the Nonprofit Technology Network for six years, helping grow NTEN’s community from a few thousand to over 50,000 engaged participants. Having worked in the nonprofit sector for so long, he has a deep understanding of the communications and fundraising challenges that our clients face. Brett is uniquely positioned to help them build comprehensive multi-channel marketing plans. He's also the only person in the office to have worked at a radio station in West Africa.
+    Brett is a natural storyteller. He began his career as a dot-com software developer. He and his wife then spent two years in Mali with the Peace Corps, where he trained grassroots organizations in technology and media. Following this experience, Brett served as Communications Director at the Nonprofit Technology Network for six years, helping grow NTEN’s community from a few thousand to over 50,000 engaged participants. Having worked in the nonprofit sector for so long, he has a deep understanding of the communications and fundraising challenges that our clients face. Brett is uniquely positioned to help them build comprehensive multi-channel marketing plans. He's also the only person in the office to have worked at a radio station in West Africa.
 
 - first_name: Claire
   last_name: Seibert
@@ -173,7 +173,7 @@
   last_name: Lanier
   position: Software Engineer
   leadin: |
-    After fifteen years of developing websites for mission-minded organizations, David has developed what we think is a pretty excellent background with our clientele. He understands open source software and the organizations we serve. He also throws a mean boomerang, so we try not to make him mad.
+    David was very active in the Colorado Drupal community. We recruited him for his expertise in open source software development and his commitment to the nonprofit sector. David leads many of our site building efforts. He also throws a mean boomerang, so we try not to make him mad.
   social:
     github: https://github.com/nadavoid
     twitter: https://twitter.com/nadavoid
@@ -186,13 +186,13 @@
   published: true
   name: david
   bio: |
-    A graduate of West Texas A&M University, David most recently worked to develop seamless e-commerce integration for distinct Drupal 7 and Drupal 6 sites for AllPlayers.com, a provider of technology to more than 100,000 national and local community users. Prior to that, he served as the Director of Web Development at Blue Tent Marketing, where he refined the best practices of their internal development team. David continues to be committed to open source and strives to develop sustainable websites for our nonprofit clients. When he’s not busy coding, he’s learning how to play the cello or throwing a boomerang.
+    David is a graduate of West Texas A&M University. Before joining our team, he developed seamless e-commerce experiences for Drupal web properties managed by AllPlayers.com, a provider of technology to more than 100,000 community users. Prior to that, he served as the Director of Web Development at Blue Tent Marketing, where he refined the best practices of their internal development team. David continues to be committed to open source and strives to develop sustainable websites for our nonprofit clients. When he’s not busy coding, he’s learning how to play the cello or throwing a boomerang.
 
 - first_name: Gabe
   last_name: Carlton-Barnes
   position: Software Engineer
   leadin: |
-    Gabe’s not only a Magic: The Gathering champion -- he’s a champion for our Salesforce integration tools and other open source contributions. His experience in streamlining processes for nonprofits drew him to ThinkShout, where he could apply his skills and do some good for the world at the same time.
+    Gabe’s not only a Magic: The Gathering champion, he is a champion for our Salesforce integration tools and other open source contributions. His experience in streamlining processes for nonprofits drew him to ThinkShout, where he could apply his skills and do some good for the world at the same time.
   social:
     github: https://github.com/unclegcb
     twitter: https://twitter.com/uncle_gcb
@@ -205,7 +205,7 @@
   published: true
   name: gabe
   bio: |
-    Gabe is highly experienced in building custom Salesforce implementations for constituent tracking and fundraising. Before joining ThinkShout, Gabe worked in the nonprofit world at Ecotrust, the Wild Salmon Center, and Immigration Equality. He holds a BA in Computer Science and Theatre from Oberlin College. Gabe really does spend his free time playing Magic: The Gathering in a variety of time zones.
+    Gabe is highly experienced in building custom Salesforce solutions for constituent management and fundraising. Before joining ThinkShout, Gabe worked in the nonprofit world at Ecotrust, the Wild Salmon Center, and Immigration Equality. He holds a BA in Computer Science and Theatre from Oberlin College. Gabe really does spend his free time playing Magic: The Gathering in a variety of time zones.
 
 - first_name: Stephanie
   last_name: Gutowski
@@ -224,4 +224,4 @@
   published: true
   name: stephanie
   bio: |
-    Having worked extensively in the nonprofit sector, Stephanie knows all too well that keeping your technology up to date and accessible to your constituents isn’t always a priority when dealing with a tight budget. She also has some great tips on how to operate lean while still getting results.  Stephanie has a BA from Gonzaga University and spent a few years in freelance video production and content editing for independent online press. She eventually found herself in the nonprofit world, spearheading a social media campaign and communications plan for Families Forward in Southern California. Through this, Stephanie developed a great appreciation for open source tools that help nonprofits better engage their constituents and she continues to be an advocate for nonprofit technology.
+    Having worked extensively in the nonprofit sector, Stephanie knows all too well that keeping your technology up to date and accessible to your constituents is hard to prioritize when working on a tight budget. She has a BA from Gonzaga University and spent three years in freelance video production and content editing for independent online press. She eventually found herself in the nonprofit world, where she spearheaded a social media campaign and developed a communications plan for Families Forward in Southern California. Through this experience, Stephanie developed a great appreciation for open source tools that help nonprofits better engage their constituents and she continues to be an advocate for nonprofit technology. Unlike Inigo Montoya, Stephanie fences left-handed.
