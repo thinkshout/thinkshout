@@ -22,6 +22,8 @@ title: Expertise
         <div class="expertise">
           <h2>{{ expertise.name }}</h2>
           <p>{{ expertise.description | markdownify }}</p>
+          {{ expertise.left | markdownify }}
+          {{ expertise.right | markdownify }}
         </div>
         {% endfor %}
       </div>

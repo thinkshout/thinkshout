@@ -259,21 +259,32 @@ ul.client-list {
 // 
 .expertise {
   clear: both;
-  padding: 3em 2em 6em;
+  padding: 3em 0em 6em;
   border-bottom: 2px solid $beige;
+  @media screen and (max-width: $mobile) {
+  	padding-bottom: 2em;
+  }
   ul {
     font-size: 0.875em;
     font-style: italic;
     color: $brown;
     margin: 1em 0 5em;
     padding: 0;
+    width: 46%;
+    float: left;
+    @media screen and (max-width: $mobile) {
+     	float: none;
+      width: 100%;
+      margin-right: 0;
+    }
     li {
       list-style: none;
-      width: 46%;
       display: block;
-      float: left;
       margin-right: 1em;
     }
+  }
+  ul:nth-child(2) {
+
   }
 }
 .expertise:last-child {

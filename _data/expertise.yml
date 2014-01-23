@@ -3,10 +3,12 @@
 
   description: |
     We build websites that inspire action. We help clients reach new audiences and engage more meaningfully with existing stakeholders. Our web development process begins with requirements gathering and content strategy. We then help our clients build comprehensive plans for evaluating the long-term success of their messaging and digital outreach.
-      
+  
+  left: |
     - Requirements gathering
     - Content development
     - Online fundraising & campaigns
+  right: |
     - Web Experience Management (WEM)
     - Web engagement metrics
     - Email and social marketing
@@ -16,10 +18,13 @@
 
   description: |
     Great design is driven by crisp information architecture and intuitive user experience. It speaks to your organization's mission and resonates with the movitations of your website audience. We approach design collaboratively, beginning with a iterative discovery process that centers around _design in the browser_ for the mobile web.
-    
+  
+  left: |
     - User-centered design
     - Information architecture
     - Mobile-first wireframes
+
+  right: |
     - Responsive design
     - Data visualization
     - Usability testing
@@ -27,11 +32,14 @@
 - name: Open Source Technologies
   description: |
     In addition to being nationally recognized leaders in web application development for nonprofits, we're geeks at heart and love playing on the bleeding edge of web technology, which also happens to ensure we're adding the most possible value to our clients. One thing we don't waiver on, however, is our commitment to open source, as demonstrated by the over 24,000 websites running on our contributions.
-
+  
+  left: |
     - Drupal development
     - Cloud integration, E.g. Salesforce and MailChimp
     - Constituent/customer/contact relationship management (CRM)
     - Association management solutions
+  
+  right: |
     - Event management and ticketing
     - Online mapping
     - Digital experience management
