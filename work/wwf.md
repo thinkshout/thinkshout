@@ -2,6 +2,7 @@
 layout: project
 shortname: The World Wildlife Fund
 title: The World Wildlife Fund's Sustainable Fisheries Database
+permalink: wwf/
 images:
   card: work/edf/edf-card.jpg
   hero: work/lac/lac-iphone-in-environment.jpg

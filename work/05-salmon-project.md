@@ -2,6 +2,7 @@
 layout: project
 shortname: The Salmon Project
 title: Designing the Salmon Project's Website
+permalink: the-salmon-project/
 images:
   card: work/salmonproject/salmonproject-card.jpg
   hero: work/salmonproject/salmonproject-iphone-in-environment.jpg

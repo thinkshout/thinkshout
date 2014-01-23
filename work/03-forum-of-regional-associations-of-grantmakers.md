@@ -2,6 +2,7 @@
 layout: project
 shortname: Giving Forum
 title: The Forum of Regional Associations of Grantmakers
+permalink: giving-forum/
 images:
   card: work/givingforum/givingforum-card.jpg
   hero: work/givingforum/lac-iphone-in-environment.jpg

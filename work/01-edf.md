@@ -2,6 +2,7 @@
 layout: project
 shortname: The Environmental Defense Fund
 title: The Environmental Defense Fund's Seafood Selector
+permalink: edf/
 images:
   card: work/edf/edf-card.jpg
   hero: work/edf/edf-hero.jpg

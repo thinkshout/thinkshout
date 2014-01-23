@@ -2,6 +2,7 @@
 layout: project
 shortname: Mercy Corps
 title: Design and IA for Mercy Corps' MicroMentor Program
+permalink: mercy-corps-micromentor/
 images:
   card: work/edf/edf-card.jpg
   hero: work/lac/lac-iphone-in-environment.jpg
