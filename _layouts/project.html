@@ -55,10 +55,14 @@ layout: default
             {% endif %}
             <div class="large-5 columns col1">
               <h2>{{ component.title }}</h2>
-              <p>{{ component.column1 }}</p>
+              {{% if component.column1 %}}
+                <p>{{ component.column1 }}</p>
+              {{% endif %}}
             </div>
             <div class="large-6 columns col2">
-              <p>{{ component.column2 }}</p>
+              {{% if component.column2 %}}
+                <p>{{ component.column2 }}</p>
+              {{% endif %}}
             </div>
           </div>
         </section>
