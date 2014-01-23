@@ -6,7 +6,10 @@ permalink: work/mercy-corps-micromentor/
 images:
   card: work/edf/edf-card.jpg
   hero: work/lac/lac-iphone-in-environment.jpg
-  responsive:
+breakpoints:
+  desktop: work/intertwine/intertwine-desktop.jpg
+  tablet: work/intertwine/intertwine-tablet.jpg
+  mobile: work/intertwine/intertwine-mobile.jpg
 client: We’re water-lovers here at ThinkShout. Naturally, we care about what lives in them as well. So when we met with the Environmental Defense Fund to talk about seafood preservation, we were all ears. Through science and economics, they advocate for seafood preservation and conscientious seafood consumption, and EDF wanted to be able to reach consumers whether they were at home or at the market.  Working with their internal development team, we set about redesigning the user experience for the Seafood Selector, a long-standing consumer advocacy tool. 
 url: http:/www.salmonproject.org
 components:

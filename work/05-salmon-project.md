@@ -6,6 +6,7 @@ permalink: work/the-salmon-project/
 images:
   card: work/salmonproject/salmonproject-card.jpg
   hero: work/salmonproject/salmonproject-iphone-in-environment.jpg
+breakpoints:
   desktop: work/salmonproject/salmonproject-desktop.jpg
   tablet: work/salmonproject/salmonproject-tablet.jpg
   mobile: work/salmonproject/salmonproject-mobile.jpg

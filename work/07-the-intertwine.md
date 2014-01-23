@@ -6,6 +6,7 @@ permalink: work/the-intertwine/
 images:
   card: work/intertwine/intertwine-card.jpg
   hero: work/intertwine/intertwine-hero.jpg
+breakpoints:
   desktop: work/intertwine/intertwine-desktop.jpg
   tablet: work/intertwine/intertwine-tablet.jpg
   mobile: work/intertwine/intertwine-mobile.jpg
