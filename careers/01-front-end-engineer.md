@@ -1,7 +1,8 @@
 ---
 layout: job
 title: Front End Engineer
-mailto: jobs@thinkshout.com
+permalink: front-end-engineer/
+mailto: thinkshout-job1@mytribehr.com
 active: true
 published: true
 ---

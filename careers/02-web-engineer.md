@@ -1,6 +1,7 @@
 ---
 layout: job
 title: Web Engineer
+permalink: web-engineer/
 mailto: jobs@thinkshout.com
 active: true
 published: true
