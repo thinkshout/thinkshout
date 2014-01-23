@@ -441,6 +441,7 @@ ul.client-list {
 //
 .project {
 	section {
+		min-height: 400px;
 		.row {
 			position: relative;
 			.section-bg {
@@ -479,10 +480,7 @@ section.intro {
   max-width: 1440px;
   margin: 0 auto;
   @include clearfix;
-
-  img {
-    float: left;
-  }
+  text-align: center;
 }
 
 section.results {

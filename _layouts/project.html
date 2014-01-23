@@ -35,9 +35,15 @@ layout: default
 		</section>
 
 		<section class="breakpoints">
-			<img src="{{ site.baseurl }}/images/{{ page.images.desktop }}">
-			<img src="{{ site.baseurl }}/images/{{ page.images.tablet }}">
-			<img src="{{ site.baseurl }}/images/{{ page.images.mobile }}">
+			<div class="large-5 columns">
+				<img src="{{ site.baseurl }}/images/{{ page.images.desktop }}">
+			</div>
+			<div class="large-4 columns">
+				<img src="{{ site.baseurl }}/images/{{ page.images.tablet }}">
+			</div>
+			<div class="large-3 columns">
+				<img src="{{ site.baseurl }}/images/{{ page.images.mobile }}">
+			</div>
 		</section>
 
 		{% for component in page.components %}

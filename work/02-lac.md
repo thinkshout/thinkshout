@@ -24,13 +24,13 @@ components:
     column1: |
       We worked with outside consultants to introduce the RedHen CRM and Salesforce module to integrate with the site’s Salesforce CRM, and each historical location was treated with its own “microsite,” providing a robust presentation for each point of interest. 
     column2:
-    background:
+    background: work/lac/lac-strategy.jpg
   - section:
     title: Mapping
     column1: |
       Mapping was an integral part of their new design and we knew we needed to knock it out of the park.  Knowing this, we developed Mapbox and Leaflet tools to allow for custom, intelligent mapping throughout the site.
     column2:  
-    background:
+    background: work/lac/lac-mapping.jpg
   - section:
     title: Implementation
     column1: |
