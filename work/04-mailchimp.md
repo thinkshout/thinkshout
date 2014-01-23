@@ -2,7 +2,7 @@
 layout: project
 shortname: MailChimp
 title: The MailChimp Module for Drupal
-permalink: mailchimp/
+permalink: work/mailchimp/
 images:
   card: work/mailchimp/mailchimp-card.jpg
   hero: work/mailchimp/lac-iphone-in-environment.jpg

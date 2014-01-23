@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Project Manager
-permalink: project-manager/
+permalink: careers/project-manager/
 mailto: thinkshout-job3@mytribehr.com
 active: true
 published: true
