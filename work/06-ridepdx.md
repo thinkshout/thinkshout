@@ -30,9 +30,14 @@ components:
       The success of this project hinged upon our successful execution of a complex data migration from their Drupal 6 e-commerce website to Drupal 7. Once we completed this upgrade, we were able to take advantage of many new tools available in Drupal 7 to develop new features for the website, including a custom store locator with proximity search, and Tumblr integration for easy blogging.
     column2:
 results:
-  bullet1: 25% increase in sales in the first six months of the site’s re-launch.
-  bullet2: 102% increase in sales of The Bird Cage H20 holder in 2013 over the same span of time in 2012.
-  bullet3: 47 new dealers added in the seventeen months following the site’s relaunch.
+  stats:
+    - number: 25%
+      description: Increase in sales in the first 6 months of the site relaunch
+    - number: 102%
+      description: Annual increase in sales of The Bird Cage H20 holder
+    - number: 47
+      description: Number of new dealers added in the 17 months following the relaunch
+  narrative:
 featured: true
 published: true
 ---
