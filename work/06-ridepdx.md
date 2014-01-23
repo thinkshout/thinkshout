@@ -27,7 +27,7 @@ components:
   - section:
     title: Implementation
     column1: |
-      The success of this project hinged upon our successful execution of a complex data migration from their Drupal 6 e-commerce website to Drupal 7. Once we completed this upgrade, we were able to take advantage of many new tools available in Drupal 7 to develop new features for the website, including a custom store locator with proximity search, and Tumblr integration for easy blogging.
+      The success of this project hinged upon our execution of a complex data migration from their Drupal 6 e-commerce website to Drupal 7. Once we completed this upgrade, we were able to take advantage of many new tools available in Drupal 7 to develop new features for the website, including a custom store locator with proximity search, and Tumblr integration for easy blogging.
     column2:
 results:
   stats:
