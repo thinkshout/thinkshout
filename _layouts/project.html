@@ -15,7 +15,9 @@ layout: default
     <section class="intro">
       <div class="row">
       	<div class="large-8 columns large-centered">
-        	<h4>{{ page.client }}</h4>
+          {% if page.client != nil %}
+            <p>{{ page.client | markdownify }}</p>
+          {% endif %}
         	{% if page.expertise %}
         	  <h5>Expertise:</h5>
         	  {{ page.expertise | markdownify }}

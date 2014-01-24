@@ -11,8 +11,8 @@ breakpoints:
   tablet: 
   mobile: 
 client: |
-  A popular email service we all know and love, MailChimp provides users with fresh, responsive tools for creating eye-catching email campaigns. We are always excited to integrate Drupal with other great tools, so we were thrilled to take on the development of a robust MailChimp integration module.
-projecturl: https://drupal.org/project/mailchimp
+  A popular email service we all know and love, [MailChimp](http://mailchimp.com/) provides users with fresh, responsive tools for creating eye-catching email campaigns. We are always excited to integrate Drupal with other great tools, so we were thrilled to take on the development of a robust MailChimp integration module.
+projecturl: https://drupal.org/project/mailchimp/
 expertise: |
   - User experience
   - Drupal development
@@ -22,7 +22,7 @@ expertise: |
 components:
   - title: History
     column1: |
-      In 2007, ThinkShout's co-founder, Lev Tsypin, released the first version of the MailChimp module for Drupal 6. He'd been working on a side project and needed newsletter integration. MailChimp was a natural choice, given the strength of its APIs (i.e, the programming interface for pushing and pulling data to and from the service).
+      In 2008, ThinkShout's co-founder, Lev Tsypin, released the first version of the MailChimp module for Drupal 5. He'd been working on a side project and needed newsletter integration. MailChimp was a natural choice, given the strength of its APIs (i.e, the programming interface for pushing and pulling data to and from the service).
     column2:
   - title: Community Engagement
     column1: |
@@ -30,20 +30,20 @@ components:
     column2:
   - title: Ongoing Development
     column1: |
-      With the Drupal 7 version of the MailChimp module, we completely revamped the user interface and configuration management features to make the module easier to use for nontechnical site builders. In spring 2012, our work with MailChimp hit a major milestone with our release of the Mandrill module. Mandrill is MailChimp’s transactional email service. It is similar to Amazon’s SES mail service, though it has some key benefits over SES – namely, it is easier to configure and provides access to mail delivery and click-through statistics by way of its API.
+      With the Drupal 7 version of the MailChimp module, we completely revamped the user interface and configuration management features to make the module easier to use for nontechnical site builders. In spring 2012, our work with MailChimp hit a major milestone with our release of the Mandrill module. [Mandrill](http://mandrill.com/) is MailChimp’s transactional email service. It is similar to Amazon’s SES mail service, though it has some key benefits over SES – namely, it is easier to configure and provides access to mail delivery and click-through statistics by way of its API.
     column2:
   - title: New Opportunities
     column1: |
-      Our work with Mandrill represents another example of how ThinkShout is a leader in Drupal application development and third-party integrations. We are now leveraging the Mandrill module with RedHen CRM – our native CRM product built with Drupal – to provide our clients with advanced bulk email tools within their Drupal sites. We enjoy pushing the envelope of Drupal as an “application development framework” rather than simply a “content management system.” We see Drupal as “glue” for various web services.
+      Our work with Mandrill represents another example of how ThinkShout is a leader in Drupal application development and third-party integrations. We are now leveraging the Mandrill module with [RedHen CRM](http://redhencrm.com/) – our native CRM product built with Drupal – to provide our clients with advanced bulk email tools within their Drupal sites. We enjoy pushing the envelope of Drupal as an “application development framework” rather than simply a “content management system.” We see Drupal as “glue” for various web services.
     column2:
 results:
   stats:
-    - number: 15,000+
-      description: Number of websites running the MailChimp and Mandrill modules
-    - number: 40
-      description: Number of releases we've developed for the module
-    - number:
-      description:
+    - number: 55
+      description: Releases we've developed for the module
+    - number: 93,694
+      description: Downloads of the MailChimp and Mandrill modules
+    - number: 500%
+      description: Increase in module usage since MailChimp became our client
   narrative:
 featured: true
 published: true
