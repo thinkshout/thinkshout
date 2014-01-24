@@ -267,6 +267,28 @@ ul.client-list {
   }
 }
 
+// 
+// Careers
+//
+.job-list {
+	article {
+		margin-bottom: 0.5em;
+		a.title {
+			display: block;
+			padding: 1em;
+			border: 1px solid #ccc;
+			color: #222;
+			@include transition-property(all);
+	    @include transition-duration(0.2s);
+			
+			&:hover {
+				color: $orange;
+				border: 1px solid $orange;
+			}
+		}
+	}
+}
+
 //
 // Banner
 //
