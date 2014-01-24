@@ -14,15 +14,12 @@ layout: default
   <div class="main">
     <section class="intro">
       <div class="row">
-        <div class="large-6 columns push-2">
-          <p>{{ page.client }}</p>
-          <p>{{ page.overview }}</p>
-        </div>
-        <div class="large-4 columns">
-          {% if page.expertise %}
-            <h5>Expertise:</h5>
-            {{ page.expertise | markdownify }}
-          {% endif %}
+      	<div class="large-8 columns large-centered">
+        	<h4>{{ page.client }}</h4>
+        	{% if page.expertise %}
+        	  <h5>Expertise:</h5>
+        	  {{ page.expertise | markdownify }}
+        	{% endif %}
         </div>
       </div>  
     </section>
