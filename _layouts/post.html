@@ -9,7 +9,7 @@ layout: default
       <div class="row">
       	<div class="leadin">
       	  <h1 class="post-title">{{ page.title }}</h1>
-      	  <p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
+      	  <p class="meta">Published {{ page.date | date: '%B %d, %Y' }}</p>
       	  <div class="byline">
       	    {% for person in site.data.team %}
       	    {% if page.author == person.name %}
@@ -28,6 +28,14 @@ layout: default
   <section class="main">
     <div class="row">
       <div class="large-8 columns large-centered">
+      	{% if page.tags.size > 0 %}
+    			<div class="tags">
+    				<span class="label">Filed Under:</span>
+    				{% for tag in page.tags %}
+    				  <a class="label" href="/tag/{{ tag | downcase | replace: ' ', '-' }}/" rel="tag category" title="Search this site for other posts 	on {{ tag | downcase | escape }}">{{ tag | downcase }}</a>
+    				{% endfor %}
+    			</div>
+    		{% endif %}
       	<p>{{ content }}</p>
 	
       	{% if page.comments or page.comments != false %}

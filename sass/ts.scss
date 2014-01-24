@@ -340,8 +340,19 @@ ul.client-list {
   }
   .post-title {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 3.5em;
+    font-size: 3.5rem;
     font-weight: 700;
+    @media screen and (max-width: $mobile) {
+     	font-size: 2.25rem;
+    }
+  }
+  .tags {
+  	a {
+  		text-decoration: underline;
+  	}
+  }
+  .leadin {
+  	color: #f1f1f1;
   }
 }
 
