@@ -2,7 +2,7 @@
 layout: post
 title: 'Mandrill 1.3: playing nice and offering more! (updated: 1.4)'
 created: 1362596765
-permalink: blog/2013/03/gabe/mandrill-13-playing-nice-and-offering-more
+permalink: blog/2013/03/gabe/mandrill-13-playing-nice-and-offering-more/
 tags:
 - Mandrill
 - modules

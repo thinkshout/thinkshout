@@ -2,7 +2,7 @@
 layout: post
 title: RedHen and Mandrill - 10-minute Setup for a Bulk Mail Tool
 created: 1342711784
-permalink: blog/2012/07/tauno/redhen-and-mandrill-10-minute-setup-bulk-mail-tool
+permalink: blog/2012/07/tauno/redhen-and-mandrill-10-minute-setup-bulk-mail-tool/
 tags:
 - RedHen
 - nonprofit tech

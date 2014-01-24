@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with SASS for Drupal and Zen
 created: 1382390066
-permalink: blog/2013/10/candice/getting-started-sass-drupal-and-zen
+permalink: blog/2013/10/candice/getting-started-sass-drupal-and-zen/
 tags:
 - Drupal
 - theming

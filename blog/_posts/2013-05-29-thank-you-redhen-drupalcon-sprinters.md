@@ -2,7 +2,7 @@
 layout: post
 title: Thank you, RedHen DrupalCon sprinters!
 created: 1369871130
-permalink: blog/2013/05/sean/thank-you-redhen-drupalcon-sprinters
+permalink: blog/2013/05/sean/thank-you-redhen-drupalcon-sprinters/
 tags:
 - RedHen
 - Drupal Planet

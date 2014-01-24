@@ -2,7 +2,7 @@
 layout: post
 title: RedHen at DrupalCon
 created: 1369073530
-permalink: blog/2013/05/lev/redhen-drupalcon
+permalink: blog/2013/05/lev/redhen-drupalcon/
 tags:
 - Drupal Planet
 - RedHen

@@ -1,9 +1,8 @@
 ---
 layout: post
-title: !binary |-
-  SXQncyB0aGF0IHRpbWUgb2YgeWVhciBhZ2FpbuKApkJBRENhbXA=
+title: It's that time of year again, BADCamp
 created: 1351614907
-permalink: blog/2012/10/betsy/badcamp
+permalink: blog/2012/10/betsy/badcamp/
 tags:
 - BADCamp
 - Drupal

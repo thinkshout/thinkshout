@@ -2,7 +2,7 @@
 layout: post
 title: Drink beer. Support a great family.
 created: 1368204866
-permalink: blog/2013/05/sean/drupalcon-fundraiser-happy-hour-aaron-winborn
+permalink: blog/2013/05/sean/drupalcon-fundraiser-happy-hour-aaron-winborn/
 tags:
 - Drupal Planet
 - Drupal Give

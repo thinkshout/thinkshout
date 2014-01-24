@@ -3,7 +3,7 @@ layout: post
 title: 'Portland Drupal Business Summit: Leverage the Power of Open Source to Open
   Doors'
 created: 1357664295
-permalink: blog/2013/01/betsy/portland-drupal-business-summit-leverage-power-open-source-open-doors
+permalink: blog/2013/01/betsy/portland-drupal-business-summit-leverage-power-open-source-open-doors/
 tags:
 - Portland Drupal Business Summit
 - Drupal

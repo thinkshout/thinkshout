@@ -2,7 +2,7 @@
 layout: post
 title: ' 7 Steps to Pain-Free Process Improvement for Growing Nonprofits'
 created: 1356559878
-permalink: blog/2012/12/gabe/7-steps-pain-free-process-improvement-growing-nonprofits
+permalink: blog/2012/12/gabe/7-steps-pain-free-process-improvement-growing-nonprofits/
 tags:
 - Technology Planning
 - process improvement

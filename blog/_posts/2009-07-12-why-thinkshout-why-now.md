@@ -2,7 +2,7 @@
 layout: post
 title: "Why ThinkShout? Why Now?"
 created: 1247382000
-permalink: "blog/2009/07/sean/why-thinkshout-why-now"
+permalink: blog/2009/07/sean/why-thinkshout-why-now/
 tags: null
 short: "A lot of people have been asking me lately why I've decided to set up my own IT company in \"the worst economic downturn in modern history\" [insert screams of terror]. In the interest of full disclosure, the most immediate impetus was because, like many other people these days, I was recently laid off from my more-comfortable, full-time job. But that's actually just the opportune starting point for this chapter in my entrepreneurial work with start-ups, small businesses and non-profits to make the internet a more inhabitable and productive space."
 author: sean

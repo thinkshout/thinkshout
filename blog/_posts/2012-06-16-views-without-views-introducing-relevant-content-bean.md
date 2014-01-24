@@ -1,10 +1,8 @@
 ---
 layout: post
-title: !binary |-
-  Vmlld3MgV2l0aG91dCBWaWV3c+KApiBJbnRyb2R1Y2luZyAiUmVsZXZhbnQg
-  Q29udGVudCBCZWFuIg==
+title: Introducing the Relevant Content Bean
 created: 1339869087
-permalink: blog/2012/06/sean/introducing-relevant-content-bean
+permalink: blog/2012/06/sean/introducing-relevant-content-bean/
 tags:
 - modules
 - Drupal Give

@@ -2,7 +2,7 @@
 layout: post
 title: Don't let arrays make you loopy!
 created: 1370625669
-permalink: blog/2013/06/brandon/dont-let-arrays-make-you-loopy
+permalink: blog/2013/06/brandon/dont-let-arrays-make-you-loopy/
 tags:
 - Drupal Planet
 - HowTo

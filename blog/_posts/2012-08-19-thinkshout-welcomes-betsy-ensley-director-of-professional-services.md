@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'ThinkShout welcomes Betsy Ensley, Director of Professional Services '
+title: 'ThinkShout welcomes Betsy Ensley, Director of Professional Services'
 created: 1345410019
-permalink: blog/2012/08/sean/thinkshout-welcomes-betsy-ensley
+permalink: blog/2012/08/sean/thinkshout-welcomes-betsy-ensley/
 tags:
 - Drupal Planet
 short: ThinkShout is proud to announce that Betsy Ensley has joined our team as our new Director of Professional Services.

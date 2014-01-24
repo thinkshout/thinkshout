@@ -2,7 +2,7 @@
 layout: post
 title: 'Magic, CRM and Shiny Objects Galore!  '
 created: 1361386630
-permalink: blog/2013/02/betsy/drupalcon-2013-sessions
+permalink: blog/2013/02/betsy/drupalcon-2013-sessions/
 tags:
 - Drupal
 - RedHen

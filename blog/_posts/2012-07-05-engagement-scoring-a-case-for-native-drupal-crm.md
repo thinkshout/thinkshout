@@ -2,7 +2,7 @@
 layout: post
 title: Engagement Scoring - A Case for Native Drupal CRM
 created: 1341522069
-permalink: blog/2012/07/sean/engagement-scoring
+permalink: blog/2012/07/sean/engagement-scoring/
 tags:
 - nonprofit tech
 - RedHen

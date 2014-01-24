@@ -2,7 +2,7 @@
 layout: post
 title: Building Community, Building Drupal at the BADCamp Nonprofit Summit!
 created: 1380406800
-permalink: blog/2013/09/betsy/building-community-building-drupal-badcamp-nonprofit-summit
+permalink: blog/2013/09/betsy/building-community-building-drupal-badcamp-nonprofit-summit/
 tags:
 - Drupal Planet
 - BADCamp

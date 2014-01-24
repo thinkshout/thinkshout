@@ -2,7 +2,7 @@
 layout: post
 title: 'RedHen CRM Part 2: Welcome To The Hen House'
 created: 1341002059
-permalink: blog/2012/06/sean/redhen-crm-part-2
+permalink: blog/2012/06/sean/redhen-crm-part-2/
 tags:
 - RedHen
 - nonprofit tech

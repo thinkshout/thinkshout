@@ -2,7 +2,7 @@
 layout: post
 title: 2012 Techno-Lounge at the National River Rally in PDX, OR
 created: 1330805637
-permalink: blog/2012/03/sean/2012-techno-lounge-national-river-rally-pdx-or
+permalink: blog/2012/03/sean/2012-techno-lounge-national-river-rally-pdx-or/
 tags:
 - Drupal Give
 

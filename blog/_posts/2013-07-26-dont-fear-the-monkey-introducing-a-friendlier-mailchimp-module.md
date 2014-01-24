@@ -2,7 +2,7 @@
 layout: post
 title: Don't fear the monkey! Introducing a friendlier MailChimp module.
 created: 1374877774
-permalink: blog/2013/07/gabe/dont-fear-monkey-introducing-friendlier-mailchimp-module
+permalink: blog/2013/07/gabe/dont-fear-monkey-introducing-friendlier-mailchimp-module/
 tags:
 - MailChimp
 - Testing

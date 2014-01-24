@@ -3,7 +3,7 @@ layout: post
 title: Young Survival Coalition site launched in time for Breast Cancer Awareness
   Month
 created: 1380821571
-permalink: blog/2013/10/david-lanier/young-survival-coalition-site-launched-time-breast-cancer-awareness-month
+permalink: blog/2013/10/david-lanier/young-survival-coalition-site-launched-time-breast-cancer-awareness-month/
 tags:
 - Drupal
 - Site Launch

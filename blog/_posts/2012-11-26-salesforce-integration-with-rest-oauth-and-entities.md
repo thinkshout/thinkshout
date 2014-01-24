@@ -2,7 +2,7 @@
 layout: post
 title: Salesforce Integration with REST, OAUTH, and Entities
 created: 1353965347
-permalink: blog/2012/11/lev/salesforce-rest-oauth
+permalink: blog/2012/11/lev/salesforce-rest-oauth/
 tags:
 - Drupal Planet
 - Salesforce

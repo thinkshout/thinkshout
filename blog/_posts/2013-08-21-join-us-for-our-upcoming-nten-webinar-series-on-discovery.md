@@ -2,7 +2,7 @@
 layout: post
 title: Join us for our upcoming NTEN webinar series on Discovery
 created: 1377105798
-permalink: blog/2013/08/sean/join-us-our-upcoming-nten-webinar-series-discovery
+permalink: blog/2013/08/sean/join-us-our-upcoming-nten-webinar-series-discovery/
 tags: []
 short: At this year's Nonprofit Technology Conference, Brett Meyer and I had the opportunity to present on ThinkShout's discovery process. This session kicked off a number of great follow-up conversations with nonprofit web teams about requirements gathering, prototyping, and project planning. More and more, nonprofits are recognizing the importance of discovery in kicking off their website redesign efforts.
 author: sean

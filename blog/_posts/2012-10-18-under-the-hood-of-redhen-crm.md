@@ -2,7 +2,7 @@
 layout: post
 title: Under the Hood of RedHen CRM
 created: 1350587835
-permalink: blog/2012/10/lev/under-hood-redhen-crm
+permalink: blog/2012/10/lev/under-hood-redhen-crm/
 tags:
 - RedHen
 - Drupal Planet

@@ -2,7 +2,7 @@
 layout: post
 title: My Personal Agenda for the 2013 NTC
 created: 1365108050
-permalink: blog/2013/04/brett-meyer/my-personal-agenda-2013-ntc
+permalink: blog/2013/04/brett-meyer/my-personal-agenda-2013-ntc/
 tags:
 - 13ntc
 - conference

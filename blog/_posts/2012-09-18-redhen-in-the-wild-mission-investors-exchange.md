@@ -2,7 +2,7 @@
 layout: post
 title: 'RedHen in the Wild: Mission Investors Exchange'
 created: 1347990060
-permalink: blog/2012/09/tauno/redhen-wild-mission-investors-exchange
+permalink: blog/2012/09/tauno/redhen-wild-mission-investors-exchange/
 tags:
 - Drupal
 - RedHen

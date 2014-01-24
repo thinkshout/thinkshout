@@ -2,7 +2,7 @@
 layout: post
 title: 10 hot topics in nonprofit Drupal tech
 created: 1364513534
-permalink: blog/2013/03/sean/10-hot-topics-nonprofit-drupal-tech
+permalink: blog/2013/03/sean/10-hot-topics-nonprofit-drupal-tech/
 tags:
 - Drupal
 - Drupal Planet

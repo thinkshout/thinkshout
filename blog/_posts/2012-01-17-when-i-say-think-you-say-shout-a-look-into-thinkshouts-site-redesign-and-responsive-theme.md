@@ -3,7 +3,7 @@ layout: post
 title: When I say Think, you say Shout! A look into ThinkShout's Site Redesign and
   Responsive Theme
 created: 1326826800
-permalink: blog/2012/01/andrea/thinkshouts-site-redesign-and-responsive
+permalink: blog/2012/01/andrea/thinkshouts-site-redesign-and-responsive/
 tags:
 - theming
 - design

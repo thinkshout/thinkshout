@@ -2,7 +2,7 @@
 layout: post
 title: NTC Drupal Day for Nonprofit IT Professionals
 created: 1328742779
-permalink: blog/2012/02/sean/ntc-drupal-day-nonprofit-it-professionals
+permalink: blog/2012/02/sean/ntc-drupal-day-nonprofit-it-professionals/
 tags:
 - Drupal Planet
 - nonprofit tech

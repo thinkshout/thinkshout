@@ -1,10 +1,8 @@
 ---
 layout: post
-title: !binary |-
-  UmVkSGVuIENSTSBQYXJ0IDE6IEtlZXBpbmcgYWxsIHlvdXIgZWdncyBpbiBv
-  bmUgRHJ1cGFsIGJhc2tldOKApg==
+title: RedHen CRM Part 1, Keeping all your eggs in one Drupal basket
 created: 1341001377
-permalink: blog/2012/06/sean/redhen-crm-part-1
+permalink: blog/2012/06/sean/redhen-crm-part-1/
 tags:
 - RedHen
 - nonprofit tech

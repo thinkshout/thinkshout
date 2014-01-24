@@ -2,7 +2,7 @@
 layout: post
 title: Zen and the Art of Farmyard Maintenance
 created: 1368138674
-permalink: blog/2013/05/gabe/zen-and-art-farmyard-maintenance
+permalink: blog/2013/05/gabe/zen-and-art-farmyard-maintenance/
 tags:
 - RedHen
 - Video

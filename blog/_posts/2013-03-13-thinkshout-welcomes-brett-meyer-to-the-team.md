@@ -2,7 +2,7 @@
 layout: post
 title: ThinkShout welcomes Brett Meyer to the team!
 created: 1363213135
-permalink: blog/2013/03/sean/thinkshout-welcomes-brett-meyer-team
+permalink: blog/2013/03/sean/thinkshout-welcomes-brett-meyer-team/
 tags:
 - Drupal Planet
 - NTEN

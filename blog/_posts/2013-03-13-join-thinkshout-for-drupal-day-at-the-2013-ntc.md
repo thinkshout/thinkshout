@@ -2,7 +2,7 @@
 layout: post
 title: Join ThinkShout for Drupal Day at the 2013 NTC
 created: 1363214075
-permalink: blog/2013/03/brett-meyer/join-thinkshout-drupal-day-2013-ntc
+permalink: blog/2013/03/brett-meyer/join-thinkshout-drupal-day-2013-ntc/
 tags:
 - 13ntc
 - Drupal

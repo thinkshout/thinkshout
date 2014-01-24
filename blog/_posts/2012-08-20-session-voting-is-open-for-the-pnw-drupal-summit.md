@@ -2,7 +2,7 @@
 layout: post
 title: Session Voting is Open for the PNW Drupal Summit!
 created: 1345486113
-permalink: blog/2012/08/betsy/session-voting-open-pnw-drupal-summit
+permalink: blog/2012/08/betsy/session-voting-open-pnw-drupal-summit/
 tags:
 - Drupal
 - Style Tiles

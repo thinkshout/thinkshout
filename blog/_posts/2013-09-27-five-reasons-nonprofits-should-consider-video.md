@@ -2,7 +2,7 @@
 layout: post
 title: Five Reasons Nonprofits Should Consider Video
 created: 1380303879
-permalink: blog/2013/09/dan-fellini/five-reasons-nonprofits-should-consider-video
+permalink: blog/2013/09/dan-fellini/five-reasons-nonprofits-should-consider-video/
 tags:
 - nonprofit tech
 - multimedia

@@ -2,7 +2,7 @@
 layout: post
 title: Looking Back on ThinkShout's first Year
 created: 1326163970
-permalink: blog/2012/01/lev/looking-back-2011
+permalink: blog/2012/01/lev/looking-back-2011/
 tags:
 - ThinkShout
 

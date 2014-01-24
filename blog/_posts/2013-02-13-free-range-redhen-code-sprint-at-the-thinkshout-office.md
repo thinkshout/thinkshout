@@ -2,7 +2,7 @@
 layout: post
 title: 'Free Range RedHen: Code Sprint at the ThinkShout Office'
 created: 1360795803
-permalink: blog/2013/02/betsy/free-range-redhen-code-sprint-thinkshout-office
+permalink: blog/2013/02/betsy/free-range-redhen-code-sprint-thinkshout-office/
 tags:
 - RedHen
 - Code Sprint

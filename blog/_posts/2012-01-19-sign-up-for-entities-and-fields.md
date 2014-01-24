@@ -2,7 +2,7 @@
 layout: post
 title: Sign Up for Entities and Fields
 created: 1327002227
-permalink: blog/2012/01/lev/entity-registrations
+permalink: blog/2012/01/lev/entity-registrations/
 tags:
 - Drupal
 - modules

@@ -2,7 +2,7 @@
 layout: post
 title: 'Drupal Development a la ThinkShout: setting up your environment'
 created: 1358796413
-permalink: blog/2013/01/gabe/drupal-development-la-thinkshout-setting-your-environment
+permalink: blog/2013/01/gabe/drupal-development-la-thinkshout-setting-your-environment/
 tags:
 - Drupal Planet
 - git

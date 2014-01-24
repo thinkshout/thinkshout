@@ -2,7 +2,7 @@
 layout: post
 title: RedHen in the spotlight at BADCamp
 created: 1352154486
-permalink: blog/2012/11/lev/redhen-spotlight-badcamp
+permalink: blog/2012/11/lev/redhen-spotlight-badcamp/
 tags:
 - RedHen
 - BADCamp

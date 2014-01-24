@@ -2,7 +2,7 @@
 layout: post
 title: An Adventure in iCal, my First Module
 created: 1338927757
-permalink: blog/2012/06/kyle/add-to-cal
+permalink: blog/2012/06/kyle/add-to-cal/
 tags:
 - modules
 - Drupal Planet
