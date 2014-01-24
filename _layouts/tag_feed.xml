@@ -4,15 +4,15 @@ layout: nil
 
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-  <title>{{ site.name | xml_escape }}</title>
-  <description>{{ site.description | xml_escape }}</description>
-  <link>{{ site.url }}</link>
-  <atom:link href="{{ site.url }}/rss.xml" rel="self" type="application/rss+xml"/>
+  <channel>
+    <title>{{ site.name | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/rss.xml" rel="self" type="application/rss+xml"/>
 
-  {% for post in site.tags[page.tag] limit: 20 %}
-    {% include rss-item.xml %}
-  {% endfor %}
+    {% for post in site.tags[page.tag] limit: 20 %}
+      {% include rss-item.xml %}
+    {% endfor %}
 
-</channel>
+  </channel>
 </rss>
