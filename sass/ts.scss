@@ -354,20 +354,22 @@ ul.client-list {
 	  margin: 0;
 	  padding: 0;
 	  li {
-	    list-style: none;
-	    position: relative;
-	    display: block;
-	    overflow: none;
-	    padding: 2em 4em;
-	    border-bottom: 2px solid #DADADA;
-	    @include clearfix;
-	    @media screen and (max-width: $tablet) {
-				padding: 2em;
-			}
-			a {
-	    	color: $orange;
-	   		&:hover {
-	  	  	color: $brown;
+	  	article {
+	    	list-style: none;
+	    	position: relative;
+	    	display: block;
+	    	overflow: none;
+	    	padding: 2em 4em;
+	    	border-bottom: 2px solid #DADADA;
+	    	@include clearfix;
+	    	@media screen and (max-width: $tablet) {
+					padding: 2em;
+				}
+				a {
+	    		color: $orange;
+	   			&:hover {
+	  		  	color: $brown;
+	  			}
 	  		}
 	  	}
 	  }
