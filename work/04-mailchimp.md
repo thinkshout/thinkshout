@@ -11,8 +11,8 @@ breakpoints:
   tablet: 
   mobile: 
 client: |
-  A popular email service we all know and love, MailChimp provides users with fresh, responsive tools for creating eye-catching email campaigns. We are always excited to integrate Drupal with other great tools, so we were thrilled to take on the development of a robust MailChimp integration module.
-projecturl: https://drupal.org/project/mailchimp
+  A popular email service we all know and love, [MailChimp](http://mailchimp.com/) provides users with fresh, responsive tools for creating eye-catching email campaigns. We are always excited to integrate Drupal with other great tools, so we were thrilled to take on the development of a robust MailChimp integration module.
+projecturl: https://drupal.org/project/mailchimp/
 expertise: |
   - User experience
   - Drupal development
