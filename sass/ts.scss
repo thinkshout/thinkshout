@@ -46,10 +46,46 @@ a.button.default {
   height: 100%;
 }
 
-
 .main {
   position: relative;
   padding: 2em 1em;
+}
+
+
+//
+// Marquees  
+//
+.work {
+	.hero-image {
+		background-image: url('../images/marquee/work.jpg'); 
+		@media screen and (max-width: 1000px) {
+      background-image: url('../images/marquee/work-med.jpg'); 
+    }
+	}
+}
+.team {
+	.hero-image {
+		background-image: url('../images/marquee/team.jpg'); 
+		@media screen and (max-width: 1000px) {
+      background-image: url('../images/marquee/team-med.jpg'); 
+    }
+	}
+}
+.expertise {
+	.hero-image {
+		background-image: url('../images/marquee/expertise.jpg'); 
+		@media screen and (max-width: 1000px) {
+      background-image: url('../images/marquee/expertise-med.jpg'); 
+    }
+	}
+}
+.careers {
+	.hero-image {
+		background-image: url('../images/marquee/careers.jpg'); 
+		@media screen and (max-width: 1000px) {
+      background-image: url('../images/marquee/careers-med.jpg'); 
+    }
+	}
 }
 
 //
