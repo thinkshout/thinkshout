@@ -2,7 +2,7 @@
 layout: post
 title: 'MailChimp 2.0: Anatomy of a Drupal module rewrite'
 created: 1309465429
-permalink: blog/2011/06/lev/mailchimp-20-anatomy-drupal-module-rewrite
+permalink: blog/2011/06/lev/mailchimp-20-anatomy-drupal-module-rewrite/
 tags:
 - Drupal
 - Drupal Planet

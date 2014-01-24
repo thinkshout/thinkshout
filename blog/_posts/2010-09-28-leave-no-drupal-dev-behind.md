@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'Leave No Drupal Dev Behind '
+title: Leave No Drupal Dev Behind
 created: 1285697328
-permalink: blog/2010/09/sean/leave-no-drupal-dev-behind
+permalink: blog/2010/09/sean/leave-no-drupal-dev-behind/
 tags:
 - client relationships
 - Drupal Planet

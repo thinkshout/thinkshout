@@ -2,7 +2,7 @@
 layout: post
 title: Three Modules Released - 2010 Q1 in Review
 created: 1270662393
-permalink: blog/2010/04/sean/three-modules-released-2010-q1-review
+permalink: blog/2010/04/sean/three-modules-released-2010-q1-review/
 tags:
 - Drupal
 

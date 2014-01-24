@@ -2,7 +2,7 @@
 layout: post
 title: 20 hrs of travel for 34 hrs in DC - It was worth it.
 created: 1268791625
-permalink: blog/2010/03/sean/20-hrs-travel-34-hrs-dc-it-was-worth-it
+permalink: blog/2010/03/sean/20-hrs-travel-34-hrs-dc-it-was-worth-it/
 tags:
 - Drupal
 - project management

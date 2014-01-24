@@ -2,7 +2,7 @@
 layout: post
 title: A mime is a terrible thing to waste
 created: 1316214867
-permalink: blog/2011/09/brandon/mime-terrible-thing-waste
+permalink: blog/2011/09/brandon/mime-terrible-thing-waste/
 tags:
 - Drupal Planet
 - Apache Solr

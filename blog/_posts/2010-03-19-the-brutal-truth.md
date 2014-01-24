@@ -2,7 +2,7 @@
 layout: post
 title: The brutal truth
 created: 1269016672
-permalink: blog/2010/03/sean/brutal-truth
+permalink: blog/2010/03/sean/brutal-truth/
 tags:
 - project management
 - client relationships

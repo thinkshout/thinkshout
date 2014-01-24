@@ -2,7 +2,7 @@
 layout: post
 title: A beginner's guide to using Hudson for continuous integration with Drupal
 created: 1285784669
-permalink: blog/2010/09/sean/beginners-guide-using-hudson-continuous-integration-drupal
+permalink: blog/2010/09/sean/beginners-guide-using-hudson-continuous-integration-drupal/
 tags:
 - Drupal
 - Drupal Planet

@@ -2,7 +2,7 @@
 layout: post
 title: Sean's Take on the New ThinkShout, Inc.
 created: 1295996358
-permalink: blog/2011/01/sean/seans-take-new-thinkshout-inc
+permalink: blog/2011/01/sean/seans-take-new-thinkshout-inc/
 tags:
 - entrepreneurism
 

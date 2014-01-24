@@ -2,7 +2,7 @@
 layout: post
 title: ThinkShout hires Andrea Burton, User Experience Engineer
 created: 1306881197
-permalink: blog/2011/05/sean/thinkshout-hires-andrea-burton-user-experience-engineer
+permalink: blog/2011/05/sean/thinkshout-hires-andrea-burton-user-experience-engineer/
 tags: 
 short: As some of you know, Lev and I formally went into business together as ThinkShout, Inc. this January. One of our primary motivations in doing so was to build a small, dynamic, highly-professional team of open source technologists with a passion for serving progressive causes. While excited to bring on the best minds in our field, we've also been conservative in our philosophy on growth. We've seen too many start-up consultancies try to grow too fast - often resulting in inefficiencies that negatively impact clients.
 author: sean

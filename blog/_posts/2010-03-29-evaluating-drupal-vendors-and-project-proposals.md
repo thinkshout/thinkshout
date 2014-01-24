@@ -2,7 +2,7 @@
 layout: post
 title: Evaluating Drupal vendors and project proposals
 created: 1269916859
-permalink: blog/2010/03/sean/evaluating-drupal-vendors-and-project-proposals
+permalink: blog/2010/03/sean/evaluating-drupal-vendors-and-project-proposals/
 tags:
 - Drupal
 

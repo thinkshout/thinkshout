@@ -2,7 +2,7 @@
 layout: post
 title: ThinkShout is hiring!
 created: 1300834423
-permalink: blog/2011/03/sean/thinkshout-hiring
+permalink: blog/2011/03/sean/thinkshout-hiring/
 tags: 
 short: Wow, that's a dramatic announcement, but yes, ThinkShout is currently interviewing technologists interested in joining our team.
 author: sean

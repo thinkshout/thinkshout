@@ -2,7 +2,7 @@
 layout: post
 title: ThinkShout "Under the hood" at this year's Pacific Northwest Drupal Summit
 created: 1318640914
-permalink: blog/2011/10/sean/thinkshout-under-hood-years-pacific-northwest-drupal-summit
+permalink: blog/2011/10/sean/thinkshout-under-hood-years-pacific-northwest-drupal-summit/
 tags:
 - Drupal Planet
 

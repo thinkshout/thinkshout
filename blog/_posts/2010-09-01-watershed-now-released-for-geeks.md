@@ -2,7 +2,7 @@
 layout: post
 title: Watershed Now! released!! (For geeks)
 created: 1283357981
-permalink: blog/2010/09/sean/watershed-now-released-geeks
+permalink: blog/2010/09/sean/watershed-now-released-geeks/
 tags:
 - Drupal
 - Distributions

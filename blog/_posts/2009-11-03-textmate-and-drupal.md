@@ -2,7 +2,7 @@
 layout: post
 title: TextMate and Drupal
 created: 1257278400
-permalink: blog/2009/11/sean/textmate-and-drupal
+permalink: blog/2009/11/sean/textmate-and-drupal/
 tags:
 - Drupal
 

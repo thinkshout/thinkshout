@@ -2,7 +2,7 @@
 layout: post
 title: OpenLayers Love for Drupal 7
 created: 1315413565
-permalink: blog/2011/09/lev/openlayers-love-drupal-7
+permalink: blog/2011/09/lev/openlayers-love-drupal-7/
 tags:
 - Drupal
 - Drupal Planet

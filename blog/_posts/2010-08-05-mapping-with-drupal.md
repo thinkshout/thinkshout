@@ -2,7 +2,7 @@
 layout: post
 title: Mapping with Drupal
 created: 1281032196
-permalink: blog/2010/08/lev/mapping-drupal
+permalink: blog/2010/08/lev/mapping-drupal/
 tags:
 - Drupal
 - mapping

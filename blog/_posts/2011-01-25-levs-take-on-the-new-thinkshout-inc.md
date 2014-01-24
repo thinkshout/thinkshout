@@ -2,7 +2,7 @@
 layout: post
 title: Lev's Take on the New ThinkShout, Inc.
 created: 1295995334
-permalink: blog/2011/01/lev/levs-take-new-thinkshout-inc
+permalink: blog/2011/01/lev/levs-take-new-thinkshout-inc/
 tags:
 - entrepreneurism
 - ThinkShout

@@ -2,7 +2,7 @@
 layout: post
 title: Redmine and Gitosis, project management nirvana?
 created: 1300921909
-permalink: blog/2011/03/lev/redmine-and-gitosis-project-management-nirvana
+permalink: blog/2011/03/lev/redmine-and-gitosis-project-management-nirvana/
 tags:
 - project management
 - Drupal Planet

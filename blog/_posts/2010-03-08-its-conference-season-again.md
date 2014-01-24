@@ -2,7 +2,7 @@
 layout: post
 title: It's conference season again
 created: 1268035200
-permalink: blog/2010/03/sean/its-conference-season-again
+permalink: blog/2010/03/sean/its-conference-season-again/
 tags:
 - Drupal
 - nonprofit tech

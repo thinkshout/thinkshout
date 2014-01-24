@@ -2,7 +2,7 @@
 layout: post
 title: Community organization goals for the NTC
 created: 1270606239
-permalink: blog/2010/04/sean/community-organization-goals-ntc
+permalink: blog/2010/04/sean/community-organization-goals-ntc/
 tags:
 - Drupal
 - nonprofit tech

@@ -2,7 +2,7 @@
 layout: post
 title: Staying Sharp, Releasing Helper Modules
 created: 1311185469
-permalink: blog/2011/07/sean/staying-sharp-releasing-helper-modules
+permalink: blog/2011/07/sean/staying-sharp-releasing-helper-modules/
 tags:
 - Drupal
 - Drupal Planet

@@ -2,7 +2,7 @@
 layout: post
 title: What we're up to; what we're into
 created: 1320865619
-permalink: blog/2011/11/sean/catching-up
+permalink: blog/2011/11/sean/catching-up/
 tags:
 - Drupal Planet
 - ThinkShout

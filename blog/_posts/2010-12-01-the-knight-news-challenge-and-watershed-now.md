@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'The Knight News Challenge and Watershed Now '
+title: The Knight News Challenge and Watershed Now
 created: 1291243960
-permalink: blog/2010/12/lev/knight-news-challenge-and-watershed-now
+permalink: blog/2010/12/lev/knight-news-challenge-and-watershed-now/
 tags: 
 short: Watershed Now is a Drupal distribution developed to support the common content management, social media, online advocacy, fundraising, and mapping needs of conservation organizations.
 author: lev

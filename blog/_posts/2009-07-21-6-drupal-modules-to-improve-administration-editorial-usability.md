@@ -2,7 +2,7 @@
 layout: post
 title: 6 Drupal Modules to Improve Administration/Editorial Usability
 created: 1248159600
-permalink: blog/2009/07/andrea/6-drupal-modules-improve-administrationeditorial-usability
+permalink: blog/2009/07/andrea/6-drupal-modules-improve-administrationeditorial-usability/
 tags:
 - Drupal
 - Usability
