@@ -1,22 +1,17 @@
 ---
 layout: default
 ---
-<div class="content project">
+<div class="content">
   <div class="hero-image" style="background-image: url('{{ site.baseurl }}/images/{{ page.images.hero }}');"></div>
   <div class="hero">
     <div class="site-width">
       <div class="background"></div>
       <div class="leadin">
-        <h1 class="title">{{ page.title }}</h1>
+        <h2>{{ page.title }}</h2>
       </div>
     </div>
   </div>
-  <section class="main">
-    <div class="row">
-      <div class="large-8 columns push-2">
-        <h4>{{ page.project_summary }}</h4>
-      </div>
-    </div>
+  <div class="main">
     <section class="intro">
       <div class="row">
         <div class="large-6 columns push-2">
@@ -48,7 +43,7 @@ layout: default
 
     {% for component in page.components %}
       {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-        <section class="{{thecycle}}">
+      <section class="{{thecycle}}">
           <div class="row">
             {% if component.background %}
               <div class="section-bg"><img src="{{ site.baseurl }}/images/{{ component.background }}"></div>
@@ -65,7 +60,7 @@ layout: default
               {% endif %}
             </div>
           </div>
-        </section>
+      </section>
     {% endfor %}
 
     {% if page.results %}
@@ -99,5 +94,5 @@ layout: default
         <a class="button overlay" href="{{ page.url }}">Launch Website</a>
       </section>
     {% endif %}
-  </section>
-</section>
+  </div>
+</div>
