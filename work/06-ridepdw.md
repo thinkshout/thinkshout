@@ -37,7 +37,7 @@ results:
     - number: 102%
       description: Increase in sales of the Bird Cage H20 holder over the first year
     - number: 47
-      description: Number of new dealers added in the first 17 months
+      description: New dealers added in the first 17 months
   narrative:
 featured: true
 published: true
