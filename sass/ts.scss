@@ -144,10 +144,6 @@ ul#most-recent-blog {
       display: block;
       width: 0;
     }
-    .byline {
-      margin: 2em 0 0 7em;
-      font-size: 0.8em;
-    }
   }
 }
 
@@ -321,29 +317,6 @@ ul.client-list {
 				      	color: $orange;
 				      }
 				    }
-				    .byline {
-				    	width: 100%;
-  					  .team-photo {
-  					    border-radius: 50%;
-  					    height: 60px;
-  					    width: 60px;
-  					    display: block;
-  					    float: left;
-  					    margin: 0 1em 0 0;
-  					    border: 2px solid #FFF;
-  					    img {
-  					      border-radius: 50%;
-  					    }
-  					  }
-  					  .info {
-  					    float: left;
-  					    clear: none;
-  					    .team-name {
-  					      font-size: 1.125em;
-  					      font-weight: 600;
-  					    }
-  					  }
-  					}
 				    &:hover {
 				      background: $orange;
 				    	a {
@@ -368,33 +341,35 @@ ul.client-list {
   .main {
     margin: 100px 0 0 0;
   }
-  .byline {
-    width: 20em;
-    margin: 0 auto;
-    a.team-photo {
-      border-radius: 50%;
-      height: 100px;
-      width: 100px;
-      display: block;
-      margin: 0 auto;
-      border: 2px solid #FFF;
-      img {
-        border-radius: 50%;
-      }
-    }
-    .info {
-      clear: both;
-      a.team-name {
-        font-size: 1.125em;
-        font-weight: 500;
-        color: #FFF;
-      }
-    }
-  }
   .post-title {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 3.5em;
     font-weight: 700;
+  }
+}
+
+// Bylines
+.byline {
+	width: 100%;
+  .team-photo {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: block;
+    float: left;
+    margin: 0 1em 0 0;
+    border: 2px solid #FFF;
+    img {
+      border-radius: 50%;
+    }
+  }
+  .info {
+    float: left;
+    text-align: left;
+    .team-name {
+      font-size: 1.125em;
+      font-weight: 600;
+    }
   }
 }
 
@@ -405,7 +380,14 @@ ul.client-list {
   .hero {
     height: 500px;
     .leadin {
-      padding: 8em 0 0 0;
+      text-align: left;
+      width: 66.66667%;
+      padding-top: 8em;
+      padding-left: 0.9375rem;
+			padding-right: 0.9375rem;
+			@media screen and (max-width: $tablet) {
+      	width: 100%;
+      }
     }
   }
 }

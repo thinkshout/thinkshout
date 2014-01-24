@@ -6,9 +6,22 @@ layout: default
   <div class="hero">
     <div class="site-width">
       <div class="background"></div>
-      <div class="leadin">
-        <h1 class="post-title">{{ page.title }}</h1>
-        <p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
+      <div class="row">
+      	<div class="leadin">
+      	  <h1 class="post-title">{{ page.title }}</h1>
+      	  <p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
+      	  <div class="byline">
+      	    {% for person in site.data.team %}
+      	    {% if page.author == person.name %}
+      	    <img class="team-photo" src="{{ site.baseurl }}/images/{{ person.image.small }}">
+      	    <div class="info">
+      	      <span class="team-name">{{ person.first_name }} {{ person.last_name }}</span>
+      	      <p>{{ person.position }}</p>
+      	    </div>
+      	    {% endif %}
+      	    {% endfor %}
+      	  </div>
+      	</div>
       </div>
     </div>
   </div>
