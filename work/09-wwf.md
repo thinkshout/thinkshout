@@ -11,7 +11,7 @@ breakpoints:
   tablet: work/intertwine/intertwine-tablet.jpg
   mobile: work/intertwine/intertwine-mobile.jpg
 client: When we first started talk with the World Wildlife Fund, it was clear that they had a problem - a big - problem. They were sitting on a mountain of sensitive data without a way to sort or report on their findings. The WWF already had a Drupal infrastructure in place, but there was no pre-existing Drupal application out there that could handle their complex needs. So we built them one. While we can’t share the outcomes given the sensitive nature of the data, the work we did now impacts their decision-making process in the realm of fish conversation.
-url: http:/www.laconservancy.org
+projecturl: http:/www.laconservancy.org
 components:
   - title: Discovery
     column1:

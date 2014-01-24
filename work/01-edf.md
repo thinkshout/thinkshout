@@ -12,7 +12,7 @@ breakpoints:
   mobile: work/edf/edf-mobile.jpg
 client: |
   Through science and economics, the Environmental Defense Fund's Fisheries Program advocates for seafood preservation and conscientious consumption. A vital component of this program is its Seafood Selector App, a mobile website providing shoppers with advice on healthy and eco-friendly seafood options. We worked with EDF's internal development team to redesign the user experience for the Seafood Selector. This couldn't have been a more exciting opportunity for us, given our staff's collective background in environmental conservation.
-url: http://seafood.edf.org/
+projecturl: http://seafood.edf.org/
 expertise: |
   - User story development
   - Information architecture
