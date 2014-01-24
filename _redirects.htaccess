@@ -1,0 +1,4 @@
+Redirect 301 /blog/feed /rss.xml
+Redirect 301 /taxonomy/term/21/all/feed /tag/drupal%20planet/rss.xml
+Redirect 301 /portfolio /work/
+Redirect 301 /portfolio /work/
