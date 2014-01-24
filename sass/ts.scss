@@ -184,16 +184,13 @@ ul.social {
 	  background-size: cover;
 	  .leadin {
 	    h1 {
-	      font-size: 3.5em;
+	      font-size: 3.5rem;
+	      @media screen and (max-width: $mobile) {
+  			  font-size: 2.5rem;
+  			}
 	    }
 	  }
 	}
-}
-.home-nav {
-	position: absolute;
-	bottom: 1em;
-	width: 100%;
-	z-index: 300;
 }
 
 #hiring {
