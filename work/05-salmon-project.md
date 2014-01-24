@@ -15,7 +15,7 @@ client: |
 projecturl: http://www.salmonproject.org/
 expertise: |
   - Creative concepting
-  - User Experience
+  - User experience
   - Mobile-first design
   - Content strategy
   - Web engagement metrics
