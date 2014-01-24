@@ -1,7 +1,7 @@
 ---
 layout: project
 shortname: Portland Design Works
-title: Relaunching Portland Design Works' E-Commerce Site
+title: E-commerce in Motion for Portland Design Works
 permalink: work/ridepdw/
 images:
   card: work/ridepdw/ridepdw-card.jpg
