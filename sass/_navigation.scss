@@ -182,7 +182,6 @@
 	      text-align: center;
 	      padding: 1em 1em 0;
 	      background: rgba(255,255,255,0.8);
-	      border: 4px solid rgba(0,0,0,0.3);
 	      @include transition-property(all);
 	      @include transition-duration(0.2s);
 	      a {
@@ -192,12 +191,13 @@
 	        @include transition-duration(0.2s);
 	        .rubric {
 	          color: #FFF;
+	          font-size: 1.25em; 
 	          font-weight: 600;
 	          background: $orange;
 	          text-transform: uppercase;
-	          display: block;
 	          margin-top: 1em;
-	          padding: 0.5em;
+	          padding: 0.25em 0.5em;
+	          display: block;
 	        }
 	        h3 {
 	      		font-size: 1.5em;
@@ -206,17 +206,13 @@
 	      	}
 	      }
 	      &:hover {
-	      	background: darken($brown, 25%);
-	        border: 4px solid $orange;
+	      	background: #FFFFFF;
 	      	a {
 	      	  .rubric {
 	      	    color: #FFF;
 	      	    background: $orange;
 	      	    text-transform: uppercase;
 	      	  }
-	      	  h3 {
-	      	  	color: #FFF;
-	      		}
 	      	}
 	      }
 	    }
