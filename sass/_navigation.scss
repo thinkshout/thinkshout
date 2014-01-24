@@ -5,6 +5,10 @@
   top: 0;
   z-index: 2000;
   margin-top: 25px;
+  @media screen and (max-width: $mobile) {
+    margin-top: 0px;
+    background: darken($brown, 25%);
+  }
 
   a#branding {
     background: darken($brown, 25%);
@@ -97,13 +101,16 @@
 	top: 100px;	
 	z-index: 2000;
 	background: transparent;
+	@media screen and (max-width: $mobile) {
+		top: 75px;
+  }
 	ul {
-		margin: 2px 0 0 0;
+		margin: 1px 0 0 0;
 		padding: 0;
 		li {
 			list-style: none;
 			background: $orange;
-			margin-bottom: 2px;
+			margin-bottom: 1px;
 			a {
 				display: block;
 				padding: 1em;
@@ -149,57 +156,68 @@
 //
 // Homepage Nav Blocks
 // 
-ul.navblocks {
-  li {
-    .content {
-      margin: 0 0.25em;
-      height: 150px;
-      text-align: center;
-      padding: 1em 1em 0;
-      background: rgba(255,255,255,0.8);
-      @include transition-property(all);
-      @include transition-duration(0.2s);
-      a {
-        display: block;
-        vertical-align: middle;
-        @include transition-property(all);
-        @include transition-duration(0.2s);
-        .rubric {
-          color: #FFF;
-          font-size: 0.75em;
-          background: $orange;
-          text-transform: uppercase;
-          display: block;
-          margin-top: 1em;
-          padding: 0.5em;
-        }
-        h3 {
-      		font-size: 1.5em;
-      		font-weight: 600;
-      		color: darken($brown, 25%);
-      	}
-      }
-      &:hover {
-      	background: darken($brown, 25%);
-        
-      	a {
-      	  .rubric {
-      	    color: #FFF;
-      	    font-size: 0.75em;
-      	    background: $orange;
-      	    text-transform: uppercase;
-      	    display: block;
-      	    margin-top: 1em;
-      	    padding: 0.5em;
-      	  }
-      	  h3 {
-      	  	color: #FFF;
-      		}
-      	}
-      }
-    }
+.home-nav {
+	position: absolute;
+	bottom: 1em;
+	width: 100%;
+	z-index: 300;
+	@media screen and (max-width: $mobile) {
+    position: relative;
+    bottom: 0;
   }
+	ul.navblocks {
+	  li {
+	    .content {
+	      margin: 0 0.25em;
+	      height: 150px;
+	      text-align: center;
+	      padding: 1em 1em 0;
+	      background: rgba(255,255,255,0.8);
+	      @include transition-property(all);
+	      @include transition-duration(0.2s);
+	      a {
+	        display: block;
+	        vertical-align: middle;
+	        @include transition-property(all);
+	        @include transition-duration(0.2s);
+	        .rubric {
+	          color: #FFF;
+	          font-size: 0.75em;
+	          background: $orange;
+	          text-transform: uppercase;
+	          display: block;
+	          margin-top: 1em;
+	          padding: 0.5em;
+	        }
+	        h3 {
+	      		font-size: 1.5em;
+	      		font-weight: 600;
+	      		color: darken($brown, 25%);
+	      	}
+	      }
+	      &:hover {
+	      	background: darken($brown, 25%);
+	        
+	      	a {
+	      	  .rubric {
+	      	    color: #FFF;
+	      	    font-size: 0.75em;
+	      	    background: $orange;
+	      	    text-transform: uppercase;
+	      	    display: block;
+	      	    margin-top: 1em;
+	      	    padding: 0.5em;
+	      	  }
+	      	  h3 {
+	      	  	color: #FFF;
+	      		}
+	      	}
+	      }
+	    }
+	  }
+	}
 }
+
 
 // 
 // Footer Nav

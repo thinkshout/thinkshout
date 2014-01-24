@@ -13,6 +13,9 @@
 .contact-form-email {
   width: 48.5%;
   float: left;
+  @media screen and (max-width: $mobile) {
+    width: 100%;
+  }
 }
 
 .contact-form-name {
@@ -351,6 +354,9 @@ td.ss-rightlabel {
 }
 .ss-form-entry {
   margin-bottom: 1.5em;
+  @media screen and (max-width: $mobile) {
+    clear: both;
+  }
 }
 .ss-form-entry input {
   vertical-align: middle;
