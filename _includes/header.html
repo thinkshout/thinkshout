@@ -2,14 +2,12 @@
 	<div id="flag" class="menu-close">
 		<a class="menu-toggle"><span>Menu</span></a>
 		<a id="branding" href="{{ site.baseurl }}/">ThinkShout</a>
+    {% if page.path != 'index.html' and page.path != '404.html' %}
     <div id="title-flag">
-    {% if page.path == 'index.html'  %}
-      
-    {% else %}
       {% assign url_parts = page.url | split: '/' %}
       <a href="{{ site.baseurl}}/{{ url_parts[1] }}/">{{ url_parts[1] | capitalize }}</a>
-    {% endif %}
     </div>
+    {% endif %}
 		<nav id="primary">
 			<ul>
 				{% for link in site.data.menu %}
