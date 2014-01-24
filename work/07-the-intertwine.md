@@ -15,7 +15,7 @@ client: |
 expertise: |
   - ToDO
 
-url: www.theintertwine.org/
+projecturl: www.theintertwine.org/
 components:
   - title: Discovery
     column1:
