@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+<link rel="alternate" type="application/rss+xml" title="RSS - {{ page.tag }}" href="{{ site.baseurl }}/tag/{{ page.tag }}/rss.xml" />
+
 <div class="content blog">
   <div class="hero-image" style="background-image: url('{{ site.baseurl }}/images/{{ page.images.hero }}');"></div>
   <div class="hero">
@@ -31,6 +33,6 @@ layout: default
           </div>
       </div>
       {% endfor %}
-      <p><a href="/tag/{{ page.tag }}/rss.xml">Subscribe to posts tagged "{{ page.tag }}"</a></p>
+      <p><a href="{{ site.baseurl }}/tag/{{ page.tag }}/rss.xml">Subscribe to posts tagged "{{ page.tag }}"</a></p>
   </section>
 </div>
