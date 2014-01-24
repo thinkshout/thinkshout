@@ -2,7 +2,7 @@
 layout: post
 title: Launching 17 Drupal websites on a single distribution, hosted on Pantheon
 created: 1376332989
-permalink: case-study/distribution-hosting-with-pantheon
+permalink: blog/2013/08/distribution-hosting-with-pantheon/
 tags:
 - Drupal Planet
 - Drupal
