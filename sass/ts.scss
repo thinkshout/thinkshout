@@ -212,7 +212,7 @@ ul.team {
     height: 80%;
   }
   @media screen and (max-width: $mobile) {
-    height: 100%;
+    height: 600px;
   }
 	.marquee {
 	  background: $orange url('../images/marquee/home.jpg') no-repeat;
@@ -381,10 +381,14 @@ ul.client-list {
 	  		  	color: $brown;
 	  			}
 	  		}
+	  		@media screen and (max-width: $mobile) {
+	  			padding: 0;
+    		}
 	  	}
 	  }
 	}
 }
+
 
 .blog.most-recent {
 	padding: 0em 0;
@@ -431,9 +435,14 @@ ul.client-list {
 // Blog Post Detail
 //
 .blog {
-  .main {
-    margin: 100px 0 0 0;
-  }
+	.blog-header {
+		padding: 10em 0 3em;
+		background: darken($brown, 10%);
+		.leadin {
+			width: 100%;
+			text-align: left;
+		}
+	}
   .post-title {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 3.5rem;

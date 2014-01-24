@@ -170,9 +170,10 @@
 	bottom: 1em;
 	width: 100%;
 	z-index: 300;
-	@media screen and (max-width: $mobile) {
+	@media screen and (max-width: $tablet) {
     position: relative;
-    bottom: 0;
+    bottom: auto;
+    top: 0;
   }
 	ul.navblocks {
 	  li {
@@ -184,6 +185,10 @@
 	      background: rgba(255,255,255,0.8);
 	      @include transition-property(all);
 	      @include transition-duration(0.2s);
+	     	@media screen and (max-width: $tablet) {
+        	margin: 0;
+        	height: auto;
+      	}
 	      a {
 	        display: block;
 	        vertical-align: middle;
@@ -216,7 +221,15 @@
 	      	}
 	      }
 	    }
+	    @media screen and (max-width: $tablet) {
+        padding: 0;
+      }
 	  }
+	}
+	ul.large-block-grid-3.medium-block-grid-1 {
+		@media screen and (max-width: $mobile) {
+    	margin: 0;
+    }
 	}
 }
 

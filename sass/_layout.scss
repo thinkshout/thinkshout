@@ -113,9 +113,6 @@ footer {
         	right: 0;
         	padding: 1em;
       	}
-      	@media screen and (max-width: $mobile) {
-        	padding: 0;
-      	}
         .profile {
           margin: 0 auto;
           width: 250px;
@@ -162,6 +159,9 @@ section {
   bottom: 100px;
   height: 100%;
   width: 100%;
+  @media screen and (max-width: $mobile) {
+    height: auto;
+  }
 }
 
 //

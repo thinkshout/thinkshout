@@ -2,27 +2,25 @@
 layout: default
 ---
 <div class="content blog">
-  <div class="hero-image" style="background-image: url('{{ site.baseurl }}/images/{{ page.images.hero }}');"></div>
-  <div class="hero">
-    <div class="site-width">
-      <div class="background"></div>
-      <div class="row">
-      	<div class="leadin">
-      		<p class="post-date">Published {{ page.date | date: '%B %d, %Y' }}</p>
-      	  <h1 class="post-title">{{ page.title }}</h1>
-      	  <div class="byline">
-      	    {% for person in site.data.team %}
-      	    {% if page.author == person.name %}
-      	    <img class="team-photo" src="{{ site.baseurl }}/images/{{ person.image.small }}">
-      	    <div class="info">
+	<div class="blog-header">
+    <div class="row">
+    	<div class="large-8 columns large-centered">
+    		<div class="leadin">
+    			<p class="post-date">Published {{ page.date | date: '%B %d, %Y' }}</p>
+    		  <h1 class="post-title">{{ page.title }}</h1>
+    		  <div class="byline">
+    		    {% for person in site.data.team %}
+    		    {% if page.author == person.name %}
+    		    <img class="team-photo" src="{{ site.baseurl }}/images/{{ person.image.small }}">
+    		    <div class="info">
 							<span class="team-name"><a href="{{ site.baseurl }}/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a></span>      	      
 							<p>{{ person.position }}</p>
-      	    </div>
-      	    {% endif %}
-      	    {% endfor %}
-      	  </div>
-      	</div>
-      </div>
+    		    </div>
+    		    {% endif %}
+    		    {% endfor %}
+    		  </div>
+    		</div>
+    	</div>
     </div>
   </div>
   <section class="main">
@@ -32,7 +30,7 @@ layout: default
     			<div class="tags">
     				<span class="label">Filed Under:</span>
     				{% for tag in page.tags %}
-    				  <a class="label" href="{{ site.baseurl }}/tag/{{ tag | | url_escape }}/" rel="tag category" title="Search this site for other posts on {{ tag | escape }}">{{ tag }}</a>
+    				  <a class="label secondary" href="{{ site.baseurl }}/tag/{{ tag | | url_escape }}/" rel="tag category" title="Search this site for other posts on {{ tag | escape }}">{{ tag }}</a>
     				{% endfor %}
     			</div>
     		{% endif %}

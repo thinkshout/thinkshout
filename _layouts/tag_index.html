@@ -4,13 +4,13 @@ layout: default
 <link rel="alternate" type="application/rss+xml" title="RSS - {{ page.tag }}" href="{{ site.baseurl }}/tag/{{ page.tag }}/rss.xml" />
 
 <div class="content blog">
-  <div class="hero-image" style="background-image: url('{{ site.baseurl }}/images/{{ page.images.hero }}');"></div>
-  <div class="hero">
-    <div class="site-width">
-      <div class="background"></div>
-      <div class="leadin">
-        <h1 class="title">Posts tagged "{{ page.tag }}"</h1>
-      </div>
+  <div class="blog-header">
+    <div class="row">
+    	<div class="large-8 columns large-centered">
+    		<div class="leadin">
+    		  <h1 class="post-title">Posts tagged "{{ page.tag }}"</h1>
+    		</div>
+    	</div>
     </div>
   </div>
   <section class="main">
