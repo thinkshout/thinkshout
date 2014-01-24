@@ -33,6 +33,8 @@ layout: default
         </ul>
         <p>{{ page.person.bio }}</p>
         <div class="team-blog">
+          {% assign names = site.posts | map: 'author' %}
+          {% if names contains page.person.name %}
           <h6>Recent Blog Posts</h6>
           {% for post in site.posts %}
           {% if post.layout == 'post' and post.author == page.person.name %}
@@ -42,6 +44,7 @@ layout: default
           </div>
           {% endif %}
           {% endfor %}
+          {% endif %}
         </div>
       </div>
     </div>
