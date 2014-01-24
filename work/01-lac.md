@@ -41,7 +41,7 @@ results:
   stats:
     - number: 186
       description: Events listed on the new system in the first 7 months
-    - number: 5542
+    - number: 5,542
       description: Tickets sold online in during this same period
     - number: 1
       description: Web interface to manage all of their membership features
