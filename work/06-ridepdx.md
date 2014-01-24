@@ -24,10 +24,12 @@ components:
     column1: |
       Knowing that Portland Design Works needed to quickly relaunch the new website with support for both mobile and tablet devices, we began the project with a rapid prototyping process. First, we developed a series of style tiles that explored a variety of graphic design directions. Then, we built responsive, clickable wireframes using the Foundation prototyping framework.
     column2:
+    background: work/ridepdw/ridepdw-design.jpg
   - title: Implementation
     column1: |
       The success of this project hinged upon our execution of a complex data migration from their Drupal 6 e-commerce website to Drupal 7. Once we completed this upgrade, we were able to take advantage of many new tools available in Drupal 7 to develop new features for the website, including a custom store locator with proximity search, and Tumblr integration for easy blogging.
     column2:
+    background: work/ridepdw/ridepdw-implementation.jpg
 results:
   stats:
     - number: 25%
