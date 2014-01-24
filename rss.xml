@@ -18,7 +18,6 @@ layout: none
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
       <link>{{ site.url }}/{{ post.url }}</link>
       <guid isPermaLink="true">{{ site.url }}/{{ post.url }}</guid>
-      <dc:creator>{{ post.author | xml_escape }}</dc:creator>
     </item>
     {% endif %}
     {% endfor %}

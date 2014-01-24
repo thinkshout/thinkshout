@@ -32,7 +32,7 @@ layout: default
     			<div class="tags">
     				<span class="label">Filed Under:</span>
     				{% for tag in page.tags %}
-    				  <a class="label" href="/tag/{{ tag | downcase | replace: ' ', '-' }}/" rel="tag category" title="Search this site for other posts 	on {{ tag | downcase | escape }}">{{ tag | downcase }}</a>
+    				  <a class="label" href="{{ site.baseurl }}/tag/{{ tag | | url_escape }}/" rel="tag category" title="Search this site for other posts on {{ tag | escape }}">{{ tag }}</a>
     				{% endfor %}
     			</div>
     		{% endif %}

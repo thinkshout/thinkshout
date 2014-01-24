@@ -74,7 +74,7 @@ layout: default
                 {% for stats in page.results.stats %}
                   <li>
                     <div class="stat">
-                      <p class="figure">{{ stats.number }}</p>
+                      <p class="figure">{{ stats.number | escape }}</p>
                     </div>
                     <p class="key">{{ stats.description}}</p>
                   </li>

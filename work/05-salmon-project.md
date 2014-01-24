@@ -38,9 +38,9 @@ components:
     background: work/salmonproject/salmonproject-implementation.jpg 
 results:
   stats:
-    - number: 30%
+    - number: ">30%"
       description: Homepage bounce rate for first 2 months (That's excellent!)
-    - number: 10,000
+    - number: "10,000"
       description: Participants in the Salmon Love Sweepstakes in the 30 days after the website launch
     - number: 550
       description: Average number of site visitors per day in the first week
