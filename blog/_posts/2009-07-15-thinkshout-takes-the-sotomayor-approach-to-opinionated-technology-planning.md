@@ -7,7 +7,8 @@ tags:
 - Opinionated Consulting
 - Technology Planning
 
-short: ThinkShout is still largely in the brainstorming phase of our own brand development. Sure, we're busy with client work already, actively solving interesting social media problems for social entrepreneurs - so we don't have a ton of time for navel gazing. But in the evenings, we do get together to discuss what we ultimately want to do with ThinkShout and how we want to carve out our own niche in the social media and web technology business.
+short: |
+  ThinkShout is still largely in the brainstorming phase of our own brand development. Sure, we're busy with client work already, actively solving interesting social media problems for social entrepreneurs - so we don't have a ton of time for navel gazing. But in the evenings, we do get together to discuss what we ultimately want to do with ThinkShout and how we want to carve out our own niche in the social media and web technology business.
 author: sean
 ---
 <p>ThinkShout is still largely in the brainstorming phase of our own brand development. Sure, we're busy with client work already, actively solving interesting social media problems for social entrepreneurs - so we don't have a ton of time for navel gazing. But in the evenings, we do get together to discuss what we ultimately want to do with ThinkShout and how we want to carve out our own niche in the social media and web technology business.</p>
