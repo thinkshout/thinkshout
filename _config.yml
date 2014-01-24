@@ -20,3 +20,14 @@ paginate_path: "blog/page:num"
 
 # Setting relative permalink to false. See http://jekyllrb.com/docs/upgrading/.
 relative_permalinks: false
+
+# Settings for sitemap_generator plugin.
+sitemap:
+    exclude:
+        - "/rss.xml"
+        - "/tag"
+    include_posts:
+        - "/index.html"
+        - "/blog/index.html"
+        - "/work/index.html"
+        - "/careers/index.html"
