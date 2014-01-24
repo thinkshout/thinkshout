@@ -24,8 +24,8 @@ title: Team
           <li>
             <article>
               <a href="{{ url }}"><img src="{{ site.baseurl }}/images/{{person.image.medium}}"></a>
-              <div class="project-title"><h4><a href="{{ url }}">{{ person.first_name }} {{ person.last_name }}</a></h4></div>
-              <p class="content-text">{{person.position}}</p>
+              <h4 class="name"><a href="{{ url }}">{{ person.first_name }} {{ person.last_name }}</a></h4>
+              <p class="position">{{person.position}}</p>
             </article>
           </li>
           {% endfor %}

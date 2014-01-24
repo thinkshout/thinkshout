@@ -1,14 +1,13 @@
 ---
 layout: default
 ---
-<div class="page-container">
-
+<div class="page-container team-detail">
   <div class="split">
     <div class="side side-left" style="background-image: url('{{ site.baseurl }}/images/{{ page.person.image.large }}')"></div>
     <div class="side side-right">
       <div class="intro-content">
         <h1>{{ page.person.first_name }} {{ page.person.last_name }}</h1>
-        <h5>{{ page.person.position }}</h5>
+        <h4 class="position">{{ page.person.position }}</h4>
         <h5>{{ page.person.leadin }}</h5>
         <ul class="social">
           {% if page.person.social.github %}
@@ -34,11 +33,13 @@ layout: default
         </ul>
         <p>{{ page.person.bio }}</p>
         <div class="team-blog">
-          <h4>Recent Blog Posts</h4>
+          <h6>Recent Blog Posts</h6>
           {% for post in site.posts %}
           {% if post.layout == 'post' and post.author == page.person.name %}
-          <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h5>
-          <p>{{ post.date | date: "%B %-d, %Y" }}</p>
+          <div class="post">
+          	<h5 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h5>
+          	<p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+          </div>
           {% endif %}
           {% endfor %}
         </div>
@@ -56,10 +57,8 @@ layout: default
         <li>
           <article>
             <a href="{{ url }}"><img src="{{ site.baseurl }}/images/{{person.image.medium}}"></a>
-            <div class="project-title"><h4>
-              <a href="{{ url }}">{{ person.first_name }} {{ person.last_name }}</a>
-            </h4></div>
-            <p class="content-text">{{person.position}}</p>
+            <h4 class="name"><a href="{{ url }}">{{ person.first_name }} {{ person.last_name }}</a></h4>
+            <p class="position">{{person.position}}</p>
           </article>
         </li>
         {% endfor %}
