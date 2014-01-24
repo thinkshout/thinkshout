@@ -137,7 +137,7 @@
 	display: block;
 	height: 75px;
 	margin-left: 311px;
-	padding: 0 25px;
+	padding: 0;
 	overflow: hidden;
 	text-align: center;
 	position: relative;
@@ -150,6 +150,15 @@
 	color: $orange;
 	@media screen and (max-width: $mobile) {
     display: none;
+  }
+  a {
+  	line-height: 75px;
+  	display: block;
+  	padding: 0 25px;
+  	background: darken($brown, 20%);
+  	&:hover {
+  		background: darken($brown, 25%);
+  	}
   }
 }
 
