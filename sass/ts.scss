@@ -544,15 +544,15 @@ ul.client-list {
 			}
 			.col1 {
 				position: absolute;
-				top: 6em;
+				top: 3em;
 				left: 1em;
 				z-index: 200;
+				@media screen and (max-width: $tablet) {
+      		position: relative;
+      		top: 0;
+      	}
 			}
 			.col2 {
-				position: absolute;
-				top: 1em;
-				right: 0;
-				z-index: 200;
 			}
 		}
 	}

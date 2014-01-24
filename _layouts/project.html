@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="content">
+<div class="content project">
   <div class="hero-image" style="background-image: url('{{ site.baseurl }}/images/{{ page.images.hero }}');"></div>
   <div class="hero">
     <div class="site-width">
@@ -55,7 +55,7 @@ layout: default
             </div>
             <div class="large-6 columns col2">
               {% if component.column2 != nil %}
-                <p>{{ component.column2 | markdownify }}</p>
+                <img src="{{ site.baseurl }}/images/{{ component.column2 }}">
               {% endif %}
             </div>
           </div>
