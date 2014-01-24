@@ -25,7 +25,7 @@ Web engineers at ThinkShout are responsible for the delivery of world-class open
 - Get paid to learn and go to conferences, such as DrupalCon, Dreamforce and the Nonprofit Technology Conference
 - A focus on work/life balance, including a flexible office hours policy
 
-If this sounds like a good fit for you, talk to us. <jobs@thinkshout.com>
+If this sounds like a good fit for you, <a href="mailto:thinkshout-job2@mytribehr.com">talk to us</a>.
 
 
 
