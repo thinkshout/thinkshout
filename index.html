@@ -32,7 +32,7 @@ keywords:
     <ul class="large-block-grid-3 medium-block-grid-3 navblocks">
       <li>
         <div class="content">
-          <a href="{{ site.baseurl }}/team/"><h3>We are forward-thinking technologists with heart.</h3><span class="rubric">Meet   our team</span></a>
+          <a href="{{ site.baseurl }}/team/"><h3>We are forward-thinking technologists with heart.</h3><span class="rubric">Meet our team</span></a>
         </div>
       </li>
       <li>
@@ -48,16 +48,35 @@ keywords:
     </ul>
   </div>
 </div>
-
-<div class="main">
-  <ul id="most-recent-blog" class="large-block-grid-3">
-   {% for post in site.categories.blog limit:3 %}
-   <li>
-      <div class="quote">
-      <h3 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h3>
-      <p>{{ post.date | date: "%B %-d, %Y" }}</p>
+<section class="content-bottom blog most-recent">
+  <div class="main">
+    <div class="row">
+      <div class="large-8 columns large-centered">
+        <div class="section-rubric">
+          <h3><span>From The Blog</span></h3>
+        </div>
+        <ul>
+          {% for post in site.categories.blog limit:1 %}
+          <li>
+            <a href="{{ site.baseurl }}{{ post.url }}">
+              <h2>{{ post.title}}</h2>
+              <div class="byline">
+                {% for person in site.data.team %}
+                {% if post.author == person.name %}
+                <img class="team-photo" src="{{ site.baseurl }}/images/{{ person.image.small }}">
+                <div class="info">
+                  <span class="team-name">{{ person.first_name }} {{ person.last_name }}</span>
+                  <p>{{ person.position }}</p>
+                </div>
+                {% endif %}
+                {% endfor %}
+              </div>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+        <a class="button default" href="{{ site.baseurl }}/blog/">View All</a>
+      </div>
     </div>
-  </li>
-  {% endfor %}
-</ul>
-</div>
+  </div>
+</section>  

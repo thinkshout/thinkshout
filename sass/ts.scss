@@ -109,43 +109,6 @@ body.welcome {
   }
 }
 
-//
-// Homepage Most Recent 3 Blog Posts
-//
-ul#most-recent-blog {
-  li {
-    padding: 1em;
-    .quote {
-      position: relative;
-      padding: 1em;
-      background: #FFFFFF;
-      border: 5px solid #d2d2d2;
-      @include border-radius(6px);
-    }
-    .quote:before {
-      content: "";
-      position: absolute;
-      bottom: -20px;
-      left: 40px;
-      border-width: 20px 20px 0;
-      border-style: solid;
-      border-color: #d2d2d2 rgba(0, 0, 0, 0);
-      display: block;
-      width: 0;
-    }
-    .quote:after {
-      content: "";
-      position: absolute;
-      bottom: -13px;
-      left: 47px;
-      border-width: 13px 13px 0;
-      border-style: solid;
-      border-color: #FFF rgba(0, 0, 0, 0);
-      display: block;
-      width: 0;
-    }
-  }
-}
 
 //
 // Contact Widget
@@ -357,45 +320,110 @@ ul.client-list {
 			.intro-content {
 				left: 0;
 				right: 0;
-				ul {
-				  margin: 0;
-				  padding: 0;
-				  li {
-				    list-style: none;
-				    position: relative;
-				    display: block;
-				    overflow: none;
-				    padding: 2em 4em;
-				    border-bottom: 2px solid #DADADA;
-				    @include clearfix;
-				    @media screen and (max-width: $tablet) {
-        			padding: 2em;
-      			}
-				    a {
-				      display: block;
-				      color: #222;
-				      h2 {
-				      	color: $orange;
-				      }
-				    }
-				    &:hover {
-				      background: $orange;
-				    	a {
-				    	  display: block;
-				    	  color: #FFF;
-				    	  h2 {
-				    	  	color: #FFF;
-				    	  }
-				    	}
-				    }
-				  }
-				}
-			}	
+			}
 		}
 	}
 }
 
-//
+// Blog List Style 
+.blog {
+	ul {
+	  margin: 0;
+	  padding: 0;
+	  li {
+	    list-style: none;
+	    position: relative;
+	    display: block;
+	    overflow: none;
+	    padding: 2em 4em;
+	    border-bottom: 2px solid #DADADA;
+	    @include clearfix;
+	    @media screen and (max-width: $tablet) {
+				padding: 2em;
+			}
+	    a {
+	      display: block;
+	      color: #222;
+	      h2 {
+	      	color: $orange;
+	      }
+	    }
+	    &:hover {
+	      background: $orange;
+	    	a {
+	    	  display: block;
+	    	  color: #FFF;
+	    	  h2 {
+	    	  	color: #FFF;
+	    	  }
+	    	}
+	    }
+	  }
+	}
+}
+
+.blog.most-recent {
+	padding: 0em 0;
+	text-align: center;
+	li {
+	  list-style: none;
+	  position: relative;
+	  display: block;
+	  overflow: none;
+	  padding: 0;
+	  border-bottom: 0;
+	  @include clearfix;
+	  @media screen and (max-width: $tablet) {
+			padding: 2em;
+		}
+	  a {
+	    display: block;
+	    color: #222;
+	    h2 {
+	    	color: $orange;
+	    }
+	  }
+	  &:hover {
+	    background: #FFF;
+	  	a {
+	  	  display: block;
+	  	  color: #222;
+	  	  h2 {
+	  	  	color: $orange;
+	  	  }
+	  	}
+	  }
+	  // Bylines
+		.byline {
+			width: 100%;
+		  .team-photo {
+		    border-radius: 50%;
+		    height: 60px;
+		    width: 60px;
+		    display: block;
+		    float: none;
+		    margin: 0 auto;
+		    border: 2px solid #FFF;
+		    img {
+		      border-radius: 50%;
+		    }
+		  }
+		  .info {
+		    float: none;
+		    clear: both;
+		    text-align: center;
+		    .team-name {
+		      font-size: 1.125em;
+		      font-weight: 600;
+		    }
+		  }
+		}
+	}
+	.button {
+		margin-top: 2em;
+	}
+}
+
 // Blog Post Detail
 //
 .blog {
