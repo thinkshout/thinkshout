@@ -178,11 +178,6 @@ ul.social {
   	.post-title {
   		font-weight: 500;
   	}
-  	.post-date {
-  		font-size: 0.85em;
-  		color: #d2d2d2;
-  		font-style: italic;
-  	}
   }
 }
 
@@ -313,12 +308,6 @@ ul.client-list {
 // Expertise 
 // 
 .expertise {
-  clear: both;
-  padding: 3em 0em 6em;
-  border-bottom: 2px solid $beige;
-  @media screen and (max-width: $mobile) {
-  	padding-bottom: 2em;
-  }
   ul {
     font-size: 0.875em;
     font-style: italic;
@@ -338,9 +327,7 @@ ul.client-list {
       margin-right: 1em;
     }
   }
-  ul:nth-child(2) {
-
-  }
+  ul:nth-child(2) { }
 }
 .expertise:last-child {
   border-bottom: 0;
@@ -377,23 +364,12 @@ ul.client-list {
 	    @media screen and (max-width: $tablet) {
 				padding: 2em;
 			}
-	    a {
-	      display: block;
-	      color: #222;
-	      h2 {
-	      	color: $orange;
-	      }
-	    }
-	    &:hover {
-	      background: $orange;
-	    	a {
-	    	  display: block;
-	    	  color: #FFF;
-	    	  h2 {
-	    	  	color: #FFF;
-	    	  }
-	    	}
-	    }
+			a {
+	    	color: $orange;
+	   		&:hover {
+	  	  	color: $brown;
+	  		}
+	  	}
 	  }
 	}
 }
@@ -408,27 +384,7 @@ ul.client-list {
 	  overflow: none;
 	  padding: 0;
 	  border-bottom: 0;
-	  @include clearfix;
-	  @media screen and (max-width: $tablet) {
-			padding: 2em;
-		}
-	  a {
-	    display: block;
-	    color: #222;
-	    h2 {
-	    	color: $orange;
-	    }
-	  }
-	  &:hover {
-	    background: #FFF;
-	  	a {
-	  	  display: block;
-	  	  color: #222;
-	  	  h2 {
-	  	  	color: $orange;
-	  	  }
-	  	}
-	  }
+	  background: #FFF;
 	  // Bylines
 		.byline {
 			width: 100%;
@@ -507,6 +463,13 @@ ul.client-list {
       font-weight: 600;
     }
   }
+}
+
+.post-date {
+	font-size: 0.85em;
+	color: #d2d2d2;
+	font-style: italic;
+	margin-bottom: 0;
 }
 
 //
