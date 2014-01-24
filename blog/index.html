@@ -24,21 +24,21 @@ keywords:
         <ul>
         {% for post in site.categories.blog %}
         <li>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            <h2>{{ post.title}}</h2>
+          <article>
+            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h2>
             <p class="content-text">{{post.short}}</p>
         		<div class="byline">
         		  {% for person in site.data.team %}
         		  {% if post.author == person.name %}
         		  <img class="team-photo" src="{{ site.baseurl }}/images/{{ person.image.small }}">
         		  <div class="info">
-        		    <span class="team-name">{{ person.first_name }} {{ person.last_name }}</span>
+        		    <span class="team-name"><a href="{{ site.baseurl }}/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a></span> 
         		    <p>{{ person.position }}</p>
         		  </div>
         		  {% endif %}
         		  {% endfor %}
         		</div>
-          </a>
+          </article>
         </li>
         {% endfor %}
         </ul>
