@@ -20,7 +20,7 @@ expertise: |
   - Data migration
 
 components:
-  - title: Information architecture and Design
+  - title: Information Architecture and Design
     column1: |
       Knowing that Portland Design Works needed to quickly relaunch the new website with support for both mobile and tablet devices, we began the project with a rapid prototyping process. First, we developed a series of style tiles that explored a variety of graphic design directions. Then, we built responsive, clickable wireframes using the Foundation prototyping framework.
     column2: work/ridepdw/ridepdw-design.jpg
