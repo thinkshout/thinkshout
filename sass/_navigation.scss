@@ -8,6 +8,7 @@
   @media screen and (max-width: $mobile) {
     margin-top: 0px;
     background: darken($brown, 25%);
+    position: absolute;
   }
 
   a#branding {
