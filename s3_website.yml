@@ -1,0 +1,23 @@
+---
+# Credentials and bucket name
+s3_id: AKIAIMMMSPZ2A47JFUBQ
+s3_secret: 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
+s3_bucket: thinkshout.com
+
+## Cloud front CDN
+cloudfront_distribution_id: E1R698DF9RX46D
+cloudfront_invalidate_root: true
+
+## gzip active and file extensions
+gzip: true
+gzip:
+  - .html
+  - .css
+  - .md
+  - .js
+
+# Configure redirects
+redirects:
+  blog/feed: /rss.xml
+  taxonomy/term/21/all/feed: /tag/drupal%20planet/rss.xml
+  portfolio: /work/
