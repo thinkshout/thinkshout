@@ -103,7 +103,8 @@
 	z-index: 2000;
 	background: transparent;
 	@media screen and (max-width: $mobile) {
-		top: 75px;
+		top: 0;
+		position: relative;
   }
 	ul {
 		margin: 1px 0 0 0;
@@ -112,6 +113,11 @@
 			list-style: none;
 			background: $orange;
 			margin-bottom: 1px;
+			@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+    		width: 50%;
+				float: left;
+				text-align: center;
+			}
 			a {
 				display: block;
 				padding: 1em;
