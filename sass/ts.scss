@@ -685,6 +685,9 @@ footer {
   .contact-info {
     color: #FFF;
     font-size: 1.25em;
+    p {
+    	margin: 0;
+    }
     h4 {
       color: $orange;
     }
