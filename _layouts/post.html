@@ -11,7 +11,7 @@ layout: default
     		  <div class="byline">
     		    {% for person in site.data.team %}
     		    {% if page.author == person.name %}
-    		    <img class="team-photo" src="{{ site.baseurl }}/images/{{ person.image.small }}">
+    		    <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
     		    <div class="info">
 							<span class="team-name"><a href="{{ site.baseurl }}/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a></span>      	      
 							<p>{{ person.position }}</p>
