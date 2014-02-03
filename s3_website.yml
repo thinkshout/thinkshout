@@ -28,4 +28,3 @@ redirects:
 max_age:
   "assets/*": 6000
   "*": 300
-    
