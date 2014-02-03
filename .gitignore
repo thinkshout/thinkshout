@@ -2,5 +2,5 @@
 .idea
 _site
 Gemfile.lock
-stylesheets/app.css
-stylesheets/ts.css
+app.css
+ts.css
