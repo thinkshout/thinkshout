@@ -12,7 +12,7 @@ breakpoints:
   mobile: work/ridepdw/ridepdw-mobile.jpg
 client: |
   Portlanders are big fans of bicycles. We love our custom saddles, our bamboo fenders, our Italian leather handlebar grips... Seriously, we're a little obsessive when it comes to eco-friendly commuting. So when Portland Design Works, a long-time client of ThinkShout, reached out to us to reimagine their e-commerce website, we couldn't have been more excited. Portland Design Works manufactures beautiful bicycle accessories designed for everyday use. They wanted to redesign their website to reflect the craftsmanship of their merchandise with strong visuals and and an easy-to-use e-commerce checkout process.
-projecturl: http:/www.ridepdw.com
+projecturl: http://www.ridepdw.com
 expertise: | 
   - User experience & graphic design
   - Mobile e-commerce

@@ -12,7 +12,7 @@ breakpoints:
   mobile: work/lac/lac-mobile.jpg
 client: |
   Through education and advocacy, the Los Angeles Conservancy preserves historic buildings. When we met the Conservancy team, they were struggling to engage stakeholders through their aging website and cumbersome collection of online giving and event management tools. They wanted an interactive and mobile-friendly solution that would allow their constituents to easily sign up for walking tours and explore their community's rich architectural history.
-projecturl: http:/www.laconservancy.org
+projecturl: http://www.laconservancy.org
 expertise: |
   - Interactive mapping
   - CRM integration
