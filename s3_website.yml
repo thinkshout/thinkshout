@@ -21,3 +21,5 @@ redirects:
   blog/feed: /rss.xml
   taxonomy/term/21/all/feed: /tag/drupal%20planet/rss.xml
   portfolio: /work/
+  contact: /
+  
