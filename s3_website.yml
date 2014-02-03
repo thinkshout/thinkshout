@@ -22,7 +22,6 @@ redirects:
   taxonomy/term/21/all/feed: /tag/drupal%20planet/rss.xml
   portfolio: /work/
   contact: /
-  blog/category/redhen: 
 
 # Set browser caching.    
 max_age:
