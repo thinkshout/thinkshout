@@ -14,7 +14,7 @@ keywords:
 ---
 <div class="page-container blog">
   <div class="split">
-    <div class="side side-left" style="background-image: url('{{ site.baseurl }}/images/blog.jpg')">
+    <div class="side side-left" style="background-image: url('{{ site.baseurl }}/assets/images/blog.jpg')">
     	<div class="leadin">
         <h2>Our thoughts on technology and community.</h2>
       </div>
@@ -30,7 +30,7 @@ keywords:
         		<div class="byline">
         		  {% for person in site.data.team %}
         		  {% if post.author == person.name %}
-        		  <a href="{{ site.baseurl }}/team/{{ person.name }}"><img class="team-photo" src="{{ site.baseurl }}/images/{{ person.image.small }}"></a>
+        		  <a href="{{ site.baseurl }}/team/{{ person.name }}"><img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}"></a>
         		  <div class="info">
         		    <span class="team-name"><a href="{{ site.baseurl }}/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a></span> 
         		    <p>{{ person.position }}</p>

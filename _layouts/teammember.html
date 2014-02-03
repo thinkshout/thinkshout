@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="page-container team-detail">
   <div class="split">
-    <div class="side side-left" style="background-image: url('{{ site.baseurl }}/images/{{ page.person.image.large }}')"></div>
+    <div class="side side-left" style="background-image: url('{{ site.baseurl }}/assets/images/{{ page.person.image.large }}')"></div>
     <div class="side side-right">
       <div class="intro-content">
         <h1>{{ page.person.first_name }} {{ page.person.last_name }}</h1>
@@ -59,7 +59,7 @@ layout: default
         {% capture url %}{{ site.baseurl }}/{{ site.team_dir }}/{{ person.name }}/{% endcapture %}
         <li>
           <article>
-            <a href="{{ url }}"><img src="{{ site.baseurl }}/images/{{person.image.medium}}"></a>
+            <a href="{{ url }}"><img src="{{ site.baseurl }}/assets/images/{{person.image.medium}}"></a>
             <h4 class="name"><a href="{{ url }}">{{ person.first_name }} {{ person.last_name }}</a></h4>
             <p class="position">{{person.position}}</p>
           </article>
