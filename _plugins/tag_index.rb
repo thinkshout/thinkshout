@@ -73,8 +73,9 @@ module Jekyll
     # Returns string
     #
     def tag_links(tags)
+      dir = site.baseurl + (site.config['tag_dir'] || 'tag') + '/'
       tags = tags.sort!.map do |item|
-        "<a class='tag' href='/tag/#{item}/'>#{item}</a>"
+        "<a class='tag' href='#{dir}#{item}/'>#{item}</a>"
       end
       
       case tags.length
