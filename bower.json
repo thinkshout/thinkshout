@@ -2,5 +2,6 @@
   "name": "foundation_project",
   "dependencies": {
     "foundation": "zurb/bower-foundation#~5.0.2"
-  }
+  },
+  "directory" : "assets/bower_components"
 }
