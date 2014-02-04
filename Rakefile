@@ -26,7 +26,7 @@ def jekyll(opts = '')
 end
 
 desc "Generate and publish site to gh-pages"
-task :publish => [:build] do
+task :stage => [:build] do
   Dir.mktmpdir do |tmp|
     system "mv _site/* #{tmp}"
     system "git checkout gh-pages"
@@ -39,4 +39,9 @@ task :publish => [:build] do
     system "git checkout master"
     system "echo 'GitHub pages deployment completed.'"
   end
+end
+
+desc "Generate and publish site to Amazon S3"
+task :publish => [:build] do
+  system "s3_website push"
 end

@@ -3,7 +3,7 @@ description: ThinkShout - We provide web strategy and open source technology to 
 markdown: redcarpet
 pygments: true
 
-baseurl: /thinkshout
+baseurl: ''
 url: http://thinkshout.com
 
 # Permalink Configuration
