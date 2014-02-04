@@ -46,10 +46,6 @@ a.button.default {
   height: 100%;
 }
 
-.main {
-  position: relative;
-  padding: 2em 1em;
-}
 
 
 //
@@ -58,32 +54,44 @@ a.button.default {
 .work {
 	.hero-image {
 		background-image: url('../images/marquee/work.jpg'); 
-		@media screen and (max-width: 1000px) {
-      background-image: url('../images/marquee/work-med.jpg'); 
+		@media screen and (max-width: $tablet) {
+      background-image: url('../images/marquee/med/work.jpg'); 
+    }
+		@media screen and (max-width: $mobile) {
+      background-image: url('../images/marquee/small/work.jpg'); 
     }
 	}
 }
 .team {
 	.hero-image {
 		background-image: url('../images/marquee/team.jpg'); 
-		@media screen and (max-width: 1000px) {
-      background-image: url('../images/marquee/team-med.jpg'); 
+		@media screen and (max-width: $tablet) {
+      background-image: url('../images/marquee/med/team.jpg'); 
+    }
+		@media screen and (max-width: $mobile) {
+      background-image: url('../images/marquee/small/team.jpg'); 
     }
 	}
 }
 .expertise {
 	.hero-image {
 		background-image: url('../images/marquee/expertise.jpg'); 
-		@media screen and (max-width: 1000px) {
-      background-image: url('../images/marquee/expertise-med.jpg'); 
+		@media screen and (max-width: $tablet) {
+      background-image: url('../images/marquee/med/expertise.jpg'); 
+    }
+		@media screen and (max-width: $mobile) {
+      background-image: url('../images/marquee/small/expertise.jpg'); 
     }
 	}
 }
 .careers {
 	.hero-image {
 		background-image: url('../images/marquee/careers.jpg'); 
-		@media screen and (max-width: 1000px) {
-      background-image: url('../images/marquee/careers-med.jpg'); 
+		@media screen and (max-width: $tablet) {
+      background-image: url('../images/marquee/med/careers.jpg'); 
+    }
+		@media screen and (max-width: $mobile) {
+      background-image: url('../images/marquee/small/careers.jpg'); 
     }
 	}
 }
@@ -293,7 +301,6 @@ ul.client-list {
 		text-align: center;
 		display: block;
 		background: rgba(30, 27, 21, 0.25);
-		border: 1em solid #FFF;
 		z-index: 200;
 		@include transition-property(all);
 	  @include transition-duration(0.5s);
@@ -381,18 +388,21 @@ ul.client-list {
 // Expertise 
 // 
 .expertise {
+	margin-bottom: 5em;
+	display: block;
+	overflow: hidden;
   ul {
     font-size: 0.875em;
     font-style: italic;
     color: $brown;
-    margin: 1em 0 5em;
+    margin: 1em 0 0;
     padding: 0;
     width: 46%;
     float: left;
     @media screen and (max-width: $mobile) {
      	float: none;
       width: 100%;
-      margin-right: 0;
+      margin: 0 0;
     }
     li {
       list-style: none;
@@ -640,12 +650,20 @@ ul.client-list {
 	}
 }
 
+.holder {
+	display:none;
+}
+
+.no-js .holder {
+	display: block;
+}
+
 section.header {
   padding: 3em 0 0;
 }
 
 section.intro {
-  padding: 3em 0;
+  padding: 0 0 3em;
 }
 
 .breakpoints {
@@ -660,7 +678,7 @@ section.intro {
 section.results {
   padding: 8em 0;
   text-align: center;
-  background: $orange;
+  background: #f1f1f1;
   .stats {
     .stat {
       background: #FFF;
@@ -670,6 +688,7 @@ section.results {
       margin: 0 auto 1em;
       padding: 3em 0;
       @include border-radius(50%);
+      border: 6px solid $orange;
 
       .figure {
         font-size: 5em;
@@ -679,7 +698,7 @@ section.results {
     }
     .key {
       font-size: 1.2em;
-      color: #FFF;
+      color: darken($brown, 25%);
       font-weight: 600;
     }
   }

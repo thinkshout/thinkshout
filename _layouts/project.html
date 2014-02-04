@@ -61,37 +61,38 @@ layout: default
           </div>
       </section>
     {% endfor %}
-
-    {% if page.results %}
-      <section class="results">
-        <div class="section-rubric">
-          <h3><span>Results</span></h3>
-        </div>
-        {% if page.results.stats %}
-          <div class="row stats">
-            <div class="large-12 columns">
-              <ul class="large-block-grid-3">
-                {% for stats in page.results.stats %}
-                  <li>
-                    <div class="stat">
-                      <p class="figure">{{ stats.number | escape }}</p>
-                    </div>
-                    <p class="key">{{ stats.description}}</p>
-                  </li>
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
-        {% endif %}
-        {% if page.results.narrative %}
-          <div class="row">
-            <div class="large-6 columns large-centered">
-              <p>{{ page.results.narrative }}</p>
-            </div>
-          </div>
-        {% endif %}
-        <a class="button overlay" href="{{ page.projecturl }}">Launch Website</a>
-      </section>
-    {% endif %}
   </div>
+  {% if page.results %}
+    <section class="results">
+      <div class="section-rubric">
+        <h3><span>Results</span></h3>
+      </div>
+      {% if page.results.stats %}
+        <div class="row stats">
+          <div class="large-12 columns">
+            <ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1">
+              {% for stats in page.results.stats %}
+              {% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
+                <li>
+                  <div class="stat">
+                    <p class="figure counter data-total-{{ thecycle }}">0</p>
+                    <p class="holder data-totalholder-{{ thecycle }}">{{ stats.number | escape }}</p>
+                  </div>
+                  <p class="key">{{ stats.description}}</p>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      {% endif %}
+      {% if page.results.narrative %}
+        <div class="row">
+          <div class="large-6 columns large-centered">
+            <p>{{ page.results.narrative }}</p>
+          </div>
+        </div>
+      {% endif %}
+      <a class="button overlay" href="{{ page.projecturl }}">Launch Website</a>
+    </section>
+  {% endif %}
 </div>
