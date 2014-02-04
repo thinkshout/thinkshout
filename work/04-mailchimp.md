@@ -40,10 +40,13 @@ results:
   stats:
     - number: 55
       description: Releases we've developed for the module
+      type: figure
     - number: 93,694
       description: Downloads of the MailChimp and Mandrill modules
-    - number: 500%
+      type: figure
+    - number: 500
       description: Increase in module usage since MailChimp became our client
+      type: percent
   narrative:
 featured: true
 published: false

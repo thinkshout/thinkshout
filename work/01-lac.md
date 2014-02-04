@@ -6,6 +6,8 @@ permalink: work/la-conservancy/
 images:
   card: work/lac/lac-card.jpg
   hero: work/lac/lac-iphone-in-environment.jpg
+  small: work/lac/lac-hero-small.jpg
+  med: 
 breakpoints:
   desktop: work/lac/lac-desktop.jpg
   tablet: work/lac/lac-tablet.jpg
@@ -41,10 +43,13 @@ results:
   stats:
     - number: 186
       description: Events listed on the new system in the first 7 months
+      type:
     - number: 5,542
       description: Tickets sold online in during this same period
+      type:
     - number: 1
       description: Web interface to manage all of their membership features
+      type:
   narrative:
 featured: true
 published: true

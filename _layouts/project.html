@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="content project">
-  <div class="hero-image" style="background-image: url('{{ site.baseurl }}/assets/images/{{ page.images.hero }}');"></div>
+  <div class="hero-image" style="background-image: url('{{ site.baseurl }}/assets/images/{{ page.images.hero }}'); @media only screen and (max-width: 36em) { background-image: url('{{ site.baseurl }}/assets/images/{{ page.images.small }}'); }"></div>
   <div class="hero">
     <div class="site-width">
       <div class="background"></div>
@@ -74,7 +74,7 @@ layout: default
               {% for stats in page.results.stats %}
               {% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
                 <li>
-                  <div class="stat">
+                  <div class="stat {{ stats.type }}">
                     <p class="figure counter data-total-{{ thecycle }}">0</p>
                     <p class="holder data-totalholder-{{ thecycle }}">{{ stats.number | escape }}</p>
                   </div>

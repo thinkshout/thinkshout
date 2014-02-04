@@ -35,10 +35,13 @@ results:
   stats:
     - number:
       description:
+      type:
     - number:
       description:
+      type:
     - number:
       description:
+      type:
   narrative:
 featured: true
 published: false
