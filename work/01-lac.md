@@ -32,13 +32,13 @@ components:
   - title: Salesforce Integration
     column1: |
       Upon completing information architecture and graphic design, we embarked upon an ambitious CRM integration, the likes of which had never been done before. This project led to a number of open source contributions, such as improvements to the Leaflet, MailChimp, iATS, and Salesforce modules for Drupal. The result was a seamless e-commerce and event ticketing solution that supports real-time data syncing between Drupal and Salesforce.
-    column2:
-    background: work/lac/lac-strategy.jpg
+    column2: work/lac/lac-strategy.jpg
+    background: 
   - title: Mapping
     column1: |
       This project gave us a fun opportunity to play with map-based storytelling. We built interactive maps with geolocation and proximity search features that help people learn about historic locations on their mobile devices while they are out and about exploring the city.
-    column2:
-    background: work/lac/lac-mapping.jpg
+    column2: work/lac/lac-mapping.jpg
+    background: 
 results:
   stats:
     - number: 186
