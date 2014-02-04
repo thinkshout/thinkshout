@@ -6,6 +6,8 @@ permalink: work/ridepdw/
 images:
   card: work/ridepdw/ridepdw-card.jpg
   hero: work/ridepdw/ridepdw-hero.jpg
+  small: work/ridepdw/ridepdw-hero-small.jpg
+  med: work/ridepdw/ridepdw-hero-med.jpg
 breakpoints:
   desktop: work/ridepdw/ridepdw-desktop.jpg
   tablet: work/ridepdw/ridepdw-tablet.jpg
@@ -34,10 +36,13 @@ results:
   stats:
     - number: 25
       description: Increase in sales in the first 6 months of the site relaunch
+      type: percent
     - number: 102
       description: Increase in sales of the Bird Cage H20 holder over the first year
+      type: percent
     - number: 47
       description: New dealers added in the first 17 months
+      type: figure
   narrative:
 featured: true
 published: true

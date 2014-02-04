@@ -63,7 +63,8 @@ $(function() {
     };
   },
   {
-    triggerOnce: true 
+    triggerOnce: true,
+    offset: 500
   });
 }); 
 

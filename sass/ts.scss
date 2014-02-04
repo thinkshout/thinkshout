@@ -284,9 +284,9 @@ ul.client-list {
 	margin: 1em;
 	overflow: hidden;
 	.thumb {
-		padding: 1em;
+		padding: 0.5em;
 		margin: 0;
-		background: darken($brown, 25%);
+		background: lighten($brown, 50%);
 		img {
 			@include transition-property(all);
 	  	@include transition-duration(0.5s);
@@ -294,23 +294,21 @@ ul.client-list {
 	}
 	article {
 		position: absolute;
-		top: 100%;
-		width: 0;
-		height: 0;
-		padding: 20% 0 0;
+		bottom: 0.5em;
+		left: 0.5em;
+		width: 65%;
+		padding: 0 0;
 		text-align: center;
 		display: block;
-		background: rgba(30, 27, 21, 0.25);
+		background: rgba(255, 255, 255, 0.8);
 		z-index: 200;
 		@include transition-property(all);
 	  @include transition-duration(0.5s);
 
 	  .text {
-	  	width: 65%;
 	  	margin: 0 auto;
-	  	padding: 2em 0;
-	  	background: darken($brown, 25%);
-	  	border: 5px solid darken($brown, 15%);
+	  	padding: 0.5em 0;
+	  	background: rgba(255, 255, 255, 0.8);
 	  }
 	}
 	&:hover {
@@ -319,25 +317,25 @@ ul.client-list {
 	  	margin: 0;
 	  	background: darken($brown, 25%);
 	  	img {
-	  		-webkit-transform: scale(1.5);
+	  		-webkit-transform: scale(1.3);
 	  	}
 	  }
-	  article {
-	  	position: absolute;
-	  	top: 0;
-	  	bottom: 0;
-	  	left: 0;
-	  	right: 0;
-	  	width: 100%;
-	  	height: 100%;
-	  	display: block;
-	  	background: rgba(30, 27, 21, 0.75);
-	  	z-index: 200;
-
-	  	.text {
-
-	  	}
-	  }
+	  // article {
+	  // 	position: absolute;
+	  // 	top: 0;
+	  // 	bottom: 0;
+	  // 	left: 0;
+	  // 	right: 0;
+	  // 	width: 100%;
+	  // 	height: 100%;
+	  // 	display: block;
+	  // 	background: rgba(30, 27, 21, 0.75);
+	  // 	z-index: 200;
+// 
+	  // 	.text {
+// 
+	  // 	}
+	  // }
 	}
 }
 
@@ -696,6 +694,11 @@ section.results {
         color: $orange;
       }
     }
+
+    .stat.percent {
+    	background: url('../images/percent.jpg') center center no-repeat;
+    }
+
     .key {
       font-size: 1.2em;
       color: darken($brown, 25%);

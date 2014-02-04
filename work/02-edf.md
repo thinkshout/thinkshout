@@ -6,6 +6,8 @@ permalink: work/edf/
 images:
   card: work/edf/edf-card.jpg
   hero: work/edf/edf-hero.jpg
+  small: work/edf/edf-hero-small.jpg
+  med: 
 breakpoints:
   desktop: work/edf/edf-desktop.jpg
   tablet: work/edf/edf-tablet.jpg
