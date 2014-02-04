@@ -5,6 +5,7 @@
   z-index: 200;
   background: #FFF;
   display: table;
+  padding: 0 1em;
 }
 
 .hero {
@@ -13,6 +14,9 @@
   padding: 0;
   text-align: left;
   height: 760px;
+  @media screen and (max-width: $tablet) {
+    height: 675px;
+  }
   @media screen and (max-width: $mobile) {
     height: 400px;
   }

@@ -26,6 +26,11 @@
   }
 }
 
+// SVG Fallback
+.no-svg a#branding {
+  background-image: url('../images/assets/thinkshout-id.png');
+}
+
 .menu-toggle {
 	position: relative;
 	float: left;
@@ -103,8 +108,8 @@
 	z-index: 2000;
 	background: transparent;
 	@media screen and (max-width: $mobile) {
-		top: 0;
-		position: relative;
+		top: 75px;
+		position: absolute;
   }
 	ul {
 		margin: 1px 0 0 0;
