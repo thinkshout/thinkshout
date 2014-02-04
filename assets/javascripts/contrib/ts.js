@@ -37,7 +37,7 @@
   $.fn.countTo.defaults = {
       from: 0,  // the number the element should start at
       to: 100,  // the number the element should end at
-      speed: 1000,  // how long it should take to count between the target numbers
+      speed: 400,  // how long it should take to count between the target numbers
       refreshInterval: 100,  // how often the element should be updated
       decimals: 0,  // the number of decimal places to show
       onUpdate: null,  // callback method for every time the element is updated,
@@ -54,7 +54,7 @@ $(function() {
       $('.data-total-' + i ).delay(500).countTo({
           from: 0,
           to: total,
-          speed: 1000,
+          speed: 500,
           refreshInterval: 2,
           // onComplete: function(value) {
           //     console.debug(this);
@@ -64,7 +64,7 @@ $(function() {
   },
   {
     triggerOnce: true,
-    offset: 500
+    offset: 800
   });
 }); 
 

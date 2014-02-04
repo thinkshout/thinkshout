@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="content project">
-  <div class="hero-image" style="background-image: url('{{ site.baseurl }}/assets/images/{{ page.images.hero }}'); @media only screen and (max-width: 36em) { background-image: url('{{ site.baseurl }}/assets/images/{{ page.images.small }}'); }"></div>
+  <div class="hero-image" style="background-image: url('{{ site.baseurl }}/assets/images/{{ page.images.hero }}');"></div>
   <div class="hero">
     <div class="site-width">
       <div class="background"></div>
@@ -12,16 +12,20 @@ layout: default
     </div>
   </div>
   <div class="main">
-    <section class="intro">
+    <section>
       <div class="row">
-      	<div class="large-8 columns large-centered">
+        <div class="large-10 columns large-centered">
           {% if page.client != nil %}
-            <p>{{ page.client | markdownify }}</p>
+            <div class="intro">
+              <p>{{ page.client | markdownify }}</p>
+            </div>
           {% endif %}
-        	{% if page.expertise %}
-        	  <h5>Expertise:</h5>
-        	  {{ page.expertise | markdownify }}
-        	{% endif %}
+          {% if page.expertise %}
+            <div class="expertise-list">
+              <h5>Expertise:</h5>
+              {{ page.expertise | markdownify }}
+            </div>
+          {% endif %}
         </div>
       </div>  
     </section>
@@ -63,36 +67,47 @@ layout: default
     {% endfor %}
   </div>
   {% if page.results %}
+    {% if page.results.stats %}
     <section class="results">
       <div class="section-rubric">
         <h3><span>Results</span></h3>
       </div>
-      {% if page.results.stats %}
-        <div class="row stats">
-          <div class="large-12 columns">
-            <ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1">
-              {% for stats in page.results.stats %}
-              {% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
-                <li>
-                  <div class="stat {{ stats.type }}">
-                    <p class="figure counter data-total-{{ thecycle }}">0</p>
-                    <p class="holder data-totalholder-{{ thecycle }}">{{ stats.number | escape }}</p>
-                  </div>
-                  <p class="key">{{ stats.description}}</p>
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
+      <div class="row stats">
+        <div class="large-12 columns">
+          <ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1">
+            {% for stats in page.results.stats %}
+            {% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
+              <li>
+                <div class="stat {{ stats.type }}">
+                  <p class="figure counter data-total-{{ thecycle }}">0</p>
+                  <p class="holder data-totalholder-{{ thecycle }}">{{ stats.number | escape }}</p>
+                </div>
+                <p class="key">{{ stats.description}}</p>
+              </li>
+            {% endfor %}
+          </ul>
+          <a class="button overlay" href="{{ page.projecturl }}">Launch Website</a>
         </div>
-      {% endif %}
-      {% if page.results.narrative %}
-        <div class="row">
-          <div class="large-6 columns large-centered">
-            <p>{{ page.results.narrative }}</p>
-          </div>
-        </div>
-      {% endif %}
-      <a class="button overlay" href="{{ page.projecturl }}">Launch Website</a>
+      </div>
     </section>
+    {% endif %}
+    {% if page.results.narrative %}
+    <section class="results narrative">
+      <div class="section-rubric">
+        <h3><span>Results</span></h3>
+      </div>
+      <div class="row">
+        <div class="large-8 columns large-centered">
+          <p>{{ page.results.narrative }}</p>
+        </div>
+      </div>
+      {% if page.results.image %}
+        <img src="{{ site.baseurl }}/assets/images/{{ page.results.image }}">
+      {% endif %}
+      <div class="row">
+        <a class="button overlay" href="{{ page.projecturl }}">Launch Website</a>
+      </div>
+    </section>
+    {% endif %}
   {% endif %}
 </div>

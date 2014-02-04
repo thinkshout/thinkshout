@@ -26,8 +26,8 @@ components:
   - title: Discovery
     column1: |
       In collaboration with EDF staff, we interviewed a sampling of the application's target audience. We then examined website analytics to identify usage patterns and establish performance metrics. Finally, we developed "user stories" to guide the content and information architecture choices for the redesign.
-    column2:
-    background: work/edf/edf-discovery.jpg
+    column2: work/edf/edf-discovery.jpg
+    background: 
   - title: Information Architecture
     column1: |
       We developed clickable wireframes that performed beautifully on a variety of mobile and tablet devices. Our mobile-first approach ensured that busy website visitors accessing the Seafood Selector on the go would get the most important information about seafood choices quickly and easily.
@@ -36,11 +36,12 @@ components:
   - title: Graphic Design
     column1: |
       After creating style tiles and a creative brief, we successfully handed off our discovery and design assets to EDF's internal development team, who then rebuilt the responsive website in Drupal 7. The result was a highly interactive, easy-to-use web app that informs consumers about the economic and environmental impacts of their seafood choices.  
-    column2:  
-    background: work/edf/edf-design.jpg  
+    column2: work/edf/edf-design.jpg
+    background:   
 results:
   stats:
   narrative: While our ocean's fisheries have a long way to go, the Environmental Defense Fund's Seafood Selector is helping everyday consumers end decades of overfishing, one pound of seafood at a time.
+  image: work/edf/edf-results.jpg
 featured: true
 published: true
 ---
