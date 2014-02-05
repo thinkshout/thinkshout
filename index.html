@@ -14,12 +14,7 @@ keywords:
 <div id="container" class="home">
   <div class="content">
     <div class="marquee">
-      {% for post in site.categories.careers %}
-      {% capture openings %}{{ post.active }}{% endcapture %}
-      {% if post.active == "true" %}
       <a href="{{ site.baseurl }}/careers/" id="hiring">We Hiring!</a>
-      {% endif %}
-      {% endfor %}
       <div class="site-width">
         <div class="background"></div>
         <div class="leadin">
