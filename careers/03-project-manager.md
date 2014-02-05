@@ -4,7 +4,6 @@ title: Project Manager
 permalink: careers/project-manager/
 mailto: thinkshout-job3@mytribehr.com
 active: true
-published: true
 ---
 ###Responsibilities
 - Manage the on-time and on-budget delivery of best-in-class open source web applications for our clients
