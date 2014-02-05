@@ -14,7 +14,7 @@ cloudfront_distribution_config:
   aliases:
     quantity: 1
     items:
-      CNAME: thinkshout.org
+      CNAME: thinkshout.com
 
 ## gzip active and file extensions
 gzip: true

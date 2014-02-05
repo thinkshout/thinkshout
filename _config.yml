@@ -15,9 +15,10 @@ exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'bower.json', '.bo
 team_dir: 'team'
 contact_redirect: 'thanks'
 tag_dir: 'blog/category'
-  
-paginate: 10
-paginate_path: "blog/page:num"
+
+# Blog pagination.  
+# paginate: 10
+# paginate_path: "blog/page:num"
 
 # Setting relative permalink to false. See http://jekyllrb.com/docs/upgrading/.
 relative_permalinks: false
