@@ -3,7 +3,7 @@ layout: job
 title: Web Engineer
 permalink: careers/web-engineer/
 mailto: thinkshout-job2@mytribehr.com
-active: false
+active: true
 ---
 Web engineers at ThinkShout are responsible for the delivery of world-class open source solutions primarily built with Drupal.
 
