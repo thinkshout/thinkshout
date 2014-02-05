@@ -1,4 +1,4 @@
----
+  ---
 layout: default
 ---
 <div class="content blog">
@@ -30,7 +30,7 @@ layout: default
     			<div class="tags">
     				<span class="label">Filed Under:</span>
     				{% for tag in page.tags %}
-    				  <a class="label secondary" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | downcase | url_escape }}/" rel="tag category" title="Search this site for other posts on {{ tag | escape }}">{{ tag }}</a>
+    				  <a class="label secondary" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | url_escape }}/" rel="tag category" title="Search this site for other posts on {{ tag | escape }}">{{ tag }}</a>
     				{% endfor %}
     			</div>
     		{% endif %}
