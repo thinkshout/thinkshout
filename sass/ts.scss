@@ -507,16 +507,18 @@ ul.client-list {
 		.leadin {
 			width: 100%;
 			text-align: left;
+			.post-title {
+  		  font-family: 'Open Sans Condensed', sans-serif;
+  		  font-size: 3.5rem;
+  		  font-weight: 700;
+  		  padding: 0;
+  		  @media screen and (max-width: $mobile) {
+  		   	font-size: 2.25rem;
+  		  }
+  		}
 		}
 	}
-  .post-title {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 3.5rem;
-    font-weight: 700;
-    @media screen and (max-width: $mobile) {
-     	font-size: 2.25rem;
-    }
-  }
+
   .tags {
   	a {
   		text-decoration: underline;
@@ -545,6 +547,7 @@ ul.client-list {
   .info {
     float: left;
     text-align: left;
+    padding: 0.25em 0;
     .team-name {
       font-size: 1.125em;
       font-weight: 600;
@@ -573,6 +576,9 @@ ul.client-list {
 			padding-right: 0.9375rem;
 			@media screen and (max-width: $tablet) {
       	width: 100%;
+      }
+      h1 {
+      	padding-top: 0;
       }
     }
   }
