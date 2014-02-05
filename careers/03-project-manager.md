@@ -34,9 +34,3 @@ published: true
 - Comprehensive benefits package including health insurance with dental, vision, and alternative care, a matching 401k, and a very generous 30 day flat PTO policy
 - Get paid to learn and go to conferences, such as DrupalCon, Dreamforce and the Nonprofit Technology Conference
 - A focus on work/life balance, including a flexible office hours policy
-
-If this sounds like a good fit for you, <a href="mailto:thinkshout-job1@mytribehr.com">talk to us</a>.
-
-
-
-
