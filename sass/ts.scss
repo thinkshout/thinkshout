@@ -253,6 +253,9 @@ ul.team {
   padding: 3.25em 0 0;
   text-align: center;
   border: 2px solid #FFF;
+  @media screen and (max-width: $mobile) {
+    display: none;
+  }
 }
 
 //
