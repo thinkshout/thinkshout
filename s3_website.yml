@@ -40,7 +40,7 @@ redirects:
   # portfolio/mailchimp:
   # portfolio/mission-investors-exchange
 
-# Set browser caching.    
-max_age:
-  "assets/images/*": 6000
-  "assets/fonts/*": 6000
+# Set browser caching.  #   
+# max_age:
+#   "assets/images/*": 6000
+#   "assets/fonts/*": 6000
