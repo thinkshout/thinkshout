@@ -23,6 +23,7 @@ gzip:
   - .css
   - .md
   - .js
+  - .xml
 
 # Configure redirects
 redirects:
