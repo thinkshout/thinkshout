@@ -31,7 +31,7 @@ keywords:
         <p>We build lasting relationships with our clients, and we do so with a style and thoughtfulness you won’t find anywhere else. If you share our passion for open source technologies and digital strategy, we'd love to hear from you.</p><p>The following positions are currently available on our team:</p>
         <div class="job-list">
         	{% for page in site.pages %}
-        	{% if page.layout == 'job' %}
+        	{% if page.layout == 'job' and page.active == true %}
         	  <article>
         	    <div class="row">
         	      <div class="large-12 columns">
