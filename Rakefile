@@ -26,8 +26,10 @@ def jekyll(opts = '')
 end
 
 desc "Generate and publish site to gh-pages"
-task :stage => [:build] do
+task :stage do
   Dir.mktmpdir do |tmp|
+    system 'compass compile'
+    jekyll 'build --config _config.yml _config_stage.yml'
     system "mv _site/* #{tmp}"
     system "git checkout gh-pages"
     system "rm -rf *"
