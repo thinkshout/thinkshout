@@ -5,6 +5,7 @@
   top: 0;
   z-index: 2000;
   margin-top: 25px;
+  width: 100%;
   @media screen and (max-width: $mobile) {
     margin-top: 0px;
     background: darken($brown, 25%);
@@ -24,6 +25,18 @@
     width: 225px;
     overflow: hidden;
     text-indent: -9999px;
+    opacity: 1;
+    transition: all	 0.6s;
+  }
+  #branding.active {
+		opacity: 1;
+  	transition: all 0.6s;
+	}
+  #branding.inactive {
+  	opacity: 0;
+  	background-image: url('../images/assets/thinkshout-icon.svg');
+  	height: 75px;
+    width: 225px;
   }
 }
 
@@ -161,6 +174,9 @@
 	margin: 0;
 	line-height: 75px;
 	color: $orange;
+	opacity: 1;
+  transition: opacity 0.6s;
+  
 	@media screen and (max-width: $mobile) {
     display: none;
   }
@@ -173,6 +189,15 @@
   		background: darken($brown, 25%);
   	}
   }
+}
+
+#title-flag.active {
+	opacity: 1;
+  transition: opacity 0.6s;
+}
+
+#title-flag.inactive {
+	opacity: 0;
 }
 
 //
