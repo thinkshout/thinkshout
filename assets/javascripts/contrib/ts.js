@@ -45,8 +45,6 @@
   };
 })(jQuery);
 
-
-
 $(function() {
   $('section.results').waypoint(function(direction) {
     for (var i = 1; i < 4; i++) {
@@ -56,9 +54,6 @@ $(function() {
           to: total,
           speed: 500,
           refreshInterval: 2,
-          // onComplete: function(value) {
-          //     console.debug(this);
-          // }
       });
     };
   },
@@ -68,4 +63,14 @@ $(function() {
   });
 }); 
 
-  
+// Hide the logo and break crumb below the marquee
+// $(function() {
+// 	 $('.hero-image, .marquee').waypoint(function(direction) {
+// 	     $('#branding, #title-flag').toggleClass('inactive', direction === 'down');
+// 	     $('#branding, #title-flag').toggleClass('active', direction === 'up');
+// 	 }, {
+// 	   offset: function() {
+// 	     return -$(this).height();
+// 	   }
+// 	 });
+// });
