@@ -33,10 +33,10 @@
   	transition: all 0.6s;
 	}
   #branding.inactive {
-  	opacity: 0;
+  	opacity: 1;
   	background-image: url('../images/assets/thinkshout-icon.svg');
   	height: 75px;
-    width: 225px;
+    width: 75px;
   }
 }
 
