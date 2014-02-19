@@ -2,9 +2,8 @@
 title: Spend more time on yourr mission, less time filing papers
 author:
 short:
-
-
 ---
+
 I recently had drinks with an old friend who had worked for many years in the nonprofit sector before moving into another sector.  I asked him what influenced his decision to make the switch from helping families cope in therapy to designing ads for Nike.  I was surprised to hear that the reason for his moving away from the nonprofit world was the overwhelming amount of administrative energy that goes into managing a nonprofit organization, which he felt took away the focus of their mission.  I was shocked!  And heartbroken to hear something as little as the process of filing papers, could take away from the heart of what it was all about….
 
 As a project manager here at ThinkShout, we structure our website redesigns to help nonprofits get the biggest bang for their buck by developing platforms that work to the advantage of the organization’s operational, fundraising and communication needs.  One of my biggest goals as a project manager is to expose our clients to the technologies that help them focus and drive their mission and to succeed in their redesign projects.
