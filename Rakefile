@@ -45,5 +45,5 @@ end
 
 desc "Generate and publish site to Amazon S3"
 task :publish => [:build] do
-  system "s3_website push"
+  system "s3_website --headless push"
 end
