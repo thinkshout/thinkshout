@@ -28,7 +28,7 @@ end
 
 desc "Generate and publish site to thinkshout.com on Amazon S3."
 task :publish => [:build] do
-  system "s3_website --headless push"
+  system "s3_website push --headless"
 end
 
 desc "Generate and publish site to stage.thinkshout.com on S3."
