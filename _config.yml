@@ -33,3 +33,22 @@ sitemap:
         - "/blog/index.html"
         - "/work/index.html"
         - "/careers/index.html"
+
+prose:
+  rooturl: "blog/posts"
+  siteurl: "http://thinkshout.com"
+  media: "assets/images"
+  metadata:
+    blog/_posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "short"
+        field:
+          element: "textarea"
+          label: "Short teaser"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author short name"
