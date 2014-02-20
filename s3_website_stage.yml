@@ -5,6 +5,8 @@ s3_secret: VbCOeG321aHjEvtzIV54HxqQ/Fm+vlS0I9GTbEeg
 s3_bucket: stage.thinkshout.com
 s3_endpoint: us-west-2
 
+concurrency_level: 5
+
 ## gzip active and file extensions
 gzip: true
 gzip:
