@@ -35,7 +35,7 @@ sitemap:
         - "/careers/index.html"
 
 prose:
-  rooturl: "blog/posts"
+  rooturl: "blog/_posts"
   siteurl: "http://thinkshout.com"
   media: "assets/images"
   metadata:
