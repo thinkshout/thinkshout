@@ -32,7 +32,7 @@ task :publish => [:build] do
 end
 
 desc "Generate and publish site stage.thinkshout.com"
-task :stage do
+task :stage => [:build] do
   config = YAML.load(Erubis::Eruby.new(File.read("s3_website_stage.yml")).result)
   in_headless = true
   S3Website::Uploader.run('_site', config, in_headless)
