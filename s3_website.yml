@@ -4,6 +4,8 @@ s3_id: AKIAIMMMSPZ2A47JFUBQ
 s3_secret: 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
 s3_bucket: thinkshout.com
 
+concurrency_level: 5
+
 ## Cloud front CDN
 cloudfront_distribution_id: E1R698DF9RX46D
 cloudfront_invalidate_root: true
