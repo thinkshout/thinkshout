@@ -1,0 +1,31 @@
+---
+# Credentials and bucket name
+s3_id: AKIAIMMMSPZ2A47JFUBQ
+s3_secret: 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
+s3_bucket: stage.thinkshout.com
+s3_endpoint: us-west-2
+
+## gzip active and file extensions
+gzip: true
+gzip:
+  - .html
+  - .css
+  - .md
+  - .js
+  - .xml
+
+# Configure redirects
+redirects:
+  blog/feed: /rss.xml
+  taxonomy/term/21/all/feed: /tag/drupal%20planet/rss.xml
+  portfolio: /work/
+  contact: /
+  home: /
+  case-study/distribution-hosting-with-pantheon: /blog/2013/08/distribution-hosting-with-pantheon/
+  portfolio/los-angeles-conservancy: /work/la-conservancy/
+  portfolio/portland-design-works: /work/ridepdw/
+  portfolio/environmental-defense-fund: /work/edf/
+  portfolio/salmon-project: /work/the-salmon-project/
+  # Below are redirects for content that has not yet been ported.
+  # portfolio/mailchimp:
+  # portfolio/mission-investors-exchange

@@ -5,6 +5,7 @@ require 'date'
 require 'yaml'
 require 'tmpdir'
 require 'jekyll'
+require 's3_website'
 
 task :default => :server
 
@@ -25,25 +26,14 @@ def jekyll(opts = '')
   system 'jekyll ' + opts
 end
 
-desc "Generate and publish site to gh-pages"
-task :stage do
-  Dir.mktmpdir do |tmp|
-    system 'compass compile'
-    jekyll 'build --config _config.yml,_config_stage.yml'
-    system "mv _site/* #{tmp}"
-    system "git checkout gh-pages"
-    system "rm -rf *"
-    system "mv #{tmp}/* ."
-    message = "Site updated at #{Time.now.utc}"
-    system "git add -A"
-    system "git commit -m #{message.shellescape}"
-    system "git push origin gh-pages --force"
-    system "git checkout master"
-    system "echo 'GitHub pages deployment completed.'"
-  end
-end
-
 desc "Generate and publish site to Amazon S3"
 task :publish => [:build] do
   system "s3_website --headless push"
+end
+
+desc "Generate and publish site stage.thinkshout.com"
+task :stage do
+  config = YAML.load(Erubis::Eruby.new(File.read("s3_website_stage.yml")).result)
+  in_headless = true
+  S3Website::Uploader.run('_site', config, in_headless)
 end
