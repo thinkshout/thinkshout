@@ -31,3 +31,11 @@ redirects:
   # Below are redirects for content that has not yet been ported.
   # portfolio/mailchimp:
   # portfolio/mission-investors-exchange
+
+routing_rules:
+  ## Redirect images from old site
+  - condition:
+      key_prefix_equals: sites/default/files/
+    redirect:
+      replace_key_prefix_with: assets/images/old_site/
+      http_redirect_code: 301
