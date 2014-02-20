@@ -64,13 +64,13 @@ $(function() {
 }); 
 
 // Hide the logo and break crumb below the marquee
-$(function() {
-	 $('.hero-image, .marquee').waypoint(function(direction) {
-	     $('#branding, #title-flag').toggleClass('inactive', direction === 'down');
-	     $('#branding, #title-flag').toggleClass('active', direction === 'up');
-	 }, {
-	   offset: function() {
-	     return -$(this).height();
-	   }
-	 });
-});
+// $(function() {
+// 	 $('.hero-image, .marquee').waypoint(function(direction) {
+// 	     $('#branding, #title-flag').toggleClass('inactive', direction === 'down');
+// 	     $('#branding, #title-flag').toggleClass('active', direction === 'up');
+// 	 }, {
+// 	   offset: function() {
+// 	     return -$(this).height();
+// 	   }
+// 	 });
+// });
