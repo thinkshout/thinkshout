@@ -35,8 +35,9 @@
   #branding.inactive {
   	opacity: 1;
   	background-image: url('../images/assets/thinkshout-icon.svg');
-  	height: 75px;
-    width: 75px;
+      background-size: cover;
+      height: 75px;
+      width: 75px;
   }
 }
 
