@@ -64,7 +64,7 @@
 
 // Hide the logo and break crumb below the marquee
 // $(function() {
-// 	 $('.hero-image, .marquee').waypoint(function(direction) {
+// 	 $('.hero-image, .marquee, .blog-header').waypoint(function(direction) {
 // 	     $('#branding, #title-flag').toggleClass('inactive', direction === 'down');
 // 	     $('#branding, #title-flag').toggleClass('active', direction === 'up');
 // 	 }, {
