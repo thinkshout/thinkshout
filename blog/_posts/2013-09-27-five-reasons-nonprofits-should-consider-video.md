@@ -9,7 +9,7 @@ tags:
 - content strategy
 
 short: In my previous life, I built and ran sites that heavily relied on multimedia to communicate fairly complicated messages. We chose video as a core medium because many of our users were low-income, low-literacy people and straight text just didn’t resonate.
-author: dan
+author: daniel
 ---
 In my previous life, I built and ran sites that heavily relied on multimedia to communicate fairly complicated messages. We chose video as a core medium because many of our users were low-income, low-literacy people and straight text just didn’t resonate. 
 
