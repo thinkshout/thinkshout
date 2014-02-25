@@ -51,10 +51,10 @@ keywords:
           <h3><span>From The Blog</span></h3>
         </div>
         <ul>
-          {% for post in site.categories.blog limit:1 %}
+          {% for post in site.categories.blog limit:3 %}
           <li>
           	<article>
-              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h2>
+              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
               <div class="byline">
                 {% for person in site.data.team %}
                 {% if post.author == person.name %}
