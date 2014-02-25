@@ -226,6 +226,24 @@
   bio: |
     Having worked extensively in the nonprofit sector, Stephanie knows all too well that keeping your technology up to date and accessible to your constituents is hard to prioritize when working on a tight budget. She has a BA from Gonzaga University and spent three years in freelance video production and content editing for independent online press. She eventually found herself in the nonprofit world, where she spearheaded a social media campaign and developed a communications plan for Families Forward in Southern California. Through this experience, Stephanie developed a great appreciation for open source tools that help nonprofits better engage their constituents and she continues to be an advocate for nonprofit technology. Unlike Inigo Montoya, Stephanie fences left-handed.
 
+- first_name: Indi
+  last_name: Petranek-McHugh
+  position: Project Manager
+  leadin: |
+    Indi excels at transforming competing interests into achievable goals, a skill that’s key when balancing multiple projects. A long time ago, she held the title of “counter intelligence agent.” We don’t ask about this, because we’re pretty sure that if she told us, she’d have to kill us.
+  social:
+    linkedin: http://www.linkedin.com/pub/indi-petranek-mchugh/5/335/378
+    twitter: https://twitter.com/indi_pm
+    drupal: https://drupal.org/user/2804521
+  image:
+    small: team/small/indi.jpg
+    medium: team/medium/indi.jpg
+    large: team/large/indi.jpg
+  published: true
+  name: indi
+  bio: |
+    Indi has over a decade of technical project management experience in a variety of disciplines, such as system implementation, e-learning, training, web design, and change management.  She has an uncanny ability to anticipate what could make a complex technical initiative go sideways and understands what steps are necessary to restore balance and ensure our clients’ projects are successful. Before joining the ThinkShout team, she worked as a marketing consultant at Creative Performance, developed training and e-learning at GP Strategies, and served in the US Army. Indi is also a member of Toastmasters International and is PMP certified. A Portland native, Indi spends her “spare” time hanging out with her family, gardening, and traveling.
+
 - first_name: Dan
   last_name: Ruscoe
   position: Software Engineer
