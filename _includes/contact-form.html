@@ -1,80 +1,48 @@
-<script type="text/javascript">
-  contactSubmitted = false;
-</script>
-<div id="contact-wrapper">
-  <h2>Say hello. Tell us about the change you'd like to create in the world.</h2>
-  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(contactSubmitted) {$('#thankyou-message').foundation('reveal', 'open');}"></iframe>
-  <form action="https://docs.google.com/forms/d/1ce7qWm2XPdRcNeTp733EHt5H3fYz9HDw-gQyW3fvQ34/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="contactSubmitted=true;">
-    <div class="ss-form-question errorbox-good">
-      <div dir="ltr" class="ss-item ss-item-required ss-select">
-        <div class="ss-form-entry">
-          <label aria-hidden class="ss-q-item-label aria-todo" for="entry_1392677642">
-            <div class="ss-q-title">
-              I'd like to contact you regarding a...
-              <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-            </div>
-          </label>
-          <select name="entry.1392677642" id="entry_1392677642" aria-label="Category" aria-required="true" required="">
-            <option value="General inquiry">General inquiry</option>
-            <option value="Project, partnership, or other opportunity">Project, partnership, or other opportunity</option>
-            <option value="Employment at ThinkShout">Employment at ThinkShout</option>
-          </select>
-        </div>
-      </div>
-    </div>
-    <div class="contact-form-name">
-      <div class="ss-form-question errorbox-good">
-        <div dir="ltr" class="ss-item ss-item-required ss-text">
-          <div class="ss-form-entry">
-            <label aria-hidden class="ss-q-item-label aria-todo" for="entry_148585776">
-              <div class="ss-q-title">Name
-                <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-              </div>
-              <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
-            </label>
-            <input type="text" name="entry.148585776" value="" class="ss-q-short" id="entry_148585776" dir	="auto" aria-label="Your Name" aria-required="true" required="" title="">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="contact-form-email">
-      <div class="ss-form-question errorbox-good">
-        <div dir="ltr" class="ss-item ss-item-required ss-text">
-          <div class="ss-form-entry">
-            <label aria-hidden class="ss-q-item-label aria-todo" for="entry_1237522080">
-              <div class="ss-q-title">Email
-                <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-              </div>
-              <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
-            </label>
-            <input type="email" name="entry.1237522080" value="" class="ss-q-short" id="entry_1237522080" 	dir="auto" aria-label="Your Email Must be a valid email address" aria-required="true" 	required="" title="Must be a valid email address">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="ss-form-question errorbox-good">
-      <div dir="ltr" class="ss-item ss-item-required ss-paragraph-text">
-        <div class="ss-form-entry">
-          <label aria-hidden class="ss-q-item-label aria-todo" for="entry_1752597187">
-            <div class="ss-q-title">
-              Message
-              <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-            </div>
-            <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
-          </label>
-          <textarea name="entry.1752597187" rows="8" cols="0" class="ss-q-long" id="entry_1752597187" dir="	auto" aria-label="Message" aria-required="true" required=""></textarea>
-        </div>
-      </div>
-    </div>
-    <input type="hidden" name="draftResponse" value="[]">
-    <input type="hidden" name="pageHistory" value="0">
-    <input type="hidden" name="fbzx" value="1701147913826410385">
-    <input type="submit" name="submit" value="Submit" id="ss-submit">
-  </form>
-</div>
+<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads1097477000000077625 method='POST' onSubmit='javascript:document.charset="UTF-8"; return true;' accept-charset='UTF-8'>
+  <input type='hidden' name='xnQsjsdp' value='IssfzHtGCq1thYo@kRl79w$$'/>
+  <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+  <input type='hidden' name='xmIwtLD' value='UBDtz5xweYJyXABGh8UW-YBVarmp-Nq5'/>
+  <input type='hidden' name='actionType' value='TGVhZHM='/>
+  <input type='hidden' name='returnURL' value='http&#x3a;&#x2f;&#x2f;thinkshout.com'/>
 
-<div id="thankyou-message" class="reveal-modal small" data-reveal>
-  <h2>Thanks for getting in touch.</h2>
-  <h3>We'll get back to you shortly. In the meantime, please continue to explore.</h3>
-  <a class="close-reveal-modal">&#215;</a>
-</div>
+  <div class="contact-name">
+    <label for="first-name">First Name</label>
+    <input id="first-name" type='text' maxlength='40' name='First Name' aria-required="true" required/>
+  </div>
+
+  <div class="contact-name">
+    <label for="last-name">Last Name</label>
+    <input id="last-name" type='text' maxlength='80' name='Last Name' aria-required="true" required />
+  </div>
+
+  <label for="email">Email</label>
+  <input id="email" type='email' maxlength='100' name='Email' aria-required="true" required />
+
+  <label for="message">Message</label>
+  <textarea id="message" name='Message' maxlength='1000' aria-required="true" required ></textarea>
+
+  <div id="newsletter">
+    <label for="newsletter">Sign up to our newsletter</label>
+    <input id="newsletter" type='checkbox' name='Email Opt Out'/>
+  </div>
+
+  <br>
+  <label for="captcha">Captcha</label>
+  <input id="captcha" type='text' maxlength='80' name='enterdigest' required />
+
+  <img id='imgid' src='https://crm.zoho.com/crm/CaptchaServlet?formId=UBDtz5xweYJyXABGh8UW-YBVarmp-Nq5&grpid=IssfzHtGCq1thYo@kRl79w$$'>
+  <a href='javascript:;' onclick='reloadImg()'>Reload</a></td>
+
+  <input type='submit' value='Submit' id="contact-submit"/>
+
+  <script>
+    function reloadImg() {
+      if (document.getElementById('imgid').src.indexOf('&d') !== -1) {
+        document.getElementById('imgid').src = document.getElementById('imgid').src.substring(0, document.getElementById('imgid').src.indexOf('&d')) + '&d' + new Date().getTime();
+      } else {
+        document.getElementById('imgid').src = document.getElementById('imgid').src + '&d' + new Date().getTime();
+      }
+    }
+  </script>
+</form>
+<iframe name='captchaFrame' style='display:none;'></iframe>
