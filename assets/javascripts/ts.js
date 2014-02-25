@@ -61,7 +61,7 @@
       });
 
   // Hide the logo and break crumb below the marquee
-  $('.hero-image, .marquee, .blog-header').waypoint(function (direction) {
+  $('.hero-image, .marquee, .blog-header, .home .leadin >h1').waypoint(function (direction) {
     $('#branding, #title-flag').toggleClass('inactive', direction === 'down');
     $('#branding, #title-flag').toggleClass('active', direction === 'up');
   }, {
