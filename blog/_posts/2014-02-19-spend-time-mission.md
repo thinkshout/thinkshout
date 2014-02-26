@@ -2,6 +2,7 @@
 layout: post
 title: Spend more time on your mission, less time filing papers
 author: claire
+featured: true
 tags:
 - nonprofit tech
 - tools

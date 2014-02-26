@@ -19,6 +19,9 @@ The ThinkShout.com website, built with Jekyll, Foundation 5, SASS, and lots of l
 ## Content editing
 Blog posts should be managed via [prose.io](http://prose.io/). Visit the website and, when prompted, authorize via GitHub. Select the [thinkshout/thinkshout](http://prose.io/#thinkshout/thinkshout) project. Prose will only make the blog post folder accessible. You can create new posts by clicking the large green "new file" button at the top of the page. Existing posts can be edited by clicking on the file in the list. When editing or creating a post, the metadata button on the right side will load with the available variables that can be filled in, including teaser, author name, and tags.
 
+### Home Page Posts
+To get a post to show on the home page, add `featured: true` to the post's YAML front matter. This will also add a class of `featured-post` across the site for styling convenience.
+
 ## Deploying
 The site is hosted on Amazon S3 where we have 2 buckets, one for staging mapped to http://staging.thinkshout.com and one for production mapped to our apex domain, http://thinkshout.com. The S3 configuration for both these are in there respective s3_website*.yml configuration files.
 1. Staging deployment: `rake stage`.
