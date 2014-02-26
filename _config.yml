@@ -37,7 +37,7 @@ sitemap:
 prose:
   rooturl: "blog/_posts"
   siteurl: "http://thinkshout.com"
-  media: "assets/images"
+  media: "assets/images/blog"
   metadata:
     blog/_posts:
       - name: "layout"
