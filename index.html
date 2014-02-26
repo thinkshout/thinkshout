@@ -45,33 +45,70 @@ keywords:
 </div>
 <section class="content-bottom blog most-recent">
   <div class="main">
-    <div class="row">
-      <div class="large-8 columns large-centered">
+    <!-- <div class="row"> -->
+      <!-- <div class="large-8 columns large-centered"> -->
         <div class="section-rubric">
           <h3><span>From The Blog</span></h3>
         </div>
-        <ul>
-          {% for post in site.categories.blog limit:1 %}
-          <li>
-          	<article>
-              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h2>
-              <div class="byline">
-                {% for person in site.data.team %}
-                {% if post.author == person.name %}
-                <a href="{{ site.baseurl }}/team/{{ person.name }}"><img class="team-photo" alt="{{ person.name }}" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}"></a>
-                <div class="info">
-                  <a href="{{ site.baseurl }}/team/{{ person.name }}" class="team-name">{{ person.first_name }} {{ person.last_name }}</a>
-                  <p>{{ person.position }}</p>
-                </div>
+        <div class="blog-post-teasers top row">
+
+          {% for post in site.posts %}
+            {% if post.featured == true %}
+              {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+              {% if count == '1' %}
+                <article class="blog-teaser small-12 large-8 columns small-centered featured-post">
+                  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+                  <p>{{ post.short }}</p>
+                  <div class="post-info">
+                    <div class="byline">
+                      {% for person in site.data.team %}
+                        {% if post.author == person.name %}
+                          <a href="{{ site.baseurl }}/team/{{ person.name }}" class="team-photo">
+                            <img alt="{{ person.name }}" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
+                          </a>
+                          <div class="info">
+                            <a href="{{ site.baseurl }}/team/{{ person.name }}" class="team-name">{{ person.first_name }} {{ person.last_name }}</a>
+                            <p>{{ person.position }}</p>
+                          </div>
+                        {% endif %}
+                      {% endfor %}
+                    </div>
+                  </div>
+                </article>
                 {% endif %}
-                {% endfor %}
-              </div>
-            </article>
-          </li>
+            {% endif %}
           {% endfor %}
-        </ul>
+          </div>
+          <div class="blog-post-teasers bottom row">
+            {% for post in site.posts %}
+              {% if post.featured == true %}
+                {% capture counttwo %}{{ counttwo | plus: '1' }}{% endcapture %}
+                {% if counttwo == '2' or counttwo == '3' %}
+                  <article class="blog-teaser small-12 large-6 columns featured-post">
+                    <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+                    <div class="post-info">
+                      <div class="byline">
+                        {% for person in site.data.team %}
+                          {% if post.author == person.name %}
+                            <a href="{{ site.baseurl }}/team/{{ person.name }}" class="team-photo">
+                              <img alt="{{ person.name }}" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
+                            </a>
+                            <div class="info">
+                              <a href="{{ site.baseurl }}/team/{{ person.name }}" class="team-name">{{ person.first_name }} {{ person.last_name }}</a>
+                              <p>{{ person.position }}</p>
+                            </div>
+                          {% endif %}
+                        {% endfor %}
+                      </div>
+                    </div>
+                  </article>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+
+        </div>
         <a class="button default" href="{{ site.baseurl }}/blog/">View All</a>
-      </div>
-    </div>
+      <!-- </div> -->
+    <!-- </div> -->
   </div>
 </section>  

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="content blog">
+<div class="content blog{% if page.featured == true %} featured-post{% endif %}">
 	<div class="blog-header">
     <div class="row">
     	<div class="large-8 columns large-centered">
@@ -29,13 +29,27 @@ layout: default
       	{% if page.tags.size > 0 %}
     			<div class="tags">
     				<span class="label">Filed Under:</span>
-    				{% for tag in page.tags %}
-    				  <a class="label secondary" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | url_escape }}/" rel="tag category" title="Search this site for other posts on {{ tag | escape }}">{{ tag }}</a>
-    				{% endfor %}
+            {{ page.tags | tag_links }}
     			</div>
     		{% endif %}
       	<p>{{ content }}</p>
-	
+	     
+            <div class="prev-next-posts">
+              {% if page.previous %}
+                <div class="previous">
+                  <h5>← Previous Post</h5>
+                  <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+                </div>
+              {% endif %}
+
+              {% if page.next %}
+                <div class="next">
+                  <h5>Next Post →</h5>
+                  <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+                </div>
+              {% endif %}
+            </div>
+
       	{% if page.comments or page.comments != false %}
       	<div class="comments">
       	  <div id="disqus_thread"></div>

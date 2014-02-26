@@ -179,4 +179,65 @@ section {
     position: fixed;
   }
 }
+.blog-post-teasers {
+  .blog-teaser {
+    overflow: hidden;
+    .title {
+      clear: both;
+    }
+    >p {
+      margin-bottom: 0;
+    }
+    .post-info {//centering w/o width: http://codepen.io/alexandredees/pen/ojaFr
+      float: right;
+      position: relative;
+      left: -50%;
+      text-align: left;
+      .byline {
+        width: auto;
+        overflow: hidden;
+        position: relative;
+        left: 50%;
+      }
+    }
+  }
+  &.top {
+    .blog-teaser {
+    }
+  }
+  &.bottom { 
+    border-top: solid 1px #ccc;
+    .blog-teaser {  
+      border-top: solid 1px #ccc;
+      &:first-child {
+        border-top: 0;
+      }
+      @media screen and (min-width: $tablet) {
+        border-left: solid 1px #ccc;
+        border-top: 0;
+        &:first-child {
+          border-left: 0;
+        }
+      }
+    }
+  }
+}
 
+.prev-next-posts {
+  @include clearfix();
+  margin-bottom: 1em;
+  .previous,
+  .next {
+    width: 45%;
+  }
+  h5 {
+    margin: 0;
+  }
+  .previous {
+    float: left;
+  }
+  .next {
+    float: right;
+    text-align: right;
+  }
+}
