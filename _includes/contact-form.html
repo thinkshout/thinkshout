@@ -22,16 +22,22 @@
   <textarea id="message" name='Message' maxlength='1000' aria-required="true" required ></textarea>
 
   <div id="newsletter">
-    <label for="newsletter">Sign up to our newsletter</label>
     <input id="newsletter" type='checkbox' name='Email Opt Out'/>
+    <label for="newsletter">Sign up for our newsletter</label>
   </div>
 
   <br>
-  <label for="captcha">Captcha</label>
-  <input id="captcha" type='text' maxlength='80' name='enterdigest' required />
-
-  <img id='imgid' src='https://crm.zoho.com/crm/CaptchaServlet?formId=UBDtz5xweYJyXABGh8UW-YBVarmp-Nq5&grpid=IssfzHtGCq1thYo@kRl79w$$'>
-  <a href='javascript:;' onclick='reloadImg()'>Reload</a></td>
+  <div class="captcha-wrapper">
+    <div class="captcha-input">
+      <label for="captcha">Captcha</label>
+      <input id="captcha" type='text' maxlength='80' name='enterdigest' required />
+    </div>
+    
+    <div class="captcha">
+      <img id='imgid' src='https://crm.zoho.com/crm/CaptchaServlet?formId=UBDtz5xweYJyXABGh8UW-YBVarmp-Nq5&grpid=IssfzHtGCq1thYo@kRl79w$$'>
+      <a href='javascript:;' onclick='reloadImg()'>Reload</a>
+    </div>
+  </div>
 
   <input type='submit' value='Submit' id="contact-submit"/>
 
