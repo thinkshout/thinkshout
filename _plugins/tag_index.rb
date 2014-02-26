@@ -75,20 +75,13 @@ module Jekyll
     # Returns string
     #
     def tag_links(tags)
-      #site = context.registers[:site]
-      dir = site.baseurl + (site.config['tag_dir'] || 'tag') + '/'
+      config = @context.registers[:site].config
+      dir = '/' + config['baseurl'] + (config['tag_dir'] || 'tag') + '/'
       tags = tags.sort!.map do |item|
-        "<a class='tag' href='#{dir}#{friendly_tag(item)}/'>#{item}</a>"
+        "<a class='label secondary' rel='tag category' title='View all posts tagged #{item}.' href='#{dir}#{friendly_tag(item)}/'>#{item}</a>"
       end
-      
-      case tags.length
-      when 0
-        ""
-      when 1
-        tags[0].to_s
-      else
-        "#{tags[0...-1].join(', ')}, #{tags[-1]}"
-      end
+
+      tags.join(' ')
     end
   end
 
@@ -96,6 +89,7 @@ end
 
 Liquid::Template.register_filter(Jekyll::TagLinks)
 
+# Helper to consistently format tags for use in paths.
 def friendly_tag(tag)
   return tag.downcase.sub(' ', '-')
 end
