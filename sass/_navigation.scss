@@ -5,7 +5,6 @@
   top: 0;
   z-index: 2000;
   margin-top: 25px;
-  width: 100%;
   @media screen and (max-width: $mobile) {
     margin-top: 0px;
     background: darken($brown, 25%);
