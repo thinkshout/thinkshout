@@ -35,7 +35,23 @@ layout: default
     			</div>
     		{% endif %}
       	<p>{{ content }}</p>
-	
+	     
+            <div class="prev-next-posts">
+              {% if page.previous %}
+                <div class="previous">
+                  <h5>← Previous Post</h5>
+                  <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+                </div>
+              {% endif %}
+
+              {% if page.next %}
+                <div class="next">
+                  <h5>Next Post →</h5>
+                  <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+                </div>
+              {% endif %}
+            </div>
+
       	{% if page.comments or page.comments != false %}
       	<div class="comments">
       	  <div id="disqus_thread"></div>

@@ -222,3 +222,22 @@ section {
     }
   }
 }
+
+.prev-next-posts {
+  @include clearfix();
+  margin-bottom: 1em;
+  .previous,
+  .next {
+    width: 45%;
+  }
+  h5 {
+    margin: 0;
+  }
+  .previous {
+    float: left;
+  }
+  .next {
+    float: right;
+    text-align: right;
+  }
+}
