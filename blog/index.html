@@ -24,7 +24,7 @@ keywords:
         <ul class="blog-list">
         {% for post in site.categories.blog %}
         <li>
-          <article>
+          <article{% if post.featured == true %} class="featured-post"{% endif %}>
             <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h2>
             <p class="content-text">{{post.short}}</p>
         		<div class="byline">

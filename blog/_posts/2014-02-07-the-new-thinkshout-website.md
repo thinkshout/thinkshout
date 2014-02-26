@@ -1,6 +1,7 @@
 ---
 layout: post
 published: true
+featured: true
 title: |
   The New ThinkShout.com: The Cobbler’s Kids Get Fancy New Shoes
 author: brett
