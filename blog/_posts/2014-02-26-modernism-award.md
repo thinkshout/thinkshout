@@ -19,7 +19,7 @@ Yesterday, we were excited to learn that the website, in particular its [“Cura
 
 Speaking for the award selection committee, James Polshek, Former Dean of the Architecture School at Columbia University, wrote: “Their use of innovative technology, preservation talent, historical knowledge and web design talent to attractively bring together a vast amount of information available to the general public is [to be] commended.”
 
-Of course, we do what we do because we are passionate about bringing the best of open source software and design to forward-thinking organizations. But it’s nice to be recognized from time to time, and we are excited to celebrate the great CRM integration work that we did on this project with Kell Partners, as well as the great design provided by our partners at YYES.
+Of course, we do what we do because we are passionate about bringing the best of open source software and design to forward-thinking organizations. But it’s nice to be recognized from time to time, and we are excited to celebrate the great CRM integration work that we did on this project with [Kell Partners](http://www.kellpartners.com/), as well as the great design provided by our partners at [YYES](http://www.yyes.org/).
 
 We invite you to read about [this project](http://thinkshout.com/work/la-conservancy/) in our portfolio. In building this website, we pioneered deep [integration between Drupal and Salesforce](http://thinkshout.com/blog/2014/01/tauno/rebuilding-los-angeles-conservancy-website-power-salesforce/). We also leveraged responsive design and online mapping features to tell beautiful, timeless stories of the history of L.A.’s architecture and the growth of its local communities.
 
