@@ -41,8 +41,9 @@ module Jekyll
       if site.layouts.key? 'tag_index'
         dir = site.config['tag_dir'] || 'tag'
         site.tags.keys.each do |tag|
-          write_tag_index(site, File.join(dir, tag), tag)
-          write_tag_feed(site, File.join(dir, tag), tag)
+          path = File.join(dir, friendly_tag(tag))
+          write_tag_index(site, path, tag)
+          write_tag_feed(site, path, tag)
         end
       end
     end
@@ -62,8 +63,9 @@ module Jekyll
     end
 
   end
+
   # Adds some extra filters used during the category creation process.
-  module Filters
+  module TagLinks
 
     # Outputs a list of categories as comma-separated <a> links. This is used
     # to output the category list for each post on a category page.
@@ -73,9 +75,10 @@ module Jekyll
     # Returns string
     #
     def tag_links(tags)
+      #site = context.registers[:site]
       dir = site.baseurl + (site.config['tag_dir'] || 'tag') + '/'
       tags = tags.sort!.map do |item|
-        "<a class='tag' href='#{dir}#{item}/'>#{item}</a>"
+        "<a class='tag' href='#{dir}#{friendly_tag(item)}/'>#{item}</a>"
       end
       
       case tags.length
@@ -88,4 +91,11 @@ module Jekyll
       end
     end
   end
+
+end
+
+Liquid::Template.register_filter(Jekyll::TagLinks)
+
+def friendly_tag(tag)
+  return tag.downcase.sub(' ', '_')
 end
