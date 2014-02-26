@@ -97,5 +97,5 @@ end
 Liquid::Template.register_filter(Jekyll::TagLinks)
 
 def friendly_tag(tag)
-  return tag.downcase.sub(' ', '_')
+  return tag.downcase.sub(' ', '-')
 end
