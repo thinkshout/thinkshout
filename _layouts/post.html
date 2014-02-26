@@ -29,9 +29,7 @@ layout: default
       	{% if page.tags.size > 0 %}
     			<div class="tags">
     				<span class="label">Filed Under:</span>
-    				{% for tag in page.tags %}
-    				  <a class="label secondary" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | url_escape }}/" rel="tag category" title="Search this site for other posts on {{ tag | escape }}">{{ tag }}</a>
-    				{% endfor %}
+            {{ page.tags | tag_links }}
     			</div>
     		{% endif %}
       	<p>{{ content }}</p>

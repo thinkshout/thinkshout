@@ -31,6 +31,10 @@ redirects:
   portfolio/portland-design-works: /work/ridepdw/
   portfolio/environmental-defense-fund: /work/edf/
   portfolio/salmon-project: /work/the-salmon-project/
+  blog/sean: /team/sean/
+  blog/lev: /team/lev/
+  blog/betsy: /team/betsy/
+  blog/category/drupal-planet: /blog/category/Drupal%20Planet/
   # Below are redirects for content that has not yet been ported.
   # portfolio/mailchimp:
   # portfolio/mission-investors-exchange
