@@ -24,21 +24,10 @@ keywords:
         <ul class="blog-list">
         {% for post in site.categories.blog %}
         <li>
-          <article{% if post.featured == true %} class="featured-post"{% endif %}>
-            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h2>
-            <p class="content-text">{{post.short}}</p>
-        		<div class="byline">
-        		  {% for person in site.data.team %}
-        		  {% if post.author == person.name %}
-        		  <a href="{{ site.baseurl }}/team/{{ person.name }}"><img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}"></a>
-        		  <div class="info">
-        		    <span class="team-name"><a href="{{ site.baseurl }}/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a></span> 
-        		    <p>{{ person.position }}</p>
-        		  </div>
-        		  {% endif %}
-        		  {% endfor %}
-        		</div>
-          </article>
+          {% if post.featured == true %}
+            {% assign class="featured-post "%}
+          {% endif %}
+          {% include blog_teaser.html class=class header="h2" short=true %}
         </li>
         {% endfor %}
         </ul>
