@@ -251,16 +251,19 @@ ul.client-list {
     width: 31.33336%;
     float: left;
     margin-right: 3%;
-    height: 75px;
+    height: 55px;
     text-align: center;
     @media screen and (max-width: $mobile) {
   	  width: 100%;
   	  margin-right: 0;
   	  height: auto;
   	}
+  &.first {
+    clear: both;
   }
-  li:nth-child(3n+3) {
+  &.third {
   	margin-right: 0;
+  }
   }
 }
 
