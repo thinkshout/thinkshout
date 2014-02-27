@@ -20,19 +20,20 @@ layout: default
       {% assign year = this_year %}
       <div class="row">
         <div class="large-8 columns large-centered">
-          <h3>{{ year }}</h3>
+          <h2>{{ year }}</h2>
         </div>
       </div>
       {% endunless %}
       <div class="row">
           <div class="large-8 columns large-centered">
               <article>
-                <div class="project-title"><h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a><h1></div>
+                <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a><h3>
                 <p class="content-text">{{post.short}}</p>
               </article>
           </div>
       </div>
       {% endfor %}
+    
       <p><a href="{{ site.baseurl }}/tag/{{ page.tag }}/rss.xml">Subscribe to posts tagged "{{ page.tag }}"</a></p>
   </section>
 </div>
