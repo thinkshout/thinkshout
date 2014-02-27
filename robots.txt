@@ -6,3 +6,4 @@ Disallow: /fonts/
 Disallow: /stylsheets/
 Disallow: /404.html
 Disallow: /thanks/
+Disallow: *rss.xml*
