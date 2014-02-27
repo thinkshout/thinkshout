@@ -1,6 +1,6 @@
 ---
 layout: project
-shortname: The Environmental Defense Fund
+shortname: Environmental Defense Fund
 title: The Environmental Defense Fund's Seafood Selector
 permalink: work/edf/
 images:
