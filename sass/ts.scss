@@ -267,10 +267,11 @@ ul.client-list {
 
 .project.teaser {
 	position: relative;
-	margin: 1em;
+	margin-bottom: 1em;
 	overflow: hidden;
+
 	.thumb {
-		padding: 0.5em;
+		padding: 0.25em;
 		margin: 0;
 		background: lighten($brown, 50%);
 		img {
@@ -279,38 +280,50 @@ ul.client-list {
 		}
 	}
 	article {
-		position: absolute;
-		bottom: 0.5em;
-		left: 0.5em;
-		width: 65%;
-		padding: 0 0;
-		text-align: center;
-		display: block;
-		background: rgba(255, 255, 255, 0.8);
-		z-index: 200;
-	  .text {
-	  	margin: 0 auto;
-	  	padding: 0.5em 0;
-	  	background: rgba(255, 255, 255, 0.8);
-	  }
-	  @media screen and (max-width: $mobile) {
-	  	position: relative;
-	  	bottom: 0;
-	  	left: 0;
-	  	width: 100%;
-	  }
-	}
-	&:hover {
-	  .thumb {
-	  	margin: 0;
-	  	img {
-	  		@media screen and (min-width: $tablet) {
-	  			-webkit-transform: scale(1.3);
-	  			transform: scale(1.3);
-	  		}
-	  	}
-	  }
-	}
+        text-align: center;
+      }
+    
+      &:hover {
+        .thumb {
+          margin: 0;
+          img {
+            @media screen and (min-width: $tablet) {
+              -webkit-transform: scale(1.3);
+              transform: scale(1.3);
+            }
+          }
+        }
+      }
+
+    @media only screen and (min-width : $mobile) {
+        width: 49%;
+        &.odd {float: left;}
+        &.even {float: right;}
+        article {
+  		position: absolute;
+  		bottom: 0.4em;
+  		left: 0.5em;
+  		width: 65%;
+  		padding: 0 0;
+  		display: block;
+  		background: rgba(255, 255, 255, 0.8);
+  		z-index: 200;
+
+        .text {
+          margin: 0 auto;
+          padding: 0.25em;
+          background: rgba(255, 255, 255, 0.8);
+        }
+      }
+    }
+    @media only screen and (min-width : $tablet)  {
+        article {
+          .text {
+            padding-top: .5em;
+            padding-bottom: .5em;
+          }
+        }
+    }
 }
 
 // 
