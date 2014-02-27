@@ -52,6 +52,11 @@ prose:
         field:
           element: "text"
           label: "Author short name"
+      - name: "featured"
+        field:
+          element: "checkbox"
+          label: "Featured"
+          help: "The top 3 featured posts will appear on the home page."
       - name: "tags"
         field:
           element: "multiselect"
