@@ -24,5 +24,6 @@ To get a post to show on the home page, add `featured: true` to the post's YAML 
 
 ## Deploying
 The site is hosted on Amazon S3 where we have 2 buckets, one for staging mapped to http://staging.thinkshout.com and one for production mapped to our apex domain, http://thinkshout.com. The S3 configuration for both these are in there respective s3_website*.yml configuration files.
+
 1. Staging deployment: `rake stage`.
 2. Production deployment: `rake publish`
