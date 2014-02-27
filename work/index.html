@@ -52,7 +52,7 @@ keywords:
       <div class="large-12 columns">        
         <ul class="client-list">
           {% for client in site.data.clients %}
-            <li>{{ client.name }}</li>
+            <li class="{% cycle 'first', 'second', 'third' %}">{{ client.name }}</li>
           {% endfor %}
         </ul>
       </div>
