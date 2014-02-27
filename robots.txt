@@ -4,3 +4,5 @@ Disallow: /images/
 Disallow: /javascripts/
 Disallow: /fonts/
 Disallow: /stylsheets/
+Disallow: /404.html
+Disallow: /thanks/
