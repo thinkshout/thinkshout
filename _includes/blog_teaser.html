@@ -1,0 +1,26 @@
+<article class="{{ include.class }}">
+  {% if include.header %}
+    {% assign header = include.header %}
+  {% else %}
+    {% assign header = 'h2' %}
+  {% endif %}
+  <{{ header }}><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></{{ header }}>
+  {% if include.short %}
+    <p>{{ post.short }}</p>
+  {% endif %}
+  <div class="post-info">
+    <div class="byline">
+      {% for person in site.data.team %}
+      {% if post.author == person.name %}
+      <a href="{{ site.baseurl }}/team/{{ person.name }}" class="team-photo">
+        <img alt="{{ person.name }}" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
+      </a>
+      <div class="info">
+        <a href="{{ site.baseurl }}/team/{{ person.name }}" class="team-name">{{ person.first_name }} {{ person.last_name }}</a>
+        <p>{{ person.position }}</p>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</article>
