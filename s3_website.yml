@@ -1,9 +1,13 @@
 ---
-# Credentials and bucket name
-s3_id: AKIAIMMMSPZ2A47JFUBQ
-s3_secret: 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
+# Amazon 3 id and secret are stored in an environment variable to prevent
+# publication.
+s3_id: <%= ENV['S3_ID'] %>
+s3_secret: <%= ENV['S3_SECRET'] %>
+
+# Amazon s3 bucket name.
 s3_bucket: thinkshout.com
 
+# Concurrency level for uploads. Decrease if errors are occurring.
 concurrency_level: 5
 
 ## Cloud front CDN
