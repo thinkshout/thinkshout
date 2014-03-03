@@ -26,7 +26,7 @@ gzip:
 # Configure redirects
 redirects:
   blog/feed: /rss.xml
-  taxonomy/term/21/all/feed: /tag/drupal%20planet/rss.xml
+  taxonomy/term/21/all/feed: /blog/category/drupal-planet/rss.xml
   portfolio: /work/
   contact: /
   home: /
@@ -38,7 +38,7 @@ redirects:
   blog/sean: /team/sean/
   blog/lev: /team/lev/
   blog/betsy: /team/betsy/
-  blog/category/drupal-planet: /blog/category/Drupal%20Planet/
+  blog/category/drupal-planet: /blog/category/drupal-planet/
   # Below are redirects for content that has not yet been ported.
   # portfolio/mailchimp:
   # portfolio/mission-investors-exchange
