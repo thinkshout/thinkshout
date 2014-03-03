@@ -81,6 +81,12 @@ prose:
         field:
           element: "text"
           label: "Author short name"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          help: "Enter one or more tags to categorize your post, E.g., Drupal, nonprofit, RedHen."
+          alterable: true
 ```
 
 Yields this form:
