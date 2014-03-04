@@ -48,5 +48,6 @@ routing_rules:
   - condition:
       key_prefix_equals: sites/default/files/
     redirect:
+      host_name: stage.thinkshout.com
       replace_key_prefix_with: assets/images/old_site/
       http_redirect_code: 301
