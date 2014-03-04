@@ -91,7 +91,7 @@ prose:
 
 Yields this form:
 
-![prose metadata](/assets/images/blog/prose-metadata.png)
+![prose metadata]({{ site.url }}/assets/images/blog/prose-metadata.png)
 
 Aside from Prose.io, content can, of course, be managed the old fashioned way by cloning, adding, and pushing files via git. In addition, content be managed directly on GitHub which recently added file creation and has a nice editor and preview feature for markdown and html files.
 
