@@ -1,5 +1,5 @@
 ---
-title: Announcing the release of the PHP Wrapper for iATS Payments
+title: Announcing the Release of the PHP Wrapper for iATS Payments
 layout: post
 author: sean
 featured: true
