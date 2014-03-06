@@ -86,7 +86,7 @@ prose:
         field:
           element: "multiselect"
           label: "Tags"
-          help: "Enter one or more tags to categorize your post, E.g., Drupal, nonprofit, RedHen."
+          help: "Enter one or more tags ..."
           alterable: true
 ```
 
