@@ -25,7 +25,7 @@ expertise: |
 components:
   - title: Discovery & Information Architecture
     column1: |
-      A number of conservation organizations have released web-based tools for tracking fishery improvement projects. In designing our web application, we surveyed these tools and interviewed a variety of fishery stakeholders to develop a mobile-friendly web application that emphasizes usability and that presents fisheries data more intuitively through interactive charts and online maps.
+      A number of conservation organizations have released web-based tools for tracking fishery improvement projects. In designing our web application, we surveyed these tools and interviewed a variety of fishery stakeholders to develop a mobile-friendly web application that emphasizes usability and that presents fisheries data more intuitively.
     column2: work/fip/fip-discovery.jpg
     background: 
   - title: Implementation

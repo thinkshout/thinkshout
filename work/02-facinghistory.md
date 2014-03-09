@@ -13,7 +13,7 @@ breakpoints:
   tablet: work/facinghistory/facinghistory-tablet.png
   mobile: work/facinghistory/facinghistory-mobile.png
 client: |
-  Facing History and Ourselves shares methodologies and resources that help educators teach equality and tolerance. Their online teaching library and event registration tools are critical to growing their global reach. We assisted them in a major Drupal redesign, as well as the implementation of the most sophisticated Salesforce integration we have seen.
+  Facing History and Ourselves shares methodologies and resources that help educators teach equality and tolerance to middle school students. Their online teaching library and event registration tools are critical to growing their global reach. We assisted them in a major Drupal redesign, as well as the implementation of the most sophisticated Salesforce integration we have seen.
 projecturl: https://www.facinghistory.org/
 expertise: |
   - Drupal development
@@ -23,7 +23,7 @@ expertise: |
 components:
   - title: Discovery & Technical Architecture
     column1: |
-      Before engaging with us, Facing History had worked with a number of creative partners and technology providers. Our engineering recommendations began with a thorough review and prioritization of features across many hundreds of pages of documentation. We consolidated this information to create a responsively-designed publishing platform that leverages a "modular" (or resuable) content model.
+      Before engaging with us, Facing History had worked with a number of creative partners and technology providers. Our engineering recommendations began with a thorough review and prioritization of features across many hundreds of pages of documentation. We consolidated this information to map out the development of a responsively-designed publishing platform that leverages a "modular" (or resuable) content model.
     column2: work/facinghistory/facinghistory-discovery.jpg
     background: 
   - title: Salesforce Integration
