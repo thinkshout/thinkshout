@@ -618,8 +618,8 @@ ul.client-list {
     .arrow {
     	font-size: 6em;
     	color: $brown;
-    	line-height: 0.35em;
-    }
+    	margin-top: -25px;
+	  }
     &:hover {	
     	background: $orange;
     }
@@ -642,10 +642,11 @@ ul.client-list {
   	.next {
   		width: 100%;
   		float: none;
+  		padding: 1em;
   		.arrow {
-  			float: none;
   			width: 100%;
   			text-align: center;
+  			line-height: 1em;
   		}
   	}
   	.previous {
