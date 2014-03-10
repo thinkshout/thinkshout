@@ -79,7 +79,7 @@ module Jekyll
       config = @context.registers[:site].config
       dir = '/' + config['baseurl'] + (config['tag_dir'] || 'tag') + '/'
       tags = tags.sort!.map do |item|
-        "<a class='label secondary' rel='tag category' title='View all posts tagged #{item}.' href='#{dir}#{friendly_tag(item)}/'>#{item}</a>"
+        "<a class='tag' rel='tag category' title='View all posts tagged #{item}.' href='#{dir}#{friendly_tag(item)}/'>#{item}</a> ,"
       end
 
       tags.join(' ')
