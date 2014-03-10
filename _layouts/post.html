@@ -4,7 +4,7 @@ layout: default
 <div class="content blog{% if page.featured == true %} featured-post{% endif %}">
 	<div class="blog-header">
     <div class="row">
-    	<div class="large-8 columns large-centered">
+    	<div class="large-9 columns large-centered">
     		<div class="leadin">
     			<p class="post-date">Published {{ page.date | date: '%B %d, %Y' }}</p>
     		  <h1 class="post-title">{{ page.title }}</h1>
@@ -25,30 +25,15 @@ layout: default
   </div>
   <section class="main">
     <div class="row">
-      <div class="large-8 columns large-centered">
-      	{% if page.tags.size > 0 %}
+      <div class="large-9 columns large-centered">
+      	<p>{{ content }}</p>
+
+	      {% if page.tags.size > 0 %}
     			<div class="tags">
-    				<span class="label">Filed Under:</span>
+    				<span class="tag-label icon-bookmark-empty">Filed Under:</span>
             {{ page.tags | tag_links }}
     			</div>
     		{% endif %}
-      	<p>{{ content }}</p>
-	     
-            <div class="prev-next-posts">
-              {% if page.previous %}
-                <div class="previous">
-                  <h5>← Previous Post</h5>
-                  <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
-                </div>
-              {% endif %}
-
-              {% if page.next %}
-                <div class="next">
-                  <h5>Next Post →</h5>
-                  <a href="{{ page.next.url }}">{{ page.next.title }}</a>
-                </div>
-              {% endif %}
-            </div>
 
       	{% if page.comments or page.comments != false %}
       	<div class="comments">
@@ -71,6 +56,19 @@ layout: default
       </div>
     </div>
   </section>
+  <div class="pagination">
+    {% if page.previous %}
+      <div class="previous">
+        <a href="{{ page.previous.url }}"><span class="arrow icon-angle-left"></span> {{ page.previous.title }}</a>
+      </div>
+    {% endif %}
+
+    {% if page.next %}
+      <div class="next">
+        <a href="{{ page.next.url }}"><span class="arrow icon-angle-right"></span> {{ page.next.title }}</a>
+      </div>
+    {% endif %}
+  </div>
 </div>
 
 

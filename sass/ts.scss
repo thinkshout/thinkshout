@@ -520,8 +520,18 @@ ul.client-list {
 	}
 
   .tags {
+  	background: lighten(#d5cec3,15%);
+  	padding: 1.5em 1em;
+  	margin: 0 0 2.5em 0;
+  	font-size: 0.875em;
+  	.tag-label {
+  		color: $brown;
+  	}
+  	.tag-label:before {
+  		margin-right: 5px;
+  	}
   	a {
-  		text-decoration: underline;
+  		border-bottom: 1px dotted $orange;
   	}
   }
   .leadin {
@@ -584,39 +594,64 @@ ul.client-list {
   }
 }
 
-.paginator {
-  .blog-nav {
+.pagination {
+	background: darken($brown, 10%);
+	margin: 2em 0 0;
+	overflow: hidden;
+  .previous,
+  .next {
     width: 50%;
     float: left;
     text-align: center;
     position: relative;
-    .teaser {
-      position: absolute;
-      top: 1em;
-      width: 60%;
-      left: 20%;
-      z-index: 100;
-      h5 {
-        color: #d2d2d2;
-        font-size: 1.125em;
-        border-bottom: 1px solid #222;
-      }
+    padding: 4em 2em;
+    background: darken($brown, 10%);
+  	font-size: 1.5em;
+  	font-weight: 600;
+  	min-height: 264px;
+  	@include transition(background, 0.6s);
+  	a {
+  		color: #FFF;
+  		line-height: 1.5em;
+  		display: block;
+  	}
+    .arrow {
+    	font-size: 6em;
+    	color: $brown;
+    	line-height: 0.35em;
     }
-    .mute {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: rgba(0,0,0,0.5);
-      z-index: 10;
-      &:hover {
-        background: rgba(0,0,0,0);
-      }
+    &:hover {	
+    	background: $orange;
     }
   }
-  .blog-nav.next-post {
-    border-left: 1px dotted #FFF;
+  .previous {
+  	border-right: 1px solid #FFF;
+  	.arrow {
+  	  float: left;
+  	  margin-right: 0.25em;
+    }
+  }
+  .next {
+  	.arrow {
+  	  float: right;
+  	  margin-left: 0.25em;
+    }
+  }
+  @media screen and (max-width: $tablet) {
+  	.previous,
+  	.next {
+  		width: 100%;
+  		float: none;
+  		.arrow {
+  			float: none;
+  			width: 100%;
+  			text-align: center;
+  		}
+  	}
+  	.previous {
+  		border-bottom: 1px solid #FFF;
+  		border-right: 0;
+  	}
   }
 }
 
