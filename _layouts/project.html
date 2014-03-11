@@ -53,10 +53,10 @@ layout: default
             {% endif %}
             {% if component.column2 == nil and component.background == nil %}
               <div class="large-10 columns large-centered">
-                <h2>{{ component.title != nil }}</h2>
                 {% if component.banner %}
               	  <img src="{{ site.baseurl }}/assets/images/{{ component.banner }}">
               	{% endif %}
+              	<h2>{{ component.title != nil }}</h2>
                 {% if component.column1 %}
                   <p>{{ component.column1 | markdownify }}</p>
                 {% endif %}

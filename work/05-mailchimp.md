@@ -21,7 +21,7 @@ expertise: |
 
 components:
   - title: History
-    banner: 
+    banner: work/mailchimp/mailchimp-integration.jpg 
     column1: |
       In 2008, ThinkShout's co-founder, Lev Tsypin, released the first version of the MailChimp module for Drupal 5. He'd been working on a side project and needed newsletter integration. MailChimp was a natural choice, given the strength of its APIs (i.e, the programming interface for pushing and pulling data to and from the service).
     column2:
