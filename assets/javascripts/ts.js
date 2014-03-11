@@ -70,4 +70,8 @@
     }
   });
 
+  $("img.lazy").lazyload({
+    effect : "fadeIn"
+  });
+
 })(jQuery);

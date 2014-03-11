@@ -49,12 +49,12 @@ layout: default
       <section class="{{thecycle}}">
           <div class="row">
             {% if component.background %}
-              <div class="section-bg"><img src="{{ site.baseurl }}/assets/images/{{ component.background }}"></div>
+              <div class="section-bg"><img class="lazy" data-original="{{ site.baseurl }}/assets/images/{{ component.background }}" width="1000" height="620"></div>
             {% endif %}
             {% if component.column2 == nil and component.background == nil %}
               <div class="large-10 columns large-centered">
                 {% if component.banner %}
-              	  <img src="{{ site.baseurl }}/assets/images/{{ component.banner }}">
+              	  <img class="lazy" data-original="{{ site.baseurl }}/assets/images/{{ component.banner }}" width="800" height="400">
               	{% endif %}
               	<h2>{{ component.title != nil }}</h2>
                 {% if component.column1 %}
@@ -70,7 +70,7 @@ layout: default
               </div>
               <div class="large-6 columns col2">
                 {% if component.column2 != nil %}
-                  <img src="{{ site.baseurl }}/assets/images/{{ component.column2 }}">
+                  <img class="lazy" data-original="{{ site.baseurl }}/assets/images/{{ component.column2 }}" width="470" height="470">
                 {% endif %}
               </div>
             {% endif %}
@@ -124,7 +124,7 @@ layout: default
         </div>
       </div>
       {% if page.results.image %}
-        <img src="{{ site.baseurl }}/assets/images/{{ page.results.image }}">
+        <img class="lazy" data-original="{{ site.baseurl }}/assets/images/{{ page.results.image }}" width="1440" height="975">
       {% endif %}
       <div class="row">
         <a class="button overlay" href="{{ page.projecturl }}">Launch Website</a>

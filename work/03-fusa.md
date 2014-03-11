@@ -36,6 +36,7 @@ components:
 results:
   stats:
   narrative: The new Families USA website launched at the beginning of March 2014. Within the first few weeks, the organization quickly noticed a boost in website participation among its target audiences and stakeholders. Capturing the attention of website visitors seeking very specific information on the health care debate, the site encourages them to take action and engage through the organization's online advocacy tools.
+  image: work/fusa/fusa-results.jpg
 featured: true
 published: true
 ---
