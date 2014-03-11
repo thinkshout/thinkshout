@@ -77,6 +77,15 @@ layout: default
           <ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1">
             {% for stats in page.results.stats %}
             {% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
+            	{% if stats.type == "thousands" %}
+            	<li>
+                <div class="stat {{ stats.type }}">
+                  <p class="figure thousands counter data-total-{{ thecycle }}">0</p>
+                  <p class="holder data-totalholder-{{ thecycle }}">{{ stats.number | escape }}</p>
+                </div>
+                <p class="key">{{ stats.description}}</p>
+              </li>
+              {% else %}
               <li>
                 <div class="stat {{ stats.type }}">
                   <p class="figure counter data-total-{{ thecycle }}">0</p>
@@ -84,6 +93,7 @@ layout: default
                 </div>
                 <p class="key">{{ stats.description}}</p>
               </li>
+              {% endif %}
             {% endfor %}
           </ul>
           <a class="button overlay" href="{{ page.projecturl }}">Launch Website</a>

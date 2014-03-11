@@ -41,9 +41,9 @@ results:
     - number: 32
       description: Fisheries tracked
       type:
-    - number: 455,000
+    - number: 455
       description: Metric tons of salmon reported annually
-      type:
+      type: thousands
   narrative:
 featured: true
 published: true

@@ -777,9 +777,12 @@ section.results {
         font-weight: 600;
         color: $orange;
       }
+      .figure.thousands:after {
+      	content: "k";
+      }
     }
-    .stat.percent {
-    	background: url('../images/percent.jpg') center center no-repeat;
+    .stat.percent .figure:after  {
+    	content: "%";
     }
     .key {
       font-size: 1.2em;
