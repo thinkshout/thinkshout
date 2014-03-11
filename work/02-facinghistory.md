@@ -34,6 +34,7 @@ components:
 results:
   stats:
   narrative: Having invested over 3,000 hours in the initial website relaunch, we have provided Facing History with a "best of class" solution that will scale with the organization over time.
+  image: work/facinghistory/facinghistory-results.jpg
 featured: true
 published: true
 ---
