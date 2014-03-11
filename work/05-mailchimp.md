@@ -5,7 +5,7 @@ title: The MailChimp Module for Drupal
 permalink: work/mailchimp/
 images:
   card: work/mailchimp/mailchimp-card.jpg
-  hero: work/mailchimp/lac-iphone-in-environment.jpg
+  hero: work/mailchimp/mailchimp-hero.jpg
 breakpoints:
   desktop: 
   tablet: 
@@ -49,7 +49,7 @@ results:
       type: percent
   narrative:
 featured: true
-published: false
+published: true
 ---
 
 

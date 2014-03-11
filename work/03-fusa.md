@@ -5,13 +5,13 @@ title: Revitalizing the Voice for Health Care Consumers
 permalink: work/families-usa/
 images:
   card: work/fusa/fusa-card.jpg
-  hero: work/fusa/facinghistory-hero.jpg
+  hero: work/fusa/fusa-hero.jpg
   small:
   med: 
 breakpoints:
-  desktop: work/fusa/fusa-desktop.png
-  tablet: work/fusa/fusa-tablet.png
-  mobile: work/fusa/fusa-mobile.png
+  desktop: work/fusa/fusa-desktop.jpg
+  tablet: work/fusa/fusa-tablet.jpg
+  mobile: work/fusa/fusa-mobile.jpg
 client: |
   Families USA helps citizens understand health care options and get their families insured. The organization came to us looking for new website that would serve as the go-to resource for people seeking the most up-to-date information regarding the health care debate and coverage options. Our graphic redesign shifted the website's visual focus from beltway politics to the everyday people needing insurance. We integrated their website with Salsa and Salesforce to engage citizen advocates passionate about affordable and accessible health care.
 projecturl: http://familiesusa.org/

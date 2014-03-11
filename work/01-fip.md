@@ -4,8 +4,8 @@ shortname: Wild Salmon Center
 title: Tracking the Health of Salmon Fisheries
 permalink: work/fip-tracker/
 images:
-  card: work/fip/fip-card.png
-  hero: work/fip/fip-hero.png
+  card: work/fip/fip-card.jpg
+  hero: work/fip/fip-hero.jpg
   small:
   med: 
 breakpoints:
