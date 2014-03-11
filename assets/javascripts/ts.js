@@ -45,9 +45,10 @@
   };
 
   $('section.results').waypoint(function (direction) {
+  	  if (direction == "down")
         for (var i = 1; i < 4; i++) {
           var total = $('.data-totalholder-' + i).html();
-          $('.data-total-' + i).delay(500).countTo({
+          $('.data-total-' + i).countTo({
             from: 0,
             to: total,
             speed: 500,
@@ -57,7 +58,7 @@
       },
       {
         triggerOnce: true,
-        offset: 800
+        offset: '90%'
       });
 
   // Hide the logo and break crumb below the marquee
