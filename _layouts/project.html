@@ -51,17 +51,29 @@ layout: default
             {% if component.background %}
               <div class="section-bg"><img src="{{ site.baseurl }}/assets/images/{{ component.background }}"></div>
             {% endif %}
-            <div class="large-5 columns col1">
-              <h2>{{ component.title != nil }}</h2>
-              {% if component.column1 %}
-                <p>{{ component.column1 | markdownify }}</p>
-              {% endif %}
-            </div>
-            <div class="large-6 columns col2">
-              {% if component.column2 != nil %}
-                <img src="{{ site.baseurl }}/assets/images/{{ component.column2 }}">
-              {% endif %}
-            </div>
+            {% if component.column2 == nil and component.background == nil %}
+              <div class="large-10 columns large-centered">
+                <h2>{{ component.title != nil }}</h2>
+                {% if component.banner %}
+              	  <img src="{{ site.baseurl }}/assets/images/{{ component.banner }}">
+              	{% endif %}
+                {% if component.column1 %}
+                  <p>{{ component.column1 | markdownify }}</p>
+                {% endif %}
+              </div>
+            {% else %}
+              <div class="large-5 columns col1">
+                <h2>{{ component.title != nil }}</h2>
+                {% if component.column1 %}
+                  <p>{{ component.column1 | markdownify }}</p>
+                {% endif %}
+              </div>
+              <div class="large-6 columns col2">
+                {% if component.column2 != nil %}
+                  <img src="{{ site.baseurl }}/assets/images/{{ component.column2 }}">
+                {% endif %}
+              </div>
+            {% endif %}
           </div>
       </section>
     {% endfor %}

@@ -769,11 +769,11 @@ section.results {
       height: 250px;
       width: 250px;
       margin: 0 auto 1em;
-      padding: 3em 0;
+      padding: 4em 0;
       @include border-radius(50%);
       border: 6px solid $orange;
       .figure {
-        font-size: 5em;
+        font-size: 4em;
         font-weight: 600;
         color: $orange;
       }
