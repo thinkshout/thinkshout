@@ -23,7 +23,7 @@ expertise: |
 components:
   - title: Discovery
     column1: |
-      Through the discovery process, we learned that public policy makers were a key target audience, and that they needed to be able to quickly access and digest a large volume content developed by Families USA's expert staff. This led us to the development of a comprehensive tagging system and robust research library interface.
+      Through the discovery process, we learned that public policy makers were a key target audience, and that they needed to be able to quickly access and digest a large volume of content developed by Families USA's expert staff. This led us to the development of a comprehensive tagging system and robust research library interface.
       
       While the website needed to be a powerful research tool, we also encouraged Families USA to invest in a compelling design that would reflect the citizens at the heart of the health care debate.
     column2: work/fusa/fusa-discovery.jpg
