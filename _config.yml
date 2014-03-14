@@ -42,6 +42,10 @@ prose:
   media: "assets/images/blog"
   metadata:
     blog/_posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
       - name: "layout"
         field:
           element: "hidden"
