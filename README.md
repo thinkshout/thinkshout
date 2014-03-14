@@ -33,10 +33,36 @@ Something along the lines of the following should be used by developers working 
 12. To launch the new feature, `git checkout live && git merge master`. Then publish, `rake publish`.
 
 ## Content editing
-Blog posts should be managed via [prose.io](http://prose.io/). Visit the website and, when prompted, authorize via GitHub. Select the [thinkshout/thinkshout](http://prose.io/#thinkshout/thinkshout) project. Prose will only make the blog post folder accessible. You can create new posts by clicking the large green "new file" button at the top of the page. Existing posts can be edited by clicking on the file in the list. When editing or creating a post, the metadata button on the right side will load with the available variables that can be filled in, including teaser, author name, and tags.
+Blog posts should be managed via [prose.io](http://prose.io/). Visit the website and, when prompted, authorize via GitHub. Select the [thinkshout/thinkshout](http://prose.io/#thinkshout/thinkshout) project. Prose will only make the blog post folder accessible. You can create new posts by clicking the large green "new file" button at the top of the page (see below "New Posts section"). Existing posts can be edited by clicking on the file in the list. When editing or creating a post, the metadata button on the right side will load with the available variables that can be filled in, including teaser, author name, and tags.
+
+### New Posts
+It is important that the file name of the post uses the following format: ```blog/_posts/[date]*.md```
+
+Where "```*```" is the title of your post (with no spaces - use dashes instead).
+
+For example the default ```blog/_posts/2014-03-14-your-filename.md``` file name could be changed to ```blog/_posts/2014-03-14-my-new-blog-post.md```.
+
+This is necessary because Jekyll uses this field value to generate the Markdown file that will be complied into your blog post, which must be in the ```blog/_posts``` directory and be named with a leading date.
+
+#### To specify a post title
+Head to the metadata tab using the button on the right and specify your title in the "Raw Metadata" field as follows:
+
+```title: "My New Blog Post"```
+
+If you do not specify a title, Jekyll will generate one for you based on the name of your file by replacing dashes with spaces and capitalizing the first letter of each word.
+
+#### Other metadata options (and what they do)
+* Short teaser - text that will display below the linked title in post teaser  (used, for example, on the /blog page)
+* Author short name - makes your picture, name, and job title show up in the post teaser.
+* Featured - check to get a post to show on the home page.
+* Tags - ??? can't figure out how to add existing tags to new posts that don't have any - old posts have select list options, but that's because there are tags already defined in their front matter ////Alex
+* Raw Metadata - any other YAML front matter you'd like to include (case sensitive).
 
 ### Home Page Posts
 To get a post to show on the home page, add `featured: true` to the post's YAML front matter. This will also add a class of `featured-post` across the site for styling convenience.
+
+### Preview your post
+Click on the preview (eye) button on the right hand side. If you don't see images, etc. that you're referencing in your Markdown it's because they're not pushed to the repo (master branch).
 
 ## Deploying
 The site is hosted on Amazon S3 where we have 2 buckets, one for staging mapped to http://staging.thinkshout.com and one for production mapped to our apex domain, http://thinkshout.com. The S3 configuration for both these are in there respective s3_website*.yml configuration files. In order to deploy to either environment, you will need to have environment variables set for the S3 id and secret.
