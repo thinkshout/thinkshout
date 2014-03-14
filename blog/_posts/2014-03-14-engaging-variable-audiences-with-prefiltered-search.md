@@ -3,9 +3,11 @@ layout: post
 published: false
 featured: false
 short: null
+author: alex
+title: "Engaging variable audiences with pre-filtered search"
 ---
 
-<img src="http://familiesusa.org/profiles/families_usa/themes/zen_famusa/logo.png" href="http://www.familiesusa.org" style="margin-bottom: 20px" /><br>
+<img href="http://www.familiesusa.org" src="http://familiesusa.org/sites/default/files/hero_images/FamiliesUSA-share-icon.png"  style="float: right; margin: 20px" /><br>
 [Families USA](http://www.familiesusa.org) is a nonprofit organization that seeks to be the go-to resource for timely information on pressing health care related issues.
 
 Historical expertise and strong results in consumer health care advocacy have given Families USA a solid reputation and credibility with Policy-makers, the Media, and Partnering Organizations. However, as the dialog surrounding healthcare advocacy continues to expand, Families USA needed to be able to effectively communicate its brand and credibility to a new, broader audience...and this is where we came in.
