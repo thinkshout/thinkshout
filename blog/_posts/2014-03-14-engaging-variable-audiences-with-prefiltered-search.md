@@ -7,13 +7,14 @@ author: alex
 title: "Engaging variable audiences with pre-filtered search"
 ---
 
-<img href="http://www.familiesusa.org" src="http://familiesusa.org/sites/default/files/hero_images/FamiliesUSA-share-icon.png"  style="float: left; margin: 20px" /><br>
+<img href="http://www.familiesusa.org" src="http://familiesusa.org/sites/default/files/hero_images/FamiliesUSA-share-icon.png"  style="float: right; margin: 20px" /><br>
 [Families USA](http://www.familiesusa.org) is a nonprofit organization that seeks to be the go-to resource for timely information on pressing health care related issues.
 
 Historical expertise and strong results in consumer health care advocacy have given Families USA a solid reputation and credibility with Policy-makers, the Media, and Partnering Organizations. However, as the dialog surrounding healthcare advocacy continues to expand, Families USA needed to be able to effectively communicate its brand and credibility to a new, broader audience...and this is where we came in.
 
 ##Engaging variable audiences - complexity cloaked in simplicity##
 We had the challenge of engaging two very different sets of constituents:
+
 * **General public**: users with less topical knowledge that find Families USA because of a curiosity about an issue and a desire to learn more.
 * **Policy Makers, the Media, & Partnering Organizations**: users with high levels of topic knowledge and inﬂuence look to Families USA for information to support their work.
 
