@@ -6,7 +6,9 @@
   {% endif %}
   <{{ header }}><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></{{ header }}>
   {% if include.short %}
-    <p>{{ post.short | markdownify }}</p>
+    {% if post.short %}
+      <p>{{ post.short | markdownify }}</p>
+    {% endif %}
   {% endif %}
   <div class="post-info">
     <div class="byline">
