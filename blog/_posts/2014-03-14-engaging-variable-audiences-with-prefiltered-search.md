@@ -2,7 +2,7 @@
 layout: post
 published: true
 featured: true
-short: "How we used pre-filtered search to engage everyone from the general public to policy making experts."
+short: "How we used pre-filtered search on Families USA's site to engage everyone from the general public to policy making experts."
 author: alex
 title: "Engaging variable audiences with pre-filtered search"
 ---
