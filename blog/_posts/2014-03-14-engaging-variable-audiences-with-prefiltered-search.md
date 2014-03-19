@@ -1,8 +1,8 @@
 ---
 layout: post
-published: false
-featured: false
-short: null
+published: true
+featured: true
+short: "How we used pre-filtered search to engage everyone from the general public to policy making experts."
 author: alex
 title: "Engaging variable audiences with pre-filtered search"
 ---
