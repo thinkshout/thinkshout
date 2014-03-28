@@ -2,7 +2,7 @@
 layout: post
 published: false
 featured: false
-short: null
+short: "Introducing Bean Entity View - a bean type plugin for rendering entities"
 author: tauno
 ---
 
@@ -17,7 +17,7 @@ This freshly minted module builds on [Bean](https://drupal.org/project/bean) to 
 2. Which view mode of that entity to render 
 3. Which specific entity to render
 
-![Bean Entity View creation form screenshot](/assets/images/blog/bean_entity_view-screenshot.png)
+![Bean entity view creation screenshot](/assets/images/blog/bean_entity_view-screenshot.png)
 
 The first two options are straight forward, while the third option provides two main choices: enter a specific entity id or leave the field blank to attempt to render the entity that the current page is displaying. To help the plugin determine which entity you are currently viewing, you may set which position in the url the entity id should be located in. For nodes (node/1234) the position would be 1, while for RedHen contacts (redhen/contact/1234) the position would be 2.
 
