@@ -1,9 +1,13 @@
 ---
 layout: post
-published: false
-featured: false
+published: true
+featured: true
 short: "Introducing Bean Entity View - a bean type plugin for rendering entities"
 author: tauno
+tags:
+- Drupal Planet
+- Drupal Give
+- modules
 ---
 
 ## Slice and dice entities with views modes and Bean Entity View
@@ -13,6 +17,7 @@ Want to use a node as a block without creating a View or a block in custom code?
 ### Introducing [Bean Entity View](https://drupal.org/project/bean_entity_view)!
 
 This freshly minted module builds on [Bean](https://drupal.org/project/bean) to provide a bean type for displaying an entity using a particular view mode. To start, there are only three basic configuration options:
+
 1. Which type of entity to display
 2. Which view mode of that entity to render 
 3. Which specific entity to render
