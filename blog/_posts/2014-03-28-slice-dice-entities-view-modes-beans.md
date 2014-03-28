@@ -2,7 +2,7 @@
 layout: post
 published: false
 featured: false
-short: null
+short: "Introducing Bean Entity View - a bean type plugin for rendering entities"
 author: tauno
 ---
 
