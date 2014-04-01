@@ -2,7 +2,7 @@
 layout: post
 published: false
 featured: false
-short: "Learning a new technology can be incredibly intimidating, especially if you’re going at it alone. There’s great comfort in knowing that you’re not the only one with those particular questions or having this recurring, frustrating problem. Stranding yourself on a technological island is so unnecessary, especially given how accessible learning resources are these days."
+short: "Learning a new technology can be incredibly intimidating, especially if you’re going at it alone. There’s great comfort in knowing that you’re not the only one with those particular questions or having this recurring, frustrating problem."
 author: stephanie
 tags: 
   - NTEN
@@ -26,13 +26,11 @@ My experience with Drupal Day left me with a few key takeaways for those looking
 
 **1. The Drupal community really is awesome.**
 
-
-
-[Drupal.org](http://drupal.org) is only the beginning, but it’s a fantastic beginning full of answers. There are forums, an archive of resources, and even a live chat if that’s more your speed. There’s a wealth of information available to you online, all of it curated by the people that know and love Drupal best. This community isn’t purely digital, either. If you live in a large city, chances are there’s a Drupal meetup near you. If you’d prefer to meet face to face, you can, whether it’s through a local event, full-blown [DrupalCon](https://austin2014.drupal.org/), or nonprofit summits at NYC Camp, and BADCamp.  You can also access paid training on BuildAModule, but the best part is that you can meet Christ Shattuck, the BuildAModule instructor, in person at a ton of these events. You’re going to start recognizing people quickly, and it’s going to be more helpful than you might think.
+[Drupal.org](http://drupal.org) is only the beginning, but it’s a fantastic beginning full of answers. There are forums, an archive of resources, and even a live chat if that’s more your speed. There’s a wealth of information available to you online, all of it curated by the people that know and love Drupal best. This community isn’t purely digital, either. If you live in a large city, chances are there’s a Drupal meetup near you. If you’d prefer to meet face to face, you can, whether it’s through a local event, full-blown [DrupalCon](https://austin2014.drupal.org/), or nonprofit summits at [NYC Camp](http://www.nyccamp.org/), and [BADCamp](http://2014.badcamp.net/).  You can also access paid training on [BuildAModule](http://buildamodule.com/), but the best part is that you can meet Christ Shattuck, the BuildAModule instructor, in person at a ton of these events. You’re going to start recognizing people quickly, and it’s going to be more helpful than you might think.
 
 **2. Learn from others’ stories and share your own.**
 
-One of the draws of Drupal Day is that it’s a great opportunity to hear from nonprofit decision makers about their experiences with Drupal. This year, every single one of our speakers represented a nonprofit with a successful Drupal story and each came from different technological backgrounds. We chose speakers that we believed had great, impactful stories that Drupal Day attendees could learn from. This year, Erin Harrington from The Salmon Project, Jess Snyder from WETA, Porter Mason from UNICEF, Milo Sybrant from the International Rescue Committee, and Tony Kopetchny from Pew Charitable Trusts joined us to share their experiences. You can learn more about their projects by clicking through to their websites. 
+One of the draws of Drupal Day is that it’s a great opportunity to hear from nonprofit decision makers about their experiences with Drupal. This year, every single one of our speakers represented a nonprofit with a successful Drupal story and each came from different technological backgrounds. We chose speakers that we believed had great, impactful stories that Drupal Day attendees could learn from. This year, Erin Harrington from [The Salmon Project](http://www.salmonproject.org/), Jess Snyder from [WETA](http://www.weta.org/), Porter Mason from [UNICEF](http://www.unicefusa.org/), Milo Sybrant from the [International Rescue Committee](http://www.rescue.org/), and Tony Kopetchny from [Pew Charitable Trusts](http://www.rescue.org/) joined us to share their experiences. You can learn more about their projects by clicking through to their websites. 
 
 **3. Every question is a good question.** 
 
