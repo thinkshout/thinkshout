@@ -2,7 +2,13 @@
 layout: post
 published: false
 featured: false
-short: null
+short: "Learning a new technology can be incredibly intimidating, especially if you’re going at it alone. There’s great comfort in knowing that you’re not the only one with those particular questions or having this recurring, frustrating problem. Stranding yourself on a technological island is so unnecessary, especially given how accessible learning resources are these days."
+author: stephanie
+tags: 
+  - NTEN
+  - Drupal
+  - Drupal Day
+  - NTC
 ---
 
 ##Creating a One-Size-Fits-All Day for Nonprofit Professionals and Technologists##
