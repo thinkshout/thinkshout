@@ -1,13 +1,13 @@
 ---
 layout: post
-published: true
+published: false
 featured: true
-short: "Introducing Bean Entity View - a bean type plugin for rendering entities"
+short: null
 author: tauno
-tags:
-- Drupal Planet
-- Drupal Give
-- modules
+tags: 
+  - Drupal Planet
+  - Drupal Give
+  - modules
 ---
 
 ## Slice and dice entities with views modes and Bean Entity View
