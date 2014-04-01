@@ -11,7 +11,6 @@ tags:
   - NTC
 ---
 
-##Creating a One-Size-Fits-All Day for Nonprofit Professionals and Technologists##
 *Originally published March 26 on [NTEN.org](http://www.nten.org/articles/2014/reflections-on-drupal-day-creating-a-one-size-fits-all-day-for-nonprofit-professionals-and-technologists)*
 
 Learning a new technology can be incredibly intimidating, especially if you’re going at it alone. There’s great comfort in knowing that you’re not the only one with those particular questions or having this recurring, frustrating problem. Stranding yourself on a technological island is so unnecessary, especially given how accessible learning resources are these days. This is the beauty of the modern technology communities.
