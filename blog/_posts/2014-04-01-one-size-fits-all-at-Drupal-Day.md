@@ -26,7 +26,7 @@ My experience with Drupal Day left me with a few key takeaways for those looking
 
 **1. The Drupal community really is awesome.**
 
-
+![](/assets/images/blog/IMG_0279.JPG)
 
 [Drupal.org](http://drupal.org) is only the beginning, but it’s a fantastic beginning full of answers. There are forums, an archive of resources, and even a live chat if that’s more your speed. There’s a wealth of information available to you online, all of it curated by the people that know and love Drupal best. This community isn’t purely digital, either. If you live in a large city, chances are there’s a Drupal meetup near you. If you’d prefer to meet face to face, you can, whether it’s through a local event, full-blown [DrupalCon](https://austin2014.drupal.org/), or nonprofit summits at [NYC Camp](http://www.nyccamp.org/), and [BADCamp](http://2014.badcamp.net/).  You can also access paid training on [BuildAModule](http://buildamodule.com/), but the best part is that you can meet Christ Shattuck, the BuildAModule instructor, in person at a ton of these events. You’re going to start recognizing people quickly, and it’s going to be more helpful than you might think.
 
