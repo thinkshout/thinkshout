@@ -36,6 +36,7 @@ sitemap:
         - "/work/index.html"
         - "/careers/index.html"
 
+# Setting for prose.io
 prose:
   ignore:
     - index.html
@@ -46,14 +47,18 @@ prose:
     - /_scripts
     - /assets
     - /sass
+    - /expertise
+    - /team
     - s3_website.yml
     - s3_website_stage.yml
     - rss.xml
     - robots.txt
-    - Rakefilfe
+    - Rakefile
     - config.rb
     - _config.yml
     - .gitignore
+    - .bowerrc
+    - Gemfile
   siteurl: "http://thinkshout.com"
   media: "assets/images/blog"
   metadata:
@@ -81,3 +86,13 @@ prose:
           label: "Tags"
           help: "Enter one or more tags to categorize your post, E.g., Drupal, nonprofit, RedHen."
           alterable: true
+    careers:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "job"
+    work:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "project"
