@@ -46,11 +46,18 @@ prose:
     - /_scripts
     - /assets
     - /sass
-    - *.yml
+    - s3_website.yml
+    - s3_website_stage.yml
+    - rss.xml
+    - robots.txt
+    - Rakefilfe
+    - config.rb
+    - _config.yml
+    - .gitignore
   siteurl: "http://thinkshout.com"
   media: "assets/images/blog"
   metadata:
-    blog/_posts:
+    blog:
       - name: "layout"
         field:
           element: "hidden"
