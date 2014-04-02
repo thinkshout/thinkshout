@@ -86,12 +86,15 @@ prose:
           label: "Tags"
           help: "Enter one or more tags to categorize your post, E.g., Drupal, nonprofit, RedHen."
           alterable: true
-          options: {}
     careers:
       - name: "layout"
         field:
           element: "hidden"
           value: "job"
+      - name: "mailto"
+        field:
+          element: "text"
+          label: "Email address for job submissions."
     work:
       - name: "layout"
         field:
