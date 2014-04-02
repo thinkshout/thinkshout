@@ -67,14 +67,6 @@ prose:
         field:
           element: "hidden"
           value: "post"
-      - name: "title"
-        field:
-          label: "Title"
-          element: "text"
-      - name: "short"
-        field:
-          element: "textarea"
-          label: "Short teaser"
       - name: "author"
         field:
           element: "text"
@@ -84,6 +76,10 @@ prose:
           element: "checkbox"
           label: "Featured"
           help: "The top 3 featured posts will appear on the home page."
+      - name: "short"
+        field:
+          element: "textarea"
+          label: "Short teaser"
       - name: "tags"
         field:
           element: "multiselect"
