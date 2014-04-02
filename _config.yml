@@ -78,7 +78,7 @@ prose:
           help: "The top 3 featured posts will appear on the home page."
       - name: "short"
         field:
-          element: "textarea"
+          element: "text"
           label: "Short teaser"
       - name: "tags"
         field:
@@ -86,6 +86,7 @@ prose:
           label: "Tags"
           help: "Enter one or more tags to categorize your post, E.g., Drupal, nonprofit, RedHen."
           alterable: true
+          options: {}
     careers:
       - name: "layout"
         field:
