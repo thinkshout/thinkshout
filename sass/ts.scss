@@ -528,10 +528,11 @@ ul.client-list {
   		color: $brown;
   	}
   	.tag-label:before {
-  		margin-right: 5px;
+  	  margin-right: 5px;
   	}
   	a {
-  		border-bottom: 1px dotted $orange;
+  	  border-bottom: 1px dotted $orange;
+      margin-right: .3em;
   	}
   }
   .leadin {
