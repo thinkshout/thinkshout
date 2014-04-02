@@ -45,6 +45,8 @@ prose:
     - /_plugins
     - /_scripts
     - /assets
+    - /sass
+    - *.yml
   siteurl: "http://thinkshout.com"
   media: "assets/images/blog"
   metadata:
