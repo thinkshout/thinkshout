@@ -10,7 +10,9 @@ tags:
   - NTEN
   - Drupal
   - Drupal Day
+  - Drupal Planet
   - NTC
+date: 2014-04-03 15:00:00
 ---
 
 *Originally published March 26 on [NTEN.org](http://www.nten.org/articles/2014/reflections-on-drupal-day-creating-a-one-size-fits-all-day-for-nonprofit-professionals-and-technologists)*
