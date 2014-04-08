@@ -10,3 +10,4 @@ featured: false
 * Explain refactoring of Drupal module - cleaner, more extensible.
 * Highlight future development of the Drupal module - added payment methods, etc.
 
+Test update via prose.io
