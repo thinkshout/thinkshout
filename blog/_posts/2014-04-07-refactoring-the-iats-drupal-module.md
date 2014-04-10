@@ -19,4 +19,9 @@ There's nothing software engineers like more than reducing complexity, so we off
 
 In refactoring Commerce iATS, we didn't just plug in the PHP library and call it a day. Commerce iATS originally only supported credit card payments, but the PHP library we had written exposed the entire iATS Payments API. To make sure Commerce iATS had room to grow, we redesigned the module's architecture and rebuilt with modularity and expansion in mind.
 
+```php
+<?php
+$foo = 'bar';
+```
+
 ThinkShout is currently working with iATS Payments to integrate more of their payment processing facilities into the Commerce iATS module. Keep an eye on the [Commerce iATS project page](https://drupal.org/project/commerce_iats) for updates.
