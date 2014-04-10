@@ -2,6 +2,11 @@
 layout: post
 published: false
 featured: false
+author: dan
+short |
+  This is why this post is so interesting. You can even include an ';.
+tags:
+- Drupal
 ---
 
 Last month we wrapped up a project for nonprofit-oriented payment processor, iATS Payments. Working closely with iATS Payments, we built a PHP library for their SOAP API with the end goal being easier integration for web application developers. You can [read about the library here](http://thinkshout.com/blog/2014/03/announcing-iats-php-wrapper/).
