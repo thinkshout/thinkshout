@@ -40,14 +40,14 @@ Looking through the code of the existing Commerce iATS module, we realized the c
 
 As an example, take a look at the [2.x-dev release of Commerce iATS](http://drupalcode.org/project/commerce_iats.git/blob/dea433a:/commerce_iats.module#l305).
 
-Here the function ```commerce_iats_soap_process_submit_form_submit``` is being used to handle a lot more logic than a form submit handler ideally would. Breaking it down:
+Here the function ```commerce_iats_soap_process_submit_form_submit()``` is being used to handle a lot more logic than a form submit handler ideally would. Breaking it down:
 
 * There's some [tight integration with the Commerce Card on File module](http://drupalcode.org/project/commerce_iats.git/blob/dea433a:/commerce_iats.module#l317). This could be broken out into a different payment method type, avoiding the call to ```module_exists()```.
 * A lot of conditions are used to [build the API request](http://drupalcode.org/project/commerce_iats.git/blob/dea433a:/commerce_iats.module#l332), depending on which payment method triggered the form submit handler. This won't scale well when more payment methods are added.
 * A [new transaction is created](http://drupalcode.org/project/commerce_iats.git/blob/dea433a:/commerce_iats.module#l367) based on the response from the iATS Payments API.
 * More tight integration with [Commerce Card on File](http://drupalcode.org/project/commerce_iats.git/blob/dea433a:/commerce_iats.module#l415).
 
-A lot of code in ```commerce_iats_soap_process_submit_form_submit``` is [later duplicated](http://drupalcode.org/project/commerce_iats.git/blob/dea433a:/commerce_iats.module#l521) when ```commerce_iats_customer_code_charge_submit_form_submit``` is called.
+A lot of code in ```commerce_iats_soap_process_submit_form_submit()``` is [later duplicated](http://drupalcode.org/project/commerce_iats.git/blob/dea433a:/commerce_iats.module#l521) when ```commerce_iats_customer_code_charge_submit_form_submit()``` is called.
 
 We set out to redesign the module's architecture and rebuilt with modularity and expansion in mind. Here's what we did:
 
@@ -55,7 +55,7 @@ We set out to redesign the module's architecture and rebuilt with modularity and
   * This function handles the API call, response handling, transaction creation and logging.
   * To handle multiple payment methods, the function accepts a callback function as a parameter. This callback function is the method that makes the API call via the PHP Wrapper and returns the response.
 
-The first lines of ```commerce_iats_process_payment```  demonstrate how the callback function is used:
+The first lines of ```commerce_iats_process_payment()```  demonstrate how the callback function is used:
 ```php
 function commerce_iats_process_payment($payment_method, $payment_data, $order, $charge, $payment_callback) {
   // Process the payment using the defined callback method.
@@ -67,21 +67,21 @@ function commerce_iats_process_payment($payment_method, $payment_data, $order, $
 
 Each payment method include file contains these standard Commerce functions (where ```credit_card``` is the payment method:)
 
-* ```commerce_iats_credit_card_settings_form```
-* ```commerce_iats_credit_card_submit_form```
-* ```commerce_iats_credit_card_submit_form_validate```
-* ```commerce_iats_credit_card_submit_form_submit```
+* ```commerce_iats_credit_card_settings_form()```
+* ```commerce_iats_credit_card_submit_form()```
+* ```commerce_iats_credit_card_submit_form_validate()```
+* ```commerce_iats_credit_card_submit_form_submit()```
 
 Then we added our own callback function:
 
-* ```commerce_iats_process_credit_card_payment```
+* ```commerce_iats_process_credit_card_payment()```
 
-The callback function handles building the API request and getting a response from the API. To show how this works, here's a line from ```commerce_iats_credit_card_submit_form_submit```
+The callback function handles building the API request and getting a response from the API. To show how this works, here's a line from ```commerce_iats_credit_card_submit_form_submit()```
 ```php
 return commerce_iats_process_payment($payment_method, $payment_data, $order, $charge, 'commerce_iats_process_credit_card_payment');
 ```
 
-As you can see, all the payment information from the form submit handler is being passed into ```commerce_iats_process_payment```. That function then calls the callback function ```commerce_iats_process_credit_card_payment``` to make the API call and process the response.
+As you can see, all the payment information from the form submit handler is being passed into ```commerce_iats_process_payment()```. That function then calls the callback function ```commerce_iats_process_credit_card_payment()``` to make the API call and process the response.
 
 This design is very easy to extend and allows us to add as many additional payment methods as we need in a very clean way. We were able to use this design to implement [Commerce Card on File as a submodule of Commerce iATS](http://drupalcode.org/project/commerce_iats.git/tree/HEAD:/modules/commerce_iats_cardonfile), eliminating that dependency from the base module.
 
