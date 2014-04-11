@@ -49,49 +49,49 @@ a.button.default {
 
 
 //
-// Marquees  
+// Marquees
 //
 .work {
 	.hero-image {
-		background-image: url('../images/marquee/work.jpg'); 
+		background-image: url('../images/marquee/work.jpg');
 		@media screen and (max-width: $tablet) {
-      background-image: url('../images/marquee/med/work.jpg'); 
+      background-image: url('../images/marquee/med/work.jpg');
     }
 		@media screen and (max-width: $mobile) {
-      background-image: url('../images/marquee/small/work.jpg'); 
+      background-image: url('../images/marquee/small/work.jpg');
     }
 	}
 }
 .team {
 	.hero-image {
-		background-image: url('../images/marquee/team.jpg'); 
+		background-image: url('../images/marquee/team.jpg');
 		@media screen and (max-width: $tablet) {
-      background-image: url('../images/marquee/med/team.jpg'); 
+      background-image: url('../images/marquee/med/team.jpg');
     }
 		@media screen and (max-width: $mobile) {
-      background-image: url('../images/marquee/small/team.jpg'); 
+      background-image: url('../images/marquee/small/team.jpg');
     }
 	}
 }
 .expertise {
 	.hero-image {
-		background-image: url('../images/marquee/expertise.jpg'); 
+		background-image: url('../images/marquee/expertise.jpg');
 		@media screen and (max-width: $tablet) {
-      background-image: url('../images/marquee/med/expertise.jpg'); 
+      background-image: url('../images/marquee/med/expertise.jpg');
     }
 		@media screen and (max-width: $mobile) {
-      background-image: url('../images/marquee/small/expertise.jpg'); 
+      background-image: url('../images/marquee/small/expertise.jpg');
     }
 	}
 }
 .careers {
 	.hero-image {
-		background-image: url('../images/marquee/careers.jpg'); 
+		background-image: url('../images/marquee/careers.jpg');
 		@media screen and (max-width: $tablet) {
-      background-image: url('../images/marquee/med/careers.jpg'); 
+      background-image: url('../images/marquee/med/careers.jpg');
     }
 		@media screen and (max-width: $mobile) {
-      background-image: url('../images/marquee/small/careers.jpg'); 
+      background-image: url('../images/marquee/small/careers.jpg');
     }
 	}
 }
@@ -111,7 +111,7 @@ body.welcome {
     padding: 0 1em;
     text-align: left;
   }
-  
+
   .hero-image {
     position: fixed;
     top: 0;
@@ -129,7 +129,7 @@ body.welcome {
     bottom: 1em;
     width: 100%;
     z-index: 300;
-  
+
     @media screen and (max-width: $mobile) {
       position: relative;
     }
@@ -153,7 +153,7 @@ body.welcome {
   }
 }
 
-// 
+//
 // TEAM
 //
 .team-blog {
@@ -284,7 +284,7 @@ ul.client-list {
 	article {
         text-align: center;
       }
-    
+
       &:hover {
         .thumb {
           margin: 0;
@@ -328,7 +328,7 @@ ul.client-list {
     }
 }
 
-// 
+//
 // Careers
 //
 .job-list {
@@ -341,7 +341,7 @@ ul.client-list {
 			color: #222;
 			@include transition-property(all);
 	    @include transition-duration(0.2s);
-			
+
 			&:hover {
 				color: $orange;
 				border: 1px solid $orange;
@@ -371,9 +371,9 @@ ul.client-list {
   }
 }
 
-// 
-// Expertise 
-// 
+//
+// Expertise
+//
 .expertise {
 	margin-bottom: 5em;
 	display: block;
@@ -424,7 +424,7 @@ ul.client-list {
 	}
 }
 
-// Blog List Style 
+// Blog List Style
 .blog {
 	ul.blog-list {
 	  margin: 0;
@@ -574,7 +574,7 @@ ul.client-list {
 }
 
 //
-// Blog Archives 
+// Blog Archives
 //
 .blog {
   .hero {
@@ -621,7 +621,7 @@ ul.client-list {
     	color: $brown;
     	margin-top: -25px;
 	  }
-    &:hover {	
+    &:hover {
     	background: $orange;
     }
   }
@@ -678,12 +678,12 @@ ul.client-list {
 		float: right;
 		margin-top: 1.5em;
 		padding: 1em;
-		border-left: 2px solid $orange; 
+		border-left: 2px solid $orange;
 		@media screen and (max-width: $tablet) {
 			float: none;
 			width: 100%;
 			border-left: none;
-			padding: 0; 
+			padding: 0;
 			margin-left: 0;
 		}
 		h5 {
@@ -701,8 +701,8 @@ ul.client-list {
 				color: $orange;
   			font-family: ts;
   			display: inline-block;
-  			margin-left: -1.2em; 
-  			width: 1.4em; 
+  			margin-left: -1.2em;
+  			width: 1.4em;
   		}
 		}
 	}
@@ -823,8 +823,8 @@ section.results.narrative {
   }
 }
 
-// 
-// FOOTER 
+//
+// FOOTER
 //
 footer {
   background: #f1f1f1 url('../images/footer.jpg') no-repeat;
@@ -867,9 +867,9 @@ footer {
   }
 }
 
-// 
+//
 // Foundation Reveal Overrides
-// 
+//
 .reveal-modal {
 	z-index: 2000;
 }
@@ -878,4 +878,6 @@ footer {
 	z-index: 1999;
 }
 
-
+pre {
+  margin-bottom: 1.25rem;
+}
