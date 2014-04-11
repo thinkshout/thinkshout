@@ -51,9 +51,9 @@ A lot of code in ```commerce_iats_soap_process_submit_form_submit``` is [later d
 
 We set out to redesign the module's architecture and rebuilt with modularity and expansion in mind. Here's what we did:
 
-####  Created a new [standard payment processing function in ```commerce_iats.module```](http://drupalcode.org/project/commerce_iats.git/blob/HEAD:/commerce_iats.module#l210); ```commerce_iats_process_payment```
-* This function handles the API call, response handling, transaction creation and logging.
-* To handle multiple payment methods, the function accepts a callback function as a parameter. This callback function is the method that makes the API call via the PHP Wrapper and returns the response.
+* Created a new [standard payment processing function](http://drupalcode.org/project/commerce_iats.git/blob/HEAD:/commerce_iats.module#l210) in ```commerce_iats.module``` - ```commerce_iats_process_payment```
+  * This function handles the API call, response handling, transaction creation and logging.
+  * To handle multiple payment methods, the function accepts a callback function as a parameter. This callback function is the method that makes the API call via the PHP Wrapper and returns the response.
 
 The first lines of ```commerce_iats_process_payment```  demonstrate how the callback function is used:
 ```php
@@ -62,8 +62,8 @@ function commerce_iats_process_payment($payment_method, $payment_data, $order, $
   $response = $payment_callback($payment_method, $payment_data, $order, $charge);
 ```
 
-#### Broke payment methods out into their own include files.
-* Here's the [credit card payment method](http://drupalcode.org/project/commerce_iats.git/blob/HEAD:/includes/commerce_iats.credit_card.inc).
+* Broke payment methods out into their own include files.
+  * Here's the [credit card payment method](http://drupalcode.org/project/commerce_iats.git/blob/HEAD:/includes/commerce_iats.credit_card.inc).
 
 Each payment method include file contains these standard Commerce functions (where ```credit_card``` is the payment method:)
 
