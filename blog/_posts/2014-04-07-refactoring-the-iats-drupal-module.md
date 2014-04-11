@@ -3,10 +3,7 @@ layout: post
 published: false
 featured: false
 author: dan
-short: 
-  - "This is why this post is so interesting. You can even include an '.\n"
-  - "This is why this post is so interesting. You can even include an '."
-  - "This is why this post is so interesting. You can even include an '.,This is why this post is so interesting. You can even include an '."
+short: "Following our release of the PHP wrapper for the iATS Payments API, we took on refactoring the Commerce iATS module."
 tags: 
   - Drupal
 ---
