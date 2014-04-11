@@ -4,15 +4,14 @@ published: true
 featured: true
 short: "Learning a new technology can be incredibly intimidating, especially if you’re going at it alone. There’s great comfort in knowing that you’re not the only one with those particular questions or having this recurring, frustrating problem."
 author: stephanie
-title: | 
-  Reflections on Drupal Day: Creating a One-Size-Fits-All Day for Nonprofit Professionals and Technologists
+title: "Reflections on Drupal Day: Creating a One-Size-Fits-All Day for Nonprofit Professionals and Technologists"
 tags: 
   - NTEN
   - Drupal
   - Drupal Day
   - Drupal Planet
   - NTC
-date: 2014-04-03 15:00:00
+date: {}
 ---
 
 *Originally published March 26 on [NTEN.org](http://www.nten.org/articles/2014/reflections-on-drupal-day-creating-a-one-size-fits-all-day-for-nonprofit-professionals-and-technologists)*
@@ -29,7 +28,7 @@ My experience with Drupal Day left me with a few key takeaways for those looking
 
 **1. The Drupal community really is awesome.**
 
-[Drupal.org](http://drupal.org) is only the beginning, but it’s a fantastic beginning full of answers. There are forums, an archive of resources, and even a live chat if that’s more your speed. There’s a wealth of information available to you online, all of it curated by the people that know and love Drupal best. This community isn’t purely digital, either. If you live in a large city, chances are there’s a Drupal meetup near you. If you’d prefer to meet face to face, you can, whether it’s through a local event, full-blown [DrupalCon](https://austin2014.drupal.org/), or nonprofit summits at [NYC Camp](http://www.nyccamp.org/), and [BADCamp](http://2014.badcamp.net/).  You can also access paid training on [BuildAModule](http://buildamodule.com/), but the best part is that you can meet Christ Shattuck, the BuildAModule instructor, in person at a ton of these events. You’re going to start recognizing people quickly, and it’s going to be more helpful than you might think.
+[Drupal.org](http://drupal.org) is only the beginning, but it’s a fantastic beginning full of answers. There are forums, an archive of resources, and even a live chat if that’s more your speed. There’s a wealth of information available to you online, all of it curated by the people that know and love Drupal best. This community isn’t purely digital, either. If you live in a large city, chances are there’s a Drupal meetup near you. If you’d prefer to meet face to face, you can, whether it’s through a local event, full-blown [DrupalCon](https://austin2014.drupal.org/), or nonprofit summits at [NYC Camp](http://www.nyccamp.org/), and [BADCamp](http://2014.badcamp.net/).  You can also access paid training on [BuildAModule](http://buildamodule.com/), but the best part is that you can meet Chris Shattuck, the BuildAModule instructor, in person at a ton of these events. You’re going to start recognizing people quickly, and it’s going to be more helpful than you might think.
 
 **2. Learn from others’ stories and share your own.**
 
