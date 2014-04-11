@@ -5,8 +5,8 @@ published: true
 featured: true
 author: dan
 short: "Following our release of the PHP wrapper for the iATS Payments API, we took on refactoring the Commerce iATS module."
-tags:
-- Drupal
+tags: 
+  - Drupal
 ---
 
 Last month we wrapped up a project for nonprofit-oriented payment processor, [iATS Payments](http://iatspayments.com/). iATS Payments wanted to invest in gaining wider adoption of their services and enlisted ThinkShout's help in building a [PHP wrapper](http://thinkshout.com/blog/2014/03/announcing-iats-php-wrapper/) for their existing [SOAP API](http://home.iatspayments.com/sites/default/files/iats_webservices_overview_version_4.0_0.pdf).
@@ -19,11 +19,11 @@ Being a bunch of software engineers who have implemented our fair share of APIs 
 
 With the new PHP wrapper finished and unit tests passing, our attention shifted to the project we felt would most benefit from the work we'd done: the [Commerce iATS Drupal module](https://drupal.org/project/commerce_iats). This module leverages [Drupal Commerce](http://drupal.org/project/commerce) to facilitate payment processing via iATS Payments on any Drupal website.
 
-We had already integrated Commerce iATS into some of our clients' websites, so we knew it was a great module, but it was written before there was a standard iATS Payments PHP library and contained some unwieldy code that could be eliminated by using the new PHP wrapper. With support from the community and sponsorship from iATS, we rewrote the module, drastically reducing complexity, which any engineer can appreciate, and improved stability, which site owners love even more. We're excited to replicate the success of our partnership with MailChimp, which created a win for the community, the vendor, and, yes, ThinkShout.
+We had already integrated Commerce iATS into some of our clients' websites, so we knew it was a great module, but it was written before there was a standard iATS Payments PHP wrapper and contained some unwieldy code that could be eliminated by using the new PHP wrapper. With support from the community and sponsorship from iATS, we rewrote the module, drastically reducing complexity, which any engineer can appreciate, and improved stability, which site owners love even more. We're excited to replicate the success of our partnership with MailChimp, which created a win for the community, the vendor, and, yes, ThinkShout.
 
 ## Refactoring Commerce iATS
 
-In refactoring Commerce iATS, we didn't just plug in the PHP library and call it a day. While Commerce iATS was originally written with support for only credit card payments, our PHP wrapper supports all payment methods provided by iATS Payments and we wanted to make sure Commerce iATS had room to grow and take advantage of those payment methods.
+In refactoring Commerce iATS, we didn't just plug in the PHP wrapper and call it a day. While Commerce iATS was originally written with support for only credit card payments, our PHP wrapper supports all payment methods provided by iATS Payments and we wanted to make sure Commerce iATS had room to grow and take advantage of those payment methods.
 
 ### Some of the problems
 
