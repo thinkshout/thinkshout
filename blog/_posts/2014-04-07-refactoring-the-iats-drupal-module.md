@@ -9,11 +9,11 @@ tags:
   - Drupal
 ---
 
-Last month we wrapped up a project for nonprofit-oriented payment processor, [iATS Payments](http://iatspayments.com/). iATS Payments wanted to invest in gaining wider adoption of their services and enlisted ThinkShout's help in building a [PHP wrapper](http://thinkshout.com/blog/2014/03/announcing-iats-php-wrapper/) for their existing [SOAP API](http://home.iatspayments.com/sites/default/files/iats_webservices_overview_version_4.0_0.pdf).
+Last month, we wrapped up a project for nonprofit-oriented payment processor, [iATS Payments](http://iatspayments.com/). iATS Payments wanted to invest in gaining wider adoption of their services and enlisted ThinkShout's help in building a [PHP wrapper](http://thinkshout.com/blog/2014/03/announcing-iats-php-wrapper/) for their existing [SOAP API](http://home.iatspayments.com/sites/default/files/iats_webservices_overview_version_4.0_0.pdf).
 
-Being a bunch of software engineers who have implemented our fair share of APIs (both good and bad,) we knew we had to achieve certain goals if we were going to ease the adoption of iATS Payments within PHP applications:
+Being a bunch of software engineers who have implemented our fair share of APIs (both good and bad), we knew we had to achieve certain goals if we were going to ease the adoption of iATS Payments within PHP applications:
 
-* **Comprehensive:** The wrapper handles all communication with the iATS Payments SOAP API, validation of API calls and error handling.
+* **Comprehensive:** The wrapper handles all communication with the iATS Payments SOAP API, validation of API calls, and error handling.
 * **Well documented:** We made use of phpDocumentor to generate [easily browsable documentation](http://iatspayments.github.io/PHP/namespaces/iATS.html) from our code comments.
 * **Reliable:** Via a comprehensive test suite covering every API call written in [PHPUnit](http://phpunit.de/).
 
@@ -60,7 +60,7 @@ function commerce_iats_process_payment($payment_method, $payment_data, $order, $
 
 #### Broke payment methods out into their own include files
 
-As an example, here's the [credit card payment method](http://drupalcode.org/project/commerce_iats.git/blob/HEAD:/includes/commerce_iats.credit_card.inc). Each payment method include file contains these standard Commerce functions (where `credit_card` is the payment method:)
+As an example, here's the [credit card payment method](http://drupalcode.org/project/commerce_iats.git/blob/HEAD:/includes/commerce_iats.credit_card.inc). Each payment method file contains these standard Commerce functions (where `credit_card` is the payment method:)
 
 * `commerce_iats_credit_card_settings_form()`
 * `commerce_iats_credit_card_submit_form()`
