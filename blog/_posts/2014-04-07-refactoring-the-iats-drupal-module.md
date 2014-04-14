@@ -84,6 +84,6 @@ This design is very easy to extend and allows us to add as many additional payme
 
 All our work on Commerce iATS is currently available in the [2.0-beta1 release](https://drupal.org/node/2227713). Please take a look and let us know if you have any feedback.
 
-We're already hard at work along with our partners at iATS Payments to integrate more of their payment processing facilities into the Commerce iATS module. While the module currently only supports credit card payments, ACH/EFT and Direct Debit payments will arive before DrupalCon Austin. Speaking of, both ThinkShout and iATS Payments will be attending and spending some time at the iATS booth. Come find us to say hello and talk some e-commerce.
+We're already hard at work along with our partners at iATS Payments to integrate more of their payment processing facilities into the Commerce iATS module. While the module currently only supports credit card payments, ACH/EFT and Direct Debit payments will arive before DrupalCon Austin. Speaking of, both ThinkShout and iATS Payments will be attending and spending some time at the iATS booth, number 508. Come find us to say hello and talk some e-commerce.
 
 Keep an eye on the [Commerce iATS project page](https://drupal.org/project/commerce_iats) and this blog for more updates.
