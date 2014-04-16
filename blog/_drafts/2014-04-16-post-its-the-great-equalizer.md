@@ -5,7 +5,7 @@ featured: false
 author: betsy
 ---
 
-Post-Its have been the great equalizer for our organization in improving our project management process. That and targeted focus on small improvements.  I was able to give a demonstration of how Post-Its impact our team at a recent talk at NTEN's Nonprofit Technology Conference in my session [Balancing Project Management and Business Process for Long Term Success.](http://14ntc.sched.org/event/ef0a4748e313b3c7d71ab6b7c9ace83b#.U068-uZdVcM)
+Post-Its have been the great equalizer for our organization in improving our project management process. That and targeted focus on small improvements.  I was able to give a demonstration of how Post-Its impact our team at NTEN's Nonprofit Technology Conference during my session, [Balancing Project Management and Business Process for Long Term Success.](http://14ntc.sched.org/event/ef0a4748e313b3c7d71ab6b7c9ace83b#.U068-uZdVcM)
 
 Large sweeping change still appears to be the norm for most small to medium sized organizations. Groups of people sitting around waiting for one massive sweeping change to fix everything. When that fails, they turn to another massive sweeping change that will fix the new everything.
 
