@@ -5,9 +5,7 @@ featured: false
 author: betsy
 ---
 
-Post-Its: The Great Equalizer
-
-Post-Its have been the great equalizer for our organization in improving our project management process. That and targeted focus on small improvements.  I was able to give a demonstration of how Post-Its impact our team at a recent talk at NTEN [Add the actual link and session title]
+Post-Its have been the great equalizer for our organization in improving our project management process. That and targeted focus on small improvements.  I was able to give a demonstration of how Post-Its impact our team at a recent talk at NTEN's Nonprofit Technology Conference in my session [Balancing Project Management and Business Process for Long Term Success.](http://14ntc.sched.org/event/ef0a4748e313b3c7d71ab6b7c9ace83b#.U068-uZdVcM)
 
 Large sweeping change still appears to be the norm for most small to medium sized organizations. Groups of people sitting around waiting for one massive sweeping change to fix everything. When that fails, they turn to another massive sweeping change that will fix the new everything.
 
@@ -37,4 +35,3 @@ This method can be broken down into five easy steps:
 6. After you’ve taken five minutes to conduct the silent brainstorm for solution, open up the floor for discussion on next steps.  By taking the time to silent brainstorm solutions, you’ve focused energy around developing an actionable solution versus having the session turn into a gripe fest about what is wrong with a process/team/organization.  And you’ve been able to work together as a team to decide what the best course of action is for improving. 
 
 These steps provide the framework for moving through some complicated questions for a team.  While the conversation isn’t always rosy, the process helps to facilitate positive conversation and is a great way to get the whole team involved on a level playing field. The outspoken and the silent both have their chance to make the same impact on the conversation, allowing for new insights and a clearer way forward. I encourage you to use this process and see for yourself what a difference it makes. You’ve got nothing to lose but a handful of Post-Its.
-
