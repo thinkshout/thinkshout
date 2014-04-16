@@ -19,7 +19,7 @@ So here's the secret, and I think this is pretty common knowledge and backed up 
 
 The process does involve a bit of discussion, but includes a workaround for feedback that less-talkative team members may be uninclined to share in a group setting. 
 
-This method can be broken down into five easy steps:
+This method can be broken down into seven easy steps:
 
 1. Begin the meeting by reminding everyone to bring the spirit of openness for the purpose of improving as a team and introduce the purpose of the meeting, ie, the specific topic you are focusing on for the exercise.
 
@@ -28,10 +28,11 @@ This method can be broken down into five easy steps:
 3. Organize the sticky notes by pros & cons on a whiteboard or just a wall in the meeting room.  Use this as an opportunity to get clarification around any questions that are triggered by what is now on the wall.  There is always a temptation for longer conversations, but it is really important to get the process moving forward and prevent it from being derailed by tangents.
 
 4. At this stage, all of the team members should work together to organize the pros & cons into themes.  Theses themes are decided upon by the participants and moving through this process together helps them to gain a better understanding of the broader organizational impact each of these singular items might be having.  
+
 5. After the themes are organized, each individual is given three points to use in voting for the issues they feel are most important.  Multiple points can be given to one item if a person feels as those it is a very high priority. 
  
-5. When the top three themes have been chosen, begin developing your action plan based on what’s been selected.  This is where the Post It notes become especially crucial in the exercise.  Because as you silent brainstorm solutions, often the best “next step” ideas are coming from some of the more reserved individuals.  These ideas would otherwise be lost in the booming discussion that could be happening in its place.
+6. When the top three themes have been chosen, begin developing your action plan based on what’s been selected.  This is where the Post It notes become especially crucial in the exercise.  Because as you silent brainstorm solutions, often the best “next step” ideas are coming from some of the more reserved individuals.  These ideas would otherwise be lost in the booming discussion that could be happening in its place.
 
-6. After you’ve taken five minutes to conduct the silent brainstorm for solution, open up the floor for discussion on next steps.  By taking the time to silent brainstorm solutions, you’ve focused energy around developing an actionable solution versus having the session turn into a gripe fest about what is wrong with a process/team/organization.  And you’ve been able to work together as a team to decide what the best course of action is for improving. 
+7. After you’ve taken five minutes to conduct the silent brainstorm for solution, open up the floor for discussion on next steps.  By taking the time to silent brainstorm solutions, you’ve focused energy around developing an actionable solution versus having the session turn into a gripe fest about what is wrong with a process/team/organization.  And you’ve been able to work together as a team to decide what the best course of action is for improving. 
 
 These steps provide the framework for moving through some complicated questions for a team.  While the conversation isn’t always rosy, the process helps to facilitate positive conversation and is a great way to get the whole team involved on a level playing field. The outspoken and the silent both have their chance to make the same impact on the conversation, allowing for new insights and a clearer way forward. I encourage you to use this process and see for yourself what a difference it makes. You’ve got nothing to lose but a handful of Post-Its.
