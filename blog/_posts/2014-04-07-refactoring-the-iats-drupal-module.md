@@ -5,8 +5,11 @@ published: true
 featured: true
 author: dan
 short: "Following our release of the PHP wrapper for the iATS Payments API, we took on refactoring the Commerce iATS module."
-tags: 
-  - Drupal
+tags:
+  - Drupal Planet
+  - Drupal Give
+  - E-commerce
+  - modules
 ---
 
 Last month, we wrapped up a project for nonprofit-oriented payment processor, [iATS Payments](http://iatspayments.com/). iATS Payments wanted to invest in gaining wider adoption of their services and enlisted ThinkShout's help in building a [PHP wrapper](http://thinkshout.com/blog/2014/03/announcing-iats-php-wrapper/) for their existing [SOAP API](http://home.iatspayments.com/sites/default/files/iats_webservices_overview_version_4.0_0.pdf).
