@@ -5,8 +5,7 @@ featured: false
 author: brett
 ---
 
-Image: https://www.flickr.com/photos/loopzilla/213260155/
-
+![](/assets/images/blog/213260155_1ebb76b382_b.jpg)
 Why do people visit your organization’s website?
 
 It’s such a basic question, I’d hesitate to posit it – if it weren’t so fundamental to the work of making the world, and the Web, a better place.
