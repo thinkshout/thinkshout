@@ -1,14 +1,22 @@
 ---
 layout: post
-published: false
-featured: false
-author: brett
+published: true
+featured: true
+author: brett-meyer
+title: "Desire Paths, Part 1: Retracing Your Audience's Steps"
+short: |
+  Improve the efficacy of your website by resolving the dichotomy between “Desire Paths” and “the desired path.”
+tags:
+  - User experience
+  - Content strategy
+  - Metrics
+  - Social media
+  - Desire paths
 ---
 
-#Desire Paths, Part 1: Retracing Your Audience's Steps#
+![](/assets/images/blog/desire_path.jpg)
 
-![](/assets/images/blog/213260155_1ebb76b382_b.jpg)
-Why do people visit your organization’s website?
+### _Why do people visit your organization’s website?_
 
 It’s such a basic question, I’d hesitate to posit it – if it weren’t so fundamental to the work of making the world, and the Web, a better place.
 
