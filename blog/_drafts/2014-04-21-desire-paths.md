@@ -5,6 +5,8 @@ featured: false
 author: brett
 ---
 
+#Desire Paths, Part 1: Retracing Your Audience's Steps#
+
 ![](/assets/images/blog/213260155_1ebb76b382_b.jpg)
 Why do people visit your organization’s website?
 
