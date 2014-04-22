@@ -125,7 +125,7 @@ Just because you’re not sending a URL to your supporters directly doesn’t me
 
 2. Then, redirect to that URL, which Google will pick up.
  	* For print, you can [embed the long campaign URL in a QR code](https://www.the-qrcode-generator.com/).
- 	* If you don’t expect your users to have a QR reader, create a simple landing page with a redirect to the tracked URL: your.org/campaignname is reasonable for somebody to type into a browser, so [hit it with a 301](https://support.google.com/webmasters/answer/93633?hl=en redirect to your.org/reallandingpage?utm_actualdata=hereitis)
+ 	* If you don’t expect your users to have a QR reader, create a simple landing page with a redirect to the tracked URL: your.org/campaignname is reasonable for somebody to type into a browser, so [hit it with a 301](https://support.google.com/webmasters/answer/93633?hl=en redirect to your.org/reallandingpage?utm_actualdata=hereitis).
 	* Or, use an URL shortener like [bit.ly](https://bitly.com/) to create the redirect to the campaign URL for you.
 
 ###Direct Traffic###
