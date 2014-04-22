@@ -12,6 +12,7 @@ tags:
   - Metrics
   - Social media
   - Desire paths
+  - Drupal Planet
 ---
 
 ![](/assets/images/blog/desire_path.jpg)
