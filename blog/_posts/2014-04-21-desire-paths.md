@@ -92,7 +92,9 @@ One of ThinkShout’s clients got significant traffic – roughly 3% of the site
 * What is it about our services that prompted the magazine to mention us? What do they know about their own audience that caused them to try to match them to our own? Are there other opportunities to engage that audience? Could what became a major landing page have been structured better?
 * What is it about the service described that prompted all the clickthroughs? These folks had a particular motivation for engaging with the content on the magazine’s site in the first place, which triggered the motivation to look at our offerings. How can we tap into that?
 * Was there any difference in behavior between the new visitors and repeat visitors?
+
 **Tip: Look at the actual sites and pages that are referring traffic your way.**
+
 * Go to the basic Referrals report in Google Analytics: “Acquisition” -> “All Referrals.”
 * Click the domain name of the “Source” that interests you. This will bring up a list of the pages on that site that have referred visitors to you.
 * Combine one of the referral pages with the domain of the source. (Side note: I’m sure Google used to provide a direct link to this, but doesn’t seem to anymore. Boo.)
