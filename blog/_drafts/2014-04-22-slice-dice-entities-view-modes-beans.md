@@ -2,9 +2,10 @@
 layout: post
 published: false
 featured: true
-short: A new Drupal module to display entities as blocks.
+title: "Slice and dice entities with views modes and Bean Entity View"
+short: "A new Drupal module to display entities as blocks."
 author: tauno
-tags: 
+tags:
   - Drupal Planet
   - Drupal Give
   - modules
@@ -17,7 +18,7 @@ Want to use a node as a block without creating a View or a block in custom code?
 This freshly-minted module builds on [Bean](https://drupal.org/project/bean) to provide a bean type for displaying an entity using a particular view mode. To start, there are only three basic configuration options:
 
 1. Type of entity to display
-2. View mode of that entity to render 
+2. View mode of that entity to render
 3. Specific entity to render
 
 ![Bean entity view creation screenshot](/assets/images/blog/bean_entity_view-screenshot.png)
