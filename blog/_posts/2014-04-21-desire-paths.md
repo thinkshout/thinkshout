@@ -24,7 +24,7 @@ If your first thought was something along the lines of “To support our work, o
 
 Nonprofit organizations often approach communications and outreach assuming that everyone should just get it. Because you spend so much time organizing around complex issues, you may assume a shared vocabulary with the broader world when that vocabulary really only resonates within your organization.
 
-This is further complicated because nonprofit departments often have competing priorities: Development wants donors, Program wants event participants, Communications wants names for the email marketing list. 
+This is further complicated because nonprofit departments often have competing priorities: Development wants donors, Program wants event participants, Communications wants names for the email marketing list.
 
 I can pretty much guarantee that very few people arrive at your website thinking, “You know what would be great? Giving you my email address.”
 
@@ -72,7 +72,7 @@ This is advice that has been repeated almost endlessly, but Google made it more 
 
 Social media traffic is generally some of the worst quality, in terms of meeting your organizational goals.
 
-The metrics for bounce rate, visit duration, and pages per session were significantly worse for social referrals compared to the site as a whole for 6 of the 9 organizations we reviewed. (Interestingly, the redesigned [ThinkShout.com](http://thinkshout.com/) showed significantly improvement across the board.) For the most part, they come, they spend a moment, they go back to Facebook.
+The metrics for bounce rate, visit duration, and pages per session were significantly worse for social referrals compared to the site as a whole for 6 of the 9 organizations we reviewed. (Interestingly, the redesigned [ThinkShout.com](http://thinkshout.com/) showed significant improvement across the board.) For the most part, they come, they spend a moment, they go back to Facebook.
 
 Social traffic can be driven by all sorts of user motivations, from links posted in your own social channels – “I want to keep up with the latest news from one of my favorite organizations” – to something posted on your Wall by your mom – “I’d better know what that is so I can talk about it at our next dinner.” You’re not likely to meet all of them, so your analysis should focus on the highest value interactions. What are the outliers? If you have a few pages that outperform the majority, try to figure out what’s unique about them.
 
@@ -138,6 +138,6 @@ This is, however, very important traffic: for some reason, almost unbidden, they
 
 Determining “how” users arrive at your site is just the beginning of understanding the “why.” The next question to answer is “what”, as in “What are they doing on our site now?” By combining “how” with “what”, we can build models of behavior that will help us understand what motivates our audiences to seek us out online.
 
-And once we get to the “why”, we be able to create structures that tap into the identified desire paths and subtly redirect them in ways that will help you meet your organizational goals. 
+And once we get to the “why”, we be able to create structures that tap into the identified desire paths and subtly redirect them in ways that will help you meet your organizational goals.
 
 So, if you’re so motivated, add to ThinkShout’s “direct traffic” report by bookmarking this page and we’ll point you to the next part when it’s available.
