@@ -2,6 +2,8 @@
 layout: post
 published: false
 featured: false
+author: vishal
+short: "Often, organizations become comfortable in their space and don’t venture out. But the adventure is part of the passion, and the former leads to discoveries that broaden organizations’ visions."
 ---
 
 ## E-Survival of the Nonprofit
@@ -18,7 +20,7 @@ ThinkShout’s own Brett Meyer [mentioned](http://thinkshout.com/blog/2014/04/on
 
 There was another session in which ThinkShout’s Betsy Ensley [discussed](http://14ntc.sched.org/event/ef0a4748e313b3c7d71ab6b7c9ace83b#.U1gnZeZdVh1) project and business process management. The session provided practical and achievable strategies to streamline processes. The notion was that agile and efficient principles should be used throughout different projects to create innovation, reduce risk, and therefore improve digital alignment. It shouldn’t be reserved for large projects, since even small ones affect an organization’s development and operation.
 
-There are several resources available on the web to nonprofits. Scour the internet for information and keep updated with other organizations’ outreach efforts. Whether through [blogs](http://topnonprofits.com/lists/nonprofit-blogs/), [communities])http://www.nten.org/), or [news](http://www.thenonprofittimes.com/).
+There are several resources available on the web to nonprofits. Scour the internet for information and keep updated with other organizations’ outreach efforts. Whether through [blogs](http://topnonprofits.com/lists/nonprofit-blogs/), [communities](http://www.nten.org/), or [news](http://www.thenonprofittimes.com/).
 
 It’s important to utilize education, processes, and resources. Often, organizations become comfortable in their space and don’t venture out. But the adventure is part of the passion, and the former leads to discoveries that broaden organizations’ visions.
 
