@@ -3,10 +3,11 @@ layout: post
 published: false
 featured: false
 author: vishal
+title: "E-Survival of the Nonprofit"
 short: "Often, organizations become comfortable in their space and don’t venture out. But the adventure is part of the passion, and the former leads to discoveries that broaden organizations’ visions."
 ---
 
-## E-Survival of the Nonprofit
+
 
 I’ve volunteered with several nonprofit organizations, but the ones I’ve worked with were deficient in technological education and resource suffrage. I knew there were several online resources for them, but my understanding was that they weren’t necessarily accessible. After attending NTEN’s annual Nonprofit Technology Conference (NTC), I realized that’s not the case. There are accessible resources, you just need to know where to look.
 
