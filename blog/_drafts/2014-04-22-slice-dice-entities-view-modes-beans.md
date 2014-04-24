@@ -7,8 +7,10 @@ short: A new Drupal module to display entities as blocks.
 author: tauno
 tags: 
   - Drupal Planet
-  - Drupal Give
+  - Bean Entity View
   - modules
+  - Bean
+  - Families USA
 ---
 
 Want to use a node as a block without creating a View or a block in custom code? Or maybe display a few fields of a node in a different region, but don't want to add the overhead and complexity of Panels or Display Suite?
