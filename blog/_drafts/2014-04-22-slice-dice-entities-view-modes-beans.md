@@ -29,4 +29,4 @@ Using the option to display a view mode of the current entity allows for display
 
 ![Example of using multiple view modes and the contextual option](/assets/images/blog/bean_entity_view_fusa_screenshot.jpg)
 
-We're already using this module in [several](http://familiesusa.org/issues/affordable-care-act) [projects](http://publichealthlawresearch.org/product/alcohol-drugs-and-tobacco-%E2%80%93-effects-dram-shop-liability), so it should be ready for additional testing and use. Patches to support block caching or other improvements are welcome!
+A [beta release](https://drupal.org/node/2247283) is available on drupal.org and this module is already used on [several](http://familiesusa.org/issues/affordable-care-act) [projects](http://publichealthlawresearch.org/product/alcohol-drugs-and-tobacco-%E2%80%93-effects-dram-shop-liability), so the code is stable and ready for use. Patches to support block caching or other improvements are welcome!
