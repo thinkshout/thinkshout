@@ -1,8 +1,8 @@
 ---
 layout: post
-published: false
+published: true
 featured: true
-title: Slice and Dice Entities with Views Modes and Bean Entity View
+title: Slice and Dice Entities with View Modes and Bean Entity View
 short: A new Drupal module to display entities as blocks.
 author: tauno
 tags: 
