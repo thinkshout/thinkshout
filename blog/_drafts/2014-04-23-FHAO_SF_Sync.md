@@ -4,7 +4,7 @@ author: brandon
 layout: post
 published: false
 featured: false
-short: Synchronizing 300,000+ Salesforce records with Drupal RedHen
+short: Synchronizing 300,000+ Salesforce records with Drupal RedHen for Facing History and Ourselves
 tags:
   - Drupal Planet
   - RedHen
