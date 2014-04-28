@@ -18,7 +18,7 @@ end
 desc 'Build and start local server'
 task :serve do
   system 'compass compile'
-  jekyll 'serve -w --baseurl=""'
+  jekyll 'serve -w --baseurl="" --drafts'
 end
 
 def jekyll(opts = '')
