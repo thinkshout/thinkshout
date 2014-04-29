@@ -1,15 +1,16 @@
 ---
-title: Salesforce "Big Data" for Facing History and Ourselves
+title: |
+  "Big Data" challenges with Salesforce for Facing History and Ourselves
 author: brandon
 layout: post
-published: false
-featured: false
+published: true
+featured: true
 short: Synchronizing 300,000+ Salesforce records with Drupal RedHen for Facing History and Ourselves
 tags:
   - Drupal Planet
   - RedHen
-    Salesforce
-    Facing History and Ourselves
+  - Salesforce
+  - data
 ---
 
 ## The Introduction
