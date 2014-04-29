@@ -1,6 +1,6 @@
 ---
 title: |
-  "Big Data" challenges with Salesforce for Facing History and Ourselves
+  "Big Data" Challenges with Salesforce for Facing History and Ourselves
 author: brandon
 layout: post
 published: true
