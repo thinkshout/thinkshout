@@ -25,7 +25,7 @@ This job requires some specific skills, but we're also looking for someone who's
 - You have an interest in working with new, emergent front end technologies.
 - You're a self-starter; you care about your development tools; you stay on top of new technologies and development best practices.
 
-## Compensation Packages
+## Compensation Package
 - A competitive salary.
 - Comprehensive benefits package including health insurance with dental, vision, and alternative care, a matching 401k, and a very generous 30 day PTO policy.
 - Get paid to learn and go to conferences, such as DrupalCon, Dreamforce and the Nonprofit Technology Conference.

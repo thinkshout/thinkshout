@@ -18,7 +18,7 @@ Web engineers at ThinkShout are responsible for the delivery of world-class open
 - You don't mind getting your hands dirty. (Let's face it, we'd all like to write module code all the time, but there's always going to be a good amount of configuration management with Drupal gigs.) 
 - You want to make a commitment to our team, work, community, and clients.
 
-###Compensation Packages
+###Compensation Package
 - A competitive salary
 - Comprehensive benefits package including health insurance with dental, vision, and alternative care, a matching 401k, and a very generous 30 day flat PTO policy
 - Get paid to learn and go to conferences, such as DrupalCon, Dreamforce and the Nonprofit Technology Conference

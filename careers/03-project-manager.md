@@ -28,7 +28,7 @@ active: false
 - You want to make a commitment to our team, work, community, and clients.
 - You like to learn and get paid to go to conferences, such as DrupalCon, Dreamforce and the Nonprofit Technology Conference.
 
-###Compensation Packages
+###Compensation Package
 - A competitive salary
 - Comprehensive benefits package including health insurance with dental, vision, and alternative care, a matching 401k, and a very generous 30 day flat PTO policy
 - Get paid to learn and go to conferences, such as DrupalCon, Dreamforce and the Nonprofit Technology Conference
