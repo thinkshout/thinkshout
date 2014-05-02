@@ -11,9 +11,9 @@ tags:
 
 Like most development shops, we like code. It gives us and our clients a feeling of confidence to have configuration and logic as much as possible living in code, rather than in the database. So naturally, as we build Drupal sites, we use the [Features](https://drupal.org/project/features) module to lock configuration into code.
 
-Date formats are used in many places, including fields on content type view modes, and in views configurations. They are simple to set up in the dates UI in Drupal, so you would think it would be easy to export into code. Unfortunately, there is no simple way to export it. Fortunately, there is a different way, still easy, to get this into code, and it's a great introduction to using Drupal module hooks.
+Not too long ago when building some features for RidePDW.com, we needed to format some dates in specific ways, primarily on their [events page](https://www.ridepdw.com/events) and their [blog](https://www.ridepdw.com/blog). Date formats are used in many places on probably every site, including fields on content type view modes, and in views configurations. They are simple to set up in the dates UI in Drupal, so you would think it would be easy to export into code. Unfortunately, there is no simple way to export it. Fortunately, there is a different way, still easy, to get this into code, and it's a great introduction to using Drupal module hooks.
 
-We will look at using custom code plus a small export using features and [strongarm](https://drupal.org/project/strongarm).
+We will look at using custom code plus a small export using features and [strongarm](https://drupal.org/project/strongarm). This is the same process we used for RidePDW, and it worked perfectly.
 
 ## Collect your facts
 
@@ -33,13 +33,16 @@ Quick overview of the code:
 2. hook_date_format_types().
 3. strongarm export.
 
-Let's start with hook_date_formats(). This is the same thing as creating a new format at admin/config/regional/date-time/formats.
+Let's start with hook_date_formats(). This accomplishes the same thing as creating a new format at admin/config/regional/date-time/formats.
 
-[SCREENSHOT]
+![Date formats screenshot](/assets/images/blog/date-formats-list-1.jpg "Date formats")
+
+![Creating new date format](/assets/images/blog/date-formats-creating.jpg "Creating new date format")
 
 Here's an example.
 
 ```php
+<?php
 /**
  * Implements hook_date_formats().
  */
@@ -67,11 +70,12 @@ The only effect this hook implementation has is making formats available in the 
 
 Moving on to hook_date_format_types(). This is similar to creating a "date type" at admin/config/regional/date-time, but it only creates a machine name with a human readable name.
 
-[SCREENSHOT]
+![Date format types](/assets/images/blog/date-formats-type-list.jpg "Date format types")
 
 Here's the example:
 
 ```php
+<?php
 /**
  * Implements hook_date_format_types().
  */
@@ -82,11 +86,25 @@ function mysite_common_date_format_types() {
 }
 ```
 
-Clear caches, go to your site's date format settings, and you'll see your new date format. [SCREENSHOT] However, navigate to field display settings for some content type, and you will see the name of your custom date format type, but the format won't be right. [SCREENSHOT] Come back to the date format settings page, and click that "save" button, and now the date formats presented in field settings will be correct.
+Clear caches, return to your site's date format settings, and you'll see your new date format.
+
+![Date format types, new type added](/assets/images/blog/date-formats-type-list-after.jpg "Date format types, new type added")
+
+However, navigate to the display settings of a date field, and you will see the name of your custom date format type, but the format won't be right.
+
+![Field display settings](/assets/images/blog/date-formats-field-display.jpg "Field display settings")
+
+Come back to the date format settings page, and click that "save" button, and now the date formats presented in field settings will be correct.
+
+![Field display settings, better](/assets/images/blog/date-formats-field-display-better.jpg "Field display settings, better")
 
 To make those setting stick and be deployable, we need to do one final thing. We export a new variable. Saving the date format types page creates a new variable that ties the new date format type (just a name) to an actual format (the code that defines the format, such as "Y-m").
 
-So head back to the features UI, and you should see a new variable listed in the strongarm section. [SCREENSHOT] This is specifically the date format *type*. Export it into your mysite_common feature.
+So head back to the features UI, and you should see a new variable listed in the strongarm section.
+
+![Features export](/assets/images/blog/date-formats-features-export.jpg "Features export")
+
+This is specifically the date format *type*. Export it into your mysite_common feature.
 
 ## Done
 
