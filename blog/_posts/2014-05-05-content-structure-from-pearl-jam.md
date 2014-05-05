@@ -2,6 +2,7 @@
 layout: post
 published: false
 featured: false
+author: brett
 ---
 
 ##What Nonprofits Can Learn About Content Structure… from Pearl Jam
@@ -22,7 +23,7 @@ In a striking example of why tech folks shouldn’t be allowed to name concepts,
 
 If you use a modern CMS, you’ve already used structured content to a degree. The title of your page or post is almost always separate from the body. This allows you, at the most basic level, to build a dynamic page of blog posts that displays only the title and maybe a snippet of the body, which then links off to a detail page containing the full post.
 
-The New York Times uses this concept, breaking out fields for author, publication date, and more for its news stories. Amazon has taken it to an entirely different level by assigning scores of categories to its products; when you narrow down your mattress search to a queen size goose down featherbed from Pacific Coast, you’re taking advantage of structured data (in the form of faceted search).
+The New York Times uses this concept, breaking out fields for author, publication date, and more for its news stories. Amazon has taken it to an entirely different level by assigning scores of categories to its products; when you narrow down your mattress search to a [queen size goose down featherbed from Pacific Coast](http://www.google.com/url?q=http%3A%2F%2Fwww.amazon.com%2Fs%2Fref%3Dsr_nr_p_89_0%3Frh%3Dn%253A1055398%252Cn%253A%25211063498%252Cn%253A1063252%252Cn%253A3732351%252Cn%253A3732361%252Cp_n_size_browse-bin%253A362281011%252Cp_n_feature_keywords_browse-bin%253A5707112011%252Cp_89%253APacific%2BCoast%26bbn%3D3732361%26ie%3DUTF8%26qid%3D1398384943%26rnid%3D2528832011&sa=D&sntz=1&usg=AFQjCNEl7hBe1NuOVj7ns-6p1GxLeERAmA), you’re taking advantage of structured data (in the form of [faceted search](http://en.wikipedia.org/wiki/Faceted_search)).
 
 What Pearl Jam has done – and what every nonprofit should think about doing – is match the motivations their audience has in visiting their website to PJ’s own (organizational) goals and structured their site content so the two complement each other.
 
