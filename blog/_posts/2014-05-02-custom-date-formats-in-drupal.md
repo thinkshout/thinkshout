@@ -1,8 +1,9 @@
 ---
+title: "Exporting Custom Date Formats in Drupal"
 layout: post
 published: true
 featured: true
-short: "Exporting Custom Date Formats in Drupal"
+short: Having trouble exporting dates in Drupal? We've got an easy solution for you.
 author: david
 tags:
 - Drupal Planet
