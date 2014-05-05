@@ -67,7 +67,7 @@ function mysite_common_date_formats() {
 
 The type points to the date format type that this format will be available for. I tend to make it unique and prefix it with the site name in order to avoid future namespace collisions. You may want to prefix it with the full module name. The format key is a string that ends up getting passed to `date()`. I usually leave locales as an empty array because I want the date format to be available for all locales.
 
-The only effect this hook implementation has that it makes formats available in the date admin UI. Nothing more. Full hook documentation at https://api.drupal.org/hook_date_formats.
+The only effect this hook implementation has is that it makes formats available in the date admin UI. Nothing more. Full hook documentation at https://api.drupal.org/hook_date_formats.
 
 Moving on to hook_date_format_types(). This is similar to creating a "date type" at admin/config/regional/date-time, but it only creates a machine name with a human readable name.
 
