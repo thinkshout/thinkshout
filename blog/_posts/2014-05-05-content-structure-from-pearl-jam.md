@@ -1,12 +1,15 @@
 ---
+title: "What Nonprofits Can Learn About Content Structure… from Pearl Jam"
 layout: post
 published: false
 featured: false
 short: 
 author: brett
+tags:
+  - Content strategy
+  - NPtech
+  - Pearl Jam
 ---
-
-##What Nonprofits Can Learn About Content Structure… from Pearl Jam
 
 Header Image: https://www.flickr.com/photos/jlbnyc/10374193925
 
