@@ -2,7 +2,7 @@
 layout: post
 published: true
 featured: true
-short: "Deploying custom date formats in Drupal"
+short: "Exporting Custom Date Formats in Drupal"
 author: david
 tags:
 - Drupal Planet
@@ -11,13 +11,13 @@ tags:
 
 Like most development shops, we like code. It gives us and our clients a feeling of confidence to have configuration and logic as much as possible living in code, rather than in the database. So naturally, as we build Drupal sites, we use the [Features](https://drupal.org/project/features) module to lock configuration into code.
 
-Not too long ago when building some features for RidePDW.com, we needed to format some dates in specific ways, primarily on their [events page](https://www.ridepdw.com/events) and their [blog](https://www.ridepdw.com/blog). Date formats are used in many places on probably every site, including fields on content type view modes, and in views configurations. They are simple to set up in the dates UI in Drupal, so you would think it would be easy to export into code. Unfortunately, there is no simple way to export it. Fortunately, there is a different way, still easy, to get this into code, and it's a great introduction to using Drupal module hooks.
+Not too long ago, when we were building some features for RidePDW.com, we needed to format some dates in specific ways, primarily on their [events page](https://www.ridepdw.com/events) and their [blog](https://www.ridepdw.com/blog). Date formats are used in many places on probably every site, including fields on content type view modes, and in views configurations. They are simple to set up in the dates UI in Drupal, so you would think it would be easy to export into code. Unfortunately, there is no simple way to export it. Fortunately, there is a different way, still easy, to get this into code, and it's a great introduction to using Drupal module hooks.
 
-We will look at using custom code plus a small export using features and [strongarm](https://drupal.org/project/strongarm). This is the same process we used for RidePDW, and it worked perfectly.
+We will look at using custom code plus a small export using features and [strongarm](https://drupal.org/project/strongarm). This is the same process we used for RidePDW and it worked perfectly.
 
 ## Collect your facts
 
-Decide on a format. Go ahead and see the format options at http://php.net/date, so you know what the options are.
+Decide on a format. Go ahead and look at the format options at http://php.net/date, so you know what the options are.
 
 Pick a name for that format. Examples: "Month Year" or "Short: MM D".
 
@@ -64,9 +64,9 @@ function mysite_common_date_formats() {
 }
 ```
 
-The type points to the date format type that this format will be available for. I tend to make it unique and prefix it with the site name, to avoid future namespace collisions. You may want to prefix it with the full module name. The format key is a string that ends up getting passed to `date()`. I usually leave locales as an empty array, because I want the date format to be available for all locales.
+The type points to the date format type that this format will be available for. I tend to make it unique and prefix it with the site name in order to avoid future namespace collisions. You may want to prefix it with the full module name. The format key is a string that ends up getting passed to `date()`. I usually leave locales as an empty array because I want the date format to be available for all locales.
 
-The only effect this hook implementation has is making formats available in the date admin UI. Nothing more. Full hook documentation at https://api.drupal.org/hook_date_formats.
+The only effect this hook implementation has that it makes formats available in the date admin UI. Nothing more. Full hook documentation at https://api.drupal.org/hook_date_formats.
 
 Moving on to hook_date_format_types(). This is similar to creating a "date type" at admin/config/regional/date-time, but it only creates a machine name with a human readable name.
 
@@ -90,17 +90,17 @@ Clear caches, return to your site's date format settings, and you'll see your ne
 
 ![Date format types, new type added](/assets/images/blog/date-formats-type-list-after.jpg "Date format types, new type added")
 
-However, navigate to the display settings of a date field, and you will see the name of your custom date format type, but the format won't be right.
+However, navigate to the display settings of a date field and you will see the name of your custom date format type, but the format won't be right.
 
 ![Field display settings](/assets/images/blog/date-formats-field-display.jpg "Field display settings")
 
-Come back to the date format settings page, and click that "save" button, and now the date formats presented in field settings will be correct.
+Come back to the date format settings page and click that "save" button. Now the date formats presented in field settings will be correct.
 
 ![Field display settings, better](/assets/images/blog/date-formats-field-display-better.jpg "Field display settings, better")
 
 To make those setting stick and be deployable, we need to do one final thing. We export a new variable. Saving the date format types page creates a new variable that ties the new date format type (just a name) to an actual format (the code that defines the format, such as "Y-m").
 
-So head back to the features UI, and you should see a new variable listed in the strongarm section.
+So head back to the features UI and you should see a new variable listed in the strongarm section.
 
 ![Features export](/assets/images/blog/date-formats-features-export.jpg "Features export")
 
