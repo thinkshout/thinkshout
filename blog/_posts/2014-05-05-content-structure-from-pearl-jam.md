@@ -1,0 +1,91 @@
+---
+layout: post
+published: false
+featured: false
+---
+
+##What Nonprofits Can Learn About Content Structure… from Pearl Jam
+
+Header Image: https://www.flickr.com/photos/jlbnyc/10374193925
+
+Pearl Jam have been posterboys for a lot of things, but probably not structured web content. Content strategists like to point to NPR’s [Create Once, Publish Everywhere (COPE)](http://blog.programmableweb.com/2009/10/13/cope-create-once-publish-everywhere/) framework, to large media outlets, sometimes to [the U.S. government](http://www.howto.gov/web-content/technology/content-management-systems/how-to-create-open-structured-content) – but given the breadth of coverage (and budgets) available to those entities, making the move to fully structured content may seem daunting in the nonprofit context.
+
+If Pearl Jam can do it, so can you.
+
+The basic concept is this: by separating out the most important components of your content into “fields”, instead of dumping everything from images to embedded videos to pull quotes into a WYSIWYG editor, you’ll be able to :
+
+* Display your content responsively across devices;
+* Share it more easily with your affiliates and supporters; and 
+* Create dynamic ways to surface relevant content and encourage engagement.
+
+In a striking example of why tech folks shouldn’t be allowed to name concepts, creating fields to structure your content is affectionately known as the difference between making [blobs and chunks](http://karenmcgrane.com/2012/09/04/adapting-ourselves-to-adaptive-content-video-slides-and-transcript-oh-my/).
+
+If you use a modern CMS, you’ve already used structured content to a degree. The title of your page or post is almost always separate from the body. This allows you, at the most basic level, to build a dynamic page of blog posts that displays only the title and maybe a snippet of the body, which then links off to a detail page containing the full post.
+
+The New York Times uses this concept, breaking out fields for author, publication date, and more for its news stories. Amazon has taken it to an entirely different level by assigning scores of categories to its products; when you narrow down your mattress search to a queen size goose down featherbed from Pacific Coast, you’re taking advantage of structured data (in the form of faceted search).
+
+What Pearl Jam has done – and what every nonprofit should think about doing – is match the motivations their audience has in visiting their website to PJ’s own (organizational) goals and structured their site content so the two complement each other.
+
+Pearl Jam’s core offering is music. People visit their website to find that music, either in the form of upcoming (or past) shows, lyrics, or songs they can buy. So, much of Pearl Jam’s website is structured around the concept of the song.
+
+[Note that I don’t have any insider’s knowledge about the exact structure or software they’re using. This is just how we would do it if we built their site in Drupal.]
+
+[screenshot]
+
+Practically every song Pearl Jam has ever recorded or performed live has a place on the website, and they’re all structured the same:
+
+Title
+Release Date
+Composer
+Artist
+Image
+Lyrics
+
+That’s it. Everything else on that page, and much of the site, is built through the application of structured data.
+
+[screenshot]
+
+If you look at an individual album, you’re actually looking at a different content type, which has its own structure:
+
+Title
+Release Date
+Cover Image
+Purchase Links
+Body
+Song [REFERENCE]
+
+It’s that REFERENCE field that’s key. Every album is a collection of references to the individual songs, rather than list built by hand. (On Drupal, we’d probably use something like Entity Reference.) Clicking on an individual song takes you to its detail page.
+
+[screenshot]
+
+It gets more interesting when you look at a Setlist, another structured content type:
+
+Venue
+Location
+Date
+Concert Poster Image
+Product Links
+Bootleg Image
+Song [REFERENCE]
+Live Image [REFERENCE]
+
+A setlist is built up using the same song REFERENCE field as an album; each song exists as a single entity, but it can be referenced from hundreds of other pages (in the case of a classic like “Jeremy”). 
+
+All the way back in 2000, Pearl Jam started recording every show they did off the mixing board so they could sell high-quality recordings. While you can’t quite get every one of the 672 versions of “Alive” they’ve performed over the years, you can come pretty close. 
+
+Setlists include the all-important link to purchase a copy of an entire live performance.
+
+This relational system has created endless connections between the Songs they’ve performed – their core content offering – and where and when they’ve performed them. By then layering on the ability to purchase copies of those concerts at any time, Pearl Jam has taken one of the primary motivations of their audience – to engage with PJ’s music – and tied it directly to their organizational goal of making money, without shoving that in your face.
+
+[screenshot]
+
+It’s also worth noting that structured data has also allowed Pearl Jam to flesh out the detail pages for each of its content types with just a few lines of code.
+
+On a song page, the “First Played”, “Last Played”, and “Times Played” lines are created dynamically, as is the list of every place and date it’s been performed. Tours are created by referencing each of the setlists. I imagine that the slider showing all of the album covers is created by pulling the cover image associated with each album (instead of being inserted by hand).
+
+Once your content is structured, the ways you can reformat and display it are limited only by your imagination communications plan, your organizational goals, and your CMS. Oh, and it helps if you understand the motivations of your various audiences.
+
+What’s your core content offering? Can you create a similar structure? Have you already?
+
+And if anybody with PhotoShop skills wants to create that new poster for Pearl Jam, highlighting their mastery of structured content...
+
