@@ -39,12 +39,12 @@ Pearl Jam’s core offering is music. People visit their website to find that mu
 
 Practically every song Pearl Jam has ever recorded or performed live has a place on the website, and they’re all structured the same:
 
-Title
-Release Date
-Composer
-Artist
-Image
-Lyrics
+* Title
+* Release Date
+* Composer
+* Artist
+* Image
+* Lyrics
 
 That’s it. Everything else on that page, and much of the site, is built through the application of structured data.
 
@@ -52,27 +52,27 @@ That’s it. Everything else on that page, and much of the site, is built throug
 
 If you look at an individual album, you’re actually looking at a different content type, which has its own structure:
 
-Title
-Release Date
-Cover Image
-Purchase Links
-Body
-Song [REFERENCE]
+* Title
+* Release Date
+* Cover Image
+* Purchase Links
+* Body
+* Song [REFERENCE]
 
-It’s that REFERENCE field that’s key. Every album is a collection of references to the individual songs, rather than list built by hand. (On Drupal, we’d probably use something like Entity Reference.) Clicking on an individual song takes you to its detail page.
+It’s that REFERENCE field that’s key. Every album is a collection of references to the individual songs, rather than list built by hand. (On Drupal, we’d probably use something like [Entity Reference.](https://drupal.org/project/entityreference)) Clicking on an individual song takes you to its detail page.
 
 [screenshot]
 
 It gets more interesting when you look at a Setlist, another structured content type:
 
-Venue
-Location
-Date
-Concert Poster Image
-Product Links
-Bootleg Image
-Song [REFERENCE]
-Live Image [REFERENCE]
+* Venue
+* Location
+* Date
+* Concert Poster Image
+* Product Links
+* Bootleg Image
+* Song [REFERENCE]
+* Live Image [REFERENCE]
 
 A setlist is built up using the same song REFERENCE field as an album; each song exists as a single entity, but it can be referenced from hundreds of other pages (in the case of a classic like “Jeremy”). 
 
@@ -86,9 +86,9 @@ This relational system has created endless connections between the Songs they’
 
 It’s also worth noting that structured data has also allowed Pearl Jam to flesh out the detail pages for each of its content types with just a few lines of code.
 
-On a song page, the “First Played”, “Last Played”, and “Times Played” lines are created dynamically, as is the list of every place and date it’s been performed. Tours are created by referencing each of the setlists. I imagine that the slider showing all of the album covers is created by pulling the cover image associated with each album (instead of being inserted by hand).
+[On a song page](http://pearljam.com/music/lyrics/997/studio/21989/sirens?ref_album_id=21996), the “First Played”, “Last Played”, and “Times Played” lines are created dynamically, as is the list of every place and date it’s been performed. [Tours are created by referencing each of the setlists](http://pearljam.com/setlists/1087/2014). I imagine that the [slider showing all of the album covers](http://pearljam.com/music/albums/997/studio) is created by pulling the cover image associated with each album (instead of being inserted by hand).
 
-Once your content is structured, the ways you can reformat and display it are limited only by your imagination communications plan, your organizational goals, and your CMS. Oh, and it helps if you understand the motivations of your various audiences.
+Once your content is structured, the ways you can reformat and display it are limited only by your imagination communications plan, your organizational goals, and your CMS. Oh, and it helps if you [understand the motivations of your various audiences](http://thinkshout.com/blog/2014/04/desire-paths/).
 
 What’s your core content offering? Can you create a similar structure? Have you already?
 
