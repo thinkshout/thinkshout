@@ -1,18 +1,18 @@
 ---
 layout: post
 title: What Nonprofits Can Learn About Content Structure… from Pearl Jam
-published: false
+published: true
 featured: false
 short: null
 author: brett
-tags: 
+tags:
   - Content strategy
   - NPtech
   - Pearl Jam
 ---
 
-[Header Image]
-*[Photo](https://www.flickr.com/photos/24365773@N03/7425028964/in/photolist-cixdqJ-2E86ff-cj8eg3-cj8dqL-ci23iW-S2mmU-ci22Bh-cj8ekG-9QjszY-3bpmzG-6EyJ8m-2zsghF-6QWpZh-e22GeM-e28iUm-e28ifu-2FeFyx-RU5BQ-83PwyB-6FsT6p-bqThKu-bDNe9n-bqTmwL-bDNi9k-bDNejv-bDNhYX-2zsmgp-2zwDQo-2zsiG8-2zwMuu-2zsnTt-2zsow6-2zwF89-2zsfUK-2zse5R-2zsmSi-2zsko8-2zsnip-2zwHAm-2zwBo5-2zwFRQ-2zsp5K-2zwGzu-6QWpQU-6QWjFo-8dpsda-rKaZw-8dsJu5-8dpsmZ-8dpsvH) by [Phil King](https://www.flickr.com/photos/24365773@N03/), licensed under [CC 2.0](https://creativecommons.org/licenses/by/2.0/).*
+![Pearl Jam](/assets/images/blog/pearl-jam-header.jpg)
+<div class="caption">by [Phil King](https://www.flickr.com/photos/24365773@N03/), licensed under [CC 2.0](https://creativecommons.org/licenses/by/2.0/).</div>
 
 Pearl Jam have been posterboys for a lot of things, but probably not structured web content. Content strategists like to point to NPR’s [Create Once, Publish Everywhere (COPE)](http://blog.programmableweb.com/2009/10/13/cope-create-once-publish-everywhere/) framework, to large media outlets, sometimes to [the U.S. government](http://www.howto.gov/web-content/technology/content-management-systems/how-to-create-open-structured-content) – but given the breadth of coverage (and budgets) available to those entities, making the move to fully structured content may seem daunting in the nonprofit context.
 
@@ -21,7 +21,7 @@ If Pearl Jam can do it, so can you.
 The basic concept is this: by separating out the most important components of your content into “fields”, instead of dumping everything from images to embedded videos to pull quotes into a WYSIWYG editor, you’ll be able to :
 
 * Display your content responsively across devices;
-* Share it more easily with your affiliates and supporters; and 
+* Share it more easily with your affiliates and supporters; and
 * Create dynamic ways to surface relevant content and encourage engagement.
 
 In a striking example of why tech folks shouldn’t be allowed to name concepts, creating fields to structure your content is affectionately known as the difference between making [blobs and chunks](http://karenmcgrane.com/2012/09/04/adapting-ourselves-to-adaptive-content-video-slides-and-transcript-oh-my/).
@@ -36,7 +36,7 @@ Pearl Jam’s core offering is music. People visit their website to find that mu
 
 [Note that I don’t have any insider’s knowledge about the exact structure or software they’re using. This is just how we would do it if we built their site in Drupal.]
 
-[screenshot pj1]
+![Pearl Jam 1](/assets/images/blog/pj1.jpg)
 
 Practically every song Pearl Jam has ever recorded or performed live has a place on the website, and they’re all structured the same:
 
@@ -49,7 +49,7 @@ Practically every song Pearl Jam has ever recorded or performed live has a place
 
 That’s it. Everything else on that page, and much of the site, is built through the application of structured data.
 
-[screenshot pj2]
+![Pearl Jam 2](/assets/images/blog/pj2.jpg)
 
 If you look at an individual album, you’re actually looking at a different content type, which has its own structure:
 
@@ -62,7 +62,7 @@ If you look at an individual album, you’re actually looking at a different con
 
 It’s that REFERENCE field that’s key. Every album is a collection of references to the individual songs, rather than list built by hand. (On Drupal, we’d probably use something like [Entity Reference.](https://drupal.org/project/entityreference)) Clicking on an individual song takes you to its detail page.
 
-[screenshot pj3]
+![Pearl Jam 3](/assets/images/blog/pj3.jpg)
 
 It gets more interesting when you look at a Setlist, another structured content type:
 
@@ -75,15 +75,15 @@ It gets more interesting when you look at a Setlist, another structured content 
 * Song [REFERENCE]
 * Live Image [REFERENCE]
 
-A setlist is built up using the same song REFERENCE field as an album; each song exists as a single entity, but it can be referenced from hundreds of other pages (in the case of a classic like “Jeremy”). 
+A setlist is built up using the same song REFERENCE field as an album; each song exists as a single entity, but it can be referenced from hundreds of other pages (in the case of a classic like “Jeremy”).
 
-All the way back in 2000, Pearl Jam started recording every show they did off the mixing board so they could sell high-quality recordings. While you can’t quite get every one of the 672 versions of “Alive” they’ve performed over the years, you can come pretty close. 
+All the way back in 2000, Pearl Jam started recording every show they did off the mixing board so they could sell high-quality recordings. While you can’t quite get every one of the 672 versions of “Alive” they’ve performed over the years, you can come pretty close.
 
 Setlists include the all-important link to purchase a copy of an entire live performance.
 
 This relational system has created endless connections between the Songs they’ve performed – their core content offering – and where and when they’ve performed them. By then layering on the ability to purchase copies of those concerts at any time, Pearl Jam has taken one of the primary motivations of their audience – to engage with PJ’s music – and tied it directly to their organizational goal of making money, without shoving that in your face.
 
-[screenshot pj4]
+![Pearl Jam 4](/assets/images/blog/pj4.jpg)
 
 It’s also worth noting that structured data has also allowed Pearl Jam to flesh out the detail pages for each of its content types with just a few lines of code.
 
