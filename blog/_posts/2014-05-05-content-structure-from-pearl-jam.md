@@ -11,7 +11,6 @@ tags:
   - Pearl Jam
 ---
 
-Header Image: https://www.flickr.com/photos/jlbnyc/10374193925
 
 Pearl Jam have been posterboys for a lot of things, but probably not structured web content. Content strategists like to point to NPR’s [Create Once, Publish Everywhere (COPE)](http://blog.programmableweb.com/2009/10/13/cope-create-once-publish-everywhere/) framework, to large media outlets, sometimes to [the U.S. government](http://www.howto.gov/web-content/technology/content-management-systems/how-to-create-open-structured-content) – but given the breadth of coverage (and budgets) available to those entities, making the move to fully structured content may seem daunting in the nonprofit context.
 
@@ -35,7 +34,7 @@ Pearl Jam’s core offering is music. People visit their website to find that mu
 
 [Note that I don’t have any insider’s knowledge about the exact structure or software they’re using. This is just how we would do it if we built their site in Drupal.]
 
-![](/assets/images/blog![](/assets/images/blog/pj1.jpg)[screenshot]
+[screenshot pj1]
 
 Practically every song Pearl Jam has ever recorded or performed live has a place on the website, and they’re all structured the same:
 
@@ -48,7 +47,7 @@ Practically every song Pearl Jam has ever recorded or performed live has a place
 
 That’s it. Everything else on that page, and much of the site, is built through the application of structured data.
 
-[screenshot]
+[screenshot pj2]
 
 If you look at an individual album, you’re actually looking at a different content type, which has its own structure:
 
@@ -61,7 +60,7 @@ If you look at an individual album, you’re actually looking at a different con
 
 It’s that REFERENCE field that’s key. Every album is a collection of references to the individual songs, rather than list built by hand. (On Drupal, we’d probably use something like [Entity Reference.](https://drupal.org/project/entityreference)) Clicking on an individual song takes you to its detail page.
 
-[screenshot]
+[screenshot pj2]
 
 It gets more interesting when you look at a Setlist, another structured content type:
 
@@ -82,7 +81,7 @@ Setlists include the all-important link to purchase a copy of an entire live per
 
 This relational system has created endless connections between the Songs they’ve performed – their core content offering – and where and when they’ve performed them. By then layering on the ability to purchase copies of those concerts at any time, Pearl Jam has taken one of the primary motivations of their audience – to engage with PJ’s music – and tied it directly to their organizational goal of making money, without shoving that in your face.
 
-[screenshot]
+[screenshot pj4]
 
 It’s also worth noting that structured data has also allowed Pearl Jam to flesh out the detail pages for each of its content types with just a few lines of code.
 
