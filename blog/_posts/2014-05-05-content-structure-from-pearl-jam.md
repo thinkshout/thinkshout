@@ -12,7 +12,7 @@ tags:
 ---
 
 ![Pearl Jam](/assets/images/blog/pearl-jam-header.jpg)
-<div class="caption">by [Phil King](https://www.flickr.com/photos/24365773@N03/), licensed under [CC 2.0](https://creativecommons.org/licenses/by/2.0/).</div>
+<div class="caption">[Photo](https://www.flickr.com/photos/24365773@N03/7425028964/in/photolist-cixdqJ-2E86ff-cj8eg3-cj8dqL-ci23iW-S2mmU-ci22Bh-cj8ekG-9QjszY-3bpmzG-6EyJ8m-2zsghF-6QWpZh-e22GeM-e28iUm-e28ifu-2FeFyx-RU5BQ-83PwyB-6FsT6p-bqThKu-bDNe9n-bqTmwL-bDNi9k-bDNejv-bDNhYX-2zsmgp-2zwDQo-2zsiG8-2zwMuu-2zsnTt-2zsow6-2zwF89-2zsfUK-2zse5R-2zsmSi-2zsko8-2zsnip-2zwHAm-2zwBo5-2zwFRQ-2zsp5K-2zwGzu-6QWpQU-6QWjFo-8dpsda-rKaZw-8dsJu5-8dpsmZ-8dpsvH) by [Phil King](https://www.flickr.com/photos/24365773@N03/), licensed under [CC 2.0](https://creativecommons.org/licenses/by/2.0/).</div>
 
 Pearl Jam have been posterboys for a lot of things, but probably not structured web content. Content strategists like to point to NPR’s [Create Once, Publish Everywhere (COPE)](http://blog.programmableweb.com/2009/10/13/cope-create-once-publish-everywhere/) framework, to large media outlets, sometimes to [the U.S. government](http://www.howto.gov/web-content/technology/content-management-systems/how-to-create-open-structured-content) – but given the breadth of coverage (and budgets) available to those entities, making the move to fully structured content may seem daunting in the nonprofit context.
 
