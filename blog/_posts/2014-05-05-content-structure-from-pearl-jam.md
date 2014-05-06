@@ -35,7 +35,7 @@ Pearl Jam’s core offering is music. People visit their website to find that mu
 
 [Note that I don’t have any insider’s knowledge about the exact structure or software they’re using. This is just how we would do it if we built their site in Drupal.]
 
-![](/assets/images/blog/pj1.jpg)[screenshot]
+![](/assets/images/blog![](/assets/images/blog/pj1.jpg)[screenshot]
 
 Practically every song Pearl Jam has ever recorded or performed live has a place on the website, and they’re all structured the same:
 
