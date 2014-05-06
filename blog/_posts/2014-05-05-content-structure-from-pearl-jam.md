@@ -11,6 +11,8 @@ tags:
   - Pearl Jam
 ---
 
+[Header Image]
+*Photo by [Phil King](https://www.flickr.com/photos/24365773@N03/), licensed under [CC 2.0](https://creativecommons.org/licenses/by/2.0/).*
 
 Pearl Jam have been posterboys for a lot of things, but probably not structured web content. Content strategists like to point to NPR’s [Create Once, Publish Everywhere (COPE)](http://blog.programmableweb.com/2009/10/13/cope-create-once-publish-everywhere/) framework, to large media outlets, sometimes to [the U.S. government](http://www.howto.gov/web-content/technology/content-management-systems/how-to-create-open-structured-content) – but given the breadth of coverage (and budgets) available to those entities, making the move to fully structured content may seem daunting in the nonprofit context.
 
