@@ -3,7 +3,7 @@ layout: post
 title: What Nonprofits Can Learn About Content Structure… from Pearl Jam
 published: true
 featured: false
-short: null
+short: "Pearl Jam's website is a great example of good content stratgy. What's better? It's achieveable for nonprofits as well."
 author: brett
 tags:
   - Content strategy
@@ -35,7 +35,7 @@ What Pearl Jam has done – and what every nonprofit should think about doing �
 
 Pearl Jam’s core offering is music. People visit their website to find that music, either in the form of upcoming (or past) shows, lyrics, or songs they can buy. So, much of Pearl Jam’s website is structured around the concept of the song.
 
-[Note that I don’t have any insider’s knowledge about the exact structure or software they’re using. This is just how we would do it if we built their site in Drupal.]
+*[Note that I don’t have any insider’s knowledge about the exact structure or software they’re using. This is just how we would do it if we built their site in Drupal.]*
 
 ![Pearl Jam 1](/assets/images/blog/pj1.jpg)
 
