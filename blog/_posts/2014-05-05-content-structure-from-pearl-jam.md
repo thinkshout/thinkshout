@@ -1,11 +1,11 @@
 ---
-title: "What Nonprofits Can Learn About Content Structure… from Pearl Jam"
 layout: post
+title: What Nonprofits Can Learn About Content Structure… from Pearl Jam
 published: false
 featured: false
-short: 
+short: null
 author: brett
-tags:
+tags: 
   - Content strategy
   - NPtech
   - Pearl Jam
@@ -35,7 +35,7 @@ Pearl Jam’s core offering is music. People visit their website to find that mu
 
 [Note that I don’t have any insider’s knowledge about the exact structure or software they’re using. This is just how we would do it if we built their site in Drupal.]
 
-[screenshot]
+![](/assets/images/blog/pj1.jpg)[screenshot]
 
 Practically every song Pearl Jam has ever recorded or performed live has a place on the website, and they’re all structured the same:
 
@@ -93,4 +93,3 @@ Once your content is structured, the ways you can reformat and display it are li
 What’s your core content offering? Can you create a similar structure? Have you already?
 
 And if anybody with PhotoShop skills wants to create that new poster for Pearl Jam, highlighting their mastery of structured content...
-
