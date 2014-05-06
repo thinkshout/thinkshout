@@ -62,7 +62,7 @@ If you look at an individual album, you’re actually looking at a different con
 
 It’s that REFERENCE field that’s key. Every album is a collection of references to the individual songs, rather than list built by hand. (On Drupal, we’d probably use something like [Entity Reference.](https://drupal.org/project/entityreference)) Clicking on an individual song takes you to its detail page.
 
-[screenshot pj2]
+[screenshot pj3]
 
 It gets more interesting when you look at a Setlist, another structured content type:
 
