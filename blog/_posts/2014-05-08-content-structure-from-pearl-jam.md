@@ -10,7 +10,7 @@ date: 2014-05-08 15:00:00
 tags:
   - Drupal Planet
   - Content Strategy
-  - NPtech
+  - Nonprofit Tech
   - Pearl Jam
 ---
 
