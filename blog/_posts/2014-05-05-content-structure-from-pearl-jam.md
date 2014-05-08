@@ -1,12 +1,14 @@
 ---
 layout: post
-title: What Nonprofits Can Learn About Content Structure… from Pearl Jam
+title: "What Nonprofits Can Learn About Content Structure… from Pearl Jam"
 published: true
-featured: false
-short: "Pearl Jam's website is a great example of good content stratgy. What's better? It's achieveable for nonprofits as well."
+featured: true
+short: |
+  Pearl Jam's website is a great example of good content strategy. What's better? It's achievable for nonprofits as well.
 author: brett-meyer
 tags:
-  - Content strategy
+  - Drupal Planet
+  - Content Strategy
   - NPtech
   - Pearl Jam
 ---
