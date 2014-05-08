@@ -6,6 +6,7 @@ featured: true
 short: |
   Pearl Jam's website is a great example of good content strategy. What's better? It's achievable for nonprofits as well.
 author: brett-meyer
+date: 2014-05-08 15:00:00
 tags:
   - Drupal Planet
   - Content Strategy
