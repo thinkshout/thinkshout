@@ -4,11 +4,11 @@ title: Commerce iATS 2.0
 published: false
 featured: false
 author: dan
-short: "Our latest release of Commerce iATS brings ACH/EFT and Direct Debit payments."
-tags:
+short: Our latest release of Commerce iATS brings ACH/EFT and Direct Debit payments.
+tags: 
   - Drupal Planet
   - Drupal Give
-  - E-commerce
+  - "E-commerce"
   - modules
 ---
 
@@ -20,11 +20,11 @@ We put a lot of thought into refactoring the structure of Commerce iATS in the b
 
 2.0 is packed with new features and is, in our opinion, the greatest Commerce module ever created.
 
-In addition to supportIng credit card payments, Commerce iATS now supports ACH/EFT, meaning your users can now make payments directly from their bank account.
+In addition to supporting credit card payments, Commerce iATS now supports ACH/EFT, meaning your users can now make payments directly from their bank account.
 
-Drupal Commerce could always handle recurring payments using the Commerce Card on File Recurring module, but iATS Payments are good enough to handle that for you. In Commerce iATS 2.0 you can opt to have iATS payments bill your customers on a recurring schedule that you define.
+Drupal Commerce could always handle recurring payments using the Commerce Card on File Recurring module, but iATS Payments is good enough to handle that for you. In Commerce iATS 2.0, you can opt to have iATS Payments bill your customers on a recurring schedule that you define.
 
-Recurring payments are great for donations, which fits in with iATS Payments' goal of supporting the needs of non-profit organizations.
+Recurring payments are great for donations, which fits in with iATS Payments' goal of supporting the needs of nonprofit organizations.
 
 Because iATS Payments supports international payments, we made sure that you can too. Commerce iATS 2.0 fully supports Direct Debit for the UK.
 
