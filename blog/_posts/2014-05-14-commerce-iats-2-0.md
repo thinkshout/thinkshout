@@ -34,11 +34,9 @@ With assistance from iATS Payments, we've done all the work for you. Commerce iA
 
 ## More Options for Recurring Payments
 
-With Drupal Commerce, you always had the option of recurring payments using the [Commerce Card on File](https://drupal.org/project/commerce_cardonfile) module, but iATS Payments handles that for you. With Commerce iATS 2.0, you can opt to have iATS Payments bill your customers on a recurring schedule rather than have your Drupal site do all the work.
-
 Recurring payments are great for donations, which fits in with iATS Payments' goal of supporting the needs of nonprofit organizations.
 
-With Drupal Commerce, you always had the option of recurring payments using the [Commerce Card on File](https://drupal.org/project/commerce_cardonfile) module, but iATS Payments handles that for you. With Commerce iATS 2.0, you can opt to have iATS Payments bill your customers on a recurring schedule, rather than having your Drupal site do all the work.
+With Drupal Commerce, you always had the option of recurring payments using the [Commerce Card on File](https://drupal.org/project/commerce_cardonfile) module, but iATS Payments handles that for you. With Commerce iATS 2.0, you can opt to have iATS Payments bill your customers on a recurring schedule rather than have your Drupal site do all the work.
 
 The Drupal Commerce order stays updated with recurring transactions thanks to iATS Payment's [ReportLink service](http://home.iatspayments.com/sites/default/files/iats_webservices_reportlink_version_4.0.pdf). Commerce iATS implements a cron task to pull in daily transaction reports from iATS, updating your orders in the process.
 
