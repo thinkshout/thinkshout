@@ -28,7 +28,7 @@ Because iATS Payments supports international payments, we made sure that you can
 
 If you're familiar with Direct Debit, you'll know that any website offering the service is required to implement a very specific checkout process.
 
-With assistance from iATS Payments, we've done all the work for you. Commerce iATS now provides a set of [custom checkout panes](http://drupalcode.org/project/commerce_iats.git/blob/f2e594c:/includes/commerce_iats.direct_debit.checkout_pane.inc) for the complete Direct Debit checkout process. You don't even have to worry about the 12-day lead time on initial payments; the module figures it out and gives your users a choice of start dates.
+With assistance from iATS Payments, we've done all the work for you. Commerce iATS now provides a set of [custom checkout panes](https://drupal.org/node/2268891) for the complete Direct Debit checkout process. You don't even have to worry about the 12-day lead time on initial payments; the module figures it out and gives your users a choice of start dates.
 
 ![Direct Debit schedule screenshot](/assets/images/blog/commerce-iats-direct-debit-schedule.png "Setting up a Direct Debit schedule")
 
