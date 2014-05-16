@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Commerce iATS 2.0
-published: false
-featured: false
+published: true
+featured: true
 author: dan
 short: Our latest release of Commerce iATS brings ACH/EFT and Direct Debit payments.
-tags: 
+tags:
   - Drupal Planet
   - Drupal Give
   - "E-commerce"
