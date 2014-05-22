@@ -35,3 +35,4 @@ What does this mean? If all you need to do is generate some anonymous subscripti
 
 If, however, you want to subscribe some type of Entity to a Mailchimp List (like a User, say, or a RedHen Contact), you can now do that lickity-split using Field UI:
 
+![field_type.png](/assets/images/blog/field_type.png)
