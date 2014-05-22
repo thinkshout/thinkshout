@@ -35,4 +35,5 @@ What does this mean? If all you need to do is generate some anonymous subscripti
 
 If, however, you want to subscribe some type of Entity to a Mailchimp List (like a User, say, or a RedHen Contact), you can now do that lickity-split using Field UI:
 ![field_type.png](/assets/images/blog/field_type.png)
-This handy Mailchimp Signup field will insist on being tied to one of your Mailchimp Lists. Once that's done, you can configure instances of this Field like you would any other Mailchimp field. It will automatically pull in the available Merge Fields, and let you select which Properties or Fields from the Entity you want to push into these fields!
+This handy Mailchimp Signup field will insist on being tied to one of your Mailchimp Lists. Once that's done, you can configure instances of this Field like you would any other Mailchimp field. It will automatically pull in the available Merge Fields, and let you select which Properties or Fields from the Entity you want to push into these fields:
+![field_instance_config.png](/assets/images/blog/field_instance_config.png)
