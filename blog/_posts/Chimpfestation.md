@@ -30,4 +30,8 @@ The first thing we did was to de-couple the configuration of Anonymous Signup Fo
 1. The Signup Module was created for generating anonymous List Signup forms.
 2. The List Module now provide a Field type: "Mailchimp Subscription", which leverages Field UI to allow any Entity to become an independently-controlled Mailchimp List Subscriber.
 
-What does this mean? If all you need to do is generate some anonymous subscription blocks or pages, the Mailchimp Signup module has you covered. Just enable it, go to the "Signup Forms" tab in the Mailchimp Admin UI, and create a signup! The UI lets you generate blocks or pages easily, include one or more lists on each form, pick which Merge Fields to include, and voila!![signup_ui.png](/assets/images/blog/signup_ui.png)
+What does this mean? If all you need to do is generate some anonymous subscription blocks or pages, the Mailchimp Signup module has you covered. Just enable it, go to the "Signup Forms" tab in the Mailchimp Admin UI, and create a signup! The UI lets you generate blocks or pages easily, include one or more lists on each form, pick which Merge Fields to include, and voila!
+![signup_ui.png](/assets/images/blog/signup_ui.png)
+
+If, however, you want to subscribe some type of Entity to a Mailchimp List (like a User, say, or a RedHen Contact), you can now do that lickity-split using Field UI:
+
