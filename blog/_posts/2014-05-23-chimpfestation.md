@@ -6,35 +6,41 @@ featured: false
 
 ## Your Basic Monkey
 
-A few weeks ago, we released Mailchimp Module version 7.x-3.0-beta1 on Drupal.org. The third major revision of the Mailchimp Module for Drupal 7 is actually the 5th major revision of the module, including 2 versions for Drupal 6. ThinkShout Partner Lev Tsypin rolled the first release in January of 2008, and the first version of the project page included a little about his goals for the module:
+A few weeks ago, we released MailChimp Module version 7.x-3.0-beta1 on Drupal.org. The third major revision of the MailChimp Module for Drupal 7 is actually the fifth major revision of the module, including two versions for Drupal 6. ThinkShout Partner Lev Tsypin rolled the first release in January of 2008, and the first version of the project page included a little information about his goals for the module:
 > Right now, I am focusing on two types of integration:
 
 > 1. Using hook_user to maintain a members list in MailChimp.
 > 2. Having an opt in field in the user profile which uses one of the MC merge fields to allow for segmenting the members into those who want to receive communications.
 > 3. Having an anonymous sign up form to enroll users in a general newsletter.
 
-The module (and the project page!) have both come a long way since then, but the functionality described in that initial post has remained the core of the module through each version: _Anonymous signup forms_ and _Authenticated subscription control_ describe the core use cases that have resulted in over 15,000 installs. Sure, there's Campaign integration, Activity reporting, and all sorts of bells and whistles around list and subscription management, but Anonymous signup forms and User-based subscription control are the bread and butter.
+The module (and the project page!) have both come a long way since then, but the functionality described in that initial post has remained the core of the module through each version: _anonymous signup forms_ and _authenticated subscription control_ describe the core use cases that have resulted in over 15,000 installs. Sure, there's campaign integration, activity reporting, and all sorts of bells and whistles around list and subscription management, but anonymous signup forms and user-based subscription control are the bread and butter.
 
 ## Identity Crisis
 
-Building on the success of the Mailchimp module, ThinkShout has made the contribution of robust, useful Drupal modules a core part of our business. In building [Entity Registration](https://drupal.org/project/registration), [RedHen](https://drupal.org/project/redhen), [Salesforce v3](https://drupal.org/project/salesforce), [Leaflet](https://drupal.org/project/leaflet), and a bunch of other great modules, we've often leveraged Drupal 7's Entity and Field systems to make our tools as versatile and abstract as possible, to allow for any imaginable use-case.
+Building on the success of the Mailchimp module, ThinkShout has made the contribution of robust, useful Drupal modules a core part of our business. In building [Entity Registration](https://drupal.org/project/registration), [RedHen](https://drupal.org/project/redhen), [Salesforce v3](https://drupal.org/project/salesforce), [Leaflet](https://drupal.org/project/leaflet), and a bunch of other great modules, we've often leveraged Drupal 7's Entity and Field systems to make our tools as versatile and abstract as possible to allow for any imaginable use-case.
 
-We had a bit of a wake-up call when one of our favorite clients, [The Salmon Project](http://www.salmonlove.com/), asked us to integrate their fancy new RedHen CRM directly with Mailchimp. Integrating RedHen Contact Entities doesn't actually match up with either of these: _Anonymous signup forms_ and _Authenticated subscription control_.
+We had a bit of a wake-up call when one of our favorite clients, [The Salmon Project](http://www.salmonlove.com/), asked us to integrate their fancy new RedHen CRM directly with Mailchimp. Integrating RedHen Contact Entities doesn't actually match up with either of these: _anonymous signup forms_ and _authenticated subscription control_.
 
 It was time to bring ThinkShout's signature versatility and abstraction to ThinkShout's signature module.
 
-## Monkeys everywhere!
+## Monkeys Everywhere!
 
-The first thing we did was to de-couple the configuration of Anonymous Signup Forms and Authenticated Subscription Control. The Mailchimp Lists configuration UI had grown into a bit of a monster: it included 16 separate options, not counting merge field sync settings, ranging from the "**Submit button label** on the signup form to the **Roles allowed** to access this list on User configuration pages. Rather than framing everything around each list, we broke things out by their Drupal-side functionality:
+The first thing we did was de-couple the configuration of anonymous signup forms and authenticated subscription control. The MailChimp lists configuration UI had grown into a bit of a monster: it included 16 separate options, not counting merge field sync settings, ranging from the "**submit button label** on the signup form to the **roles allowed** to access this list on user configuration pages. Rather than framing everything around each list, we broke things out by their Drupal-side functionality:
 
-1. The Signup Module was created for generating anonymous List Signup forms.
-2. The List Module now provide a Field type: "Mailchimp Subscription", which leverages Field UI to allow any Entity to become an independently-controlled Mailchimp List Subscriber.
+1. The Signup Module was created for generating anonymous list signup forms.
+2. The List Module now provides a field type: "Mailchimp Subscription", which leverages field UI to allow any entity to become an independently-controlled MailChimp list subscriber.
 
-What does this mean? If all you need to do is generate some anonymous subscription blocks or pages, the Mailchimp Signup module has you covered. Just enable it, go to the "Signup Forms" tab in the Mailchimp Admin UI, and create a signup! The UI lets you: generate blocks or pages easily; include one or more lists on each form; pick which Merge Fields to include; and voila!
+What does this mean? If all you need to do is generate some anonymous subscription blocks or pages, the MailChimp Signup module has you covered. Just enable it, go to the "Signup Forms" tab in the Mailchimp Admin UI, and create a signup! The UI lets you: generate blocks or pages easily; include one or more lists on each form; pick which merge fields to include; and voila!
+
 ![signup_ui.png](/assets/images/blog/signup_ui.png)
 
-If, however, you want to subscribe some type of Entity to a Mailchimp List (like a User, say, or a RedHen Contact), you can now do that lickity-split using Field UI:
+
+If, however, you want to subscribe some type of entity to a MailChimp List (like a user, say, or a RedHen Contact), you can now do that lickity-split using Field UI:
+
+
 ![field_type.png](/assets/images/blog/field_type.png)
+
+
 This handy Mailchimp Signup field will insist on being tied to one of your Mailchimp Lists. Once that's done, you can configure instances of this Field like you would any other Mailchimp field. It will automatically pull in the available Merge Fields, and let you select which Properties or Fields from the Entity you want to push into these fields:
 ![field_instance_config.png](/assets/images/blog/field_instance_config.png)
 Want to default your Entity to Subscribed or Unsubscribed? Use Field UI's built-in configuration options. Use field display options to hide the field if you want to, or display it as a form right on the Entity.
