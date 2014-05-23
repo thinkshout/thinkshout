@@ -37,3 +37,23 @@ If, however, you want to subscribe some type of Entity to a Mailchimp List (like
 ![field_type.png](/assets/images/blog/field_type.png)
 This handy Mailchimp Signup field will insist on being tied to one of your Mailchimp Lists. Once that's done, you can configure instances of this Field like you would any other Mailchimp field. It will automatically pull in the available Merge Fields, and let you select which Properties or Fields from the Entity you want to push into these fields:
 ![field_instance_config.png](/assets/images/blog/field_instance_config.png)
+Want to default your Entity to Subscribed or Unsubscribed? Use Field UI's built-in configuration options. Using field display options to hide the field if you want to, or display it as a form right on the Entity.
+
+Do you want to get the old User-role-based subscription behavior? Easily done with a simple Rule or two and some basic field configuration! We've included the custom rules actions you need, and there's even an example rule in the Readme file for mailchimp_lists.
+
+What this all boils down to is: do what you want! You can Mailchimp-ify any Entity on your site with an email address in under 5 minutes. Go ape!
+
+## Pealing Away Campaign Complexity
+
+New ThinkShouter Dan Ruscoe brought huge improvement to the Campaign module, including the ability to send to list segments from directly within Drupal and some awesome UI improvements. We have long offered the ability to pull site content into campaigns, but you had to come up with the exact token for the content on your own: not the simplest task, especially if you have a non-developer creating your campaigns.
+
+Now? A simple drop-down interface. Create a view mode for your entity types specifically for use in Campaigns, or re-use an existing view mode. Just select your content type, the view mode, and search by Title, and the module generates the token for you. Pop it into your Campaign anywhere you want.
+
+He also added a handy mergefield key selector patterned after the Token UI.
+
+## Other Evolutions
+
+We didn't stop with fancy configuration options. Heck, we didn't _start_ with fancy configuration options. The goofs at Mailchimp HQ released the 2.0 version of their API, and we wouldn't want you using that archaic 1.x nonsense, so we re-wrote the entire core of the Mailchimp Module to leverage the new API. While we were at it, we re-wrote our asyncronous functionality to make it much simpler and less error-prone. It might not be easy enough for a monkey to understand at this point, but it's certainly more resilient to someone monkeying with it.
+
+
+
