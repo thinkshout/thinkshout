@@ -17,7 +17,7 @@ The module (and the project page!) have both come a long way since then, but the
 
 ## Identity Crisis
 
-Building on the success of the Mailchimp module, ThinkShout has made the contribution of robust, useful Drupal modules a core part of our business. In building [Entity Registration](https://drupal.org/project/registration), [RedHen](https://drupal.org/project/redhen), [Salesforce v3](https://drupal.org/project/salesforce), [Leaflet](https://drupal.org/project/leaflet), and a bunch of other great modules, we've often leveraged Drupal 7's Entity and Field systems to make our tools as versatile and abstract as possible, allowing for any imaginable use-case.
+Building on the success of the MailChimp module, ThinkShout has made the contribution of robust, useful Drupal modules a core part of our business. In building [Entity Registration](https://drupal.org/project/registration), [RedHen](https://drupal.org/project/redhen), [Salesforce v3](https://drupal.org/project/salesforce), [Leaflet](https://drupal.org/project/leaflet), and a bunch of other great modules, we've often leveraged Drupal 7's Entity and Field systems to make our tools as versatile and abstract as possible, allowing for any imaginable use-case.
 
 We had a bit of a wake-up call when one of our favorite clients, [The Salmon Project](http://www.salmonlove.com/), asked us to integrate their fancy new RedHen CRM directly with MailChimp. Integrating RedHen Contact Entities doesn't actually match up with either of these: _anonymous signup forms_ and _authenticated subscription control_.
 
@@ -30,7 +30,7 @@ The first thing we did was de-couple the configuration of anonymous signup forms
 1. The Signup Module was created for generating anonymous list signup forms.
 2. The List Module now provides a field type: "Mailchimp Subscription", which leverages Field UI to allow any entity to become an independently-controlled MailChimp list subscriber.
 
-What does this mean? If all you need to do is generate some anonymous subscription blocks or pages, the MailChimp Signup module has you covered. Just enable it, go to the "Signup Forms" tab in the Mailchimp Admin UI, and create a signup! The UI lets you: generate blocks or pages easily; include one or more lists on each form; pick which merge fields to include; and voila!
+What does this mean? If all you need to do is generate some anonymous subscription blocks or pages, the MailChimp Signup module has you covered. Just enable it, go to the "Signup Forms" tab in the MailChimp Admin UI, and create a signup! The UI lets you: generate blocks or pages easily; include one or more lists on each form; pick which merge fields to include; and voila!
 
 ![signup_ui.png](/assets/images/blog/signup_ui.png)
 
@@ -41,13 +41,13 @@ If, however, you want to subscribe some type of entity to a MailChimp List (like
 ![field_type.png](/assets/images/blog/field_type.png)
 
 
-This handy Mailchimp Signup field will insist on being tied to one of your Mailchimp Lists. Once that's done, you can configure instances of this field like you would any other Drupal field. It will automatically pull in the available Merge Fields, and let you select which Properties or Fields from the entity you want to push into these fields:
+This handy MailChimp Signup field will insist on being tied to one of your MailChimp Lists. Once that's done, you can configure instances of this field like you would any other Drupal field. It will automatically pull in the available Merge Fields and let you select which Properties or Fields from the entity you want to push into these fields:
 ![field_instance_config.png](/assets/images/blog/field_instance_config.png)
 Want to default your entity to be subscribed to the list? Use Field UI's built-in configuration options. Use field display options to hide the field if you want to, or display it as a form right on the entity.
 
-Do you want to get the old Role-based subscription behavior? Easily done with a field on your User Bundle and a simple Rule or two! We've included the custom rules actions you need, and there's even an example Rule in the Readme file in the Mailchimp Lists submodule.
+Do you want to get the old Role-based subscription behavior? Easily done with a field on your User Bundle and a simple Rule or two! We've included the custom rules actions you need, and there's even an example Rule in the Readme file in the MailChimp Lists submodule.
 
-What this all boils down to is: do what you want! You can Mailchimp-ify any Entity on your site with an email address in under 5 minutes. So go ape!
+What this all boils down to is: do what you want! You can MailChimp-ify any Entity on your site with an email address in under 5 minutes. So go ape!
 
 ## Pealing Away Campaign Complexity
 
@@ -61,7 +61,7 @@ We also added a handy mergefield key selector patterned after the Token UI.
 
 ## Other Evolutions
 
-We didn't stop with fancy configuration options. Heck, we didn't _start_ with fancy configuration options. The goofs at Mailchimp HQ released the 2.0 version of their API, and we wouldn't want you using that Late Pleistocene 1.x nonsense, so we re-wrote the entire core of the Mailchimp Module to leverage the new API. While we were at it, we re-wrote the asyncronous functionality to make it much simpler and less error-prone. It may not be easy enough for a chimp to understand quite yet, but it's certainly more tolerant of a little monkeying.
+We didn't stop with fancy configuration options. Heck, we didn't _start_ with fancy configuration options. The goofs at MailChimp HQ released the 2.0 version of their API, and we wouldn't want you using that Late Pleistocene 1.x nonsense, so we re-wrote the entire core of the Mailchimp Module to leverage the new API. While we were at it, we re-wrote the asyncronous functionality to make it much simpler and less error-prone. It may not be easy enough for a chimp to understand quite yet, but it's certainly more tolerant of a little monkeying.
 
 ## Climb Aboard!
 
