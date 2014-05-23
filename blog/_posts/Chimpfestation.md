@@ -50,6 +50,7 @@ New ThinkShouter Dan Ruscoe brought huge improvement to the Campaign module, inc
 Now? A simple drop-down interface. Create a view mode for your entity types specifically for use in Campaigns, or re-use an existing view mode. Just select your content type, the view mode, and search by Title, and the module generates the token for you. Pop it into your Campaign anywhere you want.
 
 He also added a handy mergefield key selector patterned after the Token UI.
+![merge_vars_ui.png](/assets/images/blog/merge_vars_ui.png)
 
 ## Other Evolutions
 
