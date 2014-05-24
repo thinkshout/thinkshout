@@ -54,6 +54,8 @@ What this all boils down to is do what you want! You can MailChimp-ify any entit
 New ThinkShouter Dan Ruscoe brought huge improvement to the Campaign module, including the ability to send to list segments from directly within Drupal and some awesome UI improvements. We have long offered the ability to pull site content into campaigns, but you had to come up with the exact token for the content on your own: not the simplest task, especially if you have a non-developer creating your campaigns.
 
 Now? A simple drop-down interface generates the token for you. Create a view mode for your entity types specifically for use in campaigns, or re-use an existing view mode. Just select your content type, the view mode, and search by title, and the module generates the token. Pop it into your campaign anywhere you want.
+
+
 ![site_content_embed_ui.png](/assets/images/blog/site_content_embed_ui.png)
 
 We also added a handy mergefield key selector patterned after the Token UI.
