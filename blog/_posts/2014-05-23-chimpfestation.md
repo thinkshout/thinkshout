@@ -6,7 +6,7 @@ featured: false
 
 ## Your Basic Monkey
 
-A few weeks ago, we released MailChimp Module version 7.x-3.0-beta1 on Drupal.org. The third major revision of the MailChimp Module for Drupal 7 is actually the fifth major revision of the module, including two versions for Drupal 6. ThinkShout Partner Lev Tsypin rolled the first release in January of 2008, and the first version of the project page included a little information about his goals for the module:
+A few weeks ago, we released [MailChimp Module version 7.x-3.0-beta1](https://drupal.org/node/2260305) on Drupal.org. The third major revision of the MailChimp Module for Drupal 7 is actually the fifth major revision of the module, including two versions for Drupal 6. ThinkShout Partner Lev Tsypin rolled the first release in January of 2008, and the first version of the project page included a little information about his goals for the module:
 > Right now, I am focusing on 3 types of integration:
 
 > 1. Using hook_user to maintain a members list in MailChimp.
