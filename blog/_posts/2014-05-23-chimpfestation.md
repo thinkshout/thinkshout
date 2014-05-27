@@ -43,17 +43,17 @@ The first thing we did was de-couple the configuration of anonymous signup forms
 
 What does this mean? If all you need to do is generate some anonymous subscription blocks or pages, the MailChimp Signup module has you covered. Just enable it, go to the "Signup Forms" tab in the MailChimp Admin UI, and create a signup! The UI lets you generate blocks or pages easily, include one or more lists on each form, pick which merge fields to include, and voila!
 
-![signup_ui.png](/assets/images/blog/signup_ui.png)
+![signup_ui.png](http://thinkshout.com/assets/images/blog/signup_ui.png)
 
 
 If, however, you want to subscribe some type of entity to a MailChimp List (like a user, say, or a RedHen contact), you can now do that lickity-split using Field UI:
 
 
-![field_type.png](/assets/images/blog/field_type.png)
+![field_type.png](http://thinkshout.com/assets/images/blog/field_type.png)
 
 
 This handy MailChimp Signup field will insist on being tied to one of your MailChimp lists. Once that's done, you can configure instances of this field like you would any other Drupal field. It will automatically pull in the available Merge Fields and let you select which properties or fields from the entity you want to push into these fields:
-![field_instance_config.png](/assets/images/blog/field_instance_config.png)
+![field_instance_config.png](http://thinkshout.com/assets/images/blog/field_instance_config.png)
 Want to default your entity to be subscribed to the list? Use field UI's built-in configuration options. Use field display options to hide the field if you want to, or display it as a form right on the entity.
 
 Do you want to get the old role-based subscription behavior? Easily done with a field on your user bundle and a simple rule or two! We've included the [custom rules actions](http://cgit.drupalcode.org/mailchimp/tree/modules/mailchimp_lists/mailchimp_lists.rules.inc?h=7.x-3.x) you need, and there's even an example rule in the [README](http://cgit.drupalcode.org/mailchimp/tree/modules/mailchimp_lists/README.txt?h=7.x-3.x#n36) file in the MailChimp Lists submodule.
@@ -67,10 +67,10 @@ ThinkShouter [Dan Ruscoe](http://thinkshout.com/team/dan/) brought huge improvem
 Now? A simple drop-down interface generates the token for you. Create a view mode for your entity types specifically for use in campaigns, or re-use an existing view mode. Just select your content type, the view mode, and search by title, and the module generates the token. Pop it into your campaign anywhere you want.
 
 
-![site_content_embed_ui.png](/assets/images/blog/site_content_embed_ui.png)
+![site_content_embed_ui.png](http://thinkshout.com/assets/images/blog/site_content_embed_ui.png)
 
 We also added a handy mergefield key selector patterned after the Token UI.
-![merge_vars_ui.png](/assets/images/blog/merge_vars_ui.png)
+![merge_vars_ui.png](http://thinkshout.com/assets/images/blog/merge_vars_ui.png)
 
 ## Other Evolutions
 
