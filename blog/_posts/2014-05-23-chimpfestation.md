@@ -1,22 +1,22 @@
 ---
 layout: post
 tite: Chimpfestation - A Closer Look at MailChimp Module Version 7.x-3.0
-published: false
-featured: false
+published: true
+featured: true
 author: gabe
-short: | 
-There are plenty of features to go ape for in our latest beta release of the MailChimp Module.
+short: |
+  There are plenty of features to go ape for in our latest beta release of the MailChimp Module.
 tags:
 - Drupal Planet
+- Drupal Give
 - MailChimp
-- MailChimp Module
 - modules
-- e-mail marketing
+- email marketing
 ---
 
 ## Your Basic Monkey
 
-A few weeks ago, we released [MailChimp Module version 7.x-3.0-beta1](https://drupal.org/node/2260305) on Drupal.org. The third major revision of the MailChimp Module for Drupal 7 is actually the fifth major revision of the module, including two versions for Drupal 6. ThinkShout Partner Lev Tsypin rolled the first release in January of 2008, and the first version of the project page included a little information about his goals for the module:
+A few weeks ago, we released [the initial beta of the 3.x version of the MailChimp Module](https://drupal.org/node/2260305) on Drupal.org. The third major revision of the MailChimp Module for Drupal 7 is actually the fifth major revision of the module, including two versions for Drupal 6. ThinkShout Partner [Lev Tsypin](http://thinkshout.com/team/lev/) rolled the first release in January of 2008, and the first version of the project page included a little information about his goals for the module:
 > Right now, I am focusing on 3 types of integration:
 
 > 1. Using hook_user to maintain a members list in MailChimp.
@@ -38,7 +38,7 @@ It was time to bring ThinkShout's signature versatility and abstraction to Think
 The first thing we did was de-couple the configuration of anonymous signup forms and authenticated subscription control. The MailChimp Lists configuration UI had grown into a bit of a monster: it included 16 separate options, not counting merge field sync settings, ranging from the **submit button label** (on the signup form) to the **roles allowed** (to access the list on user configuration pages). For version 3, rather than framing everything around each list, we broke things out by their Drupal-side functionality:
 
 1. The Signup Module was created for generating anonymous list signup forms.
-2. The List Module now provides a field type: "MailChimp Subscription", which leverages Field UI to allow any entity to become an independently-controlled MailChimp list subscriber.
+2. The List Module now provides a field type: "MailChimp Subscription", which, modeled on Entity Registration's successful architecture, leverages Drupal's Field API to allow any entity to become an independently-controlled MailChimp list subscriber.
 
 What does this mean? If all you need to do is generate some anonymous subscription blocks or pages, the MailChimp Signup module has you covered. Just enable it, go to the "Signup Forms" tab in the MailChimp Admin UI, and create a signup! The UI lets you generate blocks or pages easily, include one or more lists on each form, pick which merge fields to include, and voila!
 
@@ -55,7 +55,7 @@ This handy MailChimp Signup field will insist on being tied to one of your MailC
 ![field_instance_config.png](/assets/images/blog/field_instance_config.png)
 Want to default your entity to be subscribed to the list? Use field UI's built-in configuration options. Use field display options to hide the field if you want to, or display it as a form right on the entity.
 
-Do you want to get the old role-based subscription behavior? Easily done with a field on your user bundle and a simple rule or two! We've included the custom rules actions you need, and there's even an example rule in the readme file in the MailChimp Lists submodule.
+Do you want to get the old role-based subscription behavior? Easily done with a field on your user bundle and a simple rule or two! We've included the [custom rules actions](http://cgit.drupalcode.org/mailchimp/tree/modules/mailchimp_lists/mailchimp_lists.rules.inc?h=7.x-3.x) you need, and there's even an example rule in the [README](http://cgit.drupalcode.org/mailchimp/tree/modules/mailchimp_lists/README.txt?h=7.x-3.x#n36) file in the MailChimp Lists submodule.
 
 What this all boils down to is do what you want! You can MailChimp-ify any entity on your site with an email address in under 5 minutes. So go ape!
 
