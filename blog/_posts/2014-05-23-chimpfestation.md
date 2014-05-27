@@ -1,8 +1,17 @@
 ---
 layout: post
+tite: Chimpfestation: A Closer Look at MailChimp Module Version 7.x-3.0
 published: false
 featured: false
 author: gabe
+short: | 
+"There are plenty of features to go ape for in our latest beta release of the MailChimp Module."
+tags:
+- Drupal Planet
+- MailChimp
+- MailChimp Module
+- modules
+- e-mail marketing
 ---
 
 ## Your Basic Monkey
