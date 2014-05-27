@@ -4,6 +4,7 @@ title: "Chimpfestation, A Closer Look at the New MailChimp Module"
 published: true
 featured: true
 author: gabe
+date: 2014-05-27 13:00:00
 short: |
   There are plenty of features to go ape for in our latest beta release of the MailChimp Module.
 tags:
