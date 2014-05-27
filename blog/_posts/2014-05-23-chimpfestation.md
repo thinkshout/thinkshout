@@ -1,6 +1,6 @@
 ---
 layout: post
-tite: Chimpfestation - A Closer Look at MailChimp Module Version 7.x-3.0
+title: "Chimpfestation, A Closer Look at the New MailChimp Module"
 published: true
 featured: true
 author: gabe
