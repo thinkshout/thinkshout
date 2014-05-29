@@ -14,6 +14,7 @@ ThinkShout seeks to hire a **part-time** operations manager to assist with the d
   * Managing day to day processing of accounts receivable and payable using QuickBooks, producing reports as requested
   * Payroll processing
   * Updating monthly financial reports
+  * Providing financial insight into key business decisions
 * Human Resource administration
   * Assisting with employee on-boarding logistics, including ordering business cards, laptop and equipment setup, account setup
   * Manage monthly payroll processing with payroll vendor
@@ -36,6 +37,7 @@ ThinkShout seeks to hire a **part-time** operations manager to assist with the d
 * A demonstrated commitment to high professional ethical standards and a diverse workplace
 * Ability to excel operating in a fast pace, community environment
 * Ability to delegate responsibilities effectively
+* Business or finance degree preferred
 
 The ThinkShout team takes great pride in their craft and community and we expect the same from you.
 
