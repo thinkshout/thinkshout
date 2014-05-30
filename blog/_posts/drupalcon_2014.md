@@ -31,9 +31,7 @@ The ThinkShout team will be leading a great variety of BoF sessions next week. J
 **Tauno Hogue**
 Title: [Leveraging Salesforce with Drupal](https://austin2014.drupal.org/bof/leveraging-salesforce-drupal)
 
-
 Room: 8A - JustDigital | 3rd floor
-
 
 Time: Tuesday, 2:15-3:15pm
 
