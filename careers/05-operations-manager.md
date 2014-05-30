@@ -2,7 +2,7 @@
 layout: job
 title: Operations Manager
 permalink: careers/operations-manager/
-mailto: thinkshout-job5@mytribehr.com
+mailto: jobs-ops-mgr@thinkshout.com
 active: true
 ---
 ThinkShout seeks to hire a **part-time** operations manager to assist with the daily operations, financial management and human resources administration of our team. We are open to candidates interested in contract work, though preference will be given to applicants interested an on-site salaried position. The ideal candidate would be available up to 16 hours per week with a flexible schedule.
