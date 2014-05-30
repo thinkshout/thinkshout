@@ -9,22 +9,22 @@ Next week, ten members of the ThinkShout crew will ship out to Austin, Texas for
 
 If you plan on attending DrupalCon in Austin, we’re always down to talk shop - or not shop. We’ll be all over the place during those four days, but here’s where you can find us:
 
-##Exhibit Hall##
+###Exhibit Hall###
 
 We’ll be sharing booth 508 with our partner and preferred nonprofit payment processor, iATS Payments. Stop by! We’d love to talk to you about the [exciting work we’re doing with the iATS Drupal Module.](http://thinkshout.com/blog/2014/05/commerce-iats-2-0/) Dan Ruscoe himself will be available to discuss his work. 
 
-##Official Sessions##
+###Official Sessions###
 
 [“Student, Counselor, Advocate: The Many Hats of Content Strategists ”](https://austin2014.drupal.org/session/student-counselor-advocate-many-hats-content-strategists)
 Wednesday, 1:00-2:00pm, 
 Room: 16 - Pantheon, 4th Floor
 Brett Heckman and Brett Meyer will will provide you with some valuable techniques to help you facilitate a great discovery process.
 
-##Birds of a Feather (BoF)##
+###Birds of a Feather (BoF)###
 
 The ThinkShout team will be leading a great variety of BoF sessions next week. Join in the conversation - we want to hear from you!
 
-###TUESDAY:###
+####TUESDAY:####
 
 **Tauno Hogue**
 Title: [Leveraging Salesforce with Drupal](https://austin2014.drupal.org/bof/leveraging-salesforce-drupal)
