@@ -57,7 +57,7 @@
 
 - first_name: Tauno
   last_name: Hogue
-  position: Lead Developer
+  position: Lead Engineer
   leadin: |
     Tauno is the more accomplished of two raft guides on the team. His guiding experience has given him a cool head and great communication skills, which come in handy in his role as our lead developer.
   social:
@@ -80,9 +80,9 @@
   leadin: |
     Alex studied bioinformatics in college. We still don't know exactly what that means, but we do know that it's given him a keen understanding of how humans interact with software.
   social:
-    github: https://github.com/caxy4
+    github: https://github.com/caxy4/
     twitter:
-    linkedin: http://www.linkedin.com/profile/view?id=72923139
+    linkedin: http://www.linkedin.com/profile/view?id=72923139/
     drupal: https://drupal.org/user/2735491/
   image:
     small: team/small/alex.jpg
@@ -92,6 +92,22 @@
   name: alex
   bio: |
     With a diverse background in artificial intelligence, existential philosophy, and development economics, Alex brings a unique perspective to the team and helps our clients build comprehensive solutions that address a wide range of problems. Prior to joining our team, Alex attended Connecticut College and worked at Schrödinger developing computational chemistry software. On weekends, he can usually be found playing ice hockey. Last we checked, he still had all his teeth.
+
+- first_name: Alex
+  last_name: MacMillan
+  position: Project Manager
+  leadin: |
+    Alex’s passion for creative problem solving drew her to ThinkShout, where she navigates complex projects while supporting clients working to make the world a better place. She also really likes food, and since the ThinkShout team really likes food, she figured she’d be a great fit.
+  social:
+    linkedin: http://www.linkedin.com/pub/alex-macmillan/90/bb8/827/
+  image:
+    small: team/small/alexm.jpg
+    medium: team/medium/alexm.jpg
+    large: team/large/alexm.jpg
+  published: true
+  name: alexm
+  bio: |
+    Prior to ThinkShout, Alex spent several years as a project manager in the health care industry, overseeing several large web development projects centered around providing the public with health care resources online. Through this work, she learned the power of the Internet as a tool for making social change. Alex studied psychology at University of Oregon, specifically empathy, motivation, and decision-making. Her insight into the human thought process allows her to evaluate problems from multiple viewpoints. When Alex isn’t managing her many projects, she’s at her house, playing the never-ending game of home improvement.
 
 - first_name: Brandon
   last_name: Lee
@@ -114,7 +130,7 @@
 
 - first_name: Brett
   last_name: Heckman
-  position: User Experience Engineer
+  position: User Experience Lead
   leadin: |
     Brett creates memorable and engaging web experiences. He is a talented designer and information architect with a knack for turning complex concepts into beautiful digital stories. But we really hired him because we love his two dogs, Gus and Waylon.
   social:
@@ -169,6 +185,24 @@
   bio: |
     Claire's active involvement with local nonprofts working to fight homelessness attracted her to ThinkShout's mission. Before joining our team, Claire managed speciality coffee programs across the country at Coffee Bean International. A Portland native, she received her Project Management Certificate at Portland State University and has a BA in Education from the University of Oregon. Claire talks with our clients every day. She helps them navigate the development process and translates complex technical issues into workable tasks. As computer nerds, we have an immense respect for her extensive knowledge of coffee.
 
+- first_name: Dan
+  last_name: Ruscoe
+  position: Software Engineer
+  leadin: |
+    Dan is an enthusiastic proponent of open source software and maintains a number of open source projects. After four years writing software for social games and ad platforms in Los Angeles, he got tired of the constant sunshine and joined ThinkShout in Portland to see what all this rain is about.
+  social:
+    github: https://github.com/ruscoe/
+    twitter: https://twitter.com/danruscoe/
+    linkedin: http://www.linkedin.com/in/ruscoe/
+  image:
+    small: team/small/dan.jpg
+    medium: team/medium/dan.jpg
+    large: team/large/dan.jpg
+  published: true
+  name: dan
+  bio: |
+    Given his expertise in building social gaming platforms, he has a strong sense for how web technologies can be used to promote web engagement. Dan left California in search of an opportunity to contribute regularly to the open source community and put those contributions to good use for nonprofits. He studied Computing, Electronics and Physics at Bolton Sixth Form College in Bolton, England. When he isn’t writing code, he’s normally hacking away at an electronics project or engrossed in a point-and-click adventure game. While he loves new technology, he still keeps a couple of long-obsolete computers around as a reminder of where he started programming.
+
 - first_name: David
   last_name: Lanier
   position: Software Engineer
@@ -187,6 +221,24 @@
   name: david
   bio: |
     David is a graduate of West Texas A&M University. Before joining our team, he developed seamless e-commerce experiences for Drupal web properties managed by AllPlayers.com, a provider of technology to more than 100,000 community users. Prior to that, he served as the Director of Web Development at Blue Tent Marketing, where he refined the best practices of their internal development team. David continues to be committed to open source and strives to develop sustainable websites for our nonprofit clients. When he’s not busy coding, he’s learning how to play the cello or throwing a boomerang.
+
+- first_name: Eric
+  last_name: Paxton
+  position: Front End Engineer
+  leadin: |
+    Eric doesn’t shy away from large scale technical undertakings. His experience as a designer and front end developer, as well as his love of open source, make him a great asset to the team. He’s also a self-proclaimed music nerd with a pretty serious vinyl record collection.
+  social:
+    github: http://github.com/heypaxton/
+    linkedin: http://www.linkedin.com/pub/eric-paxton/4b/956/517/
+    drupal: https://drupal.org/user/2904565/
+  image:
+    small: team/small/eric.jpg
+    medium: team/medium/eric.jpg
+    large: team/large/eric.jpg
+  published: true
+  name: eric
+  bio: |
+    Eric joined us because he wanted to be part of a team that valued open source contributions and meaningful projects as much as he does. From discovery to implementation, he remains committed to delivering technical work of the highest caliber. His background in web and mobile application development gave him the foundation needed for a major undertaking with the State of Oregon, where he led the design and front end development of the relaunch of Oregon.gov. In his spare time, he geeks out over music and hunts down new additions to his record collection. He also ran the St. Jude Marathon...once. Once was enough.
 
 - first_name: Gabe
   last_name: Carleton-Barnes
@@ -207,6 +259,22 @@
   bio: |
     Gabe is highly experienced in building custom Salesforce solutions for constituent management and fundraising. Before joining ThinkShout, Gabe worked in the nonprofit world at Ecotrust, the Wild Salmon Center, and Immigration Equality. He holds a BA in Computer Science and Theatre from Oberlin College. Gabe really does spend his free time playing Magic: The Gathering in a variety of time zones.
 
+- first_name: Jaden
+  last_name: Johnston
+  position: Business Development Manager
+  leadin: |
+    Jaden came to us with an impressive background in technical coordination. She excels at changing hats on the fly, all while ensuring that each project she undertakes maintains a strong human touch. She also is strong in the way of kung-fu…movies.
+  social:
+    linkedin: http://www.linkedin.com/in/jadenjohnston/
+  image:
+    small: team/small/jaden.jpg
+    medium: team/medium/jaden.jpg
+    large: team/large/jaden.jpg
+  published: true
+  name: jaden
+  bio: |
+    Jaden’s expertise in project management, sales operations, and marketing make her an integral part of our business development team, helping us stay on task while making sure we are meeting the standards of excellence we set for ourselves as we work with our clients. She joined the ThinkShout team for the opportunity to assist cause-oriented organizations and could combine her experience in the technology and nonprofit sectors. Jaden studied political science and multimedia, and has summited Mount St. Helens three times. It’s not an “overcoming challenges” metaphor. She literally climbed this mountain three times.
+
 - first_name: Stephanie
   last_name: Gutowski
   position: Special Projects Coordinator
@@ -225,21 +293,3 @@
   name: stephanie
   bio: |
     Having worked extensively in the nonprofit sector, Stephanie knows all too well that keeping your technology up to date and accessible to your constituents is hard to prioritize when working on a tight budget. She has a BA from Gonzaga University and spent three years in freelance video production and content editing for independent online press. She eventually found herself in the nonprofit world, where she spearheaded a social media campaign and developed a communications plan for Families Forward in Southern California. Through this experience, Stephanie developed a great appreciation for open source tools that help nonprofits better engage their constituents and she continues to be an advocate for nonprofit technology. Unlike Inigo Montoya, Stephanie fences left-handed.
-
-- first_name: Dan
-  last_name: Ruscoe
-  position: Software Engineer
-  leadin: |
-    Dan is an enthusiastic proponent of open source software and maintains a number of open source projects. After four years writing software for social games and ad platforms in Los Angeles, he got tired of the constant sunshine and joined ThinkShout in Portland to see what all this rain is about.
-  social:
-    github: https://github.com/ruscoe/
-    twitter: https://twitter.com/danruscoe/
-    linkedin: http://www.linkedin.com/in/ruscoe/
-  image:
-    small: team/small/dan.jpg
-    medium: team/medium/dan.jpg
-    large: team/large/dan.jpg
-  published: true
-  name: dan
-  bio: |
-    Given his expertise in building social gaming platforms, he has a strong sense for how web technologies can be used to promote web engagement. Dan left California in search of an opportunity to contribute regularly to the open source community and put those contributions to good use for nonprofits. He studied Computing, Electronics and Physics at Bolton Sixth Form College in Bolton, England. When he isn’t writing code, he’s normally hacking away at an electronics project or engrossed in a point-and-click adventure game. While he loves new technology, he still keeps a couple of long-obsolete computers around as a reminder of where he started programming.
