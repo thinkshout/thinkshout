@@ -30,8 +30,13 @@ The ThinkShout team will be leading a great variety of BoF sessions next week. J
 
 **Tauno Hogue**
 Title: [Leveraging Salesforce with Drupal](https://austin2014.drupal.org/bof/leveraging-salesforce-drupal)
+
+
 Room: 8A - JustDigital | 3rd floor
+
+
 Time: Tuesday, 2:15-3:15pm
+
 
 **Brett Meyer** (@brett_meyer) & **Sean Larkin** (@sean_larkin)
 Title: [Unmoderated Small Sample User Testing](https://austin2014.drupal.org/bof/unmoderated-small-sample-user-testing)
