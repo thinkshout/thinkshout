@@ -33,9 +33,9 @@ The ThinkShout team will be leading a great variety of BoF sessions next week. J
 ####TUESDAY:####
 
 
-**Tauno Hogue**
 
-Title: [Leveraging Salesforce with Drupal](https://austin2014.drupal.org/bof/leveraging-salesforce-drupal)
+
+Title: [Leveraging Salesforce with Drupal](https://austin2014.drupal.org/bof/leveraging-salesforce-drupal) with **Tauno Hogue**
 
 Room: 8A - JustDigital | 3rd floor
 
@@ -43,9 +43,8 @@ Time: Tuesday, 2:15-3:15pm
 
 
 
-**Brett Meyer** (@brett_meyer) & **Sean Larkin** (@sean_larkin)
 
-Title: [Unmoderated Small Sample User Testing](https://austin2014.drupal.org/bof/unmoderated-small-sample-user-testing)
+Title: [Unmoderated Small Sample User Testing](https://austin2014.drupal.org/bof/unmoderated-small-sample-user-testing) with **Brett Meyer** (@brett_meyer) & **Sean Larkin** (@sean_larkin)
 
 Room: 10A - Ashday | 3rd floor
 
@@ -53,9 +52,9 @@ Time: Tuesday, 2:15-3:15pm
 
 
 
-**Eric Paxton** & **Brett Heckman**
 
-Title: [Static Site Generators & Wireframes](https://austin2014.drupal.org/bof/static-site-generators-and-wireframes)
+
+Title: [Static Site Generators & Wireframes](https://austin2014.drupal.org/bof/static-site-generators-and-wireframes) with **Eric Paxton** & **Brett Heckman**
 
 Room: 8A - JustDigital | 3rd floor
 
@@ -67,9 +66,9 @@ Time: Tuesday, 3:45-4:45pm
 
 
 
-**Sean Larkin** (@sean_larkin) **w/Chris Wolz** (@cwolz) of Forum One (@forumone):
 
-Title: [Building Your Drupal-Based Business: What Keeps You Up at Night?](https://austin2014.drupal.org/bof/building-your-drupal-based-business-what-keeps-you-night)
+
+Title: [Building Your Drupal-Based Business: What Keeps You Up at Night?](https://austin2014.drupal.org/bof/building-your-drupal-based-business-what-keeps-you-night) with **Sean Larkin** (@sean_larkin) **w/Chris Wolz** (@cwolz) of Forum One (@forumone)
 
 Room: 8B - Unicon | 3rd floor
 
@@ -77,9 +76,8 @@ Time slot: Wednesday, 10:45-11:45
 
 
 
-**Lev Tsypin** (@levelos)
 
-Title: [Email Marketing with Drupal](https://austin2014.drupal.org/bof/email-marketing-mailchimp-1)
+Title: [Email Marketing with Drupal](https://austin2014.drupal.org/bof/email-marketing-mailchimp-1) with **Lev Tsypin** (@levelos)
 
 Room: 10A - Ashday | 3rd floor
 
@@ -91,9 +89,8 @@ Time: Wednesday, 3:45-4:45pm
 
 
 
-**Lev Tsypin** (@levelos)
 
-Title: [Nonprofit Fundraising with Drupal](https://austin2014.drupal.org/bof/nonprofit-fundraising-drupal)
+Title: [Nonprofit Fundraising with Drupal](https://austin2014.drupal.org/bof/nonprofit-fundraising-drupal) with **Lev Tsypin** (@levelos)
 
 Room: 8C - VLM | 3rd floor
 
@@ -101,9 +98,8 @@ Time: Thursday, 10:45-11:45am
 
 
 
-**Dan Ruscoe** (@danruscoe) and **Stephen Bestbier** of iATS Payments
 
-Title: [Leveraging Drupal Commerce for a Nonprofit Payment Provider](https://austin2014.drupal.org/bof/leveraging-drupal-commerce-nonprofit-payment-provider)
+Title: [Leveraging Drupal Commerce for a Nonprofit Payment Provider](https://austin2014.drupal.org/bof/leveraging-drupal-commerce-nonprofit-payment-provider) with **Dan Ruscoe** (@danruscoe) and **Stephen Bestbier** of iATS Payments 
 
 Room: 8A - JustDigital | 3rd floor
 
@@ -111,9 +107,8 @@ Time slot: Thursday, 1:00-2:00pm
 
 
 
-**Brett Heckman**  & **Brett Meyer** (@brett_meyer)
 
-Title:  [Discovery Workshop](https://austin2014.drupal.org/bof/discovery-workshop-many-hats-content-strategists)
+Title:  [Discovery Workshop](https://austin2014.drupal.org/bof/discovery-workshop-many-hats-content-strategists) with **Brett Heckman**  & **Brett Meyer** (@brett_meyer)
 
 Room: 10A - Ashday | 3rd floor
 
