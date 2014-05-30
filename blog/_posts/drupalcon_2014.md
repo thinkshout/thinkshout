@@ -42,6 +42,7 @@ Room: 8A - JustDigital | 3rd floor
 Time: Tuesday, 2:15-3:15pm
 
 
+
 **Brett Meyer** (@brett_meyer) & **Sean Larkin** (@sean_larkin)
 
 Title: [Unmoderated Small Sample User Testing](https://austin2014.drupal.org/bof/unmoderated-small-sample-user-testing)
@@ -49,6 +50,7 @@ Title: [Unmoderated Small Sample User Testing](https://austin2014.drupal.org/bof
 Room: 10A - Ashday | 3rd floor
 
 Time: Tuesday, 2:15-3:15pm
+
 
 
 **Eric Paxton** & **Brett Heckman**
@@ -60,7 +62,9 @@ Room: 8A - JustDigital | 3rd floor
 Time: Tuesday, 3:45-4:45pm
 
 
+
 ####WEDNESDAY:####
+
 
 
 **Sean Larkin** (@sean_larkin) **w/Chris Wolz** (@cwolz) of Forum One (@forumone):
@@ -72,6 +76,7 @@ Room: 8B - Unicon | 3rd floor
 Time slot: Wednesday, 10:45-11:45
 
 
+
 **Lev Tsypin** (@levelos)
 
 Title: [Email Marketing with Drupal](https://austin2014.drupal.org/bof/email-marketing-mailchimp-1)
@@ -81,7 +86,9 @@ Room: 10A - Ashday | 3rd floor
 Time: Wednesday, 3:45-4:45pm
 
 
+
 ####THURSDAY:####
+
 
 
 **Lev Tsypin** (@levelos)
@@ -93,6 +100,7 @@ Room: 8C - VLM | 3rd floor
 Time: Thursday, 10:45-11:45am
 
 
+
 **Dan Ruscoe** (@danruscoe) and **Stephen Bestbier** of iATS Payments
 
 Title: [Leveraging Drupal Commerce for a Nonprofit Payment Provider](https://austin2014.drupal.org/bof/leveraging-drupal-commerce-nonprofit-payment-provider)
@@ -102,6 +110,7 @@ Room: 8A - JustDigital | 3rd floor
 Time slot: Thursday, 1:00-2:00pm
 
 
+
 **Brett Heckman**  & **Brett Meyer** (@brett_meyer)
 
 Title:  [Discovery Workshop](https://austin2014.drupal.org/bof/discovery-workshop-many-hats-content-strategists)
@@ -109,6 +118,7 @@ Title:  [Discovery Workshop](https://austin2014.drupal.org/bof/discovery-worksho
 Room: 10A - Ashday | 3rd floor
 
 Time: Thursday, 1:00-2:00pm
+
 
 
 If you can’t make it, no worries. Get in touch with us and we’ll be happy to fill you in one what you missed. To those of you Austin-bound, we’ll see you there. Bring on the breakfast tacos!
