@@ -1,7 +1,21 @@
 ---
 layout: post
+title: "Meet up with the ThinkShout Team at DrupalCon Austin"
 published: false
 featured: false
+author: stephanie
+date: 2014-05-30 
+short: |
+  Going to Austin next week? Check out our lineup of BoFs and sessions.
+tags:
+- Drupal Planet
+- Drupal
+- iATS Payments
+- DrupalCon
+- DrupalCon Austin
+- fundraising
+- email marketing
+- Salesforce
 ---
 
 
