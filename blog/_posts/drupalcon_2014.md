@@ -13,12 +13,14 @@ If you plan on attending DrupalCon in Austin, we’re always down to talk shop -
 
 We’ll be sharing booth 508 with our partner and preferred nonprofit payment processor, iATS Payments. Stop by! We’d love to talk to you about the [exciting work we’re doing with the iATS Drupal Module.](http://thinkshout.com/blog/2014/05/commerce-iats-2-0/) Dan Ruscoe himself will be available to discuss his work. 
 
+
 ###Official Sessions###
 
 [“Student, Counselor, Advocate: The Many Hats of Content Strategists ”](https://austin2014.drupal.org/session/student-counselor-advocate-many-hats-content-strategists)
 Wednesday, 1:00-2:00pm, 
 Room: 16 - Pantheon, 4th Floor
 Brett Heckman and Brett Meyer will will provide you with some valuable techniques to help you facilitate a great discovery process.
+
 
 ###Birds of a Feather (BoF)###
 
@@ -41,7 +43,7 @@ Title: [Static Site Generators & Wireframes](https://austin2014.drupal.org/bof/s
 Room: 8A - JustDigital | 3rd floor
 Time: Tuesday, 3:45-4:45pm
 
-###WEDNESDAY:###
+####WEDNESDAY:####
 
 **Sean Larkin** (@sean_larkin) **w/Chris Wolz** (@cwolz) of Forum One (@forumone):
 Title: [Building Your Drupal-Based Business: What Keeps You Up at Night?](https://austin2014.drupal.org/bof/building-your-drupal-based-business-what-keeps-you-night)
@@ -53,7 +55,7 @@ Title: [Email Marketing with Drupal](https://austin2014.drupal.org/bof/email-mar
 Room: 10A - Ashday | 3rd floor
 Time: Wednesday, 3:45-4:45pm
 
-###THURSDAY:###
+####THURSDAY:####
 
 **Lev Tsypin** (@levelos)
 Title: [Nonprofit Fundraising with Drupal](https://austin2014.drupal.org/bof/nonprofit-fundraising-drupal)
