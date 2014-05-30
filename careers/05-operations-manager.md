@@ -43,3 +43,6 @@ The ThinkShout team takes great pride in their craft and community and we expect
 
 ## Compensation Package
 We are open to discussing both salaried and hourly (contractor) candidates. Participation in our benefits program is an option for candidates looking for a part-time staff position.
+
+## Next steps
+If this sounds like a great opportunity, send us a cover letter and resume, we'd love to hear from you!
