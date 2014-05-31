@@ -112,4 +112,4 @@ Time: Thursday, 1:00-2:00pm
 
 
 
-If you can’t make it, no worries. Get in touch with us and we’ll be happy to fill you in one what you missed. To those of you Austin-bound, we’ll see you there. Bring on the breakfast tacos!
+If you can’t make it, no worries. Get in touch with us and we’ll be happy to fill you in one what you missed. Twitter, email, carrier pigeon, whatever works for you. To those of you Austin-bound, we’ll see you there. Bring on the breakfast tacos!
