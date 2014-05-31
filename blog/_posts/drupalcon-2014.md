@@ -92,7 +92,7 @@ Time: Wednesday, 3:45-4:45pm
 
 
 
-Title: [Nonprofit Fundraising with Drupal](https://austin2014.drupal.org/bof/nonprofit-fundraising-drupal) with **Lev Tsypin** (@levelos) v 
+Title: [Nonprofit Fundraising with Drupal](https://austin2014.drupal.org/bof/nonprofit-fundraising-drupal) with **Lev Tsypin** (@levelos) 
 Room: 8C - VLM | 3rd floor  
 Time: Thursday, 10:45-11:45am
 
