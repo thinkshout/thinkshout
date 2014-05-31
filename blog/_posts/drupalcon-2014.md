@@ -39,7 +39,7 @@ Brett Heckman and Brett Meyer will will provide you with some valuable technique
 
 ###Birds of a Feather (BoF)###
 
-The ThinkShout team will be leading a great variety of BoF sessions next week. Join in the conversation - we want to hear from you!
+The ThinkShout team will be leading a great variety of BoF sessions next week. Join in the conversations - we want to hear from you!
 
 
 ####TUESDAY:####
