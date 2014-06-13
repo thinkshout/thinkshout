@@ -13,18 +13,20 @@ The [Views Infinite Scroll module](https://drupal.org/project/views_infinite_scr
 ### Creating a block to hold paged content
 The first step is creating a block to hold our custom paged view that can be placed on a page. To create the block we'll use a `hook_block_info()` followed by a `hook_block_view()`.
 
-    function my_module_block_info() {
-      $block['masonry_content'] = array(
-        'info' => 'Masonry content',
-      );
-      return $block
-    }
+```php
+function my_module_block_info() {
+  $block['masonry_content'] = array(
+    'info' => 'Masonry content',
+  );
+  return $block
+}
     
-    function my_module_block_view($delta = '') {
-      $block = array();
-      $block['subject'] = '';
-      $block['content'] = my_module_masonry_content();
-    }
+function my_module_block_view($delta = '') {
+  $block = array();
+  $block['subject'] = '';
+  $block['content'] = my_module_masonry_content();
+}
+```
 
 Here we've defined which function we'll be generating our paged view from; namely `my_module_masonry_content`.
 
