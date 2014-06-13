@@ -134,9 +134,9 @@ Notice that `$content_selector` matches the selector we used to apply Masonry to
 The `$next_selector` and `$pager_selector` selectors are what target the "next" and "1, 2, 3…" links our pager exposes and, not incidentally, what Autopager uses to retrieve the next set of content. Recall from above our query returns 3 nodes at a time so the "next" link will cause 3 more nodes to be shown.
 
 Though necessary to retrieve more content, we don't want to see these pager links so let's hide them.
-
+```javascript
     $(pager_selector).hide();
-    
+```
 …and now create our Autopager handler.
 
     var handle = $.autopager({
