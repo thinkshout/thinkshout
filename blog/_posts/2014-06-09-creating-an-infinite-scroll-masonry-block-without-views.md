@@ -69,7 +69,7 @@ $output['pager'] = array('#theme' => 'pager');
 We then return our output array and get to the JavaScript…
 
 ### Applying Masonry to the paged content block
-To apply Masonry to the paged block content we'll need some JavaScript so let's create a new JavaScript file within our module's js directory (`js/my_module.js`). This file will depend on the (Masonry JavaScript library)[https://github.com/desandro/masonry] so we'll need to load it in addition to our new, custom JavaScript file.  
+To apply Masonry to the paged block content we'll need some JavaScript so let's create a new JavaScript file within our module's js directory (`js/my_module.js`). This file will depend on the [Masonry JavaScript library](https://github.com/desandro/masonry) so we'll need to load it in addition to our new, custom JavaScript file.  
 
 ---
 
@@ -116,7 +116,7 @@ container.bind('change', function() {
 Now that we've got Masonry applied to our block content, let's move on to getting the infinite scroll behavior in place.
 
 ## Applying Infinite Scroll to the paged content block
-To pull new items into our content block (to which Masonry is being applied) we'll leverage the (Autopager library)[https://code.google.com/p/jquery-autopager]. This means we'll need to add Autopager to the list of JavaScript to be loaded conditionally when our block is present.  
+To pull new items into our content block (to which Masonry is being applied) we'll leverage the [Autopager library](https://code.google.com/p/jquery-autopager). This means we'll need to add Autopager to the list of JavaScript to be loaded conditionally when our block is present.  
 
 ---
 
