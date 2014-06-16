@@ -81,7 +81,7 @@ $output['pager'] = array('#theme' => 'pager');
 We then return our output array and get to the JavaScript…
 
 ### Applying Masonry to the paged content block
-To apply Masonry to the paged block content we'll need some JavaScript so let's create a new JavaScript file within our module's js directory (`js/my_module.js`). This file will depend on the [Masonry JavaScript library](https://github.com/desandro/masonry) so we'll need to load it in addition to our new, custom JavaScript file.  
+To apply Masonry to the paged block content, we'll need some JavaScript so let's create a new JavaScript file within our module's js directory (`js/my_module.js`). This file will depend on the [Masonry JavaScript library](https://github.com/desandro/masonry) so we'll need to load it in addition to our new, custom JavaScript file.  
 
 ---
 
@@ -112,9 +112,9 @@ container.masonry({
 });
 ```
       
-In this case we're selecting the \<div> that has our block id and the node items within that \<div>.
+In this case, we're selecting the \<div> that has our block id and the node items within that \<div>.
 
-Doing this will apply Masonry _once_ to the items present after the initial page load, but since we are going to be loading more items via the pager we'll need to re-apply Masonry after those new items are loaded. We haven't defined the "change" action yet, but will later when implementing the infinite scroll JavaScript.
+Doing this will apply Masonry _once_ to the items present after the initial page load, but since we are going to be loading more items via the pager, we'll need to re-apply Masonry after those new items are loaded. We haven't defined the "change" action yet, but will later when implementing the infinite scroll JavaScript.
 
 ```JavaScript 
 // necessary to apply masonry to new items pulled in from infinite_scroll.js
@@ -133,7 +133,7 @@ To pull new items into our content block (to which Masonry is being applied) we'
 ---
 
 ####Loading more required libraries
-Again we'll use `drupal_get_path()` and `libraries_get_path()` to retrieve  more required JavaScript from within our `hook_block_view_alter()`.
+Again, we'll use `drupal_get_path()` and `libraries_get_path()` to retrieve  more required JavaScript from within our `hook_block_view_alter()`.
 
 ```php
 $autopager_path = libraries_get_path('autopager');
@@ -141,7 +141,7 @@ $data['content']['#attached']['js'][] = $autopager_path . '/jquery.autopager-1.0
 ```
 ---
     
-Now that we've got Autopager and `my_module_infinite_scroll.js` loaded let's apply the infinite scroll…
+Now that we've got Autopager and `my_module_infinite_scroll.js` loaded, let's apply the infinite scroll…
 
 The first thing we need to to is define the parameters that will be passed to Autopager.
 
@@ -183,7 +183,7 @@ The `$(content_selector).trigger('change')` bit is a key component of this snipp
 
 ## Triggering the infinite scroll function
     
-The Autopager handler we just defined acts our gas with respect to the infinite scroll action, but we also need a break. The following snippet, taken from `views_infinite_scroll.js` uses some fancy math to determine when the user has hit page bottom and onyl calls `handle.autopager('load')` when this is the case…effectively acting as the break.
+The Autopager handler we just defined acts our gas with respect to the infinite scroll action, but we also need a break. The following snippet, taken from `views_infinite_scroll.js` uses some fancy math to determine when the user has hit page bottom and only calls `handle.autopager('load')` when this is the case, effectively acting as the break.
 
 ```JavaScript
 // Trigger autoload if content height is less than doc height already
@@ -205,4 +205,4 @@ You'll notice on [The Salmon Project site](http://www.salmonlove.com) I am not u
      
 Regardless of the method you choose as a trigger, all the method needs to do is call Autopager's load function (analogous to hitting the hidden "next" pager link) to load more content.
       
-And there you have it…an infinite scroll masonry block that loads 3 more nodes each time the user hits page bottom without the use of the Views module.
+And there you have it, an infinite scroll masonry block that loads 3 more nodes each time the user hits page bottom without the use of the Views module.
