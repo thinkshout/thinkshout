@@ -3,7 +3,7 @@ layout: post
 title: "Creating an Infinite Scroll Masonry Block Without Views"
 published: false
 featured: false
-author: Alex
+author: alex
 date: 2014-06-16 
 short: |
 tags:
