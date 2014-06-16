@@ -1,4 +1,16 @@
-# Creating an infinite scroll masonry block without Views
+---
+layout: post
+title: "Creating an Infinite Scroll Masonry Block Without Views"
+published: false
+featured: false
+author: Alex
+date: 2014-06-16 
+short: |
+tags:
+
+---
+
+# 
 
 The [Views Infinite Scroll module](https://drupal.org/project/views_infinite_scroll) provides a way to apply infinite scroll to the output of a view, but if you want to apply infinite scroll to custom block content, you're out of luck. I found myself in this position while developing a recently launched site for [The Salmon Project](http://www.salmonlove.com).
 
