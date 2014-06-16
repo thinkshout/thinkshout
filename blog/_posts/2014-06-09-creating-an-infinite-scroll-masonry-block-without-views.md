@@ -72,7 +72,7 @@ foreach ($node_result['node'] as $row) {
 }
 ```
     
-Then we'll apply pager theming the to output by explicitly adding it to the returned renderable array.
+Then we'll apply pager theming to the output by explicitly adding it to the returned renderable array.
 
 ```php
 $output['pager'] = array('#theme' => 'pager');
