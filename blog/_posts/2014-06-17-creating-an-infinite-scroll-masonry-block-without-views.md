@@ -29,7 +29,7 @@ The [Views Infinite Scroll module](https://drupal.org/project/views_infinite_scr
 4. Creating an Infinite Scroll trigger.
 
 ### Creating a block to hold paged content
-The first step is creating a block to hold our custom paged view that can be placed on a page. To create the block we'll use a `hook_block_info()` followed by a `hook_block_view()`.
+The first step is creating a block to hold our custom paged view that can be placed on a page. To create the block, we'll use a `hook_block_info()` followed by a `hook_block_view()`.
 
 ```php
 function my_module_block_info() {
@@ -46,20 +46,20 @@ function my_module_block_view($delta = '') {
 }
 ```
 
-Here we've defined which function we'll be generating our paged view from; namely `my_module_masonry_content`.
+Here, we've defined which function we'll be generating our paged view from; namely `my_module_masonry_content`.
 
 ###Generating a paged content array
-Within our `my_module_masonry_content` function we'll create a paged view of nodes. To do so we'll use an EntityFieldQuery with the "pager" property, which causes the results of the query to be returned as a pager.  
+Within our `my_module_masonry_content` function, we'll create a paged view of nodes. To do so, we'll use an EntityFieldQuery with the "pager" property, which causes the results of the query to be returned as a pager.  
 
 ```php
 $query->pager(3);
 ```
 
-The argument passed to the pager function determines how many results at a time be returned; this is analogous to setting the number of items to be shown per page in a view – keep this bit in mind as we'll return to it later when implementing the infinite scroll.
+The argument passed to the pager function determines how many results at a time will be returned; this is analogous to setting the number of items to be shown per page in a view – keep this bit in mind, as we'll return to it later when implementing the infinite scroll.
 
 
 Now we'll add some query conditions and, finally, execute the query.
-These conditions are, of course, site specific, but I'm including them as an example for thoroughness. For help constructing your EntityFieldQuery query see [the EntityFieldQuery api documentation page](https://api.drupal.org/api/drupal/includes!entity.inc/class/EntityFieldQuery/7).
+These conditions are, of course, site specific, but I'm including them as an example for thoroughness. For help constructing your EntityFieldQuery query, see [the EntityFieldQuery api documentation page](https://api.drupal.org/api/drupal/includes!entity.inc/class/EntityFieldQuery/7).
 
 ```php
 $query->fieldCondition('field_example', 'value', array('value1', 'value2'), 'IN');    
@@ -67,7 +67,7 @@ $query->propertyCondition('status', '1');
 $results = $query.execute();
 ```
     
-In this example I've requested all nodes that have a `field_example` value of `value1` or `value2` and are published (i.e. node status property is equal to 1).
+In this example, I've requested all nodes that have a `field_example` value of `value1` or `value2` and are published (i.e. node status property is equal to 1).
 
 Once we have our results set, we will need to create a renderable array to return as the block content.
 
