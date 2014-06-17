@@ -5,9 +5,14 @@ published: false
 featured: false
 author: alex
 date: 2014-06-16 
-short: |
+short: | Having trouble applying infinite scroll to custom block content? We've got a process for that.
 tags:
-
+- infinite scroll
+- masonry
+- Drupal Planet
+- views infinite scroll
+- Drupal
+- The Salmon Project
 ---
 
 # 
