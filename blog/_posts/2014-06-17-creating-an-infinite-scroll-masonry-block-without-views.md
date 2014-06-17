@@ -189,7 +189,7 @@ The `$(content_selector).trigger('change')` bit is a key component of this snipp
 
 ## Triggering the infinite scroll function
     
-The Autopager handler we just defined acts as our gas with respect to the infinite scroll action, but we also need a brake. The following snippet, taken from `views_infinite_scroll.js` uses some fancy math to determine when the user has hit page bottom and only calls `handle.autopager('load')` when this is the case, effectively acting as the break.
+The Autopager handler we just defined acts as our gas with respect to the infinite scroll action, but we also need a brake. The following snippet, taken from `views_infinite_scroll.js` uses some fancy math to determine when the user has hit page bottom and only calls `handle.autopager('load')` when this is the case, effectively acting as the brake.
 
 ```JavaScript
 // Trigger autoload if content height is less than doc height already
