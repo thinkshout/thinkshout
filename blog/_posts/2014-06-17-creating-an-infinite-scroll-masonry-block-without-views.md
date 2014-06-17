@@ -4,7 +4,7 @@ title: "Creating an Infinite Scroll Masonry Block Without Views"
 published: false
 featured: false
 author: alex
-date: 2014-06-16 
+date: 2014-06-17 
 short: | 
  Having trouble applying infinite scroll to custom block content? We've got a process for that.
 tags:
