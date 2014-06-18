@@ -65,7 +65,7 @@ These conditions are, of course, site specific, but I'm including them as an exa
 <?php
 $query->fieldCondition('field_example', 'value', array('value1', 'value2'), 'IN');
 $query->propertyCondition('status', '1');
-$results = $query.execute();
+$results = $query->execute();
 ```
 
 In this example, I've requested all nodes that have a `field_example` value of `value1` or `value2` and are published (i.e. node status property is equal to 1).
