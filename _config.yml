@@ -1,7 +1,6 @@
 name: ThinkShout
 description: ThinkShout - We provide web strategy and open source technology to forward-thinking organizations.
 markdown: redcarpet
-highlighter: true
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
@@ -18,7 +17,7 @@ team_dir: 'team'
 contact_redirect: 'thanks'
 tag_dir: 'blog/category'
 
-# Blog pagination.  
+# Blog pagination.
 # paginate: 10
 # paginate_path: "blog/page:num"
 
