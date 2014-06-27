@@ -91,7 +91,7 @@ And yes, this is pretty good. But for some reason, our tab still wasn’t appear
 array(
   ‘options’ => array(
     ‘entity_type’ => “commerce_order”,
-    ‘entity’ => {stdClass}
+    ‘entity’ => [stdClass]
   ),
 )
 ```
