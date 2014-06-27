@@ -4,16 +4,16 @@ title: "Navigating Entity URIs: A Practical Example"
 published: true
 featured: true
 author: gabe
-date: 2014-06-27 16:00:00
-short: |
-  Find out how to wrestle proper URIs out of all sorts of stubborn entities, with an example from our Salesforce module.
-tags:
-- Drupal Planet
-- Drupal
-- Entity
-- 
+date: {}
+short: 
+  - "Find out how to wrestle proper URIs out of all sorts of stubborn entities, with an example from our Salesforce module.\n"
+  - "Find out how to wrestle proper URIs out of all sorts of stubborn entities, with an example from our Salesforce module."
+tags: 
+  - Drupal Planet
+  - Drupal
+  - Entity
+  - null
 ---
-
 
 At ThinkShout, most of our modules are based around the Entity system. After all, like most developers, we are big abstraction nerds. Entities enable some rad abstraction in Drupal land: our [Registration module](https://www.drupal.org/project/registration) lets you registration-enable any fieldable entity; the new version of [MailChimp](https://www.drupal.org/project/mailchimp) lets you sync any fieldable entity with an email address with your MailChimp lists; and our [Salesforce module](https://www.drupal.org/project/salesforce) lets you sync any entity with a Salesforce object.
 
@@ -70,7 +70,6 @@ function salesforce_mapping_menu() {
 This worked great in development, but as soon as we tested on a production site, it exploded. Why? This line:
 
 ```php
-<?php
 $uri = $entity->uri();
 ```
 
