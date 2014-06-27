@@ -15,7 +15,7 @@ tags:
 ---
 
 
-At ThinkShout, most of our modules are based around the Entity system. After all, like most developers, we are big abstraction nerds. Entities enable some rad abstraction in Drupal land: our [Registration module](https://www.drupal.org/project/registration) lets you registration-enable any fieldable entity; the new version of [MailChimp](https://www.drupal.org/project/mailchimp) lets you sync any fieldable entity with an email address with your Mailchimp lists; and our [Salesforce module](https://www.drupal.org/project/salesforce) lets you sync any entity with a Salesforce object.
+At ThinkShout, most of our modules are based around the Entity system. After all, like most developers, we are big abstraction nerds. Entities enable some rad abstraction in Drupal land: our [Registration module](https://www.drupal.org/project/registration) lets you registration-enable any fieldable entity; the new version of [MailChimp](https://www.drupal.org/project/mailchimp) lets you sync any fieldable entity with an email address with your MailChimp lists; and our [Salesforce module](https://www.drupal.org/project/salesforce) lets you sync any entity with a Salesforce object.
 
 Did you notice the little restriction I worked into my first two examples there? MailChimp and Registration are only for “fieldable entities”. There are a lot of reasons for this, but one of the conveniences of fieldability is that it gives you a natural place to add your entity-specific stuff, like a registration form or a MailChimp list signup dialogue: display it with field API!
 
