@@ -60,7 +60,9 @@ This worked great in development, but as soon as we tested on a production site,
 $uri = $entity->uri();
 
 Sadly, this method doesn’t work for every Drupal Entity. Nodes, for example, and Commerce Orders, don’t respond to $entity->uri(). They like:
+
     $uri = entity_uri($entity)
+
 Grr. Ok, easy fix right?
 
     $uri = method_exists($entity, 'uri') ? $entity->uri() : entity_uri($type, $entity);
