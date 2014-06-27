@@ -1,10 +1,19 @@
 ---
 layout: post
-published: false
-featured: false
+title: "Navigating Entity URIs: A Practical Example"
+published: true
+featured: true
+author: gabe
+date: 2014-06-27 16:00:00
+short: |
+  Find out how to wrestle proper URIs out of all sorts of stubborn entities, with an example from our Salesforce module.
+tags:
+- Drupal Planet
+- Drupal
+- Entity
 ---
 
-## Navigating Entity URIs: A Practical Example
+## 
 
 At ThinkShout, most of our modules are based around the Entity system. After all, like most developers, we are big abstraction nerds. Entities enable some rad abstraction in Drupal land: our [Registration module](https://www.drupal.org/project/registration) lets you registration-enable any fieldable entity; the new version of [MailChimp](https://www.drupal.org/project/mailchimp) lets you sync any fieldable entity with an email address with your Mailchimp lists; and our [Salesforce module](https://www.drupal.org/project/salesforce) lets you sync any entity with a Salesforce object.
 
