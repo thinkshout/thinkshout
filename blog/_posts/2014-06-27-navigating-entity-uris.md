@@ -4,7 +4,9 @@ published: false
 featured: false
 ---
 
-## Navigating Entity URIs: A Practical ExampleAt ThinkShout, most of our modules are based around the Entity system. After all, like most developers, we are big abstraction nerds. Entities enable some rad abstraction in Drupal land: our Registration Module lets you registration-enable any fieldable entity; the new version of Mailchimp lets you sync any fieldable entity with an email address with your Mailchimp lists; and our Salesforce module lets you sync any entity with a Salesforce object.
+## Navigating Entity URIs: A Practical Example
+
+At ThinkShout, most of our modules are based around the Entity system. After all, like most developers, we are big abstraction nerds. Entities enable some rad abstraction in Drupal land: our Registration Module lets you registration-enable any fieldable entity; the new version of Mailchimp lets you sync any fieldable entity with an email address with your Mailchimp lists; and our Salesforce module lets you sync any entity with a Salesforce object.
 
 Did you notice the little restriction I worked into my first two examples there? Mailchimp and Registration are only for “fieldable entities”. There are a lot of reasons for this, but one of the conveniences of fieldability is that it gives you a natural place to add your entity-specific stuff, like a registration form or a mailchimp list signup dialogue: display it with field API! Salesforce is different, though: it isn’t field-based. Instead, an individual “Salesforce Mapping” entity describes a synchronization relationship between a Drupal Entity Bundle (like a node content type of “event”) and a Salesforce Object Type (like a “Campaign”): there’s no need for any entity-side configuration -- or at least, there didn’t used to be.
 
@@ -16,76 +18,89 @@ The UI is handy: searchable, filterable, sortable. Sometimes Drupal makes stuff 
 
 ![salesforce_sync_ui_admin.png](/assets/images/blog/salesforce_sync_ui_admin.png)
 
-
-Can we be real for a second, though? If I have an Event syncing with a Salesforce Campaign, and I want to look at the sync history, does it make sense for me to go to a special part of my site and track down that Event with a unique UI? Hardly. Just put a tab on my Event, dude!
+Can we be real for a second, though? If I have an Event syncing with a Salesforce Campaign, and I want to look at the sync history, does it make sense for me to go to a special part of my site and track down that Event with a unique UI? Hardly. Just put a tab on my Event Node, dude!
 
 Great idea! Shouldn’t be too hard, right? We’ll just do a hook_menu, load up all our Salesforce Mappings, and add a menu item to their Entity Bundles based on their URI:
 
-// Load our Salesforce mappings and loop through:
-$mappings = salesforce_mapping_load();
-foreach ($mappings as $mapping) {
-  // Create a dummy entity to load the URI:
-  $entity = entity_create($mapping->drupal_entity_type, array('type' => $mapping->drupal_bundle));
-  $uri = $entity->uri(); // Danger Will Robinson!
-  $path = $uri['path'] . '%' . $type . '/salesforce_activity';
-  // Figure out which argument has our entity ID in it:
-  $entity_arg = substr_count($path, '/') - 1;
-  // Use the URI and entity arg to generate a nice menu item:
-  $items[$path] = array(
-      'title' => 'Salesforce activity',
-      'description' => 'View Salesforce activity for this entity.',
-      'type' => MENU_LOCAL_TASK,
-      'page callback' => 'salesforce_mapping_object_view',
-      'page arguments' => array($entity_arg, $mapping->drupal_entity_type),
-    );
+    /**
+     * Implements hook_menu().
+     */
+    function salesforce_mapping_menu() {
+      $items = array();
+          // Load our Salesforce mappings and loop through:
+      $mappings = salesforce_mapping_load();
+      foreach ($mappings as $mapping) {
+        // Create a dummy entity to load the URI:
+        $entity = entity_create($mapping->drupal_entity_type, array('type' => $mapping->drupal_bundle));
+        $uri = $entity->uri(); // Danger Will Robinson!
+        $path = $uri['path'] . '%' . $type . '/salesforce_activity';
+        
+        // Figure out which argument has our entity ID in it:
+        $entity_arg = substr_count($path, '/') - 1;
+        
+        // Use the URI and entity arg to generate a nice menu item:
+        $items[$path] = array(
+          'title' => 'Salesforce activity',
+          'description' => 'View Salesforce activity for this entity.',
+          'type' => MENU_LOCAL_TASK,
+          'page callback' => 'salesforce_mapping_object_view',
+          'page arguments' => array($entity_arg, $mapping->drupal_entity_type),
+        );
+      }
+      return $items;
+    }
 
 This worked great in development, but as soon as we tested on a production site, it exploded. Why? This line:
 
 $uri = $entity->uri();
 
-Sadly, this method doesn’t work for every Drupal Entity. Nodes, for example, and Commerce Orders, don’t respond to $entity->uri(). They like “entity_uri($entity)”. Grr. Ok, easy fix right?
+Sadly, this method doesn’t work for every Drupal Entity. Nodes, for example, and Commerce Orders, don’t respond to $entity->uri(). They like:
+    $uri = entity_uri($entity)
+Grr. Ok, easy fix right?
 
-$uri = method_exists($entity, 'uri') ? $entity->uri() : entity_uri($type, $entity);
+    $uri = method_exists($entity, 'uri') ? $entity->uri() : entity_uri($type, $entity);
 
 And yes, this is pretty good. But for some reason our tab still wasn’t appearing on Commerce Orders. On closer inspection, this is the URI we were getting from our function call on Commerce Orders:
 
-array(
-  ‘options’ => array(
-    ‘entity_type’ => “commerce_order”,
-    ‘entity’ => {stdClass}
-  ),
-)
+    array(
+      ‘options’ => array(
+        ‘entity_type’ => “commerce_order”,
+        ‘entity’ => {stdClass}
+      ),
+    )
 
 Notice something missing? Yeah, there’s no ‘path’ index for the next line to use:
-$path = $uri['path'] . '%' . $type . '/salesforce_activity';
 
-Thanks for nuthin, flagship example of how to use the Entity system! I’m sure the Commerce team has a good reason for leaving the ‘path’ piece of URIs empty on raw Entity objects, because all their Entities behave this way. But it’s not very helpful for us!
+    $path = $uri['path'] . '%' . $type . '/salesforce_activity';
 
-We could potentially resolve this by loading a random object and parsing its URI path to extract an abstract version, or by offering a patch to Commerce. Perhaps the latter option would be ideal, but we decided a work-around would be more expeditious: we really don’t want to break Commerce on a live site.
+Thanks for nuthin, flagship example of how to use the Entity system! I’m sure the Commerce team has a good reason for leaving the ‘path’ piece of URIs empty on raw Entity objects: almost all Commerce Entities behave this way. But it’s not very helpful for us!
+
+We could potentially resolve this by loading a random object and parsing its URI's 'path' to extract an abstract version, or by offering a patch to Commerce. Perhaps the latter option would be ideal, but we decided a work-around would be more expeditious: we really don’t want to break Commerce on a live site.
 
 Instead, we decided to override the entity data for the important entity types in a local module:
-/**
- * Implements hook_entity_info_alter().
- */
-function my_module_entity_info_alter(&$entity_info) {
-  // Replace ‘commerce_order_ui_order_uri’
-  $entity_info['commerce_order']['uri callback'] = 'my_module_uri_order';
-}
 
-/**
- * URI callback wrapper to ensure a proper ‘path’ index for Orders.
- */
-function my_module_uri_order($entity) {
-  // Call the original uri function and fix only if necessary:
-  $uri = commerce_order_ui_order_uri($entity);
-  if (is_null($uri)) {
-    $uri = array(
-      'path' => 'admin/commerce/orders/',
-    );
-  }
-  return $uri;
-}
-
+    /**
+     * Implements hook_entity_info_alter().
+     */
+    function my_module_entity_info_alter(&$entity_info) {
+      // Replace ‘commerce_order_ui_order_uri’
+      $entity_info['commerce_order']['uri callback'] = 'my_module_uri_order';
+    }
+    
+    /**
+     * URI callback wrapper to ensure a proper ‘path’ index for Orders.
+     */
+    function my_module_uri_order($entity) {
+      // Call the original uri function and fix only if necessary:
+      $uri = commerce_order_ui_order_uri($entity);
+      if (is_null($uri)) {
+        $uri = array(
+          'path' => 'admin/commerce/orders/',
+        );
+      }
+      return $uri;
+    }
+    
 This solves the issue for Orders: a similar technique can be used for any Entity Type that fails to offer a proper ‘path’ index for its URI.
 
 The only entities left to deal with are those that don’t offer any URI at all: entities without a direct management interface. Field Collections are a common example. Fortunately, we started out with a Universal Admin UI: it seems reasonable to place the Salesforce Object administration interface off this Admin page. Here’s the final hook_menu implementation for our Salesforce Mapping UI:
