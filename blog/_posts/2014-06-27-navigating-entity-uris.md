@@ -87,12 +87,12 @@ $uri = method_exists($entity, 'uri') ? $entity->uri() : entity_uri($type, $entit
 
 And yes, this is pretty good. But for some reason, our tab still wasn’t appearing on Commerce Orders. On closer inspection, this is the URI we were getting from our function call on Commerce Orders:
 
-array(
-  ‘options’ => array(
-    ‘entity_type’ => “commerce_order”,
-    ‘entity’ => [stdClass]
-  ),
-)
+    array(
+      ‘options’ => array(
+        ‘entity_type’ => “commerce_order”,
+        ‘entity’ => {stdClass}
+      ),
+    )
 
 Notice something missing? Yeah, there’s no ‘path’ index for the next line to use:
 
