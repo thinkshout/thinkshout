@@ -4,11 +4,10 @@ title: "Navigating Entity URIs: A Practical Example"
 published: true
 featured: true
 author: gabe
-date: {}
-short: 
-  - "Find out how to wrestle proper URIs out of all sorts of stubborn entities, with an example from our Salesforce module.\n"
-  - "Find out how to wrestle proper URIs out of all sorts of stubborn entities, with an example from our Salesforce module."
-tags: 
+date: 2014-06-27 17:15:00
+short:
+  Find out how to wrestle proper URIs out of all sorts of stubborn entities, with an example from our Salesforce module.
+tags:
   - Drupal Planet
   - Drupal
   - Entity
@@ -29,7 +28,7 @@ The UI is handy: searchable, filterable, sortable. Sometimes Drupal makes stuff 
 
 ![salesforce_sync_ui_admin.png](/assets/images/blog/salesforce_sync_ui_admin.png)
 
-Can we be real for a second, though? If I have an Event syncing with a Salesforce Campaign, and I want to look at the sync history, does it make sense for me to go to a special part of my site and track down that Event with some weird unique UI? 
+Can we be real for a second, though? If I have an Event syncing with a Salesforce Campaign, and I want to look at the sync history, does it make sense for me to go to a special part of my site and track down that Event with some weird unique UI?
 
 Hardly. Just put a tab on my Event Node, dude!
 
@@ -43,16 +42,16 @@ function salesforce_mapping_menu() {
   $items = array();
   // Load our Salesforce mappings and loop through:
   $mappings = salesforce_mapping_load();
-  
+
   foreach ($mappings as $mapping) {
     // Create a dummy entity to load the URI:
     $entity = entity_create($mapping->drupal_entity_type, array('type' => $mapping->drupal_bundle));
     $uri = $entity->uri(); // Danger Will Robinson!
     $path = $uri['path'] . '%' . $type . '/salesforce_activity';
-    
+
     // Figure out which argument has our entity ID in it:
     $entity_arg = substr_count($path, '/') - 1;
-    
+
     // Use the URI and entity arg to generate a nice menu item:
     $items[$path] = array(
       'title' => 'Salesforce activity',
@@ -129,7 +128,7 @@ function my_module_uri_order($entity) {
   return $uri;
 }
 ```
-    
+
 This solves the issue for Orders. A similar technique can be used for any Entity Type that fails to offer a proper ‘path’ index for its URI.
 
 The only entities left to deal with are those that don’t offer any URI at all: entities without a direct management interface. Field Collections are a common example. Fortunately, we started out with a Universal Admin UI: it seems reasonable to hang the Salesforce Object administration interface off this Admin page. Here’s the final, complete hook_menu implementation for our Salesforce Mapping UI:
