@@ -35,6 +35,7 @@ Hardly. Just put a tab on my Event Node, dude!
 Great idea! Shouldn’t be too hard, right? We’ll just do a hook_menu, load up all our of Salesforce Mappings, and add a menu item to their Entity Bundles based on their URI:
 
 ```php
+<?php
 /**
  * Implements hook_menu().
  */
@@ -68,6 +69,7 @@ function salesforce_mapping_menu() {
 This worked great in development, but as soon as we tested on a production site, it exploded. Why? This line:
 
 ```php
+<?php
 $uri = $entity->uri();
 ```
 
@@ -75,27 +77,33 @@ Sadly, this method doesn’t work for every Drupal Entity. Nodes, for example, a
 
 
 ```php
+<?php
 $uri = entity_uri($entity)
 ```
 
 Grr. Ok, easy fix right?
 
 ```php
+<?php
 $uri = method_exists($entity, 'uri') ? $entity->uri() : entity_uri($type, $entity);
 ```
 
 And yes, this is pretty good. But for some reason, our tab still wasn’t appearing on Commerce Orders. On closer inspection, this is the URI we were getting from our function call on Commerce Orders:
 
-    array(
-      ‘options’ => array(
-        ‘entity_type’ => “commerce_order”,
-        ‘entity’ => {stdClass}
-      ),
-    )
+```php
+<?php
+array(
+  ‘options’ => array(
+    ‘entity_type’ => “commerce_order”,
+    ‘entity’ => {stdClass}
+  ),
+)
+```
 
 Notice something missing? Yeah, there’s no ‘path’ index for the next line to use:
 
 ```php
+<?php
 $path = $uri['path'] . '%' . $type . '/salesforce_activity';
 ```
 
@@ -106,6 +114,7 @@ We could potentially resolve this by loading a random object and parsing its URI
 Instead, we decided to override the entity data for the important entity types in a local module:
 
 ```php
+<?php
 /**
  * Implements hook_entity_info_alter().
  */
@@ -134,6 +143,7 @@ This solves the issue for Orders. A similar technique can be used for any Entity
 The only entities left to deal with are those that don’t offer any URI at all: entities without a direct management interface. Field Collections are a common example. Fortunately, we started out with a Universal Admin UI: it seems reasonable to hang the Salesforce Object administration interface off this Admin page. Here’s the final, complete hook_menu implementation for our Salesforce Mapping UI:
 
 ```php
+<?php
 /**
  * Implements hook_menu().
  */
