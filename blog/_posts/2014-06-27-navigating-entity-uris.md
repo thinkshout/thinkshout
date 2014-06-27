@@ -11,15 +11,15 @@ tags:
 - Drupal Planet
 - Drupal
 - Entity
+- 
 ---
 
-## 
 
 At ThinkShout, most of our modules are based around the Entity system. After all, like most developers, we are big abstraction nerds. Entities enable some rad abstraction in Drupal land: our [Registration module](https://www.drupal.org/project/registration) lets you registration-enable any fieldable entity; the new version of [MailChimp](https://www.drupal.org/project/mailchimp) lets you sync any fieldable entity with an email address with your Mailchimp lists; and our [Salesforce module](https://www.drupal.org/project/salesforce) lets you sync any entity with a Salesforce object.
 
 Did you notice the little restriction I worked into my first two examples there? MailChimp and Registration are only for “fieldable entities”. There are a lot of reasons for this, but one of the conveniences of fieldability is that it gives you a natural place to add your entity-specific stuff, like a registration form or a MailChimp list signup dialogue: display it with field API!
 
-Salesforce is different: it isn’t field-based. Instead, an individual “Salesforce Mapping” entity describes a synchronization relationship between a Drupal Entity Bundle (like a node content type of “Event”) and a Salesforce Object Type (like a “Campaign”): there’s no need for any entity-side configuration -- or at least, there didn’t used to be.
+Salesforce is different. It isn’t field-based. Instead, an individual “Salesforce Mapping” entity describes a synchronization relationship between a Drupal Entity Bundle (like a node content type of “Event”) and a Salesforce Object Type (like a “Campaign”): there’s no need for any entity-side configuration -- or at least, there didn’t used to be.
 
 Recently, we began implementing a suite of Salesforce sync administration tools to help resolve the inevitable issues that arise with two complex systems trying to pass data back and forth. One of the features of this tool is the ability to change the Salesforce Object that a particular Drupal entity is connected with (change a specific Event to map to a different Campaign). Another is to view the synchronization history for any Drupal entity.
 
@@ -89,7 +89,7 @@ Grr. Ok, easy fix right?
 $uri = method_exists($entity, 'uri') ? $entity->uri() : entity_uri($type, $entity);
 ```
 
-And yes, this is pretty good. But for some reason our tab still wasn’t appearing on Commerce Orders. On closer inspection, this is the URI we were getting from our function call on Commerce Orders:
+And yes, this is pretty good. But for some reason, our tab still wasn’t appearing on Commerce Orders. On closer inspection, this is the URI we were getting from our function call on Commerce Orders:
 
 ```php
 <?php
@@ -108,7 +108,7 @@ Notice something missing? Yeah, there’s no ‘path’ index for the next line 
 $path = $uri['path'] . '%' . $type . '/salesforce_activity';
 ```
 
-Thanks for nuthin, flagship example of how to use the Entity system! I’m sure the Commerce team has a good reason for leaving the ‘path’ piece of URIs empty on raw Entity objects: almost all Commerce Entities behave this way. But it’s not very helpful for us!
+Thanks for nuthin', flagship example of how to use the Entity system! I’m sure the Commerce team has a good reason for leaving the ‘path’ piece of URIs empty on raw Entity objects: almost all Commerce Entities behave this way. But it’s not very helpful for us!
 
 We could potentially resolve this by loading a random object and parsing its URI's 'path' to extract an abstract version, or by offering a patch to Commerce. Perhaps the latter option would be ideal, but we decided a work-around would be more expeditious: we really don’t want to break Commerce on a live site.
 
