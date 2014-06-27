@@ -6,13 +6,13 @@ featured: false
 
 ## Navigating Entity URIs: A Practical Example
 
-At ThinkShout, most of our modules are based around the Entity system. After all, like most developers, we are big abstraction nerds. Entities enable some rad abstraction in Drupal land: our [Registration module](https://www.drupal.org/project/registration) lets you registration-enable any fieldable entity; the new version of [Mailchimp](https://www.drupal.org/project/mailchimp) lets you sync any fieldable entity with an email address with your Mailchimp lists; and our [Salesforce module](https://www.drupal.org/project/salesforce) lets you sync any entity with a Salesforce object.
+At ThinkShout, most of our modules are based around the Entity system. After all, like most developers, we are big abstraction nerds. Entities enable some rad abstraction in Drupal land: our [Registration module](https://www.drupal.org/project/registration) lets you registration-enable any fieldable entity; the new version of [MailChimp](https://www.drupal.org/project/mailchimp) lets you sync any fieldable entity with an email address with your Mailchimp lists; and our [Salesforce module](https://www.drupal.org/project/salesforce) lets you sync any entity with a Salesforce object.
 
-Did you notice the little restriction I worked into my first two examples there? Mailchimp and Registration are only for “fieldable entities”. There are a lot of reasons for this, but one of the conveniences of fieldability is that it gives you a natural place to add your entity-specific stuff, like a registration form or a mailchimp list signup dialogue: display it with field API!
+Did you notice the little restriction I worked into my first two examples there? MailChimp and Registration are only for “fieldable entities”. There are a lot of reasons for this, but one of the conveniences of fieldability is that it gives you a natural place to add your entity-specific stuff, like a registration form or a MailChimp list signup dialogue: display it with field API!
 
 Salesforce is different: it isn’t field-based. Instead, an individual “Salesforce Mapping” entity describes a synchronization relationship between a Drupal Entity Bundle (like a node content type of “Event”) and a Salesforce Object Type (like a “Campaign”): there’s no need for any entity-side configuration -- or at least, there didn’t used to be.
 
-Recently we began implementing a suite of Salesforce sync administration tools to help resolve the inevitable issues that arise with two complex systems trying to pass data back and forth. One of the features of this tool is the ability to change the Salesforce Object that a particular Drupal entity is connected with (change a specific Event to map to a different Campaign). Another is to view the synchronization history for any Drupal entity.
+Recently, we began implementing a suite of Salesforce sync administration tools to help resolve the inevitable issues that arise with two complex systems trying to pass data back and forth. One of the features of this tool is the ability to change the Salesforce Object that a particular Drupal entity is connected with (change a specific Event to map to a different Campaign). Another is to view the synchronization history for any Drupal entity.
 
 We started out by implementing a central administrative UI to provide access to locate and edit all these Synchronization Object instances.
 
@@ -24,7 +24,7 @@ Can we be real for a second, though? If I have an Event syncing with a Salesforc
 
 Hardly. Just put a tab on my Event Node, dude!
 
-Great idea! Shouldn’t be too hard, right? We’ll just do a hook_menu, load up all our Salesforce Mappings, and add a menu item to their Entity Bundles based on their URI:
+Great idea! Shouldn’t be too hard, right? We’ll just do a hook_menu, load up all our of Salesforce Mappings, and add a menu item to their Entity Bundles based on their URI:
 
 ```php
 <?php
@@ -213,4 +213,4 @@ function salesforce_mapping_menu() {
 }
 ```
 
-Now we can find what we need from 2 natural directions: by thinking about Salesforce Sync Objects or just by thinking about the entity we want to deal with. The inconsistent responsiveness of Drupal Entities to the uri() request is frustrating, but not impossible to work around. Hopefully you find this article helpful -- and if you maintain a module that creates its own entities, please test out the uri() function before your next release!
+Now we can find what we need from two natural directions: by thinking about Salesforce Sync Objects or just by thinking about the entity we want to deal with. The inconsistent responsiveness of Drupal Entities to the uri() request is frustrating, but not impossible to work around. Hopefully, you find this article helpful -- and if you maintain a module that creates its own entities, please test out the uri() function before your next release!
