@@ -8,9 +8,11 @@ featured: false
 
 At ThinkShout, most of our modules are based around the Entity system. After all, like most developers, we are big abstraction nerds. Entities enable some rad abstraction in Drupal land: our Registration Module lets you registration-enable any fieldable entity; the new version of Mailchimp lets you sync any fieldable entity with an email address with your Mailchimp lists; and our Salesforce module lets you sync any entity with a Salesforce object.
 
-Did you notice the little restriction I worked into my first two examples there? Mailchimp and Registration are only for “fieldable entities”. There are a lot of reasons for this, but one of the conveniences of fieldability is that it gives you a natural place to add your entity-specific stuff, like a registration form or a mailchimp list signup dialogue: display it with field API! Salesforce is different, though: it isn’t field-based. Instead, an individual “Salesforce Mapping” entity describes a synchronization relationship between a Drupal Entity Bundle (like a node content type of “event”) and a Salesforce Object Type (like a “Campaign”): there’s no need for any entity-side configuration -- or at least, there didn’t used to be.
+Did you notice the little restriction I worked into my first two examples there? Mailchimp and Registration are only for “fieldable entities”. There are a lot of reasons for this, but one of the conveniences of fieldability is that it gives you a natural place to add your entity-specific stuff, like a registration form or a mailchimp list signup dialogue: display it with field API!
 
-Recently we began implementing a suite of Salesforce sync administration and logging tools to help resolve the inevitable issues that arise with two complex systems trying to pass data back and forth. One of the features of this tool is the ability to change the Salesforce Object that a particular Drupal entity is connected with (change a specific Event to map to a different Campaign). Another is to view the synchronization history for any Drupal entity.
+Salesforce is different: it isn’t field-based. Instead, an individual “Salesforce Mapping” entity describes a synchronization relationship between a Drupal Entity Bundle (like a node content type of “Event”) and a Salesforce Object Type (like a “Campaign”): there’s no need for any entity-side configuration -- or at least, there didn’t used to be.
+
+Recently we began implementing a suite of Salesforce sync administration tools to help resolve the inevitable issues that arise with two complex systems trying to pass data back and forth. One of the features of this tool is the ability to change the Salesforce Object that a particular Drupal entity is connected with (change a specific Event to map to a different Campaign). Another is to view the synchronization history for any Drupal entity.
 
 We started out by implementing a central administrative UI to provide access to locate and edit all these Synchronization Object instances.
 
@@ -18,7 +20,9 @@ The UI is handy: searchable, filterable, sortable. Sometimes Drupal makes stuff 
 
 ![salesforce_sync_ui_admin.png](/assets/images/blog/salesforce_sync_ui_admin.png)
 
-Can we be real for a second, though? If I have an Event syncing with a Salesforce Campaign, and I want to look at the sync history, does it make sense for me to go to a special part of my site and track down that Event with a unique UI? Hardly. Just put a tab on my Event Node, dude!
+Can we be real for a second, though? If I have an Event syncing with a Salesforce Campaign, and I want to look at the sync history, does it make sense for me to go to a special part of my site and track down that Event with some weird unique UI? 
+
+Hardly. Just put a tab on my Event Node, dude!
 
 Great idea! Shouldn’t be too hard, right? We’ll just do a hook_menu, load up all our Salesforce Mappings, and add a menu item to their Entity Bundles based on their URI:
 
@@ -27,8 +31,9 @@ Great idea! Shouldn’t be too hard, right? We’ll just do a hook_menu, load up
      */
     function salesforce_mapping_menu() {
       $items = array();
-          // Load our Salesforce mappings and loop through:
+      // Load our Salesforce mappings and loop through:
       $mappings = salesforce_mapping_load();
+      
       foreach ($mappings as $mapping) {
         // Create a dummy entity to load the URI:
         $entity = entity_create($mapping->drupal_entity_type, array('type' => $mapping->drupal_bundle));
