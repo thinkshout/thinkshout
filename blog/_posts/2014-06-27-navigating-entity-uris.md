@@ -101,87 +101,84 @@ Instead, we decided to override the entity data for the important entity types i
       return $uri;
     }
     
-This solves the issue for Orders: a similar technique can be used for any Entity Type that fails to offer a proper ‘path’ index for its URI.
+This solves the issue for Orders. A similar technique can be used for any Entity Type that fails to offer a proper ‘path’ index for its URI.
 
-The only entities left to deal with are those that don’t offer any URI at all: entities without a direct management interface. Field Collections are a common example. Fortunately, we started out with a Universal Admin UI: it seems reasonable to place the Salesforce Object administration interface off this Admin page. Here’s the final hook_menu implementation for our Salesforce Mapping UI:
+The only entities left to deal with are those that don’t offer any URI at all: entities without a direct management interface. Field Collections are a common example. Fortunately, we started out with a Universal Admin UI: it seems reasonable to hang the Salesforce Object administration interface off this Admin page. Here’s the final, complete hook_menu implementation for our Salesforce Mapping UI:
 
-/**
- * Implements hook_menu().
- */
-function salesforce_mapping_menu() {
-  $items = array();
-
-  $items['admin/content/salesforce'] = array(
-    'title' => 'Salesforce Mapped Objects',
-    'description' => 'Manage mapped Salesforce objects.',
-    'type' => MENU_LOCAL_TASK,
-    'page callback' => 'salesforce_mapping_object_overview_page',
-    'file' => 'includes/salesforce_mapping_object.admin.inc',
-    'access arguments' => array('view salesforce mapping object'),
-  );
-
-  // Define SF activity local tasks for all mapped entities.
-  $defaults = array(
-    'file' => 'salesforce_mapping_object.admin.inc',
-    'file path' => drupal_get_path('module', 'salesforce_mapping') . '/includes',
-  );
-
-  $mappings = salesforce_mapping_load();
-  $mapped_entities = array();
-  foreach ($mappings as $mapping) {
-    // We grab the bundle now because it becomes inaccessible for some entities
-    // after it is put into the loop below:
-    $mapped_entities[$mapping->drupal_entity_type] = $mapping->drupal_bundle;
-  }
-  foreach ($mapped_entities as $type => $bundle) {
-    $entity = entity_create($type, array('type' => $bundle));
-    $uri = method_exists($entity, 'uri') ? $entity->uri() : entity_uri($type, $entity);
-    // For entities without their own menu items, we hang the UI off the universal
-    // Salesforce object admin page:
-    if (empty($uri['path'])) {
-      $path = 'admin/content/salesforce/' . $type . '/%' . $type . '/salesforce_activity';
-      $menu_type = MENU_NORMAL_ITEM;
+    /**
+     * Implements hook_menu().
+     */
+    function salesforce_mapping_menu() {
+      $items = array();
+    
+      $items['admin/content/salesforce'] = array(
+        'title' => 'Salesforce Mapped Objects',
+        'description' => 'Manage mapped Salesforce objects.',
+        'type' => MENU_LOCAL_TASK,
+        'page callback' => 'salesforce_mapping_object_overview_page',
+        'file' => 'includes/salesforce_mapping_object.admin.inc',
+        'access arguments' => array('view salesforce mapping object'),
+      );
+    
+      // Define SF activity local tasks for all mapped entities.
+      $defaults = array(
+        'file' => 'salesforce_mapping_object.admin.inc',
+        'file path' => drupal_get_path('module', 'salesforce_mapping') . '/includes',
+      );
+    
+      $mappings = salesforce_mapping_load();
+      $mapped_entities = array();
+      foreach ($mappings as $mapping) {
+        // We grab the bundle now because it becomes inaccessible for some entities
+        // after it is put into the loop below:
+        $mapped_entities[$mapping->drupal_entity_type] = $mapping->drupal_bundle;
+      }
+      foreach ($mapped_entities as $type => $bundle) {
+        $entity = entity_create($type, array('type' => $bundle));
+        $uri = method_exists($entity, 'uri') ? $entity->uri() : entity_uri($type, $entity);
+        // For entities without their own menu items, we hang the UI off the universal
+        // Salesforce object admin page:
+        if (empty($uri['path'])) {
+          $path = 'admin/content/salesforce/' . $type . '/%' . $type . '/salesforce_activity';
+          $menu_type = MENU_NORMAL_ITEM;
+        }
+        else {
+          $path = $uri['path'] . '%' . $type . '/salesforce_activity';
+          $menu_type = MENU_LOCAL_TASK;
+        }
+        $entity_arg = substr_count($path, '/') - 1;
+        $items[$path] = array(
+          'title' => 'Salesforce activity',
+          'description' => 'View Salesforce activity for this entity.',
+          'type' => $menu_type,
+          'page callback' => 'salesforce_mapping_object_view',
+          'page arguments' => array($entity_arg, $type),
+          'access callback' => 'salesforce_mapping_entity_mapping_accessible',
+          'access arguments' => array('view', $entity_arg, $type),
+        );
+        $items[$path . '/view'] = array(
+          'title' => 'View',
+          'type' => MENU_DEFAULT_LOCAL_TASK,
+          'weight' => -10,
+        );
+        $items[$path . '/edit'] = array(
+          'page callback' => 'salesforce_mapping_object_edit',
+          'page arguments' => array($entity_arg, $type),
+          'access arguments' => array('edit salesforce mapping object'),
+          'title' => 'Edit',
+          'type' => MENU_LOCAL_TASK,
+          'context' => MENU_CONTEXT_PAGE | MENU_CONTEXT_INLINE,
+        ) + $defaults;
+        $items[$path . '/delete'] = array(
+          'page callback' => 'drupal_get_form',
+          'page arguments' => array('salesforce_mapping_object_delete_form', $entity_arg, $type),
+          'access arguments' => array('delete salesforce mapping object'),
+          'title' => 'Delete',
+          'type' => MENU_LOCAL_TASK,
+          'context' => MENU_CONTEXT_INLINE,
+        ) + $defaults;
+      }
+      return $items;
     }
-    else {
-      $path = $uri['path'] . '%' . $type . '/salesforce_activity';
-      $menu_type = MENU_LOCAL_TASK;
-    }
-    $entity_arg = substr_count($path, '/') - 1;
-    $items[$path] = array(
-      'title' => 'Salesforce activity',
-      'description' => 'View Salesforce activity for this entity.',
-      'type' => $menu_type,
-      'page callback' => 'salesforce_mapping_object_view',
-      'page arguments' => array($entity_arg, $type),
-      'access callback' => 'salesforce_mapping_entity_mapping_accessible',
-      'access arguments' => array('view', $entity_arg, $type),
-    );
-    $items[$path . '/view'] = array(
-      'title' => 'View',
-      'type' => MENU_DEFAULT_LOCAL_TASK,
-      'weight' => -10,
-    );
-    $items[$path . '/edit'] = array(
-      'page callback' => 'salesforce_mapping_object_edit',
-      'page arguments' => array($entity_arg, $type),
-      'access arguments' => array('edit salesforce mapping object'),
-      'title' => 'Edit',
-      'type' => MENU_LOCAL_TASK,
-      'context' => MENU_CONTEXT_PAGE | MENU_CONTEXT_INLINE,
-    ) + $defaults;
-    $items[$path . '/delete'] = array(
-      'page callback' => 'drupal_get_form',
-      'page arguments' => array('salesforce_mapping_object_delete_form', $entity_arg, $type),
-      'access arguments' => array('delete salesforce mapping object'),
-      'title' => 'Delete',
-      'type' => MENU_LOCAL_TASK,
-      'context' => MENU_CONTEXT_INLINE,
-    ) + $defaults;
-  }
-  return $items;
-}
 
-Now we can find what we need from 2 natural directions: by thinking about Salesforce Sync Objects or just by thinking about the entity we want to deal with. The inconsistent responsiveness of Drupal Entities to URI() request is frustrating, but not impossible to work around. Hopefully you find this article helpful -- and if you maintain a module that creates its own entities, please test out the URI() function before your next release!
-
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Now we can find what we need from 2 natural directions: by thinking about Salesforce Sync Objects or just by thinking about the entity we want to deal with. The inconsistent responsiveness of Drupal Entities to the uri() request is frustrating, but not impossible to work around. Hopefully you find this article helpful -- and if you maintain a module that creates its own entities, please test out the uri() function before your next release!
