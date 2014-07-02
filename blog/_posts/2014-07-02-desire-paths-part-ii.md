@@ -54,9 +54,8 @@ When you put barriers in the way of your users, in the form of content they’re
 
 John McCrory created this handy dandy template to help you sort out what to keep and what to throw in the hopper:
 
-[Stephanie, insert graph from:
+![desire-paths-ii-venn-diagram.png](/assets/images/blog/desire-paths-ii-venn-diagram.png)
 
-http://johnmccrory.com/2011/10/the-handy-dandy-content-audit-template/]
 
 If you need to run a full inventory, you might want to look into a tool like Screaming Frog or CAT (Content Analysis Tool)
 
