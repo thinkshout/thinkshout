@@ -42,7 +42,7 @@ Taking the time to create data-informed personas can help you hone a strategy fo
 
 [Once you understand HOW users arrive at your site](http://thinkshout.com/blog/2014/04/desire-paths/) and examine WHAT they do after they get there, you can begin to parse out WHY they’re interested in your content in the first place – and implement the tactics that will tie their motivations to your organizational goals.
 
-**So, what ****_are_**** they doing?**
+**So, what _are_ they doing?**
 
 As we’ve suggested before, [a good website will nudge a visitor from her desire path](http://thinkshout.com/blog/2014/04/desire-paths/) – the reason she visited your site to begin with – to the desired path: a series of actions that will serve your organization’s mission.
 
@@ -62,7 +62,7 @@ Tough. Kill it.
 
 When you put barriers in the way of your users, in the form of content they’re not interested in, they’re less likely to fight through to find the content they want. Yes, even if your organization thinks that content is central to your mission.
 
-John McCrory created this handy dandy template to help you sort out what to keep and what to throw in the hopper:
+[John McCrory](http://johnmccrory.com/) created this handy dandy template to help you sort out what to keep and what to throw in the hopper:
 
 ![desire-paths-ii-venn-diagram.png](/assets/images/blog/desire-paths-ii-venn-diagram.png)
 
@@ -101,7 +101,7 @@ This report will tell you four things about any page on your site:
 
 4. If they didn’t exit, the page they go to next ("Next Page Path")
 
-[Stephanie, insert "Navigation Summary" image here.]
+![Navigation-Summary.png](/assets/images/blog/Navigation-Summary.png)
 
 Magic! But wait, there’s more. You can – and should! – use this page in conjunction with segmentation.
 
@@ -117,7 +117,7 @@ This sort of analysis sets the stage for much of the work we do here at ThinkSho
 
 Here’s what the segmentation looks like on the "Navigation Summary" report in the context of ThinkShout’s “Work” page:
 
-[Stephanie, insert "Work Page" image here.]
+![Work-Page.png](/assets/images/blog/Work-Page.png)
 
 We did this to answer two questions:
 
