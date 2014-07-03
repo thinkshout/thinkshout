@@ -57,9 +57,9 @@ John McCrory created this handy dandy template to help you sort out what to keep
 ![desire-paths-ii-venn-diagram.png](/assets/images/blog/desire-paths-ii-venn-diagram.png)
 
 
-If you need to run a full inventory, you might want to look into a tool like Screaming Frog or CAT (Content Analysis Tool)
+If you need to run a full inventory, you might want to look into a tool like [Screaming Frog](http://www.screamingfrog.co.uk/seo-spider/) or [CAT (Content Analysis Tool)](http://www.content-insight.com/). Or you can [export reports from Google Analytics and combine it](http://www.ripenn.com/blog/create-data-driven-content-inventory/) with data from social channels.
 
-But you don’t need to look at everything. We suggest you:
+But you don’t need to care about everything. We suggest you:
 
 1) **Focus on your high-traffic content.** You’ll need to decide what the cut-off should be, but in general, if a page represents less than .05% of your total pageviews, it’s probably not worth the time it takes to care about it. Your threshold may very well be higher than that.
 
