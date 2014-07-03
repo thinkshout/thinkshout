@@ -1,7 +1,17 @@
 ---
 layout: post
+title: "Desire Paths, Part II: Your Website is Telling You a Story"
 published: false
 featured: false
+author: brett-meyer
+date: 2014-07-03
+short: 
+tags: 
+- Desire paths
+- Content strategy
+- Google analytics
+- Metrics
+- Drupal Planet
 ---
 
 You want your website to tell your organization’s story. To do that, you need to listen to the stories your website is telling you.
