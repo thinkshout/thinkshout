@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Desire Paths, Part II: Your Website is Telling You a Story"
-published: false
-featured: false
+title: "Desire Paths, Part 2: Your Website is Telling You a Story"
+published: true
+featured: true
 author: brett-meyer
-date: 2014-07-03
+date: 2014-07-03 14:00:00
 short: 
+ Your site's metrics will tell you a lot about your content. Learn how to interpret the numbers and develop your action steps.
 tags: 
 - Desire paths
 - Content strategy
