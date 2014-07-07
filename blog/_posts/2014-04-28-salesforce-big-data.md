@@ -55,7 +55,7 @@ while [ $r -lt $NUM_RUNS ]; do
   sleep 3600
 done
 ```
-During our testing, however, we quickly realized that running parallel Drupal processes caused MySQL deadlocks. It appeared that this was caused be a lack of database transactions being created when doing field level operations. We spent some time researching ways to prevent this, but in the end decided that it would be better to improve the way that records were imported into the SalesForce module in the first place.
+During our testing, however, we quickly realized that running parallel Drupal processes caused MySQL deadlocks. It appeared that this was caused by a lack of database transactions being created when doing field level operations. We spent some time researching ways to prevent this, but in the end decided that it would be better to improve the way that records were imported into the SalesForce module in the first place.
 
 ### Identify and remove inefficient code
 
