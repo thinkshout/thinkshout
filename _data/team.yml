@@ -199,7 +199,7 @@
     small: team/small/cooper.jpg
     medium: team/medium/cooper.jpg
     large: team/large/cooper.jpg
-  published: false
+  published: true
   name: cooper
   bio: |
    Cooper genuinely enjoys examining exotic data structures and learning new languages. He’s been coding since 1997, when he first picked up a book on HTML. He comes to us from Dartmouth College, where he specialized in media production and media archival software. Now, he’s helping us build websites for our nonprofit clients. His hobbies are as many as they are diverse, ranging from reading classical literature, performing in a rock band, and playing a half-orc fairy sorcerer rogue in Dungeons and Dragons. Last we heard, he was reading Moby Dick in Italian. No, he doesn’t speak Italian. He probably will when he’s finished. 
@@ -315,7 +315,7 @@
 
 - first_name: Stephanie
   last_name: Gutowski
-  position: Special Projects Coordinator
+  position: Community Engagement Organizer
   leadin: |
     Given her background in nonprofit development, Stephanie knows firsthand the problems that progressive organizations face when it comes to getting the technology they need. She loves being part of the solution at ThinkShout. She also loves video games.
   social:
