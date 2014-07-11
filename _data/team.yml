@@ -50,10 +50,26 @@
     small: team/small/betsy.jpg
     medium: team/medium/betsy.jpg
     large: team/large/betsy.jpg
-  published: true
+  published: false
   name: betsy
   bio: |
     Betsy’s dedication to excellence helps us maintain lasting, meaningful relationships with our clients, ensuring that the solutions we create are the best they can be. Prior to coming to ThinkShout, Betsy was the Marketing Director at Phase2 Technology. Betsy previously managed advocacy websites for Scenic America, Environmental Media Services and MoveOn.org. Betsy holds an MBA from Kenan-Flagler Business School at University of North Carolina at Chapel Hill, where she focused her studies on Entrepreneurship and Sustainable Enterprise and consulted for Burt’s Bees and TransFair, Inc. Her undergraduate degree is from the University of Iowa.
+
+- first_name: Jaden
+  last_name: Johnston
+  position: Business Development Manager
+  leadin: |
+    Jaden came to us with an impressive background in technical coordination. She excels at changing hats on the fly, all while ensuring that each project she undertakes maintains a strong human touch. She also is strong in the way of kung-fu…movies.
+  social:
+    linkedin: http://www.linkedin.com/in/jadenjohnston/
+  image:
+    small: team/small/jaden.jpg
+    medium: team/medium/jaden.jpg
+    large: team/large/jaden.jpg
+  published: true
+  name: jaden
+  bio: |
+    Jaden’s expertise in project management, sales operations, and marketing make her an integral part of our business development team, helping us stay on task while making sure we are meeting the standards of excellence we set for ourselves as we work with our clients. She joined the ThinkShout team for the opportunity to assist cause-oriented organizations and could combine her experience in the technology and nonprofit sectors. Jaden studied political science and multimedia, and has summited Mount St. Helens three times. It’s not an “overcoming challenges” metaphor. She literally climbed this mountain three times.
 
 - first_name: Tauno
   last_name: Hogue
@@ -277,22 +293,6 @@
   name: gabe
   bio: |
     Gabe is highly experienced in building custom Salesforce solutions for constituent management and fundraising. Before joining ThinkShout, Gabe worked in the nonprofit world at Ecotrust, the Wild Salmon Center, and Immigration Equality. He holds a BA in Computer Science and Theatre from Oberlin College. Gabe really does spend his free time playing Magic: The Gathering in a variety of time zones.
-
-- first_name: Jaden
-  last_name: Johnston
-  position: Business Development Manager
-  leadin: |
-    Jaden came to us with an impressive background in technical coordination. She excels at changing hats on the fly, all while ensuring that each project she undertakes maintains a strong human touch. She also is strong in the way of kung-fu…movies.
-  social:
-    linkedin: http://www.linkedin.com/in/jadenjohnston/
-  image:
-    small: team/small/jaden.jpg
-    medium: team/medium/jaden.jpg
-    large: team/large/jaden.jpg
-  published: true
-  name: jaden
-  bio: |
-    Jaden’s expertise in project management, sales operations, and marketing make her an integral part of our business development team, helping us stay on task while making sure we are meeting the standards of excellence we set for ourselves as we work with our clients. She joined the ThinkShout team for the opportunity to assist cause-oriented organizations and could combine her experience in the technology and nonprofit sectors. Jaden studied political science and multimedia, and has summited Mount St. Helens three times. It’s not an “overcoming challenges” metaphor. She literally climbed this mountain three times.
 
 - first_name: Krista
   last_name: Van Veen
