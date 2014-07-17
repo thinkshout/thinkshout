@@ -4,7 +4,7 @@ title: "Safeguard Your Nonprofit's Website with NodeSquirrel"
 published: true
 featured: true
 author: stephanie
-date: 2014-07-17 10:00:00
+date: 2014-07-17 11:00:00
 short: 
  Looking for a low-cost layer of backup security for your website? Consider NodeSquirrel.   
 tags:
