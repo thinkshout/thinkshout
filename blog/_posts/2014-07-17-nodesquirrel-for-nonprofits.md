@@ -1,20 +1,24 @@
 ---
 layout: post
-title: "Protecting Your Site with NodeSquirrel for Nonprofits"
-published: false
-featured: false
+title: "Safeguard Your Nonprofit's Website with NodeSquirrel"
+published: true
+featured: true
 author: stephanie
-date: 2014-07-16 14:00:00
+date: 2014-07-17 10:00:00
 short: 
- ...
+ Looking for a low-cost layer of backup security for your website? Consider NodeSquirrel.   
 tags:
+- Drupal Planet
+- NodeSquirrel
+- Backup and Migrate
+- Gorton Studios
+- Nonprofit Tech
 ---
-<img href="http://www.nodesquirrel.com/" src="http://thinkshout.com/assets/images/blog/nodesquirrel.png"  style="float: right; margin: 20px" /><br>
 
-
-In our web host we trust, right? Right. They safeguard your nonprofit’s website, ensure it can handle your incoming traffic, and, perhaps most importantly, they backup your site so that if for some reason, your website ever imploded, it wouldn’t be lost for good.
+In our web hosts we trust, right? Right. They safeguard your nonprofit’s website, ensure it can handle your incoming traffic, and, perhaps most importantly, they backup your site so that if for some reason, your website ever imploded, it wouldn’t be lost for good.
 
 But just how accessible are those backups? How surefire is your contingency plan? Have you tested it out? A lot of website administrators will find that actually initiating this plan isn’t as easy as it may seem. Those backups might take hours or days of ticketing and waiting to get a hold of, particularly if your website host is already inundated with other customer support issues. What then are you to do when something breaks and the site comes tumbling down?
+<img href="http://www.nodesquirrel.com/" src="https://assoc.drupal.org/files/node-squirrel-logo_0.png"  style="float: right; margin: 20px" /><br>
 
 Enter [NodeSquirrel](http://www.nodesquirrel.com/). NodeSquirrel is a Drupal backup service developed and maintained by [Gorton Studios](https://www.gortonstudios.com/). It gives site admins control over their site backups. I sat down with Gorton Studios’ Drew Gorton and Keri Poeppe to learn why nonprofits should consider making NodeSquirrel a part of their workflow. 
 
@@ -62,6 +66,6 @@ NodeSquirrel is different because it’s part of Drupal and the Drupal workflow.
 
 NodeSquirrel is a highly-affordable extra layer of protection that could save you and your stakeholders a major headache and a great deal of money in the event of a site meltdown. Even if your hosting provider has a backup solution, in the event of data loss, NodeSquirrel is a great alternative to sitting in support queues, waiting on your web host to resolve the issue.
 
-With NodeSquirrel, you can take complete ownership of your backups and spare yourself the worry of whether or not you’ll be able to get your site up and running. It’s poised to integrate beautifully with your Drupal website administrative workflow, allowing you to safeguard your investment without having to spend time building new safety net systems. With plans starting at $9/month, it’s more a question of "can you afford *not* to use NodeSquirrel?" 
+With NodeSquirrel, you can take complete ownership of your backups and spare yourself the worry of whether or not you’ll be able to get your site up and running. It’s poised to integrate beautifully with your Drupal website administrative workflow, allowing you to safeguard your investment without having to spend time building new safety net systems. With plans starting at $9/month, it’s a question of "can you afford *not* to use NodeSquirrel?" 
 
-Want to see it in action for yourself?[ Sign up for the free trial](https://manage.nodesquirrel.com/user/register). If you do take it for a spin, let us know what you think in the comments section below.
+Want to see it in action for yourself?[ Sign up for the free trial](https://manage.nodesquirrel.com/user/register). If you do take it for a spin, let us know what you think in the comments section.
