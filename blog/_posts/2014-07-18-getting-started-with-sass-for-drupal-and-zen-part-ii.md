@@ -1,23 +1,27 @@
 ---
 layout: post
 title: "Getting Started with SASS for Drupal and Zen, Part II"
-published: false
-featured: false
+published: true
+featured: true
 author: eric
-date: 2014-07-18 11:00:00
+date: 2014-07-18 12:00:00
 short:
-
+  Dig deeper into SASS with part two of this series. 
 tags:
+  -Drupal Planet
+  -SASS
+  -Drupal
+  -Theming
 ---
 
-In [part one of "Getting Started with SASS for Drupal and Zen"](http://thinkshout.com/blog/2013/10/candice/getting-started-sass-drupal-and-zen/), we went over getting your environment set up to work with SASS.
+In [part one of "Getting Started with SASS for Drupal and Zen,"](http://thinkshout.com/blog/2013/10/candice/getting-started-sass-drupal-and-zen/) we went over getting your environment set up to work with SASS.
 
 If you followed the instructions in part one, you should have SASS/Compass, Zen, and your sub-theme installed. Your theme will be installed in `sites/all/YOUR THEME NAME`.
 
-## Test the install
+## Test the Install
 
 
-Let's test to see if sass is installed and compiling. Use your toolkit to compile your SASS directory or run `compass watch` from the command line in your theme directory. You should see the following output.
+Let's test to see if SASS is installed and compiling. Use your toolkit to compile your SASS directory or run `compass watch` from the command line in your theme directory. You should see the following output.
 
 ```
 >>> Compass is watching for changes. Press Ctrl-C to Stop
@@ -91,6 +95,7 @@ a {
 The ampersand represents the outer anchor selector. Also, notice how we are relying on the variables we defined for the colors instead of using hex values.
 
 ### Mixins and Extends
+
 #### Mixins
 Let's clean up that transition by writing a mixin for it.
 
@@ -150,7 +155,7 @@ SASS lets you inherit common styles. A practical example is styling buttons. But
 
 ```
 
-So why didn't we just use nesting? Extending keeps you from having to write multiple class names on html elements instead of writing it like the following
+So why didn't we just use nesting? Extending keeps you from having to write multiple class names on html elements instead of writing it like the following:
 
 ```html
 <a class="button primary" href="http://thinkshout.com">ThinkShout</a>
@@ -162,9 +167,7 @@ We can use one class because 'primary' will include all the same styles as 'butt
 <a class="primary" href="http://thinkshout.com">ThinkShout</a>
 ```
 
-### Operators
-
-## Using SASS in your theme
+## Using SASS in Your Theme
 The stylesheets in your Zen sub-theme are organized according to the principles of [SMACSS](http://smacss.com). You'll notice the `style.scss` file doesn't actually contain any styles, but only imports. The `_init.scss` file contains additional imports such as Zen Grids and Compass utilities, mixins and helpers. If you look in `layouts/responsive.scss`, you'll see the Zen theme includes a mobile-first responsive layout by default.
 
 Let's add some sass of our own. Add a file called `_main-nav.scss` to the `components` directory. In that file, add the following SASS. It's similar to the style we used in our SASS primer.
