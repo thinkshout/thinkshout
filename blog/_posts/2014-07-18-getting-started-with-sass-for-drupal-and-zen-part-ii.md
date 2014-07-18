@@ -4,14 +4,14 @@ title: "Getting Started with SASS for Drupal and Zen, Part II"
 published: true
 featured: true
 author: eric
-date: 2014-07-18 12:00:00
+date: 2014-07-18 13:00:00
 short:
-  Dig deeper into SASS with part two of this series. 
+  Dig deeper into SASS with part two of this series.
 tags:
-  -Drupal Planet
-  -SASS
-  -Drupal
-  -Theming
+- Drupal Planet
+- SASS
+- Drupal
+- Theming
 ---
 
 In [part one of "Getting Started with SASS for Drupal and Zen,"](http://thinkshout.com/blog/2013/10/candice/getting-started-sass-drupal-and-zen/) we went over getting your environment set up to work with SASS.
