@@ -10,7 +10,7 @@ short:
 tags: 
 ---
 
-In [part one](http://thinkshout.com/blog/2013/10/candice/getting-started-sass-drupal-and-zen/) of this article, we went over getting your environment set up to work with SASS. 
+In [part one of "Getting Started with SASS for Drupal and Zen"](http://thinkshout.com/blog/2013/10/candice/getting-started-sass-drupal-and-zen/), we went over getting your environment set up to work with SASS. 
 
 If you followed the instructions in part one, you should have SASS/Compass, Zen, and your sub-theme installed. Your theme will be installed in `sites/all/YOUR THEME NAME`.
 
@@ -23,9 +23,9 @@ Let's test to see if sass is installed and compiling. Use your toolkit to compil
 >>> Compass is watching for changes. Press Ctrl-C to Stop
 ```
 
-To see more Compass commands you can run `Compass -h`.
+To see more Compass commands, you can run `Compass -h`.
 
-Open your Drupal site in your browser. Now that we are polling for changes with Compass, let's make add the following to `style.scss` to see our changes being applied. After you save your change, refresh your page and you should see the difference.
+Open your Drupal site in your browser. Now that we are polling for changes with Compass, let's add the following to `style.scss` to see our changes being applied. After you save your change, refresh your page and you should see the difference.
 
 ```css
 body {
@@ -34,13 +34,13 @@ body {
 }
 ```
 
-Compass will also output the overwritten files in your console, if you are using command line to run it. It's okay to delete the CSS you added, so things will appear like the default Zen theme. 
+Compass will also output the overwritten files in your console if you are using command line to run it. It's okay to delete the CSS you added, so things will appear like the default Zen theme. 
 
 ## SASS Primer
-If you haven't used SASS, prepare to be hooked on it. Some advantages of SASS include DRY (Don't Repeat Yourself) CSS, function (mixins) for repetitive and lengthy blocks of CSS, and the ability to extend common styles.
+If you haven't used SASS, prepare to be hooked on it. Some advantages of SASS include DRY (Don't Repeat Yourself), CSS, function (mixins) for repetitive and lengthy blocks of CSS, and the ability to extend common styles.
 
 ### Variables
-Variables in SASS start with a '$'. Use variables to define values you will use throughout your stylesheets. For example, let's define our color palette in `_init.scss`. There is a commented section for colors, you can drop them in there. I'm going to grab this [zen 2](http://www.colourlovers.com/palette/56833/zen.) palette from Kuler. 
+Variables in SASS start with a '$'. Use variables to define values you will use throughout your stylesheets. For example, let's define our color palette in `_init.scss`. There is a commented section for colors. You can drop them in there. I'm going to grab this [zen 2](http://www.colourlovers.com/palette/56833/zen.) palette from Kuler. 
 
 ```scss
 $sand:      #b0ae9e;
@@ -51,10 +51,10 @@ $wetsand:   #b0a092;
 $red:       #ff0000;
 $gray:      #a1a1a1;
 ```
-Now these colors can be used everywhere in our stylesheets without having to write the hex value every time.
+Now these colors can be used everywhere in our stylesheets without having to write the hex value each time.
 
 ### Nesting
-In typical CSS fashion we would write a style like this.
+In typical CSS fashion, we would write a style like this:
 
 ```css
 a {
@@ -71,7 +71,7 @@ a:hover {
 }
 ```
 
-With SASS we can nest the style like this.
+With SASS, we can nest the style like this:
 
 ```scss
 a {
@@ -117,10 +117,10 @@ a {
 }
 ```
 
-Keep in mind Compass already provides some great [cross-browser mixins](http://compass-style.org/reference/compass/css3/) for CSS3. Style transition is one of them.
+Keep in mind that Compass already provides some great [cross-browser mixins](http://compass-style.org/reference/compass/css3/) for CSS3. Style transition is one of them.
 
 #### Extends
-SASS lets you inherit common styles. A practical example would be styling buttons. Buttons might have common styling, but differ in color or size.
+SASS lets you inherit common styles. A practical example is styling buttons. Buttons might have common styling, but differ in color or size.
 
 ```scss
 // This is a SASS comment
@@ -150,7 +150,7 @@ SASS lets you inherit common styles. A practical example would be styling button
 
 ```
 
-So why didn't we just use nesting? Extending keeps you from having to write multiple class names on html elements. Instead of writing it like the following
+So why didn't we just use nesting? Extending keeps you from having to write multiple class names on html elements instead of writing it like the following
 
 ```html
 <a class="button primary" href="http://thinkshout.com">ThinkShout</a>
@@ -167,7 +167,7 @@ We can use one class because 'primary' will include all the same styles as 'butt
 ## Using SASS in your theme
 The stylesheets in your Zen sub-theme are organized according to the principles of [SMACSS](http://smacss.com). You'll notice the `style.scss` file doesn't actually contain any styles, but only imports. The `_init.scss` file contains additional imports such as Zen Grids and Compass utilities, mixins and helpers. If you look in `layouts/responsive.scss`, you'll see the Zen theme includes a mobile-first responsive layout by default. 
 
-Let's add some sass of our own. Add a file called `_main-nav.scss` to the `components` directory. In that file add the following SASS. It's similar to the style we used in our SASS primer.
+Let's add some sass of our own. Add a file called `_main-nav.scss` to the `components` directory. In that file, add the following SASS. It's similar to the style we used in our SASS primer.
 
 ```scss
 #navigation {
@@ -196,7 +196,7 @@ In order to get this change to take effect, you need to import it into your `sty
 @import "components/main-nav"; // Add this import statement
 ```
 
-You may be wondering why you don't need the underscore in front of the file when importing. The underscore tells SASS the file is a partial. The partial won't be compiled into it's own file. It will be included in the `style.css` when compiled. If you don't have Compass running, go ahead and run `compass watch` in your theme directory or use your toolkit to compile. You should see your navigation style applied to Drupal site when you refresh.
+You may be wondering why you don't need the underscore in front of the file when importing. The underscore tells SASS that the file is a partial. The partial won't be compiled into its own file. It will be included in the `style.css` when compiled. If you don't have Compass running, go ahead and run `compass watch` in your theme directory or use your toolkit to compile. You should see your navigation style applied to your Drupal site when you refresh.
 
 As you progress in your SASS development, I encourage you to use the [SASS Globbing](https://github.com/chriseppstein/sass-globbing) gem. It makes importing a breeze.
 
