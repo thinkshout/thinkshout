@@ -6,7 +6,6 @@ author: cooper
 short: "Want responsive images on your Drupal 7 site? Use a Drupal 8 backport to get the job done."
 ---
 
-
 In today’s web device climate, you never know if your site will be viewed on a laptop, a tablet, a phone, an 84-inch 4k monitor, a Blu-ray player, a gaming console, or a [refrigerator](http://www.samsung.com/us/appliances/refrigerators/RF4289HARS/XAA). Most of us have probably experienced the frustration of using a website at some point that displayed poorly because of its inbuilt assumptions about what the user’s screen would look like. The ability for your web content to adjust to its context---in particular, screen resolution---is critical to making sure you deliver the best web experience possible to every user.
 
 The tools and techniques to do so, known as responsive web design (RWD), are a large area beyond the scope of this blog post. For today, we’ll focus on a specific bit of RWD that is a little tricky to handle in Drupal: responsive images.
@@ -33,6 +32,8 @@ We'll also want the Media module:
 ```bash
 drush en media -y
 ```
+
+(In the above commands, ```-y``` just tells drush to assume "yes" for any requests for confirmation.)
 
 ## The Gist Of It
 
