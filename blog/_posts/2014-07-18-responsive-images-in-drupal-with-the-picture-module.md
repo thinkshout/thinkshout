@@ -49,4 +49,4 @@ We'll be dealing with a handful of new objects to get responsive image behaviors
 - Responsive Styles
 	- Responsive styles associate images to a breakpoint group. One responsive style may be applied to many images, but each image only has one responsive style.
     
-Once an image is associated with a responsive style, the Picture module will check the page dimensions, look at the breakpoint group, find the breakpoint that applies, look at the picture mapping to find the associated image style, and apply that style to the image. This happens in real time, so a user resizing their window should see the image rescale to fit their new window size instantaneously.
+Once an image is associated with a responsive style, the Picture module will check the page dimensions, look at the breakpoint group, find the breakpoint that applies to those dimensions, look at the picture mapping to find the associated image style, and apply that style to the image. This happens in real time, so a user resizing their window should see the image rescale to fit their new window size instantaneously.
