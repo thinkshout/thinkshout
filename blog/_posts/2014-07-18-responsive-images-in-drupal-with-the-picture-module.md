@@ -2,6 +2,8 @@
 layout: post
 published: false
 featured: false
+author: cooper
+short: "Want responsive images on your Drupal 7 site? Use a Drupal 8 backport to get the job done."
 ---
 
 
@@ -32,13 +34,19 @@ We'll also want the Media module:
 drush en media -y
 ```
 
-## Basics
+## The Gist Of It
 
 We'll be dealing with a handful of new objects to get responsive image behaviors going smoothly.
 
 - Breakpoints
-    - Breakpoints are ranges of screen sizes (i.e., minimum width = 640).
+    - Breakpoints are ranges of screen sizes (i.e., minimum width = 640). 
+- Breakpoint Groups
+	- EWISOTT (Exactly What It Says On The Tin).
 - Image Styles
 	- You may already know these from the Media module; they let you bundle dimensions, scaling modes, etc. into styles that can be reused across your site.
 - Picture Mappings
     - Picture mappings pair up breakpoints with image styles.
+- Responsive Styles
+	- Responsive styles associate images to a breakpoint group. One responsive style may be applied to many images, but each image only has one responsive style.
+    
+Once an image is associated with a responsive style, the Picture module will check the page dimensions, look at the breakpoint group, find the breakpoint that applies, look at the picture mapping to find the associated image style, and apply that style to the image. This happens in real time, so a user resizing their window should see the image rescale to fit their new window size instantaneously.
