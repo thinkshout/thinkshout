@@ -6,7 +6,7 @@ author: cooper
 short: "Want responsive images on your Drupal 7 site? Use a Drupal 8 backport to get the job done."
 ---
 
-In today’s web device climate, you never know if your site will be viewed on a laptop, a tablet, a phone, an 84-inch 4k monitor, a Blu-ray player, a gaming console, or a [refrigerator](http://www.samsung.com/us/appliances/refrigerators/RF4289HARS/XAA). Most of us have probably experienced the frustration of using a website at some point that displayed poorly because of its inbuilt assumptions about what the user’s screen would look like. The ability for your web content to adjust to its context---in particular, screen resolution---is critical to making sure you deliver the best web experience possible to every user.
+In today’s web device climate, you never know if your site will be viewed on a laptop, a tablet, a phone, an 84-inch 4k monitor, a Blu-ray player, a gaming console, or a [refrigerator](http://www.samsung.com/us/appliances/refrigerators/RF4289HARS/XAA). Most of us have probably experienced the frustration of using a website that displayed poorly because of its inbuilt assumptions about what the user’s screen would look like. The ability for your web content to adjust to its context---in particular, screen resolution---is critical to making sure you deliver the best web experience possible to every user.
 
 The tools and techniques to do so, known as responsive web design (RWD), are a large area beyond the scope of this blog post. For today, we’ll focus on a specific bit of RWD that is a little tricky to handle in Drupal: responsive images.
 
@@ -14,7 +14,28 @@ If you just did what I first did and typed [drupal.org/project/responsive_images
 
 Luckily, Drupal 8 will feature a responsive image handling solution in core, in the new [Picture](https://www.drupal.org/project/picture) module, and it has already been backported to Drupal 7. It’s a bit tricky to set up, with configurations spread across several different GUI menus, but once you have it running it’s a fast, smooth solution to an important challenge, and it plays well with its neighbors.
 
+## The Gist Of It
+
+We'll be dealing with a handful of new objects to get responsive image behaviors going smoothly.
+
+- Breakpoints
+    - Breakpoints are ranges of screen sizes, described by conditional tests (i.e., minimum width = 640). 
+- Breakpoint Groups
+	- EWISOTT (Exactly What It Says On The Tin).
+- Image Styles
+	- You may already know these from the Media module; they let you bundle dimensions, scaling modes, etc. into styles that can be reused across your site.
+- Picture Mappings
+    - Picture mappings pair up breakpoints with image styles.
+- Responsive Styles
+	- Responsive styles associate images to a breakpoint group. One responsive style may be applied to many images, but each image only has one responsive style.
+    
+Once an image is associated with a responsive style, the Picture module will check the page dimensions, look at the breakpoint group, find the _first`*`_ breakpoint that applies to those dimensions, look at the picture mapping to find the associated image style, and apply that style to the image. This happens in real time, so a user resizing their window should see the image rescale to fit their new window size instantaneously.
+
+`*`We'll come back to this point...
+
 ## Installation
+
+We'll use [Drush](http://drush.ws/), a Drupal cli, to install the modules and their dependencies, and to enable them.
 
 Picture has two important dependencies:
 
@@ -34,20 +55,3 @@ drush en media -y
 ```
 
 (In the above commands, ```-y``` just tells drush to assume "yes" for any requests for confirmation.)
-
-## The Gist Of It
-
-We'll be dealing with a handful of new objects to get responsive image behaviors going smoothly.
-
-- Breakpoints
-    - Breakpoints are ranges of screen sizes (i.e., minimum width = 640). 
-- Breakpoint Groups
-	- EWISOTT (Exactly What It Says On The Tin).
-- Image Styles
-	- You may already know these from the Media module; they let you bundle dimensions, scaling modes, etc. into styles that can be reused across your site.
-- Picture Mappings
-    - Picture mappings pair up breakpoints with image styles.
-- Responsive Styles
-	- Responsive styles associate images to a breakpoint group. One responsive style may be applied to many images, but each image only has one responsive style.
-    
-Once an image is associated with a responsive style, the Picture module will check the page dimensions, look at the breakpoint group, find the breakpoint that applies to those dimensions, look at the picture mapping to find the associated image style, and apply that style to the image. This happens in real time, so a user resizing their window should see the image rescale to fit their new window size instantaneously.
