@@ -50,14 +50,30 @@
     small: team/small/betsy.jpg
     medium: team/medium/betsy.jpg
     large: team/large/betsy.jpg
-  published: true
+  published: false
   name: betsy
   bio: |
     Betsy’s dedication to excellence helps us maintain lasting, meaningful relationships with our clients, ensuring that the solutions we create are the best they can be. Prior to coming to ThinkShout, Betsy was the Marketing Director at Phase2 Technology. Betsy previously managed advocacy websites for Scenic America, Environmental Media Services and MoveOn.org. Betsy holds an MBA from Kenan-Flagler Business School at University of North Carolina at Chapel Hill, where she focused her studies on Entrepreneurship and Sustainable Enterprise and consulted for Burt’s Bees and TransFair, Inc. Her undergraduate degree is from the University of Iowa.
 
+- first_name: Jaden
+  last_name: Johnston
+  position: Business Development Manager
+  leadin: |
+    Jaden came to us with an impressive background in technical coordination. She excels at changing hats on the fly, all while ensuring that each project she undertakes maintains a strong human touch. She also is strong in the way of kung-fu…movies.
+  social:
+    linkedin: http://www.linkedin.com/in/jadenjohnston/
+  image:
+    small: team/small/jaden.jpg
+    medium: team/medium/jaden.jpg
+    large: team/large/jaden.jpg
+  published: true
+  name: jaden
+  bio: |
+    Jaden’s expertise in project management, sales operations, and marketing make her an integral part of our business development team, helping us stay on task while making sure we are meeting the standards of excellence we set for ourselves as we work with our clients. She joined the ThinkShout team for the opportunity to assist cause-oriented organizations and could combine her experience in the technology and nonprofit sectors. Jaden studied political science and multimedia, and has summited Mount St. Helens three times. It’s not an “overcoming challenges” metaphor. She literally climbed this mountain three times.
+
 - first_name: Tauno
   last_name: Hogue
-  position: Lead Developer
+  position: Lead Engineer
   leadin: |
     Tauno is the more accomplished of two raft guides on the team. His guiding experience has given him a cool head and great communication skills, which come in handy in his role as our lead developer.
   social:
@@ -80,9 +96,9 @@
   leadin: |
     Alex studied bioinformatics in college. We still don't know exactly what that means, but we do know that it's given him a keen understanding of how humans interact with software.
   social:
-    github: https://github.com/caxy4
+    github: https://github.com/caxy4/
     twitter:
-    linkedin: http://www.linkedin.com/profile/view?id=72923139
+    linkedin: http://www.linkedin.com/profile/view?id=72923139/
     drupal: https://drupal.org/user/2735491/
   image:
     small: team/small/alex.jpg
@@ -92,6 +108,22 @@
   name: alex
   bio: |
     With a diverse background in artificial intelligence, existential philosophy, and development economics, Alex brings a unique perspective to the team and helps our clients build comprehensive solutions that address a wide range of problems. Prior to joining our team, Alex attended Connecticut College and worked at Schrödinger developing computational chemistry software. On weekends, he can usually be found playing ice hockey. Last we checked, he still had all his teeth.
+
+- first_name: Alex
+  last_name: MacMillan
+  position: Project Manager
+  leadin: |
+    Alex’s passion for creative problem solving drew her to ThinkShout, where she navigates complex projects while supporting clients working to make the world a better place. She also really likes food, and since the ThinkShout team really likes food, she figured she’d be a great fit.
+  social:
+    linkedin: http://www.linkedin.com/pub/alex-macmillan/90/bb8/827/
+  image:
+    small: team/small/alexm.jpg
+    medium: team/medium/alexm.jpg
+    large: team/large/alexm.jpg
+  published: true
+  name: alexm
+  bio: |
+    Prior to ThinkShout, Alex spent several years as a project manager in the health care industry, overseeing several large web development projects centered around providing the public with health care resources online. Through this work, she learned the power of the Internet as a tool for making social change. Alex studied psychology at University of Oregon, specifically empathy, motivation, and decision-making. Her insight into the human thought process allows her to evaluate problems from multiple viewpoints. When Alex isn’t managing her many projects, she’s at her house, playing the never-ending game of home improvement.
 
 - first_name: Brandon
   last_name: Lee
@@ -114,12 +146,12 @@
 
 - first_name: Brett
   last_name: Heckman
-  position: User Experience Engineer
+  position: User Experience Lead
   leadin: |
     Brett creates memorable and engaging web experiences. He is a talented designer and information architect with a knack for turning complex concepts into beautiful digital stories. But we really hired him because we love his two dogs, Gus and Waylon.
   social:
     github: https://github.com/bheckman
-    twitter: 
+    twitter:
     linkedin: http://www.linkedin.com/in/brettheckman
     drupal: https://drupal.org/user/651796
   image:
@@ -169,62 +201,24 @@
   bio: |
     Claire's active involvement with local nonprofits working to fight homelessness attracted her to ThinkShout's mission. Before joining our team, Claire managed speciality coffee programs across the country at Coffee Bean International. A Portland native, she received her Project Management Certificate at Portland State University and has a BA in Education from the University of Oregon. Claire talks with our clients every day. She helps them navigate the development process and translates complex technical issues into workable tasks. As computer nerds, we have an immense respect for her extensive knowledge of coffee.
 
-- first_name: David
-  last_name: Lanier
+- first_name: Cooper
+  last_name: Stimson
   position: Software Engineer
   leadin: |
-    David was very active in the Colorado Drupal community. We recruited him for his expertise in open source software development and his commitment to the nonprofit sector. David leads many of our site building efforts. He also throws a mean boomerang, so we try not to make him mad.
+   Cooper loves open source as much as he loves Portland. He’s got an eye for close-to-the-metal details, user experience, and has a calling to do good in the world. We couldn’t hire him fast enough. 
   social:
-    github: https://github.com/nadavoid
-    twitter: https://twitter.com/nadavoid
-    linkedin: http://www.linkedin.com/in/davidlanier/
-    drupal: https://drupal.org/user/89512
+    github: https://github.com/6c1
+    twitter: https://twitter.com/cooperstimson
+    linkedin: https://www.linkedin.com/profile/view?id=153052676
+    drupal: https://www.drupal.org/user/2944243/
   image:
-    small: team/small/david.jpg
-    medium: team/medium/david.jpg
-    large: team/large/david.jpg
+    small: team/small/cooper.jpg
+    medium: team/medium/cooper.jpg
+    large: team/large/cooper.jpg
   published: true
-  name: david
+  name: cooper
   bio: |
-    David is a graduate of West Texas A&M University. Before joining our team, he developed seamless e-commerce experiences for Drupal web properties managed by AllPlayers.com, a provider of technology to more than 100,000 community users. Prior to that, he served as the Director of Web Development at Blue Tent Marketing, where he refined the best practices of their internal development team. David continues to be committed to open source and strives to develop sustainable websites for our nonprofit clients. When he’s not busy coding, he’s learning how to play the cello or throwing a boomerang.
-
-- first_name: Gabe
-  last_name: Carleton-Barnes
-  position: Software Engineer
-  leadin: |
-    Gabe’s not only a Magic: The Gathering champion, he is a champion for our Salesforce integration tools and other open source contributions. His experience in streamlining processes for nonprofits drew him to ThinkShout, where he could apply his skills and do some good for the world at the same time.
-  social:
-    github: https://github.com/unclegcb
-    twitter: https://twitter.com/uncle_gcb
-    linkedin: http://www.linkedin.com/profile/view?id=22889597
-    drupal: https://drupal.org/user/1682976
-  image:
-    small: team/small/gabe.jpg
-    medium: team/medium/gabe.jpg
-    large: team/large/gabe.jpg
-  published: true
-  name: gabe
-  bio: |
-    Gabe is highly experienced in building custom Salesforce solutions for constituent management and fundraising. Before joining ThinkShout, Gabe worked in the nonprofit world at Ecotrust, the Wild Salmon Center, and Immigration Equality. He holds a BA in Computer Science and Theatre from Oberlin College. Gabe really does spend his free time playing Magic: The Gathering in a variety of time zones.
-
-- first_name: Stephanie
-  last_name: Gutowski
-  position: Special Projects Coordinator
-  leadin: |
-    Given her background in nonprofit development, Stephanie knows firsthand the problems that progressive organizations face when it comes to getting the technology they need. She loves being part of the solution at ThinkShout. She also loves video games.
-  social:
-    github:
-    twitter: https://twitter.com/SigmaRue
-    linkedin: http://www.linkedin.com/pub/stephanie-gutowski/13/505/79b/
-    drupal:
-  image:
-    small: team/small/stephanie.jpg
-    medium: team/medium/stephanie.jpg
-    large: team/large/stephanie.jpg
-  published: true
-  name: stephanie
-  bio: |
-    Having worked extensively in the nonprofit sector, Stephanie knows all too well that keeping your technology up to date and accessible to your constituents is hard to prioritize when working on a tight budget. She has a BA from Gonzaga University and spent three years in freelance video production and content editing for independent online press. She eventually found herself in the nonprofit world, where she spearheaded a social media campaign and developed a communications plan for Families Forward in Southern California. Through this experience, Stephanie developed a great appreciation for open source tools that help nonprofits better engage their constituents and she continues to be an advocate for nonprofit technology. Unlike Inigo Montoya, Stephanie fences left-handed.
+   Cooper genuinely enjoys examining exotic data structures and learning new languages. He’s been coding since 1997, when he first picked up a book on HTML. He comes to us from Dartmouth College, where he specialized in media production and media archival software. Now, he’s helping us build websites for our nonprofit clients. His hobbies are as many as they are diverse, ranging from reading classical literature, performing in a rock band, and playing a half-orc fairy sorcerer rogue in Dungeons and Dragons. He's currently reading the Italian translation of Moby Dick just for the heck of it.
 
 - first_name: Dan
   last_name: Ruscoe
@@ -244,19 +238,96 @@
   bio: |
     Given his expertise in building social gaming platforms, he has a strong sense for how web technologies can be used to promote web engagement. Dan left California in search of an opportunity to contribute regularly to the open source community and put those contributions to good use for nonprofits. He studied Computing, Electronics and Physics at Bolton Sixth Form College in Bolton, England. When he isn’t writing code, he’s normally hacking away at an electronics project or engrossed in a point-and-click adventure game. While he loves new technology, he still keeps a couple of long-obsolete computers around as a reminder of where he started programming.
 
-- first_name: Vishal
-  last_name: Jhaveri
-  position: Strategist
+- first_name: David
+  last_name: Lanier
+  position: Software Engineer
   leadin: |
-    Vishal is passionate about social change - particularly the issues of child welfare, education, and international development. This passion inspires him to help nonprofits better communicate with their stakeholders. As a strategist, he promotes our open source web design and development services to cause-driven organizations. Vishal was bitten by the travel bug early and is bent on seeing all seven continents in this lifetime.
+    David was very active in the Colorado Drupal community. We recruited him for his expertise in open source software development and his commitment to the nonprofit sector. David leads many of our site building efforts. He also throws a mean boomerang, so we try not to make him mad.
   social:
-    twitter: https://twitter.com/vdashj/
-    linkedin: http://www.linkedin.com/in/vdashj/
+    github: https://github.com/nadavoid
+    twitter: https://twitter.com/nadavoid
+    linkedin: http://www.linkedin.com/in/davidlanier/
+    drupal: https://drupal.org/user/89512
   image:
-    small: team/small/vishal.jpg
-    medium: team/medium/vishal.jpg
-    large: team/large/vishal.jpg
+    small: team/small/david.jpg
+    medium: team/medium/david.jpg
+    large: team/large/david.jpg
   published: true
-  name: vishal
+  name: david
   bio: |
-    With a background in interactive communications, Vishal helps nonprofits bolster their digital presence. His focus on cultural and social values and his experience developing strategic partnerships allow him to assist ethnic groups in growing more diverse constituencies. Prior to ThinkShout, Vishal partnered with several companies, where he worked in project management and strove to ensure his clients’ needs were met. He continues to work in metrics assessment, identifying ways for organizations to improve how they communicate to their constituents and make a lasting impact. Vishal has completed graduate Music Business coursework at New York University and holds an undergraduate degree in Business Administration and Communications from Portland State University. When not in the office, Vishal can be found at the gym or wherever Bollywood movies are shown.
+    David is a graduate of West Texas A&M University. Before joining our team, he developed seamless e-commerce experiences for Drupal web properties managed by AllPlayers.com, a provider of technology to more than 100,000 community users. Prior to that, he served as the Director of Web Development at Blue Tent Marketing, where he refined the best practices of their internal development team. David continues to be committed to open source and strives to develop sustainable websites for our nonprofit clients. When he’s not busy coding, he’s learning how to play the cello or throwing a boomerang.
+
+- first_name: Eric
+  last_name: Paxton
+  position: Front End Engineer
+  leadin: |
+    Eric doesn’t shy away from large scale technical undertakings. His experience as a designer and front end developer, as well as his love of open source, make him a great asset to the team. He’s also a self-proclaimed music nerd with a pretty serious vinyl record collection.
+  social:
+    github: http://github.com/heypaxton/
+    linkedin: http://www.linkedin.com/pub/eric-paxton/4b/956/517/
+    drupal: https://drupal.org/user/2904565/
+  image:
+    small: team/small/eric.jpg
+    medium: team/medium/eric.jpg
+    large: team/large/eric.jpg
+  published: true
+  name: eric
+  bio: |
+    Eric joined us because he wanted to be part of a team that valued open source contributions and meaningful projects as much as he does. From discovery to implementation, he remains committed to delivering technical work of the highest caliber. His background in web and mobile application development gave him the foundation needed for a major undertaking with the State of Oregon, where he led the design and front end development of the relaunch of Oregon.gov. In his spare time, he geeks out over music and hunts down new additions to his record collection. He also ran the St. Jude Marathon...once. Once was enough.
+
+- first_name: Gabe
+  last_name: Carleton-Barnes
+  position: Senior Software Engineer
+  leadin: |
+    Gabe’s not only a Magic: The Gathering champion, he is a champion for our Salesforce integration tools and other open source contributions. His experience in streamlining processes for nonprofits drew him to ThinkShout, where he could apply his skills and do some good for the world at the same time.
+  social:
+    github: https://github.com/unclegcb
+    twitter: https://twitter.com/uncle_gcb
+    linkedin: http://www.linkedin.com/profile/view?id=22889597
+    drupal: https://drupal.org/user/1682976
+  image:
+    small: team/small/gabe.jpg
+    medium: team/medium/gabe.jpg
+    large: team/large/gabe.jpg
+  published: true
+  name: gabe
+  bio: |
+    Gabe is highly experienced in building custom Salesforce solutions for constituent management and fundraising. Before joining ThinkShout, Gabe worked in the nonprofit world at Ecotrust, the Wild Salmon Center, and Immigration Equality. He holds a BA in Computer Science and Theatre from Oberlin College. Gabe really does spend his free time playing Magic: The Gathering in a variety of time zones.
+
+- first_name: Krista
+  last_name: Van Veen
+  position: Operations Manager
+  leadin: |
+    With a natural affinity for establishing operations procedures and a love for tech firms, Krista couldn’t feel more at home as the Operations Manager at ThinkShout. She loves solving complex organizational problems, almost as much as she loves her chickens.
+  social:
+    github:
+    twitter: https://twitter.com/KristaVanVeen
+    linkedin: http://www.linkedin.com/kristavanveen
+    drupal:
+  image:
+    small: team/small/krista.jpg
+    medium: team/medium/krista.jpg
+    large: team/large/krista.jpg
+  published: true
+  name: krista
+  bio: |
+   Krista’s forte is setting up effective processes that improve our day-to-day operations. She excels at supporting organizations, streamlining the daily complexities that take place behind the scenes. Before finding her way to ThinkShout, she spent some time in California - long enough to decide that all that sun just wasn’t for her. After returning to rainy Portland, she worked as the Office Manager at Metal Toad. Krista studied psychology, business, and education (just for fun) at Western Oregon University. When she’s not busy keeping all of our ducks in a row, she’s tending to her urban farm, raising chickens and growing her own food. She plans to expand her livestock collection to eventually include goats and pheasants. We’re considering implementing a Bring Your Goat to Work Day in the office.
+
+- first_name: Stephanie
+  last_name: Gutowski
+  position: Community Engagement Organizer
+  leadin: |
+    Given her background in nonprofit development, Stephanie knows firsthand the problems that progressive organizations face when it comes to getting the technology they need. She loves being part of the solution at ThinkShout. She also loves video games.
+  social:
+    github:
+    twitter: https://twitter.com/SigmaRue
+    linkedin: http://www.linkedin.com/pub/stephanie-gutowski/13/505/79b/
+    drupal:
+  image:
+    small: team/small/stephanie.jpg
+    medium: team/medium/stephanie.jpg
+    large: team/large/stephanie.jpg
+  published: true
+  name: stephanie
+  bio: |
+    Having worked extensively in the nonprofit sector, Stephanie knows all too well that keeping your technology up to date and accessible to your constituents is hard to prioritize when working on a tight budget. She has a BA from Gonzaga University and spent three years in freelance video production and content editing for independent online press. She eventually found herself in the nonprofit world, where she spearheaded a social media campaign and developed a communications plan for Families Forward in Southern California. Through this experience, Stephanie developed a great appreciation for open source tools that help nonprofits better engage their constituents and she continues to be an advocate for nonprofit technology. Unlike Inigo Montoya, Stephanie fences left-handed.

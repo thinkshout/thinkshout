@@ -3,7 +3,7 @@ layout: job
 title: Project Manager
 permalink: careers/project-manager/
 mailto: thinkshout-job3@mytribehr.com
-active: true
+active: false
 ---
 ###Responsibilities
 - Manage the on-time and on-budget delivery of best-in-class open source web applications for our clients
@@ -28,8 +28,8 @@ active: true
 - You want to make a commitment to our team, work, community, and clients.
 - You like to learn and get paid to go to conferences, such as DrupalCon, Dreamforce and the Nonprofit Technology Conference.
 
-###Compensation Packages
+###Compensation Package
 - A competitive salary
-- Comprehensive benefits package including health insurance with dental, vision, and alternative care, a matching 401k, and a very generous 30 day flat PTO policy
+- Comprehensive benefits package including health insurance with dental, vision, and alternative care, a matching 401k, and a very generous 30 day PTO policy
 - Get paid to learn and go to conferences, such as DrupalCon, Dreamforce and the Nonprofit Technology Conference
 - A focus on work/life balance, including a flexible office hours policy

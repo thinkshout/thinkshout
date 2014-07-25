@@ -26,6 +26,7 @@ keywords:
       <div class="large-12 columns">
         <ul class="team large-block-grid-4 medium-block-grid-2">
           {% for person in site.data.team %}
+          {% if person.published %}
           {% capture url %}{{ site.baseurl }}/{{ site.team_dir }}/{{ person.name }}/{% endcapture %}
           <li>
             <article>
@@ -34,6 +35,7 @@ keywords:
               <p class="position">{{person.position}}</p>
             </article>
           </li>
+          {% endif %}
           {% endfor %}
         </ul>
       </div>
