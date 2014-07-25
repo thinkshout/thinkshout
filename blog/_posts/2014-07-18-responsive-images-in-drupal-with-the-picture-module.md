@@ -21,7 +21,7 @@ We'll be dealing with a handful of new objects to get responsive image behaviors
 - Breakpoints
     - Breakpoints are ranges of screen sizes, described by conditional tests (i.e., minimum width = 640). 
 - Breakpoint Groups
-	- EWISOTT (Exactly What It Says On The Tin).
+	- EWISOTT (Exactly What It Says On The Tin). 
 - Image Styles
 	- You may already know these from the Media module; they let you bundle dimensions, scaling modes, etc. into styles that can be reused across your site.
 - Picture Mappings
@@ -56,10 +56,25 @@ drush en media -y
 
 (In the above commands, ```-y``` just tells drush to assume "yes" for any requests for confirmation.)
 
-## Breakpoints
+## Setting Up Breakpoints
 
 Breakpoints can be found under Configuration > Media > Breakpoints. Each breakpoint needs a name, and a [media query](http://css-tricks.com/resolution-specific-stylesheets/). Optionally you can enable Retina display handling for each breakpoint.
 
+![breakpoints-example-0.png](assets/images/blog/breakpoints-example-0.png "Three breakpoints with basic media queries")
+
+Note that the smallest breakpoint is set to a `0px` minimum. This ensures that arbitrarily small screen sizes will be accomadated.
+
+### Ordering
+
+The order in which the breakpoints appear is the order your breakpoint group will check their media queries. The example configuration uses minimums in decreasing order, which is preferable for responsive image design. If a breakpoint query fails (if the screen width is below the minimum), the next breakpoint down the line will be checked. Make sure you get this order right; once you pull these breakpoints into a group their order cannot be edited; you'd need to delete the breakpoints and their group and start over.
+
+### Groups
+
+Click 'Add a new group' to define a Breakpoint Group. The ordering on this screen will match the order defined by weights in the previous step.
+
+![breakpoints-example-1.png](assets/images/blog/breakpoints-example-1.png "A simple breakpoint group")
+
+Note that once a breakpoint has been added to a group, it _cannot_ be edited.
 
 
 
