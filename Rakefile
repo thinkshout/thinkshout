@@ -28,12 +28,10 @@ end
 
 desc "Generate and publish site to thinkshout.com on Amazon S3."
 task :publish => [:build] do
-  system "s3_website push --headless"
+  system "s3_website push"
 end
 
 desc "Generate and publish site to stage.thinkshout.com on S3."
 task :stage => [:build] do
-  config = YAML.load(Erubis::Eruby.new(File.read("s3_website_stage.yml")).result)
-  in_headless = true
-  S3Website::Uploader.run('_site', config, in_headless)
+  system "s3_website push --config-dir=stage_config"
 end
