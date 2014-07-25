@@ -26,8 +26,6 @@ We'll be dealing with a handful of new objects to get responsive image behaviors
 	- You may already know these from the Media module; they let you bundle dimensions, scaling modes, etc. into styles that can be reused across your site.
 - Picture Mappings
     - Picture mappings pair up breakpoints with image styles.
-- Responsive Styles
-	- Responsive styles associate images to a breakpoint group. One responsive style may be applied to many images, but each image only has one responsive style.
     
 Once an image is associated with a responsive style, the Picture module will check the page dimensions, look at the breakpoint group, find the _first`*`_ breakpoint that applies to those dimensions, look at the picture mapping to find the associated image style, and apply that style to the image. This happens in real time, so a user resizing their window should see the image rescale to fit their new window size instantaneously.
 
@@ -76,8 +74,15 @@ Click 'Add a new group' to define a Breakpoint Group. The ordering on this scree
 
 Note that once a breakpoint has been added to a group, it _cannot_ be edited.
 
-## Picture Mappings
+## Responsive Styles
 
-Picture Mappings are found under Configuration > Media > Picture Mappings. Click 
+This is an optional step provided by the Breakpoints module; it's essentially a wizard which makes a copies of a preexisting image style, one for each selected breakpoint. If you have some image style effects you want to user everywhere (desaturate, perhaps?), this can be a handy time saver. For general use, it's not really necessary.
 
+## Image Styles and Picture Mappings
+
+Set up an image style for each breakpoint under Configuration > Media > Image Styles. For general use these can be equal to or slightly less than the minimums of the associated breakpoints; for more complex layouts, id est columns, these might instead be set to match the behavior of the column widths.
+
+![image-styles-example-0.png](assets/images/blog/image-styles-example-0.png) 
+
+Picture Mappings are found under Configuration > Media > Picture Mappings. 
 
