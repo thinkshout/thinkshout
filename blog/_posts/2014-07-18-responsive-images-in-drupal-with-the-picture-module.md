@@ -58,6 +58,10 @@ drush en media -y
 
 ## Breakpoints
 
-Breakpoints can be found under Configuration > Media > Breakpoints. Each breakpoint needs a name, and a [media query](http://css-tricks.com/resolution-specific-stylesheets/). 
+Breakpoints can be found under Configuration > Media > Breakpoints. Each breakpoint needs a name, and a [media query](http://css-tricks.com/resolution-specific-stylesheets/). Optionally you can enable Retina display handling for each breakpoint.
+
+
+
+
 
 
