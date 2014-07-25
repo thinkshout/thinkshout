@@ -42,7 +42,7 @@ Picture has two important dependencies:
 - The [Breakpoints](https://www.drupal.org/project/breakpoints) module, which will keep its eye on the browser window size.
 - The [Chaos Tool Suite](https://www.drupal.org/project/ctools), which gives us lots of handy development tools and APIs.
 
-Drush will handle the dependencies for you&mdash; just navigate to your site root and type:
+Drush will handle the dependencies for you; just navigate to your site root and type:
 
 ```bash
 drush en picture -y
@@ -55,3 +55,9 @@ drush en media -y
 ```
 
 (In the above commands, ```-y``` just tells drush to assume "yes" for any requests for confirmation.)
+
+## Breakpoints
+
+Breakpoints can be found under Configuration > Media > Breakpoints. Each breakpoint needs a name, and a [media query](http://css-tricks.com/resolution-specific-stylesheets/). 
+
+
