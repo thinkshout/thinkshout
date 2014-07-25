@@ -100,6 +100,6 @@ This is where you can put any additional or custom extensions you'd like to use 
 i. http://compass-style.org/help/tutorials/extensions/  
 ii. http://zengrids.com/
 
-## Next Time
+## Up Next
 
-Tune in next week for Part 2: Using SASS/Compass in Your Drupal Theme. Can't wait? Check out http://sass-lang.com/guide to get started.
+When you're ready to get a little more advanced, move on down to [Getting Started with SASS for Drupal and Zen, Part II](http://thinkshout.com/blog/2014/07/getting-started-with-sass-for-drupal-and-zen-part-ii/).
