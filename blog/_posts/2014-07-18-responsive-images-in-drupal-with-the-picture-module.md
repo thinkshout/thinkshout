@@ -133,7 +133,7 @@ There are several advantages to responsive web design, some of which are particu
 
 ## Resources
 
-[Picture module project page](https://www.drupal.org/project/picture)
-[Breakpoints module project page](https://www.drupal.org/project/breakpoints)
-[Live demo of Picture module on Drupal 7](http://picture7d.h011.attiks.com/node/1)
-[The Picture element proposal document](http://picture.responsiveimages.org/)
+- [Picture module project page](https://www.drupal.org/project/picture)
+- [Breakpoints module project page](https://www.drupal.org/project/breakpoints)
+- [Live demo of Picture module on Drupal 7](http://picture7d.h011.attiks.com/node/1)
+- [The Picture element proposal document](http://picture.responsiveimages.org/)
