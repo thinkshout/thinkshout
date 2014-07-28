@@ -84,5 +84,26 @@ Set up an image style for each breakpoint under Configuration > Media > Image St
 
 ![image-styles-example-0.png](assets/images/blog/image-styles-example-0.png) 
 
-Picture Mappings are found under Configuration > Media > Picture Mappings. 
+Picture Mappings are found under Configuration > Media > Picture Mappings. First, associate the new Picture Mapping with our Breakpoint Group.
 
+![picture-mappings-example-0.png](assets/images/blog/picture-mappings-example-0.png)
+
+Now that the Picture Mapping has a Breakpoint Group, each breakpoint can be associated with an image style. Populate these with the image styles defined previously, and hit Finish.
+
+![picture-mappings-example-1.png](assets/images/blog/picture-mappings-example-1.png)
+
+## File Type Display
+
+Under Configuration > Media > File Types, select Images -> Manage File Display. Enable the Picture display mode, and select the Example Group.
+
+![file-display-examples-0.png](assets/images/blog/file-display-examples-0.png)
+
+## Content Type
+
+Now we're ready to create a node type with a responsive image field.
+
+Make a content type, and add a File field with the Media File Selector widget. Make sure that the field permits png file extensions (or whichever image format you prefer).
+
+![responsive-content-type-examples-0.png](assets/images/blog/responsive-content-type-examples-0.png) 
+
+Under Manage Display, make sure that the responsive image field is set to the Rendered File formatter, which will connect the field to the file display mode we set earlier.
