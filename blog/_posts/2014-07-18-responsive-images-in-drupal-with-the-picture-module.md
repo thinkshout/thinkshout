@@ -6,7 +6,7 @@ author: cooper
 short: "Want responsive images on your Drupal 7 site? Use a Drupal 8 backport to get the job done."
 ---
 
-In today’s web device climate, you never know if your site will be viewed on a laptop, a tablet, a phone, an 84-inch 4k monitor, a Blu-ray player, a gaming console, or a [refrigerator](http://www.samsung.com/us/appliances/refrigerators/RF4289HARS/XAA). Most of us have probably experienced the frustration of using a website that displayed poorly because of its inbuilt assumptions about what the user’s screen would look like. The ability for your web content to adjust to its context---in particular, screen resolution---is critical to making sure you deliver the best web experience possible to every user.
+In today’s web device climate, you never know if your site will be viewed on a laptop, a tablet, a phone, an 84-inch 4k monitor, a Blu-ray player, a gaming console, or a [refrigerator](http://www.samsung.com/us/appliances/refrigerators/RF4289HARS/XAA "Seriously."). Most of us have probably experienced the frustration of using a website that displayed poorly because of its inbuilt assumptions about what the user’s screen would look like. The ability for your web content to adjust to its context---in particular, screen resolution---is critical to making sure you deliver the best web experience possible to every user.
 
 The tools and techniques to do so are known responsive web design (RWD). One of the first high-profile sites to implement RWD was [The Boston Globe](http://www.bostonglobe.com/), which is a great example to take a look at. RWD in general is beyond the scope of this blog post; for today, we’ll focus on a specific bit of RWD that is a little tricky to handle in Drupal: responsive images.
 
@@ -27,9 +27,7 @@ We'll be dealing with a handful of new objects to get responsive image behaviors
 - Picture Mappings
     - Picture mappings pair up breakpoints with image styles.
     
-Once an image is associated with a responsive style, the Picture module will check the page dimensions, look at the breakpoint group, find the _first`*`_ breakpoint that applies to those dimensions, look at the picture mapping to find the associated image style, and apply that style to the image. This happens in real time, so a user resizing their window should see the image rescale to fit their new window size instantaneously.
-
-`*`We'll come back to this point...
+Once an image is associated with a responsive style, the Picture module will check the page dimensions, look at the breakpoint group, find the _first_ breakpoint that applies to those dimensions (we'll come back to this point...), look at the picture mapping to find the associated image style, and apply that style to the image. This happens in real time, so a user resizing their window should see the image rescale to fit their new window size instantaneously.
 
 ## Installation
 
@@ -56,9 +54,9 @@ drush en media -y
 
 ## Setting Up Breakpoints
 
-Breakpoints can be found under Configuration > Media > Breakpoints. Each breakpoint needs a name, and a [media query](http://css-tricks.com/resolution-specific-stylesheets/). Optionally you can enable Retina display handling for each breakpoint.
+Breakpoints can be found under Configuration > Media > Breakpoints. Each breakpoint needs a name, and a [media query](http://css-tricks.com/resolution-specific-stylesheets/). Optionally you can enable [Retina display](http://www.sitepoint.com/support-retina-displays/) handling for each breakpoint.
 
-![breakpoints-example-0.png](assets/images/blog/breakpoints-example-0.png "Three breakpoints with basic media queries")
+![breakpoints-example-0.png](../../assets/images/blog/breakpoints-example-0.png "Three breakpoints with basic media queries")
 
 Note that the smallest breakpoint is set to a `0px` minimum. This ensures that arbitrarily small screen sizes will be accomadated.
 
@@ -70,40 +68,48 @@ The order in which the breakpoints appear is the order your breakpoint group wil
 
 Click 'Add a new group' to define a Breakpoint Group. The ordering on this screen will match the order defined by weights in the previous step.
 
-![breakpoints-example-1.png](assets/images/blog/breakpoints-example-1.png "A simple breakpoint group")
+![breakpoints-example-1.png](../../assets/images/blog/breakpoints-example-1.png "A simple breakpoint group")
 
 Note that once a breakpoint has been added to a group, it _cannot_ be edited.
 
 ## Responsive Styles
 
-This is an optional step provided by the Breakpoints module; it's essentially a wizard which makes a copies of a preexisting image style, one for each selected breakpoint. If you have some image style effects you want to user everywhere (desaturate, perhaps?), this can be a handy time saver. For general use, it's not really necessary.
+This is an optional step provided by the Breakpoints module; it's essentially a wizard which makes a copies of a preexisting image style, one for each selected breakpoint. If you have some image style effects you want to apply everywhere (desaturate, perhaps?), this can be a handy time saver. For general use, it's not really necessary.
 
 ## Image Styles and Picture Mappings
 
 Set up an image style for each breakpoint under Configuration > Media > Image Styles. For general use these can be equal to or slightly less than the minimums of the associated breakpoints; for more complex layouts, id est columns, these might instead be set to match the behavior of the column widths.
 
-![image-styles-example-0.png](assets/images/blog/image-styles-example-0.png) 
+![image-styles-example-0.png](../../assets/images/blog/image-styles-example-0.png) 
 
 Picture Mappings are found under Configuration > Media > Picture Mappings. First, associate the new Picture Mapping with our Breakpoint Group.
 
-![picture-mappings-example-0.png](assets/images/blog/picture-mappings-example-0.png)
+![picture-mappings-example-0.png](../../assets/images/blog/picture-mappings-example-0.png)
 
 Now that the Picture Mapping has a Breakpoint Group, each breakpoint can be associated with an image style. Populate these with the image styles defined previously, and hit Finish.
 
-![picture-mappings-example-1.png](assets/images/blog/picture-mappings-example-1.png)
+![picture-mappings-example-1.png](../../assets/images/blog/picture-mappings-example-1.png)
 
 ## File Type Display
 
 Under Configuration > Media > File Types, select Images -> Manage File Display. Enable the Picture display mode, and select the Example Group.
 
-![file-display-examples-0.png](assets/images/blog/file-display-examples-0.png)
+![file-display-examples-0.png](../../assets/images/blog/file-display-examples-0.png)
 
 ## Content Type
 
 Now we're ready to create a node type with a responsive image field.
 
-Make a content type, and add a File field with the Media File Selector widget. Make sure that the field permits png file extensions (or whichever image format you prefer).
+Make a content type, and add a File field with the Media File Selector widget. Make sure that the field permits the image format file extensions you plan to use; by default it only allows `*.txt`.
 
-![responsive-content-type-examples-0.png](assets/images/blog/responsive-content-type-examples-0.png) 
+![responsive-content-type-examples-0.png](../../assets/images/blog/responsive-content-type-examples-0.png) 
 
-Under Manage Display, make sure that the responsive image field is set to the Rendered File formatter, which will connect the field to the file display mode we set earlier.
+Under Manage Display, make sure that the responsive image field is set to the Rendered File display formatter, which will connect the field to the file display mode we set earlier.
+
+## The End Product
+
+We're done! Create a node with the example content type, add an image, and start dragging the corner of your window around.
+
+![responsive-image-examples-0.png](../../assets/images/blog/responsive-image-example-0.png) 
+
+![responsive-image-examples-1.png](../../assets/images/blog/responsive-image-example-1.png) 
