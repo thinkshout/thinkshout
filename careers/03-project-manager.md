@@ -2,7 +2,7 @@
 layout: job
 title: Project Manager
 permalink: careers/project-manager/
-mailto: thinkshout-job3@mytribehr.com
+mailto: thinkshout-job6@mytribehr.com
 active: true
 ---
 ###Responsibilities
