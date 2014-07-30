@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Responsive Images in Drupal with the Picture Module
-published: true
-featured: true
+published: false
+featured: false
 author: cooper
 date: 2014-07-30 11:00:00
 short:
@@ -16,7 +16,7 @@ tags:
 
 In today’s web device climate, you never know if your site will be viewed on a laptop, a tablet, a phone, an 84-inch 4k monitor, a Blu-ray player, a gaming console, or a [refrigerator](http://www.samsung.com/us/appliances/refrigerators/RF4289HARS/XAA "Seriously."). Most of us have probably experienced the frustration of using a website that displayed poorly because of its inbuilt assumptions about what the user’s screen would look like. The ability for your web content to adjust to its context---in particular, screen resolution---is critical to making sure you deliver the best web experience possible to every user.
 
-The tools and techniques to do so are known responsive web design (RWD). One of the first high-profile sites to implement RWD was [The Boston Globe](http://www.bostonglobe.com/), which is a great example to take a look at. RWD in general is beyond the scope of this blog post; for today, we’ll focus on a specific bit of RWD that is a little tricky to handle in Drupal: responsive images.
+The tools and techniques to do so are known as responsive web design (RWD). One of the first high-profile sites to implement RWD was [The Boston Globe](http://www.bostonglobe.com/), which is a great example to take a look at. RWD in general is beyond the scope of this blog post. Today, we’ll focus on a specific bit of RWD that is a little tricky to handle in Drupal: responsive images.
 
 If you just did what I first did and typed [drupal.org/project/responsive_images](http://drupal.org/project/responsive_images) into your browser to see what popped up, you’ll see a module that is no longer actively maintained. [Many](https://www.drupal.org/project/adaptive_image) [responsive](https://www.drupal.org/project/cs_adaptive_image) [image](https://www.drupal.org/project/ais) [projects](https://www.drupal.org/project/resp_img) have come and gone over the last few years, with varying approaches and degrees of success; it’s a crowded space.
 
@@ -135,7 +135,7 @@ There are several advantages to responsive web design, some of which are particu
 * Code it once 
     * No need to build a secondary mobile site.
 * SEO optimization 
-    * Every node has one canonical URL, so Google won't split its results between mobile and desktop versions (which could easily drop your site to the dreaded second page of search results!).
+    * Every node has one canonical URL, so Google won't split its results between mobile and desktop versions (which could easily drop your site to the dreaded second page of search results!)
 * Shareability
     * A bad example: [Wikipedia](http://en.wikipedia.org/wiki/Drupal). Take a look at how different its [mobile version](http://en.m.wikipedia.org/wiki/Drupal) looks. If a mobile user posts an interesting article to Twitter, for example, both desktop and mobile users following the link will be hit with the mobile version, regardless of their device. With a single-URL responsive design, this is a nonissue.
 
