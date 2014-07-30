@@ -135,7 +135,7 @@ There are several advantages to responsive web design, some of which are particu
 * Code it once 
     * No need to build a secondary mobile site.
 * SEO optimization 
-    * Every node has one canonical URL, so Google won't split its results between mobile and desktop versions (which could easily drop your site to the dreaded second page of search results!)
+    * Every node has one canonical URL, so Google won't split its results between mobile and desktop versions (which could easily drop your site to the dreaded second page of search results)!
 * Shareability
     * A bad example: [Wikipedia](http://en.wikipedia.org/wiki/Drupal). Take a look at how different its [mobile version](http://en.m.wikipedia.org/wiki/Drupal) looks. If a mobile user posts an interesting article to Twitter, for example, both desktop and mobile users following the link will be hit with the mobile version, regardless of their device. With a single-URL responsive design, this is a nonissue.
 
