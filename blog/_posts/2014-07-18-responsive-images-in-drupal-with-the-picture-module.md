@@ -8,10 +8,10 @@ date: 2014-07-30 11:00:00
 short:
  Want responsive images on your Drupal 7 site? Use a Drupal 8 backport to get the job done.
 tags:
--Drupal Planet
--Responsive design
--Picture module
--User experience
+- Drupal Planet
+- Responsive design
+- Picture module
+- User experience
 ---
 
 In today’s web device climate, you never know if your site will be viewed on a laptop, a tablet, a phone, an 84-inch 4k monitor, a Blu-ray player, a gaming console, or a [refrigerator](http://www.samsung.com/us/appliances/refrigerators/RF4289HARS/XAA "Seriously."). Most of us have probably experienced the frustration of using a website that displayed poorly because of its inbuilt assumptions about what the user’s screen would look like. The ability for your web content to adjust to its context---in particular, screen resolution---is critical to making sure you deliver the best web experience possible to every user.
