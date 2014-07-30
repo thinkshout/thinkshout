@@ -5,8 +5,8 @@ published: false
 featured: false
 author: cooper
 date: 2014-07-30
-short: |
-"Want responsive images on your Drupal 7 site? Use a Drupal 8 backport to get the job done."
+short:
+ Want responsive images on your Drupal 7 site? Use a Drupal 8 backport to get the job done.
 tags:
 -Drupal Planet
 -Responsive design
