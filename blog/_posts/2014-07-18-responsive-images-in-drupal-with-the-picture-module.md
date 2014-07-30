@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Responsive Images in Drupal with the Picture Module"
+title: Responsive Images in Drupal with the Picture Module
 published: false
 featured: false
 author: cooper
