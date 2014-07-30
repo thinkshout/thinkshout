@@ -66,7 +66,7 @@ Breakpoints can be found under Configuration > Media > Breakpoints. Each breakpo
 
 ![breakpoints-example-0.png](/assets/images/blog/breakpoints-example-0.png "Three breakpoints with basic media queries")
 
-Note that the smallest breakpoint is set to a `0px` minimum. This ensures that arbitrarily small screen sizes will be accomadated.
+Note that the smallest breakpoint is set to a `0px` minimum. This ensures that arbitrarily small screen sizes will be accommodated.
 
 ### Ordering
 
