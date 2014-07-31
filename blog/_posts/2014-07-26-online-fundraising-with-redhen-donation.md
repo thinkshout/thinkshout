@@ -4,7 +4,7 @@ title: "Online Fundraising with RedHen Donation"
 published: false
 featured: false
 author: stephanie
-date: 2014-07-25 13:00:00
+date: 2014-07-25 12:00:00
 short:
   RedHen Donation
 tags:
@@ -17,7 +17,7 @@ tags:
 
 One of the biggest issues our clients face is a lack of control or understanding of their donation forms. This is concerning for a number of reasons, but chiefly because so many of our nonprofit partners rely heavily on online donations to support their mission. With so much of their success hinging on the accessibility and functionality of these forms, why would we tolerate less-than stellar donation processes?
 
-This was our mindset when we began working on the [RedHen ](https://www.drupal.org/project/redhen_donation)[Donation](https://www.drupal.org/project/redhen_donation) module. We wanted to create a tool that would allow nonprofits to keep everything under one roof, inside their CRM. What we came up with is unique in the sense that it offers nonprofits several features that aren’t quite so commonplace. RedHen Donation allows for both one-time and recurring donations. 
+This was our mindset when we began working on the [RedHen](https://www.drupal.org/project/redhen_donation)[Donation](https://www.drupal.org/project/redhen_donation) module. We wanted to create a tool that would allow nonprofits to keep everything under one roof, inside their CRM. What we came up with is unique in the sense that it offers nonprofits several features that aren’t quite so commonplace. RedHen Donation allows for both one-time and recurring donations. 
 
 I chatted with [Brandon Lee](http://thinkshout.com/team/brandon/), the architect behind RedHen Donation, to get a better understanding of RedHen Donation’s capabilities.  
 
