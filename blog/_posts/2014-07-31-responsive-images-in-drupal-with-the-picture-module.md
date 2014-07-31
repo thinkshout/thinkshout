@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Responsive Images in Drupal with the Picture Module
-published: false
-featured: false
+published: true
+featured: true
 author: cooper
 date: 2014-07-31 13:00:00
 short:
