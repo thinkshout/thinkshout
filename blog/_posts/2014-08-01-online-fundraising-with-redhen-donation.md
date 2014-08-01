@@ -23,19 +23,12 @@ This set-in-stone donation solution probably wasn’t a big concern back when th
 Those days are a ways behind me, but they’re still on my mind. Since my transition to ThinkShout, I’ve had the opportunity to view these issues from a different perspective and I tend to hear the same complaints from the nonprofits we serve:
 
 * Multi-step checkout
-
 * Clunky check-out systems
-
 * No control over form content
-
 * No support for multiple campaigns
-
 * Forms are expensive to edit
-
 * Can’t fix issues without ticketing your CRM’s support team
-
 * Form theme doesn’t match your website
-
 * Payment methods are limited
 
 Wow. Look at this awesomely long list of annoying things that plague such an integral part of nonprofit fundraising. My blood *still* boils when I think about how difficult a decision it was to simply submit a ticket to change a single line of text in our donation form - how much *effort* went into making a case for the cost. This had to change. There had to be *something* better.
