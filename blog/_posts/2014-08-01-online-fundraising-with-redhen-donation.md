@@ -56,7 +56,7 @@ I chatted with [Brandon Lee](http://thinkshout.com/team/brandon/), the architect
 
 **Brandon**: It’s a standalone module that’s used with the RedHen suite. CRM Core has a similar donation module, but it doesn’t allow for recurring donations. RedHen Donation does. The ability to give donors the option of setting up a recurring donation within the same form is something we’re thrilled to offer nonprofits.
 
-The donation space, in a lot of ways, is what sets it apart from similar modules. If you’re dealing with Commerce specifically, it wants to lock you into the commerce workflow. With RedHen Donation, you don’t have to go through three different steps to make one donation to an organization. You fill out one page and you’re done. It’s quick and user-friendly. No more filling out a form, then passing through a portal, then onto a confirmation page, then back to your site.
+The donation space, in a lot of ways, is what sets it apart from similar modules. If you’re dealing with Commerce specifically, it wants to lock you into the Commerce workflow. With RedHen Donation, you don’t have to go through three different steps to make one donation to an organization. You fill out one page and you’re done. It’s quick and user-friendly. No more filling out a form, then passing through a portal, then onto a confirmation page, then back to your site.
 
 ![redhendonation1.png](/assets/images/blog/redhendonation1.png)
 
