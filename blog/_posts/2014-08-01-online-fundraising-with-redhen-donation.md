@@ -38,7 +38,7 @@ Those days are a ways behind me, but they’re still on my mind. Since my transi
 
 * Payment methods are limited
 
-Wow. Look at this awesomely long list of horrible things that plague such an integral part of nonprofit fundraising. My blood *still* boils when I think about how difficult a decision it was to simply submit a ticket to change a single line of text in our donation form - how much *effort* went into making a case for the cost. This had to change. There had to be *something* better.
+Wow. Look at this awesomely long list of annoying things that plague such an integral part of nonprofit fundraising. My blood *still* boils when I think about how difficult a decision it was to simply submit a ticket to change a single line of text in our donation form - how much *effort* went into making a case for the cost. This had to change. There had to be *something* better.
 
 We began working on the [RedHen](https://www.drupal.org/project/redhen_donation)[Donation](https://www.drupal.org/project/redhen_donation) module with intent to create a better online donation solution. We wanted to create a donation tool that allowed nonprofits to keep everything under one roof. The end result accomplishes this. What we came up with is unique in the sense that it offers nonprofits several features that aren’t quite so commonplace. RedHen Donation is inside their website, connected to their CRM. It allows for both one-time and recurring donations, multiple donation pages, and easy-to-edit donation forms.
 
