@@ -50,7 +50,7 @@ I chatted with [Brandon Lee](http://thinkshout.com/team/brandon/), the architect
 
 **Stephanie: How does it work with RedHen CRM?**
 
-**Brandon**: RedHen Donation allows you to create a single page donation form that can create or update RedHen contacts. It’s tightly-integrated with RedHen, so if you’re already using RedHen CRM, it’s will be very simple to get up and running.
+**Brandon**: RedHen Donation allows you to create a single page donation form that can create or update RedHen contacts. It’s tightly-integrated with RedHen, so if you’re already using RedHen CRM, it will be very simple to get up and running.
 
 **Stephanie: How does it compare to other donation form modules out there?**
 
