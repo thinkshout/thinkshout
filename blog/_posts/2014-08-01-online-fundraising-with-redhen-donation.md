@@ -4,7 +4,7 @@ title: "Online Fundraising with RedHen Donation"
 published: true
 featured: true
 author: stephanie
-date: 2014-08-01 12:30:00
+date: 2014-08-01 13:00:00
 short:
   ThinkShout is proud to offer RedHen Donation, a new online donation form.
 tags:
