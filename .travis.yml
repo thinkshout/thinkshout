@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.0.0
+script:
+- bundle exec rake stage
+branches:
+  only:
+  - master
+  - live
+env:
+  global:
+  - secure: aOitDKeYzmxTgXqqWvLLP6zqE6NaKHsPtwWKRIyJ55xTRLQIN9H71gx4X4zMIu8VBskijpaWtzucd/BX49Df+El0inY7an1gR0Xx5fx4Q42YKifHPRSL0RSr0V8VmxefWH5cBC+A7m0CDIaGTLydt6NZJaondfdxEnO1LfBHYrk=
+  - secure: hjWtYbTiuD75A+1up94hdXKDS1NebNqXou4jX+4lLeMWRfz9+nop67v/6kvmli6VDX36C+4AMzYk9yI5yzl+SnuBhjRChXzteAO5QEhEd9/SJ8pFCqJVENKiZMOwd/27RdoYIVoPdmrASS1kJFyRKTh/VdgMiVSMFFjw25GSyQM=
