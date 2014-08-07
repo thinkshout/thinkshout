@@ -2,7 +2,7 @@ language: ruby
 rvm:
 - 2.0.0
 script:
-- bundle exec rake stage
+- if [$TRAVIS_BRANCH == 'mastser']; then bundle exec rake stage fi
 branches:
   only:
   - master
