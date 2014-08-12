@@ -1,7 +1,7 @@
 language: ruby
 rvm:
 - 2.0.0
-script: ./_scripts/travis_build.sh
+script: "./_scripts/travis_build.sh"
 branches:
   only:
   - master
@@ -10,3 +10,7 @@ env:
   global:
   - secure: aOitDKeYzmxTgXqqWvLLP6zqE6NaKHsPtwWKRIyJ55xTRLQIN9H71gx4X4zMIu8VBskijpaWtzucd/BX49Df+El0inY7an1gR0Xx5fx4Q42YKifHPRSL0RSr0V8VmxefWH5cBC+A7m0CDIaGTLydt6NZJaondfdxEnO1LfBHYrk=
   - secure: hjWtYbTiuD75A+1up94hdXKDS1NebNqXou4jX+4lLeMWRfz9+nop67v/6kvmli6VDX36C+4AMzYk9yI5yzl+SnuBhjRChXzteAO5QEhEd9/SJ8pFCqJVENKiZMOwd/27RdoYIVoPdmrASS1kJFyRKTh/VdgMiVSMFFjw25GSyQM=
+notifications:
+  hipchat:
+    rooms:
+      secure: LRVVBQ9ehtZnClIzWUyN24Zw/YzZd+4bSmCAUJp8egwgtWAIoPTAwO8MLCjEZPUVs5e2HcsbYh+7AEkH1pklDx3jVS07S2slqshuzeVkqACN5pCCo/r6tvISD6YG/NUKXmcSeCNxvcDKZXWHi9pi8bSFKne+C2nTSCHuX54TwIs=
