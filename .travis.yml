@@ -1,8 +1,7 @@
 language: ruby
 rvm:
 - 2.0.0
-script:
-- if [$TRAVIS_BRANCH == 'mastser']; then bundle exec rake stage fi
+script: ./_scripts/travis_build.sh
 branches:
   only:
   - master
