@@ -139,7 +139,7 @@
     small: team/small/brandon.jpg
     medium: team/medium/brandon.jpg
     large: team/large/brandon.jpg
-  published: true
+  published: false
   name: brandon
   bio: |
     After spending ten years in enterprise software development, Brandon came to us to be part of a community of developers that share his passion for open source technology and his dedication to best practices. Prior to joining our team, Brandon built a Drupal-based television content distribution system for Portland Community Media. Brandon and his wife won the prize for having the first ThinkShout baby.
@@ -205,7 +205,7 @@
   last_name: Stimson
   position: Software Engineer
   leadin: |
-   Cooper loves open source as much as he loves Portland. He’s got an eye for close-to-the-metal details, user experience, and has a calling to do good in the world. We couldn’t hire him fast enough. 
+   Cooper loves open source as much as he loves Portland. He’s got an eye for close-to-the-metal details, user experience, and has a calling to do good in the world. We couldn’t hire him fast enough.
   social:
     github: https://github.com/6c1
     twitter: https://twitter.com/cooperstimson
