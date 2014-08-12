@@ -28,9 +28,9 @@
     linkedin: http://www.linkedin.com/in/rseanlarkin
     drupal: https://drupal.org/user/54109
   image:
-    small: team/small/sean.jpg
-    medium: team/medium/sean.jpg
-    large: team/large/sean.jpg
+    small: team/small/sean2.jpg
+    medium: team/medium/sean2.jpg
+    large: team/large/sean2.jpg
   published: true
   name: sean
   bio: |
@@ -63,9 +63,9 @@
   social:
     linkedin: http://www.linkedin.com/in/jadenjohnston/
   image:
-    small: team/small/jaden.jpg
-    medium: team/medium/jaden.jpg
-    large: team/large/jaden.jpg
+    small: team/small/jaden2.jpg
+    medium: team/medium/jaden2.jpg
+    large: team/large/jaden2.jpg
   published: true
   name: jaden
   bio: |
@@ -101,9 +101,9 @@
     linkedin: http://www.linkedin.com/profile/view?id=72923139/
     drupal: https://drupal.org/user/2735491/
   image:
-    small: team/small/alex.jpg
-    medium: team/medium/alex.jpg
-    large: team/large/alex.jpg
+    small: team/small/alex2.jpg
+    medium: team/medium/alex2.jpg
+    large: team/large/alex2.jpg
   published: true
   name: alex
   bio: |
@@ -117,9 +117,9 @@
   social:
     linkedin: http://www.linkedin.com/pub/alex-macmillan/90/bb8/827/
   image:
-    small: team/small/alexm.jpg
-    medium: team/medium/alexm.jpg
-    large: team/large/alexm.jpg
+    small: team/small/alexm2.jpg
+    medium: team/medium/alexm2.jpg
+    large: team/large/alexm2.jpg
   published: true
   name: alexm
   bio: |
@@ -212,9 +212,9 @@
     linkedin: https://www.linkedin.com/profile/view?id=153052676
     drupal: https://www.drupal.org/user/2944243/
   image:
-    small: team/small/cooper.jpg
-    medium: team/medium/cooper.jpg
-    large: team/large/cooper.jpg
+    small: team/small/cooper2.jpg
+    medium: team/medium/cooper2.jpg
+    large: team/large/cooper2.jpg
   published: true
   name: cooper
   bio: |
@@ -267,9 +267,9 @@
     linkedin: http://www.linkedin.com/pub/eric-paxton/4b/956/517/
     drupal: https://drupal.org/user/2904565/
   image:
-    small: team/small/eric.jpg
-    medium: team/medium/eric.jpg
-    large: team/large/eric.jpg
+    small: team/small/eric2.jpg
+    medium: team/medium/eric2.jpg
+    large: team/large/eric2.jpg
   published: true
   name: eric
   bio: |
@@ -294,6 +294,25 @@
   bio: |
     Gabe is highly experienced in building custom Salesforce solutions for constituent management and fundraising. Before joining ThinkShout, Gabe worked in the nonprofit world at Ecotrust, the Wild Salmon Center, and Immigration Equality. He holds a BA in Computer Science and Theatre from Oberlin College. Gabe really does spend his free time playing Magic: The Gathering in a variety of time zones.
 
+- first_name: Josh
+  last_name: Riggs
+  position: User Experience Designer
+  leadin: |
+    What began as dabbling in Photoshop 5.5, creating drop shadow-heavy posters for his metal band in 2002, turned into a UX career for Josh. He now works with exciting new technologies to build memorable user experiences for our clients.
+  social:
+    github: https://github.com/joshriggs
+    twitter: https://twitter.com/joshriggs
+    linkedin: http://www.linkedin.com/in/joshriggs
+    drupal: https://www.drupal.org/u/joshriggs
+  image:
+    small: team/small/josh.jpg
+    medium: team/medium/josh.jpg
+    large: team/large/josh.jpg
+  published: true
+  name: josh
+  bio: |
+    Josh was attracted to ThinkShout because of our commitment to serving nonprofits. He puts his design skills to work for organizations doing good in the world, and we are more than happy to help him achieve that goal. He designs in the browser, using tools we love like Sass and Jekyll, and doesn’t shy away from large, responsive web challenges. Before ThinkShout (and after the metal band), Josh worked remotely from Florida as a designer at Lullabot. He has since relocated to Portland with his wife and spends his free time hiking, cooking, or honing his photography skills.
+
 - first_name: Krista
   last_name: Van Veen
   position: Operations Manager
@@ -305,9 +324,9 @@
     linkedin: http://www.linkedin.com/kristavanveen
     drupal:
   image:
-    small: team/small/krista.jpg
-    medium: team/medium/krista.jpg
-    large: team/large/krista.jpg
+    small: team/small/krista3.jpg
+    medium: team/medium/krista3.jpg
+    large: team/large/krista3.jpg
   published: true
   name: krista
   bio: |
