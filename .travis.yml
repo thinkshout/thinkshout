@@ -8,8 +8,8 @@ branches:
   - live
 env:
   global:
-  - secure: aOitDKeYzmxTgXqqWvLLP6zqE6NaKHsPtwWKRIyJ55xTRLQIN9H71gx4X4zMIu8VBskijpaWtzucd/BX49Df+El0inY7an1gR0Xx5fx4Q42YKifHPRSL0RSr0V8VmxefWH5cBC+A7m0CDIaGTLydt6NZJaondfdxEnO1LfBHYrk=
-  - secure: hjWtYbTiuD75A+1up94hdXKDS1NebNqXou4jX+4lLeMWRfz9+nop67v/6kvmli6VDX36C+4AMzYk9yI5yzl+SnuBhjRChXzteAO5QEhEd9/SJ8pFCqJVENKiZMOwd/27RdoYIVoPdmrASS1kJFyRKTh/VdgMiVSMFFjw25GSyQM=
+  - secure: YjpZsU4rVDqn0/+EtTLzJHWyvAavWBuUMHK1ttYaRTwaO7PYgy32t3BAwYGmJRWerlJ8W3T1JV04CbDpWF+/s2ZaXgAq4A27G+61J23CtECwXWSpTbGct+kowyQ8srH4Dx5i7wPiRPen5VL1I4u5nxEqIfHk3yqsMWGq/cVifMk=
+  - secure: K60pRLkpoH4mqxCsQj68oNrkoRhi9NTiQ9VT0Vs+vmH7PE0JAhRkyXn9INk+hbgUnO9lQoK5BmAjJl8I5T20gtPLsf3H0zMfB85prWGKgtc3mTop1AsTbvrqgDpgUGT4iTfiwHH3eiFCuqfd0oWMT4a5qFi6TCb3CcHG7rKVHig=
 notifications:
   hipchat:
     rooms:
