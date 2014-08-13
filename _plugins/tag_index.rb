@@ -93,5 +93,5 @@ Liquid::Template.register_filter(Jekyll::TagLinks)
 
 # Helper to consistently format tags for use in paths.
 def friendly_tag(tag)
-  return tag.downcase.sub(' ', '-')
+  return tag.downcase.gsub(' ', '-')
 end
