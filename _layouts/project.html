@@ -27,7 +27,7 @@ layout: default
             </div>
           {% endif %}
         </div>
-      </div>  
+      </div>
     </section>
 
     {% if page.breakpoints.desktop and page.breakpoints.tablet and page.breakpoints.mobile %}
@@ -108,7 +108,13 @@ layout: default
               {% endif %}
             {% endfor %}
           </ul>
-          <a class="button overlay" href="{{ page.projecturl }}">Launch Website</a>
+          <a class="button overlay" href="{{ page.projecturl }}">
+            {% if page.launch_label %}
+               {{ page.launch_label }}
+            {% else %}
+               Launch Website
+            {% endif %}
+          </a>
         </div>
       </div>
     </section>
