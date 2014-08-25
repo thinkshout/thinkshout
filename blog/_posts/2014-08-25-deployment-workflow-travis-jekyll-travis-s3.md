@@ -8,7 +8,7 @@ short: |
 tags:
 - Drupal Planet
 - Jekyll
-date: 2014-08-22 16:00:00
+date: 2014-08-25 16:00:00
 ---
 
 When we [launched the new version of ThinkShout.com](http://thinkshout.com/blog/2014/03/technology-behind-thinkshout/) last spring, something glaring was missing. That little something is what companies like [Pantheon](https://getpantheon.com) and [Acquia](https://www.acquia.com/products-services/acquia-cloud) have worked so hard to solve for more complex Drupal sites: an automated deployment workflow making it simple to push changes to your site and preview them before publishing to the production server. At the time of launch, we had some rudimentary tools in place, namely a set of Rake tasks to build the site and deploy to separate staging and production environments.
