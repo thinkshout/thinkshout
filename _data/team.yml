@@ -158,7 +158,7 @@
     small: team/small/brett.jpg
     medium: team/medium/brett.jpg
     large: team/large/brett.jpg
-  published: true
+  published: false
   name: brett
   bio: |
     Before ThinkShout, Brett was a production director at Wardenclyffe, a design agency based in New York City. There, he worked with high-end fashion and entertainment brands, but his appreciation for mission-based organizations ultimately led him to our team.  Here, he utilizes his talents for worthy causes, bringing that same standard of great design to our client work. Brett also worked at OpenSourcery as a front end developer, where he honed his skills with front end technologies such as javascript and HTML5. At home, Brett is usually banging around in the kitchen, building something.
@@ -296,7 +296,7 @@
 
 - first_name: Josh
   last_name: Riggs
-  position: User Experience Designer
+  position: Senior User Experience Designer
   leadin: |
     What began as dabbling in Photoshop 5.5, creating drop shadow-heavy posters for his metal band in 2002, turned into a UX career for Josh. He now works with exciting new technologies to build memorable user experiences for our clients.
   social:
