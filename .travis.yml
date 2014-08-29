@@ -4,7 +4,7 @@ rvm:
 before_script:
 - "./_scripts/travis_build.sh"
 script:
-- phantomjs testrunner.js
+- "phantomjs ./_scripts/phantom_testrunner.js"
 after_success:
 - "./_scripts/travis_deploy.sh"
 branches:
