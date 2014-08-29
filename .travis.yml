@@ -1,7 +1,12 @@
 language: ruby
 rvm:
 - 2.0.0
-script: "./_scripts/travis_build.sh"
+before_script:
+- "./_scripts/travis_build.sh"
+script:
+- phantomjs testrunner.js
+after_success:
+- "./_scripts/travis_deploy.sh"
 branches:
   only:
   - master
