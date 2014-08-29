@@ -3,6 +3,9 @@ rvm:
 - 2.0.0
 before_script:
 - "./_scripts/travis_build.sh"
+- npm install -g casperjs
+- phantomjs --version
+- casperjs --version
 script:
 - "phantomjs ./_scripts/phantom_testrunner.js"
 after_success:
