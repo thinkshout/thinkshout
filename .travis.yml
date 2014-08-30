@@ -7,7 +7,7 @@ before_script:
 - phantomjs --version
 - casperjs --version
 script:
-- "phantomjs ./_scripts/phantom_testrunner.js"
+- "casperjs test ./_scripts/phantom_testrunner.js"
 after_success:
 - "./_scripts/travis_deploy.sh"
 branches:
