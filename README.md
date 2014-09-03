@@ -64,8 +64,9 @@ To get a post to show on the home page, add `featured: true` to the post's YAML 
 ### Preview your post
 Click on the preview (eye) button on the right hand side. If you don't see images, etc. that you're referencing in your Markdown it's because they're not pushed to the repo (master branch).
 
-## Deploying
-The site is hosted on Amazon S3 where we have 2 buckets, one for staging mapped to http://staging.thinkshout.com and one for production mapped to our apex domain, http://thinkshout.com. The S3 configuration for both these are in there respective s3_website*.yml configuration files. In order to deploy to either environment, you will need to have environment variables set for the S3 id and secret.
+## Testing, CI, and Deployment
+The site is hosted on Amazon S3 where we have 2 buckets, one for staging mapped to http://staging.thinkshout.com and one for production mapped to our apex domain, http://thinkshout.com. A build on Travis CI will be triggered by any commit to master or live. Travis CI will:
 
-1. Staging deployment: `rake stage`.
-2. Production deployment: `rake publish`
+1. Compile the CSS using Compass.
+2. Build the site using Jekyll.
+3. Deploy the code to the appropriate S3 bucket: master will push to stage.thinkshout.com and live to thinkshout.com.
