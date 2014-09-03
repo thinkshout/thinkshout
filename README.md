@@ -67,7 +67,7 @@ To get a post to show on the home page, add `featured: true` to the post's YAML 
 Click on the preview (eye) button on the right hand side. If you don't see images, etc. that you're referencing in your Markdown it's because they're not pushed to the repo (master branch).
 
 ## Testing, CI, and Deployment
-The site is hosted on Amazon S3 where we have 2 buckets, one for staging mapped to http://staging.thinkshout.com and one for production mapped to our apex domain, http://thinkshout.com. A build on Travis CI will be triggered by any commit to master or live. Travis CI will:
+The site is hosted on Amazon S3 where we have 2 buckets, one for staging mapped to http://stage.thinkshout.com and one for production mapped to our apex domain, http://thinkshout.com. A build on Travis CI will be triggered by any commit to master or live. Travis CI will:
 
 1. Compile the CSS using Compass.
 2. Build the site using Jekyll.
