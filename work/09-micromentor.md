@@ -42,7 +42,7 @@ results:
       description: Percent of entrepreneurs received mentoring
       type:
 featured: true
-published: true
+published: false
 ---
 
 
