@@ -34,7 +34,7 @@ components:
     column 2: work/miusa/miusa-implementation.jpg
 results: The new MIUSA.org launched in the Spring of 2014 and we are in the process of measuring its success.
 featured: true
-published: false
+published: true
 ---
 
 
