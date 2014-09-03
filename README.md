@@ -1,3 +1,5 @@
+![Travis CI status](https://travis-ci.org/thinkshout/thinkshout.svg)
+
 # ThinkShout.com
 
 The ThinkShout.com website, built with Jekyll, Foundation 5, SASS, and lots of love.
