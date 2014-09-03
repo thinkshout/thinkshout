@@ -4,33 +4,45 @@ shortname: Mercy Corps
 title: Design and IA for Mercy Corps' MicroMentor Program
 permalink: work/mercy-corps-micromentor/
 images:
-  card: work/edf/edf-card.jpg
-  hero: work/lac/lac-iphone-in-environment.jpg
+  card: work/micromentor/mm-card.jpg
+  hero: work/micromentor/mm-header-image.jpg
 breakpoints:
-  desktop: work/intertwine/intertwine-desktop.jpg
-  tablet: work/intertwine/intertwine-tablet.jpg
-  mobile: work/intertwine/intertwine-mobile.jpg
-client: We’re water-lovers here at ThinkShout. Naturally, we care about what lives in them as well. So when we met with the Environmental Defense Fund to talk about seafood preservation, we were all ears. Through science and economics, they advocate for seafood preservation and conscientious seafood consumption, and EDF wanted to be able to reach consumers whether they were at home or at the market.  Working with their internal development team, we set about redesigning the user experience for the Seafood Selector, a long-standing consumer advocacy tool. 
-projecturl: http://www.salmonproject.org
+  desktop: work/micromentor/mm-chrome.jpg
+  tablet: work/MicroMentor/mm-ipad.jpg
+  mobile: work/micromentor/mm-iphone.jpg
+client: MicroMentor, a Mercy Corps project, was founded to connect aspiring entrepreneurs with mentors. It also provides them with a library of resources to help them grow their enterprises. MicroMentor needed to expand its membership and improve engagement through a fresh redesign. We worked to make their new site a place for dialogue that encouraged member involvement, streamlined the signup process, and showcased their successes. The result was a clean, responsive site that served as a discussion space for a large community of entrepreneurs. 
+projecturl: http://www.micromentor.org
+expertise: |
+  - User experience
+  - Content strategy
+  - Data visualization
+
 components:
   - title: Discovery
-    column1:
-    column2: |
-      Our discovery process consisted of a thorough study of the EDF’s target audiences and the creation of a performance benchmark based on existing analytics.  We also reached out to stakeholders to get a better sense of what visual impact they wanted to make with this tool.
+    column1: |
+      While MicroMentor didn’t need a rebrand, it did require a fresh look designed to appeal to a broader audience. MicroMentor had a very large library of written resources that they wanted to make easily accessible to the entrepreneurs in search of resources that would help their grow their businesses. It needed to be a place that would appeal to both entrepreneurs and mentors, and provide them with a forum for discussion.
+    column2: work/micromentor/discovery.jpg
   - title: Strategy
     column1: |
-      We developed clickable wireframes that performed beautifully on a variety of devices. As usual, our mobile-first approach ensured that users could easily navigate the tool no matter how they chose to browse. 
-    column2:
+      ThinkShout teamed up with a third party firm to develop a way to better accomplish MicroMentor’s purpose: to connect entrepreneurs with mentors and facilitate dialogue between them. We overhauled MicroMentor’s member sign-up system and created a brand new, gorgeous platform for networking that was both visually pleasing and easy to use. 
+    column2: work/micromentor/strategy.jpg
   - title: Implementation
-    column1:
-    column2: |
-      After creating style tiles and a design guideline, we were able to successfully hand it off to the internal development team and help re-introduce the Seafood Selector to the world. The result was a highly interactive, easy-to-use chart that informed consumers about the economic impact of their seafood choice as well as the contaminants often found in those fish. 
+    column1: |
+      MicroMentor’s new site launched in May 2014 and we are currently working with MicroMentor on a second phase of updates. 
+    column2: work/micromentor/implementation.jpg
 results:
-  bullet1: 
-  bullet2: 
-  bullet3: 
+  stats:
+    - number: 5,000
+      description: Mentoring matches made to date
+      type:
+    - number: 200
+      description: Percent rise in registration after relaunch
+      type:
+    - number: 75
+      description: Percent of entrepreneurs received mentoring
+      type:
 featured: true
-published: false
+published: true
 ---
 
 
