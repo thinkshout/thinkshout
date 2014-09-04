@@ -2,7 +2,8 @@ language: ruby
 rvm:
 - 2.0.0
 before_script:
-- "./_scripts/travis_build.sh"
+- bundle exec compass compile
+- bundle exec jekyll build
 - npm install -g casperjs
 - phantomjs --version
 - casperjs --version
