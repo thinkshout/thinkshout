@@ -10,30 +10,30 @@ breakpoints:
   desktop: work/miusa/miusa-chrome.jpg
   tablet: work/miusa/miusa-ipad.jpg
   mobile: work/miusa/miusa-iphone.jpg
-client: When we learned about Mobility International USA’s (MIUSA’s) mission, we were eager to get involved. MIUSA works to provide disabled youth with resources and connections for traveling abroad. We built a site that served the needs of their constituency while also alleviating the backend issues that their web team faced in one of the most accessibility-focused projects we’ve undertaken.
+client: Mobility International USA (MIUSA) provides disabled youth with resources and connections for traveling abroad. Given our team's interest in international adventure, we were eager to get involved. We redesigned MIUSA's site to inspire students to overcome adversity and see the world. Web accessibility, of course, was a critical feature of this project.
 projecturl: http://www.miusa.org
 expertise: |
   - Responsive design
-  - User-centered design
+  - User experience
   - Accessibility
   - Open source contributions
 
 components:
   - title: Discovery
     column1: |
-      We met with nearly the entire staff of MIUSA in Eugene, Oregon for discovery. It was clear to see early on in the process that site visitor accessibility was paramount to the project, and we needed to ensure that the content was digestible for vision impaired visitors. 
+      We kicked off this project with a lively onsite discovery engagement at MIUSA's international headquarters in Eugene, Oregon. Through a series of hands-on exercises, including a "Cores & Paths" workshop, we helped MIUSA establish a new vision for its website. This vision included a student-centric graphic design and the creation of a robust resource library with a powerful and intuitive search interface.
     column2: work/miusa/miusa-discovery.jpg
-  - title: Strategy & Accessibility
+  - title: Strategy
     column1: |
-      We worked to re-organize the original content of three sites to create one  site, which hosted the massive resource library powered by Apache Solr for a smooth search experience. We used Wave, a Firefox tool, to evaluate each page’s overall accessibility. We invested a lot of time in making sure MIUSA’s resource library worked with screen readers. MIUSA’s accessibility consultant advised us on which contrasting colors would provide the best visibility for visually impaired visitors. Those colors were incorporated into the overall design.
+      One of the major challenges of this project was the considation and restructuring of content from three "program specific" microsites into a single website with consistent messaging and smooth linkages between content sections. The project also included a deep investigation of website analytics and user trends. 
     column2:  work/miusa/miusa-strategy.jpg
     background:
-  - title: Implementation
+  - title: Website Accessibility
     column1: |
-      This project led us to create the Bean Entity View module, which allowed us to place portions of content in different regions on the site. The site’s content is compatible with screen readers and the contrasting color palette we used made the site easily viewable by visitors with impaired vision. To top it off, all of MIUSA’s resources were compiled into a single library housed in one site instead of three.
+      In the end, we released a website designed around the mobile user experience. Using website accessibility tools such as Google Wave and the JAWS screen reader, we ensured that the new site could be experienced and enjoyed by visitors with visual and physical impairments.
     column2: work/miusa/miusa-implementation.jpg
 results:
-  narrative: The new MIUSA.org launched in the Spring of 2014 and we are in the process of measuring its success.
+  narrative: The new MIUSA.org launched in the Spring of 2014. We continue to support MIUSA with website updates and content strategy services.
   image: work/miusa/miusa-results.jpg
 featured: true
 published: true
