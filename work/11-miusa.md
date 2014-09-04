@@ -33,6 +33,7 @@ components:
       This project led us to create the Bean Entity View module, which allowed us to place portions of content in different regions on the site. The site’s content is compatible with screen readers and the contrasting color palette we used made the site easily viewable by visitors with impaired vision. To top it off, all of MIUSA’s resources were compiled into a single library housed in one site instead of three.
     column 2: work/miusa/miusa-implementation.jpg
 results: The new MIUSA.org launched in the Spring of 2014 and we are in the process of measuring its success.
+  image: work/miusa/miusa-results.jpg
 featured: true
 published: true
 ---
