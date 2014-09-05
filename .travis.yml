@@ -2,22 +2,23 @@ language: ruby
 rvm:
 - 2.0.0
 before_script:
-- "./_scripts/travis_build.sh"
+- bundle exec compass compile
+- bundle exec jekyll build
 - npm install -g casperjs
 - phantomjs --version
 - casperjs --version
 script:
-- "casperjs test ./_scripts/phantom_testrunner.js"
+- casperjs test ./_scripts/phantom_testrunner.js
 after_success:
-- "./_scripts/travis_deploy.sh"
+- ./_scripts/travis_deploy.sh
 branches:
   only:
   - master
   - live
 env:
   global:
-  - secure: YjpZsU4rVDqn0/+EtTLzJHWyvAavWBuUMHK1ttYaRTwaO7PYgy32t3BAwYGmJRWerlJ8W3T1JV04CbDpWF+/s2ZaXgAq4A27G+61J23CtECwXWSpTbGct+kowyQ8srH4Dx5i7wPiRPen5VL1I4u5nxEqIfHk3yqsMWGq/cVifMk=
-  - secure: K60pRLkpoH4mqxCsQj68oNrkoRhi9NTiQ9VT0Vs+vmH7PE0JAhRkyXn9INk+hbgUnO9lQoK5BmAjJl8I5T20gtPLsf3H0zMfB85prWGKgtc3mTop1AsTbvrqgDpgUGT4iTfiwHH3eiFCuqfd0oWMT4a5qFi6TCb3CcHG7rKVHig=
+  - secure: EciSz3rL8k9q9SyyGGsKSzpwQzPp/234Xzk4vA6aRMbRxzEBCeD9J7CtCpon2sk8UtSO4cj6jpJtgPbGyyXbGw3pyIR4l6giDxdxu/PWxeHICnSQpf7lJQqz0dBRVFt8801VvcnknYLCDmX+VWUAI028PFBFFHhjVIC+AN0sezQ=
+  - secure: OsBYQUP/INNm/YHWaHAinX2Cg3ksjh6iRimWokUxOB0x8Vq4UX6Nno+HRNfxW5dDmG3zC3OlrTPa+ymDBwPiZKLoLRrleC58V568OKZNQUIw+fJnQj1m6w+pl4HZ2h4WTsMgIsCTOeVquKLHRnHfHneqBeLMHN/ATWsrI4N5YFk=
 notifications:
   hipchat:
     rooms:
