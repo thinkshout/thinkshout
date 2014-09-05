@@ -11,14 +11,14 @@ task :default => :server
 
 desc 'Build site with Jekyll'
 task :build do
-  system 'compass compile'
-  jekyll 'build'
+  system 'bundle exec compass compile'
+  system 'bundle exec jekyll build'
 end
 
 desc 'Build and start local server'
 task :serve do
-  system 'compass compile'
-  jekyll 'serve -w --baseurl="" --drafts'
+  system 'bundle exec compass compile'
+  system 'bundle exec jekyll serve -w --baseurl="" --drafts'
 end
 
 def jekyll(opts = '')
@@ -28,10 +28,10 @@ end
 
 desc "Generate and publish site to thinkshout.com on Amazon S3."
 task :publish => [:build] do
-  system "s3_website push"
+  system 'bundle exec s3_website push'
 end
 
 desc "Generate and publish site to stage.thinkshout.com on S3."
 task :stage => [:build] do
-  system "s3_website push --config-dir=stage_config"
+  system 'bundle exec s3_website push --config-dir=stage_config'
 end
