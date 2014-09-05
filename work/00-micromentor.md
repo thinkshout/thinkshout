@@ -9,7 +9,7 @@ images:
   hero: work/micromentor/micromentor-hero.jpg
 breakpoints:
   desktop: work/micromentor/micromentor-chrome.jpg
-  tablet: work/MicroMentor/micromentor-ipad.jpg
+  tablet: work/micromentor/micromentor-ipad.jpg
   mobile: work/micromentor/micromentor-iphone.jpg
 client: |
   MicroMentor, a Mercy Corps project, was founded to connect aspiring entrepreneurs with mentors. It also provides them with a library of resources to help them grow their enterprises. MicroMentor needed to expand its membership and improve engagement through a fresh redesign. We worked to make their new site a place for dialogue that encourages member involvement, streamlines the signup process, and showcases their successes. The result was a clean, responsive site that serves as a discussion space for a global community of entrepreneurs.
