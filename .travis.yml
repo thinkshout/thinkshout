@@ -10,7 +10,7 @@ before_script:
 script:
 - casperjs test ./_scripts/phantom_testrunner.js
 after_success:
-- ./_scripts/travis_deploy.sh
+- "./_scripts/travis_deploy.sh"
 branches:
   only:
   - master
@@ -22,4 +22,4 @@ env:
 notifications:
   hipchat:
     rooms:
-      secure: LRVVBQ9ehtZnClIzWUyN24Zw/YzZd+4bSmCAUJp8egwgtWAIoPTAwO8MLCjEZPUVs5e2HcsbYh+7AEkH1pklDx3jVS07S2slqshuzeVkqACN5pCCo/r6tvISD6YG/NUKXmcSeCNxvcDKZXWHi9pi8bSFKne+C2nTSCHuX54TwIs=
+      secure: LB3BGjsG8kYaFDKDkQjwDIlN6LnJuXdm7QkZDt0vGdWgebtF278Xqe0uB4A36dU36XP2qDeURniQHDlRCBay5adna8v0gfOk5IoC+e1hzYnjjFs0+aMhcwrPy2TQd7m48YMF480NshIAACfdGNge/L8uxjQ1HwZpcPbqQ4VhLtw=
