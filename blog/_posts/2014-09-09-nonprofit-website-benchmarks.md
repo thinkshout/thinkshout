@@ -16,7 +16,7 @@ But you’ve probably wondered how your site compares to others. I know I’ve a
 
 Of course, [benchmarks can be dangerous](http://www.thinkmetrics.com/benchmarks-for-websites.php). If you obsess about them, the action becomes whatever the opposite of navel gazing is. 
 
-When you analyze the efficacy of your own website, you always need to [consider it within the context of your own target audiences and organizational goals](http://thinkshout.com/blog/2014/04/desire-paths/) instead of worrying that your overall bounce rate is 4% higher than the "average". 
+When you analyze the efficacy of your own website, you always need to [consider it within the context of your own target audiences and organizational goals](http://thinkshout.com/blog/2014/04/desire-paths/) instead of worrying that your overall bounce rate is 4% higher than the "average." 
 
 After all, if your site has the profile of a news organization, with links to recent articles shared widely through third-party channels, you should expect a higher bounce rate: people come, consume, and leave. That might be okay! The goal of that content may have been to spread some news, not generate donations.
 
