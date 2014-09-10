@@ -8,7 +8,11 @@ short: |
   Do you know what your site's metrics are telling you? We have some resources for you that can help.
 tags:
 - Nonprofit tech
-date: 2014-09-09 16:00:00
+- Drupal Planet
+- Google analytics 
+- Metrics
+- Content strategy
+date: 2014-09-10 16:00:00
 ---
 Your website is a unique snowflake with singular requirements. While there’s surely overlap, the make-up of your audience is different from every other site, because your mission – and the content you put on your website to support that mission – is different from every other nonprofit.
 
