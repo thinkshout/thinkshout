@@ -2,8 +2,8 @@
 title: The Small Business of Open Source
 layout: post
 author: sean
-published: false 
-featured: false
+published: true 
+featured: true
 short: |
   There's a whole lot to gain by giving away your code.
 tags:
@@ -11,7 +11,7 @@ tags:
 - Drupal Planet
 - Open source
 - Small business
-date: 2014-09-18 13:00:00
+date: 2014-09-18 14:00:00
 ---
 This summer, ThinkShout was named the [9th Fastest Growing Private Company in Portland, Oregon](http://www.bizjournals.com/portland/gallery/43111?s=image_gallery&img_no=87&s=image_gallery&img_no=87). Admittedly, this came as sort of a shock to me and Lev. Over three and a half years, we’ve grown the company from two dudes renting desks in an incubator space to a full-time team of 17 professionals averaging 10 years of experience each. But most of the time, it doesn’t feel like we’ve come up with any secret sauce for running a successful business. We try to listen to our employees and our peers in the industry. We partner with nonprofit clients trying to make the world a better place, and we do our best to treat them with integrity in all aspects of our work - from our design and engineering practices to our approach to project management and our billing process.
 
