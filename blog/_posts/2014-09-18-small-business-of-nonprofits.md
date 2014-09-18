@@ -25,11 +25,11 @@ But this perspective speaks only to open source’s initial customer appeal. It 
 
 So, what is the guiding principle of growing a small business around open source? For us, it boils down to:
 
-->**Our customers benefit tremendously from their own contributions to open source.**<-
+**Our customers benefit tremendously from their own contributions to open source.**
 
 Put a bit more bluntly:
 
-->**Our customers benefit from _paying us to give away their code_**.-<
+**Our customers benefit from _paying us to give away their code_**.
 
 To illustrate this point, I’d like to run through some of our numbers as a small business of open source. The following statistics are relative to the publication date of this blog post:
 
