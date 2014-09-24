@@ -63,9 +63,9 @@
   social:
     linkedin: http://www.linkedin.com/in/jadenjohnston/
   image:
-    small: team/small/jaden2.jpg
-    medium: team/medium/jaden2.jpg
-    large: team/large/jaden2.jpg
+    small: team/small/jaden.jpg
+    medium: team/medium/jaden.jpg
+    large: team/large/jaden.jpg
   published: true
   name: jaden
   bio: |
@@ -312,6 +312,25 @@
   name: josh
   bio: |
     Josh was attracted to ThinkShout because of our commitment to serving nonprofits. He puts his design skills to work for organizations doing good in the world, and we are more than happy to help him achieve that goal. He designs in the browser, using tools we love like Sass and Jekyll, and doesn’t shy away from large, responsive web challenges. Before ThinkShout (and after the metal band), Josh worked remotely from Florida as a designer at Lullabot. He has since relocated to Portland with his wife and spends his free time hiking, cooking, or honing his photography skills.
+
+- first_name: Kaylan
+  last_name: Isenberg
+  position: Project Manager
+  leadin: |
+    Kaylan is a natural storyteller and problem-solver. She genuinely loves the nature of project management and few things are quite as satisfying to her as seeing our clients’ projects to completion. That love is only rivaled by her passion for fairy tales - the scary kind.
+  social:
+    github: 
+    twitter:
+    linkedin: https://www.linkedin.com/in/kaylanisenberg
+    drupal: 
+  image:
+    small: team/small/kaylan.jpg
+    medium: team/medium/kaylan.jpg
+    large: team/large/kaylan.jpg
+  published: true
+  name: kaylan
+  bio: |
+    Before joining ThinkShout, Kaylan managed projects in a wide variety of industries, particularly, education, where she partnered with various universities to design and implement long-term executive coaching programs to increase student retention and engagement.  We love the diversity of her experience and her unwavering enthusiasm for each project she oversees. She has a Masters degree in English literature and is a self-proclaimed research nut. She also really, really loves marine mammals and used to volunteer for Whale Watch as a tour guide. She’s the only person in the office who’s toured the Brothers Grimm route in Germany. Spooky.
 
 - first_name: Krista
   last_name: Van Veen
