@@ -29,3 +29,14 @@ TODO: Screenshots of the above.
 The USB card reader option is only available to admin users, not regular customers, so you'll need to create an order manually through the Drupal Commerce admin interface before you can process a payment by swiping a credit card.
 
 In addition to the convenience of not having to type in credit card details, the USB card readers from iATS Payments are fully PCI compliant. All sensitive credit card information is encrypted by the reader before it reaches Drupal, meaning you never need to pass unencrypted card data through your server.
+
+For the developers out there, the USB card readers can hook into three of iATS Payments' API services:
+
+* ```ProcessCreditCardV1```
+  * Process a credit card transaction without storing any data locally.
+
+* ```CreateCreditCardCustomerCodeV1```
+  * Create a customer code without a charge. This is a great way to store a customer's credit card to bill later. Fully PCI compliant as only the iATS Payments customer code is stored on your server, not the credit card information.
+
+* ```CreateCustomerCodeAndProcessCreditCardV1```
+  * A combination of the above two services, charge a credit card and create a customer code at the same time.
