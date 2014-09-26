@@ -216,16 +216,17 @@
 	ul.navblocks {
 	  li {
 	    .content {
-	      margin: 0 0.25em;
-	      height: 150px;
+        margin: 0 0.25em;
+	      height: auto;
 	      text-align: center;
-	      padding: 1em 1em 0;
+	      padding: 1em;
 	      background: rgba(255,255,255,0.8);
 	      @include transition-property(all);
 	      @include transition-duration(0.2s);
 	     	@media screen and (max-width: $tablet) {
         	margin: 0;
         	height: auto;
+          float: none;
       	}
 	      a {
 	        display: block;
@@ -265,7 +266,7 @@
 	  }
 	}
 	ul.large-block-grid-3.medium-block-grid-1 {
-		@media screen and (max-width: $mobile) {
+    @media screen and (max-width: $mobile) {
     	margin: 0;
     }
 	}
@@ -288,3 +289,4 @@ nav.footer-nav {
 		}
 	}
 }
+
