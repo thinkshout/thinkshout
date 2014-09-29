@@ -32,11 +32,11 @@ In addition to the convenience of not having to type in credit card details, the
 
 For the developers out there, the USB card readers can hook into three of iATS Payments' API services:
 
-* ```ProcessCreditCardV1```
+* **[ProcessCreditCardV1](https://www.iatspayments.com/NetGate/ProcessLink.asmx?op=ProcessCreditCardV1)**
   * Process a credit card transaction without storing any data locally.
 
-* ```CreateCreditCardCustomerCodeV1```
+* **[CreateCreditCardCustomerCodeV1](https://www.iatspayments.com/NetGate/CustomerLink.asmx?op=CreateCreditCardCustomerCodeV1)**
   * Create a customer code without a charge. This is a great way to store a customer's credit card to bill later. Fully PCI compliant as only the iATS Payments customer code is stored on your server, not the credit card information.
 
-* ```CreateCustomerCodeAndProcessCreditCardV1```
+* **[CreateCustomerCodeAndProcessCreditCardV1](https://www.iatspayments.com/NetGate/ProcessLink.asmx?op=CreateCustomerCodeAndProcessCreditCardV1)**
   * A combination of the above two services, charge a credit card and create a customer code at the same time.
