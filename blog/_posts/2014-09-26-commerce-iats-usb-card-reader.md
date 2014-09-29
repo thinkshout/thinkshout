@@ -24,9 +24,15 @@ iATS Payments provides a choice of two USB card readers that you can use with yo
 * Select the name USB card reader you're using
 * Save the changes to the payment method and you're good to go
 
-TODO: Screenshots of the above.
+![Enable USB card reader functionality](/assets/images/blog/commerce-iats-card-reader-settings.png)
 
 The USB card reader option is only available to admin users, not regular customers, so you'll need to create an order manually through the Drupal Commerce admin interface before you can process a payment by swiping a credit card.
+
+The next time you add a credit card payment to an order, you'll see something like this:
+
+![Adding a payment with an encrypted USB card reader](/assets/images/blog/commerce-iats-card-reader-data.png)
+
+That code is the encrypted credit card data fed into Drupal by the USB card reader. Or it might be the Matrix, we're still not entirely sure.
 
 In addition to the convenience of not having to type in credit card details, the USB card readers from iATS Payments are fully PCI compliant. All sensitive credit card information is encrypted by the reader before it reaches Drupal, meaning you never need to pass unencrypted card data through your server.
 
