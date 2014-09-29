@@ -48,4 +48,4 @@ For the developers out there, the USB card readers can hook into three of iATS P
 * **[CreateCustomerCodeAndProcessCreditCardV1](https://www.iatspayments.com/NetGate/ProcessLink.asmx?op=CreateCustomerCodeAndProcessCreditCardV1)**
   * A combination of the above two services, charge a credit card and create a customer code at the same time.
 
-You can see some example card data in iATS Payment's [developer documentation](http://home.iatspayments.com/developers/encrypted-swipe/usb-devices). If you're ready to start swiping credit cards, the documentation includes links to sites where you can purchase one of the two encrypted USB card readers supported by iATS Payments.
+You can see some example card data in iATS Payments' [developer documentation](http://home.iatspayments.com/developers/encrypted-swipe/usb-devices). If you're ready to start swiping credit cards, the documentation includes links to sites where you can purchase one of the two encrypted USB card readers supported by iATS Payments.
