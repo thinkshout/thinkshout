@@ -2,18 +2,19 @@
 title: Adding Encrypted USB Card Reader Support to Commerce iATS
 layout: post
 author: dan
-published: true
-featured: true
+published: false
+featured: false
 short: |
   Process credit card payments quickly and securely using an encrypted USB card reader.
 tags:
 - iATS
 - Commerce iATS
 - iATS Payments
-date: 2014-09-26 12:00:00
+- Drupal Planet
+date: 2014-10-01 12:00:00
 ---
 
-Ever been in a situation where you wished your Drupal Commerce installation could operate more like a Point of Sale system? Especially for non-profits, taking donations and charging admission to events are great examples of times when swiping a customer's credit card would be a great time saver.
+Ever been in a situation where you wished your Drupal Commerce installation could operate more like a Point of Sale system? Especially for non-profits, taking donations and charging admission to events are prime examples of times when swiping a customer's credit card would be a great time saver.
 
 As of version 2.5, [Commerce iATS](https://www.drupal.org/project/commerce_iats) supports the use of [encrypted USB card readers](http://home.iatspayments.com/developers/encrypted-magnetic-stripe-readers) with iATS Payments.
 
