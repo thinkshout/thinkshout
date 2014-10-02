@@ -45,7 +45,7 @@ So when you hear people talking about behat, they're usually talking about all t
 
 ## Why Behat Versus Others?
 
-Mainly becuase of popularity, which comes mainly from its human readability. There are certainly other contenders with other strengths, but we're focusing on behat today because it is a popular PHP-based testing framework, its tests are written as human readable scenarios, can be easily extended by writing additional PHP methods, and, as you'll see soon, getting set up is not too difficult.
+Mainly becuase of popularity, which comes mainly from its human readability. There are certainly other contenders with other strengths, but we're focusing on behat today because it is a popular PHP-based testing framework. Its tests are written as human readable scenarios, can be easily extended by writing additional PHP methods, and, as you'll see soon, getting set up is not too difficult.
 
 ## Business Use
 
@@ -55,7 +55,7 @@ Things that are measured always get more attention than things that just happen.
 
 ## Run Tests
 
-Let's use the scenario of ensuring that the user login experience is correct. This will verify that the site is up & running, that valid users can log in, and that invalid credentials will not work. Here's a test run, using a local development site:
+Let's use the scenario where we're ensuring that the user login experience is correct. This will verify that the site is up & running, that valid users can log in, and that invalid credentials will not work. Here's a test run, using a local development site:
 
 ![behat test run](/assets/images/blog/behat-test-run.png)
 
