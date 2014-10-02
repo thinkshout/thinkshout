@@ -21,7 +21,7 @@ So you want to update this code to resolve security issues and improve the funct
 
 So how do you make updates, whether updating contrib code or doing new custom work, with confidence that you're not breaking essential funcionality and without wasting countless hours doing a bunch of manual testing?
 
-## A better solution: automated testing.
+## A Better Solution: Automated Testing.
 
 Let a machine do it for you. There are several categories of automated testing:
 
@@ -30,7 +30,7 @@ Let a machine do it for you. There are several categories of automated testing:
 - System testing. This tests the system as a whole, and is mainly code oriented, but starts to touch how real people would use the system.
 - Behavioral testing. Acceptance testing. Customer testing. This involves clickthroughs, user behavior. This is what we are mainly interested in, and what I am talking about today. You will also hear this referred to as BDD or Behavior Driven Development.
 
-## Enter behat
+## Enter Behat
 
 Behat is an automated testing system. Its strength is in behavioral testing, so it fits perfectly in our use case.
 
@@ -42,17 +42,17 @@ There are several commonly used browser emulators. Some, like Goutte, are very f
 
 So when you hear people talking about behat, they're usually talking about all three components: behat, mink, and browser emulators.
 
-## Why behat versus others?
+## Why Behat Versus Others?
 
 Mainly becuase of popularity, which comes mainly from its human readability. There are certainly other contenders with other strengths, but we're focusing on behat today because it is a popular PHP-based testing framework, its tests are written as human readable scenarios, can be easily extended by writing additional PHP methods, and, as you'll see soon, getting set up is not too difficult.
 
-## Business use
+## Business Use
 
 Even though this all seems like a good thing, it does take some time to write tests, set up a testing environment, and determine what the best tests are. We need to allocate time to do this, and it shouldn't just be a surprise at the end of the project. Automated testing should be considered in several phases of a web project. When writing custom code, it's a good practice to write unit tests, and time should be allocated for that. When devleoping custom features for a site, behavioral tests should be written to accompany them, and again, time should be allocated. It's good if clients know at the beginning of a project that test writing is part of the development process, and test running is part of deployment.
 
 Things that are measured always get more attention than things that just happen. Clients should have a large say in what is measured and tested. As a result, project managers can gain a better insight into priorities of the client and project. By making behavior tests something that is intentionally done, project stakeholders must clarify and prioritize the most important aspects of the site.
 
-## Run tests
+## Run Tests
 
 Let's use the scenario of ensuring that the user login experience is correct. This will verify that the site is up & running, that valid users can log in, and that invalid credentials will not work. Here's a test run, using a local development site:
 
@@ -62,7 +62,7 @@ And it only takes a few seconds to run.
 
 If you run this test after a code update and find that the test fails, you know immediately that something must be fixed before it can be deployed to the production environment.
 
-## Write tests
+## Write Tests
 
 Behat tests are written in "Feature" files. They're just text files with a .feature extension on the name, instead of .txt or .php. They are usually placed in a "features" directory inside your behat directory. More on that in the next section.
 
@@ -155,7 +155,7 @@ The other two scenarios follow the same format, as well as using `not` to ensure
 
 That's the quick walkthrough of writing scenarios, but you can dig deeper at http://docs.behat.org/en/v2.5/quick_intro.html#define-your-feature and http://docs.behat.org/en/v2.5/guides/1.gherkin.html and find out about other aspects like [Scenario Outlines](http://docs.behat.org/en/v2.5/guides/1.gherkin.html#scenario-outlines), [Backgrounds](http://docs.behat.org/en/v2.5/guides/1.gherkin.html#backgrounds) and Multiline Arguments.
 
-## Get set up
+## Get Set Up
 
 I've looked at several resources from behat.org and elsewhere, and ended up just having to piece things together to get something that will work. I've consolidated those notes to ease the setup in the future. [Behat Installation and Use](https://github.com/thinkshout/ts_recipes/blob/master/behat/README.md).
 
