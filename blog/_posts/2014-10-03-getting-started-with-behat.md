@@ -22,7 +22,7 @@ So you want to update this code to resolve security issues and improve the funct
 
 So how do you make updates, whether updating contrib code or doing new custom work, with confidence that you're not breaking essential funcionality and without wasting countless hours doing a bunch of manual testing?
 
-## A Better Solution: Automated Testing.
+## A Better Solution: Automated Testing
 
 Let a machine do it for you. There are several categories of automated testing:
 
