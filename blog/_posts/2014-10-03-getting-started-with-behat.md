@@ -3,7 +3,7 @@ title: Getting started with Behat
 layout: post
 author: david
 published: false
-featured: true
+featured: false
 short: |
   Learn everything you need to know to start using behat today.
 tags:
@@ -11,6 +11,7 @@ tags:
 - testing
 - BDD
 - Behavioral testing
+- Drupal Planet
 date: 2014-10-03 16:00:00
 ---
 
