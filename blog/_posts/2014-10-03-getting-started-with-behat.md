@@ -142,14 +142,14 @@ When I follow "Log In"
   And I press "Log in"
 ```
 
-^ The events that need to happen. `When` kicks it off. `And` adds more events. If behat is unable to do any of these events, the test will fail.
+^ The events that need to happen. `When` kicks it off. `And` adds more events. If behat is unable to do any of these events, the test will fail. `I follow "Log In"` looks for a link with the text "Log In" and clicks it. `I fill in "Username" with "admin"` looks for a field with the label of "Username" and types "admin" into it. `I press "Log in"` looks for button with the text "Log in" and presses it. Pro tip: `follow` is for clicking links, and `press` is for buttons on forms.
 
 ```
 Then I should see "Log out"
   And I should see "My account"
 ```
 
-^ The desired outcome. `Then` starts it, and `And` adds more outcomes. These are the actual tests that need to pass. Other testing frameworks often call these "assertions".
+^ The desired outcome. `Then` starts it, and `And` adds more outcomes. These are the actual tests that need to pass. Other testing frameworks often call these "assertions". `I should see "Log out"` looks for the text "Log out" anywhere on the page.
 
 The other two scenarios follow the same format, as well as using `not` to ensure that certain things do not happen.
 
