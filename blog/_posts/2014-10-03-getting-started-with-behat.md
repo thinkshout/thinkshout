@@ -123,7 +123,7 @@ Now let's look each line and see what each is doing. The first few lines are ess
 
 ^ Feature itself.
 
-Behat tests are written in the form of scnearios, and they comprise the rest of the feature file.
+Behat tests are written in the form of scenarios, and they comprise the rest of the feature file.
 
 ```Scenario: Logs in to the site```
 
@@ -161,7 +161,7 @@ I've looked at several resources from behat.org and elsewhere, and ended up just
 
 There are a number of dependencies, so the easiest way to handle them all is to let composer do it for you. So install composer if you haven't already. On a mac, using homebrew works great: `brew install composer`.
 
-Make a behat directory, either for a project you're working on, or in a generic location. Copy this [composer.json](https://github.com/thinkshout/ts_recipes/blob/master/behat/composer.json) file into it. Run `composer install`, which might take a while. It's installing behat, mink, several mink extensions, and webdriver which is for selenium. Then run `bin/behat` to make sure that behat is actually available and doing something. You should see something like `No scenarios`.
+Make a behat directory, either for a project you're working on, or in a generic location. Copy this [composer.json](https://github.com/thinkshout/ts_recipes/blob/master/behat/composer.json) file into it. Run `composer install`, which might take a while. It's installing behat, mink, several mink extensions, and webdriver, which is for selenium. Then run `bin/behat` to make sure that behat is actually available and doing something. You should see something like `No scenarios`.
 
 Install selenium. This part is optional, if you don't need to test javascript. Download the latest version of [selenium-server-standalone](http://selenium-release.storage.googleapis.com/index.html). You'll also need firefox and a java runtime installed. If you get output from `java -version` you should be good.
 
@@ -171,4 +171,4 @@ The last thing you need is a behat.yml file in your behat directory. Use this [b
 
 At this point, running `bin/behat` in your behat directory should run any tests located in the features directory.
 
-Hopefully that gets you started on your road to readable automated testing. The best resources I've found are on the [behat site](http://behat.org). You'll probably be redirected to something like http://docs.behat.org/en/v2.5/. Please leave a comment with your successes or other suggestions. Thanks for reading, and good luck!
+Hopefully, that gets you started on your road to readable automated testing. The best resources I've found are on the [behat site](http://behat.org). You'll probably be redirected to something like http://docs.behat.org/en/v2.5/. Please leave a comment with your successes or other suggestions. Thanks for reading, and good luck!
