@@ -15,11 +15,11 @@ date: 2014-10-03 16:00:00
 ---
 
 ## Situation
-Suppose you have built a site, it works great, the client loves it, you launch it, and the client still loves it. Yay! Now life goes on, and six months later, the client comes back to you saying they see a red box when they are logged in, with a message about security updates. You look and see that Drupal core, ctools, rules, views, commerce, date, and a handful of other modules have updates availalbe. Some are security updates, and others are bugfix/feature updates.
+Suppose you build a site, it works great, the client loves it, you launch it, and the client still loves it. Yay! Now life goes on, and six months later, the client comes back to you saying they see a red box when they are logged in, with a message about security updates. You look and see that Drupal core, ctools, rules, views, commerce, date, and a handful of other modules have updates availalbe. Some are security updates, and others are bugfix/feature updates.
 
-So you want to updates this code to resolve security issues and improve the functionality of the site. But how can you be sure that these code updates will not hurt or break any of the existing functionality? You could revisit all of your feature work from 6 months to a year ago, and confirm that those features still work as intended. But that can be time consuming and disrupt your other work, just reminding yourself what all that functionality was.
+So you want to update this code to resolve security issues and improve the functionality of the site. But how can you be sure that these code updates will not hurt or break any of the existing functionality? You could revisit all of your feature work from six months to a year ago and confirm that those features still work as intended. But that can be time consuming and disrupt your other work.
 
-So how do you make updates, whether updating contrib code or doing new custom work, with confidence that you're not breaking essential funcionality, without wasting countless hours doing a bunch of manual testing?
+So how do you make updates, whether updating contrib code or doing new custom work, with confidence that you're not breaking essential funcionality and without wasting countless hours doing a bunch of manual testing?
 
 ## A better solution: automated testing.
 
@@ -32,23 +32,23 @@ Let a machine do it for you. There are several categories of automated testing:
 
 ## Enter behat
 
-Behat is an automated testing system. Its strength is in behavioral testing, so fits perfectly in our use case.
+Behat is an automated testing system. Its strength is in behavioral testing, so it fits perfectly in our use case.
 
-Behat test are written in plain English phrases, combined into human readable scenarios. (This comes from inspiration by Ruby's Cucumber project and Gherkin syntax.) This is probably the most appealing aspect of Behat. Most tests are understandable by anyone, whether developer, project manager, or business owner.
+Behat tests are written in plain English phrases which are then combined into human readable scenarios. This comes from inspiration by Ruby's Cucumber project and Gherkin syntax. This is probably the most appealing aspect of Behat. Most tests are understandable by anyone, whether you're a developer, project manager, or business owner.
 
 Behat is the core framework used for running tests. It is capabable of testing several types of systems: terminal commands, REST APIs, etc. To enable behat to test web pages, you need to add Mink and a browser emulator to the mix. Mink functions as the connector between Behat and browser emulators, and provides a consistent testing API.
 
-There are several commonly used browser emulators. Some, like Goutte, are very fast but don't support JavaScript. Others, like Selenium and Firefox, are full-featured browsers but will run more slowly.
+There are several commonly used browser emulators. Some, like Goutte, are very fast, but don't support JavaScript. Others, like Selenium and Firefox, are full-featured browsers, but will run more slowly.
 
 So when you hear people talking about behat, they're usually talking about all three components: behat, mink, and browser emulators.
 
 ## Why behat versus others?
 
-Mainly becuase of popularity, which comes mainly from its human readability. There are certainly other contenders with their certain strengths, but we're focusing on behat today because it is a popular PHP based testing framework, its tests are written as human readable scenarios, can be easily extended by writing additional PHP methods, and as you'll see soon, getting set up is not too difficult.
+Mainly becuase of popularity, which comes mainly from its human readability. There are certainly other contenders with other strengths, but we're focusing on behat today because it is a popular PHP-based testing framework, its tests are written as human readable scenarios, can be easily extended by writing additional PHP methods, and, as you'll see soon, getting set up is not too difficult.
 
 ## Business use
 
-Even though this all seems like a good thing, it does take some time to write tests, set up a testing environment, and determine what the best tests are. We need to allocate time to do this, and it shouldn't just be a surprise at the end of the project. Automated testing should be considered in several phases of a web project. Whe writing custom code, it is a good practice to write unit tests, and time should be allocated for that. When devleoping custom features for a site, behaviroal tests should be written to accompany them, and again, time should be allocated. It's good if clients know at the beginning of a project that test writing is part of the development process, and test running is part of deployment.
+Even though this all seems like a good thing, it does take some time to write tests, set up a testing environment, and determine what the best tests are. We need to allocate time to do this, and it shouldn't just be a surprise at the end of the project. Automated testing should be considered in several phases of a web project. When writing custom code, it's a good practice to write unit tests, and time should be allocated for that. When devleoping custom features for a site, behavioral tests should be written to accompany them, and again, time should be allocated. It's good if clients know at the beginning of a project that test writing is part of the development process, and test running is part of deployment.
 
 Things that are measured always get more attention than things that just happen. Clients should have a large say in what is measured and tested. As a result, project managers can gain a better insight into priorities of the client and project. By making behavior tests something that is intentionally done, project stakeholders must clarify and prioritize the most important aspects of the site.
 
@@ -133,7 +133,7 @@ Behat tests are written in the form of scnearios, and they comprise the rest of 
 
 ^ The context. This is the first line that is actually executed. In this case, it will load "/" (the home page) in a browser.
 
-This (a "Given") as well as the next things ("When" and "Then") are each called a "Step".
+This (a "Given") as well as the next things ("When" and "Then") are each called a "Step."
 
 ```
 When I follow "Log In"
