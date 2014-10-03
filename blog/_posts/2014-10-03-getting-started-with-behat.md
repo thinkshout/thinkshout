@@ -5,7 +5,7 @@ author: david
 published: true
 featured: true
 short: |
-  Learn everything you need to know to start using behat today.
+  Learn everything you need to know to start using Behat today.
 tags:
 - behat
 - testing
