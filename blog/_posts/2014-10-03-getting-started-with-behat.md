@@ -37,15 +37,15 @@ Let a machine do it for you. There are several categories of automated testing:
 
 Behat tests are written in plain English phrases which are then combined into human readable scenarios. This was inspired by Ruby's [Cucumber](http://cukes.info/) project and [Gherkin](https://github.com/cucumber/gherkin) syntax. This is probably the most appealing aspect of Behat. Most tests are understandable by anyone, whether you're a developer, project manager, or business owner.
 
-Behat is the core framework used for running tests. It is capabable of testing several types of systems: terminal commands, REST APIs, etc. To enable behat to test web pages, you need to add [Mink](http://mink.behat.org) and a browser emulator to the mix. Mink functions as the connector between Behat and browser emulators, and provides a consistent testing API.
+Behat is the core framework used for running tests. It is capabable of testing several types of systems: terminal commands, REST APIs, etc. To enable Behat to test web pages, you need to add [Mink](http://mink.behat.org) and a browser emulator to the mix. Mink functions as the connector between Behat and browser emulators, and provides a consistent testing API.
 
 There are several commonly used browser emulators. Some, like [Goutte](https://github.com/fabpot/goutte), are very fast, but don't support JavaScript. Others, like [Selenium](http://www.seleniumhq.org/) and [Firefox](http://www.firefox.com), are full-featured browsers, but will run more slowly.
 
-So when you hear people talking about behat, they're usually talking about all three components: Behat, Mink, and browser emulators.
+So when you hear people talking about Behat, they're usually talking about all three components: Behat, Mink, and browser emulators.
 
 ## Why Behat Versus Others?
 
-Mainly becuase of popularity, which comes mainly from its human readability. There are certainly other contenders with other strengths, but we're focusing on behat today because it is a popular PHP-based testing framework. Its tests are written as human readable scenarios, can be easily extended by writing additional PHP methods, and, as you'll see soon, getting set up is not too difficult.
+Mainly becuase of popularity, which comes mainly from its human readability. There are certainly other contenders with other strengths, but we're focusing on Behat today because it is a popular PHP-based testing framework. Its tests are written as human readable scenarios, can be easily extended by writing additional PHP methods, and, as you'll see soon, getting set up is not too difficult.
 
 ## Business Use
 
@@ -65,9 +65,9 @@ If you run this test after a code update and find that the test fails, you know 
 
 ## Write Tests
 
-Behat tests are written in "Feature" files. They're just text files with a .feature extension on the name, instead of .txt or .php. They are usually placed in a "features" directory inside your behat directory. More on that in the next section.
+Behat tests are written in "Feature" files. They're just text files with a .feature extension on the name, instead of .txt or .php. They are usually placed in a "features" directory inside your Behat directory. More on that in the next section.
 
-In the test run above, I was in my project's behat directory, and ran `bin/behat features/loginout.feature`. That launches behat and tells it to run the tests that are in loginout.feature. Here are the entire contents of that file:
+In the test run above, I was in my project's Behat directory, and ran `bin/behat features/loginout.feature`. That launches Behat and tells it to run the tests that are in loginout.feature. Here are the entire contents of that file:
 
 ```
 Feature: Log in and out of the site.
@@ -143,7 +143,7 @@ When I follow "Log In"
   And I press "Log in"
 ```
 
-^ The events that need to happen. `When` kicks it off. `And` adds more events. If behat is unable to do any of these events, the test will fail. `I follow "Log In"` looks for a link with the text "Log In" and clicks it. `I fill in "Username" with "admin"` looks for a field with the label of "Username" and types "admin" into it. `I press "Log in"` looks for button with the text "Log in" and presses it. Pro tip: `follow` is for clicking links, and `press` is for buttons on forms.
+^ The events that need to happen. `When` kicks it off. `And` adds more events. If Behat is unable to do any of these events, the test will fail. `I follow "Log In"` looks for a link with the text "Log In" and clicks it. `I fill in "Username" with "admin"` looks for a field with the label of "Username" and types "admin" into it. `I press "Log in"` looks for button with the text "Log in" and presses it. Pro tip: `follow` is for clicking links, and `press` is for buttons on forms.
 
 ```
 Then I should see "Log out"
@@ -162,14 +162,14 @@ I've looked at several resources from behat.org and elsewhere, and ended up just
 
 There are a number of dependencies, so the easiest way to handle them all is to let composer do it for you. So install composer if you haven't already. On a mac, using homebrew works great: `brew install composer`.
 
-Make a behat directory, either for a project you're working on, or in a generic location. Copy this [composer.json](https://github.com/thinkshout/ts_recipes/blob/master/behat/composer.json) file into it. Run `composer install`, which might take a while. It's installing behat, mink, several mink extensions, and webdriver, which is for selenium. Then run `bin/behat` to make sure that behat is actually available and doing something. You should see something like `No scenarios`.
+Make a Behat directory, either for a project you're working on, or in a generic location. Copy this [composer.json](https://github.com/thinkshout/ts_recipes/blob/master/behat/composer.json) file into it. Run `composer install`, which might take a while. It's installing Behat, Mink, several Mink extensions, and webdriver, which is for Selenium. Then run `bin/behat` to make sure that Behat is actually available and doing something. You should see something like `No scenarios`.
 
 Install selenium. This part is optional, if you don't need to test javascript. Download the latest version of [selenium-server-standalone](http://selenium-release.storage.googleapis.com/index.html). You'll also need firefox and a java runtime installed. If you get output from `java -version` you should be good.
 
-In your behat directory, add a features folder if there's not one already, and add a something.feature file to it. You can use this [loginout.feature](https://github.com/thinkshout/ts_recipes/blob/master/behat/features/loginout.feature) as an example.
+In your Behat directory, add a features folder if there's not one already, and add a something.feature file to it. You can use this [loginout.feature](https://github.com/thinkshout/ts_recipes/blob/master/behat/features/loginout.feature) as an example.
 
-The last thing you need is a behat.yml file in your behat directory. Use this [behat.yml](https://github.com/thinkshout/ts_recipes/blob/master/behat/behat.yml) as an example, replacing the domain with the site you want to test. Also remove the selenium2 line if you're not using it.
+The last thing you need is a behat.yml file in your Behat directory. Use this [behat.yml](https://github.com/thinkshout/ts_recipes/blob/master/behat/behat.yml) as an example, replacing the domain with the site you want to test. Also remove the selenium2 line if you're not using it.
 
-At this point, running `bin/behat` in your behat directory should run any tests located in the features directory.
+At this point, running `bin/behat` in your Behat directory should run any tests located in the features directory.
 
 Hopefully, that gets you started on your road to readable automated testing. The best resources I've found are on the [behat site](http://behat.org). You'll probably be redirected to something like http://docs.behat.org/en/v2.5/. Please leave a comment with your successes or other suggestions. Thanks for reading, and good luck!
