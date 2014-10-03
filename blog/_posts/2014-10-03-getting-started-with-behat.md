@@ -104,9 +104,9 @@ Scenario: Attempts login with wrong credentials.
     And I should not see "My account"
 ```
 
-Indentation is only for readability, and has not impact on how the tests are run.
+Indentation is only for readability, and has no impact on how the tests are run.
 
-Now let's look each line and see what each is doing. The first few lines are essentially comments.
+Now let's look at each line and see what each is doing. The first few lines are essentially comments.
 
 ```Feature: Log in and out of the site.```
 
@@ -164,7 +164,7 @@ There are a number of dependencies, so the easiest way to handle them all is to 
 
 Make a Behat directory, either for a project you're working on, or in a generic location. Copy this [composer.json](https://github.com/thinkshout/ts_recipes/blob/master/behat/composer.json) file into it. Run `composer install`, which might take a while. It's installing Behat, Mink, several Mink extensions, and webdriver, which is for Selenium. Then run `bin/behat` to make sure that Behat is actually available and doing something. You should see something like `No scenarios`.
 
-Install selenium. This part is optional, if you don't need to test javascript. Download the latest version of [selenium-server-standalone](http://selenium-release.storage.googleapis.com/index.html). You'll also need firefox and a java runtime installed. If you get output from `java -version` you should be good.
+Install selenium. This part is optional, if you don't need to test Javascript. Download the latest version of [selenium-server-standalone](http://selenium-release.storage.googleapis.com/index.html). You'll also need Firefox and a Java runtime installed. If you get output from `java -version` you should be good.
 
 In your Behat directory, add a features folder if there's not one already, and add a something.feature file to it. You can use this [loginout.feature](https://github.com/thinkshout/ts_recipes/blob/master/behat/features/loginout.feature) as an example.
 
