@@ -2,8 +2,8 @@
 title: Getting started with Behat
 layout: post
 author: david
-published: false
-featured: false
+published: true
+featured: true
 short: |
   Learn everything you need to know to start using behat today.
 tags:
