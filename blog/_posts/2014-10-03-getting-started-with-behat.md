@@ -1,5 +1,5 @@
 ---
-title: Getting started with Behat
+title: Getting Started with Behat
 layout: post
 author: david
 published: true
