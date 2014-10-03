@@ -35,7 +35,7 @@ Let a machine do it for you. There are several categories of automated testing:
 
 [Behat](http://behat.org) is an automated testing system. Its strength is in behavioral testing, so it fits perfectly in our use case.
 
-Behat tests are written in plain English phrases which are then combined into human readable scenarios. This comes from inspiration by Ruby's [Cucumber](http://cukes.info/) project and [Gherkin](https://github.com/cucumber/gherkin) syntax. This is probably the most appealing aspect of Behat. Most tests are understandable by anyone, whether you're a developer, project manager, or business owner.
+Behat tests are written in plain English phrases which are then combined into human readable scenarios. This was inspired by Ruby's [Cucumber](http://cukes.info/) project and [Gherkin](https://github.com/cucumber/gherkin) syntax. This is probably the most appealing aspect of Behat. Most tests are understandable by anyone, whether you're a developer, project manager, or business owner.
 
 Behat is the core framework used for running tests. It is capabable of testing several types of systems: terminal commands, REST APIs, etc. To enable behat to test web pages, you need to add [Mink](http://mink.behat.org) and a browser emulator to the mix. Mink functions as the connector between Behat and browser emulators, and provides a consistent testing API.
 
