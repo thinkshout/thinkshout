@@ -41,7 +41,7 @@ Behat is the core framework used for running tests. It is capabable of testing s
 
 There are several commonly used browser emulators. Some, like [Goutte](https://github.com/fabpot/goutte), are very fast, but don't support JavaScript. Others, like [Selenium](http://www.seleniumhq.org/) and [Firefox](http://www.firefox.com), are full-featured browsers, but will run more slowly.
 
-So when you hear people talking about behat, they're usually talking about all three components: behat, Mink, and browser emulators.
+So when you hear people talking about behat, they're usually talking about all three components: Behat, Mink, and browser emulators.
 
 ## Why Behat Versus Others?
 
