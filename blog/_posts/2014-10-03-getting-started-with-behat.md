@@ -26,7 +26,7 @@ So how do you make updates, whether updating contrib code or doing new custom wo
 
 Let a machine do it for you. There are several categories of automated testing:
 
-- Unit testing. Tests that a small piece of code, a function, behaves as expected.
+- Unit testing. This tests that a small piece of code, a function, behaves as expected
 - Integration testing. These combine several Unit tests in logical groups, to ensure that they work together properly.
 - System testing. This tests the system as a whole, and is mainly code oriented, but starts to touch how real people would use the system.
 - Behavioral testing. Acceptance testing. Customer testing. This involves clickthroughs, user behavior. This is what we are mainly interested in, and what I am talking about today. You will also hear this referred to as BDD or Behavior Driven Development.
