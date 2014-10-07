@@ -51,7 +51,7 @@ Back in 2010, Groundwire found that search engines referred 55% of traffic to th
 
 Here are the mean / median numbers since 2011:
 
-![benchmark1.png](/assets/images/blog/benchmark1.png)
+![benchmark1.png](http://www.thinkshout.com/assets/images/blog/benchmark1.png)
 
 * 2011: 47.06% / 43.97%
 
@@ -63,7 +63,7 @@ So far in 2014, those numbers have increased to 55% (mean) / 60% (median).
 
 That means, of course, that traffic from the other two legs of the standard triumvirate have dropped:
 
-![benchmark2.png](/assets/images/blog/benchmark2.png)
+![benchmark2.png](http://thinkshout.com/assets/images/blog/benchmark2.png)
 
 * 2011: 22.04% / 22.13%
 
@@ -73,7 +73,7 @@ That means, of course, that traffic from the other two legs of the standard triu
 
 * 2014 (to date): 16.18% / 13.98%
 
-![benchmark3.png](/assets/images/blog/benchmark3.png)
+![benchmark3.png](http://www.thinkshout.com/assets/images/blog/benchmark3.png)
 
 * 2011: 28.87% / 24.76%
 
@@ -92,7 +92,7 @@ User Experience starts in the first place your users experience you. You can use
 
 It is. Groundwire found that in 2010, the median number of mobile visitors to the sites in their study was just 1%. That’s changed over the past few years. Looking just at mobile phones (not tablets), you can see the surge:
 
-![benchmark4.png](/assets/images/blog/benchmark4.png)
+![benchmark4.png](http://www.thinkshout.com/assets/images/blog/benchmark4.png)
 
 * 2011: 5.70% / 4.97%
 
@@ -165,7 +165,7 @@ By structuring your content properly, you can create ways to put the content mob
 
 Perhaps, given the growth in search and mobile traffic, it’s no surprise that the percentage of "New" visitors has increased over the years:
 
-![benchmark5.png](/assets/images/blog/benchmark5.png)
+![benchmark5.png](http://www.thinkshout.com/assets/images/blog/benchmark5.png)
 
 * 2011: 65.65% / 66.01%
 
@@ -175,7 +175,7 @@ Perhaps, given the growth in search and mobile traffic, it’s no surprise that 
 
 On the flip side, "Loyal" visitors (defined as those with at least three visits in the period under review) have crashed:
 
-![benchmark6.png](/assets/images/blog/benchmark6.png)
+![benchmark6.png](http://www.thinkshout.com/assets/images/blog/benchmark6.png)
 
 * 2011: 20.86% / 19.00%
 
