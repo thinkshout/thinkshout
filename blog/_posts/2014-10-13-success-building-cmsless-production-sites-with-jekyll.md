@@ -36,9 +36,11 @@ However, this left us with one big engineering question...
 Our solution to this problem is multi-faceted...
 
 #### GitHub for content management
+
 Since all content for a Jekyll site is stored in text files (markdown, csv, HTML, etc.) all content can be managed from the GitHub interface. Alternatively there are tools like [Prose](prose.io) that are well integrated with Jekyll and allow for a more robust content editing experience.
 
-This allows for simple updates like changing text on a page, but can also allow for complex content management as is the case with Feeding Texas' [zip-code detail pages](http://www.feedingtexas.org/zip/78056/). These pages are generated from a CSV input that holds data for each zip code in Texas. The CSV file is processed when the site is built by a [custom Ruby plugin](https://github.com/thinkshout/feeding-texas/blob/master/_plugins/csv_to_page.rb) that creates a page for each zip code. From a content management standpoint, this means Feeding Texas can update hundreds of pages in 3 simple steps:
+##### Complex content management with simple CSV inputs
+Tools like Github allow for simple updates like changing text on a page, but can also allow for complex content management as is the case with Feeding Texas' [zip-code detail pages](http://www.feedingtexas.org/zip/78056/). These pages are generated from a CSV input that holds data for each zip code in Texas. The CSV file is processed when the site is built by a [custom Ruby plugin](https://github.com/thinkshout/feeding-texas/blob/master/_plugins/csv_to_page.rb) that creates a page for each zip code. From a content management standpoint, this means Feeding Texas can update hundreds of pages in 3 simple steps:
 
 1. Edit the CSV file with whatever tool they'd like (Excel, etc.)
 2. Copy and paste the contents of the file into the GitHub interface
@@ -46,7 +48,22 @@ This allows for simple updates like changing text on a page, but can also allow 
 
 This commit then triggers a re-build of the site wherein each zip code detail page will contain the updated CSV data.
 
-The one downfall of using GitHub for content management is there is no way to add image or video files through the GitHub interface. To work around this problem, we created an Amazon S3 bucket dedicated to storing assets (images, videos, etc.). We then reference the assets statically anywhere they need to be used on the site. 
+##### Reusable content blocks
+
+Another popular content management concept that was difficult to implement in Jekyll until the 2.0.0 release was blocks of content that could be stored in a single place and used in multiple places around the site. [Collections](http://jekyllrb.com/docs/collections/) made this much easier. On the Feeding Texas site we created collections for several things ranging from [calls to action (scroll to page bottom)](http://www.feedingtexas.org/learn/communities/hunger-atlas/) to [staff profiles](http://www.feedingtexas.org/about/staff/) that can be placed anywhere on the site by specifying their index (where index could be any YAML frontmatter variable). So, for example, if a Feeding Texas content manager wanted to create and use a new call to action block, they would do two things:
+
+1. Create a markdown file for the block and include a frontmatter variable like this: ```index: 1```.
+2. Then to apply the new block to a page, they'd specify the block's index as a frontmatter variable in the page's markdown file like this: 
+
+```
+calls_to_action:
+  - 1
+  - 2
+```
+...and our templates do the rest.
+
+##### Challenges of using GitHub as a content management tool
+One difficulty of using GitHub for content management is there is no way to add image or video files through the GitHub interface. To work around this problem, we created an Amazon S3 bucket dedicated to storing assets (images, videos, etc.). We then reference the assets statically anywhere they need to be used on the site. 
 
 As a side note, the site is also hosted on an S3 bucket and we did consider putting both S3 buckets behind a CDN, but ultimately decided this was not necessary. That said, it'd be a trivial way to increase site performance if we ever wanted a boost.
 
