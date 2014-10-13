@@ -2,14 +2,17 @@
 title: Success building CMS-less production sites with Jekyll
 layout: post
 author: alex
-published: true
-featured: true
+published: false
+featured: false
 short: |
   The challenges and solutions of building a CMS-less site that can be managed by the layman.
 tags:
-- jekyll
-- ruby
+- Jekyll
+- Ruby
 - nonprofit
+- nonprofit tech
+- Travis CI
+- Github
 date: 2014-10-13 16:00:00
 ---
 Serving nonprofits, ThinkShout is no stranger to the "small organization, big impact" problem. The problem is that small organizations have budgets commensurate with their size and goals, for which the sky is the limit.
