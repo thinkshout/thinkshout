@@ -16,7 +16,7 @@ Serving nonprofits, ThinkShout is no stranger to the "small organization, big im
 
 To resolve this problem requires acute awareness of how to build what is necessary and sufficient to allow an organization to meet their goals. In other words, "how can we build everything this organization needs and nothing more."
 
-When [Feeding Texas](http://www.feedingtexas.org/) approached us to redesign their site, it became clear we could leverage both their small size _and_ their large ambitions as "pros" for using [Jekyll](http://jekyllrb.com/).
+When [Feeding Texas](http://www.feedingtexas.org/) approached us to redesign their site, it became clear we could leverage both their small size _and_ their large ambitions as "pros" for using [Jekyll](http://jekyllrb.com/). Feeding Texas is an organization working to provide food security to Texans through a statewide network of food banks, scalable public action that empowers Texans to collaboratively solve their hunger problems, and guiding the public conversation surrounding hunger in Texas. The site is designed to advance this work insofar as it engages visitors at a local level first and leads them to connect with Feeding Texas in their state-wide effort to end hunger. More specifically, generating interest about hunger in individual communities motivates people to want to do their part to resolve the much larger issue Feeding Texas is at the center of.
 
 ### Why Jekyll is suitable for small organizations needing to make a big impact
 Feeding Texas two characteristics shared by many small organizations:
@@ -63,9 +63,12 @@ calls_to_action:
 ...and our templates do the rest.
 
 ##### Challenges of using GitHub as a content management tool
-One difficulty of using GitHub for content management is there is no way to add image or video files through the GitHub interface. To work around this problem, we created an Amazon S3 bucket dedicated to storing assets (images, videos, etc.). We then reference the assets statically anywhere they need to be used on the site. 
+One difficulty of using GitHub for content management is there is no way to add image or video files through the GitHub interface. This is problematic because it is something content managers expect to be able to do, and we cannot simply add the files to the (compiled) live site directory (via FTP for example) because each commit triggers a wipe and a rebuild of said directory. To work around this problem, we created an Amazon S3 bucket dedicated to storing assets (images, videos, etc.) and reference the assets statically anywhere they need to be used on the site.
 
 As a side note, the site is also hosted on an S3 bucket and we did consider putting both S3 buckets behind a CDN, but ultimately decided this was not necessary. That said, it'd be a trivial way to increase site performance if we ever wanted a boost.
+
+Since assets are stored on a server that will persist, management of them becomes very straightforward. Feeding Texas uses S3's built in file management UI (pictured below), but you could just as easily use [Transmit](http://panic.com/transmit/) or any other FTP client.
+![S3 file management UI](/assets/images/blog/amazon-s3-file-mgmt-ui.png)
 
 #### Travis CI for deployment
 [Travis](https://travis-ci.com) is a continuous integration platform that is tightly integrated with GitHub. With a [single configuration file](https://github.com/thinkshout/feeding-texas/blob/master/.travis.yml), we were able to set up a fully functional deployment workflow that includes a staging and a production site. A commit to a particular branch in GitHub triggers Travis to build and deploy the site automatically to a specified endpoint. So, for example, editing and committing a file in the ```staging``` branch triggers a deployment to the staging site whereas a commit to the ```live``` branch triggers a deployment to the live site. For a more in depth look at how to configure a deployment workflow like this, check out [Lev's post on how we're doing it for the ThinkShout site](http://thinkshout.com/blog/2014/08/deployment-workflow-travis-jekyll-travis-s3/).
