@@ -40,7 +40,7 @@ Our solution to this problem is multi-faceted...
 
 #### GitHub for Content Management
 
-Since all content for a Jekyll site is stored in text files (markdown, csv, HTML, etc.) all content can be managed from the GitHub interface. Alternatively, there are tools like [Prose](prose.io) that are well-integrated with Jekyll and allow for a more robust content editing experience.
+Since all content for a Jekyll site is stored in text files (markdown, csv, HTML, etc.) all content can be managed from the GitHub interface. Alternatively, there are tools like [Prose](http://prose.io) that are well-integrated with Jekyll and allow for a more robust content editing experience.
 
 ##### Complex Content Management with Simple CSV Inputs
 Tools like Github allow for simple updates like changing text on a page, but can also allow for complex content management as is the case with Feeding Texas' [zip-code detail pages](http://www.feedingtexas.org/zip/78056/). These pages are generated from a CSV input that holds data for each zip code in Texas. The CSV file is processed when the site is built by a [custom Ruby plugin](https://github.com/thinkshout/feeding-texas/blob/master/_plugins/csv_to_page.rb) that creates a page for each zip code. From a content management standpoint, this means Feeding Texas can update hundreds of pages in three simple steps:
