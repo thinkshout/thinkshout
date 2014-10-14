@@ -34,7 +34,7 @@ Jekyll is the glass slipper for this dilemma for two reasons:
 
 However, this left us with one big engineering question...
 
-### Jekyll has No CMS. How Do We Allow Non-Technical End Users to Manage Content!?
+### Jekyll Has No CMS. How Do We Allow Non-Technical End Users to Manage Content!?
 
 Our solution to this problem is multi-faceted...
 
