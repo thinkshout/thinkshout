@@ -1,5 +1,5 @@
 ---
-title: Success building CMS-less production sites with Jekyll
+title: Success Building CMS-less Production Sites with Jekyll
 layout: post
 author: alex
 published: false
@@ -13,9 +13,9 @@ tags:
 - nonprofit tech
 - Travis CI
 - Github
-date: 2014-10-13 16:00:00
+date: 2014-10-14 16:00:00
 ---
-Serving nonprofits, ThinkShout is no stranger to the "small organization, big impact" problem. The problem is that small organizations have budgets commensurate with their size and goals, for which the sky is the limit.
+As an organization that serves nonprofits, ThinkShout is no stranger to the "small organization, big impact" problem. The problem is that small organizations have budgets commensurate with their size and goals, for which the sky is the limit.
 
 Resolving this problem requires acute awareness of how to build what is necessary to allow an organization to meet their goals. In other words, "how can we build everything this organization needs and nothing more?"
 
@@ -29,7 +29,7 @@ Feeding Texas has two characteristics shared by many small organizations:
 
 Jekyll is the glass slipper for this dilemma for two reasons:
 
-1. **Large budget savings by not implementing an in-site CMS** – a small content management team means relatively simple content management needs. No reason to use a full-blown CMS like Wordpress or Drupal.
+1. **Large budget savings by not implementing an in-site CMS** – a small content management team means relatively simple content management needs. No reason to use a full-blown CMS like Wordpress or Drupal.
 2. **Rapid development and excellent DOM control** allowed the funds saved to be reinvested in the site's visual presentation with maximum returns
 
 However, this left us with one big engineering question...
