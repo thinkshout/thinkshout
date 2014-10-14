@@ -2,8 +2,8 @@
 title: Success Building CMS-less Production Sites with Jekyll
 layout: post
 author: alex
-published: false
-featured: false
+published: true
+featured: true
 short: |
   The challenges and solutions of building a CMS-less site that can be managed by the layman.
 tags:
