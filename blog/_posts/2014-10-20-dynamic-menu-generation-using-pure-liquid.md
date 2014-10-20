@@ -52,12 +52,17 @@ Here we make use of the ```page.url``` variable, which refers to the URL of the 
 We could also add a arbitrary frontmatter variables to all pages to achieve a number of different goals. For example if we wanted to order the output of ```site.pages``` in some arbitrary way, we could add a ```weight``` frontmatter variable to each page and sort by said property in our before we start our loop.
 
     {% assign pages = site.pages | sort:"weight"  %}
-    {% for p in pages %}...
+    {% for p in pages %}
+      do something
+    {% endfor %}
 
 We could also group pages we wanted to appear in the same subnav (think back to Feeding Texas' [about](http://www.feedingtexas.org/about/) page linked above).
 
     {% for p in site.pages %}
-	    {% if group == "group1" %}...
+	    {% if group == "group1" %}
+        do something
+      {% endif %}
+    {% endfor %}
 
 While powerful, these solutions require the maintenance of frontmatter variables among all pages on the site – something a content manager would like to avoid.
 
