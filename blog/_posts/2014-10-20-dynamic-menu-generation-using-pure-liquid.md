@@ -13,7 +13,7 @@ tags:
 - dynamic
 - automatic
 - nonprofit
-- nonprofit tech
+- nonprofit-tech
 - Github
 date: 2014-10-14 16:00:00
 ---
