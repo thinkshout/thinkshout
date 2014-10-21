@@ -1,5 +1,5 @@
 ---
-title: Recursive, dynamic menu generation for Jekyll using pure Liquid
+title: Creating dynamic menus in Jekyll
 layout: post
 author: alex
 published: true
@@ -17,11 +17,13 @@ tags:
 - Github
 date: 2014-10-20 16:00:00
 ---
-When thinking about the "pros" of using a CMS, the robust menu system that is provided "out of the box" is usually at the top of the list. So when we decided to use Jekyll to build a production quality site for [Feeding Texas](http://www.feedingtexas.org/) we knew creating a content manager friendly menu system was a must.
+When thinking about the "pros" of using a CMS, the robust menu system that is provided "out of the box" is usually at the top of the list. That said, when we decided to use Jekyll to build a production quality site for [Feeding Texas](http://www.feedingtexas.org/) we knew creating a content manager friendly menu system was a must.
+
+There were many challenges in building a production-ready site in Jekyll, which I cover in my last blog post, [Success Building CMS-less Production Sites with Jekyll](http://thinkshout.com/blog/2014/10/success-building-cmsless-production-sites-with-jekyll), but the generation of a menu system that would make content management simple for end users was surprisingly vexing – mostly because this is taken for granted when using a CMS like Drupal.
 
 As I embarked on this task, my initial Googling surfaced several approaches for generating a structured menu in Jekyll, but none of them satisfied both of the criteria I had defined as necessary to make the menu system ready for a non-technical client to use easily:
 
-* __Recursive__ – I want my primary (header) and secondary (navigation) menu structure and the associated styling (e.g. active page underlined) to hold true regardless of where I am in the menu tree. This is useful when a landing page that is linked from the primary menu has several siblings you'd like to be able to page between via a secondary, navigation menu. See [this page](http://www.feedingtexas.org/about/) from Feeding Texas' site as an example.
+* __Recursive__ – I want my primary (header) and secondary (navigation) menu structure and the associated styling (e.g. active page underlined) to hold true regardless of where I am in the menu tree. This is useful when a landing page that is linked from the primary menu has several siblings you'd like to be able to page between via a secondary navigation menu. To visualize this, check out [the Feeding Texas "About" page](http://www.feedingtexas.org/about/).
 * __Dynamic__ – when I add a page I want the menu to be updated...automatically. This is helpful so all content managers need to do is create a new Markdown file and, voila! – a new menu item. 
 
 ##Popular approaches and why they fall short
@@ -34,6 +36,7 @@ The data-driven approach I found to be popular \[[1][1],[2][2],[3][3]\] falls sh
 Jekyll helpfully stores a ```site.pages``` variable that can be looped over in the following way to generate a list of all pages in the site.
 
 {% raw %}
+```html
     <ul>
       {% for p in site.pages %}
         <li>
@@ -41,6 +44,7 @@ Jekyll helpfully stores a ```site.pages``` variable that can be looped over in t
         </li>
       {% endfor %}
     </ul>
+```    
 {% endraw %}
 
 This technique is powerful, but limited. We certainly don't get all we need without some more Liquid work.
@@ -48,7 +52,9 @@ This technique is powerful, but limited. We certainly don't get all we need with
 For example if we wanted to style the active menu item we could change the line outputting the link from the above snippet to...
 
 {% raw %}
+```html
     <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a>
+```
 {% endraw %}
 
 Here we make use of the ```page.url``` variable, which refers to the URL of the current page, to add special styling to the active menu item.
@@ -56,20 +62,24 @@ Here we make use of the ```page.url``` variable, which refers to the URL of the 
 We could also add a arbitrary frontmatter variables to all pages to achieve a number of different goals. For example if we wanted to order the output of ```site.pages``` in some arbitrary way, we could add a ```weight``` frontmatter variable to each page and sort by said property in our before we start our loop.
 
 {% raw %}
+```html
     {% assign pages = site.pages | sort:"weight"  %}
     {% for p in pages %}
       do something
     {% endfor %}
+```
 {% endraw %}
 
 We could also group pages we wanted to appear in the same subnav (think back to Feeding Texas' [about](http://www.feedingtexas.org/about/) page linked above).
 
 {% raw %}
+```html
     {% for p in site.pages %}
       {% if group == "group1" %}
         do something
       {% endif %}
     {% endfor %}
+```
 {% endraw %}
 
 While powerful, these solutions require the maintenance of frontmatter variables among all pages on the site – something a content manager would like to avoid.
@@ -77,21 +87,48 @@ While powerful, these solutions require the maintenance of frontmatter variables
 ## The solution: use URLs!
 The fact that my initial Googling did not turn up any examples of folks leveraging URLs to generate menus shocked me. URLs are, after all, a machine readable representation of a menu tree!
 
-Using the powerful ```site.pages``` variable and some fancy Liquid, I was able to achieve a [no-maintenance solution for generating multi-level menus](https://github.com/caxy4/misc/blob/master/subnav.html).
+Using the powerful ```site.pages``` variable and some fancy Liquid, I was able to achieve a no-maintenance solution for generating multi-level menus:
 
-The ```subnav.html``` linked above is set up to be used as [an include](http://jekyllrb.com/docs/templates/#includes). Let's walk through the file to get a better sense of what it's doing...
+{% raw %}
+```html
+{% assign url_parts = page.url | split: '/' %}
+{% assign url_parts_size = url_parts | size %}
+{% assign rm = url_parts | last %}
+{% assign base_url = page.url | replace: rm %}
+
+<ul>
+{% for node in site.pages %}
+  {% if node.url contains base_url %}
+    {% assign node_url_parts = node.url | split: '/' %}
+    {% assign node_url_parts_size = node_url_parts | size %}
+    {% assign filename = node_url_parts | last %}
+    {% if url_parts_size == node_url_parts_size and filename != 'index.html' %}
+      <li><a href='{{node.url}}'>{{node.title}}</a></li>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+</ul>
+```
+{% endraw %}
+
+
+The code above is set up to be used as [an include](http://jekyllrb.com/docs/templates/#includes). Let's walk through the file to get a better sense of what it's doing...
 
 First we need to get the URL of the current page so we know where we're currently at in the menu tree.
 
 {% raw %}
+```html
     {% assign url_parts = page.url | split: '/' %}
+```
 {% endraw %}
   
 
 Here we are also splitting the URL into an array so we can ask further questions like, "how many levels deep are we?"
 
 {% raw %}
+```html
     {% assign url_parts_size = url_parts | size %}
+```
 {% endraw %}
   
 Knowing the size of the array gives us our depth in the menu tree, which is helpful to render items at the same level of depth (again Feeding Texas' [about](http://www.feedingtexas.org/about/) page).
@@ -109,8 +146,10 @@ We don't want ```/news/blog/foo/index.html``` although it's at the same menu lev
 To accomplish this, we'll generate a ```base_url``` to give us a relative sense of where we are in the menu tree.
 
 {% raw %}
+```html
     {% assign rm = url_parts | last %}
     {% assign base_url = page.url | replace: rm %}
+```
 {% endraw %}
 
 Note we're removing the implicit ```index.html``` from the URL. This assumes we have not set a [permalink](http://jekyllrb.com/docs/permalinks/) for the relevant pages.
@@ -118,6 +157,7 @@ Note we're removing the implicit ```index.html``` from the URL. This assumes we 
 Now we're ready to start our loop through ```site.pages```:
 
 {% raw %}
+```html
     <ul>
     {% for node in site.pages %}
       {% if node.url contains base_url %}
@@ -130,6 +170,7 @@ Now we're ready to start our loop through ```site.pages```:
       {% endif %}
     {% endfor %}
     </ul>
+```
 {% endraw %}
 
 In this loop we ask 3 things – all of which must be true to add a page to the subnav menu:
@@ -152,7 +193,9 @@ In addition to clean URLs, using the "Named folders" method to create pages allo
 Generating the parent page link is straightforward since you already have the ```base_url``` and know the name of the file will be ```index.html```, so I'll spare you the walkthrough.
 
 ##Roundup
-Although Jekyll is a static site generator, you have all you need when the site is being built to achieve dynamically generated menus without writing a custom plugin. Although it requires some leg-work up front, this solution allows a CMS-like user experience for content managers without the overhead of the CMS. For more on how Feeding Texas is using their Jekyll site in production, check out my last post: [Success Building CMS-less Production Sites with Jekyll](http://thinkshout.com/blog/2014/10/success-building-cmsless-production-sites-with-jekyll).
+Although Jekyll is a static site generator, you have all you need when the site is being built to achieve dynamically generated menus without writing a custom plugin. Although it requires some leg-work up front, this solution allows a CMS-like user experience for content managers without the performace overhead of the CMS.
+
+That said, after building a dynamic menu system for a platform that does not include one, I'll never take the ease and value of Drupal's menu system for granted again.
 
 [1]: http://christianspecht.de/2014/06/18/building-a-pseudo-dynamic-tree-menu-with-jekyll/
 [2]: http://www.tournemille.com/blog/How-to-create-data-driven-navigation-in-Jekyll/
