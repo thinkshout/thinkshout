@@ -13,9 +13,9 @@ tags:
 - dynamic
 - automatic
 - nonprofit
-- nonprofit-tech
+- nonprofit tech
 - Github
-date: 2014-10-14 16:00:00
+date: 2014-10-20 16:00:00
 ---
 When thinking about the "pros" of using a CMS, the robust menu system that is provided "out of the box" is usually at the top of the list. So when we decided to use Jekyll to build a production quality site for [Feeding Texas](http://www.feedingtexas.org/) we knew creating a content manager friendly menu system was a must.
 
@@ -33,6 +33,7 @@ The data-driven approach I found to be popular \[[1][1],[2][2],[3][3]\] falls sh
 ###Frontmatter-driven approach
 Jekyll helpfully stores a ```site.pages``` variable that can be looped over in the following way to generate a list of all pages in the site.
 
+{% raw %}
     <ul>
       {% for p in site.pages %}
         <li>
@@ -40,29 +41,36 @@ Jekyll helpfully stores a ```site.pages``` variable that can be looped over in t
         </li>
       {% endfor %}
     </ul>
+{% endraw %}
 
 This technique is powerful, but limited. We certainly don't get all we need without some more Liquid work.
 
 For example if we wanted to style the active menu item we could change the line outputting the link from the above snippet to...
 
+{% raw %}
     <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a>
+{% endraw %}
 
 Here we make use of the ```page.url``` variable, which refers to the URL of the current page, to add special styling to the active menu item.
 
 We could also add a arbitrary frontmatter variables to all pages to achieve a number of different goals. For example if we wanted to order the output of ```site.pages``` in some arbitrary way, we could add a ```weight``` frontmatter variable to each page and sort by said property in our before we start our loop.
 
+{% raw %}
     {% assign pages = site.pages | sort:"weight"  %}
     {% for p in pages %}
       do something
     {% endfor %}
+{% endraw %}
 
 We could also group pages we wanted to appear in the same subnav (think back to Feeding Texas' [about](http://www.feedingtexas.org/about/) page linked above).
 
+{% raw %}
     {% for p in site.pages %}
-	    {% if group == "group1" %}
+      {% if group == "group1" %}
         do something
       {% endif %}
     {% endfor %}
+{% endraw %}
 
 While powerful, these solutions require the maintenance of frontmatter variables among all pages on the site – something a content manager would like to avoid.
 
@@ -75,12 +83,17 @@ The ```subnav.html``` linked above is set up to be used as [an include](http://j
 
 First we need to get the URL of the current page so we know where we're currently at in the menu tree.
 
-	{% assign url_parts = page.url | split: '/' %}
+{% raw %}
+    {% assign url_parts = page.url | split: '/' %}
+{% endraw %}
+  
 
 Here we are also splitting the URL into an array so we can ask further questions like, "how many levels deep are we?"
 
-	{% assign url_parts_size = url_parts | size %}
-	
+{% raw %}
+    {% assign url_parts_size = url_parts | size %}
+{% endraw %}
+  
 Knowing the size of the array gives us our depth in the menu tree, which is helpful to render items at the same level of depth (again Feeding Texas' [about](http://www.feedingtexas.org/about/) page).
 
 However, knowing our menu depth does not give us all we need to generate an appropriate subnav as we likely do not want _all_ pages the same depth, but rather pages at the same depth that share the same parent menu item.
@@ -95,13 +108,17 @@ We don't want ```/news/blog/foo/index.html``` although it's at the same menu lev
 
 To accomplish this, we'll generate a ```base_url``` to give us a relative sense of where we are in the menu tree.
 
-	{% assign rm = url_parts | last %}
-	{% assign base_url = page.url | replace: rm %}
+{% raw %}
+    {% assign rm = url_parts | last %}
+    {% assign base_url = page.url | replace: rm %}
+{% endraw %}
 
 Note we're removing the implicit ```index.html``` from the URL. This assumes we have not set a [permalink](http://jekyllrb.com/docs/permalinks/) for the relevant pages.
 
 Now we're ready to start our loop through ```site.pages```:
 
+{% raw %}
+    <ul>
     {% for node in site.pages %}
       {% if node.url contains base_url %}
         {% assign node_url_parts = node.url | split: '/' %}
@@ -113,6 +130,7 @@ Now we're ready to start our loop through ```site.pages```:
       {% endif %}
     {% endfor %}
     </ul>
+{% endraw %}
 
 In this loop we ask 3 things – all of which must be true to add a page to the subnav menu:
 
