@@ -22,4 +22,6 @@ So, ok: I made a little instructional video about getting started with RedHen. I
 
 This video covers installing RedHen and configuring a Contact Type, and a few other introductory RedHen tricks. Note that the video gives instructions for creating a RedHen link in the Admin toolbar, but you can also just move the pre-built RedHen menu that lives under Structure into the Toolbar to get the full drop-down fun.
 
-<iframe src="http://player.vimeo.com/video/73735324/" width="700" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/65782778/">Setting up RedHen: Creating your first Contact Type</a> from <a href="http://vimeo.com/user18206923">Gabe Carleton-Barnes</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+<iframe width="700" height="525" src="//www.youtube.com/embed/hivg0CsxG7c" frameborder="0" allowfullscreen></iframe>
+
+Setting up RedHen: Creating your first Contact Type</a> from <a href="http://thinkshout.com/team/gabe/">Gabe Carleton-Barnes</a> on <a href="http://YouTube.com">YouTube</a>.</p>
