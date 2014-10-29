@@ -26,13 +26,13 @@ As I embarked on this task, my initial Googling surfaced several approaches for 
 * __Recursive__ – I want my primary (header) and secondary (navigation) menu structure and the associated styling (e.g. active page underlined) to hold true regardless of where I am in the menu tree. This is useful when a landing page that is linked from the primary menu has several siblings you'd like to be able to page between via a secondary navigation menu. To visualize this, check out [the Feeding Texas "About" page](http://www.feedingtexas.org/about/).
 * __Dynamic__ – when I add a page I want the menu to be updated...automatically. This is helpful so all content managers need to do is create a new Markdown file and, voila! – a new menu item. 
 
-##Popular approaches and why they fall short
+##Popular Approaches and Why They Fall Short
 For both of the above criteria to be true we cannot use either of the most popular Jekyll menu solutions I found on the web.
 
-###Data-driven approach
+###Data-Driven Approach
 The data-driven approach I found to be popular \[[1][1],[2][2],[3][3]\] falls short because using a YML data file (e.g. ```_data/menu.yml```) to scaffold the menu tree is not dynamic. At worst, the data file needs updating each time we add a page \[[2]\] or, at best, when we add a new menu level \[[1][1]].
 
-###Frontmatter-driven approach
+###Frontmatter-Driven Approach
 Jekyll helpfully stores a ```site.pages``` variable that can be looped over in the following way to generate a list of all pages in the site.
 
 {% raw %}
@@ -84,7 +84,7 @@ We could also group pages we wanted to appear in the same subnav (think back to 
 
 While powerful, these solutions require the maintenance of frontmatter variables among all pages on the site – something a content manager would like to avoid.
 
-## The solution: use URLs!
+## The Solution: Sse URLs!
 The fact that my initial Googling did not turn up any examples of folks leveraging URLs to generate menus shocked me. URLs are, after all, a machine readable representation of a menu tree!
 
 Using the powerful ```site.pages``` variable and some fancy Liquid, I was able to achieve a no-maintenance solution for generating multi-level menus:
