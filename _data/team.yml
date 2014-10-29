@@ -294,6 +294,23 @@
   bio: |
     Gabe is highly experienced in building custom Salesforce solutions for constituent management and fundraising. Before joining ThinkShout, Gabe worked in the nonprofit world at Ecotrust, the Wild Salmon Center, and Immigration Equality. He holds a BA in Computer Science and Theatre from Oberlin College. Gabe really does spend his free time playing Magic: The Gathering in a variety of time zones.
 
+  first_name: Joe
+  last_name: Komenda
+  position: Software Engineer
+  leadin: |
+    Some people play Candy Crush when they’re bored. Joe teaches himself how to build websites for every department in his company. Now, he’s making them for a living and loving every minute of it.
+  social:
+    github: https://github.com/komejo
+    twitter: http:s://twitter.com/komejo
+  image:
+    small: team/small/joe.jpg
+    medium: team/medium/joe.jpg
+    large: team/large/joe.jpg
+  published: false
+  name: joe
+  bio: |
+    Joe spent several years wearing a wide variety of hats in the tech industry (and the US Army) before eventually joining our team. He came to us from Raleigh, North Carolina looking for an opportunity to apply his passion for open source and desire to assist nonprofits. He loves the ever-changing world of technology and enjoys projects where he’s challenged to learn something new. Before coming to ThinkShout, Joe spent some time at Ashe Avenue, Merge Records, and Flywheel Design, just to name a recent few. His extensive experience in QA and web development make him a key element in our engineering process. When Joe isn’t engaged in client work, he blows off steam with long-distance running, video games, and cooking. Judging by the awesome cartoons that have started appearing on our white boards, he’s a pretty darn good artist, too.
+
 - first_name: Josh
   last_name: Riggs
   position: Senior User Experience Designer

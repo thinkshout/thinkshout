@@ -1,5 +1,5 @@
 ---
-title: Creating dynamic menus in Jekyll
+title: Creating Dynamic Menus in Jekyll
 layout: post
 author: alex
 published: false
