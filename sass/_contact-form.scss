@@ -8,7 +8,6 @@
   input[type="email"],
   textarea {
     background: white;
-    @include box-shadow(inset 0 1px 2px hsla(0, 0%, 0%, 0.3));
   }
   #first-name {
     margin-right: .5em;
@@ -82,13 +81,12 @@ textarea {
 
 #message {
   font: inherit;
-  height: 4rem;
+  height: 7rem;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-  border: 3px solid #FFF;
   background: transparent;
 }
 
