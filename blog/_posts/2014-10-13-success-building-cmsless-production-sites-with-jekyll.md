@@ -15,7 +15,7 @@ tags:
 - Github
 date: 2014-10-14 16:00:00
 ---
-As an organization that serves nonprofits, ThinkShout is no stranger to the "small organization, big impact" problem. The problem is that small organizations have budgets commensurate with their size and goals, for which the sky is the limit.
+As an organization that works primarily with nonprofits, ThinkShout is no stranger to the "small organization, big impact" problem. The problem is that small organizations have budgets commensurate with their size and goals, for which the sky is the limit.
 
 Resolving this problem requires acute awareness of how to build what is necessary to allow an organization to meet their goals. In other words, "how can we build everything this organization needs and nothing more?"
 
