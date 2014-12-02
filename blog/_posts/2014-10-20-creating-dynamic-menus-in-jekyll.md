@@ -17,17 +17,17 @@ tags:
 - Github
 date: 2014-11-25 16:00:00
 ---
-When thinking about the "pros" of using a CMS, the robust menu system that is provided "out of the box" is usually at the top of the list. That said, when we decided to use Jekyll to build a production quality site for [Feeding Texas](http://www.feedingtexas.org/) we knew creating a content manager friendly menu system was a must.
+When thinking about the "pros" of using a CMS, the robust menu system that is provided "out of the box" is usually at the top of the list. That said, when we decided to use Jekyll to build a production quality site for [Feeding Texas](http://www.feedingtexas.org/) we knew creating a content manager-friendly menu system was a must.
 
-There were many challenges in building a production-ready site in Jekyll, which I cover in my last blog post, [Success Building CMS-less Production Sites with Jekyll](http://thinkshout.com/blog/2014/10/success-building-cmsless-production-sites-with-jekyll), but the generation of a menu system that would make content management simple for end users was surprisingly vexing – mostly because this is taken for granted when using a CMS like Drupal.
+There were many challenges in building a production-ready site in Jekyll, which I covered in my last blog post, [Success Building CMS-less Production Sites with Jekyll](http://thinkshout.com/blog/2014/10/success-building-cmsless-production-sites-with-jekyll), but the generation of a menu system that would make content management simple for end users was surprisingly vexing – mostly because this is taken for granted when using a CMS like Drupal.
 
-As I embarked on this task, my initial Googling surfaced several approaches for generating a structured menu in Jekyll, but none of them satisfied both of the criteria I had defined as necessary to make the menu system ready for a non-technical client to use easily:
+As I embarked upon this task, my initial Googling surfaced several approaches for generating a structured menu in Jekyll, but none of them satisfied both of the criteria I had defined as necessary to make the menu system ready for a non-technical client to use easily:
 
 * __Recursive__ – I want my primary (header) and secondary (navigation) menu structure and the associated styling (e.g. active page underlined) to hold true regardless of where I am in the menu tree. This is useful when a landing page that is linked from the primary menu has several siblings you'd like to be able to page between via a secondary navigation menu. To visualize this, check out [the Feeding Texas "About" page](http://www.feedingtexas.org/about/).
-* __Dynamic__ – when I add a page I want the menu to be updated...automatically. This is helpful so all content managers need to do is create a new Markdown file and, voila! – a new menu item. 
+* __Dynamic__ – when I add a page, I want the menu to be updated... automatically. This is helpful because all content managers need to do is create a new Markdown file and, voila! – a new menu item. 
 
 ##Popular Approaches and Why They Fall Short
-For both of the above criteria to be true we cannot use either of the most popular Jekyll menu solutions I found on the web.
+For both of the above criteria to be true, we cannot use either of the most popular Jekyll menu solutions I found on the web.
 
 ###Data-Driven Approach
 The data-driven approach I found to be popular \[[1][1],[2][2],[3][3]\] falls short because using a YML data file (e.g. ```_data/menu.yml```) to scaffold the menu tree is not dynamic. At worst, the data file needs updating each time we add a page \[[2]\] or, at best, when we add a new menu level \[[1][1]].
@@ -49,7 +49,7 @@ Jekyll helpfully stores a ```site.pages``` variable that can be looped over in t
 
 This technique is powerful, but limited. We certainly don't get all we need without some more Liquid work.
 
-For example if we wanted to style the active menu item we could change the line outputting the link from the above snippet to...
+For example if we wanted to style the active menu item, we could change the line outputting the link from the above snippet to...
 
 {% raw %}
 ```html
@@ -59,7 +59,7 @@ For example if we wanted to style the active menu item we could change the line 
 
 Here we make use of the ```page.url``` variable, which refers to the URL of the current page, to add special styling to the active menu item.
 
-We could also add a arbitrary frontmatter variables to all pages to achieve a number of different goals. For example if we wanted to order the output of ```site.pages``` in some arbitrary way, we could add a ```weight``` frontmatter variable to each page and sort by said property in our before we start our loop.
+We could also add arbitrary frontmatter variables to all pages to achieve a number of different goals. For example, if we wanted to order the output of ```site.pages``` in some arbitrary way, we could add a ```weight``` frontmatter variable to each page and sort by said property before we start our loop.
 
 {% raw %}
 ```html
@@ -123,7 +123,7 @@ First we need to get the URL of the current page so we know where we're currentl
 {% endraw %}
   
 
-Here we are also splitting the URL into an array so we can ask further questions like, "how many levels deep are we?"
+Here we are also splitting the URL into an array so we can ask additional questions like, "how many levels deep are we?"
 
 {% raw %}
 ```html
@@ -133,7 +133,7 @@ Here we are also splitting the URL into an array so we can ask further questions
   
 Knowing the size of the array gives us our depth in the menu tree, which is helpful to render items at the same level of depth (again Feeding Texas' [about](http://www.feedingtexas.org/about/) page).
 
-However, knowing our menu depth does not give us all we need to generate an appropriate subnav as we likely do not want _all_ pages the same depth, but rather pages at the same depth that share the same parent menu item.
+However, knowing our menu depth does not give us all we need to generate an appropriate subnav, as we likely do not want _all_ pages the same depth, but rather pages at the same depth that share the same parent menu item.
 
 For example, if we're on the page generated by ```hunger-atlas.md``` we want our subnav to contain it and its ```snapshot-texas.md``` sibling. 
 
@@ -193,7 +193,7 @@ In addition to clean URLs, using the "Named folders" method to create pages allo
 Generating the parent page link is straightforward since you already have the ```base_url``` and know the name of the file will be ```index.html```, so I'll spare you the walkthrough.
 
 ##Roundup
-Although Jekyll is a static site generator, you have all you need when the site is being built to achieve dynamically generated menus without writing a custom plugin. Although it requires some leg-work up front, this solution allows a CMS-like user experience for content managers without the performace overhead of the CMS.
+Although Jekyll is a static site generator, you have all you need when the site is being built to achieve dynamically generated menus without writing a custom plugin. Although it requires some legwork up front, this solution creates a CMS-like user experience for content managers without the performace overhead of the CMS.
 
 That said, after building a dynamic menu system for a platform that does not include one, I'll never take the ease and value of Drupal's menu system for granted again.
 
