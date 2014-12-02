@@ -2,8 +2,8 @@
 title: Creating Dynamic Menus in Jekyll
 layout: post
 author: alex
-published: false
-featured: false
+published: true
+featured: true
 short: |
   Building a CMS-like menu system without the overhead of the CMS.
 tags:
