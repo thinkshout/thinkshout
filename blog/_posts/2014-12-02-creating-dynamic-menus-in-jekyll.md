@@ -5,7 +5,7 @@ author: alex
 published: true
 featured: true
 short: |
-  Building a CMS-like menu system without the overhead of the CMS.
+  Building a CMS-like menu system without the overhead of the CMS
 tags:
 - Jekyll
 - menu
@@ -15,7 +15,7 @@ tags:
 - nonprofit
 - nonprofit tech
 - Github
-date: 2014-11-25 16:00:00
+date: 2014-12-02 16:00:00
 ---
 When thinking about the "pros" of using a CMS, the robust menu system that is provided "out of the box" is usually at the top of the list. That said, when we decided to use Jekyll to build a production quality site for [Feeding Texas](http://www.feedingtexas.org/) we knew creating a content manager-friendly menu system was a must.
 
