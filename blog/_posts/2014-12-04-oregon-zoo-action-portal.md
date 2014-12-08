@@ -11,14 +11,18 @@ tags:
 - sharing
 - facebook
 - views
+- wildlife
+- conservation
+- sustainability
+- zoo
 date: 2014-12-04 16:00:00
 ---
 
 # Oregon Metro Zoo Action Portal
 
-The main goal of the action portal is to suggest real-world actions anyone can take to help wildlife survive and flourish. A social sharing component is important to spread these tips organically. Pun intended. Like wildflowers.
+The Oregon zoo in Portland, approached us develop an action portal component for their Drupal web site. The action portal suggests real-world actions anyone can take to help wildlife survive and flourish. A social sharing component is important to spread these tips organically. Pun intended. Like wildflowers.
 
-[Any given action can support a number of species, and several actions can support a given species.]
+Many sites integrate social sharing. There are a couple of things that make the zoo's action portal different. The main thing is that by sharing an action, you are saying that you've actually done that action in the real world, and you are encouraging your friends and followers to take the same action. The aim is not just generating traffic to the site, but to encourage people to make real change that has a real impact on wildlife. Also, the shared content is more personalized, being a combination of a single species and the action that you've taken, plus any additional message the visitor would like to add.
 
 The original desire was to provide the ability to share an action on several social channels: Facebook, Twitter, etc. During technical planning, it was decided that starting with facebook alone would be the best place to start. We would integrate directly with facebook, and track the shares internally with a custom integration code interacting with Facebook's API.
 
@@ -40,7 +44,7 @@ Something that's easy to miss when initially planning lists of things is how the
 
 An essential goal of this is sharing an action. The requirement was to have the sharing widget appear on individual actions, only when listed on an animal detail page. The message to be shared is a combination of elements from both content types. The image and name of the animal, plus the contents of a Sharing Message text field from the action. The the URL shared is that of the action.
 
-Here's how we put that together. We start by including the global stuff for the ShareThis widget. An implementation of `hook_views_pre_render()` adds some javascript settings and includes the ShareThis javascript library. To add the unique things to each action, we add a new variable "sharethis_attributes" in `hook_preprocess_views_view_field()`. This variable contains a string of pseudo attributes: `st_url="http://example.com/the-page" st_title="Example Page Title" st_image="http://example.com/image.jpg" st_summary="This is the text that will be shared." st_via="OregonZoo"`. We use that variable in a very specifically named template file that takes effect for only this field in this view. The rest of the markup and classes came from ShareThis.
+Here's how we put that together. We start by including the global stuff for the ShareThis widget. An implementation of `hook_views_pre_render()` adds some javascript settings and includes the ShareThis javascript library. To add the unique things to each action, we add a new variable "sharethis_attributes" in `hook_preprocess_views_view_field()`. This variable contains a string of pseudo attributes: `st_url="http://example.com/the-page" st_title="Example Page Title" st_image="http://example.com/image.jpg" st_summary="This is the text that will be shared." st_via="OregonZoo"`. We use that variable in a very specifically named template file that takes effect for only this field in this view. The rest of the markup and classes placed in that field template came from ShareThis.
 
 ```php
 <?php print $output; ?>
@@ -50,3 +54,5 @@ Here's how we put that together. We start by including the global stuff for the 
 ```
 
 All of this work: content types, fields, image styles for the image fields, views, and the handful of custom hook implementations are bundled together in a new custom feature.
+
+Check it out at http://www.oregonzoo.org/conserve/small-actions and see if there is a small action you can take that will have an impact on a wild animal you care about. There are some great tips that will help you live cleaner and sustain our irreplaceable wildlife.
