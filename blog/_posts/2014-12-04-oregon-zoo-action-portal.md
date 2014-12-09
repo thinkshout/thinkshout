@@ -28,10 +28,6 @@ Many sites integrate social sharing, but there are a couple of things that make 
 
 ![landing page](/assets/images/blog/zoo-action-portal-landing-page-species.png)
 
-The FSC action page:
-
-![landing page](/assets/images/blog/zoo-action-portal-action-page-fsc.png)
-
 The original intent was to enable visitors to share an action on several social channels: Facebook, Twitter, etc. During technical planning, it was decided that starting with Facebook alone would be the best place to start. We would integrate directly with Facebook and track the shares internally with a custom integration code interacting with Facebook's API.
 
 When we began implementation, we spent a little more time exploring options for sharing on multiple channels, compared to Facebook only. There would be a couple of benefits of sharing directly on Facebook. Using their API would pave the way for deeper integration in the future, taking advantage of Open Graph properties as a starting point. We would have better control over messaging, and we would have complete control over how logging happens in Drupal. And I must say, the Facebook developer documentation is top notch.
@@ -47,6 +43,8 @@ Structurally, we started with two content types: Action (for the action we want 
 ![landing page](/assets/images/blog/zoo-action-portal-species-page-chimp.png)
 
 On the Action content type, we added an Animals entityreference field in order to make the connection between the two content types.
+
+![landing page](/assets/images/blog/zoo-action-portal-action-page-fsc.png)
 
 There are three new pages for this feature: the main landing page, the animal detail page, and the action detail page. We created an Animals view for the landing page and action detail page, and we created an Actions view also for the Explore by Action tab of the landing page and for the animal detail page. For the tabs on the landing page, we created a simple block using `hook_block_info()` and `hook_block_view()`.
 
