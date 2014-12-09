@@ -28,15 +28,15 @@ Many sites integrate social sharing, but there are a couple of things that make 
 
 ![action page](http://thinkshout.com/assets/images/blog/zoo-action-portal-action-page-fsc.png)
 
-The original intent was to enable visitors to share an action on several social channels: Facebook, Twitter, etc. During technical planning, it was decided that starting with Facebook alone would be the best place to start. We would integrate directly with Facebook and track the shares internally with a custom integration code interacting with Facebook's API.
+The original intent was to enable visitors to share an action on several social channels: Facebook, Twitter, etc. During technical planning, it was decided that Facebook alone would be the best place to start. We would integrate directly with Facebook and track the shares internally with a custom integration code interacting with Facebook's API.
 
 When we began implementation, we spent a little more time exploring options for sharing on multiple channels, compared to Facebook only. There would be a couple of benefits of sharing directly on Facebook. Using their API would pave the way for deeper integration in the future, taking advantage of Open Graph properties as a starting point. We would have better control over messaging, and we would have complete control over how logging happens in Drupal. And I must say, the Facebook developer documentation is top notch.
 
-But adding the ability later to share on other social networks would require additional API integration for each site. We wanted to consider paving a clearer path forward, so we looked into existing services for sharing on mulitple sites. There are many: Gigya, AddThis, ShareThis, and more. For something to work for us, it would need to be free or very inexpensive, allow us to customize the shared message, and provide some statistics, mainly for a share count to display on the site. The ShareThis service ended up working best for us. When using any of these services, there is less control over how shares are logged.
+But adding the ability later to share on other social networks would require additional API integration for each site. We wanted to consider paving a clearer path forward, so we looked into existing services for sharing on multiple sites. There are many: Gigya, AddThis, ShareThis, and more. For something to work for us, it would need to be free or very inexpensive, allow us to customize the shared message, and provide some statistics, mainly for a share count to display on the site. The ShareThis service ended up working best for us. When using any of these services, there is less control over how shares are logged.
 
 ![chimpanzee page](http://thinkshout.com/assets/images/blog/zoo-action-portal-species-page-chimp.png)
 
-We presented the client with these options and their main pros & cons and, ultimately, it was decided that we'd use [ShareThis](http://www.sharethis.com/). Having approximte share counts was an acceptable tradeoff in exchange for the benefit of being able to share to multiple social networks.
+We presented the client with these options and their main pros & cons and, ultimately, it was decided that we'd use [ShareThis](http://www.sharethis.com/). Having approximate share counts was an acceptable tradeoff in exchange for the benefit of being able to share to multiple social networks.
 
 So, back to how we actually did this...
 
