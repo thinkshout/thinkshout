@@ -28,15 +28,15 @@ Many sites integrate social sharing, but there are a couple of things that make 
 
 The landing page:
 
-![landing page](http://www.thinkshout.com/assets/images/blog/zoo-action-portal-landing-page-species.png)
+![landing page](http://thinkshout.com/assets/images/blog/zoo-action-portal-landing-page-species.png)
 
 The Chimpanzee species page:
 
-![landing page](http://www.thinkshout.com/assets/images/blog/zoo-action-portal-species-page-chimp.png)
+![landing page](http://thinkshout.com/assets/images/blog/zoo-action-portal-species-page-chimp.png)
 
 The FSC action page:
 
-![landing page](http://www.thinkshout.com/assets/images/blog/zoo-action-portal-action-page-fsc.png)
+![landing page](http://thinkshout.com/assets/images/blog/zoo-action-portal-action-page-fsc.png)
 
 The original intent was to enable visitors to share an action on several social channels: Facebook, Twitter, etc. During technical planning, it was decided that starting with Facebook alone would be the best place to start. We would integrate directly with Facebook and track the shares internally with a custom integration code interacting with Facebook's API.
 
