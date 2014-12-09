@@ -28,15 +28,15 @@ Many sites integrate social sharing, but there are a couple of things that make 
 
 The landing page:
 
-![landing page](http://thinkshout.com/assets/images/blog/zoo-action-portal-landing-page-species.png)
+![landing page](/assets/images/blog/zoo-action-portal-landing-page-species.png)
 
 The Chimpanzee species page:
 
-![landing page](http://thinkshout.com/assets/images/blog/zoo-action-portal-species-page-chimp.png)
+![landing page](/assets/images/blog/zoo-action-portal-species-page-chimp.png)
 
 The FSC action page:
 
-![landing page](http://thinkshout.com/assets/images/blog/zoo-action-portal-action-page-fsc.png)
+![landing page](/assets/images/blog/zoo-action-portal-action-page-fsc.png)
 
 The original intent was to enable visitors to share an action on several social channels: Facebook, Twitter, etc. During technical planning, it was decided that starting with Facebook alone would be the best place to start. We would integrate directly with Facebook and track the shares internally with a custom integration code interacting with Facebook's API.
 
@@ -60,7 +60,7 @@ An essential goal of this feature is sharing an action. The requirement was to h
 
 Message when sharing the FSC action from the Chimpanzee page:
 
-![landing page](http://thinkshout.com/assets/images/blog/zoo-action-portal-share-chimp-fsc.png)
+![landing page](/assets/images/blog/zoo-action-portal-share-chimp-fsc.png)
 
 Here's how we put that together. We start by including the global stuff for the ShareThis widget. An implementation of `hook_views_pre_render()` adds some javascript settings and includes the ShareThis javascript library. To add the unique things to each action, we add a new variable "sharethis_attributes" in `hook_preprocess_views_view_field()`. This variable contains a string of pseudo attributes: `st_url="http://example.com/the-page" st_title="Example Page Title" st_image="http://example.com/image.jpg" st_summary="This is the text that will be shared." st_via="OregonZoo"`. We use that variable in a very specifically-named template file that takes effect for only this field in this view. The rest of the markup and classes placed in that field template came from ShareThis.
 
