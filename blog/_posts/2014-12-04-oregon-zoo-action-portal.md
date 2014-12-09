@@ -36,7 +36,7 @@ But adding the ability later to share on other social networks would require add
 
 ![chimpanzee page](http://thinkshout.com/assets/images/blog/zoo-action-portal-species-page-chimp.png)
 
-We presented the client with these options and their main pros & cons and, ultimately, it was decided that we'd use [ShareThis](http://www.sharethis.com/). Having approximate share counts was an acceptable tradeoff in exchange for the benefit of being able to share to multiple social networks.
+We presented the client with these options along with the pros & cons of each and, ultimately, it was decided that we'd use [ShareThis](http://www.sharethis.com/). Having approximate share counts was an acceptable tradeoff in exchange for the benefit of being able to share to multiple social networks.
 
 So, back to how we actually did this...
 
