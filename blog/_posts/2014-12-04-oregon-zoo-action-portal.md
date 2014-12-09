@@ -26,13 +26,7 @@ The Oregon Zoo in Portland approached us to develop an action portal component f
 
 Many sites integrate social sharing, but there are a couple of things that make the Zoo's action portal different. The main difference is that by sharing an action, you are saying that you've actually done that action in the real world, and you are encouraging your friends and followers to take the same action. The aim is not just to generate site traffic, but rather to encourage people to make real change that has a tangible impact on wildlife. Also, the shared content is more personalized, since it's a combination of a single species and the action that you've taken, plus custom messaging the visitor would like to add.
 
-The landing page:
-
 ![landing page](/assets/images/blog/zoo-action-portal-landing-page-species.png)
-
-The Chimpanzee species page:
-
-![landing page](/assets/images/blog/zoo-action-portal-species-page-chimp.png)
 
 The FSC action page:
 
@@ -49,6 +43,8 @@ We presented the client with these options and their main pros & cons and, ultim
 So, back to how we actually did this...
 
 Structurally, we started with two content types: Action (for the action we want people to take) and Animal (Species that relate to the actions). These each have mostly common field types, such as image and body text.
+
+![landing page](/assets/images/blog/zoo-action-portal-species-page-chimp.png)
 
 On the Action content type, we added an Animals entityreference field in order to make the connection between the two content types.
 
