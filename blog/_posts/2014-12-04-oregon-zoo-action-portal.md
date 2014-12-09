@@ -26,7 +26,7 @@ The Oregon Zoo in Portland approached us to develop an action portal component f
 
 Many sites integrate social sharing, but there are a couple of things that make the Zoo's action portal different. The main difference is that by sharing an action, you are saying that you've actually done that action in the real world, and you are encouraging your friends and followers to take the same action. The aim is not just to generate site traffic, but rather to encourage people to make real change that has a tangible impact on wildlife. Also, the shared content is more personalized, since it's a combination of a single species and the action that you've taken, plus custom messaging the visitor would like to add.
 
-![landing page](/assets/images/blog/zoo-action-portal-landing-page-species.png)
+![action page](/assets/images/blog/zoo-action-portal-action-page-fsc.png)
 
 The original intent was to enable visitors to share an action on several social channels: Facebook, Twitter, etc. During technical planning, it was decided that starting with Facebook alone would be the best place to start. We would integrate directly with Facebook and track the shares internally with a custom integration code interacting with Facebook's API.
 
@@ -34,17 +34,17 @@ When we began implementation, we spent a little more time exploring options for 
 
 But adding the ability later to share on other social networks would require additional API integration for each site. We wanted to consider paving a clearer path forward, so we looked into existing services for sharing on mulitple sites. There are many: Gigya, AddThis, ShareThis, and more. For something to work for us, it would need to be free or very inexpensive, allow us to customize the shared message, and provide some statistics, mainly for a share count to display on the site. The ShareThis service ended up working best for us. When using any of these services, there is less control over how shares are logged.
 
+![chimpanzee page](/assets/images/blog/zoo-action-portal-species-page-chimp.png)
+
 We presented the client with these options and their main pros & cons and, ultimately, it was decided that we'd use [ShareThis](http://www.sharethis.com/). Having approximte share counts was an acceptable tradeoff in exchange for the benefit of being able to share to multiple social networks.
 
 So, back to how we actually did this...
 
 Structurally, we started with two content types: Action (for the action we want people to take) and Animal (Species that relate to the actions). These each have mostly common field types, such as image and body text.
 
-![landing page](/assets/images/blog/zoo-action-portal-species-page-chimp.png)
-
 On the Action content type, we added an Animals entityreference field in order to make the connection between the two content types.
 
-![landing page](/assets/images/blog/zoo-action-portal-action-page-fsc.png)
+![landing page](/assets/images/blog/zoo-action-portal-landing-page-species.png)
 
 There are three new pages for this feature: the main landing page, the animal detail page, and the action detail page. We created an Animals view for the landing page and action detail page, and we created an Actions view also for the Explore by Action tab of the landing page and for the animal detail page. For the tabs on the landing page, we created a simple block using `hook_block_info()` and `hook_block_view()`.
 
