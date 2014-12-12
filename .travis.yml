@@ -4,11 +4,11 @@ rvm:
 before_script:
 - bundle exec compass compile
 - bundle exec jekyll build
-# - npm install -g casperjs
-# - phantomjs --version
-# - casperjs --version
-# script:
-# - casperjs test ./_scripts/phantom_testrunner.js
+- npm install -g casperjs
+- phantomjs --version
+- casperjs --version
+script:
+- casperjs test ./_scripts/phantom_testrunner.js
 after_success:
 - "./_scripts/travis_deploy.sh"
 branches:
