@@ -3,7 +3,7 @@ layout: job
 title: User Experience Specialist
 permalink: careers/ux-specialist/
 mailto: thinkshout-job4@mytribehr.com
-active: false
+active: true
 ---
 ThinkShout seeks to hire a user experience specialist. Our UX specialist will work closely with ThinkShout’s User Experience Lead to produce user experience documentation, wireframes, and graphic design. The UX Specialist will work closely with our discovery team in the initial stages of each project, performing various UX tasks, such as facilitating user testing. During project implementation, the UX Specialist will assist the development team in quality assurance testing. 
 
