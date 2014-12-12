@@ -1,5 +1,5 @@
 ---
-title: Oregon Zoo: Small Actions
+title: Oregon Zoo Small Actions
 layout: post
 author: david
 published: false
