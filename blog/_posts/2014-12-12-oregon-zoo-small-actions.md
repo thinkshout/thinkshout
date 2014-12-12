@@ -2,8 +2,8 @@
 title: Oregon Zoo Small Actions
 layout: post
 author: david
-published: false
-featured: false
+published: true
+featured: true
 short: |
   We created an "action portal" for the Oregon Metro Zoo in Portland. Here's how.
 tags:
