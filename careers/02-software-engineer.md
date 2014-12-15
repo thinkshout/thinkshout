@@ -22,10 +22,10 @@ Software engineers at ThinkShout are responsible for the delivery of world-class
 
 ### Compensation Package
 
-* A competitive salary
+* A competitive salary.
 * Comprehensive benefits package including health insurance with dental, vision, and alternative care, a matching 401k, and a very generous 30 days of PTO, including holidays.
-* Get paid to learn and go to conferences, such as DrupalCon, OSCON, and the Nonprofit Technology Conference
-* A focus on work/life balance, including a flexible office hours policy
+* Get paid to learn and go to conferences, such as DrupalCon, OSCON, and the Nonprofit Technology Conference.
+* A focus on work/life balance, including a flexible office hours policy.
 
 ### Next Steps
 
