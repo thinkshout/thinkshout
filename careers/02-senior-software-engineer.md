@@ -1,19 +1,19 @@
 ---
 layout: job
-title: Software Engineer
-permalink: careers/softwar-engineer/
+title: Senior Software Engineer
+permalink: careers/senior-softwar-engineer/
 mailto: thinkshout-job2@mytribehr.com
 active: true
 ---
-Software engineers at ThinkShout are responsible for the delivery of world-class open source solutions built with Drupal, PHP, Symfony, Angular, Ember, Ruby, Jekyll, Node.js and anything else that serves our clients, the nonprofit tech community, and is a blast to play (and work) with.
+Senior Software engineers at ThinkShout are responsible for the technical architecture and delivery of world-class open source solutions built with Drupal, PHP, Symfony, Angular, Ember, Ruby, Jekyll, Node.js and anything else that serves our clients, the nonprofit tech community, and is a blast to play (and work) with.
 
 ### Qualifications
 
 * TDD, PHP, SQL, JS, SCM, AJAX/AHAH, HTML5, SASS, and CSS (to name a few) are much more than just acronyms to you.
-* One year of experience developing with Drupal.
-* Two years of experience working with other open source frameworks.
-* You get Git.
-* Following coding standards and other programming best practices is, well, fun!
+* Two years of experience developing with Drupal.
+* Three years of experience working with other open source frameworks.
+* You can leverage dev ops, continuous integration, and services such as TraviS CI to craft development and deployment workflows.
+* You understand that technical architecture involves bridging the gap between real world problems the technology that solves them.
 * You have an interest in working with new, emergent web technologies and concepts, such as decoupled apps.
 * You're a self-starter; you care about your development tools; you stay on top of new technologies and development best practices.
 * You don't mind spending time in the programming trenches.
