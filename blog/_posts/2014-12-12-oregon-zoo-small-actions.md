@@ -9,14 +9,14 @@ short: |
 tags:
 - social
 - sharing
-- facebook
+- Facebook
 - views
 - wildlife
 - conservation
 - sustainability
 - zoo
-- oregon zoo
-- drupal planet
+- Oregon Zoo
+- Drupal Planet
 date: 2014-12-12 16:00:00
 ---
 
