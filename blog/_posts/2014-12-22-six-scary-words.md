@@ -2,8 +2,8 @@
 title: Six Scary Words and Un-hacking Drupal
 layout: post
 author: joe
-published: false
-featured: false
+published: true
+featured: true
 short: |
   Getting hacked is terrifying, but it doesn't have to be.
 tags:
