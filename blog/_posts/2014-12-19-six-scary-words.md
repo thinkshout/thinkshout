@@ -19,7 +19,7 @@ date: 2014-12-22 16:00:00
 
 "I think our site’s been hacked."
 
-These six scary words strike fear in the hearts of most developers. Even Drupal devs hear it now and then, though the security measures built into the codebase make it extremely robust. For attacks that target Drupal, exploiting known security holes are the easiest to implement on a large scale. This is why it’s important to keep your code up-to-date, and to host your Drupal sites with a company that specializes in Drupal, as well as having a process in place so you can quickly update your sites should an exploit be discovered.
+These six scary words strike fear in the hearts of most developers. Even Drupal devs hear it now and then, though the security measures built into the codebase make it extremely robust. For attacks that target Drupal, exploiting known security holes are the easiest to implement on a large scale. This is why it’s important to keep your code up-to-date, and to host your Drupal sites with a company that specializes in Drupal, as well as to have a process in place so you can quickly update your sites should an exploit be discovered.
 
 However, even the most diligent Drupal developers could be forgiven for allowing their site to fall prey to the recent (mid-October 2014) database exploit ‘[SA-CORE-2014-005 - Drupal core - SQL injection](https://www.drupal.org/SA-CORE-2014-005)’, better known as **_Drupageddon_**. Automated scripts were widely hacking sites a mere *seven hours* after the exploit was announced. There were also disturbing details after the announcement - some people were logging into their sites to find them already upgraded. It turns out that some of the hackers were upgrading the sites to keep additional hackers out! 
 
