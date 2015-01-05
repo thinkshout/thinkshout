@@ -2,8 +2,8 @@
 title: The Power of a Collaborative Community 
 layout: post
 author: stephanie
-published: false
-featured: false
+published: true
+featured: true
 short: |
   Looking at the past year and the year ahead for the Drupal Community.
 tags:
