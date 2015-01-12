@@ -34,9 +34,9 @@ components:
     column2: work/feedingtexas/feedingtexas-desktop.jpg
 results:
   stats:
-    - number: 1.50
+    - number: 2
       description: Dollars spent per month on hosting.
-      type:
+      type: dollars
     - number: 30
       description: Savings over building the site in Drupal.
       type: percent

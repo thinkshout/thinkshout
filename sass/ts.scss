@@ -784,6 +784,12 @@ section.results {
       .figure.millions:after {
         content: "M";
       }
+      .figure.dollars:before {
+        content: "$";
+      }
+      .figure.dollars:after {
+        content: ".00";
+      }
     }
     .stat.percent .figure:after  {
     	content: "%";
