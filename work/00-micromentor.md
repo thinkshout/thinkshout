@@ -40,7 +40,7 @@ results:
       description: Rise in registrations after relaunch
       type: percent
     - number: 75
-      description: Percent of entrepreneurs received mentoring
+      description: Percentage of entrepreneurs received mentoring
       type: percent
 featured: true
 published: true
