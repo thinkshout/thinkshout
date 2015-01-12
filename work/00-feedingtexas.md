@@ -41,8 +41,8 @@ results:
       description: Savings over building the site in Drupal.
       type: percent
     - number: 300
-      description: Million pounds of food donated each year in Texas.
-      type:
+      description: Pounds of food donated each year in Texas.
+      type: millions
 featured: true
 published: true
 ---

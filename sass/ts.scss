@@ -781,6 +781,9 @@ section.results {
       .figure.thousands:after {
       	content: "k";
       }
+      .figure.millions:after {
+        content: "M";
+      }
     }
     .stat.percent .figure:after  {
     	content: "%";
