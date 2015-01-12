@@ -37,11 +37,11 @@ results:
       description: Mentoring matches made to date
       type:
     - number: 200
-      description: Percent rise in registration after relaunch
-      type:
+      description: Rise in registrations after relaunch
+      type: percent
     - number: 75
       description: Percent of entrepreneurs received mentoring
-      type:
+      type: percent
 featured: true
 published: true
 ---

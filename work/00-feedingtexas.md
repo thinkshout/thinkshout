@@ -38,11 +38,11 @@ results:
       description: Dollars spent per month on hosting.
       type:
     - number: 30
-      description: Percent savings over building the site in Drupal.
-      type:
+      description: Savings over building the site in Drupal.
+      type: percent
     - number: 300
       description: Million pounds of food donated each year in Texas.
       type:
-featured: false
-published: false
+featured: true
+published: true
 ---
