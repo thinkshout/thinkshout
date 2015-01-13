@@ -84,7 +84,7 @@ We could also group pages we wanted to appear in the same subnav (think back to 
 
 While powerful, these solutions require the maintenance of frontmatter variables among all pages on the site – something a content manager would like to avoid.
 
-## The Solution: SSE URLs!
+## The Solution: USE URLs!
 The fact that my initial Googling did not turn up any examples of folks leveraging URLs to generate menus shocked me. URLs are, after all, a machine readable representation of a menu tree!
 
 Using the powerful ```site.pages``` variable and some fancy Liquid, I was able to achieve a no-maintenance solution for generating multi-level menus:
