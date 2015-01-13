@@ -6,7 +6,7 @@ title: |
 permalink: work/feedingtexas/
 images:
   card: work/feedingtexas/feedingtexas-card.jpg
-  hero: work/feedingtexas/FeedingTexas-hero.jpg
+  hero: work/feedingtexas/feedingtexas-hero.jpg
 breakpoints:
   desktop: work/feedingtexas/feedingtexas-chrome.jpg
   tablet: work/feedingtexas/feedingtexas-ipad.jpg
