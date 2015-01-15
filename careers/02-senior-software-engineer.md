@@ -2,7 +2,7 @@
 layout: job
 title: Senior Software Engineer
 permalink: careers/senior-softwar-engineer/
-mailto: thinkshout-job2@mytribehr.com
+mailto: jobs@thinkshout.com
 active: true
 ---
 Senior Software engineers at ThinkShout are responsible for the technical architecture and delivery of world-class open source solutions built with Drupal, PHP, Symfony, Angular, Ember, Ruby, Jekyll, Node.js and anything else that serves our clients, the nonprofit tech community, and is a blast to play (and work) with.
