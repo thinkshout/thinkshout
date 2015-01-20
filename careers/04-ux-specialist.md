@@ -25,6 +25,6 @@ The ThinkShout team takes great pride in their craft and their tools and we expe
 
 ## Compensation Package
 - A competitive salary.
-- Comprehensive benefits package including health insurance with dental, vision, and alternative care, a matching 401k, and a very generous 30 day PTO policy.
+- Comprehensive benefits package including health insurance with dental, vision, and alternative care, a matching 401k, life insurance, and a very generous 30 day PTO policy.
 - Get paid to learn and go to conferences, such as DrupalCon, Dreamforce and the Nonprofit Technology Conference.
 - A focus on work/life balance, including a flexible office hours policy.
