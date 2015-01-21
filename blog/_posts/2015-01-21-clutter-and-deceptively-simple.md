@@ -77,7 +77,7 @@ However, the advent of the wearable Internet presents many opportunities to the 
 
 ![clutter-simple7.jpg](http://thinkshout.com/assets/images/blog/clutter-simple7.jpg)
 
-*(Fast Company envisions [how the NY Times might cover election result's](http://www.fastcodesign.com/3040936/how-your-favorite-apps-will-look-on-the-apple-watch#7) on the Apple Watch.)*
+*(Fast Company envisions [how the NY Times might cover election results](http://www.fastcodesign.com/3040936/how-your-favorite-apps-will-look-on-the-apple-watch#7) on the Apple Watch.)*
 
 ### Privacy and Security
 
