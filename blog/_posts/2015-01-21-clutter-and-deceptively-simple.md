@@ -2,8 +2,8 @@
 title: The Clutter and the Deceptively Simple
 layout: post
 author: sean
-published: false
-featured: false
+published: true
+featured: true
 short: |
   Trends in Nonprofit Tech to Watch in 2015
 tags:
@@ -14,7 +14,7 @@ tags:
 - Wearable Tech
 - Salesforce
 - Drupal Day
-date: 2015-01-21 16:00:00
+date: 2015-01-21
 ---
 
 2015 is poised to be a great year for nonprofit technology and the adoption of digital tools to advance the causes we love. While I can’t say that I see too many groundbreaking innovations on the immediate horizon, I do believe that this will be a *year of implementation and refinement*. Building upon trends that we saw arise last year in the consumer industry and private sector, 2015 will be the year that many nonprofits leap into digital engagement strategies and begin to leverage new tools that will create fundamental change in the way that they interact with their constituencies.
@@ -90,7 +90,7 @@ While not exactly a trend in nonprofit technology, I will be interested to see h
 
 We are seeing more and more startups providing direct-to-consumer privacy and security offerings. This last year, Apple release [Apple Pay](https://www.apple.com/apple-pay/) which adds security, as well as convenience, to both online and in-person credit card purchases. And [Silent Circle](https://silentcircle.com) just released [Blackphone](https://blackphone.ch/) - an encrypted cell phone with a sophisticated and secure operating system built on top of the Android platform.
 
-![clutter-simple9.jpg](/assets/images/blog/clutter-simple9.jpg)
+![clutter-simple9.png](/assets/images/blog/clutter-simple9.png)
 
 How might this focus on privacy and security affect the nonprofit sector? It’s hard to say for sure, but nonprofits should anticipate the need to pay for more routine security audits and best practices regarding maintenance of their web properties, especially as these tools begin to collect and leverage more constituent data. They should also consider how their online fundraising tools will begin to support new online payment formats, such as Apple Pay, as well as virtual currencies like [BitCoin](https://bitcoin.org/en/).
 
