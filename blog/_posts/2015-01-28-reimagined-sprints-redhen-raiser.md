@@ -77,7 +77,7 @@ It’s worth noting that the quality assurance team and the community engagement
 
 ![raiser_3.jpg](http://thinkshout.com/assets/images/blog/raiser_3.jpg)
 
-As ThinkShout has grown, the need for sprint planning has grown with it. Back when we first started these sprints, we could fit our entire team around a single table (covered in pizza boxes and beer) and call out with development tickets we each needed help with. 
+As ThinkShout has grown, the need for sprint planning has grown with it. Back when we first started these sprints, we could fit our entire team around a single table (covered in pizza boxes and beer) and call out development tickets we each needed help with. 
 
 Now, with a team of 18 working together from 11am to 5pm, these sprints take a bit more planning - to say nothing of balancing the opportunity cost of investing a collective 108 hours of non-client work into a single week. To keep things running smoothly, we’ve taken a more project-planning-esque approach to our sprint days:
 
