@@ -2,8 +2,8 @@
 title: Reimagined Sprints and Introducing RedHen Raiser
 layout: post
 author: jaden
-published: false
-featured: false
+published: true
+featured: true
 short: |
   Great team sprints lead to great team accomplishments.
 tags:
