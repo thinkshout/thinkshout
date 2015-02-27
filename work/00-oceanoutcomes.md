@@ -14,33 +14,34 @@ breakpoints:
 client: |
   Ocean Outcomes is dedicated to the growth of locally-led, independently-supported conservation projects that improve ocean fisheries. The organization grew out of the work of the [Wild Salmon Center's State of the Salmon program](http://thinkshout.com/work/fip-tracker/).
 
-  In announcing the creation of their organization, Ocean Outcomes sought to invest as much of its development budget as possible into design and user experience. They were hesitant to invest in a _heavy_ CMS. However, they did have a need for multilingual content management.
+  In announcing their founding, Ocean Outcomes sought to invest as much of its digital communications budget as possible into design, user experience, and content strategy. They were hesitant to invest in a _heavy_ CMS. However, they did have a need for a multilingual content management solution.
 
 projecturl: http://www.oceanoutcomes.org
 expertise: |
   - User experience
-  - Data Visualization
-  - Jekyll & Foundation
+  - Translation management
+  - Jekyll
 components:
-  - title: User Experience
+  - title: Long-form storytelling
     column1: |
-      ToDo
-    column2: work/oceanoutcomes/oceanoutcomes-discovery.jpg
-  - title: Engineering
+      Our user exerperience and graphic design choices were guided by a strong interest in telling the compelling and highly-visual stories of fisheries conservation around the globe. Consequently, we chose to implement a ["flat design"](http://en.wikipedia.org/wiki/Flat_design) that allows imagery and content to stand for itself in a most digestible manner.
+    column2: work/oceanoutcomes/oceanoutcomes-storytelling.jpg
+  - title: Innovating with Jekyll
     column1: |
-      ToDo
-    column2: work/oceanoutcomes/oceanoutcomes-desktop.jpg
+      We've been building client websites in [Jekyll](/blog/category/jekyll/) for quite a while now with great results. For this project, we introduced new deployment workflows built on top of [Travis CI](https://travis-ci.com/). We also successfully implemented translation management with Jekyll for the first time.
+    column2: work/oceanoutcomes/oceanoutcomes-jekyll.jpg
 results:
   stats:
-    - number: 0
-      description: ToDo
-      type: dollars
-    - number: 0
-      description: ToDo
+  stats:
+    - number: 200
+      description: How much faster the site was implemented because of Jekyll.
       type: percent
-    - number: 0
-      description: ToDo
-      type: millions
+    - number: 30
+      description: Financial savings over building the site in Drupal.
+      type: percent
+    - number: 2
+      description: Dollars spent per month on website hosting.
+      type: dollars
 featured: false
 published: false
 ---
