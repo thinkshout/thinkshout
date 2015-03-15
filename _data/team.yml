@@ -140,7 +140,7 @@
   published: true
   name: amy
   bio: |
-    A professional-musician-turned-developer, Amy came to ThinkShout in search of an opportunity to apply her coding skills to organizations working for positive change in the world, and she feels right at home here. Before joining our team, Amy worked as an IT support rep for several different online music tech companies. She also dabbles as a light and sound engineer and has worked on shows for artists like Björk and Paul Simon. She’s still a devoted French horn player and admits to being an old school Whovian. Amy also happens to be the only trapeze artist in the office.  
+    A professional-musician-turned-developer, Amy came to ThinkShout in search of an opportunity to apply her coding skills to organizations working for positive change in the world, and she feels right at home here. Before joining our team, Amy worked as an IT support rep for several different online music tech companies. She also dabbles as a light and sound engineer and has worked on shows for artists like Björk and Paul Simon. She’s still a devoted French horn player and admits to being an old school Whovian. Amy also happens to be the only trapeze artist in the office.
 
 - first_name: Brandon
   last_name: Lee
@@ -327,7 +327,7 @@
   published: true
   name: joe
   bio: |
-    Joe spent several years wearing a wide variety of hats in the tech industry (and the US Army) before joining our team. He came to us from Raleigh, North Carolina, looking for an opportunity to apply his passion for open source and desire to serve nonprofits. He loves the ever-changing world of web development and enjoys projects where he’s challenged to learn about new technology and apply it to the sites he builds for our clients. Before coming to ThinkShout, Joe worked at Ashe Avenue, Merge Records, Lulu.com, and Flywheel Design. When Joe isn’t engaged in client work, he blows off steam with long-distance running, video games, and cooking. 
+    Joe spent several years wearing a wide variety of hats in the tech industry (and the US Army) before joining our team. He came to us from Raleigh, North Carolina, looking for an opportunity to apply his passion for open source and desire to serve nonprofits. He loves the ever-changing world of web development and enjoys projects where he’s challenged to learn about new technology and apply it to the sites he builds for our clients. Before coming to ThinkShout, Joe worked at Ashe Avenue, Merge Records, Lulu.com, and Flywheel Design. When Joe isn’t engaged in client work, he blows off steam with long-distance running, video games, and cooking.
 
 - first_name: Josh
   last_name: Riggs
@@ -354,10 +354,10 @@
   leadin: |
     Kaylan is a natural storyteller and problem-solver. She genuinely loves the nature of project management and few things are quite as satisfying to her as seeing our clients’ projects to completion. That love is only rivaled by her passion for fairy tales - the scary kind.
   social:
-    github: 
+    github:
     twitter:
     linkedin: https://www.linkedin.com/in/kaylanisenberg
-    drupal: 
+    drupal:
   image:
     small: team/small/kaylan.jpg
     medium: team/medium/kaylan.jpg
@@ -390,7 +390,7 @@
   last_name: Marshall
   position: Senior Project Manager
   leadin: |
-    Project management is in Marci’s DNA - she had her kids’ sleeping schedules in spreadsheets when they were infants. She approaches each task with an understanding for our clients' needs, ensuring that we’re using the most efficient processes to meet their goals. 
+    Project management is in Marci’s DNA - she had her kids’ sleeping schedules in spreadsheets when they were infants. She approaches each task with an understanding for our clients' needs, ensuring that we’re using the most efficient processes to meet their goals.
   social:
     github:
     twitter: https://twitter.com/marcimarshall
@@ -403,7 +403,7 @@
   published: true
   name: marci
   bio: |
-   Marci loves making life easier for our partners. She brings 14 years of technical project management experience to the team and loves helping mission-driven organizations achieve their technological goals. She has worked with clients spanning a wide variety of industries, including financial and professional services, manufacturing, retail, and nonprofit. Though her work is very much left brain-driven, she claims she does have an active right brain as well. She has an MFA in poetry and loves marching bands. She owns a trumpet, but admits she doesn’t know how to play it. 
+   Marci loves making life easier for our partners. She brings 14 years of technical project management experience to the team and loves helping mission-driven organizations achieve their technological goals. She has worked with clients spanning a wide variety of industries, including financial and professional services, manufacturing, retail, and nonprofit. Though her work is very much left brain-driven, she claims she does have an active right brain as well. She has an MFA in poetry and loves marching bands. She owns a trumpet, but admits she doesn’t know how to play it.
 
 - first_name: Stephanie
   last_name: Gutowski
