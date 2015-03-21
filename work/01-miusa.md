@@ -37,6 +37,6 @@ results:
   narrative: |
     The new MIUSA.org launched in the Spring of 2014. We continue to support MIUSA with website updates and content strategy services.
   image: work/miusa/miusa-results.jpg
-featured: true
+featured: false
 published: true
 ---

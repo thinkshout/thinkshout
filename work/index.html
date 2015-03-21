@@ -29,7 +29,7 @@ keywords:
     <div class="row">
       <div class="large-12 columns large-centered">
         {% for page in site.pages %}
-          {% if page.layout == 'project' and page.published == true %}
+          {% if page.layout == 'project' and page.featured == true %}
             {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
             <div class="project teaser {{ thecycle }}">
               <figure class="thumb"><a href="{{ site.baseurl }}{{ page.url }}"><img src="{{ site.baseurl }}/assets/images/{{ page.images.card }}"></a></figure>
