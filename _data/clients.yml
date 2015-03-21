@@ -1,3 +1,5 @@
+- name: Southern Poverty Law Center
+
 - name: World Wildlife Fund
 
 - name: Environmental Defense Fund
@@ -14,6 +16,8 @@
 
 - name: Oregon Zoo
 
+- name: Tree People
+
 - name: Oregon Metro
 
 - name: University of California
@@ -22,9 +26,17 @@
 
 - name: Intel
 
+- name: Stanford University
+
 - name: Scenic Hudson
 
+- name: EcoTrust
+
+- name: Ocean Outcomes
+
 - name: Baltimore Harborkeeper
+
+- name: Center for Strategic and International Studies
 
 - name: Intercommunity Justice and Peace Center
 
@@ -79,3 +91,23 @@
 - name: Nike Foundation
 
 - name: The Colorado Trust
+
+- name: Portland Design Works
+
+- name: American Tinnitus Associations
+
+- name: Capital Area Food Bank of Texas
+
+- name: Feeding Texas
+
+- name: Capital Area Food Bank of DC
+
+- name: Cornell University
+
+- name: International Labor Rights Forum
+
+- name: Lemelson Foundation
+
+- name: Trust for Conservation Innovation
+
+- name: Cascade Bicycle Club
