@@ -22,7 +22,7 @@ expertise: |
   - Translation management
   - Jekyll
 components:
-  - title: Long-form storytelling
+  - title: Long-form Storytelling
     column1: |
       Our user exerperience and graphic design choices were guided by a strong interest in telling the compelling and highly-visual stories of fisheries conservation around the globe. Consequently, we chose to implement a ["flat design"](http://en.wikipedia.org/wiki/Flat_design) that allows imagery and content to stand for itself in a most digestible manner.
     column2: work/oceanoutcomes/oceanoutcomes-storytelling.jpg
@@ -42,6 +42,6 @@ results:
     - number: 2
       description: Dollars spent per month on website hosting.
       type: dollars
-featured: false
-published: false
+featured: true
+published: true
 ---
