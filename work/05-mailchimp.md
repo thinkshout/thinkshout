@@ -42,7 +42,7 @@ components:
     column2:
 results:
   stats:
-    - number: 55
+    - number: 59
       description: Releases we've developed for the module
       type: figure
     - number: 120,000
