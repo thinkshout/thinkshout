@@ -13,7 +13,7 @@ tags:
 - Open Source
 date: 2015-03-25
 ---
-*Originally published on February 23rd on [NTEN.org](http://www.nten.org/articles/2015/the-how-and-why-of-nonprofits-contributing-to-open-source). Republished with permission.*
+*Originally published on February 23rd, 2015 on [NTEN.org](http://www.nten.org/articles/2015/the-how-and-why-of-nonprofits-contributing-to-open-source). Republished with permission.*
 
 For the last 15 years or so, we’ve seen consistent growth in nonprofits’ appreciation for how open source tools can support their goals for online engagement. Rarely do we run across an RFP for a nonprofit website redesign that doesn’t specify either Drupal or WordPress as the preferred CMS platform. The immediate benefits of implementing an open source solution are pretty clear:
 
