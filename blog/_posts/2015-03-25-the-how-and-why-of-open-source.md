@@ -2,8 +2,8 @@
 title: The How and Why of Nonprofits Contributing to Open Source
 layout: post
 author: sean
-published: false
-featured: false
+published: true
+featured: true
 short: |
   Let's debunk some open source myths.
 tags:
@@ -11,6 +11,9 @@ tags:
 - Drupal Planet
 - Nonprofit Tech
 - Open Source
+- Feeding Texas
+- Leaflet
+- RedHen Raiser
 date: 2015-03-25
 ---
 *Originally published on February 23rd, 2015 on [NTEN.org](http://www.nten.org/articles/2015/the-how-and-why-of-nonprofits-contributing-to-open-source). Republished with permission.*
