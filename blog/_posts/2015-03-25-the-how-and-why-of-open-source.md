@@ -59,7 +59,7 @@ At first, this contributed module was simply a developer tool. It didn’t have 
 
 What did that first nonprofit and the other handful of early adopters get for supporting the initial release? Within less than a year of initially contributing to this Drupal module, they opened the door to many tens of thousands of dollars worth of free enhancements to their website and mapping tools.
 
-Did they lose their competitive advantage or the uniqueness of their implementation of these online maps? I think you know what I’m gonna say: *No! *In fact, the usefulness of their mapping interfaces improved dramatically as those of us with an interest in these tools collaborated and iterated on each other’s ideas and design patterns.
+Did they lose their competitive advantage or the uniqueness of their implementation of these online maps? I think you know what I’m gonna say: *No!* In fact, the usefulness of their mapping interfaces improved dramatically as those of us with an interest in these tools collaborated and iterated on each other’s ideas and design patterns.
 
 **Myth #3: "Contributing to an open source project will take time and money away from solving our organization’s specific problems."**
 
