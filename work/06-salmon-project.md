@@ -48,7 +48,7 @@ results:
       description: Average number of site visitors per day in the first week
       type: figure
   narrative:
-featured: true
+featured: false
 published: true
 ---
 
