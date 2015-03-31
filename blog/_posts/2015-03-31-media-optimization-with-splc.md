@@ -2,13 +2,13 @@
 title: Media Optimization for Selma, Bridge to the Ballot
 layout: post
 author: eric
-published: true
+published: false
 featured: false
 short: |
   Be mindful of bandwidth and network latency on media-heavy sites.
 tags:
 - SPLC
-date: 2015-03-30
+date: 2015-03-31
 ---
 
 Imagine for a moment: you’ve just finished making the most gorgeous website you’ve ever made. It’s got the works — the newest, wiz-bang plugins. Heck, you don’t even have to support IE 6-8. You’ve achieved what I like to call "made in the shade." These creations work well until you release them from their controlled environment. Out in the wild, websites, mobile applications, and other connected devices have to contend with lots of requests, network latency, bandwidth and other things. They get slow in the wild. This fabulous creation has no control over network congestion and user device capabilities. You do have control over how many requests your page makes to the serve and the size of those requests. Remember these two things:
