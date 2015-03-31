@@ -2,8 +2,8 @@
 title: Media Optimization for Selma, Bridge to the Ballot
 layout: post
 author: eric
-published: false
-featured: false
+published: true
+featured: true
 short: |
   Be mindful of bandwidth and network latency on media-heavy sites.
 tags:
@@ -11,6 +11,7 @@ tags:
 - Media
 - Optimization
 - Jekyll
+- CSS
 date: 2015-03-31
 ---
 
@@ -116,6 +117,6 @@ In addition, if you are going to use @font-face, use an appropriate fallback fon
 
 In the end, were able to get our site down to 1.4MB, and painting to the page in less than 1 second on a normal 3G network. We now have 43 requests and our entire DOM is loaded in 2.45 seconds on this connection. There is a lot more fine tuning we can do here. But this shows how snappy you can make your site just by doing basic optimizations around the aforementioned 4 types of assets.
 
-Be mindful of bandwidth and network latency. Reduce image size. Aggregate CSS/JS. Delay blocking JS. These are easy things any front end developer can do to optimize websites and make users happy. I am a fan of [Ilya Grigorik](https://www.igvita.com/), web performance engineer at Google. He is a great resource on the subject. He also has a book you can read called *High-Performance Browser Networkin*g. It’s a great resource on web optimization.
+Be mindful of bandwidth and network latency. Reduce image size. Aggregate CSS/JS. Delay blocking JS. These are easy things any front end developer can do to optimize websites and make users happy. I am a fan of [Ilya Grigorik](https://www.igvita.com/), web performance engineer at Google. He is a great resource on the subject. He also has a book you can read called *High-Performance Browser Networking*. It’s a great resource on web optimization.
 
 The Selma site launched just in time for the 50th anniversary of the Selma-to-Montgomery marches. As users from around the world accessed the site to commemorate the events of Bloody Sunday, even those with low bandwidth connections could learn about this pivotal moment in the Civil Rights Movement for themselves on the web.
