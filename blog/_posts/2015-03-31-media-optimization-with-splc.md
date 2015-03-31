@@ -8,6 +8,9 @@ short: |
   Be mindful of bandwidth and network latency on media-heavy sites.
 tags:
 - SPLC
+- Media
+- Optimization
+- Jekyll
 date: 2015-03-31
 ---
 
