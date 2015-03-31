@@ -30,7 +30,7 @@ Most of the work happened on 4 types of assets — video, images, CSS/JS and Fon
 
 Chrome developer tools for measuring the load times, file sizes and network requests. There is also a featured called[ device mode](https://developer.chrome.com/devtools/docs/device-mode). You can emulate a variety of mobile devices and simulate network speeds with device mode.
 
-![selma-media-image_1.png](assets/images/blog/selma-media-image_1.png)
+![selma-media-image_1.png](/assets/images/blog/selma-media-image_1.png)
 
 After we initially built this site, with no optimization, it weighed in at about 20MB. On Selma, we simulated a normal 3G connection. We measured 76 web requests. On this connection, it took close to 10 seconds before there was any paint on the page. Yes, that’s a huge number, but keep in mind this is just a starting point.
 
