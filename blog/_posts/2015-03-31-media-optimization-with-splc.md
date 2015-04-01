@@ -79,7 +79,7 @@ $('.play-button').magnificPopup({
 		},  
 		// When our popup closes play                                                                                        
 		close: function() {
-			$('video’)[0].play();
+			$('video')[0].play();
 		}
 	}                                                                                                              
 });
