@@ -90,6 +90,41 @@
   bio: |
     Tauno has the technical knowledge and genuine passion for nonprofits that we look for in a ThinkShout team leader. He sets the bar high and tackles each new challenge with positivity and a thoughtfulness that’s downright contagious. Prior to ThinkShout, Tauno worked at the University of Oregon, where he contributed to the development of a complex Drupal-based online learning platform for language teachers. He holds a degree in Natural Resources Planning & Interpretation and continues to pursue his passion for the outdoors by spending a great deal of his free time neck-deep in nature.
 
+- first_name: Brett
+  last_name: Meyer
+  position: Director of Strategy
+  leadin: |
+    In 1994, Brett did 50,000 pull-ups to win a $20 bet. He brings this same level of drive to his communications consulting. As our content strategist, Brett helps our clients craft compelling messages and measure the success of their digital campaigns.
+  social:
+    github:
+    twitter: https://twitter.com/brett_meyer
+    linkedin: http://www.linkedin.com/pub/brett-meyer/7/976/930
+    drupal:
+  image:
+    small: team/small/brettmeyer.jpg
+    medium: team/medium/brettmeyer.jpg
+    large: team/large/brettmeyer.jpg
+  published: true
+  name: brett-meyer
+  bio: |
+    Brett is a natural storyteller. He began his career as a dot-com software developer. He and his wife then spent two years in Mali with the Peace Corps, where he trained grassroots organizations in technology and media. Following this experience, Brett served as Communications Director at the Nonprofit Technology Network for six years, helping grow NTEN’s community from a few thousand to over 50,000 engaged participants. Having worked in the nonprofit sector for so long, he has a deep understanding of the communications and fundraising challenges that our clients face. Brett is uniquely positioned to help them build comprehensive multi-channel marketing plans. He's also the only person in the office to have worked at a radio station in West Africa.
+
+- first_name: Alex
+  last_name: MacMillan
+  position: Director of Project Management
+  leadin: |
+    Alex’s passion for creative problem solving drew her to ThinkShout, where she navigates complex projects while supporting clients working to make the world a better place. She also really likes food, and since the ThinkShout team really likes food, she figured she’d be a great fit.
+  social:
+    linkedin: http://www.linkedin.com/pub/alex-macmillan/90/bb8/827/
+  image:
+    small: team/small/alexm2.jpg
+    medium: team/medium/alexm2.jpg
+    large: team/large/alexm2.jpg
+  published: true
+  name: alexm
+  bio: |
+    Prior to ThinkShout, Alex spent several years as a project manager in the health care industry, overseeing several large web development projects centered around providing the public with health care resources online. Through this work, she learned the power of the Internet as a tool for making social change. Alex studied psychology at University of Oregon, specifically empathy, motivation, and decision-making. Her insight into the human thought process allows her to evaluate problems from multiple viewpoints. When Alex isn’t managing her many projects, she’s at her house, playing the never-ending game of home improvement.
+
 - first_name: Alex
   last_name: Ellison
   position: Software Engineer
@@ -108,22 +143,6 @@
   name: alex
   bio: |
     With a diverse background in artificial intelligence, existential philosophy, and development economics, Alex brings a unique perspective to the team and helps our clients build comprehensive solutions that address a wide range of problems. Prior to joining our team, Alex attended Connecticut College and worked at Schrödinger developing computational chemistry software. On weekends, he can usually be found playing ice hockey. Last we checked, he still had all his teeth.
-
-- first_name: Alex
-  last_name: MacMillan
-  position: Director of Project Management
-  leadin: |
-    Alex’s passion for creative problem solving drew her to ThinkShout, where she navigates complex projects while supporting clients working to make the world a better place. She also really likes food, and since the ThinkShout team really likes food, she figured she’d be a great fit.
-  social:
-    linkedin: http://www.linkedin.com/pub/alex-macmillan/90/bb8/827/
-  image:
-    small: team/small/alexm2.jpg
-    medium: team/medium/alexm2.jpg
-    large: team/large/alexm2.jpg
-  published: true
-  name: alexm
-  bio: |
-    Prior to ThinkShout, Alex spent several years as a project manager in the health care industry, overseeing several large web development projects centered around providing the public with health care resources online. Through this work, she learned the power of the Internet as a tool for making social change. Alex studied psychology at University of Oregon, specifically empathy, motivation, and decision-making. Her insight into the human thought process allows her to evaluate problems from multiple viewpoints. When Alex isn’t managing her many projects, she’s at her house, playing the never-ending game of home improvement.
 
 - first_name: Amy
   last_name: Vaillancourt-Sals
@@ -179,25 +198,6 @@
   name: brett
   bio: |
     Before ThinkShout, Brett was a production director at Wardenclyffe, a design agency based in New York City. There, he worked with high-end fashion and entertainment brands, but his appreciation for mission-based organizations ultimately led him to our team.  Here, he utilizes his talents for worthy causes, bringing that same standard of great design to our client work. Brett also worked at OpenSourcery as a front end developer, where he honed his skills with front end technologies such as javascript and HTML5. At home, Brett is usually banging around in the kitchen, building something.
-
-- first_name: Brett
-  last_name: Meyer
-  position: Director of Strategy
-  leadin: |
-    In 1994, Brett did 50,000 pull-ups to win a $20 bet. He brings this same level of drive to his communications consulting. As our content strategist, Brett helps our clients craft compelling messages and measure the success of their digital campaigns.
-  social:
-    github:
-    twitter: https://twitter.com/brett_meyer
-    linkedin: http://www.linkedin.com/pub/brett-meyer/7/976/930
-    drupal:
-  image:
-    small: team/small/brettmeyer.jpg
-    medium: team/medium/brettmeyer.jpg
-    large: team/large/brettmeyer.jpg
-  published: true
-  name: brett-meyer
-  bio: |
-    Brett is a natural storyteller. He began his career as a dot-com software developer. He and his wife then spent two years in Mali with the Peace Corps, where he trained grassroots organizations in technology and media. Following this experience, Brett served as Communications Director at the Nonprofit Technology Network for six years, helping grow NTEN’s community from a few thousand to over 50,000 engaged participants. Having worked in the nonprofit sector for so long, he has a deep understanding of the communications and fundraising challenges that our clients face. Brett is uniquely positioned to help them build comprehensive multi-channel marketing plans. He's also the only person in the office to have worked at a radio station in West Africa.
 
 - first_name: Claire
   last_name: Seibert
