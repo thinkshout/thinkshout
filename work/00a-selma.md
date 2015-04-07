@@ -14,7 +14,7 @@ breakpoints:
 client: |
   The Southern Poverty Law Center fights hate and bigotry, seeking justice for the most vulnerable members of our society. 
 
-  The 50th Anniversary of the Selma-to-Montgomery March presented a unique opportunity for us to both tell a visually compelling story and to user-test design and content elements we are proposing for the forthcoming redesign of SPLC's main website.
+  The 50th Anniversary of the Selma-to-Montgomery March presented a unique opportunity for us both to tell a visually compelling story and to user-test design and content elements we are proposing for the forthcoming redesign of SPLC's main website.
 
 projecturl: http://selma.splcenter.org
 expertise: |
@@ -29,7 +29,7 @@ components:
     column1: |
       SPLC benefits from excellent in-house designers and a top-notch communications team. They have some of the most compelling multimedia assets of any organization with whom we’ve worked. SPLC's story and approach to advocacy could not be stronger.
 
-      That said, over the years, they have built up considerable digital content. In coming to us, they wanted to step back and rethink their approach to content strategy. Through a series of audience exercises, a rigorous 2-day workshop, and deep-dive into their analytics, we helped them sharpen their campaign focus and digital engagement strategies, and we will continue to work with them on evolving their web presence as we prepare for their relaunch.
+      That said, over the years, they have built up considerable content. In coming to us, they wanted to step back and rethink their approach to content strategy. Through a series of audience exercises and a deep-dive into their analytics, we've helped them sharpen their campaign focus and will continue to work with them to refine their digital engagement strategies as we prepare for their relaunch.
 
     column2: work/splc/selma/selma-content-strategy.jpg
   - title: Prototyping & Testing
@@ -45,5 +45,5 @@ results:
   narrative:
     As we move forward with the redesign of the Southern Poverty Law Center's website, we are excited to leverage the metrics and narrative feedback that the 50th Anniversary campaign site receives in thinking about visual design and content strategy. The success of this campaign site has bolstered support for the overall redesign, both within SPLC itself and its constituent community. 
 featured: false
-published: false
+published: true
 ---
