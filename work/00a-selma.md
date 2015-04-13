@@ -45,5 +45,5 @@ results:
   narrative:
     As we move forward with the redesign of the Southern Poverty Law Center's website, we are excited to leverage the metrics and narrative feedback that the 50th Anniversary campaign site receives in thinking about visual design and content strategy. The success of this campaign site has bolstered support for the overall redesign, both within SPLC itself and its constituent community. 
 featured: false
-published: true
+published: false
 ---
