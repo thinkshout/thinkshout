@@ -5,7 +5,7 @@ permalink: careers/softwar-engineer/
 mailto: jobs@thinkshout.com
 active: true
 ---
-Software engineers at ThinkShout are responsible for the delivery of world-class open source solutions built with Drupal, PHP, Symfony, Angular, Ember, Ruby, Jekyll, Node.js and anything else that serves our clients, the nonprofit tech community, and is a blast to play (and work) with.
+Software Engineers at ThinkShout are responsible for the delivery of world-class open source solutions built with Drupal, PHP, Symfony, Angular, Ember, Ruby, Jekyll, Node.js and anything else that serves our clients, the nonprofit tech community, and is a blast to play (and work) with.
 
 ### Qualifications
 
@@ -23,7 +23,7 @@ Software engineers at ThinkShout are responsible for the delivery of world-class
 ### Compensation Package
 
 * A competitive salary.
-* Comprehensive benefits package including health insurance with dental, vision, and alternative care, a matching 401k, life insurance, and a very generous 30 days of PTO, including holidays.
+* Comprehensive benefits package including health insurance with dental, vision, and alternative care, a matching 401k, life insurance, short term disability insurance, and a very generous 30 days of PTO, including holidays.
 * Get paid to learn and go to conferences, such as DrupalCon, OSCON, and the Nonprofit Technology Conference.
 * A focus on work/life balance, including a flexible office hours policy.
 
