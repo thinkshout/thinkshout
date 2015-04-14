@@ -52,7 +52,7 @@ results:
       description: Increase in module usage since MailChimp became our client
       type: percent
   narrative:
-featured: true
+featured: false
 published: true
 launch_label: "Launch Project Page"
 ---
