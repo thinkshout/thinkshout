@@ -5,6 +5,10 @@
   z-index: 200;
   background: #FFF;
   padding: 0 1em;
+
+  @media screen and (min-width: $tablet) {
+    padding: 0;
+  }
 }
 
 .hero {
