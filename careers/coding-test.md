@@ -5,7 +5,7 @@ description: "Want to work at ThinkShout? Take this test!"
 permalink: /careers/coding-test/
 ---
 
-In order to evaluate Drupal your skills, we'd like you to write a simple Drupal 7 module that satisfies the following requirements:
+In order to evaluate your Drupal skills, we'd like you to write a simple Drupal 7 module that satisfies the following requirements:
 
 * The module can be enabled and run on any standard Drupal 7 installation.
 * Have a normal menu item that triggers a page callback. The menu item can live in the standard navigation or main menu.
