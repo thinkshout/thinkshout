@@ -374,23 +374,28 @@ ul.client-list {
 //
 // Expertise
 //
-.expertise {
-	margin-bottom: 5em;
+.expertise-block {
+	padding: 4em 0;
 	display: block;
 	overflow: hidden;
+  text-align: center;
+
   ul {
     font-size: 0.875em;
     font-style: italic;
+    font-weight: bold;
     color: $brown;
     margin: 1em 0 0;
     padding: 0;
     width: 46%;
     float: left;
+    
     @media screen and (max-width: $mobile) {
      	float: none;
       width: 100%;
       margin: 0 0;
     }
+    
     li {
       list-style: none;
       display: block;
@@ -398,11 +403,16 @@ ul.client-list {
       margin-bottom: .3em;
     }
   }
-  ul:nth-child(2) { }
+  
 }
-.expertise:last-child {
+.expertise-block:last-child {
   border-bottom: 0;
 }
+
+.expertise-block:nth-child(even) {
+  background-color: lighten($beige, 17%);
+} 
+
 
 //
 // Blog

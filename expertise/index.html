@@ -31,17 +31,18 @@ keywords:
     <div class="section-rubric">
       <h3><span>What We Do</span></h3>
     </div>
-    <div class="row">
-      <div class="large-8 columns large-centered">
-        {% for expertise in site.data.expertise %}
-        <div class="expertise">
+    <div class="expertise-list">
+      {% for expertise in site.data.expertise %}
+      <div class="expertise-block {{ expertise.class }}">
+        <div class="large-8 columns large-centered">
+          <img src="{{ site.baseurl }}/assets/images/{{ expertise.icon }}">
           <h2>{{ expertise.name }}</h2>
           <p>{{ expertise.description | markdownify }}</p>
           {{ expertise.left | markdownify }}
           {{ expertise.right | markdownify }}
         </div>
-        {% endfor %}
       </div>
+      {% endfor %}
     </div>
   </section>
 </div>
