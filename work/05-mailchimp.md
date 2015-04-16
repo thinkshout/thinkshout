@@ -28,7 +28,7 @@ components:
   - title: Community Engagement
     banner: work/mailchimp/mailchimp-adoption.jpg
     column1: |
-      Over the next three years, this module began to see significant adoption. When the number of Drupal websites using the module hit 3,000, Lev reached out to MailChimp to see if they were interested in sponsoring its ongoing development. MailChimp readily agreed, beginning a partnership that helped us increase adoption of the module to over 14,000 websites. In addition to providing new features, we support the module’s user base by responding to tickets in the module’s issue queue, as well as by providing online documentation.
+      Over the next three years, this module began to see significant adoption. When the number of Drupal websites using the module hit 3,000, Lev reached out to MailChimp to see if they were interested in sponsoring its ongoing development. MailChimp readily agreed, beginning a partnership that helped us increase adoption of the module to over 21,000 websites. In addition to providing new features, we support the module’s user base by responding to tickets in the module’s issue queue, as well as by providing online documentation.
     column2:
   - title: Ongoing Development
     banner:  
@@ -42,17 +42,17 @@ components:
     column2:
 results:
   stats:
-    - number: 55
+    - number: 59
       description: Releases we've developed for the module
       type: figure
-    - number: 93,694
+    - number: 120,000
       description: Downloads of the MailChimp and Mandrill modules
       type: figure
     - number: 500
       description: Increase in module usage since MailChimp became our client
       type: percent
   narrative:
-featured: true
+featured: false
 published: true
 launch_label: "Launch Project Page"
 ---

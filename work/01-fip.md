@@ -45,6 +45,6 @@ results:
       description: Metric tons of salmon reported annually
       type: thousands
   narrative:
-featured: true
+featured: false
 published: true
 ---

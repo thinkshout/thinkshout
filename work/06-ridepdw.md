@@ -44,6 +44,6 @@ results:
       description: New dealers added in the first 17 months
       type: figure
   narrative:
-featured: true
+featured: false
 published: true
 ---
