@@ -14,7 +14,7 @@ tags:
 - Team Sprints
 - Drupal
 - Drupal Community
-date: 2015-04-21
+date: 2015-04-21 17:00:00
 ---
 
 Hot on the heels of our [all-hands-on-deck sprint to release](http://thinkshout.com/blog/2015/01/reimagined-sprints-redhen-raiser/) [RedHen Raiser](https://www.drupal.org/project/redhen_raiser), we decided to change gears to focus on some of our marquee open source contributions, namely the [Salesforce Suite](https://www.drupal.org/project/salesforce).
