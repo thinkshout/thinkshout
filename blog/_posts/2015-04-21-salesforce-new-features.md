@@ -25,11 +25,11 @@ We completely rewrote the module, leveraging Drupal's entity architecture, Sales
 
 In addition to over 150 performance enhancements and bug fixes, this release features an all new Drupal entity mapping system which shows a log of all synchronization activity, including any errors. You can now see a log entry for every attempted data synchronization. If there’s a problem, the log will tell you where it is and why it’s an issue. There’s now a whole interface designed to help you pinpoint where these issues are so you can solve them quickly.
 
-![Salesforce Activity](/assets/images/blog/salesforce-activity.png)
+![Salesforce Activity](http://thinkshout.com/assets/images/blog/salesforce-activity.png)
 
 Administrators can even manually create or edit a connection between Drupal and Salesforce objects. Before this update, the only way to connect two objects was to create the mapping and then wait for an object to be updated or created in either Drupal or Salesforce. Now you can just enter the Salesforce ID and you’re all set.
 
-![Salesforce Edit Mapping](/assets/images/blog/salesforce-edit.png)
+![Salesforce Edit Mapping](http://thinkshout.com/assets/images/blog/salesforce-edit.png)
 
 Take the following example to understand why these improvements are so critical. Say that your constituents are volunteering through your Drupal site using the [Registration module](https://www.drupal.org/project/registration). The contacts are created or updated in [RedHen](https://www.drupal.org/project/redhen) and then synced to Salesforce. For some reason, you can see the new volunteers in Drupal, but they are not showing in Salesforce. It used to be that the only clue to a problem was buried in the error log. Now, all you have to do is go to the RedHen contact record, and then click “Salesforce activity,” and you’ll see a record of the attempted sync and an explanation of why it failed. Furthermore, you can manually connect the contact to Salesforce by entering the Salesforce ID.
 
