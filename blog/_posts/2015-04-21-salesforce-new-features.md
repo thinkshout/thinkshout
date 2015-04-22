@@ -37,4 +37,4 @@ Finally, you can now delete existing mappings, or map to an entirely different c
 
 We’ve been hard at work polishing several other of our modules and tools, like the RedHen suite and Entity Registration, which also saw new releases. We’ll tell you more about what you can expect from those new versions in our upcoming blogs.
 
-Want to chat about our module work at [DrupalCon](https://events.drupal.org/losangeles2015) in LA? You can find us hanging out with our friends from [MailChimp](http://stage.thinkshout.com/blog/category/mailchimp/) at their booth. We’d love to talk to you more about what we’re working on.
+Want to chat about our module work at [DrupalCon](https://events.drupal.org/losangeles2015) in LA? You can find us hanging out with our friends from [MailChimp](http://thinkshout.com/blog/category/mailchimp/) at their booth. We’d love to talk to you more about what we’re working on.
