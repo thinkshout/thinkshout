@@ -1,6 +1,6 @@
 ---
 layout: project
-shortname: Southern Povery Law Center
+shortname: Southern Poverty Law Center
 title: |
   Selma - The Bridge to the Ballot
 permalink: work/splc/selma/
