@@ -1,11 +1,11 @@
 ---
-title: Monkeying Around with Drupal 8
+title: Monkeying Around with D8
 layout: post
 author: marci
 published: true
 featured: true
 short: |
-  Porting MailChimp Module to D8 for DrupalCon LA
+  Porting MailChimp Module to Drupal 8 for DrupalCon LA
 tags:
 - Drupal Planet
 - Open Source
