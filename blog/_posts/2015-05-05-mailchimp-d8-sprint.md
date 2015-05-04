@@ -1,11 +1,11 @@
 ---
-title: MailChimp and D8
+title: Monkeying Around with Drupal 8
 layout: post
 author: marci
 published: true
 featured: true
 short: |
-  A teaser about this post
+  Porting MailChimp Module to D8 for DrupalCon LA
 tags:
 - Drupal Planet
 - Open Source
