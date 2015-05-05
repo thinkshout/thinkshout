@@ -5,7 +5,7 @@ author: marci
 published: true
 featured: true
 short: |
-  Porting MailChimp Module to Drupal 8 for DrupalCon LA
+  Porting the MailChimp Module to Drupal 8 for DrupalCon LA
 tags:
 - Drupal Planet
 - Open Source
