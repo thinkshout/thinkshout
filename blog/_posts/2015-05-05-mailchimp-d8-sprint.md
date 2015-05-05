@@ -23,19 +23,19 @@ I have used A LOT of email marketing service providers over the years and my opi
 
 _Enter the chimp..._
 
-Despite its playful name, MailChimp made a serious shift in a category that had always had potential but lacked a champion. My first thought when I used the tool was that even if the feature set was identical to all its competitors, MailChimp’s user interface alone set it apart. But once I dug into its capabilities, I became a bona fide fan (dare I say ambassador) of the brand. From automated email workflows and slick segmentation capabilities to the [Chimpadeedoo] (http://mailchimp.com/features/mobile-signup-forms/) tablet app that facilitates email sign-ups without an internet connection, MailChimp became the new king of the jungle.
+Despite its playful name, [MailChimp](http://www.mailchimp.co,) made a serious shift in a category that had always had potential but lacked a champion. My first thought when I used the tool was that even if the feature set was identical to all its competitors, MailChimp’s user interface alone set it apart. But once I dug into its capabilities, I became a bona fide fan (dare I say ambassador) of the brand. From automated email workflows and slick segmentation capabilities, to the [Chimpadeedoo] (http://mailchimp.com/features/mobile-signup-forms/) tablet app that facilitates email sign-ups without an internet connection, MailChimp became the new king of the jungle.
 
 Fast forward a few years, and here I am working at ThinkShout, MailChimp’s Drupal partner. We built and maintain the MailChimp Drupal module, which is used by nearly 22,000 websites. 
 
-If you are familiar with MailChimp’s motto to listen hard and change fast (or if you just read the first couple paragraphs of this blog post), then it should come as no surprise that innovation is at the heart of MailChimp’s culture. With the release of Drupal 8 looming this Fall, MailChimp and ThinkShout saw a unique opportunity to lead the charge by porting one of the most popular email modules to be D8 compatible. 
+If you are familiar with MailChimp’s motto - listen hard and change fast - (or if you just read the first couple paragraphs of this blog post), then it should come as no surprise that innovation is at the heart of MailChimp’s culture. With the release of Drupal 8 looming this Fall, MailChimp and ThinkShout saw a unique opportunity to lead the charge by porting one of the most popular email modules to be D8 compatible. 
 
 ##The Only Way Through it is Through it
 
-Being a trailblazer isn’t easy, and MailChimp understood that pushing the envelope on D8 development would require an investment of time and resources. While the core MailChimp module is relatively simple, the bundled submodules are feature rich and technically complex. 
+Being a trailblazer isn’t easy, and MailChimp understood that pushing the envelope on D8 development would require an investment of time and resources. While the core MailChimp module is relatively simple, the bundled submodules are feature-rich and technically complex. 
 
 Let’s recap what the MailChimp module allows you to do:
 
-* Any “object” in Drupal that has an email address, say a User, Contact, or even a Comment, can be automatically subscribed to a list and segmented based on other attributes, say zip code.
+* Any “object” in Drupal that has an email address, say a User, Contact, or even a Comment, can be automatically subscribed to a list and segmented based on other attributes, like their zip code.
 * Display a list subscription status on an entity or a subscription form.
 * Map Drupal Data, such as name and address, to merge fields in MailChimp.
 * Create forms to allow site visitors to sign up for any Mailchimp List or combination of Lists.
@@ -46,9 +46,9 @@ Let’s recap what the MailChimp module allows you to do:
 
 Luckily, one of the greatest aspects of our partnership with MailChimp is our shared passion for recognizing opportunity in challenges and giving back to the community. With that spirit, a couple of ThinkShout engineers dove in head first with the goal of porting the majority of the popular D7 module’s features over to D8 in time for a beta release at [DrupalCon LA] (https://events.drupal.org/losangeles2015). During the process, they realized that the available Drupal 8 documentation wasn’t keeping up with the speedy pace of D8 development. Over the course of several weeks, our engineers updated documentation and created examples to make life (or at least development) a little easier for the next developer looking to create something similar.
 
-##It’s a Sprint, not a Marathon
+##It’s a Sprint, Not a Marathon
 
-With the conference approaching, it was time to call on the ThinkShout village to help put the polish on the new module. Since 9 heads are better than 2 when it comes to user testing and QA, we scheduled a sprint to focus our engineering department on providing that critical perspective needed at the end of a large development project.
+With the conference approaching, it was time to call on the ThinkShout village to help put the polish on the new module. Since nine heads are better than two when it comes to user testing and QA, we scheduled a sprint to focus our engineering department on providing that critical perspective needed at the end of a large development project.
 
 [IMAGE HERE]
 
@@ -64,6 +64,6 @@ But the benefits aren’t just for developers. We are also excited about the eff
 
 ##Learn More About the New MailChimp Module
 
-Come and see us at [DrupalCon LA] (https://events.drupal.org/losangeles2015), where our very own [Lev Tsypin] (http://thinkshout.com/team/lev/) will be giving a [lightening talk] (https://events.drupal.org/losangeles2015/sessions/mailchimp-drupal-anatomy-successful-partnership)about the evolution of MailChimp's support for Drupal, the basics of how the integration works, and a hint at what's to come for Drupal 8. Don’t worry if you can’t make it to the talk because we’ll also be hanging out in the MailChimp booth. And if you spot one of us (you’ll recognize us by our ThinkShout hoodies), stop us! We’d love to chat about what we’ve learned about D8 and why were are excited for its release.
+Come and see us at [DrupalCon LA] (https://events.drupal.org/losangeles2015), where our very own [Lev Tsypin] (http://thinkshout.com/team/lev/) will be giving a [lightning talk] (https://events.drupal.org/losangeles2015/sessions/mailchimp-drupal-anatomy-successful-partnership) about the evolution of MailChimp's support for Drupal, the basics of how the integration works, and a hint at what's to come for Drupal 8. Don’t worry if you can’t make it to the talk because we’ll also be hanging out in the MailChimp booth. And if you spot one of us (you’ll recognize us by our ThinkShout hoodies), stop us! We’d love to chat about what we’ve learned about D8 and why were are excited for its release.
 
 
