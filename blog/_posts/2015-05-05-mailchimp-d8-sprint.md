@@ -21,9 +21,9 @@ date: 2015-05-05 09:00:00
 
 I have used A LOT of email marketing service providers over the years and my opinion of them was twofold: they were all similar and none of them were particularly great. Was it possible that this was just a category of business that would never be exciting or innovative? Was I destined to be a project manager who half-heartedly recommended whatever email service provider I was using most at the time to clients? 
 
-_Enter the chimp..._
+_Enter the Chimp..._
 
-Despite its playful name, [MailChimp](http://www.mailchimp.com) made a serious shift in a category that had always had potential but lacked a champion. My first thought when I used the tool was that even if the feature set was identical to all its competitors, MailChimp’s user interface alone set it apart. But once I dug into its capabilities, I became a bona fide fan (dare I say ambassador) of the brand. From automated email workflows and slick segmentation capabilities, to the [Chimpadeedoo] (http://mailchimp.com/features/mobile-signup-forms/) tablet app that facilitates email sign-ups without an internet connection, MailChimp became the new king of the jungle.
+Despite its playful name, [MailChimp](http://www.mailchimp.com) made a serious shift in a category that had always had potential but lacked a true champion. My first thought when I used the tool was that even if the feature set was identical to all its competitors, MailChimp’s user interface alone was what set it apart. But once I dug into its capabilities, I became a bona fide fan (dare I say ambassador) of the brand. From automated email workflows and slick segmentation capabilities, to the [Chimpadeedoo] (http://mailchimp.com/features/mobile-signup-forms/) tablet app that facilitates email sign-ups without an internet connection, MailChimp became the new king of the jungle.
 
 Fast forward a few years, and here I am working at ThinkShout, MailChimp’s Drupal partner. We built and maintain the MailChimp Drupal module, which is used by nearly 22,000 websites. 
 
@@ -31,7 +31,7 @@ If you are familiar with MailChimp’s motto - listen hard and change fast - (or
 
 ##The Only Way Through it is Through it
 
-Being a trailblazer isn’t easy, and MailChimp understood that pushing the envelope on D8 development would require an investment of time and resources. While the core MailChimp module is relatively simple, the bundled submodules are feature-rich and technically complex. 
+Being a trailblazer isn’t easy, and MailChimp understood that pushing the envelope on D8 development would require a significant investment of time and resources. While the core MailChimp module is relatively simple, the bundled submodules are feature-rich and technically complex. 
 
 Let’s recap what the MailChimp module allows you to do:
 
@@ -52,7 +52,7 @@ With the conference approaching, it was time to call on the ThinkShout village t
 
 ![mailchimp_roadmap1.jpg](/assets/images/blog/mailchimp_roadmap1.jpg)
 
-During our afternoon sprint, our engineering department ran a battery of tests (both human and automated) to document and resolve bugs. Our engineering staff has grown quite a bit recently, so the sprint also provided an opportunity for knowledge sharing about MailChimp and D8 development across the team. As a non-engineer fly on the wall, it was exciting to witness the energy at the sprint table, as bugs were closed and high-fives were thrown.
+During our afternoon sprint, our team ran a battery of tests (both human and automated) to document and resolve bugs. Our engineering staff has grown quite a bit recently, so the sprint also provided an opportunity for knowledge sharing about MailChimp and D8 development across the team. As a non-engineer fly on the wall, it was exciting to witness the energy at the sprint table, as bugs were closed and high-fives were thrown.
 
 ##The Future is Now
 
