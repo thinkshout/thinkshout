@@ -23,7 +23,7 @@ I have used A LOT of email marketing service providers over the years and my opi
 
 _Enter the chimp..._
 
-Despite its playful name, [MailChimp](http://www.mailchimp.co,) made a serious shift in a category that had always had potential but lacked a champion. My first thought when I used the tool was that even if the feature set was identical to all its competitors, MailChimp’s user interface alone set it apart. But once I dug into its capabilities, I became a bona fide fan (dare I say ambassador) of the brand. From automated email workflows and slick segmentation capabilities, to the [Chimpadeedoo] (http://mailchimp.com/features/mobile-signup-forms/) tablet app that facilitates email sign-ups without an internet connection, MailChimp became the new king of the jungle.
+Despite its playful name, [MailChimp](http://www.mailchimp.com) made a serious shift in a category that had always had potential but lacked a champion. My first thought when I used the tool was that even if the feature set was identical to all its competitors, MailChimp’s user interface alone set it apart. But once I dug into its capabilities, I became a bona fide fan (dare I say ambassador) of the brand. From automated email workflows and slick segmentation capabilities, to the [Chimpadeedoo] (http://mailchimp.com/features/mobile-signup-forms/) tablet app that facilitates email sign-ups without an internet connection, MailChimp became the new king of the jungle.
 
 Fast forward a few years, and here I am working at ThinkShout, MailChimp’s Drupal partner. We built and maintain the MailChimp Drupal module, which is used by nearly 22,000 websites. 
 
