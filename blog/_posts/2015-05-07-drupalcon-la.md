@@ -57,7 +57,7 @@ Our Lead User Experience Designer, Josh Riggs, will give us the low-down on crea
 
 Thursday May 14th, 10:45-11:45am
 
-Room: TBD
+Room: 501 - NewMedia
 
 [MailChimp and Drupal, The Anatomy of a Successful Partnership](https://events.drupal.org/losangeles2015/sessions/mailchimp-drupal-anatomy-successful-partnership) 
 
