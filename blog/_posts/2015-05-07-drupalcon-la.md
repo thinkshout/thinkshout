@@ -49,7 +49,7 @@ This facilitated panel session will include ThinkShout’s own Sean Larkin, and 
 
 Wednesday May 13th, 2:15-3:15pm
 
-Room: Petree C -Acquia
+Room: Petree C - Acquia
 
 [Ballin' on a Budget: How to Create Great Design Without Breaking the Bank](https://events.drupal.org/losangeles2015/sessions/ballin-budget-how-create-great-design-without-breaking-bank)[ ](https://events.drupal.org/losangeles2015/sessions/ballin-budget-how-create-great-design-without-breaking-bank)
 
