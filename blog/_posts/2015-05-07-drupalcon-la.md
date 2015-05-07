@@ -44,7 +44,7 @@ Room: 515A - Phase 2
 
 [Building Your Drupal-Based Business, Or, What Keeps You Up at Night](https://events.drupal.org/losangeles2015/sessions/building-your-drupal-based-business-or-what-keeps-you-night) 
 
-This facilitated panel session will include ThinkShout’s own Sean Larkin, and will cover insights from agency owners on lessons learned, areas of focus, and what NOT to worry about. All that and some guidance on best practices, and ideas to sustain and support growth - with an active audience Q & A to boot.
+This facilitated panel session will include ThinkShout’s own Sean Larkin, and will cover insights from agency owners on lessons learned, areas of focus, and what NOT to worry about. All that and some guidance on best practices, and ideas to sustain and support growth - with an active audience Q&A to boot.
 
 Wednesday May 13th, 2:15-3:15pm
 
@@ -82,7 +82,7 @@ Wednesday May 13th, 10:45-11:45am
 
 Room: 505 - Chromatic
 
-And finally, as we mentioned earlier, we’re excited about visiting LA this year because we’ll get a bit of face time with some of the great west coast clients and partners we’ve been working with over the last few years. We will be hosting a special happy hour reception celebrating our LA clients and honoring one of our long-time clients and partners, the [Los Angeles Conservancy](http://thinkshout.com/work/la-conservancy/), with a donation from our team.
+And finally, as we mentioned earlier, we’re excited about visiting LA this year because we’ll get a bit of face time with some of the great west coast clients and partners we’ve been working with over the last few years. We will be hosting a special happy hour reception celebrating these LA organizations and honoring one of our long-time clients and partners, the [Los Angeles Conservancy](http://thinkshout.com/work/la-conservancy/), with a donation from our team.
 
 We hope to see you at DrupalCon this year. If you can’t make it, get in touch with us and we’ll fill you in on what you missed! You can also follow along on all the social networks: [Twitter](https://twitter.com/thinkshout), [Facebook](https://www.facebook.com/ThinkShout), and [Instagram](https://instagram.com/thinkshout/) - we’ll keep you posted!
 
