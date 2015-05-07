@@ -2,8 +2,8 @@
 title: Meet the ThinkShout Team at DrupalCon LA!
 layout: post
 author: jaden
-published: false
-featured: false
+published: true
+featured: true
 short: |
   We're ready for some Drupal fun in the sun.
 tags:
@@ -13,6 +13,7 @@ tags:
 - Events
 - Drupal
 - Drupal Community
+- DrupalCon
 date: 2015-05-07 13:00:00
 ---
 
