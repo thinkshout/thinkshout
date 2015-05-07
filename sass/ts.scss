@@ -387,7 +387,8 @@ ul.client-list {
     color: $brown;
     margin: 1em 0 0;
     padding: 0;
-    width: 46%;
+    width: 50%;
+    text-align: left;
     float: left;
     
     @media screen and (max-width: $mobile) {
@@ -400,8 +401,19 @@ ul.client-list {
       list-style: none;
       display: block;
       margin-right: 1em;
-      margin-bottom: .3em;
+      margin-bottom: 1em;
+      border-bottom: solid 2px $beige;
+
     }
+  }
+
+  p {
+    text-align: left;
+  }
+
+  .button.default {
+    clear: both;
+    margin: 2em 0 0 0; 
   }
   
 }
