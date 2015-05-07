@@ -17,7 +17,7 @@ keywords:
   - event ticketing solutions
   - salesforce integration
 ---
-<div class="content expertise">
+<div class="content expertise-overview">
   <div class="hero-image"></div>
   <div class="hero">
     <div class="site-width">
@@ -32,20 +32,23 @@ keywords:
       <h3><span>What We Do</span></h3>
     </div>
     <div class="expertise-list">
-      {% for expertise in site.data.expertise %}
-      <div class="expertise-block {{ expertise.class }}">
-        <div class="row">
-          <div class="large-9 columns large-centered">
-            <img src="{{ site.baseurl }}/assets/images/{{ expertise.icon }}">
-            <h2>{{ expertise.name }}</h2>
-            <p>{{ expertise.description | markdownify }}</p>
-            {{ expertise.left | markdownify }}
-            {{ expertise.right | markdownify }}
+    {% for page in site.pages %}
+    {% if page.layout == 'expertise' %}
+      <div class="expertise-block {{ page.class }}">
+        <article>
+          <div class="row">
+            <div class="large-9 columns large-centered">
+              <img src="{{ site.baseurl }}/assets/images/{{ page.images.icon }}">
+              <h2><a class="title" href="{{ page.url }}" >{{ page.title}}</a></h2>
+              <p>{{ page.blurb | markdownify }}</p>
+              {{ page.points | markdownify }}
+            </div>
           </div>
-        </div>
-        <a class="button default" href="#">Learn More</a>
+          <a class="button default" href="{{ page.url }}">Learn More</a>
+        </article>
       </div>
-      {% endfor %}
+    {% endif %}
+    {% endfor %}
     </div>
   </section>
 </div>

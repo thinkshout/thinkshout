@@ -73,7 +73,7 @@ a.button.default {
     }
 	}
 }
-.expertise {
+.expertise-overview {
 	.hero-image {
 		background-image: url('../images/marquee/expertise.jpg');
 		@media screen and (max-width: $tablet) {
@@ -372,7 +372,28 @@ ul.client-list {
 }
 
 //
-// Expertise
+///Expertise items on Home Page
+//
+
+.expertise-home {
+  padding: 2em 0 0 0;
+
+  .row {
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 1em;
+  }
+}
+
+.expertise-home-item {
+  text-align: center;
+
+  p{
+    text-align: left;
+  }
+}
+
+//
+// Expertise Landing Page
 //
 .expertise-block {
 	padding: 4em 0;
@@ -387,22 +408,24 @@ ul.client-list {
     color: $brown;
     margin: 1em 0 0;
     padding: 0;
-    width: 50%;
     text-align: left;
-    float: left;
     
     @media screen and (max-width: $mobile) {
-     	float: none;
-      width: 100%;
       margin: 0 0;
     }
     
     li {
       list-style: none;
-      display: block;
+      display: inline-block;
+      width: 47%;
       margin-right: 1em;
       margin-bottom: 1em;
       border-bottom: solid 2px $beige;
+
+      @media screen and (max-width: $mobile) {
+        display: block;
+        width: 100%;
+      }
 
     }
   }
@@ -424,6 +447,28 @@ ul.client-list {
 .expertise-block:nth-child(even) {
   background-color: lighten($beige, 17%);
 } 
+
+//
+// Expertise Detail Pages
+//
+.expertise {
+  
+  .main ul {
+
+    li {
+        list-style: none;
+        font-weight: bold;
+    }
+    li:before {
+      content: "\e609";
+      color: $orange;
+      font-family: ts;
+      display: inline-block;
+      margin-left: -1.2em;
+      width: 1.4em;
+    }
+  }
+}
 
 
 //
@@ -715,7 +760,8 @@ ul.client-list {
 			font-size: 1em;
 		}
 		ul {
-			li {
+
+      li {
 				list-style: none;
 			}
 			li:before {

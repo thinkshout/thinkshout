@@ -43,6 +43,21 @@ keywords:
     </li>
   </ul>
 </div>
+<section class="expertise-home">
+ <div class="main">
+   <div class="row">
+     {% for page in site.pages %}
+     {% if page.layout == 'expertise' %}
+       <div class="expertise-home-item medium-6 columns">
+         <a href="{{ page.url }}" ><img class="icon" src="{{ site.baseurl }}/assets/images/{{ page.images.icon }}"></a>
+         <h4><a class="title" href="{{ page.url }}" >{{ page.title}}</a></h4>
+         <p>{{ page.blurb_short | markdownify }}</p>
+       </div>
+     {% endif %}
+     {% endfor %}
+   </div>
+ </div>
+</section>
 <section class="content-bottom blog most-recent">
   <div class="main">
     <div class="section-rubric">
