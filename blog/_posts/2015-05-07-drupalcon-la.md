@@ -23,7 +23,7 @@ The location for this year’s conference holds a special place in our hearts, a
 
 ##Exhibit Hall##
 
-We’re partnering with our friends MailChimp at booth 800. Stop by for some cool swag, to talk shop, and learn about the exciting work we’re doing porting the MailChimp module to Drupal 8. We’re also hiring for [several positions](http://thinkshout.com/careers/), so if you’d like to meet face tio face and get a better feel for what it would be like to join the ThinkShout team, come chat with us.
+We’re partnering with our friends MailChimp at booth 800. Stop by for some cool swag, to talk shop, and learn about the exciting work we’re doing porting the MailChimp module to Drupal 8. We’re also hiring for [several positions](http://thinkshout.com/careers/), so if you’d like to meet face to face and get a better feel for what it would be like to join the ThinkShout team, come chat with us.
 
 ##Official Sessions##
 
