@@ -440,8 +440,8 @@ ul.client-list {
   }
   
 }
-.expertise-block:last-child {
-  border-bottom: 0;
+.expertise-block:first-child {
+  padding-top: 0;
 }
 
 .expertise-block:nth-child(even) {
