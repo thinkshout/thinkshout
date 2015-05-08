@@ -7,7 +7,7 @@ leadin: |
   A Collaborative, Iterative Design Approach
 class: design
 images:
-  hero: work/oceanoutcomes/oceanoutcomes-hero.jpg
+  hero: marquee/design.jpg
   icon: expertise/icon-design.svg
 blurb: |
   Great design is driven by crisp information architecture and intuitive user experience. It speaks to your organization's mission and resonates with the motivations of your online audiences. We approach design collaboratively, beginning with an iterative discovery process centered on adaptive, mobile-first content. 
