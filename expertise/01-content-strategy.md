@@ -14,12 +14,12 @@ blurb: |
 blurb_short: |
   We build websites that inspire action. We help clients reach new audiences and engage more meaningfully with existing stakeholders.
 points: |
-  - Requirements gathering 
-  - Content strategy
-  - Online fundraising & campaigns 
-  - Web engagement metrics 
-  - Email and social marketing
-  - Content governance
+  - Requirements Gathering 
+  - Content Strategy
+  - Online Fundraising & Campaigns 
+  - Web Engagement Metrics 
+  - Email and Social Marketing
+  - Content Governance
 
 ---
 

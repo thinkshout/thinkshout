@@ -14,11 +14,11 @@ blurb: |
 blurb_short: |
   We approach design collaboratively, beginning with an iterative discovery process centered on adaptive, mobile-first content. 
 points: |
-  - User-centered design
-  - Information architecture
-  - Mobile-first wireframes
-  - Responsive design
-  - Usability testing 
+  - User-Centered Design
+  - Information Architecture
+  - Mobile-first Wireframes
+  - Responsive Design
+  - Usability Testing 
 
 ---
 
@@ -34,7 +34,7 @@ Good IA determines the ways these different structures relate to each other to c
 
 In addition to content structures and relationships, we work with our clients to create an overall framework for their content.
 
-* Site maps
+* Site Maps
 * Content Modeling
 * Taxonomies 
 * Page Tables
@@ -51,9 +51,7 @@ From the start, our process helps our clients understand the interconnections be
 * Responsive Wireframes
 * Usability Testing
 
-### Responsive, User-centered Design
-
-Visual aesthetic completes the success of a digital experience. Through clean design, pleasing typography, and bold imagery, we bring our clients’ content to life.
+### Responsive, User-Centered Design
 
 Visual aesthetic completes the success of a digital experience. Through clean design, pleasing typography, and bold imagery, we bring our clients’ content to life.
 

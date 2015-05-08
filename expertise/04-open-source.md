@@ -14,11 +14,11 @@ blurb: |
 blurb_short: |
   We are nationally recognized leaders in web application development for nonprofits. Geeks at heart, we love playing on the bleeding edge of web technology.
 points: |
-  - Drupal development 
-  - Association management solutions
-  - Peer-to-peer fundraising
-  - Event management and ticketing 
-  - Online mapping 
+  - Drupal Development 
+  - Association Management Solutions
+  - Peer-to-Peer Fundraising
+  - Event Management and Ticketing 
+  - Online Mapping 
 
 ---
 
@@ -39,19 +39,19 @@ ThinkShout is a recognized leader in Drupal development. When software companies
 
 It is this intimate knowledge of our clients that have driven some of our most significant contributions to the nonprofit open source space.
 
-### Association management solutions 
+### Association Management Solutions 
 
-RedHen, our Drupal-native CRM, was initially designed to meet common nonprofit needs. [Link to appropriate section of Engagement Management page.] It has classic CRM functionality for managing information about contacts, organizations, and their relationships between each other and our clients (like memberships). 
+RedHen, our Drupal-native CRM, was initially designed to meet [common nonprofit needs]({{site.baseurl}}/expertise/engagement-tools/). It has classic CRM functionality for managing information about contacts, organizations, and their relationships between each other and our clients (like memberships). 
 
-### Peer-to-peer fundraising
+### Peer-to-Peer Fundraising
 
 Built on top of RedHen, our donation management solution supports unlimited one-page donation forms tied directly to your payment processor (and CRM). We’ve extended that functionality to support a peer-to-peer fundraising system. RedHen Raiser is an open source solution that rivals commercial platforms like Razoo and Crowdrise in functionality.
 
-### Event management and ticketing
+### Event Management and Ticketing
 
 We know many nonprofits generate support and donations by holding events, so we wrote a module to bring that functionality into any Drupal-powered website. Entity Registration allows our clients to handle events registrations simply and flexibly. It not only allows for fee-based registrations, but can be extended to collect additional information along the way, like shoe-size for a bowling event.
 
-### Online mapping
+### Online Mapping
 
 Visualizing data helps our clients create meaning and engagement with their online audiences. By leveraging the Drupal “geo stack” of Leaflet and Geofield, we’ve helped nonprofits across the country better tell their stories.
 

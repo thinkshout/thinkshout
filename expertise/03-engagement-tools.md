@@ -10,11 +10,11 @@ images:
   hero: marquee/engagement-tools.jpg
   icon: expertise/icon-tools.svg
 blurb: |
-  Users experience nonprofits across channels, not departments. Every interaction is an opportunity to increase their engagement – or lose their support entirely. We help our clients break information out of silos and flow across their distributed third-party systems. We understand constituent management systems so well, we even developed our own. [Learn what RedHen CRM can do for you](http://redhencrm.com/).
+  Users experience nonprofits across channels, not departments. Every interaction is an opportunity to increase their engagement – or lose their support entirely. We help our clients break information out of silos and flow across their distributed third-party systems. We understand constituent management systems so well, we even developed our own.
 blurb_short: |
   Users experience nonprofits across channels, not departments. Every interaction is an opportunity to increase their engagement.
 points: |
-  - Constituent relationship management (CRM) 
+  - Constituent Relationship Management (CRM) 
   - Digital Experience Management
   - Salesforce and MailChimp Integration
   - Engagement Scoring
@@ -26,7 +26,7 @@ Site visitors expect more from nonprofit websites these days. They’ve been tra
 
 While nonprofit budgets can’t always compete, we help our clients leverage the power of open source to create immersive experiences for their constituents. In our hands, Drupal becomes a hub of engagement, pulling data from our clients’ CRMs and email lists to create experiences for end users that rival what they find on sites that cost far more.
 
-### Constituent relationship management (CRM)
+### Constituent Relationship Management (CRM)
 
 Every nonprofit needs a way to track interactions with its constituents – and this information needs to be available to multiple staff members, wherever they happen to be. If a volunteer coordinator meets a donor at an event, and that donor expresses an interest in becoming a sustainer, the appropriate person in the development department needs to know. By tracking the history of engagement with constituents, nonprofits can better serve their needs.
 
