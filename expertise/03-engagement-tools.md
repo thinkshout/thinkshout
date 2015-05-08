@@ -7,7 +7,7 @@ leadin: |
   Increase Engagement Across All Channels
 class: engagement-tools  
 images:
-  hero: work/oceanoutcomes/oceanoutcomes-hero.jpg
+  hero: marquee/engagement-tools.jpg
   icon: expertise/icon-tools.svg
 blurb: |
   Users experience nonprofits across channels, not departments. Every interaction is an opportunity to increase their engagement – or lose their support entirely. We help our clients break information out of silos and flow across their distributed third-party systems. We understand constituent management systems so well, we even developed our own. Learn what RedHen CRM can do for you.

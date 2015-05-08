@@ -7,7 +7,7 @@ leadin: |
   Unwavering Commitment To Open Source Excellence 
 class: open-source 
 images:
-  hero: work/oceanoutcomes/oceanoutcomes-hero.jpg
+  hero: marquee/open-source.jpg
   icon: expertise/icon-open-source.svg
 blurb: |
   We are nationally recognized leaders in web application development for nonprofits. Geeks at heart, we love playing on the bleeding edge of web technology, which also happens to ensure we're adding the most possible value to our clients. One thing we don't waver on is our commitment to engineering excellence and open source, as demonstrated by the more than 50,000 websites running on our contributions. 
