@@ -44,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
   span {
     background: #FFF;
     padding: 0.5em 1em;
+    display: inline-block;
     border: 3px double $brown;
   }
 }
