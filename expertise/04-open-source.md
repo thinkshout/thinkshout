@@ -20,8 +20,6 @@ points: |
   - Event management and ticketing 
   - Online mapping 
 
- 
-
 ---
 
 Over the last 15 years or so, we’ve seen consistent growth in nonprofits’ appreciation for how open source tools can support their goals for online engagement. The immediate benefits of implementing an open source solution are clear: 
@@ -43,7 +41,7 @@ It is this intimate knowledge of our clients that have driven some of our most s
 
 ### Association management solutions 
 
-RedHen, our Drupal-native CRM was initially designed to meet common nonprofit needs. It has classic CRM functionality for managing information about contacts, organizations, and their relationships between each other and our clients (like memberships). 
+RedHen, our Drupal-native CRM, was initially designed to meet common nonprofit needs. [Link to appropriate section of Engagement Management page.] It has classic CRM functionality for managing information about contacts, organizations, and their relationships between each other and our clients (like memberships). 
 
 ### Peer-to-peer fundraising
 
@@ -55,7 +53,9 @@ We know many nonprofits generate support and donations by holding events, so we 
 
 ### Online mapping
 
-Visualizing data helps our clients create meaning and engagement with their online audiences. By leveraging the Drupal “geo stack” of Leaflet [LINK TO PROJECT] and Geofield, we’ve helped nonprofits across the country better tell their stories.
+Visualizing data helps our clients create meaning and engagement with their online audiences. By leveraging the Drupal “geo stack” of Leaflet and Geofield, we’ve helped nonprofits across the country better tell their stories.
 
-But we haven’t stopped there. The full list of our contributions demonstrates our commitment to open source software that supports the needs of nonprofits.
+But we haven’t stopped there. The full list of our contributions demonstrates our commitment to open source software that supports the needs of nonprofits. [Check out our full list of open source contributions.]({{site.baseurl}}/expertise/open-source-contributions/)
+
+
 

@@ -14,12 +14,12 @@ blurb: |
 blurb_short: |
   We build websites that inspire action. We help clients reach new audiences and engage more meaningfully with existing stakeholders.
 points: |
-  - Requirements gathering
-  - Content development
-  - Online fundraising & campaigns
+  - Requirements gathering 
+  - Content strategy
+  - Online fundraising & campaigns 
+  - Web engagement metrics 
+  - Email and social marketing
   - Content governance
-  - Web engagement metrics
-  - Email and social marketing 
 
 ---
 
@@ -39,7 +39,7 @@ We’ve developed and refined a set of practices that not only define and codify
 
 We start with the data. Analytics data allows us to begin shaping an understanding of what our clients’ online visitors want, and the devices they’re using to access it. 
 
-Our analysis is centered on the concept of “desire paths.” Recognizing that people want to take the shortest path to meet their own needs allows us to identify gaps and potential improvements in the information architecture of a site, even as we collect the data that will inform our later understanding of your online audiences. 
+Our analysis is centered on the concept of “[desire paths](http://thinkshout.com/blog/2014/04/desire-paths/).” Recognizing that people want to take the shortest path to meet their own needs allows us to identify gaps and potential improvements in the information architecture of a site, even as we collect the data that will inform our later understanding of your online audiences. 
 
 This initial work is foundational to the metrics and evaluation work done over the course of our projects – both to define what success looks like and to provide clear guidance on how to make and test incremental improvements over time.
 
@@ -59,14 +59,14 @@ Through a series of structured activities and discussions, we curate a mutual un
 Our Discovery process is tailored to meet the needs of each unique client.
 
 * Audience Definition & Prioritization
-* Personas & User Paths
+* Personas
 * Organizational Goals Development
 * Cores and Paths
 
 
 ### Email, Social Marketing, and Content Governance
 
-Nonprofits cannot consider content strategy as solely the provenance of the website. The strategy work we do with our clients informs all of the content they generate, from blog posts to tweets to direct mail appeals. Content strategy, at its best, reinforces and extends organizational branding.
+The strategy work we do with our clients informs all of the content they generate, from blog posts to tweets to direct mail appeals. Content strategy, at its best, reinforces and extends organizational branding.
 
 We work with our clients to create cohesive messaging architectures across channels, in particular by creating a content governance plan codifying the process of creating, editing, approving, and getting content out into the appropriate channels.
 
@@ -80,7 +80,7 @@ We work with our clients to create cohesive messaging architectures across chann
 
 Rare is the nonprofit website that convinces a visitor to donate the first time they encounter it. Donor cultivation is part art, part science, part perseverance – but dependant on great content. We work with our clients to develop the strategies and tactics that will make their fundraising more effective.
 
-From segmented welcome series to drip campaigns to direct mail appeals, we’ve helped dozens of organizations improve their fundraising capacity by keeping focus on the needs of the donors, using every available channel to deliver the compelling content within the framework of their overarching content strategy.
+From segmented welcome series to drip campaigns to direct mail appeals, we’ve helped dozens of organizations improve their fundraising capacity by keeping the focus on the needs of the donors, using every available channel to deliver the compelling content within the framework of their overarching content strategy.
 
 * Cross-channel Marketing
 * Content Development
