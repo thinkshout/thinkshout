@@ -1,7 +1,8 @@
 ---
 layout: post
 published: false
-featured: false
+featured: true
+author: amy
 ---
 
 It’s the last day of DrupalCon LA and after a long week of sessions, getting to know fellow Drupalistas, and partying till the wee hours, I mustered what little brainpower I had left and made my way to the "First Timer’s Sprint". Joined by my ThinkShout colleagues, Joe and Nancy, we arrived with beautiful visions of giving back to our community by contributing in some capacity to Drupal 8 core. And so it begins…
