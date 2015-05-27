@@ -1,21 +1,20 @@
 ---
-title: A Little Bit Goes a Long Way - Committing to D8 Core
+title: Committing to D8 Core - A Little Bit Goes a Long Way 
 layout: post
 author: amy
 published: true
 featured: true
 short: |
-  Adding data integrity and other enterprise features to the Drupal-Salesforce integration.
+  The story of one ThinkShouter's first commit to D8 core at DrupalCon Los Angeles
 tags:
 - Drupal 8
 - Drupal Planet
 - Open Source
-- Nonprofit Tech
 - Team Sprints
 - Drupal
 - Drupal Community
 - DrupalCon LA
-date: 2015-05-27 13:00:00
+date: 2015-05-27 14:00:00
 ---
 
 It was the last day of DrupalCon LA and after a long week of sessions, getting to know fellow Drupalistas, and partying till the wee hours, I mustered what little brainpower I had left and made my way to the "First Timer’s Sprint." Joined by my ThinkShout colleagues, Joe and Nancy, we arrived with beautiful visions of giving back to our community by contributing in some capacity to Drupal 8 core. And so it begins…
