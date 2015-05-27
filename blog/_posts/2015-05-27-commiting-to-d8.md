@@ -2,8 +2,8 @@
 title: A Little Bit Goes a Long Way - Committing to D8 Core
 layout: post
 author: amy
-published: false
-featured: false
+published: true
+featured: true
 short: |
   Adding data integrity and other enterprise features to the Drupal-Salesforce integration.
 tags:
