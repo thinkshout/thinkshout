@@ -23,8 +23,6 @@ After that was said and done, I went back to the issue queue feeling a tad more 
 
 Everything happened rather quickly, which was surprising considering how long it takes to get an average issue through the complete process. Here’s how it went down: There was an issue. A dev in another sprinting room was asked to write a patch. Another dev revised the patch by improving it slightly, and it was then passed to our table to go through the review process. A dev evaluation was put forth, then the issue was passed back for additional review. Finally, it was submitted to be pushed into core.
 
-![image alt text](image_1.jpg)
-
 This was my first DrupalCon and, little did I know, they have a very important tradition - every DrupalCon sprint ends with a live commit by Dries, the founder of Drupal. Our team was lucky enough to be part of this ritual! So, after a full week of delightful Drupal-related shenanigans, I found myself on stage pressing the enter key on Dries’ computer to push our commit to D8 core. The button was pushed and the explosion of celebration and cheers from the audience was nearly deafening. 
 
 In this moment, I truly witnessed the heart of the Drupal community in action - this amazing tool could not exist without a number of developers carefully crafting code in accordance with Drupal best practices, and countless generous individuals attentively reviewing the proposed changes. It really does take a village, and the good news is that it doesn’t require being a coding genius to help out.  
