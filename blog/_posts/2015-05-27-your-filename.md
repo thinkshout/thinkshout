@@ -2,28 +2,10 @@
 layout: post
 published: false
 featured: false
+author: amy
 ---
 
----
-layout: post
-title: "A Little Bit Goes a Long Way - Commiting to D8 Core"
-layout: post
-author: amy
-published: false
-featured: true
-short: 
-  -| "We're ready for some Drupal fun in the sun.\n".
-  - "We're ready for some Drupal fun in the sun."
-tags: 
-  - Drupal Planet
-  - Open Source
-  - MailChimp
-  - Events
-  - Drupal
-  - Drupal Community
-  - DrupalCon
-date: 2015-05-27
----
+
 
 ##A Little Bit Really Can Go A Long Way##
 
