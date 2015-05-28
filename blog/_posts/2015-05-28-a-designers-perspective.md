@@ -42,7 +42,7 @@ Here are some other design and UX trends from this year’s DrupalCon:
 
 3. **Longform Storytelling is the new black.** As Drupal shifts its focus towards publishing and news, content creators are embracing [rich longform articles and stories](https://events.drupal.org/losangeles2015/sessions/styles-storytelling-cultivating-compelling-long-form-content). According to [Kristina Bjoran](https://twitter.com/Bjoran_Identity) and [Courtney Clark](https://twitter.com/circlish) of Forum One, "People generally learn more and remember more when more of their senses are engaged by a story. Stories that include images get about twice the engagement as text-only stories. Stories told with visual elements are instantly captivating. The more senses that are engaged, the more emotions will be engaged and the more memorable the experience will be." We are including longform content features in many of our new client’s websites at ThinkShout, and it was really great to hear how other industry leaders do it successfully as well. 
 
-## Overall, This Was a Great Year for Design at DrupalCon LA.
+## Design, Drupal, and the Future
  
 
 Each year, the Drupal Association puts more thought into diversifying the session lineup, and it shows. There was a very conscious effort to get more design and UX content, as well as speakers from diverse experiences and backgrounds. To that, I say "Huzzah!" As someone who’s been designing Drupal sites for many years now, it’s great to see the design process being treated as more than just “making it look pretty.” Design and UX is now a core component of DrupalCon, and I’m proud to have helped along the way. 
