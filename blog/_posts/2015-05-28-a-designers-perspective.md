@@ -2,8 +2,8 @@
 title: DrupalCon LA - A Designer's Perspective
 layout: post
 author: josh
-published: false
-featured: false
+published: true
+featured: true
 short: |
   Design and UX at DrupalCon LA
 tags:
