@@ -73,7 +73,7 @@ a.button.default {
     }
 	}
 }
-.expertise {
+.expertise-overview {
 	.hero-image {
 		background-image: url('../images/marquee/expertise.jpg');
 		@media screen and (max-width: $tablet) {
@@ -372,37 +372,108 @@ ul.client-list {
 }
 
 //
-// Expertise
+///Expertise items on Home Page
 //
-.expertise {
-	margin-bottom: 5em;
+
+.expertise-home {
+  padding: 2em 0 0 0;
+
+  .row {
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 1em;
+  }
+
+  .section-rubric {
+    top: 0;
+  }
+}
+
+.expertise-home-item {
+  text-align: center;
+
+  p{
+    text-align: left;
+  }
+}
+
+//
+// Expertise Landing Page
+//
+.expertise-block {
+	padding: 4em 0;
 	display: block;
 	overflow: hidden;
+  text-align: center;
+
   ul {
     font-size: 0.875em;
     font-style: italic;
+    font-weight: bold;
     color: $brown;
     margin: 1em 0 0;
     padding: 0;
-    width: 46%;
-    float: left;
+    text-align: left;
+    
     @media screen and (max-width: $mobile) {
-     	float: none;
-      width: 100%;
       margin: 0 0;
     }
+    
     li {
       list-style: none;
-      display: block;
+      display: inline-block;
+      width: 47%;
       margin-right: 1em;
-      margin-bottom: .3em;
+      margin-bottom: 1em;
+      border-bottom: solid 2px $beige;
+
+      @media screen and (max-width: $mobile) {
+        display: block;
+        width: 100%;
+      }
+
     }
   }
-  ul:nth-child(2) { }
+
+  p {
+    text-align: left;
+  }
+
+  .button.default {
+    clear: both;
+    margin: 2em 0 0 0; 
+  }
+  
 }
-.expertise:last-child {
-  border-bottom: 0;
+.expertise-block:first-child {
+  padding-top: 0;
 }
+
+.expertise-block:nth-child(even) {
+  background-color: lighten($beige, 17%);
+} 
+
+//
+// Expertise Detail Pages
+//
+.expertise {
+  
+  .main ul {
+
+    li {
+        list-style: none;
+        font-weight: bold;
+    }
+    li:before {
+      content: "\e609";
+      color: $orange;
+      font-family: ts;
+      display: inline-block;
+      margin-left: -1.2em;
+      width: 1.4em;
+    }
+  }
+}
+
 
 //
 // Blog
@@ -693,7 +764,8 @@ ul.client-list {
 			font-size: 1em;
 		}
 		ul {
-			li {
+
+      li {
 				list-style: none;
 			}
 			li:before {

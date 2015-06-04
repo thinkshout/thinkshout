@@ -13,7 +13,7 @@ Senior Software Engineers at ThinkShout are responsible for the technical archit
 * Two years of experience developing with Drupal.
 * Three years of experience working with other open source frameworks.
 * You can leverage dev ops, continuous integration, and services such as TraviS CI to craft development and deployment workflows.
-* You understand that technical architecture involves bridging the gap between real world problems the technology that solves them.
+* You understand that technical architecture involves bridging the gap between real world problems and the technology that solves them.
 * You have an interest in working with new, emergent web technologies and concepts, such as decoupled apps.
 * You're a self-starter; you care about your development tools; you stay on top of new technologies and development best practices.
 * You don't mind spending time in the programming trenches.

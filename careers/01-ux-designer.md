@@ -8,7 +8,7 @@ active: true
 We are looking for a User Experience Designer who thrives in crafting elegant solutions to meet the needs of end users while keeping our clients’ goals firmly in mind. If you love solving complex problems within a team environment, we want to hear from you. Experience in usability testing, content strategy, front-end development, and agile processes is also desired.
 
 ## Key Responsibilities
-This job requires some specific skills, but we're also looking for someone who's passionate about the web in general and user experience particular.
+This job requires some specific skills, but we're also looking for someone who's passionate about the web in general and user experience in particular.
 
 - Creating the user experience design for client websites, from kickoff to requirements gathering and research to the development of information architecture, wireframes, and final designs.
 - Clearly articulating and presenting your recommendations to clients.
@@ -29,6 +29,7 @@ This job requires some specific skills, but we're also looking for someone who's
 - Experience collaborating with others and working in small teams.
 - Outstanding writing and presentation skills.
 - Experience working with nonprofits is a definite plus, as is a passion for using technology to create social change.
+- Ability to work onsite at our Portland, OR office.
 
 ## Compensation Package
 - A competitive salary.
