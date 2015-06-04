@@ -11,10 +11,9 @@ breakpoints:
   desktop: work/coloradotrust/coloradotrust-chrome.jpg
   tablet: work/coloradotrust/coloradotrust-ipad.jpg
   mobile: work/coloradotrust/coloradotrust-iphone.jpg
-client: |
-  
+client: | The Colorado Trust is a health foundation dedicated to ending inequalities that affect racial, ethnic, low-income and other vulnerable populations. The Trust came to us seeking to serve its constituents more effectively across geographic, socioeconomic, and technological divides.
 
-projecturl: 
+projecturl: http://www.coloradotrust.org/
 expertise: |
   - 
 components:
