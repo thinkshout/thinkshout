@@ -34,6 +34,6 @@ components:
 results:
   narrative:
     
-featured: true
-published: true
+featured: false
+published: false
 ---
