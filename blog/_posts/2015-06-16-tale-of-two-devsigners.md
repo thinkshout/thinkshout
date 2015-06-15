@@ -17,7 +17,6 @@ tags:
 date: 2015-06-16 13:00:00
 ---
 
-
 It’s June, which means [Devsigner](http://www.devsignercon.com/) is just around the corner so, naturally, we’ve got design on the brain. What’s Devsigner? Well, I’m glad you asked. Devsigner is a conference held here in the Pacific Northwest geared towards front end developers and development-minded designers. Sessions focus on the relationship between design and web development, bridging the gap that separates the design from the code. The math looks like this: developer + designer = devsigner. 
 
 ThinkShout’s own devsigners [Josh Riggs](http://thinkshout.com/team/josh/) (User Experience Lead) and [Eric Paxton](http://thinkshout.com/team/eric/) (Front End Engineer), will be speaking at this conference at the end of the month. I sat down with Josh and Eric to learn a little bit more about their design process, and how we work with our nonprofit clients to ensure that their sites don’t just work, but that they also deliver a fantastic user experience.*
@@ -35,7 +34,7 @@ ThinkShout’s own devsigners [Josh Riggs](http://thinkshout.com/team/josh/) (Us
 
 **Eric**: [The SPLC (Southern Poverty Law Center) microsite](http://selma.splcenter.org/). I thought that was very well done. Josh did a lot of the front end work on that and I came in and did the site optimization, which is what I’ll be talking about at Devsigner. I thought that went really smoothly because at that time, all the work he’d done in the browser went directly to implementation. We were able to take exactly what he’d designed and [just build off of ](http://thinkshout.com/blog/2015/03/media-optimization-with-splc/)[it](http://thinkshout.com/blog/2015/03/media-optimization-with-splc/).
 
-![image alt text](image_0.png)
+![devsigner_1](devsigner_0.png)
 
 **_Can you talk a little bit about what the design process for the SPLC microsite was like, Josh?_**
 
@@ -43,7 +42,7 @@ ThinkShout’s own devsigners [Josh Riggs](http://thinkshout.com/team/josh/) (Us
 
 A lot of that meant working with their team to define their content needs, like what the site was supposed to do. I began with basic wireframes in [Sketch](http://bohemiancoding.com/sketch/), and uploaded them into [Invision](http://www.invisionapp.com) to give them interactivity. As SPLC came up with more fidelity to what their needs were, we solidified the visual designs. Luckily, they already had a lot of assets that their really great internal design team had created for the movie, so I was able to go off of that style. I took their visual style and applied it to the wireframes and at that point, I went to Eric for a consultation and said, "Ok, if we’re going to build this in [Jekyll](http://thinkshout.com/blog/2014/10/success-building-cmsless-production-sites-with-jekyll/), what’s the best way to do this as far as the architecture goes?" Eric was a huge help in regards to file structure. He wrote a great rake script to automate all the Jekyll, Sass, and Javascript components. That’s when I jumped in and rebuilt what I’d done in Sketch, and added more fidelity with HTML and Sass. I then passed it onto to Eric so he could do his unicorn magic.
 
-![image alt text](image_1.png)
+![devsigner_1](devsigner_1.png)
 
 **Eric**: And that’s a nice part about where our skills overlap: we can get closer to what we want. He’s a better designer than I am. My strengths lie in the code. I’ve designed when I had to, but it’s not my forte, so it’s nice to have Josh’s expertise. So these skill sets compliment each other. I feel comfortable handing over my implementation over to design and saying, "Hey, can you polish the nav? Or the design?" Things like that.
 
@@ -51,7 +50,7 @@ A lot of that meant working with their team to define their content needs, like 
 
 **Eric**: I think [flat design](https://en.wikipedia.org/wiki/Flat_design) is getting boring. I’m starting to see a little bit more texture in the things we’ve done. Like patterns, not just flat design for the sake of flat design. There’s texture strategically used to make things look better. For instance, in the [Capital Area Food Bank of Texas](https://www.austinfoodbank.org/) site, there’s a bit of a pattern in the footer. It’s not just a flat blue background with text. I really like patterns that are used to call out different sections of a design. It adds to it and brings something out of the page. It used to just be that admin interfaces were this flat. But now everything reflects that. Lots of rectangles. I personally like shapes and textures and patterns.
 
-![image alt text](image_2.png)
+![devsigner_2](devsigner_2.png)
 
 **Josh**:  It’s tricky to know when to add life to what’s a very flat trend right now. I come from the old school world of webdesign, which was about how cool can you make your shadows look in Photoshop, how three-dimensional can you make things appear. Now that’s kind of like wearing skinny jeans in the late nineties, when you wouldn’t be caught dead wearing them. Or neon colors. So I think what’s happening is that it’s not *just* that flat design is popular. If you look at other design mediums, like automotive or architecture, there’s a phase with extreme ornate elements. You know, crazy fins, details, lights, every car had a custom badge. All that stuff. And then you have the modern era after that where everything gets streamlined and simplified. It’s more about the function over the form, and the function drives the form. You see the opposite in the Victorian era. Go walk along the St. Johns bridge and look up at a lamp. You’ll see these ornate, twisted little embellishments along the lamps. But the purpose of a lamp is to provide light. Those embellishments do nothing to support the function. They’re just there to make it look pretty. 
 
