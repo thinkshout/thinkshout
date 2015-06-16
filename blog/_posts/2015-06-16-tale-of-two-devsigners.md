@@ -45,7 +45,7 @@ A lot of that meant working with their team to define their content needs. I beg
 
 ![devsigner_1](/assets/images/blog/devsigner_1.png)
 
-**Eric**: And that’s a nice part about where our skills overlap: we can get closer to what we want. He’s a better designer than I am. My strengths lie in the code. I’ve designed when I had to, but it’s not my forte, so it’s nice to have Josh’s expertise. So these skill sets compliment each other. I feel comfortable handing over my implementation over to design and saying, "Hey, can you polish the nav? Or the design?" Things like that.
+**Eric**: And that’s a nice part about where our skills overlap: we can get closer to what we want. He’s a better designer than I am. My strengths lie in the code. I’ve designed when I had to, but it’s not my forte, so it’s nice to have Josh’s expertise. So these skill sets compliment each other. I feel comfortable handing over my implementation to design and saying, "Hey, can you polish the nav? Or the design?" Things like that.
 
 **_What design trends do you see now that you want to see more of?_**
 
