@@ -47,7 +47,7 @@ A lot of that meant working with their team to define their content needs. I beg
 
 **Eric**: And that’s a nice part about where our skills overlap: we can get closer to what we want. He’s a better designer than I am. My strengths lie in the code. I’ve designed when I had to, but it’s not my forte, so it’s nice to have Josh’s expertise. So these skill sets compliment each other. I feel comfortable handing over my implementation to design and saying, "Hey, can you polish the nav? Or the design?" Things like that.
 
-**_What design trends do you see now that you want to see more of?_**
+**_What design trends do you want to see more of? Or less of?_**
 
 **Eric**: I think [flat design](https://en.wikipedia.org/wiki/Flat_design) is getting boring. I’m starting to see a little bit more texture in the things we’ve done. Like patterns, not just flat design for the sake of flat design. There’s texture strategically used to make things look better. For instance, in the [Capital Area Food Bank of Texas](https://www.austinfoodbank.org/) site, there’s a bit of a pattern in the footer. It’s not just a flat blue background with text. I really like patterns that are used to call out different sections of a design. It adds to it and brings something out of the page. It used to just be that admin interfaces were this flat. But now everything reflects that. Lots of rectangles. I personally like shapes and textures and patterns.
 
