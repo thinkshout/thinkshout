@@ -16,7 +16,7 @@ tags:
 - Jekyll
 - Devsigner
 - Drupal Planet
-date: 2015-06-16 12:00:00
+date: 2015-06-16 15:30:00
 ---
 
 It’s June, which means [Devsigner](http://www.devsignercon.com/) is just around the corner so, naturally, we’ve got design on the brain. What’s Devsigner? Well, I’m glad you asked. Devsigner is a conference held here in the Pacific Northwest geared towards front end developers and development-minded designers. Sessions focus on the relationship between design and web development, bridging the gap that separates the design from the code. The math looks like this: developer + designer = devsigner. 
