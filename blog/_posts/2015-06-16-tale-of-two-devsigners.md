@@ -2,8 +2,8 @@
 title: A Tale of Two Devsigners
 layout: post
 author: stephanie
-published: false
-featured: false
+published: true
+featured: true
 short: |
   Stephanie sits down with our design team to talk trends, projects, and Devsigner
 tags:
