@@ -35,9 +35,9 @@ components:
     column1: | 
       For this redesign, our team pioneered ["Desire Paths Analysis,"](/blog/category/desire-paths/) as part of a larger rethinking of how we approach requirements gathering and discovery. In 2014, we shifted our discovery process to focus on __measurement__ with the mantra: "If you can't measure the impact of changing something on your website, don't do it."
 
-      The results of this adjustment to our approach have been dramatic, and overwhelmingly positive in the case of this website redesign. In the month months following The Colorado Trust's website relaunch, overall page views on the site increased by 53% over the same period the previous year. The site's bounce rate dropped by 11%, and the duration of site visits increased by 76%. The results of this redesign were even more stunning with respect to mobile traffic, where session duration increased by 111%.
+      The results of this adjustment to our approach have been dramatic, and overwhelmingly positive in the case of this website redesign. In the months following The Colorado Trust's website relaunch, overall page views on the site increased by 53% over the same period the previous year. The site's bounce rate dropped by 11%, and the duration of site visits increased by 76%. The results of this redesign were even more stunning with respect to mobile traffic, where session duration increased by 111%.
 
-      We couldn't be more happy knowing, in measurable terms, that the UX improvements we suggested for the site have had such impact. Of course, the fact that we were able to drop the average page load time by 41% has helped the site as well. Overall, we are incredibly proud of our team's collaboration on this project with the Trust's communications team. We encourage you to experience [The Colorado Trust's new site](http://www.coloradotrust.org) for yourself.
+      We couldn't be more happy knowing, in measurable terms, that the UX improvements we suggested for the site have had such an impact. Of course, the fact that we were able to drop the average page load time by 41% has helped the site as well. Overall, we are incredibly proud of our team's collaboration on this project with the Trust's communications team. We encourage you to experience [The Colorado Trust's new site](http://www.coloradotrust.org) for yourself.
 
     column2: 
 results:
