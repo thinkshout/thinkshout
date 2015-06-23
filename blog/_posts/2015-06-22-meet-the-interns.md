@@ -20,7 +20,7 @@ We are thrilled to introduce ThinkShout’s very first interns! In partnership w
 
 Without further ado, meet our interns!
 
-##Daniel Troader##
+##Daniel Toader##
 
 ![daniel.jpg](/assets/images/blog/interns_1.jpg)
 
