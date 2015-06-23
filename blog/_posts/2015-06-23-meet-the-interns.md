@@ -34,7 +34,7 @@ Favorite word: Supercalifragilisticexpialidocious
 
 ![bojana.jpg](/assets/images/blog/interns_2.jpg)
 
-Bojana comes to us with a background as a public librarian. She’s an Americorp grad with a passion for technology, especially when it’s used for social good. She turned to Epicodus when she decided she wanted to pursue a career in web development development. Front end development is her forte, and she dreams of one day building data-driven websites. She loves Drupal and is looking forward to getting more involved with the community.
+Bojana comes to us with a background as a public librarian. She’s an Americorp grad with a passion for technology, especially when it’s used for social good. She turned to Epicodus when she decided she wanted to pursue a career in web development. Front end development is her forte, and she dreams of one day building data-driven websites. She loves Drupal and is looking forward to getting more involved with the community.
 
 Favorite mythical creature: Griffin
 
