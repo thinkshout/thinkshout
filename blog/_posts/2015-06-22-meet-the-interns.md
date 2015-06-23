@@ -16,7 +16,7 @@ date: 2015-06-23 15:30:00
 
 ![interns.jpg](/assets/images/blog/interns_0.jpg)
 
-We are thrilled to introduce ThinkShout’s very first interns! In partnership with the Drupal Association, we will be working with two graduates of [Epicodus’](http://www.epicodus.com/) first [PHP class](http://www.epicodus.com/php/), Daniel Toader and Bojana Skarich. We’re very excited to welcome them to our offices, and the Drupal Community. They'll both be spending at the [Drupal Association's](https://assoc.drupal.org/) headquarters as well as ours.
+We are thrilled to introduce ThinkShout’s very first interns! In partnership with the Drupal Association, we will be working with two graduates of [Epicodus’](http://www.epicodus.com/) first [PHP class](http://www.epicodus.com/php/), Daniel Toader and Bojana Skarich. We’re very excited to welcome them to our offices, and the Drupal Community. They'll both be spending time at the [Drupal Association's](https://assoc.drupal.org/) headquarters as well as ours.
 
 Without further ado, meet our interns!
 
