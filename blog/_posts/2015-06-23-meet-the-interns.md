@@ -2,16 +2,16 @@
 title: Introducing the ThinkShout Interns
 layout: post
 author: stephanie
-published: false
-featured: false
+published: true
+featured: true
 short: |
   Meet ThinkShout and the Drupal Association's interns!
 tags:
-- Interns
+- Internships
 - Drupal Planet
 - Epicodus
 - Drupal Association
-date: 2015-06-23 15:30:00
+date: 2015-06-23 14:00:00
 ---
 
 ![interns.jpg](/assets/images/blog/interns_0.jpg)
