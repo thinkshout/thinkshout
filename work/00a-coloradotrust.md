@@ -39,7 +39,7 @@ components:
 
       We couldn't be more happy knowing, in measurable terms, that the UX improvements we suggested for the site have had such impact. Of course, the fact that we were able to drop the average page load time by 41% has helped the site as well. Overall, we are incredibly proud of our team's collaboration on this project with the Trust's communications team.
 
-    column2: work/coloradotrust/desire-path.jpg
+    column2: 
 results:
   narrative:
     
