@@ -28,8 +28,6 @@ Daniel worked previously as a systems analyst for Microsoft and an insurance com
 
 Favorite snack: Pretzels and beer.
 
-Preferred superpower: The power to make biscuits anywhere
-
 Favorite word: Supercalifragilisticexpialidocious
 
 ##Bojana Skarich##
@@ -39,8 +37,6 @@ Favorite word: Supercalifragilisticexpialidocious
 Bojana comes to us with a background as a public librarian. She’s an Americorp grad with a passion for technology, especially when it’s used for social good. She turned to Epicodus when she decided she wanted to pursue a career in web development development. Front end development is her forte, and she dreams of one day building data-driven websites. She loves Drupal and is looking forward to getting more involved with the community.
 
 Favorite mythical creature: Griffin
-
-Dream girl-band name: "The Push-Ups"
 
 Favorite tree: Silver birch
 
