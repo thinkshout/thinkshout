@@ -2,7 +2,7 @@
 layout: project
 shortname: The Colorado Trust
 title: |
-  Reinvisioning The Colorado Trust
+  Re-envisioning The Colorado Trust
 permalink: work/coloradotrust/
 images:
   card: work/coloradotrust/coloradotrust-card.jpg
