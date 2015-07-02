@@ -2,8 +2,8 @@
 title: How to Deal with a Small Design Budget
 layout: post
 author: josh
-published: false
-featured: false
+published: true
+featured: true
 short: |
   A Designer's guide to working with project limitations
 tags:
@@ -11,7 +11,7 @@ tags:
 - User Experience
 - InVision
 - Responsive Design
-date: 2015-07-02 12:00:00
+date: 2015-07-02 13:30:00
 ---
 
 *Originally Published by [InVision](http://blog.invisionapp.com/small-design-budget/) on July 2, 2015*
