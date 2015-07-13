@@ -7,7 +7,7 @@ active: true
 ---
 ThinkShout is a leading design, strategy and web development team located in Portland, OR. We envision digital technology and strategy that create positive change in the world. We craft compelling open source engagement solutions for forward-thinking organizations.
 
-We are seeking a senior digital strategist to join our Discovery, Strategy, and User Experience team. The ideal candidate has a proven track record helping national nonprofits manage digital campaigns and online fundraising initiatives. The strategist will work alongside both our user experience designers and our engineering team to create beautiful, carefully crafted digital experiences that enable our clients to engage more meaningfully with their 
+We are seeking a senior digital strategist to join our Discovery, Strategy, and User Experience team. The ideal candidate has a proven track record helping national nonprofits manage digital campaigns and online fundraising initiatives. The strategist will work alongside both our user experience designers and our engineering team to create beautiful, carefully crafted digital experiences that enable our clients to engage more meaningfully with their constituents.  
 
 ## Key Responsibilities
 
