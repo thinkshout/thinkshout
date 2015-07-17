@@ -325,7 +325,7 @@
     small: team/small/greg.jpg
     medium: team/medium/greg.jpg
     large: team/large/greg.jpg
-  published: false
+  published: true
   name: greg
   bio: |
     Greg’s lack of a fancy phone isn’t indicative of his feelings about modern technology. He got his start in web development in as an entrepreneur, focusing on web consulting, hosting, and product development. He has a Master’s degree in Information Technology and Management, and is primarily focused on open source software. He’s been heavily involved in the Drupal community and spent the last several years building large scale, high performance Drupal sites. According to Greg, one of his greatest achievements was the commit of his very first Drupal 8 patch. We have to agree - that’s kind of a big deal. When he’s not speaking at local Drupal events, or building the next big site, he’s trying to convince himself that he likes chamomile tea. 120 cups in and he’s still not sure if it’ll ever be a taste he acquires. He’s also an avid bicyclist and especially enjoys riding through Portland’s very freak blizzards.
