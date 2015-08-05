@@ -5,7 +5,7 @@ author: stephanie
 published: true
 featured: true
 short: |
-  We put our heads together to tackle the Entity Registration module
+  We put our heads together to tackle the Entity Registration module.
 tags:
 - Drupal
 - Drupal Planet
