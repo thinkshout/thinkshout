@@ -1,10 +1,4 @@
 ---
-layout: post
-published: false
-featured: false
----
-
----
 title: "Sprinting on Entity Registration"
 layout: post
 author: stephanie
