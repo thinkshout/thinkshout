@@ -18,7 +18,7 @@ tags:
 date: 2015-08-05
 ---
 
-We started engaging in monthly sprints in order to pool our resources and give back to the open source community. We’re committed to maintaining our contributions that Drupal users rely upon - heck, we rely on them, too - and we owe it to this community to keep improving upon them. Not only that, but our own internal community here at ThinkShout grows as a result. There’s a camaraderie that develops when we all rally behind one cause, and it shows after every sprint in the way we collaborate on our projects.
+We started hosting monthly sprints in order to pool our resources and give back to the open source community. We’re committed to maintaining our contributions that Drupal users rely upon - heck, we rely on them, too - and we owe it to this community to keep improving upon them. Not only that, but our own internal community here at ThinkShout grows as a result. There’s a camaraderie that develops when we all rally behind one cause, and it shows after every sprint in the way we collaborate on our projects.
 
 This month, we focused on one of our most widely-adopted Drupal modules: [Entity Registration](https://www.drupal.org/project/registration). 
 
