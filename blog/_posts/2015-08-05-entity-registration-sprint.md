@@ -2,10 +2,10 @@
 title: "Sprinting on Entity Registration"
 layout: post
 author: stephanie
-published: false
-featured: false
+published: true
+featured: true
 short: |
-  The gang teams up to tackle our Entity Registration module
+  We put our heads together to tackle the Entity Registration module
 tags:
 - Drupal
 - Drupal Planet
