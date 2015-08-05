@@ -54,5 +54,5 @@ Team one resolved over twenty issues in the queue and triaged nearly double that
 
 **Jaymz**: We really appreciate the support from the community, and we owe a lot of this module’s success to their contributions. It takes a village sometimes, or in this case, a team sprint, and Entity Registration is proof of that.
 
-*There are a lot of exciting things in the works for Registration. We can’t thank the community enough for their support of this module, and we’re looking forward to bringing it to Drupal 8. In the mean time, we hope you’ll give 7x1.5 a whirl and let us know what you think! Be on the lookout for updates about our progress and the new features coming in the near future.*
+*There are a lot of exciting things in the works for Registration. We can’t thank the community enough for their support of this module, and we’re looking forward to bringing it to Drupal 8. In the mean time, we hope you’ll give 7.x-1.5 a whirl and let us know what you think! Be on the lookout for updates about our progress and the new features coming in the near future.*
 
