@@ -5,7 +5,7 @@ author: stephanie
 published: false
 featured: false
 short: |
-  Working on our Entity Registration module
+  The gang teams up to tackle our Entity Registration module
 tags:
 - Drupal
 - Drupal Planet
@@ -38,7 +38,7 @@ Gabe**: We started with the most important issues, and items that were prioritiz
 
 **What were some of those bigger fixes?**
 
-**Gabe: **One of the more noteworthy had to do with anonymous registrations and permissions. Each time you create an event, you can allow people to register in different  ways. Registration by email address is one way, so anonymous users can provide an email address and not necessarily need to log into the site. But in order to make that work, you had to allow anonymous users with a permission called "allowed to register other people." It logically worked at the time, but it was a little confusing for people setting up the module for the first time. So we took that out, which also provides a bit of a security buffer so you don’t have a bunch of anonymous users signing up with several different emails.
+**Gabe:** One of the more noteworthy had to do with anonymous registrations and permissions. Each time you create an event, you can allow people to register in different  ways. Registration by email address is one way, so anonymous users can provide an email address and not necessarily need to log into the site. But in order to make that work, you had to allow anonymous users with a permission called "allowed to register other people." It logically worked at the time, but it was a little confusing for people setting up the module for the first time. So we took that out, which also provides a bit of a security buffer so you don’t have a bunch of anonymous users signing up with several different emails.
 
 **Let’s shift gears and talk about features. It sounds like there are some exciting changes in the works for the Entity Registration module.**
 
@@ -53,6 +53,6 @@ Gabe**: We started with the most important issues, and items that were prioritiz
 **Greg**: So many people use this module, and many of them are new to Drupal, which means this module has a very active issue queue. One of my top priorities is to respond to these issues, which I did during the sprint, ensuring people knew where to go for more support, reviewed proposed solutions, and so on.
 
 **Jaymz**: We really appreciate the support from the community, and we owe a lot of this module’s success to their contributions. It takes a village sometimes, or in this case, a team sprint, and Entity Registration is proof of that.
-*
-There are a lot of exciting things in the works for Registration. We can’t thank the community enough for their support of this module, and we’re looking forward to bringing it to Drupal 8. In the mean time, we hope you’ll give 7x1.5 a whirl and let us know what you think! Be on the lookout for updates about our progress and the new features coming in the near future. *
+
+*There are a lot of exciting things in the works for Registration. We can’t thank the community enough for their support of this module, and we’re looking forward to bringing it to Drupal 8. In the mean time, we hope you’ll give 7x1.5 a whirl and let us know what you think! Be on the lookout for updates about our progress and the new features coming in the near future.*
 
