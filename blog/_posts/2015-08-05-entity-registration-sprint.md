@@ -32,9 +32,9 @@ For this sprint, we broke into three teams. Team one focused on resolving the hi
 
 Team one resolved over twenty issues in the queue and triaged nearly double that. I sat down with developers Gabe Carleton-Barnes, Jaymz Rhime, and Greg Boggs to discuss this latest sprint in detail. 
 
-**Gabe, your team was responsible for tackling the issue queue.**** How did you and your team divide and conquer those tickets?
+**Gabe, your team was responsible for tackling the issue queue. How did you and your team divide and conquer those tickets?**
 
-Gabe**: We started with the most important issues, and items that were prioritized in the issue queue already. We distributed them among our team, reproduced the issues, and came up with solutions. We had a lot of newer ThinkShout folks working on the queue, and our interns were on hand as well to help. It was a great opportunity for them to to get in there and give some feedback to the community. We were able to also get feedback from the community about these issues, evaluated their proposed solutions, and if they made sense, we implemented them as part of the fix.
+**Gabe**: We started with the most important issues, and items that were prioritized in the issue queue already. We distributed them among our team, reproduced the issues, and came up with solutions. We had a lot of newer ThinkShout folks working on the queue, and our interns were on hand as well to help. It was a great opportunity for them to to get in there and give some feedback to the community. We were able to also get feedback from the community about these issues, evaluated their proposed solutions, and if they made sense, we implemented them as part of the fix.
 
 **What were some of those bigger fixes?**
 
