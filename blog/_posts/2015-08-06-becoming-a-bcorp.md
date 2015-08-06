@@ -14,8 +14,6 @@ tags:
 date: 2015-08-06
 ---
 
-![using-technology-to-create-positive-change-in-the-world-gray.jpg](/assets/images/blog/using-technology-to-create-positive-change-in-the-world-gray.jpg)
-
 When [Sean](http://thinkshout.com/blog/2009/07/sean/why-thinkshout-why-now/) and [I founded](http://thinkshout.com/blog/2011/01/lev/levs-take-new-thinkshout-inc/) ThinkShout in January of 2011, one of the first things we did was sit down and write the following Mission Statement:
 
 *ThinkShout helps progressive organizations achieve their goals through web strategy and open source software. We treat our business and nonprofit clients as partners. Our motivation comes from knowing that they make the world a better place.*
