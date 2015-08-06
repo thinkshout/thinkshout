@@ -290,3 +290,18 @@ nav.footer-nav {
 	}
 }
 
+.bcorp-logo {
+  text-align: right;
+  padding-top: .5em;
+  
+  @media screen and (max-width: $tablet) {
+    text-align: left;
+    padding-top: 1em
+  }
+
+  img {
+    vertical-align: top;
+    max-width: 80px;
+  }
+}
+
