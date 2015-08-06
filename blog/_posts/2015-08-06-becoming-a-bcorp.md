@@ -1,18 +1,21 @@
 ---
-title: Being the Change - Becoming a B Corp
 layout: post
+title: "Being the Change - Becoming a B Corp"
 author: lev
 published: false
 featured: false
-short: |
-  We are proud to announce our certification as a B Corporation.
-tags:
-- B Corp
-- Our Mission
-- Culture
-- Business
-date: 2015-08-06
+short: 
+  - "We are proud to announce our certification as a B Corporation.\n"
+  - We are proud to announce our certification as a B Corporation.
+tags: 
+  - B Corp
+  - Our Mission
+  - Culture
+  - Business
+date: {}
 ---
+
+![using-technology-to-create-positive-change-in-the-world-gray.jpg]({{site.baseurl}}/assets/images/blog/using-technology-to-create-positive-change-in-the-world-gray.jpg)
 
 When [Sean](http://thinkshout.com/blog/2009/07/sean/why-thinkshout-why-now/) and [I founded](http://thinkshout.com/blog/2011/01/lev/levs-take-new-thinkshout-inc/) ThinkShout in January of 2011, one of the first things we did was sit down and write the following Mission Statement:
 
@@ -69,4 +72,3 @@ First, we made adjustments to the company’s articles of incorporation to ensur
 Second, and more importantly, B Corp certification provides us with guidelines, metrics, and a community of practice for all of the business decisions that we make in support of our team, our clients, our local community, and the environment. In other words, we now have a roadmap for continuing to make intentional choices that put people and the planet above profit.
 
 Taken together, our refined mission, vision, and values, and B Corp certification give us a framework to ensure that ThinkShout stays true to its roots, and that it continues to grow. Onward and upward!
-
