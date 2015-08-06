@@ -1,18 +1,17 @@
 ---
 layout: post
-title: "Being the Change - Becoming a B Corp"
+title: Being the Change - Becoming a B Corp
 author: lev
 published: false
 featured: false
 short: 
-  - "We are proud to announce our certification as a B Corporation.\n"
-  - We are proud to announce our certification as a B Corporation.
+   We are proud to announce our certification as a B Corporation.
 tags: 
   - B Corp
   - Our Mission
   - Culture
   - Business
-date: {}
+date: 2015-08-06
 ---
 
 ![using-technology-to-create-positive-change-in-the-world-gray.jpg](/assets/images/blog/using-technology-to-create-positive-change-in-the-world-gray.jpg)
