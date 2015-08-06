@@ -20,7 +20,7 @@ This Mission Statement worked well for the two of us. Our focus was 100% on our 
 
 In the ensuing years, we’ve been very fortunate and, well, haven’t made too much of a mess of things. We’ve connected with wonderful, forward-thinking [clients](http://thinkshout.com/work/) who are, indeed, making the world a better place. We have a [team](http://thinkshout.com/team/) of 21 talented, dedicated, and passionate individuals. And we’re still [growing](http://thinkshout.com/careers/). We have a clearly defined culture representing our values, and a gorgeous workplace to match. We laid a solid foundation for growth on top of a strong management team and cohesive organizational structure. Of course, apart from surrounding ourselves with great people, Sean and I are personally responsible for very little of all this.
 
-##Staying Focused Through Growth##
+###Staying Focused Through Growth###
 
 As I often like to say, I have a completely new job every 6 months or so - which is a good thing. If Sean and I weren’t continually surprised, frustrated, and elated with the experience of building a company, we’d run the risk of losing our edge. New challenges are, after all, a prerequisite for new opportunities.
 
