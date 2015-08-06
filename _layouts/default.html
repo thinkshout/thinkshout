@@ -17,6 +17,15 @@
     {% assign description = page.results.narrative %}
   {% endif %}
   <meta name="description" content="{{ description }}">
+ 
+  <!-- Social Media Metatags -->
+  {% if page.image != nil %}
+  <meta property="og:image" content="{{ page.image }}">
+  <meta name="twitter:image" content="{{ page.image }}">
+  {% else %}
+  <meta property="og:image" content="{{ site.url }}/assets/images/ts_icon.jpg">
+  <meta name="twitter:image" content="{{ site.url }}/assets/images/ts_icon.jpg">
+  {% endif %}
 
   {% if page.keywords != nil %}
     {% assign keywords = page.keywords | join: ', ' %}
