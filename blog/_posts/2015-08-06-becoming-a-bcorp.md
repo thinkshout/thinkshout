@@ -9,6 +9,8 @@ short: |
 tags:
 - B Corp
 - Our Mission
+- Culture
+- Business
 date: 2015-08-06
 ---
 
