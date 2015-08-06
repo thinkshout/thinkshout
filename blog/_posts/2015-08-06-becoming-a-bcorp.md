@@ -1,7 +1,15 @@
 ---
+title: Being the Change - Becoming a B Corp
 layout: post
+author: lev
 published: false
 featured: false
+short: |
+  We are proud to announce our certification as a B Corporation.
+tags:
+- B Corp
+- Our Mission
+date: 2015-08-06
 ---
 
 When [Sean](http://thinkshout.com/blog/2009/07/sean/why-thinkshout-why-now/) and [I founded](http://thinkshout.com/blog/2011/01/lev/levs-take-new-thinkshout-inc/) ThinkShout in January of 2011, one of the first things we did was sit down and write the following Mission Statement:
