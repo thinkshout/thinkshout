@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Our Road to Becoming a B Corp
+title: Our Road to B Corp
 author: krista
 image: http://thinkshout.com/assets/images/blog/thinkshout-bcorp-blog__2_.jpg
 published: true 
