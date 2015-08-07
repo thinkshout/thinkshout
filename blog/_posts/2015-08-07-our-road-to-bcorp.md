@@ -3,10 +3,10 @@ layout: post
 title: Our Road to Becoming a B Corp
 author: krista
 image: http://thinkshout.com/assets/images/blog/thinkshout-bcorp-blog__2_.jpg
-published: false 
-featured: false
+published: true 
+featured: true
 short: 
-   There are several lessons we learned from this process.
+   Our tips on getting through the B Corp application process
 tags: 
   - B Corp
   - Our Mission
