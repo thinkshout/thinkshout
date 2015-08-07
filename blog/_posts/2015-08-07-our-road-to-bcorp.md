@@ -16,7 +16,7 @@ tags:
 date: 2015-08-07
 ---
 
-###What is a B Corp? - Time For Homework###
+###What is a B Corp? Time For Homework###
 
 Before ThinkShout, I'd never heard of a B Corp, but there it was, one of the  first projects I undertook upon my hire: “Get ThinkShout certified as a B Corp.”
 
