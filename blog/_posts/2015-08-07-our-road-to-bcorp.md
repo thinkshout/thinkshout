@@ -49,6 +49,6 @@ What does it mean to you, and to employees?
 
 Becoming a B Corp changed my relationship with ThinkShout. It gave everything I do a deeper meaning. Now, for example, when considering employee benefits, our B Corp status is part of the equation. Are we taking the welfare of our employees into consideration when we make changes? When we consider office space, we think about the location and its proximity to public transportation. We think about the energy and water usage. It reminds us of [our own values](http://thinkshout.com/blog/2015/08/becoming-a-bcorp/): when we engage with a potential new client, we think about their own mission and what change *they* are making in the world.
 
-I'm proud that ThinkShout is a B Corp. When I'm talking with someone who is interested in working here, I can tell them about the B Corp certification and what it means. Almost immediately, we establish whether or not the B Corp message and mission aligns with their organization's values.
+I'm proud that ThinkShout is a B Corp. When I'm talking with someone who is interested in working here, I can tell them about the B Corp certification and what it means. Almost immediately, we establish whether or not the B Corp message and mission aligns with their values.
 
 Shortly after we certified and announced it to the office, a new employee shared that she'd never worked for a company that made their employees and the community such a high priority. Yeah. That is amazing.
