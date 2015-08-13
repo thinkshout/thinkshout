@@ -59,7 +59,7 @@ _"The Capital Area Food Bank has been no stranger to peer-to-peer fundraising to
 
 _After kicking the tires at a few SaaS options, we decided the best way forward was to build a customized website.  Out of all the different frameworks proposed, the open-source Drupal and RedHen Raiser combo impressed us the most. We wouldn’t  just be buying a website. We would be leveraging a vast network of programmers and community-minded architects who could start us off in a very good place, not to mention help our platform be secure and grow for the foreseeable future._
 
-_We launched the website this year and couldn’t be happier with what Thinkshout built for us. We’re already seeing it pay dividends across several campaigns. We continue to add new features and hope our site might be a benchmark that other nonprofits could benefit from and contribute to as well."_
+_We launched the website this year and couldn’t be happier with what ThinkShout built for us. We’re already seeing it pay dividends across several campaigns. We continue to add new features and hope our site might be a benchmark that other nonprofits could benefit from and contribute to as well."_
 
 ### What’s Next for RedHen Raiser?
 
