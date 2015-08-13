@@ -2,8 +2,8 @@
 layout: post
 title: "Peer-To-Peer Fundraising With Drupal - RedHen Raiser"
 author: sean
-published: false
-featured: false
+published: true
+featured: true
 short: We take a closer look at a RedHen Raiser success story.
 tags: 
   - CAFB of DC
@@ -13,7 +13,7 @@ tags:
   - "Peer-to-peer fundraising"
   - Drupal Planet
   - Drupal fundraising
-date: 2015-08-13 
+date: 2015-08-13 15:00:00
 ---
 ### The Origin of RedHen Raiser
 
