@@ -45,7 +45,7 @@ If you are interested in giving RedHen Raiser a spin, you can [install the distr
 
 ### Customizing RedHen Raiser to Meet the Food Bank’s Needs
 
-With a strong base in place, customizing RedHen Raiser to meet the Capital Area Food Bank’s requirements was straightforward and comparably inexpensive. It was largely a matter of adding Drupal Commerce configuration to work with their payment gateway, developing a custom theme that matched the Food Bank’s overall brand, and then training their team to start building out their first peer-to-peer fundraising campaign:!
+With a strong base in place, customizing RedHen Raiser to meet the Capital Area Food Bank’s requirements was straightforward and comparably inexpensive. It was largely a matter of adding Drupal Commerce configuration to work with their payment gateway, developing a custom theme that matched the Food Bank’s overall brand, and then training their team to start building out their first peer-to-peer fundraising campaign:
 
 ![image_2.png](/assets/images/blog/image_2.png)
 
