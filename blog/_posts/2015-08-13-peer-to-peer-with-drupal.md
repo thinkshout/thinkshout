@@ -4,7 +4,7 @@ title: "Peer-To-Peer Fundraising With Drupal - RedHen Raiser"
 author: sean
 published: false
 featured: false
-short: We examine RedHen Raiser in the context of CAFB of DC.
+short: We take a closer look at a RedHen Raiser success story.
 tags: 
   - CAFB of DC
   - RedHen Raiser
@@ -13,12 +13,8 @@ tags:
   - "Peer-to-peer fundraising"
   - Drupal Planet
   - Drupal fundraising
-date: {}
+date: 2015-08-13 
 ---
-
-
-# Peer-To-Peer Fundraising With Drupal
-
 ### The Origin of RedHen Raiser
 
 Last summer, the [Capital Area Food Bank of Washington, DC](http://www.capitalareafoodbank.org/) came to us with a great idea: The Food Bank wanted to increase its investment in team fundraising initiatives, but they didn’t necessarily want to continue to invest in a "pay as you go" service like StayClassy, TeamRaiser, or Razoo. Rather, they wanted to explore whether or not they could invest in the development of an open source alternative that would eliminate licensing costs, that they could customize more easily, and that they could then give back to the broader nonprofit community.
