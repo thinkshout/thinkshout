@@ -55,7 +55,7 @@ With a strong base in place, customizing RedHen Raiser to meet the Capital Area 
 
 ### The Success of the Food Bank’s First Peer-to-Peer Fundraising Campaign
 
-The Capital Area Food Bank launched this tool around its May 2015 ["Food From The Bar" campaign](http://www.capitalareafoodbank.org/food-from-the-bar/), targeting law firms in the D.C. Metro area. *_In just 30 days, the Food Bank raised close to [$150,000 on RedHen Raiser](https://give.capitalareafoodbank.org/campaigns/food-bar-2015)._*
+The Capital Area Food Bank launched this tool around its May 2015 ["Food From The Bar" campaign](http://www.capitalareafoodbank.org/food-from-the-bar/), targeting law firms in the D.C. Metro area. **_In just 30 days, the Food Bank raised close to [$150,000 on RedHen Raiser](https://give.capitalareafoodbank.org/campaigns/food-bar-2015)._**
 
 The Food Bank’s Chief Digital Officer, Chris von Spiegelfield, had this to say about the project:
 
