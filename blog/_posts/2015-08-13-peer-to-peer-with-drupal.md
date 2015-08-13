@@ -2,6 +2,7 @@
 layout: post
 title: "Peer-To-Peer Fundraising With Drupal - RedHen Raiser"
 author: sean
+image: http://thinkshout.com/assets/images/blog/image_2.png
 published: true
 featured: true
 short: We take a closer look at a RedHen Raiser success story.
