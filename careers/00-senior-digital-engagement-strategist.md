@@ -2,7 +2,7 @@
 layout: job
 title: Senior Digital Engagement Strategist
 permalink: careers/senior-digital-engagement-strategist/
-mailto: thinkshout-job1@mytribehr.com
+mailto: jobs@thinkshout.com
 active: true
 ---
 ThinkShout is a leading design, strategy and web development team located in Portland, OR. We envision digital technology and strategy that create positive change in the world. We craft compelling open source engagement solutions for forward-thinking organizations.
@@ -24,13 +24,13 @@ We are seeking a senior digital strategist to join our Discovery, Strategy, and 
 ## Skills and Qualifications
 
 - Comprehensive background in digital fundraising and marketing/communications; nonprofit and agency experience strongly preferred.
-- Demonstrated experience crafting online campaigns, including the proven ability to move from strategic goals to tactical implementation to achieve fundraising and communications goals. 
+- Demonstrated experience crafting online campaigns, including the proven ability to move from strategic goals to tactical implementation to achieve fundraising and communications goals.
 - Dynamic oral and written communication skills supported by the ability to research and communicate complex information in clear, concrete terms.
 - Demonstrated ability to work across departments to achieve client’s goals.
 - Exceptional ability to unearth and learn from compelling digital content.
 - Experience combining digital media with more traditional communications activities. Direct mail experience a plus.
-- Proven ability to develop and maintain strong professional relationships with clients and colleagues. 
-- Authentic and polished at all times; active listener and superior presenter. 
+- Proven ability to develop and maintain strong professional relationships with clients and colleagues.
+- Authentic and polished at all times; active listener and superior presenter.
 - Ability to support multiple projects in an agency environment.
 - Analytics and digital measurement experience is a plus.
 
@@ -52,5 +52,3 @@ Send us a cover letter focusing on why you're interested in a career at ThinkSho
 ## The Fine Print
 
 This is a full-time position based in our office in downtown Portland, OR, but remote is possible for the right person. The Senior Digital Engagement Strategist will report to our Director of Strategy. This position may involve up to 15% travel, including attendance at conferences and onsite client meetings.
-
-
