@@ -40,7 +40,7 @@ Our Project Managers are self-starters who enjoy collaboration, while also takin
 - Proficiency with CMS and CRM solutions, such as Drupal and Salesforce.
 - Ability to break out large projects into discrete milestones and deliverables.
 - Ability to manage complex projects with multifaceted timelines and diverse project teams.
-- Ability to functionality supervise multidisciplinary teams
+- Ability to functionally supervise multidisciplinary teams.
 - **You are able to work on-site at our offices in Portland, Oregon.** (Please pay attention to this point - relocation is not a problem for us!)
 
 ## Compensation Package
