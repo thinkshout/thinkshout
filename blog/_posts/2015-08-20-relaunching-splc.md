@@ -2,14 +2,16 @@
 layout: post
 title: Relaunching the Southern Poverty Law Center's Website
 author: sean
-published: false
-featured: false
+published: true
+featured: true
 short: ThinkShout officially relaunches the SPLC site.
 tags: 
   - SPLC
   - Southern Poverty Law Center
   - Site Launch
-date: 2015-08-21 12:00:00
+  - Drupal
+  - Drupal Planet
+date: 2015-08-21 15:00:00
 ---
 When projects get hectic around the office, we remind ourselves “We’re just pushing pixels.” We’re geeks. We sit in an air-conditioned office and play with cutting edge technologies on shiny MacBooks, drinking aeropress coffee.
 At the same time, we choose to work with nonprofit clients - experienced organizers and passionate advocates working on diverse issues in environmental protection, human rights, early childhood education, access to health care, and community building. We cannot do what they do; but it is wonderful to help them tell their stories and meaningfully engage their constituents online.
