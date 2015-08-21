@@ -9,7 +9,7 @@ tags:
   - SPLC
   - Southern Poverty Law Center
   - Site Launch
-date: 2015-08-21T00:00:00.000Z
+date: {}
 ---
 
 
@@ -21,6 +21,8 @@ Over the last year, we’ve been particularly inspired to have had the chance to
 Our initial conversations with SPLC took place days before the death of Eric Gardner. And over the year that we’ve been working with the Center, 16 unarmed Black people have been killed by police in the U.S. The Southern Poverty Law Center has been at the forefront of the national conversation about this issue. 
 
 If you don’t know SPLC, it is a leading advocacy and educational organization dedicated to fighting hate and bigotry and seeking justice for the most vulnerable members of society. Since 1971, SPLC has been using litigation to fight for civil rights. So hated by the Ku Klux Klan, SPLC’s offices were burned to the ground in 1983 by Alabama Klansmen. Then, in 1987 SPLC won a historic $7 million verdict against the United Klans of America for the 1981 lynching of Michael Donald - effectively bankrupting the KKK and crippling their organization.
+
+![SPLC_fight.jpg](/assets/images/blog/SPLC_fight.jpg)
 
 In addition to its fight against hate and extremism, SPLC works on a range of human rights issues, such as children’s rights, immigrant justice, economic justice, mass incarceration, and LGBT rights. And so, fortunately, in addition to watching SPLC weigh in tirelessly on the police’s deadly use of force this year, we have also been able to celebrate with its staff over the landmark win over gay marriage bans, as well as the 50th Anniversaries of the March on Selma and the Passage of the Voting Rights Act of 1965.
 
