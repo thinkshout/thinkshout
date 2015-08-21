@@ -22,9 +22,6 @@ Our initial conversations with SPLC took place days before the death of Eric Gar
 
 If you don’t know SPLC, it is a leading advocacy and educational organization dedicated to fighting hate and bigotry and seeking justice for the most vulnerable members of society. Since 1971, SPLC has been using litigation to fight for civil rights. So hated by the Ku Klux Klan, SPLC’s offices were burned to the ground in 1983 by Alabama Klansmen. Then, in 1987 SPLC won a historic $7 million verdict against the United Klans of America for the 1981 lynching of Michael Donald - effectively bankrupting the KKK and crippling their organization.
 
-![SPLC-Extremist-Files-1280x720 (1).jpg](http:thinkshout.com/assets/images/blog/SPLC-Extremist-Files-1280x720 (1).jpg)
-
-
 In addition to its fight against hate and extremism, SPLC works on a range of human rights issues, such as children’s rights, immigrant justice, economic justice, mass incarceration, and LGBT rights. And so, fortunately, in addition to watching SPLC weigh in tirelessly on the police’s deadly use of force this year, we have also been able to celebrate with its staff over the landmark win over gay marriage bans, as well as the 50th Anniversaries of the March on Selma and the Passage of the Voting Rights Act of 1965.
 
 Again, we have nothing to do with the success of this organization, but to collaborate with this team and to be close to their work has been incredible. We couldn’t be more proud of the website that we design and implemented along with SPLC’s incredible communications team. Over the next few weeks, we will be writing about the many technical and process innovations we had the chance to implement with the SPLC team. In the meantime, we hope that you will take some time to explore their [new site](https://www.splcenter.org/) and to join us in celebrating and supporting their mission.
