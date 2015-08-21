@@ -8,7 +8,9 @@ short:
    The relaunch of the SPLC website.
 tags: 
   - SPLC
-date: 2015-08-20
+  - Southern Poverty Law Center
+  - Site Launch
+date: 2015-08-21
 ---
 
 When projects get hectic around the office, we remind ourselves “We’re just pushing pixels.” We’re geeks. We sit in an air-conditioned office and play with cutting edge technologies on shiny MacBooks, drinking aeropress coffee.
