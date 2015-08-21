@@ -2,8 +2,8 @@
 layout: post
 title: Relaunching the Southern Poverty Law Center's Website
 author: sean
-published: false
-featured: false
+published: true
+featured: true
 short: ThinkShout officially relaunches the SPLC site.
 tags: 
   - SPLC
