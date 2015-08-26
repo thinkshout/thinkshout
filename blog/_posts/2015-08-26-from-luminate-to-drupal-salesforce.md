@@ -4,7 +4,7 @@ title: Migrating from Luminate CRM to Drupal and the Salesforce Nonprofit Starte
 author: jaden
 published: true
 featured: true
-short: A case for Drupal and Salesforce's NPSP as a  superior alternative to Blackbaud's Luminate CRM.
+short: A case for Drupal and Salesforce's NPSP as a superior alternative to Blackbaud's Luminate CRM.
 tags: 
   - CRM
   - Salesforce
