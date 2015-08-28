@@ -10,7 +10,7 @@ tags:
 - Drupal
 - Nonprofit Tech
 - Drupal Planet
-- RedHen CRM
+- RedHen
 - RedHen Donation
 - RedHen Raiser
 - Drupal Commerce
