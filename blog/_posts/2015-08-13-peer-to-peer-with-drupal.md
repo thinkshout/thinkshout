@@ -9,7 +9,7 @@ short: We take a closer look at a RedHen Raiser success story.
 tags: 
   - CAFB of DC
   - RedHen Raiser
-  - RedHen CRM
+  - RedHen
   - RedHen Donation
   - "Peer-to-peer fundraising"
   - Drupal Planet
