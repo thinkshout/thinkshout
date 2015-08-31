@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Video Tutorial - "Introduction to RedHen CRM"
-author: stephanie
+author: gabe
 published: false
 featured: false
-short: We have a brand new video showcasing how to set up RedHen CRM.
+short: We have a brand new video guide for setting up RedHen CRM.
 tags: 
   - CRM
   - RedHen
@@ -14,9 +14,9 @@ tags:
 date: 2015-08-31 15:00:00
 ---
 
-We recently teamed up with Drupalize.me to produce a brand new, free video tutorial: "[Introduction to RedHen CRM](https://drupalize.me/videos/introduction-redhen-crm)."
+We recently teamed up with Drupalize.me to produce a brand new (free!) video tutorial: "[Introduction to RedHen CRM](https://drupalize.me/videos/introduction-redhen-crm)."
 
-In this introductory video, you'll tour RedHen CRM's features, get a detailed walkthrough of the setup process, and learn how to use some of RedHen CRM's basic tools. This is a great resource for anyone looking for a step-by-step guide on setting up and configuring RedHen CRM.
+In this introductory video, you'll tour RedHen CRM's central features, get a detailed walkthrough of the setup process, and learn a few of RedHen's cool tricks, like duplicate management (a pet feature of mine). This is a great resource for anyone who is looking for a step-by-step guide to setting up and configuring RedHen, or just wants to learn more about it!
 
 <iframe width="700" height="545" src="//www.youtube.com/embed/-R3iXjvIWeo" frameborder="0" allowfullscreen></iframe>
 
