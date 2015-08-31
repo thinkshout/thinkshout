@@ -2,8 +2,8 @@
 layout: post
 title: Video Tutorial - "Introduction to RedHen CRM"
 author: stephanie
-published: false
-featured: false
+published: true
+featured: true
 short: We have a brand new video showcasing how to set up RedHen CRM.
 tags: 
   - CRM
