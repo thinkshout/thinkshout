@@ -14,7 +14,7 @@ tags:
 date: 2015-08-28 15:00:00
 ---
 
-We recently teamed up with Drupalize.me to produce a brand new, free video tutorial, "Introduction to RedHen CRM."
+We recently teamed up with Drupalize.me to produce a brand new, free video tutorial: "Introduction to RedHen CRM."
 
 In this introductory video, you'll tour RedHen CRM's features, get a detailed walkthrough of the setup process, and learn how to use some of RedHen CRM's basic tools. This is a great resource for anyone looking for a step-by-step guide on setting up and configuring RedHen CRM.
 
