@@ -11,7 +11,7 @@ tags:
   - Video
   - Drupal Planet
   - Drupal
-date: 2015-08-28 15:00:00
+date: 2015-08-31 15:00:00
 ---
 
 We recently teamed up with Drupalize.me to produce a brand new, free video tutorial: "Introduction to RedHen CRM."
