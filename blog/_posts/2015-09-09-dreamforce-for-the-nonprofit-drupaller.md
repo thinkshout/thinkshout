@@ -12,9 +12,6 @@ tags:
   - Drupal
 date: 2015-09-09 16:00:00
 ---
-
-# Ready or Not: Dreamforce for the Nonprofit Drupaller
-
 Next week, Lev and I will be attending our third [Dreamforce](http://www.salesforce.com/dreamforce/DF15/), the annual Salesforce conference in San Francisco. I’m not gonna lie, each year the two of us feel about as much dread regarding Dreamforce as we do anticipation. If you’ve never been to Dreamforce, all I can say is that it’s BIG. Like overwhelmingly big. It’s the largest software conference in the world. Dreamforce 2014 had over 135,000 attendees. (That’s an influx of 16% of the total population of San Francisco.) Last year’s conference generated over $100 million in revenue for the city. There are conference badges everywhere, parties everywhere… Open hotel rooms and cabs are nowhere to be found….
 
 That said, from an innovation and collaboration perspective, Dreamforce is one of the more important convenings we attend each year. Once you strip away all the pomp and circumstance and assuming you know how to navigate through the fray, there is a lot to be gained by the nonprofit technologist and the Drupal developer interested in integrating our beloved CMS with this robust CRM platform.
