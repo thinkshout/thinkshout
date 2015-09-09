@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dreamforce for the Nonprofit Drupaller
+title: Ready or Not - Dreamforce for the Nonprofit Drupaller
 author: sean
 published: false
 featured: false
