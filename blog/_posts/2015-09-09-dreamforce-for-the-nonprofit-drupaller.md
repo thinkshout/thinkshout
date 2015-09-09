@@ -2,15 +2,15 @@
 layout: post
 title: Ready or Not - Dreamforce for the Nonprofit Drupaller
 author: sean
-published: false
-featured: false
-short: Dreamforce is coming!
+published: true
+featured: true
+short: It's time to talk Dreamforce.
 tags: 
   - Salesforce
   - Dreamforce
   - Drupal Planet
   - Drupal
-date: 2015-09-09 15:00:00
+date: 2015-09-09 16:00:00
 ---
 
 # Ready or Not: Dreamforce for the Nonprofit Drupaller
@@ -22,7 +22,7 @@ That said, from an innovation and collaboration perspective, Dreamforce is one o
 For those of you who are either braving your first Dreamforce or interested in following along online (at a safe distance from the Bay Area), below is a list of a few things we are most excited to explore at this year’s conference:
 
 ### The Foo Fighters Concert
-Dave Grohl fans, rejoice: The Foo Fighters will be playing Dreamforce! Every year, Dreamforce brings in a globally-recognized entertainment act. This year, it’s the Foo Fighters. If you’re not a huge Foo Fighters fan, just remember that Grohl was in that one Tenacious D song, and he had a cameo in the Muppet Movie, and this might be your only chance to see him in the flesh. He was also in a band called Nirvana or something...
+Dave Grohl fans, rejoice: The Foo Fighters will be playing Dreamforce! Every year, Dreamforce brings in a globally-recognized entertainment act. This year, it’s the Foo Fighters. But why the bands? Why the celebrities? Well, you have to think about just how integral Salesforce is in to thousands upon thousands of people. Some of the largest names in the country utilize Salesforce, and that means there’s a heck of a lot of clout backing the product. That also means people like Alec Baldwin, Jessica Alba, and Goldie Hawn (all of whom use Salesforce to support their organizations) might just show up to tell you exactly why Salesforce is their CRM of choice. So it’s no surprise that a band as big as the Foo Fighters would make an appearance at Dreamforce.
 
 ### The Unveiling of the "Lightning Experience"
 
