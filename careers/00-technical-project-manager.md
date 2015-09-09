@@ -3,7 +3,7 @@ layout: job
 title: Technical Project Manager
 permalink: careers/technical-project-manager/
 mailto: jobs@thinkshout.com
-active: true
+active: false
 ---
 
 ThinkShout is a leading design, strategy and web development team located in Portland, OR. We envision digital technology and strategy that create positive change in the world. We craft compelling open source engagement solutions for forward-thinking organizations  such as the World Wildlife Fund, the Environmental Defense Fund, and the Southern Poverty Law Center.
