@@ -37,7 +37,7 @@ What’s also neat about the Wave App is that the Salesforce Foundation is expec
 
 Just this summer, the Salesforce Foundation hired its first Open Source Manager, our good friend and long-time nonprofit tech advocate, Judi Sohn. One of Judi’s first tasks in this new role has been to put together an [open source advisory board for the Foundation](http://www.salesforcefoundation.org/join-the-new-nonprofit-starter-pack-advisory-board/), focused on promoting open source contributions and collaboration around its [Nonprofit Starter Pack](http://www.salesforcefoundation.org/help/nonprofitstarterpack/).
 
-Consequently, the [nonprofit track](http://www.salesforcefoundation.org/dreamforce-15/) at Dreamforce is where you will see the majority of conference sessions around open source integrations and development workflows. We are particularly excited about the following sessions:
+As a result, the [nonprofit track](http://www.salesforcefoundation.org/dreamforce-15/) at Dreamforce is where you will see the majority of conference sessions around open source integrations and development workflows. We are particularly excited about the following sessions:
 
 * [Open Source Development of Managed Packages](https://success.salesforce.com/Ev_Sessions?eventId=a1Q30000000DHQlEAO#/session/a2q300000019kJjAAI) - For open source developers, this might be one of the most useful sessions at the entire conference, as it will talk about how you can leverage GitHub and Jenkins workflows in the development of Salesforce products.
 
