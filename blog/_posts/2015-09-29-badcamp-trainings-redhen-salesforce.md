@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Free Salesforce and RedHen CRM Trainings at BADCamp"
+title: "Free Salesforce and RedHen Trainings at BADCamp"
 author: gabe
 published: true
 featured: true
