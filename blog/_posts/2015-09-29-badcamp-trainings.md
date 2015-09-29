@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Salesforce and RedHen CRM Trainings Free at BADCamp"
+title: "Free Salesforce and RedHen CRM Trainings at BADCamp"
 author: gabe
-published: false
-featured: false
+published: true
+featured: true
 short: Join us at BADCamp for two half-day trainings!
 tags: 
   - Salesforce
