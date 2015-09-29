@@ -37,4 +37,4 @@ Send us a cover letter focusing on why you're interested in a career at ThinkSho
 * Any questions you might have for us here at ThinkShout.
 * An answer to this question: If you had to choose one object (other than your laptop) to keep in your team's space, what would it be?
 
-Please note that while most of our team is concentrated in our Portland, OR office, we're happy to consider remote work for the right candidate. We look forward to hearing from you!
+Please note that while most of our team is concentrated in our Portland, OR, office, we're happy to consider remote work for the right candidate. We look forward to hearing from you!
