@@ -18,7 +18,6 @@ Senior Software Engineers at ThinkShout are responsible for the technical archit
 * You're a self-starter; you care about your development tools; you stay on top of new technologies and development best practices.
 * You don't mind spending time in the programming trenches.
 * You want to make a commitment to our team, work, community, and clients.
-* The ability to work onsite at our Portland, OR office.
 
 ### Compensation Package
 
@@ -38,4 +37,4 @@ Send us a cover letter focusing on why you're interested in a career at ThinkSho
 * Any questions you might have for us here at ThinkShout.
 * An answer to this question: If you had to choose one object (other than your laptop) to keep in your team's space, what would it be?
 
-We look forward to hearing from you!
+Please note that while most of our team is concentrated in our Portland, OR office, we're happy to consider remote work for the right candidate. We look forward to hearing from you!
