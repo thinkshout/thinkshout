@@ -16,7 +16,7 @@ date: 2015-09-29 16:00:00
 
 This year marks a particularly exciting BADCamp for us. On Friday, October 23, we’ll be leading two official half-day trainings on Salesforce and RedHen CRM! 
 
-We talk a lot about Salesforce and RedHen on our blog, which is inevitable given how much time we spend working with both. Given that the [Drupal Salesforce Suite](https://www.drupal.org/project/usage/salesforce) we wrote and maintain powers over 1,200 sites, we decided we should talk about it more! Our resident Salesforce and RedHen experts Lev Tsypin, Gabe Carleton-Barnes, Tauno Hogue, and Greg Boggs will be your trainers for the day.
+We talk a lot about Salesforce and RedHen on our blog, which is inevitable given how much time we spend working with both. Given that the [Drupal Salesforce Suite](https://www.drupal.org/project/salesforce) we wrote and maintain powers over 1,200 sites, we decided we should talk about it more! Our resident Salesforce and RedHen experts Lev Tsypin, Gabe Carleton-Barnes, Tauno Hogue, and Greg Boggs will be your trainers for the day.
 
 ##RedHen CRM: Exploring CRM Solutions That Extend Drupal##
 
@@ -26,4 +26,4 @@ This half-day workshop will begin with a detailed review of the modules that mak
 
 After lunch, the latter half of our workshop block will start with the basics of configuring mappings between Drupal entities and Salesforce objects and leveraging typical Drupal development workflows. Then we'll dive deeper into complex scenarios including managing large datasets, customizing behaviors as objects are synced, and managing errors.
 
-If you’ve ever wanted to talk to us in person about our work, or how to better leverage these CRMs to meet yours or your client’s needs, now’s your chance. These trainings are FREE (it’s $20 to reserve a seat, but that $20 will be returned to you when you check in for your training) and space is limited, so [register early](https://2015.badcamp.net/training/drupal-redhen-salesforce)!
+If you’ve ever wanted to talk to us in person about our work, or how to better leverage these CRMs to meet yours or your client’s needs, now’s your chance. These trainings are FREE (it’s $20 to reserve a seat, but that $20 will be refunded) and space is limited, so [register early](https://2015.badcamp.net/training/drupal-redhen-salesforce)!
