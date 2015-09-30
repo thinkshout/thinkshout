@@ -11,7 +11,7 @@ tags:
   - Drupal Planet
   - Drupal
   - RedHen
-date: 2015-09-30 10:00:00
+date: 2015-09-29 16:00:00
 ---
 
 This year marks a particularly exciting BADCamp for us. On Friday, October 23, we’ll be leading two official half-day trainings on Salesforce and RedHen CRM! 
