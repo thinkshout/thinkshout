@@ -479,6 +479,25 @@
   bio: |
    Marci loves making life easier for our partners. She brings 14 years of technical project management experience to the team and loves helping mission-driven organizations achieve their technological goals. She has worked with clients spanning a wide variety of industries, including financial and professional services, manufacturing, retail, and nonprofit. Though her work is very much left brain-driven, she claims she does have an active right brain as well. She has an MFA in poetry and loves marching bands. She owns a trumpet, but admits she doesn’t know how to play it.
 
+- first_name: Mike
+  last_name: Shaver
+  position: Senior Technical Project Manager
+  leadin: |
+    Mike’s got a strong knack for the technical details and is accomplished at spearheading digital initiatives for large nonprofits. He has all the traits of an expert cat-herder. And he's apparently never tweeted a day in his life. Too busy managing the nitty-gritty, we assume.
+  social:
+    github: https://github.com/mshaver
+    twitter: https://twitter.com/mshaver1
+    linkedin: http://www.linkedin.com/in/mrshaver
+    drupal: https://www.drupal.org/u/mshaver
+  image:
+    small: team/small/mike.jpg
+    medium: team/medium/mike.jpg
+    large: team/large/mike.jpg
+  published: true
+  name: mike
+  bio: |
+   Mike's experience ranges from serving small grassroots nonprofits to large broadcasting organizations. He managed Boston’s WGBH integration of popular national programs, such as American Experience and NOVA, into their digital programming. Mike joined the ThinkShout team so that he could continue his work with socially responsible organizations, and he brings a wealth of technical project management experience with him. While he’s got a number of project-related accomplishments under his belt, he says he’s most proud of being a father of three girls who’d rather be fairies and demons than Disney princesses. When he’s not wrangling his kids, he’s enjoying outdoor sports like fly fishing and windsurfing. 
+
 - first_name: Nancy
   last_name: Rackleff
   position: Software Engineer
