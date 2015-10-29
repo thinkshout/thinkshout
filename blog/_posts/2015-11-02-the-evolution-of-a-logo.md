@@ -71,8 +71,6 @@ People often think a logo refresh ends with a new logo, but it’s really just t
 
 So, I will leave you with the entire new ThinkShout logo family. 
 
-![logo_7.png](/assets/images/blog/logo_7.png)
-![logo_8.png](/assets/images/blog/logo_8.png)
-      ![logo_9.png](/assets/images/blog/logo_9.png)
+![logo_7.png](/assets/images/blog/logo_7.png)![logo_8.png](/assets/images/blog/logo_8.png)![logo_9.png](/assets/images/blog/logo_9.png)
 
 I had a lot of fun working on this project – and it may not have happened if I hadn’t spoken up during my first week. No matter what you do, don’t forget to take risks.
