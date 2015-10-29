@@ -41,7 +41,7 @@ You may have to look really close to see what is going on here, but I’d like t
 
 After learning as much as I could about the existing logo, it was time to draw the new logo using Adobe Illustrator. (Remember, the past holds answers!) The screen recording below is about six hours of work compressed to a speedy five minutes.
 
-![image alt text](image_4.png)
+<iframe width="700" height="545" src="//www.youtube.com/embed/tpYF-kxnSLM" frameborder="0" allowfullscreen></iframe>
 
 You’ll see in the screen capture that the first thing I did was set up guides and turn on grids. To draw the new wordmark, I used the pen and shape tool. Letters with a stem, defined by vertical stroke, were formed with rectangles; using shapes, like rectangles and circles, to build letters provides consistency and less room for error.  
 
