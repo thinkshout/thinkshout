@@ -4,11 +4,11 @@ title: The Evolution of a Logo
 author: jessica
 published: false
 featured: false
-short: You can learn a lot from a logo.
+short: Introducing the new and improved ThinkShout logo!
 tags: 
   - Design
   - Typography
-date: {}
+date: 2015-11-02 13:00:00
 ---
 
 On my third day at ThinkShout, I casually (read: scared out of my mind) took a risk and asked what would happen if I suggested a few updates to the current ThinkShout logo. 
@@ -19,23 +19,23 @@ When a lot of designers begin a brand refresh, they look towards the future for 
 
 So I began with the logo that was designed in 2012. 
 
-![logo_0.png]({{site.baseurl}}/assets/images/blog/logo_0.png)
+![logo_0.png](/assets/images/blog/logo_0.png)
 
 I’ve done a lot of detailed typographic work, so a few things stood out to me. Let me walk you through my process: 
 
 The first thing I did was look at the logo in black and white.
 
-![logo_1.png]({{site.baseurl}}/assets/images/blog/logo_1.png)
+![logo_1.png](/assets/images/blog/logo_1.png)
 
 Turning any graphic to black and white helps reveal the details (and issues). Color likes to play tricks on our eyes and hide inconsistencies. I started with a high-level critique, to avoid getting distracted by the details and instead focus on the larger picture. 
 
-![logo_2.png]({{site.baseurl}}/assets/images/blog/logo_2.png)
+![logo_2.png](/assets/images/blog/logo_2.png)
 
 I saw a clear imbalance between ‘think’ and ‘shout.’ While the airy ‘think’ and bold ‘shout’ were originally intended in the first version of the logo, it resulted in too much weight on the right side. There is also some evidence that the logo might have been improperly stretched vertically based on the dot of the ‘i.’ 
 
 Next, I dove into the details.
 
-![logo_3.png]({{site.baseurl}}/assets/images/blog/logo_3.png)
+![logo_3.png](/assets/images/blog/logo_3.png)
 
 You may have to look really close to see what is going on here, but I’d like to draw attention to the three horizontal lines: the cap-height, x-height and baseline. Typographers use these lines to create consistent letterforms throughout a typeface. You’ll notice that the word ‘shout’ extends above the cap-height, the x-height and below the baseline. Typographically, this is wrong. It should be consistent with the word ‘think.’ There are few other inconsistencies throughout the wordmark that I’ve noted such as the line quality of the thought bubbles and the ‘o’ in ‘shout.’ 
 
@@ -53,7 +53,7 @@ What you don’t see in the screen capture is the time I spent critiquing each a
 
 And finally the moment you’ve been waiting for… (drum roll, please!)
 
-![logo_5.png]({{site.baseurl}}/assets/images/blog/logo_5.png)
+![logo_5.png](/assets/images/blog/logo_5.png)
 
 Ohhh, ahhh!
 
@@ -65,14 +65,14 @@ Another significant change is in the new illustrations. The new thought bubbles 
 
 When we compare the old with the new, it’s easier to see these changes. Below, the red circles highlights several details that were updated with the new logo. 
 
-![logo_6.png]({{site.baseurl}}/assets/images/blog/logo_6.png)
+![logo_6.png](/assets/images/blog/logo_6.png)
 
 People often think a logo refresh ends with a new logo, but it’s really just the start. In most scenarios, the logo will need to be altered and formatted in ways that work for a variety of devices and applications. 
 
 So, I will leave you with the entire new ThinkShout logo family. 
 
-![logo_7.png]({{site.baseurl}}/assets/images/blog/logo_7.png)
-![logo_8.png]({{site.baseurl}}/assets/images/blog/logo_8.png)
-      ![logo_9.png]({{site.baseurl}}/assets/images/blog/logo_9.png)
+![logo_7.png](/assets/images/blog/logo_7.png)
+![logo_8.png](/assets/images/blog/logo_8.png)
+      ![logo_9.png](/assets/images/blog/logo_9.png)
 
 I had a lot of fun working on this project – and it may not have happened if I hadn’t spoken up during my first week. No matter what you do, don’t forget to take risks.
