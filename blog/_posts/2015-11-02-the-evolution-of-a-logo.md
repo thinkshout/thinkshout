@@ -4,12 +4,13 @@ title: The Evolution of a Logo
 author: jessica
 published: false
 featured: false
-short: Introducing the new and improved ThinkShout logo!
+short: "Introducing the new and improved ThinkShout logo!"
 tags: 
   - Design
   - Typography
-date: 2015-11-02 13:00:00
+date: {}
 ---
+
 
 On my third day at ThinkShout, I casually (read: scared out of my mind) took a risk and asked what would happen if I suggested a few updates to the current ThinkShout logo. 
 
@@ -71,6 +72,6 @@ People often think a logo refresh ends with a new logo, but it’s really just t
 
 So, I will leave you with the entire new ThinkShout logo family. 
 
-![logo_7.png](/assets/images/blog/logo_7.png)![logo_8.png](/assets/images/blog/logo_8.png)![logo_9.png](/assets/images/blog/logo_9.png)
+![logo_10.png](/assets/images/blog/logo_10.png)
 
 I had a lot of fun working on this project – and it may not have happened if I hadn’t spoken up during my first week. No matter what you do, don’t forget to take risks.
