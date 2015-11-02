@@ -2,8 +2,8 @@
 layout: post
 title: The Evolution of a Logo
 author: jessica
-published: false
-featured: false
+published: true
+featured: true
 short: "Introducing the new and improved ThinkShout logo!"
 tags: 
   - Design
