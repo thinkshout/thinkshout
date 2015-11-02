@@ -16,7 +16,7 @@ On my third day at ThinkShout, I casually (read: scared out of my mind) took a r
 
 I was met with encouragement, and was asked to build a presentation and pitch why I thought the logo should be updated. The key word is, of course: *why*. When we take risks, it helps to support that decision with understanding as to why the risk is worth taking - for both you, or your client’s sake. 
 
-When a lot of designers begin a brand refresh, they look towards the future for inspiration instead of the past. I, however,believe the past holds many answers, too. In this case, it reveals the heart of the company – and, of course, its brand equity. 
+When a lot of designers begin a brand refresh, they look towards the future for inspiration instead of the past. I, however, believe the past holds many answers, too. In this case, it reveals the heart of the company – and, of course, its brand equity. 
 
 So I began with the logo that was designed in 2012. 
 
@@ -60,7 +60,7 @@ Ohhh, ahhh!
 
 Let’s take a closer look at what changed.
 
-Even if you can’t quite put your finger on why, hopefully the new version of the logo is more visually appealing. The ‘why’ is in the details. Probably the largest difference is the balance between ‘think’ and ‘shout.’ Creating a new version of the wordmark where ‘think’ is not thin and ‘shout’ is not bold means the wordmark feels more consistent throughout. The word ‘sShout’ is still orange – which naturally feels a bit stronger, according to color theory.
+Even if you can’t quite put your finger on why, hopefully the new version of the logo is more visually appealing. The ‘why’ is in the details. Probably the largest difference is the balance between ‘think’ and ‘shout.’ Creating a new version of the wordmark where ‘think’ is not thin and ‘shout’ is not bold means the wordmark feels more consistent throughout. The word ‘Shout’ is still orange – which naturally feels a bit stronger, according to color theory.
 
 Another significant change is in the new illustrations. The new thought bubbles have character, but are constructed to feel like they are meant to belong together. Just those two things drastically change the overall feeling of the wordmark. 
 
