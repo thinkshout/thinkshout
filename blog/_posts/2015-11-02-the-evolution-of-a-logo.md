@@ -16,7 +16,7 @@ On my third day at ThinkShout, I casually (read: scared out of my mind) took a r
 
 I was met with encouragement, and was asked to build a presentation and pitch why I thought the logo should be updated. The key word is, of course: *why*. When we take risks, it helps to support that decision with understanding as to why the risk is worth taking - for both you, or your client’s sake. 
 
-When a lot of designers begin a brand refresh, they look towards the future for inspiration instead of the past. I, however, believe the past holds many answers, too. In this case, it reveals the heart of the company – and, of course, its brand equity. 
+When a lot of designers begin a brand refresh, they look towards the future for inspiration. I believe the past holds many answers, too. In this case, it reveals the heart of the company – and, of course, its brand equity. 
 
 So I began with the logo that was designed in 2012. 
 
