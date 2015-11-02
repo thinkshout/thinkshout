@@ -10,6 +10,7 @@ tags:
   - Typography
 date: 2015-11-02 12:00:00
 ---
+
 On my third day at ThinkShout, I casually (read: scared out of my mind) took a risk and asked what would happen if I suggested a few updates to the current ThinkShout logo. 
 
 I was met with encouragement, and was asked to build a presentation and pitch why I thought the logo should be updated. The key word is, of course: *why*. When we take risks, it helps to support that decision with understanding as to why the risk is worth taking - for both you, or your client’s sake. 
