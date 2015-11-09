@@ -5,6 +5,8 @@ permalink: careers/project-manager/
 mailto: thinkshout-job6@mytribehr.com
 active: false
 ---
+We are seeking a seasoned Digital Project Manager to add to our growing team. As a Digital PM on the ThinkShout team you will lead design and development projects for nonprofit organizations. You should be a master of your craft, have impeccable listening and communication skills, and know how to bridge the gap between strategists, creatives, and engineers - all while keeping your clients happy and informed.
+
 ###Responsibilities
 - Manage the on-time and on-budget delivery of best-in-class open source web applications for our clients
 - Ensure that our clients are happy by providing the highest level of customer service
