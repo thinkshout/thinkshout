@@ -30,3 +30,7 @@ We are seeking a seasoned Digital Project Manager to join our growing team. As a
 - Comprehensive benefits package including health insurance with dental, vision, and alternative care, a matching 401k, life insurance, and a very generous 30 day PTO policy
 - Get paid to learn and go to conferences, such as DrupalCon, the Digital PM Summit, Dreamforce and the Nonprofit Technology Conference
 - A focus on work/life balance, including a flexible office hours policy. While this is an onsite position at our offices in Portland, OR, we allow staff to work remotely as needed to accommodate work style preferences and lifestyle needs.
+ 
+###Next Steps
+
+Send us a cover letter focusing on why you're interested in a career at ThinkShout, a resume in PDF format.
