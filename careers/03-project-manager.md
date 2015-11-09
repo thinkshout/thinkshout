@@ -5,12 +5,12 @@ permalink: careers/project-manager/
 mailto: jobs@thinkshout.com
 active: false
 ---
-We are seeking a seasoned Digital Project Manager to join our growing team. As a Digital PM on the ThinkShout team, you will lead design and development projects for nonprofit organizations. You should be a master of your craft, have impeccable listening and communication skills, and know how to bridge the gap between strategists, creatives, and engineers - all while keeping your clients happy and informed.
+We are seeking a seasoned Digital Project Manager to join our growing team. As a Digital PM at ThinkShout, you will lead design and development projects for nonprofit organizations. You should be a master of your craft, have impeccable listening and communication skills, and know how to bridge the gap between strategists, creatives, and engineers - all while keeping your clients happy and informed.
 
 ###Responsibilities
 - Lead project teams and coordinate project deliverables among developers, designers and strategists
 - Develop internal and client-facing project plans, development timelines, and user documentation for client projects
-- Manage the on-time and on-budget delivery of best-in-class open source web applications for our mission-driven - clients
+- Manage the on-time and on-budget delivery of best-in-class open source web applications for our mission-driven clients
 - Ensure that our clients are happy by providing the highest level of customer service
 - Respond to client requests and manage client communication and scheduling
 - Support clients in identifying and prioritizing project requirements
@@ -23,7 +23,7 @@ We are seeking a seasoned Digital Project Manager to join our growing team. As a
 - Familiarity with a variety of project management approaches
 - Ability to break out large projects into discrete milestones and deliverables
 - Ability to manage complex projects with multifaceted timelines and diverse project team
-- You want to make a commitment to our team, work, community, and clients.
+- The desire to make a commitment to our team, work, community, and clients
 
 ###Compensation Package
 - A competitive salary
