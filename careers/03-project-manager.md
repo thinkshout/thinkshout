@@ -2,7 +2,7 @@
 layout: job
 title: Project Manager
 permalink: careers/project-manager/
-mailto: thinkshout-job6@mytribehr.com
+mailto: jobs@thinkshout.com
 active: false
 ---
 We are seeking a seasoned Digital Project Manager to join our growing team. As a Digital PM on the ThinkShout team, you will lead design and development projects for nonprofit organizations. You should be a master of your craft, have impeccable listening and communication skills, and know how to bridge the gap between strategists, creatives, and engineers - all while keeping your clients happy and informed.
