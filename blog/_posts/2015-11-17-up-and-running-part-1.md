@@ -126,7 +126,7 @@ After that, you can check out additional sites by creating a directory, cd into 
 
 {% raw %}
 ```html
-    git clone git@github.com:USER/REPOSITORY.git
+    git clone git@github.com:USER/REPOSITORY.git .
 ```
 {% endraw %}
 
