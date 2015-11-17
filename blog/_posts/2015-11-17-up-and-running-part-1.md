@@ -14,7 +14,7 @@ date: 2015-11-17 14:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
-It’s November 2015, and Drupal.org is rolling out [Drupal 8 release candidates](https://www.drupal.org/project/drupal)! For many devs, that means we need to figure out how to install, sync, and set up a site theme. Here at ThinkShout, learning is part of the job - we have dedicated time every week to learn new things and share them, be it in a blog post, at our weekly engineering meetings, or at our weekly team lunch. 
+It’s November 2015, and Drupal.org is rolling out [Drupal 8 release candidates](https://www.drupal.org/project/drupal)! Heck, Drupal 8 is coming out *this week*. For many devs, that means we need to figure out how to install, sync, and set up a site theme. Here at ThinkShout, learning is part of the job - we have dedicated time every week to learn new things and share them, be it in a blog post, at our weekly engineering meetings, or at our weekly team lunch. 
 
 For the last few months, we’ve made learning Drupal 8 our singular focus. The ‘D8 Bookclub’ has been getting assignments, doing their homework, and sharing their findings internally. We’ve now spent enough time with Drupal 8 that we can share what we’ve learned, the little gotchas and hard-to-find code snippets, as well as the general change in philosophy that has occurred in the shift from D7 to D8. 
 
