@@ -84,6 +84,7 @@ The trick here is to use a series of permission and site config tweaks. After th
 This will make the ```settings.php``` file editable, create a sync directory below the web root (bonus security!), add the sync directory path, add the [trusted host pattern](https://api.drupal.org/api/drupal/core!lib!Drupal!Core!DrupalKernel.php/function/DrupalKernel%3A%3AsetupTrustedHosts/8) (a new D8 requirement), secure the file, and make the ```web/sites/default/files``` folder globally writable. 
 
 Now you’re ready to run the installation! From the base directory, run: 
+
 {% raw %}
 ```html
     composer install
@@ -93,7 +94,7 @@ Now you’re ready to run the installation! From the base directory, run:
 This will take a while, since it’s downloading Drupal and all the modules. 
 After initial installation, perform a full export and an immediate import/sync of your site configuration profile. This can be done two ways:
 
-1. Via the gui: /admin/config/development/configuration/full/export 
+1. Via the gui: ```/admin/config/development/configuration/full/export```
     
     Save this export file! Any subsequent sites will need this as a starting point so that entity mismatches don’t occur.
 
