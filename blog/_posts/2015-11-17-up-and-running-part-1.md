@@ -98,7 +98,8 @@ After initial installation, perform a full export and an immediate import/sync o
     
     Save this export file! Any subsequent sites will need this as a starting point so that entity mismatches don’t occur.
 
-2. Via Drush (run from the /web directory): 
+2. Via Drush (run from the ```/web``` directory): 
+
 {% raw %}
 ```html
     drush config-export
