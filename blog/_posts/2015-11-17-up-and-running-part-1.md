@@ -47,7 +47,7 @@ Next, install [Drush 8](https://www.lullabot.com/articles/switching-drush-versio
 
 Next, [download](https://github.com/drupal-composer/drupal-project/archive/8.x.zip) the full composer profile, and unzip it into an appropriate local directory (We use a ```~/Sites/``` directory to hold all of our projects). 
 
-Note: the Drupal Composer project updates regularly. If you run into any errors, re-download it. You could alternately create an [installation profile](https://www.drupal.org/node/2210443) in the ```web/profiles`folder, but that seems to be a tad under-documented and still not fully baked. 
+Note: the Drupal Composer project updates regularly. If you run into any errors, re-download it. You could alternately create an [installation profile](https://www.drupal.org/node/2210443) in the ```web/profiles``` folder, but that seems to be a tad under-documented and still not fully baked. 
 
 Now that we have a default site scaffold in place, we can get back to the post-install method. If you want to run the site installer after composer installs Drupal, in the ```post-install.sh``` file, you would add:
 
