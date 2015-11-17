@@ -160,7 +160,7 @@ Important Note: Every new instance MUST start with the same base configuration p
 
 ##Creating a Theme##
 
-This will be covered in our next post - Up and Theming with Drupal 8 
+This will be covered in our next post: "Up and Theming with Drupal 8." 
 
 ##Disclaimer##
 
