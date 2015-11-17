@@ -124,7 +124,7 @@ After that, you can check out additional sites by creating a directory, cd into 
 
 {% raw %}
 ```html
-git clone git@github.com:USER/REPOSITORY.git
+    git clone git@github.com:USER/REPOSITORY.git
 ```
 {% endraw %}
 
@@ -134,9 +134,13 @@ Optional: edit the ```post-install.sh``` prior to running ```composer install```
 
 ##Syncing Sites##
 
-Site configurations are only exportable to sites that have the same UUID and have synced using the shared base configuration profile. To find your site’s UUID, cd to the web folder of the base site, then install and run drush config-get system.site. After that, any new site can be synced using these steps immediately after a fresh install (either via download or Git clone): 
+Site configurations are only exportable to sites that have the same UUID and have synced using the shared base configuration profile. To find your site’s UUID, cd to the web folder of the base site, then install and run ```drush config-get system.site.``` After that, any new site can be synced using these steps immediately after a fresh install (either via download or Git clone): 
 
-```drush config-edit system.site``` (Update the UUID to match the base site)
+{% raw %}
+```html
+    drush config-edit system.site (Update the UUID to match the base site)
+```
+{% endraw %}
 
 If you manually saved the files, upload the base site config profile, but do not sync it
 
@@ -148,7 +152,7 @@ If you cloned the repo, the files should be in place. If the git repo has moved 
 
 {% raw %}
 ```html
-  drush config-import --partial
+    drush config-import --partial
 ```
 {% endraw %}
 
@@ -160,4 +164,4 @@ This will be covered in our next post - Up and Theming with Drupal 8
 
 ##Disclaimer##
 
-The post was written at the end of 2015 while Drupal 8 was still in a Release Candidate stage. While some effort will be made to keep the post up-to-date, if it’s after 2016, you should probably be adding the year you are currently in to your Google search, or better yet, check the docs on Drupal.org.  
+The post was written at the end of 2015 while Drupal 8 was still in a Release Candidate stage. While some effort will be made to keep the post up-to-date, if it’s after 2016, you should probably be adding the year you are currently in to your Google search, or better yet, check the docs on [Drupal.org](https://www.drupal.org/drupal-8.0).  
