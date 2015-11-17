@@ -2,8 +2,8 @@
 layout: post
 title: Up and Running with Drupal 8
 author: joe
-published: false
-featured: false
+published: true
+featured: true
 short: "Get going with Drupal 8 with the help of our two-part guides."
 tags:
   - Drupal planet
