@@ -136,7 +136,7 @@ Optional: edit the ```post-install.sh``` prior to running ```composer install```
 
 ##Syncing Sites##
 
-Site configurations are only exportable to sites that have the same UUID and have synced using the shared base configuration profile. To find your site’s UUID, cd to the web folder of the base site, then install and run ```drush config-get system.site.``` After that, any new site can be synced using these steps immediately after a fresh install (either via download or Git clone): 
+Site configurations are only exportable to sites that have the same UUID and have synced using the shared base configuration profile. To find your site’s UUID, cd to the web folder of the base site, then run ```drush config-get system.site```. After that, any new site can be synced using these steps immediately after a fresh install (either via download or Git clone): 
 
 {% raw %}
 ```html
