@@ -132,7 +132,7 @@ After that, you can check out additional sites by creating a directory, cd into 
 
 Now you can run ```composer install``` to build your clone. 
 
-Optional: edit the ```post-install.sh``` prior to running ```composer install``` if you’d your clone to have a different hostname, db, etc. 
+Optional: edit the ```post-install.sh``` prior to running ```composer install``` if you’d like your clone to have a different hostname, db, etc. 
 
 ##Syncing Sites##
 
