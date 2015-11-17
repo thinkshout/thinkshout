@@ -146,7 +146,7 @@ If you manually saved the files, upload the base site config profile, but do not
 
 If you cloned the repo, the files should be in place. If the git repo has moved beyond the base install, check out the repo at the ‘Base Site Profile’ stage mentioned above using ```git reset --hard $SHA1``` (where $SHA1 is the SHA of the Base Site Profile)
 
-{% endraw %}
+{% raw %}
 ```html
   drush config-import --partial
 ```
