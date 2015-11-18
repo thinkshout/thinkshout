@@ -35,7 +35,7 @@ The composer template mentioned above works great for a basic D8 install, but if
 
 This is the method we’ll be using for the rest of this post.
 
-First, [install composer](https://getcomposer.org/doc/00-intro.md). We’re using OSX with homebrew, so this is fairly simple - ```brew install composer```. Note: after implementing this, add this to your ```.bashrc``` (or similar):
+First, [install composer](https://getcomposer.org/doc/00-intro.md). We’re using OSX with [Homebrew](http://brew.sh/), so this is fairly simple - ```brew install composer```. Note: after implementing this, add this to your ```.bashrc``` (or similar):
 
 {% raw %}
 ```html
