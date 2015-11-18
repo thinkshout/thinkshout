@@ -43,7 +43,7 @@ First, [install composer](https://getcomposer.org/doc/00-intro.md). We’re usin
 ```
 {% endraw %}
 
-Next, install [Drush 8](https://www.lullabot.com/articles/switching-drush-versions), and add appropriate aliases so you can still work on any older Drupal projects. 
+Next, ensure you have [Drush 8](https://www.lullabot.com/articles/switching-drush-versions) installed. We prefer the [Composer global install](http://docs.drush.org/en/master/install-alternative/#install-a-global-drush-via-composer) approach to make updating Drush as simple as running `composer global update`.
 
 Next, [download](https://github.com/drupal-composer/drupal-project/archive/8.x.zip) the full composer profile, and unzip it into an appropriate local directory (We use a ```~/Sites/``` directory to hold all of our projects). 
 
