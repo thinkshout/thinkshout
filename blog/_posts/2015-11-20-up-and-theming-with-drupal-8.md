@@ -93,8 +93,9 @@ To do this, we copy `field.html.twig` from the core theme (see the ‘BEGIN OUTP
 ```
 
 Now we can begin to update the markup. The relevant code is:
+
 {% raw %}
-```twig
+```html
 {% if label_hidden %}
   ... (we don’t care about the label_hidden stuff)
 {% else %}
@@ -104,9 +105,11 @@ Now we can begin to update the markup. The relevant code is:
 {% endif %}
 ```
 {% endraw %}
+
 To add the inline styling class, we add the following to the top of the template (below the comments):
+
 {% raw %}
-```twig
+```html
 {%
   set classes = [
     'field--label-' ~ label_display,
@@ -114,14 +117,16 @@ To add the inline styling class, we add the following to the top of the template
 %}
 ```
 {% endraw %}
+
 And then update the label’s parent div attributes:
 
 before: ```<div{{ attributes }}>```
 after: ```<div{{ attributes.addClass(classes) }}>```
 
 Now the correct class is in place, but we see no change yet - because the `<div{{ title_attributes }}>` isn’t populating any classes. To fix that, we add the following, again at the top of the template:
+
 {% raw %}
-```twig
+```html
 {%
   set title_classes = [
     'field__label',
@@ -131,6 +136,7 @@ Now the correct class is in place, but we see no change yet - because the `<div{
 %}
 ```
 {% endraw %}
+
 And update the div:
 
 before: ```<div{{ title_attributes }}>{{ label }}</div>```
