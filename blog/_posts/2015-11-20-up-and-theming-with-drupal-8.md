@@ -48,7 +48,7 @@ Despite setting the label of `field_publish_date` to ‘inline,’ it’s wrappi
 
 The documentation for this seemingly simple task is obfuscated and evolving right now, but we were able to get it working correctly using the following steps:
 
-Step 1: Turn on [twig debug mode](https://www.drupal.org/node/1906392). We also found it helpful at this point to make a copy of `web/sites/example.settings.local.php` in `web/sites/default/` and uncomment the following in `settings.php`:
+**Step 1**: Turn on [twig debug mode](https://www.drupal.org/node/1906392). We also found it helpful at this point to make a copy of `web/sites/example.settings.local.php` in `web/sites/default/` and uncomment the following in `settings.php`:
 
 ```php
 if (file_exists(__DIR__ . '/settings.local.php')) {
@@ -58,7 +58,7 @@ if (file_exists(__DIR__ . '/settings.local.php')) {
 
 This will allow you to [disable caching](https://www.drupal.org/node/2598914) during development, which is no longer a simple checkbox in the performance section. Note that disabling caching can be tricky; the `drush cr` (cache rebuild) command is the most reliable way to ensure the cache is really cleared. You’ll also have to rebuild the cache at least once after turning caching off, so the new cache settings are applied.
 
-Step 2: Make a custom field template. 
+**Step 2**: Make a custom field template. 
 
 In this case, the suggested debug fields are: 
 
@@ -138,7 +138,7 @@ after: ```<div {{ title_attributes.addClass(title_classes) }}>{{ label }}</div>`
 
 Rebuild the cache (drush cr) and… success! well sort of - we still have to add CSS. Note that we also added a custom class of 'field__publish-date-label' in case we want to style it directly. 
 
-Step 3: Add a `THEMENAME.libraries.yml` file to hold attachment library definitions.  
+**Step 3**: Add a `THEMENAME.libraries.yml` file to hold attachment library definitions.  
 
 This is pretty simple; it’s a file with the following:
 
@@ -156,7 +156,7 @@ blog:
 
 We then add the directories (`/css` and `/js`) and files (`blog.css/js`). We’ve also added a jQuery dependency, just so you can see how that’s done. If we had something simple that could be done with [Vanilla JS](http://vanilla-js.com/) we could leave it off. Note that this won’t actually do anything until we follow step 4 below.
 
-Step 4: Add a `THEMENAME.theme` file to hold theme hooks (this is actually a PHP file, so start it with `<?php`). 
+**Step 4**: Add a `THEMENAME.theme` file to hold theme hooks (this is actually a PHP file, so start it with `<?php`). 
 
 This is the code that appends the library based on the content type. The trickiest part of this is figuring out the correct format of `hook_preprocess_HOOK()`:
 
@@ -174,4 +174,4 @@ And that’s it! Note that we could have changed the markup in any number of way
 
 ###Disclaimer###
 
-The post was written at the end of 2015 while Drupal 8 was still in a Release Candidate stage. While some effort will be made to keep the post up-to-date, if it’s after 2016, you should probably add the current year to your Google search, or better yet, check the docs on Drupal.org.  
+The post was written at the end of 2015 while Drupal 8 was still in a Release Candidate stage. While some effort will be made to keep the post up-to-date, if it’s after 2016, you should probably add the current year to your Google search, or better yet, check the docs on [Drupal.org](http://drupal.org).  
