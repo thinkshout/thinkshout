@@ -3,7 +3,7 @@ layout: post
 title: Up and Theming with Drupal 8
 author: joe
 published: true
-featured: false
+featured: true
 short: Part 2 of our series dives into Drupal 8 theming.
 tags:
   - Drupal planet
