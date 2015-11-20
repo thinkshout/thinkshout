@@ -64,7 +64,9 @@ The trick here is to use a series of permission and site config tweaks. After th
 
     #Prepare the custom sync directory, which will sit outside of the web root
     
-    mkdir configs;chmod 777 configs
+    if [ ! -d configs ] 
+    then mkdir -m777 configs 
+    fi
 
     echo "\$config_directories['sync'] = '../configs';" >> web/sites/default/settings.php
 
