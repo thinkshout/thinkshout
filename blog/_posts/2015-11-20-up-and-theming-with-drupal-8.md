@@ -4,7 +4,7 @@ title: Up and Theming with Drupal 8
 author: joe
 published: true
 featured: false
-short: Themes!
+short: Part 2 of our series dives into Drupal 8 theming.
 tags:
   - Drupal planet
   - Drupal 8
@@ -40,7 +40,9 @@ Also, the theme name must not contain hyphens. So `/theme-name/` is invalid (it 
 
 Now we’ll want to start customizing our theme. Let us say we have a content type called ‘blog’ (machine name: `blog`), with a field type called ‘Publish Date’ (machine name: `field_publish_date`). 
 
-Despite setting the label of `field_publish_date` to ‘inline,’ it’s wrapping to a new line due to the fact that it’s a simple, unstyled <div>. Worse, it has no classes to specifically style it. Let’s set ourselves some goals:
+Despite setting the label of `field_publish_date` to ‘inline,’ it’s wrapping to a new line due to the fact that it’s a simple, unstyled `<div>`. 
+
+Worse, it has no classes to specifically style it. Let’s set ourselves some goals:
 
 1. Add the inline styling class(s).
 2. Change the markup for this field, so that we have a class for the label.
