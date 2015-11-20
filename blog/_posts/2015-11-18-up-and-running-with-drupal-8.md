@@ -63,15 +63,16 @@ The trick here is to use a series of permission and site config tweaks. After th
     chmod 777 web/sites/default/s*;
 
     #Prepare the custom sync directory, which will sit outside of the web root
-    if [ ! -d configs ] then mkdir -m777 configs fi
+    
+    mkdir configs;chmod 777 configs
 
     echo "\$config_directories['sync'] = '../configs';" >> web/sites/default/settings.php
 
-    echo "\$settings['trusted_host_patterns'] = array('SITENAME\.dev$',);" >> web/sites/default/settings.php;
+    echo "\$settings['trusted_host_patterns'] = array('SITENAME\.dev$',);" >> web/sites/default/settings.php
 
-    chmod 444 web/sites/default/s*;
+    chmod 444 web/sites/default/s*
 
-    chmod -R 777 web/sites/default/files;
+    chmod -R 777 web/sites/default/files
 ```
 
 
