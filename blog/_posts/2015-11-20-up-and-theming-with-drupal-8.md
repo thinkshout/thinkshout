@@ -17,7 +17,7 @@ Drupal 8 is [finally here](https://www.drupal.org/8)! We’ve been digging into 
 
 ##Creating a Theme##
 
-The steps for setting up a basic site theme are fairly simple: create a custom/THEMENAME directory in web/themes, and then add a THEMENAME.info.yml file with the following:
+The steps for setting up a basic site theme are fairly simple: create a `custom/THEMENAME` directory in `web/themes`, and then add a `THEMENAME.info.yml` file with the following:
 
 ```yaml
 name: THEMENAME Theme
