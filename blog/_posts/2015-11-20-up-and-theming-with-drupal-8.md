@@ -2,7 +2,7 @@
 layout: post
 title: Up and Theming with Drupal 8
 author: joe
-published: false
+published: true
 featured: false
 short: Themes!
 tags:
