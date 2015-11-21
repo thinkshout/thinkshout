@@ -2,15 +2,15 @@
 layout: post
 title: Up and Theming with Drupal 8
 author: joe
-published: true
-featured: true
+published: false
+featured: false
 short: Part 2 of our series dives into Drupal 8 theming.
 tags:
   - Drupal planet
   - Drupal 8
   - Theming
   - Twig
-date: 2015-11-20 13:00:00
+date: 2015-11-23 13:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
