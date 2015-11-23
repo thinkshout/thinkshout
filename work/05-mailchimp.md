@@ -45,7 +45,7 @@ results:
     - number: 59
       description: Releases we've developed for the module
       type: figure
-    - number: 120,000
+    - number: 159,000
       description: Downloads of the MailChimp and Mandrill modules
       type: figure
     - number: 500
