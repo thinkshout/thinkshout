@@ -4,8 +4,8 @@ shortname: Lemelson-MIT
 title: Celebrating Invention, Inspiring Youth
 permalink: work/lemelson-mit/
 images:
-  card: work/mailchimp/mailchimp-card.jpg
-  hero: work/mailchimp/mailchimp-hero.jpg
+  card: work/lemelson-mit/lemelson-mit-card.png
+  hero: work/lemelson-mit/lemelson-mit-hero.jpg
 breakpoints:
   desktop:
   tablet:
@@ -47,7 +47,7 @@ results:
       description: Active teams leveraging the portal
       type: figure
   narrative:
-featured: false
-published: false
+featured: true
+published: true
 launch_label: "Launch Project Page"
 ---
