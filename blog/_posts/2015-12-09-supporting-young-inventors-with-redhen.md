@@ -2,16 +2,16 @@
 layout: post
 title: Supporting Young Inventors with RedHen
 author: jaymz
-published: false
-featured: false
-short: "Lemelson-MIT InvenTeams get a brand new tool to help manage their projects."
+published: true
+featured: true
+short: "We built a brand new Drupal-based tool for Lemelson-MIT InvenTeams."
 tags:
   - RedHen
   - Drupal Planet
   - Drupal
   - Slideroom 
   - Lemelson-MIT
-date: 2015-12-09 12:00:00
+date: 2015-12-09 14:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
