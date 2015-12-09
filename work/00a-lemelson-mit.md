@@ -4,14 +4,14 @@ shortname: Lemelson-MIT
 title: Celebrating Invention, Inspiring Youth
 permalink: work/lemelson-mit/
 images:
-  card: work/mailchimp/mailchimp-card.jpg
-  hero: work/mailchimp/mailchimp-hero.jpg
+  card: work/lemelson-mit/lemelson-mit-card.png
+  hero: work/lemelson-mit/lemelson-mit-hero.jpg
 breakpoints:
   desktop:
   tablet:
   mobile:
 client: |
-  The Lemelson-MIT Program celebrates outstanding inventors and inspires young people to pursue creative lives and careers through invention. In accomplishing this goal, Lemelson-MIT provides grants to teams of student inventors across the country. With over 60 applicant organizations and 15 teams selected to participate in the program each year, Lemelson-MIT needed a portal for managing project teams, budgets, and documentation. This is where ThinkShout came in: We developed an intuitive teaming application to help Lemelson-MIT manage the efforts of hundreds of school programs and student inventors.
+  The Lemelson-MIT Program celebrates outstanding inventors and inspires young people to pursue creative lives and careers through invention. In accomplishing this goal, Lemelson-MIT provides grants to teams of student inventors across the country. Lemelson-MIT needed a portal for managing project teams, budgets, and documentation. We developed an intuitive teaming application to help them manage the efforts of hundreds of school programs and student inventors.
 projecturl: https://drupal.org/project/mailchimp/
 expertise: |
   - Web Application Design
