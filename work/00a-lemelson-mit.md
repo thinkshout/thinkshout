@@ -37,9 +37,9 @@ components:
     column2: work/lemelson-mit/lemelson-mit-finances.png
 results:
   stats:
-    - number: 150,000
-      description: Grants made to student inventors
-      type: dollars
+    - number: 150
+      description: Dollars in grants made to student inventors
+      type: thousands
     - number: 600
       description: Student applicants to the Lemelson-MIT program
       type: figure
