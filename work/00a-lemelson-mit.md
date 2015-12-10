@@ -47,7 +47,7 @@ results:
       description: Active teams leveraging the portal
       type: figure
   narrative:
-featured: false
-published: false
+featured: true
+published: true
 launch_label: "Launch Project Page"
 ---
