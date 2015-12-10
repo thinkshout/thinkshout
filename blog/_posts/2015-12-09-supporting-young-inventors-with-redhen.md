@@ -9,9 +9,9 @@ tags:
   - RedHen
   - Drupal Planet
   - Drupal
-  - Slideroom 
+  - Slideroom
   - Lemelson-MIT
-date: 2015-12-09 14:00:00
+date: 2015-12-09 23:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
@@ -36,4 +36,3 @@ A big challenge for any organization getting started with a CRM is how they’re
 Lemelson-MIT uses [SlideRoom](http://www.slideroom.com/) for managing its InvenTeam grant application process. We didn’t want to recreate SlideRoom in Drupal, but we also didn’t want to require a bunch of manual data entry if we could help it. So we built a [SlideRoom Drupal module](https://www.drupal.org/project/slideroom) and a [SlideRoom API Wrapper for PHP](https://github.com/thinkshout/slideroom-api-php), which connect Drupal to the SlideRoom API. You can use these today! Paste in an API key and implement a couple of Drupal hooks, and your SlideRoom data is all available to you directly in your Drupal site. For Lemelson-MIT, we wrote a little bit of code to periodically scoop up that valuable CRM data and create contact entities attached to schools. This bridges a data silo to Lemelson-MIT’s Drupal site, and has become an important part of their workflow from accepting InvenTeam applications, to eventually forming a team of young inventors. All that’s left is to let that creativity loose, and get started inventing!
 
 Using RedHen as a Customer Relationship Management framework, we were able to capture the unique requirements for the Lemelson-MIT Program. We tied CRM data tightly into their Drupal website, and linked records directly to applications in SlideRoom. Building on top of the RedHen framework enabled us to provide immediate value for educators and students in the InvenTeam program, as well as Lemelson-MIT staff. We are inspired by these young people who are crafting inventions that aim to solve real world problems, and we’re proud to have built an application that supports their work.
-

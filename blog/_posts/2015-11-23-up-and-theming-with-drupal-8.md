@@ -6,7 +6,7 @@ published: true
 featured: true
 short: Part 2 of our series dives into Drupal 8 theming.
 tags:
-  - Drupal planet
+  - Drupal Planet
   - Drupal 8
   - Theming
   - Twig
@@ -37,11 +37,11 @@ regions:
 
 Then you can enable your theme (`administer » themes`) in the interface. Note that uncommenting  `base theme: classy` will cause you to set Classy as a parent theme. We feel that Classy is great if you want a lot of useful examples, but really clutters up the markup, so use at your own discretion. [After rc1](https://www.drupal.org/node/2575421), the default theme will be ‘stable,’ and you may want to pull all of the core templates into your theme to ensure you’re working from the latest updated template code.
 
-Also, the theme name must not contain hyphens. So `/theme-name/` is invalid (it won’t even show up!), but `/theme_name/` is fine. 
+Also, the theme name must not contain hyphens. So `/theme-name/` is invalid (it won’t even show up!), but `/theme_name/` is fine.
 
-Now we’ll want to start customizing our theme. Let us say we have a content type called ‘blog’ (machine name: `blog`), with a field type called ‘Publish Date’ (machine name: `field_publish_date`). 
+Now we’ll want to start customizing our theme. Let us say we have a content type called ‘blog’ (machine name: `blog`), with a field type called ‘Publish Date’ (machine name: `field_publish_date`).
 
-Despite setting the label of `field_publish_date` to ‘inline,’ it’s wrapping to a new line due to the fact that it’s a simple, unstyled `<div>`. 
+Despite setting the label of `field_publish_date` to ‘inline,’ it’s wrapping to a new line due to the fact that it’s a simple, unstyled `<div>`.
 
 Worse, it has no classes to specifically style it. Let’s set ourselves some goals:
 
@@ -61,9 +61,9 @@ if (file_exists(__DIR__ . '/settings.local.php')) {
 
 This will allow you to [disable caching](https://www.drupal.org/node/2598914) during development, which is no longer a simple checkbox in the performance section. Note that disabling caching can be tricky; the `drush cr` (cache rebuild) command is the most reliable way to ensure the cache is really cleared. You’ll also have to rebuild the cache at least once after turning caching off, so the new cache settings are applied.
 
-**Step 2**: Make a custom field template. 
+**Step 2**: Make a custom field template.
 
-In this case, the suggested debug fields are: 
+In this case, the suggested debug fields are:
 
 ```html
 <!-- FILE NAME SUGGESTIONS:
@@ -81,7 +81,7 @@ The highlighted line above shows the template currently being used, suggestions 
 
 We want to update `field_publish_date` globally, so we’ll create a template called `field--field-publish-date.html.twig`
 
-To do this, we copy `field.html.twig` from the core theme (see the ‘BEGIN OUTPUT’ line above for the path), and rename it in our theme’s folder to `field--field-publish-date.html.twig`. Now when we reload, we see the following (if your cache is disabled, of course, otherwise drush cr will clear the cache): 
+To do this, we copy `field.html.twig` from the core theme (see the ‘BEGIN OUTPUT’ line above for the path), and rename it in our theme’s folder to `field--field-publish-date.html.twig`. Now when we reload, we see the following (if your cache is disabled, of course, otherwise drush cr will clear the cache):
 
 ```html
 <!-- FILE NAME SUGGESTIONS:
@@ -145,7 +145,7 @@ And update the div:
 before: ```<div{{ title_attributes }}>{{ label }}</div>```
 after: ```<div {{ title_attributes.addClass(title_classes) }}>{{ label }}</div>```
 
-Rebuild the cache (drush cr) and… success! well sort of - we still have to add CSS. Note that we also added a custom class of 'field__publish-date-label' in case we want to style it directly. 
+Rebuild the cache (drush cr) and… success! well sort of - we still have to add CSS. Note that we also added a custom class of 'field__publish-date-label' in case we want to style it directly.
 
 **Step 3**: Add a `THEMENAME.libraries.yml` file to hold attachment library definitions.  
 
@@ -165,7 +165,7 @@ blog:
 
 We then add the directories (`/css` and `/js`) and files (`blog.css/js`). We’ve also added a jQuery dependency, just so you can see how that’s done. If we had something simple that could be done with [Vanilla JS](http://vanilla-js.com/) we could leave it off. Note that this won’t actually do anything until we follow step 4 below.
 
-**Step 4**: Add a `THEMENAME.theme` file to hold theme hooks (this is actually a PHP file, so start it with `<?php`). 
+**Step 4**: Add a `THEMENAME.theme` file to hold theme hooks (this is actually a PHP file, so start it with `<?php`).
 
 This is the code that appends the library based on the content type. The trickiest part of this is figuring out the correct format of `hook_preprocess_HOOK()`:
 
@@ -175,7 +175,7 @@ function THEMENAME_preprocess_node__blog(&$variables) {
 ]
 ```
 
-The theme hook format for content types is to use `node__MACHINENAME` format - two underscores. 
+The theme hook format for content types is to use `node__MACHINENAME` format - two underscores.
 
 After that, rebuild your cache (`drush cr`), and your CSS and JS files should be loading on every instance of that content type, regardless of the page. (full or teaser)
 
