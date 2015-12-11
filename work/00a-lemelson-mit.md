@@ -12,7 +12,6 @@ breakpoints:
   mobile:
 client: |
   The Lemelson-MIT Program celebrates outstanding inventors and inspires young people to pursue creative lives and careers through invention. In accomplishing this goal, Lemelson-MIT provides grants to teams of student inventors across the country. Lemelson-MIT needed a portal for managing project teams, budgets, and documentation. We developed an intuitive teaming application to help them manage the efforts of hundreds of school programs and student inventors.
-projecturl: 
 expertise: |
   - Web Application Design
   - Rapid Prototyping
