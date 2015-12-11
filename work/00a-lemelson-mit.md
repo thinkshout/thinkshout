@@ -49,5 +49,4 @@ results:
   narrative:
 featured: true
 published: true
-launch_label: "Launch Project Page"
 ---
