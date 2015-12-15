@@ -46,6 +46,6 @@ results:
       description: Active teams leveraging the portal
       type: figure
   narrative:
-featured: true
-published: true
+featured: false
+published: false
 ---
