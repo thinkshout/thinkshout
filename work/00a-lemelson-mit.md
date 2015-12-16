@@ -20,12 +20,12 @@ expertise: |
 
 components:
   - title: Complex Engineering Challenges
-    banner: 
+    banner:
     column1: |
       One of the main challenges of this project was that we had to build the teaming application as an extension of an existing Drupal website built by another agency. This required tight coordination, robust development workflows, and solid test plans. Interestingly, it also resulted in a migration to the Pantheon hosting platform and other DevOps enhancements that led to a 50% improvement in the web application’s overall speed.
     column2: work/lemelson-mit/lemelson-mit-roster.png
   - title: Intuitive Interface Design
-    banner: 
+    banner:
     column1: |
       As those who have worked with Drupal are acutely aware, it provides powerful tools out-of-the-box for building web applications and portals. That said, its default user interfaces can be clunky and hard for end users to learn. Consequently, we invested heavily into developing a custom interface design for the project. The result was a highly-intuitive user experience that engages students using the tool.
     column2: work/lemelson-mit/lemelson-mit-documents.png
@@ -46,6 +46,6 @@ results:
       description: Active teams leveraging the portal
       type: figure
   narrative:
-featured: false
-published: false
+featured: true
+published: true
 ---

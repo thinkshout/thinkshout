@@ -124,6 +124,7 @@ layout: default
               {% endif %}
             {% endfor %}
           </ul>
+          {% if page.projecturl %}
           <a class="button overlay" href="{{ page.projecturl }}">
             {% if page.launch_label %}
                {{ page.launch_label }}
@@ -131,6 +132,7 @@ layout: default
                Launch Website
             {% endif %}
           </a>
+          {% endif %}
         </div>
       </div>
     </section>
