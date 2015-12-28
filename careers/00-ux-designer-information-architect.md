@@ -6,8 +6,11 @@ mailto: jobs@thinkshout.com
 active: false
 ---
 ThinkShout is a leading design, strategy, and web development team located in Portland, OR. We envision digital technology and strategy that creates positive change in the world. We craft compelling open source engagement solutions for forward-thinking organizations.
+
 We are looking for a User Experience Designer with a strong background in information architecture to join our Discovery, Strategy, and User Experience team. 
+
 You thrive in crafting elegant solutions to meet the needs of end users while keeping client goals firmly in mind. If you love solving complex problems within a team environment, we want to hear from you. You’ll get to work with great clients like the Southern Poverty Law Center, Mercy Corps, and Facing History and Ourselves. 
+
 Experience in usability testing, content modeling, front-end development, and agile processes is also desired.
 
 ## Key Responsibilities
