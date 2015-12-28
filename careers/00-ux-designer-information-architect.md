@@ -11,8 +11,8 @@ You thrive in crafting elegant solutions to meet the needs of end users while ke
 Experience in usability testing, content modeling, front-end development, and agile processes is also desired.
 
 ## Key Responsibilities
--Crafting the user experience for client websites and applications, from kickoff to requirements gathering and research to the development of information architecture, wireframes, and final designs.
--Clearly articulating and presenting your recommendations to clients.
+- Crafting the user experience for client websites and applications, from kickoff to requirements gathering and research to the development of information architecture, wireframes, and final designs.
+- Clearly articulating and presenting your recommendations to clients.
 -Advocating for the end user, across the identified target audiences, both with our clients and internally at ThinkShout.
 -Collaborating with the full project team at ThinkShout, including project managers, developers, and strategists, to maintain a cohesive process in delivering the best possible solution to our clients.
 -Staying up-to-date on the latest developments in information architecture and user experience design and contributing to the development of our internal processes.
