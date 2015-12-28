@@ -40,7 +40,7 @@ Experience in usability testing, content modeling, front-end development, and ag
 - A focus on work/life balance, including a flexible office hours policy.
 
 ## Next Steps
-Send us a cover letter focusing on why you're interested in a career at ThinkShout and a resume in PDF format (or your LinkedIn profile). You should also provide as many of the following details as you can:
+Send us a cover letter focusing on why you're interested in a career at ThinkShout and a resume in PDF format (or your LinkedIn profile). You should also provide as many of the following details as you can.
 
 - Links to your portfolio, completed projects you played a lead role on, and any presentations or published articles related to information architecture or user experience.
 - Any questions you might have for us here at ThinkShout.
