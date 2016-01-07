@@ -1,11 +1,11 @@
 ---
 layout: job
-title: Project Manager
-permalink: careers/project-manager/
+title: Senior Project Manager
+permalink: careers/senior-project-manager/
 mailto: jobs@thinkshout.com
 active: true
 ---
-We are seeking a seasoned Digital Project Manager to join our growing team. As a Digital PM at ThinkShout, you will lead design and development projects for nonprofit organizations. You should be a master of your craft, have impeccable listening and communication skills, and know how to bridge the gap between strategists, creatives, and engineers - all while keeping your clients happy and informed.
+We are seeking a seasoned Senior Project Manager to join our growing team. As a Senior PM at ThinkShout, you will lead design and development projects for nonprofit organizations. You should be a master of your craft, have impeccable listening and communication skills, and know how to bridge the gap between strategists, creatives, and engineers - all while keeping your clients happy and informed.
 
 ###Responsibilities
 - Lead project teams and coordinate project deliverables among developers, designers and strategists
