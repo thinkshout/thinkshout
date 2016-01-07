@@ -18,7 +18,7 @@ Almost exactly a year ago, after over a year of flirting with the idea of partne
 * Participate and contribute to the Drupal community which we're proud to be a part of.
 
 We certainly have a long ways to go, but we're proud of how far we've come and are even more excited for what the year ahead holds.
-<!--break-->
+
 ## Highlights
 
 * Launching exciting projects with [Dehen 1920](http://dehen1920.com), [World Wildlife Fund](http://thinkshout.com/portfolio/world-wildlife-fund-fisheries-database), [Manhattan Kayak Company](http://manhattankayak.com/), [Blue Water Baltimore](http://bacteria.bluewaterbaltimore.org/), and [many more](http://thinkshout.com/portfolio).
