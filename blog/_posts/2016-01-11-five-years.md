@@ -9,6 +9,7 @@ tags:
   - ThinkShout
   - B Corp
   - Anniversary
+  - Drupal Planet
 date: 2016-01-11 10:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
