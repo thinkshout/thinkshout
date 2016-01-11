@@ -2,8 +2,8 @@
 layout: post
 title: Five Years
 author: lev
-published: false
-featured: false
+published: true
+featured: true
 short: 2015 in review and the years ahead
 tags:
   - ThinkShout
