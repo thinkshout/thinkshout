@@ -18,7 +18,7 @@ Five years ago today, Sean and I met on the rainy steps of our attorney’s offi
 
 Apart from our name and commitment to helping organizations that are making a positive impact in the world, it’s safe to say that pretty much everything else at ThinkShout has changed since that first day, including the grey in our beards! Personally, the challenges we face with constant change are among the things I like most about my job. As I often say, running ThinkShout has been a new job every 6 months or so, and I’m more excited than ever to see what the future will hold.
 
-![fiveyears1jpg](/assets/images/blog/fiveyears1.jpg)
+![fiveyears1jpg](http://thinkshout.com/assets/images/blog/fiveyears1.jpg)
 
 In thinking about all that the team has accomplished and everything we’ve experienced these last five years, I spent some time looking at my first [annual wrap-up post](http://thinkshout.com/blog/2012/01/lev/looking-back-2011/). What immediately stands out to me is that when we first started the company, most of our focus and pride came from talking about our technology contributions. We dreamt of being the “smartest geeks in the room” and bragged about how everyone at ThinkShout wrote code. Wow, was that ever naive and foolish. Just one of the many, MANY, lessons that Sean I learned as we stumbled down this path. We now understand that it takes so much more than solid technology to help an organization accomplish its goals. You need strategists to define solutions, designers to create delightful user experiences, and project managers to guide projects to success. 
 
@@ -32,5 +32,5 @@ This last year saw us focus on more than just our client engagements, as we incr
 
 We also undertook a major initiative to [redefine our mission, vision, and values](http://thinkshout.com/blog/2015/08/becoming-a-bcorp/). Having these guideposts are critical so we don’t “lose our way” as we continue to grow.  And one of my proudest experiences of being part of this team, we achieved our long time goal of becoming B Corp certified. B Corp certification provides us with guidelines, metrics, and a community of practice for all of the business decisions that we make in support of our team, our clients, our local community, and the environment. B Corp certification is our a roadmap for continuing to make intentional choices that put people and the planet above profit as we grow and continue to change over the next five, ten, fifteen years and beyond.
 
-![fiveyears2.jpg](/assets/images/blog/fiveyears2.jpg)
+![fiveyears2.jpg](http://thinkshout.com/assets/images/blog/fiveyears2.jpg)
 
