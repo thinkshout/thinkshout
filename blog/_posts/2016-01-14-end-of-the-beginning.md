@@ -10,7 +10,7 @@ tags:
   - Drupal Planet
 date: 2016-01-14 15:00:00
 ---
-![endofthebeginning.png](/assets/images/blog/endofthebeginning.png)
+![endofthebeginning.png](http://thinkshout.com/assets/images/blog/endofthebeginning.png)
 
 While I fully realize it’s not fair to compare a major turning point at an organization to one in an existential battle over the future of the civilized world, Winston Churchill was clearly onto something. At this point, the news is out that [Sean is leaving ThinkShout](http://thinkshout.com/blog/2016/01/stepping-down-as-ceo-stepping-into-colorado/). I still wince when I see those words, although we’re all getting used to the idea. 
 
