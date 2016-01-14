@@ -2,12 +2,14 @@
 layout: post
 title: Stepping Down As CEO, Stepping Into Colorado
 author: sean
-published: false
-featured: false
+published: true
+featured: true
 short: 
 tags:
   - ThinkShout
-date: 2016-01-14 12:00:00
+  - Drupal Planet
+date: 2016-01-14 13:00:00
+image: http://thinkshout.com/assets/images/blog/ernie_sean.png
 ---
 
 As most of my friends and colleagues in the Drupal and nonprofit technology communities know, I joyously became a dad about a year and a half ago. Stepping into fatherhood involved a move to Denver, away from our Portland-based team at ThinkShout. Since then, I’ve flown over 100,000 thousand miles, juggling my responsibilities as CEO at ThinkShout with those as a parent in Colorado. It’s been tricky to say the least. I am incredibly thankful for the support of my team, especially that of my thoughtful and and always encouraging business partner, Lev Tsypin.
@@ -25,7 +27,7 @@ At the same time, I could not feel more confident in the future of this company.
 
 ThinkShout will continue telling stories of good people making lasting change. Now I just get to tell ThinkShout’s story as fan and supporter in Colorado.
 
-![ernie_sean.png](/assets/images/blog/ernie_sean.png)
+![ernie_sean.png](http://thinkshout.com/assets/images/blog/ernie_sean.png)
 
 _(My son Ernie is a big fan of ThinkShout, too.)_
 
