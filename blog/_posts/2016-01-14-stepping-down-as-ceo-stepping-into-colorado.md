@@ -16,7 +16,7 @@ As most of my friends and colleagues in the Drupal and nonprofit technology comm
 
 That said, it’s time for a change. It’s time for me to be fully present in Colorado, focused on my family, embracing this new community.
 
-After a lot of conversation with Lev over the past few months, I have decided to step down as CEO at ThinkShout. I have handed over my ownership for an incremental buyout that keeps ThinkShout in a strong place financially.
+After a lot of conversation with Lev over the past few months, I have decided to step down as CEO at ThinkShout. I have handed over my ownership for an incremental buyout that keeps the company in a strong place financially.
 
 I will continue to serve this team and our clients through this transition for the next three to six months as our Director of Sales. Then, I look forward to taking a break from the world of professional services and technology to try some new things. (Honest to goodness, professional pickling is on my short list. Let’s chat more about that over a beer.)
 
