@@ -1,6 +1,6 @@
 - first_name: Lev
   last_name: Tsypin
-  position: CTO, Owner
+  position: CEO, Owner
   leadin: |
     Lev co-founded ThinkShout with the goal of bringing sustainable technology to organizations working for change. Lev leads a diverse team of forward-thinking engineers, helping our clients achieve their goals through innovation and technical excellence.
   social:
@@ -54,7 +54,7 @@
 
 - first_name: Tauno
   last_name: Hogue
-  position: Director of Engineering
+  position: CTO
   leadin: |
     Tauno is the more accomplished of two raft guides on the team. His guiding experience has given him a cool head and great communication skills, which come in handy in his role as our lead developer.
   social:
@@ -73,7 +73,7 @@
 
 - first_name: Brett
   last_name: Meyer
-  position: Director of Strategy
+  position: CSO
   leadin: |
     In 1994, Brett did 50,000 pull-ups to win a $20 bet. He brings this same level of drive to his communications consulting. As our content strategist, Brett helps our clients craft compelling messages and measure the success of their digital campaigns.
   social:
@@ -92,7 +92,7 @@
 
 - first_name: Alex
   last_name: MacMillan
-  position: Director of Project Management
+  position: COO
   leadin: |
     Alex’s passion for creative problem solving drew her to ThinkShout, where she navigates complex projects while supporting clients working to make the world a better place. She also really likes food, and since the ThinkShout team really likes food, she figured she’d be a great fit.
   social:
@@ -108,7 +108,7 @@
 
 - first_name: Sean
   last_name: Larkin
-  position: Director of Sales, Co-Founder
+  position: Director of Sales, Owner
   leadin: |
     Sean's interests in open source began in a tent in Honduras. Ask him about it sometime. He leads our strategy and user experience team, helping our clients communicate their vision and engage stakeholders more effectively on the web.
   social:
