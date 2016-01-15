@@ -1,6 +1,6 @@
 - first_name: Lev
   last_name: Tsypin
-  position: CEO, Owner
+  position: President, CEO
   leadin: |
     Lev co-founded ThinkShout with the goal of bringing sustainable technology to organizations working for change. Lev leads a diverse team of forward-thinking engineers, helping our clients achieve their goals through innovation and technical excellence.
   social:
@@ -54,7 +54,7 @@
 
 - first_name: Tauno
   last_name: Hogue
-  position: CTO
+  position: Chief Technical Officer
   leadin: |
     Tauno is the more accomplished of two raft guides on the team. His guiding experience has given him a cool head and great communication skills, which come in handy in his role as our lead developer.
   social:
@@ -73,7 +73,7 @@
 
 - first_name: Brett
   last_name: Meyer
-  position: CSO
+  position: Chief Strategy Officer
   leadin: |
     In 1994, Brett did 50,000 pull-ups to win a $20 bet. He brings this same level of drive to his communications consulting. As our content strategist, Brett helps our clients craft compelling messages and measure the success of their digital campaigns.
   social:
@@ -92,7 +92,7 @@
 
 - first_name: Alex
   last_name: MacMillan
-  position: COO
+  position: Chief Operating Officer
   leadin: |
     Alex’s passion for creative problem solving drew her to ThinkShout, where she navigates complex projects while supporting clients working to make the world a better place. She also really likes food, and since the ThinkShout team really likes food, she figured she’d be a great fit.
   social:
@@ -443,7 +443,7 @@
 
 - first_name: Krista
   last_name: Van Veen
-  position: Operations Manager
+  position: Manager of Culture and People
   leadin: |
     With a natural affinity for establishing operations procedures and a love for tech firms, Krista couldn’t feel more at home as the Operations Manager at ThinkShout. She loves solving complex organizational problems, almost as much as she loves her chickens.
   social:
