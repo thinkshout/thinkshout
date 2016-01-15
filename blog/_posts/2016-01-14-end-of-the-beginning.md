@@ -20,7 +20,7 @@ As we built this company, Sean and I were often challenged by mentors and our le
 
 For Sean, that time is now. And, even though he’s incredibly humble and won’t say it himself, he’s leaving with his head held high, incredibly proud of having accomplished what he set out to do.
 
-I can’t thank him enough for going on this journey with me these past 6 years. I don’t want to sugarcoat things. There have plenty of challenges, as there are in any relationship, but Sean’s been a wonderful business partner. He’s challenged me in countless ways, supported me when I’ve been down, and done the dirty work to make the business run when I’ve played the prima donna engineer role. In short, he’s set ThinkShout up for amazing success as he moves on. And for that, we’re all grateful.
+I can’t thank him enough for going on this journey with me these past 6 years. I don’t want to sugarcoat things. There have been plenty of challenges, as there are in any relationship, but Sean’s been a wonderful business partner. He’s challenged me in countless ways, supported me when I’ve been down, and done the dirty work to make the business run when I’ve played the prima donna engineer role. In short, he’s set ThinkShout up for amazing success as he moves on. And for that, we’re all grateful.
 
 Alright, so that’s the beginning. What’s next?
 
