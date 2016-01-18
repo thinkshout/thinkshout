@@ -2,8 +2,8 @@
 layout: post
 title: RedHen Raiser Raises the Bar for the Capital Area Food Bank
 author: stephanie
-published: false
-featured: false
+published: true
+featured: true
 short: The Capital Area Food Bank shares their RedHen Raiser successes.
 tags:
   - Drupal Planet
