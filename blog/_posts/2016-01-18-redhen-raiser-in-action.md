@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RedHen Raiser Raises the Bar for the Capital Area Food Bank
+title: RedHen Raiser in Action
 author: stephanie
 published: true
 featured: true
