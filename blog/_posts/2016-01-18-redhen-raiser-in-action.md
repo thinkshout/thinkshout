@@ -20,7 +20,7 @@ After a year of leveraging Raiser as their vehicle for crowdfunding, we’re thr
 
 The Food Bank recently shared an infographic with its constituents that breaks down the donations they received through their RedHen Raiser campaigns over this past year.
 
-![cafb_info.jpg](/assets/images/blog/cafb_info.jpg)
+![cafb_info.jpg](http://thinkshout.com/assets/images/blog/cafb_info.jpg)
 
 It’s really exciting for us to think of what other organizations will accomplish with RedHen Raiser. Raiser’s features allow fundraisers to tailor their campaigns to fit a variety of causes. The Food Bank utilized the Teams feature to give local law firms their own fundraising pages during the “[Food from the Bar](https://www.capitalareafoodbank.org/food-from-the-bar/)” campaign. There are so many other possible applications: walk-a-thons, food drives, even parties - [as the Food Bank has shown us](https://give.capitalareafoodbank.org/campaigns/party-against-hunger) - have the potential to be great fundraising opportunities for your organization, and they can all be easily managed with RedHen Raiser. 
 
