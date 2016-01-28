@@ -2,15 +2,15 @@
 layout: post
 title: Drupal Global Events in Portland
 author: greg
-published: false
-featured: false
+published: true
+featured: true
 short: Join us for some great Drupal events here in Portland!
 tags:
   - Drupal Planet
   - Drupal
   - Drupal training
   - Events
-date: 2016-01-27
+date: 2016-01-27 11:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
