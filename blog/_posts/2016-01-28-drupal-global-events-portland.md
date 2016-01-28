@@ -10,7 +10,7 @@ tags:
   - Drupal
   - Drupal training
   - Events
-date: 2016-01-27 11:00:00
+date: 2016-01-28 13:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
