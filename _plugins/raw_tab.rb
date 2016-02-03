@@ -1,7 +1,6 @@
 require 'jekyll'
 module Jekyll
   class RawTag < Liquid::Block
-    puts Liquid::Block.methods
     def parse(tokens)
       @nodelist ||= []
       @nodelist.clear
