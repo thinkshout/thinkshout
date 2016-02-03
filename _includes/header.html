@@ -1,20 +1,14 @@
 <header>
-	<div id="flag" class="menu-close">
-		<a class="menu-toggle"><span>Menu</span></a>
-		<a id="branding" href="{{ site.baseurl }}/">ThinkShout</a>
-    {% if page.path != 'index.html' and page.path != '404.html' %}
-    <div id="title-flag">
-      {% assign url_parts = page.url | split: '/' %}
-      <a href="{{ site.baseurl}}/{{ url_parts[1] }}/">{{ url_parts[1] | capitalize }}</a>
-    </div>
-    {% endif %}
-		<nav id="primary">
-			<ul>
-				{% for link in site.data.menu %}
-		    <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
-				{% endfor %}
-		  </ul>
-		</nav>
+	<div class="ts-full-logo">
+		Logo Goes Here
+	</div>
+	<div class="main-menu">
+		<ul class="menu-items">
+			<li>Who We Are</li>
+			<li>What We Do</li>
+			<li>Our Work</li>
+			<li>Connect With Us</li>
+			<li>Blog</li>
+		<ul>
 	</div>
 </header>
-
