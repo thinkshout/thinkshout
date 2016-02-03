@@ -54,8 +54,12 @@
 
 
 
-	<script src="{{ site.baseurl }}/assets/javascripts/ts.js"></script>
+	<script src="{{ site.baseurl }}/assets/javascripts/script.js"></script>
 
+  {% if site.host == '127.0.0.1' %}
+    <!-- Loaded only in local -->
+    <script src="http://localhost:35729/livereload.js"></script>
+  {% endif %}
 
 {% if site.host != '127.0.0.1' %}
   <script>
