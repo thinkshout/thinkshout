@@ -1,8 +1,9 @@
 name: ThinkShout
 description: ThinkShout - We provide web strategy and open source technology to forward-thinking organizations.
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+kramdown:
+  input: GFM
+# redcarpet:
+#   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
 baseurl: ''
 url: http://thinkshout.com
