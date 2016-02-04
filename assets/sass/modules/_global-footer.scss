@@ -2,6 +2,8 @@ footer {
   background: url('../images/footer.png') center;
   height: 544px;
   margin: 0 auto;
+  padding-top: 5.5rem;
+  position: relative;
   width: 1440px;
 
   ul {
@@ -16,5 +18,23 @@ footer {
 
   img {
     max-width: rem(40);
+  }
+
+  .ts-address {
+    color: $white;
+    margin-top: rem(60);
+  }
+
+  .bcorp-logo {
+    position: absolute;
+    right: 8.75rem;
+    top: 11.5rem;
+  }
+
+  .copyright {
+    bottom: 5.5rem;
+    color: $ltgray;
+    font-size: rem(12);
+    position: absolute;
   }
 }

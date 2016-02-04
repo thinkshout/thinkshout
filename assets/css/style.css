@@ -22,7 +22,12 @@ li {
   list-style-type: none; }
 
 footer {
-  background: #dbdcde; }
+  background: url("../images/footer.png") center;
+  height: 544px;
+  margin: 0 auto;
+  padding-top: 5.5rem;
+  position: relative;
+  width: 1440px; }
   footer ul {
     padding-left: 0; }
   footer li {
@@ -31,6 +36,18 @@ footer {
     margin-right: 2.5rem; }
   footer img {
     max-width: 2.5rem; }
+  footer .ts-address {
+    color: #fff;
+    margin-top: 3.75rem; }
+  footer .bcorp-logo {
+    position: absolute;
+    right: 8.75rem;
+    top: 11.5rem; }
+  footer .copyright {
+    bottom: 5.5rem;
+    color: #dbdcde;
+    font-size: 0.75rem;
+    position: absolute; }
 
 header img {
   width: 13rem; }
@@ -45,7 +62,7 @@ header li {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 1rem; }
+  padding: 0 8.75rem; }
   .container::after {
     clear: both;
     content: "";
