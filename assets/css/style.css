@@ -24,3 +24,6 @@ p {
     content: "";
     display: table;
     clear: both; }
+
+body {
+  background: blue; }

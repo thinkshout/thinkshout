@@ -14,7 +14,7 @@ module Jekyll
       self.data['title'] = "#{tag_title_prefix}#{tag}#{tag_title_suffix}"
     end
   end
-  
+
   class TagFeed < Page
     def initialize(site, base, tag_dir, tag)
       @site = site
