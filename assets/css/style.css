@@ -22,12 +22,13 @@ li {
   list-style-type: none; }
 
 footer {
-  background: url("../images/footer.png") center;
+  background: url("../images/footer.png") center center;
+  background-size: cover;
   height: 544px;
   margin: 0 auto;
   padding-top: 5.5rem;
   position: relative;
-  width: 1440px; }
+  width: 100%; }
   footer ul {
     padding-left: 0; }
   footer li {
@@ -50,7 +51,7 @@ footer {
     position: absolute; }
 
 header {
-  padding: 2rem; }
+  padding: 2rem 0; }
   header img {
     width: 13rem; }
   header .main-menu {
