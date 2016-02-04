@@ -49,14 +49,16 @@ footer {
     font-size: 0.75rem;
     position: absolute; }
 
-header img {
-  width: 13rem; }
-header .main-menu {
-  float: right;
-  font-size: 1.125rem; }
-header li {
-  display: inline;
-  margin-left: 2.5rem; }
+header {
+  padding: 2rem; }
+  header img {
+    width: 13rem; }
+  header .main-menu {
+    float: right;
+    font-size: 1.125rem; }
+  header li {
+    display: inline;
+    margin-left: 2.5rem; }
 
 .container {
   max-width: 1440px;
