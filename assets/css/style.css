@@ -1,9 +1,11 @@
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+html {
   box-sizing: border-box; }
 
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 body {
+  font-family: "Gotham SSm A", "Gotham SSm B";
   font-size: 16px; }
 
 h1 {
@@ -16,12 +18,37 @@ p {
   font-size: 1em;
   line-height: 1.75; }
 
+li {
+  list-style-type: none; }
+
+footer {
+  background: #dbdcde; }
+  footer ul {
+    padding-left: 0; }
+  footer li {
+    color: #f58546;
+    display: inline;
+    margin-right: 2.5rem; }
+  footer img {
+    max-width: 2.5rem; }
+
+header img {
+  width: 13rem; }
+header .main-menu {
+  float: right;
+  font-size: 1.125rem; }
+header li {
+  display: inline;
+  margin-left: 2.5rem; }
+
 .container {
-  max-width: 68em;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 1rem; }
-  .container:after {
+  .container::after {
+    clear: both;
     content: "";
-    display: table;
-    clear: both; }
+    display: table; }
+
+/*# sourceMappingURL=style.css.map */

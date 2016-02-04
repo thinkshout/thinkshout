@@ -1,0 +1,17 @@
+footer {
+  background: $ltgray;
+
+  ul {
+    padding-left: 0;
+  }
+
+  li {
+    color: $midorange;
+    display: inline;
+    margin-right: rem(40);
+  }
+
+  img {
+    max-width: rem(40);
+  }
+}

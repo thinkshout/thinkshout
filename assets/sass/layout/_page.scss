@@ -1,4 +1,4 @@
 .container {
-  @include outer-container;
+  @include outer-container(1440px);
   padding: 0 1rem;
 }
