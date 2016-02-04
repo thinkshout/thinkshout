@@ -19,11 +19,9 @@ p {
 .container {
   max-width: 68em;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding: 0 1rem; }
   .container:after {
     content: "";
     display: table;
     clear: both; }
-
-body {
-  background: pink; }
