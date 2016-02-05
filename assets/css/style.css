@@ -2171,6 +2171,8 @@ header {
     .newsletter-block .social-media ul {
       clear: right;
       float: right; }
+    .newsletter-block .social-media ul {
+      margin-top: 0; }
     .newsletter-block .social-media li {
       display: inline; }
 
