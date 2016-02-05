@@ -21,11 +21,17 @@
   .newsletter-info {
     @include span-columns(9);
 
+    form {
+      // font: normal normal normal 13px/1 FontAwesome;
+      margin-top: 2rem;
+    }
+
     input {
       background: $midorange;
       border: none;
       border-bottom: 4px solid $white;
       float: left;
+      opacity: 0.5;
       padding: 1rem 0;
 
       &::-webkit-input-placeholder { color: $white; }
@@ -35,6 +41,7 @@
 
     #newsletter-label {
       margin-top: rem(-3);
+      padding-right: 7rem;
     }
 
     #newsletter-submit {
