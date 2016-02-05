@@ -2161,7 +2161,7 @@ header {
       .newsletter-block .newsletter-info input:-ms-input-placeholder {
         color: #fff; }
     .newsletter-block .newsletter-info #newsletter-label {
-      font-size: 0.9375rem;
+      margin-top: -0.1875rem;
       width: 70%; }
       @media (min-width: 980px) {
         .newsletter-block .newsletter-info #newsletter-label {
