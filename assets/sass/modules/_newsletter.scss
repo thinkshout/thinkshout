@@ -44,8 +44,12 @@
     }
 
     #newsletter-label {
-      margin-top: rem(-3);
+      font-size: rem(15);
       width: 70%;
+
+      @include mq(d) {
+        width: 50%;
+      }
     }
 
     #newsletter-submit {
