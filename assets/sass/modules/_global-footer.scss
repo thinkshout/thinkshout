@@ -11,7 +11,7 @@ footer {
     padding-top: 2rem;
   }
 
-  @include mq(p) {
+  @include mq(t) {
     padding-top: 2rem;
   }
 
@@ -30,7 +30,7 @@ footer {
       line-height: $line-height;
     }
 
-    @include mq(p) {
+    @include mq(t) {
       font-size: rem(24);
       line-height: $line-height;
     }
@@ -55,7 +55,7 @@ footer {
       right: 1rem;
     }
 
-    @include mq(p) {
+    @include mq(t) {
       margin-top: 2rem;
       position: inherit;
     }
@@ -71,7 +71,7 @@ footer {
       bottom: 2rem;
     }
 
-    @include mq(p) {
+    @include mq(t) {
       margin-top: 3rem;
     }
   }
@@ -80,7 +80,7 @@ footer {
   .ts-address,
   .bcorp-logo,
   .copyright {
-    @include mq(p) {
+    @include mq(t) {
       text-align: center;
       position: inherit;
     }
