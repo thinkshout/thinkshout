@@ -122,6 +122,24 @@ header {
     width: 74.41059%; }
     .newsletter-block .newsletter-info:last-child {
       margin-right: 0; }
+    .newsletter-block .newsletter-info input {
+      background: #f58546;
+      border: none;
+      border-bottom: 4px solid #fff;
+      float: left;
+      padding: 1rem; }
+      .newsletter-block .newsletter-info input::-webkit-input-placeholder {
+        color: #fff; }
+      .newsletter-block .newsletter-info input::-moz-placeholder {
+        color: #fff; }
+      .newsletter-block .newsletter-info input:-ms-input-placeholder {
+        color: #fff; }
+    .newsletter-block .newsletter-info #newsletter-label {
+      margin-top: -0.1875rem; }
+    .newsletter-block .newsletter-info #newsletter-submit {
+      font-size: 0.875rem;
+      font-weight: bold;
+      text-transform: uppercase; }
   .newsletter-block .social-media {
     float: left;
     display: block;

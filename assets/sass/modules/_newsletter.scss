@@ -20,6 +20,28 @@
 
   .newsletter-info {
     @include span-columns(9);
+
+    input {
+      background: $midorange;
+      border: none;
+      border-bottom: 4px solid $white;
+      float: left;
+      padding: 1rem;
+
+      &::-webkit-input-placeholder { color: $white; }
+      &::-moz-placeholder { color: $white; }
+      &:-ms-input-placeholder { color: $white; }
+    }
+
+    #newsletter-label {
+      margin-top: rem(-3);
+    }
+
+    #newsletter-submit {
+      font-size: rem(14);
+      font-weight: bold;
+      text-transform: uppercase;
+    }
   }
 
   .social-media {
