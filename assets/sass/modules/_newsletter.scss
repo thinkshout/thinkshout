@@ -26,25 +26,26 @@
     }
 
     form {
-      // font: normal normal normal 13px/1 FontAwesome;
       margin-top: 2rem;
     }
 
-    input {
+    input,
+    button {
       background: $midorange;
       border: none;
       border-bottom: 4px solid $white;
       float: left;
       opacity: 0.5;
-      padding: 1rem 0;
+      // padding: 1rem 0;
 
       &::-webkit-input-placeholder { color: $white; }
       &::-moz-placeholder { color: $white; }
       &:-ms-input-placeholder { color: $white; }
     }
 
-    #newsletter-label {
+    input {
       margin-top: rem(-3);
+      padding: 1rem 0;
       width: 70%;
 
       @include mq(d) {
@@ -52,10 +53,15 @@
       }
     }
 
-    #newsletter-submit {
+    button {
       font-size: rem(14);
       font-weight: bold;
+      padding: rem(15) 0;
       text-transform: uppercase;
+
+      i {
+        font-size: rem(18);
+      }
     }
   }
 

@@ -2071,12 +2071,24 @@ footer {
   footer img {
     max-width: 2.5rem; }
   footer .ts-address {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
     color: #fff;
     margin-top: 3.75rem; }
+    footer .ts-address:last-child {
+      margin-right: 0; }
   footer .bcorp-logo {
-    position: absolute;
-    right: 8.75rem;
-    top: 11.5rem; }
+    margin-top: 3.75rem;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%;
+    margin-right: 0;
+    text-align: right; }
+    footer .bcorp-logo:last-child {
+      margin-right: 0; }
     @media (max-width: 480px) {
       footer .bcorp-logo {
         top: 22.7rem;
@@ -2147,29 +2159,36 @@ header {
           margin-right: 0; } }
     .newsletter-block .newsletter-info form {
       margin-top: 2rem; }
-    .newsletter-block .newsletter-info input {
+    .newsletter-block .newsletter-info input,
+    .newsletter-block .newsletter-info button {
       background: #f58546;
       border: none;
       border-bottom: 4px solid #fff;
       float: left;
-      opacity: 0.5;
-      padding: 1rem 0; }
-      .newsletter-block .newsletter-info input::-webkit-input-placeholder {
+      opacity: 0.5; }
+      .newsletter-block .newsletter-info input::-webkit-input-placeholder,
+      .newsletter-block .newsletter-info button::-webkit-input-placeholder {
         color: #fff; }
-      .newsletter-block .newsletter-info input::-moz-placeholder {
+      .newsletter-block .newsletter-info input::-moz-placeholder,
+      .newsletter-block .newsletter-info button::-moz-placeholder {
         color: #fff; }
-      .newsletter-block .newsletter-info input:-ms-input-placeholder {
+      .newsletter-block .newsletter-info input:-ms-input-placeholder,
+      .newsletter-block .newsletter-info button:-ms-input-placeholder {
         color: #fff; }
-    .newsletter-block .newsletter-info #newsletter-label {
+    .newsletter-block .newsletter-info input {
       margin-top: -0.1875rem;
+      padding: 1rem 0;
       width: 70%; }
       @media (min-width: 980px) {
-        .newsletter-block .newsletter-info #newsletter-label {
+        .newsletter-block .newsletter-info input {
           width: 50%; } }
-    .newsletter-block .newsletter-info #newsletter-submit {
+    .newsletter-block .newsletter-info button {
       font-size: 0.875rem;
       font-weight: bold;
+      padding: 0.9375rem 0;
       text-transform: uppercase; }
+      .newsletter-block .newsletter-info button i {
+        font-size: 1.125rem; }
   .newsletter-block .social-media {
     float: left;
     display: block;
