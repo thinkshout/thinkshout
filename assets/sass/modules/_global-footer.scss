@@ -7,6 +7,14 @@ footer {
   position: relative;
   width: 100%;
 
+  @include mq(m) {
+    padding-top: 2rem;
+  }
+
+  @include mq(p) {
+    padding-top: 2rem;
+  }
+
   ul {
     padding-left: 0;
   }
@@ -15,6 +23,17 @@ footer {
     color: $midorange;
     display: inline;
     margin-right: rem(40);
+
+    @include mq(m) {
+      display: block;
+      font-size: rem(24);
+      line-height: $line-height;
+    }
+
+    @include mq(p) {
+      font-size: rem(24);
+      line-height: $line-height;
+    }
   }
 
   img {
@@ -30,6 +49,16 @@ footer {
     position: absolute;
     right: 8.75rem;
     top: 11.5rem;
+
+    @include mq(m) {
+      top: 22.7rem;
+      right: 1rem;
+    }
+
+    @include mq(p) {
+      margin-top: 2rem;
+      position: inherit;
+    }
   }
 
   .copyright {
@@ -37,5 +66,23 @@ footer {
     color: $ltgray;
     font-size: rem(12);
     position: absolute;
+
+    @include mq(m) {
+      bottom: 2rem;
+    }
+
+    @include mq(p) {
+      margin-top: 3rem;
+    }
+  }
+
+  ul,
+  .ts-address,
+  .bcorp-logo,
+  .copyright {
+    @include mq(p) {
+      text-align: center;
+      position: inherit;
+    }
   }
 }

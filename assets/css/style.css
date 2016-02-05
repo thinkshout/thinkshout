@@ -29,12 +29,27 @@ footer {
   padding-top: 5.5rem;
   position: relative;
   width: 100%; }
+  @media (max-width: 480px) {
+    footer {
+      padding-top: 2rem; } }
+  @media (min-width: 481px) and (max-width: 670px) {
+    footer {
+      padding-top: 2rem; } }
   footer ul {
     padding-left: 0; }
   footer li {
     color: #f58546;
     display: inline;
     margin-right: 2.5rem; }
+    @media (max-width: 480px) {
+      footer li {
+        display: block;
+        font-size: 1.5rem;
+        line-height: 1.75; } }
+    @media (min-width: 481px) and (max-width: 670px) {
+      footer li {
+        font-size: 1.5rem;
+        line-height: 1.75; } }
   footer img {
     max-width: 2.5rem; }
   footer .ts-address {
@@ -44,11 +59,32 @@ footer {
     position: absolute;
     right: 8.75rem;
     top: 11.5rem; }
+    @media (max-width: 480px) {
+      footer .bcorp-logo {
+        top: 22.7rem;
+        right: 1rem; } }
+    @media (min-width: 481px) and (max-width: 670px) {
+      footer .bcorp-logo {
+        margin-top: 2rem;
+        position: inherit; } }
   footer .copyright {
     bottom: 5.5rem;
     color: #dbdcde;
     font-size: 0.75rem;
     position: absolute; }
+    @media (max-width: 480px) {
+      footer .copyright {
+        bottom: 2rem; } }
+    @media (min-width: 481px) and (max-width: 670px) {
+      footer .copyright {
+        margin-top: 3rem; } }
+  @media (min-width: 481px) and (max-width: 670px) {
+    footer ul,
+    footer .ts-address,
+    footer .bcorp-logo,
+    footer .copyright {
+      text-align: center;
+      position: inherit; } }
 
 header {
   padding: 2rem 0; }
@@ -70,5 +106,11 @@ header {
     clear: both;
     content: "";
     display: table; }
+  @media (max-width: 480px) {
+    .container {
+      padding: 0 1rem; } }
+  @media (min-width: 481px) and (max-width: 670px) {
+    .container {
+      padding: 0 1rem; } }
 
 /*# sourceMappingURL=style.css.map */

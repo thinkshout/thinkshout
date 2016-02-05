@@ -1,0 +1,40 @@
+// Media Queries
+@mixin mq($screen) {
+  // Mobile
+  @if $screen == m {
+    @media (max-width: 480px) { @content; }
+  }
+
+  // Phablet *tweeks
+  @if $screen == p {
+    @media (min-width: 481px) and (max-width: 670px) { @content; }
+  }
+
+  // Large Tablet *tweeks
+  @if $screen == lt {
+    @media (min-width: 671px) and (max-width: 979px) { @content; }
+  }
+
+  // Tablet
+  @if $screen == t {
+    @media (min-width: 481px) and (max-width: 979px) { @content; }
+  }
+
+  // Desktop
+  @if $screen == d {
+    @media (min-width: 980px) { @content; }
+  }
+
+  // Large Desktop
+  @if $screen == l {
+    @media (min-width: 1200px) { @content }
+  }
+
+  // Retina
+  @if $screen == r {
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      /* Retina-specific stuff here */
+      @content;
+    }
+  }
+}
