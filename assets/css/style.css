@@ -2137,6 +2137,14 @@ header {
     width: 74.41059%; }
     .newsletter-block .newsletter-info:last-child {
       margin-right: 0; }
+    @media (max-width: 480px) {
+      .newsletter-block .newsletter-info {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .newsletter-block .newsletter-info:last-child {
+          margin-right: 0; } }
     .newsletter-block .newsletter-info form {
       margin-top: 2rem; }
     .newsletter-block .newsletter-info input {
@@ -2154,7 +2162,7 @@ header {
         color: #fff; }
     .newsletter-block .newsletter-info #newsletter-label {
       margin-top: -0.1875rem;
-      padding-right: 7rem; }
+      width: 70%; }
     .newsletter-block .newsletter-info #newsletter-submit {
       font-size: 0.875rem;
       font-weight: bold;
@@ -2167,12 +2175,28 @@ header {
     z-index: 1; }
     .newsletter-block .social-media:last-child {
       margin-right: 0; }
+    @media (max-width: 480px) {
+      .newsletter-block .social-media {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        margin-top: 2rem; }
+        .newsletter-block .social-media:last-child {
+          margin-right: 0; } }
     .newsletter-block .social-media h1,
     .newsletter-block .social-media ul {
       clear: right;
       float: right; }
+      @media (max-width: 480px) {
+        .newsletter-block .social-media h1,
+        .newsletter-block .social-media ul {
+          float: none; } }
     .newsletter-block .social-media ul {
       margin-top: 0; }
+      @media (max-width: 480px) {
+        .newsletter-block .social-media ul {
+          padding: 0; } }
     .newsletter-block .social-media li {
       display: inline; }
 

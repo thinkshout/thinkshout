@@ -21,6 +21,10 @@
   .newsletter-info {
     @include span-columns(9);
 
+    @include mq(m) {
+      @include span-columns(12);
+    }
+
     form {
       // font: normal normal normal 13px/1 FontAwesome;
       margin-top: 2rem;
@@ -41,7 +45,7 @@
 
     #newsletter-label {
       margin-top: rem(-3);
-      padding-right: 7rem;
+      width: 70%;
     }
 
     #newsletter-submit {
@@ -55,14 +59,27 @@
     @include span-columns(3);
     z-index: 1;
 
+    @include mq(m) {
+      @include span-columns(12);
+      margin-top: 2rem;
+    }
+
     h1,
     ul {
       clear: right;
       float: right;
+
+      @include mq(m) {
+        float: none;
+      }
     }
 
     ul {
       margin-top: 0;
+
+      @include mq(m) {
+        padding: 0;
+      }
     }
 
     li {
