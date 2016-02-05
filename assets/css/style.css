@@ -22,7 +22,7 @@ li {
   list-style-type: none; }
 
 footer {
-  background: url("../images/footer.png") center center;
+  background: url("../images/ts_redesign/footer.png") center center;
   background-size: cover;
   height: 544px;
   margin: 0 auto;
@@ -96,6 +96,13 @@ header {
   header li {
     display: inline;
     margin-left: 2.5rem; }
+
+.newsletter-block {
+  background: #f58546;
+  color: #fff;
+  padding: 4rem 0; }
+  .newsletter-block h1 {
+    font-family: "FilmotypeLucky"; }
 
 .container {
   max-width: 1440px;
