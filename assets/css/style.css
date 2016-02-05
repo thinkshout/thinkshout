@@ -21,6 +21,9 @@ p {
 li {
   list-style-type: none; }
 
+a {
+  text-decoration: none; }
+
 footer {
   background: url("../images/ts_redesign/footer.png") center center;
   background-size: cover;
@@ -100,9 +103,39 @@ header {
 .newsletter-block {
   background: #f58546;
   color: #fff;
-  padding: 4rem 0; }
+  padding: 4rem 0;
+  position: relative; }
+  .newsletter-block:after {
+    content: "";
+    background: transparent url("../images/ts_redesign/dot.png") repeat repeat;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0; }
   .newsletter-block h1 {
     font-family: "FilmotypeLucky"; }
+  .newsletter-block .newsletter-info {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%; }
+    .newsletter-block .newsletter-info:last-child {
+      margin-right: 0; }
+  .newsletter-block .social-media {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    z-index: 1; }
+    .newsletter-block .social-media:last-child {
+      margin-right: 0; }
+    .newsletter-block .social-media h1,
+    .newsletter-block .social-media ul {
+      clear: right;
+      float: right; }
+    .newsletter-block .social-media li {
+      display: inline; }
 
 .container {
   max-width: 1440px;

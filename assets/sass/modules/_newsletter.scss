@@ -2,8 +2,38 @@
   background: $midorange;
   color: $white;
   padding: 4rem 0;
+  position: relative;
+
+  &:after {
+    content: "";
+    background: transparent url('../images/ts_redesign/dot.png') repeat repeat;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 
   h1 {
     font-family: $secondary-font;
+  }
+
+  .newsletter-info {
+    @include span-columns(9);
+  }
+
+  .social-media {
+    @include span-columns(3);
+    z-index: 1;
+
+    h1,
+    ul {
+      clear: right;
+      float: right;
+    }
+
+    li {
+      display: inline;
+    }
   }
 }
