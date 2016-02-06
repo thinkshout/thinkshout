@@ -2058,6 +2058,7 @@ footer {
   footer li {
     color: #f58546;
     display: inline;
+    line-height: 1.75;
     margin-right: 2.5rem; }
     @media (max-width: 480px) {
       footer li {
@@ -2066,8 +2067,7 @@ footer {
         line-height: 1.75; } }
     @media (min-width: 481px) and (max-width: 979px) {
       footer li {
-        font-size: 1.5rem;
-        line-height: 1.75; } }
+        font-size: 1.5rem; } }
   footer img {
     max-width: 2.5rem; }
   footer .ts-address {
@@ -2107,14 +2107,22 @@ footer {
         bottom: 2rem; } }
     @media (min-width: 481px) and (max-width: 979px) {
       footer .copyright {
-        margin-top: 3rem; } }
+        bottom: 3rem;
+        text-align: center;
+        width: 95%; } }
   @media (min-width: 481px) and (max-width: 979px) {
     footer ul,
     footer .ts-address,
-    footer .bcorp-logo,
-    footer .copyright {
-      text-align: center;
-      position: inherit; } }
+    footer .bcorp-logo {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      text-align: center; }
+      footer ul:last-child,
+      footer .ts-address:last-child,
+      footer .bcorp-logo:last-child {
+        margin-right: 0; } }
 
 header {
   padding: 2rem 0; }
@@ -2226,7 +2234,7 @@ header {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 8.75rem; }
+  padding: 0 7rem; }
   .container::after {
     clear: both;
     content: "";
