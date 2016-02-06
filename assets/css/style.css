@@ -2126,14 +2126,34 @@ footer {
 
 header {
   padding: 2rem 0; }
-  header img {
+  @media (max-width: 480px) {
+    header {
+      border-top: 4px solid #f26d21;
+      padding: 0.5rem; } }
+  header .header-logo img {
     width: 13rem; }
+    @media (max-width: 480px) {
+      header .header-logo img {
+        float: left; } }
+  header .mobile-menu-icon {
+    float: right; }
+    header .mobile-menu-icon span {
+      display: none; }
   header .main-menu {
     float: right;
-    font-size: 1.125rem; }
-  header li {
-    display: inline;
-    margin-left: 2.5rem; }
+    font-size: 1.125rem;
+    padding-left: 0; }
+    @media (max-width: 480px) {
+      header .main-menu {
+        clear: left;
+        display: none;
+        float: none; } }
+    @media (max-width: 480px) {
+      header .main-menu li {
+        display: list-item; } }
+    header .main-menu a {
+      color: #58585b;
+      display: inline; }
 
 .newsletter-block {
   background: #f58546;

@@ -1,17 +1,47 @@
 header {
-  padding: 2rem 0; 
+  padding: 2rem 0;
 
-  img {
+  @include mq(m) {
+    border-top: 4px solid $orange;
+    padding: 0.5rem;
+  }
+
+  .header-logo img {
     width: 13rem;
+
+    @include mq(m) {
+      float: left;
+    }
+  }
+
+  .mobile-menu-icon {
+    float: right;
+
+    span {
+      display: none;
+    }
   }
 
   .main-menu {
     float: right;
     font-size: rem(18);
-  }
+    padding-left: 0;
 
-  li {
-    display: inline;
-    margin-left: rem(40);
+    @include mq(m) {
+      clear: left;
+      display: none;
+      float: none;
+    }
+
+    li {
+      @include mq(m) {
+        display: list-item;
+      }
+    }
+
+    a {
+      color: $darkgray;
+      display: inline;
+    }
   }
 }
