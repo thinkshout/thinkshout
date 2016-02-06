@@ -53,9 +53,15 @@
 </head>
 <body>
 
-  <!-- main content goes here -->
+  <!-- Header -->
+  {% include header.html %}
+
+  <!-- Main Content -->
   {{ content }}
 
+  <!-- Footer -->
+  {% include newsletter.html %}
+  {% include footer.html %}
 
 
 	<script src="{{ site.baseurl }}/assets/js/script.js"></script>
