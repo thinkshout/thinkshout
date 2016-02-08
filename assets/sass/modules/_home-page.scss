@@ -3,7 +3,13 @@
     background: url('../images/ts_redesign/home_hero.png') center center;
     background-size: cover;
     height: 684px;
+    padding: 4rem 0;
     position: relative;
     width: 100%;
+    z-index: 1;
+
+    &:after {
+      @extend %dotted-overlay;
+    }
   }
 }

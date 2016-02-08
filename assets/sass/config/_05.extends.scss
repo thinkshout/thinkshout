@@ -1,0 +1,12 @@
+// Dotted Overlay
+.dotted-overlay,
+%dotted-overlay {
+  content: "";
+  background: transparent url('../images/ts_redesign/dot.png') repeat repeat;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}

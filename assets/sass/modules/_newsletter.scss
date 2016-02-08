@@ -5,13 +5,7 @@
   position: relative;
 
   &:after {
-    content: "";
-    background: transparent url('../images/ts_redesign/dot.png') repeat repeat;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
+    @extend %dotted-overlay;
   }
 
   h1 {
@@ -36,7 +30,6 @@
       border-bottom: 4px solid $white;
       float: left;
       opacity: 0.5;
-      // padding: 1rem 0;
 
       &::-webkit-input-placeholder { color: $white; }
       &::-moz-placeholder { color: $white; }
