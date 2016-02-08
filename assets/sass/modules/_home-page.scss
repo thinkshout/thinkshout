@@ -1,10 +1,10 @@
 .front {
   // "Who We Are" teaser block
   .who-we-are {
-    background: url('../images/ts_redesign/home_hero.png') center center;
+    background: url('../images/ts_redesign/home_hero.png') left top;
     background-size: cover;
-    height: 684px;
-    padding: 4rem 0;
+    height: 100%;
+    padding: 18rem 0;
     position: relative;
     width: 100%;
     z-index: 1;
@@ -22,6 +22,23 @@
         color: $ltorange;
         font-family: $secondary-font;
         font-size: 5.5rem;
+        line-height: 100px;
+        margin: 0;
+        transform: rotate(-10deg);
+      }
+
+      #inspiring {
+        margin-left: -4rem;
+      }
+
+      #change {
+        margin-right: -4rem;
+        margin-top: -2rem;
+      }
+
+      p {
+        color: $darkgray;
+        margin-top: 0;
       }
     }
   }

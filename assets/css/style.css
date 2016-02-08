@@ -2019,6 +2019,15 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+.valign-wrap {
+  display: table;
+  width: 100%;
+  height: 100%; }
+
+.valign {
+  display: table-cell;
+  vertical-align: middle; }
+
 body {
   font-family: "Gotham SSm A", "Gotham SSm B";
   font-size: 16px; }
@@ -2214,10 +2223,10 @@ header {
           color: #58585b; } }
 
 .front .who-we-are {
-  background: url("../images/ts_redesign/home_hero.png") center center;
+  background: url("../images/ts_redesign/home_hero.png") left top;
   background-size: cover;
-  height: 684px;
-  padding: 4rem 0;
+  height: 100%;
+  padding: 18rem 0;
   position: relative;
   width: 100%;
   z-index: 1; }
@@ -2233,7 +2242,18 @@ header {
     .front .who-we-are .who-we-are-text h1 {
       color: #f78c50;
       font-family: "FilmotypeLucky";
-      font-size: 5.5rem; }
+      font-size: 5.5rem;
+      line-height: 100px;
+      margin: 0;
+      transform: rotate(-10deg); }
+    .front .who-we-are .who-we-are-text #inspiring {
+      margin-left: -4rem; }
+    .front .who-we-are .who-we-are-text #change {
+      margin-right: -4rem;
+      margin-top: -2rem; }
+    .front .who-we-are .who-we-are-text p {
+      color: #58585b;
+      margin-top: 0; }
 
 .newsletter-block {
   background: #f58546;
