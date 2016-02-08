@@ -6,11 +6,26 @@ header {
     padding: 0.5rem;
   }
 
-  .header-logo img {
-    width: 13rem;
+  @include mq(t) {
+    border-top: 4px solid $orange;
+    padding: 0.5rem;
+  }
 
-    @include mq(m) {
-      float: left;
+  .header-logo {
+    img {
+      width: 13rem;
+
+      @include mq(m) {
+        float: left;
+      }
+    }
+
+    @include mq(t) {
+      @include span-columns(3);
+    }
+
+    @include mq(d) {
+      @include span-columns(3);
     }
   }
 
@@ -18,6 +33,10 @@ header {
     float: right;
 
     span {
+      display: none;
+    }
+
+    @include mq(d) {
       display: none;
     }
   }
@@ -36,6 +55,21 @@ header {
     li {
       @include mq(m) {
         display: list-item;
+      }
+
+      @include mq(md) {
+        display: inline;
+        font-size: rem(17);
+        margin-left: rem(30);
+      }
+
+      @include mq(l) {
+        display: inline;
+        margin-left: rem(40);
+      }
+
+      &:first-of-type {
+        margin-left: 0;
       }
     }
 

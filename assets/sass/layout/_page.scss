@@ -9,4 +9,8 @@
   @include mq(t) {
     padding: 0 1rem;
   }
+
+  @include mq(md) {
+    padding: 0 3rem;
+  }
 }

@@ -2130,15 +2130,38 @@ header {
     header {
       border-top: 4px solid #f26d21;
       padding: 0.5rem; } }
+  @media (min-width: 481px) and (max-width: 979px) {
+    header {
+      border-top: 4px solid #f26d21;
+      padding: 0.5rem; } }
   header .header-logo img {
     width: 13rem; }
     @media (max-width: 480px) {
       header .header-logo img {
         float: left; } }
+  @media (min-width: 481px) and (max-width: 979px) {
+    header .header-logo {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      header .header-logo:last-child {
+        margin-right: 0; } }
+  @media (min-width: 980px) {
+    header .header-logo {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      header .header-logo:last-child {
+        margin-right: 0; } }
   header .mobile-menu-icon {
     float: right; }
     header .mobile-menu-icon span {
       display: none; }
+    @media (min-width: 980px) {
+      header .mobile-menu-icon {
+        display: none; } }
   header .main-menu {
     float: right;
     font-size: 1.125rem;
@@ -2151,6 +2174,17 @@ header {
     @media (max-width: 480px) {
       header .main-menu li {
         display: list-item; } }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      header .main-menu li {
+        display: inline;
+        font-size: 1.0625rem;
+        margin-left: 1.875rem; } }
+    @media (min-width: 1200px) {
+      header .main-menu li {
+        display: inline;
+        margin-left: 2.5rem; } }
+    header .main-menu li:first-of-type {
+      margin-left: 0; }
     header .main-menu a {
       color: #58585b;
       display: inline; }
@@ -2265,5 +2299,8 @@ header {
   @media (min-width: 481px) and (max-width: 979px) {
     .container {
       padding: 0 1rem; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .container {
+      padding: 0 3rem; } }
 
 /*# sourceMappingURL=style.css.map */
