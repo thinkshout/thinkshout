@@ -30,7 +30,9 @@ header {
   }
 
   .mobile-menu-icon {
+    color: $darkgray;
     float: right;
+    font-size: rem(35);
 
     span {
       display: none;
@@ -38,6 +40,10 @@ header {
 
     @include mq(d) {
       display: none;
+    }
+
+    .fa {
+      line-height: rem(66);
     }
   }
 
@@ -50,32 +56,39 @@ header {
       clear: left;
       display: none;
       float: none;
+      margin-top: 1rem;
+    }
+
+    @include mq(t) {
+      clear: left;
+      display: none;
+      float: none;
     }
 
     li {
-      @include mq(m) {
-        display: list-item;
-      }
+      display: list-item;
+      font-size: 1.5rem;
+      line-height: $line-height;
 
-      @include mq(md) {
+      @include mq(d) {
         display: inline;
-        font-size: rem(17);
-        margin-left: rem(30);
-      }
-
-      @include mq(l) {
-        display: inline;
+        font-size: rem(15);
         margin-left: rem(40);
       }
 
       &:first-of-type {
         margin-left: 0;
+        padding-top: 1rem;
       }
     }
 
     a {
-      color: $darkgray;
+      color: $orange;
       display: inline;
+
+      @include mq(d) {
+        color: $darkgray;
+      }
     }
   }
 }
