@@ -250,7 +250,7 @@
     small: team/small/dan.jpg
     medium: team/medium/dan.jpg
     large: team/large/dan.jpg
-  published: false
+  published: true
   name: dan
   bio: |
     Given his expertise in building social gaming platforms, he has a strong sense for how web technologies can be used to promote web engagement. Dan left California in search of an opportunity to contribute regularly to the open source community and put those contributions to good use for nonprofits. He studied Computing, Electronics and Physics at Bolton Sixth Form College in Bolton, England. When he isn’t writing code, he’s normally hacking away at an electronics project or engrossed in a point-and-click adventure game. While he loves new technology, he still keeps a couple of long-obsolete computers around as a reminder of where he started programming.
@@ -294,7 +294,7 @@
 
 - first_name: Gabe
   last_name: Carleton-Barnes
-  position: Senior Engineer & Knowledge Lead
+  position: Engineering Manager
   leadin: |
     Gabe’s not only a Magic: The Gathering champion, he is a champion for our Salesforce integration tools and other open source contributions. His experience in streamlining processes for nonprofits drew him to ThinkShout, where he could apply his skills and do some good for the world at the same time.
   social:
