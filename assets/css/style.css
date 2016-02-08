@@ -2221,6 +2221,19 @@ header {
   position: relative;
   width: 100%;
   z-index: 1; }
+  .front .who-we-are .who-we-are-text {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    float: right;
+    text-align: center; }
+    .front .who-we-are .who-we-are-text:last-child {
+      margin-right: 0; }
+    .front .who-we-are .who-we-are-text h1 {
+      color: #f78c50;
+      font-family: "FilmotypeLucky";
+      font-size: 5.5rem; }
 
 .newsletter-block {
   background: #f58546;
