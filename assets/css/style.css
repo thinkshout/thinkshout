@@ -2327,72 +2327,70 @@ header {
       font-size: 0.875rem; }
     .front .featured-case-study .featured-case-study-text i {
       color: #f26d21; }
-.front .three-case-studies {
-  height: 330px; }
-  .front .three-case-studies .orange-overlay {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%;
-    margin-right: 0;
-    background: #f26d21;
-    background-size: cover;
-    height: 100%;
-    left: 0;
-    width: 100%;
-    opacity: 0;
-    position: absolute;
-    top: 0; }
-    .front .three-case-studies .orange-overlay:last-child {
-      margin-right: 0; }
-  .front .three-case-studies .case-study {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%;
-    margin-right: 0;
-    cursor: pointer;
-    position: relative; }
-    .front .three-case-studies .case-study:last-child {
-      margin-right: 0; }
-    .front .three-case-studies .case-study:hover .orange-overlay {
-      opacity: 0.9;
-      transition: opacity 0.5s ease-in-out;
-      -moz-transition: opacity 0.5s ease-in-out;
-      -webkit-transition: opacity 0.5s ease-in-out; }
-  .front .three-case-studies #case-study0 {
-    background: url("../images/ts_redesign/case_study0.png") center center no-repeat;
-    background-size: cover;
-    height: 100%;
-    padding: 2rem; }
-  .front .three-case-studies #case-study1 {
-    background: url("../images/ts_redesign/case_study1.png") center center no-repeat;
-    background-size: cover;
-    height: 100%;
-    padding: 2rem; }
-  .front .three-case-studies #case-study2 {
-    background: url("../images/ts_redesign/case_study2.png") center center no-repeat;
-    background-size: cover;
-    height: 100%;
-    padding: 2rem; }
-  .front .three-case-studies #case-study3 {
-    background: url("../images/ts_redesign/case_study3.png") center center no-repeat;
-    background-size: cover;
-    height: 100%;
-    padding: 2rem; }
-  .front .three-case-studies h2,
-  .front .three-case-studies p {
-    color: #fff;
-    position: absolute;
-    z-index: 1; }
-  .front .three-case-studies h2 {
-    font-size: 1.625rem; }
-  .front .three-case-studies p {
-    display: none;
-    font-size: 0.875rem; }
+.front .three-case-studies .orange-overlay {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-right: 0;
+  background: #f26d21;
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0; }
+  .front .three-case-studies .orange-overlay:last-child {
+    margin-right: 0; }
+.front .three-case-studies .case-study {
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  position: relative; }
+  .front .three-case-studies .case-study:hover .orange-overlay {
+    opacity: 0.9;
+    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out; }
+.front .three-case-studies #case-study0 {
+  background: url("../images/ts_redesign/case_study0.png") center center no-repeat;
+  background-size: cover;
+  height: 330px;
+  padding: 2rem;
+  width: 33.33%; }
+.front .three-case-studies #case-study1 {
+  background: url("../images/ts_redesign/case_study1.png") center center no-repeat;
+  background-size: cover;
+  height: 330px;
+  padding: 2rem;
+  width: 33.33%; }
+.front .three-case-studies #case-study2 {
+  background: url("../images/ts_redesign/case_study2.png") center center no-repeat;
+  background-size: cover;
+  height: 330px;
+  padding: 2rem;
+  width: 33.33%; }
+.front .three-case-studies #case-study3 {
+  background: url("../images/ts_redesign/case_study3.png") center center no-repeat;
+  background-size: cover;
+  height: 330px;
+  padding: 2rem;
+  width: 33.33%; }
+.front .three-case-studies h2,
+.front .three-case-studies p {
+  bottom: 0;
+  color: #fff;
+  position: absolute;
+  z-index: 1; }
+.front .three-case-studies h2 {
+  font-size: 1.625rem; }
+.front .three-case-studies p {
+  font-size: 0.875rem; }
 
 .newsletter-block {
   background: #f58546;
+  clear: left;
   color: #fff;
   padding: 4rem 0;
   position: relative; }
