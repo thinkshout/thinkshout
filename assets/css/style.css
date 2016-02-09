@@ -2241,29 +2241,31 @@ header {
   position: relative;
   width: 100%;
   z-index: 1; }
-  .front .who-we-are .who-we-are-text {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%;
-    float: right;
-    text-align: center; }
-    .front .who-we-are .who-we-are-text:last-child {
-      margin-right: 0; }
-    .front .who-we-are .who-we-are-text h1 {
-      color: #f78c50;
-      font-family: "FilmotypeLucky";
-      font-size: 5.5rem;
-      line-height: 100px;
-      margin: 0;
-      transform: rotate(-10deg); }
-    .front .who-we-are .who-we-are-text #inspiring {
-      margin-left: -4rem; }
-    .front .who-we-are .who-we-are-text #change {
-      margin-right: -4rem;
-      margin-top: -2rem; }
-    .front .who-we-are .who-we-are-text p {
-      color: #58585b; }
+  @media (min-width: 980px) {
+    .front .who-we-are .who-we-are-text {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      float: right;
+      text-align: center; }
+      .front .who-we-are .who-we-are-text:last-child {
+        margin-right: 0; } }
+  .front .who-we-are .who-we-are-text h1 {
+    color: #f78c50;
+    font-family: "FilmotypeLucky";
+    font-size: 5.5rem;
+    line-height: 100px;
+    margin: 0 auto;
+    transform: rotate(-10deg);
+    max-width: 85%; }
+  .front .who-we-are .who-we-are-text #inspiring {
+    margin-left: -0.5rem; }
+  .front .who-we-are .who-we-are-text #change {
+    margin-right: -0.5rem;
+    margin-top: -2rem; }
+  .front .who-we-are .who-we-are-text p {
+    color: #58585b; }
 
 .newsletter-block {
   background: #f58546;

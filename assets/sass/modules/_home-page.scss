@@ -14,25 +14,28 @@
     }
 
     .who-we-are-text {
-      @include span-columns(4);
-      float: right;
-      text-align: center;
+      @include mq(d) {
+        @include span-columns(4);
+        float: right;
+        text-align: center;
+      }
 
       h1 {
         color: $ltorange;
         font-family: $secondary-font;
         font-size: 5.5rem;
         line-height: 100px;
-        margin: 0;
+        margin: 0 auto;
         transform: rotate(-10deg);
+        max-width: 85%;
       }
 
       #inspiring {
-        margin-left: -4rem;
+        margin-left: -0.5rem;
       }
 
       #change {
-        margin-right: -4rem;
+        margin-right: -0.5rem;
         margin-top: -2rem;
       }
 
