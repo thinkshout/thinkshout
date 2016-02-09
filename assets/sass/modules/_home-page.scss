@@ -27,7 +27,7 @@
 
     .who-we-are-text {
       text-align: center;
-      
+
       @include mq(lt) {
         @include span-columns(5);
         float: right;
@@ -60,6 +60,52 @@
 
       p {
         color: $darkgray;
+      }
+    }
+  }
+
+  // Featured Case Study
+  .featured-case-study {
+    background: url('../images/ts_redesign/splc.png') left top;
+    background-size: cover;
+    height: 100%;
+    padding: 7rem 0 13rem 0;
+    position: relative;
+    width: 100%;
+
+    .featured-case-study-text {
+      text-align: center;
+
+      @include mq(lt) {
+        @include span-columns(5);
+        float: right;
+        text-align: left;
+      }
+
+      @include mq(d) {
+        @include span-columns(4);
+        float: right;
+        text-align: left;
+      }
+
+      h1 {
+        color: $orange;
+        font-size: rem(36);
+        margin: 0.5rem auto;
+      }
+
+      h4 {
+        color: $darkgray;
+        font-size: rem(13);
+        text-transform: uppercase;
+      }
+
+      p {
+        font-size: rem(14);
+      }
+
+      i {
+        color: $orange;
       }
     }
   }

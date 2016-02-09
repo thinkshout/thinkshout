@@ -2286,6 +2286,47 @@ header {
       margin-top: -2rem; }
     .front .who-we-are .who-we-are-text p {
       color: #58585b; }
+.front .featured-case-study {
+  background: url("../images/ts_redesign/splc.png") left top;
+  background-size: cover;
+  height: 100%;
+  padding: 7rem 0 13rem 0;
+  position: relative;
+  width: 100%; }
+  .front .featured-case-study .featured-case-study-text {
+    text-align: center; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .front .featured-case-study .featured-case-study-text {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 40.29137%;
+        float: right;
+        text-align: left; }
+        .front .featured-case-study .featured-case-study-text:last-child {
+          margin-right: 0; } }
+    @media (min-width: 980px) {
+      .front .featured-case-study .featured-case-study-text {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 31.76157%;
+        float: right;
+        text-align: left; }
+        .front .featured-case-study .featured-case-study-text:last-child {
+          margin-right: 0; } }
+    .front .featured-case-study .featured-case-study-text h1 {
+      color: #f26d21;
+      font-size: 2.25rem;
+      margin: 0.5rem auto; }
+    .front .featured-case-study .featured-case-study-text h4 {
+      color: #58585b;
+      font-size: 0.8125rem;
+      text-transform: uppercase; }
+    .front .featured-case-study .featured-case-study-text p {
+      font-size: 0.875rem; }
+    .front .featured-case-study .featured-case-study-text i {
+      color: #f26d21; }
 
 .newsletter-block {
   background: #f58546;
