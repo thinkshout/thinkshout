@@ -109,4 +109,25 @@
       }
     }
   }
+
+  // Three case studies
+  .three-case-studies {
+    height: 330px;
+
+    .case-study {
+      @include span-columns(4);
+      @include omega();
+    }
+
+    $case: 0;
+    @while $case < 4 {
+      #case-study#{$case} {
+        background: url('../images/ts_redesign/case_study#{$case}.png') center center no-repeat;
+        background-size: cover;
+        height: 100%;
+        padding: 2rem;
+      }
+      $case: $case + 1;
+    }
+  }
 }

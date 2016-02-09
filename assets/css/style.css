@@ -2327,6 +2327,36 @@ header {
       font-size: 0.875rem; }
     .front .featured-case-study .featured-case-study-text i {
       color: #f26d21; }
+.front .three-case-studies {
+  height: 330px; }
+  .front .three-case-studies .case-study {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    margin-right: 0; }
+    .front .three-case-studies .case-study:last-child {
+      margin-right: 0; }
+  .front .three-case-studies #case-study0 {
+    background: url("../images/ts_redesign/case_study0.png") center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 2rem; }
+  .front .three-case-studies #case-study1 {
+    background: url("../images/ts_redesign/case_study1.png") center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 2rem; }
+  .front .three-case-studies #case-study2 {
+    background: url("../images/ts_redesign/case_study2.png") center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 2rem; }
+  .front .three-case-studies #case-study3 {
+    background: url("../images/ts_redesign/case_study3.png") center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 2rem; }
 
 .newsletter-block {
   background: #f58546;
