@@ -4,20 +4,29 @@
     background: url('../images/ts_redesign/home_hero.png') left top;
     background-size: cover;
     height: 100%;
-    padding: 18rem 0;
+    padding: 5rem 0;
     position: relative;
     width: 100%;
     z-index: 1;
+
+    @include mq(md) {
+      padding: 10rem 0;
+    }
+
+    @include mq(l) {
+      padding: 18rem 0;
+    }
 
     &:after {
       @extend %dotted-overlay;
     }
 
     .who-we-are-text {
+      text-align: center;
+
       @include mq(d) {
         @include span-columns(4);
         float: right;
-        text-align: center;
       }
 
       h1 {
