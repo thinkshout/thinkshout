@@ -10,3 +10,19 @@
   top: 0;
   z-index: 0;
 }
+
+// Uppercase links with right pointed carets on the end
+.uppercase-link,
+%uppercase-link {
+  color: $darkgray;
+  font-size: rem(14);
+  font-weight: bold;
+  text-transform: uppercase;
+
+  i {
+    color: $ltorange;
+    font-size: 1.5rem;
+    margin-left: rem(5);
+    vertical-align: sub;
+  }
+}

@@ -2060,6 +2060,17 @@ a {
   top: 0;
   z-index: 0; }
 
+.uppercase-link {
+  color: #58585b;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: uppercase; }
+  .uppercase-link i {
+    color: #f78c50;
+    font-size: 1.5rem;
+    margin-left: 0.3125rem;
+    vertical-align: sub; }
+
 footer {
   background: url("../images/ts_redesign/footer.png") center center;
   background-size: cover;
@@ -2305,10 +2316,12 @@ header {
     .newsletter-block .newsletter-info button {
       font-size: 0.875rem;
       font-weight: bold;
-      padding: 0.9375rem 0;
+      padding: 0.75rem 0;
       text-transform: uppercase; }
       .newsletter-block .newsletter-info button i {
-        font-size: 1.125rem; }
+        font-size: 1.5rem;
+        margin-left: 0.3125rem;
+        vertical-align: sub; }
   .newsletter-block .social-media {
     float: left;
     display: block;

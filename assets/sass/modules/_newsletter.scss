@@ -49,11 +49,13 @@
     button {
       font-size: rem(14);
       font-weight: bold;
-      padding: rem(15) 0;
+      padding: 0.75rem 0;
       text-transform: uppercase;
 
       i {
-        font-size: rem(18);
+        font-size: 1.5rem;
+        margin-left: rem(5);
+        vertical-align: sub;
       }
     }
   }
