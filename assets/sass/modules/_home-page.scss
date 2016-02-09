@@ -114,9 +114,31 @@
   .three-case-studies {
     height: 330px;
 
+    .orange-overlay {
+      @include span-columns(4);
+      @include omega();
+      background: $orange;
+      background-size: cover;
+      height: 100%;
+      left: 0;
+      width: 100%;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+    }
+
     .case-study {
       @include span-columns(4);
       @include omega();
+      cursor: pointer;
+      position: relative;
+
+      &:hover .orange-overlay {
+        opacity: 0.9;
+        transition: opacity 0.5s ease-in-out;
+        -moz-transition: opacity 0.5s ease-in-out;
+        -webkit-transition: opacity 0.5s ease-in-out;
+      }
     }
 
     $case: 0;
