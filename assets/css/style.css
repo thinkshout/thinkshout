@@ -2328,11 +2328,9 @@ header {
     .front .featured-case-study .featured-case-study-text i {
       color: #f26d21; }
 .front .three-case-studies .orange-overlay {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%;
-  margin-right: 0;
+  -webkit-transition: 0.3s opacity ease-in-out;
+  -moz-transition: 0.3s opacity ease-in-out;
+  transition: 0.3s opacity ease-in-out;
   background: #f26d21;
   background-size: cover;
   height: 100%;
@@ -2341,8 +2339,6 @@ header {
   opacity: 0;
   position: absolute;
   top: 0; }
-  .front .three-case-studies .orange-overlay:last-child {
-    margin-right: 0; }
 .front .three-case-studies .case-study {
   cursor: pointer;
   display: inline-block;
@@ -2350,9 +2346,14 @@ header {
   position: relative; }
   .front .three-case-studies .case-study:hover .orange-overlay {
     opacity: 0.9;
-    transition: opacity 0.5s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    -webkit-transition: opacity 0.5s ease-in-out; }
+    transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out; }
+  .front .three-case-studies .case-study:hover .case-study-text {
+    transform: translateY(-90px);
+    -webkit-transition: 0.3s transform ease-in-out;
+    -moz-transition: 0.3s transform ease-in-out;
+    transition: 0.3s transform ease-in-out; }
 .front .three-case-studies #case-study0 {
   background: url("../images/ts_redesign/case_study0.png") center center no-repeat;
   background-size: cover;
@@ -2377,11 +2378,15 @@ header {
   height: 330px;
   padding: 2rem;
   width: 33.33%; }
+.front .three-case-studies .case-study-text {
+  bottom: -5.625rem;
+  position: absolute;
+  -webkit-transition: 0.3s transform ease-in-out;
+  -moz-transition: 0.3s transform ease-in-out;
+  transition: 0.3s transform ease-in-out; }
 .front .three-case-studies h2,
 .front .three-case-studies p {
-  bottom: 0;
   color: #fff;
-  position: absolute;
   z-index: 1; }
 .front .three-case-studies h2 {
   font-size: 1.625rem; }

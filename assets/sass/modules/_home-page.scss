@@ -113,8 +113,7 @@
   // Three case studies
   .three-case-studies {
     .orange-overlay {
-      @include span-columns(4);
-      @include omega();
+      @include transition(0.3s opacity ease-in-out);
       background: $orange;
       background-size: cover;
       height: 100%;
@@ -131,11 +130,17 @@
       float: left;
       position: relative;
 
+
       &:hover .orange-overlay {
         opacity: 0.9;
-        transition: opacity 0.5s ease-in-out;
-        -moz-transition: opacity 0.5s ease-in-out;
-        -webkit-transition: opacity 0.5s ease-in-out;
+        transition: opacity 0.3s ease-in-out;
+        -moz-transition: opacity 0.3s ease-in-out;
+        -webkit-transition: opacity 0.3s ease-in-out;
+      }
+
+      &:hover .case-study-text {
+        transform: translateY(-90px);
+        @include transition(0.3s transform ease-in-out);
       }
     }
 
@@ -151,11 +156,15 @@
       $case: $case + 1;
     }
 
+    .case-study-text {
+      bottom: rem(-90);
+      position: absolute;
+      @include transition(0.3s transform ease-in-out);
+    }
+
     h2,
     p {
-      bottom: 0;
       color: $white;
-      position: absolute;
       z-index: 1;
     }
 
