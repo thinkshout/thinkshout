@@ -151,5 +151,21 @@
       }
       $case: $case + 1;
     }
+
+    h2,
+    p {
+      color: $white;
+      position: absolute;
+      z-index: 1;
+    }
+
+    h2 {
+      font-size: rem(26);
+    }
+
+    p {
+      display: none;
+      font-size: rem(14);
+    }
   }
 }
