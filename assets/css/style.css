@@ -2237,18 +2237,30 @@ header {
   background: url("../images/ts_redesign/home_hero.png") left top;
   background-size: cover;
   height: 100%;
-  padding: 5rem 0;
+  padding: 2rem 0;
   position: relative;
   width: 100%;
   z-index: 1; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .front .who-we-are {
+      padding: 4rem 0; } }
   @media (min-width: 980px) and (max-width: 1199px) {
     .front .who-we-are {
-      padding: 10rem 0; } }
+      padding: 8rem 0; } }
   @media (min-width: 1200px) {
     .front .who-we-are {
-      padding: 18rem 0; } }
+      padding: 13rem 0; } }
   .front .who-we-are .who-we-are-text {
     text-align: center; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .front .who-we-are .who-we-are-text {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 40.29137%;
+        float: right; }
+        .front .who-we-are .who-we-are-text:last-child {
+          margin-right: 0; } }
     @media (min-width: 980px) {
       .front .who-we-are .who-we-are-text {
         float: left;
@@ -2262,6 +2274,7 @@ header {
       color: #f78c50;
       font-family: "FilmotypeLucky";
       font-size: 5.5rem;
+      font-weight: normal;
       line-height: 100px;
       margin: 0 auto;
       transform: rotate(-10deg);
@@ -2280,7 +2293,8 @@ header {
   padding: 4rem 0;
   position: relative; }
   .newsletter-block h1 {
-    font-family: "FilmotypeLucky"; }
+    font-family: "FilmotypeLucky";
+    font-weight: normal; }
   .newsletter-block .newsletter-info {
     float: left;
     display: block;

@@ -4,17 +4,21 @@
     background: url('../images/ts_redesign/home_hero.png') left top;
     background-size: cover;
     height: 100%;
-    padding: 5rem 0;
+    padding: 2rem 0;
     position: relative;
     width: 100%;
     z-index: 1;
 
+    @include mq(lt) {
+      padding: 4rem 0;
+    }
+
     @include mq(md) {
-      padding: 10rem 0;
+      padding: 8rem 0;
     }
 
     @include mq(l) {
-      padding: 18rem 0;
+      padding: 13rem 0;
     }
 
     &:after {
@@ -23,6 +27,11 @@
 
     .who-we-are-text {
       text-align: center;
+      
+      @include mq(lt) {
+        @include span-columns(5);
+        float: right;
+      }
 
       @include mq(d) {
         @include span-columns(4);
@@ -33,6 +42,7 @@
         color: $ltorange;
         font-family: $secondary-font;
         font-size: 5.5rem;
+        font-weight: normal;
         line-height: 100px;
         margin: 0 auto;
         transform: rotate(-10deg);
