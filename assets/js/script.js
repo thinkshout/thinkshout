@@ -13,6 +13,6 @@
       } else {
         current_item.removeClass('active');
       }
-    });
+    }, { offset: '25%' });
   })
 })(jQuery);

@@ -2378,6 +2378,9 @@ header {
       -webkit-transition: 0.5s transform ease-in-out;
       -moz-transition: 0.5s transform ease-in-out;
       transition: 0.5s transform ease-in-out; }
+      @media (max-width: 480px) {
+        .front .three-case-studies .case-study.active .case-study-text, .front .three-case-studies .case-study:hover .case-study-text {
+          transform: translateY(-115px); } }
   .front .three-case-studies #case-study0 {
     background: url("../images/ts_redesign/case_study0.png") center center no-repeat;
     background-size: cover;
@@ -2386,6 +2389,7 @@ header {
     width: 33.33%; }
     @media (max-width: 480px) {
       .front .three-case-studies #case-study0 {
+        height: 285px;
         width: 100%; } }
     @media (min-width: 481px) and (max-width: 670px) {
       .front .three-case-studies #case-study0 {
@@ -2398,6 +2402,7 @@ header {
     width: 33.33%; }
     @media (max-width: 480px) {
       .front .three-case-studies #case-study1 {
+        height: 285px;
         width: 100%; } }
     @media (min-width: 481px) and (max-width: 670px) {
       .front .three-case-studies #case-study1 {
@@ -2410,6 +2415,7 @@ header {
     width: 33.33%; }
     @media (max-width: 480px) {
       .front .three-case-studies #case-study2 {
+        height: 285px;
         width: 100%; } }
     @media (min-width: 481px) and (max-width: 670px) {
       .front .three-case-studies #case-study2 {
@@ -2422,6 +2428,7 @@ header {
     width: 33.33%; }
     @media (max-width: 480px) {
       .front .three-case-studies #case-study3 {
+        height: 285px;
         width: 100%; } }
     @media (min-width: 481px) and (max-width: 670px) {
       .front .three-case-studies #case-study3 {
@@ -2432,6 +2439,9 @@ header {
     -webkit-transition: 0.5s transform ease-in-out;
     -moz-transition: 0.5s transform ease-in-out;
     transition: 0.5s transform ease-in-out; }
+    @media (max-width: 480px) {
+      .front .three-case-studies .case-study-text {
+        bottom: -7.1875rem; } }
   .front .three-case-studies h2,
   .front .three-case-studies p {
     color: #fff;
