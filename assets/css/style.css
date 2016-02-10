@@ -2478,6 +2478,19 @@ header {
     width: 100%; }
     .front .our-expertise a:last-child {
       margin-right: 0; }
+.front .blog-teaser {
+  color: #fff; }
+  .front .blog-teaser .featured-blog-post {
+    background: url("../images/ts_redesign/blog_teaser.png") center center no-repeat;
+    background-size: cover;
+    display: inline-block;
+    float: left;
+    width: 58%; }
+  .front .blog-teaser .blog-menu {
+    background: #58585b;
+    display: inline-block;
+    float: left;
+    width: 42%; }
 
 .newsletter-block {
   background: #f58546;
