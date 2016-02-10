@@ -1,13 +1,9 @@
 .newsletter-block {
-  background: $midorange;
+  background: $midorange url('../images/ts_redesign/dot.png');
   clear: left;
   color: $white;
   padding: 4rem 0;
   position: relative;
-
-  &:after {
-    @extend %dotted-overlay;
-  }
 
   h1 {
     font-family: $secondary-font;
