@@ -44,6 +44,7 @@ footer {
   .ts-address {
     @include span-columns(10);
     color: $white;
+    line-height: $line-height;
     margin-top: rem(60);
   }
 
