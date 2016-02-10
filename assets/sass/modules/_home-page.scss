@@ -130,6 +130,9 @@
         height: 330px;
         padding: 2rem;
         width: 33.33%;
+
+        @include mq(m) { width: 100%; }
+        @include mq(p) { width: 100%; }
       }
       $case: $case + 1;
     }

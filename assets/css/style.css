@@ -2362,24 +2362,48 @@ header {
     height: 330px;
     padding: 2rem;
     width: 33.33%; }
+    @media (max-width: 480px) {
+      .front .three-case-studies #case-study0 {
+        width: 100%; } }
+    @media (min-width: 481px) and (max-width: 670px) {
+      .front .three-case-studies #case-study0 {
+        width: 100%; } }
   .front .three-case-studies #case-study1 {
     background: url("../images/ts_redesign/case_study1.png") center center no-repeat;
     background-size: cover;
     height: 330px;
     padding: 2rem;
     width: 33.33%; }
+    @media (max-width: 480px) {
+      .front .three-case-studies #case-study1 {
+        width: 100%; } }
+    @media (min-width: 481px) and (max-width: 670px) {
+      .front .three-case-studies #case-study1 {
+        width: 100%; } }
   .front .three-case-studies #case-study2 {
     background: url("../images/ts_redesign/case_study2.png") center center no-repeat;
     background-size: cover;
     height: 330px;
     padding: 2rem;
     width: 33.33%; }
+    @media (max-width: 480px) {
+      .front .three-case-studies #case-study2 {
+        width: 100%; } }
+    @media (min-width: 481px) and (max-width: 670px) {
+      .front .three-case-studies #case-study2 {
+        width: 100%; } }
   .front .three-case-studies #case-study3 {
     background: url("../images/ts_redesign/case_study3.png") center center no-repeat;
     background-size: cover;
     height: 330px;
     padding: 2rem;
     width: 33.33%; }
+    @media (max-width: 480px) {
+      .front .three-case-studies #case-study3 {
+        width: 100%; } }
+    @media (min-width: 481px) and (max-width: 670px) {
+      .front .three-case-studies #case-study3 {
+        width: 100%; } }
   .front .three-case-studies .case-study-text {
     bottom: -5.625rem;
     position: absolute;
