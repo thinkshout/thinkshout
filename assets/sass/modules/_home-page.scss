@@ -246,6 +246,29 @@
     .blog-menu {
       background: $backgroundgray;
       width: 42%;
+
+      ul {
+        padding-top: 0.5rem;
+        padding-left: 0;
+      }
+
+      a {
+        color: $white;
+        cursor: pointer;
+        line-height: $line-height;
+        margin-left: 0;
+
+        &:hover {
+          color: $yellow;
+        }
+
+        i {
+          color: $yellow;
+          font-size: 1.5rem;
+          margin-left: rem(10);
+          vertical-align: sub;
+        }
+      }
     }
   }
 }

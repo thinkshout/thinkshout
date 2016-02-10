@@ -2532,6 +2532,21 @@ header {
   .front .blog-teaser .blog-menu {
     background: #555555;
     width: 42%; }
+    .front .blog-teaser .blog-menu ul {
+      padding-top: 0.5rem;
+      padding-left: 0; }
+    .front .blog-teaser .blog-menu a {
+      color: #fff;
+      cursor: pointer;
+      line-height: 1.75;
+      margin-left: 0; }
+      .front .blog-teaser .blog-menu a:hover {
+        color: #f1b332; }
+      .front .blog-teaser .blog-menu a i {
+        color: #f1b332;
+        font-size: 1.5rem;
+        margin-left: 0.625rem;
+        vertical-align: sub; }
 
 .newsletter-block {
   background: #f58546 url("../images/ts_redesign/dot.png");
