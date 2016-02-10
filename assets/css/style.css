@@ -2394,17 +2394,30 @@ header {
     font-size: 1.625rem; }
   .front .three-case-studies p {
     font-size: 0.875rem; }
-.front .our-expertise .our-expertise-block {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 23.23176%; }
-  .front .our-expertise .our-expertise-block:last-child {
-    margin-right: 0; }
-  .front .our-expertise .our-expertise-block:nth-child(5n) {
-    margin-right: 0; }
-  .front .our-expertise .our-expertise-block:nth-child(5n+1) {
-    clear: left; }
+.front .our-expertise {
+  padding: 6rem 0; }
+  .front .our-expertise h1 {
+    color: #58585b;
+    font-size: 2.25rem;
+    margin: 0; }
+  .front .our-expertise .our-expertise-block {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .front .our-expertise .our-expertise-block:last-child {
+      margin-right: 0; }
+    .front .our-expertise .our-expertise-block:nth-child(5n) {
+      margin-right: 0; }
+    .front .our-expertise .our-expertise-block:nth-child(5n+1) {
+      clear: left; }
+    .front .our-expertise .our-expertise-block h2 {
+      color: #f26d21;
+      font-size: 1.375rem; }
+      .front .our-expertise .our-expertise-block h2:hover {
+        text-decoration: underline; }
+    .front .our-expertise .our-expertise-block p {
+      color: #58585b; }
 
 .newsletter-block {
   background: #f58546;

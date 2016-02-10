@@ -113,7 +113,7 @@
   // Three case studies
   .three-case-studies {
     overflow: hidden;
-    
+
     .orange-overlay {
       @include transition(0.3s opacity ease-in-out);
       background: $orange;
@@ -181,9 +181,30 @@
 
   // Our Expertise
   .our-expertise {
+    padding: 6rem 0;
+
+    h1 {
+      color: $darkgray;
+      font-size: rem(36);
+      margin: 0;
+    }
+
     .our-expertise-block {
       @include span-columns(3);
       @include omega(5n);
+
+      h2 {
+        color: $orange;
+        font-size: rem(22);
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      p {
+        color: $darkgray;
+      }
     }
   }
 }
