@@ -108,7 +108,6 @@
       float: left;
       position: relative;
 
-
       &:hover .orange-overlay {
         opacity: 0.9;
         transition: opacity 0.3s ease-in-out;
@@ -204,8 +203,9 @@
     .featured-blog-post,
     .blog-menu {
       display: inline-block;
-      height: 420px;
+      height: 408px;
       float: left;
+      padding-top: 3rem;
     }
 
     .featured-blog-post {
@@ -220,9 +220,13 @@
         margin-bottom: 0;
       }
 
+      p {
+        margin-top: 0.5rem;
+      }
+
       img,
       .author-info {
-        bottom: 4rem;
+        bottom: 3rem;
         display: inline-block;
         position: absolute;
       }
@@ -240,7 +244,7 @@
     }
 
     .blog-menu {
-      background: $darkgray;
+      background: $backgroundgray;
       width: 42%;
     }
   }

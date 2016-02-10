@@ -2049,8 +2049,7 @@ a {
   text-decoration: none; }
 
 .dotted-overlay,
-.front .who-we-are:after,
-.newsletter-block:after {
+.front .who-we-are:after {
   content: "";
   background: transparent url("../images/ts_redesign/dot.png") repeat repeat;
   bottom: 0;
@@ -2070,6 +2069,28 @@ a {
     font-size: 1.5rem;
     margin-left: 0.3125rem;
     vertical-align: sub; }
+
+.header-down-caret h4 {
+  font-size: 0.8125rem;
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+  position: relative;
+  text-transform: uppercase; }
+  .header-down-caret h4:after {
+    content: '';
+    background: #626262;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    position: absolute;
+    width: 55px; }
+.header-down-caret .fa-caret-down {
+  color: #626262;
+  font-size: 1.5rem;
+  margin-top: -9px;
+  padding-left: 1.25rem;
+  padding-top: 0;
+  position: absolute; }
 
 footer {
   background: url("../images/ts_redesign/footer.png") center center;
@@ -2483,8 +2504,9 @@ header {
   .front .blog-teaser .featured-blog-post,
   .front .blog-teaser .blog-menu {
     display: inline-block;
-    height: 420px;
-    float: left; }
+    height: 408px;
+    float: left;
+    padding-top: 3rem; }
   .front .blog-teaser .featured-blog-post {
     background: url("../images/ts_redesign/blog_teaser.png") center center no-repeat;
     background-size: cover;
@@ -2494,9 +2516,11 @@ header {
       color: #f1b332;
       font-size: 1.625rem;
       margin-bottom: 0; }
+    .front .blog-teaser .featured-blog-post p {
+      margin-top: 0.5rem; }
     .front .blog-teaser .featured-blog-post img,
     .front .blog-teaser .featured-blog-post .author-info {
-      bottom: 4rem;
+      bottom: 3rem;
       display: inline-block;
       position: absolute; }
     .front .blog-teaser .featured-blog-post .author-info h4 {
@@ -2505,11 +2529,11 @@ header {
       font-size: 0.875rem;
       margin: 0 0 0.5rem 5rem; }
   .front .blog-teaser .blog-menu {
-    background: #58585b;
+    background: #555555;
     width: 42%; }
 
 .newsletter-block {
-  background: #f58546;
+  background: #f58546 url("../images/ts_redesign/dot.png");
   clear: left;
   color: #fff;
   padding: 4rem 0;
