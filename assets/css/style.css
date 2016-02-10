@@ -2513,6 +2513,12 @@ header {
     background-size: cover;
     position: relative;
     width: 58%; }
+    @media (max-width: 480px) {
+      .front .blog-teaser .featured-blog-post {
+        width: 100%; } }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .front .blog-teaser .featured-blog-post {
+        width: 100%; } }
     .front .blog-teaser .featured-blog-post h2 {
       color: #f1b332;
       font-size: 1.625rem;
@@ -2532,6 +2538,14 @@ header {
   .front .blog-teaser .blog-menu {
     background: #555555;
     width: 42%; }
+    @media (max-width: 480px) {
+      .front .blog-teaser .blog-menu {
+        width: 100%;
+        height: 375px; } }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .front .blog-teaser .blog-menu {
+        width: 100%;
+        height: 350px; } }
     .front .blog-teaser .blog-menu ul {
       padding-top: 0.5rem;
       padding-left: 0; }
@@ -2540,6 +2554,14 @@ header {
       cursor: pointer;
       line-height: 1.75;
       margin-left: 0; }
+      @media (max-width: 480px) {
+        .front .blog-teaser .blog-menu a {
+          font-size: 1.125rem;
+          line-height: 2; } }
+      @media (min-width: 481px) and (max-width: 979px) {
+        .front .blog-teaser .blog-menu a {
+          font-size: 1.375rem;
+          line-height: 2; } }
       .front .blog-teaser .blog-menu a:hover {
         color: #f1b332; }
       .front .blog-teaser .blog-menu a i {
@@ -2547,6 +2569,14 @@ header {
         font-size: 1.5rem;
         margin-left: 0.625rem;
         vertical-align: sub; }
+        @media (max-width: 480px) {
+          .front .blog-teaser .blog-menu a i {
+            font-size: 1.5rem;
+            vertical-align: middle; } }
+        @media (min-width: 481px) and (max-width: 979px) {
+          .front .blog-teaser .blog-menu a i {
+            font-size: 2rem;
+            vertical-align: middle; } }
 
 .newsletter-block {
   background: #f58546 url("../images/ts_redesign/dot.png");

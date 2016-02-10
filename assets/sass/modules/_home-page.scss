@@ -214,6 +214,9 @@
       position: relative;
       width: 58%;
 
+      @include mq(m) { width: 100%; }
+      @include mq(t) { width: 100%; }
+
       h2 {
         color: $yellow;
         font-size: rem(26);
@@ -247,6 +250,9 @@
       background: $backgroundgray;
       width: 42%;
 
+      @include mq(m) { width: 100%; height: 375px}
+      @include mq(t) { width: 100%; height: 350px}
+
       ul {
         padding-top: 0.5rem;
         padding-left: 0;
@@ -258,6 +264,9 @@
         line-height: $line-height;
         margin-left: 0;
 
+        @include mq(m) { font-size: rem(18); line-height: 2; }
+        @include mq(t) { font-size: rem(22); line-height: 2; }
+
         &:hover {
           color: $yellow;
         }
@@ -267,6 +276,9 @@
           font-size: 1.5rem;
           margin-left: rem(10);
           vertical-align: sub;
+
+          @include mq(m) { font-size: 1.5rem; vertical-align: middle; }
+          @include mq(t) { font-size: 2rem; vertical-align: middle; }
         }
       }
     }
