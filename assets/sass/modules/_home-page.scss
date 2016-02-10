@@ -91,7 +91,7 @@
     overflow: hidden;
 
     .orange-overlay {
-      @include transition(0.3s opacity ease-in-out);
+      @include transition(0.5s opacity ease-in-out);
       background: $orange;
       background-size: cover;
       height: 100%;
@@ -108,16 +108,18 @@
       float: left;
       position: relative;
 
+      &.active .orange-overlay,
       &:hover .orange-overlay {
         opacity: 0.9;
-        transition: opacity 0.3s ease-in-out;
-        -moz-transition: opacity 0.3s ease-in-out;
-        -webkit-transition: opacity 0.3s ease-in-out;
+        transition: opacity 0.5s ease-in-out;
+        -moz-transition: opacity 0.5s ease-in-out;
+        -webkit-transition: opacity 0.5s ease-in-out;
       }
 
+      &.active .case-study-text,
       &:hover .case-study-text {
         transform: translateY(-90px);
-        @include transition(0.3s transform ease-in-out);
+        @include transition(0.5s transform ease-in-out);
       }
     }
 
@@ -139,7 +141,7 @@
     .case-study-text {
       bottom: rem(-90);
       position: absolute;
-      @include transition(0.3s transform ease-in-out);
+      @include transition(0.5s transform ease-in-out);
     }
 
     h2,

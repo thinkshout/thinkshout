@@ -2352,9 +2352,9 @@ header {
 .front .three-case-studies {
   overflow: hidden; }
   .front .three-case-studies .orange-overlay {
-    -webkit-transition: 0.3s opacity ease-in-out;
-    -moz-transition: 0.3s opacity ease-in-out;
-    transition: 0.3s opacity ease-in-out;
+    -webkit-transition: 0.5s opacity ease-in-out;
+    -moz-transition: 0.5s opacity ease-in-out;
+    transition: 0.5s opacity ease-in-out;
     background: #f26d21;
     background-size: cover;
     height: 100%;
@@ -2368,16 +2368,16 @@ header {
     display: inline-block;
     float: left;
     position: relative; }
-    .front .three-case-studies .case-study:hover .orange-overlay {
+    .front .three-case-studies .case-study.active .orange-overlay, .front .three-case-studies .case-study:hover .orange-overlay {
       opacity: 0.9;
-      transition: opacity 0.3s ease-in-out;
-      -moz-transition: opacity 0.3s ease-in-out;
-      -webkit-transition: opacity 0.3s ease-in-out; }
-    .front .three-case-studies .case-study:hover .case-study-text {
+      transition: opacity 0.5s ease-in-out;
+      -moz-transition: opacity 0.5s ease-in-out;
+      -webkit-transition: opacity 0.5s ease-in-out; }
+    .front .three-case-studies .case-study.active .case-study-text, .front .three-case-studies .case-study:hover .case-study-text {
       transform: translateY(-90px);
-      -webkit-transition: 0.3s transform ease-in-out;
-      -moz-transition: 0.3s transform ease-in-out;
-      transition: 0.3s transform ease-in-out; }
+      -webkit-transition: 0.5s transform ease-in-out;
+      -moz-transition: 0.5s transform ease-in-out;
+      transition: 0.5s transform ease-in-out; }
   .front .three-case-studies #case-study0 {
     background: url("../images/ts_redesign/case_study0.png") center center no-repeat;
     background-size: cover;
@@ -2429,9 +2429,9 @@ header {
   .front .three-case-studies .case-study-text {
     bottom: -5.625rem;
     position: absolute;
-    -webkit-transition: 0.3s transform ease-in-out;
-    -moz-transition: 0.3s transform ease-in-out;
-    transition: 0.3s transform ease-in-out; }
+    -webkit-transition: 0.5s transform ease-in-out;
+    -moz-transition: 0.5s transform ease-in-out;
+    transition: 0.5s transform ease-in-out; }
   .front .three-case-studies h2,
   .front .three-case-studies p {
     color: #fff;
