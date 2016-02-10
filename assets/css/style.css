@@ -2067,7 +2067,7 @@ a {
   .uppercase-link i {
     color: #f78c50;
     font-size: 1.5rem;
-    margin-left: 0.3125rem;
+    margin-left: 0.625rem;
     vertical-align: sub; }
 
 .header-down-caret h4 {
@@ -2589,7 +2589,7 @@ header {
       text-transform: uppercase; }
       .newsletter-block .newsletter-info button i {
         font-size: 1.5rem;
-        margin-left: 0.3125rem;
+        margin-left: 0.625rem;
         vertical-align: sub; }
   .newsletter-block .social-media {
     float: left;
