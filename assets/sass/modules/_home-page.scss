@@ -9,17 +9,9 @@
     width: 100%;
     z-index: 1;
 
-    @include mq(lt) {
-      padding: 4rem 0;
-    }
-
-    @include mq(md) {
-      padding: 8rem 0;
-    }
-
-    @include mq(l) {
-      padding: 13rem 0;
-    }
+    @include mq(lt) { padding: 4rem 0; }
+    @include mq(md) { padding: 8rem 0; }
+    @include mq(l) { padding: 13rem 0; }
 
     &:after {
       @extend %dotted-overlay;
@@ -28,15 +20,8 @@
     .who-we-are-text {
       text-align: center;
 
-      @include mq(lt) {
-        @include span-columns(5);
-        float: right;
-      }
-
-      @include mq(d) {
-        @include span-columns(4);
-        float: right;
-      }
+      @include mq(lt) { @include span-columns(5); float: right; }
+      @include mq(d) { @include span-columns(4); float: right; }
 
       h1 {
         color: $ltorange;
@@ -76,17 +61,8 @@
     .featured-case-study-text {
       text-align: center;
 
-      @include mq(lt) {
-        @include span-columns(5);
-        float: right;
-        text-align: left;
-      }
-
-      @include mq(d) {
-        @include span-columns(4);
-        float: right;
-        text-align: left;
-      }
+      @include mq(lt) {  @include span-columns(5); float: right; text-align: left; }
+      @include mq(d) { @include span-columns(4); float: right; text-align: left; }
 
       h1 {
         color: $orange;
@@ -183,6 +159,10 @@
   .our-expertise {
     padding: 6rem 0;
 
+    @include mq(m) { padding: 2rem 0; }
+    @include mq(t) { padding: 3rem 0; }
+    @include mq(md) { padding: 3rem 0; }
+
     h1 {
       color: $darkgray;
       font-size: rem(36);
@@ -192,6 +172,9 @@
     .our-expertise-block {
       @include span-columns(3);
       @include omega(5n);
+
+      @include mq(m) { @include span-columns(12); }
+      @include mq(t) { @include span-columns(6); @include omega(3n); }
 
       h2 {
         color: $orange;
@@ -205,6 +188,10 @@
       p {
         color: $darkgray;
       }
+    }
+
+    a {
+      @include span-columns(12);
     }
   }
 }

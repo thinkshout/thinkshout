@@ -2396,6 +2396,15 @@ header {
     font-size: 0.875rem; }
 .front .our-expertise {
   padding: 6rem 0; }
+  @media (max-width: 480px) {
+    .front .our-expertise {
+      padding: 2rem 0; } }
+  @media (min-width: 481px) and (max-width: 979px) {
+    .front .our-expertise {
+      padding: 3rem 0; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .front .our-expertise {
+      padding: 3rem 0; } }
   .front .our-expertise h1 {
     color: #58585b;
     font-size: 2.25rem;
@@ -2411,6 +2420,26 @@ header {
       margin-right: 0; }
     .front .our-expertise .our-expertise-block:nth-child(5n+1) {
       clear: left; }
+    @media (max-width: 480px) {
+      .front .our-expertise .our-expertise-block {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .front .our-expertise .our-expertise-block:last-child {
+          margin-right: 0; } }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .front .our-expertise .our-expertise-block {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%; }
+        .front .our-expertise .our-expertise-block:last-child {
+          margin-right: 0; }
+        .front .our-expertise .our-expertise-block:nth-child(3n) {
+          margin-right: 0; }
+        .front .our-expertise .our-expertise-block:nth-child(3n+1) {
+          clear: left; } }
     .front .our-expertise .our-expertise-block h2 {
       color: #f26d21;
       font-size: 1.375rem; }
@@ -2418,6 +2447,13 @@ header {
         text-decoration: underline; }
     .front .our-expertise .our-expertise-block p {
       color: #58585b; }
+  .front .our-expertise a {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .front .our-expertise a:last-child {
+      margin-right: 0; }
 
 .newsletter-block {
   background: #f58546;
