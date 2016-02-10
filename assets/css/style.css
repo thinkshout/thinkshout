@@ -2480,16 +2480,32 @@ header {
       margin-right: 0; }
 .front .blog-teaser {
   color: #fff; }
+  .front .blog-teaser .featured-blog-post,
+  .front .blog-teaser .blog-menu {
+    display: inline-block;
+    height: 420px;
+    float: left; }
   .front .blog-teaser .featured-blog-post {
     background: url("../images/ts_redesign/blog_teaser.png") center center no-repeat;
     background-size: cover;
-    display: inline-block;
-    float: left;
+    position: relative;
     width: 58%; }
+    .front .blog-teaser .featured-blog-post h2 {
+      color: #f1b332;
+      font-size: 1.625rem;
+      margin-bottom: 0; }
+    .front .blog-teaser .featured-blog-post img,
+    .front .blog-teaser .featured-blog-post .author-info {
+      bottom: 4rem;
+      display: inline-block;
+      position: absolute; }
+    .front .blog-teaser .featured-blog-post .author-info h4 {
+      margin: 0 0 0 5rem; }
+    .front .blog-teaser .featured-blog-post .author-info p {
+      font-size: 0.875rem;
+      margin: 0 0 0.5rem 5rem; }
   .front .blog-teaser .blog-menu {
     background: #58585b;
-    display: inline-block;
-    float: left;
     width: 42%; }
 
 .newsletter-block {

@@ -201,18 +201,46 @@
   .blog-teaser {
     color: $white;
 
+    .featured-blog-post,
+    .blog-menu {
+      display: inline-block;
+      height: 420px;
+      float: left;
+    }
+
     .featured-blog-post {
       background: url('../images/ts_redesign/blog_teaser.png') center center no-repeat;
       background-size: cover;
-      display: inline-block;
-      float: left;
+      position: relative;
       width: 58%;
+
+      h2 {
+        color: $yellow;
+        font-size: rem(26);
+        margin-bottom: 0;
+      }
+
+      img,
+      .author-info {
+        bottom: 4rem;
+        display: inline-block;
+        position: absolute;
+      }
+
+      .author-info {
+        h4 {
+          margin: 0 0 0 5rem;
+        }
+
+        p {
+          font-size: rem(14);
+          margin: 0 0 0.5rem 5rem;
+        }
+      }
     }
 
     .blog-menu {
       background: $darkgray;
-      display: inline-block;
-      float: left;
       width: 42%;
     }
   }
