@@ -65,6 +65,10 @@ footer {
       text-align: center;
       width: 95%;
     }
+
+    @include mq(d) {
+      width: 30%;
+    }
   }
 
   ul,

@@ -2165,6 +2165,9 @@ footer {
         bottom: 3rem;
         text-align: center;
         width: 95%; } }
+    @media (min-width: 980px) {
+      footer .copyright {
+        width: 30%; } }
   @media (min-width: 481px) and (max-width: 979px) {
     footer ul,
     footer .ts-address,
