@@ -2723,4 +2723,12 @@ header {
     .container {
       padding: 0 3rem; } }
 
+.intro .text {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .intro .text:last-child {
+    margin-right: 0; }
+
 /*# sourceMappingURL=style.css.map */
