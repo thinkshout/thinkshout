@@ -1,3 +1,16 @@
 .intro .text {
   @include span-columns(8);
 }
+
+.team-listing {
+  clear: both;
+}
+
+.team .team-member {
+  float: left;
+  width: 25%;
+
+  img {
+    width: 100%;
+  }
+}

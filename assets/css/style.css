@@ -2092,6 +2092,9 @@ a {
   padding-top: 0;
   position: absolute; }
 
+.careers-cta {
+  clear: both; }
+
 footer {
   background: url("../images/ts_redesign/footer.png") center center;
   background-size: cover;
@@ -2730,5 +2733,14 @@ header {
   width: 65.88078%; }
   .intro .text:last-child {
     margin-right: 0; }
+
+.team-listing {
+  clear: both; }
+
+.team .team-member {
+  float: left;
+  width: 25%; }
+  .team .team-member img {
+    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
