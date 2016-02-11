@@ -2240,6 +2240,7 @@ header {
         display: none;
         float: none; } }
     header .main-menu li {
+      cursor: pointer;
       display: list-item;
       font-size: 1.5rem;
       line-height: 1.75; }
@@ -2247,16 +2248,25 @@ header {
         header .main-menu li {
           display: inline;
           font-size: 0.9375rem;
-          margin-left: 2.5rem; } }
-      header .main-menu li:first-of-type {
-        margin-left: 0;
-        padding-top: 1rem; }
+          padding: 3.125rem 0; } }
+    header .main-menu li:nth-child(1):hover {
+      border-top: 4px solid #f26d21; }
+    header .main-menu li:nth-child(2):hover {
+      border-top: 4px solid #F27F25; }
+    header .main-menu li:nth-child(3):hover {
+      border-top: 4px solid #F2902A; }
+    header .main-menu li:nth-child(4):hover {
+      border-top: 4px solid #F1A22E; }
+    header .main-menu li:nth-child(5):hover {
+      border-top: 4px solid #f1b332; }
     header .main-menu a {
       color: #f26d21;
       display: inline; }
       @media (min-width: 980px) {
         header .main-menu a {
-          color: #58585b; } }
+          color: #58585b;
+          margin: 0 0.625rem;
+          padding: 3.125rem 0.625rem; } }
 
 .front .who-we-are {
   background: url("../images/ts_redesign/home_hero.png") left top;

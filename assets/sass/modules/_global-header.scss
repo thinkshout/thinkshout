@@ -66,6 +66,7 @@ header {
     }
 
     li {
+      cursor: pointer;
       display: list-item;
       font-size: 1.5rem;
       line-height: $line-height;
@@ -73,12 +74,16 @@ header {
       @include mq(d) {
         display: inline;
         font-size: rem(15);
-        margin-left: rem(40);
+        padding: rem(50) 0;
       }
+    }
 
-      &:first-of-type {
-        margin-left: 0;
-        padding-top: 1rem;
+    $colors: $orange, $orange-yellow1, $orange-yellow2, $orange-yellow3, $yellow;
+    $child: 1;
+    @each $color in $colors {
+      li:nth-child(#{$child}):hover {
+        border-top: 4px solid $color;
+        $child: $child + 1;
       }
     }
 
@@ -88,6 +93,8 @@ header {
 
       @include mq(d) {
         color: $darkgray;
+        margin: 0 rem(10);
+        padding: rem(50) rem(10);
       }
     }
   }
