@@ -20,7 +20,7 @@ body-class: who-we-are
 <div class="team-listing">
   {% for person in site.team %}
     <div class="team-member">
-      <img src="/assets/images/team/small/{{ person.first_name }}.jpg" alt="{{ person.first_name }} {{ person.last_name }}">
+      <img src="/assets/images/{{ person.image.small }}" alt="{{ person.first_name }} {{ person.last_name }}">
       <h2 class="name-title">{{ person.first_name }} {{ person.last_name }}</h2>
       <p>{{ person.position }}</p>
     </div>
