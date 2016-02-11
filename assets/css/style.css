@@ -2105,6 +2105,7 @@ footer {
       padding-top: 2rem; } }
   @media (min-width: 481px) and (max-width: 979px) {
     footer {
+      height: 500px;
       padding-top: 2rem; } }
   footer ul {
     padding-left: 0; }
@@ -2131,11 +2132,11 @@ footer {
     width: 82.94039%;
     color: #fff;
     line-height: 1.75;
-    margin-top: 3.75rem; }
+    margin-top: 2rem; }
     footer .ts-address:last-child {
       margin-right: 0; }
   footer .bcorp-logo {
-    margin-top: 3.75rem;
+    margin-top: 2.5rem;
     float: left;
     display: block;
     margin-right: 2.35765%;
@@ -2146,7 +2147,6 @@ footer {
       margin-right: 0; }
     @media (max-width: 480px) {
       footer .bcorp-logo {
-        top: 22.7rem;
         right: 1rem; } }
     @media (min-width: 481px) and (max-width: 979px) {
       footer .bcorp-logo {

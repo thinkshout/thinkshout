@@ -7,13 +7,8 @@ footer {
   position: relative;
   width: 100%;
 
-  @include mq(m) {
-    padding-top: 2rem;
-  }
-
-  @include mq(t) {
-    padding-top: 2rem;
-  }
+  @include mq(m) { padding-top: 2rem; }
+  @include mq(t) { height: 500px; padding-top: 2rem; }
 
   ul {
     padding-left: 0;
@@ -32,9 +27,7 @@ footer {
       line-height: $line-height;
     }
 
-    @include mq(t) {
-      font-size: rem(24);
-    }
+    @include mq(t) { font-size: rem(24); }
   }
 
   img {
@@ -45,25 +38,18 @@ footer {
     @include span-columns(10);
     color: $white;
     line-height: $line-height;
-    margin-top: rem(60);
+    margin-top: 2rem;
   }
 
   .bcorp-logo {
-    margin-top: rem(60);
+    margin-top: 2.5rem;
     @include span-columns(2);
     @include omega;
     text-align: right;
 
 
-    @include mq(m) {
-      top: 22.7rem;
-      right: 1rem;
-    }
-
-    @include mq(t) {
-      margin-top: 2rem;
-      position: inherit;
-    }
+    @include mq(m) { right: 1rem; }
+    @include mq(t) { margin-top: 2rem; position: inherit;}
   }
 
   .copyright {
@@ -72,9 +58,7 @@ footer {
     font-size: rem(12);
     position: absolute;
 
-    @include mq(m) {
-      bottom: 2rem;
-    }
+    @include mq(m) { bottom: 2rem; }
 
     @include mq(t) {
       bottom: 3rem;
