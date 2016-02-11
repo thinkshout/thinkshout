@@ -14,5 +14,21 @@
         current_item.removeClass('active');
       }
     }, { offset: '25%' });
-  })
+  });
+
+    // $('.case-study').waypoint(function(direction) {
+    //   if (direction == 'down') {
+    //     $('.case-study:nth-of-type(1)').addClass('active');
+    //
+    //     setTimeout(function() {
+    //       $('.case-study:nth-of-type(2)').addClass('active');
+    //     }, 800);
+    //
+    //     setTimeout(function() {
+    //       $('.case-study:nth-of-type(3)').addClass('active');
+    //     }, 1200);
+    //   } else {
+    //       $('.case-study').removeClass('active');
+    //   }
+    // }, { offset: '25%' });
 })(jQuery);
