@@ -121,7 +121,9 @@
         transform: translateY(-90px);
         @include transition(0.5s transform ease-in-out);
 
-        @include mq(m) { transform: translateY(-115px); }
+        @include mq(m) { transform: translateY(-6.5rem); }
+        @include mq(t) { transform: translateY(-3.5rem); }
+        @include mq(md) { transform: translateY(-6.5rem); }
       }
     }
 
@@ -135,7 +137,7 @@
         width: 33.33%;
 
         @include mq(m) { height: 285px; width: 100%; }
-        @include mq(p) { width: 100%; }
+        @include mq(t) { width: 100%; }
       }
       $case: $case + 1;
     }
@@ -145,7 +147,9 @@
       position: absolute;
       @include transition(0.5s transform ease-in-out);
 
-      @include mq(m) { bottom: rem(-115); }
+      @include mq(m) { bottom: -6.5rem; }
+      @include mq(t) { bottom: -3.5rem; }
+      @include mq(md) { bottom: -6.5rem; }
     }
 
     h2,
