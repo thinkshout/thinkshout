@@ -106,3 +106,5 @@ collections:
   case_studies:
     output: true
     permalink: /:path/
+  team:
+    output: true

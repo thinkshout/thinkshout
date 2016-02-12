@@ -1,0 +1,30 @@
+.team .team-member {
+  display: inline-block;
+  float: left;
+  margin-bottom: 1rem;
+  width: 25%;
+  text-align: center;
+
+  @include mq(t) {
+    width: 50%;
+  }
+
+  @include mq(m) {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: rem(16);
+    margin: 0.5rem 0;
+  }
+
+  p {
+    color: $midgray;
+    font-size: rem(15);
+    margin: 0;
+  }
+}

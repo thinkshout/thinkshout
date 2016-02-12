@@ -2092,6 +2092,35 @@ a {
   padding-top: 0;
   position: absolute; }
 
+.careers-cta {
+  background: url("/assets/images/careers.jpg") right center no-repeat;
+  background-size: cover;
+  clear: both;
+  padding: 6rem 0; }
+  .careers-cta .text {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .careers-cta .text:last-child {
+      margin-right: 0; }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .careers-cta .text {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .careers-cta .text:last-child {
+          margin-right: 0; } }
+    @media (max-width: 480px) {
+      .careers-cta .text {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .careers-cta .text:last-child {
+          margin-right: 0; } }
+
 footer {
   background: url("../images/ts_redesign/footer.png") center center;
   background-size: cover;
@@ -2704,6 +2733,28 @@ header {
     .newsletter-block .social-media li {
       display: inline; }
 
+.team .team-member {
+  display: inline-block;
+  float: left;
+  margin-bottom: 1rem;
+  width: 25%;
+  text-align: center; }
+  @media (min-width: 481px) and (max-width: 979px) {
+    .team .team-member {
+      width: 50%; } }
+  @media (max-width: 480px) {
+    .team .team-member {
+      width: 100%; } }
+  .team .team-member img {
+    width: 100%; }
+  .team .team-member h2 {
+    font-size: 1rem;
+    margin: 0.5rem 0; }
+  .team .team-member p {
+    color: #626262;
+    font-size: 0.9375rem;
+    margin: 0; }
+
 .container {
   max-width: 1440px;
   margin-left: auto;
@@ -2722,5 +2773,35 @@ header {
   @media (min-width: 980px) and (max-width: 1199px) {
     .container {
       padding: 0 3rem; } }
+
+.intro .text {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  padding: 2rem 0; }
+  .intro .text:last-child {
+    margin-right: 0; }
+  @media (min-width: 481px) and (max-width: 979px) {
+    .intro .text {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .intro .text:last-child {
+        margin-right: 0; } }
+  @media (max-width: 480px) {
+    .intro .text {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .intro .text:last-child {
+        margin-right: 0; } }
+  .intro .text h1 {
+    font-weight: bold; }
+
+.team-listing {
+  clear: both; }
 
 /*# sourceMappingURL=style.css.map */
