@@ -19,27 +19,44 @@ cs-intro:
   mission: "The Southern Poverty Law Center fights hate and bigotry, seeking justice for the most vulnerable members of our society."
   link-text: "View The Site"
   link-url: http://selma.splcenter.org/
-
-cs-description:
-  intro: | 
+  text: | 
     In the fall of 2014, we began work on the relaunch of the [Southern Poverty Law Center](http://splcenter.org/) (SPLC) website. Early in the project we recognized that SPLC’s celebration of the 50th Anniversary of the Selma-to-Montgomery March presented a unique opportunity for us to both tell a visually compelling story and to user test the design and content elements we are proposing for the overall website redesign.
 
     In just six weeks of iterative design and rapid prototyping, we launched the “[Selma: The Bridge to the Ballot](http://selma.splcenter.org/)” campaign site in March of 2015.
 
     <img class="inline" src="/assets/images/ts_redesign/case-studies/splc-selma/inline1.jpg" alt="Image: photo of the Selma-to-Montgomery March">
 
-  role-title: "Our Role on the Project"
-  role-description: |
-    The Southern Poverty Law Center benefits from an excellent in-house graphic design team, as well as a top-notch digital communications team. They have some of the highest-quality and most compelling multimedia assets of any organization with whom we’ve worked. Their story and their approach to advocacy could not be stronger.
+cs-sections:
+  - section-title: "Our Role on the Project"
+    section-description: |
+      The Southern Poverty Law Center benefits from an excellent in-house graphic design team, as well as a top-notch digital communications team. They have some of the highest-quality and most compelling multimedia assets of any organization with whom we’ve worked. Their story and their approach to advocacy could not be stronger.
 
-    That said, over the years they have built up considerable content and have experimented with a broad range of messaging strategies. In coming to us, they needed to step back and rethink their approach to content strategy. To structure the story itself, we combined work we had done to define the SPLC’s audiences and available assets culled from a content audit while keeping in mind that the goals of a campaign website are different from the goals of a full site.
+      That said, over the years they have built up considerable content and have experimented with a broad range of messaging strategies. In coming to us, they needed to step back and rethink their approach to content strategy. To structure the story itself, we combined work we had done to define the SPLC’s audiences and available assets culled from a content audit while keeping in mind that the goals of a campaign website are different from the goals of a full site.
 
-    <img class="full" src="/assets/images/ts_redesign/case-studies/splc-selma/full1.jpg" alt="Image: Woman working with many colored sticky notes during project discovery phase">
-    <span class="caption full">We kicked off the project with a 2-day onsite discovery engagement with the SPLC team</span>
+      <img class="full" src="/assets/images/ts_redesign/case-studies/splc-selma/full1.jpg" alt="Image: Woman working with many colored sticky notes during project discovery phase">
+      <span class="caption full">We kicked off the project with a 2-day onsite discovery engagement with the SPLC team</span>
 
-    Because it’s focused on a single ask – to order the movie and so expand the SPLC’s list of supporters – we determined it was best to strip away most of the opportunities to explore other areas of the SPLC’s work and let the story of the March itself persuade users to take that action. The strategy work we had already completed allowed us to develop the campaign more quickly than would otherwise have been possible, to gorgeous effect.
+      Because it’s focused on a single ask – to order the movie and so expand the SPLC’s list of supporters – we determined it was best to strip away most of the opportunities to explore other areas of the SPLC’s work and let the story of the March itself persuade users to take that action. The strategy work we had already completed allowed us to develop the campaign more quickly than would otherwise have been possible, to gorgeous effect.
 
-    <img class="inline" src="/assets/images/ts_redesign/case-studies/splc-selma/inline2.jpg" alt="Image: two views of website - desktop and mobile">
+      <img class="inline" src="/assets/images/ts_redesign/case-studies/splc-selma/inline2.jpg" alt="Image: two views of website - desktop and mobile">
 
+  - section-title: "Prototyping & Testing"
+    section-description: |
+      We approached this 50th Anniversary campaign website as a test case for a number of visual storytelling elements that we are proposing for the overall SPLC redesign. 
+
+      Leveraging rapid prototyping, we were able to launch the site, from ideation to completion, in just 6 weeks. The user feedback and metrics we collect from this microsite will inform our iterative design of the main website.
+
+  - section-title: "Critical Elements of the Project"
+    section-description: |
+      While the redesigned SPLC website will be built on Drupal, we wanted to launch this more experimental website on the lightest platform possible, such that we could focus SPLC’s energy and resources on visual storytelling and content strategy. 
+
+      Consequently, we launched the Selma microsite on a rapid development platform, Jekyll. By leveraging Jekyll, we were also able to cut engineering costs by 300%.
+
+      <img class="inline" src="/assets/images/ts_redesign/case-studies/splc-selma/inline3.jpg" alt="Image: Full destop view of site">
+
+      <img class="inline" src="/assets/images/ts_redesign/case-studies/splc-selma/inline4.jpg" alt="Image: mobile website views">
+
+cs-cta-text: Launch Site
+cs-cta-url: http://selma.splcenter.org/
 
 ---
