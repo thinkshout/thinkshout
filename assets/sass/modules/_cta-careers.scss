@@ -1,8 +1,8 @@
 .careers-cta {
-  background: url('/assets/images/careers.jpg') right top no-repeat;
+  background: url('/assets/images/careers.jpg') right center no-repeat;
   background-size: cover;
   clear: both;
-  padding: 4rem 0;
+  padding: 6rem 0;
 
   .text {
     @include span-columns(6);
