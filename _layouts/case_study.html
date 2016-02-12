@@ -1,0 +1,31 @@
+---
+layout: default
+---
+    
+    <style>
+      .case-study-header { background-image: url('{{ page.cs-header.header-image }}'); }
+    </style>
+
+    <section class="case-study-header">
+      <div class="gradient">&nbsp;</div>
+      <div class="wrapper">
+        
+        <h4>{{ page.cs-header.client }}</h4>
+
+        <h2 class="description">{{ page.cs-header.title }}</h2>
+      </div>
+    </section>
+
+    <section class="body">
+      <div class="wrapper">
+        <h3>{{ page.cs-intro.type }}</h3>
+        <h4>{{ page.cs-intro.mission }}</h4>
+        <a href="{{ page.cs-intro.link-url }}">{{ page.cs-intro.link-text }}</a>
+
+        {{ page.cs-description.intro | markdownify }}
+        <h4>{{ page.cs-description.role-title }}</h4>
+        {{ page.cs-description.role-description | markdownify }}
+
+      </div>
+    </section>
+
