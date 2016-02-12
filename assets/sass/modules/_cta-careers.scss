@@ -1,3 +1,16 @@
 .careers-cta {
   clear: both;
+  padding: 4rem 0;
+
+  .text {
+    @include span-columns(8);
+
+    @include mq(t) {
+      @include span-columns(12);
+    }
+
+    @include mq(m) {
+      @include span-columns(12);
+    }
+  }
 }

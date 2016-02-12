@@ -1,0 +1,27 @@
+.team .team-member {
+  float: left;
+  width: 25%;
+  text-align: center;
+
+  @include mq(t) {
+    width: 50%;
+  }
+
+  @include mq(m) {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: rem(16);
+    margin: 0.5rem 0;
+  }
+
+  p {
+    color: $midgray;
+    font-size: rem(15);
+  }
+}

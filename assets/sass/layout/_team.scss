@@ -1,16 +1,20 @@
 .intro .text {
   @include span-columns(8);
+  padding: 2rem 0;
+
+  @include mq(t) {
+    @include span-columns(12);
+  }
+
+  @include mq(m) {
+    @include span-columns(12);
+  }
+
+  h1 {
+    font-weight: bold;
+  }
 }
 
 .team-listing {
   clear: both;
-}
-
-.team .team-member {
-  float: left;
-  width: 25%;
-
-  img {
-    width: 100%;
-  }
 }
