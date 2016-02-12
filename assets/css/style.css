@@ -2212,7 +2212,13 @@ footer {
         margin-right: 0; } }
 
 header {
-  padding: 2rem 0; }
+  background-color: #fff;
+  left: 0;
+  padding: 2rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2; }
   @media (max-width: 480px) {
     header {
       border-top: 4px solid #f26d21;
@@ -2297,350 +2303,358 @@ header {
           margin: 0 0.625rem;
           padding: 3.125rem 0.625rem; } }
 
-.front .who-we-are {
-  background: url("../images/ts_redesign/home_hero.png") left top;
-  background-size: cover;
-  height: 100%;
-  padding: 2rem 0;
-  position: relative;
-  width: 100%;
-  z-index: 1; }
-  @media (min-width: 671px) and (max-width: 979px) {
-    .front .who-we-are {
-      padding: 4rem 0; } }
-  @media (min-width: 980px) and (max-width: 1199px) {
-    .front .who-we-are {
-      padding: 8rem 0; } }
-  @media (min-width: 1200px) {
-    .front .who-we-are {
-      padding: 13rem 0; } }
-  .front .who-we-are .who-we-are-text {
-    text-align: center; }
-    @media (min-width: 671px) and (max-width: 979px) {
-      .front .who-we-are .who-we-are-text {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 40.29137%;
-        float: right; }
-        .front .who-we-are .who-we-are-text:last-child {
-          margin-right: 0; } }
-    @media (min-width: 980px) {
-      .front .who-we-are .who-we-are-text {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 31.76157%;
-        float: right; }
-        .front .who-we-are .who-we-are-text:last-child {
-          margin-right: 0; } }
-    .front .who-we-are .who-we-are-text h1 {
-      color: #f78c50;
-      font-family: "FilmotypeLucky";
-      font-size: 5.5rem;
-      font-weight: normal;
-      line-height: 100px;
-      margin: 0 auto;
-      transform: rotate(-10deg);
-      max-width: 85%; }
-    .front .who-we-are .who-we-are-text #inspiring {
-      margin-left: -0.5rem; }
-    .front .who-we-are .who-we-are-text #change {
-      margin-right: -0.5rem;
-      margin-top: -2rem; }
-    .front .who-we-are .who-we-are-text p {
-      color: #58585b; }
-.front .featured-case-study {
-  background: url("../images/ts_redesign/splc.png") left top;
-  background-size: cover;
-  height: 100%;
-  padding: 7rem 0 13rem 0;
-  position: relative;
-  width: 100%; }
-  .front .featured-case-study .featured-case-study-text {
-    text-align: center; }
-    @media (min-width: 671px) and (max-width: 979px) {
-      .front .featured-case-study .featured-case-study-text {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 40.29137%;
-        float: right;
-        text-align: left; }
-        .front .featured-case-study .featured-case-study-text:last-child {
-          margin-right: 0; } }
-    @media (min-width: 980px) {
-      .front .featured-case-study .featured-case-study-text {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 31.76157%;
-        float: right;
-        text-align: left; }
-        .front .featured-case-study .featured-case-study-text:last-child {
-          margin-right: 0; } }
-    .front .featured-case-study .featured-case-study-text h1 {
-      color: #f26d21;
-      font-size: 2.25rem;
-      margin: 0.5rem auto; }
-    .front .featured-case-study .featured-case-study-text h4 {
-      color: #58585b;
-      font-size: 0.8125rem;
-      text-transform: uppercase; }
-    .front .featured-case-study .featured-case-study-text p {
-      font-size: 0.875rem; }
-    .front .featured-case-study .featured-case-study-text i {
-      color: #f26d21; }
-.front .three-case-studies {
-  overflow: hidden; }
-  .front .three-case-studies .orange-overlay {
-    -webkit-transition: 0.5s opacity ease-in-out;
-    -moz-transition: 0.5s opacity ease-in-out;
-    transition: 0.5s opacity ease-in-out;
-    background: #f26d21;
+.front {
+  margin-top: 134px; }
+  @media (max-width: 480px) {
+    .front {
+      margin-top: 5.625rem; } }
+  @media (min-width: 481px) and (max-width: 979px) {
+    .front {
+      margin-top: 5.625rem; } }
+  .front .who-we-are {
+    background: url("../images/ts_redesign/home_hero.png") left top;
     background-size: cover;
     height: 100%;
-    left: 0;
+    padding: 2rem 0;
+    position: relative;
     width: 100%;
-    opacity: 0;
-    position: absolute;
-    top: 0; }
-  .front .three-case-studies .case-study {
-    cursor: pointer;
-    display: inline-block;
-    float: left;
-    position: relative; }
-    .front .three-case-studies .case-study.active .orange-overlay, .front .three-case-studies .case-study:hover .orange-overlay {
-      opacity: 0.9;
-      transition: opacity 0.5s ease-in-out;
-      -moz-transition: opacity 0.5s ease-in-out;
-      -webkit-transition: opacity 0.5s ease-in-out; }
-    .front .three-case-studies .case-study.active .case-study-text, .front .three-case-studies .case-study:hover .case-study-text {
-      transform: translateY(-90px);
+    z-index: 1; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .front .who-we-are {
+        padding: 4rem 0; } }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .front .who-we-are {
+        padding: 8rem 0; } }
+    @media (min-width: 1200px) {
+      .front .who-we-are {
+        padding: 13rem 0; } }
+    .front .who-we-are .who-we-are-text {
+      text-align: center; }
+      @media (min-width: 671px) and (max-width: 979px) {
+        .front .who-we-are .who-we-are-text {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 40.29137%;
+          float: right; }
+          .front .who-we-are .who-we-are-text:last-child {
+            margin-right: 0; } }
+      @media (min-width: 980px) {
+        .front .who-we-are .who-we-are-text {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 31.76157%;
+          float: right; }
+          .front .who-we-are .who-we-are-text:last-child {
+            margin-right: 0; } }
+      .front .who-we-are .who-we-are-text h1 {
+        color: #f78c50;
+        font-family: "FilmotypeLucky";
+        font-size: 5.5rem;
+        font-weight: normal;
+        line-height: 100px;
+        margin: 0 auto;
+        transform: rotate(-10deg);
+        max-width: 85%; }
+      .front .who-we-are .who-we-are-text #inspiring {
+        margin-left: -0.5rem; }
+      .front .who-we-are .who-we-are-text #change {
+        margin-right: -0.5rem;
+        margin-top: -2rem; }
+      .front .who-we-are .who-we-are-text p {
+        color: #58585b; }
+  .front .featured-case-study {
+    background: url("../images/ts_redesign/splc.png") left top;
+    background-size: cover;
+    height: 100%;
+    padding: 7rem 0 13rem 0;
+    position: relative;
+    width: 100%; }
+    .front .featured-case-study .featured-case-study-text {
+      text-align: center; }
+      @media (min-width: 671px) and (max-width: 979px) {
+        .front .featured-case-study .featured-case-study-text {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 40.29137%;
+          float: right;
+          text-align: left; }
+          .front .featured-case-study .featured-case-study-text:last-child {
+            margin-right: 0; } }
+      @media (min-width: 980px) {
+        .front .featured-case-study .featured-case-study-text {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 31.76157%;
+          float: right;
+          text-align: left; }
+          .front .featured-case-study .featured-case-study-text:last-child {
+            margin-right: 0; } }
+      .front .featured-case-study .featured-case-study-text h1 {
+        color: #f26d21;
+        font-size: 2.25rem;
+        margin: 0.5rem auto; }
+      .front .featured-case-study .featured-case-study-text h4 {
+        color: #58585b;
+        font-size: 0.8125rem;
+        text-transform: uppercase; }
+      .front .featured-case-study .featured-case-study-text p {
+        font-size: 0.875rem; }
+      .front .featured-case-study .featured-case-study-text i {
+        color: #f26d21; }
+  .front .three-case-studies {
+    overflow: hidden; }
+    .front .three-case-studies .orange-overlay {
+      -webkit-transition: 0.5s opacity ease-in-out;
+      -moz-transition: 0.5s opacity ease-in-out;
+      transition: 0.5s opacity ease-in-out;
+      background: #f26d21;
+      background-size: cover;
+      height: 100%;
+      left: 0;
+      width: 100%;
+      opacity: 0;
+      position: absolute;
+      top: 0; }
+    .front .three-case-studies .case-study {
+      cursor: pointer;
+      display: inline-block;
+      float: left;
+      position: relative; }
+      .front .three-case-studies .case-study.active .orange-overlay, .front .three-case-studies .case-study:hover .orange-overlay {
+        opacity: 0.9;
+        transition: opacity 0.5s ease-in-out;
+        -moz-transition: opacity 0.5s ease-in-out;
+        -webkit-transition: opacity 0.5s ease-in-out; }
+      .front .three-case-studies .case-study.active .case-study-text, .front .three-case-studies .case-study:hover .case-study-text {
+        transform: translateY(-90px);
+        -webkit-transition: 0.5s transform ease-in-out;
+        -moz-transition: 0.5s transform ease-in-out;
+        transition: 0.5s transform ease-in-out; }
+        @media (max-width: 480px) {
+          .front .three-case-studies .case-study.active .case-study-text, .front .three-case-studies .case-study:hover .case-study-text {
+            transform: translateY(-6.5rem); } }
+        @media (min-width: 481px) and (max-width: 979px) {
+          .front .three-case-studies .case-study.active .case-study-text, .front .three-case-studies .case-study:hover .case-study-text {
+            transform: translateY(-3.5rem); } }
+        @media (min-width: 980px) and (max-width: 1199px) {
+          .front .three-case-studies .case-study.active .case-study-text, .front .three-case-studies .case-study:hover .case-study-text {
+            transform: translateY(-6.5rem); } }
+    .front .three-case-studies #case-study0 {
+      background: url("../images/ts_redesign/case_study0.png") center center no-repeat;
+      background-size: cover;
+      height: 330px;
+      padding: 2rem;
+      width: 33.33%; }
+      @media (max-width: 480px) {
+        .front .three-case-studies #case-study0 {
+          height: 285px;
+          width: 100%; } }
+      @media (min-width: 481px) and (max-width: 979px) {
+        .front .three-case-studies #case-study0 {
+          width: 100%; } }
+    .front .three-case-studies #case-study1 {
+      background: url("../images/ts_redesign/case_study1.png") center center no-repeat;
+      background-size: cover;
+      height: 330px;
+      padding: 2rem;
+      width: 33.33%; }
+      @media (max-width: 480px) {
+        .front .three-case-studies #case-study1 {
+          height: 285px;
+          width: 100%; } }
+      @media (min-width: 481px) and (max-width: 979px) {
+        .front .three-case-studies #case-study1 {
+          width: 100%; } }
+    .front .three-case-studies #case-study2 {
+      background: url("../images/ts_redesign/case_study2.png") center center no-repeat;
+      background-size: cover;
+      height: 330px;
+      padding: 2rem;
+      width: 33.33%; }
+      @media (max-width: 480px) {
+        .front .three-case-studies #case-study2 {
+          height: 285px;
+          width: 100%; } }
+      @media (min-width: 481px) and (max-width: 979px) {
+        .front .three-case-studies #case-study2 {
+          width: 100%; } }
+    .front .three-case-studies #case-study3 {
+      background: url("../images/ts_redesign/case_study3.png") center center no-repeat;
+      background-size: cover;
+      height: 330px;
+      padding: 2rem;
+      width: 33.33%; }
+      @media (max-width: 480px) {
+        .front .three-case-studies #case-study3 {
+          height: 285px;
+          width: 100%; } }
+      @media (min-width: 481px) and (max-width: 979px) {
+        .front .three-case-studies #case-study3 {
+          width: 100%; } }
+    .front .three-case-studies .case-study-text {
+      bottom: -5.625rem;
+      position: absolute;
       -webkit-transition: 0.5s transform ease-in-out;
       -moz-transition: 0.5s transform ease-in-out;
       transition: 0.5s transform ease-in-out; }
       @media (max-width: 480px) {
-        .front .three-case-studies .case-study.active .case-study-text, .front .three-case-studies .case-study:hover .case-study-text {
-          transform: translateY(-6.5rem); } }
+        .front .three-case-studies .case-study-text {
+          bottom: -6.5rem; } }
       @media (min-width: 481px) and (max-width: 979px) {
-        .front .three-case-studies .case-study.active .case-study-text, .front .three-case-studies .case-study:hover .case-study-text {
-          transform: translateY(-3.5rem); } }
+        .front .three-case-studies .case-study-text {
+          bottom: -3.5rem; } }
       @media (min-width: 980px) and (max-width: 1199px) {
-        .front .three-case-studies .case-study.active .case-study-text, .front .three-case-studies .case-study:hover .case-study-text {
-          transform: translateY(-6.5rem); } }
-  .front .three-case-studies #case-study0 {
-    background: url("../images/ts_redesign/case_study0.png") center center no-repeat;
-    background-size: cover;
-    height: 330px;
-    padding: 2rem;
-    width: 33.33%; }
-    @media (max-width: 480px) {
-      .front .three-case-studies #case-study0 {
-        height: 285px;
-        width: 100%; } }
-    @media (min-width: 481px) and (max-width: 979px) {
-      .front .three-case-studies #case-study0 {
-        width: 100%; } }
-  .front .three-case-studies #case-study1 {
-    background: url("../images/ts_redesign/case_study1.png") center center no-repeat;
-    background-size: cover;
-    height: 330px;
-    padding: 2rem;
-    width: 33.33%; }
-    @media (max-width: 480px) {
-      .front .three-case-studies #case-study1 {
-        height: 285px;
-        width: 100%; } }
-    @media (min-width: 481px) and (max-width: 979px) {
-      .front .three-case-studies #case-study1 {
-        width: 100%; } }
-  .front .three-case-studies #case-study2 {
-    background: url("../images/ts_redesign/case_study2.png") center center no-repeat;
-    background-size: cover;
-    height: 330px;
-    padding: 2rem;
-    width: 33.33%; }
-    @media (max-width: 480px) {
-      .front .three-case-studies #case-study2 {
-        height: 285px;
-        width: 100%; } }
-    @media (min-width: 481px) and (max-width: 979px) {
-      .front .three-case-studies #case-study2 {
-        width: 100%; } }
-  .front .three-case-studies #case-study3 {
-    background: url("../images/ts_redesign/case_study3.png") center center no-repeat;
-    background-size: cover;
-    height: 330px;
-    padding: 2rem;
-    width: 33.33%; }
-    @media (max-width: 480px) {
-      .front .three-case-studies #case-study3 {
-        height: 285px;
-        width: 100%; } }
-    @media (min-width: 481px) and (max-width: 979px) {
-      .front .three-case-studies #case-study3 {
-        width: 100%; } }
-  .front .three-case-studies .case-study-text {
-    bottom: -5.625rem;
-    position: absolute;
-    -webkit-transition: 0.5s transform ease-in-out;
-    -moz-transition: 0.5s transform ease-in-out;
-    transition: 0.5s transform ease-in-out; }
-    @media (max-width: 480px) {
-      .front .three-case-studies .case-study-text {
-        bottom: -6.5rem; } }
-    @media (min-width: 481px) and (max-width: 979px) {
-      .front .three-case-studies .case-study-text {
-        bottom: -3.5rem; } }
-    @media (min-width: 980px) and (max-width: 1199px) {
-      .front .three-case-studies .case-study-text {
-        bottom: -6.5rem; } }
-  .front .three-case-studies h2,
-  .front .three-case-studies p {
-    color: #fff;
-    z-index: 1; }
-  .front .three-case-studies h2 {
-    font-size: 1.625rem; }
-  .front .three-case-studies p {
-    font-size: 0.875rem; }
-.front .our-expertise {
-  padding: 6rem 0; }
-  @media (max-width: 480px) {
-    .front .our-expertise {
-      padding: 2rem 0; } }
-  @media (min-width: 481px) and (max-width: 979px) {
-    .front .our-expertise {
-      padding: 3rem 0; } }
-  @media (min-width: 980px) and (max-width: 1199px) {
-    .front .our-expertise {
-      padding: 3rem 0; } }
-  .front .our-expertise h1 {
-    color: #58585b;
-    font-size: 2.25rem;
-    margin: 0; }
-  .front .our-expertise .our-expertise-block {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%; }
-    .front .our-expertise .our-expertise-block:last-child {
-      margin-right: 0; }
-    .front .our-expertise .our-expertise-block:nth-child(5n) {
-      margin-right: 0; }
-    .front .our-expertise .our-expertise-block:nth-child(5n+1) {
-      clear: left; }
-    @media (max-width: 480px) {
-      .front .our-expertise .our-expertise-block {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%; }
-        .front .our-expertise .our-expertise-block:last-child {
-          margin-right: 0; } }
-    @media (min-width: 481px) and (max-width: 979px) {
-      .front .our-expertise .our-expertise-block {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 48.82117%; }
-        .front .our-expertise .our-expertise-block:last-child {
-          margin-right: 0; }
-        .front .our-expertise .our-expertise-block:nth-child(3n) {
-          margin-right: 0; }
-        .front .our-expertise .our-expertise-block:nth-child(3n+1) {
-          clear: left; } }
-    .front .our-expertise .our-expertise-block h2 {
-      color: #f26d21;
-      font-size: 1.375rem; }
-      .front .our-expertise .our-expertise-block h2:hover {
-        text-decoration: underline; }
-    .front .our-expertise .our-expertise-block p {
-      color: #58585b; }
-  .front .our-expertise a {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    .front .our-expertise a:last-child {
-      margin-right: 0; }
-.front .blog-teaser {
-  color: #fff; }
-  .front .blog-teaser .featured-blog-post,
-  .front .blog-teaser .blog-menu {
-    display: inline-block;
-    height: 408px;
-    float: left;
-    padding-top: 3rem; }
-  .front .blog-teaser .featured-blog-post {
-    background: url("../images/ts_redesign/blog_teaser.png") center center no-repeat;
-    background-size: cover;
-    position: relative;
-    width: 58%; }
-    @media (max-width: 480px) {
-      .front .blog-teaser .featured-blog-post {
-        width: 100%; } }
-    @media (min-width: 481px) and (max-width: 979px) {
-      .front .blog-teaser .featured-blog-post {
-        width: 100%; } }
-    .front .blog-teaser .featured-blog-post h2 {
-      color: #f1b332;
-      font-size: 1.625rem;
-      margin-bottom: 0; }
-    .front .blog-teaser .featured-blog-post p {
-      margin-top: 0.5rem; }
-    .front .blog-teaser .featured-blog-post img,
-    .front .blog-teaser .featured-blog-post .author-info {
-      bottom: 3rem;
-      display: inline-block;
-      position: absolute; }
-    .front .blog-teaser .featured-blog-post .author-info h4 {
-      margin: 0 0 0 5rem; }
-    .front .blog-teaser .featured-blog-post .author-info p {
-      font-size: 0.875rem;
-      margin: 0 0 0.5rem 5rem; }
-  .front .blog-teaser .blog-menu {
-    background: #555555;
-    width: 42%; }
-    @media (max-width: 480px) {
-      .front .blog-teaser .blog-menu {
-        width: 100%;
-        height: 375px; } }
-    @media (min-width: 481px) and (max-width: 979px) {
-      .front .blog-teaser .blog-menu {
-        width: 100%;
-        height: 350px; } }
-    .front .blog-teaser .blog-menu ul {
-      padding-top: 0.5rem;
-      padding-left: 0; }
-    .front .blog-teaser .blog-menu a {
+        .front .three-case-studies .case-study-text {
+          bottom: -6.5rem; } }
+    .front .three-case-studies h2,
+    .front .three-case-studies p {
       color: #fff;
-      cursor: pointer;
-      line-height: 1.75;
-      margin-left: 0; }
+      z-index: 1; }
+    .front .three-case-studies h2 {
+      font-size: 1.625rem; }
+    .front .three-case-studies p {
+      font-size: 0.875rem; }
+  .front .our-expertise {
+    padding: 6rem 0; }
+    @media (max-width: 480px) {
+      .front .our-expertise {
+        padding: 2rem 0; } }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .front .our-expertise {
+        padding: 3rem 0; } }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .front .our-expertise {
+        padding: 3rem 0; } }
+    .front .our-expertise h1 {
+      color: #58585b;
+      font-size: 2.25rem;
+      margin: 0; }
+    .front .our-expertise .our-expertise-block {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .front .our-expertise .our-expertise-block:last-child {
+        margin-right: 0; }
+      .front .our-expertise .our-expertise-block:nth-child(5n) {
+        margin-right: 0; }
+      .front .our-expertise .our-expertise-block:nth-child(5n+1) {
+        clear: left; }
       @media (max-width: 480px) {
-        .front .blog-teaser .blog-menu a {
-          font-size: 1.125rem;
-          line-height: 2; } }
+        .front .our-expertise .our-expertise-block {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%; }
+          .front .our-expertise .our-expertise-block:last-child {
+            margin-right: 0; } }
       @media (min-width: 481px) and (max-width: 979px) {
-        .front .blog-teaser .blog-menu a {
-          font-size: 1.375rem;
-          line-height: 2; } }
-      .front .blog-teaser .blog-menu a:hover {
-        color: #f1b332; }
-      .front .blog-teaser .blog-menu a i {
+        .front .our-expertise .our-expertise-block {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%; }
+          .front .our-expertise .our-expertise-block:last-child {
+            margin-right: 0; }
+          .front .our-expertise .our-expertise-block:nth-child(3n) {
+            margin-right: 0; }
+          .front .our-expertise .our-expertise-block:nth-child(3n+1) {
+            clear: left; } }
+      .front .our-expertise .our-expertise-block h2 {
+        color: #f26d21;
+        font-size: 1.375rem; }
+        .front .our-expertise .our-expertise-block h2:hover {
+          text-decoration: underline; }
+      .front .our-expertise .our-expertise-block p {
+        color: #58585b; }
+    .front .our-expertise a {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .front .our-expertise a:last-child {
+        margin-right: 0; }
+  .front .blog-teaser {
+    color: #fff; }
+    .front .blog-teaser .featured-blog-post,
+    .front .blog-teaser .blog-menu {
+      display: inline-block;
+      height: 408px;
+      float: left;
+      padding-top: 3rem; }
+    .front .blog-teaser .featured-blog-post {
+      background: url("../images/ts_redesign/blog_teaser.png") center center no-repeat;
+      background-size: cover;
+      position: relative;
+      width: 58%; }
+      @media (max-width: 480px) {
+        .front .blog-teaser .featured-blog-post {
+          width: 100%; } }
+      @media (min-width: 481px) and (max-width: 979px) {
+        .front .blog-teaser .featured-blog-post {
+          width: 100%; } }
+      .front .blog-teaser .featured-blog-post h2 {
         color: #f1b332;
-        font-size: 1.5rem;
-        margin-left: 0.625rem;
-        vertical-align: sub; }
+        font-size: 1.625rem;
+        margin-bottom: 0; }
+      .front .blog-teaser .featured-blog-post p {
+        margin-top: 0.5rem; }
+      .front .blog-teaser .featured-blog-post img,
+      .front .blog-teaser .featured-blog-post .author-info {
+        bottom: 3rem;
+        display: inline-block;
+        position: absolute; }
+      .front .blog-teaser .featured-blog-post .author-info h4 {
+        margin: 0 0 0 5rem; }
+      .front .blog-teaser .featured-blog-post .author-info p {
+        font-size: 0.875rem;
+        margin: 0 0 0.5rem 5rem; }
+    .front .blog-teaser .blog-menu {
+      background: #555555;
+      width: 42%; }
+      @media (max-width: 480px) {
+        .front .blog-teaser .blog-menu {
+          width: 100%;
+          height: 375px; } }
+      @media (min-width: 481px) and (max-width: 979px) {
+        .front .blog-teaser .blog-menu {
+          width: 100%;
+          height: 350px; } }
+      .front .blog-teaser .blog-menu ul {
+        padding-top: 0.5rem;
+        padding-left: 0; }
+      .front .blog-teaser .blog-menu a {
+        color: #fff;
+        cursor: pointer;
+        line-height: 1.75;
+        margin-left: 0; }
         @media (max-width: 480px) {
-          .front .blog-teaser .blog-menu a i {
-            font-size: 1.5rem;
-            vertical-align: middle; } }
+          .front .blog-teaser .blog-menu a {
+            font-size: 1.125rem;
+            line-height: 2; } }
         @media (min-width: 481px) and (max-width: 979px) {
-          .front .blog-teaser .blog-menu a i {
-            font-size: 2rem;
-            vertical-align: middle; } }
+          .front .blog-teaser .blog-menu a {
+            font-size: 1.375rem;
+            line-height: 2; } }
+        .front .blog-teaser .blog-menu a:hover {
+          color: #f1b332; }
+        .front .blog-teaser .blog-menu a i {
+          color: #f1b332;
+          font-size: 1.5rem;
+          margin-left: 0.625rem;
+          vertical-align: sub; }
+          @media (max-width: 480px) {
+            .front .blog-teaser .blog-menu a i {
+              font-size: 1.5rem;
+              vertical-align: middle; } }
+          @media (min-width: 481px) and (max-width: 979px) {
+            .front .blog-teaser .blog-menu a i {
+              font-size: 2rem;
+              vertical-align: middle; } }
 
 .newsletter-block {
   background: #f58546 url("../images/ts_redesign/dot.png");

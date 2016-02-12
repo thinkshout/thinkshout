@@ -1,5 +1,11 @@
 header {
+  background-color: $white;
+  left: 0;
   padding: 2rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 
   @include mq(m) {
     border-top: 4px solid $orange;

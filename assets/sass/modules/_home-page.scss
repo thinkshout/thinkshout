@@ -1,4 +1,9 @@
 .front {
+  margin-top: 134px;
+
+  @include mq(m) { margin-top: rem(90); }
+  @include mq(t) { margin-top: rem(90); }
+
   // "Who We Are" teaser block
   .who-we-are {
     background: url('../images/ts_redesign/home_hero.png') left top;
