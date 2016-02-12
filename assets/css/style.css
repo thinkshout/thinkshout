@@ -2093,13 +2093,15 @@ a {
   position: absolute; }
 
 .careers-cta {
+  background: url("/assets/images/careers.jpg") right top no-repeat;
+  background-size: cover;
   clear: both;
   padding: 4rem 0; }
   .careers-cta .text {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 65.88078%; }
+    width: 48.82117%; }
     .careers-cta .text:last-child {
       margin-right: 0; }
     @media (min-width: 481px) and (max-width: 979px) {
@@ -2732,7 +2734,9 @@ header {
       display: inline; }
 
 .team .team-member {
+  display: inline-block;
   float: left;
+  margin-bottom: 1rem;
   width: 25%;
   text-align: center; }
   @media (min-width: 481px) and (max-width: 979px) {
@@ -2748,7 +2752,8 @@ header {
     margin: 0.5rem 0; }
   .team .team-member p {
     color: #626262;
-    font-size: 0.9375rem; }
+    font-size: 0.9375rem;
+    margin: 0; }
 
 .container {
   max-width: 1440px;

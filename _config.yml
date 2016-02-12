@@ -103,6 +103,4 @@ prose:
 
 # Collections
 collections:
-  team:
-    output: true
-    permalink: /:path/:first_name
+  - team

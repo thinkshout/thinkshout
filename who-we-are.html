@@ -18,19 +18,19 @@ body-class: team
 </div>
 
 <div class="team-listing">
-{% for t in site.team %}
-  <div class="team-member">
-    <img src="/assets/images/team/small/lev.jpg" alt="{{site.team.name}}">
-    <h2 class="name-title">Lev Tsypin</h2>
-    <p>CTO, Owner</p>
-  </div>
-  <div class="team-member">
-    <img src="/assets/images/team/small/tauno.jpg" alt="{{site.team.name}}">
-    <h2 class="name-title">Tauno Hogue</h2>
-    <p>Chief Technology Officer</p>
-  </div>
-{% endfor %}
+  {% for person in site.team %}
+    <div class="team-member">
+      <div class="image">
+        <img src="/assets/images/{{ person.image.small }}" alt="{{ person.first_name }} {{ person.last_name }}">
+      </div>
+      <div class="text">
+        <h2 class="name-title">{{ person.first_name }} {{ person.last_name }}</h2>
+        <p>{{ person.position }}</p>
+      </div>
+    </div>
+  {% endfor %}
 </div>
+
 <div class="careers-cta">
   <div class="container">
     <div class="text">

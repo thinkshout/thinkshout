@@ -1,5 +1,7 @@
 .team .team-member {
+  display: inline-block;
   float: left;
+  margin-bottom: 1rem;
   width: 25%;
   text-align: center;
 
@@ -23,5 +25,6 @@
   p {
     color: $midgray;
     font-size: rem(15);
+    margin: 0;
   }
 }
