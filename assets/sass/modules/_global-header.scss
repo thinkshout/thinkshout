@@ -88,8 +88,10 @@ header {
     $child: 1;
     @each $color in $colors {
       li:nth-child(#{$child}):hover {
-        border-top: 4px solid $color;
-        $child: $child + 1;
+        @include mq(d) {
+          border-top: 4px solid $color;
+          $child: $child + 1;
+        }
       }
     }
 

@@ -2284,16 +2284,21 @@ header {
           display: inline;
           font-size: 0.9375rem;
           padding: 3.125rem 0; } }
-    header .main-menu li:nth-child(1):hover {
-      border-top: 4px solid #f26d21; }
-    header .main-menu li:nth-child(2):hover {
-      border-top: 4px solid #F27F25; }
-    header .main-menu li:nth-child(3):hover {
-      border-top: 4px solid #F2902A; }
-    header .main-menu li:nth-child(4):hover {
-      border-top: 4px solid #F1A22E; }
-    header .main-menu li:nth-child(5):hover {
-      border-top: 4px solid #f1b332; }
+    @media (min-width: 980px) {
+      header .main-menu li:nth-child(1):hover {
+        border-top: 4px solid #f26d21; } }
+    @media (min-width: 980px) {
+      header .main-menu li:nth-child(2):hover {
+        border-top: 4px solid #F27F25; } }
+    @media (min-width: 980px) {
+      header .main-menu li:nth-child(3):hover {
+        border-top: 4px solid #F2902A; } }
+    @media (min-width: 980px) {
+      header .main-menu li:nth-child(4):hover {
+        border-top: 4px solid #F1A22E; } }
+    @media (min-width: 980px) {
+      header .main-menu li:nth-child(5):hover {
+        border-top: 4px solid #f1b332; } }
     header .main-menu a {
       color: #f26d21;
       display: inline; }
