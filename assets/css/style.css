@@ -2429,25 +2429,49 @@ header {
       display: inline-block;
       float: left;
       position: relative; }
-      .front .three-case-studies .case-study.active .orange-overlay, .front .three-case-studies .case-study:hover .orange-overlay {
+      .front .three-case-studies .case-study:hover .orange-overlay {
         opacity: 0.9;
         transition: opacity 0.5s ease-in-out;
         -moz-transition: opacity 0.5s ease-in-out;
         -webkit-transition: opacity 0.5s ease-in-out; }
-      .front .three-case-studies .case-study.active .case-study-text, .front .three-case-studies .case-study:hover .case-study-text {
+      .front .three-case-studies .case-study:hover .case-study-text {
         transform: translateY(-90px);
         -webkit-transition: 0.5s transform ease-in-out;
         -moz-transition: 0.5s transform ease-in-out;
         transition: 0.5s transform ease-in-out; }
-        @media (max-width: 480px) {
-          .front .three-case-studies .case-study.active .case-study-text, .front .three-case-studies .case-study:hover .case-study-text {
-            transform: translateY(-6.5rem); } }
-        @media (min-width: 481px) and (max-width: 979px) {
-          .front .three-case-studies .case-study.active .case-study-text, .front .three-case-studies .case-study:hover .case-study-text {
-            transform: translateY(-3.5rem); } }
-        @media (min-width: 980px) and (max-width: 1199px) {
-          .front .three-case-studies .case-study.active .case-study-text, .front .three-case-studies .case-study:hover .case-study-text {
-            transform: translateY(-6.5rem); } }
+      @media (max-width: 480px) {
+        .front .three-case-studies .case-study.active .orange-overlay {
+          opacity: 0.9;
+          transition: opacity 0.5s ease-in-out;
+          -moz-transition: opacity 0.5s ease-in-out;
+          -webkit-transition: opacity 0.5s ease-in-out; }
+        .front .three-case-studies .case-study.active .case-study-text {
+          transform: translateY(-6.5rem);
+          -webkit-transition: 0.5s transform ease-in-out;
+          -moz-transition: 0.5s transform ease-in-out;
+          transition: 0.5s transform ease-in-out; } }
+      @media (min-width: 481px) and (max-width: 979px) {
+        .front .three-case-studies .case-study.active .orange-overlay {
+          opacity: 0.9;
+          transition: opacity 0.5s ease-in-out;
+          -moz-transition: opacity 0.5s ease-in-out;
+          -webkit-transition: opacity 0.5s ease-in-out; }
+        .front .three-case-studies .case-study.active .case-study-text {
+          transform: translateY(-3.5rem);
+          -webkit-transition: 0.5s transform ease-in-out;
+          -moz-transition: 0.5s transform ease-in-out;
+          transition: 0.5s transform ease-in-out; } }
+      @media (min-width: 980px) and (max-width: 1199px) {
+        .front .three-case-studies .case-study.active .orange-overlay {
+          opacity: 0.9;
+          transition: opacity 0.5s ease-in-out;
+          -moz-transition: opacity 0.5s ease-in-out;
+          -webkit-transition: opacity 0.5s ease-in-out; }
+        .front .three-case-studies .case-study.active .case-study-text {
+          transform: translateY(-6.5rem);
+          -webkit-transition: 0.5s transform ease-in-out;
+          -moz-transition: 0.5s transform ease-in-out;
+          transition: 0.5s transform ease-in-out; } }
     .front .three-case-studies #case-study0 {
       background: url("../images/ts_redesign/case_study0.png") center center no-repeat;
       background-size: cover;
