@@ -36,7 +36,7 @@ ul.social {
   }
 }
 
-input#contact-submit {
+input#saveForm {
   background: $orange;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -59,27 +59,7 @@ textarea {
   outline: none;
 }
 
-.captcha-wrapper {
-  @include clearfix();
-  .captcha-input {
-    float: left;
-    width: 48.5%;
-  }
-  .captcha {
-    float: right;
-    width: 40%;
-    >img {
-      float: right;
-      margin-bottom: .25em;
-    }
-    >a {
-      float: right;
-      clear: right;
-    }
-  }
-}
-
-#message {
+.message {
   font: inherit;
   height: 7rem;
 }
