@@ -108,3 +108,4 @@ collections:
     permalink: /:path/
   team:
     output: true
+    permalink: /who-we-are/team/:path
