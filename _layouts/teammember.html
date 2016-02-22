@@ -51,23 +51,20 @@ layout: default
   </div>
 </div>
 
-<section class="content-bottom">
-  <div class="row">
-    <div class="large-12 columns">
-      <ul class="team large-block-grid-4 medium-block-grid-3 small-block-grid-2">
-        {% for person in site.data.team %}
-        {% if person.published %}
-        {% capture url %}{{ site.baseurl }}/{{ site.team_dir }}/{{ person.name }}/{% endcapture %}
-        <li>
-          <article>
-            <a href="{{ url }}"><img src="{{ site.baseurl }}/assets/images/{{person.image.medium}}"></a>
-            <h4 class="name"><a href="{{ url }}">{{ person.first_name }} {{ person.last_name }}</a></h4>
-            <p class="position">{{person.position}}</p>
-          </article>
-        </li>
+<div class="team">
+  <div class="team-listing">
+    {% for person in site.team %}
+      {% if person.published %}
+        <div class="team-member">
+          <div class="image">
+            <img src="/assets/images/{{ person.image.small }}" alt="{{ person.first_name }} {{ person.last_name }}">
+          </div>
+          <div class="text">
+            <h2 class="name-title">{{ person.first_name }} {{ person.last_name }}</h2>
+            <p>{{ person.position }}</p>
+          </div>
+        </div>
         {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
+    {% endfor %}
   </div>
-</section>
+</div>
