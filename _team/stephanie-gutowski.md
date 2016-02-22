@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Stephanie
 last_name: Gutowski
 position: Marketing Manager

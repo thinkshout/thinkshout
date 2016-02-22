@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Jaymz
 last_name: Rhime
 position: Senior Software Engineer

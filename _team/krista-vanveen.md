@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Krista
 last_name: Van Veen
 position: Manager of Culture and People

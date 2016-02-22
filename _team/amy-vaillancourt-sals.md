@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Amy
 last_name: Vaillancourt-Sals
 position: Developer

@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Jami
 last_name: Dwyer
 position: Software Engineer

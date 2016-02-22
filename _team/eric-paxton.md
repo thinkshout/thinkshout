@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Eric
 last_name: Paxton
 position: Senior Front End Engineer

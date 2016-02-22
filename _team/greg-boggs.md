@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Greg
 last_name: Boggs
 position: Senior Software Engineer

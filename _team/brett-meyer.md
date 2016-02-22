@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Brett
 last_name: Meyer
 position: Chief Strategy Officer

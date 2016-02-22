@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Kaylan
 last_name: Adams
 position: Project Manager

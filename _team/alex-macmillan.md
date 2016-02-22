@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Alex
 last_name: MacMillan
 position: Chief Operating Officer

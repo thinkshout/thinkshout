@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Lev
 last_name: Tsypin
 position: President, CEO

@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Mike
 last_name: McCaffrey
 position: Senior Software Engineer

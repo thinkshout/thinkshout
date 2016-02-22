@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Gabe
 last_name: Carleton-Barnes
 position: Engineering Manager

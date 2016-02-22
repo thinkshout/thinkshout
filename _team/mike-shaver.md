@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Mike
 last_name: Shaver
 position: Senior Technical Project Manager

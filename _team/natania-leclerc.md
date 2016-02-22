@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Natania
 last_name: LeClerc
 position: Senior Digital Engagement Strategist

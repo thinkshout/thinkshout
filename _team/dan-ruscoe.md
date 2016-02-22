@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Dan
 last_name: Ruscoe
 position: Senior Software Engineer

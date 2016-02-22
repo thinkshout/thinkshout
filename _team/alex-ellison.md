@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Alex
 last_name: Ellison
 position: Senior Software Engineer

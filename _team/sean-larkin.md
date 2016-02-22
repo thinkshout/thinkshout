@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Sean
 last_name: Larkin
 position: Director of Sales, Founder

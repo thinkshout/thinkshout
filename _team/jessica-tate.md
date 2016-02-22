@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Jessica
 last_name: Tate
 position: User Experience Designer

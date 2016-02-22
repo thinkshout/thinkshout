@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Rose
 last_name: Hart
 position: Project Manager

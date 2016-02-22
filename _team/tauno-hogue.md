@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Tauno
 last_name: Hogue
 position: Chief Technology Officer
