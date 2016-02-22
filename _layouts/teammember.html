@@ -3,41 +3,41 @@ layout: default
 ---
 <div class="page-container team-detail">
   <div class="split">
-    <div class="side side-left" style="background-image: url('{{ site.baseurl }}/assets/images/{{ page.person.image.large }}')"></div>
+    <div class="side side-left" style="background-image: url('{{ site.baseurl }}/assets/images/{{ page.image.large }}')"></div>
     <div class="side side-right">
       <div class="intro-content">
-        <h1>{{ page.person.first_name }} {{ page.person.last_name }}</h1>
-        <h4 class="position">{{ page.person.position }}</h4>
-        <h5>{{ page.person.leadin }}</h5>
+        <h1>{{ page.first_name }} {{ page.last_name }}</h1>
+        <h4 class="position">{{ page.position }}</h4>
+        <h5>{{ page.leadin }}</h5>
         <ul class="social">
-          {% if page.person.social.github %}
+          {% if page.social.github %}
           <li>
-            <a href="{{ page.person.social.github }}"><span class="icon-github"></span></a>
+            <a href="{{ page.social.github }}"><span class="icon-github"></span></a>
           </li>
           {% endif %}
-          {% if page.person.social.twitter %}
+          {% if page.social.twitter %}
           <li>
-            <a href="{{ page.person.social.twitter }}"><span class="icon-twitter"></span></a>
+            <a href="{{ page.social.twitter }}"><span class="icon-twitter"></span></a>
           </li>
           {% endif %}
-          {% if page.person.social.linkedin %}
+          {% if page.social.linkedin %}
           <li>
-            <a href="{{ page.person.social.linkedin }}"><span class="icon-linkedin"></span></a>
+            <a href="{{ page.social.linkedin }}"><span class="icon-linkedin"></span></a>
           </li>
           {% endif %}
-          {% if page.person.social.drupal %}
+          {% if page.social.drupal %}
           <li>
-            <a href="{{ page.person.social.drupal }}"><span class="icon-tint"></span></a>
+            <a href="{{ page.social.drupal }}"><span class="icon-tint"></span></a>
           </li>
           {% endif %}
         </ul>
-        <p>{{ page.person.bio }}</p>
+        <p>{{ page.bio }}</p>
         <div class="team-blog">
           {% assign names = site.posts | map: 'author' %}
-          {% if names contains page.person.name %}
+          {% if names contains page.name %}
           <h6>Recent Blog Posts</h6>
           {% for post in site.posts %}
-          {% if post.layout == 'post' and post.author == page.person.name %}
+          {% if post.layout == 'post' and post.author == page.name %}
           <div class="post">
           	<h5 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h5>
           	<p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
