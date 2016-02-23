@@ -4,13 +4,18 @@ title: Porting ThinkShout to Drupal 8
 author: gabe
 published: true
 featured: true
-short: Preparing our open source contributions to Drupal 8
+short: Bringing our open source contributions to Drupal 8
 tags:
   - Drupal Planet
   - Drupal
   - Drupal 8
   - Drupal modules
-date: 2016-02-23
+  - RedHen
+  - Registration
+  - MailChimp
+  - Mandrill
+  - Salesforce Suite
+date: 2016-02-23 13:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
