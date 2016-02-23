@@ -1,8 +1,9 @@
 .case-study {  
-  margin-top: 134px;
 
-  @include mq(m) { margin-top: rem(90); }
-  @include mq(t) { margin-top: rem(90); }
+  .main-content {
+    @include mq(m) { margin-top: rem(90); }
+    @include mq(t) { margin-top: rem(90); }
+  }
 
   .case-study-header {
     background-position: left top;
