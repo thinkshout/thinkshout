@@ -17,17 +17,33 @@ layout: default
     </section>
 
     <section class="body">
-      <div class="wrapper">
-        <h3>{{ page.cs-intro.type }}</h3>
-        <h4>{{ page.cs-intro.mission }}</h4>
-        <a href="{{ page.cs-intro.link-url }}">{{ page.cs-intro.link-text }}</a>
-        {{ page.cs-intro.text | markdownify }}
+      <h3 class="intro">{{ page.cs-intro.type }}</h3>
+      <h4 class="intro">{{ page.cs-intro.mission }}</h4>
+      <a class="intro uppercase-link" href="{{ page.cs-intro.link-url }}">{{ page.cs-intro.link-text }}<i class="fa fa-caret-right"></i></a>
+      {{ page.cs-intro.text | markdownify }}
 
-        {% for section in page.cs-sections %}
+      {% for section in page.cs-sections %}
+        {% if section.section-title %}
           <h4>{{ section.section-title }}</h4>
+        {% endif %}
+
+        {% if section.section-description %}
           {{ section.section-description | markdownify }}
-        {% endfor %}
-      </div>
+        {% endif %}
+
+        {% if section.section-image %}
+          {% if section.section-image-full %}
+            <div class="full">
+          {% else %}
+            <div class="inline">
+          {% endif %}
+          <img src="{{ section.section-image }}" alt="{{ section.section-image-alt }}">
+          {% if section.section-image-caption %}
+            <span class="caption"><i class="fa fa-caret-up"></i>{{ section.section-image-caption }}</span>
+          {% endif %}
+            </div>
+        {% endif %}
+      {% endfor %}
     </section>
 
     <section class="cta">

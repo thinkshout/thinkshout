@@ -7,7 +7,7 @@ order: 1
 featured: TRUE
 # END LAYOUT DATA
 
-permalink: splc-selma/
+permalink: our-work/splc-selma/
 
 cs-header:
   header-image: /assets/images/ts_redesign/case-studies/splc-selma/header1.jpg
@@ -24,21 +24,26 @@ cs-intro:
 
     In just six weeks of iterative design and rapid prototyping, we launched the “[Selma: The Bridge to the Ballot](http://selma.splcenter.org/)” campaign site in March of 2015.
 
-    <img class="inline" src="/assets/images/ts_redesign/case-studies/splc-selma/inline1.jpg" alt="Image: photo of the Selma-to-Montgomery March">
-
 cs-sections:
+  - section-image: "/assets/images/ts_redesign/case-studies/splc-selma/inline1.jpg"
+    section-image-alt: "Image: photo of the Selma-to-Montgomery March"
+
   - section-title: "Our Role on the Project"
     section-description: |
       The Southern Poverty Law Center benefits from an excellent in-house graphic design team, as well as a top-notch digital communications team. They have some of the highest-quality and most compelling multimedia assets of any organization with whom we’ve worked. Their story and their approach to advocacy could not be stronger.
 
       That said, over the years they have built up considerable content and have experimented with a broad range of messaging strategies. In coming to us, they needed to step back and rethink their approach to content strategy. To structure the story itself, we combined work we had done to define the SPLC’s audiences and available assets culled from a content audit while keeping in mind that the goals of a campaign website are different from the goals of a full site.
 
-      <img class="full" src="/assets/images/ts_redesign/case-studies/splc-selma/full1.jpg" alt="Image: Woman working with many colored sticky notes during project discovery phase">
-      <span class="caption full">We kicked off the project with a 2-day onsite discovery engagement with the SPLC team</span>
-
+  - section-image: "/assets/images/ts_redesign/case-studies/splc-selma/full1.jpg"
+    section-image-alt: "Image: Woman working with brightly colored sticky notes during project discovery phase"
+    section-image-caption: "We kicked off the project with a 2-day onsite discovery engagement with the SPLC team"
+    section-image-full: true
+      
+  - section-description: |
       Because it’s focused on a single ask – to order the movie and so expand the SPLC’s list of supporters – we determined it was best to strip away most of the opportunities to explore other areas of the SPLC’s work and let the story of the March itself persuade users to take that action. The strategy work we had already completed allowed us to develop the campaign more quickly than would otherwise have been possible, to gorgeous effect.
 
-      <img class="inline" src="/assets/images/ts_redesign/case-studies/splc-selma/inline2.jpg" alt="Image: two views of website - desktop and mobile">
+  - section-image: "/assets/images/ts_redesign/case-studies/splc-selma/inline2.jpg"
+    section-image-alt: "Image: two views of website - desktop and mobile"
 
   - section-title: "Prototyping & Testing"
     section-description: |
@@ -52,9 +57,11 @@ cs-sections:
 
       Consequently, we launched the Selma microsite on a rapid development platform, Jekyll. By leveraging Jekyll, we were also able to cut engineering costs by 300%.
 
-      <img class="inline" src="/assets/images/ts_redesign/case-studies/splc-selma/inline3.jpg" alt="Image: Full destop view of site">
+  - section-image: "/assets/images/ts_redesign/case-studies/splc-selma/inline3.jpg"
+    section-image-alt: "Image: Full destop view of site"
 
-      <img class="inline" src="/assets/images/ts_redesign/case-studies/splc-selma/inline4.jpg" alt="Image: mobile website views">
+  - section-image: "/assets/images/ts_redesign/case-studies/splc-selma/inline4.jpg"
+    section-image-alt: "Image: mobile website views"
 
 cs-cta-text: Launch Site
 cs-cta-url: http://selma.splcenter.org/
