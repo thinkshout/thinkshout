@@ -56,13 +56,15 @@ layout: default
     {% for person in site.team %}
       {% if person.published %}
         <div class="team-member">
-          <div class="image">
-            <img src="/assets/images/{{ person.image.small }}" alt="{{ person.first_name }} {{ person.last_name }}">
-          </div>
-          <div class="text">
-            <h2 class="name-title">{{ person.first_name }} {{ person.last_name }}</h2>
-            <p>{{ person.position }}</p>
-          </div>
+        <a href="{{ person.permalink }}">
+            <div class="image">
+              <img src="/assets/images/{{ person.image.small }}" alt="{{ person.first_name }} {{ person.last_name }}">
+            </div>
+            <div class="text">
+              <h2 class="name-title">{{ person.first_name }} {{ person.last_name }}</h2>
+              <p>{{ person.position }}</p>
+            </div>
+          </a>
         </div>
         {% endif %}
     {% endfor %}
