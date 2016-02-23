@@ -41,6 +41,7 @@ In thinking about the rest of our modules and the nature of our work, it became 
 You can already see the beginnings of this work! At our team sprint on February 11, we put together an outline for bringing RedHen to Drupal 8, and pushed the first commits to Drupal.org.
 
 ![porting-thinkshout.jpg](/assets/images/blog/porting-thinkshout.jpg)
+*These are our sprint faces!*
 
 As of Feb 11, all of the Big 3 have nominal Drupal 8 branches.
 
