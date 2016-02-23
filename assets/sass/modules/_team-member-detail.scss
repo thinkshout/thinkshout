@@ -1,0 +1,13 @@
+.team-member-side {
+  @include span-columns(6);
+  padding: 1rem;
+  overflow: hidden;
+
+  img {
+    max-width: 100%;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+}

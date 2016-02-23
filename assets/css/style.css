@@ -2779,6 +2779,20 @@ header {
     .newsletter-block .social-media li {
       display: inline; }
 
+.team-member-side {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  padding: 1rem;
+  overflow: hidden; }
+  .team-member-side:last-child {
+    margin-right: 0; }
+  .team-member-side img {
+    max-width: 100%; }
+  .team-member-side h1 {
+    margin-top: 0; }
+
 .team .team-member {
   display: inline-block;
   float: left;

@@ -1,10 +1,14 @@
 ---
 layout: default
 ---
-<div class="page-container team-detail">
+<div class="container team-detail">
   <div class="split">
-    <div class="side side-left" style="background-image: url('{{ site.baseurl }}/assets/images/{{ page.image.large }}')"></div>
-    <div class="side side-right">
+    <div class="team-member-side">
+      <div class="team-member-image">
+        <img src="/assets/images/{{ page.image.large }}" alt="{{ page.first_name }} {{ page.last_name }}">
+      </div>
+    </div>
+    <div class="team-member-side">
       <div class="intro-content">
         <h1>{{ page.first_name }} {{ page.last_name }}</h1>
         <h4 class="position">{{ page.position }}</h4>
