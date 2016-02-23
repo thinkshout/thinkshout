@@ -36,22 +36,26 @@ layout: default
           {% endif %}
         </ul>
         <p>{{ page.bio }}</p>
-        <div class="team-blog">
-          {% assign names = site.posts | map: 'author' %}
-          {% if names contains page.name %}
-          <h6>Recent Blog Posts</h6>
-          {% for post in site.posts %}
-          {% if post.layout == 'post' and post.author == page.name %}
-          <div class="post">
-          	<h5 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h5>
-          	<p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
-          </div>
-          {% endif %}
-          {% endfor %}
-          {% endif %}
-        </div>
       </div>
     </div>
+  </div>
+</div>
+
+<div class="team-member-blog">
+  <div class="container">
+    {% assign names = site.posts | map: 'author' %}
+    {% if names contains page.name %}
+    <h4>{{ page.first_name }}'s Recent Blog Posts</h4>
+    {% for post in site.posts %}
+    {% if post.layout == 'post' and post.author == page.name %}
+    <div class="post">
+      <h3 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h3>
+      <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+    </div>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    <h6>See all blogs by {{ page.first_name }}</h6>
   </div>
 </div>
 

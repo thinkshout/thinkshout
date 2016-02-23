@@ -2793,6 +2793,24 @@ header {
   .team-member-side h1 {
     margin-top: 0; }
 
+.team-member-blog {
+  background: #f1b332;
+  padding: 3rem; }
+  .team-member-blog .post {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    margin-right: 0;
+    background: #fff; }
+    .team-member-blog .post:last-child {
+      margin-right: 0; }
+  .team-member-blog h4,
+  .team-member-blog h6 {
+    clear: both;
+    text-align: center;
+    text-transform: uppercase; }
+
 .team .team-member {
   display: inline-block;
   float: left;

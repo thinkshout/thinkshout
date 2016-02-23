@@ -11,3 +11,21 @@
     margin-top: 0;
   }
 }
+
+.team-member-blog {
+  background: $yellow;
+  padding: 3rem;
+
+  .post {
+    @include span-columns(4);
+    @include omega();
+    background: $white;
+  }
+
+  h4,
+  h6 {
+    clear: both;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
