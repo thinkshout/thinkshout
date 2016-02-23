@@ -1,7 +1,7 @@
 .team-member-side {
   @include span-columns(6);
   color: $darkgray;
-  padding: 1rem;
+  padding: 0 1rem 1rem;
   overflow: hidden;
 
   img {
