@@ -3004,6 +3004,13 @@ header {
     .newsletter-block .social-media li {
       display: inline; }
 
+@media (max-width: 480px) {
+  .our-work .main-content {
+    margin-top: 5.625rem; } }
+@media (min-width: 481px) and (max-width: 979px) {
+  .our-work .main-content {
+    margin-top: 5.625rem; } }
+
 .team .team-member {
   display: inline-block;
   float: left;

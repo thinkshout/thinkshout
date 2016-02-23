@@ -1,35 +1,35 @@
 ---
 # LAYOUT DATA
 layout: case_study
-body-class: case-study splc
+body-class: case-study colorado-trust
 active: TRUE
-order: 2
+order: 4
 featured: TRUE
 # END LAYOUT DATA
 
-permalink: our-work/splc-selma/
-cs-class: "splc-selma"
+permalink: our-work/colorado-trust/
+cs-class: colorado-trust
 
 cs-preview:
-  image: /assets/images/ts_redesign/case-studies/splc-selma/header1.jpg
-  type: "Static Jekyll Site"
-  client: "SPLC Selma-to-Montgomery Microsite"
-  description: "Remembering the 50th Anniversary of the Selma-to-Montgomery March"
+  image: /assets/images/ts_redesign/case-studies/colorado-trust/header1.jpg
+  type: Responsive Drupal Site
+  client: "Colorado Trust"
+  description: "Leveraging Drupal and Salesforce to help teachers instill intellectual vigor and curiosity in the world’s secondary school students."
 
 cs-header:
-  header-image: /assets/images/ts_redesign/case-studies/splc-selma/header1.jpg
-  client: "The Southern Poverty Law Center"
-  title: "Remembering the 50th Anniversary of the Selma-to-Montgomery March"
+  header-image: /assets/images/ts_redesign/case-studies/colorado-trust/header1.jpg
+  client: "Colorado Trust"
+  title: "Leveraging Drupal and Salesforce to help teachers instill intellectual vigor and curiosity in the world’s secondary school students."
 
 cs-intro:
   type: "A Campaign Microsite"
   mission: "The Southern Poverty Law Center fights hate and bigotry, seeking justice for the most vulnerable members of our society."
   link-text: "View The Site"
-  link-url: http://selma.splcenter.org/
+  link-url: http://www.coloradotrust.org/
   text: | 
     In the fall of 2014, we began work on the relaunch of the [Southern Poverty Law Center](http://splcenter.org/) (SPLC) website. Early in the project we recognized that SPLC’s celebration of the 50th Anniversary of the Selma-to-Montgomery March presented a unique opportunity for us to both tell a visually compelling story and to user test the design and content elements we are proposing for the overall website redesign.
 
-    In just six weeks of iterative design and rapid prototyping, we launched the “[Selma: The Bridge to the Ballot](http://selma.splcenter.org/)” campaign site in March of 2015.
+    In just six weeks of iterative design and rapid prototyping, we launched the “[Selma: The Bridge to the Ballot](http://www.coloradotrust.org/)” campaign site in March of 2015.
 
 cs-sections:
   - section-image: "/assets/images/ts_redesign/case-studies/splc-selma/inline1.jpg"
@@ -71,6 +71,6 @@ cs-sections:
     section-image-alt: "Image: mobile website views"
 
 cs-cta-text: Launch Site
-cs-cta-url: http://selma.splcenter.org/
+cs-cta-url: http://www.coloradotrust.org/
 
 ---

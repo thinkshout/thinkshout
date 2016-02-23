@@ -12,19 +12,22 @@ permalink: our-work/
   </div>
 </div>
 
+
+{% assign case-studies = site.case_studies | sort: 'order' %}
 <div class="work-listing">
-  {% for case in site.case_studies %}
+  {% for preview in case-studies %}
     <style>
-      .case-study-header.{{ case.cs-class }} { background-image: url('{{ case.cs-header.header-image }}'); }
+      .case-study-header.{{ preview.cs-class }} { background-image: url('{{ preview.cs-preview.image }}'); }
     </style>
 
-    <section class="case-study-header {{ case.cs-class }}">
+    <section class="case-study-header {{ preview.cs-class }}">
       <div class="gradient">&nbsp;</div>
       <div class="wrapper">
-        
-        <h4>{{ case.cs-header.client }}</h4>
+        <h4>{{ preview.cs-preview.type }}</h4>
+        <h2>{{ preview.cs-preview.client }}</h4>
 
-        <h2 class="description">{{ case.cs-header.title }}</h2>
+        <p class="description">{{ preview.cs-preview.description }}</p>
+        <a href="/{{ preview.permalink }}" class="uppercase-link">Read More<i class="fa fa-caret-right"></i></a>
       </div>
     </section>
   {% endfor %}
