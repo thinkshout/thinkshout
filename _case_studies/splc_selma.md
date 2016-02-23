@@ -8,11 +8,13 @@ featured: TRUE
 # END LAYOUT DATA
 
 permalink: our-work/splc-selma/
+cs-class: "splc-selma"
 
 cs-header:
   header-image: /assets/images/ts_redesign/case-studies/splc-selma/header1.jpg
   client: "The Southern Poverty Law Center"
   title: "Remembering the 50th Anniversary of the Selma-to-Montgomery March"
+
 
 cs-intro:
   type: "A Campaign Microsite"

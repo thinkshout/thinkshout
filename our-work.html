@@ -1,0 +1,31 @@
+---
+layout: default
+body-class: our-work
+permalink: our-work/
+---
+<div class="intro">
+  <div class="container">
+    <div class="text">
+      <h1>Our Work</h1>
+      <p>Whether it’s a simple site or a sophisticated e-commerce solution, our work excels in terms of engagement and effectiveness.</p>
+    </div>
+  </div>
+</div>
+
+<div class="work-listing">
+  {% for case in site.case_studies %}
+    <style>
+      .case-study-header.{{ case.cs-class }} { background-image: url('{{ case.cs-header.header-image }}'); }
+    </style>
+
+    <section class="case-study-header {{ case.cs-class }}">
+      <div class="gradient">&nbsp;</div>
+      <div class="wrapper">
+        
+        <h4>{{ case.cs-header.client }}</h4>
+
+        <h2 class="description">{{ case.cs-header.title }}</h2>
+      </div>
+    </section>
+  {% endfor %}
+</div>
