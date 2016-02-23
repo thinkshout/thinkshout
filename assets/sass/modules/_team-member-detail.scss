@@ -50,15 +50,14 @@
 
   .post {
     @include span-columns(4);
-    @include omega();
     background: $white;
     height: rem(250);
     margin-bottom: 2rem;
     overflow: hidden;
     padding: 0 1.5rem;
 
-    &:nth-child(4n) {
-      @include omega(4n);
+    @include mq(d) {
+      @include omega(3n);
     }
 
     a {

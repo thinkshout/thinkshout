@@ -2837,7 +2837,6 @@ header {
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%;
-    margin-right: 0;
     background: #fff;
     height: 15.625rem;
     margin-bottom: 2rem;
@@ -2845,10 +2844,11 @@ header {
     padding: 0 1.5rem; }
     .team-member-blog .post:last-child {
       margin-right: 0; }
-    .team-member-blog .post:nth-child(4n):nth-child(4n) {
-      margin-right: 0; }
-    .team-member-blog .post:nth-child(4n):nth-child(4n+1) {
-      clear: left; }
+    @media (min-width: 980px) {
+      .team-member-blog .post:nth-child(3n) {
+        margin-right: 0; }
+      .team-member-blog .post:nth-child(3n+1) {
+        clear: left; } }
     .team-member-blog .post a {
       color: #58585b; }
     .team-member-blog .post .post-date {
@@ -2913,6 +2913,13 @@ header {
   @media (min-width: 980px) and (max-width: 1199px) {
     .container {
       padding: 0 3rem; } }
+
+.row {
+  display: block; }
+  .row::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .intro .text {
   float: left;

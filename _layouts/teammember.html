@@ -46,18 +46,20 @@ layout: default
     {% assign names = site.posts | map: 'author' %}
     {% if names contains page.name %}
     <h4>{{ page.first_name }}'s Recent Blog Posts</h4>
-    {% for post in site.posts %}
-    {% if post.layout == 'post' and post.author == page.name %}
-      <div class="post">
-        <a href="{{ site.baseurl }}{{ post.url }}">
-          <p class="post-date">{{ post.date | date: "%m.%d.%Y" }}</p>
-          <h3 class="post-title">{{ post.title}}</h3>
-          <p class="post-short">{{ post.short }}</p>
-        </a>
-      </div>
-    {% endif %}
-    {% endfor %}
-    {% endif %}
+    <div class="row">
+      {% for post in site.posts %}
+      {% if post.layout == 'post' and post.author == page.name %}
+        <div class="post">
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <p class="post-date">{{ post.date | date: "%m.%d.%Y" }}</p>
+            <h3 class="post-title">{{ post.title}}</h3>
+            <p class="post-short">{{ post.short }}</p>
+          </a>
+        </div>
+      {% endif %}
+      {% endfor %}
+      {% endif %}
+    </div>
     <h5>See all blogs by {{ page.first_name }}</h5>
     <i class="fa fa-caret-down"></i>
   </div>
