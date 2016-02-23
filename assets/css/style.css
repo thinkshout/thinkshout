@@ -2845,6 +2845,12 @@ header {
       margin-right: 0; }
     .team-member-blog .post:nth-child(4n+1) {
       clear: left; }
+    .team-member-blog .post a {
+      color: #58585b; }
+    .team-member-blog .post .post-date {
+      font-size: 0.9375rem; }
+    .team-member-blog .post .post-title {
+      color: #000; }
   .team-member-blog h4,
   .team-member-blog h5 {
     clear: both;

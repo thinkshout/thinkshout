@@ -53,6 +53,18 @@
     @include omega(4n);
     background: $white;
     padding: 0 1.5rem;
+
+    a {
+      color: $darkgray;
+    }
+
+    .post-date {
+      font-size: rem(15);
+    }
+
+    .post-title {
+      color: $black;
+    }
   }
 
   h4,

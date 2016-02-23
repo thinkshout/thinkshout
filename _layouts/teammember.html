@@ -48,11 +48,13 @@ layout: default
     <h4>{{ page.first_name }}'s Recent Blog Posts</h4>
     {% for post in site.posts %}
     {% if post.layout == 'post' and post.author == page.name %}
-    <div class="post">
-      <h3 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h3>
-      <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
-      <p class="post-short">{{ post.short }}</p>
-    </div>
+      <div class="post">
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <p class="post-date">{{ post.date | date: "%m.%d.%Y" }}</p>
+          <h3 class="post-title">{{ post.title}}</h3>
+          <p class="post-short">{{ post.short }}</p>
+        </a>
+      </div>
     {% endif %}
     {% endfor %}
     {% endif %}
