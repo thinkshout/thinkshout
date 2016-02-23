@@ -16,7 +16,7 @@
     }, { offset: '25%' });
   });
 
-  $('.post').matchHeight({ property: 'height' });
+  $('.post').matchHeight();
 
     // $('.case-study').waypoint(function(direction) {
     //   if (direction == 'down') {

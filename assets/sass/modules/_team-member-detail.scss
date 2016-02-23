@@ -51,7 +51,7 @@
   .post {
     @include span-columns(4);
     background: $white;
-    height: rem(250);
+    // height: rem(250);
     margin-bottom: 2rem;
     overflow: hidden;
     padding: 0 1.5rem;
