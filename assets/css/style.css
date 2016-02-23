@@ -3010,6 +3010,18 @@ header {
 @media (min-width: 481px) and (max-width: 979px) {
   .our-work .main-content {
     margin-top: 5.625rem; } }
+.our-work .work-with-us {
+  background: url("/assets/images/ts_redesign/work-with-us1.jpg") right center no-repeat;
+  background-size: cover;
+  clear: both;
+  padding: 6rem 0; }
+.our-work .open-source-contributions {
+  background: url("/assets/images/ts_redesign/open-source-contributions1.jpg") right center no-repeat;
+  background-size: cover;
+  clear: both;
+  padding: 12rem 0; }
+.our-work .select-clients p.client-list {
+  white-space: pre; }
 
 .team .team-member {
   display: inline-block;
