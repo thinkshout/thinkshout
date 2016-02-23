@@ -11,10 +11,10 @@ tags:
   - Drupal 8
   - Drupal modules
   - RedHen
-  - Registration
+  - Entity Registration
   - MailChimp
   - Mandrill
-  - Salesforce Suite
+  - Salesforce
 date: 2016-02-23 13:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
