@@ -2790,6 +2790,22 @@ header {
   overflow: hidden; }
   .team-member-side:last-child {
     margin-right: 0; }
+  @media (max-width: 480px) {
+    .team-member-side {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .team-member-side:last-child {
+        margin-right: 0; } }
+  @media (min-width: 481px) and (max-width: 979px) {
+    .team-member-side {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .team-member-side:last-child {
+        margin-right: 0; } }
   .team-member-side img {
     max-width: 100%; }
   .team-member-side h1 {

@@ -4,6 +4,9 @@
   padding: 0 1rem 1rem;
   overflow: hidden;
 
+  @include mq(m) { @include span-columns(12); }
+  @include mq(t) { @include span-columns(12); }
+
   img {
     max-width: 100%;
   }
