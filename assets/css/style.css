@@ -2837,13 +2837,17 @@ header {
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%;
+    margin-right: 0;
     background: #fff;
+    height: 15.625rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
     padding: 0 1.5rem; }
     .team-member-blog .post:last-child {
       margin-right: 0; }
-    .team-member-blog .post:nth-child(4n) {
+    .team-member-blog .post:nth-child(4n):nth-child(4n) {
       margin-right: 0; }
-    .team-member-blog .post:nth-child(4n+1) {
+    .team-member-blog .post:nth-child(4n):nth-child(4n+1) {
       clear: left; }
     .team-member-blog .post a {
       color: #58585b; }
@@ -2861,8 +2865,7 @@ header {
     text-align: center;
     text-transform: uppercase; }
   .team-member-blog h5 {
-    margin-bottom: 0;
-    padding-top: 2rem; }
+    margin-bottom: 0; }
   .team-member-blog i {
     color: #292929;
     font-size: 2rem;
