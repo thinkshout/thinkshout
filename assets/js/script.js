@@ -16,6 +16,8 @@
     }, { offset: '25%' });
   });
 
+  $('.post').matchHeight();
+
     // $('.case-study').waypoint(function(direction) {
     //   if (direction == 'down') {
     //     $('.case-study:nth-of-type(1)').addClass('active');
