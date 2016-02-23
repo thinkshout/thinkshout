@@ -1,5 +1,6 @@
 .team-member-side {
   @include span-columns(6);
+  color: $darkgray;
   padding: 1rem;
   overflow: hidden;
 
@@ -8,7 +9,21 @@
   }
 
   h1 {
+    font-size: rem(45);
+    margin-bottom: 0.5rem;
     margin-top: 0;
+  }
+
+  .position {
+    color: $orange;
+    margin-top: 0;
+    text-transform: uppercase;
+  }
+
+  h5 {
+    font-size: rem(20);
+    font-weight: normal;
+    line-height: $line-height;
   }
 }
 

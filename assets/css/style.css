@@ -2785,6 +2785,7 @@ header {
   display: block;
   margin-right: 2.35765%;
   width: 48.82117%;
+  color: #58585b;
   padding: 1rem;
   overflow: hidden; }
   .team-member-side:last-child {
@@ -2792,7 +2793,17 @@ header {
   .team-member-side img {
     max-width: 100%; }
   .team-member-side h1 {
+    font-size: 2.8125rem;
+    margin-bottom: 0.5rem;
     margin-top: 0; }
+  .team-member-side .position {
+    color: #f26d21;
+    margin-top: 0;
+    text-transform: uppercase; }
+  .team-member-side h5 {
+    font-size: 1.25rem;
+    font-weight: normal;
+    line-height: 1.75; }
 
 .team-member-blog {
   background: #f1b332;
