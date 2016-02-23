@@ -27,6 +27,14 @@
   }
 }
 
+.team-member-side.side-left {
+  padding-left: 0;
+}
+
+.team-member-side.side-right {
+  padding-right: 0;
+}
+
 .team-member-blog {
   background: $yellow;
   padding: 3rem;
