@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Porting ThinkShout to Drupal 8
-author: greg
-published: false
-featured: false
-short: Join us for some great Drupal events here in Portland!
+author: gabe
+published: true
+featured: true
+short: Preparing our open source contributions to Drupal 8
 tags:
   - Drupal Planet
   - Drupal
+  - Drupal 8
+  - Drupal modules
 date: 2016-02-23
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
@@ -43,7 +45,7 @@ You can already see the beginnings of this work! At our team sprint on February 
 ![porting-thinkshout.jpg](/assets/images/blog/porting-thinkshout.jpg)
 *These are our sprint faces!*
 
-As of Feb 11, all of the Big 3 have nominal Drupal 8 branches.
+As of February 11, all of the Big 3 have nominal Drupal 8 branches.
 
 As we kick off four Drupal 8 sites in the first part of this year, we will be working with our clients to bring Registration, RedHen CRM, and Salesforce Suite to Drupal 8. All three should update beautifully, as they are built on top of Entity API, which is part of Core in D8.
 
