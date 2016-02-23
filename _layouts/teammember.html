@@ -51,11 +51,12 @@ layout: default
     <div class="post">
       <h3 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h3>
       <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+      <p class="post-short">{{ post.short }}</p>
     </div>
     {% endif %}
     {% endfor %}
     {% endif %}
-    <h6>See all blogs by {{ page.first_name }}</h6>
+    <h5>See all blogs by {{ page.first_name }}</h5>
   </div>
 </div>
 

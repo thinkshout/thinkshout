@@ -2052,7 +2052,8 @@ a {
   text-decoration: none; }
 
 .dotted-overlay,
-.front .who-we-are:after {
+.front .who-we-are:after,
+.team-member-blog:after {
   content: "";
   background: transparent url("../images/ts_redesign/dot.png") repeat repeat;
   bottom: 0;
@@ -2795,18 +2796,24 @@ header {
 
 .team-member-blog {
   background: #f1b332;
-  padding: 3rem; }
+  padding: 3rem;
+  position: relative;
+  z-index: 1; }
   .team-member-blog .post {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%;
-    margin-right: 0;
-    background: #fff; }
+    background: #fff;
+    padding: 0 1.5rem; }
     .team-member-blog .post:last-child {
       margin-right: 0; }
+    .team-member-blog .post:nth-child(4n) {
+      margin-right: 0; }
+    .team-member-blog .post:nth-child(4n+1) {
+      clear: left; }
   .team-member-blog h4,
-  .team-member-blog h6 {
+  .team-member-blog h5 {
     clear: both;
     text-align: center;
     text-transform: uppercase; }

@@ -15,15 +15,22 @@
 .team-member-blog {
   background: $yellow;
   padding: 3rem;
+  position: relative;
+  z-index: 1;
+
+  &:after {
+    @extend %dotted-overlay;
+  }
 
   .post {
     @include span-columns(4);
-    @include omega();
+    @include omega(4n);
     background: $white;
+    padding: 0 1.5rem;
   }
 
   h4,
-  h6 {
+  h5 {
     clear: both;
     text-align: center;
     text-transform: uppercase;
