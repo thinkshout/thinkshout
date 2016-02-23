@@ -57,28 +57,23 @@
   }
 }
 
-.caption {
-  color: $midgray;
+
+.fa-caret-up,
+%fa-caret-up {
   display: block;
-  font-size: 0.85rem;
-  margin: 0 auto 2rem;
-  width: 80%;
-  i.fa-caret-up {
-    display: block;
-    width: 37px;
-    color: $ltgray;
-    position: relative;
-    border-bottom: 2px solid $ltgray;
-    margin-bottom: 0.8rem;
-    margin-top: 1.1rem;
-    &:before {
-      bottom: -7px;
-      font-size: 1.2rem;
-      left: 0;
-      line-height: 1;
-      position: absolute;
-      right: 0;
-      text-align: center;
-    }
+  width: 37px;
+  color: $ltgray;
+  position: relative;
+  border-bottom: 2px solid $ltgray;
+  margin-bottom: 0.8rem;
+  margin-top: 1.1rem;
+  &:before {
+    bottom: -7px;
+    font-size: 1.2rem;
+    left: 0;
+    line-height: 1;
+    position: absolute;
+    right: 0;
+    text-align: center;
   }
 }

@@ -126,8 +126,6 @@
       font-size: 1.4rem;
     }
 
-    p
-
     p a {
       color: $ltorange;
     }
@@ -142,6 +140,17 @@
         display: block;
         margin: 1rem auto 1.2rem;
         width: 47px;
+      }
+    }
+
+    .caption {
+      color: $midgray;
+      display: block;
+      font-size: 0.85rem;
+      margin: 0 auto 2rem;
+      width: 80%;
+      i {
+        @extend %fa-caret-up;
       }
     }
 
