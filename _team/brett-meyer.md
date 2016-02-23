@@ -18,4 +18,5 @@ published: true
 name: brett-meyer
 bio: |
   Brett is a natural storyteller. He began his career as a dot-com software developer. He and his wife then spent two years in Mali with the Peace Corps, where he trained grassroots organizations in technology and media. Following this experience, Brett served as Communications Director at the Nonprofit Technology Network for six years, helping grow NTEN’s community from a few thousand to over 50,000 engaged participants. Having worked in the nonprofit sector for so long, he has a deep understanding of the communications and fundraising challenges that our clients face. Brett is uniquely positioned to help them build comprehensive multi-channel marketing plans. He's also the only person in the office to have worked at a radio station in West Africa.
+permalink: /who-we-are/team/brett/
 ---
