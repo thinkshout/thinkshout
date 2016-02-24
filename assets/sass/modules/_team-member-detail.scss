@@ -109,14 +109,17 @@
   }
 
   h5 {
-    margin-bottom: 0;
+    margin: 0;
   }
 
   i {
     color: $darkergray;
     font-size: 2rem;
-    margin-top: rem(-2);
     text-align: center;
     width: 100%;
+  }
+
+  .see-all-blogs {
+    margin-top: rem(-2);
   }
 }

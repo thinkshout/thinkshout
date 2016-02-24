@@ -2900,13 +2900,14 @@ header {
   .team-member-blog .blogs-toggle:hover {
     cursor: pointer; }
   .team-member-blog h5 {
-    margin-bottom: 0; }
+    margin: 0; }
   .team-member-blog i {
     color: #292929;
     font-size: 2rem;
-    margin-top: -0.125rem;
     text-align: center;
     width: 100%; }
+  .team-member-blog .see-all-blogs {
+    margin-top: -0.125rem; }
 
 .team .team-member {
   display: inline-block;
