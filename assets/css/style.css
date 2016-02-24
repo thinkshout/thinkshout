@@ -2780,6 +2780,9 @@ header {
     .newsletter-block .social-media li {
       display: inline; }
 
+.team-detail {
+  margin-bottom: 1rem; }
+
 .team-member-side {
   float: left;
   display: block;
