@@ -2945,7 +2945,6 @@ header {
   .team .team-member h2 {
     color: #58585b;
     font-size: 1rem;
-    font-weight: 800;
     margin: 0.5rem 0;
     text-transform: uppercase; }
   .team .team-member p {
@@ -3061,6 +3060,8 @@ header {
       .intro .text:last-child {
         margin-right: 0; } }
   .intro .text h1 {
+    color: #58585b;
+    font-size: 2.8125rem;
     font-weight: bold; }
 
 .team-listing {
