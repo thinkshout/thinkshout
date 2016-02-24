@@ -121,5 +121,10 @@
 
   .see-all-blogs {
     margin-top: rem(-2);
+    display: block;
+  }
+
+  .view-less-blogs {
+    display: none;
   }
 }

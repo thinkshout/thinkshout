@@ -2907,7 +2907,10 @@ header {
     text-align: center;
     width: 100%; }
   .team-member-blog .see-all-blogs {
-    margin-top: -0.125rem; }
+    margin-top: -0.125rem;
+    display: block; }
+  .team-member-blog .view-less-blogs {
+    display: none; }
 
 .team .team-member {
   display: inline-block;

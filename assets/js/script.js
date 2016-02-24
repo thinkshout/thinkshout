@@ -18,14 +18,16 @@
 
   // Blog posts
   $('.post').matchHeight();
-  $('.blogs-toggle').click(function(e) {
+  $('.blogs-toggle').click(function() {
     $('.post:nth-child(-n+3)').css({ display: "none" });
     $('.post').slideToggle(800);
-    e.preventDefault();
 
     $('body, html').animate({
-      scrollTop: $('.team-member-blog' ).offset().top - 150 
+      scrollTop: $('.team-member-blog' ).offset().top - 150
     }, 800);
+
+    $('.see-all-blogs').toggle();
+    $('.view-less-blogs').toggle();
   });
 
     // $('.case-study').waypoint(function(direction) {
