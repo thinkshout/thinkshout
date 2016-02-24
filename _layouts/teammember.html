@@ -13,32 +13,35 @@ layout: default
         <h1>{{ page.first_name }} {{ page.last_name }}</h1>
         <h4 class="position">{{ page.position }}</h4>
         <h5>{{ page.leadin }}</h5>
-        <ul class="social">
-          {% if page.social.github %}
-          <li>
-            <a href="{{ page.social.github }}"><span class="icon-github"></span></a>
-          </li>
-          {% endif %}
-          {% if page.social.twitter %}
-          <li>
-            <a href="{{ page.social.twitter }}"><span class="icon-twitter"></span></a>
-          </li>
-          {% endif %}
-          {% if page.social.linkedin %}
-          <li>
-            <a href="{{ page.social.linkedin }}"><span class="icon-linkedin"></span></a>
-          </li>
-          {% endif %}
-          {% if page.social.drupal %}
-          <li>
-            <a href="{{ page.social.drupal }}"><span class="icon-tint"></span></a>
-          </li>
-          {% endif %}
-        </ul>
         <p>{{ page.bio }}</p>
       </div>
     </div>
   </div>
+</div>
+
+<div class="team-member-social">
+  <ul class="social">
+    {% if page.social.github %}
+    <li>
+      <a href="{{ page.social.github }}"><span class="icon-github"></span></a>
+    </li>
+    {% endif %}
+    {% if page.social.twitter %}
+    <li>
+      <a href="{{ page.social.twitter }}"><span class="icon-twitter"></span></a>
+    </li>
+    {% endif %}
+    {% if page.social.linkedin %}
+    <li>
+      <a href="{{ page.social.linkedin }}"><span class="icon-linkedin"></span></a>
+    </li>
+    {% endif %}
+    {% if page.social.drupal %}
+    <li>
+      <a href="{{ page.social.drupal }}"><span class="icon-tint"></span></a>
+    </li>
+    {% endif %}
+  </ul>
 </div>
 
 {% assign names = site.posts | map: 'author' %}
