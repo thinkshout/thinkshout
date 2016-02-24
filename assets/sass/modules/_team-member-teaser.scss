@@ -1,9 +1,15 @@
 .team .team-member {
   display: inline-block;
   float: left;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   width: 25%;
   text-align: center;
+
+  &:hover {
+    .name-title {
+      color: $orange;
+    }
+  }
 
   @include mq(t) {
     width: 50%;
@@ -18,8 +24,11 @@
   }
 
   h2 {
+    color: $darkgray;
     font-size: rem(16);
+    font-weight: 800;
     margin: 0.5rem 0;
+    text-transform: uppercase;
   }
 
   p {

@@ -2929,9 +2929,11 @@ header {
 .team .team-member {
   display: inline-block;
   float: left;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   width: 25%;
   text-align: center; }
+  .team .team-member:hover .name-title {
+    color: #f26d21; }
   @media (min-width: 481px) and (max-width: 979px) {
     .team .team-member {
       width: 50%; } }
@@ -2941,8 +2943,11 @@ header {
   .team .team-member img {
     width: 100%; }
   .team .team-member h2 {
+    color: #58585b;
     font-size: 1rem;
-    margin: 0.5rem 0; }
+    font-weight: 800;
+    margin: 0.5rem 0;
+    text-transform: uppercase; }
   .team .team-member p {
     color: #626262;
     font-size: 0.9375rem;
