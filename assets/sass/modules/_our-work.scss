@@ -5,26 +5,218 @@
     @include mq(t) { margin-top: rem(90); }
   }
 
+
+  .intro {
+    h1 {
+      font-weight: 900;
+      color: $midgray;
+      font-size: 2.5rem;
+      margin-bottom: 0;
+      margin-top: 0.7rem;
+    }
+    p {
+      margin-top: 0.5rem;
+      color: $midgray;
+      font-size: 1.2rem;
+    }
+  }
+
+  .case-study-header {
+    background-position: left top;
+    background-size: cover;
+    color: $white;
+    height: 100%;
+    padding: 6rem 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+
+    .gradient {
+      background-image: linear-gradient( to right, rgba(40,40,40,1), transparent 80% );
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+    }
+
+    .wrapper {      
+      top: 50%;
+      transform: translateY(-45%);
+      left: 7%;
+      margin: 0 auto;
+      max-width: 70%;
+      position: absolute;
+      z-index: 100;
+      vertical-align: center;
+    }
+
+    h4 {
+      display: inline-block;
+      color: darken($ltgray, 10%);
+      font-size: 0.6rem;
+      font-weight: 400;
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      color: $orange;
+      font-size: 1.2rem;
+      line-height: 1;
+      font-weight: 900;
+      letter-spacing: 0.5px;
+      margin-bottom: 1rem;
+      margin-top: 0.7rem;
+    }
+
+    p {
+      font-size: rem(13);
+      font-weight: 300;
+      line-height: 1.7;
+      opacity: 0.9;
+      max-width: 90%;
+      margin: 0 auto 1rem;
+    }
+
+    a.uppercase-link {
+      color: $white;
+      font-size: rem(13);
+      i {
+        color: $yellow;
+      }
+    }
+
+    &:nth-child(odd) {
+      .gradient {
+        background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 80% );
+      }
+      .wrapper {
+        left: auto;
+        right: 7%;
+      }
+      @include mq(lt) { 
+        .gradient { background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 75% ); }
+      }
+      @include mq(md) { 
+        .gradient { background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 65% ); }
+      }
+      @include mq(l) { 
+        .gradient { background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 55% ); }
+      }
+    }
+
+    @include mq(lt) { 
+      padding: 8rem 0;
+      .wrapper { max-width: 45%; }
+      .gradient { background-image: linear-gradient( to right, rgba(40,40,40,1), transparent 75% ); }
+      h4 { font-size: 0.8rem; }
+      h2 { font-size: 1.4rem; }
+    }
+    @include mq(md) { 
+      padding: 12rem 0;
+      .wrapper { max-width: 35%; }
+      .gradient { background-image: linear-gradient( to right, rgba(40,40,40,1), transparent 65% ); }
+      h4 { font-size: 0.8rem; }
+      h2 { font-size: 1.8rem; }
+    }
+    @include mq(l) { 
+      padding: 15.7rem 0;
+      .wrapper { max-width: 25%; }
+      .gradient { background-image: linear-gradient( to right, rgba(40,40,40,1), transparent 55% ); }
+      h4 { font-size: 0.8rem; }
+      h2 { font-size: 2rem; }
+    }
+  }
+
   .work-with-us {
     background: url('/assets/images/ts_redesign/work-with-us1.jpg') right center no-repeat;
     background-size: cover;
     clear: both;
-    padding: 6rem 0;
+    padding: 4rem 0;
+    h2 {
+      color: $white;
+      font-size: 1.2rem; 
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+    @include mq(lt) { h2 { font-size: 1.4rem; } }
+    @include mq(md) { h2 { font-size: 1.7rem; } }
+    @include mq(l) { h2 { font-size: 1.9rem; } }
+
+    a.uppercase-link {
+      color: $white;
+      font-size: rem(13);
+      i {
+        color: $yellow;
+      }
+    }
   }
 
   .open-source-contributions {
     background: url('/assets/images/ts_redesign/open-source-contributions1.jpg') right center no-repeat;
     background-size: cover;
     clear: both;
-    padding: 12rem 0;
+    padding: 6rem 0;
+    h2 {
+      color: $darkgray;
+      font-size: 1.2rem; 
+      font-weight: 900;
+      letter-spacing: 1px;
+    }
+    @include mq(lt) { h2 { font-size: 1.4rem; } }
+    @include mq(md) { h2 { font-size: 1.8rem; } }
+    @include mq(l) { h2 { font-size: 2rem; } }
+
+    p {
+      color: $darkgray;
+      font-size: rem(16);
+      max-width: 90%;
+      margin-bottom: 2rem;
+    }    
+    @include mq(lt) { p { font-size: rem(16); max-width: 80%; } }
+    @include mq(md) { p { font-size: rem(17); max-width: 65%; } }
+    @include mq(l) { p { font-size: rem(19); max-width: 55%; } }
+
+    a.uppercase-link {
+      color: $darkgray;
+      font-size: rem(13);
+      i {
+        color: $yellow;
+      }
+    }
   }
 
   .select-clients {
-
-    p.client-list {
-      white-space: pre;
+    padding: 3rem 0;
+    .header-down-caret {
+      h4 {
+        color: $midgray;
+        &:after { background-color: $ltgray; }
+      }
+      .fa-caret-down { color: $ltgray; }
     }
+    p {
+      font-size: rem(18);
+    }
+    p.client-list {
+      white-space: pre-wrap;
+      font-size: rem(13);
+      line-height: 2;
+      @include mq(lt) { float: left; width: 50%; line-height: 2.1;}
+      @include mq(md) { float: left; width: 33%; line-height: 2.3;}
+      @include mq(l) { float: left; width: 33%; line-height: 2.5;}
+    }
+
 
   }
 
 }
+
+
+
+  // @include mq(lt) {  }
+  // @include mq(md) {  }
+  // @include mq(l)  {  }

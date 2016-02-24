@@ -15,11 +15,11 @@ permalink: our-work/
 
 {% assign case-studies = site.case_studies | sort: 'order' %}
 <div class="work-listing">
-  {% for preview in case-studies %}
+  {% for preview in case-studies %}    
+    <section class="case-study-header {{ preview.cs-class }}">
     <style>
       .case-study-header.{{ preview.cs-class }} { background-image: url('{{ preview.cs-preview.image }}'); }
     </style>
-    <section class="case-study-header {{ preview.cs-class }}">
       <div class="gradient">&nbsp;</div>
       <div class="wrapper">
         <h4>{{ preview.cs-preview.type }}</h4>
@@ -33,24 +33,32 @@ permalink: our-work/
 
 
 <section class="work-with-us">
-  <h3>Like What You See?</h3>
-  <a href="/contact" class="uppercase-link">Work With Us<i class="fa fa-caret-right"></i></a>
+  <div class="container">
+    <h2>Like what you see?</h2>
+    <a href="/contact" class="uppercase-link">Work With Us<i class="fa fa-caret-right"></i></a>
+  </div>
 </section>
 
 
 <section class="open-source-contributions">
-  <h3>Open Source Contributions</h3>
-  <p>We know open source. Our developers have invested thousands of hours into improving nonprofit capacity through open source work, to the point that our contributions now power more than 50,000 websites.</p>
-  <a href="https://www.drupal.org/thinkshout" target="_new" class="uppercase-link">Check out our open source contributions<i class="fa fa-caret-right"></i></a>
+  <div class="container">
+    <h2>Open Source Contributions</h2>
+    <p>We know open source. Our developers have invested thousands of hours into improving nonprofit capacity through open source work, to the point that our contributions now power more than 50,000 websites.</p>
+    <a href="https://www.drupal.org/thinkshout" target="_new" class="uppercase-link">Check out our open source contributions<i class="fa fa-caret-right"></i></a>
+  </div>
 </section>
 
+
 <section class="select-clients">
-  <div class="header-down-caret">
-    <h4>Select Clients</h4>
-    <i class="fa fa-caret-down"></i>
-  </div>
-  <p>We’ve accomplished amazing things for some really great clients.</p>
-  <p class="client-list">Southern Poverty Law Center
+  <div class="container">
+    <div class="header-down-caret">
+      <h4>Select Clients</h4>
+      <i class="fa fa-caret-down"></i>
+    </div>
+    <p>We’ve accomplished amazing things for some really great clients.</p>
+
+<!-- This is preformatted text - don't indent! -->
+<p class="client-list">Southern Poverty Law Center
 World Wildlife Fund
 Environmental Defense Fund
 Robert Wood Johnson Foundation
@@ -87,8 +95,7 @@ Mobility International USA
 Philanthropy Northwest
 Portland Opera
 The Tides Center
-Public Health Law Research
-</p>
+Public Health Law Research</p>
 <p class="client-list">Forum of Regional Associations of Grantmakers
 American Public Media
 Dehen 1920
@@ -108,5 +115,5 @@ International Labor Rights Forum
 Lemelson Foundation
 Trust for Conservation Innovation
 Cascade Bicycle Club</p>
-
+  </div>
 </section>

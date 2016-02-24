@@ -14,7 +14,7 @@ cs-preview:
   image: /assets/images/ts_redesign/case-studies/splc-main/header1.jpg
   type: Responsive Drupal Site
   client: "The Southern Poverty Law Center"
-  description: "The SPLC fights hatred and bigotry, seeking justice for the most vulnerable members of society. In redesigning their website, we helped them better tell their satory through digital journalism and data visualization."
+  description: "The SPLC fights hatred and bigotry, seeking justice for the most vulnerable members of society. In redesigning their website, we helped them better tell their story through digital journalism and data visualization."
 
 cs-header:
   header-image: /assets/images/ts_redesign/case-studies/splc-main/header1.jpg
