@@ -1,0 +1,23 @@
+.work-with-us {
+  background-size: cover;
+  background: url('/assets/images/ts_redesign/work-with-us1.jpg') right center no-repeat;
+  clear: both;
+  padding: 4rem 0;
+  h2 {
+    color: $white;
+    font-size: 1.2rem; 
+    font-weight: 600;
+    letter-spacing: 1px;
+    @include mq(lt) { font-size: 1.4rem; }
+    @include mq(md) { font-size: 1.7rem; }
+    @include mq(l) { font-size: 1.9rem; }
+  }
+
+  a.uppercase-link {
+    color: $white;
+    font-size: rem(13);
+    i {
+      color: $yellow;
+    }
+  }
+}

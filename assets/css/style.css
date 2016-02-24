@@ -3004,6 +3004,57 @@ header {
     .newsletter-block .social-media li {
       display: inline; }
 
+.open-source-contributions {
+  background: url("/assets/images/ts_redesign/open-source-contributions1.jpg") right center no-repeat;
+  background-size: cover;
+  clear: both;
+  padding: 3rem 0; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .open-source-contributions {
+      padding: 3rem 0; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .open-source-contributions {
+      padding: 4rem 0; } }
+  @media (min-width: 1200px) {
+    .open-source-contributions {
+      padding: 6rem 0; } }
+  .open-source-contributions h2 {
+    color: #58585b;
+    font-size: 1.2rem;
+    font-weight: 900;
+    letter-spacing: 1px; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .open-source-contributions h2 {
+        font-size: 1.4rem; } }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .open-source-contributions h2 {
+        font-size: 1.8rem; } }
+    @media (min-width: 1200px) {
+      .open-source-contributions h2 {
+        font-size: 2rem; } }
+  .open-source-contributions p {
+    color: #58585b;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    max-width: 95%; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .open-source-contributions p {
+        font-size: 1rem;
+        max-width: 80%; } }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .open-source-contributions p {
+        font-size: 1.0625rem;
+        max-width: 65%; } }
+    @media (min-width: 1200px) {
+      .open-source-contributions p {
+        font-size: 1.1875rem;
+        max-width: 55%; } }
+  .open-source-contributions a.uppercase-link {
+    color: #58585b;
+    font-size: 0.8125rem; }
+    .open-source-contributions a.uppercase-link i {
+      color: #f1b332; }
+
 @media (max-width: 480px) {
   .our-work .main-content {
     margin-top: 5.625rem; } }
@@ -3011,9 +3062,9 @@ header {
   .our-work .main-content {
     margin-top: 5.625rem; } }
 .our-work .intro h1 {
-  font-weight: 900;
   color: #626262;
   font-size: 1.8rem;
+  font-weight: 900;
   margin-bottom: 0;
   margin-top: 0.7rem; }
   @media (min-width: 671px) and (max-width: 979px) {
@@ -3026,9 +3077,9 @@ header {
     .our-work .intro h1 {
       font-size: 2.5rem; } }
 .our-work .intro p {
-  margin-top: 0.5rem;
   color: #626262;
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  margin-top: 0.5rem; }
   @media (min-width: 671px) and (max-width: 979px) {
     .our-work .intro p {
       font-size: 1.1rem; } }
@@ -3043,8 +3094,9 @@ header {
   background-size: cover;
   color: #fff;
   display: inline-block;
-  margin-bottom: -4px;
   height: 100%;
+  margin-bottom: -4px;
+  min-height: 340px;
   padding: 2rem 0;
   position: relative;
   text-align: center;
@@ -3052,13 +3104,16 @@ header {
   z-index: 1; }
   @media (min-width: 671px) and (max-width: 979px) {
     .our-work .case-study-header {
-      padding: 2rem 0; } }
+      padding: 3rem 0;
+      min-height: 250px; } }
   @media (min-width: 980px) and (max-width: 1199px) {
     .our-work .case-study-header {
-      padding: 5rem 0 3rem; } }
+      padding: 5rem 0 3rem;
+      min-height: 450px; } }
   @media (min-width: 1200px) {
     .our-work .case-study-header {
-      padding: 6rem 0 4rem; } }
+      padding: 6rem 0 4rem;
+      min-height: 550px; } }
   .our-work .case-study-header .gradient {
     background-image: linear-gradient(to right, rgba(40, 40, 40, 0.8), rgba(40, 40, 40, 0.5));
     height: 100%;
@@ -3080,8 +3135,8 @@ header {
     margin: 3% auto;
     max-width: 94%;
     position: relative;
-    z-index: 100;
-    vertical-align: center; }
+    vertical-align: center;
+    z-index: 100; }
     @media (min-width: 671px) and (max-width: 979px) {
       .our-work .case-study-header .wrapper {
         max-width: 80%; } }
@@ -3118,8 +3173,8 @@ header {
         float: right;
         margin-right: 7%; } }
   .our-work .case-study-header h4 {
-    display: inline-block;
     color: #c0c2c6;
+    display: inline-block;
     font-size: 0.6rem;
     font-weight: 400;
     margin: 0;
@@ -3136,9 +3191,9 @@ header {
   .our-work .case-study-header h2 {
     color: #f26d21;
     font-size: 1.2rem;
-    line-height: 1;
     font-weight: 900;
     letter-spacing: 0.5px;
+    line-height: 1;
     margin-bottom: 1rem;
     margin-top: 0.7rem; }
     @media (min-width: 671px) and (max-width: 979px) {
@@ -3154,116 +3209,43 @@ header {
     font-size: 0.8125rem;
     font-weight: 300;
     line-height: 1.7;
-    opacity: 0.9;
+    margin: 0 auto 1rem;
     max-width: 90%;
-    margin: 0 auto 1rem; }
+    opacity: 0.9; }
   .our-work .case-study-header a.uppercase-link {
     color: #fff;
     font-size: 0.8125rem; }
     .our-work .case-study-header a.uppercase-link i {
       color: #f1b332; }
-.our-work .work-with-us {
-  background: url("/assets/images/ts_redesign/work-with-us1.jpg") right center no-repeat;
-  background-size: cover;
-  clear: both;
-  padding: 4rem 0; }
-  .our-work .work-with-us h2 {
-    color: #fff;
-    font-size: 1.2rem;
-    font-weight: 600;
-    letter-spacing: 1px; }
-    @media (min-width: 671px) and (max-width: 979px) {
-      .our-work .work-with-us h2 {
-        font-size: 1.4rem; } }
-    @media (min-width: 980px) and (max-width: 1199px) {
-      .our-work .work-with-us h2 {
-        font-size: 1.7rem; } }
-    @media (min-width: 1200px) {
-      .our-work .work-with-us h2 {
-        font-size: 1.9rem; } }
-  .our-work .work-with-us a.uppercase-link {
-    color: #fff;
-    font-size: 0.8125rem; }
-    .our-work .work-with-us a.uppercase-link i {
-      color: #f1b332; }
-.our-work .open-source-contributions {
-  background: url("/assets/images/ts_redesign/open-source-contributions1.jpg") right center no-repeat;
-  background-size: cover;
-  clear: both;
+
+.select-clients {
   padding: 3rem 0; }
-  @media (min-width: 671px) and (max-width: 979px) {
-    .our-work .open-source-contributions {
-      padding: 3rem 0; } }
-  @media (min-width: 980px) and (max-width: 1199px) {
-    .our-work .open-source-contributions {
-      padding: 4rem 0; } }
-  @media (min-width: 1200px) {
-    .our-work .open-source-contributions {
-      padding: 6rem 0; } }
-  .our-work .open-source-contributions h2 {
-    color: #58585b;
-    font-size: 1.2rem;
-    font-weight: 900;
-    letter-spacing: 1px; }
-    @media (min-width: 671px) and (max-width: 979px) {
-      .our-work .open-source-contributions h2 {
-        font-size: 1.4rem; } }
-    @media (min-width: 980px) and (max-width: 1199px) {
-      .our-work .open-source-contributions h2 {
-        font-size: 1.8rem; } }
-    @media (min-width: 1200px) {
-      .our-work .open-source-contributions h2 {
-        font-size: 2rem; } }
-  .our-work .open-source-contributions p {
-    color: #58585b;
-    font-size: 1rem;
-    max-width: 95%;
-    margin-bottom: 2rem; }
-    @media (min-width: 671px) and (max-width: 979px) {
-      .our-work .open-source-contributions p {
-        font-size: 1rem;
-        max-width: 80%; } }
-    @media (min-width: 980px) and (max-width: 1199px) {
-      .our-work .open-source-contributions p {
-        font-size: 1.0625rem;
-        max-width: 65%; } }
-    @media (min-width: 1200px) {
-      .our-work .open-source-contributions p {
-        font-size: 1.1875rem;
-        max-width: 55%; } }
-  .our-work .open-source-contributions a.uppercase-link {
-    color: #58585b;
-    font-size: 0.8125rem; }
-    .our-work .open-source-contributions a.uppercase-link i {
-      color: #f1b332; }
-.our-work .select-clients {
-  padding: 3rem 0; }
-  .our-work .select-clients .header-down-caret h4 {
+  .select-clients .header-down-caret h4 {
     color: #626262; }
-    .our-work .select-clients .header-down-caret h4:after {
+    .select-clients .header-down-caret h4:after {
       background-color: #dbdcde; }
-  .our-work .select-clients .header-down-caret .fa-caret-down {
+  .select-clients .header-down-caret .fa-caret-down {
     color: #dbdcde; }
-  .our-work .select-clients p {
+  .select-clients p {
     font-size: 1.125rem; }
-  .our-work .select-clients p.client-list {
+  .select-clients p.client-list {
     margin: 0;
     font-size: 0.8125rem;
     line-height: 1.3; }
-    .our-work .select-clients p.client-list br {
+    .select-clients p.client-list br {
       line-height: 2.2; }
     @media (min-width: 671px) and (max-width: 979px) {
-      .our-work .select-clients p.client-list {
+      .select-clients p.client-list {
         float: left;
         width: 46%;
         margin-right: 2%; } }
     @media (min-width: 980px) and (max-width: 1199px) {
-      .our-work .select-clients p.client-list {
+      .select-clients p.client-list {
         float: left;
         width: 31%;
         margin-right: 2%; } }
     @media (min-width: 1200px) {
-      .our-work .select-clients p.client-list {
+      .select-clients p.client-list {
         float: left;
         width: 31%;
         margin-right: 2%; } }
@@ -3289,6 +3271,31 @@ header {
     color: #626262;
     font-size: 0.9375rem;
     margin: 0; }
+
+.work-with-us {
+  background-size: cover;
+  background: url("/assets/images/ts_redesign/work-with-us1.jpg") right center no-repeat;
+  clear: both;
+  padding: 4rem 0; }
+  .work-with-us h2 {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .work-with-us h2 {
+        font-size: 1.4rem; } }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .work-with-us h2 {
+        font-size: 1.7rem; } }
+    @media (min-width: 1200px) {
+      .work-with-us h2 {
+        font-size: 1.9rem; } }
+  .work-with-us a.uppercase-link {
+    color: #fff;
+    font-size: 0.8125rem; }
+    .work-with-us a.uppercase-link i {
+      color: #f1b332; }
 
 .container {
   max-width: 1440px;

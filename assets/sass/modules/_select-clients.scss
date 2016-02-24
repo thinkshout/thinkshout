@@ -1,0 +1,28 @@
+.select-clients {
+  padding: 3rem 0;
+  .header-down-caret {
+    h4 {
+      color: $midgray;
+      &:after { background-color: $ltgray; }
+    }
+    .fa-caret-down { color: $ltgray; }
+  }
+  p {
+    font-size: rem(18);
+  }
+  p.client-list {
+    margin: 0;
+    br {
+      line-height: 2.2;
+    }
+    font-size: rem(13);
+    line-height: 1.3;
+    @include mq(lt) { float: left; width: 46%; margin-right: 2%; }
+    @include mq(md) { float: left; width: 31%; margin-right: 2%; }
+    @include mq(l) { float: left; width: 31%; margin-right: 2%; }
+  }
+}
+
+  // @include mq(lt) {  }
+  // @include mq(md) {  }
+  // @include mq(l)  {  }

@@ -1,0 +1,36 @@
+.open-source-contributions {
+  background: url('/assets/images/ts_redesign/open-source-contributions1.jpg') right center no-repeat;
+  background-size: cover;
+  clear: both;
+  padding: 3rem 0;
+  @include mq(lt) { padding: 3rem 0; }
+  @include mq(md) { padding: 4rem 0; }
+  @include mq(l) { padding: 6rem 0; }
+  h2 {
+    color: $darkgray;
+    font-size: 1.2rem; 
+    font-weight: 900;
+    letter-spacing: 1px;
+    @include mq(lt) { font-size: 1.4rem; }
+    @include mq(md) { font-size: 1.8rem; }
+    @include mq(l) { font-size: 2rem; }
+  }
+
+  p {
+    color: $darkgray;
+    font-size: rem(16);
+    margin-bottom: 2rem;
+    max-width: 95%;
+    @include mq(lt) { font-size: rem(16); max-width: 80%; }
+    @include mq(md) { font-size: rem(17); max-width: 65%; }
+    @include mq(l) { font-size: rem(19); max-width: 55%; }
+  } 
+
+  a.uppercase-link {
+    color: $darkgray;
+    font-size: rem(13);
+    i {
+      color: $yellow;
+    }
+  }
+}
