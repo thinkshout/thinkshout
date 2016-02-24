@@ -19,30 +19,28 @@ layout: default
   </div>
 </div>
 
-<div class="team-member-social">
-  <ul class="social">
-    {% if page.social.github %}
-    <li>
-      <a href="{{ page.social.github }}"><span class="icon-github"></span></a>
-    </li>
-    {% endif %}
-    {% if page.social.twitter %}
-    <li>
-      <a href="{{ page.social.twitter }}"><span class="icon-twitter"></span></a>
-    </li>
-    {% endif %}
-    {% if page.social.linkedin %}
-    <li>
-      <a href="{{ page.social.linkedin }}"><span class="icon-linkedin"></span></a>
-    </li>
-    {% endif %}
-    {% if page.social.drupal %}
-    <li>
-      <a href="{{ page.social.drupal }}"><span class="icon-tint"></span></a>
-    </li>
-    {% endif %}
-  </ul>
-</div>
+<ul class="social">
+  {% if page.social.github %}
+  <li>
+    <a href="{{ page.social.github }}"><span class="icon-github"></span></a>
+  </li>
+  {% endif %}
+  {% if page.social.twitter %}
+  <li>
+    <a href="{{ page.social.twitter }}"><span class="icon-twitter"></span></a>
+  </li>
+  {% endif %}
+  {% if page.social.linkedin %}
+  <li>
+    <a href="{{ page.social.linkedin }}"><span class="icon-linkedin"></span></a>
+  </li>
+  {% endif %}
+  {% if page.social.drupal %}
+  <li>
+    <a href="{{ page.social.drupal }}"><span class="icon-tint"></span></a>
+  </li>
+  {% endif %}
+</ul>
 
 {% assign names = site.posts | map: 'author' %}
 {% if names contains page.name %}

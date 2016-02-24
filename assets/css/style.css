@@ -2816,7 +2816,7 @@ header {
     margin-bottom: 0.5rem;
     margin-top: 0; }
   .team-member-side .position {
-    color: #f26d21;
+    color: #f58546;
     margin-top: 0;
     text-transform: uppercase; }
   .team-member-side h5 {
@@ -2829,6 +2829,17 @@ header {
 
 .team-member-side.side-right {
   padding-right: 0; }
+
+.social {
+  font-size: 2rem;
+  text-align: center;
+  padding-left: 0;
+  width: 100%; }
+  .social li {
+    display: inline; }
+  .social li a {
+    color: #f58546;
+    padding: 0 1rem; }
 
 .team-member-blog {
   background: #f1b332;

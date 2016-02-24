@@ -22,7 +22,7 @@
   }
 
   .position {
-    color: $orange;
+    color: $midorange;
     margin-top: 0;
     text-transform: uppercase;
   }
@@ -42,6 +42,25 @@
   padding-right: 0;
 }
 
+// Social media
+.social {
+  font-size: 2rem;
+  text-align: center;
+  padding-left: 0;
+  width: 100%;
+
+  li {
+    display: inline;
+  }
+
+  li a {
+    color: $midorange;
+    padding: 0 1rem;
+  }
+}
+
+
+// Blog block
 .team-member-blog {
   background: $yellow;
   padding: 0 0 1rem 0;
