@@ -2897,6 +2897,8 @@ header {
     color: #292929;
     text-align: center;
     text-transform: uppercase; }
+  .team-member-blog .blogs-toggle:hover {
+    cursor: pointer; }
   .team-member-blog h5 {
     margin-bottom: 0; }
   .team-member-blog i {

@@ -102,6 +102,12 @@
     text-transform: uppercase;
   }
 
+  .blogs-toggle {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
   h5 {
     margin-bottom: 0;
   }

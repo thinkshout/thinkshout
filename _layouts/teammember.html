@@ -59,8 +59,10 @@ layout: default
         {% endif %}
         {% endfor %}
       </div>
-      <h5>See all blogs by {{ page.first_name }}</h5>
-      <i class="fa fa-caret-down"></i>
+      <div class="blogs-toggle">
+        <h5>See all blogs by {{ page.first_name }}</h5>
+        <i class="fa fa-caret-down"></i>
+      </div>
     </div>
   </div>
 {% endif %}

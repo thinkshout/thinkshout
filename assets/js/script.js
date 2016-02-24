@@ -16,7 +16,17 @@
     }, { offset: '25%' });
   });
 
+  // Blog posts
   $('.post').matchHeight();
+  $('.blogs-toggle').click(function(e) {
+    $('.post:nth-child(-n+3)').css({ display: "none" });
+    $('.post').slideToggle(800);
+    e.preventDefault();
+
+    $('body, html').animate({
+      scrollTop: $('.team-member-blog' ).offset().top - 150 
+    }, 800);
+  });
 
     // $('.case-study').waypoint(function(direction) {
     //   if (direction == 'down') {
