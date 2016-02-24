@@ -44,9 +44,19 @@
 
 .team-member-blog {
   background: $yellow;
-  padding: 1rem 0;
+  padding: 0 0 1rem 0;
   position: relative;
   z-index: 1;
+
+  &:before {
+    content: '';
+    border-left: rem(20) solid transparent;
+    border-right: rem(20) solid transparent;
+    border-top: rem(20) solid $white;
+    display: block;
+    margin: 0 auto;
+    width: rem(20);
+  }
 
   &:after {
     @extend %dotted-overlay;

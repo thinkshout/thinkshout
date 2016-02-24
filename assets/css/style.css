@@ -2832,9 +2832,17 @@ header {
 
 .team-member-blog {
   background: #f1b332;
-  padding: 1rem 0;
+  padding: 0 0 1rem 0;
   position: relative;
   z-index: 1; }
+  .team-member-blog:before {
+    content: '';
+    border-left: 1.25rem solid transparent;
+    border-right: 1.25rem solid transparent;
+    border-top: 1.25rem solid #fff;
+    display: block;
+    margin: 0 auto;
+    width: 1.25rem; }
   .team-member-blog .post {
     float: left;
     display: block;
