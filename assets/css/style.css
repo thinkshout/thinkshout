@@ -2859,6 +2859,26 @@ header {
         margin-right: 0; }
       .team-member-blog .post:nth-child(3n+1) {
         clear: left; } }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .team-member-blog .post {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%; }
+        .team-member-blog .post:last-child {
+          margin-right: 0; }
+        .team-member-blog .post:nth-child(2n) {
+          margin-right: 0; }
+        .team-member-blog .post:nth-child(2n+1) {
+          clear: left; } }
+    @media (max-width: 480px) {
+      .team-member-blog .post {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .team-member-blog .post:last-child {
+          margin-right: 0; } }
     .team-member-blog .post a {
       color: #58585b; }
     .team-member-blog .post .post-date {

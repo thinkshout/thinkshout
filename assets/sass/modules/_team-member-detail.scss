@@ -69,9 +69,9 @@
     overflow: hidden;
     padding: 0 1.5rem;
 
-    @include mq(d) {
-      @include omega(3n);
-    }
+    @include mq(d) { @include omega(3n); }
+    @include mq(t) { @include span-columns(6); @include omega(2n); }
+    @include mq(m) { @include span-columns(12) }
 
     a {
       color: $darkgray;
