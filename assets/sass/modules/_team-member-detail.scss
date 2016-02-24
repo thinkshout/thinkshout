@@ -68,6 +68,7 @@
     margin-bottom: 2rem;
     overflow: hidden;
     padding: 0 1.5rem;
+    display: none;
 
     @include mq(d) { @include omega(3n); }
     @include mq(t) { @include span-columns(6); @include omega(2n); }
@@ -87,6 +88,10 @@
       font-size: 1.5rem;
       margin: 0;
     }
+  }
+
+  .post:nth-child(-n+3) {
+    display: block;
   }
 
   h4,

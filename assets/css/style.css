@@ -2851,7 +2851,8 @@ header {
     background: #fff;
     margin-bottom: 2rem;
     overflow: hidden;
-    padding: 0 1.5rem; }
+    padding: 0 1.5rem;
+    display: none; }
     .team-member-blog .post:last-child {
       margin-right: 0; }
     @media (min-width: 980px) {
@@ -2888,6 +2889,8 @@ header {
       color: #292929;
       font-size: 1.5rem;
       margin: 0; }
+  .team-member-blog .post:nth-child(-n+3) {
+    display: block; }
   .team-member-blog h4,
   .team-member-blog h5 {
     clear: both;
