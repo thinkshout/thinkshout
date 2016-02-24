@@ -68,11 +68,10 @@
     margin-bottom: 2rem;
     overflow: hidden;
     padding: 0 1.5rem;
-    display: none;
 
-    @include mq(d) { @include omega(3n); }
-    @include mq(t) { @include span-columns(6); @include omega(2n); }
-    @include mq(m) { @include span-columns(12) }
+    @include mq(d) { @include omega(3n); display: none; }
+    @include mq(t) { @include span-columns(6); @include omega(2n); display: none; }
+    @include mq(m) { @include span-columns(12); display: none; }
 
     a {
       color: $darkgray;

@@ -2851,21 +2851,23 @@ header {
     background: #fff;
     margin-bottom: 2rem;
     overflow: hidden;
-    padding: 0 1.5rem;
-    display: none; }
+    padding: 0 1.5rem; }
     .team-member-blog .post:last-child {
       margin-right: 0; }
     @media (min-width: 980px) {
-      .team-member-blog .post:nth-child(3n) {
-        margin-right: 0; }
-      .team-member-blog .post:nth-child(3n+1) {
-        clear: left; } }
+      .team-member-blog .post {
+        display: none; }
+        .team-member-blog .post:nth-child(3n) {
+          margin-right: 0; }
+        .team-member-blog .post:nth-child(3n+1) {
+          clear: left; } }
     @media (min-width: 481px) and (max-width: 979px) {
       .team-member-blog .post {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 48.82117%; }
+        width: 48.82117%;
+        display: none; }
         .team-member-blog .post:last-child {
           margin-right: 0; }
         .team-member-blog .post:nth-child(2n) {
@@ -2877,7 +2879,8 @@ header {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 100%; }
+        width: 100%;
+        display: none; }
         .team-member-blog .post:last-child {
           margin-right: 0; } }
     .team-member-blog .post a {
