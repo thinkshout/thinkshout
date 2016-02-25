@@ -2962,6 +2962,7 @@ header {
   color: #58585b;
   margin: 2rem 0; }
   .our-values-block .header-right-caret {
+    text-transform: uppercase;
     float: left;
     display: block;
     margin-right: 2.35765%;

@@ -13,6 +13,7 @@
   margin: 2rem 0;
 
   .header-right-caret {
+    text-transform: uppercase;
     @include span-columns(2);
   }
 
