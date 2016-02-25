@@ -23,4 +23,14 @@
       @include mq(d) { @include span-columns(6); @include omega(2n); }
     }
   }
+
+  .value h3 {
+    color: $orange;
+    font-size: rem(36);
+    margin-bottom: 0;
+  }
+
+  .value p {
+    margin-top: rem(5);
+  }
 }
