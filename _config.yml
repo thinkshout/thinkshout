@@ -2,6 +2,7 @@ name: ThinkShout
 description: ThinkShout - We provide web strategy and open source technology to forward-thinking organizations.
 kramdown:
   input: GFM
+highlighter: rouge
 # redcarpet:
 #   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 

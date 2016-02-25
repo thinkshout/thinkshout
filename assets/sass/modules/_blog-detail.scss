@@ -60,7 +60,8 @@
     p,
     blockquote,
     ul,
-    ol {
+    ol,
+    div.highlighter-rouge {
       color: $darkgray;
       margin: 1em auto;
       max-width: 996px;
@@ -126,12 +127,19 @@
       @include mq(l)  { padding: 0 rem(40); }
     }
 
+    div.highlighter-rouge {
+      pre.highlight {
+          padding: 1rem;
+          white-space: pre;
+          font-size: rem(14);
+          line-height: 1.2;
+          max-width: 100%;
+          overflow: scroll;
+      }
+    }
+
     code {
-      white-space: pre;
-      font-size: rem(14);
-      line-height: 1.2;
-      max-width: 100%;
-      overflow: scroll;
+      font-size: rem(15);
     }
   }
 

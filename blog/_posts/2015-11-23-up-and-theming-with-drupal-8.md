@@ -27,7 +27,7 @@ Drupal 8 is [finally here](https://www.drupal.org/8)! We’ve been digging into 
 
 The steps for setting up a basic site theme are fairly simple: create a `custom/THEMENAME` directory in `web/themes`, and then add a `THEMENAME.info.yml` file with the following:
 
-```yaml
+~~~yaml
 name: THEMENAME Theme
 description: 'D8 theme for THEMENAME site.'
 package: Custom
@@ -40,7 +40,7 @@ regions:
   content: Content # required!
   sidebar_first: 'Sidebar first'
   footer: Footer
-```
+~~~
 
 Then you can enable your theme (`administer » themes`) in the interface. Note that uncommenting  `base theme: classy` will cause you to set Classy as a parent theme. We feel that Classy is great if you want a lot of useful examples, but really clutters up the markup, so use at your own discretion. [After rc1](https://www.drupal.org/node/2575421), the default theme will be ‘stable,’ and you may want to pull all of the core templates into your theme to ensure you’re working from the latest updated template code.
 
@@ -60,11 +60,11 @@ The documentation for this seemingly simple task is obfuscated and evolving righ
 
 **Step 1**: Turn on [twig debug mode](https://www.drupal.org/node/1906392). We also found it helpful at this point to make a copy of `web/sites/example.settings.local.php` in `web/sites/default/` and uncomment the following in `settings.php`:
 
-```php
+~~~php
 if (file_exists(__DIR__ . '/settings.local.php')) {
   include __DIR__ . '/settings.local.php';
 }
-```
+~~~
 
 This will allow you to [disable caching](https://www.drupal.org/node/2598914) during development, which is no longer a simple checkbox in the performance section. Note that disabling caching can be tricky; the `drush cr` (cache rebuild) command is the most reliable way to ensure the cache is really cleared. You’ll also have to rebuild the cache at least once after turning caching off, so the new cache settings are applied.
 
@@ -72,7 +72,7 @@ This will allow you to [disable caching](https://www.drupal.org/node/2598914) du
 
 In this case, the suggested debug fields are:
 
-```html
+~~~html
 <!-- FILE NAME SUGGESTIONS:
    * field--node--field-publish-date--blog.html.twig
    * field--node--field-publish-date.html.twig
@@ -82,7 +82,7 @@ In this case, the suggested debug fields are:
    x field.html.twig
 -->
 <!-- BEGIN OUTPUT from 'core/modules/system/templates/field.html.twig' -->
-```
+~~~
 
 The highlighted line above shows the template currently being used, suggestions for increased specificity, and the file location (`core/modules/system/templates/`).
 
@@ -90,7 +90,7 @@ We want to update `field_publish_date` globally, so we’ll create a template ca
 
 To do this, we copy `field.html.twig` from the core theme (see the ‘BEGIN OUTPUT’ line above for the path), and rename it in our theme’s folder to `field--field-publish-date.html.twig`. Now when we reload, we see the following (if your cache is disabled, of course, otherwise drush cr will clear the cache):
 
-```html
+~~~html
 <!-- FILE NAME SUGGESTIONS:
    * field--node--field-publish-date--blog.html.twig
    * field--node--field-publish-date.html.twig
@@ -100,12 +100,12 @@ To do this, we copy `field.html.twig` from the core theme (see the ‘BEGIN OUTP
    * field.html.twig
 -->
 <!-- BEGIN OUTPUT from 'themes/custom/THEMENAME/templates/field--field-publish-date.html.twig' -->
-```
+~~~
 
 Now we can begin to update the markup. The relevant code is:
 
 {% raw %}
-```html
+~~~html
 {% if label_hidden %}
   ... (we don’t care about the label_hidden stuff)
 {% else %}
@@ -113,30 +113,30 @@ Now we can begin to update the markup. The relevant code is:
     <div{{ title_attributes }}>{{ label }}</div>
     ...
 {% endif %}
-```
+~~~
 {% endraw %}
 
 To add the inline styling class, we add the following to the top of the template (below the comments):
 
 {% raw %}
-```html
+~~~html
 {%
   set classes = [
     'field--label-' ~ label_display,
   ]
 %}
-```
+~~~
 {% endraw %}
 
 And then update the label’s parent div attributes:
 
-before: ```<div{{ attributes }}>```
-after: ```<div{{ attributes.addClass(classes) }}>```
+before: `<div{{ attributes }}>`
+after: `<div{{ attributes.addClass(classes) }}>`
 
 Now the correct class is in place, but we see no change yet - because the `<div{{ title_attributes }}>` isn’t populating any classes. To fix that, we add the following, again at the top of the template:
 
 {% raw %}
-```html
+~~~html
 {%
   set title_classes = [
     'field__label',
@@ -144,13 +144,13 @@ Now the correct class is in place, but we see no change yet - because the `<div{
     label_display == 'visually_hidden' ? 'visually-hidden',
   ]
 %}
-```
+~~~
 {% endraw %}
 
 And update the div:
 
-before: ```<div{{ title_attributes }}>{{ label }}</div>```
-after: ```<div {{ title_attributes.addClass(title_classes) }}>{{ label }}</div>```
+before: `<div{{ title_attributes }}>{{ label }}</div>`
+after: `<div {{ title_attributes.addClass(title_classes) }}>{{ label }}</div>`
 
 Rebuild the cache (drush cr) and… success! well sort of - we still have to add CSS. Note that we also added a custom class of 'field__publish-date-label' in case we want to style it directly.
 
@@ -158,7 +158,7 @@ Rebuild the cache (drush cr) and… success! well sort of - we still have to add
 
 This is pretty simple; it’s a file with the following:
 
-```yaml
+~~~yaml
 blog:
   version: 1.x
   css:
@@ -168,7 +168,7 @@ blog:
     js/blog.js: {}
   dependencies:
     - core/jquery
-```
+~~~
 
 We then add the directories (`/css` and `/js`) and files (`blog.css/js`). We’ve also added a jQuery dependency, just so you can see how that’s done. If we had something simple that could be done with [Vanilla JS](http://vanilla-js.com/) we could leave it off. Note that this won’t actually do anything until we follow step 4 below.
 
@@ -176,11 +176,11 @@ We then add the directories (`/css` and `/js`) and files (`blog.css/js`). We’v
 
 This is the code that appends the library based on the content type. The trickiest part of this is figuring out the correct format of `hook_preprocess_HOOK()`:
 
-```php
+~~~php
 function THEMENAME_preprocess_node__blog(&$variables) {
   $variables['#attached']['library'][] = 'THEMENAME/blog';
 ]
-```
+~~~
 
 The theme hook format for content types is to use `node__MACHINENAME` format - two underscores.
 
