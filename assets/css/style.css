@@ -3111,7 +3111,8 @@ header {
   .intro .text h1 {
     color: #58585b;
     font-size: 2.8125rem;
-    font-weight: bold; }
+    font-weight: bold;
+    margin-top: 0; }
 
 .team-listing {
   clear: both; }
