@@ -12,7 +12,7 @@ header-image-alt:
 
 title: Refactoring The iATS Drupal Commerce Module
 published: true
-featured: true
+featured: false
 author: dan
 short: "Following our release of the PHP wrapper for the iATS Payments API, we took on refactoring the Commerce iATS module."
 tags:

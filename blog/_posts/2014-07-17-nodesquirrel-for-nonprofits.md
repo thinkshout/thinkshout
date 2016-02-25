@@ -12,7 +12,7 @@ header-image-alt:
 
 title: "Safeguard Your Nonprofit's Website with NodeSquirrel"
 published: true
-featured: true
+featured: false
 author: stephanie
 date: 2014-07-17 11:00:00
 short: 

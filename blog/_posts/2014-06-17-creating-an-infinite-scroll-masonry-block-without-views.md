@@ -12,7 +12,7 @@ header-image-alt:
 
 title: "Creating an Infinite Scroll Masonry Block Without Views"
 published: true
-featured: true
+featured: false
 author: alex
 date: 2014-06-17 17:00:00
 short: |

@@ -13,7 +13,7 @@ header-image-alt:
 
 author: brett-meyer
 published: true
-featured: true
+featured: false
 short: |
   If your content resembles a post-apocalyptic wasteland, take some tips from George Miller.
 tags:

@@ -14,7 +14,7 @@ title: Being the Change - Becoming a B Corp
 author: lev
 image: http://thinkshout.com/assets/images/blog/thinkshout-bcorp-blog__2_.jpg
 published: true 
-featured: true
+featured: false
 short: 
    We are proud to announce our certification as a B Corporation.
 tags: 

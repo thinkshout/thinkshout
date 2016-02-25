@@ -12,7 +12,7 @@ header-image:
 header-image-alt:
 
 author: sean
-featured: true
+featured: false
 short: |
   How we are helping iATS Payments serve more nonprofit customers with its world-class donation and e-commerce tools.
 tags:

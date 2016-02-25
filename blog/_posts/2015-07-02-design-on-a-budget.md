@@ -13,7 +13,7 @@ header-image-alt:
 
 author: josh
 published: true
-featured: true
+featured: false
 short: |
   A Designer's guide to working with project limitations
 tags:

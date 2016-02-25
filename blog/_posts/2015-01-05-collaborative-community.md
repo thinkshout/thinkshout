@@ -13,7 +13,7 @@ header-image-alt:
 
 author: stephanie
 published: true
-featured: true
+featured: false
 short: |
   Looking at the past year and the year ahead for the Drupal Community.
 tags:

@@ -13,7 +13,7 @@ header-image-alt:
 
 author: alex
 published: true
-featured: true
+featured: false
 short: |
   Building a CMS-like menu system without the overhead of the CMS
 tags:

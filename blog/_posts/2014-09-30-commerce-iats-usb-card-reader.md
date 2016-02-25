@@ -13,7 +13,7 @@ header-image-alt:
 
 author: dan
 published: true
-featured: true
+featured: false
 short: |
   Process credit card payments quickly and securely using an encrypted USB card reader.
 tags:

@@ -12,7 +12,7 @@ header-image-alt:
 
 title: Spend more time on your mission, less time filing papers
 author: claire
-featured: true
+featured: false
 tags:
 - nonprofit tech
 - tools

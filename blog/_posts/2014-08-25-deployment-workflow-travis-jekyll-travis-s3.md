@@ -12,7 +12,7 @@ header-image:
 header-image-alt:
 
 author: lev
-featured: true
+featured: false
 short: |
   Using Travis CI to deploy a Jekyll based site to Amazon S3.
 tags:

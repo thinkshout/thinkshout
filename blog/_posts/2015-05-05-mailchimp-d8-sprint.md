@@ -13,7 +13,7 @@ header-image-alt:
 
 author: marci
 published: true
-featured: true
+featured: false
 short: |
   Porting the MailChimp Module to Drupal 8 for DrupalCon LA
 tags:

@@ -13,7 +13,7 @@ header-image-alt:
 title: "Ready or Not: Dreamforce for the Nonprofit Drupaller"
 author: sean
 published: true
-featured: true
+featured: false
 short: It's time to talk Dreamforce.
 tags: 
   - Salesforce

@@ -13,7 +13,7 @@ header-image-alt:
 
 author: sean
 published: true
-featured: true
+featured: false
 short: |
   Let's debunk some open source myths.
 tags:

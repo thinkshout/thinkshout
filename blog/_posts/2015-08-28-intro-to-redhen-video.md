@@ -13,7 +13,7 @@ header-image-alt:
 title: Video Tutorial - "Introduction to RedHen CRM"
 author: gabe
 published: true
-featured: true
+featured: false
 short: We have a brand new video guide for setting up RedHen CRM.
 tags: 
   - CRM

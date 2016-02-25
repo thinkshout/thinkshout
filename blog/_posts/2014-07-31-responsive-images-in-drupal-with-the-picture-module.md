@@ -12,7 +12,7 @@ header-image-alt:
 
 title: Responsive Images in Drupal with the Picture Module
 published: true
-featured: true
+featured: false
 author: cooper
 date: 2014-07-31 13:00:00
 short:

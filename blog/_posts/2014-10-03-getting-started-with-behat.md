@@ -13,7 +13,7 @@ header-image-alt:
 
 author: david
 published: true
-featured: true
+featured: false
 short: |
   Learn everything you need to know to start using Behat today.
 tags:

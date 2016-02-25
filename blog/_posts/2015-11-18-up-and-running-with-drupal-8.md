@@ -4,7 +4,7 @@ body-class: blog-post
 title: Up and Running with Drupal 8
 author: joe
 published: true
-featured: true
+featured: false
 short: "Get going with Drupal 8 with the help of our two-part guides."
 tags:
   - Drupal Planet

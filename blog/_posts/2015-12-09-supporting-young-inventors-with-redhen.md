@@ -4,7 +4,7 @@ body-class: blog-post
 title: Supporting Young Inventors with RedHen
 author: jaymz
 published: true
-featured: true
+featured: false
 short: "We built a brand new Drupal-based tool for Lemelson-MIT InvenTeams."
 tags:
   - RedHen

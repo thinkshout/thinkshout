@@ -13,7 +13,7 @@ header-image-alt:
 title: "Free Salesforce and RedHen Trainings at BADCamp"
 author: gabe
 published: true
-featured: true
+featured: false
 short: Join us at BADCamp for two half-day trainings!
 tags: 
   - Salesforce

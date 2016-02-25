@@ -13,7 +13,7 @@ header-image-alt:
 
 author: joe
 published: true
-featured: true
+featured: false
 short: |
   Getting hacked is terrifying, but it doesn't have to be.
 tags:

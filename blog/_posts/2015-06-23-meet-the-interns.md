@@ -13,7 +13,7 @@ header-image-alt:
 
 author: stephanie
 published: true
-featured: true
+featured: false
 short: |
   Meet ThinkShout and the Drupal Association's interns!
 tags:

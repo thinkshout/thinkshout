@@ -13,7 +13,7 @@ header-image-alt:
 
 author: stephanie
 published: true
-featured: true
+featured: false
 short: |
   We put our heads together to tackle the Entity Registration module.
 tags:

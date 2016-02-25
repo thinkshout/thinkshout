@@ -12,7 +12,7 @@ header-image-alt:
 
 title: "Getting Started with SASS for Drupal and Zen, Part II"
 published: true
-featured: true
+featured: false
 author: eric
 date: 2014-07-18 13:00:00
 short:

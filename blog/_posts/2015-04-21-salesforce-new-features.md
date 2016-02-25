@@ -13,7 +13,7 @@ header-image-alt:
 
 author: lev
 published: true
-featured: true
+featured: false
 short: |
   Adding data integrity and other enterprise features to the Drupal-Salesforce integration.
 tags:

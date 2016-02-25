@@ -12,7 +12,7 @@ header-image-alt:
 
 title: "Desire Paths, Part 2: Your Website is Telling You a Story"
 published: true
-featured: true
+featured: false
 author: brett-meyer
 date: 2014-07-03 14:00:00
 short: 

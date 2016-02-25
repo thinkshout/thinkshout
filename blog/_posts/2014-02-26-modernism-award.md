@@ -18,7 +18,7 @@ tags:
 - awards
 short: |
   Yesterday we learned that our work with the Los Angeles Conservancy was recognized nationally for its impact on historical preservation in LA County.
-featured: true
+featured: false
 ---
 
 As web geeks, we love ones and zeros, pixels and typography. We love the Internet and probably spend way too many nights and weekends researching the latest trends in web design and engineering. At the same time, we are inspired to serve grassroots organizations that make a real difference in their local communities.

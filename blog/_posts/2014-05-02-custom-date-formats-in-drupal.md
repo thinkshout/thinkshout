@@ -12,7 +12,7 @@ header-image:
 header-image-alt:
 
 published: true
-featured: true
+featured: false
 short: Having trouble exporting dates in Drupal? We've got an easy solution for you.
 author: david
 tags:

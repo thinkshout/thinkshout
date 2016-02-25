@@ -12,7 +12,7 @@ header-image-alt:
 
 title: "Online Fundraising with RedHen Donation"
 published: true
-featured: true
+featured: false
 author: stephanie
 date: 2014-08-01 13:00:00
 short:

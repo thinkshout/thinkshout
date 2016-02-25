@@ -4,7 +4,7 @@ body-class: blog-post
 title: Five Years
 author: lev
 published: true
-featured: true
+featured: false
 short: 2015 in review and the years ahead
 tags:
   - ThinkShout

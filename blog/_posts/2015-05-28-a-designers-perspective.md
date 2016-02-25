@@ -13,7 +13,7 @@ header-image-alt:
 
 author: josh
 published: true
-featured: true
+featured: false
 short: |
   Design and UX at DrupalCon LA
 tags:

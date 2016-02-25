@@ -13,7 +13,7 @@ header-image-alt:
 
 author: jaden
 published: true
-featured: true
+featured: false
 short: |
   We're ready for some Drupal fun in the sun.
 tags:

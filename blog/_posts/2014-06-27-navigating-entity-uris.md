@@ -12,7 +12,7 @@ header-image-alt:
 
 title: "Navigating Entity URIs: A Practical Example"
 published: true
-featured: true
+featured: false
 author: gabe
 date: 2014-06-27 17:15:00
 short:

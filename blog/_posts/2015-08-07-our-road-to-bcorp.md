@@ -13,7 +13,7 @@ header-image-alt:
 title: Our Road to B Corp
 author: krista
 published: true 
-featured: true
+featured: false
 short: 
    Our tips on getting through the B Corp application process
 tags: 

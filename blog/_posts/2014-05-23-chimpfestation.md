@@ -12,7 +12,7 @@ header-image-alt:
 
 title: "Chimpfestation, A Closer Look at the New MailChimp Module"
 published: true
-featured: true
+featured: false
 author: gabe
 date: 2014-05-27 13:00:00
 short: |

@@ -13,7 +13,7 @@ header-image-alt:
 
 author: jaden
 published: true
-featured: true
+featured: false
 short: |
   Great team sprints lead to great team accomplishments.
 tags:

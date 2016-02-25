@@ -11,7 +11,7 @@ header-image:
 header-image-alt:
 
 published: true
-featured: true
+featured: false
 author: brett-meyer
 title: "Desire Paths, Part 1: Retracing Your Audience's Steps"
 short: |
