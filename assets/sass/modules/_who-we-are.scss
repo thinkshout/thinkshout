@@ -103,6 +103,9 @@
   padding: 8rem 0;
   width: 100%;
 
+  @include mq(t) { padding: 4rem 0; }
+  @include mq(m) { padding: 2rem 0; }
+
   h4 {
     color: $yellow;
     font-size: rem(18);
@@ -120,7 +123,8 @@
   p,
   a {
     color: $white;
-    @include span-columns(7);
+
+    @include mq(d) { @include span-columns(7); }
   }
 
   p {
