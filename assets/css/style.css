@@ -2959,7 +2959,8 @@ header {
     height: auto; }
 
 .our-values-block {
-  color: #58585b; }
+  color: #58585b;
+  margin: 2rem 0; }
   .our-values-block .header-right-caret {
     float: left;
     display: block;

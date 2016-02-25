@@ -10,6 +10,7 @@
 // Our values block
 .our-values-block {
   color: $darkgray;
+  margin: 2rem 0;
 
   .header-right-caret {
     @include span-columns(2);
