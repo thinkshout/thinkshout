@@ -2163,10 +2163,10 @@ a {
     font-weight: 700; }
   .blog-post .blog-header h1 {
     color: #626262;
-    margin: 1rem auto;
-    max-width: 94%;
     font-size: 1.6rem;
-    font-weight: 800; }
+    font-weight: 800;
+    margin: 1rem auto;
+    max-width: 94%; }
     @media (min-width: 671px) and (max-width: 979px) {
       .blog-post .blog-header h1 {
         font-size: 2rem;
@@ -2184,8 +2184,8 @@ a {
 .blog-post .blog-header-image {
   width: 100%; }
   .blog-post .blog-header-image img {
-    width: 100%;
-    height: auto; }
+    height: auto;
+    width: 100%; }
 .blog-post .body h2,
 .blog-post .body h3,
 .blog-post .body p,
@@ -2288,9 +2288,9 @@ a {
     max-width: 100%; }
 .blog-post .body ul li,
 .blog-post .intro ul li {
+  letter-spacing: 0;
   padding-bottom: 0.75rem;
   padding-left: 1.375rem;
-  letter-spacing: 0;
   text-indent: -1.3em; }
   .blog-post .body ul li:before,
   .blog-post .intro ul li:before {
@@ -2302,24 +2302,24 @@ a {
     position: relative; }
 .blog-post .body ol li,
 .blog-post .intro ol li {
-  list-style-type: decimal;
-  padding-bottom: 0.75rem;
-  margin-left: 2.25rem;
   font-size: 0.9375rem;
-  padding-left: 1.125rem;
-  letter-spacing: 0; }
+  letter-spacing: 0;
+  list-style-type: decimal;
+  margin-left: 2.25rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.125rem; }
 .blog-post .body h2,
 .blog-post .intro h2 {
-  font-weight: 800;
+  color: #626262;
   font-size: 2.125rem;
-  line-height: 1.4;
-  color: #626262; }
+  font-weight: 800;
+  line-height: 1.4; }
 .blog-post .body h3,
 .blog-post .intro h3 {
-  font-weight: 800;
+  color: #626262;
   font-size: 1.625rem;
-  line-height: 1.4;
-  color: #626262; }
+  font-weight: 800;
+  line-height: 1.4; }
 .blog-post .body blockquote,
 .blog-post .intro blockquote {
   color: #f26d21;
@@ -2342,19 +2342,19 @@ a {
       padding: 0 2.5rem; } }
 .blog-post .body div.highlighter-rouge pre.highlight,
 .blog-post .intro div.highlighter-rouge pre.highlight {
-  padding: 1rem;
-  white-space: pre;
   font-size: 0.875rem;
   line-height: 1.2;
   max-width: 100%;
-  overflow: scroll; }
+  overflow: scroll;
+  padding: 1rem;
+  white-space: pre; }
 .blog-post .body code,
 .blog-post .intro code {
   font-size: 0.9375rem; }
 .blog-post .intro p {
   color: #626262;
-  font-style: italic;
   font-size: 1.375rem;
+  font-style: italic;
   line-height: 1.6; }
 .blog-post .pagination {
   color: #58585b;
@@ -2378,9 +2378,9 @@ a {
     color: #f26d21; }
   .blog-post .pagination .previous,
   .blog-post .pagination .next {
-    font-size: 1.25rem;
     display: inline-block;
-    float: left; }
+    float: left;
+    font-size: 1.25rem; }
   .blog-post .pagination .next {
     float: right; }
 

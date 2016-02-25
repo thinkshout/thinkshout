@@ -30,10 +30,10 @@
 
     h1 {
       color: $midgray;
-      margin: 1rem auto;
-      max-width: 94%;
       font-size: 1.6rem;
       font-weight: 800;
+      margin: 1rem auto;
+      max-width: 94%;
       @include mq(lt) { font-size: 2rem; max-width: 80%; }
       @include mq(md) { font-size: 2.2rem; max-width: 70%; }
       @include mq(l)  { font-size: 2.5rem; max-width: 60%; }
@@ -48,8 +48,8 @@
   .blog-header-image {
     width: 100%;
     img {
-      width: 100%;
       height: auto;
+      width: 100%;
     }
   }
 
@@ -79,9 +79,9 @@
     }
 
     ul li {
+      letter-spacing: 0;
       padding-bottom: rem(12);
       padding-left: rem(22);
-      letter-spacing: 0;
       text-indent: -1.3em;
       &:before {
         color: $darkgray;
@@ -94,25 +94,25 @@
     }
 
     ol li {
-      list-style-type: decimal;
-      padding-bottom: rem(12);
-      margin-left: rem(36);
       font-size: rem(15);
-      padding-left: rem(18);
       letter-spacing: 0;
+      list-style-type: decimal;
+      margin-left: rem(36);
+      padding-bottom: rem(12);
+      padding-left: rem(18);
     }
 
     h2 {
-      font-weight: 800;
-      font-size: rem(34);
-      line-height: 1.4;
       color: $midgray;
+      font-size: rem(34);
+      font-weight: 800;
+      line-height: 1.4;
     }
     h3 {
-      font-weight: 800;
-      font-size: rem(26);
-      line-height: 1.4;
       color: $midgray;
+      font-size: rem(26);
+      font-weight: 800;
+      line-height: 1.4;
     }
 
     blockquote {
@@ -129,12 +129,12 @@
 
     div.highlighter-rouge {
       pre.highlight {
-          padding: 1rem;
-          white-space: pre;
-          font-size: rem(14);
-          line-height: 1.2;
-          max-width: 100%;
-          overflow: scroll;
+        font-size: rem(14);
+        line-height: 1.2;
+        max-width: 100%;
+        overflow: scroll;
+        padding: 1rem;
+        white-space: pre;
       }
     }
 
@@ -145,8 +145,8 @@
 
   .intro p {
     color: $midgray;
-    font-style: italic;
     font-size: rem(22);
+    font-style: italic;
     line-height: 1.6;
   }
 
@@ -164,9 +164,9 @@
     }
     .previous,
     .next {
-      font-size: rem(20);
       display: inline-block;
       float: left;
+      font-size: rem(20);
     }
     .next {
       float: right;
