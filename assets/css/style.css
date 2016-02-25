@@ -2952,6 +2952,12 @@ header {
     font-size: 0.9375rem;
     margin: 0; }
 
+.blog-header-image {
+  width: 100%; }
+  .blog-header-image img {
+    width: 100%;
+    height: auto; }
+
 @font-face {
   font-family: 'ts';
   src: url("../fonts/ts/ts.eot");
