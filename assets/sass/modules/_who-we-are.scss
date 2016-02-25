@@ -94,3 +94,40 @@
     margin-top: rem(5);
   }
 }
+
+// Bcorp block
+.bcorp-info-block {
+  background: url('../images/ts_redesign/bcorp-background.jpg') right top;
+  background-size: cover;
+  height: 100%;
+  padding: 8rem 0;
+  width: 100%;
+
+  h4 {
+    color: $yellow;
+    font-size: rem(18);
+    margin-top: 0;
+    text-transform: uppercase;
+
+    span {
+      font-family: $secondary-font;
+      font-size: 4rem;
+      font-weight: normal;
+      text-transform: none;
+    }
+  }
+
+  p,
+  a {
+    color: $white;
+    @include span-columns(7);
+  }
+
+  p {
+    padding-bottom: 2.5rem;
+  }
+
+  .fa-caret-right {
+    color: $yellow;
+  }
+}

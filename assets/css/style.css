@@ -3072,6 +3072,37 @@ header {
   .our-values-block .value p {
     margin-top: 0.3125rem; }
 
+.bcorp-info-block {
+  background: url("../images/ts_redesign/bcorp-background.jpg") right top;
+  background-size: cover;
+  height: 100%;
+  padding: 8rem 0;
+  width: 100%; }
+  .bcorp-info-block h4 {
+    color: #f1b332;
+    font-size: 1.125rem;
+    margin-top: 0;
+    text-transform: uppercase; }
+    .bcorp-info-block h4 span {
+      font-family: "FilmotypeLucky";
+      font-size: 4rem;
+      font-weight: normal;
+      text-transform: none; }
+  .bcorp-info-block p,
+  .bcorp-info-block a {
+    color: #fff;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 57.35098%; }
+    .bcorp-info-block p:last-child,
+    .bcorp-info-block a:last-child {
+      margin-right: 0; }
+  .bcorp-info-block p {
+    padding-bottom: 2.5rem; }
+  .bcorp-info-block .fa-caret-right {
+    color: #f1b332; }
+
 @font-face {
   font-family: 'ts';
   src: url("../fonts/ts/ts.eot");
