@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Gabe
 last_name: Carleton-Barnes
 position: Engineering Manager
@@ -17,4 +18,5 @@ published: true
 name: gabe
 bio: |
   Gabe is highly experienced in building custom Salesforce solutions for constituent management and fundraising. Before joining ThinkShout, Gabe worked in the nonprofit world at Ecotrust, the Wild Salmon Center, and Immigration Equality. He holds a BA in Computer Science and Theatre from Oberlin College. Gabe really does spend his free time playing Magic: The Gathering in a variety of time zones.
+permalink: /who-we-are/team/gabe/
 ---

@@ -1,73 +1,79 @@
 ---
 layout: default
 ---
-<div class="page-container team-detail">
+<div class="container team-detail">
   <div class="split">
-    <div class="side side-left" style="background-image: url('{{ site.baseurl }}/assets/images/{{ page.person.image.large }}')"></div>
-    <div class="side side-right">
+    <div class="team-member-side side-left">
+      <div class="team-member-image">
+        <img src="/assets/images/{{ page.image.large }}" alt="{{ page.first_name }} {{ page.last_name }}">
+      </div>
+    </div>
+    <div class="team-member-side side-right">
       <div class="intro-content">
-        <h1>{{ page.person.first_name }} {{ page.person.last_name }}</h1>
-        <h4 class="position">{{ page.person.position }}</h4>
-        <h5>{{ page.person.leadin }}</h5>
-        <ul class="social">
-          {% if page.person.social.github %}
-          <li>
-            <a href="{{ page.person.social.github }}"><span class="icon-github"></span></a>
-          </li>
-          {% endif %}
-          {% if page.person.social.twitter %}
-          <li>
-            <a href="{{ page.person.social.twitter }}"><span class="icon-twitter"></span></a>
-          </li>
-          {% endif %}
-          {% if page.person.social.linkedin %}
-          <li>
-            <a href="{{ page.person.social.linkedin }}"><span class="icon-linkedin"></span></a>
-          </li>
-          {% endif %}
-          {% if page.person.social.drupal %}
-          <li>
-            <a href="{{ page.person.social.drupal }}"><span class="icon-tint"></span></a>
-          </li>
-          {% endif %}
-        </ul>
-        <p>{{ page.person.bio }}</p>
-        <div class="team-blog">
-          {% assign names = site.posts | map: 'author' %}
-          {% if names contains page.person.name %}
-          <h6>Recent Blog Posts</h6>
-          {% for post in site.posts %}
-          {% if post.layout == 'post' and post.author == page.person.name %}
-          <div class="post">
-          	<h5 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h5>
-          	<p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
-          </div>
-          {% endif %}
-          {% endfor %}
-          {% endif %}
-        </div>
+        <h1>{{ page.first_name }} {{ page.last_name }}</h1>
+        <h4 class="position">{{ page.position }}</h4>
+        <h5>{{ page.leadin }}</h5>
+        <p>{{ page.bio }}</p>
       </div>
     </div>
   </div>
 </div>
 
-<section class="content-bottom">
-  <div class="row">
-    <div class="large-12 columns">
-      <ul class="team large-block-grid-4 medium-block-grid-3 small-block-grid-2">
-        {% for person in site.data.team %}
-        {% if person.published %}
-        {% capture url %}{{ site.baseurl }}/{{ site.team_dir }}/{{ person.name }}/{% endcapture %}
-        <li>
-          <article>
-            <a href="{{ url }}"><img src="{{ site.baseurl }}/assets/images/{{person.image.medium}}"></a>
-            <h4 class="name"><a href="{{ url }}">{{ person.first_name }} {{ person.last_name }}</a></h4>
-            <p class="position">{{person.position}}</p>
-          </article>
-        </li>
+<ul class="social">
+  {% if page.social.github %}
+  <li>
+    <a href="{{ page.social.github }}"><span class="icon-github"></span></a>
+  </li>
+  {% endif %}
+  {% if page.social.twitter %}
+  <li>
+    <a href="{{ page.social.twitter }}"><span class="icon-twitter"></span></a>
+  </li>
+  {% endif %}
+  {% if page.social.linkedin %}
+  <li>
+    <a href="{{ page.social.linkedin }}"><span class="icon-linkedin"></span></a>
+  </li>
+  {% endif %}
+  {% if page.social.drupal %}
+  <li>
+    <a href="{{ page.social.drupal }}"><span class="icon-tint"></span></a>
+  </li>
+  {% endif %}
+</ul>
+
+{% assign names = site.posts | map: 'author' %}
+{% if names contains page.name %}
+  <div class="team-member-blog">
+    <div class="container">
+      <h4>{{ page.first_name }}'s Recent Blog Posts</h4>
+      <div class="row">
+        {% for post in site.posts %}
+        {% if post.layout == 'post' and post.author == page.name %}
+          <div class="post">
+            <a href="{{ site.baseurl }}{{ post.url }}">
+              <p class="post-date">{{ post.date | date: "%m.%d.%Y" }}</p>
+              <h3 class="post-title">{{ post.title}}</h3>
+              <p class="post-short">{{ post.short }}</p>
+            </a>
+          </div>
         {% endif %}
         {% endfor %}
-      </ul>
+      </div>
+      <div class="blogs-toggle">
+        <div class="see-all-blogs">
+          <h5>See all blogs by {{ page.first_name }}</h5>
+          <i class="fa fa-caret-down"></i>
+        </div>
+        <div class="view-less-blogs">
+          <i class="fa fa-caret-up"></i>
+          <h5>View less</h5>
+        </div>
+      </div>
     </div>
   </div>
-</section>
+{% endif %}
+
+<div class="team">
+  {% include teamlisting.html %}
+</div>

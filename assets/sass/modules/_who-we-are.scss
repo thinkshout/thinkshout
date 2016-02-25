@@ -1,0 +1,137 @@
+.blog-header-image {
+  width: 100%;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+// Our values block
+.our-values-block {
+  color: $darkgray;
+  margin: 2rem 0;
+
+  h4 {
+    font-size: rem(14);
+    text-transform: uppercase;
+
+    @include mq(t) { margin: 0; }
+    @include mq(m) { margin: 0; }
+  }
+
+  .right-caret {
+    padding-top: 1rem;
+    @include span-columns(2);
+
+    @include mq(t) { display: none; }
+    @include mq(m) { display: none; }
+  }
+
+  .right-caret i {
+    color: $ltgray;
+    font-size: 1.5rem;
+    vertical-align: sub;
+  }
+
+  .fa-caret-right {
+    border-left: 3px solid $ltgray;
+    margin-left: 0.5rem;
+    padding: 0.75rem 0;
+
+    @include mq(t) { display: none; }
+    @include mq(m) { display: none; }
+  }
+
+  .down-caret {
+    position: relative;
+    @include mq(d) { display: none; }
+    @include mq(t) { @include span-columns(12); }
+    @include mq(m) { @include span-columns(12); }
+
+    h4 {
+      padding-bottom: 1rem;
+    }
+
+    &:after {
+      content: '';
+      background: $ltgray;
+      bottom: 0;
+      left: 0;
+      height: 3px;
+      position: absolute;
+      width: 55px;
+    }
+  }
+
+  .fa-caret-down {
+    color: $ltgray;
+    font-size: 1.5rem;
+    margin-top: -9px;
+    padding-left: 1.25rem;
+    padding-top: 0;
+    position: absolute;
+
+    @include mq(d) { display: none; }
+  }
+
+  .row {
+    @include span-columns(10);
+
+    .value {
+      @include span-columns(12);
+      @include mq(d) { @include span-columns(6); @include omega(2n); }
+    }
+  }
+
+  .value h3 {
+    color: $orange;
+    font-size: rem(36);
+    margin-bottom: 0;
+  }
+
+  .value p {
+    margin-top: rem(5);
+  }
+}
+
+// Bcorp block
+.bcorp-info-block {
+  background: url('../images/ts_redesign/bcorp-background.jpg') right top;
+  background-size: cover;
+  height: 100%;
+  padding: 8rem 0;
+  width: 100%;
+
+  @include mq(t) { padding: 4rem 0; }
+  @include mq(m) { padding: 2rem 0; }
+
+  h4 {
+    color: $yellow;
+    font-size: rem(18);
+    margin-top: 0;
+    text-transform: uppercase;
+
+    span {
+      font-family: $secondary-font;
+      font-size: 4rem;
+      font-weight: normal;
+      text-transform: none;
+    }
+  }
+
+  p,
+  a {
+    color: $white;
+
+    @include mq(d) { @include span-columns(7); }
+  }
+
+  p {
+    padding-bottom: 2.5rem;
+  }
+
+  .fa-caret-right {
+    color: $yellow;
+  }
+}
