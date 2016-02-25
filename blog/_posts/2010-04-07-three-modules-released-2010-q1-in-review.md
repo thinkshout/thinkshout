@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: Three Modules Released - 2010 Q1 in Review
 created: 1270662393
 permalink: blog/2010/04/sean/three-modules-released-2010-q1-review/

@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: An Adventure in iCal, my First Module
 created: 1338927757
 permalink: blog/2012/06/kyle/add-to-cal/

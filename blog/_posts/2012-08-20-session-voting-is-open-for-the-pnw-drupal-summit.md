@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: Session Voting is Open for the PNW Drupal Summit!
 created: 1345486113
 permalink: blog/2012/08/betsy/session-voting-open-pnw-drupal-summit/

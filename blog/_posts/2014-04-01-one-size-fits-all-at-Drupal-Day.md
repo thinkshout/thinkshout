@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 published: true
 featured: true
 short: "Learning a new technology can be incredibly intimidating, especially if you’re going at it alone. There’s great comfort in knowing that you’re not the only one with those particular questions or having this recurring, frustrating problem."

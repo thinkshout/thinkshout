@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: 10 hot topics in nonprofit Drupal tech
 created: 1364513534
 permalink: blog/2013/03/sean/10-hot-topics-nonprofit-drupal-tech/

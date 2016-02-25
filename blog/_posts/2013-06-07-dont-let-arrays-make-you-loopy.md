@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: Don't let arrays make you loopy!
 created: 1370625669
 permalink: blog/2013/06/brandon/dont-let-arrays-make-you-loopy/

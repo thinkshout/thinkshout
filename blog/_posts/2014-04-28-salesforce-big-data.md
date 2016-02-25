@@ -2,7 +2,17 @@
 title: |
   "Big Data" Challenges with Salesforce for Facing History and Ourselves
 author: brandon
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 published: true
 featured: true
 short: Synchronizing 300,000+ Salesforce records with Drupal RedHen for Facing History and Ourselves

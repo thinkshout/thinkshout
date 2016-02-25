@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: Terms and Trends in DIY and Open Source Online Maps
 created: 1326750140
 permalink: blog/2012/01/sean/terms-and-trends-diy-and-open-source-online-maps/

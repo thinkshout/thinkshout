@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: Don't fear the monkey! Introducing a friendlier MailChimp module.
 created: 1374877774
 permalink: blog/2013/07/gabe/dont-fear-monkey-introducing-friendlier-mailchimp-module/

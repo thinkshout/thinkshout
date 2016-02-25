@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: Evaluating Drupal vendors and project proposals
 created: 1269916859
 permalink: blog/2010/03/sean/evaluating-drupal-vendors-and-project-proposals/

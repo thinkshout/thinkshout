@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: 2012 Techno-Lounge at the National River Rally in PDX, OR
 created: 1330805637
 permalink: blog/2012/03/sean/2012-techno-lounge-national-river-rally-pdx-or/

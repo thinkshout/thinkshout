@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: 20 hrs of travel for 34 hrs in DC - It was worth it.
 created: 1268791625
 permalink: blog/2010/03/sean/20-hrs-travel-34-hrs-dc-it-was-worth-it/

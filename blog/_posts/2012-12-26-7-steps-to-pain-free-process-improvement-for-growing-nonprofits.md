@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: ' 7 Steps to Pain-Free Process Improvement for Growing Nonprofits'
 created: 1356559878
 permalink: blog/2012/12/gabe/7-steps-pain-free-process-improvement-growing-nonprofits/

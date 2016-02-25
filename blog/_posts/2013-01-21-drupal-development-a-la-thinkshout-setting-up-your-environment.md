@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: 'Drupal Development a la ThinkShout: setting up your environment'
 created: 1358796413
 permalink: blog/2013/01/gabe/drupal-development-la-thinkshout-setting-your-environment/

@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: "Peer-To-Peer Fundraising With Drupal - RedHen Raiser"
 author: sean
 image: http://thinkshout.com/assets/images/blog/image_2.png

@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: ThinkShout has a new world headquarters
 created: 1250622000
 permalink: blog/2009/08/sean/thinkshout-has-new-world-headquarters/

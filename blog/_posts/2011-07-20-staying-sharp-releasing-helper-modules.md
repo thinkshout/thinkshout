@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: Staying Sharp, Releasing Helper Modules
 created: 1311185469
 permalink: blog/2011/07/sean/staying-sharp-releasing-helper-modules/

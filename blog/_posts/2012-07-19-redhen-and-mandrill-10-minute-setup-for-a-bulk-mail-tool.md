@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: RedHen and Mandrill - 10-minute Setup for a Bulk Mail Tool
 created: 1342711784
 permalink: blog/2012/07/tauno/redhen-and-mandrill-10-minute-setup-bulk-mail-tool/

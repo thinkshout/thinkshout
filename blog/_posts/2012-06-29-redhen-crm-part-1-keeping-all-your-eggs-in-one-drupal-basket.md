@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: RedHen CRM Part 1, Keeping all your eggs in one Drupal basket
 created: 1341001377
 permalink: blog/2012/06/sean/redhen-crm-part-1/

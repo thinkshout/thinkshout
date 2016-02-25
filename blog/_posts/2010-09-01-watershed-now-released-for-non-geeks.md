@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: Watershed Now! released!! (For non-geeks)
 created: 1283363186
 permalink: blog/2010/09/sean/watershed-now-released-non-geeks/

@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: Drink beer. Support a great family.
 created: 1368204866
 permalink: blog/2013/05/sean/drupalcon-fundraiser-happy-hour-aaron-winborn/

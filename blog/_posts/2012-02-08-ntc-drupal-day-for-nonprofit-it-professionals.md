@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: NTC Drupal Day for Nonprofit IT Professionals
 created: 1328742779
 permalink: blog/2012/02/sean/ntc-drupal-day-nonprofit-it-professionals/

@@ -1,6 +1,16 @@
 ---
 title: "Four Things You Can Learn About Content Strategy...from Mad Max"
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 author: brett-meyer
 published: true
 featured: true

@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: OpenLayers Love for Drupal 7
 created: 1315413565
 permalink: blog/2011/09/lev/openlayers-love-drupal-7/

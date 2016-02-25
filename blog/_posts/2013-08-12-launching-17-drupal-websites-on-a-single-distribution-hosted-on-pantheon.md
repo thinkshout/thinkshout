@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: Launching 17 Drupal websites on a single distribution, hosted on Pantheon
 created: 1376332989
 permalink: blog/2013/08/distribution-hosting-with-pantheon/

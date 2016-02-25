@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: ThinkShout hires Andrea Burton, User Experience Engineer
 created: 1306881197
 permalink: blog/2011/05/sean/thinkshout-hires-andrea-burton-user-experience-engineer/

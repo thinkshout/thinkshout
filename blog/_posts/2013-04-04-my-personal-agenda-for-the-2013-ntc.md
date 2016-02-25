@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: My Personal Agenda for the 2013 NTC
 created: 1365108050
 permalink: blog/2013/04/brett-meyer/my-personal-agenda-2013-ntc/

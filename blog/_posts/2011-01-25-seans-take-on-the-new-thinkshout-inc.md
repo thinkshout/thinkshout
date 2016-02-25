@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: Sean's Take on the New ThinkShout, Inc.
 created: 1295996358
 permalink: blog/2011/01/sean/seans-take-new-thinkshout-inc/

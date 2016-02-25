@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: The Knight News Challenge and Watershed Now
 created: 1291243960
 permalink: blog/2010/12/lev/knight-news-challenge-and-watershed-now/

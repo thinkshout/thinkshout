@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: Join ThinkShout for Drupal Day at the 2013 NTC
 created: 1363214075
 permalink: blog/2013/03/brett-meyer/join-thinkshout-drupal-day-2013-ntc/

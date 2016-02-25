@@ -1,6 +1,16 @@
 ---
 title: Committing to D8 Core - A Little Bit Goes a Long Way 
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 author: amy
 published: true
 featured: true

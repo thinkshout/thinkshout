@@ -1,5 +1,15 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
+category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
+header-image:
+header-image-alt:
+
 title: 'RedHen in the Wild: Mission Investors Exchange'
 created: 1347990060
 permalink: blog/2012/09/tauno/redhen-wild-mission-investors-exchange/
