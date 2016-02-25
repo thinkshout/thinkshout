@@ -12,9 +12,23 @@
   color: $darkgray;
   margin: 2rem 0;
 
+  h4 {
+    font-size: rem(14);
+  }
+
   .header-right-caret {
+    padding: 1rem;
     text-transform: uppercase;
     @include span-columns(2);
+  }
+
+  .header-right-caret i {
+    border-left: 3px solid $ltgray;
+    color: $ltgray;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    padding: 0.75rem 0;
+    vertical-align: sub;
   }
 
   .row {

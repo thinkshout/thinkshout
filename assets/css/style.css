@@ -2961,7 +2961,10 @@ header {
 .our-values-block {
   color: #58585b;
   margin: 2rem 0; }
+  .our-values-block h4 {
+    font-size: 0.875rem; }
   .our-values-block .header-right-caret {
+    padding: 1rem;
     text-transform: uppercase;
     float: left;
     display: block;
@@ -2969,6 +2972,13 @@ header {
     width: 14.70196%; }
     .our-values-block .header-right-caret:last-child {
       margin-right: 0; }
+  .our-values-block .header-right-caret i {
+    border-left: 3px solid #dbdcde;
+    color: #dbdcde;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    padding: 0.75rem 0;
+    vertical-align: sub; }
   .our-values-block .row {
     float: left;
     display: block;
