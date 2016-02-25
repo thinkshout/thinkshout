@@ -6,3 +6,21 @@
     height: auto;
   }
 }
+
+// Our values block
+.our-values-block {
+  color: $darkgray;
+
+  .header-right-caret {
+    @include span-columns(2);
+  }
+
+  .row {
+    @include span-columns(10);
+
+    .value {
+      @include span-columns(12);
+      @include mq(d) { @include span-columns(6); @include omega(2n); }
+    }
+  }
+}

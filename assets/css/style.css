@@ -2958,6 +2958,42 @@ header {
     width: 100%;
     height: auto; }
 
+.our-values-block {
+  color: #58585b; }
+  .our-values-block .header-right-caret {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%; }
+    .our-values-block .header-right-caret:last-child {
+      margin-right: 0; }
+  .our-values-block .row {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%; }
+    .our-values-block .row:last-child {
+      margin-right: 0; }
+    .our-values-block .row .value {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .our-values-block .row .value:last-child {
+        margin-right: 0; }
+      @media (min-width: 980px) {
+        .our-values-block .row .value {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%; }
+          .our-values-block .row .value:last-child {
+            margin-right: 0; }
+          .our-values-block .row .value:nth-child(2n) {
+            margin-right: 0; }
+          .our-values-block .row .value:nth-child(2n+1) {
+            clear: left; } }
+
 @font-face {
   font-family: 'ts';
   src: url("../fonts/ts/ts.eot");
