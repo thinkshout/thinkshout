@@ -18,7 +18,7 @@ tags:
 - project management
 - client relationships
 
-short: Last night I got back from a whirlwind trip to DC to meet with two of our current clients, as well as two new potential partners. From the time I hit the ground at National to the time I got back on the plane, I literally spent 34 hours in DC - and it was well worth it.
+short: 34 hours in DC - and it was well worth it.
 author: sean
 ---
 Last night I got back from a whirlwind trip to DC to meet with two of our current clients, as well as two new potential partners. From the time I hit the ground at National to the time I got back on the plane, I literally spent 34 hours in DC - and it was well worth it.

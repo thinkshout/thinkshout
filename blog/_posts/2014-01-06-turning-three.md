@@ -13,7 +13,7 @@ header-image-alt:
 published: true
 title: Behind the Curtain, ThinkShout Turns Three
 author: sean
-short: "Three years ago this week, Lev and I biked over to our attorney’s office to sign the incorporation papers that founded ThinkShout, Inc. A few good things have happened since then..."
+short: ThinkShout turns three"
 permalink: blog/2014/01/turning-three/
 ---
 **Three years ago this week,** Lev and I biked over to our attorney’s office in downtown Portland to sign the incorporation papers that founded ThinkShout, Inc. Afterwards, we headed over to our local bank and each deposited $500 into a shared checking account to pay our first month’s rent on two small desks in an incubator space at the [EcoTrust](http://www.ecotrust.org/) building.

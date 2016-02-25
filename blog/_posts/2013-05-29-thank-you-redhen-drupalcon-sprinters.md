@@ -17,7 +17,7 @@ tags:
 - RedHen
 - Drupal Planet
 - Drupal Give
-short: Bolstered by Dries's nod to RedHen CRM in his keynote address, our RedHen code sprint at DrupalCon last Friday was a great success.
+short: Our RedHen code sprint at DrupalCon last Friday was a great success.
 author: sean
 ---
 Bolstered by Dries's nod to [RedHen CRM](http://drupal.org/project/redhen) in his [keynote address](https://portland2013.drupal.org/keynote/dries-buytaert), our RedHen code sprint at DrupalCon last Friday was a great success. This being our first community sprint, the ThinkShout team was happy to collaborate with an awesome group of development partners, including [Stein Setvik](https://drupal.org/user/77805) from [Forum One](http://forumone.com), [Alan Sherry](https://drupal.org/user/941916) from [Freeflow Digital](http://www.freeflowdigital.com/), [Chris Ward](https://drupal.org/user/1017982) from [MoatMedia](http://www.moatmedia.com.au/) (in Australia), and [Jesse Longacre](https://drupal.org/user/328914). Together we made progress on three fronts:

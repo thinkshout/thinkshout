@@ -14,8 +14,7 @@ published: true
 featured: false
 author: brett-meyer
 title: "Desire Paths, Part 1: Retracing Your Audience's Steps"
-short: |
-  Improve the efficacy of your website by resolving the dichotomy between “Desire Paths” and “the desired path.”
+short: Resolve the dichotomy between “Desire Paths” and “the desired path.”
 tags:
   - User experience
   - Content strategy

@@ -12,7 +12,7 @@ header-image-alt:
 
 published: true
 featured: false
-short: "How we used pre-filtered search on Families USA's site to engage everyone from the general public to policy making experts."
+short: "How we used pre-filtered search on Families USA's site to engage everyone."
 author: alex
 title: "Engaging variable audiences with pre-filtered search"
 ---

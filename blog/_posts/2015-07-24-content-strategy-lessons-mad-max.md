@@ -14,8 +14,7 @@ header-image-alt:
 author: brett-meyer
 published: true
 featured: false
-short: |
-  If your content resembles a post-apocalyptic wasteland, take some tips from George Miller.
+short: If your content resembles a post-apocalyptic wasteland, take some tips from George Miller.
 tags:
 - Content Strategy
 - Drupal Planet

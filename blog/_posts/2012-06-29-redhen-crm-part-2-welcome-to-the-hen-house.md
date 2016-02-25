@@ -18,7 +18,7 @@ tags:
 - nonprofit tech
 - Drupal Planet
 - Drupal Give
-short: "In this RedHen CRM demonstration, we will show how the framework could be leveraged to build an association management system (AMS) supporting a fictional organization: The National Association of Pet Shelters."
+short: See how the framework could be leveraged to build an association management system (AMS).
 author: sean
 ---
 In [Part 1](/blog/2012/06/sean/redhen-crm-part-1) of this article we explored the major benefits and broad concepts of [RedHen CRM](http://drupal.org/project/redhen). In this article, we will take a detailed look at RedHen's current feature set - as demonstrated in our [sample RedHen installation profile](http://drupal.org/project/redhen_demo).

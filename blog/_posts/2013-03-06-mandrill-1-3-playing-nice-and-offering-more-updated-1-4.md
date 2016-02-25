@@ -17,8 +17,7 @@ tags:
 - Mandrill
 - modules
 - Drupal Planet
-short: |
-  We ThinkShouters have been working away on our Drupal/Mandrill integration module, and released version 7.x-1.3 today. We think it's a pretty significant step for the module: I'll tell you how we got to where we are, what's in this release, and a little about what's next for Mandrill.
+short: What's next for Mandrill.
 author: gabe
 ---
 <i>Update: Version 7.x-1.3 had a couple of bugs, and some of the changes were a little ambitious. As of March 18, the latest-and-greatest version of Mandrill is 7.x-1.4, which resolves the major issues we encountered at first release, and makes some of this blog entry obsolete. Here's what 1.4 is doing (more info in the [release notes](http://drupal.org/node/1946388)):  

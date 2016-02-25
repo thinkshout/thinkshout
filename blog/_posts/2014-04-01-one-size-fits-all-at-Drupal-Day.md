@@ -12,7 +12,7 @@ header-image-alt:
 
 published: true
 featured: false
-short: "Learning a new technology can be incredibly intimidating, especially if you’re going at it alone. There’s great comfort in knowing that you’re not the only one with those particular questions or having this recurring, frustrating problem."
+short: Learning a new technology can be incredibly intimidating.
 author: stephanie
 title: "Reflections on Drupal Day: Creating a One-Size-Fits-All Day for Nonprofit Professionals and Technologists"
 tags:

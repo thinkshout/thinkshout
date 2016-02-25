@@ -14,8 +14,7 @@ header-image-alt:
 author: sean
 published: true 
 featured: false
-short: |
-  There's a whole lot to gain by giving away your code.
+short: There's a whole lot to gain by giving away your code.
 tags:
 - Nonprofit tech
 - Drupal Planet

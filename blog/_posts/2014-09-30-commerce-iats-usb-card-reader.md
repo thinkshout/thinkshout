@@ -14,8 +14,7 @@ header-image-alt:
 author: dan
 published: true
 featured: false
-short: |
-  Process credit card payments quickly and securely using an encrypted USB card reader.
+short: Process credit card payments quickly and securely using an encrypted USB card reader.
 tags:
 - iATS
 - Commerce iATS

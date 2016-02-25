@@ -13,8 +13,7 @@ header-image-alt:
 
 author: lev
 featured: false
-short: |
-  How we used Jekyll, Foundation, GitHub, and Amazon S3 to build and deploy the new ThinkShout.com.
+short: How we used Jekyll, Foundation, GitHub, and Amazon S3 to build and deploy the new ThinkShout.com.
 tags:
 - Drupal Planet
 - Jekyll

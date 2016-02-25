@@ -19,7 +19,7 @@ tags:
 - design
 - Drupal Planet
 
-short: When I started at ThinkShout in June 2011, Responsive Web Design by Ethan Marcotte had just been released. I read an excerpt of the book, Fluid Images, on A List Apart and was intrigued. I immediately bought the book and devoured it.
+short: A responsive theme for ThinkShout's redesign.
 author: andrea
 ---
 When I started at ThinkShout in June 2011, [Responsive Web Design](http://www.abookapart.com/products/responsive-web-design) by [Ethan Marcotte](http://unstoppablerobotninja.com) had just been released. I read an excerpt of the book, [Fluid Images](http://www.alistapart.com/articles/fluid-images/), on A List Apart and was intrigued. I immediately bought the book and devoured it.

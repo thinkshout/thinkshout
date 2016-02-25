@@ -14,8 +14,7 @@ header-image-alt:
 author: stephanie
 published: true
 featured: false
-short: |
-  Stephanie sits down with our design team to talk trends, projects, and Devsigner
+short: Stephanie sits down with our design team to talk trends, projects, and Devsigner
 tags:
 - Design
 - UX

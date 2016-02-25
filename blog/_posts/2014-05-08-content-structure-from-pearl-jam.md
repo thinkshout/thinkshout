@@ -13,8 +13,7 @@ header-image-alt:
 title: "What Nonprofits Can Learn About Content Structure… from Pearl Jam"
 published: true
 featured: false
-short: |
-  Pearl Jam's website is a great example of good content strategy. What's better? It's achievable for nonprofits as well.
+short:   Pearl Jam's website is a great example of good content strategy. 
 author: brett-meyer
 date: 2014-05-08 15:00:00
 tags:

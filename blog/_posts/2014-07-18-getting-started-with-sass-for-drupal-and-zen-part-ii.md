@@ -15,8 +15,7 @@ published: true
 featured: false
 author: eric
 date: 2014-07-18 13:00:00
-short:
-  Dig deeper into SASS with part two of this series.
+short: Dig deeper into SASS with part two of this series.
 tags:
 - Drupal Planet
 - SASS

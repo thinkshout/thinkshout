@@ -14,8 +14,7 @@ header-image-alt:
 author: jaden
 published: true
 featured: false
-short: |
-  We're ready for some Drupal fun in the sun.
+short: We're ready for some Drupal fun in the sun.
 tags:
 - Drupal Planet
 - Open Source

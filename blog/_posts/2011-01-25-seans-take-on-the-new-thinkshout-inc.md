@@ -16,7 +16,7 @@ permalink: blog/2011/01/sean/seans-take-new-thinkshout-inc/
 tags:
 - entrepreneurism
 
-short: If you follow me on Twitter, it’s probably no surprise from all my excited tweets over the last year and a half that starting my own consultancy has brought me much joy, pride and personal growth. I’ve worked in the nonprofit sector my entire career. I’ve been a Drupal geek for the last 5 years. My academic studies have been in organizational development. The opportunity to combine these interests to build an effective team of technologists to solve problems for communities working to make the world a better place has been, at the risk of sounding cheesy, ridiculously awesome. I consider myself blessed that I can make a sustainable living, working in a great city, serving people who make a difference.
+short: Building a team of technologists to solve problems for communities working to make the world a better place.
 author: sean
 ---
 <p>If you follow me on <a href="http://twitter.com/sean_larkin" target="_blank">Twitter</a>, it’s probably no surprise from all my excited tweets over the last year and a half that starting my own consultancy has brought me much joy, pride and personal growth. I’ve worked in the nonprofit sector my entire career. I’ve been a Drupal geek for the last 5 years. My academic studies have been in organizational development. The opportunity to combine these interests to build an effective team of technologists to solve problems for communities working to make the world a better place has been, at the risk of sounding cheesy, <i>ridiculously awesome</i>. I consider myself blessed that I can make a sustainable living, working in a great city, serving people who make a difference.

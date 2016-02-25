@@ -14,8 +14,7 @@ header-image-alt:
 author: stephanie
 published: true
 featured: false
-short: |
-  Meet ThinkShout and the Drupal Association's interns!
+short: Meet ThinkShout and the Drupal Association's interns!
 tags:
 - Internships
 - Drupal Planet

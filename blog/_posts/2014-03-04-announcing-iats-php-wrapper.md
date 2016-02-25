@@ -13,8 +13,7 @@ header-image-alt:
 
 author: sean
 featured: false
-short: |
-  How we are helping iATS Payments serve more nonprofit customers with its world-class donation and e-commerce tools.
+short: How we are helping iATS Payments serve more nonprofit customers.
 tags:
 - Drupal Planet
 - API Integration

@@ -18,7 +18,7 @@ tags:
 - client relationships
 - entrepreneurism
 
-short: This week I had the rare, but gut-wrenching experience of a lynchpin service provider flaking on a client project at a critical point on our development cycle. This isn't one of those typical experiences that development shops blog about - but it does happen from time to time. And in choosing a software provider, I think that it's something that you should ask about, because how a company handles this situation speaks volumes about their professionalism and integrity.
+short: How a company handles bad situations speaks volumes about their professionalism and integrity.
 author: sean
 ---
 This week I had the rare, but gut-wrenching experience of a lynchpin service provider flaking on a client project at a critical point on our development cycle. This isn't one of those typical experiences that development shops blog about - but it does happen from time to time. And in choosing a software provider, I think that it's something that you should ask about, because how a company handles this situation speaks volumes about their professionalism and integrity.

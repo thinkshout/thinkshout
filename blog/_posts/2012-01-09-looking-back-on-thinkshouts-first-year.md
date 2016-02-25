@@ -16,7 +16,7 @@ permalink: blog/2012/01/lev/looking-back-2011/
 tags:
 - ThinkShout
 
-short: Almost exactly a year ago, after over a year of flirting with the idea of partnering, Sean and I finally tied the knot. Our initial goals when starting ThinkShout were modest.
+short: Our initial goals when starting ThinkShout were modest.
 author: lev
 ---
 <div style="font-style:italic; float:left; margin: 0 10px 10px 0; width: 300px;"><img src="http://thinkshout.com/sites/default/files/images/inline/ts_team.jpg" style="width: 300px;" /><br/>The ThinkShout team celebrates our one year anniversary</div>

@@ -14,8 +14,7 @@ header-image-alt:
 author: sean
 published: true
 featured: false
-short: |
-  Trends in Nonprofit Tech to Watch in 2015
+short: Trends in Nonprofit Tech to Watch in 2015
 tags:
 - Drupal
 - Nonprofit Tech

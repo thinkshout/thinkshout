@@ -16,8 +16,7 @@ tags:
 - nonprofit tech
 - drupal
 - awards
-short: |
-  Yesterday we learned that our work with the Los Angeles Conservancy was recognized nationally for its impact on historical preservation in LA County.
+short: Our work with the Los Angeles Conservancy has been recognized nationally.
 featured: false
 ---
 

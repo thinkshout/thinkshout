@@ -18,7 +18,7 @@ tags:
 - RedHen
 - Drupal Give
 - Drupal Planet
-short: Engagement scoring - often referred to as "engagement analytics" or "engagement metrics" - is a relatively new concept in measuring the interactions between site visitors and your website. Web analytics packages such as Google Analytics generally focus on measuring quantitative analytics - or the number of page visits and clicks. Engagement scoring focuses on measuring the quality of these interactions by weighting the value of different types of interactions. For example, sharing an article from your website to a social network might be worth 5 engagement points, whereas commenting on a blog post might be worth 10 engagement points.
+short: Measuring the interactions between site visitors and your website.
 author: sean
 ---
 **Engagement scoring** - often referred to as "engagement analytics" or "engagement metrics" - is a relatively new concept in measuring the interactions between site visitors and your website. Web analytics packages such as Google Analytics generally focus on measuring *quantitative* analytics - or the number of page visits and clicks. Engagement scoring focuses on measuring the *quality* of these interactions by weighting the value of different types of interactions. For example, sharing an article from your website to a social network might be worth *5 engagement points*, whereas commenting on a blog post might be worth *10 engagement points*.

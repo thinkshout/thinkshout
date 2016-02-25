@@ -14,8 +14,7 @@ header-image-alt:
 author: alex
 published: true
 featured: false
-short: |
-  The challenges and solutions of building a CMS-less site that can be managed by the layman.
+short: The challenges and solutions of building a CMS-less site that can be managed by the layman.
 tags:
 - Jekyll
 - Ruby

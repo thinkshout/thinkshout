@@ -14,8 +14,7 @@ header-image-alt:
 author: brett-meyer
 published: true 
 featured: false
-short: |
-  Do you know what your site's metrics are telling you? We have some resources for you that can help.
+short: Do you know what your site's metrics are telling you? We have some resources for you that can help.
 tags:
 - Nonprofit tech
 - Drupal Planet

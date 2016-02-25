@@ -14,8 +14,7 @@ header-image-alt:
 author: josh
 published: true
 featured: false
-short: |
-  Design and UX at DrupalCon LA
+short: Design and UX at DrupalCon LA
 tags:
 - Drupal Planet
 - Open Source

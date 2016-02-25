@@ -15,8 +15,7 @@ author: lev
 image: http://thinkshout.com/assets/images/blog/thinkshout-bcorp-blog__2_.jpg
 published: true 
 featured: false
-short: 
-   We are proud to announce our certification as a B Corporation.
+short: We are proud to announce our certification as a B Corporation.
 tags: 
   - B Corp
   - Our Mission

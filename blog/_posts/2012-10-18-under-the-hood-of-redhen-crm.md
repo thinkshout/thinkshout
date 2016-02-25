@@ -17,7 +17,7 @@ tags:
 - RedHen
 - Drupal Planet
 - Drupal Give
-short: RedHen CRM is one of many great stories featured in the Linux Journal's recent Drupal special addition. RedHen just laid a beta3 release and the ThinkShout team will be at the Pacific Northwest Drupal Summit if anyone wants to connect.
+short: The ThinkShout team will be at the Pacific Northwest Drupal Summit if anyone wants to connect.
 author: lev
 ---
 *RedHen CRM is one of many great stories featured in the [Linux Journal's recent Drupal special addition](http://www.linuxjournal.com/content/drupal-special-edition). RedHen just laid a [beta3 release](http://drupal.org/node/1816026) and the ThinkShout team will be at the [Pacific Northwest Drupal Summit](http://2012.pnwdrupalsummit.org/) if anyone wants to connect.*

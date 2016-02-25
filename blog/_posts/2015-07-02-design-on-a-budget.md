@@ -14,8 +14,7 @@ header-image-alt:
 author: josh
 published: true
 featured: false
-short: |
-  A Designer's guide to working with project limitations
+short: A Designer's guide to working with project limitations
 tags:
 - Design
 - User Experience

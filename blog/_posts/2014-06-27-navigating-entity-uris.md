@@ -15,8 +15,7 @@ published: true
 featured: false
 author: gabe
 date: 2014-06-27 17:15:00
-short:
-  Find out how to wrestle proper URIs out of all sorts of stubborn entities, with an example from our Salesforce module.
+short:  Find out how to wrestle proper URIs out of all sorts of stubborn entities.
 tags:
   - Drupal Planet
   - Drupal

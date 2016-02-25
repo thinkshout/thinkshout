@@ -16,7 +16,7 @@ permalink: blog/2010/03/sean/evaluating-drupal-vendors-and-project-proposals/
 tags:
 - Drupal
 
-short: I often get asked to present on social media trends at nonprofit conferences - particularly in the river conservation community. These days, "tweating" is a household word, and many NPO technology decision-makers reach out to me to ask about the importance of integrating social media tools into the development of their websites.
+short: I often get asked to present on social media trends at nonprofit conferences.
 author: sean
 ---
 I often get asked to present on social media trends at nonprofit conferences - particularly in the river conservation community. These days, "tweating" is a household word, and many NPO technology decision-makers reach out to me to ask about the importance of integrating social media tools into the development of their websites.

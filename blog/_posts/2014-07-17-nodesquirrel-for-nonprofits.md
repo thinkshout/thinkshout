@@ -15,8 +15,7 @@ published: true
 featured: false
 author: stephanie
 date: 2014-07-17 11:00:00
-short: 
- Looking for a low-cost layer of backup security for your website? Consider NodeSquirrel.   
+short: Looking for a low-cost layer of backup security for your website? Consider NodeSquirrel.   
 tags:
 - Drupal Planet
 - NodeSquirrel

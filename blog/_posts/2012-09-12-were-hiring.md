@@ -15,7 +15,7 @@ created: 1347477483
 permalink: blog/2012/09/betsy/thinkshout-hiring-senior-engineer/
 tags:
 - jobs
-short: Well, we're at it again...our team is growing as we take on more and more exciting web application development projects mostly, but not exclusively, in Drupal. ThinkShout is looking to hiring for multiple positions!
+short: ThinkShout is looking to hiring for multiple positions!
 author: betsy
 ---
 Well, we're at it again...our team is growing as we take on more and more exciting web application development projects mostly, but not exclusively, in Drupal. ThinkShout is looking to hiring for multiple positions!

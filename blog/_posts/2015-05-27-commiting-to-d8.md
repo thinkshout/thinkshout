@@ -14,8 +14,7 @@ header-image-alt:
 author: amy
 published: true
 featured: false
-short: |
-  The story of one ThinkShouter's first commit to D8 core at DrupalCon Los Angeles
+short: The story of one ThinkShouter's first commit to D8 core at DrupalCon Los Angeles
 tags:
 - Drupal 8
 - Drupal Planet

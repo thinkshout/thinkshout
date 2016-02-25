@@ -15,7 +15,7 @@ featured: false
 title: |
   The New ThinkShout.com: The Cobbler’s Kids Get Fancy New Shoes
 author: brett
-short: "We are proud to unveil our new website as a reflection of our commitment to digital strategy and technical innovation."
+short: We are proud to unveil our new website.
 ---
 
 There's an allegory in the world of professional services about the *cobbler's kids*. In this story, the cobbler, a highly skilled craftsman, is so busy making fine shoes for his customers that he has no time to replace the worn out, shoddy shoes that his kids wear. The parallels are unfortunately clear here at ThinkShout. We pour our time into our clients' websites and sometimes our own website falls to the wayside. This year, we knew that had to change. We are armed with new, exciting tools and approaches and we thought it high time to use them on our own site.

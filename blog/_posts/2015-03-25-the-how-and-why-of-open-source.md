@@ -14,8 +14,7 @@ header-image-alt:
 author: sean
 published: true
 featured: false
-short: |
-  Let's debunk some open source myths.
+short: Let's debunk some open source myths.
 tags:
 - Drupal
 - Drupal Planet

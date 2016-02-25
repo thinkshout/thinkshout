@@ -19,7 +19,7 @@ tags:
 - Documentation
 - HowTo
 - Drupal Planet
-short: Like many developers, we get pretty psyched about building stuff. Sometimes it takes us a little longer to get excited about describing the stuff we built... but RedHen has been getting enough attention that it was time to do some communicating, especially considering we recently released version 7.x-1.2 of the module.
+short: RedHen version 7.x-1.2.
 author: gabe
 ---
 Like many developers, we get pretty psyched about building stuff. Sometimes it takes us a little longer to get excited about describing the stuff we built... but <a href="http://redhencrm.com/">RedHen</a> has been getting enough attention that it was time to do some communicating, especially considering we recently released <a href="(http://drupal.org/project/redhen">version 7.x-1.2</a> of the module.

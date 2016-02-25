@@ -14,8 +14,7 @@ header-image-alt:
 author: alex
 published: true
 featured: false
-short: |
-  Building a CMS-like menu system without the overhead of the CMS
+short: Building a CMS-like menu system without the overhead of the CMS
 tags:
 - Jekyll
 - menu

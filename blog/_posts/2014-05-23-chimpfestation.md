@@ -15,8 +15,7 @@ published: true
 featured: false
 author: gabe
 date: 2014-05-27 13:00:00
-short: |
-  There are plenty of features to go ape for in our latest beta release of the MailChimp Module.
+short: There are plenty of features to go ape for in our latest beta release of the MailChimp Module.
 tags:
 - Drupal Planet
 - Drupal Give

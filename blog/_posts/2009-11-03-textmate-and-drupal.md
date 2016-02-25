@@ -16,7 +16,7 @@ permalink: blog/2009/11/sean/textmate-and-drupal/
 tags:
 - Drupal
 
-short: This summer I joined the dark side...I moved away from using an Ubuntu laptop to a MacBook. More recently, I switched code editors from Komodo Edit to TextMate.
+short: Recently, I switched code editors from Komodo Edit to TextMate.
 author: sean
 ---
 <p>This summer I joined the dark side...I moved away from using an Ubuntu laptop to a MacBook. More recently, I switched code editors from Komodo Edit to TextMate.</p>

@@ -14,8 +14,7 @@ header-image-alt:
 author: david
 published: true
 featured: false
-short: |
-  We created an "action portal" for the Oregon Metro Zoo in Portland. Here's how.
+short: We created an "action portal" for the Oregon Metro Zoo in Portland. Here's how.
 tags:
 - social
 - sharing

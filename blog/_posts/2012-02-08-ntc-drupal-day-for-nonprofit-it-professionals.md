@@ -18,7 +18,7 @@ tags:
 - nonprofit tech
 - Drupal Give
 
-short: ThinkShout is proud to announce that we are facilitating the first ever Drupal Day for Nonprofit IT Professionals event at this year's Nonprofit Technology Conference (NTC) April 3rd, 2012, at the Hilton Union Square in San Francisco.
+short: The first ever Drupal Day for Nonprofit IT Professionals event at NTC.
 author: sean
 ---
 ThinkShout is proud to announce that we are facilitating the first ever __[Drupal Day for Nonprofit IT Professionals](http://www.nten.org/ntc/precon/drupal)__ event at this year's [Nonprofit Technology Conference](http://www.nten.org/ntc) (NTC) April 3rd, 2012, at the Hilton Union Square in San Francisco.

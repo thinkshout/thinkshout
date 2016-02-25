@@ -19,7 +19,7 @@ tags:
 - MailChimp
 - modules
 
-short: I first wrote the MailChimp module for a side project I was working on (MomHub) towards the end of 2007. It was my first standalone module, and the first one I posted on drupal.org. That module, and every update since, has basically offered the ability to synchronize a site's users with more one or more MailChimp lists based on role, in addition to standalone subscription forms. Over the years, the module has grown in popularity along with the MailChimp service itself, and there are now nearly 4000 reported installs. Still modest, but a sizable base which needs to be taken into consideration when releasing updates.
+short: A major milestone for integration between MailChimp and Drupal.
 author: lev
 ---
 <a href="http://mailchimp.com"><img src="http://thinkshout.com/sites/default/files/freddie.png" alt="Freddie" height="177" width="150" style="float:right; margin: 0 0 20px 0"></a>I first wrote the [MailChimp module](http://drupal.org/project/mailchimp) for a side project I was working on (MomHub) towards the end of 2007. It was my first standalone module, and the first one I posted on [drupal.org](http://drupal.org). That module, and every update since, has basically offered the ability to synchronize a site's users with more one or more MailChimp lists based on role, in addition to standalone subscription forms. Over the years, the module has grown in popularity along with the MailChimp service itself, and there are now nearly [4000 reported installs](http://drupal.org/project/usage/mailchimp). Still modest, but a sizable base which needs to be taken into consideration when releasing updates.

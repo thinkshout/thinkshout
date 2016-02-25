@@ -17,7 +17,7 @@ tags:
 - mapping
 - Drupal Planet
 
-short: Implementing truly gorgeous online maps still requires some custom code and technical know-how – but, the cost and learning curve involved has dropped considerably.
+short: Implementing truly gorgeous online maps still requires some custom code and technical know-how.
 author: sean
 ---
 <blockquote><p>The following article was recently published by the <a href="http://www.nten.org/articles/2012/terms-and-trends-in-diy-and-open-source-online-maps">Nonprofit Technology Network</a>, in advance of ThinkShout's upcoming presentation on online mapping technologies at the <a href="http://www.nten.org/ntc">2012 Nonprofit Technology Conference</a>.</p></blockquote>

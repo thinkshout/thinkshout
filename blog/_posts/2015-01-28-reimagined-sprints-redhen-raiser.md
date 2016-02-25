@@ -14,8 +14,7 @@ header-image-alt:
 author: jaden
 published: true
 featured: false
-short: |
-  Great team sprints lead to great team accomplishments.
+short: Great team sprints lead to great team accomplishments.
 tags:
 - Drupal
 - Nonprofit Tech

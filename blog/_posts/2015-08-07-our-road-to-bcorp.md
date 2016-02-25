@@ -14,8 +14,7 @@ title: Our Road to B Corp
 author: krista
 published: true 
 featured: false
-short: 
-   Our tips on getting through the B Corp application process
+short: Our tips on getting through the B Corp application process
 tags: 
   - B Corp
   - Our Mission

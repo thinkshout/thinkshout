@@ -18,7 +18,7 @@ tags:
 - nonprofit tech
 - Drupal Planet
 - Drupal Give
-short: After a year of scheming and over 700 hours of very intense development, ThinkShout is proud to announce the Alpha release of RedHen CRM.
+short: ThinkShout is proud to announce the Alpha release of RedHen CRM.
 author: sean
 ---
 ## Introducing RedHen CRM

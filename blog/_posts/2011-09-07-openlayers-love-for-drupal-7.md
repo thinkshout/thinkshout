@@ -19,7 +19,7 @@ tags:
 - mapping
 - modules
 
-short: Mapping has become a significant component of many of ThinkShout's projects over the last couple years, included on sites such as Save Our Gulf, James River Association, and the Lower Columbia River Estuary Partnership . The tools we use are constantly evolving. For example, we recently launched a bacteria monitoring site for Blue Water Baltimore (note, staging site) using Cloudmade's Leaflet and an accompanying Drupal module of the same name. But the OpenLayers map scripting library and Drupal module have been sophisticated mainstays. During that time, we've contributed a few of our own add-ons to meet our client's needs, namely OpenLayers Field, OpenLayers KML Layer, and OpenLayers Taxonomy. The first is a new module for Drupal 7's field system and the latter 2 were originally built for D6 and just ported to D7. We worked with the esteemed Alan Palazzolo, current maintainer of flagship OpenLayers's module, on all 3 projects, which now have beta releases.
+short: Mapping has become a significant component of many of ThinkShout's projects over the last couple years.
 author: lev
 ---
 <img src="http://drupal.org/files/images/openlayers_monster.thumbnail.png" title="OpenLayers" style="float:left; margin:0 10px 0 0" />

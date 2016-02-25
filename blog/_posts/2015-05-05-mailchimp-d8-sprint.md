@@ -14,8 +14,7 @@ header-image-alt:
 author: marci
 published: true
 featured: false
-short: |
-  Porting the MailChimp Module to Drupal 8 for DrupalCon LA
+short: Porting the MailChimp Module to Drupal 8 for DrupalCon LA
 tags:
 - Drupal Planet
 - Open Source

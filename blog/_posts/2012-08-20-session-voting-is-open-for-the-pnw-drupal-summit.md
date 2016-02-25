@@ -17,7 +17,7 @@ tags:
 - Drupal
 - Style Tiles
 - JavaScript
-short: Well, the PNW Drupal Summit session submission has drawn to a close and voting is now open! At ThinkShout, we’re really excited to be sponsoring this year and are looking forward to seeing the final session schedule after voting closes on August 27.
+short: Voting closes on August 27.
 author: betsy
 ---
 Well, the PNW Drupal Summit session submission has drawn to a close and voting is now open!  At ThinkShout, we’re really excited to be sponsoring this year and are looking forward to seeing the final session schedule after voting closes on August 27.  

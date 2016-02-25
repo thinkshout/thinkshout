@@ -14,7 +14,7 @@ title: Drupal Menu Hell(p)
 created: 1274939908
 permalink: blog/2010/05/lev/drupal-menu-hellp/
 tags: 
-short: I recently had to implement what seemed like a very simple feature for a client, moving several of the local tasks located on a user's profile page into the site's primary menu. The menu paths in question are dynamic, E.g, /user/%/edit, /user/%/orders, /user/%/notifications, etc., which at first seemed like slight complication. So how to tackle this? At first blush, one might think that you can just use the Menu module to add a dynamic menu item though the GUI or menu API. Well, that won't work. You can only create a menu item that way for an existing path that you have access to. Luckily, Drupal provides a hook that seems like the perfect solution.
+short: I recently had to implement what seemed like a very simple feature for a client...
 author: lev
 
 ---

@@ -15,8 +15,7 @@ published: true
 featured: false
 author: alex
 date: 2014-06-17 17:00:00
-short: |
- Having trouble applying infinite scroll to custom block content? We've got a process for that.
+short: Having trouble applying infinite scroll to custom block content? We've got a process for that.
 tags:
 - masonry
 - Drupal Planet

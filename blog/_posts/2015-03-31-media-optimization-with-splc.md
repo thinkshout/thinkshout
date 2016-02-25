@@ -14,8 +14,7 @@ header-image-alt:
 author: eric
 published: true
 featured: false
-short: |
-  Being mindful of bandwidth and network latency on media-heavy sites.
+short: Being mindful of bandwidth and network latency on media-heavy sites.
 tags:
 - SPLC
 - Media

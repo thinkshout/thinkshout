@@ -18,7 +18,7 @@ tags:
 - Drupal Give
 - Drupal Planet
 
-short: The Relevent Content Bean provides your site administrators with a light-weight query builder for creating blocks that contain nodes. Like Views, Relevant Content Bean allows you to select the number of node results to display, apply filters to the list of returned nodes, change the display options for these nodes, and manage the sort order of these results.
+short: Allow site admins to create their own dynamically-filtered listings of node content in a block.
 author: sean
 ---
 Have you ever wished that there was a simpler solution for allowing site adminstrators to create their own dynamically-filtered listings of node content in a block? Of course, you can very quickly create such listings with Views, but the Views approach presents certain tradeoffs that aren't always idea for sites managed by non-developers. In our experience, the tradeoffs of site administers using Views often include the following:

@@ -22,7 +22,7 @@ tags:
 - business strategy
 - discovery
 - association management
-short: With the session submission deadline drawing to a close for DrupalCon Portland 2013, ThinkShout (along with many other fine Drupal community members) participated in the mad rush to get all of our awesome session ideas in on time! The DrupalCon session committee has a busy couple of weeks coming their way, and in the meantime, we'd love to hear your comments and feedback on our presentation ideas.
+short: The session submission deadline drawing to a close for DrupalCon Portland 2013
 author: betsy
 ---
 <img src="http://portland2013.drupal.org/sites/default/files/drupalcon_pdx_icon_2.png" alt="DrupalCon Portland" title="DrupalCon Portland" height="200" width="163" img style="float:right"/>

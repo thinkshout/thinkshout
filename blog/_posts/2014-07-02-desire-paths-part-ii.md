@@ -15,8 +15,7 @@ published: true
 featured: false
 author: brett-meyer
 date: 2014-07-03 14:00:00
-short: 
- Your site's metrics will tell you a lot about your content. Learn how to interpret the numbers and develop your action steps.
+short:  Your site's metrics will tell you a lot about your content.
 tags: 
 - Desire paths
 - Content strategy

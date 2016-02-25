@@ -17,7 +17,7 @@ permalink: blog/2013/01/betsy/portland-drupal-business-summit-leverage-power-ope
 tags:
 - Portland Drupal Business Summit
 - Drupal
-short: ThinkShout is excited to be organizing the first ever Portland Drupal Business Summit in partnership with MetalToad, OpenSourcery, SuperStar Media, Liveaxle, and the Technology Association of Oregon. We have an exciting line up of speakers including keynote speaker Kevin Colligan, the head of digital media for the GRAMMY Awards.
+short: In partnership with MetalToad, OpenSourcery, SuperStar Media, Liveaxle, and the Technology Association of Oregon. 
 author: betsy
 ---
 ThinkShout is excited to be organizing the first ever [Portland Drupal Business Summit](http://pdxdbs.org/) in partnership with [MetalToad](http://www.metaltoad.com/), [OpenSourcery](http://www.opensourcery.com/), [SuperStar Media](http://superstarmedia.com/site/), [Liveaxle](http://liveaxle.com/), and the [Technology Association of Oregon](http://www.techoregon.org/).  We have an exciting line up of speakers including keynote speaker [Kevin Colligan](http://pdxdbs.org/#who), the head of digital media for the [GRAMMY Awards](http://www.grammy.com/). 

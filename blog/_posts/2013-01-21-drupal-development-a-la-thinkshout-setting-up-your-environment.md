@@ -18,8 +18,7 @@ tags:
 - git
 - drush
 - Developer Tools
-short: |
-  After a decade of having day-to-day IT support as one of my job responsibilities (no longer, thankfully!), I feel pretty confident making existing software behave the way I want it to. Until, that is, it's time to set up a development environment: the domain of developers is naturally fraught with some of the most obtuse configuration oddities. So, for all of you out there who just want to get your Drupal development environment running with minimal headaches, I present "Drupal Dev a la ThinkShout in 5 Coherent Steps".
+short: The domain of developers is naturally fraught with some of the most obtuse configuration oddities. 
 author: gabe
 ---
 I've done more than my fair share of office IT support, and I feel pretty confident making existing software behave the way I want it to. Until, that is, it's time to set up a development environment: the domain of developers is fraught with some particularly obtuse configuration oddities. To save headaches here at ThinkShout, I documented our basic setup steps, and thought it might be of use to the community. So, for anyone out there who just wants to get a Drupal development environment running with minimal headaches, I present "Drupal Dev a la ThinkShout in x Coherent Steps". I'll try to keep this updated based on feedback and changes over time. Let's call this version 0.9 as of January 2013.

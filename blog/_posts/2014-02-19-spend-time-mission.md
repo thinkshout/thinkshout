@@ -17,8 +17,7 @@ tags:
 - nonprofit tech
 - tools
 - project management
-short: |
-  I recently had drinks with an old friend who had worked for many years in the nonprofit sector before moving into another sector. I asked him what influenced his decision to make the switch from helping families cope in therapy to designing ads for Nike. I was surprised to hear that the reason for his moving away from the nonprofit world was the overwhelming amount of administrative energy that goes into managing a nonprofit organization, which he felt took away the focus of their mission.
+short: Top four project management tools for the nonprofit world
 ---
 
 I recently had drinks with an old friend who had worked for many years in the nonprofit sector before moving into another sector. I asked him what influenced his decision to make the switch from helping families cope in therapy to designing ads for Nike. I was surprised to hear that the reason for his moving away from the nonprofit world was the overwhelming amount of administrative energy that goes into managing a nonprofit organization, which he felt took away the focus of their mission. I was shocked! And heartbroken to hear something as little as the process of filing papers, could take away from the heart of what it was all about….

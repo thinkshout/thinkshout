@@ -21,7 +21,7 @@ tags:
 - Fundraising
 - Data Visualization
 
-short: If you've never been to the Bay Area Drupal Camp, we strongly recommend you consider attending this year. It's become our team's most anticipated pilgrimage. In many ways, it embodies exactly what we love about the Drupal community. Of course, we focus on the nonprofit sector, and the now 3rd-annual BADCamp Nonprofit Summit is one of our favorite days of the year.
+short: If you've never been to the Bay Area Drupal Camp, we strongly recommend you consider attending this year.
 author: betsy
 ---
 If you've never been to the [Bay Area Drupal Camp](http://2013.badcamp.net), we strongly recommend you consider attending this year. It's become our team's most anticipated pilgrimage. In many ways, it embodies *exactly* what we love about the Drupal community. Of course, we focus on the nonprofit sector, and the now 3rd-annual [BADCamp Nonprofit Summit](http://2013.badcamp.net/events/drupal-non-profit-summit) is one of our favorite days of the year.

@@ -14,8 +14,7 @@ header-image-alt:
 author: david
 published: true
 featured: false
-short: |
-  Learn everything you need to know to start using Behat today.
+short: Learn everything you need to know to start using Behat today.
 tags:
 - behat
 - testing

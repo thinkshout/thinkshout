@@ -17,7 +17,7 @@ tags:
 - 13ntc
 - Drupal
 - Drupal Planet
-short: A few days into my work with ThinkShout, I'm pleased to report that everything I always knew must be doable with Drupal isn't just possible, it's in process. I've seen things people wouldn't believe. Engagement scoring tied to user activity. I watched email sent from a website report stats back to an ESP.
+short: Everything I always knew must be doable with Drupal isn't just possible, it's in process. 
 author: brett-meyer
 ---
 <p>A few days into my work with ThinkShout, I'm pleased to report that everything I always knew must be doable with Drupal isn't just possible, it's in process. I've seen things people wouldn't believe. <a href="http://drupal.org/project/redhen">Engagement scoring tied to user activity</a>. I watched <a href="http://drupal.org/project/mailchimp">email sent from a website report stats back</a> to an <a href="http://en.wikipedia.org/wiki/Email_service_provider">ESP</a>.</p>

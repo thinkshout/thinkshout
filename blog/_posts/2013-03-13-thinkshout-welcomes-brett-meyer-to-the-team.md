@@ -16,7 +16,7 @@ permalink: blog/2013/03/sean/thinkshout-welcomes-brett-meyer-team/
 tags:
 - Drupal Planet
 - NTEN
-short: ThinkShout is very proud to announce that Brett Meyer has joined our team as our new Technical Project Manager!
+short: ThinkShout is very proud to announce that Brett Meyer has joined our team.
 author: sean
 ---
 ThinkShout is very proud to announce that [Brett Meyer](https://twitter.com/brett_meyer) has joined our team as our new Technical Project Manager!

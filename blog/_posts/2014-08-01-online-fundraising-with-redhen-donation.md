@@ -15,8 +15,7 @@ published: true
 featured: false
 author: stephanie
 date: 2014-08-01 13:00:00
-short:
-  ThinkShout is proud to offer RedHen Donation, a new online donation form.
+short: ThinkShout is proud to offer RedHen Donation, a new online donation form.
 tags:
  - Drupal Planet
  - RedHen Donation

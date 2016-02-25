@@ -14,7 +14,7 @@ title: ThinkShout has a new world headquarters
 created: 1250622000
 permalink: blog/2009/08/sean/thinkshout-has-new-world-headquarters/
 tags: 
-short: We're proud to announce that we have new digs in a cool new sustainable industries incubator in the heart of downtown Portland, called the Dekum Beehive. Currently, we're pretty busy moving in, but we did take some time this morning to take some pictures of the new space. Check us out on Flickr and stay tuned to hear more about our rooftop office warming party in two weeks!
+short: Some pictures of the new space!
 author: sean
 ---
 <p>We're proud to announce that we have new digs in a cool new sustainable industries incubator in the heart of downtown Portland, called the Dekum Beehive. Currently, we're pretty busy moving in, but we did take some time this morning to take some pictures of the new space. Check us out on <a href="http://www.flickr.com/photos/16922742@N03/" target="_blank">Flickr</a> and stay tuned to hear more about our rooftop office warming party in two weeks!</p>

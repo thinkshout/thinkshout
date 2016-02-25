@@ -15,7 +15,7 @@ header-image-alt:
 
 published: true
 featured: false
-short: Synchronizing 300,000+ Salesforce records with Drupal RedHen for Facing History and Ourselves
+short: Synchronizing 300,000+ Salesforce records with Drupal RedHen
 tags:
   - Drupal Planet
   - RedHen
