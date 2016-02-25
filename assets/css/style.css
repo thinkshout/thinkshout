@@ -3112,6 +3112,9 @@ header {
   .bcorp-info-block .fa-caret-right {
     color: #f1b332; }
 
+.our-team-block img {
+  max-width: 100%; }
+
 @font-face {
   font-family: 'ts';
   src: url("../fonts/ts/ts.eot");
