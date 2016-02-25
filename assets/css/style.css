@@ -3085,6 +3085,7 @@ header {
     display: table; }
 
 .intro .text {
+  color: #58585b;
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -3109,7 +3110,6 @@ header {
       .intro .text:last-child {
         margin-right: 0; } }
   .intro .text h1 {
-    color: #58585b;
     font-size: 2.8125rem;
     font-weight: bold;
     margin-top: 0; }
