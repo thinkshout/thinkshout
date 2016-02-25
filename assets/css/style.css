@@ -2193,14 +2193,17 @@ a {
 .blog-post .body ul,
 .blog-post .body ol,
 .blog-post .body div.highlighter-rouge,
+.blog-post .body iframe,
 .blog-post .intro h2,
 .blog-post .intro h3,
 .blog-post .intro p,
 .blog-post .intro blockquote,
 .blog-post .intro ul,
 .blog-post .intro ol,
-.blog-post .intro div.highlighter-rouge {
+.blog-post .intro div.highlighter-rouge,
+.blog-post .intro iframe {
   color: #58585b;
+  display: block;
   margin: 1em auto;
   max-width: 996px;
   padding: 0 1.25rem;
@@ -2213,13 +2216,15 @@ a {
     .blog-post .body ul,
     .blog-post .body ol,
     .blog-post .body div.highlighter-rouge,
+    .blog-post .body iframe,
     .blog-post .intro h2,
     .blog-post .intro h3,
     .blog-post .intro p,
     .blog-post .intro blockquote,
     .blog-post .intro ul,
     .blog-post .intro ol,
-    .blog-post .intro div.highlighter-rouge {
+    .blog-post .intro div.highlighter-rouge,
+    .blog-post .intro iframe {
       width: 90%;
       padding: 0 2.5rem; } }
   @media (min-width: 980px) and (max-width: 1199px) {
@@ -2230,13 +2235,15 @@ a {
     .blog-post .body ul,
     .blog-post .body ol,
     .blog-post .body div.highlighter-rouge,
+    .blog-post .body iframe,
     .blog-post .intro h2,
     .blog-post .intro h3,
     .blog-post .intro p,
     .blog-post .intro blockquote,
     .blog-post .intro ul,
     .blog-post .intro ol,
-    .blog-post .intro div.highlighter-rouge {
+    .blog-post .intro div.highlighter-rouge,
+    .blog-post .intro iframe {
       width: 90%;
       padding: 0 3.75rem; } }
   @media (min-width: 1200px) {
@@ -2247,13 +2254,15 @@ a {
     .blog-post .body ul,
     .blog-post .body ol,
     .blog-post .body div.highlighter-rouge,
+    .blog-post .body iframe,
     .blog-post .intro h2,
     .blog-post .intro h3,
     .blog-post .intro p,
     .blog-post .intro blockquote,
     .blog-post .intro ul,
     .blog-post .intro ol,
-    .blog-post .intro div.highlighter-rouge {
+    .blog-post .intro div.highlighter-rouge,
+    .blog-post .intro iframe {
       width: 100%;
       padding: 0 6.25rem; } }
   .blog-post .body h2 a,
@@ -2263,13 +2272,15 @@ a {
   .blog-post .body ul a,
   .blog-post .body ol a,
   .blog-post .body div.highlighter-rouge a,
+  .blog-post .body iframe a,
   .blog-post .intro h2 a,
   .blog-post .intro h3 a,
   .blog-post .intro p a,
   .blog-post .intro blockquote a,
   .blog-post .intro ul a,
   .blog-post .intro ol a,
-  .blog-post .intro div.highlighter-rouge a {
+  .blog-post .intro div.highlighter-rouge a,
+  .blog-post .intro iframe a {
     color: #f26d21; }
   .blog-post .body h2 img,
   .blog-post .body h3 img,
@@ -2278,17 +2289,21 @@ a {
   .blog-post .body ul img,
   .blog-post .body ol img,
   .blog-post .body div.highlighter-rouge img,
+  .blog-post .body iframe img,
   .blog-post .intro h2 img,
   .blog-post .intro h3 img,
   .blog-post .intro p img,
   .blog-post .intro blockquote img,
   .blog-post .intro ul img,
   .blog-post .intro ol img,
-  .blog-post .intro div.highlighter-rouge img {
+  .blog-post .intro div.highlighter-rouge img,
+  .blog-post .intro iframe img {
     max-width: 100%; }
 .blog-post .body ul li,
 .blog-post .intro ul li {
   letter-spacing: 0;
+  line-height: 1.5;
+  margin-left: 1rem;
   padding-bottom: 0.75rem;
   padding-left: 1.375rem;
   text-indent: -1.3em; }
@@ -2304,13 +2319,18 @@ a {
 .blog-post .intro ol li {
   font-size: 0.9375rem;
   letter-spacing: 0;
+  line-height: 1.5;
+  margin-left: 1rem;
   list-style-type: decimal;
   margin-left: 2.25rem;
   padding-bottom: 0.75rem;
   padding-left: 1.125rem; }
 .blog-post .body li p,
 .blog-post .intro li p {
-  padding: 0; }
+  padding: 0;
+  display: inline;
+  margin-left: -0.375rem;
+  line-height: 1.5; }
 .blog-post .body h2,
 .blog-post .intro h2 {
   color: #626262;
@@ -2383,9 +2403,25 @@ a {
   .blog-post .pagination .next {
     display: inline-block;
     float: left;
-    font-size: 1.25rem; }
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    max-width: 49%; }
+    .blog-post .pagination .previous a,
+    .blog-post .pagination .next a {
+      display: table;
+      height: 100%;
+      width: 100%; }
+      .blog-post .pagination .previous a span,
+      .blog-post .pagination .next a span {
+        display: table-cell;
+        padding-right: 0.8rem;
+        vertical-align: middle; }
+      .blog-post .pagination .previous a .fa,
+      .blog-post .pagination .next a .fa {
+        font-size: 1.5rem; }
   .blog-post .pagination .next {
-    float: right; }
+    float: right;
+    text-align: right; }
 
 @media (max-width: 480px) {
   .case-study .main-content {

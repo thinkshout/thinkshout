@@ -61,8 +61,10 @@
     blockquote,
     ul,
     ol,
-    div.highlighter-rouge {
+    div.highlighter-rouge,
+    iframe {
       color: $darkgray;
+      display: block;
       margin: 1em auto;
       max-width: 996px;
       padding: 0 rem(20);
@@ -80,6 +82,8 @@
 
     ul li {
       letter-spacing: 0;
+      line-height: 1.5;
+      margin-left: 1rem;
       padding-bottom: rem(12);
       padding-left: rem(22);
       text-indent: -1.3em;
@@ -96,6 +100,8 @@
     ol li {
       font-size: rem(15);
       letter-spacing: 0;
+      line-height: 1.5;
+      margin-left: 1rem;
       list-style-type: decimal;
       margin-left: rem(36);
       padding-bottom: rem(12);
@@ -104,6 +110,9 @@
 
     li p {
       padding: 0;
+      display: inline;
+      margin-left: rem(-6);
+      line-height: 1.5;
     }
 
     h2 {
@@ -170,10 +179,26 @@
     .next {
       display: inline-block;
       float: left;
-      font-size: rem(20);
+      font-size: rem(18);
+      margin-bottom: 1rem;
+      max-width: 49%;
+      a {
+        display: table;
+        height: 100%;
+        width: 100%;
+        span {
+          display: table-cell;
+          padding-right: 0.8rem;
+          vertical-align: middle;
+        }
+        .fa {
+          font-size: rem(24);
+        }
+      }
     }
     .next {
       float: right;
+      text-align: right;
     }
 
   }
