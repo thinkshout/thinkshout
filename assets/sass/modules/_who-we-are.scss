@@ -14,21 +14,65 @@
 
   h4 {
     font-size: rem(14);
-  }
-
-  .header-right-caret {
-    padding: 1rem;
     text-transform: uppercase;
-    @include span-columns(2);
+
+    @include mq(t) { margin: 0; }
+    @include mq(m) { margin: 0; }
   }
 
-  .header-right-caret i {
-    border-left: 3px solid $ltgray;
+  .right-caret {
+    padding-top: 1rem;
+    @include span-columns(2);
+
+    @include mq(t) { display: none; }
+    @include mq(m) { display: none; }
+  }
+
+  .right-caret i {
     color: $ltgray;
     font-size: 1.5rem;
+    vertical-align: sub;
+  }
+
+  .fa-caret-right {
+    border-left: 3px solid $ltgray;
     margin-left: 0.5rem;
     padding: 0.75rem 0;
-    vertical-align: sub;
+
+    @include mq(t) { display: none; }
+    @include mq(m) { display: none; }
+  }
+
+  .down-caret {
+    position: relative;
+    @include mq(d) { display: none; }
+    @include mq(t) { @include span-columns(12); }
+    @include mq(m) { @include span-columns(12); }
+
+    h4 {
+      padding-bottom: 1rem;
+    }
+
+    &:after {
+      content: '';
+      background: $ltgray;
+      bottom: 0;
+      left: 0;
+      height: 3px;
+      position: absolute;
+      width: 55px;
+    }
+  }
+
+  .fa-caret-down {
+    color: $ltgray;
+    font-size: 1.5rem;
+    margin-top: -9px;
+    padding-left: 1.25rem;
+    padding-top: 0;
+    position: absolute;
+
+    @include mq(d) { display: none; }
   }
 
   .row {
