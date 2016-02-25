@@ -3844,8 +3844,32 @@ header {
   .bcorp-info-block .fa-caret-right {
     color: #f1b332; }
 
-.our-team-block img {
-  max-width: 100%; }
+.our-team-block {
+  color: #292929;
+  padding: 5rem 0; }
+  @media (min-width: 481px) and (max-width: 979px) {
+    .our-team-block {
+      padding: 3rem 0; } }
+  @media (max-width: 480px) {
+    .our-team-block {
+      padding: 2rem 0; } }
+  .our-team-block h2 {
+    margin: 0; }
+  @media (min-width: 980px) {
+    .our-team-block p,
+    .our-team-block a {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%; }
+      .our-team-block p:last-child,
+      .our-team-block a:last-child {
+        margin-right: 0; } }
+  .our-team-block a {
+    color: #292929; }
+  .our-team-block img {
+    margin-top: 2rem;
+    max-width: 100%; }
 
 .work-with-us {
   background-size: cover;
