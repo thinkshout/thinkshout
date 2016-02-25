@@ -42,7 +42,7 @@ Let's start with hook_date_formats(). This accomplishes the same thing as creati
 
 Here's an example.
 
-```php
+~~~php
 <?php
 /**
  * Implements hook_date_formats().
@@ -63,7 +63,7 @@ function mysite_common_date_formats() {
     ),
   );
 }
-```
+~~~
 
 The type points to the date format type that this format will be available for. I tend to make it unique and prefix it with the site name in order to avoid future namespace collisions. You may want to prefix it with the full module name. The format key is a string that ends up getting passed to `date()`. I usually leave locales as an empty array because I want the date format to be available for all locales.
 
@@ -75,7 +75,7 @@ Moving on to hook_date_format_types(). This is similar to creating a "date type"
 
 Here's the example:
 
-```php
+~~~php
 <?php
 /**
  * Implements hook_date_format_types().
@@ -85,7 +85,7 @@ function mysite_common_date_format_types() {
     'mysite_short_y_m' => t('Short: YYYY-MM'),
   );
 }
-```
+~~~
 
 Clear caches, return to your site's date format settings, and you'll see your new date format.
 

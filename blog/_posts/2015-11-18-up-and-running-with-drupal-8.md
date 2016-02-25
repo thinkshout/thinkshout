@@ -42,89 +42,89 @@ The composer template mentioned above works great for a basic D8 install, but if
 
 This is the method we’ll be using for the rest of this post.
 
-First, [install composer](https://getcomposer.org/doc/00-intro.md). We’re using OSX with [Homebrew](http://brew.sh/), so this is fairly simple - ```brew install composer```. Note: after implementing this, add this to your ```.bashrc``` (or similar):
+First, [install composer](https://getcomposer.org/doc/00-intro.md). We’re using OSX with [Homebrew](http://brew.sh/), so this is fairly simple - `brew install composer`. Note: after implementing this, add this to your `.bashrc` (or similar):
 
-```bash
-    export PATH="$HOME/.composer/vendor/bin:$PATH"
-```
+~~~bash
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+~~~
 
 Next, ensure you have [Drush 8](https://www.lullabot.com/articles/switching-drush-versions) installed. We prefer the [Composer global install](http://docs.drush.org/en/master/install-alternative/#install-a-global-drush-via-composer) approach to make updating Drush as simple as running `composer global update`.
 
-Next, [download](https://github.com/drupal-composer/drupal-project/archive/8.x.zip) the full composer profile, and unzip it into an appropriate local directory (We use a ```~/Sites/``` directory to hold all of our projects).
+Next, [download](https://github.com/drupal-composer/drupal-project/archive/8.x.zip) the full composer profile, and unzip it into an appropriate local directory (We use a `~/Sites/` directory to hold all of our projects).
 
-Note: the Drupal Composer project updates regularly. If you run into any errors, re-download it. You could alternately create an [installation profile](https://www.drupal.org/node/2210443) in the ```web/profiles``` folder, but that seems to be a tad under-documented and still not fully baked.
+Note: the Drupal Composer project updates regularly. If you run into any errors, re-download it. You could alternately create an [installation profile](https://www.drupal.org/node/2210443) in the `web/profiles` folder, but that seems to be a tad under-documented and still not fully baked.
 
-Now that we have a default site scaffold in place, we can get back to the post-install method. If you want to run the site installer after composer installs Drupal, in the ```post-install.sh``` file, you would add:
+Now that we have a default site scaffold in place, we can get back to the post-install method. If you want to run the site installer after composer installs Drupal, in the `post-install.sh` file, you would add:
 
-```bash
-    cd web;drush si --site-name="SITENAME" --db-url=mysql://root:PASSWORD@HOSTNAME/DBNAME -y;cd ../
-```
+~~~bash
+cd web;drush si --site-name="SITENAME" --db-url=mysql://root:PASSWORD@HOSTNAME/DBNAME -y;cd ../
+~~~
 
-For the above, replace ```SITENAME, PASSWORD, HOSTNAME```(we use localhost) and ```DBNAME```.
+For the above, replace `SITENAME, PASSWORD, HOSTNAME`(we use localhost) and `DBNAME`.
 
-One of the D8 Bookclub challenges was completing the installation without any warnings appearing on the Status Reports page at ```/admin/reports/status```. We also want to specify the configuration sync directory, so that it’s not site-unique.
+One of the D8 Bookclub challenges was completing the installation without any warnings appearing on the Status Reports page at `/admin/reports/status`. We also want to specify the configuration sync directory, so that it’s not site-unique.
 
-The trick here is to use a series of permission and site config tweaks. After the site install code above, add the following to your ```post-install.sh```:
+The trick here is to use a series of permission and site config tweaks. After the site install code above, add the following to your `post-install.sh`:
 
-```bash
-    chmod 777 web/sites/default/s*;
+~~~bash
+chmod 777 web/sites/default/s*;
 
-    #Prepare the custom sync directory, which will sit outside of the web root
+#Prepare the custom sync directory, which will sit outside of the web root
 
-    if [ ! -d configs ]
-    then mkdir -m777 configs
-    fi
+if [ ! -d configs ]
+then mkdir -m777 configs
+fi
 
-    echo "\$config_directories['sync'] = '../configs';" >> web/sites/default/settings.php
+echo "\$config_directories['sync'] = '../configs';" >> web/sites/default/settings.php
 
-    echo "\$settings['trusted_host_patterns'] = array('SITENAME\.dev$',);" >> web/sites/default/settings.php
+echo "\$settings['trusted_host_patterns'] = array('SITENAME\.dev$',);" >> web/sites/default/settings.php
 
-    chmod 444 web/sites/default/s*
+chmod 444 web/sites/default/s*
 
-    chmod -R 777 web/sites/default/files
-```
+chmod -R 777 web/sites/default/files
+~~~
 
 
 This will make the `settings.php` file editable, create a sync directory below the web root (bonus security!), add the sync directory path, add the [trusted host pattern](https://api.drupal.org/api/drupal/core!lib!Drupal!Core!DrupalKernel.php/function/DrupalKernel%3A%3AsetupTrustedHosts/8) (a new D8 requirement), secure the file, and make the `web/sites/default/files` folder globally writable.
 
 Now you’re ready to run the installation! From the base directory, run:
 
-```bash
-    composer install
-```
+~~~bash
+composer install
+~~~
 
 This will take a while, since it’s downloading Drupal and all the modules.
 After initial installation, perform a full export and an immediate import/sync of your site configuration profile. This can be done two ways:
 
-1. Via the gui: `/admin/config/development/configuration/full/export`
+1. Via the gui: `/admin/config/development/configuration/full/export`  
 
-    Save this export file! Any subsequent sites will need this as a starting point so that entity mismatches don’t occur.
+   Save this export file! Any subsequent sites will need this as a starting point so that entity mismatches don’t occur.
 
-2. Via Drush (run from the `/web` directory):
+2. Via Drush (run from the `/web` directory):  
 
-```bash
-    drush config-export
-    drush config-import sync
-```
+~~~bash
+drush config-export
+drush config-import sync
+~~~
 
 This will export and then sync all of your config files in the configuration directory we specified in the post-install script.
 
 You would then check in this version of the site - a commit message such as ‘Base Site profile’ would be helpful. Here’s a quick set of command-line git repo creation commands, starting with an installation of hub, the [command-line wrapper](https://hub.github.com/) for GitHub (this will allow you to use GitHub’s 2-factor authentication):
 
-```bash
-    brew install hub
-    git init
-    hub create
-    git add .
-    git commit -m 'Base Site profile'
-    git push --set-upstream origin master
-```
+~~~bash
+brew install hub
+git init
+hub create
+git add .
+git commit -m 'Base Site profile'
+git push --set-upstream origin master
+~~~
 
 After that, you can check out additional sites by creating a directory, cd into that directory, and running a git clone command inside it, such as:
 
-```bash
-    git clone git@github.com:USER/REPOSITORY.git .
-```
+~~~bash
+git clone git@github.com:USER/REPOSITORY.git .
+~~~
 
 Now you can run `composer install to build your clone.
 
@@ -132,11 +132,11 @@ Optional: edit the `post-install.sh prior to running `composer install` if you�
 
 ##Syncing Sites##
 
-Site configurations are only exportable to sites that have the same UUID and have synced using the shared base configuration profile. To find your site’s UUID, cd to the web folder of the base site, then run ```drush config-get system.site```. After that, any new site can be synced using these steps immediately after a fresh install (either via download or Git clone):
+Site configurations are only exportable to sites that have the same UUID and have synced using the shared base configuration profile. To find your site’s UUID, cd to the web folder of the base site, then run `drush config-get system.site`. After that, any new site can be synced using these steps immediately after a fresh install (either via download or Git clone):
 
-```bash
-    drush config-edit system.site (Update the UUID to match the base site)
-```
+~~~bash
+drush config-edit system.site (Update the UUID to match the base site)
+~~~
 
 If you manually saved the files, upload the base site config profile, but do not sync it
 
@@ -144,11 +144,11 @@ If you manually saved the files, upload the base site config profile, but do not
  -OR-
 
 
-If you cloned the repo, the files should be in place. If the git repo has moved beyond the base install, check out the repo at the ‘Base Site Profile’ stage mentioned above using ```git reset --hard $SHA1``` (where $SHA1 is the SHA of the Base Site Profile)
+If you cloned the repo, the files should be in place. If the git repo has moved beyond the base install, check out the repo at the ‘Base Site Profile’ stage mentioned above using `git reset --hard $SHA1` (where $SHA1 is the SHA of the Base Site Profile)
 
-```bash
-    drush config-import --partial
-```
+~~~bash
+drush config-import --partial
+~~~
 
 Important Note: Every new instance MUST start with the same base configuration profile, otherwise you may have entity mismatch issues, even with the partial import. After the initial sync is complete, you can pull in config files via Git and sync will work as expected, even over multiple configuration changes.
 

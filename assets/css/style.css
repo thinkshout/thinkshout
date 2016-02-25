@@ -2308,6 +2308,9 @@ a {
   margin-left: 2.25rem;
   padding-bottom: 0.75rem;
   padding-left: 1.125rem; }
+.blog-post .body li p,
+.blog-post .intro li p {
+  padding: 0; }
 .blog-post .body h2,
 .blog-post .intro h2 {
   color: #626262;

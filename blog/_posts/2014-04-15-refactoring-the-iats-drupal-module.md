@@ -54,12 +54,12 @@ We set out to redesign the module's architecture and rebuild it with modularity 
 
 The first lines of `commerce_iats_process_payment()` demonstrate how the callback function is used:
 
-```php
+~~~php
 <?php
 function commerce_iats_process_payment($payment_method, $payment_data, $order, $charge, $payment_callback) {
   // Process the payment using the defined callback method.
   $response = $payment_callback($payment_method, $payment_data, $order, $charge);
-```
+~~~
 
 #### Broke payment methods out into their own include files
 
@@ -74,10 +74,10 @@ Then we added our own callback function, `commerce_iats_process_credit_card_paym
 
 The callback function handles building the API request and getting a response from the API. To show how this works, here's a line from `commerce_iats_credit_card_submit_form_submit()`:
 
-```php
+~~~php
 <?php
 return commerce_iats_process_payment($payment_method, $payment_data, $order, $charge, 'commerce_iats_process_credit_card_payment');
-```
+~~~
 
 As you can see, all the payment information from the form submit handler is being passed into `commerce_iats_process_payment()`. That function then calls the callback function `commerce_iats_process_credit_card_payment()` to [make the API call and get the response](http://drupalcode.org/project/commerce_iats.git/blob/HEAD:/includes/commerce_iats.credit_card.inc#l84).
 

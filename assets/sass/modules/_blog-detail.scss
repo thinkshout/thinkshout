@@ -102,6 +102,10 @@
       padding-left: rem(18);
     }
 
+    li p {
+      padding: 0;
+    }
+
     h2 {
       color: $midgray;
       font-size: rem(34);

@@ -25,7 +25,7 @@ Around the same time, I received a great tip while attending CapitalCamp: use [T
 
 The secret to all this Travis magic lies in a `.travis.yml` file located in the project root. For ThinkShout.com, it looks something like this:
 
-```yaml
+~~~yaml
 language: ruby
 rvm: 2.0.0
 script: "./_scripts/travis_build.sh"
@@ -41,7 +41,7 @@ notifications:
   hipchat:
     rooms:
       secure: ...
-```
+~~~
 
 I won't go through this line by line, [there's great documentation for that](http://docs.travis-ci.com/user/build-configuration/), but basically this tells Travis:
 
@@ -52,7 +52,7 @@ I won't go through this line by line, [there's great documentation for that](htt
 
 The build script is very simple as well:
 
-```bash
+~~~bash
 #!/bin/bash
 
 if [[ $TRAVIS_BRANCH == 'master' ]] ; then
@@ -63,7 +63,7 @@ else
   echo 'Invalid branch. You can only deploy from master and live.'
   exit 1
 fi
-```
+~~~
 
 While we could put script commands directly into `.travis.yml`, having a bash script affords us some additional flexibility; in our case, to deploy to different S3 buckets based on the commit branch.
 

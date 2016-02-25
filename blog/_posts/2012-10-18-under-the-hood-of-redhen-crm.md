@@ -95,18 +95,18 @@ Custom Rule that demonstrates sending an email to new contacts.
 ## Extending core functionality
 RedHen can also be extended and customized the old fashioned way -- by writing custom code. All of RedHen's entity types feature APIs with standard CRUD operations and wrappers around many common tasks, such as getting all related entities. In addition, RedHen can be manipulated using Drupal's hook system. Each entity can be altered using a hook implementation when it's loaded, created, updated, and deleted. Most of hooks are exposed through Entity API's inherited controller classes, but RedHen features some of its own unique hooks as explained in redhen.api.php. For example, a module can dictate whether or not a contact entity can be deleted by implementing hook_redhen_contact_can_delete():
 
-```php
+~~~php
 function mymodule_redhen_contact_can_delete(RedhenContact $contact) {
   // prevent the deletion of active contacts
   if ($contact->redhen_state == REDHEN_STATE_ACTIVE) {
     return FALSE;
   }
 }
-```
+~~~
 
 In addition, all of RedHen's main interfaces are wrapped in theme functions so they can be overridden at the theme level. For example, to alter the default list of contacts, implement `theme_redhen_contact_list()`:
 
-```php
+~~~php
 function mytheme_redhen_contact_list($variables) {
   $contacts = $variables['contacts'];
   $header = $variables['header'];
@@ -151,6 +151,6 @@ function mytheme_redhen_contact_list($variables) {
 
   return render($render);
 }
-```
+~~~
 
 In short, using RedHen's comprehensive APIs, hooks, and theme wrappers, a developer can build a complex, elegant solution to meet nearly any use case requiring CRM functionality.

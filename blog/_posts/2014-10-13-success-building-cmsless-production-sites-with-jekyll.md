@@ -55,14 +55,14 @@ This commit then triggers a re-build of the site wherein each zip code detail pa
 
 Another popular content management concept that was difficult to implement in Jekyll until the 2.0.0 release was blocks of content that could be stored in a single place and used in multiple places around the site. [Collections](http://jekyllrb.com/docs/collections/) made this much easier. On the Feeding Texas site, we created collections for several things ranging from [calls to action (scroll to page bottom)](http://www.feedingtexas.org/learn/communities/hunger-atlas/) to [staff profiles](http://www.feedingtexas.org/about/staff/) that can be placed anywhere on the site by specifying their index (where the index could be any YAML frontmatter variable). So, for example, if a Feeding Texas content manager wanted to create and use a new call to action block, they would do two things:
 
-1. Create a markdown file for the block and include a frontmatter variable like this: ```index: 1```.
+1. Create a markdown file for the block and include a frontmatter variable like this: `index: 1`.
 2. Then to apply the new block to a page, they'd specify the block's index as a frontmatter variable in the page's markdown file like this: 
 
-```
+~~~
 calls_to_action:
   - 1
   - 2
-```
+~~~
 ...and our templates do the rest.
 
 ##### Challenges of Using GitHub as a Content Management Tool
@@ -74,9 +74,9 @@ Since assets are stored on a server that will persist, management of them become
 ![S3 file management UI](http://thinkshout.com/assets/images/blog/amazon-s3-file-mgmt-ui.png)
 
 #### Travis CI for Deployment
-[Travis](https://travis-ci.com) is a continuous integration platform that is tightly integrated with GitHub. With a [single configuration file](https://github.com/thinkshout/feeding-texas/blob/master/.travis.yml), we were able to set up a fully functional deployment workflow that includes a staging and a production site. A commit to a particular branch in GitHub triggers Travis to build and deploy the site automatically to a specified endpoint. So, for example, editing and committing a file in the ```staging``` branch triggers a deployment to the staging site whereas a commit to the ```live``` branch triggers a deployment to the live site. For a more in depth look at how to configure a deployment workflow like this, check out [Lev's post on how we're doing it for the ThinkShout site](http://thinkshout.com/blog/2014/08/deployment-workflow-travis-jekyll-travis-s3/).
+[Travis](https://travis-ci.com) is a continuous integration platform that is tightly integrated with GitHub. With a [single configuration file](https://github.com/thinkshout/feeding-texas/blob/master/.travis.yml), we were able to set up a fully functional deployment workflow that includes a staging and a production site. A commit to a particular branch in GitHub triggers Travis to build and deploy the site automatically to a specified endpoint. So, for example, editing and committing a file in the `staging` branch triggers a deployment to the staging site whereas a commit to the `live` branch triggers a deployment to the live site. For a more in depth look at how to configure a deployment workflow like this, check out [Lev's post on how we're doing it for the ThinkShout site](http://thinkshout.com/blog/2014/08/deployment-workflow-travis-jekyll-travis-s3/).
 
-As an added bonus, we can leverage GitHub's pull request feature as a content management tool. For example, a staff writer could create several pieces of content in the ```staging``` branch, and then bundle those commits into a pull request for their editor to approve and merge into the ```live``` branch.
+As an added bonus, we can leverage GitHub's pull request feature as a content management tool. For example, a staff writer could create several pieces of content in the `staging` branch, and then bundle those commits into a pull request for their editor to approve and merge into the `live` branch.
 
 Our Travis configuration file also specifies tests to run before deploying a new build of the site, which prevents a bad commit from generating a broken site. Travis has several testing frameworks [baked in](http://docs.travis-ci.com/user/gui-and-headless-browsers/), but if those aren't enough, you can also install tools via your Travis configuration file. We, for example, [install CasperJS](https://github.com/thinkshout/feeding-texas/blob/master/.travis.yml#L7) for our tests.
 

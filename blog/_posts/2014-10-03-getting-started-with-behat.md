@@ -69,7 +69,7 @@ Behat tests are written in "Feature" files. They're just text files with a .feat
 
 In the test run above, I was in my project's Behat directory, and ran `bin/behat features/loginout.feature`. That launches Behat and tells it to run the tests that are in loginout.feature. Here are the entire contents of that file:
 
-```
+~~~
 Feature: Log in and out of the site.
   In order to maintain an account
     As a site visitor
@@ -102,53 +102,53 @@ Scenario: Attempts login with wrong credentials.
     And I press "Log in"
   Then I should see "Sorry, unrecognized username or password."
     And I should not see "My account"
-```
+~~~
 
 Indentation is only for readability, and has no impact on how the tests are run.
 
 Now let's look at each line and see what each is doing. The first few lines are essentially comments.
 
-```Feature: Log in and out of the site.```
+~~~Feature: Log in and out of the site.~~~
 
 ^ Name of the feature.
 
-```In order to maintain an account```
+~~~In order to maintain an account~~~
 
 ^ Benefit.
 
-```As a site visitor```
+~~~As a site visitor~~~
 
 ^ Role.
 
-```I need to log in and out of the site.```
+~~~I need to log in and out of the site.~~~
 
 ^ Feature itself.
 
 Behat tests are written in the form of scenarios, and they comprise the rest of the feature file.
 
-```Scenario: Logs in to the site```
+~~~Scenario: Logs in to the site~~~
 
 ^ Description of the first scenario.
 
-```Given I am on "/"```
+~~~Given I am on "/"~~~
 
 ^ The context. This is the first line that is actually executed. In this case, it will load "/" (the home page) in a browser.
 
 This (a "Given") as well as the next things ("When" and "Then") are each called a "Step."
 
-```
+~~~
 When I follow "Log In"
   And I fill in "Username" with "admin"
   And I fill in "Password" with "test"
   And I press "Log in"
-```
+~~~
 
 ^ The events that need to happen. `When` kicks it off. `And` adds more events. If Behat is unable to do any of these events, the test will fail. `I follow "Log In"` looks for a link with the text "Log In" and clicks it. `I fill in "Username" with "admin"` looks for a field with the label of "Username" and types "admin" into it. `I press "Log in"` looks for button with the text "Log in" and presses it. Pro tip: `follow` is for clicking links, and `press` is for buttons on forms.
 
-```
+~~~
 Then I should see "Log out"
   And I should see "My account"
-```
+~~~
 
 ^ The desired outcome. `Then` starts it, and `And` adds more outcomes. These are the actual tests that need to pass. Other testing frameworks often call these "assertions". `I should see "Log out"` looks for the text "Log out" anywhere on the page.
 

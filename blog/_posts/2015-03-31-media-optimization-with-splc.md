@@ -43,7 +43,7 @@ If you put the video tag in the document body, it will load even if you set it t
 
 Here is what we do to load the video when we want. Our examples will assume the use of jQuery because that’s what we used.
 
-```javascript
+~~~javascript
 // Function to write the video to the video container
 function loadVideo() {
 	$('.video-container').append(
@@ -66,11 +66,11 @@ $(window).resize(function() {
  		loadVideo();
 	}
 });
-```
+~~~
 
 Next, we wanted to pause the video when the pause/play background video ‘play trailer’ button is clicked. The HTML video tag contains javascript methods to manipulate it. We take advantage of two aptly-named methods: play() and pause(). We used the Magnific Popup plugin for our image gallery and video trailer. With this plugin, we are able to supply our play and pause methods as callback methods in to fire in the plugin configuration options.
 
-```javascript
+~~~javascript
 $('.play-button').magnificPopup({ 
 	callbacks: { 
 		// When the our popup opens pause         
@@ -83,7 +83,7 @@ $('.play-button').magnificPopup({
 		}
 	}                                                                                                              
 });
-```
+~~~
 
 Now when a user plays the trailer, we get what we want with hardly any additional code. The plugin and the HTML5 Javascript API do it for us.
 

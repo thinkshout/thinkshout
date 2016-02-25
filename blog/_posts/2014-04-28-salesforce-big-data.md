@@ -29,7 +29,7 @@ One of the ways to improve this process was to allow more records to be processe
 
 We created a bash script which would process the queue every hour running multiple parallel threads:
 
-```bash
+~~~bash
 #!/bin/sh
 
 NUM_RUNS=$1
@@ -54,14 +54,14 @@ while [ $r -lt $NUM_RUNS ]; do
   # Should match worker timeout
   sleep 3600
 done
-```
+~~~
 During our testing, however, we quickly realized that running parallel Drupal processes caused MySQL deadlocks. It appeared that this was caused by a lack of database transactions being created when doing field level operations. We spent some time researching ways to prevent this, but in the end decided that it would be better to improve the way that records were imported into the SalesForce module in the first place.
 
 ### Identify and remove inefficient code
 
 While troubleshooting an unrelated issue, it was found that when pulling mapped [Relations](https://drupal.org) from Salesforce the entity ID was needed, but since the entity was not saved at the time of processing those mappings, the ID was not available yet. This was temporarily resolved to prevent errors by saving the entity before the mapping took place. Then the mappings were completed and the entity was saved again. This meant that whether a Relation was used or not, the entity was saved twice. To prevent this double save from causing a decrease in performance, a check was made to see if the pulled entity was mapped with a Relation. If so, the entity was saved to provide the entity ID. If not, the entity was only saved after the field mappings were completed.
 
-```php
+~~~php
 <?php
 function salesforce_mapping_related_entity_fieldmap_pull_value($entity_wrapper, ...
 // Handle relations.
@@ -72,7 +72,7 @@ elseif (module_exists('relation') && isset($info['relation_type'])) {
 if (!$info['parent']->getIdentifier()) {
 	$info['parent']->save();
 }
-```
+~~~
 
 Another performance improvement came from changing the way field mappings were handled if an error was thrown. Previously, if an error was thrown while updating a mapping, the mapping object (the entity that links Drupal entities to Salesforce objects) was not created or, if it existed, was removed. Instead, now if a valid entity ID is present the mapping is still saved. This cause less errors and allows for better data syncing.
 
@@ -80,18 +80,18 @@ The function salesforce_pull_process_records in salesforce_pull.module was updat
 
 from
 
-```php
+~~~php
 <?php
 if ($mapping_object && ($sf_mapping->sync_triggers & SALESFORCE_MAPPING_SYNC_SF_UPDATE))
-```
+~~~
 to
 
-```php
+~~~php
 <?php
 $mapping_object = salesforce_mapping_object_load_by_sfid($sf_object['Id']);
 $exists = $mapping_object ? TRUE : FALSE;
 if ($exists && ($sf_mapping->sync_triggers & SALESFORCE_MAPPING_SYNC_SF_UPDATE)) {
-```
+~~~
 The code checks for existence of an entity referenced by a mapping to ensure it exists, and behaves intelligently if it doesn't. Previously this would cause an unrecoverable sync state for objects.
 
 ### Query optimization

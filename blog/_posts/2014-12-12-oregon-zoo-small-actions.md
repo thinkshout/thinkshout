@@ -58,12 +58,12 @@ Message when sharing the FSC action from the Chimpanzee page:
 
 Here's how we put that together. We start by including the global stuff for the ShareThis widget. An implementation of `hook_views_pre_render()` adds some javascript settings and includes the ShareThis javascript library. To add the unique things to each action, we add a new variable "sharethis_attributes" in `hook_preprocess_views_view_field()`. This variable contains a string of pseudo attributes: `st_url="http://example.com/the-page" st_title="Example Page Title" st_image="http://example.com/image.jpg" st_summary="This is the text that will be shared." st_via="OregonZoo"`. We use that variable in a very specifically-named template file that takes effect for only this field in this view. The rest of the markup and classes placed in that field template came from ShareThis.
 
-```php
+~~~php
 <?php print $output; ?>
 <div class="sharethis-custom">
   <span class='st_sharethis_vcount' displayText='ShareThis' <?php print $sharethis_attributes; ?>></span>
 </div>
-```
+~~~
 
 All of this work: content types, fields, image styles for the image fields, views, and the handful of custom hook implementations are bundled together in a new custom feature.
 

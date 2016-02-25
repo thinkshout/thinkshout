@@ -48,17 +48,17 @@ Picture has two important dependencies:
 
 Drush will handle the dependencies for you; just navigate to your site root and type:
 
-```bash
+~~~bash
 drush en picture -y
-```
+~~~
 
 We'll also want the Media module:
 
-```bash
+~~~bash
 drush en media -y
-```
+~~~
 
-(In the above commands, ```-y``` just tells drush to assume "yes" for any requests for confirmation.)
+(In the above commands, `-y` just tells drush to assume "yes" for any requests for confirmation.)
 
 ## Setting Up Breakpoints
 

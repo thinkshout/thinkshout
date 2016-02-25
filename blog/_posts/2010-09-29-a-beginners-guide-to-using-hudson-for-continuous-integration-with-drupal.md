@@ -243,7 +243,7 @@ try to document in a follow-up blog post.
 
 For Drupal 7, the build and testing steps via the command line can be as
 simple as:
-````
+~~~`
 &gt; cd /var/lib/hudson/jobs/job_name/workspace_workspace/drupal_root
 
 yes | drush si
@@ -251,7 +251,7 @@ yes | drush si
 yes | drush en simpletest
 
 rm -rf scripts/tests/_.xml
-````
+~~~`
 /usr/bin/php scripts/run-tests.sh --url http://hudson.example.com --all --php
 /usr/bin/php --xml scripts/tests
 
@@ -303,7 +303,7 @@ using Hudson to test a single build process, you can simply point Apache's
 default virtual host to your Drupal installation. To do so, run the following
 commands on your Hudson server:
 
-````
+~~~`
 &gt; $ cd /var
 
 $ sudo rm -rf www # Remove the default Apache directory
@@ -314,7 +314,7 @@ link for this directory to your Drupal codebase in the Hudson job
 $ sudo chmod 755 /var/hudson #Make sure that Apache can write to this
 directory. Note: This is a gross simplification. But Apache needs to be able
 to read this directory.
-````
+~~~`
 
 Once this is done, you should be able to visit your newly-built Drupal site
 at: http://hudson.example.com, and then switch to the Hudson user interface

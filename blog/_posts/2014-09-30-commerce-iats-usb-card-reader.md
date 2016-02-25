@@ -21,7 +21,7 @@ As of version 2.5, [Commerce iATS](https://www.drupal.org/project/commerce_iats)
 Setting things up is easy:
 
 1. Upgrade to [Commerce iATS 2.5](https://www.drupal.org/node/2345737)
-2. Edit the Commerce iATS credit card payment method by selecting ```Store```, ```Configuration```, then ```Payment methods``` from your Drupal admin menu
+2. Edit the Commerce iATS credit card payment method by selecting `Store`, `Configuration`, then `Payment methods` from your Drupal admin menu
 3. Check the "Use encrypted USB card reader" option of the credit card payment method (see screenshot below)
 4. Select the name of the USB card reader you're using
 5. Save the changes to the payment method and you're good to go

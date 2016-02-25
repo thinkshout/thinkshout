@@ -34,7 +34,7 @@ Hardly. Just put a tab on my Event Node, dude!
 
 Great idea! Shouldn’t be too hard, right? We’ll just do a hook_menu, load up all our of Salesforce Mappings, and add a menu item to their Entity Bundles based on their URI:
 
-```php
+~~~php
 <?php
 /**
  * Implements hook_menu().
@@ -64,33 +64,33 @@ function salesforce_mapping_menu() {
   }
   return $items;
 }
-```
+~~~
 
 This worked great in development, but as soon as we tested on a production site, it exploded. Why? This line:
 
-```php
+~~~php
 <?php
 $uri = $entity->uri();
-```
+~~~
 
 Sadly, this method doesn’t work for every Drupal Entity. Nodes, for example, and Commerce Orders, don’t respond to $entity->uri(). They like:
 
 
-```php
+~~~php
 <?php
 $uri = entity_uri($entity)
-```
+~~~
 
 Grr. Ok, easy fix right?
 
-```php
+~~~php
 <?php
 $uri = method_exists($entity, 'uri') ? $entity->uri() : entity_uri($type, $entity);
-```
+~~~
 
 And yes, this is pretty good. But for some reason, our tab still wasn’t appearing on Commerce Orders. On closer inspection, this is the URI we were getting from our function call on Commerce Orders:
 
-```php
+~~~php
 <?php
 array(
   ‘options’ => array(
@@ -98,14 +98,14 @@ array(
     ‘entity’ => {stdClass}
   ),
 )
-```
+~~~
 
 Notice something missing? Yeah, there’s no ‘path’ index for the next line to use:
 
-```php
+~~~php
 <?php
 $path = $uri['path'] . '%' . $type . '/salesforce_activity';
-```
+~~~
 
 Thanks for nuthin', flagship example of how to use the Entity system! I’m sure the Commerce team has a good reason for leaving the ‘path’ piece of URIs empty on raw Entity objects: almost all Commerce Entities behave this way. But it’s not very helpful for us!
 
@@ -113,7 +113,7 @@ We could potentially resolve this by loading a random object and parsing its URI
 
 Instead, we decided to override the entity data for the important entity types in a local module:
 
-```php
+~~~php
 <?php
 /**
  * Implements hook_entity_info_alter().
@@ -136,13 +136,13 @@ function my_module_uri_order($entity) {
   }
   return $uri;
 }
-```
+~~~
 
 This solves the issue for Orders. A similar technique can be used for any Entity Type that fails to offer a proper ‘path’ index for its URI.
 
 The only entities left to deal with are those that don’t offer any URI at all: entities without a direct management interface. Field Collections are a common example. Fortunately, we started out with a Universal Admin UI: it seems reasonable to hang the Salesforce Object administration interface off this Admin page. Here’s the final, complete hook_menu implementation for our Salesforce Mapping UI:
 
-```php
+~~~php
 <?php
 /**
  * Implements hook_menu().
@@ -219,6 +219,6 @@ function salesforce_mapping_menu() {
   }
   return $items;
 }
-```
+~~~
 
 Now we can find what we need from two natural directions: by thinking about Salesforce Sync Objects or just by thinking about the entity we want to deal with. The inconsistent responsiveness of Drupal Entities to the uri() request is frustrating, but not impossible to work around. Hopefully, you find this article helpful -- and if you maintain a module that creates its own entities, please test out the uri() function before your next release!

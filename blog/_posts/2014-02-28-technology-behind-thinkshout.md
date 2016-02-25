@@ -63,7 +63,7 @@ While the idea of cloning a repository and editing markdown files in one's favor
 
 This configuration:
 
-```yaml
+~~~yaml
 prose:
   rooturl: "blog/_posts"
   siteurl: "http://thinkshout.com"
@@ -88,7 +88,7 @@ prose:
           label: "Tags"
           help: "Enter one or more tags ..."
           alterable: true
-```
+~~~
 
 Yields this form:
 
