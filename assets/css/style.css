@@ -3844,6 +3844,9 @@ header {
   .bcorp-info-block .fa-caret-right {
     color: #f1b332; }
 
+.our-team-block img {
+  max-width: 100%; }
+
 .work-with-us {
   background-size: cover;
   background: url("/assets/images/ts_redesign/work-with-us1.jpg") right center no-repeat;
