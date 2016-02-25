@@ -1,0 +1,67 @@
+---
+layout: default
+---
+<div class="blog-header">
+  {% if page.featured %}<p class="featured">Featured Post</p>{% endif %}
+  <p><span class="date">{{ page.date | date: '%m.%d.%Y' }}</span> <a class="category" href="/blog/?category={{ page.category | slugify }}">{{ page.category }}</a> </p>
+
+  <h1 class="post-title">{{ page.title }}</h1>
+  <p class="byline">
+    {% for person in site.data.team %}
+    {% if page.author == person.name %}
+    <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
+      <a class="team-name" href="{{ site.baseurl }}/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a><br>        
+      {{ person.position }}
+    {% endif %}
+    {% endfor %}
+  </p>
+</div>
+
+{% if page.header-image %}
+<div class="blog-header-image">
+  <img src="{{ page.header-image }}" alt="{{ page.header-image-alt }}">
+</div>
+{% endif %}
+
+{% if page.intro %}
+<section class="intro">
+  {{ page.intro | markdownify }}
+</section>
+{% endif %}
+
+<section class="body">
+  {{ content }}
+
+  {% if page.comments or page.comments != false %}
+  <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'thinkshout'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+  {% endif %}
+</section>
+
+<div class="pagination">
+  {% if page.previous %}
+    <div class="previous">
+      <a href="{{ page.previous.url }}"><span class="fa fa-arrow-circle-left"></span> {{ page.previous.title }}</a>
+    </div>
+  {% endif %}
+
+  {% if page.next %}
+    <div class="next">
+      <a href="{{ page.next.url }}">{{ page.next.title }} <span class="fa fa-arrow-circle-right"></span></a>
+    </div>
+  {% endif %}
+</div>

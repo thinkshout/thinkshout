@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
 title: The End of the Beginning
 author: lev
 published: true
@@ -9,6 +10,12 @@ tags:
   - ThinkShout
   - Drupal Planet
 date: 2016-01-14 16:00:00
+category: Culture, Community, and Businesss
+category-options: 
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Businesss
 ---
 ![Winston Churchill](http://static.independent.co.uk/s3fs-public/thumbnails/image/2013/10/14/12/2638166.jpg)
 

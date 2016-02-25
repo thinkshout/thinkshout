@@ -19,56 +19,35 @@ cs-preview:
 cs-header:
   header-image: /assets/images/ts_redesign/case-studies/colorado-trust/header1.jpg
   client: "Colorado Trust"
-  title: "Leveraging Drupal and Salesforce to help teachers instill intellectual vigor and curiosity in the world’s secondary school students."
+  title: "Re-envisioning The Colorado Trust"
 
 cs-intro:
-  type: "A Campaign Microsite"
-  mission: "The Southern Poverty Law Center fights hate and bigotry, seeking justice for the most vulnerable members of our society."
+  type: ""
+  mission: ""
   link-text: "View The Site"
-  link-url: http://www.coloradotrust.org/
-  text: | 
-    In the fall of 2014, we began work on the relaunch of the [Southern Poverty Law Center](http://splcenter.org/) (SPLC) website. Early in the project we recognized that SPLC’s celebration of the 50th Anniversary of the Selma-to-Montgomery March presented a unique opportunity for us to both tell a visually compelling story and to user test the design and content elements we are proposing for the overall website redesign.
-
-    In just six weeks of iterative design and rapid prototyping, we launched the “[Selma: The Bridge to the Ballot](http://www.coloradotrust.org/)” campaign site in March of 2015.
+  link-url: https://www.splcenter.org/
+  text: |
+    [The Colorado Trust](http://www.coloradotrust.org/) is dedicated to ending health inequalities that affect racial, ethnic, low-income, and other vulnerable populations. The Trust came to us looking to communicate more effectively across geographic, socioeconomic, and technological divides.
 
 cs-sections:
-  - section-image: "/assets/images/ts_redesign/case-studies/splc-selma/inline1.jpg"
-    section-image-alt: "Image: photo of the Selma-to-Montgomery March"
+  - section-image: "/assets/images/work/coloradotrust/coloradotrust-hero.jpg"
+    section-image-alt: "Image: "
 
-  - section-title: "Our Role on the Project"
+  - section-title: "Planning Ahead"
+    section-description: | 
+      The Trust came to us at an interesting period in its history. They were just kicking off an innovative, and fundamental, change in their funding model and organizational structure. Consequently, we needed to pay close attention in thinking through information architecture to make sure that we were _future proofing_ the new website.
+
+  - section-title: "Speaking to Diverse Audiences"
     section-description: |
-      The Southern Poverty Law Center benefits from an excellent in-house graphic design team, as well as a top-notch digital communications team. They have some of the highest-quality and most compelling multimedia assets of any organization with whom we’ve worked. Their story and their approach to advocacy could not be stronger.
+      The Colorado Trust serves a wide range of stakeholders, from health care policy experts in Denver to grassroots community organizers in small mountain towns on the Western Slope. In designing the site, we had to find the right balance of open, inviting content layouts that would attract new audiences with the robust search interface that policy researchers need.
 
-      That said, over the years they have built up considerable content and have experimented with a broad range of messaging strategies. In coming to us, they needed to step back and rethink their approach to content strategy. To structure the story itself, we combined work we had done to define the SPLC’s audiences and available assets culled from a content audit while keeping in mind that the goals of a campaign website are different from the goals of a full site.
-
-  - section-image: "/assets/images/ts_redesign/case-studies/splc-selma/full1.jpg"
-    section-image-alt: "Image: Woman working with brightly colored sticky notes during project discovery phase"
-    section-image-caption: "We kicked off the project with a 2-day onsite discovery engagement with the SPLC team"
-    section-image-full: true
-      
-  - section-description: |
-      Because it’s focused on a single ask – to order the movie and so expand the SPLC’s list of supporters – we determined it was best to strip away most of the opportunities to explore other areas of the SPLC’s work and let the story of the March itself persuade users to take that action. The strategy work we had already completed allowed us to develop the campaign more quickly than would otherwise have been possible, to gorgeous effect.
-
-  - section-image: "/assets/images/ts_redesign/case-studies/splc-selma/inline2.jpg"
-    section-image-alt: "Image: two views of website - desktop and mobile"
-
-  - section-title: "Prototyping & Testing"
+  - section-title: "Metrics-Driven Feature Development"
     section-description: |
-      We approached this 50th Anniversary campaign website as a test case for a number of visual storytelling elements that we are proposing for the overall SPLC redesign. 
+      For this redesign, our team pioneered ["Desire Paths Analysis,"](/blog/category/desire-paths/) as part of a larger rethinking of how we approach requirements gathering and discovery. In 2014, we shifted our discovery process to focus on __measurement__ with the mantra: "If you can't measure the impact of changing something on your website, don't do it."
 
-      Leveraging rapid prototyping, we were able to launch the site, from ideation to completion, in just 6 weeks. The user feedback and metrics we collect from this microsite will inform our iterative design of the main website.
+      The results of this adjustment to our approach have been dramatic, and overwhelmingly positive in the case of this website redesign. In the months following The Colorado Trust's website relaunch, overall page views on the site increased by 53% over the same period the previous year. The site's bounce rate dropped by 11%, and the duration of site visits increased by 76%. The results of this redesign were even more stunning with respect to mobile traffic, where session duration increased by 111%.
 
-  - section-title: "Critical Elements of the Project"
-    section-description: |
-      While the redesigned SPLC website will be built on Drupal, we wanted to launch this more experimental website on the lightest platform possible, such that we could focus SPLC’s energy and resources on visual storytelling and content strategy. 
-
-      Consequently, we launched the Selma microsite on a rapid development platform, Jekyll. By leveraging Jekyll, we were also able to cut engineering costs by 300%.
-
-  - section-image: "/assets/images/ts_redesign/case-studies/splc-selma/inline3.jpg"
-    section-image-alt: "Image: Full destop view of site"
-
-  - section-image: "/assets/images/ts_redesign/case-studies/splc-selma/inline4.jpg"
-    section-image-alt: "Image: mobile website views"
+      We couldn't be more happy knowing, in measurable terms, that the UX improvements we suggested for the site have had such an impact. Of course, the fact that we were able to drop the average page load time by 41% has helped the site as well. Overall, we are incredibly proud of our team's collaboration on this project with the Trust's communications team. We encourage you to experience [The Colorado Trust's new site](http://www.coloradotrust.org) for yourself.
 
 cs-cta-text: Launch Site
 cs-cta-url: http://www.coloradotrust.org/

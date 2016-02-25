@@ -77,3 +77,33 @@
     text-align: center;
   }
 }
+
+.byline,
+%byline {
+  color: lighten($midgray,10%);
+  text-align: left;
+  display: inline-block;
+  margin: 0 auto;
+  white-space: nowrap;
+  line-height: 1.4;
+  font-size: rem(14);
+  margin-bottom: 2rem;
+  a {
+    @include transition(color,0.3s,linear);
+    color: #000;
+    display: inline-block;
+    font-size: rem(15);
+    font-weight: 700;
+    padding-top: rem(6);
+    &:hover {
+      color: $orange;
+    }
+  }
+  img {
+    width: rem(54);
+    height: auto;
+    float: left;
+    margin-right: rem(16);
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,173 @@
+.blog-post {
+
+  .main-content {
+    @include mq(m) { margin-top: rem(90); }
+    @include mq(t) { margin-top: rem(90); }
+  }
+
+  .blog-header {
+    text-align: center;
+
+    p {      
+      margin: 0 auto 0.5rem;
+    }
+
+    p.featured {
+      color: $midgray;
+      font-style: italic;
+    }
+
+    .date {
+      color: $darkgray;
+      margin-right: rem(8);
+    }
+
+    a.category {
+      color: $yellow;
+      font-size: rem(15);
+      font-weight: 700;
+    }
+
+    h1 {
+      color: $midgray;
+      margin: 1rem auto;
+      max-width: 94%;
+      font-size: 1.6rem;
+      font-weight: 800;
+      @include mq(lt) { font-size: 2rem; max-width: 80%; }
+      @include mq(md) { font-size: 2.2rem; max-width: 70%; }
+      @include mq(l)  { font-size: 2.5rem; max-width: 60%; }
+    }
+
+    .byline {
+      margin-bottom: 2rem;
+    }
+
+  }
+
+  .blog-header-image {
+    width: 100%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .body,
+  .intro {
+    h2,
+    h3,
+    p,
+    blockquote,
+    ul,
+    ol {
+      color: $darkgray;
+      margin: 1em auto;
+      max-width: 996px;
+      padding: 0 rem(20);
+      width: 94%;
+      @include mq(lt) { width: 90%; padding: 0 rem(40); }
+      @include mq(md) { width: 90%; padding: 0 rem(60); }
+      @include mq(l)  { width: 100%; padding: 0 rem(100); }
+      a {
+        color: $orange;
+      }
+      img {
+        max-width: 100%;
+      }
+    }
+
+    ul li {
+      padding-bottom: rem(12);
+      padding-left: rem(22);
+      letter-spacing: 0;
+      text-indent: -1.3em;
+      &:before {
+        color: $darkgray;
+        content: "•";
+        font-size: rem(14);
+        line-height: 0.6;
+        padding-right: rem(14);
+        position: relative;
+      }
+    }
+
+    ol li {
+      list-style-type: decimal;
+      padding-bottom: rem(12);
+      margin-left: rem(36);
+      font-size: rem(15);
+      padding-left: rem(18);
+      letter-spacing: 0;
+    }
+
+    h2 {
+      font-weight: 800;
+      font-size: rem(34);
+      line-height: 1.4;
+      color: $midgray;
+    }
+    h3 {
+      font-weight: 800;
+      font-size: rem(26);
+      line-height: 1.4;
+      color: $midgray;
+    }
+
+    blockquote {
+      color: $orange;
+      font-size: rem(22);
+      font-weight: 700;
+      line-height: 1.4; 
+      padding: 0 rem(8);
+      text-align: center;
+      @include mq(lt) { padding: 0 rem(16); }
+      @include mq(md) { padding: 0 rem(24); }
+      @include mq(l)  { padding: 0 rem(40); }
+    }
+
+    code {
+      white-space: pre;
+      font-size: rem(14);
+      line-height: 1.2;
+      max-width: 100%;
+      overflow: scroll;
+    }
+  }
+
+  .intro p {
+    color: $midgray;
+    font-style: italic;
+    font-size: rem(22);
+    line-height: 1.6;
+  }
+
+  .pagination {
+    color: $darkgray;
+    margin: 1rem auto 6rem;
+    max-width: 996px;
+    padding: 0 rem(8);
+    width: 94%;
+    @include mq(lt) { width: 90%; padding: 0 rem(16); }
+    @include mq(md) { width: 90%; padding: 0 rem(24); }
+    @include mq(l)  { width: 100%; padding: 0 rem(40); }
+    a {
+      color: $orange;
+    }
+    .previous,
+    .next {
+      font-size: rem(20);
+      display: inline-block;
+      float: left;
+    }
+    .next {
+      float: right;
+    }
+
+  }
+
+}
+
+  // @include mq(lt) {  }
+  // @include mq(md) {  }
+  // @include mq(l)  {  }

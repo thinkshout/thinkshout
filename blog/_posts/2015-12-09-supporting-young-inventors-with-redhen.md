@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: blog
+body-class: blog-post
 title: Supporting Young Inventors with RedHen
 author: jaymz
 published: true
@@ -13,6 +14,12 @@ tags:
   - Lemelson-MIT
 date: 2015-12-09 23:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
+category: Technology and Innovation
+category-options: 
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 ---
 
 We always talk about [RedHen](https://www.drupal.org/project/redhen) as a Customer Relationship Management framework. When you install RedHen in your Drupal site, you get the basic building blocks of a CRM. Your job is to get to work defining fields, connecting entities, and building out everything you might imagine you’d like a website-integrated CRM to do. We recently partnered with the the [Lemelson-MIT](http://lemelson.mit.edu/) Program at the Massachusetts Institute of Technology, who needed all of these building blocks. The Lemelson-MIT Program celebrates outstanding inventors and inspires young people to pursue creative lives and careers through invention. They had a vision to create an integrated experience within their Drupal site specifically for educators and students associated with their InvenTeam program. This was a perfect fit for the RedHen framework.
