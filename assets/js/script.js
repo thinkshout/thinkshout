@@ -16,6 +16,16 @@
     }, { offset: '25%' });
   });
 
+  $('header').waypoint(function(direction) {
+    if (direction == 'down') {
+      $('header').animate({"padding":"0"}, 600);
+      $('header .header-logo img').animate({"width":"10rem", "margin-top": "6px"}, 600);
+    } else {
+      $('header').animate({"padding":"2rem 0"}, 600);
+      $('header .header-logo img').animate({"width":"13rem"}, 600);
+    }
+  }, { offset: '-10%' });
+
   // Blog posts
   $('.post').matchHeight();
   $('.blogs-toggle').click(function() {
