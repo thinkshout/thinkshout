@@ -4566,46 +4566,31 @@ header {
     display: block;
     margin: 0 auto;
     width: 1.25rem; }
-  .team-member-blog .post {
-    float: left;
+  .team-member-blog .posts {
     display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%;
+    text-align: center; }
+  .team-member-blog .post {
     background: #fff;
+    display: none;
+    height: 100%;
     margin-bottom: 2rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
     overflow: hidden;
-    padding: 0 1.5rem; }
-    .team-member-blog .post:last-child {
-      margin-right: 0; }
+    padding: 0 1.5rem;
+    text-align: left;
+    width: 100%; }
     @media (min-width: 980px) {
       .team-member-blog .post {
-        display: none; }
-        .team-member-blog .post:nth-child(3n) {
-          margin-right: 0; }
-        .team-member-blog .post:nth-child(3n+1) {
-          clear: left; } }
+        max-width: 30%; } }
     @media (min-width: 481px) and (max-width: 979px) {
       .team-member-blog .post {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 48.82117%;
-        display: none; }
-        .team-member-blog .post:last-child {
-          margin-right: 0; }
-        .team-member-blog .post:nth-child(2n) {
-          margin-right: 0; }
-        .team-member-blog .post:nth-child(2n+1) {
-          clear: left; } }
+        max-width: 44%;
+        margin: 0.5rem; } }
     @media (max-width: 480px) {
       .team-member-blog .post {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%;
-        display: none; }
-        .team-member-blog .post:last-child {
-          margin-right: 0; } }
+        max-width: 100%;
+        margin: 0 0 1rem 0; } }
     .team-member-blog .post a {
       color: #58585b; }
     .team-member-blog .post .post-date {
@@ -4616,7 +4601,7 @@ header {
       font-size: 1.5rem;
       margin: 0; }
   .team-member-blog .post:nth-child(-n+3) {
-    display: block; }
+    display: inline-block; }
   .team-member-blog h4,
   .team-member-blog h5 {
     clear: both;
@@ -4648,6 +4633,8 @@ header {
   margin-bottom: 3rem;
   width: 25%;
   text-align: center; }
+  .team .team-member:hover img {
+    opacity: 0.7; }
   .team .team-member:hover .name-title {
     color: #f26d21; }
   @media (min-width: 481px) and (max-width: 979px) {

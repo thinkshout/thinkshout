@@ -6,6 +6,10 @@
   text-align: center;
 
   &:hover {
+    img {
+      opacity: 0.7;
+    }
+
     .name-title {
       color: $orange;
     }
