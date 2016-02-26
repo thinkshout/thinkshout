@@ -4107,6 +4107,8 @@ header {
   margin-bottom: 3rem;
   width: 25%;
   text-align: center; }
+  .team .team-member:hover img {
+    opacity: 0.7; }
   .team .team-member:hover .name-title {
     color: #f26d21; }
   @media (min-width: 481px) and (max-width: 979px) {
