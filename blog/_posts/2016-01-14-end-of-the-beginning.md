@@ -4,7 +4,7 @@ body-class: blog-post
 title: The End of the Beginning
 author: lev
 published: true
-featured: true
+featured: false
 short: Saying goodbye to Sean and exciting things ahead for ThinkShout.
 tags:
   - ThinkShout

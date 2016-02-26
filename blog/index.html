@@ -1,5 +1,6 @@
 ---
 layout: default
+body-class: blog-landing
 title: Blog 
 description: "Our thoughts on technology and community, the ThinkShout blog."
 keywords:
@@ -13,25 +14,46 @@ keywords:
   - constituent relationship management
 ---
 <div class="page-container blog">
-  <div class="split">
-    <div class="side side-left" style="background-image: url('{{ site.baseurl }}/assets/images/blog.jpg')">
-    	<div class="leadin">
-        <h2>Our thoughts on technology and community.</h2>
-      </div>
-    </div>
-    <div class="side side-right">
-      <div class="intro-content">
-        <ul class="blog-list">
-        {% for post in site.categories.blog %}
-        <li>
-          {% if post.featured == true %}
-            {% assign class="featured-post "%}
+  
+  {% for post in site.categories.blog %}
+    {% if post.featured == true %}
+    <div class="featured-post" style="background-image: url('{{ post.header-image }}');">
+      <div class="wrapper">
+        <p class="featured">Featured Blog Post</p>
+        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        
+        {% if post.short %}
+        <p class="short">{{ post.short }}</p>
+        {% endif %}
+        
+        <p class="byline">
+          {% for person in site.data.team %}
+          {% if post.author == person.name %}
+          <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
+            <a class="team-name" href="{{ site.baseurl }}/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a><br>        
+            {{ person.position }}
           {% endif %}
-          {% include blog_teaser.html class=class header="h2" short=true %}
-        </li>
-        {% endfor %}
-        </ul>
+          {% endfor %}
+        </p>
       </div>
     </div>
+    {% break %}
+    {% endif %}
+  {% endfor %}
+
+  <div class="filter-wrapper">
+    <select id="blog-filter" class="blog-filter">
+      <option value="all">All</option>
+      <option value="technology-and-innovation">Technology and Innovation</option>
+      <option value="strategy-and-design">Strategy and Design</option>
+      <option value="project-management-and-process">Project Management and Process</option>
+      <option value="culture-community-and-business">Culture, Community, and Business</option>
+    </select>
   </div>
+  
+  <ul class="blog-list">
+    {% for post in site.categories.blog %}
+    <li>{% include blog_teaser.html class=class header="h2" short=true %}</li>
+    {% endfor %}
+  </ul>
 </div>

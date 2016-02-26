@@ -1,0 +1,125 @@
+.blog-landing {
+
+  .main-content {
+    @include mq(m) { margin-top: rem(90); }
+    @include mq(t) { margin-top: rem(90); }
+  }
+
+  .featured-post {    
+    background-position: center center;
+    background-size: cover;
+    padding: 2rem 1rem 1rem;
+    width: 100%;
+    @include mq(lt) { padding: 4rem 1rem 2rem 2rem; }
+    @include mq(md) { padding: 8rem 1rem 3rem 6rem; }
+    @include mq(l)  { padding: 10rem 0 4rem 0; }
+    
+    .wrapper {      
+      max-width: rem(1200);
+      margin: 0 auto;
+    }
+
+    h2,p {
+      color: $darkgray;
+      max-width: 35%;
+      margin: 0 0 1rem;
+      a {
+        color: $darkgray;
+        font-weight: 800;
+      }
+    }
+    .featured {
+      text-transform: uppercase;
+      font-size: rem(13);
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    .short {
+      font-size: rem(20);
+    }
+    .byline {
+      margin-top: 2rem;
+    }
+  }
+
+  .filter-wrapper {
+    max-width: rem(1200);
+    margin: 5rem auto 0;
+  }
+  .blog-filter {
+    width: rem(390);
+  }
+
+
+  .blog-list {
+    margin: 0 auto;
+    padding: 0;
+    li {
+      border-bottom: 1px solid $ltgray;
+      display: inline-block;
+      padding: 1rem 1rem;
+      width: 100%;      
+      @include mq(lt) { padding: 2rem 4rem }
+      @include mq(md) { padding: 3rem 6rem }
+      @include mq(l)  { padding: 4rem 8rem }
+      .date {
+        color: $darkgray;
+        margin-right: rem(8);
+        font-size: rem(14);
+        display: block;
+        @include mq(lt) { display: inline; }
+        @include mq(md) { display: inline; }
+        @include mq(l)  { display: inline; }
+      }
+
+      a.category {
+        color: $yellow;
+        font-size: rem(14);
+        font-weight: 700;
+        display: block;
+        @include mq(lt) { display: inline; }
+        @include mq(md) { display: inline; }
+        @include mq(l)  { display: inline; }
+      }
+
+      h3 a {
+        color: $midgray;
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin: 1rem auto;
+        max-width: 94%;
+        @include mq(lt) { font-size: 1.2rem; max-width: 80%; }
+        @include mq(md) { font-size: 1.2rem; max-width: 70%; }
+        @include mq(l)  { font-size: 1.5rem; max-width: 60%; }
+      }
+
+      .short {
+        font-size: rem(18);
+        color: $darkgray;
+      }
+
+      .blog-teaser {
+        max-width: rem(1200);
+        margin: 0 auto;
+      }
+
+      .info {
+        float: left;
+        width: 70%;
+      }
+
+      .byline {
+        float: right;
+        margin-top: 1rem;
+        width: 30%;        
+        @include mq(lt) { margin-top: 4rem; float: right; }
+        @include mq(md) { margin-top: 4rem; float: right; }
+        @include mq(l)  { margin-top: 4rem; float: right; }
+      }
+    }
+  }
+}
+
+  // @include mq(lt) {  }
+  // @include mq(md) {  }
+  // @include mq(l)  {  }

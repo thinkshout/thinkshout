@@ -4,7 +4,7 @@ body-class: blog-post
 title: Stepping Down As CEO, Stepping Into Colorado
 author: sean
 published: true
-featured: true
+featured: false
 short: 
 tags:
   - ThinkShout

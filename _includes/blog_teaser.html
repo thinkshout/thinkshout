@@ -1,28 +1,21 @@
-<article class="{{ include.class }}">
-  {% if include.header %}
-    {% assign header = include.header %}
-  {% else %}
-    {% assign header = 'h2' %}
-  {% endif %}
-  <{{ header }}><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></{{ header }}>
-  {% if include.short %}
+<article class="blog-teaser">
+  <div class="info">
+    <p><span class="date">{{ post.date | date: '%m.%d.%Y' }}</span> <a class="category" href="/blog/?category={{ post.category | slugify }}">{{ post.category }}</a></p>
+    
+    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+    
     {% if post.short %}
-      <p>{{ post.short | markdownify }}</p>
+    <p class="short">{{ post.short }}</p>
     {% endif %}
-  {% endif %}
-  <div class="post-info">
-    <div class="byline">
-      {% for person in site.data.team %}
-      {% if post.author == person.name %}
-      <a href="{{ site.baseurl }}/team/{{ person.name }}" class="team-photo">
-        <img alt="{{ person.name }}" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
-      </a>
-      <div class="info">
-        <a href="{{ site.baseurl }}/team/{{ person.name }}" class="team-name">{{ person.first_name }} {{ person.last_name }}</a>
-        <p>{{ person.position }}</p>
-      </div>
-      {% endif %}
-      {% endfor %}
-    </div>
   </div>
+
+  <p class="byline">
+    {% for person in site.data.team %}
+    {% if post.author == person.name %}
+    <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
+      <a class="team-name" href="{{ site.baseurl }}/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a><br>        
+      {{ person.position }}
+    {% endif %}
+    {% endfor %}
+  </p>
 </article>

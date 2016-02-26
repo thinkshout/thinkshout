@@ -4,7 +4,7 @@ body-class: blog-post
 title: Up and Theming with Drupal 8
 author: joe
 published: true
-featured: false
+featured: true
 short: Part 2 of our series dives into Drupal 8 theming.
 tags:
   - Drupal Planet
@@ -19,6 +19,9 @@ category-options:
  - Strategy and Design
  - Project Management and Process
  - Culture, Community, and Business
+
+header-image: /assets/images/ts_redesign/blog/up-and-theming1.jpg
+header-image-alt: "Image: Model Thinkshout Employees"
 ---
 
 Drupal 8 is [finally here](https://www.drupal.org/8)! We’ve been digging into the code and learning how to install D8 in a way that allow us to sync sites and use it for production work. A lot of things have changed, which we covered in our previous article, [Up and Running with Drupal 8](http://thinkshout.com/blog/2015/11/up-and-running-with-drupal-8/). The next step is to see what’s changed in the theming layer, installing a basic theme, and working with the new Twig templating system. There’s a good deal to cover, so let’s [jump in](http://twig.sensiolabs.org/)!

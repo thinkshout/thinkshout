@@ -43,6 +43,10 @@
     $('.view-less-blogs').toggle();
   });
 
+  $('#blog-filter').chosen({
+    disable_search: true
+  });
+
     // $('.case-study').waypoint(function(direction) {
     //   if (direction == 'down') {
     //     $('.case-study:nth-of-type(1)').addClass('active');

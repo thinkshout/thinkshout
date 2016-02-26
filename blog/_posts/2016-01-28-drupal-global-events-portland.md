@@ -4,7 +4,7 @@ body-class: blog-post
 title: Drupal Global Events in Portland
 author: greg
 published: true
-featured: true
+featured: false
 short: Join us for some great Drupal events here in Portland!
 tags:
   - Drupal Planet

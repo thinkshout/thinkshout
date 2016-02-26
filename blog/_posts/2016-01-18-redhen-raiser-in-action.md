@@ -4,7 +4,7 @@ body-class: blog-post
 title: RedHen Raiser in Action
 author: stephanie
 published: true
-featured: true
+featured: false
 short: The Capital Area Food Bank shares their RedHen Raiser successes.
 tags:
   - Drupal Planet
