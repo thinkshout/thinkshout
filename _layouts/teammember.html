@@ -48,28 +48,32 @@ layout: default
     <div class="container">
       <h4>{{ page.first_name }}'s Recent Blog Posts</h4>
       <div class="row">
+      {% assign postCounter = 0 %}
         {% for post in site.posts %}
         {% if post.layout == 'blog' and post.author == page.name and post.published %}
-          <div class="post">
-            <a href="{{ site.baseurl }}{{ post.url }}">
-              <p class="post-date">{{ post.date | date: "%m.%d.%Y" }}</p>
-              <h3 class="post-title">{{ post.title}}</h3>
-              <p class="post-short">{{ post.short }}</p>
-            </a>
-          </div>
+            <div class="post">
+              <a href="{{ site.baseurl }}{{ post.url }}">
+                <p class="post-date">{{ post.date | date: "%m.%d.%Y" }}</p>
+                <h3 class="post-title">{{ post.title}}</h3>
+                <p class="post-short">{{ post.short }}</p>
+              </a>
+            </div>
+          {% assign postCounter = postCounter | plus: 1 %}
         {% endif %}
         {% endfor %}
       </div>
-      <div class="blogs-toggle">
-        <div class="see-all-blogs">
-          <h5>See all blogs by {{ page.first_name }}</h5>
-          <i class="fa fa-caret-down"></i>
+      {% if postCounter > 3 %}
+        <div class="blogs-toggle">
+          <div class="see-all-blogs">
+            <h5>See all blogs by {{ page.first_name }}</h5>
+            <i class="fa fa-caret-down"></i>
+          </div>
+          <div class="view-less-blogs">
+            <i class="fa fa-caret-up"></i>
+            <h5>View less</h5>
+          </div>
         </div>
-        <div class="view-less-blogs">
-          <i class="fa fa-caret-up"></i>
-          <h5>View less</h5>
-        </div>
-      </div>
+      {% endif %}
     </div>
   </div>
 {% endif %}
