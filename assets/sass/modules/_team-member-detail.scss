@@ -131,10 +131,16 @@
   }
 
   i {
+    border: none;
     color: $darkergray;
     font-size: 2rem;
     text-align: center;
     width: 100%;
+
+    &:before {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
   }
 
   .see-all-blogs {
