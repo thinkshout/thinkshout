@@ -34,10 +34,14 @@
   $('.blogs-toggle').click(function() {
     $('.post:nth-child(-n+3)').css({ display: "none" });
     $('.post').slideToggle(800);
+    $('.post').css({ display: "inline-block"});
 
     $('body, html').animate({
       scrollTop: $('.team-member-blog' ).offset().top - 150
-    }, 800);
+    }, 800, function() {
+    // Animation complete.
+      $('.post').matchHeight();
+    });
 
     $('.see-all-blogs').toggle();
     $('.view-less-blogs').toggle();

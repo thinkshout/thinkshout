@@ -47,20 +47,20 @@ layout: default
   <div class="team-member-blog">
     <div class="container">
       <h4>{{ page.first_name }}'s Recent Blog Posts</h4>
-      <div class="row">
-      {% assign postCounter = 0 %}
-        {% for post in site.posts %}
-        {% if post.layout == 'blog' and post.author == page.name and post.published %}
-            <div class="post">
-              <a href="{{ site.baseurl }}{{ post.url }}">
-                <p class="post-date">{{ post.date | date: "%m.%d.%Y" }}</p>
-                <h3 class="post-title">{{ post.title}}</h3>
-                <p class="post-short">{{ post.short }}</p>
-              </a>
-            </div>
-          {% assign postCounter = postCounter | plus: 1 %}
-        {% endif %}
-        {% endfor %}
+      <div class="row posts">
+        {% assign postCounter = 0 %}
+          {% for post in site.posts %}
+          {% if post.layout == 'blog' and post.author == page.name and post.published %}
+              <div class="post">
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                  <p class="post-date">{{ post.date | date: "%m.%d.%Y" }}</p>
+                  <h3 class="post-title">{{ post.title}}</h3>
+                  <p class="post-short">{{ post.short }}</p>
+                </a>
+              </div>
+            {% assign postCounter = postCounter | plus: 1 %}
+          {% endif %}
+          {% endfor %}
       </div>
       {% if postCounter > 3 %}
         <div class="blogs-toggle">
