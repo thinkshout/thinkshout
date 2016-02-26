@@ -24,6 +24,12 @@ header-image-alt: "Image: Photo of the Selma-to-Montgomery March"
 
 intro: |  
   These two global Drupal events offer something for Drupal folks of all skill levels, helping us to tap into Portland’s strong Drupal community. I hope you’ll join us for either (or both!) of these great events.
+
+blog-cta:  
+  image: /assets/images/ts_redesign/cta/salesforce1.jpg
+  title: "Want to learn more Salesforce?"
+  description: "Sign up for our Salesforce Drupal workshop on April 23rd in rainy and gray Portland!"
+  link: /blog/2015/09/badcamp-trainings-redhen-salesforce/
 ---
 
 There are two exciting Drupal community events happening in Portland soon. The first is the [Drupal Global Sprint Day](https://groups.drupal.org/node/489228) on January 30th - this coming Saturday - which is a day focused on bringing together volunteers to contribute work such as documentation, testing, code, and design to the Drupal project. The project needs improvements from a wide variety of skill sets, and it’s a great way for new folks to contribute to Drupal. The second is [Drupal Global Training Day](https://assoc.drupal.org/global-training-day-portland-oregon-february-2016), a free Drupal 8 training for new community members. We’re thrilled to be involved with both!

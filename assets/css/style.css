@@ -2216,6 +2216,8 @@ a {
 .blog-post .body ol,
 .blog-post .body div.highlighter-rouge,
 .blog-post .body iframe,
+.blog-post .body .blog-cta,
+.blog-post .body .comments,
 .blog-post .intro h2,
 .blog-post .intro h3,
 .blog-post .intro p,
@@ -2223,7 +2225,9 @@ a {
 .blog-post .intro ul,
 .blog-post .intro ol,
 .blog-post .intro div.highlighter-rouge,
-.blog-post .intro iframe {
+.blog-post .intro iframe,
+.blog-post .intro .blog-cta,
+.blog-post .intro .comments {
   color: #58585b;
   display: block;
   margin: 1em auto;
@@ -2240,6 +2244,8 @@ a {
     .blog-post .body ol,
     .blog-post .body div.highlighter-rouge,
     .blog-post .body iframe,
+    .blog-post .body .blog-cta,
+    .blog-post .body .comments,
     .blog-post .intro h2,
     .blog-post .intro h3,
     .blog-post .intro p,
@@ -2247,7 +2253,9 @@ a {
     .blog-post .intro ul,
     .blog-post .intro ol,
     .blog-post .intro div.highlighter-rouge,
-    .blog-post .intro iframe {
+    .blog-post .intro iframe,
+    .blog-post .intro .blog-cta,
+    .blog-post .intro .comments {
       width: 90%;
       padding: 0 1.875rem; } }
   @media (min-width: 980px) and (max-width: 1199px) {
@@ -2259,6 +2267,8 @@ a {
     .blog-post .body ol,
     .blog-post .body div.highlighter-rouge,
     .blog-post .body iframe,
+    .blog-post .body .blog-cta,
+    .blog-post .body .comments,
     .blog-post .intro h2,
     .blog-post .intro h3,
     .blog-post .intro p,
@@ -2266,7 +2276,9 @@ a {
     .blog-post .intro ul,
     .blog-post .intro ol,
     .blog-post .intro div.highlighter-rouge,
-    .blog-post .intro iframe {
+    .blog-post .intro iframe,
+    .blog-post .intro .blog-cta,
+    .blog-post .intro .comments {
       width: 90%;
       padding: 0 3.75rem; } }
   @media (min-width: 1200px) {
@@ -2278,6 +2290,8 @@ a {
     .blog-post .body ol,
     .blog-post .body div.highlighter-rouge,
     .blog-post .body iframe,
+    .blog-post .body .blog-cta,
+    .blog-post .body .comments,
     .blog-post .intro h2,
     .blog-post .intro h3,
     .blog-post .intro p,
@@ -2285,7 +2299,9 @@ a {
     .blog-post .intro ul,
     .blog-post .intro ol,
     .blog-post .intro div.highlighter-rouge,
-    .blog-post .intro iframe {
+    .blog-post .intro iframe,
+    .blog-post .intro .blog-cta,
+    .blog-post .intro .comments {
       width: 100%;
       padding: 0 6.25rem; } }
   .blog-post .body h2 a,
@@ -2296,6 +2312,8 @@ a {
   .blog-post .body ol a,
   .blog-post .body div.highlighter-rouge a,
   .blog-post .body iframe a,
+  .blog-post .body .blog-cta a,
+  .blog-post .body .comments a,
   .blog-post .intro h2 a,
   .blog-post .intro h3 a,
   .blog-post .intro p a,
@@ -2303,7 +2321,9 @@ a {
   .blog-post .intro ul a,
   .blog-post .intro ol a,
   .blog-post .intro div.highlighter-rouge a,
-  .blog-post .intro iframe a {
+  .blog-post .intro iframe a,
+  .blog-post .intro .blog-cta a,
+  .blog-post .intro .comments a {
     color: #f26d21; }
   .blog-post .body h2 img,
   .blog-post .body h3 img,
@@ -2313,6 +2333,8 @@ a {
   .blog-post .body ol img,
   .blog-post .body div.highlighter-rouge img,
   .blog-post .body iframe img,
+  .blog-post .body .blog-cta img,
+  .blog-post .body .comments img,
   .blog-post .intro h2 img,
   .blog-post .intro h3 img,
   .blog-post .intro p img,
@@ -2320,7 +2342,9 @@ a {
   .blog-post .intro ul img,
   .blog-post .intro ol img,
   .blog-post .intro div.highlighter-rouge img,
-  .blog-post .intro iframe img {
+  .blog-post .intro iframe img,
+  .blog-post .intro .blog-cta img,
+  .blog-post .intro .comments img {
     max-width: 100%; }
 .blog-post .body ul li,
 .blog-post .intro ul li {
@@ -2440,6 +2464,58 @@ a {
   @media (min-width: 1200px) {
     .blog-post .intro p {
       font-size: 1.375rem; } }
+.blog-post .body .blog-cta {
+  background-color: #dbdcde;
+  display: block;
+  padding: 0;
+  margin: 2rem auto; }
+  .blog-post .body .blog-cta img {
+    display: none;
+    margin-left: 2rem; }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .blog-post .body .blog-cta img {
+        display: block;
+        float: right; } }
+    @media (min-width: 1200px) {
+      .blog-post .body .blog-cta img {
+        display: block;
+        float: right; } }
+  .blog-post .body .blog-cta h3, .blog-post .body .blog-cta p, .blog-post .body .blog-cta a.uppercase-link {
+    color: #3f3f41;
+    padding: 0;
+    width: auto;
+    margin: 1rem 1rem 1rem 1rem; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .blog-post .body .blog-cta h3, .blog-post .body .blog-cta p, .blog-post .body .blog-cta a.uppercase-link {
+        margin: 1rem 2rem 2rem 3rem; } }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .blog-post .body .blog-cta h3, .blog-post .body .blog-cta p, .blog-post .body .blog-cta a.uppercase-link {
+        margin: 1rem 2rem 2rem 3rem; } }
+    @media (min-width: 1200px) {
+      .blog-post .body .blog-cta h3, .blog-post .body .blog-cta p, .blog-post .body .blog-cta a.uppercase-link {
+        margin: 1rem 2rem 2rem 3rem; } }
+  .blog-post .body .blog-cta h3 {
+    clear: both;
+    font-size: 1.375rem;
+    font-weight: 700;
+    margin-top: 1rem; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .blog-post .body .blog-cta h3 {
+        clear: none;
+        margin-top: 2rem; } }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .blog-post .body .blog-cta h3 {
+        clear: none;
+        margin-top: 2.5rem; } }
+    @media (min-width: 1200px) {
+      .blog-post .body .blog-cta h3 {
+        clear: none;
+        margin-top: 3rem; } }
+  .blog-post .body .blog-cta a.uppercase-link {
+    color: #3f3f41;
+    display: block; }
+    .blog-post .body .blog-cta a.uppercase-link i {
+      color: #3f3f41; }
 .blog-post .pagination {
   color: #58585b;
   margin: 1rem auto 6rem;
@@ -2485,10 +2561,11 @@ a {
     float: right;
     text-align: right; }
 .blog-post .team-member-blog .post {
-  padding-bottom: 4.5625rem; }
+  padding-bottom: 4.5625rem;
+  position: relative; }
 .blog-post .team-member-blog .byline {
   position: absolute;
-  bottom: 2rem; }
+  bottom: -1rem; }
   .blog-post .team-member-blog .byline strong {
     color: #000;
     display: inline-block;

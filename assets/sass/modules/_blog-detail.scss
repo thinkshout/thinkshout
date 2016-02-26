@@ -70,7 +70,9 @@
     ul,
     ol,
     div.highlighter-rouge,
-    iframe {
+    iframe,    
+    .blog-cta,
+    .comments {
       color: $darkgray;
       display: block;
       margin: 1em auto;
@@ -183,6 +185,44 @@
     @include mq(l)  { font-size: rem(22); }
   }
 
+  .body .blog-cta {
+    background-color: $ltgray;
+    display: block;
+    padding: 0;
+    margin: 2rem auto;
+    img {
+      display: none;
+      margin-left: 2rem;
+      @include mq(md) { display: block; float: right; }
+      @include mq(l)  { display: block; float: right; }
+    }
+    h3, p, a.uppercase-link {      
+      color: darken($darkgray,10%);
+      padding: 0;
+      width: auto;
+      margin: 1rem 1rem 1rem 1rem;
+      @include mq(lt) { margin: 1rem 2rem 2rem 3rem; }
+      @include mq(md) { margin: 1rem 2rem 2rem 3rem; }
+      @include mq(l)  { margin: 1rem 2rem 2rem 3rem; }
+    } 
+    h3 {
+      clear: both;
+      font-size: rem(22);
+      font-weight: 700;
+      margin-top: 1rem;      
+      @include mq(lt) { clear: none; margin-top: 2rem; }
+      @include mq(md) { clear: none; margin-top: 2.5rem; }
+      @include mq(l)  { clear: none; margin-top: 3rem; }
+    }
+    a.uppercase-link {
+      color: darken($darkgray,10%);
+      display: block;      
+      i {
+        color: darken($darkgray,10%);
+      }
+    }
+  }
+
   .pagination {
     color: $darkgray;
     margin: 1rem auto 6rem;
@@ -222,13 +262,15 @@
       text-align: right;
     }
   }
+  
   .team-member-blog {
     .post {
       padding-bottom: rem(73);
+      position: relative;
     }
     .byline {
       position: absolute;
-      bottom: 2rem;
+      bottom: -1rem;
       strong { 
         color: #000;
         display: inline-block;

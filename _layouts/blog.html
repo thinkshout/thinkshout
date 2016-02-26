@@ -32,6 +32,22 @@ layout: default
 <section class="body">
   {{ content }}
 
+  {% if page.blog-cta and page.blog-cta.link %}
+  <div class="blog-cta">
+    
+    {% if page.blog-cta.image %}
+    <img src="{{ page.blog-cta.image }}" alt="{{ page.blog-cta.title }}">
+    {% else %}    
+    <img src="/assets/images/ts_redesign/cta/default-cta.jpg" alt="{{ page.blog-cta.title }}">
+    {% endif %}
+    
+    <h3>{{ page.blog-cta.title }}</h3>
+    <p>{{ page.blog-cta.description }}</p>
+    <a href="{{ page.blog-cta.link }}" class="uppercase-link">Learn More<i class="fa fa-caret-right"></i></a>
+  </div>
+  {% endif %}
+
+
   {% if page.comments or page.comments != false %}
   <div class="comments">
     <div id="disqus_thread"></div>
