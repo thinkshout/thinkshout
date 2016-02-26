@@ -16,6 +16,7 @@
     }, { offset: '25%' });
   });
 
+// Navbar animation
   $('header').waypoint(function(direction) {
     if (direction == 'down') {
       $('header').animate({"padding":"0"}, 600);
