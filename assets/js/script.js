@@ -37,7 +37,7 @@
     $('.post').css({ display: "inline-block"});
 
     $('body, html').animate({
-      scrollTop: $('.team-member-blog' ).offset().top - 150
+      scrollTop: $('.team-member-blog' ).offset().top - 70
     }, 800, function() {
     // Animation complete.
       $('.post').matchHeight();
