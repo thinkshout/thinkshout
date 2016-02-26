@@ -2157,11 +2157,31 @@ a {
     font-style: italic; }
   .blog-post .blog-header .date {
     color: #58585b;
-    margin-right: 0.5rem; }
+    margin-right: 0.5rem;
+    display: block; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .blog-post .blog-header .date {
+        display: inline; } }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .blog-post .blog-header .date {
+        display: inline; } }
+    @media (min-width: 1200px) {
+      .blog-post .blog-header .date {
+        display: inline; } }
   .blog-post .blog-header a.category {
     color: #f1b332;
     font-size: 0.9375rem;
-    font-weight: 700; }
+    font-weight: 700;
+    display: block; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .blog-post .blog-header a.category {
+        display: inline; } }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .blog-post .blog-header a.category {
+        display: inline; } }
+    @media (min-width: 1200px) {
+      .blog-post .blog-header a.category {
+        display: inline; } }
   .blog-post .blog-header h1 {
     color: #626262;
     font-size: 1.6rem;
@@ -2181,7 +2201,8 @@ a {
         font-size: 2.5rem;
         max-width: 60%; } }
   .blog-post .blog-header .byline {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    padding-right: 3.3125rem; }
 .blog-post .blog-header-image {
   width: 100%; }
   .blog-post .blog-header-image img {
@@ -2207,7 +2228,8 @@ a {
   display: block;
   margin: 1em auto;
   max-width: 996px;
-  padding: 0 1.25rem;
+  overflow: scroll;
+  padding: 0 0.75rem;
   width: 94%; }
   @media (min-width: 671px) and (max-width: 979px) {
     .blog-post .body h2,
@@ -2227,7 +2249,7 @@ a {
     .blog-post .intro div.highlighter-rouge,
     .blog-post .intro iframe {
       width: 90%;
-      padding: 0 2.5rem; } }
+      padding: 0 1.875rem; } }
   @media (min-width: 980px) and (max-width: 1199px) {
     .blog-post .body h2,
     .blog-post .body h3,
@@ -2307,7 +2329,8 @@ a {
   margin-left: 1rem;
   padding-bottom: 0.75rem;
   padding-left: 1.375rem;
-  text-indent: -1.3em; }
+  text-indent: -1.3em;
+  overflow: scroll; }
   .blog-post .body ul li:before,
   .blog-post .intro ul li:before {
     color: #58585b;
@@ -2325,7 +2348,8 @@ a {
   list-style-type: decimal;
   margin-left: 2.25rem;
   padding-bottom: 0.75rem;
-  padding-left: 1.125rem; }
+  padding-left: 1.125rem;
+  overflow: scroll; }
 .blog-post .body li p,
 .blog-post .intro li p {
   padding: 0;
@@ -2335,19 +2359,43 @@ a {
 .blog-post .body h2,
 .blog-post .intro h2 {
   color: #626262;
-  font-size: 2.125rem;
+  font-size: 1.5rem;
   font-weight: 800;
   line-height: 1.4; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .blog-post .body h2,
+    .blog-post .intro h2 {
+      font-size: 1.625rem; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .blog-post .body h2,
+    .blog-post .intro h2 {
+      font-size: 1.875rem; } }
+  @media (min-width: 1200px) {
+    .blog-post .body h2,
+    .blog-post .intro h2 {
+      font-size: 2.125rem; } }
 .blog-post .body h3,
 .blog-post .intro h3 {
   color: #626262;
-  font-size: 1.625rem;
+  font-size: 1.25rem;
   font-weight: 800;
   line-height: 1.4; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .blog-post .body h3,
+    .blog-post .intro h3 {
+      font-size: 1.25rem; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .blog-post .body h3,
+    .blog-post .intro h3 {
+      font-size: 1.375rem; } }
+  @media (min-width: 1200px) {
+    .blog-post .body h3,
+    .blog-post .intro h3 {
+      font-size: 1.625rem; } }
 .blog-post .body blockquote,
 .blog-post .intro blockquote {
   color: #f26d21;
-  font-size: 1.375rem;
+  font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.4;
   padding: 0 0.5rem;
@@ -2355,15 +2403,18 @@ a {
   @media (min-width: 671px) and (max-width: 979px) {
     .blog-post .body blockquote,
     .blog-post .intro blockquote {
-      padding: 0 1rem; } }
+      padding: 0 1rem;
+      font-size: 1.125rem; } }
   @media (min-width: 980px) and (max-width: 1199px) {
     .blog-post .body blockquote,
     .blog-post .intro blockquote {
-      padding: 0 1.5rem; } }
+      padding: 0 1.5rem;
+      font-size: 1.25rem; } }
   @media (min-width: 1200px) {
     .blog-post .body blockquote,
     .blog-post .intro blockquote {
-      padding: 0 2.5rem; } }
+      padding: 0 2.5rem;
+      font-size: 1.375rem; } }
 .blog-post .body div.highlighter-rouge pre.highlight,
 .blog-post .intro div.highlighter-rouge pre.highlight {
   font-size: 0.875rem;
@@ -2377,9 +2428,18 @@ a {
   font-size: 0.9375rem; }
 .blog-post .intro p {
   color: #626262;
-  font-size: 1.375rem;
+  font-size: 1.125rem;
   font-style: italic;
   line-height: 1.6; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .blog-post .intro p {
+      font-size: 1.25rem; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .blog-post .intro p {
+      font-size: 1.375rem; } }
+  @media (min-width: 1200px) {
+    .blog-post .intro p {
+      font-size: 1.375rem; } }
 .blog-post .pagination {
   color: #58585b;
   margin: 1rem auto 6rem;
@@ -2411,7 +2471,8 @@ a {
     .blog-post .pagination .next a {
       display: table;
       height: 100%;
-      width: 100%; }
+      width: 100%;
+      margin-bottom: 1rem; }
       .blog-post .pagination .previous a span,
       .blog-post .pagination .next a span {
         display: table-cell;

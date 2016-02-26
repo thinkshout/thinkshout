@@ -20,12 +20,20 @@
     .date {
       color: $darkgray;
       margin-right: rem(8);
+      display: block;
+      @include mq(lt) { display: inline; }
+      @include mq(md) { display: inline; }
+      @include mq(l)  { display: inline; }
     }
 
     a.category {
       color: $yellow;
       font-size: rem(15);
       font-weight: 700;
+      display: block;
+      @include mq(lt) { display: inline; }
+      @include mq(md) { display: inline; }
+      @include mq(l)  { display: inline; }
     }
 
     h1 {
@@ -41,6 +49,7 @@
 
     .byline {
       margin-bottom: 2rem;
+      padding-right: rem(53);
     }
 
   }
@@ -67,9 +76,10 @@
       display: block;
       margin: 1em auto;
       max-width: 996px;
-      padding: 0 rem(20);
+      overflow: scroll;
+      padding: 0 rem(12);
       width: 94%;
-      @include mq(lt) { width: 90%; padding: 0 rem(40); }
+      @include mq(lt) { width: 90%; padding: 0 rem(30); }
       @include mq(md) { width: 90%; padding: 0 rem(60); }
       @include mq(l)  { width: 100%; padding: 0 rem(100); }
       a {
@@ -87,6 +97,7 @@
       padding-bottom: rem(12);
       padding-left: rem(22);
       text-indent: -1.3em;
+      overflow: scroll;
       &:before {
         color: $darkgray;
         content: "•";
@@ -106,6 +117,7 @@
       margin-left: rem(36);
       padding-bottom: rem(12);
       padding-left: rem(18);
+      overflow: scroll;
     }
 
     li p {
@@ -117,27 +129,33 @@
 
     h2 {
       color: $midgray;
-      font-size: rem(34);
+      font-size: rem(24);
       font-weight: 800;
       line-height: 1.4;
+      @include mq(lt) { font-size: rem(26); }
+      @include mq(md) { font-size: rem(30); }
+      @include mq(l)  { font-size: rem(34); }
     }
     h3 {
       color: $midgray;
-      font-size: rem(26);
+      font-size: rem(20);
       font-weight: 800;
-      line-height: 1.4;
+      line-height: 1.4;      
+      @include mq(lt) { font-size: rem(20); }
+      @include mq(md) { font-size: rem(22); }
+      @include mq(l)  { font-size: rem(26); }
     }
 
     blockquote {
       color: $orange;
-      font-size: rem(22);
+      font-size: rem(18);
       font-weight: 700;
       line-height: 1.4; 
       padding: 0 rem(8);
       text-align: center;
-      @include mq(lt) { padding: 0 rem(16); }
-      @include mq(md) { padding: 0 rem(24); }
-      @include mq(l)  { padding: 0 rem(40); }
+      @include mq(lt) { padding: 0 rem(16); font-size: rem(18); }
+      @include mq(md) { padding: 0 rem(24); font-size: rem(20); }
+      @include mq(l)  { padding: 0 rem(40); font-size: rem(22); }
     }
 
     div.highlighter-rouge {
@@ -158,9 +176,12 @@
 
   .intro p {
     color: $midgray;
-    font-size: rem(22);
+    font-size: rem(18);
     font-style: italic;
     line-height: 1.6;
+    @include mq(lt) { font-size: rem(20); }
+    @include mq(md) { font-size: rem(22); }
+    @include mq(l)  { font-size: rem(22); }
   }
 
   .pagination {
@@ -186,6 +207,7 @@
         display: table;
         height: 100%;
         width: 100%;
+        margin-bottom: 1rem;
         span {
           display: table-cell;
           padding-right: 0.8rem;
