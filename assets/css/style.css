@@ -2123,7 +2123,8 @@ a {
   white-space: nowrap;
   line-height: 1.4;
   font-size: 0.875rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  padding-right: 3.3125rem; }
   .byline a {
     -webkit-transition: color, 0.3s, linear;
     -moz-transition: color, 0.3s, linear;
@@ -2201,8 +2202,7 @@ a {
         font-size: 2.5rem;
         max-width: 60%; } }
   .blog-post .blog-header .byline {
-    margin-bottom: 2rem;
-    padding-right: 3.3125rem; }
+    margin-bottom: 2rem; }
 .blog-post .blog-header-image {
   width: 100%; }
   .blog-post .blog-header-image img {
@@ -2484,6 +2484,15 @@ a {
   .blog-post .pagination .next {
     float: right;
     text-align: right; }
+.blog-post .team-member-blog .post {
+  padding-bottom: 4.5625rem; }
+.blog-post .team-member-blog .byline {
+  position: absolute;
+  bottom: 2rem; }
+  .blog-post .team-member-blog .byline strong {
+    color: #000;
+    display: inline-block;
+    padding-top: 0.5rem; }
 
 @media (max-width: 480px) {
   .case-study .main-content {

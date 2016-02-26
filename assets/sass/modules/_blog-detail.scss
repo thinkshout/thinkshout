@@ -49,7 +49,6 @@
 
     .byline {
       margin-bottom: 2rem;
-      padding-right: rem(53);
     }
 
   }
@@ -221,6 +220,20 @@
     .next {
       float: right;
       text-align: right;
+    }
+  }
+  .team-member-blog {
+    .post {
+      padding-bottom: rem(73);
+    }
+    .byline {
+      position: absolute;
+      bottom: 2rem;
+      strong { 
+        color: #000;
+        display: inline-block;
+        padding-top: rem(8);
+      }
     }
   }
 }

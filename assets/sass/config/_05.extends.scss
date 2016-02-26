@@ -88,6 +88,7 @@
   line-height: 1.4;
   font-size: rem(14);
   margin-bottom: 2rem;
+  padding-right: rem(53);
   a {
     @include transition(color,0.3s,linear);
     color: #000;
