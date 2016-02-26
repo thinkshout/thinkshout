@@ -1,4 +1,5 @@
 ---
+layout: teammember
 first_name: Mike
 last_name: Shaver
 position: Senior Technical Project Manager
@@ -17,4 +18,5 @@ published: true
 name: mike
 bio: |
   Mike's experience ranges from serving small grassroots nonprofits to large broadcasting organizations. He was heavily involved in the web design and information architecture of some of Boston’s WGBH popular digital programming, such as American Experience and NOVA. Mike joined the ThinkShout team so that he could continue his work with socially responsible organizations, and he brings a wealth of technical project management experience with him. While he’s got a number of project-related accomplishments under his belt, he says he’s most proud of being a father of three girls who’d rather be fairies and demons than Disney princesses. When he’s not wrangling his kids, he’s enjoying outdoor sports like fly fishing and windsurfing.
+permalink: /who-we-are/team/mike/
 ---
