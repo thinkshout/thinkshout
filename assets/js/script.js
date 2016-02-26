@@ -20,9 +20,11 @@
     if (direction == 'down') {
       $('header').animate({"padding":"0"}, 600);
       $('header .header-logo img').animate({"width":"10rem", "margin-top": "6px"}, 600);
+      $('.main-menu li').css({"padding": "1.1rem 0"});
     } else {
       $('header').animate({"padding":"2rem 0"}, 600);
       $('header .header-logo img').animate({"width":"13rem"}, 600);
+      $('.main-menu li').css({"padding": "3.125rem 0"});
     }
   }, { offset: '-10%' });
 
