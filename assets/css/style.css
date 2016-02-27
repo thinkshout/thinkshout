@@ -2158,8 +2158,8 @@ a {
     font-style: italic; }
   .blog-post .blog-header .date {
     color: #58585b;
-    margin-right: 0.5rem;
-    display: block; }
+    display: block;
+    margin-right: 0.5rem; }
     @media (min-width: 671px) and (max-width: 979px) {
       .blog-post .blog-header .date {
         display: inline; } }

@@ -19,8 +19,8 @@
 
     .date {
       color: $darkgray;
-      margin-right: rem(8);
       display: block;
+      margin-right: rem(8);
       @include mq(lt) { display: inline; }
       @include mq(md) { display: inline; }
       @include mq(l)  { display: inline; }
