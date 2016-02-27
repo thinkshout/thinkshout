@@ -6,7 +6,7 @@ highlighter: rouge
 # redcarpet:
 #   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-baseurl: ''
+baseurl: '/thinkshout'
 url: 'http://thinkshout.github.io/thinkshout'
 
 # Permalink Configuration
