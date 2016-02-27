@@ -13,7 +13,7 @@ tags:
   - Drupal Planet
 date: 2016-01-11 09:30:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
-category: Culture, Community, and Businesss
+category: Culture, Community, and Business
 category-options: 
  - Technology and Innovation
  - Strategy and Design

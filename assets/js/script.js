@@ -51,6 +51,18 @@
     disable_search: true
   });
 
+  $("#blog-filter").change(function(evt, params) {
+    // console.log(params.selected);
+    $('.blog-list').find('li').show();
+    if (params.selected != 'all') {
+      $('.blog-list').find('li').not('.'+params.selected).hide();
+    } else {
+      $('.blog-list').find('li').show();
+    }
+  });
+
+
+
     // $('.case-study').waypoint(function(direction) {
     //   if (direction == 'down') {
     //     $('.case-study:nth-of-type(1)').addClass('active');

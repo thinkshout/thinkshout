@@ -42,6 +42,7 @@ keywords:
   {% endfor %}
 
   <div class="filter-wrapper">
+    <form>
     <select id="blog-filter" class="blog-filter">
       <option value="all">All</option>
       <option value="technology-and-innovation">Technology and Innovation</option>
@@ -49,11 +50,12 @@ keywords:
       <option value="project-management-and-process">Project Management and Process</option>
       <option value="culture-community-and-business">Culture, Community, and Business</option>
     </select>
+    </form>
   </div>
   
   <ul class="blog-list">
-    {% for post in site.categories.blog %}
-    <li>{% include blog_teaser.html class=class header="h2" short=true %}</li>
+    {% for post in site.categories.blog %}    
+    <li {% if post.category %}class="{{ post.category | slugify }}"{% endif %}>{% include blog_teaser.html class=class header="h2" short=true %}</li>
     {% endfor %}
   </ul>
 </div>

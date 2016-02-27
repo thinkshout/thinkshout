@@ -10,7 +10,7 @@ tags:
   - ThinkShout
   - Drupal Planet
 date: 2016-01-14 16:00:00
-category: Culture, Community, and Businesss
+category: Culture, Community, and Business
 category-options: 
  - Technology and Innovation
  - Strategy and Design

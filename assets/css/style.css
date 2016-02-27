@@ -2675,7 +2675,7 @@ a {
   width: 24.375rem;
   max-width: 100%; }
 .blog-landing .blog-list {
-  margin: 0 auto;
+  margin: 0 auto 2rem;
   padding: 0; }
   .blog-landing .blog-list li {
     border-bottom: 1px solid #dbdcde;
