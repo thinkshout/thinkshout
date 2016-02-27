@@ -7,7 +7,7 @@ highlighter: rouge
 #   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
 baseurl: '/thinkshout'
-url: 'http://thinkshout.github.io/'
+url: 'http://thinkshout.github.io'
 
 # Permalink Configuration
 permalink: /blog/:year/:month/:title
