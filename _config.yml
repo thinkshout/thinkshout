@@ -107,6 +107,9 @@ collections:
   case_studies:
     output: true
     permalink: /:path/
+  expertise:
+    output: true
+    permalink: /what-we-do/:path
   team:
     output: true
     permalink: /who-we-are/team/:path

@@ -8,9 +8,23 @@ permalink: what-we-do/
     <div class="text">
       <h1>What We Do</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>  
     </div>
   </div>
+</div>
+
+{% assign expertise = site.expertise | sort: 'order' %}
+<div class="expertise">
+  {% for area in expertise %}
+    <section class="expertise-header">
+      <div class="gradient">&nbsp;</div>
+      <div class="wrapper">
+        <h1>{{ area.title }}</h1>
+        <button href="/{{ preview.permalink }}" class="uppercase-link">Learn More</button>
+      </div>
+    </section>
+  {% endfor %}
 </div>
 
 {% include open-source-contributions.html %}
