@@ -3,7 +3,7 @@ layout: expertise
 title: |
   Engagement Tools
 permalink: expertise/engagement-tools/
-leadin: | 
+leadin: |
   Increase Engagement Across All Channels
 class: engagement-tools  
 images:
@@ -14,11 +14,11 @@ blurb: |
 blurb_short: |
   Users experience nonprofits across channels, not departments. Every interaction is an opportunity to increase their engagement.
 points: |
-  - Constituent Relationship Management (CRM) 
-  - Digital Experience Management
-  - Salesforce and MailChimp Integration
-  - Engagement Scoring
-  - Faceted Search
+  <li>Constituent Relationship Management (CRM)</li>
+  <li>Digital Experience Management</li>
+  <li>Salesforce and MailChimp Integration</li>
+  <li>Engagement Scoring</li>
+  <li>Faceted Search</li>
 
 ---
 
@@ -32,7 +32,7 @@ Every nonprofit needs a way to track interactions with its constituents – and 
 
 ThinkShout’s understanding of nonprofit CRM is unmatched. Not only do we maintain the canonical Drupal integration with Salesforce, but we built RedHen - our own native CRM framework directly in Drupal.
 
-RedHen is designed to meet common nonprofit needs, but built for flexibility. It has classic CRM functionality for managing information about contacts, organizations, and their relationships between each other and your organization. Although it's a fully-functional, self-contained lightweight CRM, RedHen is also designed to be an ideal integration point to enterprise CRM solutions like Salesforce or Blackbaud. 
+RedHen is designed to meet common nonprofit needs, but built for flexibility. It has classic CRM functionality for managing information about contacts, organizations, and their relationships between each other and your organization. Although it's a fully-functional, self-contained lightweight CRM, RedHen is also designed to be an ideal integration point to enterprise CRM solutions like Salesforce or Blackbaud.
 
 * Salesforce
 * Blackbaud
@@ -43,7 +43,7 @@ RedHen is designed to meet common nonprofit needs, but built for flexibility. It
 
 ### Third Party System Integration
 
-We know it’s not always possible to build every feature our clients need into a single Drupal-based platform. Business needs and the accumulated accretions of history and technical debt dictate that many projects require us to create a cohesive experience across multiple platforms. 
+We know it’s not always possible to build every feature our clients need into a single Drupal-based platform. Business needs and the accumulated accretions of history and technical debt dictate that many projects require us to create a cohesive experience across multiple platforms.
 
 We have built a reputation for technical excellence in integrating with third party systems. ThinkShout maintains the canonical Drupal modules for Salesforce, MailChimp, and IATs – and we have experience integrating with other CRM and donation processing platforms.
 
@@ -62,7 +62,7 @@ Digital Experience Management (DEM) is the future of the Internet – but also i
 
 Similarly, as online fundraising tools and other public-facing features become more robust, it is critical that the choice of CMS and CRM platforms take into consideration a site visitor’s personalized experience when engaging with the site.
 
-We partner with our clients to explore the evolution of digital experience management, its impact on constituent engagement, and tools and techniques to tie it all together. Armed with our open source toolkit, our clients can create personalization across user interactions with their website – and beyond. 
+We partner with our clients to explore the evolution of digital experience management, its impact on constituent engagement, and tools and techniques to tie it all together. Armed with our open source toolkit, our clients can create personalization across user interactions with their website – and beyond.
 
 * SalesForce Suite
 * MailChimp and Mandrill

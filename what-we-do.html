@@ -9,7 +9,7 @@ permalink: what-we-do/
       <h1>What We Do</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </p>  
+      </p>
     </div>
   </div>
 </div>
@@ -20,8 +20,18 @@ permalink: what-we-do/
     <section class="expertise-header">
       <div class="gradient">&nbsp;</div>
       <div class="wrapper">
-        <h1>{{ area.title }}</h1>
-        <button href="/{{ preview.permalink }}" class="uppercase-link">Learn More</button>
+        <div class="expertise-teaser-left">
+          <h1>{{ area.title }}</h1>
+          <button href="/{{ preview.permalink }}" class="uppercase-link">Learn More</button>
+        </div>
+        <div class="expertise-teaser-right">
+          <p>{{ area.blurb }}</p>
+          <ul>
+            {% for point in area.points %}
+              {{ point }}
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </section>
   {% endfor %}
