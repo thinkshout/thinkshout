@@ -18,4 +18,8 @@
     }
     $counter: $counter + 1;
   }
+
+  .side {
+    @include span-columns(6);
+  }
 }

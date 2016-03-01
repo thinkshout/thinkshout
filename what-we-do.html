@@ -19,11 +19,11 @@ permalink: what-we-do/
 {% for area in expertise %}
   <section class="expertise-teaser" id="expertise{{ counter }}">
     <div class="container">
-      <div class="expertise-teaser-left">
+      <div class="side expertise-teaser-left">
         <h1>{{ area.title }}</h1>
         <a href="/{{ area.permalink }}" class="uppercase-link">Learn More</a>
       </div>
-      <div class="expertise-teaser-right">
+      <div class="side expertise-teaser-right">
         <p>{{ area.blurb }}</p>
         <ul>
           {% for point in area.points %}
