@@ -1,8 +1,10 @@
 .expertise-teaser {
+  color: $white;
+
   $counter: 0;
   @while $counter < 5 {
     &#expertise#{$counter} {
-      background: url('../images/ts_redesign/expertise/expertise#{$counter}.jpg') center center no-repeat;
+      background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/ts_redesign/expertise/expertise#{$counter}.jpg') center center no-repeat;
       background-size: cover;
       height: 100%;
       padding: 2rem 0;
