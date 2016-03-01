@@ -1,8 +1,7 @@
 ---
 layout: expertise
 body-class: expertise
-title: |
-  Content Strategy & Metrics
+title: Content Strategy & Metrics
 permalink: expertise/content-strategy-and-metrics/
 class: content-strategy  
 leadin: |

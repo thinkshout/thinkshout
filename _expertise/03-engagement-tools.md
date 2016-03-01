@@ -1,8 +1,7 @@
 ---
 layout: expertise
 body-class: expertise
-title: |
-  CRM & Engagement Tools
+title: CRM & Engagement Tools
 permalink: expertise/engagement-tools/
 leadin: |
   Increase Engagement Across All Channels

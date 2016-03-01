@@ -1,8 +1,7 @@
 ---
 layout: expertise
 body-class: expertise
-title: |
-  Website Design & User Experience
+title: Website Design & User Experience
 permalink: expertise/user-experience-and-design/
 leadin: |
   A Collaborative, Iterative Design Approach

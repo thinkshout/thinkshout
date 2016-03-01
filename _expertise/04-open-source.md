@@ -1,8 +1,7 @@
 ---
 layout: expertise
 body-class: expertise
-title: |
-  Web Application Development
+title: Web Application Development
 permalink: expertise/web-application-development/
 leadin: |
   Unwavering Commitment To Open Source Excellence
