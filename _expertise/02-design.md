@@ -27,7 +27,7 @@ We have organized our information architecture, content strategy, and visual des
 
 When it comes to user experience, responsive design, and information architecture patterns, ThinkShout is a strong leader in the open source CMS community; 90% of our web development work over the last three years has been responsive, embracing a “mobile first” approach.
 
-### Information Architecture
+#### Information Architecture
 
 Every piece of content has core elements, but different types of content may have different needs: a long-form, storytelling article has different structural needs than a blog post, in terms of how it will be presented to the end user – and in how it is categorized. One of the first steps is to define the structures necessary for different types of content to succeed.
 
@@ -40,7 +40,7 @@ In addition to content structures and relationships, we work with our clients to
 * Taxonomies
 * Page Tables
 
-### Mobile-first Wireframes & Usability Testing
+#### Mobile-first Wireframes & Usability Testing
 
 If the site map can be said to represent information architecture in two dimensions, our wireframing process adds visual and spatial hierarchy.
 
@@ -52,7 +52,7 @@ From the start, our process helps our clients understand the interconnections be
 * Responsive Wireframes
 * Usability Testing
 
-### Responsive, User-Centered Design
+#### Responsive, User-Centered Design
 
 Visual aesthetic completes the success of a digital experience. Through clean design, pleasing typography, and bold imagery, we bring our clients’ content to life.
 

@@ -27,7 +27,7 @@ Site visitors expect more from nonprofit websites these days. They’ve been tra
 
 While nonprofit budgets can’t always compete, we help our clients leverage the power of open source to create immersive experiences for their constituents. In our hands, Drupal becomes a hub of engagement, pulling data from our clients’ CRMs and email lists to create experiences for end users that rival what they find on sites that cost far more.
 
-### Constituent Relationship Management (CRM)
+#### Constituent Relationship Management (CRM)
 
 Every nonprofit needs a way to track interactions with its constituents – and this information needs to be available to multiple staff members, wherever they happen to be. If a volunteer coordinator meets a donor at an event, and that donor expresses an interest in becoming a sustainer, the appropriate person in the development department needs to know. By tracking the history of engagement with constituents, nonprofits can better serve their needs.
 
@@ -42,7 +42,7 @@ RedHen is designed to meet common nonprofit needs, but built for flexibility. It
 * RedHen Donations
 * RedHen Raiser
 
-### Third Party System Integration
+#### Third Party System Integration
 
 We know it’s not always possible to build every feature our clients need into a single Drupal-based platform. Business needs and the accumulated accretions of history and technical debt dictate that many projects require us to create a cohesive experience across multiple platforms.
 
@@ -57,7 +57,7 @@ By using Drupal as a hub for the information collected from these third party sy
 * Leaflet
 * Apache Solr
 
-### Digital Experience Management
+#### Digital Experience Management
 
 Digital Experience Management (DEM) is the future of the Internet – but also its very real present. By defining and tracking a user’s actions online, their experience can be customized – even personalized – resulting in increased engagement. This can include everything from presenting more relevant content to making donation requests more meaningful to offering discounts on select events.
 

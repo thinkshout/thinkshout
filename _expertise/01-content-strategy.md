@@ -36,7 +36,7 @@ We believe content strategy hinges on understanding three things:
 
 We’ve developed and refined a set of practices that not only define and codify organizational content strategy, but set the stage for a technical implementation.
 
-### Web Engagement Metrics
+#### Web Engagement Metrics
 
 We start with the data. Analytics data allows us to begin shaping an understanding of what our clients’ online visitors want, and the devices they’re using to access it.
 
@@ -51,7 +51,7 @@ This initial work is foundational to the metrics and evaluation work done over t
 * Benchmarks
 
 
-### Requirements Gathering
+#### Requirements Gathering
 
 We’re not going to pretend we can learn everything about our clients’ work in just a few short days or even weeks. Our clients are partners every step of the way, co-developing the content strategy – and the resulting platform – that will help deepen the impact they can make.
 
@@ -65,7 +65,7 @@ Our Discovery process is tailored to meet the needs of each unique client.
 * Cores and Paths
 
 
-### Email, Social Marketing, and Content Governance
+#### Email, Social Marketing, and Content Governance
 
 The strategy work we do with our clients informs all of the content they generate, from blog posts to tweets to direct mail appeals. Content strategy, at its best, reinforces and extends organizational branding.
 
@@ -77,7 +77,7 @@ We work with our clients to create cohesive messaging architectures across chann
 * Editorial Calendars
 * Content Governance Plans
 
-### Online Fundraising & Campaigns
+#### Online Fundraising & Campaigns
 
 Rare is the nonprofit website that convinces a visitor to donate the first time they encounter it. Donor cultivation is part art, part science, part perseverance – but dependant on great content. We work with our clients to develop the strategies and tactics that will make their fundraising more effective.
 
