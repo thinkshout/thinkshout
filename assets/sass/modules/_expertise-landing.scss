@@ -21,5 +21,8 @@
 
   .side {
     @include span-columns(6);
+
+    @include mq(m) { @include span-columns(12); }
+    @include mq(t) { @include span-columns(12); }
   }
 }
