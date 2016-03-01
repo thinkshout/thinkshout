@@ -2924,10 +2924,12 @@ a {
 .case-study .body .intro,
 .case-study .body h4,
 .case-study .body p,
+.case-study .body li,
 .case-study .body div.inline,
 .expertise .body .intro,
 .expertise .body h4,
 .expertise .body p,
+.expertise .body li,
 .expertise .body div.inline {
   color: #3f3f41;
   margin: 2em auto 1rem;
@@ -2938,10 +2940,12 @@ a {
     .case-study .body .intro,
     .case-study .body h4,
     .case-study .body p,
+    .case-study .body li,
     .case-study .body div.inline,
     .expertise .body .intro,
     .expertise .body h4,
     .expertise .body p,
+    .expertise .body li,
     .expertise .body div.inline {
       width: 90%;
       padding: 0 2.5rem; } }
@@ -2949,10 +2953,12 @@ a {
     .case-study .body .intro,
     .case-study .body h4,
     .case-study .body p,
+    .case-study .body li,
     .case-study .body div.inline,
     .expertise .body .intro,
     .expertise .body h4,
     .expertise .body p,
+    .expertise .body li,
     .expertise .body div.inline {
       width: 90%;
       padding: 0 3.75rem; } }
@@ -2960,10 +2966,12 @@ a {
     .case-study .body .intro,
     .case-study .body h4,
     .case-study .body p,
+    .case-study .body li,
     .case-study .body div.inline,
     .expertise .body .intro,
     .expertise .body h4,
     .expertise .body p,
+    .expertise .body li,
     .expertise .body div.inline {
       width: 100%;
       padding: 0 6.25rem; } }
@@ -3016,6 +3024,14 @@ a {
 .case-study .body p a,
 .expertise .body p a {
   color: #f78c50; }
+.case-study .body ul li,
+.expertise .body ul li {
+  font-weight: bold;
+  line-height: 0; }
+  .case-study .body ul li:before,
+  .expertise .body ul li:before {
+    content: '•';
+    padding-right: 0.5rem; }
 .case-study .body a.intro,
 .expertise .body a.intro {
   color: #000;

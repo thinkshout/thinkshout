@@ -82,6 +82,7 @@
     .intro,
     h4,
     p,
+    li,
     div.inline {
       color: darken($darkgray, 10%);
       margin: 2em auto 1rem;
@@ -128,6 +129,16 @@
 
     p a {
       color: $ltorange;
+    }
+
+    ul li {
+      font-weight: bold;
+      line-height: 0;
+
+      &:before {
+        content: '•';
+        padding-right: 0.5rem;
+      }
     }
 
     a.intro {
