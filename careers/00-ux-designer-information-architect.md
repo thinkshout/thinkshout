@@ -3,7 +3,7 @@ layout: job
 title: User Experience Designer/Information Architect
 permalink: careers/ux-designer-information-architect/
 mailto: jobs@thinkshout.com
-active: true
+active: false
 ---
 ThinkShout is a leading design, strategy, and web development team located in Portland, OR. We envision digital technology and strategy that creates positive change in the world. We craft compelling open source engagement solutions for forward-thinking organizations.
 
