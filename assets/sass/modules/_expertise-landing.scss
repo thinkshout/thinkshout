@@ -1,0 +1,19 @@
+.expertise-teaser {
+  $counter: 0;
+  @while $counter < 5 {
+    &#expertise#{$counter} {
+      background: url('../images/ts_redesign/expertise/expertise#{$counter}.jpg') center center no-repeat;
+      background-size: cover;
+      height: 100%;
+      padding: 2rem 0;
+      position: relative;
+      width: 100%;
+      z-index: 1;
+
+      @include mq(lt) { padding: 4rem 0; }
+      @include mq(md) { padding: 8rem 0; }
+      @include mq(l) { padding: 13rem 0; }
+    }
+    $counter: $counter + 1;
+  }
+}

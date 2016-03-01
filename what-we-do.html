@@ -16,24 +16,23 @@ permalink: what-we-do/
 
 {% assign expertise = site.expertise | sort: 'order' %}
 <div class="expertise">
+  {% assign counter = 1 %}
   {% for area in expertise %}
-    <section class="expertise-header">
-      <div class="gradient">&nbsp;</div>
-      <div class="wrapper">
-        <div class="expertise-teaser-left">
-          <h1>{{ area.title }}</h1>
-          <button href="/{{ preview.permalink }}" class="uppercase-link">Learn More</button>
-        </div>
-        <div class="expertise-teaser-right">
-          <p>{{ area.blurb }}</p>
-          <ul>
-            {% for point in area.points %}
-              {{ point }}
-            {% endfor %}
-          </ul>
-        </div>
+    <section class="expertise-teaser" id="expertise{{ counter }}">
+      <div class="expertise-teaser-left">
+        <h1>{{ area.title }}</h1>
+        <button href="/{{ area.permalink }}" class="uppercase-link">Learn More</button>
+      </div>
+      <div class="expertise-teaser-right">
+        <p>{{ area.blurb }}</p>
+        <ul>
+          {% for point in area.points %}
+            {{ point }}
+          {% endfor %}
+        </ul>
       </div>
     </section>
+    {% assign counter = counter | plus: 1 %}
   {% endfor %}
 </div>
 
