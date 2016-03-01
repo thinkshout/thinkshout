@@ -30,6 +30,11 @@ permalink: what-we-do/
             {{ point }}
           {% endfor %}
         </ul>
+        {% if area.examples %}
+        <p>
+          {{ area.examples }}
+        </p>
+        {% endif %}
       </div>
     </div>
   </section>
