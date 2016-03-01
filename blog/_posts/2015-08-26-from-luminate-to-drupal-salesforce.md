@@ -7,6 +7,12 @@ category-options:
  - Strategy and Design
  - Project Management and Process
  - Culture, Community, and Business
+expertise: CRM & Engagement Tools
+expertise-options:
+ - Content Strategy & Metrics
+ - Website Design & User Experience
+ - CRM & Engagement Tools
+ - Web Application Development
 header-image:
 header-image-alt:
 
@@ -15,7 +21,7 @@ author: jaden
 published: true
 featured: false
 short: A case for Drupal and Salesforce's NPSP as a superior alternative to Blackbaud's Luminate CRM.
-tags: 
+tags:
   - CRM
   - Salesforce
   - Drupal

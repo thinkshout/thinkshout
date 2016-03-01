@@ -8,6 +8,12 @@ category-options:
  - Strategy and Design
  - Project Management and Process
  - Culture, Community, and Business
+expertise: Content Strategy & Metrics
+expertise-options:
+ - Content Strategy & Metrics
+ - Website Design & User Experience
+ - CRM & Engagement Tools
+ - Web Application Development
 header-image:
 header-image-alt:
 

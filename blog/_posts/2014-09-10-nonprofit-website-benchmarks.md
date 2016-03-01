@@ -8,17 +8,23 @@ category-options:
  - Strategy and Design
  - Project Management and Process
  - Culture, Community, and Business
+expertise: Content Strategy & Metrics
+expertise-options:
+ - Content Strategy & Metrics
+ - Website Design & User Experience
+ - CRM & Engagement Tools
+ - Web Application Development
 header-image:
 header-image-alt:
 
 author: brett-meyer
-published: true 
+published: true
 featured: false
 short: Do you know what your site's metrics are telling you? We have some resources for you that can help.
 tags:
 - Nonprofit tech
 - Drupal Planet
-- Google analytics 
+- Google analytics
 - Metrics
 - Content strategy
 - Benchmarks
@@ -28,9 +34,9 @@ Your website is a unique snowflake with singular requirements. While there’s s
 
 But you’ve probably wondered how your site compares to others. I know I’ve always wanted access to website benchmarks – some way to see if the trends I notice in our own dashboards are reflective of larger patterns.
 
-Of course, [benchmarks can be dangerous](http://www.thinkmetrics.com/benchmarks-for-websites.php). If you obsess about them, the action becomes whatever the opposite of navel gazing is. 
+Of course, [benchmarks can be dangerous](http://www.thinkmetrics.com/benchmarks-for-websites.php). If you obsess about them, the action becomes whatever the opposite of navel gazing is.
 
-When you analyze the efficacy of your own website, you always need to [consider it within the context of your own target audiences and organizational goals](http://thinkshout.com/blog/2014/04/desire-paths/) instead of worrying that your overall bounce rate is 4% higher than the "average." 
+When you analyze the efficacy of your own website, you always need to [consider it within the context of your own target audiences and organizational goals](http://thinkshout.com/blog/2014/04/desire-paths/) instead of worrying that your overall bounce rate is 4% higher than the "average."
 
 After all, if your site has the profile of a news organization, with links to recent articles shared widely through third-party channels, you should expect a higher bounce rate: people come, consume, and leave. That might be okay! The goal of that content may have been to spread some news, not generate donations.
 
@@ -44,13 +50,13 @@ Pew Research recently released [an interesting study comparing news sites](http:
 
 On our side, there are a couple of stats of interest in the latest [Benchmarks Study](http://www.mrbenchmarks.com/) from [M+R](http://www.mrss.com) and [NTEN](http://www.nten.org) and the [2013 Online Marketing Benchmark Study for Nonprofits](https://www.blackbaud.com/nonprofit-resources/onlinemarketingstudy) from [Blackbaud](http://www.blackbaud.com), but they’re mostly focused on traffic growth and donation page conversions.
 
-At ThinkShout, because we start almost all of our engagements by exploring how our client’s audiences use their current website, we felt it would be important to have some point of comparison. To facilitate discussion around questions like "How much do we need to worry about mobile?" or “How can we convert the influx of new visitors into engaged users?”, we’ve aggregated the data we have available to us. 
+At ThinkShout, because we start almost all of our engagements by exploring how our client’s audiences use their current website, we felt it would be important to have some point of comparison. To facilitate discussion around questions like "How much do we need to worry about mobile?" or “How can we convert the influx of new visitors into engaged users?”, we’ve aggregated the data we have available to us.
 
 [It seems only fair to share some of it](https://docs.google.com/a/thinkshout.com/spreadsheets/d/1xl8p1VKx4i6uG3kqmHmNdS6s4B6g2kmPIl9sKAtjHwA/edit#gid=0).
 
 This data is in no way reflective of the industry as whole, and it is very top-level. It represents fifteen organizations with diverse missions and traffic patterns, ranging from a few thousand sessions per month to more than 100,000. These are also generally organizations that have recognized the need to redesign their website.
 
-With those caveats, we hope this data may help you understand that some of what you see in your own analytics may, in fact, be reflective of broader trends. 
+With those caveats, we hope this data may help you understand that some of what you see in your own analytics may, in fact, be reflective of broader trends.
 
 The following are three I see in the 37,000,000 [pageviews](https://support.google.com/analytics/answer/1006243?hl=en) we have access to.
 
@@ -92,7 +98,7 @@ That means, of course, that traffic from the other two legs of the standard triu
 
 * 2014 (to date): 25.82% / 19.75%
 
-Essentially, the best home page ever created will not solve your problems, as your users are more and more likely to turn to search first to find what they’re looking for. Your information architecture **must** take into account the fact that the first page your visitors encounter may be deep in your website. 
+Essentially, the best home page ever created will not solve your problems, as your users are more and more likely to turn to search first to find what they’re looking for. Your information architecture **must** take into account the fact that the first page your visitors encounter may be deep in your website.
 
 User Experience starts in the first place your users experience you. You can use your data to make some assumptions about where that’s mostly likely to happen and optimize the top landing pages, but, more and more, you need to worry about every piece of content on your site.
 
@@ -111,7 +117,7 @@ It is. Groundwire found that in 2010, the median number of mobile visitors to th
 
 * 2014 (to date): 18.68% / 17.45%
 
-I’ve seen the argument made that mobile doesn’t require your attention quite yet because it still represents, according to this data, just 1 in 5 visits. 
+I’ve seen the argument made that mobile doesn’t require your attention quite yet because it still represents, according to this data, just 1 in 5 visits.
 
 **Our suggestion would be to get ahead of the curve instead of fighting to catch up**. The growth in mobile traffic is having an obvious impact on the most basic measures of engagement.
 
@@ -220,8 +226,6 @@ And more importantly, are you willing to share your own?
 
 If you’d like to work with us on a template that can be used to collect data from other nonprofits, just let me know. We’ll keep the org-by-org breakdown anonymous. Once we reach an arbitrarily large threshold  – 100,000,000 pageviews? – we can do some follow-up work.
 
-Lev Tsypin, ThinkShout’s Director of Engineering, has suggested that we could go so far as to set up a Google form that feeds an anonymized spreadsheet. We could then make that data available via JSON, for further manipulation. 
+Lev Tsypin, ThinkShout’s Director of Engineering, has suggested that we could go so far as to set up a Google form that feeds an anonymized spreadsheet. We could then make that data available via JSON, for further manipulation.
 
 In the end, I believe that the more we aggregate and share, the better we’ll identify the problem areas we need to focus on as a community.
-
-

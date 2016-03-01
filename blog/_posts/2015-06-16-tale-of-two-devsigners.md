@@ -8,6 +8,12 @@ category-options:
  - Strategy and Design
  - Project Management and Process
  - Culture, Community, and Business
+expertise: Website Design & User Experience
+expertise-options:
+ - Content Strategy & Metrics
+ - Website Design & User Experience
+ - CRM & Engagement Tools
+ - Web Application Development
 header-image:
 header-image-alt:
 
@@ -28,7 +34,7 @@ tags:
 date: 2015-06-16 15:30:00
 ---
 
-It’s June, which means [Devsigner](http://www.devsignercon.com/) is just around the corner so, naturally, we’ve got design on the brain. What’s Devsigner? Well, I’m glad you asked. Devsigner is a conference held here in the Pacific Northwest geared towards front end developers and development-minded designers. Sessions focus on the relationship between design and web development, bridging the gap that separates the design from the code. The math looks like this: developer + designer = devsigner. 
+It’s June, which means [Devsigner](http://www.devsignercon.com/) is just around the corner so, naturally, we’ve got design on the brain. What’s Devsigner? Well, I’m glad you asked. Devsigner is a conference held here in the Pacific Northwest geared towards front end developers and development-minded designers. Sessions focus on the relationship between design and web development, bridging the gap that separates the design from the code. The math looks like this: developer + designer = devsigner.
 
 ThinkShout’s own devsigners [Josh Riggs](http://thinkshout.com/team/josh/) (User Experience Lead) and [Eric Paxton](http://thinkshout.com/team/eric/) (Front End Engineer), will be speaking at this conference at the end of the month. I sat down with Josh and Eric to learn a little bit more about their design process, and how we work with our nonprofit clients to ensure that their sites don’t just work, but that they also deliver a fantastic user experience.
 
@@ -49,7 +55,7 @@ ThinkShout’s own devsigners [Josh Riggs](http://thinkshout.com/team/josh/) (Us
 
 **_Can you talk a little bit about what the design process for the SPLC microsite was like, Josh?_**
 
-**Josh**: We happened to be working on that right around the same time as I was doing wireframes for the upcoming [SPLC](http://www.splcenter.org/) main site that we’re redesigning. We were already doing a lot of thinking about their content and what their needs were. Because the [Selma: Bridge to the Ballot](http://thinkshout.com/work/splc/selma/) movie was coming out on the anniversary of the Selma March, we wanted to have this ready to go in time for that day. There was no way we were going to launch the whole SPLC site along with it - we were too early in development for that - so we decided to split that project up and give them a campaign microsite that would be easy to build while we continued to work on their main site. 
+**Josh**: We happened to be working on that right around the same time as I was doing wireframes for the upcoming [SPLC](http://www.splcenter.org/) main site that we’re redesigning. We were already doing a lot of thinking about their content and what their needs were. Because the [Selma: Bridge to the Ballot](http://thinkshout.com/work/splc/selma/) movie was coming out on the anniversary of the Selma March, we wanted to have this ready to go in time for that day. There was no way we were going to launch the whole SPLC site along with it - we were too early in development for that - so we decided to split that project up and give them a campaign microsite that would be easy to build while we continued to work on their main site.
 
 A lot of that meant working with their team to define their content needs. I began with basic wireframes in [Sketch](http://bohemiancoding.com/sketch/), and uploaded them into [Invision](http://www.invisionapp.com) to give them interactivity. As SPLC came up with more fidelity to what their needs were, we solidified the visual designs. Luckily, they already had a lot of assets that their really great internal design team had created for the movie, so I was able to go off of that style. I took their visual style and applied it to the wireframes and at that point, I went to Eric for a consultation and said, "Ok, if we’re going to build this in [Jekyll](http://thinkshout.com/blog/2014/10/success-building-cmsless-production-sites-with-jekyll/), what’s the best way to do this as far as the architecture goes?" Eric was a huge help in regards to file structure. He wrote a great rake script to automate all the Jekyll, Sass, and Javascript components. That’s when I jumped in and rebuilt what I’d done in Sketch, and added more fidelity with HTML and Sass. I then passed it onto to Eric so he could do his unicorn magic.
 
@@ -63,7 +69,7 @@ A lot of that meant working with their team to define their content needs. I beg
 
 ![devsigner_2](/assets/images/blog/devsigner_2.png)
 
-**Josh**:  It’s tricky to know when to add life to what’s a very flat trend right now. I come from the old school world of web design, which was about how cool can you make your shadows look in Photoshop, how three-dimensional can you make things appear. Now that’s kind of like wearing skinny jeans in the late nineties, when you wouldn’t be caught dead wearing them. Or neon colors. So I think what’s happening is that it’s not *just* that flat design is popular. If you look at other design mediums, like automotive or architecture, there’s a phase with extreme ornate elements. You know, crazy fins, details, lights, every car had a custom badge. All that stuff. And then you have the modern era after that where everything gets streamlined and simplified. It’s more about the function over the form, and the function drives the form. You see the opposite in the Victorian era. Go walk along the St. Johns bridge and look up at a lamp. You’ll see these ornate, twisted little embellishments along the lamps. But the purpose of a lamp is to provide light. Those embellishments do nothing to support the function. They’re just there to make it look pretty. 
+**Josh**:  It’s tricky to know when to add life to what’s a very flat trend right now. I come from the old school world of web design, which was about how cool can you make your shadows look in Photoshop, how three-dimensional can you make things appear. Now that’s kind of like wearing skinny jeans in the late nineties, when you wouldn’t be caught dead wearing them. Or neon colors. So I think what’s happening is that it’s not *just* that flat design is popular. If you look at other design mediums, like automotive or architecture, there’s a phase with extreme ornate elements. You know, crazy fins, details, lights, every car had a custom badge. All that stuff. And then you have the modern era after that where everything gets streamlined and simplified. It’s more about the function over the form, and the function drives the form. You see the opposite in the Victorian era. Go walk along the St. Johns bridge and look up at a lamp. You’ll see these ornate, twisted little embellishments along the lamps. But the purpose of a lamp is to provide light. Those embellishments do nothing to support the function. They’re just there to make it look pretty.
 
 I think we’re seeing a lot of that in digital design as it matures. We’re getting rid of the stuff that doesn’t support the function and focusing more on the *intent* of the users. While we’re taking that ornate-ness out of it, we’re also adding a lot more micro-interactions and animations. Things that actually help you do what you’re there to do. At first, I was kind of against that. But now that I think about it as post-modern design for the web, it makes more sense to me.
 
@@ -77,7 +83,7 @@ I think we’re seeing a lot of that in digital design as it matures. We’re ge
 
 **Eric**: We all have things we’re influenced by. To me, Google stands out. They’ve really led in the trends that people are using. There’s a level of depth to their designs that make me feel like I can reach out and grab it. It’s flat in some ways, but yeah, there’s definitely some depth.
 
-**Josh**: Yeah, I think Google’s done a really great job. And you can see this happening in the app world. The current trend is also getting ubiquitous. 
+**Josh**: Yeah, I think Google’s done a really great job. And you can see this happening in the app world. The current trend is also getting ubiquitous.
 
 **_Devsigner is at the end of the month and you both are leading your own sessions. Can you tell us a bit about them?_**
 

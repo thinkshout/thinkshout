@@ -15,7 +15,7 @@ author: gabe
 published: true
 featured: false
 short: Join us at BADCamp for two half-day trainings!
-tags: 
+tags:
   - Salesforce
   - BADCamp
   - Drupal Planet
@@ -24,7 +24,7 @@ tags:
 date: 2015-09-29 16:00:00
 ---
 
-This year marks a particularly exciting BADCamp for us. On Friday, October 23, we’ll be leading two official half-day trainings on Salesforce and RedHen CRM! 
+This year marks a particularly exciting BADCamp for us. On Friday, October 23, we’ll be leading two official half-day trainings on Salesforce and RedHen CRM!
 
 We talk a lot about Salesforce and RedHen on our blog, which is inevitable given how much time we spend working with both. Given that the [Drupal Salesforce Suite](https://www.drupal.org/project/salesforce) we wrote and maintain powers over 1,200 sites, we decided we should talk about it more! Lev Tsypin, Tauno Hogue, Greg Boggs and I will be your trainers for the day.
 

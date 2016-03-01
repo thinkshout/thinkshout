@@ -12,7 +12,7 @@ header-image:
 header-image-alt:
 
 author: sean
-published: true 
+published: true
 featured: false
 short: There's a whole lot to gain by giving away your code.
 tags:

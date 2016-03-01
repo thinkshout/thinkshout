@@ -8,6 +8,12 @@ category-options:
  - Strategy and Design
  - Project Management and Process
  - Culture, Community, and Business
+expertise: Content Strategy & Metrics
+expertise-options:
+ - Content Strategy & Metrics
+ - Website Design & User Experience
+ - CRM & Engagement Tools
+ - Web Application Development
 header-image:
 header-image-alt:
 
@@ -32,7 +38,7 @@ Miller first tried to make *Fury Road* in 2001, took it up again in as a live ac
 
 When you consider recent successes like *[The Lego Movie](http://www.thelegomovie.com/)* (4 years in production) and the fantastic *[Boyhood](http://www.imdb.com/title/tt1065073/)* (12 years in production), it’s clear that, with the right people involved, movies benefit from allowing directors to realize their vision. Expand that to books and music, and the quickly-created masterpiece is the clear outlier.
 
-To think that your organization can churn out content that best serves its mission without careful thought and robust process, then, would be a mistake. 
+To think that your organization can churn out content that best serves its mission without careful thought and robust process, then, would be a mistake.
 
 There’s [a long-standing notion](http://uxmyths.com/post/647473628/myth-people-read-on-the-web) that people don’t read on the Internet, [backed up by careful research](http://www.nngroup.com/articles/how-little-do-users-read/). I believe people don’t read on the Internet because, by and large, the available content is crap.
 
@@ -46,7 +52,7 @@ That sounds to me like the very definition of great content – and great conten
 
 That can seem overwhelming, particularly when most nonprofits don’t have a cadre of trained writers on staff. There are plenty of tools out there to help you. [Editorial calendars](http://www.lightboxcollaborative.com/2015-editorial-calendar). [Page tables and content templates](http://marketeer.kapost.com/from-page-tables-to-content-templates/). (Yes, content strategy, when it comes to implementation, involves a lot of spreadsheets.)
 
-But it comes down to this: Don’t try to do too many things well. Try to do a few things better than everybody else. 
+But it comes down to this: Don’t try to do too many things well. Try to do a few things better than everybody else.
 
 You’re never going to bring everybody on board with your cause, so writing for the masses may not be the most effective strategy. Take time to create at least some content for those who care enough to read it.
 
@@ -82,9 +88,9 @@ Meh.
 
 *Fury Road* doesn’t care about telling you what’s going on or why it’s happening, just that it is. Why doesn’t Furiosa have an arm? How did Immortan Joe come to control all the water? It doesn’t matter in the visceral thrill of the chase. We trust Miller because we know he’s thought through all of the backstory and decided it didn’t matter here. He’s right. And cutting the movie to its barest bones serves his vision perfectly.
 
-All that to say: If you produce content for a nonprofit, you have a built-in advantage because you have your Mission, Vision, and Values as touchstones. You know the backstory about why your organization does the work it does, and that can – and should – inform every piece of content you produce. 
+All that to say: If you produce content for a nonprofit, you have a built-in advantage because you have your Mission, Vision, and Values as touchstones. You know the backstory about why your organization does the work it does, and that can – and should – inform every piece of content you produce.
 
-Think about the story you’re telling in terms of [narrative arcs](http://www.uxmatters.com/mt/archives/2014/03/storymapping-a-macgyver-approach-to-content-strategy-part-2.php). Most of the content you produce, while illuminating some aspect of your Mission, Vision, and Values, can’t tell the entire story of your work. Instead, capture the interest of your audience, delight them with carefully crafted, finely honed content, and link back to the bigger picture. Hyperlinks were created before content strategy was even a phrase, but they allow us to lay out our story in pieces, tied back to a central narrative. 
+Think about the story you’re telling in terms of [narrative arcs](http://www.uxmatters.com/mt/archives/2014/03/storymapping-a-macgyver-approach-to-content-strategy-part-2.php). Most of the content you produce, while illuminating some aspect of your Mission, Vision, and Values, can’t tell the entire story of your work. Instead, capture the interest of your audience, delight them with carefully crafted, finely honed content, and link back to the bigger picture. Hyperlinks were created before content strategy was even a phrase, but they allow us to lay out our story in pieces, tied back to a central narrative.
 
 **Prepare for the haters**
 
@@ -100,7 +106,7 @@ After the movie came out, noted misogynist [Aaron Clarey wrote some pretty hatef
 
 You can [read the entire article](http://www.returnofkings.com/63036/why-you-should-not-go-see-mad-max-feminist-road) if you need a little anger in your day, but Clarey ends with a Call to Spitefulness: "So do yourself and all men across the world a favor. Not only REFUSE to see the movie, but spread the word to as many men as possible."
 
-Never mind that everything that happens in *Fury Road* serves the story, not a philosophy. The plot, such as it is, hinges on the escape of five women from captivity. [As director George Miller puts it](http://www.hollywoodreporter.com/news/cannes-2015-mad-maxs-tom-795589), "Initially, there wasn’t a feminist agenda... I needed a warrior. But it couldn’t be a man taking five wives from another man. That’s an entirely different story. So everything grew out of that." 
+Never mind that everything that happens in *Fury Road* serves the story, not a philosophy. The plot, such as it is, hinges on the escape of five women from captivity. [As director George Miller puts it](http://www.hollywoodreporter.com/news/cannes-2015-mad-maxs-tom-795589), "Initially, there wasn’t a feminist agenda... I needed a warrior. But it couldn’t be a man taking five wives from another man. That’s an entirely different story. So everything grew out of that."
 
 He’s [supported by Chris Hansen](http://www.csmonitor.com/USA/Society/2015/0514/Mad-Max-Fury-Road-Why-are-anti-feminists-so-angry-about-action-film-video), the director of the film and digital media division at Baylor University: "We’re used to women being in the background, not men. But Miller isn’t doing it as a statement, he’s doing it because that’s what the story calls for."
 
