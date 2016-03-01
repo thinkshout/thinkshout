@@ -1,5 +1,6 @@
 ---
 layout: expertise
+body-class: expertise
 title: |
   Website Design & User Experience
 permalink: expertise/user-experience-and-design/

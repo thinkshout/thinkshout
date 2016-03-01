@@ -1,5 +1,6 @@
 ---
 layout: expertise
+body-class: expertise
 title: |
   Web Application Development
 permalink: expertise/web-application-development/

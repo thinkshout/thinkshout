@@ -1,5 +1,6 @@
 ---
 layout: expertise
+body-class: expertise
 title: |
   CRM & Engagement Tools
 permalink: expertise/engagement-tools/

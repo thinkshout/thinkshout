@@ -1,5 +1,6 @@
 ---
 layout: expertise
+body-class: expertise
 title: |
   Content Strategy & Metrics
 permalink: expertise/content-strategy-and-metrics/
