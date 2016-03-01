@@ -3102,6 +3102,9 @@ a {
     .expertise .cta {
       margin: 6em auto; } }
 
+.expertise .body {
+  padding: 3rem 0; }
+
 /*!
 Chosen, a Select Box Enhancer for jQuery and Prototype
 by Patrick Filler for Harvest, http://getharvest.com
