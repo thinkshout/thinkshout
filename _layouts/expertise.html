@@ -1,7 +1,19 @@
 ---
 layout: default
 ---
-<div class="content expertise">
+<style>
+  .expertise-header { background-image: url('/assets/images/{{ page.images.hero }}'); }
+</style>
+
+<section class="expertise-header">
+  <div class="gradient">&nbsp;</div>
+  <div class="wrapper">
+    <h4>{{ page.title }}</h4>
+    <h2 class="short-description">{{ page.blurb_short }}</h2>
+  </div>
+</section>
+
+<div class="expertise-detail">
   <div class="hero-image" style="background-image: url('{{ site.baseurl }}/assets/images/{{ page.images.hero }}');"></div>
   <div class="hero">
     <div class="site-width">
