@@ -1,8 +1,8 @@
 ---
 layout: expertise
 title: |
-  Open Source Technologies
-permalink: expertise/open-source-technologies/
+  Web Application Development
+permalink: expertise/web-application-development/
 leadin: |
   Unwavering Commitment To Open Source Excellence
 class: open-source
@@ -18,8 +18,7 @@ points: |
   <li>Association Management Solutions</li>
   <li>Peer-to-Peer Fundraising</li>
   <li>Event Management and Ticketing</li>
-  <li>Online Mapping</li> 
-
+  <li>Online Mapping</li>
 ---
 
 Over the last 15 years or so, we’ve seen consistent growth in nonprofits’ appreciation for how open source tools can support their goals for online engagement. The immediate benefits of implementing an open source solution are clear:

@@ -1,7 +1,7 @@
 ---
 layout: expertise
 title: |
-  User Experience & Design
+  Website Design & User Experience
 permalink: expertise/user-experience-and-design/
 leadin: |
   A Collaborative, Iterative Design Approach
