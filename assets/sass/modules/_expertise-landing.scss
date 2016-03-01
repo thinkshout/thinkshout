@@ -21,10 +21,11 @@
   }
 
   .expertise-teaser-left {
-    @include mq(d) { text-align: right; }
+    @include mq(d) { text-align: right; padding-right: 2rem;}
 
     h1 {
       font-size: 3.5rem;
+      @include mq(m) { font-size: 3rem; }
     }
 
     a {
@@ -35,13 +36,28 @@
 
       &:hover {
         background: $white;
-        color: $ltorange;
+        color: $orange;
       }
     }
   }
 
   .expertise-teaser-right {
     @include mq(d) { text-align: left; }
+    @include mq(t) { margin-top: 2rem; }
+    @include mq(m) { margin-top: 1.5rem; }
+
+    ul {
+      padding-left: 0;
+    }
+
+    li {
+      line-height: $line-height;
+
+      &:before {
+        content: '•';
+        padding-right: 0.5rem;
+      }
+    }
   }
 
   .side {
