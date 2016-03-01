@@ -20,3 +20,36 @@ layout: default
     <h4 class="intro">{{ page.blurb }}</h4>
     {{ content }}
 </div>
+
+<div class="team-member-blog">
+  <div class="container">
+    <h4>{{ page.title }} Blogs</h4>
+    <div class="row">
+      {% assign tsloop = 1 %}
+      {% for post in site.posts %}
+      {% if post.layout == 'blog' and post.expertise == page.title and post.published %}
+        <div class="post">
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <p class="post-date">{{ post.date | date: "%m.%d.%Y" }}</p>
+            <h3 class="post-title">{{ post.title}}</h3>
+            <p class="post-short">{{ post.short }}</p>
+            <p class="byline">
+              {% for person in site.data.team %}
+              {% if post.author == person.name %}
+              <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
+                <strong>{{ person.first_name }} {{ person.last_name }}</strong><br>
+                {{ person.position }}
+              {% endif %}
+              {% endfor %}
+            </p>
+          </a>
+        </div>
+        {% assign tsloop = tsloop | plus: 1 %}
+        {% if tsloop > 3 %}
+          {% break %}
+        {% endif %}
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
