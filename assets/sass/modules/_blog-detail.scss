@@ -8,7 +8,7 @@
   .blog-header {
     text-align: center;
 
-    p {      
+    p {
       margin: 0 auto 0.5rem;
     }
 
@@ -70,7 +70,7 @@
     ul,
     ol,
     div.highlighter-rouge,
-    iframe,    
+    iframe,
     .blog-cta,
     .comments {
       color: $darkgray;
@@ -141,7 +141,7 @@
       color: $midgray;
       font-size: rem(20);
       font-weight: 800;
-      line-height: 1.4;      
+      line-height: 1.4;
       @include mq(lt) { font-size: rem(20); }
       @include mq(md) { font-size: rem(22); }
       @include mq(l)  { font-size: rem(26); }
@@ -151,7 +151,7 @@
       color: $orange;
       font-size: rem(18);
       font-weight: 700;
-      line-height: 1.4; 
+      line-height: 1.4;
       padding: 0 rem(8);
       text-align: center;
       @include mq(lt) { padding: 0 rem(16); font-size: rem(18); }
@@ -196,7 +196,7 @@
       @include mq(md) { display: block; float: right; }
       @include mq(l)  { display: block; float: right; }
     }
-    h3, p, a.uppercase-link {      
+    h3, p, a.uppercase-link {
       color: darken($darkgray,10%);
       padding: 0;
       width: auto;
@@ -204,19 +204,19 @@
       @include mq(lt) { margin: 1rem 2rem 2rem 3rem; }
       @include mq(md) { margin: 1rem 2rem 2rem 3rem; }
       @include mq(l)  { margin: 1rem 2rem 2rem 3rem; }
-    } 
+    }
     h3 {
       clear: both;
       font-size: rem(22);
       font-weight: 700;
-      margin-top: 1rem;      
+      margin-top: 1rem;
       @include mq(lt) { clear: none; margin-top: 2rem; }
       @include mq(md) { clear: none; margin-top: 2.5rem; }
       @include mq(l)  { clear: none; margin-top: 3rem; }
     }
     a.uppercase-link {
       color: darken($darkgray,10%);
-      display: block;      
+      display: block;
       i {
         color: darken($darkgray,10%);
       }
@@ -260,22 +260,6 @@
     .next {
       float: right;
       text-align: right;
-    }
-  }
-  
-  .team-member-blog {
-    .post {
-      padding-bottom: rem(73);
-      position: relative;
-    }
-    .byline {
-      position: absolute;
-      bottom: -1rem;
-      strong { 
-        color: #000;
-        display: inline-block;
-        padding-top: rem(8);
-      }
     }
   }
 }

@@ -2562,16 +2562,6 @@ a {
   .blog-post .pagination .next {
     float: right;
     text-align: right; }
-.blog-post .team-member-blog .post {
-  padding-bottom: 4.5625rem;
-  position: relative; }
-.blog-post .team-member-blog .byline {
-  position: absolute;
-  bottom: -1rem; }
-  .blog-post .team-member-blog .byline strong {
-    color: #000;
-    display: inline-block;
-    padding-top: 0.5rem; }
 
 @media (max-width: 480px) {
   .blog-landing .main-content {
@@ -2777,6 +2767,20 @@ a {
           width: 30%;
           margin-top: 4rem;
           float: right; } }
+
+.blog-post .team-member-blog .post,
+.expertise .team-member-blog .post {
+  padding-bottom: 4.5625rem;
+  position: relative; }
+.blog-post .team-member-blog .byline,
+.expertise .team-member-blog .byline {
+  position: absolute;
+  bottom: -1rem; }
+  .blog-post .team-member-blog .byline strong,
+  .expertise .team-member-blog .byline strong {
+    color: #000;
+    display: inline-block;
+    padding-top: 0.5rem; }
 
 @media (max-width: 480px) {
   .case-study .main-content,

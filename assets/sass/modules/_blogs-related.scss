@@ -1,0 +1,18 @@
+.blog-post,
+.expertise {
+  .team-member-blog {
+    .post {
+      padding-bottom: rem(73);
+      position: relative;
+    }
+    .byline {
+      position: absolute;
+      bottom: -1rem;
+      strong {
+        color: #000;
+        display: inline-block;
+        padding-top: rem(8);
+      }
+    }
+  }
+}
