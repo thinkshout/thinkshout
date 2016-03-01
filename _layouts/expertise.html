@@ -28,7 +28,7 @@ layout: default
       {% assign tsloop = 1 %}
       {% for post in site.posts %}
       {% if post.layout == 'blog' and post.expertise == page.title and post.published %}
-        {% include related_blogs.html %}
+        {% include blogs_related.html %}
         {% assign tsloop = tsloop | plus: 1 %}
         {% if tsloop > 3 %}
           {% break %}
