@@ -1,5 +1,6 @@
 .expertise-teaser {
   color: $white;
+  text-align: center;
 
   $counter: 0;
   @while $counter < 5 {
@@ -17,6 +18,30 @@
       @include mq(l) { padding: 13rem 0; }
     }
     $counter: $counter + 1;
+  }
+
+  .expertise-teaser-left {
+    @include mq(d) { text-align: right; }
+
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    a {
+      border: 1px solid $white;
+      color: $white;
+      font-size: rem(14);
+      padding: 1rem 2rem;
+
+      &:hover {
+        background: $white;
+        color: $ltorange;
+      }
+    }
+  }
+
+  .expertise-teaser-right {
+    @include mq(d) { text-align: left; }
   }
 
   .side {
