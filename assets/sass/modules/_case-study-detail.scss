@@ -1,81 +1,4 @@
-.case-study {  
-
-  .main-content {
-    @include mq(m) { margin-top: rem(90); }
-    @include mq(t) { margin-top: rem(90); }
-  }
-
-  .case-study-header {
-    background-position: left top;
-    background-size: cover;
-    color: $white;
-    height: 100%;
-    padding: 6rem 0;
-    position: relative;
-    text-align: center;
-    width: 100%;
-    z-index: 1;
-
-    .gradient {
-      background-image: linear-gradient( 0deg, rgba(0,0,0,0.8), transparent 80% );
-      height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      z-index: 10;
-    }
-
-    .wrapper {
-      bottom: 0;
-      left: 0;
-      margin: 0 auto;
-      max-width: 94%;
-      position: absolute;
-      right: 0;
-      z-index: 100;
-    }
-
-    h4 {
-      background-color: rgba($midorange,0.9);
-      display: inline-block;
-      font-size: 0.7rem;
-      font-weight: 400;
-      letter-spacing: 1px;
-      margin: 0;
-      padding: rem(8);
-      text-transform: uppercase;
-    }
-
-    h2 {
-      font-size: 1.2rem;
-      margin-bottom: 1.5rem;
-      margin-top: 0.8rem;
-    }
-
-    @include mq(lt) { 
-      padding: 8rem 0;
-      .wrapper { max-width: 80%; }
-      .gradient { background-image: linear-gradient( 0deg, rgba(0,0,0,0.8), transparent 50% ); }
-      h4 { font-size: 0.8rem; padding: rem(10); }
-      h2 { font-size: 1.6rem; }
-    }
-    @include mq(md) { 
-      padding: 12rem 0;
-      .wrapper { max-width: 75%; }
-      .gradient { background-image: linear-gradient( 0deg, rgba(0,0,0,0.8), transparent 40% ); }
-      h4 { font-size: 0.8rem; padding: rem(12); }
-      h2 { font-size: 2rem; }
-    }
-    @include mq(l) { 
-      padding: 18rem 0;
-      .wrapper { max-width: 68%; }
-      .gradient { background-image: linear-gradient( 0deg, rgba(0,0,0,0.8), transparent 40% ); }
-      h4 { font-size: 0.8rem; padding: rem(16); }
-      h2 { font-size: 2.5rem; }
-    }
-  }
-
+.case-study {
   .body {
     .intro,
     h4,
@@ -91,7 +14,7 @@
       @include mq(l)  { width: 100%; padding: 0 rem(100); }
     }
 
-    .intro {      
+    .intro {
       text-align: center;
     }
 
@@ -108,7 +31,7 @@
 
     h4.intro {
       color: $midgray;
-      font-size: 1rem;      
+      font-size: 1rem;
       font-style: italic;
       font-weight: 100;
       line-height: 1.5;
@@ -152,17 +75,17 @@
       }
     }
 
-    div.inline {      
-      margin: 2em auto;      
+    div.inline {
+      margin: 2em auto;
       padding: 0;
       img {
         width: 100%;
       }
     }
 
-    div.full {      
+    div.full {
       margin: 2em auto;
-      max-width: 100%;      
+      max-width: 100%;
       width: 100%;
       img {
         width: 100%;
@@ -170,7 +93,7 @@
     }
   }
 
-  .cta {    
+  .cta {
     margin: 2em auto;
     max-width: 996px;
     text-align: center;
@@ -186,7 +109,7 @@
       margin: 0;
       padding: rem(12) rem(64);
       text-transform: uppercase;
-      &:hover {        
+      &:hover {
         background-color: $midorange;
       }
     }
