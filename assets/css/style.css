@@ -3026,8 +3026,9 @@ a {
   color: #f78c50; }
 .case-study .body ul li,
 .expertise .body ul li {
+  font-size: 0.9375rem;
   font-weight: bold;
-  line-height: 0; }
+  margin-top: 0; }
   .case-study .body ul li:before,
   .expertise .body ul li:before {
     content: '•';

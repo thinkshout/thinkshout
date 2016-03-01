@@ -132,8 +132,9 @@
     }
 
     ul li {
+      font-size: rem(15);
       font-weight: bold;
-      line-height: 0;
+      margin-top: 0;
 
       &:before {
         content: '•';
