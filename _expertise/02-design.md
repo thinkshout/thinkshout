@@ -2,7 +2,7 @@
 layout: expertise
 body-class: expertise
 title: Website Design & User Experience
-permalink: expertise/user-experience-and-design/
+permalink: what-we-do/user-experience-and-design/
 leadin: |
   A Collaborative, Iterative Design Approach
 class: design
