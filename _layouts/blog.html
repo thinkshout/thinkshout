@@ -88,11 +88,11 @@ layout: default
   <div class="team-member-blog">
     <div class="container">
       <h4>Related Blog Posts</h4>
-      <div class="row">
+      <div class="row posts">
         {% assign tsloop = 1 %}
         {% for post in site.posts %}
         {% if post.layout == 'blog' and post.category == page.category and post.published and post.title != page.title %}
-          {% include related_blogs.html %}
+          {% include blogs_related.html %}
           {% assign tsloop = tsloop | plus: 1 %}
           {% if tsloop > 3 %}
             {% break %}
