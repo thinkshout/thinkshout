@@ -6,3 +6,4 @@ app.css
 ts.css
 .DS_store
 *~
+*.css.map

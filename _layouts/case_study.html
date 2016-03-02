@@ -37,7 +37,7 @@ layout: default
           {% else %}
             <div class="inline">
           {% endif %}
-          <img src="{{ section.section-image }}" alt="{{ section.section-image-alt }}">
+          <img src="{{ site.baseurl }}{{ section.section-image }}" alt="{{ section.section-image-alt }}">
           {% if section.section-image-caption %}
             <span class="caption"><i class="fa fa-caret-up"></i>{{ section.section-image-caption }}</span>
           {% endif %}

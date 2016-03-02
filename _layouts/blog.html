@@ -19,7 +19,7 @@ layout: default
 
 {% if page.header-image %}
 <div class="blog-header-image">
-  <img src="{{ page.header-image }}" alt="{{ page.header-image-alt }}">
+  <img src="{{ site.baseurl }}{{ page.header-image }}" alt="{{ page.header-image-alt }}">
 </div>
 {% endif %}
 
@@ -36,7 +36,7 @@ layout: default
   <div class="blog-cta">
 
     {% if page.blog-cta.image %}
-    <img src="{{ page.blog-cta.image }}" alt="{{ page.blog-cta.title }}">
+    <img src="{{ site.baseurl }}{{ page.blog-cta.image }}" alt="{{ page.blog-cta.title }}">
     {% else %}
     <img src="{{ site.baseurl }}/assets/images/ts_redesign/cta/default-cta.jpg" alt="{{ page.blog-cta.title }}">
     {% endif %}
