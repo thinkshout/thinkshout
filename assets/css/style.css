@@ -4428,6 +4428,10 @@ header {
     .open-source-contributions a.uppercase-link i {
       color: #f1b332; }
 
+.open-source h1.title {
+  color: #58585b;
+  font-size: 2.8125rem; }
+
 .our-expertise {
   padding: 6rem 0; }
   @media (max-width: 480px) {
