@@ -52,12 +52,11 @@
   });
 
   $("#blog-filter").change(function(evt, params) {
-    // console.log(params.selected);
-    $('.blog-list').find('li').show();
+    $('.blog-list').find('li').hide();
     if (params.selected != 'all') {
-      $('.blog-list').find('li').not('.'+params.selected).hide();
+      $('.blog-list').find('li.'+params.selected).fadeIn();
     } else {
-      $('.blog-list').find('li').show();
+      $('.blog-list').find('li').fadeIn();
     }
   });
 
