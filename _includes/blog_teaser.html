@@ -1,6 +1,6 @@
 <article class="blog-teaser">
   <div class="info">
-    <p><span class="date">{{ post.date | date: '%m.%d.%Y' }}</span> <a class="category" href="/blog/?category={{ post.category | slugify }}">{{ post.category }}</a></p>
+    <p><span class="date">{{ post.date | date: '%m.%d.%Y' }}</span> <a class="category" href="{{ site.baseurl }}/blog/?category={{ post.category | slugify }}">{{ post.category }}</a></p>
     
     <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
     

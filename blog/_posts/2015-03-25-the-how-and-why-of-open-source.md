@@ -8,6 +8,12 @@ category-options:
  - Strategy and Design
  - Project Management and Process
  - Culture, Community, and Business
+expertise: Web Application Development
+expertise-options:
+ - Content Strategy & Metrics
+ - Website Design & User Experience
+ - CRM & Engagement Tools
+ - Web Application Development
 header-image:
 header-image-alt:
 
@@ -49,7 +55,7 @@ There are many other arguments *against* open sourcing. Some organizations think
 
 "We know our organization benefits from open source, but we’re not in a position to give back financially or in terms of our time."
 
-Again, this is an understandable concern, but one that can be mitigated pretty easily with proper planning, good project management, and sound and sustainable engineering practices. 
+Again, this is an understandable concern, but one that can be mitigated pretty easily with proper planning, good project management, and sound and sustainable engineering practices.
 
 
 ### Debunking the Myths of Contributing to Open Source
@@ -105,5 +111,4 @@ Of course, if your organization is considering a more direct contribution to an 
 
 * **Celebrate your contributions and the development team!** It might sound silly, but many software nerds take great pride in just knowing that the stuff they build is going to be seen by their peers. By offering to open source even just small components of your project, you are more likely to motivate your development partners. They will generally work harder and do better work, which again adds immediate value to your project.
 
-In conclusion, I hope that this article helps you better understand that there’s a lot of value in contributing to open source. It doesn’t have to be that daunting of an effort and it doesn’t have to take you off task. 
-
+In conclusion, I hope that this article helps you better understand that there’s a lot of value in contributing to open source. It doesn’t have to be that daunting of an effort and it doesn’t have to take you off task.

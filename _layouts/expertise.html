@@ -1,23 +1,40 @@
 ---
 layout: default
 ---
-<div class="content expertise">
+<style>
+  .expertise-header { background-image: url('/assets/images/{{ page.images.hero }}'); }
+</style>
+
+<section class="expertise-header">
+  <div class="gradient">&nbsp;</div>
+  <div class="wrapper">
+    <h4>{{ page.title }}</h4>
+    <h2>{{ page.leadin }}</h2>
+  </div>
+</section>
+
+<div class="expertise-detail">
   <div class="hero-image" style="background-image: url('{{ site.baseurl }}/assets/images/{{ page.images.hero }}');"></div>
-  <div class="hero">
-    <div class="site-width">
-      <div class="background"></div>
-      <div class="leadin">
-        <h2>{{ page.leadin }}</h2>
-      </div>
+
+  <section class="body">
+    <h4 class="intro">{{ page.blurb }}</h4>
+    {{ content }}
+</div>
+
+<div class="team-member-blog">
+  <div class="container">
+    <h4>{{ page.title }} Blogs</h4>
+    <div class="row">
+      {% assign tsloop = 1 %}
+      {% for post in site.posts %}
+      {% if post.layout == 'blog' and post.expertise == page.title and post.published %}
+        {% include related_blogs.html %}
+        {% assign tsloop = tsloop | plus: 1 %}
+        {% if tsloop > 3 %}
+          {% break %}
+        {% endif %}
+      {% endif %}
+      {% endfor %}
     </div>
   </div>
-  <section class="main">
-      <div class="section-rubric">
-        <h3><span>{{ page.title }}</span></h3>
-      </div>
-      <div class="row">
-        <div class="large-9 columns large-centered">
-          <p>{{ content }}</p>
-      </div>
-    </section>
 </div>

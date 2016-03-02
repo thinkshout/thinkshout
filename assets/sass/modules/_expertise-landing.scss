@@ -1,0 +1,103 @@
+.expertise-teaser {
+  color: $white;
+  text-align: center;
+
+  $counter: 0;
+  @while $counter < 5 {
+    &#expertise#{$counter} {
+      background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/ts_redesign/expertise/expertise#{$counter}.jpg') center center no-repeat;
+      background-size: cover;
+      height: 100%;
+      padding: 2rem 0;
+      position: relative;
+      width: 100%;
+      z-index: 1;
+
+      @include mq(lt) { padding: 4rem 0; }
+      @include mq(md) { padding: 8rem 0; }
+      @include mq(l) { padding: 13rem 0; }
+    }
+    $counter: $counter + 1;
+  }
+
+  .expertise-teaser-left {
+    @include mq(d) { text-align: right; padding-right: 2rem;}
+
+    h1 {
+      font-size: 3.5rem;
+      @include mq(m) { font-size: 3rem; }
+    }
+
+    p {
+      font-size: rem(18);
+    }
+
+    a {
+      border: 1px solid $white;
+      color: $white;
+      font-size: rem(14);
+      padding: 1rem 2rem;
+
+      &:hover {
+        background: $white;
+        color: $orange;
+      }
+    }
+  }
+
+  .expertise-teaser-right {
+    @include mq(d) { text-align: left; }
+    @include mq(t) { margin-top: 2rem; }
+    @include mq(m) { margin-top: 1.5rem; }
+
+    ul {
+      padding-left: 0;
+    }
+
+    li {
+      font-size: rem(14);
+      line-height: $line-height;
+
+      &:before {
+        content: '•';
+        padding-right: 0.5rem;
+      }
+    }
+
+    i {
+      border-bottom: 3px solid $white;
+      margin-bottom: -0.5rem;
+      margin-top: 3rem;
+      width: rem(55);
+
+      @include mq(t) { margin-left: auto; margin-right: auto; }
+      @include mq(m) { margin-left: auto; margin-right: auto; }
+
+      &:before {
+        bottom: rem(-9);
+        color: $white;
+        font-size: 1.7rem;
+      }
+    }
+
+    .expertise-examples {
+      font-weight: bold;
+
+      a {
+        color: $white;
+        text-decoration: underline;
+
+        &:hover {
+          color: $ltorange;
+        }
+      }
+    }
+  }
+
+  .side {
+    @include span-columns(6);
+
+    @include mq(m) { @include span-columns(12); }
+    @include mq(t) { @include span-columns(12); }
+  }
+}

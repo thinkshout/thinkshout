@@ -14,12 +14,17 @@ tags:
 date: 2015-11-23 11:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 category: Technology and Innovation
-category-options: 
+category-options:
  - Technology and Innovation
  - Strategy and Design
  - Project Management and Process
  - Culture, Community, and Business
-
+expertise: Web Application Development
+expertise-options:
+ - Content Strategy & Metrics
+ - Website Design & User Experience
+ - CRM & Engagement Tools
+ - Web Application Development
 header-image: /assets/images/ts_redesign/blog/up-and-theming1.jpg
 header-image-alt: "Image: Model Thinkshout Employees"
 ---

@@ -3,14 +3,14 @@ layout: default
 ---
 <div class="blog-header">
   {% if page.featured %}<p class="featured">Featured Post</p>{% endif %}
-  <p><span class="date">{{ page.date | date: '%m.%d.%Y' }}</span> <a class="category" href="/blog/?category={{ page.category | slugify }}">{{ page.category }}</a> </p>
+  <p><span class="date">{{ page.date | date: '%m.%d.%Y' }}</span> <a class="category" href="{{ site.baseurl }}/blog/?category={{ page.category | slugify }}">{{ page.category }}</a> </p>
 
   <h1 class="post-title">{{ page.title }}</h1>
   <p class="byline">
     {% for person in site.data.team %}
     {% if page.author == person.name %}
     <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
-      <a class="team-name" href="{{ site.baseurl }}/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a><br>        
+      <a class="team-name" href="{{ site.baseurl }}/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a><br>
       {{ person.position }}
     {% endif %}
     {% endfor %}
@@ -34,13 +34,13 @@ layout: default
 
   {% if page.blog-cta and page.blog-cta.link %}
   <div class="blog-cta">
-    
+
     {% if page.blog-cta.image %}
     <img src="{{ page.blog-cta.image }}" alt="{{ page.blog-cta.title }}">
-    {% else %}    
+    {% else %}
     <img src="/assets/images/ts_redesign/cta/default-cta.jpg" alt="{{ page.blog-cta.title }}">
     {% endif %}
-    
+
     <h3>{{ page.blog-cta.title }}</h3>
     <p>{{ page.blog-cta.description }}</p>
     <a href="{{ page.blog-cta.link }}" class="uppercase-link">Learn More<i class="fa fa-caret-right"></i></a>
@@ -92,22 +92,7 @@ layout: default
         {% assign tsloop = 1 %}
         {% for post in site.posts %}
         {% if post.layout == 'blog' and post.category == page.category and post.published and post.title != page.title %}
-          <div class="post">
-            <a href="{{ site.baseurl }}{{ post.url }}">
-              <p class="post-date">{{ post.date | date: "%m.%d.%Y" }}</p>
-              <h3 class="post-title">{{ post.title}}</h3>
-              <p class="post-short">{{ post.short }}</p>
-              <p class="byline">
-                {% for person in site.data.team %}
-                {% if post.author == person.name %}
-                <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
-                  <strong>{{ person.first_name }} {{ person.last_name }}</strong><br>
-                  {{ person.position }}
-                {% endif %}
-                {% endfor %}
-              </p>
-            </a>
-          </div>
+          {% include related_blogs.html %}
           {% assign tsloop = tsloop | plus: 1 %}
           {% if tsloop > 3 %}
             {% break %}
