@@ -8,7 +8,7 @@
   @include mq(l) { padding: 6rem 0; }
   h2 {
     color: $darkgray;
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
     font-weight: 900;
     letter-spacing: 1px;
     @include mq(lt) { font-size: 1.4rem; }
@@ -24,7 +24,7 @@
     @include mq(lt) { font-size: rem(16); max-width: 80%; }
     @include mq(md) { font-size: rem(17); max-width: 65%; }
     @include mq(l) { font-size: rem(19); max-width: 55%; }
-  } 
+  }
 
   a.uppercase-link {
     color: $darkgray;
