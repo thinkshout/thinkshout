@@ -1,11 +1,8 @@
 ---
-layout: page
-title: |
-  Our Open Source Contributions
-permalink: expertise/open-source-contributions/
- 
-
+layout: default
+permalink: what-we-do/open-source-contributions/
 ---
+# Our Open Source Contributions
 
 #### [Add to Cal](https://www.drupal.org/project/usage/addtocal)
 The field formatter provides a button next to the field that shows a drop-down menu. This menu contains links to the supported formats, and includes basic styling that can be easily modified through CSS. Supports exporting events to Google Calendar, Yahoo! Calendar, iCal, and Outlook.
@@ -20,7 +17,7 @@ Provides a Bean type plugin that allows admins to create blocks that display a s
 This module provides a [Bean](http://drupal.org/project/bean) plugin for creating/managing block listings of relevant content.
 
 #### [Commerce Check](https://www.drupal.org/project/commerce_check)
-Simple check payment processor for Drupal Commerce. 
+Simple check payment processor for Drupal Commerce.
 
 #### [Commerce iATS](https://www.drupal.org/project/commerce_iats)
 [iATS Payments](http://home.iatspayments.com/) is a leading provider of payment processing services for nonprofits. They are actively sponsoring the maintenance and development of this module, which is an integration for the [Drupal Commerce](http://drupal.org/project/commerce) payment and checkout system.
@@ -54,7 +51,7 @@ RedHen Donation allows for a RedHen Donation field to be attached to an entity, 
 Import or aggregate [RedHen CRM](http://drupal.org/project/redhen) data using [Feeds](http://drupal.org/project/feeds).
 
 #### [RedHen MailChimp](https://www.drupal.org/project/redhen_mailchimp)
-The perfect marriage of your favorite open source CRM and the best email service provider. Current features include the ability to track contact engagement based on email events. 
+The perfect marriage of your favorite open source CRM and the best email service provider. Current features include the ability to track contact engagement based on email events.
 
 #### [RedHen Membership](https://www.drupal.org/project/redhen_membership)
 The RedHen Membership module provides a framework for managing individual (Contact) and organizational memberships. Optionally, you could assign user roles to Drupal users associated with active individual or organizational memberships. Memberships are a custom entity type/bundle. Therefore, memberships can be extended with additional fields.
@@ -71,8 +68,4 @@ The RedHen Membership module provides a framework for managing individual (Conta
 #### [Salesforce Suite](https://www.drupal.org/project/salesforce)
 This suite of modules supports integration with [Salesforce](http://www.salesforce.com/) by synchronizing Drupal entities (E.g., users, nodes, files) with Salesforce objects (E.g., contacts, organizations, opportunities). It supports pushing Drupal data to Salesforce as well as pulling, or importing, Salesforce data into Drupal. Changes can be made in real time or asynchronously in batches during cron run.
 
-
-
-
-
-
+{% include our-expertise.html %}
