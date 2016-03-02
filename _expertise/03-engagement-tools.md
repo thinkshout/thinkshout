@@ -2,13 +2,13 @@
 layout: expertise
 body-class: expertise
 title: CRM & Engagement Tools
-permalink: expertise/engagement-tools/
+permalink: what-we-do/engagement-tools/
 leadin: |
   Increase Engagement Across All Channels
 class: engagement-tools  
 images:
   hero: marquee/engagement-tools.jpg
-  icon: what-we-do/icon-tools.svg
+  icon: expertise/icon-tools.svg
 blurb: |
   Users experience nonprofits across channels, not departments. Every interaction is an opportunity to increase their engagement – or lose their support entirely. We help our clients break information out of silos and flow across their distributed third-party systems. We understand constituent management systems so well, we even developed our own.
 blurb_short: |
