@@ -1,0 +1,15 @@
+.careers {
+  color: $darkgray;
+
+  .careers-header h2 {
+    font-size: rem(45) !important;
+  }
+
+  #careers-blurb {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+
+    @include mq(d) { max-width: 75%; margin: 4rem auto; }
+  }
+}

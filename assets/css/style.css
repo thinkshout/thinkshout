@@ -2862,6 +2862,19 @@ a {
     display: inline-block;
     padding-top: 0.5rem; }
 
+.careers {
+  color: #58585b; }
+  .careers .careers-header h2 {
+    font-size: 2.8125rem !important; }
+  .careers #careers-blurb {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center; }
+    @media (min-width: 980px) {
+      .careers #careers-blurb {
+        max-width: 75%;
+        margin: 4rem auto; } }
+
 @media (max-width: 480px) {
   .careers .main-content,
   .case-study .main-content,

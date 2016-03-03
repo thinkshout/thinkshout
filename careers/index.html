@@ -23,27 +23,27 @@ keywords:
   </div>
 </section>
 
-  <section class="main-content">
-    <p>
-      We build lasting relationships with our clients, and we do so with a
-      style and thoughtfulness you won’t find anywhere else. If you share our
-      passion for open source technologies and digital strategy, we'd love to
-      hear from you.
-    </p>
-    <div class="job-list">
-    	{% for page in site.pages %}
-    	{% if page.layout == 'job' and page.active == true %}
-    	  <article>
-    	    <div class="row">
-    	      <div class="">
-    	        <a class="title" href="{{ page.url }}">{{ page.title}}</a>
-    	      </div>
-    	    </div>
-    	  </article>
-    	{% endif %}
-    	{% endfor %}
-    </div>
+<div class="container">
+  <p id="careers-blurb">
+    We build lasting relationships with our clients, and we do so with a
+    style and thoughtfulness you won’t find anywhere else. If you share our
+    passion for open source technologies and digital strategy, we'd love to
+    hear from you.
+  </p>
+  <div class="job-list">
+    {% for page in site.pages %}
+    {% if page.layout == 'job' and page.active == true %}
+      <article>
+        <div class="row">
+          <div class="">
+            <a class="title" href="{{ page.url }}">{{ page.title}}</a>
+          </div>
+        </div>
+      </article>
+    {% endif %}
+    {% endfor %}
   </section>
+</div>
 
   <div class="keep-me-in-mind">
     <h3>Keep me in mind</h3>
@@ -56,16 +56,16 @@ keywords:
       Drop us a line at <a href="mailto:jobs@thinkshout.com">jobs@thinkshout.com.</a>
     </p>
   </div>
-
-  <section class="more-about-us">
-    <h3><span>More About Us</span></h3>
-      <p>We lead with technical excellence, innovation, and sustainable business practices. We focus on interesting projects that lead to open source contributions that serve grassroots organizers and progressive causes. We are maintainers of many popular Drupal modules such as the MailChimp and Salesforce Integration suites, as well as RedHen CRM. We’ve got our finger on the pulse of the open source community and we contribute back daily with updates and new tools designed to make everyone’s development process easier.</p>
-      <p>We have distilled the following vision for our business:
-      <ul>
-        <li>Invest in the most talented technologists, project managers, and designers possible.</li>
-        <li>Work with clients committed to positive social change.</li>
-        <li>Don't compromise on tools, process, or quality.</li>
-        <li>Work hard, have fun, and give back.</li>
-      </ul>
-  </section>
 </div>
+
+<section class="more-about-us">
+  <h3><span>More About Us</span></h3>
+    <p>We lead with technical excellence, innovation, and sustainable business practices. We focus on interesting projects that lead to open source contributions that serve grassroots organizers and progressive causes. We are maintainers of many popular Drupal modules such as the MailChimp and Salesforce Integration suites, as well as RedHen CRM. We’ve got our finger on the pulse of the open source community and we contribute back daily with updates and new tools designed to make everyone’s development process easier.</p>
+    <p>We have distilled the following vision for our business:
+    <ul>
+      <li>Invest in the most talented technologists, project managers, and designers possible.</li>
+      <li>Work with clients committed to positive social change.</li>
+      <li>Don't compromise on tools, process, or quality.</li>
+      <li>Work hard, have fun, and give back.</li>
+    </ul>
+</section>
