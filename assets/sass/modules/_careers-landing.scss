@@ -13,6 +13,30 @@
     @include mq(d) { max-width: 75%; margin: 4rem auto; }
   }
 
+  .keep-me-in-mind {
+    background: $ltgray;
+    color: $darkgray;
+    margin: 3.5rem 0;
+    padding: 1rem 0;
+    text-align: center;
+
+    .text {
+      @include mq(d) { max-width: 62.5%; margin: 4rem auto; }
+    }
+
+    h3 {
+      font-size: rem(36);
+    }
+
+    #ts-email {
+      margin-top: 2rem;
+    }
+
+    a {
+      color: $orange;
+    }
+  }
+
   .more-about-us {
     background: url('../images/ts_redesign/more-about-us.jpg') center center no-repeat;
     background-size: cover;

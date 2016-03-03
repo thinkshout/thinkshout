@@ -2874,6 +2874,22 @@ a {
       .careers #careers-blurb {
         max-width: 75%;
         margin: 4rem auto; } }
+  .careers .keep-me-in-mind {
+    background: #dbdcde;
+    color: #58585b;
+    margin: 3.5rem 0;
+    padding: 1rem 0;
+    text-align: center; }
+    @media (min-width: 980px) {
+      .careers .keep-me-in-mind .text {
+        max-width: 62.5%;
+        margin: 4rem auto; } }
+    .careers .keep-me-in-mind h3 {
+      font-size: 2.25rem; }
+    .careers .keep-me-in-mind #ts-email {
+      margin-top: 2rem; }
+    .careers .keep-me-in-mind a {
+      color: #f26d21; }
   .careers .more-about-us {
     background: url("../images/ts_redesign/more-about-us.jpg") center center no-repeat;
     background-size: cover;
