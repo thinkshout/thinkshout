@@ -13,33 +13,33 @@ date: 2016-03-02
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
-File attrition is (unfortunately) a completely normal part of nonprofit life, and list churn – aka attrition or loss of subscribers/donors – happens to even the most seasoned cultivation programs. On average, organizations see a monthly churn rate of 1.7%. That’s why you must create additional opportunities to grow your file and bring more supporters on board. 
+File attrition is (unfortunately) a completely normal part of nonprofit life, and list churn – aka attrition or loss of subscribers/donors – happens to even the most seasoned cultivation programs. On average, organizations see a monthly churn rate of [1.7%](http://www.mrbenchmarks.com/). That’s why you must create additional opportunities to grow your file and bring more supporters on board. 
 
 Some online approaches have been around for a while, some are relatively new, and lastly (but certainly not least) there are some you’d be better off without.
 
-Before we get to the good stuff, it’s important to note that if you want to grow your file, you need to have systems in place to properly welcome these new contacts. You wouldn’t welcome a guest to your home and neglect to show them where the restroom is or where you keep your coffee cups, right? The same goes for new email addresses: you wouldn’t drop them into the communication stream with your next newsletter or fundraising appeal...and it isn’t the way online audiences expect you to interact with them today. 
+Before we get to the good stuff, it’s important to note that if you want to grow your file, you need to have systems in place to properly welcome these new contacts. You wouldn’t welcome a guest to your home and neglect to show them where the restroom is or where you keep your coffee cups, right? The same goes for new email addresses: you wouldn’t drop them into the communication stream with your next newsletter or fundraising appeal... and it isn’t the way online audiences expect you to interact with them today. 
 
 At minimum, prepare an autoresponder message to confirm the user’s registration. 
 
-Want to take it a step further? Set up a Welcome Series and go into greater detail about what the user can expect to learn and receive from your organization. 
+Want to take it a step further? Set up a [Welcome Series](http://www.slideshare.net/NonprofitWebinars/the-power-of-the-welcome-series) and go into greater detail about what the user can expect to learn and receive from your organization. 
 
 Now, onto the nitty gritty:
 
 ##Google AdWords
 
-If you don’t have a Google Grant, apply for one today (seriously, right after you finish reading this article). Through Google for Nonprofits, you can apply for an Ad Grant that is essentially $10k in in-kind dollars you can use towards advertising on Google. 
+If you don’t have a [Google Grant](https://www.google.com/intl/ALL/grants/), apply for one today (seriously, right after you finish reading this article). Through Google for Nonprofits, you can apply for an Ad Grant that is essentially $10k in in-kind dollars you can use towards advertising on Google. 
 
-There are limitations to this advertising method: Ads are text-based, and because of the cap on the cost per click (CPC) there will be some keywords you may not be able to utilize. But overall, it’s an incredible resource available to your organization if it’s a qualifying 501(c)(3). 
+There are limitations to this advertising method: Ads are text-based, and because of the cap on the cost per click (CPC) there will be some keywords you may not be able to utilize. But overall, it’s an incredible resource available to your organization [if it’s a qualifying 501(c)(3)](https://support.google.com/nonprofits/answer/3215869?hl=en-CA&ref_topic=3247288). 
 
 If closely monitored and executed, your organization will gain prime positioning in the search results when people type in a keyword related to your organization. It’s free advertising dollars available to you each month, and well worth the time. 
 
 ##Banner Ads
 
-The utilization of banner ads and remarketing is growing in popularity (and necessity). In fact, the 2015 Benchmarks Report found that 50% of the organizations surveyed invested in some form of retargeting, while 66% invested in text/display ads. There is definitely stiff competition for visibility and getting your cause in front of the eyes of potential supporters.
+The utilization of banner ads and remarketing is growing in popularity (and necessity). In fact, the [2015 Benchmarks Report](http://www.mrbenchmarks.com/) found that 50% of the organizations surveyed invested in some form of retargeting, while 66% invested in text/display ads. There is definitely stiff competition for visibility and getting your cause in front of the eyes of potential supporters.
 
 So what is retargeting? Well, you’ve most likely experienced it already.  You’re shopping on Amazon, minding your own business, but you decide not to buy those Marc Jacobs shoes today. Before you know it, you’re killing time on Facebook at lunch and you see an ad for those shoes off to the side with those other, creepily relevant ads. Slowly, those shoes become peppered into your online experience wherever you go. This somewhat annoying but effective tactic is called remarketing. 
 
-And nonprofits do it, too, with varying degrees of success. 
+And nonprofits do it, too, with [varying degrees of success](http://www.nonprofitpro.com/article/finding-your-direct-mail-fundraising-donors-online/2/). 
 
 Just as you want to sync your direct mail and online marketing pieces, display ads and remarketing can help to further saturate your potential supporters and convince them to join your cause. Besides, the majority of first time visitors to your site won’t make a gift. Retargeting gives them the opportunity to come back and remedy that mistake(!) –and also helps boost brand recognition. 
 
@@ -55,7 +55,7 @@ If you can determine what your audience identifies as high-value content, and on
 
 Another common approach is a pledge call-to-action. I don’t mean pledge in the monetary sense; rather “sign our pledge to end hunger” or “sign our pledge to find a cure for X.” (Ideally, this action would also be tied to social sharing opportunities so that your new supporter can recruit on your behalf). The supporter “signs” the pledge by entering their email address.
 
-There are also benefits to tossing some advertising dollars toward promoted posts on Facebook. Check out how Healing Waters improved their results for #GivingTuesday with minimum fuss. 
+There are also benefits to tossing some advertising dollars toward promoted posts on Facebook. Check out how [Healing Waters](http://www.networkforgood.com/nonprofitblog/heres-the-best-way-to-fundraise-on-facebook/?utm_source=feedblitz&utm_medium=FeedBlitzRss&utm_campaign=katyasnon-profitmarketingblog) improved their results for #GivingTuesday with minimum fuss. 
 
 If you get the timing right, and know the type of content your audience is likely to engage with, you can increase your brand awareness while growing your file.
 
@@ -77,10 +77,8 @@ This often functions through a third party vendor, who will email (on your behal
 
 This method is not only rather expensive, but it rarely (if ever) yields a return worth the investment. That’s not surprising: imagine how you would react to an email in your inbox that you know you didn’t sign up for… from an organization you have never heard of or been involved with. That’s an immediate swipe/delete. 
 
-Hubspot did a write-up on why buying a list is a bad idea should you need to bolster your argument to anyone who isn’t convinced.
+Hubspot did a write-up on [why buying a list is a bad idea](http://blog.hubspot.com/blog/tabid/6307/bid/32892/Why-Purchasing-Email-Lists-Is-Always-a-Bad-Idea.aspx) should you need to bolster your argument to anyone who isn’t convinced.
 
 So, focus on setting up the infrastructure to properly introduce new contacts into your organization, make them feel like they’re a part of something special with a welcome series. Then test, tweak, and re-test some of these methods to see what works best for you. 
 
 Have you tried any of these approaches to acquiring email addresses? Share with us what’s worked for you!
-
-
