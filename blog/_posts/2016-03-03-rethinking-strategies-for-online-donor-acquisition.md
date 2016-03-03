@@ -26,7 +26,7 @@ Want to take it a step further? Set up a [Welcome Series](http://www.slideshare.
 
 Now, onto the nitty gritty:
 
-##Google AdWords
+###Google AdWords
 
 If you don’t have a [Google Grant](https://www.google.com/intl/ALL/grants/), apply for one today (seriously, right after you finish reading this article). Through Google for Nonprofits, you can apply for an Ad Grant that is essentially $10k in in-kind dollars you can use towards advertising on Google. 
 
