@@ -2,15 +2,15 @@
 layout: post
 title: Rethinking Strategies for Online Donor Acquisition
 author: natania
-published: false
-featured: false
-short: Things!
+published: true
+featured: true
+short: The do's and don't of donor cultivation programs
 tags:
   - Fundraising
   - Donor retention
   - Strategy
   - Benchmarks
-date: 2016-03-02
+date: 2016-03-03 11:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
