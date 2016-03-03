@@ -1,3 +1,4 @@
+.careers,
 .case-study,
 .expertise {
 
@@ -6,6 +7,7 @@
     @include mq(t) { margin-top: rem(90); }
   }
 
+  .careers-header,
   .case-study-header,
   .expertise-header {
     background-position: left top;

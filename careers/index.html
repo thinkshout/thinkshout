@@ -1,5 +1,6 @@
 ---
 layout: default
+body-class: careers
 title: Careers
 description: "Want to work at ThinkShout? Available job openings"
 keywords:
@@ -11,31 +12,28 @@ keywords:
   - graphic designers
   - digital strategists
 ---
+<style>
+  .careers-header { background-image: url('{{ site.baseurl }}/assets/images/ts_redesign/career-pages.jpg'); }
+</style>
 
-<div class="content careers">
-  <div class="hero-image"></div>
-  <div class="hero">
-    <div class="site-width">
-      <div class="background"></div>
-      <div class="leadin">
-        <h2>Want to Work at ThinkShout?</h2>
-      </div>
-    </div>
+<section class="careers-header">
+  <div class="gradient">&nbsp;</div>
+  <div class="wrapper">
+    <h2>Careers At ThinkShout</h2>
   </div>
+</section>
+
   <section class="main">
-    <div class="section-rubric">
-      <h3><span>Let's Talk</span></h3>
-    </div>
     <div class="row">
-      <div class="large-9 columns large-centered">
+      <div class="">
         <p>We build lasting relationships with our clients, and we do so with a style and thoughtfulness you won’t find anywhere else. If you share our passion for open source technologies and digital strategy, we'd love to hear from you. </p><p>Don’t see any open positions that fit your skillset? We’re always looking for new talent. Let us know what sort of work you’re interested in, and we’ll keep you posted about future job opportunities. Drop us a line at <a href="mailto:jobs@thinkshout.com">jobs@thinkshout.com.</a> </p><p>The following positions are currently available on our team:</p>
         <div class="job-list">
         	{% for page in site.pages %}
         	{% if page.layout == 'job' and page.active == true %}
         	  <article>
         	    <div class="row">
-        	      <div class="large-12 columns">
-        	        <a class="title" href="{{ page.url }}" data-reveal-id="myModal" data-reveal-ajax="true">{{ page.title}}</a>
+        	      <div class="">
+        	        <a class="title" href="{{ page.url }}">{{ page.title}}</a>
         	      </div>
         	    </div>
         	  </article>
@@ -63,8 +61,4 @@ keywords:
       </div>
     </div>
   </section>
-</div>
-
-<div id="myModal" class="reveal-modal medium" data-reveal>
-	{{ page.content }}
 </div>
