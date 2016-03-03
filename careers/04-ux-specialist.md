@@ -5,7 +5,7 @@ permalink: careers/ux-specialist/
 mailto: thinkshout-job4@mytribehr.com
 active: false
 ---
-ThinkShout seeks to hire a user experience specialist. Our UX specialist will work closely with ThinkShout’s User Experience Lead to produce user experience documentation, wireframes, and graphic design. The UX Specialist will work closely with our discovery team in the initial stages of each project, performing various UX tasks, such as facilitating user testing. During project implementation, the UX Specialist will assist the development team in quality assurance testing. 
+ThinkShout seeks to hire a user experience specialist. Our UX specialist will work closely with ThinkShout’s User Experience Lead to produce user experience documentation, wireframes, and graphic design. The UX Specialist will work closely with our discovery team in the initial stages of each project, performing various UX tasks, such as facilitating user testing. During project implementation, the UX Specialist will assist the development team in quality assurance testing.
 
 This individual will contribute to the the quality and efficiency of the discovery team’s development of user experience artifacts, such as wireframes and graphic designs. This individual will also contribute to the quality control and polish of the development team’s production of finished websites and web applications.
 
@@ -17,7 +17,7 @@ This job requires some specific skills, but we're also looking for someone who's
 - At least 2 years working in web production
 - Familiarity with wireframing software, such as Axure or Omnigraffle
 - Familiarity with HTML5 prototyping frameworks, such as Foundation, as well as static site generators, such as Jekyll
-- Deep appreciation of user interface design and responsive design 
+- Deep appreciation of user interface design and responsive design
 - At least 1 year theming or building CMS-based websites
 - Great communication skills and the ability to work on a team
 

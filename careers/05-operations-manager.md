@@ -10,7 +10,7 @@ ThinkShout seeks to hire a **part-time** operations manager to assist with the d
 ## Responsibilities
 
 * Financial management
-  * Coordinate overall financial management, planning, and systems 
+  * Coordinate overall financial management, planning, and systems
   * Managing day to day processing of accounts receivable and payable using QuickBooks, producing reports as requested
   * Payroll processing
   * Updating monthly financial reports
@@ -30,7 +30,7 @@ ThinkShout seeks to hire a **part-time** operations manager to assist with the d
 
 * At least 3 years experience in bookkeeping
 * Strong background and work experience in finance
-* Excellent computer skills 
+* Excellent computer skills
 * Excellent communication skills - both verbal and written
 * Excellent interpersonal skills and a collaborative management style
 * Budget development and oversight experience
