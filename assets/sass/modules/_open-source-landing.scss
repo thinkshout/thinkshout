@@ -8,6 +8,8 @@
     margin: 1rem auto -2rem;;
     padding-top: 2rem;
     width: 47px;
+
+    @include mq(m) { padding-top: 0; margin-bottom: 0; }
   }
 
   .title {

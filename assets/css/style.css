@@ -4437,6 +4437,10 @@ header {
     margin: 1rem auto -2rem;
     padding-top: 2rem;
     width: 47px; }
+    @media (max-width: 480px) {
+      .open-source .open-source-content:after {
+        padding-top: 0;
+        margin-bottom: 0; } }
   .open-source .title {
     color: #58585b;
     font-size: 2.8125rem; }
