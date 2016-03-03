@@ -9,6 +9,7 @@ tags:
   - Fundraising
   - Donor retention
   - Strategy
+  - Benchmarks
 date: 2016-03-02
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
