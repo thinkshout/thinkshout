@@ -4,7 +4,7 @@ title: Rethinking Strategies for Online Donor Acquisition
 author: natania
 published: true
 featured: true
-short: The do's and don't of donor acquisition programs
+short: The do's and dont's of donor acquisition programs
 tags:
   - Fundraising
   - Donor retention
