@@ -2874,6 +2874,13 @@ a {
       .careers #careers-blurb {
         max-width: 75%;
         margin: 4rem auto; } }
+  .careers .more-about-us {
+    background: url("../images/ts_redesign/more-about-us.jpg") center center no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 4rem 0; }
+    .careers .more-about-us a {
+      color: #fff; }
 
 @media (max-width: 480px) {
   .careers .main-content,

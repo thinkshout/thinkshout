@@ -12,4 +12,15 @@
 
     @include mq(d) { max-width: 75%; margin: 4rem auto; }
   }
+
+  .more-about-us {
+    background: url('../images/ts_redesign/more-about-us.jpg') center center no-repeat;
+    background-size: cover;
+    color: $white;
+    padding: 4rem 0;
+
+    a {
+      color: $white;
+    }
+  }
 }
