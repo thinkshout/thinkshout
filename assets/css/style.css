@@ -4428,9 +4428,47 @@ header {
     .open-source-contributions a.uppercase-link i {
       color: #f1b332; }
 
-.open-source h1.title {
-  color: #58585b;
-  font-size: 2.8125rem; }
+.open-source {
+  color: #58585b; }
+  .open-source .open-source-content:after {
+    border-bottom: 3px solid #dbdcde;
+    content: "";
+    display: block;
+    margin: 1rem auto -2rem;
+    padding-top: 2rem;
+    width: 47px; }
+  .open-source .title {
+    color: #58585b;
+    font-size: 2.8125rem; }
+    @media (max-width: 480px) {
+      .open-source .title {
+        font-size: 2.25rem; } }
+  .open-source .title,
+  .open-source #open-source-header {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    text-align: center; }
+  .open-source #open-source-header:after {
+    border-bottom: 3px solid #dbdcde;
+    content: "";
+    display: block;
+    margin: 1rem auto 1.2rem;
+    width: 47px; }
+  .open-source h3 {
+    color: #58585b;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 3rem; }
+    .open-source h3:hover {
+      color: #f26d21; }
+  .open-source p {
+    margin-top: 0; }
+    .open-source p a {
+      color: #58585b;
+      text-decoration: underline; }
+      .open-source p a:hover {
+        color: #f26d21; }
 
 .our-expertise {
   padding: 6rem 0; }

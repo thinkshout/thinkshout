@@ -1,6 +1,59 @@
 .open-source {
-  h1.title {
+  color: $darkgray;
+
+  .open-source-content:after {
+    border-bottom: 3px solid $ltgray;
+    content: "";
+    display: block;
+    margin: 1rem auto -2rem;;
+    padding-top: 2rem;
+    width: 47px;
+  }
+
+  .title {
     color: $darkgray;
     font-size: rem(45);
+
+    @include mq(m) { font-size: 2.25rem; }
+  }
+
+  .title,
+  #open-source-header {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    text-align: center;
+  }
+
+  #open-source-header:after {
+    border-bottom: 3px solid $ltgray;
+    content: "";
+    display: block;
+    margin: 1rem auto 1.2rem;
+    width: 47px;
+  }
+
+  h3 {
+    color: $darkgray;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+
+    &:hover {
+      color: $orange;
+    }
+  }
+
+  p {
+    margin-top: 0;
+
+    a {
+      color: $darkgray;
+      text-decoration: underline;
+
+      &:hover {
+        color: $orange;
+      }
+    }
   }
 }
