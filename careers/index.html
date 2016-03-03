@@ -33,13 +33,17 @@ keywords:
   <div class="job-list">
     {% for page in site.pages %}
     {% if page.layout == 'job' and page.active == true %}
-      <article>
-        <div class="row">
-          <div class="">
-            <a class="title" href="{{ page.url }}">{{ page.title}}</a>
-          </div>
-        </div>
-      </article>
+    <div class="job-teaser">
+      <div class="side-left">
+          <h3>{{ page.title }}</h3>
+          <p>
+            {{ page.blurb }}
+          </p>
+      </div>
+      <div class="side-right">
+        <a href="/careers/{{ page.permalink }}">See & Apply</a>
+      </div>
+    </div>
     {% endif %}
     {% endfor %}
   </section>

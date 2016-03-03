@@ -3,6 +3,7 @@ layout: job
 title: User Experience Designer
 permalink: careers/ux-designer/
 mailto: jobs@thinkshout.com
+blurb: We are looking for a User Experience Designer who thrives in crafting elegant solutions to meet the needs of end users while keeping our clients’ goals firmly in mind.
 active: false
 ---
 We are looking for a User Experience Designer who thrives in crafting elegant solutions to meet the needs of end users while keeping our clients’ goals firmly in mind. If you love solving complex problems within a team environment, we want to hear from you. Experience in usability testing, content strategy, front-end development, and agile processes is also desired.

@@ -4,6 +4,7 @@ title: Software Engineer
 permalink: careers/softwar-engineer/
 mailto: jobs@thinkshout.com
 active: true
+blurb: Software Engineers at ThinkShout are responsible for the delivery of world-class open source solutions.
 ---
 Software Engineers at ThinkShout are responsible for the delivery of world-class open source solutions built with Drupal, PHP, Symfony, Angular, Ember, Ruby, Jekyll, Node.js and anything else that serves our clients, the nonprofit tech community, and is a blast to play (and work) with.
 

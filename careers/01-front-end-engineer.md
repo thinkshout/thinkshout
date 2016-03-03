@@ -3,6 +3,7 @@ layout: job
 title: Front End Engineer
 permalink: careers/front-end-engineer/
 mailto: thinkshout-job1@mytribehr.com
+blurb: ThinkShout seeks to hire a senior front end engineer, someone who's passionate about the web in general and user experience particular.
 active: false
 ---
 ThinkShout seeks to hire a senior front end engineer, and by that we mean someone who can build a mobile first responsive site using HTML, CSS, Javascript, SASS/Compass and, perhaps, Zurb's Foundation. And oh yeah, it might also be Drupal, Jekyll, or a custom Node.js backend. The ThinkShout team takes great pride in their craft and their tools and we expect the same from you.

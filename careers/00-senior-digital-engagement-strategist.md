@@ -3,6 +3,7 @@ layout: job
 title: Senior Digital Engagement Strategist
 permalink: careers/senior-digital-engagement-strategist/
 mailto: jobs@thinkshout.com
+blurb: We are seeking a senior digital strategist to join our Discovery, Strategy, and User Experience team.
 active: false
 ---
 ThinkShout is a leading design, strategy and web development team located in Portland, OR. We envision digital technology and strategy that create positive change in the world. We craft compelling open source engagement solutions for forward-thinking organizations.
