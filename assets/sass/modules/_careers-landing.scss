@@ -6,11 +6,15 @@
   }
 
   #careers-blurb {
-    font-size: 1.5rem;
+    font-size: rem(20);
     font-style: italic;
     text-align: center;
 
-    @include mq(d) { max-width: 75%; margin: 4rem auto; }
+    @include mq(d) {
+      font-size: 1.5rem;
+      max-width: 75%;
+      margin: 4rem auto;
+    }
   }
 
   .job-list {
@@ -90,7 +94,9 @@
     background: url('../images/ts_redesign/more-about-us.jpg') center center no-repeat;
     background-size: cover;
     color: $white;
-    padding: 8rem 0;
+    padding: 4rem 0;
+
+    @include mq(d) { padding: 8rem 0; }
 
     h3 {
       font-size: 2rem;
