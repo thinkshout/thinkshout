@@ -2147,60 +2147,52 @@ a {
     margin-right: 1rem;
     border-radius: 50%; }
 
-.job-content,
-.privacy {
+.basic-page {
   color: #58585b;
   padding-bottom: 3rem; }
   @media (min-width: 980px) {
-    .job-content,
-    .privacy {
+    .basic-page {
       max-width: 62.5rem;
       margin: 0 auto; } }
-  .job-content .job-details,
-  .privacy .job-details {
+  .basic-page .job-details {
     padding: 1rem 0; }
-  .job-content h1,
-  .privacy h1 {
+  .basic-page h1 {
     font-size: 2.5rem;
     text-align: center; }
-  .job-content .intro,
-  .privacy .intro {
+  .basic-page .intro {
     font-size: 1.5rem;
     font-style: italic;
     text-align: center; }
-  .job-content h2,
-  .privacy h2 {
+  .basic-page h2 {
     font-size: 2rem; }
-  .job-content h3,
-  .privacy h3 {
+  .basic-page h3 {
     font-size: 1.625rem; }
-  .job-content ul,
-  .privacy ul {
+  .basic-page ul {
     padding-left: 0; }
-  .job-content li,
-  .privacy li {
+  .basic-page li {
     margin-left: 1rem;
     padding-bottom: 0.75rem;
     text-indent: -1.3em; }
-    .job-content li:before,
-    .privacy li:before {
+    .basic-page li:before {
       content: '•';
       line-height: 1.75;
       padding-right: 0.875rem; }
-  .job-content .apply,
-  .privacy .apply {
+  .basic-page a {
+    color: #58585b;
+    text-decoration: underline; }
+    .basic-page a:hover {
+      color: #f78c50; }
+  .basic-page .apply {
     margin: 3rem 0;
     text-align: center; }
-  .job-content a,
-  .privacy a {
-    border: 1px solid #f26d21;
-    color: #f26d21;
-    padding: 1rem 2rem;
-    text-transform: uppercase; }
-    .job-content a:hover,
-    .privacy a:hover {
-      background: #f26d21;
-      color: #fff; }
+    .basic-page .apply a {
+      border: 1px solid #f26d21;
+      color: #f26d21;
+      padding: 1rem 2rem;
+      text-transform: uppercase; }
+      .basic-page .apply a:hover {
+        background: #f26d21;
+        color: #fff; }
 
 @media (max-width: 480px) {
   .blog-post .main-content {

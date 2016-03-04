@@ -1,6 +1,5 @@
 // Styling for Career detail pages, Privacy page, 404, and Coding Challenges
-.job-content,
-.privacy {
+.basic-page {
   color: $darkgray;
   padding-bottom: 3rem;
 
@@ -45,20 +44,29 @@
     }
   }
 
+  a {
+    color: $darkgray;
+    text-decoration: underline;
+
+    &:hover {
+      color: $ltorange;
+    }
+  }
+
   .apply {
     margin: 3rem 0;
     text-align: center;
-  }
 
-  a {
-    border: 1px solid $orange;
-    color: $orange;
-    padding: 1rem 2rem;
-    text-transform: uppercase;
+    a {
+      border: 1px solid $orange;
+      color: $orange;
+      padding: 1rem 2rem;
+      text-transform: uppercase;
 
-    &:hover {
-      background: $orange;
-      color: $white;
+      &:hover {
+        background: $orange;
+        color: $white;
+      }
     }
   }
 }
