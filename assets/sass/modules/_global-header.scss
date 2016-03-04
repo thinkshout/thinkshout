@@ -38,20 +38,58 @@ header {
   .mobile-menu-icon {
     color: $darkgray;
     float: right;
-    font-size: rem(35);
+    height: 50px;
+    width: 60px;
 
-    span {
-      display: none;
+    div {
+        height: 100%;
+        position: relative;
+        width: 100%;
+        z-index: 9999;
+        span {
+          background-color: $darkgray;
+          display: block;
+          font-size: 0px;
+          height: 4px;
+          left: 25%;
+          margin-top: -2px;
+          position: absolute;
+          top: 50%;
+          transition: background-color 0.3s;
+          width: 50%;
+          z-index: 9999;
+          &:before,
+          &:after {
+            background: $darkgray;
+            content: '';
+            height: 100%;
+            left: 0;
+            position: absolute;
+            transform: translateY(-250%);
+            transition: transform 0.3s;
+            width: 100%;
+            z-index: 9999;
+          }
+          &:after {
+            transform: translateY(250%);
+          }
+        }
+      }
+      &.active {
+        div span {
+          background-color: transparent;
+          &:before,
+          &:after {
+            background: $darkgray;
+            transition: transform 0.3s;
+            transform: rotate(45deg) translateY(0);
+          }
+          &:after {
+            transform: rotate(-45deg) translateY(0) ;
+          }
+        }
+      }
     }
-
-    @include mq(d) {
-      display: none;
-    }
-
-    .fa {
-      line-height: rem(66);
-    }
-  }
 
   .main-menu {
     float: right;
