@@ -4712,11 +4712,12 @@ header {
     margin: 1rem auto 1.2rem;
     width: 47px; }
   .open-source h3 {
-    color: #58585b;
-    font-size: 1.5rem;
     margin-bottom: 0.5rem;
     margin-top: 3rem; }
-    .open-source h3:hover {
+  .open-source h3 a {
+    color: #58585b;
+    font-size: 1.5rem; }
+    .open-source h3 a:hover {
       color: #f26d21; }
   .open-source p {
     margin-top: 0; }

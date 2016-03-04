@@ -36,10 +36,13 @@
   }
 
   h3 {
-    color: $darkgray;
-    font-size: 1.5rem;
     margin-bottom: 0.5rem;
     margin-top: 3rem;
+  }
+
+  h3 a {
+    color: $darkgray;
+    font-size: 1.5rem;
 
     &:hover {
       color: $orange;
