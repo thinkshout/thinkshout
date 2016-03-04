@@ -23,6 +23,11 @@
       width: 100%;
 
       @include mq(d) { @include span-columns(8); text-align: left; }
+
+      h3 {
+        color: $orange;
+        font-size: rem(26);
+      }
     }
 
     .side-right {
@@ -31,7 +36,7 @@
 
       @include mq(d) {
         @include span-columns(4);
-        margin-top: 2.5rem;
+        margin-top: 3rem;
         text-align: right;
         @include omega();
       }

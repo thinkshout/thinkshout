@@ -2888,6 +2888,9 @@ a {
         text-align: left; }
         .careers .job-list .side-left:last-child {
           margin-right: 0; } }
+    .careers .job-list .side-left h3 {
+      color: #f26d21;
+      font-size: 1.625rem; }
   .careers .job-list .side-right {
     text-align: center;
     width: 100%; }
@@ -2897,7 +2900,7 @@ a {
         display: block;
         margin-right: 2.35765%;
         width: 31.76157%;
-        margin-top: 2.5rem;
+        margin-top: 3rem;
         text-align: right;
         margin-right: 0; }
         .careers .job-list .side-right:last-child {
