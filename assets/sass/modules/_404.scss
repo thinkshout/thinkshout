@@ -3,8 +3,11 @@
     color: $darkgray;
     font-size: 1.5rem;
     font-style: italic;
+    line-height: $line-height;
     margin: 5rem auto;
     text-align: center;
+
+    @include mq(d) { max-width: 75%; }
 
     a {
       color: $darkgray;

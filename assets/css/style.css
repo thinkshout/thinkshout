@@ -2153,8 +2153,12 @@ a {
   color: #58585b;
   font-size: 1.5rem;
   font-style: italic;
+  line-height: 1.75;
   margin: 5rem auto;
   text-align: center; }
+  @media (min-width: 980px) {
+    .page-not-found .intro {
+      max-width: 75%; } }
   .page-not-found .intro a {
     color: #58585b;
     text-decoration: underline; }
