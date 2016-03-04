@@ -1,13 +1,21 @@
 ---
 layout: default
-title: Page not found
+body-class: page-not-found
+title: Page Not Found
 ---
+<style>
+  .page-not-found-header { background-image: url('{{ site.baseurl }}/assets/images/ts_redesign/who-we-are.jpg'); }
+</style>
+
+<section class="page-not-found-header">
+  <div class="gradient">&nbsp;</div>
+  <div class="wrapper">
+    <h2>This is not the page you're looking for...</h2>
+  </div>
+</section>
 
 <div class="container">
-  <div class="basic-page">
-    <h1>
-      Sorry, we couldn't find that page. Please <a href="/">start at the beginning</a> and
-      you'll certainly find what you're looking for.
-    </h1>
-  </div>
+  <h4 class="intro">
+    If you <a href="/">start at the beginning</a>, you will surely find your way.
+  </h4>
 </div>

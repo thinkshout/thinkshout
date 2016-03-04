@@ -1,0 +1,18 @@
+.page-not-found {
+  .intro {
+    color: $darkgray;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 5rem auto;
+    text-align: center;
+
+    a {
+      color: $darkgray;
+      text-decoration: underline;
+
+      &:hover {
+        color: $orange;
+      }
+    }
+  }
+}
