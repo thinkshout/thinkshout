@@ -17,6 +17,25 @@
     .job-teaser {
       border-bottom: 1px solid $ltgray;
     }
+
+    .side-left {
+      text-align: center;
+      width: 100%;
+
+      @include mq(d) { @include span-columns(8); text-align: left; }
+    }
+
+    .side-right {
+      text-align: center;
+      width: 100%;
+
+      @include mq(d) {
+        @include span-columns(4);
+        margin-top: 1.5rem;
+        text-align: right;
+        @include omega();
+      }
+    }
   }
 
   .keep-me-in-mind {

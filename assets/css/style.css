@@ -2876,6 +2876,32 @@ a {
         margin: 4rem auto; } }
   .careers .job-list .job-teaser {
     border-bottom: 1px solid #dbdcde; }
+  .careers .job-list .side-left {
+    text-align: center;
+    width: 100%; }
+    @media (min-width: 980px) {
+      .careers .job-list .side-left {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 65.88078%;
+        text-align: left; }
+        .careers .job-list .side-left:last-child {
+          margin-right: 0; } }
+  .careers .job-list .side-right {
+    text-align: center;
+    width: 100%; }
+    @media (min-width: 980px) {
+      .careers .job-list .side-right {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 31.76157%;
+        margin-top: 1.5rem;
+        text-align: right;
+        margin-right: 0; }
+        .careers .job-list .side-right:last-child {
+          margin-right: 0; } }
   .careers .keep-me-in-mind {
     background: #dbdcde;
     color: #58585b;
