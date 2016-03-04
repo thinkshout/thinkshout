@@ -2878,6 +2878,8 @@ a {
     border-bottom: 1px solid #dbdcde;
     padding-bottom: 3rem;
     padding-top: 1rem; }
+    .careers .job-list .job-teaser:first-of-type {
+      border-top: 1px solid #dbdcde; }
   .careers .job-list .side-left {
     text-align: center;
     width: 100%; }

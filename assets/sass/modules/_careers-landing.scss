@@ -18,6 +18,10 @@
       border-bottom: 1px solid $ltgray;
       padding-bottom: 3rem;
       padding-top: 1rem;
+
+      &:first-of-type {
+        border-top: 1px solid $ltgray;
+      }
     }
 
     .side-left {
