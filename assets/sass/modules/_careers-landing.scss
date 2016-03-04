@@ -31,9 +31,16 @@
 
       @include mq(d) {
         @include span-columns(4);
-        margin-top: 1.5rem;
+        margin-top: 2.5rem;
         text-align: right;
         @include omega();
+      }
+
+      a {
+        border: 1px solid $orange;
+        color: $orange;
+        padding: 1rem 2rem;
+        text-transform: uppercase;
       }
     }
   }

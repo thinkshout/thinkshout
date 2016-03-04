@@ -2897,11 +2897,16 @@ a {
         display: block;
         margin-right: 2.35765%;
         width: 31.76157%;
-        margin-top: 1.5rem;
+        margin-top: 2.5rem;
         text-align: right;
         margin-right: 0; }
         .careers .job-list .side-right:last-child {
           margin-right: 0; } }
+    .careers .job-list .side-right a {
+      border: 1px solid #f26d21;
+      color: #f26d21;
+      padding: 1rem 2rem;
+      text-transform: uppercase; }
   .careers .keep-me-in-mind {
     background: #dbdcde;
     color: #58585b;
