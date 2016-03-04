@@ -1,0 +1,53 @@
+// Styling for Career detail pages, Privacy page, 404, and Coding Challenges
+.job-content {
+  color: $darkgray;
+  padding-bottom: 3rem;
+
+  @include mq(d) { max-width: 62.5rem; margin: 0 auto; }
+
+  .job-details {
+    padding: 1rem 0;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  li {
+    margin-left: 1rem;
+    padding-bottom: rem(12);
+    text-indent: -1.3em;
+
+    &:before {
+      content: '•';
+      line-height: $line-height;
+      padding-right: rem(14);
+    }
+  }
+
+  .apply {
+    margin: 3rem 0;
+    text-align: center;
+  }
+
+  a {
+    border: 1px solid $orange;
+    color: $orange;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+
+    &:hover {
+      background: $orange;
+      color: $white;
+    }
+  }
+}
