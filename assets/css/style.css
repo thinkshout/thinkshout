@@ -2163,6 +2163,11 @@ a {
   .privacy h1 {
     font-size: 2.5rem;
     text-align: center; }
+  .job-content .intro,
+  .privacy .intro {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center; }
   .job-content h2,
   .privacy h2 {
     font-size: 2rem; }
