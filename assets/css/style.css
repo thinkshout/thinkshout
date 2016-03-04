@@ -2875,7 +2875,9 @@ a {
         max-width: 75%;
         margin: 4rem auto; } }
   .careers .job-list .job-teaser {
-    border-bottom: 1px solid #dbdcde; }
+    border-bottom: 1px solid #dbdcde;
+    padding-bottom: 3rem;
+    padding-top: 1rem; }
   .careers .job-list .side-left {
     text-align: center;
     width: 100%; }
@@ -2892,6 +2894,7 @@ a {
       color: #f26d21;
       font-size: 1.625rem; }
   .careers .job-list .side-right {
+    margin-top: 2.5rem;
     text-align: center;
     width: 100%; }
     @media (min-width: 980px) {
