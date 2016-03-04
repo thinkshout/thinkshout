@@ -2147,41 +2147,53 @@ a {
     margin-right: 1rem;
     border-radius: 50%; }
 
-.job-content {
+.job-content,
+.privacy {
   color: #58585b;
   padding-bottom: 3rem; }
   @media (min-width: 980px) {
-    .job-content {
+    .job-content,
+    .privacy {
       max-width: 62.5rem;
       margin: 0 auto; } }
-  .job-content .job-details {
+  .job-content .job-details,
+  .privacy .job-details {
     padding: 1rem 0; }
-  .job-content h1 {
+  .job-content h1,
+  .privacy h1 {
     font-size: 2.5rem;
     text-align: center; }
-  .job-content h2 {
+  .job-content h2,
+  .privacy h2 {
     font-size: 2rem; }
-  .job-content h3 {
+  .job-content h3,
+  .privacy h3 {
     font-size: 1.625rem; }
-  .job-content ul {
+  .job-content ul,
+  .privacy ul {
     padding-left: 0; }
-  .job-content li {
+  .job-content li,
+  .privacy li {
     margin-left: 1rem;
     padding-bottom: 0.75rem;
     text-indent: -1.3em; }
-    .job-content li:before {
+    .job-content li:before,
+    .privacy li:before {
       content: '•';
       line-height: 1.75;
       padding-right: 0.875rem; }
-  .job-content .apply {
+  .job-content .apply,
+  .privacy .apply {
     margin: 3rem 0;
     text-align: center; }
-  .job-content a {
+  .job-content a,
+  .privacy a {
     border: 1px solid #f26d21;
     color: #f26d21;
     padding: 1rem 2rem;
     text-transform: uppercase; }
-    .job-content a:hover {
+    .job-content a:hover,
+    .privacy a:hover {
       background: #f26d21;
       color: #fff; }
 
