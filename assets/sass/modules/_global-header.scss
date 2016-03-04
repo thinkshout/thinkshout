@@ -41,6 +41,8 @@ header {
     height: 50px;
     width: 60px;
 
+    @include mq(d) { display: none; }
+
     div {
         height: 100%;
         position: relative;

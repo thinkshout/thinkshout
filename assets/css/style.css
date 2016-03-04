@@ -4426,6 +4426,9 @@ header {
     float: right;
     height: 50px;
     width: 60px; }
+    @media (min-width: 980px) {
+      header .mobile-menu-icon {
+        display: none; } }
     header .mobile-menu-icon div {
       height: 100%;
       position: relative;
