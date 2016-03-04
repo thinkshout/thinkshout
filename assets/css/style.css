@@ -2907,6 +2907,9 @@ a {
       color: #f26d21;
       padding: 1rem 2rem;
       text-transform: uppercase; }
+      .careers .job-list .side-right a:hover {
+        background: #f26d21;
+        color: #fff; }
   .careers .keep-me-in-mind {
     background: #dbdcde;
     color: #58585b;

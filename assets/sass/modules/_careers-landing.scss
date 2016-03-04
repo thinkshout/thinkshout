@@ -41,6 +41,11 @@
         color: $orange;
         padding: 1rem 2rem;
         text-transform: uppercase;
+
+        &:hover {
+          background: $orange;
+          color: $white;
+        }
       }
     }
   }
