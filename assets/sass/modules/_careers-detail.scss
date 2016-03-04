@@ -1,0 +1,23 @@
+.job-content {
+  color: $darkgray;
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  li {
+    margin-left: 1rem;
+    padding-bottom: rem(12);
+    text-indent: -1.3em;
+
+    &:before {
+      content: '•';
+      line-height: $line-height;
+      padding-right: rem(14);
+    }
+  }
+}

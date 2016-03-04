@@ -2862,6 +2862,21 @@ a {
     display: inline-block;
     padding-top: 0.5rem; }
 
+.job-content {
+  color: #58585b; }
+  .job-content h1 {
+    font-size: 2.5rem; }
+  .job-content ul {
+    padding-left: 0; }
+  .job-content li {
+    margin-left: 1rem;
+    padding-bottom: 0.75rem;
+    text-indent: -1.3em; }
+    .job-content li:before {
+      content: '•';
+      line-height: 1.75;
+      padding-right: 0.875rem; }
+
 .careers {
   color: #58585b; }
   .careers .careers-header h2 {
