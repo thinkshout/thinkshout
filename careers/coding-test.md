@@ -10,6 +10,7 @@ In order to evaluate your Drupal skills, we'd like you to write a simple Drupal 
 * The module can be enabled and run on any standard Drupal 7 installation.
 * Have a normal menu item that triggers a page callback. The menu item can live in the standard navigation or main menu.
 * The page callback should return a form implemented using the [Form API](https://api.drupal.org/api/drupal/developer%21topics%21forms_api_reference.html/7) containing at least the following elements.
+
   * Text input field for a number.
   * A second text input field for a number.
   * A submit button

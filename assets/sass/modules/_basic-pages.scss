@@ -42,6 +42,15 @@
       line-height: $line-height;
       padding-right: rem(14);
     }
+
+    ul li {
+      list-style-type: circle;
+
+      &:before {
+        content: '';
+        padding-right: 1.5rem;
+      }
+    }
   }
 
   a {
@@ -61,6 +70,7 @@
       border: 1px solid $orange;
       color: $orange;
       padding: 1rem 2rem;
+      text-decoration: none;
       text-transform: uppercase;
 
       &:hover {

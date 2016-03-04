@@ -2177,6 +2177,11 @@ a {
       content: '•';
       line-height: 1.75;
       padding-right: 0.875rem; }
+    .basic-page li ul li {
+      list-style-type: circle; }
+      .basic-page li ul li:before {
+        content: '';
+        padding-right: 1.5rem; }
   .basic-page a {
     color: #58585b;
     text-decoration: underline; }
@@ -2189,6 +2194,7 @@ a {
       border: 1px solid #f26d21;
       color: #f26d21;
       padding: 1rem 2rem;
+      text-decoration: none;
       text-transform: uppercase; }
       .basic-page .apply a:hover {
         background: #f26d21;
