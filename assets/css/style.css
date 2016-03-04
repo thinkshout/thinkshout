@@ -2874,6 +2874,8 @@ a {
       .careers #careers-blurb {
         max-width: 75%;
         margin: 4rem auto; } }
+  .careers .job-list .job-teaser {
+    border-bottom: 1px solid #dbdcde; }
   .careers .keep-me-in-mind {
     background: #dbdcde;
     color: #58585b;

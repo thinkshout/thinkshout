@@ -30,18 +30,22 @@ keywords:
     passion for open source technologies and digital strategy, we'd love to
     hear from you.
   </p>
+</div>
+
   <div class="job-list">
     {% for page in site.pages %}
     {% if page.layout == 'job' and page.active == true %}
     <div class="job-teaser">
-      <div class="side-left">
-          <h3>{{ page.title }}</h3>
-          <p>
-            {{ page.blurb }}
-          </p>
-      </div>
-      <div class="side-right">
-        <a href="/careers/{{ page.permalink }}">See & Apply</a>
+      <div class="container">
+        <div class="side-left">
+            <h3>{{ page.title }}</h3>
+            <p>
+              {{ page.blurb }}
+            </p>
+        </div>
+        <div class="side-right">
+          <a href="/careers/{{ page.permalink }}">See & Apply</a>
+        </div>
       </div>
     </div>
     {% endif %}
@@ -49,6 +53,7 @@ keywords:
   </section>
 </div>
 
+<div class="container">
   <div class="keep-me-in-mind">
     <div class="text">
       <h3>Keep me in mind</h3>
