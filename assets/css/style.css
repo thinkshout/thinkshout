@@ -2159,8 +2159,10 @@ a {
   .job-content h1 {
     font-size: 2.5rem;
     text-align: center; }
-  .job-content h3 {
+  .job-content h2 {
     font-size: 2rem; }
+  .job-content h3 {
+    font-size: 1.625rem; }
   .job-content ul {
     padding-left: 0; }
   .job-content li {
