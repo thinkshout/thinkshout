@@ -4424,14 +4424,48 @@ header {
   header .mobile-menu-icon {
     color: #58585b;
     float: right;
-    font-size: 2.1875rem; }
-    header .mobile-menu-icon span {
-      display: none; }
+    height: 50px;
+    width: 60px; }
     @media (min-width: 980px) {
       header .mobile-menu-icon {
         display: none; } }
-    header .mobile-menu-icon .fa {
-      line-height: 4.125rem; }
+    header .mobile-menu-icon div {
+      height: 100%;
+      position: relative;
+      width: 100%;
+      z-index: 9999; }
+      header .mobile-menu-icon div span {
+        background-color: #58585b;
+        display: block;
+        font-size: 0px;
+        height: 4px;
+        left: 25%;
+        margin-top: -2px;
+        position: absolute;
+        top: 50%;
+        transition: background-color 0.3s;
+        width: 50%;
+        z-index: 9999; }
+        header .mobile-menu-icon div span:before, header .mobile-menu-icon div span:after {
+          background: #58585b;
+          content: '';
+          height: 100%;
+          left: 0;
+          position: absolute;
+          transform: translateY(-250%);
+          transition: transform 0.3s;
+          width: 100%;
+          z-index: 9999; }
+        header .mobile-menu-icon div span:after {
+          transform: translateY(250%); }
+    header .mobile-menu-icon.active div span {
+      background-color: transparent; }
+      header .mobile-menu-icon.active div span:before, header .mobile-menu-icon.active div span:after {
+        background: #58585b;
+        transition: transform 0.3s;
+        transform: rotate(45deg) translateY(0); }
+      header .mobile-menu-icon.active div span:after {
+        transform: rotate(-45deg) translateY(0); }
   header .main-menu {
     float: right;
     font-size: 1.125rem;
