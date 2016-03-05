@@ -229,9 +229,12 @@
       @include mq(t) { width: 100%; }
 
       h2 {
-        color: $yellow;
         font-size: rem(26);
         margin-bottom: 0;
+
+        a {
+          color: $yellow;
+        }
       }
 
       p {
@@ -246,11 +249,16 @@
       }
 
       .author-info {
+        a {
+          color: $yellow;
+        }
+
         h4 {
           margin: 0 0 0 5rem;
         }
 
         p {
+          color: $white;
           font-size: rem(14);
           margin: 0 0 0.5rem 5rem;
         }
