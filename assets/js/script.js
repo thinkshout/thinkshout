@@ -68,30 +68,11 @@
   }
 
   if ( getParam('category').length ) {
-    // console.log(getParam('category'));
     $('.blog-list').find('li').hide();
     $('.blog-list').find('li.'+getParam('category')).fadeIn();
-
-
-  }
-
     $('html, body').stop().animate( {
         'scrollTop': $('#filter-wrapper').offset().top-100
     }, 700);
+  }
 
-    // $('.case-study').waypoint(function(direction) {
-    //   if (direction == 'down') {
-    //     $('.case-study:nth-of-type(1)').addClass('active');
-    //
-    //     setTimeout(function() {
-    //       $('.case-study:nth-of-type(2)').addClass('active');
-    //     }, 800);
-    //
-    //     setTimeout(function() {
-    //       $('.case-study:nth-of-type(3)').addClass('active');
-    //     }, 1200);
-    //   } else {
-    //       $('.case-study').removeClass('active');
-    //   }
-    // }, { offset: '25%' });
 })(jQuery);
