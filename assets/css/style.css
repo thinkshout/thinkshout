@@ -2172,7 +2172,8 @@ a {
     .basic-page {
       max-width: 62.5rem;
       margin: 0 auto; } }
-  .basic-page .job-details {
+  .basic-page .job-details,
+  .basic-page .privacy-content {
     padding: 1rem 0; }
   .basic-page h1 {
     font-size: 2.5rem;

@@ -5,7 +5,8 @@
 
   @include mq(d) { max-width: 62.5rem; margin: 0 auto; }
 
-  .job-details {
+  .job-details,
+  .privacy-content {
     padding: 1rem 0;
   }
 
