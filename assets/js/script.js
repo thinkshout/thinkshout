@@ -60,7 +60,22 @@
     }
   });
 
+  function getParam(key) {
+    var value=RegExp(""+key+"[^&]+").exec(window.location.search);
+    return unescape(!!value ? value.toString().replace(/^[^=]+./,"") : "");
+  }
 
+  if ( getParam('category').length ) {
+    // console.log(getParam('category'));
+    $('.blog-list').find('li').hide();
+    $('.blog-list').find('li.'+getParam('category')).fadeIn();
+
+
+  }
+
+    $('html, body').stop().animate( {
+        'scrollTop': $('#filter-wrapper').offset().top-100
+    }, 700);
 
     // $('.case-study').waypoint(function(direction) {
     //   if (direction == 'down') {

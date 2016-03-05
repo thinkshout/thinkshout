@@ -1,7 +1,7 @@
 ---
 layout: default
 body-class: blog-landing
-title: Blog 
+title: Blog
 description: "Our thoughts on technology and community, the ThinkShout blog."
 keywords:
   - nonprofit technology
@@ -14,23 +14,23 @@ keywords:
   - constituent relationship management
 ---
 <div class="page-container blog">
-  
+
   {% for post in site.categories.blog %}
     {% if post.featured == true %}
     <div class="featured-post" style="background-image: url('{{ site.baseurl }}{{ post.header-image }}');">
       <div class="wrapper">
         <p class="featured">Featured Blog Post</p>
         <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-        
+
         {% if post.short %}
         <p class="short">{{ post.short }}</p>
         {% endif %}
-        
+
         <p class="byline">
           {% for person in site.data.team %}
           {% if post.author == person.name %}
           <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
-            <a class="team-name" href="{{ site.baseurl }}/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a><br>        
+            <a class="team-name" href="{{ site.baseurl }}/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a><br>
             {{ person.position }}
           {% endif %}
           {% endfor %}
@@ -41,7 +41,7 @@ keywords:
     {% endif %}
   {% endfor %}
 
-  <div class="filter-wrapper">
+  <div class="filter-wrapper" id="filter-wrapper">
     <form>
     <select id="blog-filter" class="blog-filter">
       <option value="all">All</option>
@@ -52,9 +52,9 @@ keywords:
     </select>
     </form>
   </div>
-  
+
   <ul class="blog-list">
-    {% for post in site.categories.blog %}    
+    {% for post in site.categories.blog %}
     <li {% if post.category %}class="{{ post.category | slugify }}"{% endif %}>{% include blog_teaser.html class=class header="h2" short=true %}</li>
     {% endfor %}
   </ul>
