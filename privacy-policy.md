@@ -7,7 +7,7 @@ I. TS has a firm commitment to data privacy and security. All information submit
 
 II. TS provides opportunities for visitors to voluntarily submit the contact information for themselves as individuals or on behalf of their organization and their technology needs. We are the sole owners of the information collected on this site. We will use your information to respond to you, regarding the reason you contacted us. We will not share your information with any third party outside of our organization.
 
-III. You may opt out of any future contacts from us at any time. You can do so by contacting us via the email address or phone number given on our website: 503-847-9216
+III. You may opt out of any future contacts from us at any time. You can do so by contacting us via email at this address: info@thinkshout.com
 
 IV. TS does not track individual user’s visits, but does examine user data in aggregate in order to facilitate the online experience of users and improve the quality of its content.
 
