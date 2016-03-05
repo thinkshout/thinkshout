@@ -98,7 +98,7 @@ keywords:
             {% endif %}
           </div>
 
-            <div class="blog-author">
+            <div class="blog-author byline">
               {% for person in site.data.team %}
               {% if post.author == person.name %}
               <img src="{{ site.baseurl }}/assets/images/{{ person.image.small }}" alt="{{ person.first_name }}" />

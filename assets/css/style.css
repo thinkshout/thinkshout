@@ -4775,9 +4775,10 @@ header {
         .front .blog-teaser .featured-blog-post {
           width: 100%; } }
       .front .blog-teaser .featured-blog-post h2 {
-        color: #f1b332;
         font-size: 1.625rem;
         margin-bottom: 0; }
+        .front .blog-teaser .featured-blog-post h2 a {
+          color: #f1b332; }
       .front .blog-teaser .featured-blog-post p {
         margin-top: 0.5rem; }
       .front .blog-teaser .featured-blog-post img,
@@ -4785,9 +4786,12 @@ header {
         bottom: 3rem;
         display: inline-block;
         position: absolute; }
+      .front .blog-teaser .featured-blog-post .author-info a {
+        color: #f1b332; }
       .front .blog-teaser .featured-blog-post .author-info h4 {
         margin: 0 0 0 5rem; }
       .front .blog-teaser .featured-blog-post .author-info p {
+        color: #fff;
         font-size: 0.875rem;
         margin: 0 0 0.5rem 5rem; }
     .front .blog-teaser .blog-menu {
