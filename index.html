@@ -85,26 +85,36 @@ keywords:
   <div class="blog-teaser">
       <div class="featured-blog-post">
         <div class="container">
+          {% for post in site.categories.blog %}
+          {% if post.featured == true %}
           <div class="blog-subject">
             <div class="header-down-caret">
               <h4>Featured blog post</h4>
               <i class="fa fa-caret-down"></i>
             </div>
-            <h2>Relaunching the Southern Poverty Law Center's Website</h2>
-            <p>
-              It's time to talk Dreamforce.
-            </p>
+            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            {% if post.short %}
+            <p class="short">{{ post.short }}</p>
+            {% endif %}
           </div>
 
-          <div class="blog-author">
-            <img src="{{ site.baseurl }}/assets/images/ts_redesign/sean.png" alt="sean" />
-            <div class="author-info">
-              <h4>Sean Larkin</h4>
-              <p>
-                CEO, Owner
-              </p>
+            <div class="blog-author">
+              {% for person in site.data.team %}
+              {% if post.author == person.name %}
+              <img src="{{ site.baseurl }}/assets/images/{{ person.image.small }}" alt="{{ person.first_name }}" />
+              <div class="author-info">
+                <a class="team-name" href="{{ site.baseurl }}/team/{{ person.name }}">
+                  <h4>{{ person.first_name }} {{ person.last_name }}</h4>
+                </a>
+                <p>
+                  {{ person.position }}
+                </p>
+              </div>
+              {% endif %}
+              {% endfor %}
             </div>
-          </div>
+          {% endif %}
+          {% endfor %}
         </div>
       </div>
       <div class="blog-menu">
