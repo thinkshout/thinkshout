@@ -14,7 +14,7 @@ tags:
 date: 2016-01-28 13:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 category: Technology and Innovation
-category-options: 
+category-options:
  - Technology and Innovation
  - Strategy and Design
  - Project Management and Process
@@ -48,7 +48,7 @@ February 6th is the Drupal Global Training Day. We will be leading the Portland 
 
 * An introduction to CMS
 * File management and databases
-* Site building basics with content types, fields, and views Site building basics with content types, fields, and views
+* Site building basics with content types, fields, and views
 * Installation of modules and themes
 * Deploying to your web host with Git
 * Introduction to Drupal 8 theming with Twig templates
