@@ -16,9 +16,12 @@
   }
 
   .intro {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-style: italic;
+    line-height: $line-height;
+    margin: 0 auto;
     text-align: center;
+    width: 85%;
   }
 
   h2 {
