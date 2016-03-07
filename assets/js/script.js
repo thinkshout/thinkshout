@@ -71,11 +71,13 @@
   }
 
   if ( getParam('category').length ) {
+    var currentCat = getParam('category');
     $('.blog-list').find('li').hide();
-    $('.blog-list').find('li.'+getParam('category')).fadeIn();
+    $('.blog-list').find('li.'+currentCat).fadeIn();
     $('html, body').stop().animate( {
         'scrollTop': $('#filter-wrapper').offset().top-100
     }, 700);
+    $('#blog-filter').val(currentCat).trigger("chosen:updated");
   }
 
 })(jQuery);
