@@ -34,11 +34,11 @@
     if (direction == 'down') {
       $('header').animate({"padding":"0"}, 600);
       $('header .header-logo img').animate({"width":"10rem", "margin-top": "6px"}, 600);
-      $('.main-menu li a').animate({"padding": "1.1rem 0"}, 600);
+      $('.main-menu li a').animate({"padding": "1.1rem 0.625rem"}, 600);
     } else {
       $('header').animate({"padding":"2rem 0"}, 600);
       $('header .header-logo img').animate({"width":"13rem"}, 600);
-      $('.main-menu li a').animate({"padding": "3.125rem 0"}, 600);
+      $('.main-menu li a').animate({"padding": "3.125rem 0.625rem"}, 600);
     }
   }, { offset: '50px' });
 
