@@ -1,4 +1,7 @@
 (function($) {
+  $(window).resize(function() {
+    $('.main-menu').removeAttr('style');
+  });
   // Mobile Menu
   $('.mobile-menu-icon').click(function() {
     $(this).toggleClass('active');
