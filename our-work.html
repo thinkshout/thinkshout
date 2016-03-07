@@ -15,10 +15,10 @@ permalink: our-work/
 
 {% assign case-studies = site.case_studies | sort: 'order' %}
 <div class="work-listing">
-  {% for preview in case-studies %}    
+  {% for preview in case-studies %}
     <section class="case-study-header {{ preview.cs-class }}">
     <style>
-      .case-study-header.{{ preview.cs-class }} { background-image: url('{{ preview.cs-preview.image }}'); }
+      .case-study-header.{{ preview.cs-class }} { background-image: url('{{ site.baseurl }}{{ preview.cs-preview.image }}'); }
     </style>
       <div class="gradient">&nbsp;</div>
       <div class="wrapper">
