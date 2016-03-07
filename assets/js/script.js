@@ -6,6 +6,17 @@
     $(this).find('.fa').toggleClass('fa-bars fa-remove');
   });
 
+  // Set active states for the Main Menu items and their subitems
+  var path = window.location.pathname;
+  path = path.replace(/\/$/, "");
+
+  $(".main-menu li a").each(function() {
+    var href = $(this).attr('href');
+    if (path.substring(0, href.length) === href) {
+      $(this).closest('a').addClass('active');
+    }
+  });
+
   // Waypoints
   $('.case-study').each(function() {
     var current_item = $(this);

@@ -127,7 +127,8 @@ header {
     $colors: $orange, $orange-yellow1, $orange-yellow2, $orange-yellow3, $yellow;
     $child: 1;
     @each $color in $colors {
-      li:nth-child(#{$child}):hover {
+      li:nth-child(#{$child}) a.active,
+      li:nth-child(#{$child}) a:hover {
         @include mq(d) {
           border-top: 4px solid $color;
           $child: $child + 1;
