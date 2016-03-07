@@ -4493,19 +4493,24 @@ header {
           font-size: 0.9375rem;
           padding: 3.125rem 0; } }
     @media (min-width: 980px) {
-      header .main-menu li:nth-child(1):hover {
+      header .main-menu li:nth-child(1) a.active,
+      header .main-menu li:nth-child(1) a:hover {
         border-top: 4px solid #f26d21; } }
     @media (min-width: 980px) {
-      header .main-menu li:nth-child(2):hover {
+      header .main-menu li:nth-child(2) a.active,
+      header .main-menu li:nth-child(2) a:hover {
         border-top: 4px solid #F27F25; } }
     @media (min-width: 980px) {
-      header .main-menu li:nth-child(3):hover {
+      header .main-menu li:nth-child(3) a.active,
+      header .main-menu li:nth-child(3) a:hover {
         border-top: 4px solid #F2902A; } }
     @media (min-width: 980px) {
-      header .main-menu li:nth-child(4):hover {
+      header .main-menu li:nth-child(4) a.active,
+      header .main-menu li:nth-child(4) a:hover {
         border-top: 4px solid #F1A22E; } }
     @media (min-width: 980px) {
-      header .main-menu li:nth-child(5):hover {
+      header .main-menu li:nth-child(5) a.active,
+      header .main-menu li:nth-child(5) a:hover {
         border-top: 4px solid #f1b332; } }
     header .main-menu a {
       color: #f26d21;
