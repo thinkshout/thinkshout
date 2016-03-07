@@ -9,7 +9,7 @@ social:
   github: https://github.com/ruscoe/
   twitter: https://twitter.com/danruscoe/
   linkedin: http://www.linkedin.com/in/ruscoe/
-image:
+team-image:
   small: team/small/dan.jpg
   medium: team/medium/dan.jpg
   large: team/large/dan.jpg

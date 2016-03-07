@@ -8,7 +8,7 @@ leadin: |
 social:
   github: https://github.com/AmyVS
   linkedin: http://www.linkedin.com/in/amyvs/
-image:
+team-image:
   small: team/small/amy.jpg
   medium: team/medium/amy.jpg
   large: team/large/amy.jpg

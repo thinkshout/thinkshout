@@ -10,7 +10,7 @@ social:
   twitter: https://twitter.com/mshaver1
   linkedin: http://www.linkedin.com/in/mrshaver
   drupal: https://www.drupal.org/u/mshaver
-image:
+team-image:
   small: team/small/mike.jpg
   medium: team/medium/mike.jpg
   large: team/large/mike.jpg

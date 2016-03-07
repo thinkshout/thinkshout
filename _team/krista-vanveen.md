@@ -10,7 +10,7 @@ social:
   twitter: https://twitter.com/KristaVanVeen
   linkedin: http://www.linkedin.com/kristavanveen
   drupal:
-image:
+team-image:
   small: team/small/krista3.jpg
   medium: team/medium/krista3.jpg
   large: team/large/krista3.jpg

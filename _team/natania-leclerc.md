@@ -10,7 +10,7 @@ social:
   twitter: http://twitter.com/nkleclerc
   linkedin: https://www.linkedin.com/in/nkleclerc
   drupal:
-image:
+team-image:
   small: team/small/natania.jpg
   medium: team/medium/natania.jpg
   large: team/large/natania.jpg

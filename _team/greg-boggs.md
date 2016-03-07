@@ -10,7 +10,7 @@ social:
   twitter: https://twitter.com/gregory_boggs
   linkedin: https://www.linkedin.com/in/gregoryboggs
   drupal: https://www.drupal.org/u/greg-boggs
-image:
+team-image:
   small: team/small/greg.jpg
   medium: team/medium/greg.jpg
   large: team/large/greg.jpg

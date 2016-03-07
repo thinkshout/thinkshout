@@ -10,7 +10,7 @@ social:
   twitter: https://twitter.com/jamidwyer
   linkedin: https://www.linkedin.com/profile/view?id=27831111
   drupal: https://www.drupal.org/u/jami
-image:
+team-image:
   small: team/small/jami.jpg
   medium: team/medium/jami.jpg
   large: team/large/jami.jpg
