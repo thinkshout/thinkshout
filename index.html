@@ -26,61 +26,48 @@ keywords:
     </div>
   </div>
 
-  <div class="featured-case-study">
-    <div class="container">
-      <div class="featured-case-study-text valign-wra">
-        <div class="valign">
-          <h4>Featured Case Study</h4>
-          <h1>The Southern Poverty Law Center</h1>
-          <p>
-            The SPLC fights hatred and bigotry, seeking justice for the most
-            vulnerable members of society. In redesigning their website, we
-            helped them better tell their story through digital journalism and
-            data visualization.
-          </p>
-          <a href="{{ site.baseurl }}/who-we-are" class="uppercase-link">See more<i class="fa fa-caret-right"></i></a>
+  {% for case in site.case_studies %}
+    {% if case.featured == true and case.order == 1 %}
+      <div class="featured-case-study">
+        <div class="container">
+            <div class="featured-case-study-text valign-wra">
+              <div class="valign">
+                <h4>Featured Case Study</h4>
+                <h1>{{ case.cs-preview.client }}</h1>
+                <p>
+                  {{ case.cs-preview.description}}
+                </p>
+                <a href="{{ site.baseurl }}/{{ case.permalink }}" class="uppercase-link">See more<i class="fa fa-caret-right"></i></a>
+              </div>
+            </div>
         </div>
       </div>
-    </div>
-  </div>
+    {% endif %}
+  {% endfor %}
 
+  {% assign caseCounter = 2 %}
   <div class="three-case-studies">
-    <div class="case-study" id="case-study1">
-      <div class="orange-overlay">
+  {% for case in site.case_studies %}
+    {% if case.featured == true and case.order > 1 %}
+      <div class="case-study" id="case-study{{ caseCounter }}">
+      <style>
+        #case-study{{ caseCounter }} { background: url('{{ site.baseurl }}{{ case.cs-preview.image }}') center center no-repeat; }
+      </style>
+        <div class="orange-overlay">
+        </div>
+        <div class="case-study-text">
+          <h2>{{ case.cs-preview.client }}</h1>
+          <p>
+            {{ case.cs-preview.description}}
+          </p>
+        </div>
       </div>
-      <div class="case-study-text">
-        <h2>Facing History and Ourselves</h1>
-        <p>
-          Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet
-          sapien, quis venenatis ante odio sit amet eros. In turpis. Quisque rutrum.
-        </p>
-      </div>
-    </div>
-    <div class="case-study" id="case-study2">
-      <div class="orange-overlay">
-      </div>
-      <div class="case-study-text">
-        <h2>Colorado Trust</h2>
-        <p>
-          Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet
-          sapien, quis venenatis ante odio sit amet eros. In turpis. Quisque rutrum.
-        </p>
-      </div>
-    </div>
-    <div class="case-study" id="case-study3">
-      <div class="orange-overlay">
-      </div>
-      <div class="case-study-text">
-        <h2>Ocean Outcomes</h2>
-        <p>
-          Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet
-          sapien, quis venenatis ante odio sit amet eros. In turpis. Quisque rutrum.
-        </p>
-      </div>
-    </div>
+      {% assign caseCounter = caseCounter | plus: 1 %}
+    {% endif %}
+  {% endfor %}
   </div>
 
-{% include our-expertise.html %}
+  {% include our-expertise.html %}
 
   <div class="blog-teaser">
       <div class="featured-blog-post">
