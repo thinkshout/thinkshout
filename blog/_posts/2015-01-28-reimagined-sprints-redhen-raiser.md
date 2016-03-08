@@ -3,11 +3,6 @@ title: Reimagined Sprints and Introducing RedHen Raiser
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -32,7 +27,7 @@ date: 2015-01-28
 
 We’ve been experimenting with monthly team sprints at ThinkShout over the last year with varied levels of structure and outcomes. This month, we decided to take a step back, reevaluate our goals, and reimagine our sprint process. And, we moved it to a Thursday. [A bow-tie Thursday](https://twitter.com/thinkshout/status/558334360416305152).
 
-Previously, these sprints were loosely structured around a topic or technology, such as [Twig in Drupal 8](https://www.drupal.org/theme-guide/8/twig). Suffice it to say, they were a lot of fun and very exploratory, but they weren’t the most engaging for everyone on the team. This time around, we decided to collaborate on a single initiative - in this instance, a product - that would benefit from the skills and perspectives of everyone in the company. Consequently, we decided to rally around [RedHen Raiser](http://drupal.org/project/redhen_raiser), our new peer-to-peer fundraising distribution for Drupal. 
+Previously, these sprints were loosely structured around a topic or technology, such as [Twig in Drupal 8](https://www.drupal.org/theme-guide/8/twig). Suffice it to say, they were a lot of fun and very exploratory, but they weren’t the most engaging for everyone on the team. This time around, we decided to collaborate on a single initiative - in this instance, a product - that would benefit from the skills and perspectives of everyone in the company. Consequently, we decided to rally around [RedHen Raiser](http://drupal.org/project/redhen_raiser), our new peer-to-peer fundraising distribution for Drupal.
 
 ### Introducing RedHen Raiser
 
@@ -60,7 +55,7 @@ As the name suggests, RedHen Raiser is built on top of [RedHen CRM](https://www.
 
 * Built using established modules with simple UI (Views, RedHen, Context, etc) for easy customization.
 
-It’s ThinkShout’s latest offering in a suite of nonprofit engagement building blocks that we’ve been developing, and was initially developed for the [Capital Area Food Bank of Washington, DC](http://www.capitalareafoodbank.org/). RedHen Raiser competes feature for feature with top *software as a service (SaaS)* peer-to-peer fundraising platforms, such as TeamRaiser, CauseVox and Razoo. 
+It’s ThinkShout’s latest offering in a suite of nonprofit engagement building blocks that we’ve been developing, and was initially developed for the [Capital Area Food Bank of Washington, DC](http://www.capitalareafoodbank.org/). RedHen Raiser competes feature for feature with top *software as a service (SaaS)* peer-to-peer fundraising platforms, such as TeamRaiser, CauseVox and Razoo.
 
 As a result of our work with this client, we were able to release a very rudimentary version of RedHen Raiser on Drupal.org that would provide a basic starting point to other developers interested in building a peer-to-peer fundraising tool. The product is also a huge win for CAFB of DC, simply because they were able to reap a huge dividend on their initial investment by getting these improvements for free.
 
@@ -86,7 +81,7 @@ It’s worth noting that the quality assurance team and the community engagement
 
 ![raiser_3.jpg](http://thinkshout.com/assets/images/blog/raiser_3.jpg)
 
-As ThinkShout has grown, the need for sprint planning has grown with it. Back when we first started these sprints, we could fit our entire team around a single table (covered in pizza boxes and beer) and call out development tickets we each needed help with. 
+As ThinkShout has grown, the need for sprint planning has grown with it. Back when we first started these sprints, we could fit our entire team around a single table (covered in pizza boxes and beer) and call out development tickets we each needed help with.
 
 Now, with a team of 18 working together from 11am to 5pm, these sprints take a bit more planning - to say nothing of balancing the opportunity cost of investing a collective 108 hours of non-client work into a single week. To keep things running smoothly, we’ve taken a more project-planning-esque approach to our sprint days:
 
@@ -105,7 +100,7 @@ Now, with a team of 18 working together from 11am to 5pm, these sprints take a b
 
 ![raiser_4.png](http://thinkshout.com/assets/images/blog/raiser_4.png)
 
-So what does it all mean? This new approach to our team sprints resulted in just shy of 100 commits on RedHen Raiser and the underlying modules that power the distribution. We published a [new release](https://www.drupal.org/node/2414581) of RedHen Raiser, [RedHen Donation](https://www.drupal.org/node/2413307) and the [RedHen Campaign](https://www.drupal.org/node/2414563) modules - as well as a release of our base [RedHen CRM](https://www.drupal.org/node/2414559)[ suite](https://www.drupal.org/node/2414559). 
+So what does it all mean? This new approach to our team sprints resulted in just shy of 100 commits on RedHen Raiser and the underlying modules that power the distribution. We published a [new release](https://www.drupal.org/node/2414581) of RedHen Raiser, [RedHen Donation](https://www.drupal.org/node/2413307) and the [RedHen Campaign](https://www.drupal.org/node/2414563) modules - as well as a release of our base [RedHen CRM](https://www.drupal.org/node/2414559)[ suite](https://www.drupal.org/node/2414559).
 
 One of the biggest wins to come out of the sprint are [automated tests](https://github.com/thinkshout/redhen_raiser/tree/7.x-1.x/tests) powered by [Behat](http://docs.behat.org/en/v2.5/). Tests are triggered with every commit to GitHub and run on [Travis CI](https://travis-ci.org/thinkshout/redhen_raiser). At this point, test coverage is a bit limited, but the foundation has been laid for complete test coverage for RedHen Raiser, a critical factor when organizations are evaluating which software to use.
 

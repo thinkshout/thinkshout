@@ -2,11 +2,6 @@
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -15,7 +10,7 @@ featured: false
 title: Slice and Dice Entities with View Modes and Bean Entity View
 short: A new Drupal module to display entities as blocks.
 author: tauno
-tags: 
+tags:
   - Drupal Planet
   - Bean Entity View
   - modules

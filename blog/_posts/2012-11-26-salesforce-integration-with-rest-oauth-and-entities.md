@@ -2,11 +2,6 @@
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -20,7 +15,7 @@ tags:
 short: The Drupal Salesforce Suite has been around since Drupal 5, having undergone many transformations in trying to keep pace with both Drupal and Salesforce API changes. The result is a feature set as impressive as it is ambitious, although the incremental updates and additions have come at a cost of significant technical debt, inconsistent API usage, a monolithic architecture, and fragility.
 author: lev
 ---
-<img src="http://www.sfdcstatic.com/common/assets/img/logo-company.png" alt="Salesforce logo" style="float:left; margin:0 10px 10px 0 " /> 
+<img src="http://www.sfdcstatic.com/common/assets/img/logo-company.png" alt="Salesforce logo" style="float:left; margin:0 10px 10px 0 " />
 The [Drupal Salesforce Suite](http://drupal.org/project/salesforce) has been around since Drupal 5, having undergone many transformations in trying to keep pace with both Drupal and Salesforce API changes. The result is a feature set as impressive as it is ambitious, although the incremental updates and additions have come at a cost of significant technical debt, inconsistent API usage, a monolithic architecture, and fragility.
 
 ThinkShout, not being strangers to major rewrites, [even of our own modules](http://thinkshout.com/blog/2011/06/lev/mailchimp-20-anatomy-drupal-module-rewrite), and driven by our need to integrate Salesforce with our native Drupal CRM, [RedHen](http://drupal.org/project/redhen), undertook the challenge to completely rewrite the Salesforce suite this fall.
@@ -180,6 +175,6 @@ The fieldmap UI allows an admin to select a fieldmap type which then presents ei
 ![field mappings](http://thinkshout.com/sites/default/files/images/inline/salesforce-field-mappings-2.png)
 
 ## Where things are heading
-We'll be launching several sites before years using the new version of the Salesforce module and are including it in a private distribution we've developed for the [Forum of Regional Associations of Grantmakers](http://www.givingforum.org/), who have generously sponsored the initial development, and we already feel it's alpha quality and at the "MVP" stage. There are certain to be lots of bugs, and perhaps even major API changes, but that's to be expected for a project of this complexity and with a such a wide array of use cases. We're hoping to engage even more with the community at this time to gather architectural feedback and help work out the kinks. 
+We'll be launching several sites before years using the new version of the Salesforce module and are including it in a private distribution we've developed for the [Forum of Regional Associations of Grantmakers](http://www.givingforum.org/), who have generously sponsored the initial development, and we already feel it's alpha quality and at the "MVP" stage. There are certain to be lots of bugs, and perhaps even major API changes, but that's to be expected for a project of this complexity and with a such a wide array of use cases. We're hoping to engage even more with the community at this time to gather architectural feedback and help work out the kinks.
 
 Salesforce is a very widely used, powerful platform, and having a canonical, robust Drupal integration is a major win for the entire community. We're hopeful this is a good starting point to achieve that goal.

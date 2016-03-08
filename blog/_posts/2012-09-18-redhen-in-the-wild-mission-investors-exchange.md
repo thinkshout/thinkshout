@@ -2,11 +2,6 @@
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -22,7 +17,7 @@ tags:
 short: Deploying a tightly integrated consituent relationship management (CRM) system.
 author: tauno
 ---
-When Seattle based PRI Makers Network and Harvard based More for Mission decided to merge and rebrand as [Mission Investors Exchange](http://www.missioninvestors.org), ThinkShout was engaged to re-invent their combined website on Drupal 7 and deploy a tightly integrated constituent relationship management (CRM) system.  
+When Seattle based PRI Makers Network and Harvard based More for Mission decided to merge and rebrand as [Mission Investors Exchange](http://www.missioninvestors.org), ThinkShout was engaged to re-invent their combined website on Drupal 7 and deploy a tightly integrated constituent relationship management (CRM) system.
 
 ### Background
 
@@ -38,12 +33,12 @@ The responsive theme was developed using [Omega](http://drupal.org/project/omega
 
 One of the greatest online assets of Mission Investors Exchange is their repository of articles, reports, templates, and investment records. Apache Solr was selected as the search server to allow high performance faceted searching and attachment indexing. To better customize the search experience, three search interfaces were built: sitewide search, tool/resource search, and investment search. The default Drupal/Apache Solr search experience leaves a bit to be desired when it comes to user experience, so several customizations were made across all three search interfaces.
 
-* Render teasers instead of only showing the solr result snippet. When a keyword search is done we replace the body extract with the solr snippet that includes the highlighted keywords while maintaining all the other teaser fields. 
+* Render teasers instead of only showing the solr result snippet. When a keyword search is done we replace the body extract with the solr snippet that includes the highlighted keywords while maintaining all the other teaser fields.
 
 ![Improved Solr search teasers](https://dl.dropbox.com/s/ulq2alurfgz3n06/MIE-search-teasers.png?dl=1)
 
-* Duplicate results for attached files and the content item they are associated with is confusing to users. Indexing attachments with the content item they are associated with is possible via [a patch](http://drupal.org/node/561862#comment-6246408) to the [Apache Solr Attachments](http://drupal.org/project/apachesolr_attachments) module. 
-* [Solr's StatsComponent](http://wiki.apache.org/solr/StatsComponent) is utilized to provide a lightweight sum of investment amounts.  
+* Duplicate results for attached files and the content item they are associated with is confusing to users. Indexing attachments with the content item they are associated with is possible via [a patch](http://drupal.org/node/561862#comment-6246408) to the [Apache Solr Attachments](http://drupal.org/project/apachesolr_attachments) module.
+* [Solr's StatsComponent](http://wiki.apache.org/solr/StatsComponent) is utilized to provide a lightweight sum of investment amounts.
 
 ![Summary statistics with Solr](https://www.dropbox.com/s/dfh12gecnu15mlq/MIE-investments.png?dl=1)
 
@@ -57,14 +52,14 @@ Educating the public and member foundations about the field of mission investing
 
 ### RedHen CRM - Integration not needed
 
-With a plethora of CRM solutions on the market, selecting the best solution for a given use case can be daunting. For Mission Investors Exchange, tight integration with their Drupal site, simple membership management, and room for growth were some of the key criteria used to evaluate potential solutions. Because RedHen is a native Drupal 7 CRM, no integration is necessary to connect it to a Drupal powered site. 
+With a plethora of CRM solutions on the market, selecting the best solution for a given use case can be daunting. For Mission Investors Exchange, tight integration with their Drupal site, simple membership management, and room for growth were some of the key criteria used to evaluate potential solutions. Because RedHen is a native Drupal 7 CRM, no integration is necessary to connect it to a Drupal powered site.
 
-* Customized RedHen interface using Views, Views Data Export, and Views Bulk Operations to quickly tailor the management screens to staff needs. 
+* Customized RedHen interface using Views, Views Data Export, and Views Bulk Operations to quickly tailor the management screens to staff needs.
 
 ![Staff management of Organizations](https://www.dropbox.com/s/yo7kwt3njyjpv91/MIE-orgs-manage.png?dl=1)
 
 * Site content can be related to RedHen organization records allowing for a rich display of tools, news, events, and investments associated with a given member.
-* Multiple member levels can be tracked along with data about payment amounts and dates for each organization. Organizations with active memberships are automatically included in the membership directory. 
+* Multiple member levels can be tracked along with data about payment amounts and dates for each organization. Organizations with active memberships are automatically included in the membership directory.
 
 ![Member directory from RedHen data](https://www.dropbox.com/s/2wtg3w5s4nyadtv/MIE-directory.png?dl=1)
 

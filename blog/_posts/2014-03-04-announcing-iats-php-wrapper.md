@@ -3,11 +3,6 @@ title: Announcing the Release of the PHP Wrapper for iATS Payments
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -52,4 +47,4 @@ Now that we have a solid foundation, ThinkShout will work closely with iATS Paym
 
 ThinkShout and iATS Payments will be at the [Nonprofit Technology Conference](http://www.nten.org/ntc/) in Washington, D.C. from March 13th to 15th and we encourage developers and nonprofits alike to stop by our booths to learn more about the PHP wrapper and the other services offered by iATS. Stephen Bestbier of iATS Payments and Lev Tsypin of ThinkShout will be on site at NTC and look forward to discussing many facets of iATS Payments’ integrations for nonprofits.  Visit iATS Payments at booth #427 and ThinkShout at booth #231 to learn more.
 
-For more information about iATS Payments, visit their website at [www.iatspayments.com](http://www.iatspayments.com/).  
+For more information about iATS Payments, visit their website at [www.iatspayments.com](http://www.iatspayments.com/).

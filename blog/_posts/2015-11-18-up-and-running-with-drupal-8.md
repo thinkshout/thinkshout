@@ -14,11 +14,6 @@ tags:
 date: 2015-11-18 13:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 category: Technology and Innovation
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 ---
 
 It’s November 2015, and Drupal.org is rolling out [Drupal 8 release candidates](https://www.drupal.org/project/drupal)! Heck, Drupal 8 is coming out *this week*. For many devs, that means we need to figure out how to install, sync, and set up a site theme. Here at ThinkShout, learning is part of the job - we have dedicated time every week to learn new things and share them, be it in a blog post, at our weekly engineering meetings, or at our weekly team lunch.
@@ -96,11 +91,11 @@ composer install
 This will take a while, since it’s downloading Drupal and all the modules.
 After initial installation, perform a full export and an immediate import/sync of your site configuration profile. This can be done two ways:
 
-1. Via the gui: `/admin/config/development/configuration/full/export`  
+1. Via the gui: `/admin/config/development/configuration/full/export`
 
    Save this export file! Any subsequent sites will need this as a starting point so that entity mismatches don’t occur.
 
-2. Via Drush (run from the `/web` directory):  
+2. Via Drush (run from the `/web` directory):
 
 ~~~bash
 drush config-export
@@ -158,4 +153,4 @@ This will be covered in our next post: "Up and Theming with Drupal 8."
 
 ##Disclaimer##
 
-The post was written at the end of 2015 while Drupal 8 was still in a Release Candidate stage. While some effort will be made to keep the post up-to-date, if it’s after 2016, you should probably be adding the year you are currently in to your Google search, or better yet, check the docs on [Drupal.org](https://www.drupal.org/drupal-8.0).  
+The post was written at the end of 2015 while Drupal 8 was still in a Release Candidate stage. While some effort will be made to keep the post up-to-date, if it’s after 2016, you should probably be adding the year you are currently in to your Google search, or better yet, check the docs on [Drupal.org](https://www.drupal.org/drupal-8.0).

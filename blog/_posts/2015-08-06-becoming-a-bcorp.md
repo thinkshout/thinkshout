@@ -2,21 +2,16 @@
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
 title: Being the Change - Becoming a B Corp
 author: lev
 image: http://thinkshout.com/assets/images/blog/thinkshout-bcorp-blog__2_.jpg
-published: true 
+published: true
 featured: false
 short: We are proud to announce our certification as a B Corporation.
-tags: 
+tags:
   - B Corp
   - Our Mission
   - Culture

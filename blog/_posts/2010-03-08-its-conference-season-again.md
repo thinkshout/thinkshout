@@ -2,11 +2,6 @@
 layout: blog
 body-class: blog-post
 category: Culture, Community, and Business
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -17,7 +12,7 @@ tags:
 - Drupal
 - nonprofit tech
 
-short: Things are busy here at ThinkShout, but there are just too many good opportunities for us to stay home. 
+short: Things are busy here at ThinkShout, but there are just too many good opportunities for us to stay home.
 author: sean
 ---
 <p>Well, it's that time of the year again, conference season! Things are busy here at ThinkShout, but there are just too many good opportunities for us to connect with other social entrepreneurs, technologists, and community activists to stay home. So, I've purchased my tickets and will see you at the following conferences:
@@ -27,4 +22,4 @@ author: sean
 <li><a href="http://www.rivernetwork.org/programs/national-river-rally" target="_blank">National River Rally</a> - May 21-24 in Snowbird, UT</li>
 </ul>
 </p>
- 
+

@@ -2,11 +2,6 @@
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -44,7 +39,7 @@ Wow. Look at this awesomely long list of annoying things that plague such an int
 
 We began working on the [RedHen](https://www.drupal.org/project/redhen_donation)[Donation](https://www.drupal.org/project/redhen_donation) module with intent to create a better online donation solution. We wanted to create a donation tool that allowed nonprofits to keep everything under one roof. The end result accomplishes this. What we came up with is unique in the sense that it offers nonprofits several features that aren’t quite so commonplace. RedHen Donation is inside their website, connected to their CRM. It allows for both one-time and recurring donations, multiple donation pages, and easy-to-edit donation forms.
 
-I chatted with [Brandon Lee](http://thinkshout.com/team/brandon/), the architect behind RedHen Donation, to get a better understanding of RedHen Donation’s capabilities.  
+I chatted with [Brandon Lee](http://thinkshout.com/team/brandon/), the architect behind RedHen Donation, to get a better understanding of RedHen Donation’s capabilities.
 
 **Stephanie: So what’s the big deal with RedHen Donation?**
 
@@ -64,7 +59,7 @@ The donation space, in a lot of ways, is what sets it apart from similar modules
 
 **Stephanie: What if I want create a new form?**
 
-**Brandon**: With the assumption that you already have RedHen set up, it’s relatively simple. You enable the module, then create a donation type, which is a Drupal entity, and during the configuration, you select what kind of product you’re working with - at least with one-time donations. This is  a fieldable methodology that we’ve used with MailChimp and other projects in the past. If you understand Drupal concepts of entities, fields, and commerce, then it’s simple. You do need a working knowledge of those three things to build a form. But once it’s complete, it’s incredibly simple for donors to use. That’s the whole point of the single page donation form. You can offer multiple recurring options. Every month for forever, every month for a year, all of those options on the same page. 
+**Brandon**: With the assumption that you already have RedHen set up, it’s relatively simple. You enable the module, then create a donation type, which is a Drupal entity, and during the configuration, you select what kind of product you’re working with - at least with one-time donations. This is  a fieldable methodology that we’ve used with MailChimp and other projects in the past. If you understand Drupal concepts of entities, fields, and commerce, then it’s simple. You do need a working knowledge of those three things to build a form. But once it’s complete, it’s incredibly simple for donors to use. That’s the whole point of the single page donation form. You can offer multiple recurring options. Every month for forever, every month for a year, all of those options on the same page.
 
 **Stephanie: It sounds like you’ve got a lot of payment options to choose from as an end-user - and the recurring donation option is huge win for fundraisers - but how customizable is this form? And how difficult is it to make changes?**
 

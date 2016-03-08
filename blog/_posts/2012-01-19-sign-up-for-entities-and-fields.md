@@ -2,11 +2,6 @@
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -49,7 +44,7 @@ We struggled with the best way to enable registrations of a given type (or bundl
 * Add a registration field to any entity bundle, E.g., node type, user, taxonomy term, product, etc. The possible values for this field will be all of the available registration types.
 * Select the display formatter for the field. Current options are the name of the registration type, a link to the registration form, or embedding the actual form with all the configured fields.
 * When you add or edit an entity, select the type of registrations you want to enable.
- 
+
 The entity will now have a "manage registrations" local task which exposes all the settings and tools for that entity's registrations, including:
 
 * Tabular list of registrants

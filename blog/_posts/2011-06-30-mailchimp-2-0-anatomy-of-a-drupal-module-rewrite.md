@@ -2,11 +2,6 @@
 layout: blog
 body-class: blog-post
 category: Technology and Innovation
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -37,7 +32,7 @@ I quickly faced a challenge many contributors encounter as their modules grow in
   4. Queue system for batch processing during cron
   5. Mail interface
   6. Custom cache bins
-  
+
 # What's new
 ## Modular architecture
 The origin module had all of the features crammed into a single module, with a focus on meeting the needs of a very specific feature set. The result was features that were difficult to extend / alter, and almost no API interfaces for developers to interact with the MailChimp API outside of the fairly narrow use case the module handled. For 2.0, we split out the module into a fairly minimalist API module, with a submodule for each primary use case. In addition to providing much needed flexibility, this makes the module much more lightweight as submodules can be enabled/disabled as needed, or just the API module can be used for custom development. The module is currently bundled with the following:

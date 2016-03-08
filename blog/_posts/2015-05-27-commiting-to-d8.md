@@ -3,11 +3,6 @@ title: Committing to D8 Core - A Little Bit Goes a Long Way
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 expertise: Web Application Development
 expertise-options:
  - Content Strategy & Metrics
@@ -52,4 +47,4 @@ Everything happened rather quickly, which was surprising considering how long it
 
 This was my first DrupalCon and, little did I know, they have a very important tradition - every DrupalCon sprint ends with a live commit by Dries, the founder of Drupal. Our team was lucky enough to be part of this ritual! So, after a full week of delightful Drupal-related shenanigans, I found myself on stage pressing the enter key on Dries’ computer to push our commit to D8 core. The button was pushed and the explosion of celebration and cheers from the audience was nearly deafening.
 
-In this moment, I truly witnessed the heart of the Drupal community in action - this amazing tool could not exist without a number of developers carefully crafting code in accordance with Drupal best practices, and countless generous individuals attentively reviewing the proposed changes. It really does take a village, and the good news is that it doesn’t require being a coding genius to help out.  
+In this moment, I truly witnessed the heart of the Drupal community in action - this amazing tool could not exist without a number of developers carefully crafting code in accordance with Drupal best practices, and countless generous individuals attentively reviewing the proposed changes. It really does take a village, and the good news is that it doesn’t require being a coding genius to help out.

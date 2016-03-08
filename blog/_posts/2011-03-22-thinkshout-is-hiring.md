@@ -2,18 +2,13 @@
 layout: blog
 body-class: blog-post
 category: Culture, Community, and Business
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
 title: ThinkShout is hiring!
 created: 1300834423
 permalink: blog/2011/03/sean/thinkshout-hiring/
-tags: 
+tags:
 short: ThinkShout is currently interviewing technologists interested in joining our team.
 author: sean
 ---

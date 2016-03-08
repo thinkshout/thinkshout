@@ -2,11 +2,6 @@
 layout: blog
 body-class: blog-post
 category: Culture, Community, and Business
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -26,7 +21,7 @@ author: sean
 /**
  * Implements hook_form_FORM_ID_alter()
  */
-function footer_message_form_system_site_information_settings_alter(&amp;$form, &amp;$form_state, $form_id) {	
+function footer_message_form_system_site_information_settings_alter(&amp;$form, &amp;$form_state, $form_id) {
   // Add a footer text area to the "Site Information" admin page.
   $site_footer = variable_get('footer_message_msg',
     array('value' =&gt; 'This is default site footer content.'));
@@ -35,7 +30,7 @@ function footer_message_form_system_site_information_settings_alter(&amp;$form, 
     '#base_type' =&gt; 'textarea',
     '#title' =&gt; t('Site Footer message'),
     '#default_value' =&gt; $site_footer['value'],
-    '#format' =&gt; isset($site_footer['format']) ? $site_footer['format'] : NULL, 
+    '#format' =&gt; isset($site_footer['format']) ? $site_footer['format'] : NULL,
     '#required' =&gt; TRUE,
   );
 }

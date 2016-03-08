@@ -3,11 +3,6 @@ title: Monkeying Around with D8
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -28,19 +23,19 @@ date: 2015-05-05 13:30:00
 ---
 ##Leading the Charge
 
-I have used A LOT of email marketing service providers over the years and my opinion of them was twofold: they were all similar and none of them were particularly great. Was it possible that this was just a category of business that would never be exciting or innovative? Was I destined to be a project manager who half-heartedly recommended whatever email service provider I was using most at the time to clients? 
+I have used A LOT of email marketing service providers over the years and my opinion of them was twofold: they were all similar and none of them were particularly great. Was it possible that this was just a category of business that would never be exciting or innovative? Was I destined to be a project manager who half-heartedly recommended whatever email service provider I was using most at the time to clients?
 
 _Enter the Chimp..._
 
 Despite its playful name, [MailChimp](http://www.mailchimp.com) made a serious shift in a category that had always had potential but lacked a true champion. My first thought when I used the tool was that even if the feature set was identical to all its competitors, MailChimp’s user interface alone was what set it apart. But once I dug into its capabilities, I became a bona fide fan (dare I say ambassador) of the brand. From automated email workflows and slick segmentation capabilities, to the [Chimpadeedoo] (http://mailchimp.com/features/mobile-signup-forms/) tablet app that facilitates email sign-ups without an internet connection, MailChimp became the new king of the jungle.
 
-Fast forward a few years, and here I am working at ThinkShout, MailChimp’s Drupal partner. We built and maintain the MailChimp Drupal module, which is used by nearly 22,000 websites. 
+Fast forward a few years, and here I am working at ThinkShout, MailChimp’s Drupal partner. We built and maintain the MailChimp Drupal module, which is used by nearly 22,000 websites.
 
-If you are familiar with MailChimp’s motto - listen hard and change fast - (or if you just read the first couple paragraphs of this blog post), then it should come as no surprise that innovation is at the heart of MailChimp’s culture. With the release of Drupal 8 looming this Fall, MailChimp and ThinkShout saw a unique opportunity to lead the charge by porting one of the most popular email modules to be D8 compatible. 
+If you are familiar with MailChimp’s motto - listen hard and change fast - (or if you just read the first couple paragraphs of this blog post), then it should come as no surprise that innovation is at the heart of MailChimp’s culture. With the release of Drupal 8 looming this Fall, MailChimp and ThinkShout saw a unique opportunity to lead the charge by porting one of the most popular email modules to be D8 compatible.
 
 ##The Only Way Through it is Through it
 
-Being a trailblazer isn’t easy, and MailChimp understood that pushing the envelope on D8 development would require a significant investment of time and resources. While the core MailChimp module is relatively simple, the bundled submodules are feature-rich and technically complex. 
+Being a trailblazer isn’t easy, and MailChimp understood that pushing the envelope on D8 development would require a significant investment of time and resources. While the core MailChimp module is relatively simple, the bundled submodules are feature-rich and technically complex.
 
 Let’s recap what the MailChimp module allows you to do:
 
@@ -65,7 +60,7 @@ During our afternoon sprint, our team ran a battery of tests (both human and aut
 
 ##The Future is Now
 
-So far, I’ve focused on what some of the challenges of early D8 development have been, and you’re surely wondering by now “So, what do you think about D8?” Short answer: we’re excited, and we think you should be, too. 
+So far, I’ve focused on what some of the challenges of early D8 development have been, and you’re surely wondering by now “So, what do you think about D8?” Short answer: we’re excited, and we think you should be, too.
 
 Drupal 8 standardizes module development by enforcing PSR-4 compliant namespaces. Whereas D7 allows developers to dictate where a form or entity is placed, for example, D8 loads files in the correct path automatically. What does this mean for developers? Well, it means time saved by not having to search an entire codebase to find where the developer before you placed a form. And because this structure is more in line with general engineering practices, it will be easier for any developer to ramp up for Drupal development.
 

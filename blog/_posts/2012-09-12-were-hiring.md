@@ -2,11 +2,6 @@
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -20,13 +15,13 @@ author: betsy
 ---
 Well, we're at it again...our team is growing as we take on more and more exciting web application development projects mostly, but not exclusively, in Drupal. ThinkShout is looking to hiring for multiple positions!
 
-Have the words intellectually curious, self-starter or overachiever followed you around your whole life? Do you want to go to sleep each night proud of the clients you serve? Are you looking for an employer who will invest in your professional development? Are you passionate about responsive design? Does thinking about UX make you want to get out of bed in the morning? Are you looking for a cool geek community with a great location in an awesome progressive town? Do you enjoy organic burritos and acupuncture (both available downstairs from our office). Do you want you want to take your dog to work? 
+Have the words intellectually curious, self-starter or overachiever followed you around your whole life? Do you want to go to sleep each night proud of the clients you serve? Are you looking for an employer who will invest in your professional development? Are you passionate about responsive design? Does thinking about UX make you want to get out of bed in the morning? Are you looking for a cool geek community with a great location in an awesome progressive town? Do you enjoy organic burritos and acupuncture (both available downstairs from our office). Do you want you want to take your dog to work?
 
 If any of these are true for you, then we want to talk to you! Given our commitment to remaining a lean, "high-end, do-good" shop, you are invited to help us iterate on the culture and best practices you've always wanted on a development team.
 
 ## More About Us ##
 
-* We work exclusively with forward-looking organizations in the for-profit, nonprofit, and government space. 
+* We work exclusively with forward-looking organizations in the for-profit, nonprofit, and government space.
 * We have strict engineering standards. We review each other's code. We write code as if every line will be seen by outside eyes. We insist on doing it right rather than doing it fast.
 * *Abstraction, abstraction, abstraction* - We like to partner with our clients to release cool tools. In fact, most of the Drupal modules we've released, including [Entity Registrations](http://drupal.org/project/registration), [RedHen](http://drupal.org/project/redhen), and [Leaflet](http://drupal.org/project/leaflet) were budgeted into billable client projects.
 * We don't really care about computer science degrees. We do care a lot of about the ability and desire to learn, motivation, and code.
@@ -59,7 +54,7 @@ If any of these are true for you, then we want to talk to you! Given our commitm
 * You've spent at least 2 years working with Drupal
 * You've art directed graphic design projects in the past and love this component of your job
 * You are familiar with wireframing software, such as Axure or Omnigraffle
-* You're passionate about user interface design and responsive design 
+* You're passionate about user interface design and responsive design
 * You have at least 4 years theming for CMS-based websites
 * You're known for your great communication skills, particularly with respect to managing requirements gathering processes with clients
 
@@ -78,7 +73,7 @@ If any of these are true for you, then we want to talk to you! Given our commitm
 
 ## Next steps ##
 
-Do send us an [email](mailto:jobs@thinkshout.com) with your resume, and in lieu of a cover letter, we're interested in knowing more about the following: 
+Do send us an [email](mailto:jobs@thinkshout.com) with your resume, and in lieu of a cover letter, we're interested in knowing more about the following:
 
  * Links to any open source software contributions you have made (code or documentation posted to GitHub, Drupal.org, etc.)
  * A link to your Drupal.org user profile.

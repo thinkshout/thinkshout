@@ -2,11 +2,6 @@
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -53,7 +48,7 @@ Content. Content, content, content. Our audiences haven't been coming to us to d
 
 In doing so, we realized that this redesign was an opportunity for us to really celebrate our team, as well as some of our greatest client success stories. We invested a significant time into rewriting our [team bios](/team/) to let our personalities shine through. We also hired a photographer to professionally capture our smiling mugs, as well as some action shots in our new office. When it came to writing the case studies to represent our [portfolio](/work/), we started from scratch with a focus on the measurable outcomes of our work and how we are supporting our clients make the world a better place.
 
-Sometimes a content-first approach to a website redesign can feel a bit overwhelming (and for our clients, expensive). It requires a great deal of iteration and patience. But ultimately, we found that by focusing on content, we were able to strip out website features and tell a more authentic story that required less of a technology investment. 
+Sometimes a content-first approach to a website redesign can feel a bit overwhelming (and for our clients, expensive). It requires a great deal of iteration and patience. But ultimately, we found that by focusing on content, we were able to strip out website features and tell a more authentic story that required less of a technology investment.
 
 ### Wireframing and graphic design
 After focusing on content, we did some quick paper sketches and then jumped straight into building responsive wireframes in HTML and CSS. This was made easier by leveraging a front end framework called [Foundation](http://foundation.zurb.com/). With HTML and CSS wireframes, we were able to quickly address information architecture issues across a variety of mobile and tablet platforms.

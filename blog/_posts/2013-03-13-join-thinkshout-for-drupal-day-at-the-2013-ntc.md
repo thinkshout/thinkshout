@@ -2,11 +2,6 @@
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -17,18 +12,18 @@ tags:
 - 13ntc
 - Drupal
 - Drupal Planet
-short: Everything I always knew must be doable with Drupal isn't just possible, it's in process. 
+short: Everything I always knew must be doable with Drupal isn't just possible, it's in process.
 author: brett-meyer
 ---
 <p>A few days into my work with ThinkShout, I'm pleased to report that everything I always knew must be doable with Drupal isn't just possible, it's in process. I've seen things people wouldn't believe. <a href="http://drupal.org/project/redhen">Engagement scoring tied to user activity</a>. I watched <a href="http://drupal.org/project/mailchimp">email sent from a website report stats back</a> to an <a href="http://en.wikipedia.org/wiki/Email_service_provider">ESP</a>.</p>
 
 <p>If you're interested in expanding your Drupal expertise, I encourage you to join us at "<a href="http://www.nten.org/ntc/precon/drupal">Drupal Day for Nonprofit IT Professionals</a>" at the <a href="http://www.nten.org/ntc">2013 Nonprofit Technology Conference</a>. (You already know about the NTC, right? It's awesome! Anybody involved with nonprofit technology in general should attend at least once.)</p>
 
-<p>The team at ThinkShout is excited to be involved with facilitating the second annual iteration of this fantastic event with the support of NTEN, Zivtech, Forum One Communications, and Trellon. Drupal Day is not a training on “How to build a website with Drupal”, nor is it a Drupal vendor or product spotlight. Rather, this is a hands-on opportunity for Drupal users in the NTEN community to:</p> 
-<ul> 
-<li>Increase dialog within the national community of Drupal professionals and IT decision-makers serving the nonprofit sector;</li> 
-<li>Make connections between nonprofit IT professionals interested in different technical and process conversations that are active in the wider Drupal community;</li> 
-<li>Expose the nonprofit IT community to the latest techniques, tools, and trends in Drupal development and site management; and,</li> 
+<p>The team at ThinkShout is excited to be involved with facilitating the second annual iteration of this fantastic event with the support of NTEN, Zivtech, Forum One Communications, and Trellon. Drupal Day is not a training on “How to build a website with Drupal”, nor is it a Drupal vendor or product spotlight. Rather, this is a hands-on opportunity for Drupal users in the NTEN community to:</p>
+<ul>
+<li>Increase dialog within the national community of Drupal professionals and IT decision-makers serving the nonprofit sector;</li>
+<li>Make connections between nonprofit IT professionals interested in different technical and process conversations that are active in the wider Drupal community;</li>
+<li>Expose the nonprofit IT community to the latest techniques, tools, and trends in Drupal development and site management; and,</li>
 <li>Start the NTC off right!</li>
  </ul>
 <p>Participation in Drupal Day is free, but we're limited to 150 participants, so be sure to <a href="http://www.nten.org/ntc/precon/drupal">register now</a> before it fills up.</p>

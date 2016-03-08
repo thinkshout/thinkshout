@@ -3,11 +3,6 @@ title: Media Optimization for Selma, Bridge to the Ballot
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -80,17 +75,17 @@ $(window).resize(function() {
 Next, we wanted to pause the video when the pause/play background video ‘play trailer’ button is clicked. The HTML video tag contains javascript methods to manipulate it. We take advantage of two aptly-named methods: play() and pause(). We used the Magnific Popup plugin for our image gallery and video trailer. With this plugin, we are able to supply our play and pause methods as callback methods in to fire in the plugin configuration options.
 
 ~~~javascript
-$('.play-button').magnificPopup({ 
-	callbacks: { 
-		// When the our popup opens pause         
-		open: function() { 
-			$('video')[0].pause();   
-		},  
-		// When our popup closes play                                                                                        
+$('.play-button').magnificPopup({
+	callbacks: {
+		// When the our popup opens pause
+		open: function() {
+			$('video')[0].pause();
+		},
+		// When our popup closes play
 		close: function() {
 			$('video')[0].play();
 		}
-	}                                                                                                              
+	}
 });
 ~~~
 

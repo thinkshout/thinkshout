@@ -2,18 +2,13 @@
 layout: blog
 body-class: blog-post
 category: Technology and Innovation
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
 title: "A beginner's guide to using Hudson for continuous integration with Drupal"
 created: 1285784669
 permalink: "blog/2010/09/sean/beginners-guide-using-hudson-continuous-integration-drupal/"
-tags: 
+tags:
   - Drupal
   - Drupal Planet
   - Continuous integration
@@ -44,7 +39,7 @@ testing for you?
 
 ###  _Enter Hudson..._
 
-**[Hudson](http://hudson-ci.org/)** is that helpful gnome. More specifically, Hudson is an "extensible [continuous integration (CI)](http://en.wikipedia.org/wiki/Continuous_integration) server". From a 10,000 ft view, Hudson is a tool for offloading the deployment and automated testing of a software application. You write your code, you push it into version control, and Hudson takes over the tasks of grabbing that code, running an installation/deployment process, testing the application (if you provide it with tests), and reporting back to you those test results. 
+**[Hudson](http://hudson-ci.org/)** is that helpful gnome. More specifically, Hudson is an "extensible [continuous integration (CI)](http://en.wikipedia.org/wiki/Continuous_integration) server". From a 10,000 ft view, Hudson is a tool for offloading the deployment and automated testing of a software application. You write your code, you push it into version control, and Hudson takes over the tasks of grabbing that code, running an installation/deployment process, testing the application (if you provide it with tests), and reporting back to you those test results.
 
 There are a number of different continuous integration tools out there written
 in a variety of languages. Hudson seems to be leading the pack in the Drupal
@@ -126,12 +121,12 @@ As for the specifics of our build, we basically followed the following
 articles to get a pretty-vanilla LAMP stack running with PostFix as the
 outgoing mail server:
 
-  * [Ubuntu Lucid Setup - part 1:](http://articles.slicehost.com/2010/4/30/ubuntu-lucid-setup-part-1) Your Ubuntu Lucid Slice will be a bare-bones install when it's created. We need to connect via SSH and secure it as soon as possible. 
-  * [Ubuntu Lucid Setup - part 2:](http://articles.slicehost.com/2010/4/30/ubuntu-lucid-setup-part-2) Now that we've secured access to our Ubuntu Lucid slice we can update it and get it ready for the rest of the server install. 
-  * [Barebones Postfix install for Ubuntu:](http://articles.slicehost.com/2010/3/1/barebones-postfix-install-for-ubuntu) A barebones set of instructions for installing Postfix. Aimed at experienced admins who just want to set up a basic postfix install to send email from a slice. 
-  * [Installing apache on Ubuntu:](http://articles.slicehost.com/2010/5/19/installing-apache-on-ubuntu) Installing the apache web server on an Ubuntu server is as simple using the "aptitude" package manager. 
-  * [Installing PHP on Ubuntu:](http://articles.slicehost.com/2010/5/19/installing-php-on-ubuntu) Now that apache is running on your Ubuntu server you might want to add PHP support to it. Here's how. 
-  * Finally, you'll want to make sure that you have command-line PHP installed so that you can run Drush: 
+  * [Ubuntu Lucid Setup - part 1:](http://articles.slicehost.com/2010/4/30/ubuntu-lucid-setup-part-1) Your Ubuntu Lucid Slice will be a bare-bones install when it's created. We need to connect via SSH and secure it as soon as possible.
+  * [Ubuntu Lucid Setup - part 2:](http://articles.slicehost.com/2010/4/30/ubuntu-lucid-setup-part-2) Now that we've secured access to our Ubuntu Lucid slice we can update it and get it ready for the rest of the server install.
+  * [Barebones Postfix install for Ubuntu:](http://articles.slicehost.com/2010/3/1/barebones-postfix-install-for-ubuntu) A barebones set of instructions for installing Postfix. Aimed at experienced admins who just want to set up a basic postfix install to send email from a slice.
+  * [Installing apache on Ubuntu:](http://articles.slicehost.com/2010/5/19/installing-apache-on-ubuntu) Installing the apache web server on an Ubuntu server is as simple using the "aptitude" package manager.
+  * [Installing PHP on Ubuntu:](http://articles.slicehost.com/2010/5/19/installing-php-on-ubuntu) Now that apache is running on your Ubuntu server you might want to add PHP support to it. Here's how.
+  * Finally, you'll want to make sure that you have command-line PHP installed so that you can run Drush:
 
 `&gt; $ sudo install php5-cl`
 
@@ -230,11 +225,11 @@ job/workspace is the following:
 
 To create a new job, we will:
 
-  * Go to: http://hudson.example.com:8080/view/All/newJob, give the job an name, and select "Build a free-style software project." 
-  * From there, you'll want to enter the public, read-only URL of the GitHub repo you wish to clone (again, this is for our simple example). 
-  * Optionally, you can set a "trigger" for the build - which will provide a tokenized URL that GitHub can ping after a push to trigger the build process. 
-  * Optionally, under **Post-build Actions**, you'll want to select "Publish JUnit test result report" and then set the path for these test results to: drupal_root/scripts/tests/_.xml (where "drupal" represents the root directory of the Drupal install - more on this purpose of this step below.) 
-  * Most importantly, you'll want to add a build step to execute a shell commands once the project has been cloned with Git. It's here that Hudson will use Drush to build and test our Drupal site. 
+  * Go to: http://hudson.example.com:8080/view/All/newJob, give the job an name, and select "Build a free-style software project."
+  * From there, you'll want to enter the public, read-only URL of the GitHub repo you wish to clone (again, this is for our simple example).
+  * Optionally, you can set a "trigger" for the build - which will provide a tokenized URL that GitHub can ping after a push to trigger the build process.
+  * Optionally, under **Post-build Actions**, you'll want to select "Publish JUnit test result report" and then set the path for these test results to: drupal_root/scripts/tests/_.xml (where "drupal" represents the root directory of the Drupal install - more on this purpose of this step below.)
+  * Most importantly, you'll want to add a build step to execute a shell commands once the project has been cloned with Git. It's here that Hudson will use Drush to build and test our Drupal site.
 
 ####  Building and testing your installation profile with Drush
 
@@ -286,8 +281,8 @@ scripts/run-test.sh command to start our tests.
 Running simpletest is where the subtleties of this process really come out.
 There are a number of great write-ups on this:
 
-  * http://activismlabs.org/2010/07/28/create-simple-tests-for-drupal-features/ discusses simpletest + Features 
-  * http://drupal.org/node/645286 discusses running tests through the command line when building/testing them 
+  * http://activismlabs.org/2010/07/28/create-simple-tests-for-drupal-features/ discusses simpletest + Features
+  * http://drupal.org/node/645286 discusses running tests through the command line when building/testing them
 
 You'll also want to strongly consider applying [this
 patch](http://drupal.org/node/602332) to scripts/run-tests.sh in Drupal core.

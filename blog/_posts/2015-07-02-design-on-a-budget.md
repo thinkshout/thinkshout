@@ -3,11 +3,6 @@ title: How to Deal with a Small Design Budget
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 expertise: Website Design & User Experience
 expertise-options:
  - Content Strategy & Metrics
@@ -78,7 +73,7 @@ When you’re building an app or website, inconsistency in design wastes time. E
 
 For example, using several different image aspect ratios, like square for avatars, 16:9 for news stories, and maybe a 2.35:1 for very cinematic hero images might look awesome. But if your website is being built on a CMS like Drupal, someone will need to set up all those parameters in the back end—and that takes time to configure.
 
-By simply deciding on a standard image aspect ratio of 16:9, you’ve cut the image configuration time by 2/3. And the overall design aesthetic won’t suffer a bit.   
+By simply deciding on a standard image aspect ratio of 16:9, you’ve cut the image configuration time by 2/3. And the overall design aesthetic won’t suffer a bit.
 
 ![ballin_0](/assets/images/blog/ballin_0.png)
 
@@ -96,7 +91,7 @@ The reality: when you’re working with a limited design budget, you have to fin
 
 For me, having a solid design process is more effective than working through a checklist of specific deliverables. While the deliverables I work on and the tools I use vary greatly depending on the client—static or HTML wireframes, design in the browser, design in Sketch, style tiles, style guides, etc.—I actually have a pretty simple process. I always start broad before working down to the details. Style tiles before high-fidelity mockups. Sketching before coding up prototypes. Horse before the cart, and plenty of feedback in between.
 
-With this kind of design process, independent from tools or deliverables, I can quickly and effectively adapt to any budget. How we think is more important than the tools we use to create.  
+With this kind of design process, independent from tools or deliverables, I can quickly and effectively adapt to any budget. How we think is more important than the tools we use to create.
 
 **5. Communicate early and often**
 

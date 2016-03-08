@@ -2,11 +2,6 @@
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -46,7 +41,7 @@ RedHen CRM consists of a core module containing shared APIs and interfaces and a
 
 We maintain other functionality that is not needed for all uses cases in separate projects in order to keep the core RedHen code base as lean as possible. The [RedHen Membership](http://drupal.org/project/redhen_membership) system is our most widely used RedHen component with its own project name space. It handles individual and organizational membership subscriptions. As with Drupal Commerce, key sub-modules will continue to be included with the main module code base. However, we anticipate that as the RedHen CRM developer community grows, we will see more and more contributed modules that extend RedHen's core feature set.
 
-The overall architecture of RedHen CRM consists of a set of minimalistic building blocks that developers and site builders can use to develop solutions tailored to specific use cases. Like Drupal Commerce, RedHen relies on Drupal distributions and installation profiles for the heavy lifting of fleshing out polished applications that serve specific needs. [Nedjo Rogers](http://drupal.org/user/4481) of [Chocolate Lily](http://chocolatelilyweb.ca/) has incorporated RedHen into [Open Outreach](http://openoutreach.org/), 
+The overall architecture of RedHen CRM consists of a set of minimalistic building blocks that developers and site builders can use to develop solutions tailored to specific use cases. Like Drupal Commerce, RedHen relies on Drupal distributions and installation profiles for the heavy lifting of fleshing out polished applications that serve specific needs. [Nedjo Rogers](http://drupal.org/user/4481) of [Chocolate Lily](http://chocolatelilyweb.ca/) has incorporated RedHen into [Open Outreach](http://openoutreach.org/),
 > a Drupal distribution for nonprofit & grassroots groups
 
 and ThinkShout has released it's own demonstration of RedHen in the form of a [distribution to server the needs of a fictional pet shelter association](http://drupal.org/project/redhen_demo).

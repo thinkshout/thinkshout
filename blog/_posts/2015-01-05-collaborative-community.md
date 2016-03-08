@@ -1,13 +1,8 @@
 ---
-title: The Power of a Collaborative Community 
+title: The Power of a Collaborative Community
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -30,11 +25,11 @@ _Originally published on [NTEN.org](http://www.nten.org/articles/2014/my-year-in
 
 **My Year in Drupal**
 
-I’ve been fortunate to attend some of the biggest Drupal events in the U.S., and I always walk away from them with plenty of food for thought. Months ago, NTEN afforded me the space here to sing the Drupal community’s praises and I haven’t stopped since. I’m constantly reminded of how much I value its existence. More recently, I flew down to San Francisco to take part in the Nonprofit Summit at BADCamp that I’d co-coordinated, where I got to hear from the Bay Area folks about Drupal and nonprofits in their neck of the woods. 
+I’ve been fortunate to attend some of the biggest Drupal events in the U.S., and I always walk away from them with plenty of food for thought. Months ago, NTEN afforded me the space here to sing the Drupal community’s praises and I haven’t stopped since. I’m constantly reminded of how much I value its existence. More recently, I flew down to San Francisco to take part in the Nonprofit Summit at BADCamp that I’d co-coordinated, where I got to hear from the Bay Area folks about Drupal and nonprofits in their neck of the woods.
 
 **Once Again, The Drupal Community is Awesome**
 
-Events like BADCamp remind of the value of discussion and the exchange of ideas. Struggling to find a solution? Look to your community. One of the reasons I so appreciate the Drupal community specifically is how wonderfully they collaborate. Out of resources? Speak up in your discussion group or start a thread on a forum and watch the outpouring of support and ideas. The next thing you know, you’re looking at a list of new modules and tools that you’ve never heard of, and they might be exactly what your site needs. 
+Events like BADCamp remind of the value of discussion and the exchange of ideas. Struggling to find a solution? Look to your community. One of the reasons I so appreciate the Drupal community specifically is how wonderfully they collaborate. Out of resources? Speak up in your discussion group or start a thread on a forum and watch the outpouring of support and ideas. The next thing you know, you’re looking at a list of new modules and tools that you’ve never heard of, and they might be exactly what your site needs.
 
 There’s something wonderfully exciting about being in a room full of people with the same idea: *let’s create and use technology to help people*. This kind of collaborative atmosphere can make even the tallest of technological hurdles seem surmountable. If you enjoy events like BADCamp for networking and learning about nonprofit tech, then there are a couple of other events you'll want to put on your calendar.
 
@@ -50,7 +45,7 @@ For the last three years, we've been coordinating [Drupal Day](http://myntc.nten
 
 **Never Stop Learning**
 
-I never cease to be amazed at how much I still have left to learn. I know I’ll never truly be done learning, as is the nature of technology. It’s always in motion, always evolving with us and our ideas. I’m constantly surprised by even the simplest of tools. For instance, if you’re organizing a meetup or hosting a summit of your own, it’s a great idea to provide attendees with a site for collective notes, like and etherpad. This is especially helpful if you have multiple sessions happening concurrently. That way, even if your attendees can’t attend every session, they can read their peers’ notes. One of the most rewarding parts of the BADCamp Nonprofit Summit for me was opening up our once-blank etherpad after the summit and finding pages and pages of notes, tools, and URLs from discussions throughout the day. In a matter of hours, we created an amazing nonprofit tech resource. 
+I never cease to be amazed at how much I still have left to learn. I know I’ll never truly be done learning, as is the nature of technology. It’s always in motion, always evolving with us and our ideas. I’m constantly surprised by even the simplest of tools. For instance, if you’re organizing a meetup or hosting a summit of your own, it’s a great idea to provide attendees with a site for collective notes, like and etherpad. This is especially helpful if you have multiple sessions happening concurrently. That way, even if your attendees can’t attend every session, they can read their peers’ notes. One of the most rewarding parts of the BADCamp Nonprofit Summit for me was opening up our once-blank etherpad after the summit and finding pages and pages of notes, tools, and URLs from discussions throughout the day. In a matter of hours, we created an amazing nonprofit tech resource.
 
 I really hope you’ll take the time to immerse yourself in a Drupal Camp or Drupal-themed event and really immerse yourself in this community. These camps are often highly affordable (or free, in the case of BADCamp and NYC Camp), so it’s just a matter of finding one near you. Need help with that part? [Build-a-Module’s](http://buildamodule.com/drupal-camps-calendar) got you covered. Yes, that same site I mentioned months ago offers online Drupal training as well as a calendar of Drupal events all over the world.
 

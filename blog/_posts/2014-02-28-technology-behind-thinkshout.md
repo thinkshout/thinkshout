@@ -3,11 +3,6 @@ title: The Technology Behind the New ThinkShout.com
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -141,7 +136,7 @@ A lot of the challenges around using an SSG really depend on where it's hosted a
 
 ## Conclusion
 
-It was fun to use a different platform for our new website. We learned a lot. We love the "light weight" nature of Jekyll and the flexibility it afforded us. We view the project as a major win and would do it all over again. It gave us experience and valuable lessons that we can apply to client engagements. 
+It was fun to use a different platform for our new website. We learned a lot. We love the "light weight" nature of Jekyll and the flexibility it afforded us. We view the project as a major win and would do it all over again. It gave us experience and valuable lessons that we can apply to client engagements.
 
 But Jekyll is far from a panacea for all use cases. It presents many challenges that we don't even have to consider when using Drupal. For projects that require complex data structures, custom application development, site building capabilities for end users, and numerous integrated features, Drupal is an obvious choice. Even more importantly, for projects that need to leverage a rich ecosystem of contributed functionality that relies on a dedicated community, Drupal is an even stronger choice. And we're honored to be a part of that community and continue to engage and contribute to it.
 

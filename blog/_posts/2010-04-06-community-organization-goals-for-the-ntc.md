@@ -2,11 +2,6 @@
 layout: blog
 body-class: blog-post
 category: Culture, Community, and Business
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -17,7 +12,7 @@ tags:
 - Drupal
 - nonprofit tech
 
-short: Tomorrow I'll be headed to Atlanta for this year's Nonprofit Technology Conference. 
+short: Tomorrow I'll be headed to Atlanta for this year's Nonprofit Technology Conference.
 author: sean
 ---
 Tomorrow I'll be headed to Atlanta for this year's Nonprofit Technology Conference. I'm looking forward to connecting with other NPO tech nerds. If you're attending as well, connect with me on <a href="http://twitter.com/sean_larkin" target="_blank">Twitter</a>.

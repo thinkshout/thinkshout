@@ -2,11 +2,6 @@
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -15,7 +10,7 @@ author: gabe
 published: true
 featured: false
 short: We have a brand new video guide for setting up RedHen CRM.
-tags: 
+tags:
   - CRM
   - RedHen
   - Video
