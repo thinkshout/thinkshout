@@ -3,7 +3,6 @@
   $('.mobile-menu-icon').click(function() {
     $(this).toggleClass('active');
     $('header nav .main-menu').slideToggle(800);
-    $(this).find('.fa').toggleClass('fa-bars fa-remove');
   });
 
   // Set active states for the Main Menu items and their subitems
