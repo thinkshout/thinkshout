@@ -41,10 +41,10 @@ sitemap:
 collections:
   case_studies:
     output: true
-    permalink: /work/:title/
+    permalink: /work/:slug/
   expertise:
     output: true
-    permalink: /expertise/:title/
+    permalink: /expertise/:slug/
   team:
     output: true
-    permalink: /team/:title/
+    permalink: /team/:slug/
