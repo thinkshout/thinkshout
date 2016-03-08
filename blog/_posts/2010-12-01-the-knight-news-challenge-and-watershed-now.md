@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-category:
+category: Technology and Innovation
 category-options:
  - Technology and Innovation
  - Strategy and Design
