@@ -48,3 +48,6 @@ collections:
   team:
     output: true
     permalink: /team/:title/
+  type:
+    output: true
+    permalink: /blog/:title/

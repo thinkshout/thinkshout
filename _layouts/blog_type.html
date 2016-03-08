@@ -1,0 +1,61 @@
+---
+layout: default
+title: Blog
+type: all
+description: "Our thoughts on technology and community, the ThinkShout blog."
+keywords:
+  - nonprofit technology
+  - drupal
+  - open source
+  - web development
+  - user experience
+  - responsive design
+  - salesforce integration
+  - constituent relationship management
+---
+<div class="page-container blog">
+
+  {% for post in site.categories.blog %}
+    {% if post.featured == true %}
+    <div class="featured-post" style="background-image: url('{{ site.baseurl }}{{ post.header-image }}');">
+      <div class="wrapper">
+        <p class="featured">Featured Blog Post</p>
+        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+
+        {% if post.short %}
+        <p class="short">{{ post.short }}</p>
+        {% endif %}
+
+        <p class="byline">
+          {% for person in site.data.team %}
+          {% if post.author == person.name %}
+          <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
+            <a class="team-name" href="{{ site.baseurl }}/who-we-are/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a><br>
+            {{ person.position }}
+          {% endif %}
+          {% endfor %}
+        </p>
+      </div>
+    </div>
+    {% break %}
+    {% endif %}
+  {% endfor %}
+
+  <div class="filter-wrapper" id="filter-wrapper">
+    <form>
+    <select id="blog-filter" class="blog-filter">
+      <option value="all">All</option>
+      <option value="technology-and-innovation">Technology and Innovation</option>
+      <option value="strategy-and-design">Strategy and Design</option>
+      <option value="project-management-and-process">Project Management and Process</option>
+      <option value="culture-community-and-business">Culture, Community, and Business</option>
+    </select>
+    </form>
+  </div>
+
+  <ul class="blog-list">
+    {% for post in site.categories.blog %}
+    <li {% if post.category %}class="{{ post.category | slugify }}"{% endif %}>{% include blog_teaser.html class=class header="h2" short=true %}</li>
+    {% endfor %}
+  </ul>
+</div>
