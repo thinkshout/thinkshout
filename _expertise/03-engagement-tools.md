@@ -5,6 +5,7 @@ title: CRM & Engagement Tools
 leadin: |
   Increase Engagement Across All Channels
 class: engagement-tools  
+slug: engagement-tools 
 images:
   hero: marquee/engagement-tools.jpg
   icon: expertise/icon-tools.svg
