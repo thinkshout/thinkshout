@@ -19,5 +19,5 @@ name: alex
 bio: |
   With a diverse background in artificial intelligence, existential philosophy, and development economics, Alex brings a unique perspective to the team and helps our clients build comprehensive solutions that address a wide range of problems. Prior to joining our team, Alex attended Connecticut College and worked at Schrödinger developing computational chemistry software. On weekends, he can usually be found playing ice hockey. Last we checked, he still had all his teeth.
 
-permalink: /who-we-are/team/alexe/
+permalink: /team/alexe/
 ---

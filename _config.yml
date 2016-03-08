@@ -112,4 +112,4 @@ collections:
     permalink: /expertise/:title/
   team:
     output: true
-    permalink: /who-we-are/team/:path
+    permalink: /team/:title/

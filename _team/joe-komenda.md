@@ -17,5 +17,5 @@ published: true
 name: joe
 bio: |
   Joe spent several years wearing a wide variety of hats in the tech industry (and the US Army) before joining our team. He came to us from Raleigh, North Carolina, looking for an opportunity to apply his passion for open source and desire to serve nonprofits. He loves the ever-changing world of web development and enjoys projects where he’s challenged to learn about new technology and apply it to the sites he builds for our clients. Before coming to ThinkShout, Joe worked at Ashe Avenue, Merge Records, Lulu.com, and Flywheel Design. When Joe isn’t engaged in client work, he blows off steam with long-distance running, video games, and cooking.
-permalink: /who-we-are/team/joe/
+permalink: /team/joe/
 ---

@@ -16,5 +16,5 @@ published: true
 name: jessica
 bio: |
   Jessica grew up singing, dancing, and drawing by day, playing countless hours of video games at night. A self-described “secret computer nerd,” she built her own PC and tinkers in backend software development on the weekends. Her true passion lies in user experience design. A faculty instructor at the Art Institute of Portland, she has a knack teaching and communicating with our clients about concepts in visual design. Her thoughts on typography have been published in Steven Heller’s book, "Typographic Universe." We can neither confirm nor deny that she also has a small fashion and beauty channel on YouTube.
-permalink: /who-we-are/team/jessica/
+permalink: /team/jessica/
 ---
