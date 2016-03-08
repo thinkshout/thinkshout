@@ -2,7 +2,7 @@
 title: Nonprofit Website Benchmarks
 layout: blog
 body-class: blog-post
-category:
+type:
 expertise: Content Strategy & Metrics
 expertise-options:
  - Content Strategy & Metrics

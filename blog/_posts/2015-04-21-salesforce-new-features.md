@@ -2,7 +2,7 @@
 title: Drupal and Salesforce Integrations Get Some (Data) Integrity
 layout: blog
 body-class: blog-post
-category:
+type:
 header-image:
 header-image-alt:
 

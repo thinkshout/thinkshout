@@ -2,7 +2,7 @@
 title: A Tale of Two Devsigners
 layout: blog
 body-class: blog-post
-category:
+type:
 expertise: Website Design & User Experience
 expertise-options:
  - Content Strategy & Metrics

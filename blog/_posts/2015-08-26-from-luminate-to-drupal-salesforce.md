@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-category:
+type:
 expertise: CRM & Engagement Tools
 expertise-options:
  - Content Strategy & Metrics

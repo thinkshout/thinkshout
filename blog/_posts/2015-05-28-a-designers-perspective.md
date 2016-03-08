@@ -2,7 +2,7 @@
 title: DrupalCon LA - A Designer's Perspective
 layout: blog
 body-class: blog-post
-category:
+type:
 header-image:
 header-image-alt:
 

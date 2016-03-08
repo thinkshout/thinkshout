@@ -2,7 +2,7 @@
 title: Media Optimization for Selma, Bridge to the Ballot
 layout: blog
 body-class: blog-post
-category:
+type:
 header-image:
 header-image-alt:
 

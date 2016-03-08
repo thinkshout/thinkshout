@@ -2,7 +2,7 @@
 title: Announcing the Release of the PHP Wrapper for iATS Payments
 layout: blog
 body-class: blog-post
-category:
+type:
 header-image:
 header-image-alt:
 

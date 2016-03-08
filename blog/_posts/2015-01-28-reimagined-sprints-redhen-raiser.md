@@ -2,7 +2,7 @@
 title: Reimagined Sprints and Introducing RedHen Raiser
 layout: blog
 body-class: blog-post
-category:
+type:
 header-image:
 header-image-alt:
 

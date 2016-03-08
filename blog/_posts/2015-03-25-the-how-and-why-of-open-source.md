@@ -2,7 +2,7 @@
 title: The How and Why of Nonprofits Contributing to Open Source
 layout: blog
 body-class: blog-post
-category:
+type:
 expertise: Web Application Development
 expertise-options:
  - Content Strategy & Metrics

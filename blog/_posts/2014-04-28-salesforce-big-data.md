@@ -4,7 +4,7 @@ title: |
 author: brandon
 layout: blog
 body-class: blog-post
-category:
+type:
 header-image:
 header-image-alt:
 

@@ -2,7 +2,7 @@
 title: Oregon Zoo Small Actions
 layout: blog
 body-class: blog-post
-category:
+type:
 header-image:
 header-image-alt:
 

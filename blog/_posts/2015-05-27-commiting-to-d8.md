@@ -2,7 +2,7 @@
 title: Committing to D8 Core - A Little Bit Goes a Long Way
 layout: blog
 body-class: blog-post
-category:
+type:
 expertise: Web Application Development
 expertise-options:
  - Content Strategy & Metrics

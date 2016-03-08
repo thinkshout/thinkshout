@@ -2,7 +2,7 @@
 title: Success Building CMS-less Production Sites with Jekyll
 layout: blog
 body-class: blog-post
-category:
+type:
 header-image:
 header-image-alt:
 

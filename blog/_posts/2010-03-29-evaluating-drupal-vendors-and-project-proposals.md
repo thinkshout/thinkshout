@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-category: Strategy and Design
+type: strategy
 header-image:
 header-image-alt:
 

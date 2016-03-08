@@ -2,7 +2,7 @@
 title: Creating Dynamic Menus in Jekyll
 layout: blog
 body-class: blog-post
-category:
+type:
 header-image:
 header-image-alt:
 
