@@ -8,7 +8,7 @@ leadin: |
 social:
   twitter: https://twitter.com/missjessicatate
   linkedin: https://www.linkedin.com/in/tatejessica
-image:
+team-image:
   small: team/small/jessica.jpg
   medium: team/medium/jessica.jpg
   large: team/large/jessica.jpg

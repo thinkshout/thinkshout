@@ -120,7 +120,7 @@
     small: team/small/sean2.jpg
     medium: team/medium/sean2.jpg
     large: team/large/sean2.jpg
-  published: true
+  published: false
   name: sean
   bio: |
     Sean's goal in co-founding ThinkShout was to make life easier on his colleagues in the nonprofit sector who were responsible for advocacy campaigns. He brings over twelve years of diverse leadership and technical consulting experience to the team. He has been working with the best and brightest software engineers and designers in the Drupal community for the past eight years. He has led national community organizing initiatives and international relief projects, served as a fundraising strategist for environmental groups worldwide, and ran two open source software consultancies specializing in Drupal development. He holds a masters of public administration (MPA) degree from Syracuse University's Maxwell School. When not in the office, Sean is either fishing on a Northwest stream or at the gym training Brazilian Jiu Jitsu.
@@ -146,7 +146,7 @@
 
 - first_name: Amy
   last_name: Vaillancourt-Sals
-  position: Developer
+  position: Software Engineer
   leadin: |
     Amy spent a good portion of her life advocating for the causes close to her heart, especially rights for independent musicians. Her knack for logic games led her to try programming, and she hasn’t looked back. She’s been searching for a place where she could apply her skills in web development to support those advocacy groups. She found it in ThinkShout.
   social:
@@ -294,7 +294,7 @@
 
 - first_name: Gabe
   last_name: Carleton-Barnes
-  position: Senior Engineer & Knowledge Lead
+  position: Engineering Manager
   leadin: |
     Gabe’s not only a Magic: The Gathering champion, he is a champion for our Salesforce integration tools and other open source contributions. His experience in streamlining processes for nonprofits drew him to ThinkShout, where he could apply his skills and do some good for the world at the same time.
   social:
@@ -545,7 +545,7 @@
     github:
     twitter:
     linkedin: https://www.linkedin.com/in/rosalynhart
-    drupal: 
+    drupal:
   image:
     small: team/small/rose.jpg
     medium: team/medium/rose.jpg

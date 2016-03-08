@@ -1,21 +1,27 @@
 <article class="blog-teaser">
   <div class="info">
     <p><span class="date">{{ post.date | date: '%m.%d.%Y' }}</span> <a class="category" href="{{ site.baseurl }}/blog/?category={{ post.category | slugify }}">{{ post.category }}</a></p>
-    
+
     <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-    
+
     {% if post.short %}
     <p class="short">{{ post.short }}</p>
     {% endif %}
   </div>
 
-  <p class="byline">
+  <div class="byline">
     {% for person in site.data.team %}
     {% if post.author == person.name %}
     <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
-      <a class="team-name" href="{{ site.baseurl }}/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a><br>        
-      {{ person.position }}
-    {% endif %}
-    {% endfor %}
-  </p>
+    <div class="byline-wrapper">
+      {% if person.published %}
+        <a class="team-name" href="{{ site.baseurl }}/who-we-are/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a>
+      {% else %}
+        <strong>{{ person.first_name }} {{ person.last_name }}</strong>
+      {% endif %}<br>
+        {{ person.position }}
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 </article>

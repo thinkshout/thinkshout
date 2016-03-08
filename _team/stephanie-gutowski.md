@@ -10,7 +10,7 @@ social:
   twitter: https://twitter.com/SigmaRue
   linkedin: http://www.linkedin.com/pub/stephanie-gutowski/13/505/79b/
   drupal:
-image:
+team-image:
   small: team/small/stephanie.jpg
   medium: team/medium/stephanie.jpg
   large: team/large/stephanie.jpg

@@ -10,7 +10,7 @@ social:
   twitter:
   linkedin: https://www.linkedin.com/in/rosalynhart
   drupal:
-image:
+team-image:
   small: team/small/rose.jpg
   medium: team/medium/rose.jpg
   large: team/large/rose.jpg

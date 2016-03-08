@@ -103,9 +103,11 @@ keywords:
               {% if post.author == person.name %}
               <img src="{{ site.baseurl }}/assets/images/{{ person.image.small }}" alt="{{ person.first_name }}" />
               <div class="author-info">
-                <a class="team-name" href="{{ site.baseurl }}/team/{{ person.name }}">
+                {% if person.published %}
+                  <a class="team-name" href="{{ site.baseurl }}/who-we-are/team/{{ person.name }}"><h4>{{ person.first_name }} {{ person.last_name }}</h4></a>
+                {% else %}
                   <h4>{{ person.first_name }} {{ person.last_name }}</h4>
-                </a>
+                {% endif %}
                 <p>
                   {{ person.position }}
                 </p>

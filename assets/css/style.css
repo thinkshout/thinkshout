@@ -2727,7 +2727,8 @@ a {
 .blog-landing .filter-wrapper {
   max-width: 98%;
   margin: 1rem auto 0;
-  padding-left: 1rem; }
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; }
   @media (min-width: 671px) and (max-width: 979px) {
     .blog-landing .filter-wrapper {
       margin-top: 2rem;
@@ -2826,15 +2827,19 @@ a {
       width: 100%; }
       @media (min-width: 980px) and (max-width: 1199px) {
         .blog-landing .blog-list li .info {
-          width: 70%;
+          width: 68%;
           float: left; } }
       @media (min-width: 1200px) {
         .blog-landing .blog-list li .info {
-          width: 70%;
+          width: 68%;
           float: left; } }
     .blog-landing .blog-list li .byline {
       margin-top: 0;
-      width: 30%; }
+      width: 100%;
+      padding-right: 0; }
+      @media (min-width: 671px) and (max-width: 979px) {
+        .blog-landing .blog-list li .byline {
+          width: 30%; } }
       @media (min-width: 980px) and (max-width: 1199px) {
         .blog-landing .blog-list li .byline {
           width: 30%;
@@ -2845,6 +2850,10 @@ a {
           width: 30%;
           margin-top: 4rem;
           float: right; } }
+      .blog-landing .blog-list li .byline .byline-wrapper {
+        float: left;
+        max-width: 75%;
+        white-space: normal; }
 
 .team-member-blog {
   background: #f1b332;
@@ -4444,7 +4453,6 @@ header {
         font-size: 0px;
         height: 4px;
         left: 25%;
-        margin-top: -2px;
         position: absolute;
         top: 50%;
         transition: background-color 0.3s;

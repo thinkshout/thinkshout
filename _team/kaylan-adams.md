@@ -10,7 +10,7 @@ social:
   twitter:
   linkedin: https://www.linkedin.com/in/kaylanisenberg
   drupal:
-image:
+team-image:
   small: team/small/kaylan.jpg
   medium: team/medium/kaylan.jpg
   large: team/large/kaylan.jpg

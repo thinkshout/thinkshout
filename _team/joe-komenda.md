@@ -9,7 +9,7 @@ social:
   github: https://github.com/komejo
   twitter: https://twitter.com/komejo
   drupal: https://www.drupal.org/user/2848941
-image:
+team-image:
   small: team/small/joe.jpg
   medium: team/medium/Joe.jpg
   large: team/large/Joe.jpg

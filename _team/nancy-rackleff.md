@@ -10,7 +10,7 @@ social:
   twitter:
   linkedin: https://www.linkedin.com/in/nrackleff
   drupal: https://www.drupal.org/u/nrackleff
-image:
+team-image:
   small: team/small/nancy.jpg
   medium: team/medium/nancy.jpg
   large: team/large/nancy.jpg

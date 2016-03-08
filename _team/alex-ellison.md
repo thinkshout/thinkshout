@@ -10,7 +10,7 @@ social:
   twitter:
   linkedin: http://www.linkedin.com/pub/alex-ellison/20/508/a83/
   drupal: https://drupal.org/user/2735491/
-image:
+team-image:
   small: team/small/alex2.jpg
   medium: team/medium/alex2.jpg
   large: team/large/alex2.jpg

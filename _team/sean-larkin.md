@@ -10,7 +10,7 @@ social:
   twitter: https://twitter.com/sean_larkin
   linkedin: http://www.linkedin.com/in/rseanlarkin
   drupal: https://drupal.org/user/54109
-image:
+team-image:
   small: team/small/sean2.jpg
   medium: team/medium/sean2.jpg
   large: team/large/sean2.jpg

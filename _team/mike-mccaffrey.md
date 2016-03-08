@@ -10,7 +10,7 @@ social:
   twitter: https://twitter.com/mikemccaffrey
   linkedin: https://www.linkedin.com/in/mikefmccaffrey
   drupal: https://www.drupal.org/u/mikemccaffrey
-image:
+team-image:
   small: team/small/mikem.jpg
   medium: team/medium/mikem.jpg
   large: team/large/mikem.jpg

@@ -10,7 +10,7 @@ social:
   twitter: https://twitter.com/uncle_gcb
   linkedin: http://www.linkedin.com/profile/view?id=22889597
   drupal: https://drupal.org/user/1682976
-image:
+team-image:
   small: team/small/gabe.jpg
   medium: team/medium/gabe.jpg
   large: team/large/gabe.jpg

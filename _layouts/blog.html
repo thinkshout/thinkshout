@@ -10,7 +10,11 @@ layout: default
     {% for person in site.data.team %}
     {% if page.author == person.name %}
     <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
-      <a class="team-name" href="{{ site.baseurl }}/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a><br>
+    {% if person.published %}
+      <a class="team-name" href="{{ site.baseurl }}/who-we-are/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a>
+    {% else %}
+      <strong>{{ person.first_name }} {{ person.last_name }}</strong>
+    {% endif %}<br>
       {{ person.position }}
     {% endif %}
     {% endfor %}

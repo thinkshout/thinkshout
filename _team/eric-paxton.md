@@ -9,7 +9,7 @@ social:
   github: http://github.com/heypaxton/
   linkedin: http://www.linkedin.com/pub/eric-paxton/4b/956/517/
   drupal: https://drupal.org/user/2904565/
-image:
+team-image:
   small: team/small/eric2.jpg
   medium: team/medium/eric2.jpg
   large: team/large/eric2.jpg

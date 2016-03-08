@@ -10,7 +10,7 @@ social:
   twitter: https://twitter.com/wxactly
   linkedin: https://www.linkedin.com/in/jaymzrhime
   drupal: https://www.drupal.org/u/wxactly
-image:
+team-image:
   small: team/small/jaymz.jpg
   medium: team/medium/jaymz.jpg
   large: team/large/jaymz.jpg
