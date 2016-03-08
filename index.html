@@ -49,19 +49,21 @@ keywords:
   <div class="three-case-studies">
   {% for case in site.case_studies %}
     {% if case.featured == true and case.order > 1 %}
-      <div class="case-study" id="case-study{{ caseCounter }}">
-      <style>
-        #case-study{{ caseCounter }} { background: url('{{ site.baseurl }}{{ case.cs-preview.image }}') center center no-repeat; }
-      </style>
-        <div class="orange-overlay">
+      <a href="{{ site.baseurl }}/{{ case.permalink }}">
+        <div class="case-study" id="case-study{{ caseCounter }}">
+        <style>
+          #case-study{{ caseCounter }} { background: url('{{ site.baseurl }}{{ case.cs-preview.image }}') center center no-repeat; }
+        </style>
+          <div class="orange-overlay">
+          </div>
+          <div class="case-study-text">
+            <h2>{{ case.cs-preview.client }}</h1>
+            <p>
+              {{ case.cs-preview.description}}
+            </p>
+          </div>
         </div>
-        <div class="case-study-text">
-          <h2>{{ case.cs-preview.client }}</h1>
-          <p>
-            {{ case.cs-preview.description}}
-          </p>
-        </div>
-      </div>
+      </a>
       {% assign caseCounter = caseCounter | plus: 1 %}
     {% endif %}
   {% endfor %}
