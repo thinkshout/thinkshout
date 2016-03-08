@@ -168,10 +168,9 @@
       }
     }
 
-    $case: 0;
-    @while $case < 4 {
+    $case: 2;
+    @while $case < 5 {
       #case-study#{$case} {
-        background: url('../images/ts_redesign/case_study#{$case}.png') center center no-repeat;
         background-size: cover;
         height: 330px;
         padding: 2rem;
@@ -184,13 +183,12 @@
     }
 
     .case-study-text {
-      bottom: rem(-90);
+      top: 16rem;
       position: absolute;
       @include transition(0.5s transform ease-in-out);
 
-      @include mq(m) { bottom: -6.5rem; }
-      @include mq(t) { bottom: -3.5rem; }
-      @include mq(md) { bottom: -6.5rem; }
+      @include mq(m) { top: 12.75rem; }
+      @include mq(md) { top: 15.75rem; }
     }
 
     h2,
