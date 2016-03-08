@@ -1,35 +1,14 @@
 <div class="our-expertise">
   <div class="container">
     <h1>Our Expertise</h1>
-    <div class="our-expertise-block">
-      <a href="{{ site.baseurl }}/expertise/content-strategy-and-metrics/"><h2>Content Strategy & Measurement</h2></a>
-      <p>
-        We build websites that inspire action. We help clients reach new
-        audiences and engage more meaningfully with existing stakeholders.
-      </p>
-    </div>
-    <div class="our-expertise-block">
-      <a href="{{ site.baseurl }}/expertise/user-experience-and-design/"><h2>Website Design & User Experience</h2></a>
-      <p>
-        We approach design collaboratively, beginning with an iterative
-        discovery process centered on adaptive, mobile-first content.
-      </p>
-    </div>
-    <div class="our-expertise-block">
-      <a href="{{ site.baseurl }}/expertise/engagement-tools/"><h2>CRM & Engagement Tools</h2></a>
-      <p>
-        Supporters experience nonprofits across channels, not departments.
-        Every interaction is an opportunity to increase their engagement.
-      </p>
-    </div>
-    <div class="our-expertise-block">
-      <a href="{{ site.baseurl }}/expertise/web-application-development/"><h2>Web Application Development</h2></a>
-      <p>
-        We are nationally recongnized leaders in web application development for
-        nonprofits. Geeks at heart, we love playing on the bleeding edge of
-        technology.
-      </p>
-    </div>
+    {% for area in site.expertise %}
+      <div class="our-expertise-block">
+        <a href="{{ site.baseurl }}{{ area.url }}"><h2>{{ area.title }}</h2></a>
+        <p>
+          {{ area.blurb_short }}
+        </p>
+      </div>
+    {% endfor %}
     <a href="{{ site.baseurl }}/expertise" class="uppercase-link">What We Do<i class="fa fa-caret-right"></i></a>
   </div>
 </div>
