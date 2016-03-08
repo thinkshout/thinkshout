@@ -3,11 +3,6 @@ title: The How and Why of Nonprofits Contributing to Open Source
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 expertise: Web Application Development
 expertise-options:
  - Content Strategy & Metrics

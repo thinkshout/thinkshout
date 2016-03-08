@@ -14,11 +14,6 @@ tags:
 date: 2015-11-18 13:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 category: Technology and Innovation
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 ---
 
 It’s November 2015, and Drupal.org is rolling out [Drupal 8 release candidates](https://www.drupal.org/project/drupal)! Heck, Drupal 8 is coming out *this week*. For many devs, that means we need to figure out how to install, sync, and set up a site theme. Here at ThinkShout, learning is part of the job - we have dedicated time every week to learn new things and share them, be it in a blog post, at our weekly engineering meetings, or at our weekly team lunch.

@@ -3,11 +3,6 @@ title: Announcing the Release of the PHP Wrapper for iATS Payments
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 header-image:
 header-image-alt:
 

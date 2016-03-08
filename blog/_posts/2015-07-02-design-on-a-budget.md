@@ -3,11 +3,6 @@ title: How to Deal with a Small Design Budget
 layout: blog
 body-class: blog-post
 category:
-category-options:
- - Technology and Innovation
- - Strategy and Design
- - Project Management and Process
- - Culture, Community, and Business
 expertise: Website Design & User Experience
 expertise-options:
  - Content Strategy & Metrics
