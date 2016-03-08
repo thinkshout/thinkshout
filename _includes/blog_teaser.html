@@ -9,9 +9,9 @@
     {% endif %}
   </div>
 
+  {% for person in site.data.team %}
+  {% if post.author == person.name %}
   <div class="byline">
-    {% for person in site.data.team %}
-    {% if post.author == person.name %}
     <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
     <div class="byline-wrapper">
       {% if person.published %}
@@ -20,8 +20,8 @@
         <strong>{{ person.first_name }} {{ person.last_name }}</strong>
       {% endif %}<br>
         {{ person.position }}
-      {% endif %}
-      {% endfor %}
     </div>
   </div>
+  {% endif %}
+  {% endfor %}
 </article>
