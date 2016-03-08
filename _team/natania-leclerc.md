@@ -18,5 +18,5 @@ published: true
 name: natania
 bio: |
   Natania comes to us with an extensive background in nonprofit development. She’s worked with organizations like Feeding America and Best Friends Animal Society to build enduring and effective fundraising programs, helping them expand their constituencies and support their causes through meaningful campaigns. Natania left lasting impacts on the organizations she touched, and they still use the strategies she put in place. Natania does have a life outside of nonprofit engagement, which includes photography, spending time with her dog, and going to concerts. She says she once stormed the stage at a Beastie Boy concert in the 90’s. Points for bravery, Natania.
-permalink: /team/natania/
+slug: natania
 ---

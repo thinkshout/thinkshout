@@ -1,7 +1,7 @@
 ---
 layout: open_source
 body-class: open-source
-permalink: what-we-do/open-source-contributions/
+permalink: expertise/open-source/
 ---
 
 ### [Add to Cal](https://www.drupal.org/project/usage/addtocal)

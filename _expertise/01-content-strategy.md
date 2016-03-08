@@ -2,7 +2,8 @@
 layout: expertise
 body-class: expertise
 title: Content Strategy & Metrics
-class: content-strategy  
+class: content-strategy
+slug: content-strategy
 leadin: |
   Strategy to Inspire Action
 images:
