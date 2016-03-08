@@ -1,0 +1,32 @@
+form.contact {
+  @include span-columns(8);
+
+  @include mq(m) {
+    @include span-columns(12);
+  }
+
+  padding: 4rem 0;
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  textarea,
+  input[type=email],
+  input[type=text] {
+    border: rem(1) solid $ltgray;
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    width: 100%;
+    @include transition(background 0.2s);
+
+    &:focus {
+      background: $ltgray;
+      outline: none;
+      @include transition(background 0.2s);
+    }
+  }
+}
