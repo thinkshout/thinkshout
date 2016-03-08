@@ -2,7 +2,6 @@
 layout: expertise
 body-class: expertise
 title: Web Application Development
-permalink: what-we-do/web-application-development/
 leadin: |
   Unwavering Commitment To Open Source Excellence
 class: open-source

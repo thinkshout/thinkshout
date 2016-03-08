@@ -109,7 +109,7 @@ collections:
     permalink: /work/:title/
   expertise:
     output: true
-    permalink: /what-we-do/:path
+    permalink: /expertise/:title/
   team:
     output: true
     permalink: /who-we-are/team/:path

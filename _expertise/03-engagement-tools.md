@@ -2,7 +2,6 @@
 layout: expertise
 body-class: expertise
 title: CRM & Engagement Tools
-permalink: what-we-do/engagement-tools/
 leadin: |
   Increase Engagement Across All Channels
 class: engagement-tools  

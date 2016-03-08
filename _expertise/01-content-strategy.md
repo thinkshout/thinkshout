@@ -2,7 +2,6 @@
 layout: expertise
 body-class: expertise
 title: Content Strategy & Metrics
-permalink: what-we-do/content-strategy-and-metrics/
 class: content-strategy  
 leadin: |
   Strategy to Inspire Action
