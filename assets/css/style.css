@@ -2727,7 +2727,7 @@ a {
 .blog-landing .filter-wrapper {
   max-width: 98%;
   margin: 1rem auto 0;
-  padding-left: 1rem; }
+  padding-left: 0.5rem; }
   @media (min-width: 671px) and (max-width: 979px) {
     .blog-landing .filter-wrapper {
       margin-top: 2rem;
@@ -2834,7 +2834,11 @@ a {
           float: left; } }
     .blog-landing .blog-list li .byline {
       margin-top: 0;
-      width: 30%; }
+      width: 100%;
+      padding-right: 0; }
+      @media (min-width: 671px) and (max-width: 979px) {
+        .blog-landing .blog-list li .byline {
+          width: 30%; } }
       @media (min-width: 980px) and (max-width: 1199px) {
         .blog-landing .blog-list li .byline {
           width: 30%;
@@ -2845,6 +2849,10 @@ a {
           width: 30%;
           margin-top: 4rem;
           float: right; } }
+      .blog-landing .blog-list li .byline .byline-wrapper {
+        float: left;
+        max-width: 75%;
+        white-space: normal; }
 
 .team-member-blog {
   background: #f1b332;

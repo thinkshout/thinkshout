@@ -19,7 +19,7 @@
 
 - first_name: Betsy
   last_name: Ensley
-  position: Former Director of Professional Services
+  position: Director of Professional Services
   leadin: |
     A driving force behind ThinkShout’s operations, Betsy ensures that we deliver on our promises to our valued clients. She spends most of her time developing efficient systems to help us focus on what we do best: collaborating with clients to create streamlined solutions using open source technology. She also loves puzzles.
   social:
@@ -38,7 +38,7 @@
 
 - first_name: Jaden
   last_name: Johnston
-  position: Former Director of Sales and Marketing
+  position: Director of Sales and Marketing
   leadin: |
     Jaden came to us with an impressive background in technical coordination. She excels at changing hats on the fly, all while ensuring that each project she undertakes maintains a strong human touch. She also is strong in the way of kung-fu…movies.
   social:
@@ -108,7 +108,7 @@
 
 - first_name: Sean
   last_name: Larkin
-  position: Former Director of Sales, Founder
+  position: Director of Sales, Founder
   leadin: |
     Sean's interests in open source began in a tent in Honduras. Ask him about it sometime. He leads our strategy and user experience team, helping our clients communicate their vision and engage stakeholders more effectively on the web.
   social:
@@ -163,7 +163,7 @@
 
 - first_name: Brandon
   last_name: Lee
-  position: Former Senior Engineer
+  position: Senior Engineer
   leadin: |
     Brandon is not a fan of submarines. He is a fan of large, complicated data migrations. We don't know why. We do know he is committed to putting his engineering skills to use for worthwhile organizations. That’s what matters most, right?
   social:
@@ -182,7 +182,7 @@
 
 - first_name: Brett
   last_name: Heckman
-  position: Former User Experience Lead
+  position: User Experience Lead
   leadin: |
     Brett creates memorable and engaging web experiences. He is a talented designer and information architect with a knack for turning complex concepts into beautiful digital stories. But we really hired him because we love his two dogs, Gus and Waylon.
   social:
@@ -201,7 +201,7 @@
 
 - first_name: Claire
   last_name: Seibert
-  position: Former Project Manager
+  position: Project Manager
   leadin: |
     Bringing order to potential chaos, Claire keeps us on track and under budget while ensuring our clients are happy. She enjoys managing complicated projects for organizations committed to social change. It's kind of scary how much she loves spreadsheets.
   social:
@@ -220,7 +220,7 @@
 
 - first_name: Cooper
   last_name: Stimson
-  position: Former Developer
+  position: Developer
   leadin: |
    Cooper loves open source as much as he loves Portland. He’s got an eye for close-to-the-metal details, user experience, and has a calling to do good in the world. We couldn’t hire him fast enough.
   social:
@@ -257,7 +257,7 @@
 
 - first_name: David
   last_name: Lanier
-  position: Former Software Engineer
+  position: Software Engineer
   leadin: |
     David was very active in the Colorado Drupal community. We recruited him for his expertise in open source software development and his commitment to the nonprofit sector. David leads many of our site building efforts. He also throws a mean boomerang, so we try not to make him mad.
   social:
@@ -294,7 +294,7 @@
 
 - first_name: Gabe
   last_name: Carleton-Barnes
-  position: Senior Engineer & Knowledge Lead
+  position: Engineering Manager
   leadin: |
     Gabe’s not only a Magic: The Gathering champion, he is a champion for our Salesforce integration tools and other open source contributions. His experience in streamlining processes for nonprofits drew him to ThinkShout, where he could apply his skills and do some good for the world at the same time.
   social:
@@ -405,7 +405,7 @@
 
 - first_name: Josh
   last_name: Riggs
-  position: Former User Experience Lead
+  position: User Experience Lead
   leadin: |
     What began as dabbling in Photoshop 5.5, creating drop shadow-heavy posters for his metal band in 2002, turned into a UX career for Josh. He now works with exciting new technologies to build memorable user experiences for our clients.
   social:
@@ -462,7 +462,7 @@
 
 - first_name: Marci
   last_name: Marshall
-  position: Former Senior Project Manager
+  position: Senior Project Manager
   leadin: |
     Project management is in Marci’s DNA - she had her kids’ sleeping schedules in spreadsheets when they were infants. She approaches each task with an understanding for our clients' needs, ensuring that we’re using the most efficient processes to meet their goals.
   social:

@@ -5,29 +5,29 @@
     @include mq(t) { margin-top: rem(90); }
   }
 
-  .featured-post {    
+  .featured-post {
     background-position: center center;
     background-size: cover;
     padding: 0;
     width: 100%;
-    
+
     .wrapper {
       background-image: linear-gradient( to left, rgba(255,255,255,0.6), rgba(255,255,255,0.6) );
       max-width: 100%;
       margin: 0 auto;
       padding: 2rem 1rem 1rem;
       @include mq(lt) {
-        padding: 4rem 1rem 2rem 2rem; 
-        background-image: linear-gradient( to right, rgba(255,255,255,0.6), rgba(255,255,255,0.0) 85% ); 
+        padding: 4rem 1rem 2rem 2rem;
+        background-image: linear-gradient( to right, rgba(255,255,255,0.6), rgba(255,255,255,0.0) 85% );
       }
-      @include mq(md) { 
-        padding: 8rem 1rem 3rem 2rem; 
-        background-image: linear-gradient( to right, rgba(255,255,255,0.6), rgba(255,255,255,0.0) 75% );   
+      @include mq(md) {
+        padding: 8rem 1rem 3rem 2rem;
+        background-image: linear-gradient( to right, rgba(255,255,255,0.6), rgba(255,255,255,0.0) 75% );
       }
-      @include mq(l)  { 
-        padding: 10rem 0 2rem 0; 
-        background-image: none;  
-        max-width: rem(1100); 
+      @include mq(l)  {
+        padding: 10rem 0 2rem 0;
+        background-image: none;
+        max-width: rem(1100);
       }
     }
 
@@ -43,7 +43,7 @@
         font-weight: 800;
       }
     }
-    h2 {      
+    h2 {
       font-size: rem(22);
       @include mq(lt) { font-size: rem(28); }
       @include mq(md) { font-size: rem(32); }
@@ -72,7 +72,7 @@
   .filter-wrapper {
     max-width: 98%;
     margin: 1rem auto 0;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     @include mq(lt) { margin-top: 2rem; padding-left: 1rem; }
     @include mq(md) { margin-top: 4rem; padding-left: 1rem; }
     @include mq(l)  { margin-top: 5rem; max-width: rem(1100); padding-left: 0; }
@@ -90,7 +90,7 @@
       border-bottom: 1px solid $ltgray;
       display: inline-block;
       padding: 1rem 1rem;
-      width: 100%;      
+      width: 100%;
       @include mq(lt) { padding: 2rem 2rem; }
       @include mq(md) { padding: 3rem 2rem; }
       @include mq(l)  { padding: 4rem 8rem; }
@@ -138,7 +138,7 @@
         margin: 0 auto;
       }
 
-      .info {        
+      .info {
         width: 100%;
         @include mq(lt) {  }
         @include mq(md) { width: 70%; float: left; }
@@ -147,10 +147,16 @@
 
       .byline {
         margin-top: 0;
-        width: 30%;        
-        @include mq(lt) {  }
+        width: 100%;
+        padding-right: 0;
+        @include mq(lt) { width: 30%; }
         @include mq(md) { width: 30%; margin-top: 4rem; float: right; }
         @include mq(l)  { width: 30%; margin-top: 4rem; float: right; }
+        .byline-wrapper {
+          float: left;
+          max-width: 75%;
+          white-space: normal;
+        }
       }
     }
   }

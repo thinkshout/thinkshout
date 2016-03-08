@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Sean
 last_name: Larkin
-position: Former Director of Sales, Founder
+position: Director of Sales, Founder
 leadin: |
   Sean's interests in open source began in a tent in Honduras. Ask him about it sometime. He leads our strategy and user experience team, helping our clients communicate their vision and engage stakeholders more effectively on the web.
 social:
