@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-category:
+category: Culture, Community, and Business
 category-options:
  - Technology and Innovation
  - Strategy and Design
