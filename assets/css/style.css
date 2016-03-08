@@ -2727,7 +2727,8 @@ a {
 .blog-landing .filter-wrapper {
   max-width: 98%;
   margin: 1rem auto 0;
-  padding-left: 0.5rem; }
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; }
   @media (min-width: 671px) and (max-width: 979px) {
     .blog-landing .filter-wrapper {
       margin-top: 2rem;

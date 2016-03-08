@@ -73,6 +73,7 @@
     max-width: 98%;
     margin: 1rem auto 0;
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
     @include mq(lt) { margin-top: 2rem; padding-left: 1rem; }
     @include mq(md) { margin-top: 4rem; padding-left: 1rem; }
     @include mq(l)  { margin-top: 5rem; max-width: rem(1100); padding-left: 0; }
