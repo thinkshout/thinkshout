@@ -142,8 +142,8 @@
       .info {
         width: 100%;
         @include mq(lt) {  }
-        @include mq(md) { width: 70%; float: left; }
-        @include mq(l)  { width: 70%; float: left; }
+        @include mq(md) { width: 68%; float: left; }
+        @include mq(l)  { width: 68%; float: left; }
       }
 
       .byline {
