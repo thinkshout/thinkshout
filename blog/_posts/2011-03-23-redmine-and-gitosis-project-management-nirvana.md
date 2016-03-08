@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-category: Technology and Innovation
+type: technology
 header-image:
 header-image-alt:
 

@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-category: Culture, Community, and Business
+type: culture
 header-image:
 header-image-alt:
 

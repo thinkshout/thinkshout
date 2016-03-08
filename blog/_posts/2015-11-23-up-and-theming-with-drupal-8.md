@@ -13,7 +13,7 @@ tags:
   - Twig
 date: 2015-11-23 11:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
-category: Technology and Innovation
+type: technology
 expertise: Web Application Development
 expertise-options:
  - Content Strategy & Metrics

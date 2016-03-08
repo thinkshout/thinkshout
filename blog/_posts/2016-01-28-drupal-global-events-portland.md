@@ -13,7 +13,7 @@ tags:
   - Events
 date: 2016-01-28 13:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
-category: Technology and Innovation
+type: technology
 header-image: /assets/images/ts_redesign/case-studies/splc-selma/header1.jpg
 header-image-alt: "Image: Photo of the Selma-to-Montgomery March"
 

@@ -13,7 +13,7 @@ tags:
   - Drupal Planet
 date: 2016-01-11 09:30:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
-category: Culture, Community, and Business
+type: culture
 ---
 
 Five years ago today, Sean and I met on the rainy steps of our attorney’s office in downtown Portland. We walked inside and proceeded to sign a small mountain of paperwork to form ThinkShout, Incorporated. Then, the two of us biked back to the 100 square foot office we’d been sharing for the previous year to figure out what the heck it meant to start a company together.

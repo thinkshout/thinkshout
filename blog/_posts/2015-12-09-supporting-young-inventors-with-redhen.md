@@ -14,7 +14,7 @@ tags:
   - Lemelson-MIT
 date: 2015-12-09 23:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
-category: Technology and Innovation
+type: technology
 expertise: CRM & Engagement Tools
 expertise-options:
  - Content Strategy & Metrics

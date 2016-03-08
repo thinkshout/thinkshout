@@ -15,7 +15,7 @@ tags:
   - Drupal fundraising
 date: 2016-01-18
 image: http://thinkshout.com/assets/images/ts_icon.jpg
-category: Technology and Innovation
+type: technology
 expertise: CRM & Engagement Tools
 expertise-options:
  - Content Strategy & Metrics
