@@ -7,7 +7,6 @@ order: 3
 featured: TRUE
 # END LAYOUT DATA
 
-permalink: our-work/ocean-outcomes/
 cs-class: ocean-outcomes
 
 cs-preview:
@@ -34,7 +33,7 @@ cs-intro:
 cs-sections:
 
   - section-title: "Long-form Storytelling"
-    section-description: | 
+    section-description: |
       Our user exerperience and graphic design choices were guided by a strong interest in telling the compelling and highly-visual stories of fisheries conservation around the globe. Consequently, we chose to implement a ["flat design"](http://en.wikipedia.org/wiki/Flat_design) that allows imagery and content to stand for itself in a most digestible manner.
 
   - section-title: "Innovating with Jekyll"

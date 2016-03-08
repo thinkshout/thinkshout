@@ -106,7 +106,7 @@ prose:
 collections:
   case_studies:
     output: true
-    permalink: /:path/
+    permalink: /work/:title/
   expertise:
     output: true
     permalink: /what-we-do/:path

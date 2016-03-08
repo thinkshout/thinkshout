@@ -7,7 +7,6 @@ order: 4
 featured: TRUE
 # END LAYOUT DATA
 
-permalink: our-work/colorado-trust/
 cs-class: colorado-trust
 
 cs-preview:
@@ -34,7 +33,7 @@ cs-sections:
     section-image-alt: "Image: "
 
   - section-title: "Planning Ahead"
-    section-description: | 
+    section-description: |
       The Trust came to us at an interesting period in its history. They were just kicking off an innovative, and fundamental, change in their funding model and organizational structure. Consequently, we needed to pay close attention in thinking through information architecture to make sure that we were _future proofing_ the new website.
 
   - section-title: "Speaking to Diverse Audiences"

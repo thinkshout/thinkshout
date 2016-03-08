@@ -7,7 +7,6 @@ order: 1
 featured: TRUE
 # END LAYOUT DATA
 
-permalink: our-work/splc-main/
 cs-class: splc-main
 
 cs-preview:
