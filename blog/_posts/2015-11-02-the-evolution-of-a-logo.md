@@ -2,6 +2,11 @@
 layout: blog
 body-class: blog-post
 category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 expertise: Website Design & User Experience
 expertise-options:
  - Content Strategy & Metrics
@@ -55,7 +60,7 @@ After learning as much as I could about the existing logo, it was time to draw t
 
 <iframe width="100%" height="545" src="//www.youtube.com/embed/tpYF-kxnSLM" frameborder="0" allowfullscreen></iframe>
 
-You’ll see in the screen capture that the first thing I did was set up guides and turn on grids. To draw the new wordmark, I used the pen and shape tool. Letters with a stem, defined by vertical stroke, were formed with rectangles; using shapes, like rectangles and circles, to build letters provides consistency and less room for error.
+You’ll see in the screen capture that the first thing I did was set up guides and turn on grids. To draw the new wordmark, I used the pen and shape tool. Letters with a stem, defined by vertical stroke, were formed with rectangles; using shapes, like rectangles and circles, to build letters provides consistency and less room for error.  
 
 I spent quite a bit of time on the ‘h’, as I knew the shoulder – the little hump on the ‘h’ – would also inform the ‘n’ and ‘u.’ The ‘S’ was a beast on its own and was actually built off camera. Any typographer will tell you that an ‘s’ can take just as long as the entire wordmark combined.
 

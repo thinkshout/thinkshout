@@ -3,6 +3,11 @@ title: Meet the ThinkShout Team at DrupalCon LA!
 layout: blog
 body-class: blog-post
 category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -47,7 +52,7 @@ Wednesday May 13th, 1-2pm
 
 Room: 515A - Phase 2
 
-[Building Your Drupal-Based Business, Or, What Keeps You Up at Night](https://events.drupal.org/losangeles2015/sessions/building-your-drupal-based-business-or-what-keeps-you-night)
+[Building Your Drupal-Based Business, Or, What Keeps You Up at Night](https://events.drupal.org/losangeles2015/sessions/building-your-drupal-based-business-or-what-keeps-you-night) 
 
 This facilitated panel session will include ThinkShout’s own Sean Larkin, and will cover insights from agency owners on lessons learned, areas of focus, and what NOT to worry about. All that and some guidance on best practices, and ideas to sustain and support growth - with an active audience Q&A to boot.
 
@@ -63,7 +68,7 @@ Thursday May 14th, 10:45-11:45am
 
 Room: 501 - NewMedia
 
-[MailChimp and Drupal, The Anatomy of a Successful Partnership](https://events.drupal.org/losangeles2015/sessions/mailchimp-drupal-anatomy-successful-partnership)
+[MailChimp and Drupal, The Anatomy of a Successful Partnership](https://events.drupal.org/losangeles2015/sessions/mailchimp-drupal-anatomy-successful-partnership) 
 
 In this Lightning Talk, ThinkShout CTO Lev Tsypin and MailChimp API guru Nathan Ranson will cover the evolution of MailChimp's support for Drupal, the basics of how the integration works, and hint at what's to come for Drupal 8.
 

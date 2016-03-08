@@ -2,6 +2,11 @@
 layout: blog
 body-class: blog-post
 category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -17,9 +22,9 @@ tags:
 short: As the technology conference season ramps up, these are foremost on our radar.
 author: sean
 ---
-At ThinkShout, we spend as much time as possible dreaming up and implementing new ways to leverage Drupal to meet the web technology needs of the nonprofit organizations we serve.
+At ThinkShout, we spend as much time as possible dreaming up and implementing new ways to leverage Drupal to meet the web technology needs of the nonprofit organizations we serve. 
 
-As the technology conference season ramps up, these 10 topics and tools are foremost on our radar:
+As the technology conference season ramps up, these 10 topics and tools are foremost on our radar: 
 
 ###1. Upcoming nonprofit Drupal events and gatherings
 On April 11th, ThinkShout, [ZivTech](http://zivtech.com), [Forum One](http://forumone.com/), [Promet](http://promet.com) and [Trellon](http://www.trellon.com/) will host the second-annual **"[NTC Drupal Day for Nonprofit Professionals](http://www.nten.org/ntc/precon/drupal)"** at this year's Nonprofit Technology Conference (NTC) in Minneapolis. This full-day event is geared toward IT decision-makers who either currently manage, or are considering, the Drupal content management system. If you're a Drupal professional service provider specializing in the nonprofit sector, an in-house nonprofit software developer, a Drupal power-user, or an executive nonprofit staffer responsible for managing website and web application procurement and maintenance, you should join us. Tickets are limited for this *free* pre-conference event, so if you're interested in attending, [book your spot](http://nten.org/ntc) today!

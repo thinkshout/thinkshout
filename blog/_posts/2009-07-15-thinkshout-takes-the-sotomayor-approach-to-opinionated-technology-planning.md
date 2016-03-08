@@ -2,6 +2,11 @@
 layout: blog
 body-class: blog-post
 category: Culture, Community, and Business
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -12,7 +17,7 @@ tags:
 - Opinionated Consulting
 - Technology Planning
 
-short: ThinkShout is still largely in the brainstorming phase of our own brand development.
+short: ThinkShout is still largely in the brainstorming phase of our own brand development. 
 author: sean
 ---
 <p>ThinkShout is still largely in the brainstorming phase of our own brand development. Sure, we're busy with client work already, actively solving interesting social media problems for social entrepreneurs - so we don't have a ton of time for navel gazing. But in the evenings, we do get together to discuss what we ultimately want to do with ThinkShout and how we want to carve out our own niche in the social media and web technology business.</p>

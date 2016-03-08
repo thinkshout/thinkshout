@@ -2,6 +2,11 @@
 layout: blog
 body-class: blog-post
 category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -56,7 +61,7 @@ There's long been a demand to add the ability to create campaigns containing Dru
 The module adds an input filter, which is applied to every section in a selected template, which converts a macro in the following format into rendered Drupal content.
 
     [mailchimp_campaign|entity_type=node|entity_id=1|view_mode=teaser]
-
+    
 We sought an approach that combined flexiblity with ease of use, sacraficing a bit of the former for the latter. But this lets users inject *any* Drupal entity, using any view mode, into a template section mixed with additional non-Drupal content. Users can also choose to create a campaign that doesn't contain Drupal content at all using this tool. It can also be combined with additional input filters to provide other formatting assistance.
 
 When saved, the rendered content, along with the MailChimp list and other campaign data is sent to MailChimp and *hung* on a custom campaign entity within Drupal. New campaigns are saved as drafts and can be edited so long as they have not been sent.

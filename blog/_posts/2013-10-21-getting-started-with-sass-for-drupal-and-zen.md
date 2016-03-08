@@ -2,6 +2,11 @@
 layout: blog
 body-class: blog-post
 category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -12,7 +17,7 @@ tags:
 - Drupal
 - theming
 - Drupal Planet
-short: Want to get started using SASS/Compass with Drupal?
+short: Want to get started using SASS/Compass with Drupal? 
 author: candice
 ---
 
@@ -20,7 +25,7 @@ author: candice
 
 Want to get started using SASS/Compass with Drupal? And fast? This series will give you an introduction to SASS/Compass, plus how get started using it with Drupal right away using the Zen base theme. Welcome to Part 1: Installing and Configuring SASS/Compass.
 
-In case you missed it, [SASS](http://sass-lang.com) (or Syntactically Awesome Style Sheets), is a new way of writing CSS that can save you time, future-proof your code, and make your stylesheets–like the acronym says–Awesome. SASS is a CSS preprocessor, which means that you can write your stylesheets in SASS, complete with all its nifty features, and compile it to regular CSS that your browser can read. On its own, SASS gives you the ability to use nested styles, variables, functions, operators, and a whole lot more.
+In case you missed it, [SASS](http://sass-lang.com) (or Syntactically Awesome Style Sheets), is a new way of writing CSS that can save you time, future-proof your code, and make your stylesheets–like the acronym says–Awesome. SASS is a CSS preprocessor, which means that you can write your stylesheets in SASS, complete with all its nifty features, and compile it to regular CSS that your browser can read. On its own, SASS gives you the ability to use nested styles, variables, functions, operators, and a whole lot more. 
 
 While SASS is great on its own, it's even better when you add [Compass](http://compass-style.org) to the mix. Compass Core describes itself as "a design-agnostic framework that provides common code that would otherwise be duplicated across other frameworks and extensions." Basically it gives you a huge library of commonly-used styles and functions to work with, such as cross-browser CSS3 code, typography rules, and tools for image sprite generation.
 
@@ -34,15 +39,15 @@ To start, you need a copy of SASS and Compass on your computer. There are a coup
 
 There are several tutorials on how to install using this method, and they vary depending on what operating system you use. So check out one of these tutorials and come back for step 2. Don't worry, we'll wait.
 
-i. http://thesassway.com/beginner/getting-started-with-sass-and-compass
+i. http://thesassway.com/beginner/getting-started-with-sass-and-compass  
 ii. http://compass-style.org/install/
 
 ### B. Use an application that manages SASS/Compass for you.
 
 This is probably the easiest way to get up and running with SASS, especially if you're not comfortable working on the command line. Some of these apps also boast nice features, such as automatic browser reloading and support for additional preprocessors and libraries, such as [LESS](http://lesscss.org) and [Bourbon](http://bourbon.io).
 
-i. [Scout](http://mhs.github.io/scout-app/) (Mac/Windows, Free)
-ii. [Compass.app](http://compass.handlino.com/) (Mac/Windows/Linux, $10 at time of writing)
+i. [Scout](http://mhs.github.io/scout-app/) (Mac/Windows, Free)  
+ii. [Compass.app](http://compass.handlino.com/) (Mac/Windows/Linux, $10 at time of writing)  
 iii. [CodeKit](http://incident57.com/codekit/) (Mac, $28 at time of writing)
 
 ## Configure SASS/Compass to watch your project for changes
@@ -63,10 +68,10 @@ i. http://compass-style.org/help/tutorials/command-line/
 
 Typically at this point, we would talk about how to configure your project for SASS/Compass. However, the über-popular [Zen](https://drupal.org/project/zen) base theme for Drupal comes with some great defaults, so let's jump right in to using SASS with Zen.
 
-Start by downloading [Zen](https://drupal.org/project/zen) (at least version 5.4) from Drupal.org and creating a new sub theme, which we'll call "mytheme".
+Start by downloading [Zen](https://drupal.org/project/zen) (at least version 5.4) from Drupal.org and creating a new sub theme, which we'll call "mytheme". 
 
-i. Instructions with Drush: https://drupal.org/node/2021609
-ii. Instructions without Drush: https://drupal.org/node/1549668
+i. Instructions with Drush: https://drupal.org/node/2021609  
+ii. Instructions without Drush: https://drupal.org/node/1549668 
 
 Then tell compass to "watch" your new subtheme by adding the "mytheme" project folder to your app or using the command line interface as described above.
 
@@ -74,7 +79,7 @@ Then tell compass to "watch" your new subtheme by adding the "mytheme" project f
 
 Now that we have "mytheme" set up, let's look at the file structure:
 
-![Diagram of Zen Subtheme File Structure](/sites/default/files/zen_file_structure.png)
+![Diagram of Zen Subtheme File Structure](/sites/default/files/zen_file_structure.png)  
 Fig 1: Zen Subtheme File Structure
 
 On the right side of Fig. 1, we find some standard Drupal theme elements: folders for images, templates, and javascript; template.php for our custom code and preprocess functions; an info file for theme configuration; and logo, favicon, theme settings, etc (not pictured).
@@ -101,7 +106,7 @@ On a typical theme, this folder is where you'll be spending 90% of your time. It
 
 This is where you can put any additional or custom extensions you'd like to use in your theme. Zen comes pre-loaded with the "Zen Grids" responsive grid extension. For more info on extensions, see:
 
-i. http://compass-style.org/help/tutorials/extensions/
+i. http://compass-style.org/help/tutorials/extensions/  
 ii. http://zengrids.com/
 
 ## Up Next

@@ -2,6 +2,11 @@
 layout: blog
 body-class: blog-post
 category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -11,7 +16,7 @@ featured: false
 author: brett-meyer
 date: 2014-07-03 14:00:00
 short:  Your site's metrics will tell you a lot about your content.
-tags:
+tags: 
 - Desire paths
 - Content strategy
 - Google analytics
@@ -31,17 +36,17 @@ Digging a bit deeper, we found that many of the mobile visitors go directly to a
 
 * Top search terms on mobile include "breast cancer stories," “breast cancer in young women,” and “young breast cancer survivors.” Those terms are 2 to 5 times more likely to have been used by mobile visitors than by those coming to the site on their computers.
 
-Those numbers tell a story.
+Those numbers tell a story. 
 
-The news that you have cancer must come as a shock. Particularly when you’re young, it may seem to come out of the blue. It’s entirely possible that, when you first receive this jolt, you’re alone, having just left your doctor’s office or set down the phone.
+The news that you have cancer must come as a shock. Particularly when you’re young, it may seem to come out of the blue. It’s entirely possible that, when you first receive this jolt, you’re alone, having just left your doctor’s office or set down the phone. 
 
 The first thing I would want is some reassurance, confirmation at this juncture in my life that I’m going to be okay. Ideally, I’d talk to a loved one, but in the moment, I might turn to my smartphone: it’s immediately available, it’s connected, it could provide some answers.
 
-Our client had created content that could meet that need, opening opportunities not just to reassure a key audience, but to connect them to a broader community of support and thereby further their mission.
+Our client had created content that could meet that need, opening opportunities not just to reassure a key audience, but to connect them to a broader community of support and thereby further their mission. 
 
 By experimenting with layouts and calls to action specifically for mobile visitors – essentially, by doing our job – we have the chance to help people in a very real way.
 
-And that’s why we all do this work, isn’t it?
+And that’s why we all do this work, isn’t it? 
 
 Taking the time to create data-informed personas can help you hone a strategy for your content that goes beyond assumptions and guesswork.
 
@@ -126,7 +131,7 @@ Here’s what the segmentation looks like on the "Navigation Summary" report in 
 
 We did this to answer two questions:
 
-1. If a visitor navigates on a mobile device to a particular page (or group of pages), and doesn’t bounce, what do they do next?
+1. If a visitor navigates on a mobile device to a particular page (or group of pages), and doesn’t bounce, what do they do next? 
 
 2. How can we take advantage of that knowledge to try to capture the attention of more visitors?
 

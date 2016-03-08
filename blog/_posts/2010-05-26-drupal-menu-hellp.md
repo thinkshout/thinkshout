@@ -2,13 +2,18 @@
 layout: blog
 body-class: blog-post
 category: Technology and Innovation
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image:
 header-image-alt:
 
 title: Drupal Menu Hell(p)
 created: 1274939908
 permalink: blog/2010/05/lev/drupal-menu-hellp/
-tags:
+tags: 
 short: I recently had to implement what seemed like a very simple feature for a client...
 author: lev
 
@@ -57,7 +62,7 @@ function mymodule_menu() {
     'access arguments' => array(2),
     'type' => MENU_NORMAL_ITEM,
     'menu_name' => 'primary-links'
-  );
+  );  
 }
 
 function _mymodule_util_reroute($user, $tab) {

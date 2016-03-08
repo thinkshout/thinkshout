@@ -2,6 +2,11 @@
 layout: blog
 body-class: blog-post
 category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -35,9 +40,9 @@ What ends up happening is that Process tasks are handed off to the technologist 
 
 Does this sound like a brewing disaster? It doesn't have to be. The first thing that on organization has to do is *slow down and understand itself*. This means putting someone in charge of understanding the organization's existing hodgepodge of processes for managing work & data, giving them the time & information they need, and being ready to trust the processes that person proposes. Here is my general outline for the "Process Process":
 
-**Step 1: Talk to everyone**
+**Step 1: Talk to everyone** 
 
- Talk to everyone in the organization to get detailed answers to the following questions. Take your time, delve, and listen carefully for hints of deeper answers. Have each conversation privately, and don't let anyone put you off or insist they don't have time for a detailed interview. Bad information now will result in bad Process and the wrong tools.
+ Talk to everyone in the organization to get detailed answers to the following questions. Take your time, delve, and listen carefully for hints of deeper answers. Have each conversation privately, and don't let anyone put you off or insist they don't have time for a detailed interview. Bad information now will result in bad Process and the wrong tools. 
 
 _Skills required: persistence, patience, listening, data savvy._
 
@@ -51,9 +56,9 @@ _Skills required: persistence, patience, listening, data savvy._
 6. In an ideal world, what internal tasks would you not have to deal with?
 7. What sort of numerical questions do you have about your own data? (think charts & graphs-- this is a great way to find out what information people want to have but don't have any established way to record)
 
-**Step 2: Describe what you have learned**
+**Step 2: Describe what you have learned** 
 
-Use whatever data visualization tool you prefer to describe the existing data "system". Be painfully honest, but avoid implying blame. Include sources of data, even ones that currently go nowhere. Identify existing staff that serve as data "hubs", either due to the nature of their work or their personalities. Show your description to each of the "hubs" and other key stakeholders and ask the following questions.
+Use whatever data visualization tool you prefer to describe the existing data "system". Be painfully honest, but avoid implying blame. Include sources of data, even ones that currently go nowhere. Identify existing staff that serve as data "hubs", either due to the nature of their work or their personalities. Show your description to each of the "hubs" and other key stakeholders and ask the following questions. 
 
 _Skills required: data visualization, patience, communication, tact_
 
@@ -66,7 +71,7 @@ _Skills required: data visualization, patience, communication, tact_
 
 If question 2 reveals a lot of inaccuracies, you may have to revise your description and try again. This is not unusual, especially if Step 1 was rushed.
 
-**Step 3: Establish & prioritize goals**
+**Step 3: Establish & prioritize goals** 
 
 Invariably, there will be a set of "goals" implied or explicitly set out before you began this process, so this step might be "Revise & prioritize goals" in many cases. By now you should have a pretty clear understanding of what's going on in the organization, and what needs to be improved. Sit down with your description & the feedback you received on it and write down some goals in direct language. Examples:
 
@@ -76,29 +81,29 @@ Invariably, there will be a set of "goals" implied or explicitly set out before 
 - Establish a consistent process for tracking & thanking donations
 - Automate membership renewal reminders
 
-It's ok to write down your goals with an eye towards the problems you perceive as realistically solvable, but be sure to include "problem goals" that are hard to meet as well: especially ones that are important to the organization. If you leave out important goals of the organization, you can lose the trust of the people who have spent valuable time to go through steps 1 & 2 with you.
+It's ok to write down your goals with an eye towards the problems you perceive as realistically solvable, but be sure to include "problem goals" that are hard to meet as well: especially ones that are important to the organization. If you leave out important goals of the organization, you can lose the trust of the people who have spent valuable time to go through steps 1 & 2 with you. 
 
 _Skills required: synthesis, interpretation, concision_
 
-**Step 4: Present your goals**
+**Step 4: Present your goals** 
 
-Meet with key stakeholders and present your goals. Work with them to re-prioritize. Be an advocate for those people who are not in the meeting-- you may have a better understanding of everyone's needs at this point than their supervisors. If you have "problem goals", explain why they are problems and see if they can be de-prioritized, restructured, understood in a more solvable way, or if you will need to ask for more resources (time, money, or both) to solve them.
+Meet with key stakeholders and present your goals. Work with them to re-prioritize. Be an advocate for those people who are not in the meeting-- you may have a better understanding of everyone's needs at this point than their supervisors. If you have "problem goals", explain why they are problems and see if they can be de-prioritized, restructured, understood in a more solvable way, or if you will need to ask for more resources (time, money, or both) to solve them. 
 
 _Skills required: communication: presenting & listening_
 
-**Step 5: Describe a proposed solution**
+**Step 5: Describe a proposed solution** 
 
-Using what you have learned, create a new version of the description in step 2 that addresses the priorities in step 4. Include data sources and make it obvious which steps are technically automated and which will require human interaction. Naming specific new technologies should be avoided for now: use generic terms. Take your description back to the key stakeholders, and make sure they understand where direct staff work is implied in your proposed solution. These staff-driven steps are the hardest part of establishing the Process your solution is going to rely on: you need full buy-in from your stakeholders on these Process pieces. Stop here until you are sure everyone understands the parts of your solution that are additional, process-related work, and that they are ready to do that work.
+Using what you have learned, create a new version of the description in step 2 that addresses the priorities in step 4. Include data sources and make it obvious which steps are technically automated and which will require human interaction. Naming specific new technologies should be avoided for now: use generic terms. Take your description back to the key stakeholders, and make sure they understand where direct staff work is implied in your proposed solution. These staff-driven steps are the hardest part of establishing the Process your solution is going to rely on: you need full buy-in from your stakeholders on these Process pieces. Stop here until you are sure everyone understands the parts of your solution that are additional, process-related work, and that they are ready to do that work. 
 
 _Skills required: system design, communication, persistence, persuasion_
 
-**Step 6: Turn back into a nerd**
+**Step 6: Turn back into a nerd** 
 
-Find & implement a solution using your deep understanding of the issues & priorities, the desired flow of data, and your ability & requirements to use staff as a part of Process.
+Find & implement a solution using your deep understanding of the issues & priorities, the desired flow of data, and your ability & requirements to use staff as a part of Process. 
 
 _Skills required: nerd stuff_
 
-**Step 7: Train everyone individually**
+**Step 7: Train everyone individually** 
 
 One of the beautiful things about working with a small organization is that this is actually possible. Walk every single person through the new Process using real tasks from their daily work. Take the task from start to finish with them, and imagine doing the task yourself. Get feedback on frustrating or inefficient parts of the process **and use it to refine your systems.** If you are deliberate and patient in steps 1-5, you should have a great framework, but it won't be perfect. Some of the things people described to you might have been less precise than they thought. Programs evolve, staff understanding changes, and you need to be ready to refine your processes and systems to account for these shifts. Think of your solution as an Alpha version, and embrace the inevitable flood of feedback.
 

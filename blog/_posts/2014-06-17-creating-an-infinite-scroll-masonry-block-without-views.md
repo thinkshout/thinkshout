@@ -2,6 +2,11 @@
 layout: blog
 body-class: blog-post
 category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -52,7 +57,7 @@ function my_module_block_view($delta = '') {
 Here, we've defined which function we'll be generating our paged view from; namely `my_module_masonry_content`.
 
 ###Generating a paged content array
-Within our `my_module_masonry_content` function, we'll create a paged view of nodes. To do so, we'll use an EntityFieldQuery with the "pager" property, which causes the results of the query to be returned as a pager.
+Within our `my_module_masonry_content` function, we'll create a paged view of nodes. To do so, we'll use an EntityFieldQuery with the "pager" property, which causes the results of the query to be returned as a pager.  
 
 ~~~php
 <?php
@@ -94,7 +99,7 @@ $output['pager'] = array('#theme' => 'pager');
 We then return our output array and get to the JavaScript…
 
 ### Applying Masonry to the paged content block
-To apply Masonry to the paged block content, we'll need some JavaScript so let's create a new JavaScript file within our module's js directory (`js/my_module.js`). This file will depend on the [Masonry JavaScript library](https://github.com/desandro/masonry) so we'll need to load it in addition to our new, custom JavaScript file.
+To apply Masonry to the paged block content, we'll need some JavaScript so let's create a new JavaScript file within our module's js directory (`js/my_module.js`). This file will depend on the [Masonry JavaScript library](https://github.com/desandro/masonry) so we'll need to load it in addition to our new, custom JavaScript file.  
 
 ---
 
@@ -142,7 +147,7 @@ container.bind('change', function() {
 Now that we've got Masonry applied to our block content, let's move on to getting the infinite scroll behavior in place.
 
 ## Applying Infinite Scroll to the paged content block
-To pull new items into our content block (to which Masonry is being applied) we'll leverage the [Autopager library](https://code.google.com/p/jquery-autopager). This means we'll need to add Autopager to the list of JavaScript to be loaded conditionally when our block is present.
+To pull new items into our content block (to which Masonry is being applied) we'll leverage the [Autopager library](https://code.google.com/p/jquery-autopager). This means we'll need to add Autopager to the list of JavaScript to be loaded conditionally when our block is present.  
 
 ---
 

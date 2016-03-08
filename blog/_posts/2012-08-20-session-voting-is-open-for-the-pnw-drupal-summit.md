@@ -2,6 +2,11 @@
 layout: blog
 body-class: blog-post
 category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -15,9 +20,9 @@ tags:
 short: Voting closes on August 27.
 author: betsy
 ---
-Well, the PNW Drupal Summit session submission has drawn to a close and voting is now open!  At ThinkShout, we’re really excited to be sponsoring this year and are looking forward to seeing the final session schedule after voting closes on August 27.
+Well, the PNW Drupal Summit session submission has drawn to a close and voting is now open!  At ThinkShout, we’re really excited to be sponsoring this year and are looking forward to seeing the final session schedule after voting closes on August 27.  
 
-This year sessions submission topics included:
+This year sessions submission topics included:  
 <ul><li>Development and Code</li>
 <LI>Community, Business and Project Management</li>
 <LI>Information Architecture and Administration</li>
@@ -31,4 +36,4 @@ This year sessions submission topics included:
 <LI><a href= "http://2012.pnwdrupalsummit.org/sessions/building-drupal-style-tiles-using-foundation-and-scss">Building Drupal Style Tiles using Foundation and SCSS</A></li>
 <LI><a href= "http://2012.pnwdrupalsummit.org/sessions/creating-and-customizing-zen-sub-themes">Creating and Customizing Zen Sub-Themes</A></li></ul>
 
-Let the voting begin and we look forward to seeing you in Seattle October 20-21!
+Let the voting begin and we look forward to seeing you in Seattle October 20-21!  

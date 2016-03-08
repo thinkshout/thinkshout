@@ -2,6 +2,11 @@
 layout: blog
 body-class: blog-post
 category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -38,7 +43,7 @@ We'll be dealing with a handful of new objects to get responsive image behaviors
 	- You may already know these from the Media module; they let you bundle dimensions, scaling modes, etc. into styles that can be reused across your site.
 - Picture Mappings
     - Picture mappings pair up breakpoints with image styles
-
+    
 Once an image is associated with a responsive style, the Picture module will check the page dimensions, look at the breakpoint group, find the _first_ breakpoint that applies to those dimensions (we'll come back to this point...), look at the picture mapping to find the associated image style, and apply that style to the image. This happens in real time, so a user resizing their window should see the image rescale to fit their new window size instantaneously.
 
 ## Installation
@@ -92,7 +97,7 @@ This is an optional step provided by the Breakpoints module; it's essentially a 
 
 Set up an image style for each breakpoint under Configuration > Media > Image Styles. For general use, these can be equal to or slightly less than the minimums of the associated breakpoints; for more complex layouts, id est columns, these might instead be set to match the behavior of the column widths.
 
-![image-styles-example-0.png](/assets/images/blog/image-styles-example-0.png "Three basic image styles")
+![image-styles-example-0.png](/assets/images/blog/image-styles-example-0.png "Three basic image styles") 
 
 Picture Mappings are found under Configuration > Media > Picture Mappings. First, associate the new Picture Mapping with our Breakpoint Group.
 
@@ -114,7 +119,7 @@ Now we're ready to create a node type with a responsive image field.
 
 Make a content type and add a File field with the Media File Selector widget. Make sure that the field permits the image format file extensions you plan to use; by default it only allows `*.txt`.
 
-![responsive-content-type-examples-0.png](/assets/images/blog/responsive-content-type-examples-0.png "Node content type")
+![responsive-content-type-examples-0.png](/assets/images/blog/responsive-content-type-examples-0.png "Node content type") 
 
 Under Manage Display, make sure that the responsive image field is set to the Rendered File display formatter, which will connect the field to the file display mode we set earlier.
 
@@ -122,9 +127,9 @@ Under Manage Display, make sure that the responsive image field is set to the Re
 
 We're done! Create a node with the example content type, add an image, and start dragging the corner of your window around. The image should resize as the window width passes between breakpoints.
 
-![responsive-image-examples-0.png](/assets/images/blog/responsive-image-example-0.png "Medium image")
+![responsive-image-examples-0.png](/assets/images/blog/responsive-image-example-0.png "Medium image") 
 
-![responsive-image-examples-1.png](/assets/images/blog/responsive-image-example-1.png "Small image")
+![responsive-image-examples-1.png](/assets/images/blog/responsive-image-example-1.png "Small image") 
 
 ## The Benefits
 
@@ -134,11 +139,11 @@ There are several advantages to responsive web design, some of which are particu
     * Without clear knowledge of how our sites will be viewed, we cannot effectively design them to meet user needs.
 * Ease of navigation
     * Never let important elements render offscreen.
-* Bandwidth conservation
+* Bandwidth conservation 
     * Don't send a 4k image to a QVGA-screen phone that doesn't need it.
-* Code it once
+* Code it once 
     * No need to build a secondary mobile site.
-* SEO optimization
+* SEO optimization 
     * Every node has one canonical URL, so Google won't split its results between mobile and desktop versions (which could easily drop your site to the dreaded second page of search results)!
 * Shareability
     * A bad example: [Wikipedia](http://en.wikipedia.org/wiki/Drupal). Take a look at how different its [mobile version](http://en.m.wikipedia.org/wiki/Drupal) looks. If a mobile user posts an interesting article to Twitter, for example, both desktop and mobile users following the link will be hit with the mobile version, regardless of their device. With a single-URL responsive design, this is a nonissue.

@@ -2,6 +2,11 @@
 layout: blog
 body-class: blog-post
 category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -40,7 +45,7 @@ The "RedHen Contact Email" field is a new field type defined by RedHen CRM to pr
 
 #### Filtering Contacts
 
-Once we've configured our content entity bundles, we can view and search our contacts across various fields and properties:
+Once we've configured our content entity bundles, we can view and search our contacts across various fields and properties: 
 
 ![Contact Listing](https://dl.dropbox.com/s/80e9ihj8mcse6pj/contacts_listing.png)
 

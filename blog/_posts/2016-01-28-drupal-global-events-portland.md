@@ -14,13 +14,18 @@ tags:
 date: 2016-01-28 13:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 category: Technology and Innovation
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image: /assets/images/ts_redesign/case-studies/splc-selma/header1.jpg
 header-image-alt: "Image: Photo of the Selma-to-Montgomery March"
 
-intro: |
+intro: |  
   These two global Drupal events offer something for Drupal folks of all skill levels, helping us to tap into Portland’s strong Drupal community. I hope you’ll join us for either (or both!) of these great events.
 
-blog-cta:
+blog-cta:  
   image: /assets/images/ts_redesign/cta/salesforce1.jpg
   title: "Want to learn more Salesforce?"
   description: "Sign up for our Salesforce Drupal workshop on April 23rd in rainy and gray Portland!"

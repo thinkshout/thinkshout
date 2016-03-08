@@ -2,15 +2,20 @@
 layout: blog
 body-class: blog-post
 category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image:
 header-image-alt:
 
 title: Our Road to B Corp
 author: krista
-published: true
+published: true 
 featured: false
 short: Our tips on getting through the B Corp application process
-tags:
+tags: 
   - B Corp
   - Our Mission
   - Culture
@@ -25,7 +30,7 @@ Before ThinkShout, I'd never heard of a B Corp, but there it was, one of the  fi
 
 Educating myself was step one. I watched the video "[B the Change](https://www.youtube.com/watch?v=V-VFZUFJwt4&feature=youtu.be)," read the book "[The B Corp Handbook](https://www.bcorporation.net/handbook)" by Ryan Honeyman, and combed the [www.bcorporation.net](www.bcorporation.net ) website to get a better and deeper understanding of what this movement was all about. I was blown away!
 
-As stated on the site, "B Corps are certified by the nonprofit B Lab to meet rigorous standards of social and environmental performance, accountability, and transparency." (We’ll get to the ‘rigorous’ part in a bit.) B Corp companies don’t want to be the best in the world - instead, they strive to be the best *for* the world. The change of that one word is transformative.
+As stated on the site, "B Corps are certified by the nonprofit B Lab to meet rigorous standards of social and environmental performance, accountability, and transparency." (We’ll get to the ‘rigorous’ part in a bit.) B Corp companies don’t want to be the best in the world - instead, they strive to be the best *for* the world. The change of that one word is transformative. 
 
 I realized how meaningful the B Corp movement is and how it would transform our company by making it a better place for our employees, a better steward of community and the environment. It’s the trifecta of awesome - there’s something for everyone and it’s all a force for positive change.
 
@@ -33,9 +38,9 @@ I realized how meaningful the B Corp movement is and how it would transform our 
 
 In order to become certified as a B Corp, there’s a rigorous 'Assessment' process. Think of it like the final exam in the toughest class you've ever taken but you *have* to pass it in order to land your dream job. On the Assessment, a score of 80 out of a potential perfect 200 is considered passing. Don't be fooled into thinking, "Only 80?!" A lot goes into the scoring process, and data is pulled from multiple areas: Human Resources, Building Management, Purchasing, Financials, Employee Benefits . . . it's all gathered, compiled and scored.
 
-This assessment is *hard*. We've been in business for six years. During that time, we’ve experienced a significant amount of growth and change. Like many companies, we have policies, procedures, and values, but there wasn’t a consistent set of written procedures, or a practice of putting philosophies to paper. There was a general cultural ethos, but without it being written and *established*, we weren’t going to get points for it on the assessment.
+This assessment is *hard*. We've been in business for six years. During that time, we’ve experienced a significant amount of growth and change. Like many companies, we have policies, procedures, and values, but there wasn’t a consistent set of written procedures, or a practice of putting philosophies to paper. There was a general cultural ethos, but without it being written and *established*, we weren’t going to get points for it on the assessment. 
 
-The Assessment is organized into 6 parts: Governance, Workers, Community, Environment, Impact Business Models, and a Disclosure Questionnaire. I haven’t counted how many questions there are, but if you print it out, it’s 35 pages. A typical question, “What percent of full time workers have participated in external professional development opportunities or lifelong learning opportunities (paid in advance, reimbursed or subsidized by the company) in the past fiscal year?” 35 pages of questions like this and reaching a score of 80 on our first Assessment starts to feel like more of a substantial accomplishment.
+The Assessment is organized into 6 parts: Governance, Workers, Community, Environment, Impact Business Models, and a Disclosure Questionnaire. I haven’t counted how many questions there are, but if you print it out, it’s 35 pages. A typical question, “What percent of full time workers have participated in external professional development opportunities or lifelong learning opportunities (paid in advance, reimbursed or subsidized by the company) in the past fiscal year?” 35 pages of questions like this and reaching a score of 80 on our first Assessment starts to feel like more of a substantial accomplishment. 
 
 Admittedly, it took the better part of a year to complete the Assessment, and if I had prepared better at the onset, that timeframe would have been much shorter and perhaps less stressful - although no less of an accomplishment!
 
@@ -43,7 +48,7 @@ Admittedly, it took the better part of a year to complete the Assessment, and if
 
 Because I was a new employee to ThinkShout, I wasn’t prepared to answer the kinds of questions required by the Assessment. By the time I put into place much of the infrastructure needed to complete the Assessment, I realized that the Assessment had already been started by my predecessor. Not knowing how she calculated some of the information was initially confusing, but it also encouraged me to dive deeper into the data. What ensued was about six months of reports, writing, and entering data into the Assessment until we were within range of the certification.
 
-Now that we're certified, I can look back and think about how I could have better prepared for this process. Take my advice:
+Now that we're certified, I can look back and think about how I could have better prepared for this process. Take my advice: 
 
 * Study the assessment before actually starting it. Read it so you know what data you'll need to gather. Use it as the guiding blueprint or playbook.
 * Read the book "[The B Corp Handbook](https://www.bcorporation.net/handbook)" by Ryan Honeyman and take the guidance it offers.

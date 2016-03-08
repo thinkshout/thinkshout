@@ -14,6 +14,11 @@ tags:
 date: 2015-11-23 11:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 category: Technology and Innovation
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 expertise: Web Application Development
 expertise-options:
  - Content Strategy & Metrics
@@ -157,7 +162,7 @@ after: `<div {{ title_attributes.addClass(title_classes) }}>{{ label }}</div>`
 
 Rebuild the cache (drush cr) and… success! well sort of - we still have to add CSS. Note that we also added a custom class of 'field__publish-date-label' in case we want to style it directly.
 
-**Step 3**: Add a `THEMENAME.libraries.yml` file to hold attachment library definitions.
+**Step 3**: Add a `THEMENAME.libraries.yml` file to hold attachment library definitions.  
 
 This is pretty simple; it’s a file with the following:
 
@@ -193,4 +198,4 @@ And that’s it! Note that we could have changed the markup in any number of way
 
 ###Disclaimer###
 
-The post was written at the end of 2015 while Drupal 8 was still in a Release Candidate stage. While some effort will be made to keep the post up-to-date, if it’s after 2016, you should probably add the current year to your Google search, or better yet, check the docs on [Drupal.org](http://drupal.org).
+The post was written at the end of 2015 while Drupal 8 was still in a Release Candidate stage. While some effort will be made to keep the post up-to-date, if it’s after 2016, you should probably add the current year to your Google search, or better yet, check the docs on [Drupal.org](http://drupal.org).  

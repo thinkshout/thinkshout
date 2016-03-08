@@ -2,6 +2,11 @@
 layout: blog
 body-class: blog-post
 category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -25,15 +30,15 @@ To circle back to the reason I am writing this blog, if my friend would have tol
 
 ##Podio
 
-[Podio](https://podio.com) is a cloud based work platform that helps organize workflow with your external and internal project teams. If your organization is looking for a platform with more customization, I have found that Podio is a great resource. The idea behind Podio platform is about building your dashboard and/or projects to your own functionality of use, through applications.
+[Podio](https://podio.com) is a cloud based work platform that helps organize workflow with your external and internal project teams. If your organization is looking for a platform with more customization, I have found that Podio is a great resource. The idea behind Podio platform is about building your dashboard and/or projects to your own functionality of use, through applications. 
 
-##Redbooth
+##Redbooth 
 
 [Redbooth](http://www.redbooth.com) is a cloud based project collaboration tool. Here at ThinkShout, we currently use Redbooth because it’s easily transferable to clients of any technical level and no additional setup is required. Redbooth also highlights their security feature; monitored 24/7, so all your stored data and shared files are accessible only to you and your assigned project members.
 
 ##Mavenlink
 
-[Mavenlink](https://www.mavenlink.com) is a cloud based team collaboration and project management application. Nonprofits that are heavy in team collaboration and networking, Mavenlink would be a great choice. They also have a tight financial integration, which is great for nonprofits to keep track of their funding ins/outs and plan for future needs.
+[Mavenlink](https://www.mavenlink.com) is a cloud based team collaboration and project management application. Nonprofits that are heavy in team collaboration and networking, Mavenlink would be a great choice. They also have a tight financial integration, which is great for nonprofits to keep track of their funding ins/outs and plan for future needs. 
 
 ##Basecamp
 

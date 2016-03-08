@@ -3,6 +3,11 @@ title: The Clutter and the Deceptively Simple
 layout: blog
 body-class: blog-post
 category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 expertise: Content Strategy & Metrics
 expertise-options:
  - Content Strategy & Metrics

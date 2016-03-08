@@ -3,6 +3,11 @@ title: Success Building CMS-less Production Sites with Jekyll
 layout: blog
 body-class: blog-post
 category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -60,7 +65,7 @@ This commit then triggers a re-build of the site wherein each zip code detail pa
 Another popular content management concept that was difficult to implement in Jekyll until the 2.0.0 release was blocks of content that could be stored in a single place and used in multiple places around the site. [Collections](http://jekyllrb.com/docs/collections/) made this much easier. On the Feeding Texas site, we created collections for several things ranging from [calls to action (scroll to page bottom)](http://www.feedingtexas.org/learn/communities/hunger-atlas/) to [staff profiles](http://www.feedingtexas.org/about/staff/) that can be placed anywhere on the site by specifying their index (where the index could be any YAML frontmatter variable). So, for example, if a Feeding Texas content manager wanted to create and use a new call to action block, they would do two things:
 
 1. Create a markdown file for the block and include a frontmatter variable like this: `index: 1`.
-2. Then to apply the new block to a page, they'd specify the block's index as a frontmatter variable in the page's markdown file like this:
+2. Then to apply the new block to a page, they'd specify the block's index as a frontmatter variable in the page's markdown file like this: 
 
 ~~~
 calls_to_action:

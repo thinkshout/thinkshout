@@ -2,6 +2,11 @@
 layout: blog
 body-class: blog-post
 category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -35,7 +40,7 @@ When writing SCSS, the Compass compiler runs and watches the SCSS files. The com
 
 Nested rules, selector inheritance and mixins of SCSS are great for writing styles for Drupal sites in that we are often dealing with multi-layered complex markup.  Using SCSS, I can target specific sections of code using nested rules and then avoid code replication by utilizing selector inheritance and mixins.
 
-Sometimes Drupal has been known to provide us with multi-layered complex markup. I find that SCSS's nested rules, selector inheritance and mixins are great for theming this markup.
+Sometimes Drupal has been known to provide us with multi-layered complex markup. I find that SCSS's nested rules, selector inheritance and mixins are great for theming this markup. 
 
 *As a side note, ThinkShout as a team is moving to [Less](http://lesscss.org/) from SCSS. That will be my next blog post. Compare and Contrast - SCSS vs Less.*
 
@@ -68,7 +73,7 @@ On the Narrow view, the tagline is positioned to the left, while the menu is pos
 
 The [Portfolio landing page](http://www.thinkshout.com/portfolio) now has two columns of thumbnails and the images are larger width and height than the mobile web experience. The user also gets a small bit of interaction bling when they hover over any of the Portfolio thumbnails. The image’s opacity decreases over a black background and the user can now see a short description of the project.
 
-Also, as a bonus, the user can now see the "Put a bird on it" badge/image we have added to the site. If you are lost with this reference, [watch and learn](http://www.hulu.com/watch/210887/portlandia-put-a-bird-on-it).
+Also, as a bonus, the user can now see the "Put a bird on it" badge/image we have added to the site. If you are lost with this reference, [watch and learn](http://www.hulu.com/watch/210887/portlandia-put-a-bird-on-it). 
 
 ###Normal (960 wide)
 

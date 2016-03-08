@@ -2,6 +2,11 @@
 layout: blog
 body-class: blog-post
 category:
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -10,7 +15,7 @@ published: true
 featured: false
 author: stephanie
 date: 2014-07-17 11:00:00
-short: Looking for a low-cost layer of backup security for your website? Consider NodeSquirrel.
+short: Looking for a low-cost layer of backup security for your website? Consider NodeSquirrel.   
 tags:
 - Drupal Planet
 - NodeSquirrel
@@ -25,7 +30,7 @@ But just how accessible are those backups? How surefire is your contingency plan
 
 ![nodesquirrel.png](/assets/images/blog/nodesquirrel.png)
 
-Enter [NodeSquirrel](http://www.nodesquirrel.com/). NodeSquirrel is a Drupal backup service developed and maintained by [Gorton Studios](https://www.gortonstudios.com/). It gives site admins control over their site backups. I sat down with Gorton Studios’ Drew Gorton and Keri Poeppe to learn why nonprofits should consider making NodeSquirrel a part of their workflow.
+Enter [NodeSquirrel](http://www.nodesquirrel.com/). NodeSquirrel is a Drupal backup service developed and maintained by [Gorton Studios](https://www.gortonstudios.com/). It gives site admins control over their site backups. I sat down with Gorton Studios’ Drew Gorton and Keri Poeppe to learn why nonprofits should consider making NodeSquirrel a part of their workflow. 
 
 **Stephanie: So what exactly is NodeSquirrel?**
 
@@ -39,7 +44,7 @@ Enter [NodeSquirrel](http://www.nodesquirrel.com/). NodeSquirrel is a Drupal bac
 
 **Drew:** Here’s an example: there was a NodeSquirrel user whose site was being backed up daily by their web host. Unfortunately, that organization had a major failure and needed to restore the whole site, but the backups they received from their host were unusable. The host had to go back two months to find a backup that actually worked. And, this was from a hosting service costing at least $100 a month.
 
-NodeSquirrel, luckily, was running on their site and they were able to use one of the backups stored on the cloud. It saved them. The problem is that no one ever tests hosting company backups. It’s stored by your host, but no one ever goes back and to check the integrity of the backup and figure out if it can be used when something goes wrong.
+NodeSquirrel, luckily, was running on their site and they were able to use one of the backups stored on the cloud. It saved them. The problem is that no one ever tests hosting company backups. It’s stored by your host, but no one ever goes back and to check the integrity of the backup and figure out if it can be used when something goes wrong. 
 
 NodeSquirrel is different because it’s part of Drupal and the Drupal workflow. We’ve made it easy for you or your developer to retrieve and test your backups.
 
@@ -57,7 +62,7 @@ NodeSquirrel is different because it’s part of Drupal and the Drupal workflow.
 
 **Keri**: If you can’t call your hosting company and see a backup, you might want to think about NodeSquirrel.
 
-**Drew**: That’s actually a great way to test your site host. Call them and ask to access your backups. How long will it take? Will they charge you extra to set up a test environment?
+**Drew**: That’s actually a great way to test your site host. Call them and ask to access your backups. How long will it take? Will they charge you extra to set up a test environment? 
 
 **Keri**: Download and restore a backup. There’s your test to see if you can sleep easy at night. With NodeSquirrel, you can.
 
@@ -65,12 +70,12 @@ NodeSquirrel is different because it’s part of Drupal and the Drupal workflow.
 
 **Keri**: I’d stress the low threshold to use it. It requires no additional software. It’s integrated seamlessly, especially if Backup and Migrate is already installed. Ask your developers to install version 3 of Backup and Migrate. It’ll give you the most flexibility. NodeSquirrel is free to try, too. We have a trial offer that allows you to make 20 free backups. No credit card required.
 
-**Drew**: We wanted to make it easy to do the right thing, and having onsite backup is the right thing. If it works, keep on going.
+**Drew**: We wanted to make it easy to do the right thing, and having onsite backup is the right thing. If it works, keep on going. 
 
 **Our conclusion:**
 
 NodeSquirrel is a highly-affordable extra layer of protection that could save you and your stakeholders a major headache and a great deal of money in the event of a site meltdown. Even if your hosting provider has a backup solution, in the event of data loss, NodeSquirrel is a great alternative to sitting in support queues, waiting on your web host to resolve the issue.
 
-With NodeSquirrel, you can take complete ownership of your backups and spare yourself the worry of whether or not you’ll be able to get your site up and running. It’s poised to integrate beautifully with your Drupal website administrative workflow, allowing you to safeguard your investment without having to spend time building new safety net systems. With plans starting at $9/month, it’s a question of "can you afford *not* to use NodeSquirrel?"
+With NodeSquirrel, you can take complete ownership of your backups and spare yourself the worry of whether or not you’ll be able to get your site up and running. It’s poised to integrate beautifully with your Drupal website administrative workflow, allowing you to safeguard your investment without having to spend time building new safety net systems. With plans starting at $9/month, it’s a question of "can you afford *not* to use NodeSquirrel?" 
 
 Want to see it in action for yourself?[ Sign up for the free trial](https://manage.nodesquirrel.com/user/register/). If you do take it for a spin, let us know what you think in the comments section.

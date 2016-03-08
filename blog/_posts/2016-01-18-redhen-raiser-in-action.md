@@ -16,6 +16,11 @@ tags:
 date: 2016-01-18
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 category: Technology and Innovation
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 expertise: CRM & Engagement Tools
 expertise-options:
  - Content Strategy & Metrics

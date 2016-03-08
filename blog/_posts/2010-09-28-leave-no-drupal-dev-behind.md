@@ -2,6 +2,11 @@
 layout: blog
 body-class: blog-post
 category: Culture, Community, and Business
+category-options:
+ - Technology and Innovation
+ - Strategy and Design
+ - Project Management and Process
+ - Culture, Community, and Business
 header-image:
 header-image-alt:
 
@@ -12,7 +17,7 @@ tags:
 - client relationships
 - Drupal Planet
 
-short: The increased discussion of Drupal engineering certifications concerns me.
+short: The increased discussion of Drupal engineering certifications concerns me. 
 author: sean
 ---
 (In response to http://growingventuresolutions.com/blog/state-drupal-certifications-2010)
