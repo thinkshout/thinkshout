@@ -2,7 +2,7 @@
   $(window).resize(function() {
     $('.main-menu').removeAttr('style');
   });
-  
+
   // Mobile Menu
   $('.mobile-menu-icon').click(function() {
     $(this).toggleClass('active');
@@ -11,10 +11,11 @@
 
   // Set active states for the Main Menu items and their subitems
   var path = window.location.pathname;
-  path = path.replace(/\/$/, "");
-
+  
   $(".main-menu li a").each(function() {
     var href = $(this).attr('href');
+    console.log(path);
+    console.log(href);
     if (path.substring(0, href.length) === href) {
       $(this).closest('a').addClass('active');
     }
