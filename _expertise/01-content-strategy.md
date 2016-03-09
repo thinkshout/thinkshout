@@ -22,6 +22,7 @@ points: |
   <li>Email and Social Marketing</li>
   <li>Content Governance</li>
 
+order: 1
 ---
 
 At its basest level, content strategy for nonprofit websites is simple: provide great content and clear pathways to deeper engagement and your supporters will reward you by becoming lifelong activists and donors.
