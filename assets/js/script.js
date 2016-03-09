@@ -69,23 +69,21 @@
     $('.view-less-blogs').toggle();
   });
 
-  $('#blog-filter').chosen({
-    disable_search: true
-  });
-
-  $("#blog-filter").change(function(evt, params) {
-    if (params.selected != 'all') {
-      window.location.replace('/blog/' + params.selected);
-    } else {
-      window.location.replace('/blog/');
-    }
-  });
-
+  
   var blogType = window.location.pathname.replace(/^\/|\/$/g, '').split('/').pop();
   if (blogType == 'blog') {
     blogType = 'all';
   }
-  $('#blog-filter').val(blogType).trigger("chosen:updated");
+  
+  $('#blog-filter').chosen({ disable_search: true })
+    .val(blogType).trigger("chosen:updated")
+    .change(function(evt, params) {
+      if (params.selected != 'all') {
+        window.location.replace('/blog/' + params.selected);
+      } else {
+        window.location.replace('/blog/');
+      }
+    });
 
 
 })(jQuery);
