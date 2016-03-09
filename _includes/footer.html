@@ -2,8 +2,7 @@
   <div class="container">
   	<nav class="footer-menu">
       <ul>
-        {% assign secondaryMenu = site.data.menu | menu: 'secondary' %}
-        {% for item in secondaryMenu.links %}
+        {% for item in site.data.menu.secondary %}
           <a href="{{ site.baseurl }}{{ item.url }}"><li>{{ item.title }}</li></a>
         {% endfor %}
       </u>

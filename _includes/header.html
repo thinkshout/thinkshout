@@ -14,8 +14,7 @@
 
 		<nav>
 			<ul class="main-menu">
-        {% assign mainMenu = site.data.menu | menu: 'main-menu' %}
-        {% for item in mainMenu.links %}
+        {% for item in site.data.menu.main-menu %}
           <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
         {% endfor %}
 			</u>

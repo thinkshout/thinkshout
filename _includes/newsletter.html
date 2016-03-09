@@ -17,12 +17,12 @@
     <div class="social-media">
       <h1>Follow Us</h1>
       <ul>
-        {% assign socialMedia = site.data.menu | menu: 'social-media' %}
-        {% for item in socialMedia.links %}
-        <a href="{{ item.url }}" target="_blank">
-          <img src="{{ site.baseurl }}/assets/images/ts_redesign/{{ item.title }}.png" alt="{{ item.title }}" />
-        </a>
-      </li>
+        {% for item in site.data.menu.social-media %}
+          <li>
+            <a href="{{ item.url }}" target="_blank">
+              <img src="{{ site.baseurl }}/assets/images/ts_redesign/{{ item.title }}.png" alt="{{ item.title }}" />
+            </a>
+          </li>
         {% endfor %}
       </u>
     </div>
