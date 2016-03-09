@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="blog-header">
   {% if page.featured %}<p class="featured">Featured Post</p>{% endif %}
-  <p><span class="date">{{ page.date | date: '%m.%d.%Y' }}</span> <a class="category" href="{{ site.baseurl }}/blog/?category={{ page.category | slugify }}">{{ page.category }}</a> </p>
+  <p><span class="date">{{ page.date | date: '%m.%d.%Y' }}</span> <a class="category" href="{{ site.baseurl }}/blog/{{ page.type }}">{{ page.type }}</a> </p>
 
   <h1 class="post-title">{{ page.title }}</h1>
   <p class="byline">
