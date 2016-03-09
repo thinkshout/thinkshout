@@ -34,3 +34,11 @@ links:
 
   - title: Privacy policy
     url: /privacy/
+
+menu: social-media
+links:
+  - title: facebook
+    url: http://www.facebook.com/ThinkShout
+
+  - title: twitter
+    url: http://www.twitter.com/ThinkShout
