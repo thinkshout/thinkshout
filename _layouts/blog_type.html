@@ -33,10 +33,9 @@ layout: default
     <form>
     <select id="blog-filter" class="blog-filter">
       <option value="all">All</option>
-      <option value="technology-and-innovation">Technology and Innovation</option>
-      <option value="strategy-and-design">Strategy and Design</option>
-      <option value="project-management-and-process">Project Management and Process</option>
-      <option value="culture-community-and-business">Culture, Community, and Business</option>
+      {% for posttype in site.type %}
+      <option value="{{ posttype.type }}">{{ posttype.title }}</option>
+      {% endfor %}
     </select>
     </form>
   </div>

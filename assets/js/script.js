@@ -31,7 +31,7 @@
     }, { offset: '25%' });
   });
 
-// Navbar animation
+  // Navbar animation
   $('body').waypoint(function(direction) {
     var windowSize = $(window).width();
 
@@ -74,27 +74,18 @@
   });
 
   $("#blog-filter").change(function(evt, params) {
-    $('.blog-list').find('li').hide();
     if (params.selected != 'all') {
-      $('.blog-list').find('li.'+params.selected).fadeIn();
+      window.location.replace('/blog/' + params.selected);
     } else {
-      $('.blog-list').find('li').fadeIn();
+      window.location.replace('/blog/');
     }
   });
 
-  function getParam(key) {
-    var value=RegExp(""+key+"[^&]+").exec(window.location.search);
-    return unescape(!!value ? value.toString().replace(/^[^=]+./,"") : "");
+  var blogType = window.location.pathname.replace(/^\/|\/$/g, '').split('/').pop();
+  if (blogType == 'blog') {
+    blogType = 'all';
   }
+  $('#blog-filter').val(blogType).trigger("chosen:updated");
 
-  if ( getParam('category').length ) {
-    var currentCat = getParam('category');
-    $('.blog-list').find('li').hide();
-    $('.blog-list').find('li.'+currentCat).fadeIn();
-    $('html, body').stop().animate( {
-        'scrollTop': $('#filter-wrapper').offset().top-100
-    }, 700);
-    $('#blog-filter').val(currentCat).trigger("chosen:updated");
-  }
 
 })(jQuery);
