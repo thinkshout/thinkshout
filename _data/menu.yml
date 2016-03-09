@@ -1,14 +1,16 @@
-- title: Work
-  url: /work/
+menu: main-menu
+links:
+- title: Who We Are
+  url: /about/
 
-- title: Expertise
+- title: What We Do
   url: /expertise/
 
-- title: Team
-  url: /team/
+- title: Our Work
+  url: /work/
 
-- title: Careers
-  url: /careers/
+- title: Connect With Us
+  url: /contact/
 
 - title: Blog
   url: /blog/
