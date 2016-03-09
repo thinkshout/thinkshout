@@ -3,12 +3,6 @@ title: How to Deal with a Small Design Budget
 layout: blog
 body-class: blog-post
 type:
-expertise: Website Design & User Experience
-expertise-options:
- - Content Strategy & Metrics
- - Website Design & User Experience
- - CRM & Engagement Tools
- - Web Application Development
 header-image:
 header-image-alt:
 

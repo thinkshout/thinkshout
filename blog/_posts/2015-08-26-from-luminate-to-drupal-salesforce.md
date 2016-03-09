@@ -2,12 +2,6 @@
 layout: blog
 body-class: blog-post
 type:
-expertise: CRM & Engagement Tools
-expertise-options:
- - Content Strategy & Metrics
- - Website Design & User Experience
- - CRM & Engagement Tools
- - Web Application Development
 header-image:
 header-image-alt:
 
@@ -17,6 +11,7 @@ published: true
 featured: false
 short: A case for Drupal and Salesforce's NPSP as a superior alternative to Blackbaud's Luminate CRM.
 tags:
+  - Engagement Tools
   - CRM
   - Salesforce
   - Drupal

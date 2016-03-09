@@ -3,12 +3,6 @@ title: Nonprofit Website Benchmarks
 layout: blog
 body-class: blog-post
 type:
-expertise: Content Strategy & Metrics
-expertise-options:
- - Content Strategy & Metrics
- - Website Design & User Experience
- - CRM & Engagement Tools
- - Web Application Development
 header-image:
 header-image-alt:
 
@@ -17,6 +11,7 @@ published: true
 featured: false
 short: Do you know what your site's metrics are telling you? We have some resources for you that can help.
 tags:
+- Content Strategy
 - Nonprofit tech
 - Drupal Planet
 - Google analytics
