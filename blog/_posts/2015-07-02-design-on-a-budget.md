@@ -2,7 +2,7 @@
 title: How to Deal with a Small Design Budget
 layout: blog
 body-class: blog-post
-type:
+topic:
 header-image:
 header-image-alt:
 

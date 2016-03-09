@@ -2,7 +2,7 @@
 title: Meet the ThinkShout Team at DrupalCon LA!
 layout: blog
 body-class: blog-post
-type:
+topic:
 header-image:
 header-image-alt:
 

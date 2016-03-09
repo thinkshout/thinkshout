@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-type: technology
+topic: technology
 header-image:
 header-image-alt:
 

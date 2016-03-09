@@ -2,7 +2,7 @@
 title: Six Scary Words and Un-hacking Drupal
 layout: blog
 body-class: blog-post
-type:
+topic:
 header-image:
 header-image-alt:
 

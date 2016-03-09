@@ -2,7 +2,7 @@
 title: The How and Why of Nonprofits Contributing to Open Source
 layout: blog
 body-class: blog-post
-type:
+topic:
 header-image:
 header-image-alt:
 

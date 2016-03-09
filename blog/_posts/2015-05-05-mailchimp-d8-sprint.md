@@ -2,7 +2,7 @@
 title: Monkeying Around with D8
 layout: blog
 body-class: blog-post
-type:
+topic:
 header-image:
 header-image-alt:
 

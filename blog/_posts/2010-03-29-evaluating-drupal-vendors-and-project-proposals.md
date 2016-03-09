@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-type: strategy
+topic: strategy
 header-image:
 header-image-alt:
 

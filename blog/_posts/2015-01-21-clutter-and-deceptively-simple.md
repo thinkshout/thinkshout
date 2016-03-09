@@ -2,7 +2,7 @@
 title: The Clutter and the Deceptively Simple
 layout: blog
 body-class: blog-post
-type:
+topic:
 header-image:
 header-image-alt:
 

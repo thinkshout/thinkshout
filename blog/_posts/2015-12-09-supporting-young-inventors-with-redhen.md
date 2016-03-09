@@ -15,7 +15,7 @@ tags:
   - Lemelson-MIT
 date: 2015-12-09 23:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
-type: technology
+topic: technology
 
 ---
 
