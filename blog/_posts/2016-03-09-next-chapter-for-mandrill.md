@@ -12,7 +12,7 @@ tags:
   - Drupal 8
   - Open source
   - Modules
-date: 2016-03-09 13:00:00
+date: 2016-03-09 15:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
