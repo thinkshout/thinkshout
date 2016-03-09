@@ -43,12 +43,22 @@ layout: default
 
   <ul class="blog-list">
     {% for post in site.categories.blog %}
-      {% if post.type == page.type %}
-      <li>{% include blog_teaser.html class=class header="h2" short=true %}</li>
-      {% else %}
-      <li>{% include blog_teaser.html class=class header="h2" short=true %}</li>
+    {% if page.type %}
+      {% if post.type == page.type and post.published %}
+    <li>{% include blog_teaser.html class=class header="h2" short=true title=page.title %}</li>
+      {% endif %}
+    {% else %}
+        {% if post.type %}
+          {% for hastype in site.type %}
+            {% if hastype.type == post.type %}
+    <li>{% include blog_teaser.html class=class header="h2" short=true title=hastype.title %}</li>
+            {% endif %}
+          {% endfor %}
+        {% else %}
+    <li>{% include blog_teaser.html class=class header="h2" short=true %}</li>
+        {% endif %}
       {% endif %}
     {% endfor %}
-
   </ul>
+
 </div>

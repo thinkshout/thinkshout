@@ -1,6 +1,6 @@
 <article class="blog-teaser">
   <div class="info">
-    <p><span class="date">{{ post.date | date: '%m.%d.%Y' }}</span> <a class="type" href="{{ site.baseurl }}/blog/post.type }}">{{ page.title }}</a></p>
+    <p><span class="date">{{ post.date | date: '%m.%d.%Y' }}</span> <a class="type" href="{{ site.baseurl }}/blog/{{ post.type }}">{{ include.title }}</a></p>
 
     <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 
@@ -9,10 +9,10 @@
     {% endif %}
   </div>
 
-  {% for person in site.data.team %}
+  {% for person in site.team %}
   {% if post.author == person.name %}
   <div class="byline">
-    <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
+    <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}">
     <div class="byline-wrapper">
       {% if person.published %}
         <a class="team-name" href="{{ site.baseurl }}/who-we-are/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a>
