@@ -15,3 +15,22 @@ links:
 - title: Blog
   url: /blog/
 
+menu: secondary
+links:
+  - title: Who We Are
+    url: /about/
+
+  - title: What We Do
+    url: /expertise/
+
+  - title: Our Work
+    url: /work/
+
+  - title: Connect With Us
+    url: /contact/
+
+  - title: Careers
+    url: /careers/
+
+  - title: Privacy policy
+    url: /privacy/

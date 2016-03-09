@@ -1,14 +1,12 @@
 <footer>
   <div class="container">
   	<nav class="footer-menu">
-  		<ul>
-  			<a href="{{ site.baseurl }}/about/"><li>Who We Are</li></a>
-  			<a href="{{ site.baseurl }}/expertise/"><li>What We Do</li></a>
-  			<a href="{{ site.baseurl }}/work/"><li>Our Work</li></a>
-  			<a href="{{ site.baseurl }}/contact/"><li>Connect With Us</li></a>
-  			<a href="{{ site.baseurl }}/careers/"><li>Careers</li></a>
-        <a href="{{ site.baseurl }}/privacy/"><li>Privacy Policy</li></a>
-  		<ul>
+      <ul>
+        {% assign secondaryMenu = site.data.menu | menu: 'secondary' %}
+        {% for item in secondaryMenu.links %}
+          <a href="{{ site.baseurl }}{{ item.url }}"><li>{{ item.title }}</li></a>
+        {% endfor %}
+      </u>
   	</nav>
 
     <div class="ts-address">
