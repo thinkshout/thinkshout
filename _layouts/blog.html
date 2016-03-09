@@ -87,15 +87,15 @@ layout: default
 </div>
 
 
-{% assign names = site.posts | map: 'author' %}
-{% if names contains page.author %}
+{% assign types = site.posts | map: 'type' %}
+{% if types contains page.type %}
   <div class="team-member-blog">
     <div class="container">
       <h4>Related Blog Posts</h4>
       <div class="row posts">
         {% assign tsloop = 1 %}
         {% for post in site.posts %}
-        {% if post.layout == 'blog' and post.category == page.category and post.published and post.title != page.title %}
+        {% if post.layout == 'blog' and post.type == page.type and post.title != page.title %}
           {% include blogs_related.html %}
           {% assign tsloop = tsloop | plus: 1 %}
           {% if tsloop > 3 %}
