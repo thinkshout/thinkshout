@@ -73,13 +73,15 @@
   var blogType = window.location.pathname.replace(/^\/|\/$/g, '').split('/').pop();
   if (blogType == 'blog') {
     blogType = 'all';
+  } else {
+    blogType = '/blog/topic/' + blogType;
   }
-
+  console.log(blogType)
   $('#blog-filter').chosen({ disable_search: true })
     .val(blogType).trigger("chosen:updated")
     .change(function(evt, params) {
       if (params.selected != 'all') {
-        window.location.replace('/blog/' + params.selected);
+        window.location.replace(params.selected);
       } else {
         window.location.replace('/blog/');
       }

@@ -34,7 +34,7 @@ layout: default
     <select id="blog-filter" class="blog-filter">
       <option value="all">All</option>
       {% for posttopic in site.topic %}
-      <option value="{{ posttopic.topic }}">{{ posttopic.title }}</option>
+      <option value="{{ site.baseurl }}/blog/topic/{{ posttopic.topic }}">{{ posttopic.title }}</option>
       {% endfor %}
     </select>
     </form>

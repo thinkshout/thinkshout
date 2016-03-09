@@ -37,7 +37,7 @@ sitemap:
         - "/work/index.html"
         - "/careers/index.html"
 
-# Case Study collection
+# Collections
 collections:
   careers:
     output: true
@@ -53,4 +53,8 @@ collections:
     permalink: /about/team/:slug/
   topic:
     output: true
-    permalink: /blog/topic/:slug/
+    permalink: /blog/topic/:slug/    
+    paginate: 10
+    paginate_path: "/blog/topic/page:num"
+
+array: []

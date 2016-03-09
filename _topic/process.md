@@ -1,5 +1,5 @@
 ---
-layout: blog_type
+layout: blog_topic
 body-class: blog-landing
 title: Project Management and Process
 topic: process
