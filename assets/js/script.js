@@ -69,12 +69,12 @@
     $('.view-less-blogs').toggle();
   });
 
-  
+  // Blog Type selector
   var blogType = window.location.pathname.replace(/^\/|\/$/g, '').split('/').pop();
   if (blogType == 'blog') {
     blogType = 'all';
   }
-  
+
   $('#blog-filter').chosen({ disable_search: true })
     .val(blogType).trigger("chosen:updated")
     .change(function(evt, params) {
