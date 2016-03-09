@@ -4,9 +4,9 @@
     <h3 class="post-title">{{ post.title}}</h3>
     <p class="post-short">{{ post.short }}</p>
     <p class="byline">
-      {% for person in site.data.team %}
+      {% for person in site.team %}
       {% if post.author == person.name %}
-      <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
+      <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}">
         <strong>{{ person.first_name }} {{ person.last_name }}</strong><br>
         {{ person.position }}
       {% endif %}

@@ -7,9 +7,9 @@ layout: default
 
   <h1 class="post-title">{{ page.title }}</h1>
   <p class="byline">
-    {% for person in site.data.team %}
+    {% for person in site.team %}
     {% if page.author == person.name %}
-    <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.image.small }}">
+    <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}">
     {% if person.published %}
       <a class="team-name" href="{{ site.baseurl }}/who-we-are/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a>
     {% else %}
