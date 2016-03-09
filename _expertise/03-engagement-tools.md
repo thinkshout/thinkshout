@@ -4,7 +4,6 @@ body-class: expertise
 title: CRM & Engagement Tools
 leadin: |
   Increase Engagement Across All Channels
-class: engagement-tools  
 slug: engagement-tools
 tag: Engagement Tools
 
