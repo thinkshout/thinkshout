@@ -41,12 +41,10 @@
       $('.main-menu li a').animate({"padding": "1.1rem 0.625rem"}, 600);
     } else {
       if (windowSize > 979) {
-        console.log(windowSize);
         $('header').animate({"padding":"2rem 0"}, 600);
         $('header .header-logo img').animate({"width":"13rem"}, 600);
         $('.main-menu li a').animate({"padding": "3.125rem 0.625rem"}, 600);
       } else {
-        console.log(windowSize);
         $('header').animate({"padding":"0.5rem"}, 600);
         $('header .header-logo img').animate({"width":"13rem", "margin-top": "0"}, 600);
       }

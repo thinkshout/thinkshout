@@ -15,6 +15,7 @@ team-image:
   medium: team/medium/jaymz.jpg
   large: team/large/jaymz.jpg
 published: true
+current-employee: true
 name: jaymz
 bio: |
   Jaymz’s interest in computers and code manifested at a young age. Growing up, Jaymz always loved building things, and writing code just felt right. After high school, he earned his degree in computer science from Case Western Reserve University. He’s been a software engineer ever since. He started developing his expertise in front-end web development at a small startup here in Portland, and spent a few years building a collaborative platform for web content. When he’s not at the office, he’s chasing his kids around the house, and, you guessed it, writing more code at home. For fun.

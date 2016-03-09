@@ -14,7 +14,8 @@ image:
   small: team/small/david.jpg
   medium: team/medium/david.jpg
   large: team/large/david.jpg
-published: false
+published: true
+current-employee: false
 name: david
 bio: |
   David is a graduate of West Texas A&M University. Before joining our team, he developed seamless e-commerce experiences for Drupal web properties managed by AllPlayers.com, a provider of technology to more than 100,000 community users. Prior to that, he served as the Director of Web Development at Blue Tent Marketing, where he refined the best practices of their internal development team. David continues to be committed to open source and strives to develop sustainable websites for our nonprofit clients. When he’s not busy coding, he’s learning how to play the cello or throwing a boomerang.

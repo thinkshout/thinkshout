@@ -15,6 +15,7 @@ team-image:
   medium: team/medium/jami.jpg
   large: team/large/jami.jpg
 published: true
+current-employee: true
 name: jami
 bio: |
   Jami began her professional life as a bench chemist. So far, we have been unsuccessful in getting her to wear a lab coat and goggles at the office. While working in a biological research lab, Jami learned PHP and MySQL to build analytical tools to assist her team. Now, she’s putting her skills to use for our nonprofit customers, primarily developing Drupal websites. When she’s not helping our clients or contributing to open source projects, she’s watching “Frozen” for the umpteenth time, perfecting her own rendition of “Let it Go.”

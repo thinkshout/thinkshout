@@ -14,7 +14,8 @@ image:
   small: team/small/betsy.jpg
   medium: team/medium/betsy.jpg
   large: team/large/betsy.jpg
-published: false
+published: true
+current-employee: false
 name: betsy
 bio: |
   Betsy’s dedication to excellence helps us maintain lasting, meaningful relationships with our clients, ensuring that the solutions we create are the best they can be. Prior to coming to ThinkShout, Betsy was the Marketing Director at Phase2 Technology. Betsy previously managed advocacy websites for Scenic America, Environmental Media Services and MoveOn.org. Betsy holds an MBA from Kenan-Flagler Business School at University of North Carolina at Chapel Hill, where she focused her studies on Entrepreneurship and Sustainable Enterprise and consulted for Burt’s Bees and TransFair, Inc. Her undergraduate degree is from the University of Iowa.

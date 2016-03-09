@@ -13,6 +13,7 @@ team-image:
   medium: team/medium/amy.jpg
   large: team/large/amy.jpg
 published: true
+current-employee: true
 name: amy
 bio: |
   A professional-musician-turned-developer, Amy came to ThinkShout in search of an opportunity to apply her coding skills to organizations working for positive change in the world, and she feels right at home here. Before joining our team, Amy worked as an IT support rep for several different online music tech companies. She also dabbles as a light and sound engineer and has worked on shows for artists like Björk and Paul Simon. She’s still a devoted French horn player and admits to being an old school Whovian. Amy also happens to be the only trapeze artist in the office.
