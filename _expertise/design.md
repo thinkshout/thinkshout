@@ -21,6 +21,7 @@ points: |
   <li>Responsive Design</li>
   <li>Usability Testing</li>
 
+order: 2
 ---
 
 We have organized our information architecture, content strategy, and visual design capabilities around the vision of "Experience Design.” This is driven by the need to design for multiple devices and by data showing that users very often switch between devices and contexts as they use sites.

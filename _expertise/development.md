@@ -20,6 +20,7 @@ points: |
   <li>Peer-to-Peer Fundraising</li>
   <li>Event Management and Ticketing</li>
   <li>Online Mapping</li>
+order: 4
 ---
 
 Over the last 15 years or so, we’ve seen consistent growth in nonprofits’ appreciation for how open source tools can support their goals for online engagement. The immediate benefits of implementing an open source solution are clear:
