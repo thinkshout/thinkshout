@@ -17,29 +17,31 @@ permalink: expertise/
 {% assign expertise = site.expertise | sort: 'order' %}
 {% assign counter = 1 %}
 {% for area in expertise %}
-  <section class="expertise-teaser" id="expertise{{ counter }}">
-    <div class="container">
-      <div class="side expertise-teaser-left">
-        <h1>{{ area.title }}</h1>
-        <a href="{{ site.baseurl }}{{ area.url }}" class="uppercase-link">Learn More</a>
+  {% if area.layout == 'expertise-detail' %}
+    <section class="expertise-teaser" id="expertise{{ counter }}">
+      <div class="container">
+        <div class="side expertise-teaser-left">
+          <h1>{{ area.title }}</h1>
+          <a href="{{ site.baseurl }}{{ area.url }}" class="uppercase-link">Learn More</a>
+        </div>
+        <div class="side expertise-teaser-right">
+          <p>{{ area.blurb }}</p>
+          <ul>
+            {% for point in area.points %}
+              {{ point }}
+            {% endfor %}
+          </ul>
+          {% if area.examples %}
+          <i class="fa fa-caret-up"></i>
+          <p class="expertise-examples">
+            {{ area.examples }}
+          </p>
+          {% endif %}
+        </div>
       </div>
-      <div class="side expertise-teaser-right">
-        <p>{{ area.blurb }}</p>
-        <ul>
-          {% for point in area.points %}
-            {{ point }}
-          {% endfor %}
-        </ul>
-        {% if area.examples %}
-        <i class="fa fa-caret-up"></i>
-        <p class="expertise-examples">
-          {{ area.examples }}
-        </p>
-        {% endif %}
-      </div>
-    </div>
-  </section>
-  {% assign counter = counter | plus: 1 %}
+    </section>
+    {% assign counter = counter | plus: 1 %}
+  {% endif %}
 {% endfor %}
 
 {% include open-source-contributions.html %}
