@@ -32,7 +32,7 @@ layout: default
         {% if tag == page.tag %}
 
           {% include blogs_related.html %}
-          
+
           {% assign tsloop = tsloop | plus: 1 %}
           {% if tsloop > 3 %}
           {% break %}

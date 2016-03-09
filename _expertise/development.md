@@ -1,5 +1,5 @@
 ---
-layout: expertise
+layout: expertise-detail
 body-class: expertise
 title: Web Application Development
 leadin: |
