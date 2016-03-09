@@ -1,7 +1,7 @@
 ---
 layout: job
 title: User Experience Designer
-permalink: careers/ux-designer/
+slug: ux-design/
 mailto: jobs@thinkshout.com
 blurb: We are looking for a User Experience Designer who thrives in crafting elegant solutions to meet the needs of end users while keeping our clients’ goals firmly in mind.
 active: false

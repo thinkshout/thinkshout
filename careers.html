@@ -2,6 +2,7 @@
 layout: default
 body-class: careers
 title: Careers
+permalink: careers/
 description: "Want to work at ThinkShout? Available job openings"
 keywords:
   - careers
@@ -33,18 +34,18 @@ keywords:
 </div>
 
   <div class="job-list">
-    {% for page in site.pages %}
-    {% if page.layout == 'job' and page.active == true %}
+    {% for job in site.careers %}
+    {% if job.layout == 'job' and job.active == true %}
     <div class="job-teaser">
       <div class="container">
         <div class="side-left">
-            <a href="{{ site.baseurl }}/{{ page.permalink }}"><h3>{{ page.title }}</h3></a>
+            <a href="{{ site.baseurl }}{{ job.url }}"><h3>{{ job.title }}</h3></a>
             <p>
-              {{ page.blurb }}
+              {{ job.blurb }}
             </p>
         </div>
         <div class="side-right">
-          <a href="{{ site.baseurl }}/{{ page.permalink }}">See & Apply</a>
+          <a href="{{ site.baseurl }}{{ job.url }}">See & Apply</a>
         </div>
       </div>
     </div>
@@ -89,6 +90,6 @@ keywords:
         <li>Don't compromise on tools, process, or quality.</li>
         <li>Work hard, have fun, and give back.</li>
       </ul>
-      <a href="{{ site.baseurl }}/what-we-do" class="uppercase-link">What We Do<i class="fa fa-caret-right"></i></a>
+      <a href="{{ site.baseurl }}/work/" class="uppercase-link">What We Do<i class="fa fa-caret-right"></i></a>
   </div>
 </section>

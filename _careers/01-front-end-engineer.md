@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Front End Engineer
-permalink: careers/front-end-engineer/
+slug: front-end/
 mailto: thinkshout-job1@mytribehr.com
 blurb: ThinkShout seeks to hire a senior front end engineer, someone who's passionate about the web in general and user experience particular.
 active: false

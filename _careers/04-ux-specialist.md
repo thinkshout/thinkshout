@@ -1,7 +1,7 @@
 ---
 layout: job
 title: User Experience Specialist
-permalink: careers/ux-specialist/
+slug: ux-specialist/
 mailto: thinkshout-job4@mytribehr.com
 blurb: Our UX specialist will work closely with ThinkShout’s User Experience Lead to produce user experience documentation, wireframes, and graphic design.
 active: false

@@ -1,7 +1,7 @@
 ---
 layout: job
 title: User Experience Designer/Information Architect
-permalink: careers/ux-designer-information-architect/
+slug: ux-design-info-architect/
 mailto: jobs@thinkshout.com
 blurb: We are looking for a User Experience Designer with a strong background in information architecture to join our Discovery, Strategy, and User Experience team.
 active: true

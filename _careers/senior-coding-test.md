@@ -2,7 +2,7 @@
 layout: page
 title: Senior Software Engineer Coding Test
 description: "Want to work at ThinkShout? Take this test!"
-permalink: /careers/senior-coding-test/
+slug: senior-coding-test/
 ---
 
 In order to evaluate your Drupal skills, we'd like you to write a Drupal 7 module that satisfies the following requirements:

@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Senior Project Manager
-permalink: careers/senior-project-manager/
+slug: senior-pm/
 mailto: jobs@thinkshout.com
 blurb: As a Senior PM at ThinkShout, you will lead design and development projects for nonprofit organizations.
 active: true

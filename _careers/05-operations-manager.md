@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Operations Manager
-permalink: careers/operations-manager/
+slug: operations-manager/
 mailto: jobs-ops-mgr@thinkshout.com
 blurb: ThinkShout seeks to hire a **part-time** operations manager to assist with the daily operations, financial management and human resources administration of our team.
 active: false

@@ -2,7 +2,7 @@
 layout: page
 title: Developer Coding Test
 description: "Want to work at ThinkShout? Take this test!"
-permalink: /careers/coding-test/
+slug: coding-test/
 ---
 
 In order to evaluate your Drupal skills, we'd like you to write a simple Drupal 7 module that satisfies the following requirements:

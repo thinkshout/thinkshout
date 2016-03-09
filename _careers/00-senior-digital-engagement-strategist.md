@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Senior Digital Engagement Strategist
-permalink: careers/senior-digital-engagement-strategist/
+slug: senior-strategist/
 mailto: jobs@thinkshout.com
 blurb: We are seeking a senior digital strategist to join our Discovery, Strategy, and User Experience team.
 active: false

@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Technical Project Manager
-permalink: careers/technical-project-manager/
+slug: tech-pm/
 mailto: jobs@thinkshout.com
 blurb: We are seeking a Technical Project Manager with excellent communication skills and an ever-present drive to improve our overall delivery of professional services.
 active: false

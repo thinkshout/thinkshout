@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Software Engineer
-permalink: careers/softwar-engineer/
+slug: software-engineer/
 mailto: jobs@thinkshout.com
 active: true
 blurb: Software Engineers at ThinkShout are responsible for the delivery of world-class open source solutions.

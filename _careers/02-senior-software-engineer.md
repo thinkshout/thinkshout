@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Senior Software Engineer
-permalink: careers/senior-softwar-engineer/
+slug: senior-software-engineer/
 mailto: jobs@thinkshout.com
 blurb: Senior Software Engineers at ThinkShout are responsible for the delivery of world-class open source solutions.
 active: true

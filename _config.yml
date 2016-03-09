@@ -39,6 +39,9 @@ sitemap:
 
 # Case Study collection
 collections:
+  careers:
+    output: true
+    permalink: /careers/:slug/
   case_studies:
     output: true
     permalink: /work/:slug/
