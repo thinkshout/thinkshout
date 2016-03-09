@@ -4,8 +4,9 @@ body-class: expertise
 title: Web Application Development
 leadin: |
   Unwavering Commitment To Open Source Excellence
-class: open-source
 slug: development
+tag: Development
+
 images:
   hero: marquee/open-source.jpg
   icon: expertise/icon-open-source.svg

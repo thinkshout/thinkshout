@@ -3,12 +3,6 @@ title: Committing to D8 Core - A Little Bit Goes a Long Way
 layout: blog
 body-class: blog-post
 type:
-expertise: Web Application Development
-expertise-options:
- - Content Strategy & Metrics
- - Website Design & User Experience
- - CRM & Engagement Tools
- - Web Application Development
 header-image:
 header-image-alt:
 
@@ -17,6 +11,7 @@ published: true
 featured: false
 short: The story of one ThinkShouter's first commit to D8 core at DrupalCon Los Angeles
 tags:
+- Development
 - Drupal 8
 - Drupal Planet
 - Open Source

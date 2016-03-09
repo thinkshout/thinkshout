@@ -7,6 +7,7 @@ published: true
 featured: false
 short: The Capital Area Food Bank shares their RedHen Raiser successes.
 tags:
+  - Engagement Tools
   - Drupal Planet
   - CAFB of DC
   - RedHen Raiser
@@ -16,12 +17,6 @@ tags:
 date: 2016-01-18
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 type: technology
-expertise: CRM & Engagement Tools
-expertise-options:
- - Content Strategy & Metrics
- - Website Design & User Experience
- - CRM & Engagement Tools
- - Web Application Development
 ---
 
 This past summer, [Sean shed some light on one of our most exciting Drupal contributions](http://thinkshout.com/blog/2015/08/peer-to-peer-with-drupal/) to date: [RedHen Raiser](https://www.drupal.org/project/redhen_raiser), our open source peer-to-peer fundraising solution, the first of its kind to be built entirely with Drupal. Thanks to the [Capital Area Food Bank of Washington, D.C.](https://www.capitalareafoodbank.org/), we finally had the opportunity to build a platform that would provide fundraisers a highly-customizable, Drupal alternative to SAAS applications like Causevox and Crowdrise.

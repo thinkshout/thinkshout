@@ -3,12 +3,6 @@ title: The Clutter and the Deceptively Simple
 layout: blog
 body-class: blog-post
 type:
-expertise: Content Strategy & Metrics
-expertise-options:
- - Content Strategy & Metrics
- - Website Design & User Experience
- - CRM & Engagement Tools
- - Web Application Development
 header-image:
 header-image-alt:
 
@@ -17,6 +11,7 @@ published: true
 featured: false
 short: Trends in Nonprofit Tech to Watch in 2015
 tags:
+- Content Strategy
 - Drupal
 - Nonprofit Tech
 - Tech Trends

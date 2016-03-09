@@ -7,6 +7,7 @@ published: true
 featured: false
 short: "We built a brand new Drupal-based tool for Lemelson-MIT InvenTeams."
 tags:
+  - Engagement Tools
   - RedHen
   - Drupal Planet
   - Drupal
@@ -15,12 +16,7 @@ tags:
 date: 2015-12-09 23:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 type: technology
-expertise: CRM & Engagement Tools
-expertise-options:
- - Content Strategy & Metrics
- - Website Design & User Experience
- - CRM & Engagement Tools
- - Web Application Development
+
 ---
 
 We always talk about [RedHen](https://www.drupal.org/project/redhen) as a Customer Relationship Management framework. When you install RedHen in your Drupal site, you get the basic building blocks of a CRM. Your job is to get to work defining fields, connecting entities, and building out everything you might imagine you’d like a website-integrated CRM to do. We recently partnered with the the [Lemelson-MIT](http://lemelson.mit.edu/) Program at the Massachusetts Institute of Technology, who needed all of these building blocks. The Lemelson-MIT Program celebrates outstanding inventors and inspires young people to pursue creative lives and careers through invention. They had a vision to create an integrated experience within their Drupal site specifically for educators and students associated with their InvenTeam program. This was a perfect fit for the RedHen framework.

@@ -4,8 +4,9 @@ body-class: expertise
 title: Website Design & User Experience
 leadin: |
   A Collaborative, Iterative Design Approach
-class: design
 slug: design
+tag: Design
+
 images:
   hero: marquee/design.jpg
   icon: expertise/icon-design.svg

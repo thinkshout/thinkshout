@@ -3,12 +3,6 @@ title: The How and Why of Nonprofits Contributing to Open Source
 layout: blog
 body-class: blog-post
 type:
-expertise: Web Application Development
-expertise-options:
- - Content Strategy & Metrics
- - Website Design & User Experience
- - CRM & Engagement Tools
- - Web Application Development
 header-image:
 header-image-alt:
 
@@ -17,6 +11,7 @@ published: true
 featured: false
 short: Let's debunk some open source myths.
 tags:
+- Development
 - Drupal
 - Drupal Planet
 - Nonprofit Tech
