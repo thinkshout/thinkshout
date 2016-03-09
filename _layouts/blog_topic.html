@@ -33,8 +33,8 @@ layout: default
     <form>
     <select id="blog-filter" class="blog-filter">
       <option value="all">All</option>
-      {% for posttype in site.type %}
-      <option value="{{ posttype.type }}">{{ posttype.title }}</option>
+      {% for posttopic in site.topic %}
+      <option value="{{ posttopic.topic }}">{{ posttopic.title }}</option>
       {% endfor %}
     </select>
     </form>
@@ -42,15 +42,15 @@ layout: default
 
   <ul class="blog-list">
     {% for post in site.categories.blog %}
-    {% if page.type %} 
-      {% if post.type == page.type %}
+    {% if page.topic %} 
+      {% if post.topic == page.topic %}
         <li>{% include blog_teaser.html class=class header="h2" short=true title=page.title %}</li>
       {% endif %}
     {% else %}
-      {% if post.type %}
-        {% for hastype in site.type %}
-        {% if hastype.type == post.type %}
-          <li>{% include blog_teaser.html class=class header="h2" short=true title=hastype.title %}</li>
+      {% if post.topic %}
+        {% for hastopic in site.topic %}
+        {% if hastopic.topic == post.topic %}
+          <li>{% include blog_teaser.html class=class header="h2" short=true title=hastopic.title %}</li>
         {% endif %}
         {% endfor %}
       {% else %}

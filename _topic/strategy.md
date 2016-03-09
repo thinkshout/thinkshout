@@ -1,9 +1,9 @@
 ---
 layout: blog_type
 body-class: blog-landing
-title: Culture, Community, and Business
-type: culture
-description: "Our thoughts on Culture, Community, and Business from the ThinkShout blog."
+title: Strategy and Design
+topic: strategy
+description: "Our thoughts on Strategy and Design from the ThinkShout blog."
 keywords:
   - nonprofit technology
   - drupal

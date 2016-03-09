@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="blog-header">
   {% if page.featured %}<p class="featured">Featured Post</p>{% endif %}
-  <p><span class="date">{{ page.date | date: '%m.%d.%Y' }}</span> <a class="category" href="{{ site.baseurl }}/blog/{{ page.type }}">{{ page.type }}</a> </p>
+  <p><span class="date">{{ page.date | date: '%m.%d.%Y' }}</span> <a class="category" href="{{ site.baseurl }}/blog/{{ page.topic }}">{{ page.topic }}</a> </p>
 
   <h1 class="post-title">{{ page.title }}</h1>
   <p class="byline">
@@ -87,15 +87,15 @@ layout: default
 </div>
 
 
-{% assign types = site.posts | map: 'type' %}
-{% if types contains page.type %}
+{% assign topics = site.posts | map: 'topic' %}
+{% if topics contains page.topic %}
   <div class="team-member-blog">
     <div class="container">
       <h4>Related Blog Posts</h4>
       <div class="row posts">
         {% assign tsloop = 1 %}
         {% for post in site.posts %}
-        {% if post.layout == 'blog' and post.type == page.type and post.title != page.title %}
+        {% if post.layout == 'blog' and post.topic == page.topic and post.title != page.title %}
           {% include blogs_related.html %}
           {% assign tsloop = tsloop | plus: 1 %}
           {% if tsloop > 3 %}

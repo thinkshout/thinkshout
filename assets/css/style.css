@@ -2780,19 +2780,19 @@ a {
       @media (min-width: 1200px) {
         .blog-landing .blog-list li .date {
           display: inline; } }
-    .blog-landing .blog-list li a.type {
+    .blog-landing .blog-list li a.topic {
       color: #f1b332;
       font-size: 0.875rem;
       font-weight: 700;
       display: block; }
       @media (min-width: 671px) and (max-width: 979px) {
-        .blog-landing .blog-list li a.type {
+        .blog-landing .blog-list li a.topic {
           display: inline; } }
       @media (min-width: 980px) and (max-width: 1199px) {
-        .blog-landing .blog-list li a.type {
+        .blog-landing .blog-list li a.topic {
           display: inline; } }
       @media (min-width: 1200px) {
-        .blog-landing .blog-list li a.type {
+        .blog-landing .blog-list li a.topic {
           display: inline; } }
     .blog-landing .blog-list li h3 a {
       color: #626262;

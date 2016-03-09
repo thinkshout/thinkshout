@@ -51,6 +51,6 @@ collections:
   team:
     output: true
     permalink: /about/team/:slug/
-  type:
+  topic:
     output: true
-    permalink: /blog/:title/
+    permalink: /blog/topic/:slug/

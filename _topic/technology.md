@@ -2,7 +2,7 @@
 layout: blog_type
 body-class: blog-landing
 title: Technology and Innovation
-type: technology
+topic: technology
 description: "Our thoughts on Technology and Innovation from the ThinkShout blog."
 keywords:
   - nonprofit technology

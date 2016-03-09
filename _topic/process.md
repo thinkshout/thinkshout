@@ -2,7 +2,7 @@
 layout: blog_type
 body-class: blog-landing
 title: Project Management and Process
-type: process
+topic: process
 description: "Our thoughts on Project Management and Process from the ThinkShout blog."
 keywords:
   - nonprofit technology
