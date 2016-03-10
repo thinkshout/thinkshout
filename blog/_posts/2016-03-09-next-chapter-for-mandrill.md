@@ -20,7 +20,7 @@ It’s easy to take for granted all the great tools we use on the web, everythin
 
   * Deliverability
   * Reporting & Accountability
-  * Templated emails that look good across all email clients. 
+  * Templated emails that look great across all email clients 
 
 As the team who originally partnered with [MailChimp](http://mailchimp.com/) to build the [Mandrill module](https://www.drupal.org/project/mandrill), we might be a bit biased, but we think it’s one of the best transactional email services out there that integrates with Drupal. We have many clients that use both [MailChimp](https://www.drupal.org/project/mailchimp) and Mandrill, and many that use Mandrill by itself. In fact, we just completed a [Mandrill 8.x-1.0-alpha1](https://www.drupal.org/node/2683599) release with all the great features of Mandrill for Drupal 8. 
 
