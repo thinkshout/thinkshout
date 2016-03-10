@@ -4661,8 +4661,27 @@ header {
     padding: 7rem 0 13rem 0;
     position: relative;
     width: 100%; }
+    .front .featured-case-study .gradient {
+      background-image: linear-gradient(to left, rgba(40, 40, 40, 0.8), rgba(40, 40, 40, 0.5));
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 10; }
+      @media (min-width: 671px) and (max-width: 979px) {
+        .front .featured-case-study .gradient {
+          background-image: linear-gradient(to left, #282828, rgba(40, 40, 40, 0.4)); } }
+      @media (min-width: 980px) and (max-width: 1199px) {
+        .front .featured-case-study .gradient {
+          background-image: linear-gradient(to left, #282828, transparent 65%); } }
+      @media (min-width: 1200px) {
+        .front .featured-case-study .gradient {
+          background-image: linear-gradient(to left, #282828, transparent 65%); } }
     .front .featured-case-study .featured-case-study-text {
-      text-align: center; }
+      text-align: center;
+      position: relative;
+      z-index: 100; }
       @media (min-width: 671px) and (max-width: 979px) {
         .front .featured-case-study .featured-case-study-text {
           float: left;
@@ -4688,13 +4707,16 @@ header {
         font-size: 2.25rem;
         margin: 0.5rem auto; }
       .front .featured-case-study .featured-case-study-text h4 {
-        color: #58585b;
+        color: #fff;
         font-size: 0.8125rem;
         text-transform: uppercase; }
       .front .featured-case-study .featured-case-study-text p {
-        font-size: 0.875rem; }
+        font-size: 0.875rem;
+        color: #fff; }
       .front .featured-case-study .featured-case-study-text i {
         color: #f26d21; }
+      .front .featured-case-study .featured-case-study-text .uppercase-link {
+        color: #fff; }
   .front .three-case-studies {
     overflow: hidden; }
     .front .three-case-studies .orange-overlay {
