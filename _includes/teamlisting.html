@@ -2,7 +2,7 @@
   {% for person in site.team %}
     {% if person.current-employee %}
       <div class="team-member">
-        <a href="{{ person.url }}">
+        <a href="{{ site.baseurl }}{{ person.url }}">
           <div class="image">
             <img src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}" alt="{{ person.first_name }} {{ person.last_name }}">
           </div>

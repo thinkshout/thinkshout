@@ -59,13 +59,13 @@ layout: default
   <div class="pagination">
     {% if page.previous %}
       <div class="previous">
-        <a href="{{ page.previous.url }}"><span class="arrow icon-angle-left"></span> {{ page.previous.title }}</a>
+        <a href="{{ site.baseurl }}{{ page.previous.url }}"><span class="arrow icon-angle-left"></span> {{ page.previous.title }}</a>
       </div>
     {% endif %}
 
     {% if page.next %}
       <div class="next">
-        <a href="{{ page.next.url }}"><span class="arrow icon-angle-right"></span> {{ page.next.title }}</a>
+        <a href="{{ site.baseurl }}{{ page.next.url }}"><span class="arrow icon-angle-right"></span> {{ page.next.title }}</a>
       </div>
     {% endif %}
   </div>

@@ -56,7 +56,7 @@ layout: default
 
     <h3>{{ page.blog-cta.title }}</h3>
     <p>{{ page.blog-cta.description }}</p>
-    <a href="{{ page.blog-cta.link }}" class="uppercase-link">Learn More<i class="fa fa-caret-right"></i></a>
+    <a href="{{ site.baseurl }}{{ page.blog-cta.link }}" class="uppercase-link">Learn More<i class="fa fa-caret-right"></i></a>
   </div>
   {% endif %}
 
@@ -84,13 +84,13 @@ layout: default
 <div class="pagination">
   {% if page.previous %}
     <div class="previous">
-      <a href="{{ page.previous.url }}"><span class="fa fa-arrow-circle-left"></span> <span>{{ page.previous.title }}</span></a>
+      <a href="{{ site.baseurl }}{{ page.previous.url }}"><span class="fa fa-arrow-circle-left"></span> <span>{{ page.previous.title }}</span></a>
     </div>
   {% endif %}
 
   {% if page.next %}
     <div class="next">
-      <a href="{{ page.next.url }}"><span>{{ page.next.title }}</span> <span class="fa fa-arrow-circle-right"></span></a>
+      <a href="{{ site.baseurl }}{{ page.next.url }}"><span>{{ page.next.title }}</span> <span class="fa fa-arrow-circle-right"></span></a>
     </div>
   {% endif %}
 </div>
