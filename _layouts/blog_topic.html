@@ -40,8 +40,12 @@ layout: default
     </form>
   </div>
 
+  {% if page.paginator %}
+  {% assign paginator = page.paginator %}
+  {% endif %}
+
   <ul class="blog-list">
-    {% for post in site.categories.blog %}
+    {% for post in paginator.posts %}
     {% if page.topic %} 
       {% if post.topic == page.topic %}
         <li>{% include blog_teaser.html class=class header="h2" short=true title=page.title %}</li>
@@ -59,5 +63,24 @@ layout: default
     {% endif %}
     {% endfor %}
   </ul>
+
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <div class="previous">
+        <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}"><span class="fa fa-arrow-circle-left"></span> <span>Previous</span></a>
+      </div>
+    {% else %}
+      <span class="previous">Previous</span>
+    {% endif %}
+    <div class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</div>
+    {% if paginator.next_page %}
+      <div class="next">
+        <a href="{{ site.baseurl }}{{ paginator.next_page_path }}"><span>Next</span> <span class="fa fa-arrow-circle-right"></span></a>
+      </div>
+    {% else %}
+      <span class="next ">Next</span>
+    {% endif %}
+  </div>
 
 </div>

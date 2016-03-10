@@ -242,46 +242,45 @@
       }
     }
   }
+}
 
-  .pagination {
-    color: $darkgray;
-    margin: 1rem auto 6rem;
-    max-width: 996px;
-    padding: 0 rem(8);
-    width: 94%;
-    @include mq(lt) { width: 90%; padding: 0 rem(16); }
-    @include mq(md) { width: 90%; padding: 0 rem(24); }
-    @include mq(l)  { width: 100%; padding: 0 rem(40); }
+.pagination {
+  color: $darkgray;
+  display: table;
+  table-layout: fixed;
+  margin: 1rem auto 6rem;
+  max-width: 996px;
+  padding: 0 rem(8);
+  width: 94%;
+  @include mq(lt) { width: 90%; padding: 0 rem(16); }
+  @include mq(md) { width: 90%; padding: 0 rem(24); }
+  @include mq(l)  { width: 100%; padding: 0 rem(40); }
+  a {
+    color: $orange;
+  }
+  .previous,
+  .next,
+  .page_number {
+    display: table-cell;
+    font-size: rem(18);
+    vertical-align: top;
     a {
-      color: $orange;
-    }
-    .previous,
-    .next {
-      display: inline-block;
-      float: left;
-      font-size: rem(18);
-      margin-bottom: 1rem;
-      max-width: 49%;
-      a {
-        display: table;
-        height: 100%;
-        width: 100%;
-        margin-bottom: 1rem;
-        span {
-          display: table-cell;
-          padding-right: 0.8rem;
-          vertical-align: middle;
-        }
-        .fa {
-          font-size: rem(24);
-        }
+      span {
+        padding-right: 0.8rem;
+      }
+      .fa {
+        font-size: rem(24);
       }
     }
-    .next {
-      float: right;
-      text-align: right;
-    }
   }
+  .next {
+    float: right;
+    text-align: right;
+  }
+  .page_number {
+    text-align: center;
+  }
+
 }
 
   // @include mq(lt) {  }

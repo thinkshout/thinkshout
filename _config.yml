@@ -20,8 +20,12 @@ contact_redirect: 'thanks'
 tag_dir: 'blog/category'
 
 # Blog pagination.
-# paginate: 10
-# paginate_path: "blog/page:num"
+gems: [jekyll-paginate, jekyll-paginate-category]
+paginate: 10
+paginate_path: "blog/page:num"
+
+category_dir: "blog"
+category_layout: "index.html"
 
 # Setting relative permalink to false. See http://jekyllrb.com/docs/upgrading/.
 relative_permalinks: false

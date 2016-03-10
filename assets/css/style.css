@@ -2625,50 +2625,48 @@ a {
     display: block; }
     .blog-post .body .blog-cta a.uppercase-link i {
       color: #3f3f41; }
-.blog-post .pagination {
+
+.pagination {
   color: #58585b;
+  display: table;
+  table-layout: fixed;
   margin: 1rem auto 6rem;
   max-width: 996px;
   padding: 0 0.5rem;
   width: 94%; }
   @media (min-width: 671px) and (max-width: 979px) {
-    .blog-post .pagination {
+    .pagination {
       width: 90%;
       padding: 0 1rem; } }
   @media (min-width: 980px) and (max-width: 1199px) {
-    .blog-post .pagination {
+    .pagination {
       width: 90%;
       padding: 0 1.5rem; } }
   @media (min-width: 1200px) {
-    .blog-post .pagination {
+    .pagination {
       width: 100%;
       padding: 0 2.5rem; } }
-  .blog-post .pagination a {
+  .pagination a {
     color: #f26d21; }
-  .blog-post .pagination .previous,
-  .blog-post .pagination .next {
-    display: inline-block;
-    float: left;
+  .pagination .previous,
+  .pagination .next,
+  .pagination .page_number {
+    display: table-cell;
     font-size: 1.125rem;
-    margin-bottom: 1rem;
-    max-width: 49%; }
-    .blog-post .pagination .previous a,
-    .blog-post .pagination .next a {
-      display: table;
-      height: 100%;
-      width: 100%;
-      margin-bottom: 1rem; }
-      .blog-post .pagination .previous a span,
-      .blog-post .pagination .next a span {
-        display: table-cell;
-        padding-right: 0.8rem;
-        vertical-align: middle; }
-      .blog-post .pagination .previous a .fa,
-      .blog-post .pagination .next a .fa {
-        font-size: 1.5rem; }
-  .blog-post .pagination .next {
+    vertical-align: top; }
+    .pagination .previous a span,
+    .pagination .next a span,
+    .pagination .page_number a span {
+      padding-right: 0.8rem; }
+    .pagination .previous a .fa,
+    .pagination .next a .fa,
+    .pagination .page_number a .fa {
+      font-size: 1.5rem; }
+  .pagination .next {
     float: right;
     text-align: right; }
+  .pagination .page_number {
+    text-align: center; }
 
 @media (max-width: 480px) {
   .blog-landing .main-content {
