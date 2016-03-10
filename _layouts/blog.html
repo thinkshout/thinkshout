@@ -3,7 +3,16 @@ layout: default
 ---
 <div class="blog-header">
   {% if page.featured %}<p class="featured">Featured Post</p>{% endif %}
-  <p><span class="date">{{ page.date | date: '%m.%d.%Y' }}</span> <a class="category" href="{{ site.baseurl }}/blog/topic/{{ page.topic }}">{{ page.topic }}</a> </p>
+
+  <p><span class="date">{{ page.date | date: '%m.%d.%Y' }}</span>
+  {% if page.topic %}
+    {% for hastopic in site.topic %}
+      {% if hastopic.topic == page.topic %}
+        <a class="topic" href="{{ site.baseurl }}/blog/topic/{{ page.topic }}">{{ hastopic.title }}</a>
+      {% endif %}
+    {% endfor %}
+  {% endif %}  
+  </p>
 
   <h1 class="post-title">{{ page.title }}</h1>
   <p class="byline">

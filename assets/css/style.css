@@ -2253,19 +2253,19 @@ a {
     @media (min-width: 1200px) {
       .blog-post .blog-header .date {
         display: inline; } }
-  .blog-post .blog-header a.category {
+  .blog-post .blog-header a.topic {
     color: #f1b332;
     font-size: 0.9375rem;
     font-weight: 700;
     display: block; }
     @media (min-width: 671px) and (max-width: 979px) {
-      .blog-post .blog-header a.category {
+      .blog-post .blog-header a.topic {
         display: inline; } }
     @media (min-width: 980px) and (max-width: 1199px) {
-      .blog-post .blog-header a.category {
+      .blog-post .blog-header a.topic {
         display: inline; } }
     @media (min-width: 1200px) {
-      .blog-post .blog-header a.category {
+      .blog-post .blog-header a.topic {
         display: inline; } }
   .blog-post .blog-header h1 {
     color: #626262;
