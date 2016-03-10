@@ -3,10 +3,12 @@
     <h1>Our Expertise</h1>
     {% for area in site.expertise %}
       <div class="our-expertise-block">
-        <a href="{{ site.baseurl }}{{ area.url }}"><h2>{{ area.title }}</h2></a>
-        <p>
-          {{ area.blurb_short }}
-        </p>
+        {% if area.layout == 'expertise-detail' %}
+          <a href="{{ site.baseurl }}{{ area.url }}"><h2>{{ area.title }}</h2></a>
+          <p>
+            {{ area.blurb_short }}
+          </p>
+        {% endif %}
       </div>
     {% endfor %}
     <a href="{{ site.baseurl }}/expertise" class="uppercase-link">What We Do<i class="fa fa-caret-right"></i></a>
