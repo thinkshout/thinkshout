@@ -40,17 +40,20 @@ layout: default
     </form>
   </div>
 
+{% if page.topic %}
+  <ul class="blog-list">
+    {% for post in site.categories.blog %}
+      {% if post.topic == page.topic %}
+        <li>{% include blog_teaser.html class=class header="h2" short=true title=page.title %}</li>
+      {% endif %}    
+    {% endfor %}
+  </ul>
+{% else %}
   {% if page.paginator %}
   {% assign paginator = page.paginator %}
   {% endif %}
-
   <ul class="blog-list">
-    {% for post in paginator.posts %}
-    {% if page.topic %} 
-      {% if post.topic == page.topic %}
-        <li>{% include blog_teaser.html class=class header="h2" short=true title=page.title %}</li>
-      {% endif %}
-    {% else %}
+    {% for post in paginator.posts %}    
       {% if post.topic %}
         {% for hastopic in site.topic %}
         {% if hastopic.topic == post.topic %}
@@ -60,9 +63,9 @@ layout: default
       {% else %}
         <li>{% include blog_teaser.html class=class header="h2" short=true %}</li>
       {% endif %}
-    {% endif %}
     {% endfor %}
   </ul>
+{% endif %}
 
   <!-- Pagination links -->
   <div class="pagination">
