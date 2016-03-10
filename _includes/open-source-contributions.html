@@ -4,7 +4,7 @@
     <p>We know open source. Our developers have invested thousands of hours into improving nonprofit capacity through open source work, to the point that our contributions now power more than 50,000 websites.</p>
     {% assign expertise = site.expertise %}
     {% for area in expertise %}
-      {% if area.title == 'Open Source' %}
+      {% if area.layout == 'open_source' %}
         <a href="{{ site.baseurl }}{{ area.url }}" class="uppercase-link">Check out our open source contributions<i class="fa fa-caret-right"></i></a>
       {% endif %}
     {% endfor %}
