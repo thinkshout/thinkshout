@@ -30,7 +30,7 @@ We started out by implementing a central administrative UI to provide access to 
 
 The UI is handy: searchable, filterable, sortable. Sometimes Drupal makes stuff really easy!
 
-![salesforce_sync_ui_admin.png](/assets/images/blog/salesforce_sync_ui_admin.png)
+![salesforce_sync_ui_admin.png]({{ site.baseurl }}/assets/images/blog/salesforce_sync_ui_admin.png)
 
 Can we be real for a second, though? If I have an Event syncing with a Salesforce Campaign, and I want to look at the sync history, does it make sense for me to go to a special part of my site and track down that Event with some weird unique UI?
 

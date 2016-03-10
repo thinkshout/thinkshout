@@ -19,7 +19,7 @@ tags:
   - Drupal Planet
 ---
 
-![](/assets/images/blog/desire_path.jpg)
+![]({{ site.baseurl }}/assets/images/blog/desire_path.jpg)
 
 ### _Why do people visit your organization’s website?_
 

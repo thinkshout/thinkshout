@@ -69,7 +69,7 @@ For example, using several different image aspect ratios, like square for avatar
 
 By simply deciding on a standard image aspect ratio of 16:9, you’ve cut the image configuration time by 2/3. And the overall design aesthetic won’t suffer a bit.   
 
-![ballin_0](/assets/images/blog/ballin_0.png)
+![ballin_0]({{ site.baseurl }}/assets/images/blog/ballin_0.png)
 
 *The wireframe on the left has 3 different aspect ratios for news images, and the wireframe on the right has 1 standard aspect ratio.*
 
@@ -109,13 +109,13 @@ A typical web design project usually looks like the graphic below. Strategy, UX 
 
 Besides being a bad environment for creating a great product, this can be a mega budget killer.
 
-![ballin_1](/assets/images/blog/ballin_1.png)
+![ballin_1]({{ site.baseurl }}/assets/images/blog/ballin_1.png)
 
 The biggest problem with this kind of work environment is that it allows no room for us to iterate and solve problems as they arise. When we’re dealing with really complex content-managed websites, getting clarity can take weeks or months.
 
 No matter how thorough we are with our UX and design, there’s always something that comes up in the development phase that needs our attention. Sometimes clients need change. Sometimes we just didn’t consider something, or we were just plain wrong.
 
-![ballin_2](/assets/images/blog/ballin_2.png)
+![ballin_2]({{ site.baseurl }}/assets/images/blog/ballin_2.png)
 
 A better process: remove those walls we talked about earlier. If we rearrange our timeline so that design, strategy, and development happen somewhat simultaneously, and everyone communicates with each other along the way, there’s far less room for assumptions and miscommunications to rear their ugly heads.
 

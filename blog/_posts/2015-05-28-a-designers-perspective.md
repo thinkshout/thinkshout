@@ -32,7 +32,7 @@ But anyway, you’re not here to read about bars and restaurants in LA. Let’s 
 
 One thing that’s really impressed me about DrupalCon is just how much the breadth of UX and Design content has expanded over the last few years. This was my fourth DrupalCon: my first was 2011 in Chicago, followed by ‘13 in Portland and ‘14 in Austin. I was excited to see there were several sessions in the UX and Design track this year that were less technical, and more about design thinking and problem solving. Personally, I enjoy these kind of talks because I tend to walk away with some new insights into my own process. **_Design is not the same thing as Front End Development, and DrupalCon is finally realizing and embracing this._** 
 
-![design_notes.jpg](/assets/images/blog/design_notes.jpg)
+![design_notes.jpg]({{ site.baseurl }}/assets/images/blog/design_notes.jpg)
 
 ## Common Design Themes from DrupalCon LA
 

@@ -55,7 +55,7 @@ I chatted with [Brandon Lee](http://thinkshout.com/team/brandon/), the architect
 
 The donation space, in a lot of ways, is what sets it apart from similar modules. If you’re dealing with Commerce specifically, it wants to lock you into the Commerce workflow. With RedHen Donation, you don’t have to go through three different steps to make one donation to an organization. You fill out one page and you’re done. It’s quick and user-friendly. No more filling out a form, then passing through a portal, then onto a confirmation page, then back to your site.
 
-![redhendonation1.png](/assets/images/blog/redhendonation1.png)
+![redhendonation1.png]({{ site.baseurl }}/assets/images/blog/redhendonation1.png)
 
 **Stephanie: What if I want create a new form?**
 
@@ -73,7 +73,7 @@ The donation space, in a lot of ways, is what sets it apart from similar modules
 
 **Brandon**: Absolutely. Let’s say you have multiple different contact types in RedHen because of the campaign. And say I want to send out this particular form because I’m currently soliciting for one particular campaign. You can have as many donation forms as you have entities that are fieldable. You can create a different form on the same content type.
 
-![redhendonation2.png](/assets/images/blog/redhendonation2.png)
+![redhendonation2.png]({{ site.baseurl }}/assets/images/blog/redhendonation2.png)
 
 **Stephanie: Anything else we should know about it?**
 

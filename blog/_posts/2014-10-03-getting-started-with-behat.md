@@ -61,7 +61,7 @@ Things that are measured always get more attention than things that just happen.
 
 Let's use the scenario where we're ensuring that the user login experience is correct. This will verify that the site is up & running, that valid users can log in, and that invalid credentials will not work. Here's a test run, using a local development site:
 
-![behat test run](/assets/images/blog/behat-test-run.png)
+![behat test run]({{ site.baseurl }}/assets/images/blog/behat-test-run.png)
 
 And it only takes a few seconds to run.
 

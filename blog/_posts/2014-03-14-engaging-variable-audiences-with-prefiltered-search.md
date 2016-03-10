@@ -34,10 +34,10 @@ We created our search tool using Drupal's [Search API module] (https://drupal.or
 
 From there, to implement a pre-filtered search, we first indexed and then enabled the Entity and Taxonomy Term Reference fields we wanted to be able to filter on as Facets. Next we placed the Facet blocks on the search page using the [Context module](https://drupal.org/project/context). These exposed blocks allowed us to filter the results on the search page based on their Entity Reference and/or Term Reference field values and layed the groundwork for being able to pre-populate the blocks by invoking specific URLs.
 
-![Entity Reference field linked to pre-filtered search using tokenized text](/assets/images/blog/link_with_tokenized_text_for_prefiltered_search.png)
+![Entity Reference field linked to pre-filtered search using tokenized text]({{ site.baseurl }}/assets/images/blog/link_with_tokenized_text_for_prefiltered_search.png)
 
 In order to generate these specific URLs and expose them in a user-friendly way we used the tokenized text field formatter to display the Entity or Term label as a link to a pre-filtered search based on the entity or term id, respectively:
 
-![Entity Reference field linked to pre-filtered search using tokenized text](/assets/images/blog/tokenized_text_screenshot.png)
+![Entity Reference field linked to pre-filtered search using tokenized text]({{ site.baseurl }}/assets/images/blog/tokenized_text_screenshot.png)
 
 The end result is a seamless jump between a specific piece of content and a powerful search tool that can be used to retrieve similar, more refined content.

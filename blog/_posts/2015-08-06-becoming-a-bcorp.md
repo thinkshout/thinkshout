@@ -18,7 +18,7 @@ tags:
   - Business
 date: 2015-08-06
 ---
-![thinkshout-bcorp.jpg](/assets/images/blog/thinkshout-bcorp-blog__2_.jpg)
+![thinkshout-bcorp.jpg]({{ site.baseurl }}/assets/images/blog/thinkshout-bcorp-blog__2_.jpg)
 
 When [Sean](http://thinkshout.com/blog/2009/07/sean/why-thinkshout-why-now/) and [I founded](http://thinkshout.com/blog/2011/01/lev/levs-take-new-thinkshout-inc/) ThinkShout in January of 2011, one of the first things we did was sit down and write the following Mission Statement:
 

@@ -45,7 +45,7 @@ To illustrate this point, I’d like to run through some of our numbers as a sma
 
 Interestingly, our staff has grown 750% from the end of our first quarter. The growth in adoption of our contributed tools by the community (1,400% since the end of Q1 2011) tracks closely with the growth of our quarterly revenues (1,300%).
 
-![thinkshout-growth.png](/assets/images/blog/thinkshout-growth.png)
+![thinkshout-growth.png]({{ site.baseurl }}/assets/images/blog/thinkshout-growth.png)
 
 Obviously, these statistics are only related anecdotally. On their own, they don’t prove that our open source contributions drive our success.
 

@@ -54,7 +54,7 @@ Luckily, one of the greatest aspects of our partnership with MailChimp is our sh
 
 With the conference approaching, it was time to call on the ThinkShout village to help put the polish on the new module. Since nine heads are better than two when it comes to user testing and QA, we scheduled a sprint to focus our engineering department on providing that critical perspective needed at the end of a large development project.
 
-![mailchimp_roadmap1.jpg](/assets/images/blog/mailchimp_roadmap1.jpg)
+![mailchimp_roadmap1.jpg]({{ site.baseurl }}/assets/images/blog/mailchimp_roadmap1.jpg)
 
 During our afternoon sprint, our team ran a battery of tests (both human and automated) to document and resolve bugs. Our engineering staff has grown quite a bit recently, so the sprint also provided an opportunity for knowledge sharing about MailChimp and D8 development across the team. As a non-engineer fly on the wall, it was exciting to witness the energy at the sprint table, as bugs were closed and high-fives were thrown.
 

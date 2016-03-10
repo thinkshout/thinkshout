@@ -30,13 +30,13 @@ In addition to supporting **credit card payments**, Commerce iATS now supports *
 
 Because iATS Payments supports international payments, we made sure that you can too. Commerce iATS 2.0 fully supports **[Direct Debit](http://en.wikipedia.org/wiki/Direct_debit)** for the UK.
 
-![Direct Debit screenshot](/assets/images/blog/commerce-iats-direct-debit-declaration.png "Setting up a Direct Debit")
+![Direct Debit screenshot]({{ site.baseurl }}/assets/images/blog/commerce-iats-direct-debit-declaration.png "Setting up a Direct Debit")
 
 If you're familiar with Direct Debit, you'll know that any website offering the service is required to implement a very specific checkout process.
 
 With assistance from iATS Payments, we've done all the work for you. Commerce iATS now provides a set of [custom checkout panes](https://drupal.org/node/2268891) for the complete Direct Debit checkout process. You don't even have to worry about the 12-day lead time on initial payments; the module figures it out and gives your users a choice of start dates.
 
-![Direct Debit schedule screenshot](/assets/images/blog/commerce-iats-direct-debit-schedule.png "Setting up a Direct Debit schedule")
+![Direct Debit schedule screenshot]({{ site.baseurl }}/assets/images/blog/commerce-iats-direct-debit-schedule.png "Setting up a Direct Debit schedule")
 
 ## More Options for Recurring Payments
 

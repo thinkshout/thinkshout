@@ -73,7 +73,7 @@ While we could put script commands directly into `.travis.yml`, having a bash sc
 
 When all is said and done, we have a simple automated deployment workflow that looks like this:
 
-![deployment workflow](/assets/images/blog/jekyll-travis-s3.png)
+![deployment workflow]({{ site.baseurl }}/assets/images/blog/jekyll-travis-s3.png)
 
 The explicit version of the workflow goes like this:
 

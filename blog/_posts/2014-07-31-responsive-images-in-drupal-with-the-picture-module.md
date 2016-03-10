@@ -68,7 +68,7 @@ drush en media -y
 
 Breakpoints can be found under Configuration > Media > Breakpoints. Each breakpoint needs a name and a [media query](http://css-tricks.com/resolution-specific-stylesheets/). Optionally, you can enable [Retina display](http://www.sitepoint.com/support-retina-displays/) handling for each breakpoint.
 
-![breakpoints-example-0.png](/assets/images/blog/breakpoints-example-0.png "Three breakpoints with basic media queries")
+![breakpoints-example-0.png]({{ site.baseurl }}/assets/images/blog/breakpoints-example-0.png "Three breakpoints with basic media queries")
 
 Note that the smallest breakpoint is set to a `0px` minimum. This ensures that arbitrarily small screen sizes will be accommodated.
 
@@ -80,7 +80,7 @@ The order in which the breakpoints appear is the order your breakpoint group wil
 
 Click 'Add a new group' to define a Breakpoint Group. The ordering on this screen will match the order defined by weights in the previous step.
 
-![breakpoints-example-1.png](/assets/images/blog/breakpoints-example-1.png "A simple breakpoint group")
+![breakpoints-example-1.png]({{ site.baseurl }}/assets/images/blog/breakpoints-example-1.png "A simple breakpoint group")
 
 Note that once a breakpoint has been added to a group, it _cannot_ be edited.
 
@@ -92,21 +92,21 @@ This is an optional step provided by the Breakpoints module; it's essentially a 
 
 Set up an image style for each breakpoint under Configuration > Media > Image Styles. For general use, these can be equal to or slightly less than the minimums of the associated breakpoints; for more complex layouts, id est columns, these might instead be set to match the behavior of the column widths.
 
-![image-styles-example-0.png](/assets/images/blog/image-styles-example-0.png "Three basic image styles") 
+![image-styles-example-0.png]({{ site.baseurl }}/assets/images/blog/image-styles-example-0.png "Three basic image styles") 
 
 Picture Mappings are found under Configuration > Media > Picture Mappings. First, associate the new Picture Mapping with our Breakpoint Group.
 
-![picture-mappings-example-0.png](/assets/images/blog/picture-mappings-example-0.png "Setting the breakpoint group of a picture mapping")
+![picture-mappings-example-0.png]({{ site.baseurl }}/assets/images/blog/picture-mappings-example-0.png "Setting the breakpoint group of a picture mapping")
 
 Now that the Picture Mapping has a Breakpoint Group, each breakpoint can be associated with an image style. Populate these with the image styles defined previously, and hit Finish.
 
-![picture-mappings-example-1.png](/assets/images/blog/picture-mappings-example-1.png "Picture mapping configuration")
+![picture-mappings-example-1.png]({{ site.baseurl }}/assets/images/blog/picture-mappings-example-1.png "Picture mapping configuration")
 
 ## File Type Display
 
 Under Configuration > Media > File Types, select Images -> Manage File Display. Enable the Picture display mode, and select the Example Group.
 
-![file-display-examples-0.png](/assets/images/blog/file-display-examples-0.png "File display settings")
+![file-display-examples-0.png]({{ site.baseurl }}/assets/images/blog/file-display-examples-0.png "File display settings")
 
 ## Content Type
 
@@ -114,7 +114,7 @@ Now we're ready to create a node type with a responsive image field.
 
 Make a content type and add a File field with the Media File Selector widget. Make sure that the field permits the image format file extensions you plan to use; by default it only allows `*.txt`.
 
-![responsive-content-type-examples-0.png](/assets/images/blog/responsive-content-type-examples-0.png "Node content type") 
+![responsive-content-type-examples-0.png]({{ site.baseurl }}/assets/images/blog/responsive-content-type-examples-0.png "Node content type") 
 
 Under Manage Display, make sure that the responsive image field is set to the Rendered File display formatter, which will connect the field to the file display mode we set earlier.
 
@@ -122,9 +122,9 @@ Under Manage Display, make sure that the responsive image field is set to the Re
 
 We're done! Create a node with the example content type, add an image, and start dragging the corner of your window around. The image should resize as the window width passes between breakpoints.
 
-![responsive-image-examples-0.png](/assets/images/blog/responsive-image-example-0.png "Medium image") 
+![responsive-image-examples-0.png]({{ site.baseurl }}/assets/images/blog/responsive-image-example-0.png "Medium image") 
 
-![responsive-image-examples-1.png](/assets/images/blog/responsive-image-example-1.png "Small image") 
+![responsive-image-examples-1.png]({{ site.baseurl }}/assets/images/blog/responsive-image-example-1.png "Small image") 
 
 ## The Benefits
 

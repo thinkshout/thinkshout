@@ -41,9 +41,9 @@ Quick overview of the code:
 
 Let's start with hook_date_formats(). This accomplishes the same thing as creating a new format at admin/config/regional/date-time/formats.
 
-![Date formats screenshot](/assets/images/blog/date-formats-list-1.jpg "Date formats")
+![Date formats screenshot]({{ site.baseurl }}/assets/images/blog/date-formats-list-1.jpg "Date formats")
 
-![Creating new date format](/assets/images/blog/date-formats-creating.jpg "Creating new date format")
+![Creating new date format]({{ site.baseurl }}/assets/images/blog/date-formats-creating.jpg "Creating new date format")
 
 Here's an example.
 
@@ -76,7 +76,7 @@ The only effect this hook implementation has is that it makes formats available 
 
 Moving on to hook_date_format_types(). This is similar to creating a "date type" at admin/config/regional/date-time, but it only creates a machine name with a human readable name.
 
-![Date format types](/assets/images/blog/date-formats-type-list.jpg "Date format types")
+![Date format types]({{ site.baseurl }}/assets/images/blog/date-formats-type-list.jpg "Date format types")
 
 Here's the example:
 
@@ -94,21 +94,21 @@ function mysite_common_date_format_types() {
 
 Clear caches, return to your site's date format settings, and you'll see your new date format.
 
-![Date format types, new type added](/assets/images/blog/date-formats-type-list-after.jpg "Date format types, new type added")
+![Date format types, new type added]({{ site.baseurl }}/assets/images/blog/date-formats-type-list-after.jpg "Date format types, new type added")
 
 However, navigate to the display settings of a date field and you will see the name of your custom date format type, but the format won't be right.
 
-![Field display settings](/assets/images/blog/date-formats-field-display.jpg "Field display settings")
+![Field display settings]({{ site.baseurl }}/assets/images/blog/date-formats-field-display.jpg "Field display settings")
 
 Come back to the date format settings page and click that "save" button. Now the date formats presented in field settings will be correct.
 
-![Field display settings, better](/assets/images/blog/date-formats-field-display-better.jpg "Field display settings, better")
+![Field display settings, better]({{ site.baseurl }}/assets/images/blog/date-formats-field-display-better.jpg "Field display settings, better")
 
 To make those setting stick and be deployable, we need to do one final thing. We export a new variable. Saving the date format types page creates a new variable that ties the new date format type (just a name) to an actual format (the code that defines the format, such as "Y-m").
 
 So head back to the features UI and you should see a new variable listed in the strongarm section.
 
-![Features export](/assets/images/blog/date-formats-features-export.jpg "Features export")
+![Features export]({{ site.baseurl }}/assets/images/blog/date-formats-features-export.jpg "Features export")
 
 This is specifically the date format *type*. Export it into your mysite_common feature.
 

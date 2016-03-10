@@ -51,11 +51,11 @@ If you take the time to produce great content, you want to make sure it’s disp
 
 *Fury Road* benefits from a huge number of [practical effects](http://www.scpr.org/programs/the-frame/2015/05/19/42913/mad-max-fury-road-how-15-years-of-design-made-the/): things look like they’re blowing up because they are, not because some computer rendered its idea of what an explosion *should* look like. But almost every shot was still digitally enhanced. This allowed Miller to create the impression of large crowds:
 
-![Mad Max aerial shot](/assets/images/blog/mad-max-0.png)
+![Mad Max aerial shot]({{ site.baseurl }}/assets/images/blog/mad-max-0.png)
 
 *Fury Road* also makes extensive use of compositing to expand its visual palette:
 
-![Mad Max compositing](/assets/images/blog/mad-max-1.png)
+![Mad Max compositing]({{ site.baseurl }}/assets/images/blog/mad-max-1.png)
 
 When you’re actually watching the film, however, the "How did they do that?" gives way to breathless enjoyment of the chase. The movie *feels* real because the effects are integrated so well, they become part of the story instead of superseding it.
 

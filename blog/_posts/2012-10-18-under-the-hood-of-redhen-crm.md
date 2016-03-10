@@ -76,7 +76,7 @@ A key feature of any CRM is managing connections between organizations and conta
 
 For example, imagine that you want to define a relationship between a contact of the type "Staff" and an organization of the type "Company." Suppose you want to include information about the position that contact has at that organization. This field value only has meaning within the context of relationship, and therefore this data is stored with the relationship rather than on the contact record or the organization record itself.
 
-![Connections](/assets/images/blog/redhen-connections.png)
+![Connections]({{ site.baseurl }}/assets/images/blog/redhen-connections.png)
 Listing of a contact's connections
 
 
@@ -89,12 +89,12 @@ RedHen's default listings of contacts are a good start, but the fun really start
 
 You now have a View of all contacts that includes their membership and organization. If you set the path of the View to /redhen/contact, it will simply override the default contacts listing, or you can move it elsewhere to maintain both interfaces.
 
-![Custom RedHen View](/assets/images/blog/redhen-views.png)
+![Custom RedHen View]({{ site.baseurl }}/assets/images/blog/redhen-views.png)
 Custom contact view with an address and exposed filters.
 
 Similarly, business rules can be extended using the Rules module, which provides an interface for defining logic based upon a trigger->action model. RedHen again leans on Entity API to expose RedHen entities into this model so that you can, for example, send an email to a contact when a related membership entity is updated.
 
-![screenshot](/assets/images/blog/redhen-rules.png)
+![screenshot]({{ site.baseurl }}/assets/images/blog/redhen-rules.png)
 Custom Rule that demonstrates sending an email to new contacts.
 
 ## Extending core functionality

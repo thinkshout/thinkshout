@@ -23,7 +23,7 @@ tags:
 date: 2015-01-28
 ---
 
-![raiser_0.jpg](/assets/images/blog/raiser_0.jpg)
+![raiser_0.jpg]({{ site.baseurl }}/assets/images/blog/raiser_0.jpg)
 
 We’ve been experimenting with monthly team sprints at ThinkShout over the last year with varied levels of structure and outcomes. This month, we decided to take a step back, reevaluate our goals, and reimagine our sprint process. And, we moved it to a Thursday. [A bow-tie Thursday](https://twitter.com/thinkshout/status/558334360416305152).
 

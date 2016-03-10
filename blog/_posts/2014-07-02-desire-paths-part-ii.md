@@ -69,7 +69,7 @@ When you put barriers in the way of your users, in the form of content they’re
 
 [John McCrory](http://johnmccrory.com/) created this handy dandy template to help you sort out what to keep and what to throw in the hopper:
 
-![desire-paths-ii-venn-diagram.png](/assets/images/blog/desire-paths-ii-venn-diagram.png)
+![desire-paths-ii-venn-diagram.png]({{ site.baseurl }}/assets/images/blog/desire-paths-ii-venn-diagram.png)
 
 
 If you need to run a full inventory, you might want to look into a tool like [Screaming Frog](http://www.screamingfrog.co.uk/seo-spider/) or [CAT (Content Analysis Tool)](http://www.content-insight.com/). Or you can [export reports from Google Analytics and combine it](http://www.ripenn.com/blog/create-data-driven-content-inventory/) with data from social channels.
@@ -106,7 +106,7 @@ This report will tell you four things about any page on your site:
 
 4. If they didn’t exit, the page they go to next ("Next Page Path")
 
-![Navigation-Summary.png](/assets/images/blog/Navigation-Summary.png)
+![Navigation-Summary.png]({{ site.baseurl }}/assets/images/blog/Navigation-Summary.png)
 
 Magic! But wait, there’s more. You can – and should! – use this page in conjunction with segmentation.
 
@@ -122,7 +122,7 @@ This sort of analysis sets the stage for much of the work we do here at ThinkSho
 
 Here’s what the segmentation looks like on the "Navigation Summary" report in the context of ThinkShout’s “Work” page:
 
-![Work-Page.png](/assets/images/blog/Work-Page.png)
+![Work-Page.png]({{ site.baseurl }}/assets/images/blog/Work-Page.png)
 
 We did this to answer two questions:
 

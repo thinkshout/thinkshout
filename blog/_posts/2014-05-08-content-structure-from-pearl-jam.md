@@ -18,7 +18,7 @@ tags:
   - Pearl Jam
 ---
 
-![Pearl Jam](/assets/images/blog/pearl-jam-header.jpg)
+![Pearl Jam]({{ site.baseurl }}/assets/images/blog/pearl-jam-header.jpg)
 
 *[Photo](https://www.flickr.com/photos/24365773@N03/7425028964/in/photolist-cixdqJ-2E86ff-cj8eg3-cj8dqL-ci23iW-S2mmU-ci22Bh-cj8ekG-9QjszY-3bpmzG-6EyJ8m-2zsghF-6QWpZh-e22GeM-e28iUm-e28ifu-2FeFyx-RU5BQ-83PwyB-6FsT6p-bqThKu-bDNe9n-bqTmwL-bDNi9k-bDNejv-bDNhYX-2zsmgp-2zwDQo-2zsiG8-2zwMuu-2zsnTt-2zsow6-2zwF89-2zsfUK-2zse5R-2zsmSi-2zsko8-2zsnip-2zwHAm-2zwBo5-2zwFRQ-2zsp5K-2zwGzu-6QWpQU-6QWjFo-8dpsda-rKaZw-8dsJu5-8dpsmZ-8dpsvH) by [Phil King](https://www.flickr.com/photos/24365773@N03/), licensed under [CC 2.0](https://creativecommons.org/licenses/by/2.0/).*
 
@@ -44,7 +44,7 @@ Pearl Jam’s core offering is music. People visit their website to find that mu
 
 *[Note that I don’t have any insider’s knowledge about the exact structure or software they’re using. This is just how we would do it if we built their site in Drupal.]*
 
-![Pearl Jam 1](/assets/images/blog/pj1.jpg)
+![Pearl Jam 1]({{ site.baseurl }}/assets/images/blog/pj1.jpg)
 
 Practically every song Pearl Jam has ever recorded or performed live has a place on the website, and they’re all structured the same:
 
@@ -57,7 +57,7 @@ Practically every song Pearl Jam has ever recorded or performed live has a place
 
 That’s it. Everything else on that page, and much of the site, is built through the application of structured data.
 
-![Pearl Jam 2](/assets/images/blog/pj2.jpg)
+![Pearl Jam 2]({{ site.baseurl }}/assets/images/blog/pj2.jpg)
 
 If you look at an individual album, you’re actually looking at a different content type, which has its own structure:
 
@@ -70,7 +70,7 @@ If you look at an individual album, you’re actually looking at a different con
 
 It’s that REFERENCE field that’s key. Every album is a collection of references to the individual songs, rather than list built by hand. (On Drupal, we’d probably use something like [Entity Reference.](https://drupal.org/project/entityreference)) Clicking on an individual song takes you to its detail page.
 
-![Pearl Jam 3](/assets/images/blog/pj3.jpg)
+![Pearl Jam 3]({{ site.baseurl }}/assets/images/blog/pj3.jpg)
 
 It gets more interesting when you look at a Setlist, another structured content type:
 
@@ -91,7 +91,7 @@ Setlists include the all-important link to purchase a copy of an entire live per
 
 This relational system has created endless connections between the Songs they’ve performed – their core content offering – and where and when they’ve performed them. By then layering on the ability to purchase copies of those concerts at any time, Pearl Jam has taken one of the primary motivations of their audience – to engage with PJ’s music – and tied it directly to their organizational goal of making money, without shoving that in your face.
 
-![Pearl Jam 4](/assets/images/blog/pj4.jpg)
+![Pearl Jam 4]({{ site.baseurl }}/assets/images/blog/pj4.jpg)
 
 It’s also worth noting that structured data has also allowed Pearl Jam to flesh out the detail pages for each of its content types with just a few lines of code.
 

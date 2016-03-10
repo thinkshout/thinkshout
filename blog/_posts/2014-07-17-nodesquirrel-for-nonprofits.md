@@ -23,7 +23,7 @@ In our web hosts we trust, right? Right. They safeguard your nonprofit’s websi
 
 But just how accessible are those backups? How surefire is your contingency plan? Have you tested it out? A lot of website administrators will find that actually initiating this plan isn’t as easy as it may seem. Those backups might take hours or days of ticketing and waiting to get a hold of, particularly if your website host is already inundated with other customer support issues. What then are you to do when something breaks and the site comes tumbling down?
 
-![nodesquirrel.png](/assets/images/blog/nodesquirrel.png)
+![nodesquirrel.png]({{ site.baseurl }}/assets/images/blog/nodesquirrel.png)
 
 Enter [NodeSquirrel](http://www.nodesquirrel.com/). NodeSquirrel is a Drupal backup service developed and maintained by [Gorton Studios](https://www.gortonstudios.com/). It gives site admins control over their site backups. I sat down with Gorton Studios’ Drew Gorton and Keri Poeppe to learn why nonprofits should consider making NodeSquirrel a part of their workflow. 
 
