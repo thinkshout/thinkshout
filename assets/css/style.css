@@ -2302,6 +2302,7 @@ a {
 .blog-post .body iframe,
 .blog-post .body .blog-cta,
 .blog-post .body .comments,
+.blog-post .body .tags,
 .blog-post .intro h2,
 .blog-post .intro h3,
 .blog-post .intro p,
@@ -2311,7 +2312,8 @@ a {
 .blog-post .intro div.highlighter-rouge,
 .blog-post .intro iframe,
 .blog-post .intro .blog-cta,
-.blog-post .intro .comments {
+.blog-post .intro .comments,
+.blog-post .intro .tags {
   color: #58585b;
   display: block;
   margin: 1em auto;
@@ -2330,6 +2332,7 @@ a {
     .blog-post .body iframe,
     .blog-post .body .blog-cta,
     .blog-post .body .comments,
+    .blog-post .body .tags,
     .blog-post .intro h2,
     .blog-post .intro h3,
     .blog-post .intro p,
@@ -2339,7 +2342,8 @@ a {
     .blog-post .intro div.highlighter-rouge,
     .blog-post .intro iframe,
     .blog-post .intro .blog-cta,
-    .blog-post .intro .comments {
+    .blog-post .intro .comments,
+    .blog-post .intro .tags {
       width: 90%;
       padding: 0 1.875rem; } }
   @media (min-width: 980px) and (max-width: 1199px) {
@@ -2353,6 +2357,7 @@ a {
     .blog-post .body iframe,
     .blog-post .body .blog-cta,
     .blog-post .body .comments,
+    .blog-post .body .tags,
     .blog-post .intro h2,
     .blog-post .intro h3,
     .blog-post .intro p,
@@ -2362,7 +2367,8 @@ a {
     .blog-post .intro div.highlighter-rouge,
     .blog-post .intro iframe,
     .blog-post .intro .blog-cta,
-    .blog-post .intro .comments {
+    .blog-post .intro .comments,
+    .blog-post .intro .tags {
       width: 90%;
       padding: 0 3.75rem; } }
   @media (min-width: 1200px) {
@@ -2376,6 +2382,7 @@ a {
     .blog-post .body iframe,
     .blog-post .body .blog-cta,
     .blog-post .body .comments,
+    .blog-post .body .tags,
     .blog-post .intro h2,
     .blog-post .intro h3,
     .blog-post .intro p,
@@ -2385,7 +2392,8 @@ a {
     .blog-post .intro div.highlighter-rouge,
     .blog-post .intro iframe,
     .blog-post .intro .blog-cta,
-    .blog-post .intro .comments {
+    .blog-post .intro .comments,
+    .blog-post .intro .tags {
       width: 100%;
       padding: 0 6.25rem; } }
   .blog-post .body h2 a,
@@ -2398,6 +2406,7 @@ a {
   .blog-post .body iframe a,
   .blog-post .body .blog-cta a,
   .blog-post .body .comments a,
+  .blog-post .body .tags a,
   .blog-post .intro h2 a,
   .blog-post .intro h3 a,
   .blog-post .intro p a,
@@ -2407,7 +2416,8 @@ a {
   .blog-post .intro div.highlighter-rouge a,
   .blog-post .intro iframe a,
   .blog-post .intro .blog-cta a,
-  .blog-post .intro .comments a {
+  .blog-post .intro .comments a,
+  .blog-post .intro .tags a {
     color: #f26d21; }
   .blog-post .body h2 img,
   .blog-post .body h3 img,
@@ -2419,6 +2429,7 @@ a {
   .blog-post .body iframe img,
   .blog-post .body .blog-cta img,
   .blog-post .body .comments img,
+  .blog-post .body .tags img,
   .blog-post .intro h2 img,
   .blog-post .intro h3 img,
   .blog-post .intro p img,
@@ -2428,7 +2439,8 @@ a {
   .blog-post .intro div.highlighter-rouge img,
   .blog-post .intro iframe img,
   .blog-post .intro .blog-cta img,
-  .blog-post .intro .comments img {
+  .blog-post .intro .comments img,
+  .blog-post .intro .tags img {
     max-width: 100%; }
 .blog-post .body ul li,
 .blog-post .intro ul li {
@@ -2548,6 +2560,19 @@ a {
   @media (min-width: 1200px) {
     .blog-post .intro p {
       font-size: 1.375rem; } }
+.blog-post .body .tags {
+  background-color: #dbdcde;
+  margin: 2rem auto;
+  padding: 1rem 3rem; }
+  .blog-post .body .tags .tag-label {
+    color: #f26d21; }
+  .blog-post .body .tags .tag-label:before {
+    margin-right: 5px; }
+  .blog-post .body .tags a {
+    border-bottom: 1px dotted #f26d21;
+    margin-right: .3em; }
+.blog-post .body .leadin {
+  color: #f1f1f1; }
 .blog-post .body .blog-cta {
   background-color: #dbdcde;
   display: block;

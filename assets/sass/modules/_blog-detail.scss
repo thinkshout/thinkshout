@@ -72,7 +72,8 @@
     div.highlighter-rouge,
     iframe,
     .blog-cta,
-    .comments {
+    .comments,
+    .tags {
       color: $darkgray;
       display: block;
       margin: 1em auto;
@@ -183,6 +184,25 @@
     @include mq(lt) { font-size: rem(20); }
     @include mq(md) { font-size: rem(22); }
     @include mq(l)  { font-size: rem(22); }
+  }
+
+  .body .tags {
+    background-color: $ltgray;
+    margin: 2rem auto;
+    padding: 1rem 3rem;
+    .tag-label {
+      color: $orange;
+    }
+    .tag-label:before {
+      margin-right: 5px;
+    }
+    a {
+      border-bottom: 1px dotted $orange;
+      margin-right: .3em;
+    }
+  }
+  .body .leadin {
+    color: #f1f1f1;
   }
 
   .body .blog-cta {
