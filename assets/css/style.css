@@ -2629,10 +2629,10 @@ a {
 .pagination {
   color: #58585b;
   display: table;
-  table-layout: fixed;
   margin: 1rem auto 6rem;
   max-width: 996px;
   padding: 0 0.5rem;
+  table-layout: fixed;
   width: 94%; }
   @media (min-width: 671px) and (max-width: 979px) {
     .pagination {
@@ -2654,14 +2654,22 @@ a {
     display: table-cell;
     font-size: 1.125rem;
     vertical-align: top; }
-    .pagination .previous a span,
-    .pagination .next a span,
-    .pagination .page_number a span {
-      padding-right: 0.8rem; }
-    .pagination .previous a .fa,
-    .pagination .next a .fa,
-    .pagination .page_number a .fa {
-      font-size: 1.5rem; }
+    .pagination .previous a,
+    .pagination .next a,
+    .pagination .page_number a {
+      height: 100%;
+      width: 100%;
+      margin-bottom: 1rem; }
+      .pagination .previous a span,
+      .pagination .next a span,
+      .pagination .page_number a span {
+        display: table-cell;
+        padding-right: 0.8rem;
+        vertical-align: middle; }
+      .pagination .previous a .fa,
+      .pagination .next a .fa,
+      .pagination .page_number a .fa {
+        font-size: 1.5rem; }
   .pagination .next {
     float: right;
     text-align: right; }

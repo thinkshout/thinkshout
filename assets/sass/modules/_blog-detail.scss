@@ -247,10 +247,10 @@
 .pagination {
   color: $darkgray;
   display: table;
-  table-layout: fixed;
   margin: 1rem auto 6rem;
   max-width: 996px;
   padding: 0 rem(8);
+  table-layout: fixed;
   width: 94%;
   @include mq(lt) { width: 90%; padding: 0 rem(16); }
   @include mq(md) { width: 90%; padding: 0 rem(24); }
@@ -265,8 +265,13 @@
     font-size: rem(18);
     vertical-align: top;
     a {
+      height: 100%;
+      width: 100%;
+      margin-bottom: 1rem;
       span {
+        display: table-cell;
         padding-right: 0.8rem;
+        vertical-align: middle;
       }
       .fa {
         font-size: rem(24);
