@@ -19,7 +19,7 @@ image: http://thinkshout.com/assets/images/ts_icon.jpg
 It’s easy to take for granted all the great tools we use on the web, everything from email, to social media, to git hosting. Many of these services are free or use advertising to support the sometimes significant costs to run them. [Mandrill](https://www.mandrill.com/) is one of those great tools and one that we’ve been recommending to our clients on a consistent basis. If you’re unfamiliar with Mandrill, it’s a transactional email service for sending email ranging from password resets to Commerce receipts. Now we realize that your webserver can already send email, so why bother with a service like Mandrill? It offers three major advantages: 
 
   * Deliverability
-  * Reporting & Accountability
+  * Reporting and accountability
   * Templated emails that look great across all email clients 
 
 As the team who originally partnered with [MailChimp](http://mailchimp.com/) to build the [Mandrill module](https://www.drupal.org/project/mandrill), we might be a bit biased, but we think it’s one of the best transactional email services out there that integrates with Drupal. We have many clients that use both [MailChimp](https://www.drupal.org/project/mailchimp) and Mandrill, and many that use Mandrill by itself. In fact, we just completed a [Mandrill 8.x-1.0-alpha1](https://www.drupal.org/node/2683599) release with all the great features of Mandrill for Drupal 8. 
