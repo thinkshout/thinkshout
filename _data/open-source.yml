@@ -1,0 +1,81 @@
+- name: Add to Cal
+  url: https://www.drupal.org/project/usage/addtocal
+  description: The field formatter provides a button next to the field that shows a drop-down menu. This menu contains links to the supported formats, and includes basic styling that can be easily modified through CSS. Supports exporting events to Google Calendar, Yahoo! Calendar, iCal, and Outlook.
+
+- name: Apache Solr Geo
+  url: https://www.drupal.org/project/apachesolr_geo
+  description: This is a geofield integration with the Apache Solr module.Apache Solr Geo adds the ability to use Solr's spatial querying to the [apachesolr](https://www.drupal.org/project/apachesolr) module for data stored using [geofield](https://www.drupal.org/project/geofield).
+
+- name: Bean Entity View
+  url:  https://www.drupal.org/project/bean_entity_view
+  description:  Provides a Bean type plugin that allows admins to create blocks that display a single entity as a block using a particular view mode. The entity being display is either specified when the bean is created, or determined dynamically based on the entity currently being viewed.
+
+- name: Commerce Check
+  url:  https://www.drupal.org/project/commerce_check
+  description:  Simple check payment processor for Drupal Commerce.
+
+- name: Commerce iATS
+  url:  https://www.drupal.org/project/commerce_iats
+  description:  |
+    [iATS Payments](http://home.iatspayments.com/) is a leading provider of payment processing services for nonprofits. They are actively sponsoring the maintenance and development of this module, which is an integration for the [Drupal Commerce](http://drupal.org/project/commerce) payment and checkout system.
+
+- name: Entity Registration
+  url:  https://www.drupal.org/project/registration
+  description:  Entity Registration is a simple, flexible module for allowing and tracking user registrations for events, or just about anything you want people to sign up for. Entity Registration can be integrated with Drupal Commerce to allow fee-based registrations.
+
+- name: Footer Message
+  url:  https://www.drupal.org/project/footer_message
+  description:  This module replicates the "Site Footer" feature from Drupal 6.x for Drupal 7.x websites. A configurable footer message, editable from the site-information form and displayed as a block, as well as a theme variable available in page.tpl.php and hook_preprocess_page().
+
+- name: Leaflet
+  url:  https://www.drupal.org/project/leaflet
+  description:  Leaflet offers A Modern, Lightweight Open-Source JavaScript Library for Interactive Maps by [CloudMade](http://cloudmade.com/). This module provides integration with the [Leaflet](http://leaflet.cloudmade.com/) JavaScript mapping library. This is a lightweight and easy to use API for designing maps and displaying data on a map.
+
+- name: MailChimp
+  url:  https://www.drupal.org/project/mailchimp
+  description:  This module provides integration with [MailChimp](http://www.mailchimp.com/), a popular email delivery service. The module makes it easy for website users or visitors to control which of your email lists they want to be on (or off), lets you generate and send MailChimp email campaigns from your site, and lets you and your users view a history of emails they have been sent from MailChimp.
+
+- name: Mandrill
+  url:  https://www.drupal.org/project/mandrill
+  description:  The Mandrill module, as the name implies, provides integration with [Mandrill](http://www.mandrill.com/) transactional email, a service of [MailChimp](http://www.mailchimp.com/). For sites that send a significant amount of email, using a transactional email service is a great way to get modern analytics and reporting, spam compliance features, scale email to bulk levels, and have your email delivered more reliably.
+
+- name: RedHen Campaign
+  url:  https://www.drupal.org/project/redhen_campaign
+  description:  RedHen Campaign provides a framework for building viral fundraising content. It is built on top of the [RedHen CRM](http://drupal.org/project/redhen) collection of modules, and relies on both RedHen and [RedHen Donation](http://drupal.org/project/redhen_donation) (which itself requires Drupal Commerce) to function.
+
+- name: RedHen CRM
+  url:  https://www.drupal.org/project/redhen
+  description:  RedHen is a Drupal-native CRM initially designed for common nonprofit needs, but built for flexibility. It has classic CRM functionality for managing information about contacts, organizations, and their relationships between each other and your organization (like memberships). It also knows some modern tricks (like engagement tracking) and customizable one page donation forms, and stuff you'd hope for in a website-integrated CRM (like event registration integration).
+
+- name: RedHen Donation
+  url:  https://www.drupal.org/project/redhen_donation
+  description:  RedHen Donation allows for a RedHen Donation field to be attached to an entity, which attaches a form to that entity for processing donations. It integrates with Drupal Commerce to handle order processing and payment handling. It relies on Commerce Card on File and Commerce Recurring to process recurring donations.
+
+- name: RedHen Feeds
+  url:  https://www.drupal.org/project/redhen_feeds
+  description:  Import or aggregate [RedHen CRM](http://drupal.org/project/redhen) data using [Feeds](http://drupal.org/project/feeds).
+
+- name: RedHen MailChimp
+  url:  https://www.drupal.org/project/redhen_mailchimp
+  description:  The perfect marriage of your favorite open source CRM and the best email service provider. Current features include the ability to track contact engagement based on email events.
+
+- name: RedHen Membership
+  url:  https://www.drupal.org/project/redhen_membership
+  description:  The RedHen Membership module provides a framework for managing individual (Contact) and organizational memberships. Optionally, you could assign user roles to Drupal users associated with active individual or organizational memberships. Memberships are a custom entity type/bundle. Therefore, memberships can be extended with additional fields.
+
+- name: RedHen Migrate
+  url:  https://www.drupal.org/project/redhen_migrate
+  description:  Migration handlers for [RedHen CRM](http://drupal.org/project/redhen).
+
+- name: RedHen Raiser
+  url:  https://www.drupal.org/project/redhen_raiser
+  description:  The RedHen Membership module provides a framework for managing individual (Contact) and organizational memberships. Optionally, you could assign user roles to Drupal users associated with active individual or organizational memberships. Memberships are a custom entity type/bundle. Therefore, memberships can be extended with additional fields.
+
+- name: Registration Commerce
+  url:  https://www.drupal.org/project/registration_commerce
+  description:  |
+    "Registration Commerce" (not to be confused with [Commerce Registration](https://www.drupal.org/project/registration)) is an integration point between the entity-based [Registration Module](https://www.drupal.org/project/registration) and [Commerce](https://www.drupal.org/project/commerce), enabling paid registrations. Registration Commerce lets you generate a Commerce Line Item from a Registration, then update the Registration's State when the Line Item is paid.
+
+- name: Salesforce Suite
+  url:  https://www.drupal.org/project/salesforce
+  description:  This suite of modules supports integration with [Salesforce](http://www.salesforce.com/) by synchronizing Drupal entities (E.g., users, nodes, files) with Salesforce objects (E.g., contacts, organizations, opportunities). It supports pushing Drupal data to Salesforce as well as pulling, or importing, Salesforce data into Drupal. Changes can be made in real time or asynchronously in batches during cron run.
