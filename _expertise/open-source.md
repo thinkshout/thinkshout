@@ -1,8 +1,10 @@
 ---
-layout: open_source
+layout: default
 body-class: open-source
-slug: open-source/
+permalink: expertise/open-source
 ---
+
+{% include open-source-contributions.html %}
 
 ### [Add to Cal](https://www.drupal.org/project/usage/addtocal)
 The field formatter provides a button next to the field that shows a drop-down menu. This menu contains links to the supported formats, and includes basic styling that can be easily modified through CSS. Supports exporting events to Google Calendar, Yahoo! Calendar, iCal, and Outlook.
@@ -67,3 +69,5 @@ The RedHen Membership module provides a framework for managing individual (Conta
 
 ### [Salesforce Suite](https://www.drupal.org/project/salesforce)
 This suite of modules supports integration with [Salesforce](http://www.salesforce.com/) by synchronizing Drupal entities (E.g., users, nodes, files) with Salesforce objects (E.g., contacts, organizations, opportunities). It supports pushing Drupal data to Salesforce as well as pulling, or importing, Salesforce data into Drupal. Changes can be made in real time or asynchronously in batches during cron run.
+
+{% include our-expertise.html %}
