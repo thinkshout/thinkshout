@@ -7,6 +7,8 @@ order: 4
 featured: TRUE
 # END LAYOUT DATA
 
+title: Colorado Trust
+
 cs-class: colorado-trust
 
 cs-preview:

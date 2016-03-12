@@ -7,6 +7,7 @@ order: 2
 featured: TRUE
 # END LAYOUT DATA
 
+title: "Selma: The March to Montgomery"
 cs-class: "splc-selma"
 
 cs-preview:
