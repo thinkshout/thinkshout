@@ -3,7 +3,7 @@
 layout: case_study
 body-class: case-study colorado-trust
 active: TRUE
-order: 4
+order: 2
 featured: TRUE
 # END LAYOUT DATA
 

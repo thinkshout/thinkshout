@@ -3,7 +3,7 @@
 layout: case_study
 body-class: case-study splc
 active: TRUE
-order: 2
+order: 4
 featured: TRUE
 # END LAYOUT DATA
 
