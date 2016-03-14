@@ -28,7 +28,7 @@ header {
   }
 
   .mobile-menu-icon {
-    color: $darkgray;
+    color: $ltgray;
     float: right;
     height: 50px;
     width: 60px;
@@ -41,7 +41,7 @@ header {
         width: 100%;
         z-index: 9999;
         span {
-          background-color: $darkgray;
+          background-color: $ltgray;
           display: block;
           font-size: 0px;
           height: 4px;
@@ -53,7 +53,7 @@ header {
           z-index: 9999;
           &:before,
           &:after {
-            background: $darkgray;
+            background: $ltgray;
             content: '';
             height: 100%;
             left: 0;
@@ -73,7 +73,7 @@ header {
           background-color: transparent;
           &:before,
           &:after {
-            background: $darkgray;
+            background: $ltgray;
             transition: transform 0.3s;
             transform: rotate(45deg) translateY(0);
           }
