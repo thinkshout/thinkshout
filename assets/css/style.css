@@ -5907,6 +5907,8 @@ header {
     padding-bottom: 2.5rem; }
   .bcorp-info-block .fa-caret-right {
     color: #f1b332; }
+  .bcorp-info-block a:hover {
+    color: #f1b332; }
 
 .our-team-block {
   color: #292929;
