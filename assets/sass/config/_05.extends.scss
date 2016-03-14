@@ -25,6 +25,10 @@
     margin-left: rem(10);
     vertical-align: sub;
   }
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 // Upper header text with the down facing arrow
