@@ -37,7 +37,7 @@ be great if there was a way that you could just check your new Drupal code
 into version control and have a dozen helpful little gnomes do all this
 testing for you?
 
-###  _Enter Hudson..._
+### _Enter Hudson..._
 
 **[Hudson](http://hudson-ci.org/)** is that helpful gnome. More specifically, Hudson is an "extensible [continuous integration (CI)](http://en.wikipedia.org/wiki/Continuous_integration) server". From a 10,000 ft view, Hudson is a tool for offloading the deployment and automated testing of a software application. You write your code, you push it into version control, and Hudson takes over the tasks of grabbing that code, running an installation/deployment process, testing the application (if you provide it with tests), and reporting back to you those test results. 
 
@@ -50,7 +50,7 @@ user interface, and it can be quickly installed on a Debian server via
 standard package management (+1 for us folks that don't want to spend our
 lives doing systems administration).
 
-###  Our Hudson workflow
+### Our Hudson workflow
 
 We'll geek out in a minute to help you get Hudson up and running. But first,
 we'd like to outline how we are currently integrating Hudson into our
@@ -90,7 +90,7 @@ team.
 
 _**Now the fun part...**_
 
-###  Getting Hudson up and running with Drupal
+### Getting Hudson up and running with Drupal
 
 As I mentioned at the beginning of this post, we are running Hudson on a
 Debian server. Hudson is a Java app that runs on Tomcat. If you are
@@ -101,7 +101,7 @@ was pretty easy. There's lots of little fiddly steps, but Googling all the
 little error messages that popped up in our terminal, we were able to do this
 pretty painlessly.
 
-####  Step 1: Get an Ubuntu 10.04 server up and running
+#### Step 1: Get an Ubuntu 10.04 server up and running
 
 There are thousands of guides and options for getting a Debian-based LAMP
 stack up and running. I always fall back on the wonderfully simple
@@ -137,7 +137,7 @@ edit](https://bugs.launchpad.net/ubuntu/+source/php5/+bug/573436) to:
 
 /etc/php5/cli/conf.d/imagick.ini and /etc/php5/cli/conf.d/mcrypt.ini.)_
 
-####  Installing Hudson on Debian
+#### Installing Hudson on Debian
 
 Check out Hudson's own documentation of [the installation process on Debian
 systems](http://wiki.hudson-
@@ -157,7 +157,7 @@ Note: Hudson will create a new user on your system called Hudson. Hudson and
 all the CI "jobs" that you create with Hudson are stored under:
 /var/lib/hudson.
 
-####  Installing Git
+#### Installing Git
 
 Obviously, Hudson needs access to your codebase to run the build process. This
 can be handled in a number of ways. We prefer to work off a clone of our code
@@ -178,12 +178,12 @@ proper citizen of the Git world. To do so, run the following commands:
 
 $ su hudson
 
-$ git config --global user.name "hudson" # Let git know the Hudson user name.
+$ git config --global user.name "hudson" #  Let git know the Hudson user name.
 
-$ git config --global user.email "example@example.com" # Make sure that Git
+$ git config --global user.email "example@example.com" #  Make sure that Git
 knows that user's email address.
 
-####  Installing Drush
+#### Installing Drush
 
 Our new Hudson user needs to be able to run Drush commands as part of the
 build process. There are a variety of opinions on where and how to install
@@ -196,7 +196,7 @@ ibutions/modules/drush/README.txt?view=markup). Pay particular attention to
 step #3, as you need to make sure that any user on your system (in particular
 Mr. Hudson) can run Drush.
 
-####  Global Configuration of Hudson
+#### Global Configuration of Hudson
 
 When you first install Hudson, anyone with access to the Hudson GUI will be
 able to run the application as an admin. If you are putting Hudson on a
@@ -208,7 +208,7 @@ Next, you'll want to set the outgoing email address for Hudson, and add any
 plug-ins or other configuration options that you'd like at:
 http://hudson.example.com:8080/configure.
 
-####  Configuring your first Drupal job
+#### Configuring your first Drupal job
 
 Now we're ready for the fun stuff - actually getting all these tools working
 together to build and test a Drupal site. Hudson manages its builds based on
@@ -231,7 +231,7 @@ To create a new job, we will:
   * Optionally, under **Post-build Actions**, you'll want to select "Publish JUnit test result report" and then set the path for these test results to: drupal_root/scripts/tests/_.xml (where "drupal" represents the root directory of the Drupal install - more on this purpose of this step below.) 
   * Most importantly, you'll want to add a build step to execute a shell commands once the project has been cloned with Git. It's here that Hudson will use Drush to build and test our Drupal site. 
 
-####  Building and testing your installation profile with Drush
+#### Building and testing your installation profile with Drush
 
 The command line steps for building a Drupal site from an installation profile
 differ greatly between Drupal 6.x and Drupal 7.x. With the introduction of the
@@ -300,7 +300,7 @@ know. If you've got the JUnit export of your test results configured
 correctly, you can view a nice web-based report of these results at:
 http://hudson.example.com:8080/job/job_name/build_id/testReport/.
 
-####  Viewing your Hudson-built Site in the Browser
+#### Viewing your Hudson-built Site in the Browser
 
 There are likely many more elegant ways to manage Apache to allow you to view
 your newly-built Drupal site in a web browser. But in the most simple case of

@@ -19,7 +19,7 @@ tags:
 date: 2015-08-07
 ---
 
-###What is a B Corp? Time For Homework###
+### What is a B Corp? Time For Homework###
 
 Before ThinkShout, I'd never heard of a B Corp, but there it was, one of the  first projects I undertook upon my hire: “Get ThinkShout certified as a B Corp.”
 
@@ -29,7 +29,7 @@ As stated on the site, "B Corps are certified by the nonprofit B Lab to meet rig
 
 I realized how meaningful the B Corp movement is and how it would transform our company by making it a better place for our employees, a better steward of community and the environment. It’s the trifecta of awesome - there’s something for everyone and it’s all a force for positive change.
 
-###Getting Certified: Capturing the Data###
+### Getting Certified: Capturing the Data###
 
 In order to become certified as a B Corp, there’s a rigorous 'Assessment' process. Think of it like the final exam in the toughest class you've ever taken but you *have* to pass it in order to land your dream job. On the Assessment, a score of 80 out of a potential perfect 200 is considered passing. Don't be fooled into thinking, "Only 80?!" A lot goes into the scoring process, and data is pulled from multiple areas: Human Resources, Building Management, Purchasing, Financials, Employee Benefits . . . it's all gathered, compiled and scored.
 
@@ -39,7 +39,7 @@ The Assessment is organized into 6 parts: Governance, Workers, Community, Enviro
 
 Admittedly, it took the better part of a year to complete the Assessment, and if I had prepared better at the onset, that timeframe would have been much shorter and perhaps less stressful - although no less of an accomplishment!
 
-###It Could Have Been Better###
+### It Could Have Been Better###
 
 Because I was a new employee to ThinkShout, I wasn’t prepared to answer the kinds of questions required by the Assessment. By the time I put into place much of the infrastructure needed to complete the Assessment, I realized that the Assessment had already been started by my predecessor. Not knowing how she calculated some of the information was initially confusing, but it also encouraged me to dive deeper into the data. What ensued was about six months of reports, writing, and entering data into the Assessment until we were within range of the certification.
 

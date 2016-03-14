@@ -18,7 +18,7 @@ tags:
 - Javascript
 ---
 
-#
+# 
 
 The [Views Infinite Scroll module](https://drupal.org/project/views_infinite_scroll) provides a way to apply infinite scroll to the output of a view, but if you want to apply infinite scroll to custom block content, you're out of luck. I found myself in this position while developing a recently-launched site for [The Salmon Project](http://www.salmonlove.com), which I'll use as a loose reference point as I walk you through my solution to applying both Masonry and Infinite Scroll to custom block content.
 
@@ -51,7 +51,7 @@ function my_module_block_view($delta = '') {
 
 Here, we've defined which function we'll be generating our paged view from; namely `my_module_masonry_content`.
 
-###Generating a paged content array
+### Generating a paged content array
 Within our `my_module_masonry_content` function, we'll create a paged view of nodes. To do so, we'll use an EntityFieldQuery with the "pager" property, which causes the results of the query to be returned as a pager.  
 
 ~~~php
@@ -98,7 +98,7 @@ To apply Masonry to the paged block content, we'll need some JavaScript so let's
 
 ---
 
-####Loading the required libraries
+#### Loading the required libraries
 For optimal performance, we only want to load our JavaScript when the `masonry_content` block is present. To conditionally load the JavaScript we'll use a `hook_block_view_alter()`.
 
 ~~~php
@@ -146,7 +146,7 @@ To pull new items into our content block (to which Masonry is being applied) we'
 
 ---
 
-####Loading more required libraries
+#### Loading more required libraries
 Again, we'll use `drupal_get_path()` and `libraries_get_path()` to retrieve  more required JavaScript from within our `hook_block_view_alter()`.
 
 ~~~php

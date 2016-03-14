@@ -45,7 +45,7 @@ If Channing Tatum resonates with a core audience segment, you need to find a way
 
 To begin, understanding how they arrive at your website will give you clues about what motivated them to check you out.
 
-###Search###
+### Search###
 
 There’s no greater shortcut to your content than [the Google](http://www.gocomics.com/pearlsbeforeswine/2009/10/21#.U1GiEOZdVJ9). In the 7 years since analytics guru Avinash Kaushik pronounced “[Home pages are dead](http://www.gocomics.com/pearlsbeforeswine/2009/10/21#.U1GiEOZdVJ9),” we’ve seen search become ever more important.
 
@@ -73,7 +73,7 @@ This is advice that has been repeated almost endlessly, but Google made it more 
 
 3. Click the “advanced” link next to the search box and change it to “Include” “Landing Page” “Containing” and the URL of one of your landing pages, then click “Apply.” This will align the “not provided” landing page with all of the returned search terms for that page. Extrapolate from there for each of your highest traffic landing pages to build your list of important search terms.
 
-###Social Media###
+### Social Media###
 
 Social media traffic is generally some of the worst quality, in terms of meeting your organizational goals.
 
@@ -93,7 +93,7 @@ Even if you can’t afford something like [Radian6](http://www.salesforcemarketi
 
 3. “Social Media Dashboard” will now be listed as an option under your Dashboards. Modify it to meet your needs!
 
-###Other Referrals###
+### Other Referrals###
 
 If somebody likes your content enough to post it on their own website, you need to be aware of that, not just because you may have found a new partner, but because analyzing the pages sending traffic to you can tell you more about your own (potential) audience.
 
@@ -115,7 +115,7 @@ One of ThinkShout’s clients got significant traffic – roughly 3% of the site
 
 * Spend some time poking around the site. Think about their audiences and what may have sparked the interest in your own content.
 
-###Campaigns###
+### Campaigns###
 
 You’re probably running campaigns to drive your current supporters to your website through email, social channels, and web advertising – maybe even billboard, radio, and TV, if you’re blessed with a large advertising budget.
 
@@ -132,7 +132,7 @@ Just because you’re not sending a URL to your supporters directly doesn’t me
  	* If you don’t expect your users to have a QR reader, create a simple landing page with a redirect to the tracked URL: your.org/campaignname is reasonable for somebody to type into a browser, so [hit it with a 301](https://support.google.com/webmasters/answer/93633?hl=en redirect to your.org/reallandingpage?utm_actualdata=hereitis).
 	* Or, use an URL shortener like [bit.ly](https://bitly.com/) to create the redirect to the campaign URL for you.
 
-###Direct Traffic###
+### Direct Traffic###
 
 Uh-oh, I was afraid you were going to stick around this long. There’s not much to say about “Direct” traffic, in terms of  quantifiable user motivations. Maybe they typed your URL directly into their browser. Maybe somebody chatted the URL to them (the so-called “dark social” network). Maybe your mom’s proud of your work and mentioned it to a friend. Maybe they’ve bookmarked your site. Maybe you sent out an email campaign without a tracking code. Maybe… well, you get the picture.
 

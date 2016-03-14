@@ -50,7 +50,7 @@ With those caveats, we hope this data may help you understand that some of what 
 
 The following are three I see in the 37,000,000 [pageviews](https://support.google.com/analytics/answer/1006243?hl=en) we have access to.
 
-###Search Is the Ultimate Shortcut###
+### Search Is the Ultimate Shortcut###
 
 Back in 2010, Groundwire found that search engines referred 55% of traffic to the nonprofit websites in their study. While we can’t do a direct comparison since the sites in question aren’t the same, I feel comfortable making the blanket statement that the trend is toward more traffic coming from search.
 
@@ -92,7 +92,7 @@ Essentially, the best home page ever created will not solve your problems, as yo
 
 User Experience starts in the first place your users experience you. You can use your data to make some assumptions about where that’s mostly likely to happen and optimize the top landing pages, but, more and more, you need to worry about every piece of content on your site.
 
-###Stop Wondering if Mobile Is Important Right Now###
+### Stop Wondering if Mobile Is Important Right Now###
 
 
 It is. Groundwire found that in 2010, the median number of mobile visitors to the sites in their study was just 1%. That’s changed over the past few years. Looking just at mobile phones (not tablets), you can see the surge:
@@ -166,7 +166,7 @@ My suspicion is that as people grow more comfortable using their smartphones to 
 
 By structuring your content properly, you can create ways to put the content mobile users are most interested in front and center. If nothing else, you should take the time to understand what mobile visitors are doing on your site as a first step.
 
-###Loyalty Is Hard to Come By (or Even Define)###
+### Loyalty Is Hard to Come By (or Even Define)###
 
 Perhaps, given the growth in search and mobile traffic, it’s no surprise that the percentage of "New" visitors has increased over the years:
 
@@ -206,7 +206,7 @@ Rare is the constituent who comes once a year to donate. Engagement, even within
 
 In any case, if visitors **_are_** increasingly less likely to return to nonprofit websites, we need to rethink some of our engagement strategies. If they’re turning elsewhere because they aren’t finding what they want, when they want it, we’ve got some serious work to do.
 
-###Interested in Helping Out?###
+### Interested in Helping Out?###
 
 [I’ve made the spreadsheet with the cleaned data for 2011-2013 publicly available](https://docs.google.com/a/thinkshout.com/spreadsheets/d/1xl8p1VKx4i6uG3kqmHmNdS6s4B6g2kmPIl9sKAtjHwA/edit#gid=0). We hope you’ll check it out and add insights of your own!
 

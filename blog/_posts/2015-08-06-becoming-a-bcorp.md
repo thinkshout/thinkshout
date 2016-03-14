@@ -28,7 +28,7 @@ This Mission Statement worked well for the two of us. Our focus was 100% on our 
 
 In the ensuing years, we’ve been very fortunate and, well, haven’t made too much of a mess of things. We’ve connected with wonderful, forward-thinking [clients](http://thinkshout.com/work/) who are, indeed, making the world a better place. We have a [team](http://thinkshout.com/team/) of 21 talented, dedicated, and passionate individuals. And we’re still [growing](http://thinkshout.com/careers/). We have a clearly defined culture representing our values, and a gorgeous workplace to match. We laid a solid foundation for growth on top of a strong management team and cohesive organizational structure. Of course, apart from surrounding ourselves with great people, Sean and I are personally responsible for very little of all this.
 
-###Staying Focused Through Growth###
+### Staying Focused Through Growth###
 
 As I often like to say, I have a completely new job every 6 months or so - which is a good thing. If Sean and I weren’t continually surprised, frustrated, and elated with the experience of building a company, we’d run the risk of losing our edge. New challenges are, after all, a prerequisite for new opportunities.
 
@@ -46,7 +46,7 @@ To put it more succinctly, there’s just a lot more going on! Consequently, we 
 
 So, we’ve made two strong investments this year. First, we embarked on a robust, 3-month strategic planning process culminating in a new missions, vision, and set of values. Second, we took the formal steps to become a "Beneficial Corporation" (or B Corp).
 
-###Our New Vision, Mission, and Values Statements###
+### Our New Vision, Mission, and Values Statements###
 
 **Our Vision** is to use technology and strategy to elevate organizations creating positive change in the world.
 
@@ -66,7 +66,7 @@ And our Corporate Values are the following:
 
 Circling back to our original Mission Statement at our founding, you’ll notice that at ThinkShout’s core, we hold the same values. However, our new Vision, Mission, and Values Statements provide us with a more complete framework. Specifically, they provide us with a roadmap for how we want to engage daily with our own team, our clients, and the larger world around us.
 
-###Becoming a Certified B Corp###
+### Becoming a Certified B Corp###
 
 In addition to fleshing out our vision for the company, we worked hard this year to achieve [B Corp certification](https://www.bcorporation.net/community/thinkshout-inc). [B Corp](https://www.bcorporation.net/what-are-b-corps/the-non-profit-behind-b-corps) represents both a framework and certification from the nonprofit B Lab, as well as a legal status in select states, with the goal of holding corporations accountable to society as well as shareholders.
 

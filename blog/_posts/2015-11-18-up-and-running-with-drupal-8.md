@@ -22,7 +22,7 @@ For the last few months, we’ve made learning Drupal 8 our singular focus. The 
 
 We generally agree that one of the things keeping people from digging into Drupal 8 is the difficulty of getting it installed and running in a deployable way, which is a must-have if you want to have a team working on a project. This article will walk you through Drupal 8 installation and configuration sync. The follow-up article (*Up and Theming with Drupal 8*) will cover theme setup and configuration, so that you can finally get going with theming in D8.
 
-##Installing Drupal 8##
+## Installing Drupal 8 ##
 
 The [composer install](https://github.com/drupal-composer/drupal-project) method is being widely proposed as the replacement for `drush make`. The `composer.json` file is to `composer install` what a [drush make](http://www.drush.org/en/master/make/) file is to `drush make`. The drupal-composer github repo has a composer template called [drupal-project](https://github.com/drupal-composer/drupal-project) that will get us up and running with just the basics necessary to have a working site.
 
@@ -125,7 +125,7 @@ Now you can run `composer install to build your clone.
 
 Optional: edit the `post-install.sh prior to running `composer install` if you’d like your clone to have a different hostname, db, etc.
 
-##Syncing Sites##
+## Syncing Sites##
 
 Site configurations are only exportable to sites that have the same UUID and have synced using the shared base configuration profile. To find your site’s UUID, cd to the web folder of the base site, then run `drush config-get system.site`. After that, any new site can be synced using these steps immediately after a fresh install (either via download or Git clone):
 
@@ -147,10 +147,10 @@ drush config-import --partial
 
 Important Note: Every new instance MUST start with the same base configuration profile, otherwise you may have entity mismatch issues, even with the partial import. After the initial sync is complete, you can pull in config files via Git and sync will work as expected, even over multiple configuration changes.
 
-##Creating a Theme##
+## Creating a Theme##
 
 This will be covered in our next post: "Up and Theming with Drupal 8."
 
-##Disclaimer##
+## Disclaimer##
 
 The post was written at the end of 2015 while Drupal 8 was still in a Release Candidate stage. While some effort will be made to keep the post up-to-date, if it’s after 2016, you should probably be adding the year you are currently in to your Google search, or better yet, check the docs on [Drupal.org](https://www.drupal.org/drupal-8.0).  

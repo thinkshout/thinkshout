@@ -78,7 +78,6 @@
       display: block;
       margin: 1em auto;
       max-width: 996px;
-      overflow: scroll;
       padding: 0 rem(12);
       width: 94%;
       @include mq(lt) { width: 90%; padding: 0 rem(30); }
@@ -99,7 +98,6 @@
       padding-bottom: rem(12);
       padding-left: rem(22);
       text-indent: -1.3em;
-      overflow: scroll;
       &:before {
         color: $darkgray;
         content: "•";
@@ -119,7 +117,6 @@
       margin-left: rem(36);
       padding-bottom: rem(12);
       padding-left: rem(18);
-      overflow: scroll;
     }
 
     li p {
@@ -174,6 +171,66 @@
     code {
       font-size: rem(15);
     }
+
+    .caption {
+      color: $midgray;
+      display: block;
+      font-size: 0.85rem;
+      margin: 0 auto 2rem;
+      width: 80%;
+      i {
+        @extend %fa-caret-up;
+      }
+      &.left,
+      &.right,
+      &.ten,    
+      &.twenty, 
+      &.thirty, 
+      &.forty,  
+      &.fifty,  
+      &.sixty,  
+      &.seventy,
+      &.eighty, 
+      &.ninety {
+        clear: both;
+      }      
+    }
+    .left {
+      float: left;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+    }
+    .right {
+      float: right;
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+    }
+    .full {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 0;
+      margin-right: 0;
+      max-width: none;
+    }
+    .center {
+      text-align: center;
+      margin: 0 auto;
+      padding: 0;
+      .caption {
+        text-align: left;
+      }
+    }
+    .ten     { width: 10% }
+    .twenty  { width: 20% }
+    .thirty  { width: 30% }
+    .forty   { width: 40% }
+    .fifty   { width: 50% }
+    .sixty   { width: 60% }
+    .seventy { width: 70% }
+    .eighty  { width: 80% }
+    .ninety  { width: 90% }
+
+
   }
 
   .intro p {

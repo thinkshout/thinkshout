@@ -25,11 +25,11 @@ It’s that time of year again - that’s right, DrupalCon! We’re excited to v
 
 The location for this year’s conference holds a special place in our hearts, as we have a handful of awesome clients and partners (and some friends, too) that we can’t wait to see while we geek out about all things Drupal. As always, we’ll all be running around during this four day event, but here are all the specific places where you can catch up with us:
 
-##Exhibit Hall##
+## Exhibit Hall##
 
 We’re partnering with our friends MailChimp at booth 800. Stop by for some cool swag, to talk shop, and learn about the exciting work we’re doing porting the MailChimp module to Drupal 8. We’re also hiring for [several positions](http://thinkshout.com/careers/), so if you’d like to meet face to face and get a better feel for what it would be like to join the ThinkShout team, come chat with us.
 
-##Official Sessions##
+## Official Sessions##
 
 [Scaling Your Business Starts with the Right Spreadsheets: Performance Metrics](https://events.drupal.org/losangeles2015/sessions/scaling-your-business-starts-right-spreadsheets-performance-metrics)[ ](https://events.drupal.org/losangeles2015/sessions/scaling-your-business-starts-right-spreadsheets-performance-metrics)
 
@@ -71,7 +71,7 @@ Thursday May 14th, 1:15pm
 
 Room: TBD
 
-##Birds of a Feather (BoF)##
+## Birds of a Feather (BoF)##
 
 ThinkShout team members will also be leading a couple of great BoF sessions. We hope to see you there!
 

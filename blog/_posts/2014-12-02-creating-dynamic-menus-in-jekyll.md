@@ -30,13 +30,13 @@ As I embarked upon this task, my initial Googling surfaced several approaches fo
 * __Recursive__ – I want my primary (header) and secondary (navigation) menu structure and the associated styling (e.g. active page underlined) to hold true regardless of where I am in the menu tree. This is useful when a landing page that is linked from the primary menu has several siblings you'd like to be able to page between via a secondary navigation menu. To visualize this, check out [the Feeding Texas "About" page](http://www.feedingtexas.org/about/).
 * __Dynamic__ – when I add a page, I want the menu to be updated... automatically. This is helpful because all content managers need to do is create a new Markdown file and, voila! – a new menu item. 
 
-##Popular Approaches and Why They Fall Short
+## Popular Approaches and Why They Fall Short
 For both of the above criteria to be true, we cannot use either of the most popular Jekyll menu solutions I found on the web.
 
-###Data-Driven Approach
+### Data-Driven Approach
 The data-driven approach I found to be popular \[[1][1],[2][2],[3][3]\] falls short because using a YML data file (e.g. `_data/menu.yml`) to scaffold the menu tree is not dynamic. At worst, the data file needs updating each time we add a page \[[2]\] or, at best, when we add a new menu level \[[1][1]].
 
-###Frontmatter-Driven Approach
+### Frontmatter-Driven Approach
 Jekyll helpfully stores a `site.pages` variable that can be looped over in the following way to generate a list of all pages in the site.
 
 {% raw %}
@@ -196,7 +196,7 @@ In addition to clean URLs, using the "Named folders" method to create pages allo
 
 Generating the parent page link is straightforward since you already have the `base_url` and know the name of the file will be `index.html`, so I'll spare you the walkthrough.
 
-##Roundup
+## Roundup
 Although Jekyll is a static site generator, you have all you need when the site is being built to achieve dynamically generated menus without writing a custom plugin. Although it requires some legwork up front, this solution creates a CMS-like user experience for content managers without the performace overhead of the CMS.
 
 That said, after building a dynamic menu system for a platform that does not include one, I'll never take the ease and value of Drupal's menu system for granted again.

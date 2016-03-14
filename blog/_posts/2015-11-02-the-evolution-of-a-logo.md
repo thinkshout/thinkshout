@@ -25,23 +25,21 @@ When a lot of designers begin a brand refresh, they look towards the future for 
 
 So I began with the logo that was designed in 2012.
 
-![logo_0.png]({{ site.baseurl }}/assets/images/blog/logo_0.png)
-
-I’ve done a lot of detailed typographic work, so a few things stood out to me. Let me walk you through my process:
+![logo_0.png]({{ site.baseurl }}/assets/images/blog/logo_0.png){:.left .forty}I’ve done a lot of detailed typographic work, so a few things stood out to me. Let me walk you through my process:
 
 The first thing I did was look at the logo in black and white.
 
-![logo_1.png]({{ site.baseurl }}/assets/images/blog/logo_1.png)
+![logo_1.png]({{ site.baseurl }}/assets/images/blog/logo_1.png){:.right .fifty}<span class="caption"><i class="fa fa-caret-up"></i>This is a caption</span>{:.right .fifty}Turning any graphic to black and white helps reveal the details (and issues). Color likes to play tricks on our eyes and hide inconsistencies. I started with a high-level critique, to avoid getting distracted by the details and instead focus on the larger picture.
 
-Turning any graphic to black and white helps reveal the details (and issues). Color likes to play tricks on our eyes and hide inconsistencies. I started with a high-level critique, to avoid getting distracted by the details and instead focus on the larger picture.
-
-![logo_2.png]({{ site.baseurl }}/assets/images/blog/logo_2.png)
+![logo_2.png]({{ site.baseurl }}/assets/images/blog/logo_2.png)<span class="caption"><i class="fa fa-caret-up"></i>This is a caption</span>
+{:.full}
 
 I saw a clear imbalance between ‘think’ and ‘shout.’ While the airy ‘think’ and bold ‘shout’ were originally intended in the first version of the logo, it resulted in too much weight on the right side. There is also some evidence that the logo might have been improperly stretched vertically based on the dot of the ‘i.’
 
 Next, I dove into the details.
 
-![logo_3.png]({{ site.baseurl }}/assets/images/blog/logo_3.png)
+![logo_3.png]({{ site.baseurl }}/assets/images/blog/logo_3.png)<span class="caption"><i class="fa fa-caret-up"></i>This is a caption</span>
+{:.center .thirty}
 
 You may have to look really close to see what is going on here, but I’d like to draw attention to the three horizontal lines: the cap-height, x-height and baseline. Typographers use these lines to create consistent letterforms throughout a typeface. You’ll notice that the word ‘shout’ extends above the cap-height, the x-height and below the baseline. Typographically, this is wrong. It should be consistent with the word ‘think.’ There are few other inconsistencies throughout the wordmark that I’ve noted such as the line quality of the thought bubbles and the ‘o’ in ‘shout.’
 
@@ -59,7 +57,7 @@ What you don’t see in the screen capture is the time I spent critiquing each a
 
 And finally the moment you’ve been waiting for… (drum roll, please!)
 
-![logo_5.png]({{ site.baseurl }}/assets/images/blog/logo_5.png)
+![logo_5.png]({{ site.baseurl }}/assets/images/blog/logo_5.png)<span class="caption"><i class="fa fa-caret-up"></i>This is a caption</span>
 
 Ohhh, ahhh!
 
