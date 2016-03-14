@@ -139,10 +139,16 @@ header {
       color: $orange;
       display: inline;
 
-      @include mq(d) {
+      @include mq(md) {
         color: $darkgray;
         margin: 0 rem(10);
-        padding: rem(50) rem(10);
+        padding: rem(50) 0;
+      }
+
+      @include mq(l) {
+        color: $darkgray;
+        margin: 0 rem(10);
+        padding: rem(50) rem(7);
       }
     }
   }

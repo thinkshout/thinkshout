@@ -4684,11 +4684,16 @@ header {
     header .main-menu a {
       color: #f26d21;
       display: inline; }
-      @media (min-width: 980px) {
+      @media (min-width: 980px) and (max-width: 1199px) {
         header .main-menu a {
           color: #58585b;
           margin: 0 0.625rem;
-          padding: 3.125rem 0.625rem; } }
+          padding: 3.125rem 0; } }
+      @media (min-width: 1200px) {
+        header .main-menu a {
+          color: #58585b;
+          margin: 0 0.625rem;
+          padding: 3.125rem 0.4375rem; } }
 
 .front {
   margin-top: 134px; }
@@ -6241,10 +6246,11 @@ header {
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    margin-top: 2rem;
-    max-width: 100%; }
+    margin-top: 2rem; }
     .our-team-block .team-image:last-child {
       margin-right: 0; }
+    .our-team-block .team-image img {
+      max-width: 100%; }
 
 .work-with-us {
   background: url("../images/ts_redesign/work-with-us1.jpg") right center no-repeat;
