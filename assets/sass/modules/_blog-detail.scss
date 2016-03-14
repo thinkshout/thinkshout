@@ -187,18 +187,24 @@
   }
 
   .body .tags {
-    background-color: $ltgray;
+    text-align: center;
     margin: 2rem auto;
     padding: 1rem 3rem;
+    font-size: rem(15);
     .tag-label {
-      color: $orange;
-    }
-    .tag-label:before {
-      margin-right: 5px;
+      color: $darkergray;
+      font-size: rem(13);
+      text-transform: uppercase;
     }
     a {
-      border-bottom: 1px dotted $orange;
+      @include transition(color,0.3s,linear);
+      color: $midgray;
+      border-bottom: 1px solid $midgray;
       margin-right: .3em;
+      &:hover {
+        color: $orange;
+        border-bottom: 1px solid $orange;
+      }
     }
   }
   .body .leadin {
@@ -256,13 +262,17 @@
   @include mq(md) { width: 90%; padding: 0 rem(24); }
   @include mq(l)  { width: 100%; padding: 0 rem(40); }
   a {
-    color: $orange;
+    @include transition(color,0.3s,linear);
+    color: $darkgray;
+    &:hover {
+      color: $orange;
+    }
   }
   .previous,
   .next,
   .page_number {
     display: table-cell;
-    font-size: rem(18);
+    font-size: rem(15);
     vertical-align: top;
     a {
       height: 100%;

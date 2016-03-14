@@ -1,24 +1,21 @@
 ---
 layout: default
+body-class: tag-index
 ---
 <link rel="alternate" type="application/rss+xml" title="RSS - {{ page.tag }}" href="{{ site.baseurl }}/tag/{{ page.tag }}/rss.xml" />
 
-<div class="container">
-  <div class="basic-page">
-    <h1>Posts tagged "{{ page.tag }}"</h1>
+  <h1 class="post-title">Posts tagged "{{ page.tag }}"</h1>
 
-      {% for post in site.tags[page.tag] reverse %}
-      {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-      {% unless year == this_year %}
-      {% assign year = this_year %}
-        <h2>{{ year }}</h2>
-      {% endunless %}
-      <article>
-        <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h3>
-        <p>{{post.short}}</p>
-      </article>
-      {% endfor %}
+    {% for post in site.tags[page.tag] reverse %}
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% unless year == this_year %}
+    {% assign year = this_year %}
+      <h2 class="year">{{ year }}</h2>
+    {% endunless %}
+    <article>
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h3>
+      <p class="short">{{post.short}}</p>
+    </article>
+    {% endfor %}
 
-      <h2><a href="{{ site.baseurl }}/{{ page.feed_url }}/rss.xml" class="uppercase-link">Subscribe to all posts tagged "{{ page.tag }}"</h2>
-    </div>
-</div>
+    <h4><a href="{{ site.baseurl }}/{{ page.feed_url }}/rss.xml" class="uppercase-link">Subscribe to all posts tagged "{{ page.tag }}"</h4>

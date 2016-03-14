@@ -62,7 +62,7 @@ layout: default
 
   {% if page.tags.size > 0 %}
     <div class="tags">
-      <span class="tag-label icon-bookmark-empty">Filed Under:</span>
+      <span class="tag-label">Tags:</span>
       {{ page.tags | tag_links }}
     </div>
   {% endif %}
@@ -91,13 +91,13 @@ layout: default
 <div class="pagination">
   {% if page.previous %}
     <div class="previous">
-      <a href="{{ site.baseurl }}{{ page.previous.url }}"><span class="fa fa-arrow-circle-left"></span> <span>{{ page.previous.title }}</span></a>
+      <a href="{{ site.baseurl }}{{ page.previous.url }}"><span class="fa fa-caret-left"></span> <span>{{ page.previous.title }}</span></a>
     </div>
   {% endif %}
 
   {% if page.next %}
     <div class="next">
-      <a href="{{ site.baseurl }}{{ page.next.url }}"><span>{{ page.next.title }}</span> <span class="fa fa-arrow-circle-right"></span></a>
+      <a href="{{ site.baseurl }}{{ page.next.url }}"><span>{{ page.next.title }}</span> <span class="fa fa-caret-right"></span></a>
     </div>
   {% endif %}
 </div>

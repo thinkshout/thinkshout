@@ -1,0 +1,95 @@
+.tag-index {
+
+  .main-content {
+    @include mq(m) { margin-top: rem(90); }
+    @include mq(t) { margin-top: rem(90); }
+  }
+
+  article {
+    border-bottom: 1px solid $ltgray;
+    display: inline-block; 
+    padding: 4rem 0;
+    width: 100%;
+    @include mq(lt) { padding: 2rem 2rem; }
+    @include mq(md) { padding: 3rem 2rem; }
+    @include mq(l)  { padding: 4rem 8rem; }
+  }
+
+  h1 {
+    color: $midgray;
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin: 1rem auto;
+    text-align: center;
+    max-width: 94%;
+    @include mq(lt) { font-size: 2rem; max-width: 80%; }
+    @include mq(md) { font-size: 2.2rem; max-width: 70%; }
+    @include mq(l)  { font-size: 2.5rem; max-width: 60%; }
+  }
+  h2,
+  h3,
+  h4,
+  p {
+    color: $darkgray;
+    display: block;
+    margin: rem(4) auto rem(24); 
+    max-width: 996px;
+    overflow: scroll;
+    padding: 0 rem(12);
+    width: 94%;
+    a {
+      @include transition(color,0.3s,linear);
+      text-decoration: none;
+      &:hover {
+        color: $orange;
+      }
+    }
+    @include mq(lt) { width: 90%; padding: 0 rem(30); }
+    @include mq(md) { width: 90%; padding: 0 rem(60); }
+    @include mq(l)  { width: 100%; padding: 0 rem(100); }
+  }
+
+  h2 {
+    color: $midgray;
+    font-size: rem(24);
+    margin: 0;
+    font-weight: 800;
+    line-height: 1.4;
+    @include mq(lt) { font-size: rem(26); }
+    @include mq(md) { font-size: rem(30); }
+    @include mq(l)  { font-size: rem(34); }
+  }
+  
+  h3 {
+    margin: 1rem auto 0.25rem;
+   a {
+      color: $midgray;
+      font-size: 1.2rem;
+      font-weight: 700;
+      max-width: 94%;
+      @include mq(lt) { font-size: 1.2rem; max-width: 80%; }
+      @include mq(md) { font-size: 1.2rem; max-width: 70%; }
+      @include mq(l)  { font-size: 1.5rem; max-width: 60%; }
+    }
+  }
+
+  h4 {
+    text-align: center;
+    margin-top: 1.6rem;
+  }
+
+  .short {
+    font-size: rem(15);
+    color: $darkgray;
+    @include mq(lt) { font-size: rem(16); }
+    @include mq(md) { font-size: rem(18); }
+    @include mq(l)  { font-size: rem(18); }
+  }
+
+
+}
+
+  // @include mq(lt) {  }
+  // @include mq(md) {  }
+  // @include mq(l)  {  }
+
