@@ -4688,7 +4688,7 @@ header {
         header .main-menu a {
           color: #58585b;
           margin: 0 0.625rem;
-          padding: 3.125rem 0.625rem; } }
+          padding: 3.125rem 0.3125rem; } }
 
 .front {
   margin-top: 134px; }
