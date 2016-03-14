@@ -4260,80 +4260,6 @@ form.contact {
   form.contact .form-group.half.omega {
     margin-right: 0; }
 
-.map-teaser {
-  background: #555555 url("../images/ts_redesign/map-teaser-bg.jpg") right center no-repeat;
-  background-size: 65%;
-  padding: 4rem 0; }
-  .map-teaser .address {
-    color: #fff;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%; }
-    .map-teaser .address:last-child {
-      margin-right: 0; }
-
-.upcoming-events {
-  padding: 4rem 0; }
-  .upcoming-events h4 {
-    color: #58585b;
-    margin-top: 0;
-    text-align: center; }
-  .upcoming-events .event {
-    border-bottom: 0.0625rem solid #dbdcde;
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    overflow: hidden; }
-  .upcoming-events .event h3 {
-    margin-top: 0; }
-    .upcoming-events .event h3 a {
-      color: #f26d21; }
-      .upcoming-events .event h3 a:hover {
-        text-decoration: underline; }
-    .upcoming-events .event h3 .location {
-      color: #292929;
-      font-weight: normal;
-      font-size: 0.875rem;
-      margin-left: 2rem;
-      text-transform: uppercase; }
-      @media (max-width: 480px) {
-        .upcoming-events .event h3 .location {
-          display: block;
-          margin-left: 0; } }
-  .upcoming-events .event .date {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%; }
-    .upcoming-events .event .date:last-child {
-      margin-right: 0; }
-    @media (max-width: 480px) {
-      .upcoming-events .event .date {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%;
-        margin-bottom: 1rem; }
-        .upcoming-events .event .date:last-child {
-          margin-right: 0; } }
-    .upcoming-events .event .date span {
-      font-weight: bold; }
-  .upcoming-events .event .detail {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 74.41059%; }
-    .upcoming-events .event .detail:last-child {
-      margin-right: 0; }
-    @media (max-width: 480px) {
-      .upcoming-events .event .detail {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%; }
-        .upcoming-events .event .detail:last-child {
-          margin-right: 0; } }
-
 .careers-cta {
   background: url("../images/careers.jpg") right center no-repeat;
   background-size: cover;
@@ -5087,6 +5013,39 @@ header {
             .front .blog-teaser .blog-menu a i {
               font-size: 2rem;
               vertical-align: middle; } }
+
+.map-teaser {
+  background: #555555;
+  overflow: hidden; }
+  .map-teaser .address {
+    color: #fff;
+    float: left;
+    width: 33.3333%;
+    padding-left: 7rem; }
+    .map-teaser .address .inner {
+      vertical-align: middle;
+      padding-top: 7rem; }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .map-teaser .address {
+        padding-left: 1rem; } }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .map-teaser .address {
+        width: 50%; } }
+    @media (max-width: 480px) {
+      .map-teaser .address {
+        width: 100%; } }
+  .map-teaser .map-embed {
+    width: 66.6666%;
+    float: left;
+    line-height: 0;
+    margin-bottom: 0; }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .map-teaser .map-embed {
+        width: 50%; } }
+    @media (max-width: 480px) {
+      .map-teaser .map-embed {
+        margin-top: 7rem;
+        width: 100%; } }
 
 .newsletter-block {
   background: #f58546 url("../images/ts_redesign/dot.png");
@@ -6021,6 +5980,75 @@ header {
 @media (min-width: 481px) and (max-width: 979px) {
   .body-class .main-content {
     margin-top: 5.625rem; } }
+
+.upcoming-events {
+  padding: 4rem 0; }
+  .upcoming-events h4 {
+    color: #58585b;
+    margin-top: 0;
+    text-align: center; }
+  .upcoming-events .event {
+    border-bottom: 0.0625rem solid #dbdcde;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    overflow: hidden; }
+    .upcoming-events .event:last-of-type {
+      border: none; }
+  .upcoming-events .event h3 {
+    margin-top: 0; }
+    .upcoming-events .event h3 a {
+      color: #f26d21; }
+      .upcoming-events .event h3 a:hover {
+        text-decoration: underline; }
+    .upcoming-events .event h3 .location {
+      color: #292929;
+      font-weight: normal;
+      font-size: 0.875rem;
+      margin-left: 2rem;
+      text-transform: uppercase; }
+      @media (min-width: 481px) and (max-width: 979px) {
+        .upcoming-events .event h3 .location {
+          display: block;
+          margin-left: 0;
+          margin-top: 0.5rem; } }
+      @media (max-width: 480px) {
+        .upcoming-events .event h3 .location {
+          display: block;
+          margin-left: 0;
+          margin-top: 0.5rem; } }
+  .upcoming-events .event .date {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .upcoming-events .event .date:last-child {
+      margin-right: 0; }
+    @media (max-width: 480px) {
+      .upcoming-events .event .date {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        margin-bottom: 1rem; }
+        .upcoming-events .event .date:last-child {
+          margin-right: 0; } }
+    .upcoming-events .event .date span {
+      font-weight: bold; }
+  .upcoming-events .event .detail {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%; }
+    .upcoming-events .event .detail:last-child {
+      margin-right: 0; }
+    @media (max-width: 480px) {
+      .upcoming-events .event .detail {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .upcoming-events .event .detail:last-child {
+          margin-right: 0; } }
 
 .blog-header-image {
   width: 100%; }
