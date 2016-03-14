@@ -2561,16 +2561,24 @@ a {
     .blog-post .intro p {
       font-size: 1.375rem; } }
 .blog-post .body .tags {
-  background-color: #dbdcde;
+  text-align: center;
   margin: 2rem auto;
-  padding: 1rem 3rem; }
+  padding: 1rem 3rem;
+  font-size: 0.9375rem; }
   .blog-post .body .tags .tag-label {
-    color: #f26d21; }
-  .blog-post .body .tags .tag-label:before {
-    margin-right: 5px; }
+    color: #292929;
+    font-size: 0.8125rem;
+    text-transform: uppercase; }
   .blog-post .body .tags a {
-    border-bottom: 1px dotted #f26d21;
+    -webkit-transition: color, 0.3s, linear;
+    -moz-transition: color, 0.3s, linear;
+    transition: color, 0.3s, linear;
+    color: #626262;
+    border-bottom: 1px solid #626262;
     margin-right: .3em; }
+    .blog-post .body .tags a:hover {
+      color: #f26d21;
+      border-bottom: 1px solid #f26d21; }
 .blog-post .body .leadin {
   color: #f1f1f1; }
 .blog-post .body .blog-cta {
@@ -2647,12 +2655,17 @@ a {
       width: 100%;
       padding: 0 2.5rem; } }
   .pagination a {
-    color: #f26d21; }
+    -webkit-transition: color, 0.3s, linear;
+    -moz-transition: color, 0.3s, linear;
+    transition: color, 0.3s, linear;
+    color: #58585b; }
+    .pagination a:hover {
+      color: #f26d21; }
   .pagination .previous,
   .pagination .next,
   .pagination .page_number {
     display: table-cell;
-    font-size: 1.125rem;
+    font-size: 0.9375rem;
     vertical-align: top; }
     .pagination .previous a,
     .pagination .next a,
@@ -5652,6 +5665,111 @@ header {
   color: #666666; }
 
 /* Literal.Number.Integer.Long */
+@media (max-width: 480px) {
+  .tag-index .main-content {
+    margin-top: 5.625rem; } }
+@media (min-width: 481px) and (max-width: 979px) {
+  .tag-index .main-content {
+    margin-top: 5.625rem; } }
+.tag-index h1 {
+  color: #626262;
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin: 1rem auto;
+  max-width: 94%; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .tag-index h1 {
+      font-size: 2rem;
+      max-width: 80%; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .tag-index h1 {
+      font-size: 2.2rem;
+      max-width: 70%; } }
+  @media (min-width: 1200px) {
+    .tag-index h1 {
+      font-size: 2.5rem;
+      max-width: 60%; } }
+.tag-index h2,
+.tag-index h3,
+.tag-index p {
+  color: #58585b;
+  display: block;
+  margin: 0.25rem auto 1.5rem;
+  max-width: 996px;
+  overflow: scroll;
+  padding: 0 0.75rem;
+  width: 94%; }
+  .tag-index h2 a,
+  .tag-index h3 a,
+  .tag-index p a {
+    -webkit-transition: color, 0.3s, linear;
+    -moz-transition: color, 0.3s, linear;
+    transition: color, 0.3s, linear;
+    text-decoration: none; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .tag-index h2,
+    .tag-index h3,
+    .tag-index p {
+      width: 90%;
+      padding: 0 1.875rem; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .tag-index h2,
+    .tag-index h3,
+    .tag-index p {
+      width: 90%;
+      padding: 0 3.75rem; } }
+  @media (min-width: 1200px) {
+    .tag-index h2,
+    .tag-index h3,
+    .tag-index p {
+      width: 100%;
+      padding: 0 6.25rem; } }
+.tag-index h2 {
+  color: #626262;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.4; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .tag-index h2 {
+      font-size: 1.625rem; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .tag-index h2 {
+      font-size: 1.875rem; } }
+  @media (min-width: 1200px) {
+    .tag-index h2 {
+      font-size: 2.125rem; } }
+.tag-index h3 {
+  margin: 1rem auto 0.25rem; }
+  .tag-index h3 a {
+    color: #626262;
+    font-size: 1.2rem;
+    font-weight: 700;
+    max-width: 94%; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .tag-index h3 a {
+        font-size: 1.2rem;
+        max-width: 80%; } }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .tag-index h3 a {
+        font-size: 1.2rem;
+        max-width: 70%; } }
+    @media (min-width: 1200px) {
+      .tag-index h3 a {
+        font-size: 1.5rem;
+        max-width: 60%; } }
+.tag-index .short {
+  font-size: 0.9375rem;
+  color: #58585b; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .tag-index .short {
+      font-size: 1rem; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .tag-index .short {
+      font-size: 1.125rem; } }
+  @media (min-width: 1200px) {
+    .tag-index .short {
+      font-size: 1.125rem; } }
+
 .team-detail {
   margin-bottom: 1rem; }
 
