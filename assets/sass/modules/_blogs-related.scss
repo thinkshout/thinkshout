@@ -29,17 +29,30 @@
     display: none;
     height: 100%;
     margin-bottom: 2rem;
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
     overflow: hidden;
     padding: 0 1.5rem;
     text-align: left;
     width: 100%;
 
-    @include mq(d) { max-width: 30%; }
-    @include mq(t) { max-width: 44%; margin: 0.5rem; }
-    @include mq(p) { max-width: 100%; margin: 0 0 1rem 0; }
-    @include mq(m) { max-width: 100%; margin: 0 0 1rem 0; }
+    @include span-columns(4);
+
+    @include mq(d) {
+      @include omega(3n);
+    }
+
+    @include mq(t) {
+      @include span-columns(6);
+      @include omega(2n);
+    }
+
+    @include mq(m) {
+      @include span-columns(12);
+    }
+
+    // @include mq(d) { max-width: 30%; }
+    // @include mq(t) { max-width: 44%; margin: 0.5rem; }
+    // @include mq(p) { max-width: 100%; margin: 0 0 1rem 0; }
+    // @include mq(m) { max-width: 100%; margin: 0 0 1rem 0; }
 
     a {
       color: $darkgray;
@@ -55,10 +68,6 @@
       font-size: 1.5rem;
       margin: 0;
     }
-  }
-
-  .post:nth-child(-n+3) {
-    display: inline-block;
   }
 
   h4,
