@@ -11,6 +11,9 @@ main-menu:
   - title: Connect With Us
     url: /contact/
 
+  - title: Team
+    url: /team/
+
   - title: Blog
     url: /blog/
 
