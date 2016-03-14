@@ -56,12 +56,16 @@
 
   // Featured Case Study
   .featured-case-study {
-    background: url('../images/ts_redesign/splc.png') left top;
+    background: url('../images/ts_redesign/splc.png') center center;
     background-size: cover;
     height: 100%;
     padding: 5rem 0 10rem 0;
     position: relative;
     width: 100%;
+
+    &:hover {
+      opacity: 0.9;
+    }
 
     // Adding this for the preview / demo.
     .gradient {
@@ -82,13 +86,17 @@
       position: relative;
       z-index: 1;
 
-      @include mq(lt) {  @include span-columns(5); float: right; text-align: left; }
-      @include mq(d) { @include span-columns(4); float: right; text-align: left; }
+      @include mq(lt) {  @include span-columns(5); float: right; }
+      @include mq(d) { @include span-columns(4); float: right; }
 
       h1 {
         color: $orange;
         font-size: rem(36);
         margin: 0.5rem auto;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
 
       h4 {
