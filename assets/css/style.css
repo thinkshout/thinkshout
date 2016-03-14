@@ -5671,11 +5671,26 @@ header {
 @media (min-width: 481px) and (max-width: 979px) {
   .tag-index .main-content {
     margin-top: 5.625rem; } }
+.tag-index article {
+  border-bottom: 1px solid #dbdcde;
+  display: inline-block;
+  padding: 4rem 0;
+  width: 100%; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .tag-index article {
+      padding: 2rem 2rem; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .tag-index article {
+      padding: 3rem 2rem; } }
+  @media (min-width: 1200px) {
+    .tag-index article {
+      padding: 4rem 8rem; } }
 .tag-index h1 {
   color: #626262;
   font-size: 1.6rem;
   font-weight: 800;
   margin: 1rem auto;
+  text-align: center;
   max-width: 94%; }
   @media (min-width: 671px) and (max-width: 979px) {
     .tag-index h1 {
@@ -5691,6 +5706,7 @@ header {
       max-width: 60%; } }
 .tag-index h2,
 .tag-index h3,
+.tag-index h4,
 .tag-index p {
   color: #58585b;
   display: block;
@@ -5701,32 +5717,42 @@ header {
   width: 94%; }
   .tag-index h2 a,
   .tag-index h3 a,
+  .tag-index h4 a,
   .tag-index p a {
     -webkit-transition: color, 0.3s, linear;
     -moz-transition: color, 0.3s, linear;
     transition: color, 0.3s, linear;
     text-decoration: none; }
+    .tag-index h2 a:hover,
+    .tag-index h3 a:hover,
+    .tag-index h4 a:hover,
+    .tag-index p a:hover {
+      color: #f26d21; }
   @media (min-width: 671px) and (max-width: 979px) {
     .tag-index h2,
     .tag-index h3,
+    .tag-index h4,
     .tag-index p {
       width: 90%;
       padding: 0 1.875rem; } }
   @media (min-width: 980px) and (max-width: 1199px) {
     .tag-index h2,
     .tag-index h3,
+    .tag-index h4,
     .tag-index p {
       width: 90%;
       padding: 0 3.75rem; } }
   @media (min-width: 1200px) {
     .tag-index h2,
     .tag-index h3,
+    .tag-index h4,
     .tag-index p {
       width: 100%;
       padding: 0 6.25rem; } }
 .tag-index h2 {
   color: #626262;
   font-size: 1.5rem;
+  margin: 0;
   font-weight: 800;
   line-height: 1.4; }
   @media (min-width: 671px) and (max-width: 979px) {
@@ -5757,6 +5783,9 @@ header {
       .tag-index h3 a {
         font-size: 1.5rem;
         max-width: 60%; } }
+.tag-index h4 {
+  text-align: center;
+  margin-top: 1.6rem; }
 .tag-index .short {
   font-size: 0.9375rem;
   color: #58585b; }
