@@ -26,7 +26,7 @@ cs-intro:
   type: ""
   mission: ""
   link-text: "View The Site"
-  link-url: https://www.splcenter.org/
+  link-url: http://www.coloradotrust.org/
   text: |
     [The Colorado Trust](http://www.coloradotrust.org/) is dedicated to ending health inequalities that affect racial, ethnic, low-income, and other vulnerable populations. The Trust came to us looking to communicate more effectively across geographic, socioeconomic, and technological divides.
 
