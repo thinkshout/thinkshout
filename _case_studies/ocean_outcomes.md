@@ -7,6 +7,8 @@ order: 3
 featured: TRUE
 # END LAYOUT DATA
 
+title: Ocean Outcomes
+
 cs-class: ocean-outcomes
 
 cs-preview:

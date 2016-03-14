@@ -1,0 +1,17 @@
+---
+layout: default
+body-class: open-source
+permalink: expertise/open-source
+title: Open Source Contributions
+---
+
+{% include open-source-contributions.html %}
+
+<div class="container">
+  {% for project in site.data.open-source %}
+    <h3><a href="{{ project.url }}">{{ project.name }}</a></h3>
+    <p>{{ project.description | markdownify }}</p>
+  {% endfor %}
+</div>
+
+{% include our-expertise.html %}

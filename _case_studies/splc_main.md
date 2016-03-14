@@ -7,6 +7,8 @@ order: 1
 featured: TRUE
 # END LAYOUT DATA
 
+title: Southern Poverty Law Center
+
 cs-class: splc-main
 
 cs-preview:

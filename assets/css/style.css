@@ -4699,7 +4699,7 @@ header {
       position: absolute;
       top: 0;
       width: 100%;
-      z-index: 10; }
+      z-index: 1; }
       @media (min-width: 671px) and (max-width: 979px) {
         .front .featured-case-study .gradient {
           background-image: linear-gradient(to left, #282828, rgba(40, 40, 40, 0.4)); } }
@@ -4712,7 +4712,7 @@ header {
     .front .featured-case-study .featured-case-study-text {
       text-align: center;
       position: relative;
-      z-index: 100; }
+      z-index: 1; }
       @media (min-width: 671px) and (max-width: 979px) {
         .front .featured-case-study .featured-case-study-text {
           float: left;
@@ -5906,6 +5906,8 @@ header {
   .bcorp-info-block p {
     padding-bottom: 2.5rem; }
   .bcorp-info-block .fa-caret-right {
+    color: #f1b332; }
+  .bcorp-info-block a:hover {
     color: #f1b332; }
 
 .our-team-block {

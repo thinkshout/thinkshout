@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic:
+topic: culture
 header-image:
 header-image-alt:
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-    
+
     <style>
       .case-study-header { background-image: url('{{ site.baseurl }}{{ page.cs-header.header-image }}'); }
     </style>
@@ -9,7 +9,7 @@ layout: default
     <section class="case-study-header">
       <div class="gradient">&nbsp;</div>
       <div class="wrapper">
-        
+
         <h4>{{ page.cs-header.client }}</h4>
 
         <h2 class="description">{{ page.cs-header.title }}</h2>
@@ -19,7 +19,7 @@ layout: default
     <section class="body">
       <h3 class="intro">{{ page.cs-intro.topic }}</h3>
       <h4 class="intro">{{ page.cs-intro.mission }}</h4>
-      <a class="intro uppercase-link" href="{{ site.baseurl }}{{ page.cs-intro.link-url }}">{{ page.cs-intro.link-text }}<i class="fa fa-caret-right"></i></a>
+      <a class="intro uppercase-link" href="{{ site.baseurl }}{{ page.cs-intro.link-url }}" target="_blank">{{ page.cs-intro.link-text }}<i class="fa fa-caret-right"></i></a>
       {{ page.cs-intro.text | markdownify }}
 
       {% for section in page.cs-sections %}
@@ -47,5 +47,5 @@ layout: default
     </section>
 
     <section class="cta">
-        <a class="button" href="{{ site.baseurl }}{{ page.cs-cta-url }}">{{ page.cs-cta-text }}</a>
+        <a class="button" href="{{ site.baseurl }}{{ page.cs-cta-url }}" target="_blank">{{ page.cs-cta-text }}</a>
     </section>

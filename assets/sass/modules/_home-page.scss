@@ -63,7 +63,7 @@
     position: relative;
     width: 100%;
 
-    // Ading this for the preview / demo.
+    // Adding this for the preview / demo.
     .gradient {
       background-image: linear-gradient( to left, rgba(40,40,40,0.8), rgba(40,40,40,0.5) );
       height: 100%;
@@ -71,7 +71,7 @@
       position: absolute;
       top: 0;
       width: 100%;
-      z-index: 10;
+      z-index: 1;
       @include mq(lt) { background-image: linear-gradient( to left, rgba(40,40,40,1), rgba(40,40,40,0.4) ) }
       @include mq(md) { background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 65% ) }
       @include mq(l) { background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 65% ) }
@@ -80,7 +80,7 @@
     .featured-case-study-text {
       text-align: center;
       position: relative;
-      z-index: 100;
+      z-index: 1;
 
       @include mq(lt) {  @include span-columns(5); float: right; text-align: left; }
       @include mq(d) { @include span-columns(4); float: right; text-align: left; }
