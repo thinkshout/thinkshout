@@ -63,6 +63,10 @@
     position: relative;
     width: 100%;
 
+    &:hover {
+      opacity: 0.9;
+    }
+
     // Adding this for the preview / demo.
     .gradient {
       background-image: linear-gradient( to left, rgba(40,40,40,0.8), rgba(40,40,40,0.5) );
@@ -89,6 +93,10 @@
         color: $orange;
         font-size: rem(36);
         margin: 0.5rem auto;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
 
       h4 {
