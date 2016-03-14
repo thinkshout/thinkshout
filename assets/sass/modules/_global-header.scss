@@ -8,15 +8,6 @@ header {
   width: 100%;
   z-index: 2;
 
-  @include mq(m) {
-    border-top: 4px solid $orange;
-    padding: 0.5rem;
-  }
-
-  @include mq(t) {
-    border-top: 4px solid $orange;
-    padding: 0.5rem;
-  }
 
   .header-logo {
     img {
