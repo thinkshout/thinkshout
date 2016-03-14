@@ -92,9 +92,14 @@ title: Who we are
           that helps continue to make intentional choices that put people and the
           planet above profit.
         </p>
-        <a href="https://www.bcorporation.net/community/thinkshout-inc" class="uppercase-link">
-          Learn more about our journey to becoming a B corp<i class="fa fa-caret-right"></i>
-        </a>
+        {% assign items = site.data.menu.external %}
+        {% for item in items %}
+          {% if item.title == 'bcorp'%}
+            <a href="{{ item.url }}" class="uppercase-link" target="_blank">
+              Learn more about our journey to becoming a B corp<i class="fa fa-caret-right"></i>
+            </a>
+          {% endif %}
+        {% endfor %}
       </div>
     </div>
   </div>
