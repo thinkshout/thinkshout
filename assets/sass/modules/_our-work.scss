@@ -11,7 +11,7 @@
       font-size: 1.8rem;
       font-weight: 900;
       margin-bottom: 0;
-      margin-top: 0.7rem;      
+      margin-top: 0.7rem;
       @include mq(lt) { font-size: 2rem; }
       @include mq(md) { font-size: 2.2rem; }
       @include mq(l) { font-size: 2.5rem; }
@@ -56,7 +56,7 @@
       @include mq(l) { background-image: linear-gradient( to right, rgba(40,40,40,1), transparent 55% ) }
     }
 
-    .wrapper {      
+    .wrapper {
       margin: 3% auto;
       max-width: 94%;
       position: relative;
@@ -79,8 +79,8 @@
         right: 0;
         @include mq(md) { float: right; margin-right: 5%; }
         @include mq(l) { float: right; margin-right: 7%; }
-      }      
-    }    
+      }
+    }
 
     h4 {
       color: darken($ltgray, 10%);
@@ -105,6 +105,10 @@
       @include mq(lt) { font-size: 1.5rem; }
       @include mq(md) { font-size: 1.8rem; }
       @include mq(l) { font-size: 2rem; }
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
     p {
@@ -122,7 +126,7 @@
       i {
         color: $yellow;
       }
-    } 
+    }
   }
 }
 

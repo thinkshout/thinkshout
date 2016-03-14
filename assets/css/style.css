@@ -5520,6 +5520,8 @@ header {
     @media (min-width: 1200px) {
       .our-work .case-study-header h2 {
         font-size: 2rem; } }
+    .our-work .case-study-header h2:hover {
+      text-decoration: underline; }
   .our-work .case-study-header p {
     font-size: 0.8125rem;
     font-weight: 300;
