@@ -1,0 +1,44 @@
+.map-teaser {
+  background: $backgroundgray;
+  overflow: hidden;
+
+  .address {
+    color: $white;
+    float: left;
+    width: 33.3333%;
+    padding-left: 7rem;
+
+    .inner {
+      vertical-align: middle;;
+      padding-top: 7rem;
+    }
+
+    @include mq(t) {
+      padding-left: 1rem;
+    }
+
+    @include mq(t) {
+      width: 50%;
+    }
+
+    @include mq(m) {
+      width: 100%;
+    }
+  }
+
+  .map-embed {
+    width: 66.6666%;
+    float: left;
+    line-height: 0;
+    margin-bottom: 0;
+
+    @include mq(t) {
+      width: 50%;
+    }
+
+    @include mq(m) {
+      margin-top: 7rem;
+      width: 100%;
+    }
+  }
+}

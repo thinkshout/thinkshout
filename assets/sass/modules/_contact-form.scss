@@ -1,11 +1,36 @@
-form.contact {
-  @include span-columns(8);
+.contact-form {
+  background: $yellow;
+  padding: 4rem 0;
+
+  .form-row {
+    @include outer-container;
+  }
+}
+
+.inquiry-text {
+  @include span-columns(6);
 
   @include mq(m) {
     @include span-columns(12);
   }
 
-  padding: 4rem 0;
+  h4 {
+    color: $black;
+    margin-top: 0;
+    text-transform: uppercase;
+  }
+
+  strong {
+    color: $black;
+  }
+}
+
+form.contact {
+  @include span-columns(6);
+
+  @include mq(m) {
+    @include span-columns(12);
+  }
 
   label {
     display: block;
@@ -21,12 +46,21 @@ form.contact {
     margin-bottom: 1rem;
     padding: 0.75rem 1rem;
     width: 100%;
-    @include transition(background 0.2s);
+    @include transition(box-shadow 0.2s);
 
     &:focus {
-      background: $ltgray;
+      background: $white;
+      box-shadow: 0 0 rem(5) rgba($black, 0.2);
       outline: none;
-      @include transition(background 0.2s);
+      @include transition(box-shadow 0.2s);
     }
+  }
+
+  .form-group.half {
+    @include span-columns(6);
+  }
+
+  .form-group.half.omega {
+    @include omega();
   }
 }

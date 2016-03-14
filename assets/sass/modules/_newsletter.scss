@@ -11,7 +11,7 @@
   }
 
   .newsletter-info {
-    @include span-columns(9);
+    @include span-columns(7);
 
     @include mq(m) {
       @include span-columns(12);

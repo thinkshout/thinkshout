@@ -143,14 +143,19 @@
 // "Our Team" bcorp-info-block
 
 .our-team-block {
-  color: $darkergray;
+  color: $darkgray;
   padding: 5rem 0;
 
   @include mq(t) { padding: 3rem 0; }
   @include mq(m) { padding: 2rem 0; }
 
-  h2 {
+  a h2 {
+    color: $darkgray;
     margin: 0;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   p,
@@ -158,12 +163,12 @@
     @include mq(d) { @include span-columns(7); }
   }
 
-  a {
-    color: $darkergray;
-  }
-
-  img {
+  .team-image {
+    @include span-columns(12);
     margin-top: 2rem;
-    max-width: 100%;
+
+    img {
+      max-width: 100%;
+    }
   }
 }

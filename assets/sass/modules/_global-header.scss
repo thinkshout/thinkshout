@@ -1,21 +1,13 @@
 header {
   background-color: $white;
   left: 0;
+  opacity: 0.95;
   padding: 2rem 0;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 2;
 
-  @include mq(m) {
-    border-top: 4px solid $orange;
-    padding: 0.5rem;
-  }
-
-  @include mq(t) {
-    border-top: 4px solid $orange;
-    padding: 0.5rem;
-  }
 
   .header-logo {
     img {
@@ -36,7 +28,7 @@ header {
   }
 
   .mobile-menu-icon {
-    color: $darkgray;
+    color: $ltgray;
     float: right;
     height: 50px;
     width: 60px;
@@ -49,7 +41,7 @@ header {
         width: 100%;
         z-index: 9999;
         span {
-          background-color: $darkgray;
+          background-color: $ltgray;
           display: block;
           font-size: 0px;
           height: 4px;
@@ -61,7 +53,7 @@ header {
           z-index: 9999;
           &:before,
           &:after {
-            background: $darkgray;
+            background: $ltgray;
             content: '';
             height: 100%;
             left: 0;
@@ -81,7 +73,7 @@ header {
           background-color: transparent;
           &:before,
           &:after {
-            background: $darkgray;
+            background: $ltgray;
             transition: transform 0.3s;
             transform: rotate(45deg) translateY(0);
           }
@@ -123,7 +115,7 @@ header {
       }
     }
 
-    $colors: $orange, $orange-yellow1, $orange-yellow2, $orange-yellow3, $yellow;
+    $colors: $orange, $orange-yellow1, $orange-yellow2, $orange-yellow3, $orange-yellow4, $yellow;
     $child: 1;
     @each $color in $colors {
       li:nth-child(#{$child}) a.active,
@@ -139,10 +131,16 @@ header {
       color: $orange;
       display: inline;
 
-      @include mq(d) {
+      @include mq(md) {
         color: $darkgray;
-        margin: 0 rem(10);
-        padding: rem(50) rem(10);
+        margin: 0 0.7rem;
+        padding: rem(50) 0;
+      }
+
+      @include mq(l) {
+        color: $darkgray;
+        margin: 0 0.7rem;
+        padding: rem(50) rem(5);
       }
     }
   }

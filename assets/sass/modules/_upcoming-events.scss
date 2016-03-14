@@ -1,0 +1,73 @@
+.upcoming-events {
+  padding: 4rem 0;
+
+  h4 {
+    color: $darkgray;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .event {
+    border-bottom: rem(1) solid $ltgray;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+
+    &:last-of-type {
+      border: none;
+    }
+  }
+
+  .event h3 {
+    margin-top: 0;
+
+    a {
+      color: $orange;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .location {
+      color: $darkergray;
+      font-weight: normal;
+      font-size: rem(14);
+      margin-left: 2rem;
+      text-transform: uppercase;
+
+      @include mq(t) {
+        display: block;
+        margin-left: 0;
+        margin-top: 0.5rem;
+      }
+
+      @include mq(m) {
+        display: block;
+        margin-left: 0;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+
+  .event .date {
+    @include span-columns(3);
+
+    @include mq(m) {
+      @include span-columns(12);
+      margin-bottom: 1rem;
+    }
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .event .detail {
+    @include span-columns(9);
+
+    @include mq(m) {
+      @include span-columns(12);
+    }
+  }
+}
