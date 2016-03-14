@@ -139,11 +139,7 @@ header {
 
       @include mq(l) {
         color: $darkgray;
-<<<<<<< HEAD
-        margin: 0 rem(10);
-=======
         margin: 0 0.7rem;
->>>>>>> 32787ceb625579a6e459cae7bb40bb8d50abea30
         padding: rem(50) rem(5);
       }
     }
