@@ -166,6 +166,9 @@
   .team-image {
     @include span-columns(12);
     margin-top: 2rem;
-    max-width: 100%;
+
+    img {
+      max-width: 100%;
+    }
   }
 }

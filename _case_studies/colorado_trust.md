@@ -3,7 +3,7 @@
 layout: case_study
 body-class: case-study colorado-trust
 active: TRUE
-order: 4
+order: 2
 featured: TRUE
 # END LAYOUT DATA
 
@@ -15,7 +15,7 @@ cs-preview:
   image: /assets/images/ts_redesign/case-studies/colorado-trust/header1.jpg
   type: Responsive Drupal Site
   client: "Colorado Trust"
-  description: "Leveraging Drupal and Salesforce to help teachers instill intellectual vigor and curiosity in the world’s secondary school students."
+  description: "Communicating across technological, geographic, and socioeconomic divides to advance opportunities for every Coloradan to be healthy."
 
 cs-header:
   header-image: /assets/images/ts_redesign/case-studies/colorado-trust/header1.jpg
