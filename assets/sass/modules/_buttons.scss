@@ -13,3 +13,8 @@
     @include transition(0.5s all);
   }
 }
+
+.button.solid {
+  background: $orange;
+  color: $white;
+}
