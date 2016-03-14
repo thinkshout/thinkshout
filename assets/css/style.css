@@ -2073,6 +2073,8 @@ a {
     font-size: 1.5rem;
     margin-left: 0.625rem;
     vertical-align: sub; }
+  .uppercase-link:hover {
+    text-decoration: underline; }
 
 .header-down-caret h4 {
   font-size: 0.8125rem;
