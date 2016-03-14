@@ -1,6 +1,7 @@
 header {
   background-color: $white;
   left: 0;
+  opacity: 0.95;
   padding: 2rem 0;
   position: fixed;
   top: 0;
@@ -141,14 +142,14 @@ header {
 
       @include mq(md) {
         color: $darkgray;
-        margin: 0 rem(10);
+        margin: 0 0.7rem;
         padding: rem(50) 0;
       }
 
       @include mq(l) {
         color: $darkgray;
-        margin: 0 rem(10);
-        padding: rem(50) rem(7);
+        margin: 0 0.7rem;
+        padding: rem(50) rem(5);
       }
     }
   }
