@@ -123,7 +123,7 @@ header {
       }
     }
 
-    $colors: $orange, $orange-yellow1, $orange-yellow2, $orange-yellow3, $yellow;
+    $colors: $orange, $orange-yellow1, $orange-yellow2, $orange-yellow3, $orange-yellow4, $yellow;
     $child: 1;
     @each $color in $colors {
       li:nth-child(#{$child}) a.active,
