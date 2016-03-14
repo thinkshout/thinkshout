@@ -17,7 +17,7 @@ title: "Engaging variable audiences with pre-filtered search"
 
 Historical expertise and strong results in consumer health care advocacy have given Families USA a solid reputation and credibility with Policymakers, the Media, and Partnering Organizations. However, as the dialog surrounding healthcare advocacy continues to expand, Families USA needed to be able to effectively communicate its brand and credibility to a new, broader audience...and this is where we came in.
 
-##Engaging variable audiences - complexity cloaked in simplicity##
+## Engaging variable audiences - complexity cloaked in simplicity##
 We had the challenge of engaging two very different sets of constituents:
 
 * **General public**: users with less topical knowledge that find Families USA because of a curiosity about an issue and a desire to learn more.
@@ -29,7 +29,7 @@ Additionally, on more specific content pages, we provide simple, yet powerful li
 
 This allows the general public to learn more about an issue quickly and easily, while allowing higher level users to dig deeper with the same quickness and ease.
 
-##Technical details##
+## Technical details##
 We created our search tool using Drupal's [Search API module] (https://drupal.org/project/search_api) and used [Apache Solr](https://drupal.org/project/search_api_solr) to achieve the high-performance search engine capabilities we wanted to deliver.
 
 From there, to implement a pre-filtered search, we first indexed and then enabled the Entity and Taxonomy Term Reference fields we wanted to be able to filter on as Facets. Next we placed the Facet blocks on the search page using the [Context module](https://drupal.org/project/context). These exposed blocks allowed us to filter the results on the search page based on their Entity Reference and/or Term Reference field values and layed the groundwork for being able to pre-populate the blocks by invoking specific URLs.

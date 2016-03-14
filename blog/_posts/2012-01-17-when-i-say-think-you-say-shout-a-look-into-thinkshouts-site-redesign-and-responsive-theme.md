@@ -27,7 +27,7 @@ We looked at a number of different themes and settled on testing out [AdaptiveTh
 
 With a HTML5 base and built-in mobile, ipad/tablet, normal and wide responses, it seemed like the smartest choice.  Although an initial look at the theme settings file can be daunting, once you dive in and see what is happening behind the scenes, both the configuration and modification of regions and zones is easy to understand. The bonus was the ability to create subthemes on the fly using [Omega Tools](http://drupal.org/project/omega_tools) and Drush and the ability to export / revert theme settings.
 
-##Using SCSS with Omega
+## Using SCSS with Omega
 
 I wrote the styles for the ThinkShout site in [Sass](http://sass-lang.com/). The newest syntax for writing Sass is called SCSS (which stands for "Sassy CSS"). SCSS is very similar to CSS but uses slightly different syntax which provides nested rules, variables, mixins and selector inheritance. This language uses [Compass](http://compass-style.org/), which is a Ruby-based open-source CSS Authoring Framework that provides libraries of common code to use within your stylesheets. I mostly use Compass to access CSS3 mixins.
 
@@ -39,12 +39,12 @@ Sometimes Drupal has been known to provide us with multi-layered complex markup.
 
 *As a side note, ThinkShout as a team is moving to [Less](http://lesscss.org/) from SCSS. That will be my next blog post. Compare and Contrast - SCSS vs Less.*
 
-##The Different Responses of ThinkShout.com
+## The Different Responses of ThinkShout.com
 
 <div style="text-align: center; margin: 0 0 30px 0; "><img src="http://thinkshout.com/sites/default/files/images/inline/responses.png"  />
 <p style="font-size: 12px; color: #333; font-style: italic; width: 50%; text-align: center; margin: 0 auto;"> Clockwise from top left: Mobile, iPad - Portrait, Normal (960)</p></div>
 
-###Mobile
+### Mobile
 
 For the mobile web experience of the site, we wanted to present a simple, user friendly interface and content layout. To achieve this, we center-aligned the logo, site description and main menu and set the fonts to a legible size for the context. For the recent project section on the homepage, we decided the user only needed to view one recent project and we resized the image to fit in the frame. For simplicity, we removed the search bar, social media links and twitter feed.
 
@@ -62,7 +62,7 @@ In SCSS, you can easily nest a list of styles under one body class.
 
 `<code>}</code>`
 
-###Narrow (iPad / Tablets)
+### Narrow (iPad / Tablets)
 
 On the Narrow view, the tagline is positioned to the left, while the menu is positioned at the top and right of the container. We added two featured project thumbnails to enhance the Recent Project section and brought the search bar and social media links into the footer.
 
@@ -70,15 +70,15 @@ The [Portfolio landing page](http://www.thinkshout.com/portfolio) now has two co
 
 Also, as a bonus, the user can now see the "Put a bird on it" badge/image we have added to the site. If you are lost with this reference, [watch and learn](http://www.hulu.com/watch/210887/portlandia-put-a-bird-on-it). 
 
-###Normal (960 wide)
+### Normal (960 wide)
 
 In this response, the site description's font-size increases and the “Put a bird on it" image and all Recent Projects’ images increases in width and height. The Portfolio landing page now has three columns of images. The Twitter feed appears in the footer.
 
-###Wide (1200 wide)
+### Wide (1200 wide)
 
 This is just an extension of the Normal response. The only significant changes are that the Recent Projects main image increase to its max-width. The portfolio landing page remains three columns but the thumbnails get slightly bigger.
 
-##Omega Lessons Learned
+## Omega Lessons Learned
 
 This isn't very well documented in Omega documentation. But to theme well in Omega, it is essential to understand how the stylesheets in your subtheme work.
 
@@ -94,11 +94,11 @@ This isn't very well documented in Omega documentation. But to theme well in Ome
 
 > THEME-alpha-default-wide.css - applies to wide layout ONLY (unless you create one after it in the chain)
 
-##Future implementation to-dos
+## Future implementation to-dos
 
 I would like to implement the [Adaptive Images](http://drupal.org/project/adaptive_image) module to the Recent Projects section on the homepage. Right now the mobile view is pulling the largest image in, just resized using max-width: 100%.
 
-##Fun Facts
+## Fun Facts
 
 The name of our Omega subtheme is Swift. Why? When I began the initial theming of the site, it was during the annual time when a flock of [Vaux's Swifts](http://en.wikipedia.org/wiki/Chapman_Swifts) visit Chapman Elementary school in Portland. [Watch a clip of the Vaux swifts in action](http://youtu.be/A-YaEWNex2U).
 

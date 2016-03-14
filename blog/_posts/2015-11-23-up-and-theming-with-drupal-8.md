@@ -21,7 +21,7 @@ header-image-alt: "Image: Model Thinkshout Employees"
 
 Drupal 8 is [finally here](https://www.drupal.org/8)! We’ve been digging into the code and learning how to install D8 in a way that allow us to sync sites and use it for production work. A lot of things have changed, which we covered in our previous article, [Up and Running with Drupal 8](http://thinkshout.com/blog/2015/11/up-and-running-with-drupal-8/). The next step is to see what’s changed in the theming layer, installing a basic theme, and working with the new Twig templating system. There’s a good deal to cover, so let’s [jump in](http://twig.sensiolabs.org/)!
 
-##Creating a Theme##
+## Creating a Theme##
 
 The steps for setting up a basic site theme are fairly simple: create a `custom/THEMENAME` directory in `web/themes`, and then add a `THEMENAME.info.yml` file with the following:
 
@@ -186,6 +186,6 @@ After that, rebuild your cache (`drush cr`), and your CSS and JS files should be
 
 And that’s it! Note that we could have changed the markup in any number of ways to suit our designs, or even make the template specific to the content type as well as the field.
 
-###Disclaimer###
+### Disclaimer###
 
 The post was written at the end of 2015 while Drupal 8 was still in a Release Candidate stage. While some effort will be made to keep the post up-to-date, if it’s after 2016, you should probably add the current year to your Google search, or better yet, check the docs on [Drupal.org](http://drupal.org).  

@@ -46,7 +46,7 @@ Our solution to this problem is multi-faceted...
 
 Since all content for a Jekyll site is stored in text files (markdown, csv, HTML, etc.) all content can be managed from the GitHub interface. Alternatively, there are tools like [Prose](http://prose.io) that are well-integrated with Jekyll and allow for a more robust content editing experience.
 
-##### Complex Content Management with Simple CSV Inputs
+#####  Complex Content Management with Simple CSV Inputs
 Tools like Github allow for simple updates like changing text on a page, but can also allow for complex content management as is the case with Feeding Texas' [zip-code detail pages](http://www.feedingtexas.org/zip/78056/). These pages are generated from a CSV input that holds data for each zip code in Texas. The CSV file is processed when the site is built by a [custom Ruby plugin](https://github.com/thinkshout/feeding-texas/blob/master/_plugins/csv_to_page.rb) that creates a page for each zip code. From a content management standpoint, this means Feeding Texas can update hundreds of pages in three simple steps:
 
 1. Edit the CSV file with the preferred tool (Excel, etc.)
@@ -55,7 +55,7 @@ Tools like Github allow for simple updates like changing text on a page, but can
 
 This commit then triggers a re-build of the site wherein each zip code detail page will contain the updated CSV data.
 
-##### Reusable Content Blocks
+#####  Reusable Content Blocks
 
 Another popular content management concept that was difficult to implement in Jekyll until the 2.0.0 release was blocks of content that could be stored in a single place and used in multiple places around the site. [Collections](http://jekyllrb.com/docs/collections/) made this much easier. On the Feeding Texas site, we created collections for several things ranging from [calls to action (scroll to page bottom)](http://www.feedingtexas.org/learn/communities/hunger-atlas/) to [staff profiles](http://www.feedingtexas.org/about/staff/) that can be placed anywhere on the site by specifying their index (where the index could be any YAML frontmatter variable). So, for example, if a Feeding Texas content manager wanted to create and use a new call to action block, they would do two things:
 
@@ -69,7 +69,7 @@ calls_to_action:
 ~~~
 ...and our templates do the rest.
 
-##### Challenges of Using GitHub as a Content Management Tool
+#####  Challenges of Using GitHub as a Content Management Tool
 One difficulty of using GitHub for content management is there is no way to add image or video files through the GitHub interface. This is problematic because it is something content managers expect to be able to do, and we cannot simply add the files to the (compiled) live site directory (via FTP for example) because each commit triggers a wipe and a rebuild of said directory. To work around this problem, we created an Amazon S3 bucket dedicated to storing assets (images, videos, etc.) and reference the assets statically anywhere they need to be used on the site.
 
 As a side note, the site is also hosted on an S3 bucket and we did consider putting both S3 buckets behind a CDN, but ultimately decided this was not necessary. That said, it'd be a trivial way to increase site performance if we ever wanted a boost.
@@ -84,7 +84,7 @@ As an added bonus, we can leverage GitHub's pull request feature as a content ma
 
 Our Travis configuration file also specifies tests to run before deploying a new build of the site, which prevents a bad commit from generating a broken site. Travis has several testing frameworks [baked in](http://docs.travis-ci.com/user/gui-and-headless-browsers/), but if those aren't enough, you can also install tools via your Travis configuration file. We, for example, [install CasperJS](https://github.com/thinkshout/feeding-texas/blob/master/.travis.yml#L7) for our tests.
 
-###We Did it! A CMS-Less Site Ready for Production Use!
+### We Did it! A CMS-Less Site Ready for Production Use!
 Having thought our way around using a full-blown CMS, like Wordpress or Drupal provide, we got two big wins:
 
 1. **A lightning-fast site** – because Jekyll sites are static, all of the "heavy lifting" is done when the site is being generated; no database calls or logic layer to slow things down. Also, no in-site CMS!

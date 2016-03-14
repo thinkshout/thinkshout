@@ -24,7 +24,7 @@ We are thrilled to introduce ThinkShout’s very first interns! In partnership w
 
 Without further ado, meet our interns!
 
-##Daniel Toader##
+## Daniel Toader##
 
 ![daniel.jpg]({{ site.baseurl }}/assets/images/blog/interns_1.jpg)
 
@@ -34,7 +34,7 @@ Favorite snack: Pretzels and beer.
 
 Favorite word: Supercalifragilisticexpialidocious
 
-##Bojana Skarich##
+## Bojana Skarich##
 
 ![bojana.jpg]({{ site.baseurl }}/assets/images/blog/interns_2.jpg)
 

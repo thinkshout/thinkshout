@@ -31,7 +31,7 @@ To make your site load fast, you should spend time reducing the size of your ass
 
 Most of the work happened on 4 types of assets — video, images, CSS/JS and Fonts.
 
-##Benchmarking
+## Benchmarking
 
 Chrome developer tools for measuring the load times, file sizes and network requests. There is also a featured called[ device mode](https://developer.chrome.com/devtools/docs/device-mode). You can emulate a variety of mobile devices and simulate network speeds with device mode.
 
@@ -39,7 +39,7 @@ Chrome developer tools for measuring the load times, file sizes and network requ
 
 After we initially built this site, with no optimization, it weighed in at about 20MB. On Selma, we simulated a normal 3G connection. We measured 76 web requests. On this connection, it took close to 10 seconds before there was any paint on the page. Yes, that’s a huge number, but keep in mind this is just a starting point.
 
-##Video
+## Video
 
 The intro to the site begins with an HTML video as the background. Videos are large, even small ones. We used [WebM](http://www.webmproject.org/) format, supported across most modern browsers and an MP4 as a fallback. WebM files are much smaller. Along with the size consideration, we did not want the background video to load on mobile phones. Additionally, on larger screens, the background video needed to pause when a user clicked the "play trailer" button, then play again when the user finished viewing the trailer.
 
@@ -91,7 +91,7 @@ $('.play-button').magnificPopup({
 
 Now when a user plays the trailer, we get what we want with hardly any additional code. The plugin and the HTML5 Javascript API do it for us.
 
-##Images
+## Images
 
 Unoptimized images are assets most responsible for slow load times on the internet. You should compress your images so they render faster. Also, sprite smaller images so they come in as a single request. Wherever possible, use background images. Inline images slow down page rendering. These optimizations are key to doing the most with the first request you make to the server. Remember, we want to get our html and CSS down to our user expeditiously.
 
@@ -101,7 +101,7 @@ If you have large background images, create mobile versions of those images. Whe
 
 Finally, choose the right image format. If you don’t need transparency, use a jpg. If you need better detail in your images use a PNG. If you need animation, use a GIF. Using a PNG for a large background image will unnecessarily cause your user to download a huge file.
 
-##CSS and JS
+## CSS and JS
 
 The faster you get the HTML and CSS down, happier the site user will be. It’s been shown that a user likes to have content rendering within at least three seconds of requesting the page. A user would rather see progressive rendering of the page than a blank page and then have everything load all at once.
 
@@ -111,13 +111,13 @@ Do just the opposite for scripts you need last. On the Selma, site we use a plug
 
 Lastly, aggregate your CSS and JS so you don’t make unnecessary server requests. In our case, we use[ Jekyll Assets](https://github.com/ixti/jekyll-assets) for our asset pipeline. This plugin will let us compress our CSS with [Sass](http://sass-lang.com/) and JS with[ Uglifier](https://github.com/lautis/uglifier). Fewer CSS and JS requests get painted on to the browser quickly.
 
-##Fonts
+## Fonts
 
 Fonts that are already on your user’s computer don’t cost you any extra. On Selma, we realized we had a font that looked almost identical to Georgia. Using @font-face will make a request for the font files you need. So we got rid of the custom font we were using. There are about four files for each font. So if you have one font, but that font has a regular, bold, and italic typeface, you’ve just made 12 server requests for that font.
 
 In addition, if you are going to use @font-face, use an appropriate fallback font. I say appropriate because when your font finally loads, you don’t want it to be a jarring experience for the user.
 
-##Summary
+## Summary
 
 In the end, were able to get our site down to 1.4MB, and painting to the page in less than 1 second on a normal 3G network. We now have 43 requests and our entire DOM is loaded in 2.45 seconds on this connection. There is a lot more fine tuning we can do here. But this shows how snappy you can make your site just by doing basic optimizations around the aforementioned 4 types of assets.
 
