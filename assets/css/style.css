@@ -5164,6 +5164,14 @@ header {
     width: 57.35098%; }
     .newsletter-block .newsletter-info:last-child {
       margin-right: 0; }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .newsletter-block .newsletter-info {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .newsletter-block .newsletter-info:last-child {
+          margin-right: 0; } }
     @media (max-width: 480px) {
       .newsletter-block .newsletter-info {
         float: left;
@@ -5214,6 +5222,15 @@ header {
     z-index: 1; }
     .newsletter-block .social-media:last-child {
       margin-right: 0; }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .newsletter-block .social-media {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        margin-top: 2rem; }
+        .newsletter-block .social-media:last-child {
+          margin-right: 0; } }
     @media (max-width: 480px) {
       .newsletter-block .social-media {
         float: left;
@@ -5223,10 +5240,17 @@ header {
         margin-top: 2rem; }
         .newsletter-block .social-media:last-child {
           margin-right: 0; } }
+    @media (min-width: 980px) {
+      .newsletter-block .social-media {
+        float: right !important; } }
     .newsletter-block .social-media h1,
     .newsletter-block .social-media ul {
       clear: right;
       float: right; }
+      @media (min-width: 481px) and (max-width: 979px) {
+        .newsletter-block .social-media h1,
+        .newsletter-block .social-media ul {
+          float: none; } }
       @media (max-width: 480px) {
         .newsletter-block .social-media h1,
         .newsletter-block .social-media ul {

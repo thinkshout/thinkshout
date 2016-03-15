@@ -14,9 +14,8 @@
   .newsletter-info {
     @include span-columns(7);
 
-    @include mq(m) {
-      @include span-columns(12);
-    }
+    @include mq(t) { @include span-columns(12); }
+    @include mq(m) { @include span-columns(12); }
 
     form {
       margin-top: 2rem;
@@ -63,19 +62,25 @@
     @include span-columns(3);
     z-index: 1;
 
+    @include mq(t) {
+      @include span-columns(12);
+      margin-top: 2rem;
+    }
+
     @include mq(m) {
       @include span-columns(12);
       margin-top: 2rem;
     }
+
+    @include mq(d) { float: right !important; }
 
     h1,
     ul {
       clear: right;
       float: right;
 
-      @include mq(m) {
-        float: none;
-      }
+      @include mq(t) { float: none; }
+      @include mq(m) { float: none; }
     }
 
     ul {
