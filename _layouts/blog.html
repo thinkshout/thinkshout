@@ -20,7 +20,7 @@ layout: default
     {% if page.author == person.name %}
     <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}">
     {% if person.current-employee %}
-      <a class="team-name" href="{{ site.baseurl }}/about/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a>
+      <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a>
     {% else %}
       <strong>{{ person.first_name }} {{ person.last_name }}</strong>
     {% endif %}<br>
