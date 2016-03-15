@@ -85,24 +85,14 @@ title: Connect with us
 <div class="upcoming-events">
   <div class="container">
     <h4>Upcoming Events</h4>
+    {% for event in site.data.events %}
     <div class="event">
-      <div class="date"><span>March 23-25</span></div>
+      <div class="date"><span>{{event.dates}}</span></div>
       <div class="detail">
-        <h3><a href="http://www.nten.org/ntc/">Nonprofit Technology Conference</a> <span class="location">San Jose, CA</span></h3>
-        <p>
-          Over 100 educational sessions, an exhibit hall highlighting the latest nonprofit products and services, and networking events each day: the NTC is an event that cannot be missed!
-        </p>
+        <h3><a href="{{event.url}}" target="_blank">{{event.location}}</a> <span class="location">{{event.location}}</span></h3>
+        <p>{{event.description}}</p>
       </div>
     </div>
-
-    <div class="event">
-      <div class="date"><span>May 9-13</span></div>
-      <div class="detail">
-        <h3><a href="http://www.nten.org/ntc/">Nonprofit Technology Conference</a> <span class="location">New Orleans, LA</span></h3>
-        <p>
-          New Orleans in the spring time is a city like no other. Enjoy the food, music, and atmosphere of one of the most unique and diverse cities in North America. The Big Easy is a true melting pot.
-        </p>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </div>
