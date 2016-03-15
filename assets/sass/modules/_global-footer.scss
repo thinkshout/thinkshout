@@ -7,6 +7,11 @@ footer {
   position: relative;
   width: 100%;
 
+  a:hover {
+    text-decoration: underline;
+    color: $midorange;
+  }
+
   @include mq(m) { padding-top: 2rem; }
   @include mq(t) { height: 500px; padding-top: 2rem; }
 
@@ -39,6 +44,7 @@ footer {
     color: $white;
     line-height: $line-height;
     margin-top: 2rem;
+    font-size: rem(14);
   }
 
   .bcorp-logo {
@@ -54,7 +60,7 @@ footer {
 
   .copyright {
     bottom: 5.5rem;
-    color: $ltgray;
+    color: #777;
     font-size: rem(12);
     position: absolute;
 
