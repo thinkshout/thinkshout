@@ -6055,9 +6055,11 @@ header {
 .team .team-member {
   display: inline-block;
   float: left;
-  margin-bottom: 3rem;
+  margin-bottom: 3.2rem;
   width: 25%;
   text-align: center; }
+  .team .team-member:last-of-type {
+    clear: left; }
   .team .team-member:hover img {
     opacity: 0.7; }
   .team .team-member:hover .name-title {
