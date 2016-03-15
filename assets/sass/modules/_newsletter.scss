@@ -20,23 +20,32 @@
 
     form {
       margin-top: 2rem;
+      border-bottom: 4px solid rgba($white, 0.5);
+      overflow: hidden;
+
+      @include mq(d) {
+        max-width: 65%;
+      }
     }
 
     input,
     button {
       background: $midorange;
       border: none;
-      border-bottom: 4px solid $white;
+      border-radius: 0;
+      display: inline-block;
       float: left;
+      height: rem(55);
       opacity: 0.5;
 
-      &::-webkit-input-placeholder { color: $white; }
-      &::-moz-placeholder { color: $white; }
-      &:-ms-input-placeholder { color: $white; }
+      @include placeholder {
+        color: $white;
+      }
     }
 
     input {
       margin-top: rem(-3);
+      outline: none;
       padding: 1rem 0;
       width: 70%;
 
@@ -46,9 +55,9 @@
     }
 
     button {
+      float: right;
       font-size: rem(14);
       font-weight: bold;
-      padding: 0.75rem 0;
       text-transform: uppercase;
 
       i {
