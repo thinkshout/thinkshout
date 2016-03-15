@@ -45,10 +45,10 @@ keywords:
     </div>
   </a>
 
-  {% assign caseCounter = 2 %}
   <div class="three-case-studies">
-  {% for case in site.case_studies %}
-    {% if case.featured == true and case.order > 1 %}
+    {% assign case-studies = (site.case_studies | where: "active", "true" | sort: "order") %}
+    {% for case in case-studies %}
+    {% if case.order > 1 %}
       <a href="{{ site.baseurl }}{{ case.url }}">
         <div class="case-study" id="case-study{{ caseCounter }}">
         <style>
@@ -64,9 +64,8 @@ keywords:
           </div>
         </div>
       </a>
-      {% assign caseCounter = caseCounter | plus: 1 %}
-    {% endif %}
-  {% endfor %}
+      {% endif %}
+    {% endfor %}
   </div>
 
   {% include our-expertise.html %}
