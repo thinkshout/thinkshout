@@ -28,6 +28,10 @@ footer {
     }
 
     @include mq(t) { font-size: rem(24); }
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   img {

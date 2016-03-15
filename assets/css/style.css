@@ -4565,6 +4565,8 @@ footer {
     @media (min-width: 481px) and (max-width: 979px) {
       footer li {
         font-size: 1.5rem; } }
+    footer li:hover {
+      text-decoration: underline; }
   footer img {
     max-width: 2.5rem; }
   footer .ts-address {
