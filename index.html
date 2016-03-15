@@ -114,10 +114,10 @@ keywords:
             <i class="fa fa-caret-down"></i>
           </div>
           <ul>
-            <a href="{{ site.baseurl }}/blog/topic/technology/"><li>Technology and Innovation<i class="fa fa-caret-right"></i></li></a>
-            <a href="{{ site.baseurl }}/blog/topic/strategy/"><li>Strategy and Design<i class="fa fa-caret-right"></i></li></a>
-            <a href="{{ site.baseurl }}/blog/topic/process/"><li>Project Management and Process<i class="fa fa-caret-right"></i></li></a>
-            <a href="{{ site.baseurl }}/blog/topic/culture/"><li>Culture, Community, and Business<i class="fa fa-caret-right"></i></li></a>
+            {% assign topics = (site.topic | sort: "order") %}
+            {% for topic in topics %}
+              <a href="{{ site.baseurl }}{{ topic.url }}"><li>{{ topic.title }}<i class="fa fa-caret-right"></i></li></a>
+            {% endfor %}
           </ul>
       </div>
     </div>
