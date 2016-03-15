@@ -4,6 +4,7 @@ body-class: blog-landing
 title: Culture, Community, and Business
 topic: culture
 description: "Our thoughts on Culture, Community, and Business from the ThinkShout blog."
+order: 4
 keywords:
   - nonprofit technology
   - drupal
