@@ -8,7 +8,7 @@ tag: Content Strategy
 leadin: |
   Strategy to Inspire Action
 images:
-  hero: marquee/content-strategy.jpg
+  hero: ts_redesign/expertise/contentstrategy.jpg
   icon: expertise/icon-content-strategy.svg
 blurb: |
   We build websites that inspire action. We help clients reach new audiences and engage more meaningfully with existing stakeholders. Our web development process begins with requirements gathering and content strategy. We then help our clients build comprehensive plans for evaluating the long-term success of their website, messaging, and digital outreach.

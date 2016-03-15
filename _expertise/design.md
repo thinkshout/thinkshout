@@ -8,7 +8,7 @@ slug: design
 tag: Design
 
 images:
-  hero: marquee/design.jpg
+  hero: ts_redesign/expertise/design.jpg
   icon: expertise/icon-design.svg
 blurb: |
   Great design is driven by crisp information architecture and intuitive user experience. It speaks to your organization's mission and resonates with the motivations of your online audiences. We approach design collaboratively, beginning with an iterative discovery process centered on adaptive, mobile-first content.  
