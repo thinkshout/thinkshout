@@ -48,8 +48,7 @@ layout: default
     <div class="container">
       <h4>{{ page.first_name }}'s Recent Blog Posts</h4>
       <div class="row posts">
-        {% assign postCounter = 0 %}
-        {% assign author_posts = site.posts | where: "author", page.name %}
+        {% assign author_posts = (site.posts | where: "author", page.name) %}
           {% for post in author_posts %}
           {% if (!post.published) or (post.published == true) %}
               <div class="post">
@@ -59,11 +58,11 @@ layout: default
                   <p class="post-short">{{ post.short }}</p>
                 </a>
               </div>
-            {% assign postCounter = postCounter | plus: 1 %}
           {% endif %}
           {% endfor %}
       </div>
-      {% if postCounter > 3 %}
+      {% assign num_posts = (author_posts | size) %}
+      {% if num_posts > 3 %}
         <div class="blogs-toggle">
           <div class="see-all-blogs">
             <h5>See all posts by {{ page.first_name }}</h5>
