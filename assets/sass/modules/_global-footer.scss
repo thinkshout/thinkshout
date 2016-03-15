@@ -59,7 +59,7 @@ footer {
 
   .copyright {
     bottom: 5.5rem;
-    color: $ltgray;
+    color: darken($ltgray, 20%);
     font-size: rem(12);
     position: absolute;
 

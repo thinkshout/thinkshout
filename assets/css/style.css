@@ -4599,7 +4599,7 @@ footer {
         position: inherit; } }
   footer .copyright {
     bottom: 5.5rem;
-    color: #dbdcde;
+    color: #a6a8ad;
     font-size: 0.75rem;
     position: absolute; }
     @media (max-width: 480px) {
