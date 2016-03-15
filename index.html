@@ -50,9 +50,9 @@ keywords:
     {% for case in case-studies %}
     {% if case.order > 1 %}
       <a href="{{ site.baseurl }}{{ case.url }}">
-        <div class="case-study" id="case-study{{ caseCounter }}">
+        <div class="case-study" id="case-study{{ case.order }}">
         <style>
-          #case-study{{ caseCounter }} { background: url('{{ site.baseurl }}{{ case.cs-preview.image }}') center center no-repeat; }
+          #case-study{{ case.order }} { background: url('{{ site.baseurl }}{{ case.cs-preview.image }}') center center no-repeat; }
         </style>
           <div class="orange-overlay">
           </div>
