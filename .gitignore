@@ -7,3 +7,5 @@ ts.css
 .DS_store
 *~
 *.css.map
+
+.jekyll-metadata

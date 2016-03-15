@@ -33,6 +33,10 @@ footer {
     }
 
     @include mq(t) { font-size: rem(24); }
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   img {
@@ -42,6 +46,7 @@ footer {
   .ts-address {
     @include span-columns(10);
     color: $white;
+    font-size: rem(14);
     line-height: $line-height;
     margin-top: 2rem;
     font-size: rem(14);
@@ -60,7 +65,7 @@ footer {
 
   .copyright {
     bottom: 5.5rem;
-    color: #777;
+    color: darken($ltgray, 20%);
     font-size: rem(12);
     position: absolute;
 

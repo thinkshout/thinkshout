@@ -4589,6 +4589,8 @@ footer {
     @media (min-width: 481px) and (max-width: 979px) {
       footer li {
         font-size: 1.5rem; } }
+    footer li:hover {
+      text-decoration: underline; }
   footer img {
     max-width: 2.5rem; }
   footer .ts-address {
@@ -4597,6 +4599,7 @@ footer {
     margin-right: 2.35765%;
     width: 82.94039%;
     color: #fff;
+    font-size: 0.875rem;
     line-height: 1.75;
     margin-top: 2rem;
     font-size: 0.875rem; }
@@ -4621,7 +4624,7 @@ footer {
         position: inherit; } }
   footer .copyright {
     bottom: 5.5rem;
-    color: #777;
+    color: #a6a8ad;
     font-size: 0.75rem;
     position: absolute; }
     @media (max-width: 480px) {
