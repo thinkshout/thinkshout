@@ -53,7 +53,8 @@ layout: default
     <div class="our-expertise">
       <div class="container">
         <h1>Other work</h1>
-        {% for case in site.case_studies %}
+        {% assign case-studies = (site.case_studies | where: "active", "true" | sort: "order") %}
+        {% for case in case-studies %}
         {% if case.slug != page.slug %}
           <div class="our-expertise-block">
             <a href="{{ site.baseurl }}{{ case.url }}"><h2>{{ case.title }}</h2></a>
