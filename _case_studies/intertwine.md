@@ -2,31 +2,31 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study wwf
-active: TRUE
+active: false
 order: 10
 featured: false
 # END LAYOUT DATA
 
 
-title: 
+title:
 cs-class: ""
 
 cs-preview:
-  image: 
-  type: 
-  client: 
+  image:
+  type:
+  client:
   description:
 
 cs-header:
-  image: 
-  client: 
-  description: 
+  image:
+  client:
+  description:
 
 cs-intro:
-  type: 
-  mission: 
-  link-text: 
-  link-url: 
+  type:
+  mission:
+  link-text:
+  link-url:
   text: |
 
 cs-sections:
@@ -65,10 +65,10 @@ components:
   - title: Mapping
     column1:
     column2: |
-      We designed an interactive map using Leaflet Javascript library. Leaflet allowed us to present visitors with a responsive map they could thoroughly explore. This included a Drupal Module that ThinkShout developed specifically for this project, featuring custom tiles built by Open Plan with Development Seed’s TileMill, hosted by their Mapbox service. 
+      We designed an interactive map using Leaflet Javascript library. Leaflet allowed us to present visitors with a responsive map they could thoroughly explore. This included a Drupal Module that ThinkShout developed specifically for this project, featuring custom tiles built by Open Plan with Development Seed’s TileMill, hosted by their Mapbox service.
   - title: Implementation
     column1: |
-      ThinkShout chose Pantheon to host the site, which would allow for the quick delivery of all that content. It was a visual-heavy project, which called for a host that could handle the data and deliver a smooth user experience without sacrificing speed or reliability. 
+      ThinkShout chose Pantheon to host the site, which would allow for the quick delivery of all that content. It was a visual-heavy project, which called for a host that could handle the data and deliver a smooth user experience without sacrificing speed or reliability.
     column2:
 results:
   stats:
@@ -78,9 +78,7 @@ results:
       description:
     - number:
       description:
-  narrative: 
+  narrative:
 featured: true
 published: false
 ---
-
-

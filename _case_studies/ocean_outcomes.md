@@ -2,9 +2,9 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study ocean-outcomes
-active: TRUE
+active: true
 order: 3
-featured: TRUE
+featured: true
 # END LAYOUT DATA
 
 title: Ocean Outcomes

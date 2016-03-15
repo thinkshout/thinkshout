@@ -2,31 +2,31 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study wwf
-active: TRUE
+active: false
 order: 10
 featured: false
 # END LAYOUT DATA
 
 
-title: 
+title:
 cs-class: ""
 
 cs-preview:
-  image: 
-  type: 
-  client: 
+  image:
+  type:
+  client:
   description:
 
 cs-header:
-  image: 
-  client: 
-  description: 
+  image:
+  client:
+  description:
 
 cs-intro:
-  type: 
-  mission: 
-  link-text: 
-  link-url: 
+  type:
+  mission:
+  link-text:
+  link-url:
   text: |
 
 cs-sections:
@@ -46,7 +46,7 @@ images:
   card: work/edf/edf-card.jpg
   hero: work/edf/edf-hero.jpg
   small: work/edf/edf-hero-small.jpg
-  med: 
+  med:
 breakpoints:
   desktop: work/edf/edf-desktop.jpg
   tablet: work/edf/edf-tablet.jpg
@@ -66,7 +66,7 @@ components:
     column1: |
       In collaboration with EDF staff, we interviewed a sampling of the application's target audience. We then examined website analytics to identify usage patterns and establish performance metrics. Finally, we developed "user stories" to guide the content and information architecture choices for the redesign.
     column2: work/edf/edf-discovery.jpg
-    background: 
+    background:
   - title: Information Architecture
     column1: |
       We developed clickable wireframes that performed beautifully on a variety of mobile and tablet devices. Our mobile-first approach ensured that busy website visitors accessing the Seafood Selector on the go would get the most important information about seafood choices quickly and easily.
@@ -84,5 +84,3 @@ results:
 featured: true
 published: true
 ---
-
-

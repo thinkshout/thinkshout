@@ -2,31 +2,31 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study wwf
-active: TRUE
+active: false
 order: 10
 featured: false
 # END LAYOUT DATA
 
 
-title: 
+title:
 cs-class: ""
 
 cs-preview:
-  image: 
-  type: 
-  client: 
+  image:
+  type:
+  client:
   description:
 
 cs-header:
-  image: 
-  client: 
-  description: 
+  image:
+  client:
+  description:
 
 cs-intro:
-  type: 
-  mission: 
-  link-text: 
-  link-url: 
+  type:
+  mission:
+  link-text:
+  link-url:
   text: |
 
 cs-sections:
@@ -46,7 +46,7 @@ images:
   card: work/facinghistory/facinghistory-card.jpg
   hero: work/facinghistory/facinghistory-hero.jpg
   small:
-  med: 
+  med:
 breakpoints:
   desktop: work/facinghistory/facinghistory-desktop.png
   tablet: work/facinghistory/facinghistory-tablet.png
@@ -64,7 +64,7 @@ components:
     column1: |
       Before engaging with us, Facing History had worked with a number of creative partners and technology providers. Our engineering recommendations began with a thorough review and prioritization of features across many hundreds of pages of documentation. We consolidated this information to map out the development of a responsively-designed publishing platform that leverages a "modular" (or resuable) content model.
     column2: work/facinghistory/facinghistory-discovery.jpg
-    background: 
+    background:
   - title: Salesforce Integration
     column1: |
       Facing History serves a network of over 100,000 educators and supporters who actively engage through their website. We developed a robust integration that syncs over 280,000 constituent records between Drupal and Salesforce in real time. The solution supports paid event registration, online donations, and a user account access control.

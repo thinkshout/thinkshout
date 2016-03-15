@@ -2,9 +2,9 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study splc
-active: TRUE
+active: true
 order: 4
-featured: TRUE
+featured: true
 # END LAYOUT DATA
 
 title: "Selma: The March to Montgomery"

@@ -2,9 +2,9 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study colorado-trust
-active: TRUE
+active: true
 order: 2
-featured: TRUE
+featured: true
 # END LAYOUT DATA
 
 title: Colorado Trust

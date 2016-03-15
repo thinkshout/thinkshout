@@ -2,9 +2,9 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study splc-main
-active: TRUE
+active: true
 order: 1
-featured: TRUE
+featured: true
 # END LAYOUT DATA
 
 title: Southern Poverty Law Center
@@ -90,6 +90,6 @@ components:
     column2: work/splc/selma/selma-prototyping.jpg
 results:
   narrative:
-    As we move forward with the redesign of the Southern Poverty Law Center's website, we are excited to leverage the metrics and narrative feedback that the 50th Anniversary campaign site receives in thinking about visual design and content strategy. The success of this campaign site has bolstered support for the overall redesign, both within SPLC itself and its constituent community. 
+    As we move forward with the redesign of the Southern Poverty Law Center's website, we are excited to leverage the metrics and narrative feedback that the 50th Anniversary campaign site receives in thinking about visual design and content strategy. The success of this campaign site has bolstered support for the overall redesign, both within SPLC itself and its constituent community.
 
 ---

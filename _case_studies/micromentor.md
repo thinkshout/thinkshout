@@ -2,31 +2,31 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study wwf
-active: TRUE
+active: false
 order: 10
 featured: false
 # END LAYOUT DATA
 
 
-title: 
+title:
 cs-class: ""
 
 cs-preview:
-  image: 
-  type: 
-  client: 
+  image:
+  type:
+  client:
   description:
 
 cs-header:
-  image: 
-  client: 
-  description: 
+  image:
+  client:
+  description:
 
 cs-intro:
-  type: 
-  mission: 
-  link-text: 
-  link-url: 
+  type:
+  mission:
+  link-text:
+  link-url:
   text: |
 
 cs-sections:

@@ -2,31 +2,31 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study wwf
-active: TRUE
+active: false
 order: 10
 featured: false
 # END LAYOUT DATA
 
 
-title: 
+title:
 cs-class: ""
 
 cs-preview:
-  image: 
-  type: 
-  client: 
+  image:
+  type:
+  client:
   description:
 
 cs-header:
-  image: 
-  client: 
-  description: 
+  image:
+  client:
+  description:
 
 cs-intro:
-  type: 
-  mission: 
-  link-text: 
-  link-url: 
+  type:
+  mission:
+  link-text:
+  link-url:
   text: |
 
 cs-sections:
@@ -46,7 +46,7 @@ images:
   card: work/lac/lac-card.jpg
   hero: work/lac/lac-iphone-in-environment.jpg
   small: work/lac/lac-hero-small.jpg
-  med: 
+  med:
 breakpoints:
   desktop: work/lac/lac-desktop.jpg
   tablet: work/lac/lac-tablet.jpg
@@ -67,17 +67,17 @@ components:
     column1: |
       The Conservancy maintains a rich library of photos and articles about hundreds of unique buildings throughout Los Angeles County. We had an opportunity to visit this library when we kicked off our onsite discovery work. During this phase of the project, we utilized a number of "card sorting" exercises to focus our approach to tackling this large, complex redesign.
     column2:
-    background: work/lac/lac-discovery.jpg 
+    background: work/lac/lac-discovery.jpg
   - title: Salesforce Integration
     column1: |
       Upon completing information architecture and graphic design, we embarked upon an ambitious CRM integration, the likes of which had never been done before. This project led to a number of open source contributions, such as improvements to the Leaflet, MailChimp, iATS, and Salesforce modules for Drupal. The result was a seamless e-commerce and event ticketing solution that supports real-time data syncing between Drupal and Salesforce.
     column2: work/lac/lac-strategy.jpg
-    background: 
+    background:
   - title: Mapping
     column1: |
       This project gave us a fun opportunity to play with map-based storytelling. We built interactive maps with geolocation and proximity search features that help people learn about historic locations on their mobile devices while they are out and about exploring the city.
     column2: work/lac/lac-mapping.jpg
-    background: 
+    background:
 results:
   stats:
     - number: 186

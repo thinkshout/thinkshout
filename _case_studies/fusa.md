@@ -2,31 +2,31 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study wwf
-active: TRUE
+active: false
 order: 10
 featured: false
 # END LAYOUT DATA
 
 
-title: 
+title:
 cs-class: ""
 
 cs-preview:
-  image: 
-  type: 
-  client: 
+  image:
+  type:
+  client:
   description:
 
 cs-header:
-  image: 
-  client: 
-  description: 
+  image:
+  client:
+  description:
 
 cs-intro:
-  type: 
-  mission: 
-  link-text: 
-  link-url: 
+  type:
+  mission:
+  link-text:
+  link-url:
   text: |
 
 cs-sections:
@@ -46,7 +46,7 @@ images:
   card: work/fusa/fusa-card.jpg
   hero: work/fusa/fusa-hero.jpg
   small:
-  med: 
+  med:
 breakpoints:
   desktop: work/fusa/fusa-desktop.jpg
   tablet: work/fusa/fusa-tablet.jpg
@@ -63,10 +63,10 @@ components:
   - title: Discovery
     column1: |
       Through the discovery process, we learned that public policy makers were a key target audience, and that they needed to be able to quickly access and digest a large volume of content developed by Families USA's expert staff. This led us to the development of a comprehensive tagging system and robust research library interface.
-      
+
       While the website needed to be a powerful research tool, we also encouraged Families USA to invest in a compelling design that would reflect the citizens at the heart of the health care debate.
     column2: work/fusa/fusa-discovery.jpg
-    background: 
+    background:
   - title: Implementation
     column1: |
       We developed the new Families USA website in Drupal. Access control on the new site is managed through a seamless integration with the organization's new Salesforce instance, which was developed by our partners at Idealist Consulting. The research library is powered by [Apache Solr](https://lucene.apache.org/solr/), allowing site visitors to do keyword searches across the content of many hundreds of PDF documents. All of these powerful features are wrapped into a beautiful, mobile-friendly website design.

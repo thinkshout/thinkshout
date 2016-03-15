@@ -2,31 +2,31 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study wwf
-active: TRUE
+active: false
 order: 10
 featured: false
 # END LAYOUT DATA
 
 
-title: 
+title:
 cs-class: ""
 
 cs-preview:
-  image: 
-  type: 
-  client: 
+  image:
+  type:
+  client:
   description:
 
 cs-header:
-  image: 
-  client: 
-  description: 
+  image:
+  client:
+  description:
 
 cs-intro:
-  type: 
-  mission: 
-  link-text: 
-  link-url: 
+  type:
+  mission:
+  link-text:
+  link-url:
   text: |
 
 cs-sections:
@@ -63,17 +63,17 @@ components:
     column1: |
       We recognized early on that this website needed to be driven by storytelling, so we began discovery by sitting down with the Salmon Project team to listen to their stories. Given that they're fishermen, there were many... We then engaged in a number of discovery exercises such as "card sorting" and "Cores & Paths" to prioritize features and potential design directions.
     column2: work/salmonproject/salmonproject-strategy.jpg
-    background: 
+    background:
   - title: Information Architecture & Design
     column1: |
       We faced a tight deadline to launch the website in conjunction with a major print campaign. So we approached wireframes and graphic design iteratively with short feedback loops. Not to get too technical, but we were able to move design forward more quickly by leveraging a rapid-prototyping framework called Foundation.
     column2: work/salmonproject/salmonproject-ia.jpg
-    background: 
+    background:
   - title: Implementation
     column1: |
       We launched the Salmon Project website under budget and ahead of schedule in just eight weeks. The site included a responsive theme, a robust survey management tool, and a sophisticated CRM backend built on top of [RedHen](http://redhencrm.com/). Combining these tools, we were able to help the Salmon Project connect with many thousands of new Alaskans through their "Salmon Love" campaign.
-    column2: work/salmonproject/salmonproject-implementation.jpg 
-    background: 
+    column2: work/salmonproject/salmonproject-implementation.jpg
+    background:
 results:
   stats:
     - number: 30
@@ -89,5 +89,3 @@ results:
 featured: false
 published: true
 ---
-
-

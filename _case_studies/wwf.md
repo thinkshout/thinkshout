@@ -2,31 +2,31 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study wwf
-active: TRUE
+active: false
 order: 10
 featured: false
 # END LAYOUT DATA
 
 
-title: 
+title:
 cs-class: ""
 
 cs-preview:
-  image: 
-  type: 
-  client: 
+  image:
+  type:
+  client:
   description:
 
 cs-header:
-  image: 
-  client: 
-  description: 
+  image:
+  client:
+  description:
 
 cs-intro:
-  type: 
-  mission: 
-  link-text: 
-  link-url: 
+  type:
+  mission:
+  link-text:
+  link-url:
   text: |
 
 cs-sections:
@@ -54,21 +54,19 @@ components:
   - title: Discovery
     column1:
     column2: |
-      There was no tool out there yet that could handle the scope of what needed to be accomplished. ThinkShout identified this issue and rectified it by building a brand new Drupal-based application that sorted their data according to more precise criteria and allowed for detailed, in-depth reporting. 
+      There was no tool out there yet that could handle the scope of what needed to be accomplished. ThinkShout identified this issue and rectified it by building a brand new Drupal-based application that sorted their data according to more precise criteria and allowed for detailed, in-depth reporting.
   - title: Strategy
     column1: |
-      We worked closely with WWF to define their data input system and the types of reports they needed to produce, which meant that we needed to come up with a means for them to sort their data in a way that would be conducive to reporting. With the data sorted, we were able to introduce a reporting process and matching algorithm that was not only accurate, but also easy for their staff to use. 
+      We worked closely with WWF to define their data input system and the types of reports they needed to produce, which meant that we needed to come up with a means for them to sort their data in a way that would be conducive to reporting. With the data sorted, we were able to introduce a reporting process and matching algorithm that was not only accurate, but also easy for their staff to use.
     column2:
   - title: Implementation
     column1:
     column2: |
-      The end-result was a highly confidential database that provided the WWF staff with the means to pull the information they sorely needed to make informed programmatic decisions. 
+      The end-result was a highly confidential database that provided the WWF staff with the means to pull the information they sorely needed to make informed programmatic decisions.
 results:
-  bullet1: 
-  bullet2: 
-  bullet3: 
+  bullet1:
+  bullet2:
+  bullet3:
 featured: true
 published: false
 ---
-
-
