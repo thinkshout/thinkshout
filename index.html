@@ -92,7 +92,7 @@ keywords:
               <img src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}" alt="{{ person.first_name }}" />
               <div class="author-info">
                 {% if person.current-employee %}
-                  <a class="team-name" href="{{ site.baseurl }}/about/team/{{ person.slug }}"><h4>{{ person.first_name }} {{ person.last_name }}</h4></a>
+                  <a class="team-name" href="{{ site.baseurl }}{{ person.url }}"><h4>{{ person.first_name }} {{ person.last_name }}</h4></a>
                 {% else %}
                   <h4>{{ person.first_name }} {{ person.last_name }}</h4>
                 {% endif %}
