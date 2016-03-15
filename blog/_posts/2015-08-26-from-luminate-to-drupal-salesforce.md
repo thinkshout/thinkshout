@@ -17,6 +17,7 @@ tags:
   - Drupal
   - Drupal Planet
 date: 2015-08-26 15:00:00
+topic: process
 ---
 We've helped a number of nonprofits move from Luminate CRM to Drupal-Salesforce solutions, including the Young Survival Coalition, Facing History and Ourselves, the National Kidney Foundation, and the Los Angeles Conservancy.
 

@@ -10,7 +10,7 @@ social:
   twitter:
   linkedin: http://www.linkedin.com/in/mcseibert/
   drupal:
-image:
+team-image:
   small: team/small/claire.jpg
   medium: team/medium/claire.jpg
   large: team/large/claire.jpg
@@ -19,3 +19,4 @@ current-employee: false
 name: claire
 bio: |
   Claire's active involvement with local nonprofits working to fight homelessness attracted her to ThinkShout's mission. Before joining our team, Claire managed speciality coffee programs across the country at Coffee Bean International. A Portland native, she received her Project Management Certificate at Portland State University and has a BA in Education from the University of Oregon. Claire talks with our clients every day. She helps them navigate the development process and translates complex technical issues into workable tasks. As computer nerds, we have an immense respect for her extensive knowledge of coffee.
+---

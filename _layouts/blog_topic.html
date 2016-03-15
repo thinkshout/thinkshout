@@ -3,31 +3,68 @@ layout: default
 ---
 <div class="page-container blog">
 
+{% if page.topic %}
   {% for post in site.categories.blog %}
-    {% if post.featured == true %}
-    <div class="featured-post" style="background-image: url('{{ site.baseurl }}{{ post.header-image }}');">
-      <div class="wrapper">
-        <p class="featured">Featured Blog Post</p>
-        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+    {% if post.featured and post.topic == page.topic %}
+      {% if post.header-image %}
+        <div class="featured-post" style="background-image: url('{{ site.baseurl }}{{ post.header-image }}');">
+      {% else %}  
+        <div class="featured-post" style="background-image: url('/assets/images/ts_redesign/blog/up-and-theming1.jpg');">
+      {% endif %}
+        <div class="wrapper">
+          <p class="featured">Featured Blog Post</p>
+          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
-        {% if post.short %}
-        <p class="short">{{ post.short }}</p>
-        {% endif %}
-
-        <p class="byline">
-          {% for person in site.team %}
-          {% if post.author == person.name %}
-          <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}">
-            <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a><br>
-            {{ person.position }}
+          {% if post.short %}
+          <p class="short">{{ post.short }}</p>
           {% endif %}
-          {% endfor %}
-        </p>
+
+          <p class="byline">
+            {% for person in site.team %}
+            {% if post.author == person.name %}
+            <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}">
+              <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a><br>
+              {{ person.position }}
+            {% endif %}
+            {% endfor %}
+          </p>
+        </div>
       </div>
-    </div>
-    {% break %}
+      {% break %}
     {% endif %}
   {% endfor %}
+{% else %}
+  {% for post in site.categories.blog %}
+    {% if post.featured %}
+      {% if post.header-image %}
+        <div class="featured-post" style="background-image: url('{{ site.baseurl }}{{ post.header-image }}');">
+      {% else %}  
+        <div class="featured-post" style="background-image: url('/assets/images/ts_redesign/blog/up-and-theming1.jpg');">
+      {% endif %}
+        <div class="wrapper">
+          <p class="featured">Featured Blog Post</p>
+          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+
+          {% if post.short %}
+          <p class="short">{{ post.short }}</p>
+          {% endif %}
+
+          <p class="byline">
+            {% for person in site.team %}
+            {% if post.author == person.name %}
+            <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}">
+              <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a><br>
+              {{ person.position }}
+            {% endif %}
+            {% endfor %}
+          </p>
+        </div>
+      </div>
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
 
   <div class="filter-wrapper" id="filter-wrapper">
     <form>
