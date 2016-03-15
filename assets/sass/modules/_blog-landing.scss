@@ -53,10 +53,10 @@
       @include mq(l)  { font-size: rem(40); }
     }
     .featured {
-      text-transform: uppercase;
       font-size: rem(13);
       font-weight: 700;
       margin-bottom: 0.5rem;
+      text-transform: uppercase;
     }
     .short {
       font-size: rem(16);

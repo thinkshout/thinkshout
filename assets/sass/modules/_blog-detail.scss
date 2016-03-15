@@ -112,7 +112,6 @@
       font-size: rem(15);
       letter-spacing: 0;
       line-height: 1.5;
-      margin-left: 1rem;
       list-style-type: decimal;
       margin-left: rem(36);
       padding-bottom: rem(12);
@@ -120,10 +119,10 @@
     }
 
     li p {
-      padding: 0;
       display: inline;
-      margin-left: rem(-6);
       line-height: 1.5;
+      margin-left: rem(-6);
+      padding: 0;
     }
 
     h2 {
@@ -197,25 +196,25 @@
     }
     .left {
       float: left;
-      margin-right: 1rem;
       margin-bottom: 1rem;
+      margin-right: 1rem;
     }
     .right {
       float: right;
-      margin-left: 1rem;
       margin-bottom: 1rem;
+      margin-left: 1rem;
     }
     .full {
-      padding-left: 0;
-      padding-right: 0;
       margin-left: 0;
       margin-right: 0;
       max-width: none;
+      padding-left: 0;
+      padding-right: 0;
     }
     .center {
-      text-align: center;
       margin: 0 auto;
       padding: 0;
+      text-align: center;
       .caption {
         text-align: left;
       }
@@ -244,10 +243,10 @@
   }
 
   .body .tags {
-    text-align: center;
+    font-size: rem(15);
     margin: 2rem auto;
     padding: 1rem 3rem;
-    font-size: rem(15);
+    text-align: center;
     .tag-label {
       color: $darkergray;
       font-size: rem(13);
@@ -255,12 +254,12 @@
     }
     a {
       @include transition(color,0.3s,linear);
-      color: $midgray;
       border-bottom: 1px solid $midgray;
+      color: $midgray;
       margin-right: .3em;
       &:hover {
-        color: $orange;
         border-bottom: 1px solid $orange;
+        color: $orange;
       }
     }
   }
@@ -271,8 +270,8 @@
   .body .blog-cta {
     background-color: $ltgray;
     display: block;
-    padding: 0;
     margin: 2rem auto;
+    padding: 0;
     img {
       display: none;
       margin-left: 2rem;
@@ -281,9 +280,9 @@
     }
     h3, p, a.uppercase-link {
       color: darken($darkgray,10%);
+      margin: 1rem 1rem 1rem 1rem;
       padding: 0;
       width: auto;
-      margin: 1rem 1rem 1rem 1rem;
       @include mq(lt) { margin: 1rem 2rem 2rem 3rem; }
       @include mq(md) { margin: 1rem 2rem 2rem 3rem; }
       @include mq(l)  { margin: 1rem 2rem 2rem 3rem; }
@@ -333,8 +332,8 @@
     vertical-align: top;
     a {
       height: 100%;
-      width: 100%;
       margin-bottom: 1rem;
+      width: 100%;
       span {
         display: table-cell;
         padding-right: 0.8rem;
