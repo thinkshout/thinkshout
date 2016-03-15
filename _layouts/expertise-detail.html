@@ -27,19 +27,19 @@ layout: default
     <div class="row posts">
       {% assign tsloop = 1 %}
       {% for post in site.posts %}
-      {% if post.layout == 'blog' and post.published %}
-        {% for tag in post.tags %}
-        {% if tag == page.tag %}
+        {% if post.layout == 'blog' and post.published %}
+          {% for tag in post.tags %}
+            {% if tag == page.tag %}
+              {% include blogs_related.html %}
 
-          {% include blogs_related.html %}
-
-          {% assign tsloop = tsloop | plus: 1 %}
-          {% if tsloop > 3 %}
-          {% break %}
-          {% endif %}
+              {% assign tsloop = tsloop | plus: 1 %}
+            {% endif %}
+          {% endfor %}
         {% endif %}
-        {% endfor %}
-      {% endif %}
+
+        {% if tsloop > 3 %}
+          {% break %}
+        {% endif %}
       {% endfor %}
     </div>
   </div>
