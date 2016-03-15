@@ -1,17 +1,15 @@
 <div class="our-expertise">
   <div class="container">
-    {% if page.layout == "expertise-detail" %}
-      <h1>Other Expertise</h1>
-    {% else %}
-      <h1>Our Expertise</h1>
-    {% endif %}
+    <h1>Our Expertise</h1>
     {% for area in site.expertise %}
-      {% if area.slug != page.slug %}
-        <div class="our-expertise-block">
+      <div class="our-expertise-block">
+        {% if page.slug == area.slug %}
+          <h2>{{ area.title }}</h2>
+        {% else %}
           <a href="{{ site.baseurl }}{{ area.url }}"><h2>{{ area.title }}</h2></a>
-          <p>{{ area.blurb_short }}</p>
-        </div>
-      {% endif %}
+        {% endif %}
+        <p>{{ area.blurb_short }}</p>
+      </div>
     {% endfor %}
 
     {% if page.layout != "expertise-detail" %}
