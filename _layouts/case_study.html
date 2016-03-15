@@ -49,3 +49,17 @@ layout: default
     <section class="cta">
         <a class="button" href="{{ site.baseurl }}{{ page.cs-cta-url }}" target="_blank">{{ page.cs-cta-text }}</a>
     </section>
+
+    <div class="our-expertise">
+      <div class="container">
+        <h1>Other work</h1>
+        {% for case in site.case_studies %}
+        {% if case.slug != page.slug %}
+          <div class="our-expertise-block">
+            <a href="{{ site.baseurl }}{{ case.url }}"><h2>{{ case.title }}</h2></a>
+            <p>{{ case.cs-preview.description }}</p>
+          </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
