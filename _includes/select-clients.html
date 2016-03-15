@@ -5,66 +5,16 @@
       <i class="fa fa-caret-down"></i>
     </div>
     <p>We’ve accomplished amazing things for some really great clients.</p>
-
-    <p class="client-list">Southern Poverty Law Center<br>
-      World Wildlife Fund<br>
-      Environmental Defense Fund<br>
-      Robert Wood Johnson Foundation<br>
-      Mercy Corps<br>
-      MailChimp<br>
-      National Parks Service<br>
-      Meyer Memorial Trust<br>
-      Oregon Zoo<br>
-      Tree People<br>
-      Oregon Metro<br>
-      University of California<br>
-      iATS Payments<br>
-      Intel<br>
-      Stanford University<br>
-      Scenic Hudson<br>
-      EcoTrust<br>
-      Ocean Outcomes<br>
-      Baltimore Harborkeeper<br>
-    </p>
-    <p class="client-list">Center for Strategic and International Studies<br>
-      Intercommunity Justice and Peace Center<br>
-      The Intertwine Alliance<br>
-      Izaak Walton League of America<br>
-      National Kidney Foundation<br>
-      Los Angeles Conservancy<br>
-      Mohonk Preserve<br>
-      Families USA<br>
-      North Saskatchewan Riverkeeper<br>
-      Wild Salmon Center<br>
-      Donors Forum<br>
-      Save Our Gulf<br>
-      New Day Films<br>
-      Facing History and Ourselves<br>
-      Mobility International USA<br>
-      Philanthropy Northwest<br>
-      Portland Opera<br>
-      The Tides Center<br>
-      Public Health Law Research<br>
-    </p>
-    <p class="client-list">Forum of Regional Associations of Grantmakers<br>
-      American Public Media<br>
-      Dehen 1920<br>
-      The Salmon Project<br>
-      Vibrant Village<br>
-      GrantStation<br>
-      Young Survival Coalition<br>
-      Nike Foundation<br>
-      The Colorado Trust<br>
-      Portland Design Works<br>
-      American Tinnitus Associations<br>
-      Capital Area Food Bank of Texas<br>
-      Feeding Texas<br>
-      Capital Area Food Bank of DC<br>
-      Cornell University<br>
-      International Labor Rights Forum<br>
-      Lemelson Foundation<br>
-      Trust for Conservation Innovation<br>
-      Cascade Bicycle Club<br>
-    </p>
+    <ul>
+    {% for sector in site.data.clients %}
+      <li>{{ sector.sector }}</li>
+      <ul>
+        {% assign clientList = sector.clients | sort: "name" %}
+        {% for client in clientList %}
+          <li>{{ client.name }}</li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+    </ul>
   </div>
 </section>
