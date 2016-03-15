@@ -107,7 +107,7 @@ layout: default
   <div class="pagination">
     {% if paginator.previous_page %}
       <div class="previous">
-        <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}"><span class="fa fa-arrow-circle-left"></span> <span>Previous</span></a>
+        <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}"><span class="fa fa-caret-left"></span> <span>Previous</span></a>
       </div>
     {% else %}
       <span class="previous">Previous</span>
@@ -115,7 +115,7 @@ layout: default
     <div class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</div>
     {% if paginator.next_page %}
       <div class="next">
-        <a href="{{ site.baseurl }}{{ paginator.next_page_path }}"><span>Next</span> <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="{{ site.baseurl }}{{ paginator.next_page_path }}"><span>Next</span> <span class="fa fa-caret-right"></span></a>
       </div>
     {% else %}
       <span class="next ">Next</span>
