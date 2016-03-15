@@ -5,27 +5,6 @@
     @include mq(t) { margin-top: rem(90); }
   }
 
-  .intro {
-    h1 {
-      color: $midgray;
-      font-size: 1.8rem;
-      font-weight: 900;
-      margin-bottom: 0;
-      margin-top: 0.7rem;
-      @include mq(lt) { font-size: 2rem; }
-      @include mq(md) { font-size: 2.2rem; }
-      @include mq(l) { font-size: 2.5rem; }
-    }
-    p {
-      color: $midgray;
-      font-size: 1.1rem;
-      margin-top: 0.5rem;
-      @include mq(lt) { font-size: 1.1rem; }
-      @include mq(md) { font-size: 1.2rem; }
-      @include mq(l) { font-size: 1.2rem; }
-    }
-  }
-
   .case-study-header {
     background-position: center center;
     background-size: cover;
