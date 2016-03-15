@@ -8,7 +8,7 @@ header-image-alt:
 
 author: stephanie
 published: true
-featured: false
+featured: true
 short: We put our heads together to tackle the Entity Registration module.
 tags:
 - Drupal

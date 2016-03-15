@@ -10,7 +10,7 @@ social:
   twitter: https://twitter.com/marcimarshall
   linkedin: https://www.linkedin.com/in/marcimarshall
   drupal:
-image:
+team-image:
   small: team/small/marci.jpg
   medium: team/medium/marci.jpg
   large: team/large/marci.jpg
@@ -19,3 +19,4 @@ current-employee: false
 name: marci
 bio: |
  Marci loves making life easier for our partners. She brings 14 years of technical project management experience to the team and loves helping mission-driven organizations achieve their technological goals. She has worked with clients spanning a wide variety of industries, including financial and professional services, manufacturing, retail, and nonprofit. Though her work is very much left brain-driven, she claims she does have an active right brain as well. She has an MFA in poetry and loves marching bands. She owns a trumpet, but admits she doesn’t know how to play it.
+---
