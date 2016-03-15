@@ -1,204 +1,95 @@
-- name: Southern Poverty Law Center
-  sector: Social Justice and Human Rights
-
-- name: World Wildlife Fund
-  sector: Wild/Animal Welfare
-
-- name: Environmental Defense Fund
-  sector: Environment
-
-- name: Robert Wood Johnson Foundation
-  sector: Philanthropy
-
-- name: Mercy Corps
-  sector: Crisis response
-
-- name: MailChimp
-  sector: Tech
-
-- name: National Parks Service
-
-- name: Meyer Memorial Trust
-  sector: Philanthropy
-
-- name: Oregon Zoo
-  sector: Wild/Animal Welfare
-
-- name: Tree People
-  sector: Environment
-
-- name: Oregon Metro
-  sector: Cultural
-
-- name: University of California
-  sector: Education
-
-- name: iATS Payments
-  sector: Tech
-
-- name: Intel
-
-- name: Stanford University
-  sector: Education
-
-- name: Scenic Hudson
-  sector: Environment
-
-- name: EcoTrust
-  sector: Environment
-
-- name: Ocean Outcomes
-  sector: Environment
-
-- name: Baltimore Harborkeeper
-  sector: Environment
-
-- name: Center for Strategic and International Studies
-  sector: Education
-
-- name: Intercommunity Justice and Peace Center
-  sector: Social Justice and Human Rights
-
-- name: The Intertwine Alliance
-  sector: Environment
-
-- name: Izaak Walton League of America
-  sector: Environment
-
-- name: National Kidney Foundation
-  sector: Health
-
-- name: Los Angeles Conservancy
-  sector: Cultural
-
-- name: Mohonk Preserve
-  sector: Environment
-
-- name: Families USA
-  sector: Health
-
-- name: North Saskatchewan Riverkeeper
-  sector: Environment
-
-- name: Wild Salmon Center
-  sector: Environment
-
-- name: Donors Forum
-  sector: Philanthropy
-
-- name: Save Our Gulf
-  sector: Environment
-
-- name: New Day Films
-  sector: Cultural
-
-- name: Facing History and Ourselves
-  sector: Education
-
-- name: Mobility International USA
-  sector: Social Justice and Human Rights
-
-- name: Philanthropy Northwest
-  sector: Philanthropy
-
-- name: Portland Opera
-  sector: Cultural
-
-- name: The Tides Center
-  sector: Philanthropy
-
-- name: Public Health Law Research
-  sector: Social Justice and Human Rights
-
-- name: Forum of Regional Associations of Grantmakers
-  sector: Philanthropy
-
-- name: American Public Media
-  sector: Cultural
-
-- name: Dehen 1920
-
-- name: The Salmon Project
-  sector: Environment
-
-- name: Vibrant Village
-
-- name: GrantStation
-  sector: Education
-
-- name: Young Survival Coalition
-  sector: Health
-
-- name: Nike Foundation
-  sector: Philanthropy
-
-- name: The Colorado Trust
-  sector: Philanthropy
-
-- name: Portland Design Works
-  sector: Health
-
-- name: American Tinnitus Association
-  sector: Health
-
-- name: Capital Area Food Bank of Texas
-  sector: Social Justice and Human Rights
-
-- name: Feeding Texas
-  sector: Social Justice and Human Rights
-
-- name: Capital Area Food Bank of DC
-  sector: Social Justice and Human Rights
-
-- name: Cornell University
-  sector: Education
-
-- name: International Labor Rights Forum
-  sector: Social Justice and Human Rights
-
-- name: Lemelson Foundation
-
-- name: Lemelson MIT Center for Innovation
-  sector: Education
-
-- name: Trust for Conservation Innovation
-  sector: Environment
-
-- name: Cascade Bicycle Club
-  sector: Health
-
-- name: Relief International
-  sector: Crisis response
-
-- name: LA Theatre Works
-  sector: Cultural
-
-- name: Travel Portland
-  sector: Cultural
-
-- name: Pacific Council on International Policy
-  sector: Education
-
-- name: Learning to give
-  sector: Education
-
-- name: RedesignU
-  sector: Education
-
-- name: Change Lab Solutions
-  sector: Health
-
-- name: Schusterman Foundation
-  sector: Philanthropy
-
-- name: National Center for Youth Law
-  sector: Social Justice and Human Rights
-
-- name: Rebuilding Together
-  sector: Social Justice and Human Rights
-
-- name: Open Technology Fund
-  sector: Social Justice and Human Rights
-
-- name: Humane Society of the United States
-  sector: Wild/Animal Welfare
+- sector: Animal Welfare
+  clients:
+    - name: Humane Society of the United States
+    - name: Oregon Zoo
+    - name: World Wildlife Fund
+    
+- sector: Cultural
+  clients:
+    - name: American Public Media
+    - name: LA Theatre Works
+    - name: Los Angeles Conservancy
+    - name: New Day Films
+    - name: Oregon Metro
+    - name: Portland Opera
+    - name: Travel Portland
+
+- sector: Crisis Response
+  clients:
+    - name: Mercy Corps
+    - name: Relief International
+
+- sector: Education
+  clients:
+    - name: Center for Strategic and International Studies
+    - name: Cornell University
+    - name: Facing History and Ourselves
+    - name: GrantStation
+    - name: Learning to Give
+    - name: Lemelson MIT Center for Innovation
+    - name: Pacific Council on International Policy
+    - name: RedesignU
+    - name: Stanford University
+    - name: University of California
+
+- sector: Environment
+  clients:
+    - name: Baltimore Harborkeeper
+    - name: EcoTrust
+    - name: Environmental Defense Fund
+    - name: The Intertwine Alliance
+    - name: Izaak Walton League of America
+    - name: Mohonk Preserve
+    - name: North Saskatchewan Riverkeeper
+    - name: Ocean Outcomes
+    - name: The Salmon Project
+    - name: Save Our Gulf
+    - name: Scenic Hudson
+    - name: Tree People
+    - name: Trust for Conservation Innovation
+    - name: Wild Salmon Center
+
+- sector: Health and Athletics
+  clients:
+    - name: American Tinnitus Association
+    - name: Cascade Bicycle Club
+    - name: Change Lab Solutions
+    - name: Families USA
+    - name: National Kidney Foundation
+    - name: Portland Design Works
+    - name: Young Survival Coalition
+
+- sector: Philanthropy
+  clients:
+    - name: The Colorado Trust
+    - name: Donors Forum
+    - name: Forum of Regional Associations of Grantmakers
+    - name: Meyer Memorial Trust
+    - name: Nike Foundation
+    - name: Philanthropy Northwest
+    - name: Robert Wood Johnson Foundation
+    - name: Schusterman Foundation
+    - name: The Tides Center
+
+- sector: Social Justice and Human Rights
+  clients:
+    - name: Capital Area Food Bank of DC
+    - name: Capital Area Food Bank of Texas
+    - name: Feeding Texas
+    - name: Intercommunity Justice and Peace Center
+    - name: International Labor Rights Forum
+    - name: Mobility International USA
+    - name: National Center for Youth Law
+    - name: Open Technology Fund
+    - name: Public Health Law Research
+    - name: Rebuilding Together
+    - name: Southern Poverty Law Center
+
+- sector: Technology
+  clients:
+    - name: iATS Payments
+    - name: MailChimp
+
+# Clients without sectors:
+# - name: National Parks Service
+# - name: Lemelson Foundation
