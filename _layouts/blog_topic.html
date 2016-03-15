@@ -18,7 +18,7 @@ layout: default
           {% for person in site.team %}
           {% if post.author == person.name %}
           <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}">
-            <a class="team-name" href="{{ site.baseurl }}/about/team/{{ person.name }}">{{ person.first_name }} {{ person.last_name }}</a><br>
+            <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a><br>
             {{ person.position }}
           {% endif %}
           {% endfor %}
@@ -45,7 +45,7 @@ layout: default
     {% for post in site.categories.blog %}
       {% if post.topic == page.topic %}
         <li>{% include blog_teaser.html class=class header="h2" short=true title=page.title %}</li>
-      {% endif %}    
+      {% endif %}
     {% endfor %}
   </ul>
 {% else %}
@@ -53,7 +53,7 @@ layout: default
   {% assign paginator = page.paginator %}
   {% endif %}
   <ul class="blog-list">
-    {% for post in paginator.posts %}    
+    {% for post in paginator.posts %}
       {% if post.topic %}
         {% for hastopic in site.topic %}
         {% if hastopic.topic == post.topic %}
@@ -65,7 +65,7 @@ layout: default
       {% endif %}
     {% endfor %}
   </ul>
-  
+
   <!-- Pagination links -->
   <div class="pagination">
     {% if paginator.previous_page %}

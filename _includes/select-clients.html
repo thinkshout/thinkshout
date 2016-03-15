@@ -5,16 +5,18 @@
       <i class="fa fa-caret-down"></i>
     </div>
     <p>We’ve accomplished amazing things for some really great clients.</p>
-    <ul>
-    {% for sector in site.data.clients %}
-      <li>{{ sector.sector }}</li>
-      <ul>
-        {% assign clientList = sector.clients | sort: "name" %}
-        {% for client in clientList %}
-          <li>{{ client.name }}</li>
-        {% endfor %}
+    <div class="multi-column">
+      <ul class="client-list">
+      {% for sector in site.data.clients %}
+        <li class="client-sector">{{ sector.sector }}</li>
+        <ul class="clients-by-sector">
+          {% assign clientList = sector.clients | sort: "name" %}
+          {% for client in clientList %}
+            <li>{{ client.name }}</li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
       </ul>
-    {% endfor %}
-    </ul>
+    </div>
   </div>
 </section>

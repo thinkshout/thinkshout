@@ -4,6 +4,7 @@ body-class: blog-landing
 title: Project Management and Process
 topic: process
 description: "Our thoughts on Project Management and Process from the ThinkShout blog."
+order: 3
 keywords:
   - nonprofit technology
   - drupal

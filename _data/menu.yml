@@ -1,5 +1,5 @@
 main-menu:
-  - title: Who We Are
+  - title: About Us
     url: /about/
 
   - title: What We Do
@@ -18,7 +18,7 @@ main-menu:
     url: /blog/
 
 secondary:
-  - title: Who We Are
+  - title: About Us
     url: /about/
 
   - title: What We Do
