@@ -42,6 +42,17 @@ cs-sections:
     section-description: |
       We've been building client websites in [Jekyll](/blog/category/jekyll/) for quite a while now with great results. For this project, we introduced new deployment workflows built on top of [Travis CI](https://travis-ci.com/). We also successfully implemented translation management with Jekyll for the first time.
 
+  - stats:
+    - number: 200
+      description: How much faster the site was implemented because of Jekyll.
+      type: percent
+    - number: 30
+      description: Financial savings over building the site in Drupal.
+      type: percent
+    - number: 2
+      description: Dollars spent per month on website hosting.
+      type: dollars
+
 cs-cta-text: Launch Site
 cs-cta-url: http://www.oceanoutcomes.org/
 
