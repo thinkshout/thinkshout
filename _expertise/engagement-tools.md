@@ -8,7 +8,7 @@ slug: engagement-tools
 tag: Engagement Tools
 
 images:
-  hero: marquee/engagement-tools.jpg
+  hero: ts_redesign/expertise/crm.jpg
   icon: expertise/icon-tools.svg
 blurb: |
   Users experience nonprofits across channels, not departments. Every interaction is an opportunity to increase their engagement – or lose their support entirely. We help our clients break information out of silos and flow across their distributed third-party systems. We understand constituent management systems so well, we even developed our own.
