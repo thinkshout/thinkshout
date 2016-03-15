@@ -5520,6 +5520,8 @@ header {
     @media (min-width: 1200px) {
       .our-work .case-study-header h2 {
         font-size: 2rem; } }
+    .our-work .case-study-header h2:hover {
+      text-decoration: underline; }
   .our-work .case-study-header p {
     font-size: 0.8125rem;
     font-weight: 300;
@@ -6217,6 +6219,14 @@ header {
     width: 82.94039%; }
     .our-values-block .row:last-child {
       margin-right: 0; }
+    @media (max-width: 480px) {
+      .our-values-block .row {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .our-values-block .row:last-child {
+          margin-right: 0; } }
     .our-values-block .row .value {
       float: left;
       display: block;
