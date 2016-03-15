@@ -5601,7 +5601,8 @@ header {
     .select-clients ul.client-list .clients-by-sector {
       margin-bottom: 1.5rem; }
       .select-clients ul.client-list .clients-by-sector li {
-        line-height: 1.75; }
+        line-height: 1.75;
+        list-style-type: disc; }
 
 .highlight .hll {
   background-color: #ffffcc; }
