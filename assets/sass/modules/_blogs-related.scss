@@ -70,6 +70,10 @@
     }
   }
 
+  h3:hover {
+    text-decoration: underline;
+  }
+
   h4,
   h5 {
     clear: both;
@@ -126,6 +130,10 @@
         color: #000;
         display: inline-block;
         padding-top: rem(8);
+
+        &:hover {
+          color: $orange;
+        }
       }
     }
   }
