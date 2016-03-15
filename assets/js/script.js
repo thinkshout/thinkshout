@@ -76,14 +76,18 @@
   } else {
     blogType = '/blog/topic/' + blogType;
   }
-  console.log(blogType)
+
   $('#blog-filter').chosen({ disable_search: true })
     .val(blogType).trigger("chosen:updated")
     .change(function(evt, params) {
-      if (params.selected != 'all') {
-        window.location.replace(params.selected);
+      if (params === undefined || params.selected === undefined) {
+         window.location.replace($(this).val())  
       } else {
-        window.location.replace('/blog/');
+        if (params.selected != 'all') {
+          window.location.replace(params.selected);
+        } else {
+          window.location.replace('/blog/');
+        }
       }
     });
 
