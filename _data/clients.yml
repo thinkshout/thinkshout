@@ -3,7 +3,7 @@
     - name: Humane Society of the United States
     - name: Oregon Zoo
     - name: World Wildlife Fund
-    
+
 - sector: Cultural
   clients:
     - name: American Public Media
@@ -13,11 +13,6 @@
     - name: Oregon Metro
     - name: Portland Opera
     - name: Travel Portland
-
-- sector: Crisis Response
-  clients:
-    - name: Mercy Corps
-    - name: Relief International
 
 - sector: Education
   clients:
@@ -49,7 +44,7 @@
     - name: Trust for Conservation Innovation
     - name: Wild Salmon Center
 
-- sector: Health and Athletics
+- sector: Health and Wellness
   clients:
     - name: American Tinnitus Association
     - name: Cascade Bicycle Club
@@ -58,6 +53,14 @@
     - name: National Kidney Foundation
     - name: Portland Design Works
     - name: Young Survival Coalition
+
+- sector: Human Services
+  clients:
+    - name: Capital Area Food Bank of DC
+    - name: Capital Area Food Bank of Texas
+    - name: Feeding Texas
+    - name: Mercy Corps
+    - name: Relief International
 
 - sector: Philanthropy
   clients:
@@ -73,9 +76,6 @@
 
 - sector: Social Justice and Human Rights
   clients:
-    - name: Capital Area Food Bank of DC
-    - name: Capital Area Food Bank of Texas
-    - name: Feeding Texas
     - name: Intercommunity Justice and Peace Center
     - name: International Labor Rights Forum
     - name: Mobility International USA
