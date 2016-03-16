@@ -4630,7 +4630,8 @@ footer {
     display: inline;
     font-size: 0.875rem;
     line-height: 1.75;
-    margin-right: 2.5rem; }
+    margin-left: 0;
+    margin-right: 1rem; }
     @media (max-width: 480px) {
       footer li {
         display: block;

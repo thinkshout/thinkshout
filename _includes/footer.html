@@ -3,7 +3,9 @@
   	<nav class="footer-menu">
       <ul>
         {% for item in site.data.menu.secondary %}
-          <a href="{{ site.baseurl }}{{ item.url }}"><li>{{ item.title }}</li></a>
+        <li>
+          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+        </li>
         {% endfor %}
       </ul>
   	</nav>
