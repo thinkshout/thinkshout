@@ -19,7 +19,9 @@ layout: default
     <section class="body">
       <h3 class="intro">{{ page.cs-intro.topic }}</h3>
       <h4 class="intro">{{ page.cs-intro.mission }}</h4>
-      <a class="intro uppercase-link" href="{{ page.cs-intro.link-url }}" target="_blank">{{ page.cs-intro.link-text }}<i class="fa fa-caret-right"></i></a>
+      {% if page.cs-intro.link-text %}
+        <a class="intro uppercase-link" href="{{ page.cs-intro.link-url }}" target="_blank">{{ page.cs-intro.link-text }}<i class="fa fa-caret-right"></i></a>
+      {% endif %}
       {{ page.cs-intro.text | markdownify }}
 
       {% for section in page.cs-sections %}
@@ -50,10 +52,11 @@ layout: default
       {% endfor %}
     </section>
 
+    {% if page.cs-cta-text %}
     <section class="cta">
         <a class="button" href="{{ page.cs-cta-url }}" target="_blank">{{ page.cs-cta-text }}</a>
     </section>
-
+    {% endif %}
     <div class="our-expertise">
       <div class="container">
         <h1>Other work</h1>
