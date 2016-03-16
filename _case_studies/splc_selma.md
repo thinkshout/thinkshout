@@ -13,7 +13,7 @@ cs-class: "splc-selma"
 cs-preview:
   image: /assets/images/ts_redesign/case-studies/splc-selma/header1.jpg
   type: "Static Jekyll Site"
-  client: "SPLC Selma-to-Montgomery Microsite"
+  client: "SPLC Selma Microsite"
   description: "Remembering the 50th Anniversary of the Selma-to-Montgomery March"
 
 cs-header:
