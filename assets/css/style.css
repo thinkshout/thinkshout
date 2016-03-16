@@ -6368,6 +6368,14 @@ header {
         width: 100%; }
         .our-values-block .row:last-child {
           margin-right: 0; } }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .our-values-block .row {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .our-values-block .row:last-child {
+          margin-right: 0; } }
     .our-values-block .row .value {
       float: left;
       display: block;
