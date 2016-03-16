@@ -4665,6 +4665,9 @@ header {
   top: 0;
   width: 100%;
   z-index: 2; }
+  @media (min-width: 1200px) and (max-width: 1282px) {
+    header .container {
+      padding: 0 1.9rem 0 7rem; } }
   header .header-logo img {
     width: 13rem; }
     @media (max-width: 480px) {

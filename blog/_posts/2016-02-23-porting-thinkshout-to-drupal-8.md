@@ -20,6 +20,8 @@ tags:
 date: 2016-02-23 15:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 topic: technology
+header-image: /assets/images/ts_redesign/blog/up-and-theming1.jpg
+header-image-alt: "Image: Model Thinkshout Employees"
 ---
 
 A fundamental part of ThinkShout’s philosophy and business is to not only use great open source tools, but to [actively give back](http://thinkshout.com/blog/2015/03/the-how-and-why-of-open-source/) to the open source community. The most recognizable part of that contribution is in the form of Drupal modules: over 60,000 Drupal sites run on ThinkShout technology! This strategy has been a huge [win for our clients](http://thinkshout.com/blog/2014/09/small-business-of-nonprofits/), who get features, bugfixes, and security updates from the community because they are sharing code. We benefit from this work as well, as it enhances our profile in the community and helps us generate leads for new projects. Of course, the vast majority of these sites are built on Drupal 7, which [released](https://www.drupal.org/drupal-7-released) in the same month that [ThinkShout was founded](http://thinkshout.com/blog/2016/01/five-years/).

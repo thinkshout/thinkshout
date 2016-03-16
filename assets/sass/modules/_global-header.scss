@@ -8,6 +8,11 @@ header {
   width: 100%;
   z-index: 2;
 
+  @media (min-width: 1200px) and (max-width: 1282px) {
+    .container {
+      padding: 0 1.9rem 0 7rem;
+    }
+  }
 
   .header-logo {
     img {
