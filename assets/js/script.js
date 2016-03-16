@@ -53,21 +53,26 @@
 
   // Blog posts
   $('.post').matchHeight();
-  $('.blogs-toggle').click(function() {
-    $('.post:nth-child(-n+3)').css({ display: "none" });
-    $('.post').slideToggle(800);
-    $('.post').css({ display: "inline-block"});
+  var numberOfPost = $('.team-member-blog .post').length;
 
-    $('body, html').animate({
-      scrollTop: $('.team-member-blog' ).offset().top - 70
-    }, 800, function() {
-    // Animation complete.
-      $('.post').matchHeight();
-    });
-
-    $('.see-all-blogs').toggle();
-    $('.view-less-blogs').toggle();
-  });
+  if (numberOfPost === 1) {
+    $('.team-member-blog .post').addClass('single-center');
+  }
+  // $('.blogs-toggle').click(function() {
+  //   $('.post:nth-child(-n+3)').css({ display: "none" });
+  //   $('.post').slideToggle(800);
+  //   $('.post').css({ display: "inline-block"});
+  //
+  //   $('body, html').animate({
+  //     scrollTop: $('.team-member-blog' ).offset().top - 70
+  //   }, 800, function() {
+  //   // Animation complete.
+  //     $('.post').matchHeight();
+  //   });
+  //
+  //   $('.see-all-blogs').toggle();
+  //   $('.view-less-blogs').toggle();
+  // });
 
   // Blog Type selector
   var blogType = window.location.pathname.replace(/^\/|\/$/g, '').split('/').pop();
@@ -81,7 +86,7 @@
     .val(blogType).trigger("chosen:updated")
     .change(function(evt, params) {
       if (params === undefined || params.selected === undefined) {
-         window.location.replace($(this).val())  
+         window.location.replace($(this).val())
       } else {
         if (params.selected != 'all') {
           window.location.replace(params.selected);
