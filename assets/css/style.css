@@ -5455,17 +5455,16 @@ header {
     margin-bottom: 0.5rem;
     margin-top: 3rem; }
   .open-source h3 a {
-    color: #58585b;
+    color: #f26d21;
     font-size: 1.5rem; }
     .open-source h3 a:hover {
-      color: #f26d21; }
+      text-decoration: underline; }
   .open-source p {
     margin-top: 0; }
     .open-source p a {
-      color: #58585b;
-      text-decoration: underline; }
+      color: #f26d21; }
       .open-source p a:hover {
-        color: #f26d21; }
+        text-decoration: underline; }
 
 .our-expertise {
   padding: 6rem 0; }

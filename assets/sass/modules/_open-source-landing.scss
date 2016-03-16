@@ -41,11 +41,11 @@
   }
 
   h3 a {
-    color: $darkgray;
+    color: $orange;
     font-size: 1.5rem;
 
     &:hover {
-      color: $orange;
+      text-decoration: underline;
     }
   }
 
@@ -53,11 +53,10 @@
     margin-top: 0;
 
     a {
-      color: $darkgray;
-      text-decoration: underline;
+      color: $orange;
 
       &:hover {
-        color: $orange;
+        text-decoration: underline;
       }
     }
   }
