@@ -80,7 +80,7 @@ We work with our clients to create cohesive messaging architectures across chann
 
 #### Online Fundraising & Campaigns
 
-Rare is the nonprofit website that convinces a visitor to donate the first time they encounter it. Donor cultivation is part art, part science, part perseverance – but dependant on great content. We work with our clients to develop the strategies and tactics that will make their fundraising more effective.
+Rare is the nonprofit website that convinces a visitor to donate the first time they encounter it. Donor cultivation is part art, part science, part perseverance – but dependent on great content. We work with our clients to develop the strategies and tactics that will make their fundraising more effective.
 
 From segmented welcome series to drip campaigns to direct mail appeals, we’ve helped dozens of organizations improve their fundraising capacity by keeping the focus on the needs of the donors, using every available channel to deliver the compelling content within the framework of their overarching content strategy.
 
