@@ -45,20 +45,25 @@ layout: default
 <section class="body">
   {{ content }}
 
-  {% if page.blog-cta and page.blog-cta.link %}
+  {% for cta in site.data.blog-cta %}
   <div class="blog-cta">
+    <div class="text">
+      <h3>{{ cta.title }}</h3>
+      <p>{{ cta.description }}</p>
+      <a href="{{ site.baseurl }}{{ cta.link }}" class="uppercase-link">Learn More<i class="fa fa-caret-right"></i></a>
+    </div>
 
-    {% if page.blog-cta.image %}
-    <img src="{{ site.baseurl }}{{ page.blog-cta.image }}" alt="{{ page.blog-cta.title }}">
+    {% if cta.image %}
+    <div class="image">
+      <img src="{{ site.baseurl }}{{ cta.image }}" alt="{{ cta.title }}">
+    </div>
     {% else %}
-    <img src="{{ site.baseurl }}/assets/images/ts_redesign/cta/default-cta.jpg" alt="{{ page.blog-cta.title }}">
+    <div class="image">
+      <img src="{{ site.baseurl }}/assets/images/ts_redesign/cta/default-cta.jpg" alt="{{ cta.title }}">
+    </div>
     {% endif %}
-
-    <h3>{{ page.blog-cta.title }}</h3>
-    <p>{{ page.blog-cta.description }}</p>
-    <a href="{{ site.baseurl }}{{ page.blog-cta.link }}" class="uppercase-link">Learn More<i class="fa fa-caret-right"></i></a>
   </div>
-  {% endif %}
+  {% endfor %}
 
   {% if page.tags.size > 0 %}
     <div class="tags">
