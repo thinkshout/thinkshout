@@ -49,13 +49,13 @@ keywords:
     {% if case.order > 1 %}
       <a href="{{ site.baseurl }}{{ case.url }}">
         <div class="case-study" id="case-study{{ case.order }}">
-        <style>
+        <style scoped>
           #case-study{{ case.order }} { background: url('{{ site.baseurl }}{{ case.cs-preview.image }}') center center no-repeat; }
         </style>
           <div class="orange-overlay">
           </div>
           <div class="case-study-text">
-            <h2>{{ case.cs-preview.client }}</h1>
+            <h2>{{ case.cs-preview.client }}</h2>
             <p>
               {{ case.cs-preview.description}}
             </p>
@@ -115,7 +115,7 @@ keywords:
           <ul>
             {% assign topics = (site.topic | sort: "order") %}
             {% for topic in topics %}
-              <a href="{{ site.baseurl }}{{ topic.url }}"><li>{{ topic.title }}<i class="fa fa-caret-right"></i></li></a>
+              <li><a href="{{ site.baseurl }}{{ topic.url }}">{{ topic.title }}<i class="fa fa-caret-right"></i></a></li>
             {% endfor %}
           </ul>
       </div>
