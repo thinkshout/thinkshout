@@ -1,10 +1,11 @@
 ---
 layout: blog
 body-class: blog-post
+topic: process
 title: The Next Chapter for Mandrill
 author: mike
 published: true
-featured: false
+featured: true
 short: Changes and recommendations for transactional email in Drupal
 tags:
   - Mandrill

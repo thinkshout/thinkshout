@@ -4,7 +4,7 @@ body-class: blog-post
 title: Rethinking Strategies for Online Donor Acquisition
 author: natania
 published: true
-featured: false
+featured: true
 short: The do's and don'ts of donor acquisition programs
 tags:
   - Fundraising
