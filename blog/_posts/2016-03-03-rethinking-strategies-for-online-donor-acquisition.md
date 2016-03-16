@@ -29,7 +29,7 @@ Want to take it a step further? Set up a <a href="http://www.slideshare.net/Nonp
 
 Now, onto the nitty gritty:
 
-###Google AdWords
+### Google AdWords
 
 If you don’t have a <a href="https://www.google.com/intl/ALL/grants" target="_blank">Google Grant</a>, apply for one today (seriously, right after you finish reading this article). Through Google for Nonprofits, you can apply for an Ad Grant that is essentially $10k in in-kind dollars you can use towards advertising on Google. 
 
@@ -37,7 +37,7 @@ There are limitations to this advertising method: Ads are text-based, and becaus
 
 If closely monitored and executed, your organization will gain prime positioning in the search results when people type in a keyword related to your organization. It’s free advertising dollars available to you each month, and well worth the time. 
 
-###Banner Ads
+### Banner Ads
 
 The utilization of banner ads and remarketing is growing in popularity (and necessity). In fact, the <a href="http://www.mrbenchmarks.com/" target="_blank"> 2015 Benchmarks Report </a> found that 50% of the organizations surveyed invested in some form of retargeting, while 66% invested in text/display ads. There is definitely stiff competition for visibility and getting your cause in front of the eyes of potential supporters.
 
@@ -47,7 +47,7 @@ And nonprofits do it, too, with <a href="http://www.nonprofitpro.com/article/fin
 
 Just as you want to sync your direct mail and online marketing pieces, display ads and remarketing can help to further saturate your potential supporters and convince them to join your cause. Besides, the majority of first time visitors to your site won’t make a gift. Retargeting gives them the opportunity to come back and remedy that mistake(!) –and also helps boost brand recognition. 
 
-###Social Advertising 
+### Social Advertising 
 
 You can also extend retargeting into social channels.
 
@@ -63,7 +63,7 @@ There are also benefits to tossing some advertising dollars toward promoted post
 
 If you get the timing right, and know the type of content your audience is likely to engage with, you can increase your brand awareness while growing your file.
 
-###Lightbox/Slide-In (AKA a popup)
+### Lightbox/Slide-In (AKA a popup)
 
 The general reaction I get when I suggest implementing a lightbox/popup as a means to collect names or donations is for everyone in the room to recoil in horror. But if deployed strategically and when it makes sense, site visitors won’t have an adverse reaction to it. In fact, they’ll be glad you made it easier for them to find what they’re looking for. 
 
@@ -75,7 +75,7 @@ All of the above recommendations should be paired with a Welcome Series or autor
 
 So, where should you not focus your energy?
 
-###Buying/Renting Email Lists
+### Buying/Renting Email Lists
 
 This often functions through a third party vendor, who will email (on your behalf) a file of hundreds (sometimes thousands) of emails they have identified as having an affinity to your cause. Your organization only gets the names if someone makes a gift or opts in through the vendor’s system. 
 
