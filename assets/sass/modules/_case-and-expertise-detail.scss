@@ -186,6 +186,21 @@
         width: 100%;
       }
     }
+
+    div.right {
+      clear: both;
+      float: right;
+      margin-right: 2rem;
+      margin-left: rem(16);
+      margin-bottom: rem(16);
+      width: 30%;
+      img {
+        width: 100%;
+      }
+      @include mq(lt) { width: 250px; margin-right: 5rem;  }
+      @include mq(md) { width: 280px; margin-right: 10rem;  }
+      @include mq(l)  { width: 300px; margin-right: 17rem; }
+    }
   }
 
   .cta {

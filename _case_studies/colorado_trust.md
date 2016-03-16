@@ -31,12 +31,17 @@ cs-intro:
     [The Colorado Trust](http://www.coloradotrust.org/) is dedicated to ending health inequalities that affect racial, ethnic, low-income, and other vulnerable populations. The Trust came to us looking to communicate more effectively across geographic, socioeconomic, and technological divides.
 
 cs-sections:
-  - section-image: "/assets/images/work/coloradotrust/coloradotrust-hero.jpg"
-    section-image-alt: "Image: "
+  - section-image: "/assets/images/work/coloradotrust/planning-ahead.jpg"
+    section-image-alt: ""
+    section-image-right: true
 
   - section-title: "Planning Ahead"
     section-description: |
       The Trust came to us at an interesting period in its history. They were just kicking off an innovative, and fundamental, change in their funding model and organizational structure. Consequently, we needed to pay close attention in thinking through information architecture to make sure that we were _future proofing_ the new website.
+
+  - section-image: "/assets/images/work/coloradotrust/coloradotrust-search.jpg"
+    section-image-alt: ""
+    section-image-right: true
 
   - section-title: "Speaking to Diverse Audiences"
     section-description: |

@@ -3826,6 +3826,42 @@ a {
   .case-study .body div.full img,
   .expertise .body div.full img {
     width: 100%; }
+.page-not-found .body div.right,
+.careers .body div.right,
+.case-study .body div.right,
+.expertise .body div.right {
+  clear: both;
+  float: right;
+  margin-right: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  width: 30%; }
+  .page-not-found .body div.right img,
+  .careers .body div.right img,
+  .case-study .body div.right img,
+  .expertise .body div.right img {
+    width: 100%; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .page-not-found .body div.right,
+    .careers .body div.right,
+    .case-study .body div.right,
+    .expertise .body div.right {
+      width: 250px;
+      margin-right: 5rem; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .page-not-found .body div.right,
+    .careers .body div.right,
+    .case-study .body div.right,
+    .expertise .body div.right {
+      width: 280px;
+      margin-right: 10rem; } }
+  @media (min-width: 1200px) {
+    .page-not-found .body div.right,
+    .careers .body div.right,
+    .case-study .body div.right,
+    .expertise .body div.right {
+      width: 300px;
+      margin-right: 17rem; } }
 .page-not-found .cta,
 .careers .cta,
 .case-study .cta,

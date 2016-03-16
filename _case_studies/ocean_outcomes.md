@@ -34,13 +34,25 @@ cs-intro:
 
 cs-sections:
 
+  - section-image: "/assets/images/work/oceanoutcomes/oceanoutcomes-storytelling.jpg"
+    section-image-alt: ""
+    section-image-right: true
+
   - section-title: "Long-form Storytelling"
     section-description: |
       Our user exerperience and graphic design choices were guided by a strong interest in telling the compelling and highly-visual stories of fisheries conservation around the globe. Consequently, we chose to implement a ["flat design"](http://en.wikipedia.org/wiki/Flat_design) that allows imagery and content to stand for itself in a most digestible manner.
 
+  - section-image: "/assets/images/work/oceanoutcomes/oceanoutcomes-jekyll.jpg"
+    section-image-alt: ""
+    section-image-right: true
+
   - section-title: "Innovating with Jekyll"
     section-description: |
       We've been building client websites in [Jekyll](/blog/category/jekyll/) for quite a while now with great results. For this project, we introduced new deployment workflows built on top of [Travis CI](https://travis-ci.com/). We also successfully implemented translation management with Jekyll for the first time.
+
+  - section-title: "Results"
+    section-description: | 
+      The site was implemented 200% faster because of Jekyll, saved 30% over building the site in Drupal, and spends only $2 per month on hosting. 
 
   - stats:
     - number: 200

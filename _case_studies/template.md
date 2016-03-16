@@ -33,6 +33,8 @@ cs-intro:
 cs-sections:
   - section-image: ""
     section-image-alt: ""
+    section-image-full: false
+    section-image-right: false
 
   - section-title: ""
     section-description: |

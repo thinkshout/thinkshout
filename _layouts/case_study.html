@@ -34,6 +34,10 @@ layout: default
         {% if section.section-image %}
           {% if section.section-image-full %}
             <div class="full">
+          {% elsif section.section-image-left %}
+            <div class="left">
+          {% elsif section.section-image-right %}
+            <div class="right">
           {% else %}
             <div class="inline">
           {% endif %}
