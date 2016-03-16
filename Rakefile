@@ -18,7 +18,7 @@ end
 desc 'Build and start local server'
 task :serve do
   system 'bundle exec sass -r sass-globbing --watch assets/sass:assets/css &'
-  system 'bundle exec jekyll serve --watch --baseurl="" --drafts'
+  system 'bundle exec jekyll serve --watch --incremental --baseurl="" --drafts'
 end
 
 def jekyll(opts = '')
