@@ -4,11 +4,11 @@
 
 - name: Apache Solr Geo
   url: https://www.drupal.org/project/apachesolr_geo
-  description: This is a geofield integration with the Apache Solr module.Apache Solr Geo adds the ability to use Solr's spatial querying to the [apachesolr](https://www.drupal.org/project/apachesolr) module for data stored using [geofield](https://www.drupal.org/project/geofield).
+  description: This is a geofield integration with the Apache Solr module. Apache Solr Geo adds the ability to use Solr's spatial querying to the [apachesolr](https://www.drupal.org/project/apachesolr) module for data stored using [geofield](https://www.drupal.org/project/geofield).
 
 - name: Bean Entity View
   url:  https://www.drupal.org/project/bean_entity_view
-  description:  Provides a Bean type plugin that allows admins to create blocks that display a single entity as a block using a particular view mode. The entity being display is either specified when the bean is created, or determined dynamically based on the entity currently being viewed.
+  description:  Provides a Bean type plugin that allows admins to create blocks that display a single entity as a block using a particular view mode. The entity being displayed is either specified when the bean is created, or determined dynamically based on the entity currently being viewed.
 
 - name: Commerce Check
   url:  https://www.drupal.org/project/commerce_check
@@ -29,7 +29,7 @@
 
 - name: Leaflet
   url:  https://www.drupal.org/project/leaflet
-  description:  Leaflet offers A Modern, Lightweight Open-Source JavaScript Library for Interactive Maps by [CloudMade](http://cloudmade.com/). This module provides integration with the [Leaflet](http://leaflet.cloudmade.com/) JavaScript mapping library. This is a lightweight and easy to use API for designing maps and displaying data on a map.
+  description:  Leaflet offers a modern, lightweight open-source JavaScript library for interactive maps by [CloudMade](http://cloudmade.com/). This module provides integration with the [Leaflet](http://leaflet.cloudmade.com/) JavaScript mapping library. This is a lightweight and easy to use API for designing maps and displaying data on a map.
 
 - name: MailChimp
   url:  https://www.drupal.org/project/mailchimp
@@ -45,7 +45,7 @@
 
 - name: RedHen CRM
   url:  https://www.drupal.org/project/redhen
-  description:  RedHen is a Drupal-native CRM initially designed for common nonprofit needs, but built for flexibility. It has classic CRM functionality for managing information about contacts, organizations, and their relationships between each other and your organization (like memberships). It also knows some modern tricks (like engagement tracking) and customizable one page donation forms, and stuff you'd hope for in a website-integrated CRM (like event registration integration).
+  description:  RedHen is a Drupal-native CRM initially designed for common nonprofit needs, but built for flexibility. It has classic CRM functionality for managing information about contacts, organizations, and their relationships between each other and your organization (like memberships). It also knows some modern tricks (like engagement tracking) and customizable one page donation forms, and functionality you'd hope for in a website-integrated CRM (like event registration integration).
 
 - name: RedHen Donation
   url:  https://www.drupal.org/project/redhen_donation
@@ -78,4 +78,4 @@
 
 - name: Salesforce Suite
   url:  https://www.drupal.org/project/salesforce
-  description:  This suite of modules supports integration with [Salesforce](http://www.salesforce.com/) by synchronizing Drupal entities (E.g., users, nodes, files) with Salesforce objects (E.g., contacts, organizations, opportunities). It supports pushing Drupal data to Salesforce as well as pulling, or importing, Salesforce data into Drupal. Changes can be made in real time or asynchronously in batches during cron run.
+  description:  This suite of modules supports integration with [Salesforce](http://www.salesforce.com/) by synchronizing Drupal entities (e.g., users, nodes, files) with Salesforce objects (e.g., contacts, organizations, opportunities). It supports pushing Drupal data to Salesforce as well as pulling, or importing, Salesforce data into Drupal. Changes can be made in real time or asynchronously in batches during cron run.
