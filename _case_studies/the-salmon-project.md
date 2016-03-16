@@ -2,7 +2,7 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study the-salmon-project
-active: true
+active: false
 order: 10
 featured: false
 # END LAYOUT DATA
