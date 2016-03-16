@@ -182,17 +182,17 @@
       }
       &.left,
       &.right,
-      &.ten,    
-      &.twenty, 
-      &.thirty, 
-      &.forty,  
-      &.fifty,  
-      &.sixty,  
+      &.ten,
+      &.twenty,
+      &.thirty,
+      &.forty,
+      &.fifty,
+      &.sixty,
       &.seventy,
-      &.eighty, 
+      &.eighty,
       &.ninety {
         clear: both;
-      }      
+      }
     }
     .left {
       float: left;
@@ -244,6 +244,7 @@
 
   .body .tags {
     font-size: rem(15);
+    line-height: 1.75rem;
     margin: 2rem auto;
     padding: 1rem 3rem;
     text-align: center;
