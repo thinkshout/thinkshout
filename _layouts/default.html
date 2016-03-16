@@ -72,12 +72,7 @@
   <script src="{{ site.baseurl }}/assets/js/chosen.jquery.min.js"></script>
   <script src="{{ site.baseurl }}/assets/js/script.js"></script>
 
-  {% if site.host == '127.0.0.1' %}
-    <!-- Loaded only in local -->
-    <script src="http://localhost:35729/livereload.js"></script>
-  {% endif %}
 
-{% if site.host != '127.0.0.1' %}
   <script>
     // Google analytics
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -89,7 +84,6 @@
     ga('send', 'pageview');
 
   </script>
-{% endif %}
 
 </body>
 </html>
