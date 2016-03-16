@@ -1,6 +1,6 @@
 <div class="our-expertise">
   <div class="container">
-    <h1>Our Expertise</h1>
+    <a href="{{ site.baseurl }}expertise/"><h1>Our Expertise</h1></a>
     {% for area in site.expertise %}
       <div class="our-expertise-block">
         {% if page.slug == area.slug %}
@@ -13,7 +13,7 @@
     {% endfor %}
 
     {% if page.layout != "expertise-detail" %}
-      <a href="{{ site.baseurl }}/expertise" class="uppercase-link">What We Do<i class="fa fa-caret-right"></i></a>
+      <a href="{{ site.baseurl }}/expertise/" class="uppercase-link">What We Do<i class="fa fa-caret-right"></i></a>
     {% endif %}
   </div>
 </div>
