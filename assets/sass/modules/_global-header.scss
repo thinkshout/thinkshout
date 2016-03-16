@@ -8,12 +8,6 @@ header {
   width: 100%;
   z-index: 2;
 
-  @media (min-width: 1200px) and (max-width: 1282px) {
-    .container {
-      padding: 0 1.9rem 0 7rem;
-    }
-  }
-
   .header-logo {
     img {
       width: 13rem;
@@ -147,6 +141,20 @@ header {
         margin: 0 0.7rem;
         padding: rem(50) rem(5);
       }
+    }
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1282px) {
+    .container {
+      padding: 0 3rem 0 5.8rem;
+    }
+  }
+  @media (min-width: 979px) and (max-width: 1074px) {
+    .container {
+      padding: 0 2rem 0 2rem;
+    }
+    .main-menu a {
+      margin: 0 0.5rem;
     }
   }
 }

@@ -4665,9 +4665,6 @@ header {
   top: 0;
   width: 100%;
   z-index: 2; }
-  @media (min-width: 1200px) and (max-width: 1282px) {
-    header .container {
-      padding: 0 1.9rem 0 7rem; } }
   header .header-logo img {
     width: 13rem; }
     @media (max-width: 480px) {
@@ -4795,6 +4792,14 @@ header {
           color: #58585b;
           margin: 0 0.7rem;
           padding: 3.125rem 0.3125rem; } }
+  @media (min-width: 1200px) and (max-width: 1282px) {
+    header .container {
+      padding: 0 3rem 0 5.8rem; } }
+  @media (min-width: 979px) and (max-width: 1074px) {
+    header .container {
+      padding: 0 2rem 0 2rem; }
+    header .main-menu a {
+      margin: 0 0.5rem; } }
 
 .front {
   margin-top: 134px; }
