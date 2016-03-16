@@ -5200,17 +5200,28 @@ header {
       .map-teaser .address {
         width: 100%; } }
   .map-teaser .map-embed {
+    background: url("../images/ts_redesign/map-teaser-bg.jpg") center center no-repeat;
+    height: 25rem;
     width: 66.6666%;
     float: left;
     line-height: 0;
     margin-bottom: 0; }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .map-teaser .map-embed {
+        /* Retina-specific stuff here */
+        background: url("../images/ts_redesign/map-teaser-bg@2x.jpg") center center no-repeat;
+        background-size: 100%; } }
     @media (min-width: 481px) and (max-width: 979px) {
       .map-teaser .map-embed {
-        width: 50%; } }
+        width: 50%;
+        background-position: 67% center;
+        background-size: cover; } }
     @media (max-width: 480px) {
       .map-teaser .map-embed {
         margin-top: 7rem;
-        width: 100%; } }
+        width: 100%;
+        background-position: right center;
+        background-size: cover; } }
 
 .newsletter-block {
   background: #f58546 url("../images/ts_redesign/dot.png");

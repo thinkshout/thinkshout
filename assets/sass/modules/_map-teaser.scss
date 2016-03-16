@@ -27,18 +27,29 @@
   }
 
   .map-embed {
+    background: url('../images/ts_redesign/map-teaser-bg.jpg') center center no-repeat;
+    height: rem(400);
     width: 66.6666%;
     float: left;
     line-height: 0;
     margin-bottom: 0;
 
+    @include mq(r) {
+      background: url('../images/ts_redesign/map-teaser-bg@2x.jpg') center center no-repeat;
+      background-size: 100%;
+    }
+
     @include mq(t) {
       width: 50%;
+      background-position: 67% center;
+      background-size: cover;
     }
 
     @include mq(m) {
       margin-top: 7rem;
       width: 100%;
+      background-position: right center;
+      background-size: cover;
     }
   }
 }
