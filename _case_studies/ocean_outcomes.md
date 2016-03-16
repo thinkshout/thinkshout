@@ -34,13 +34,22 @@ cs-intro:
 
 cs-sections:
 
+  - section-image: "/assets/images/ts_redesign/case-studies/ocean-outcomes/oceanoutcomes-desktopmobile.jpg"
+    section-image-alt: "Image: Ocean Outcomes Desktop and Mobile "
+
   - section-title: "Long-form Storytelling"
     section-description: |
       Our user exerperience and graphic design choices were guided by a strong interest in telling the compelling and highly-visual stories of fisheries conservation around the globe. Consequently, we chose to implement a ["flat design"](http://en.wikipedia.org/wiki/Flat_design) that allows imagery and content to stand for itself in a most digestible manner.
 
+  - section-image: "/assets/images/ts_redesign/case-studies/ocean-outcomes/oo-mobile.jpg"
+    section-image-alt: "Image: Ocean Outcomes Mobile"
+
   - section-title: "Innovating with Jekyll"
     section-description: |
       We've been building client websites in [Jekyll](/blog/category/jekyll/) for quite a while now with great results. For this project, we introduced new deployment workflows built on top of [Travis CI](https://travis-ci.com/). We also successfully implemented translation management with Jekyll for the first time.
+
+  - section-image: "/assets/images/ts_redesign/case-studies/ocean-outcomes/desktop-fish.jpg"
+    section-image-alt: "Image: "
 
   - stats:
     - number: 200
