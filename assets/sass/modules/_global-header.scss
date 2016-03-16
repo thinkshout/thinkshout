@@ -8,7 +8,6 @@ header {
   width: 100%;
   z-index: 2;
 
-
   .header-logo {
     img {
       width: 13rem;
@@ -20,10 +19,12 @@ header {
 
     @include mq(t) {
       @include span-columns(3);
+      @include omega;
     }
 
     @include mq(d) {
       @include span-columns(3);
+      @include omega;
     }
   }
 
@@ -142,6 +143,23 @@ header {
         margin: 0 0.7rem;
         padding: rem(50) rem(5);
       }
+    }
+  }
+
+  @media (min-width: 1200px) and (max-width: 1282px) {
+    .container {
+      padding: 0 3rem 0 5.8rem;
+    }
+  }
+  @media (min-width: 979px) and (max-width: 1124px) {
+    .container {
+      padding: 0 2rem 0 2rem;
+    }
+    .main-menu li {      
+      font-size: rem(14);
+    }
+    .main-menu a {
+      margin: 0 0.4rem;
     }
   }
 }

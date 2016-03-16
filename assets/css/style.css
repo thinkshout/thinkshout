@@ -4681,7 +4681,8 @@ header {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 23.23176%; }
+      width: 23.23176%;
+      margin-right: 0; }
       header .header-logo:last-child {
         margin-right: 0; } }
   @media (min-width: 980px) {
@@ -4689,7 +4690,8 @@ header {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 23.23176%; }
+      width: 23.23176%;
+      margin-right: 0; }
       header .header-logo:last-child {
         margin-right: 0; } }
   header .mobile-menu-icon {
@@ -4798,6 +4800,16 @@ header {
           color: #58585b;
           margin: 0 0.7rem;
           padding: 3.125rem 0.3125rem; } }
+  @media (min-width: 1200px) and (max-width: 1282px) {
+    header .container {
+      padding: 0 3rem 0 5.8rem; } }
+  @media (min-width: 979px) and (max-width: 1124px) {
+    header .container {
+      padding: 0 2rem 0 2rem; }
+    header .main-menu li {
+      font-size: 0.875rem; }
+    header .main-menu a {
+      margin: 0 0.4rem; } }
 
 .front {
   margin-top: 134px; }
