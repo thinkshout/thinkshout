@@ -11,7 +11,7 @@ task :default => :server
 
 desc 'Build site with Jekyll'
 task :build do
-  system 'bundle exec sass --udpate -r sass-globbing assets/sass:assets/css'
+  system 'bundle exec sass --update -r sass-globbing assets/sass:assets/css'
   system 'bundle exec jekyll build'
 end
 

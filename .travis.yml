@@ -3,7 +3,7 @@ language: ruby
 rvm:
 - 2.0.0
 before_script:
-- bundle exec compass compile
+- bundle exec sass --update -r sass-globbing assets/sass:assets/css
 - bundle exec jekyll build
 - npm install -g casperjs
 - phantomjs --version
