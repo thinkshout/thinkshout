@@ -1,6 +1,9 @@
 main-menu:
-  - title: About Us
+  - title: Who We Are
     url: /about/
+
+  - title: Meet the Team
+    url: /team/
 
   - title: What We Do
     url: /expertise/
@@ -11,15 +14,15 @@ main-menu:
   - title: Connect With Us
     url: /contact/
 
-  - title: Team
-    url: /team/
-
   - title: Blog
     url: /blog/
 
 secondary:
-  - title: About Us
+  - title: Who We Are
     url: /about/
+
+  - title: Meet the Team
+    url: /team/
 
   - title: What We Do
     url: /expertise/
