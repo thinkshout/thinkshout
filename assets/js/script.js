@@ -70,8 +70,14 @@
         // Animation complete.
         $('.post').matchHeight();
     });
-    $('.view-less-blogs').fadeToggle();
-    $(this).fadeToggle();
+
+    if ($('.view-less-blogs:visible').length < 1) {
+        $('.view-less-blogs').fadeIn();
+        $('.see-all-blogs').hide();
+    } else {
+      $('.see-all-blogs').fadeIn();
+      $('.view-less-blogs').hide();
+    }
   });
 
   // Blog Type selector
