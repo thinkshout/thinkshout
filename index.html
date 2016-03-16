@@ -115,7 +115,7 @@ keywords:
           <ul>
             {% assign topics = (site.topic | sort: "order") %}
             {% for topic in topics %}
-              <a href="{{ site.baseurl }}{{ topic.url }}"><li>{{ topic.title }}<i class="fa fa-caret-right"></i></li></a>
+              <li><a href="{{ site.baseurl }}{{ topic.url }}">{{ topic.title }}<i class="fa fa-caret-right"></i></a></li>
             {% endfor %}
           </ul>
       </div>
