@@ -1,7 +1,7 @@
 ---
 # LAYOUT DATA
 layout: case_study
-body-class: case-study wwf
+body-class: case-study facing-history
 active: false
 order: 10
 featured: false
