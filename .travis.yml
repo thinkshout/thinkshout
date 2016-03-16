@@ -3,7 +3,7 @@ language: ruby
 rvm:
 - 2.0.0
 before_script:
-- bundle exec jekyll build
+- bundle exec rake build
 - npm install -g casperjs
 - phantomjs --version
 - casperjs --version
