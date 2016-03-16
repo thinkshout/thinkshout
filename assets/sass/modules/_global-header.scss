@@ -19,10 +19,12 @@ header {
 
     @include mq(t) {
       @include span-columns(3);
+      @include omega;
     }
 
     @include mq(d) {
       @include span-columns(3);
+      @include omega;
     }
   }
 
@@ -143,18 +145,21 @@ header {
       }
     }
   }
-  
+
   @media (min-width: 1200px) and (max-width: 1282px) {
     .container {
       padding: 0 3rem 0 5.8rem;
     }
   }
-  @media (min-width: 979px) and (max-width: 1074px) {
+  @media (min-width: 979px) and (max-width: 1124px) {
     .container {
       padding: 0 2rem 0 2rem;
     }
+    .main-menu li {      
+      font-size: rem(14);
+    }
     .main-menu a {
-      margin: 0 0.5rem;
+      margin: 0 0.4rem;
     }
   }
 }
