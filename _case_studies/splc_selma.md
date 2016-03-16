@@ -41,12 +41,6 @@ cs-sections:
 
       That said, over the years they have built up considerable content and have experimented with a broad range of messaging strategies. In coming to us, they needed to step back and rethink their approach to content strategy. To structure the story itself, we combined work we had done to define the SPLC’s audiences and available assets culled from a content audit while keeping in mind that the goals of a campaign website are different from the goals of a full site.
 
-  - section-image: "/assets/images/ts_redesign/case-studies/splc-selma/full1.jpg"
-    section-image-alt: "Image: Woman working with brightly colored sticky notes during project discovery phase"
-    section-image-caption: "We kicked off the project with a 2-day onsite discovery engagement with the SPLC team"
-    section-image-full: true
-
-  - section-description: |
       Because it’s focused on a single ask – to order the movie and so expand the SPLC’s list of supporters – we determined it was best to strip away most of the opportunities to explore other areas of the SPLC’s work and let the story of the March itself persuade users to take that action. The strategy work we had already completed allowed us to develop the campaign more quickly than would otherwise have been possible, to gorgeous effect.
 
   - section-image: "/assets/images/ts_redesign/case-studies/splc-selma/inline2.jpg"
