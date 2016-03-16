@@ -74,7 +74,7 @@ keywords:
       <div class="featured-blog-post">
         <div class="container">
           {% for post in site.categories.blog %}
-          {% if post.featured == true %}
+          {% if post.homepage == true %}
           <div class="blog-subject">
             <div class="header-down-caret">
               <h4>Featured blog post</h4>
@@ -103,6 +103,7 @@ keywords:
               {% endif %}
               {% endfor %}
             </div>
+          {% break %}
           {% endif %}
           {% endfor %}
         </div>

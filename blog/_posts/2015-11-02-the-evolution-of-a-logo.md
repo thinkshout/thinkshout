@@ -1,21 +1,19 @@
 ---
 layout: blog
 body-class: blog-post
-topic:
+topic: strategy
 header-image:
 header-image-alt:
-
 title: The Evolution of a Logo
 author: jessica
 published: true
-featured: false
+featured: true
 short: "Introducing the new and improved ThinkShout logo!"
 tags:
   - Design
   - Typography
 date: 2015-11-02 12:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
-topic: strategy
 ---
 
 On my third day at ThinkShout, I casually (read: scared out of my mind) took a risk and asked what would happen if I suggested a few updates to the current ThinkShout logo.

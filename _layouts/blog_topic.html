@@ -35,7 +35,7 @@ layout: default
   {% endfor %}
 {% else %}
   {% for post in site.categories.blog %}
-    {% if post.featured %}
+    {% if post.homepage %}
       {% if post.header-image %}
         <div class="featured-post" style="background-image: url('{{ site.baseurl }}{{ post.header-image }}');">
       {% else %}  
