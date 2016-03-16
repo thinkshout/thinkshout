@@ -2048,7 +2048,9 @@ p {
 li {
   list-style-type: none; }
 
-a {
+a,
+a:visited {
+  color: #f26d21;
   text-decoration: none; }
 
 .dotted-overlay,
