@@ -12,8 +12,17 @@ footer {
     color: $midorange;
   }
 
-  @include mq(m) { padding-top: 2rem; }
-  @include mq(t) { height: 500px; padding-top: 2rem; }
+  @include mq(m) {
+    height: auto;
+    padding-bottom: 7rem;
+    padding-top: 2rem;
+  }
+
+  @include mq(t) {
+    height: auto;
+    padding-bottom: 7rem;
+    padding-top: 2rem;
+  }
 
   ul {
     padding-left: 0;
@@ -33,7 +42,10 @@ footer {
       line-height: $line-height;
     }
 
-    @include mq(t) { font-size: rem(24); }
+    @include mq(t) {
+      display: list-item;
+      font-size: rem(24);
+    }
 
     &:hover {
       text-decoration: underline;
@@ -45,7 +57,7 @@ footer {
   }
 
   .secondary-menu-footer {
-    li a { color: $ltorange; }  
+    li a { color: $ltorange; }
   }
 
   .ts-address {
