@@ -31,9 +31,8 @@ cs-intro:
     [The Colorado Trust](http://www.coloradotrust.org/) is dedicated to ending health inequalities that affect racial, ethnic, low-income, and other vulnerable populations. The Trust came to us looking to communicate more effectively across geographic, socioeconomic, and technological divides.
 
 cs-sections:
-  - section-image: "/assets/images/work/coloradotrust/planning-ahead.jpg"
-    section-image-alt: ""
-    section-image-right: true
+  - section-image: "/assets/images/ts_redesign/case-studies/colorado-trust/desktop-mobile.jpg"
+    section-image-alt: "Image: "
 
   - section-title: "Planning Ahead"
     section-description: |
