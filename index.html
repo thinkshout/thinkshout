@@ -27,14 +27,13 @@ keywords:
   </div>
 
   {% assign featured_work = (site.case_studies | where: "active", "true" | sort: "order") | first %}
-  <a href="{{ site.baseurl }}{{ featured_work.url }}">
-    <div class="featured-case-study">
+  <div class="featured-case-study">
     <div class="gradient">&nbsp;</div>
       <div class="container">
           <div class="featured-case-study-text valign-wra">
             <div class="valign">
               <h4>Featured Case Study</h4>
-              <h1>{{ featured_work.cs-preview.client }}</h1>
+              <h1><a href="{{ site.baseurl }}{{ featured_work.url }}">{{ featured_work.cs-preview.client }}</a></h1>
               <p>
                 {{ featured_work.cs-preview.description}}
               </p>
@@ -43,7 +42,6 @@ keywords:
           </div>
       </div>
     </div>
-  </a>
 
   <div class="three-case-studies">
     {% assign case-studies = (site.case_studies | where: "active", "true" | sort: "order") %}

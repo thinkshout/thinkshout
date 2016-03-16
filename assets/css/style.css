@@ -4916,7 +4916,8 @@ header {
     height: 100%;
     padding: 5rem 0 10rem 0;
     position: relative;
-    width: 100%; }
+    width: 100%;
+    cursor: pointer; }
     .front .featured-case-study:hover {
       opacity: 0.9; }
     .front .featured-case-study .gradient {
