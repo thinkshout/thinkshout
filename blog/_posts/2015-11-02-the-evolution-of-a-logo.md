@@ -8,7 +8,7 @@ header-image-alt:
 title: The Evolution of a Logo
 author: jessica
 published: true
-featured: true
+featured: false
 short: "Introducing the new and improved ThinkShout logo!"
 tags:
   - Design

@@ -4,7 +4,7 @@ body-class: blog-post
 title: Up and Theming with Drupal 8
 author: joe
 published: true
-featured: true
+featured: false
 short: Part 2 of our series dives into Drupal 8 theming.
 tags:
   - Development
