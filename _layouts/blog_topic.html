@@ -8,7 +8,7 @@ layout: default
     {% if post.featured and post.topic == page.topic %}
       {% if post.header-image %}
         <div class="featured-post" style="background-image: url('{{ site.baseurl }}{{ post.header-image }}');">
-      {% else %}  
+      {% else %}
         <div class="featured-post" style="background-image: url('/assets/images/ts_redesign/blog/up-and-theming1.jpg');">
       {% endif %}
         <div class="wrapper">
@@ -38,7 +38,7 @@ layout: default
     {% if post.featured %}
       {% if post.header-image %}
         <div class="featured-post" style="background-image: url('{{ site.baseurl }}{{ post.header-image }}');">
-      {% else %}  
+      {% else %}
         <div class="featured-post" style="background-image: url('/assets/images/ts_redesign/blog/up-and-theming1.jpg');">
       {% endif %}
         <div class="wrapper">
@@ -70,7 +70,8 @@ layout: default
     <form>
     <select id="blog-filter" class="blog-filter">
       <option value="all">All</option>
-      {% for posttopic in site.topic %}
+      {% assign topics = site.topic | sort: "order" %}
+      {% for posttopic in topics %}
       <option value="{{ site.baseurl }}/blog/topic/{{ posttopic.topic }}">{{ posttopic.title }}</option>
       {% endfor %}
     </select>
