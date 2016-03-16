@@ -3046,6 +3046,12 @@ a {
       color: #292929;
       font-size: 1.5rem;
       margin: 0; }
+  @media (min-width: 980px) {
+    .team-member-blog .post.single-center {
+      margin-left: 34.11922%; } }
+  @media (min-width: 481px) and (max-width: 979px) {
+    .team-member-blog .post.single-center {
+      margin-left: 25.58941%; } }
   .team-member-blog h3:hover {
     text-decoration: underline; }
   .team-member-blog h4,

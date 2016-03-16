@@ -70,6 +70,16 @@
     }
   }
 
+  // center single post on desktop
+  .post.single-center {
+    @include mq(d) {
+      @include shift(4);
+    }
+    @include mq(t) {
+      @include shift(3);
+    }
+  }
+
   h3:hover {
     text-decoration: underline;
   }
@@ -113,7 +123,7 @@
   .view-less-blogs {
     display: none;
   }
-}
+} // end team member blog
 
 // Blog and Expertise adjustments
 .blog-post,
