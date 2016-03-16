@@ -2054,8 +2054,7 @@ a:visited {
   text-decoration: none; }
 
 .dotted-overlay,
-.team-member-blog:after,
-.front .who-we-are:after {
+.team-member-blog:after {
   content: "";
   background: transparent url("../images/ts_redesign/dot.png") repeat repeat;
   bottom: 0;
@@ -4861,13 +4860,9 @@ header {
     .front {
       margin-top: 5.625rem; } }
   .front .who-we-are {
-    background: url("../images/ts_redesign/home_hero.jpg") left top;
-    background-size: cover;
-    height: 100%;
+    margin-bottom: -1px;
     padding: 2rem 0;
-    position: relative;
-    width: 100%;
-    z-index: 1; }
+    position: relative; }
     @media (min-width: 671px) and (max-width: 979px) {
       .front .who-we-are {
         padding: 4rem 0; } }
@@ -4877,6 +4872,23 @@ header {
     @media (min-width: 1200px) {
       .front .who-we-are {
         padding: 13rem 0; } }
+    .front .who-we-are:after {
+      background: url("../images/ts_redesign/home_hero.jpg") left top no-repeat;
+      background-size: cover;
+      content: "";
+      display: block;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: -1; }
+      @media (max-width: 480px) {
+        .front .who-we-are:after {
+          opacity: 0.3; } }
+      @media (min-width: 481px) and (max-width: 670px) {
+        .front .who-we-are:after {
+          opacity: 0.3; } }
     .front .who-we-are .who-we-are-text {
       text-align: center; }
       @media (min-width: 671px) and (max-width: 979px) {
