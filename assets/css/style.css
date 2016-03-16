@@ -4643,6 +4643,8 @@ footer {
       text-decoration: underline; }
   footer img {
     max-width: 2.5rem; }
+  footer .secondary-menu-footer li a {
+    color: #f78c50; }
   footer .ts-address {
     float: left;
     display: block;

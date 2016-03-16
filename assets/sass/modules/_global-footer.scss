@@ -44,6 +44,10 @@ footer {
     max-width: rem(40);
   }
 
+  .secondary-menu-footer {
+    li a { color: $ltorange; }  
+  }
+
   .ts-address {
     @include span-columns(10);
     color: $white;

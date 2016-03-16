@@ -1,8 +1,15 @@
 <footer>
   <div class="container">
   	<nav class="footer-menu">
-      <ul>
+      <ul class="main-menu-footer">
         {% for item in site.data.menu.main-menu %}
+        <li>
+          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      <ul class="secondary-menu-footer">
+        {% for item in site.data.menu.secondary %}
         <li>
           <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
         </li>
