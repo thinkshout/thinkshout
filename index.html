@@ -49,7 +49,7 @@ keywords:
     {% if case.order > 1 %}
       <a href="{{ site.baseurl }}{{ case.url }}">
         <div class="case-study" id="case-study{{ case.order }}">
-        <style>
+        <style scoped>
           #case-study{{ case.order }} { background: url('{{ site.baseurl }}{{ case.cs-preview.image }}') center center no-repeat; }
         </style>
           <div class="orange-overlay">
