@@ -4,7 +4,7 @@ title: Senior Project Manager
 slug: senior-pm/
 mailto: jobs@thinkshout.com
 blurb: As a Senior PM at ThinkShout, you will lead design and development projects for nonprofit organizations.
-active: true
+active: false
 ---
 We are seeking a seasoned Senior Project Manager to join our growing team. As a Senior PM at ThinkShout, you will lead design and development projects for nonprofit organizations. You should be a master of your craft, have impeccable listening and communication skills, and know how to bridge the gap between strategists, creatives, and engineers - all while keeping your clients happy and informed.
 

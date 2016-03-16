@@ -1,5 +1,7 @@
 ---
+title: Privacy Statement
 layout: privacy
+permalink: privacy/
 intro: ThinkShout (TS) is the sole owner and operator of this website. By visiting  <a href="{{ site.baseurl }}/">thinkshout.com</a>, you accept the practices described in this privacy and security statement. TS reserves the right to modify or amend this statement at any time and for any reason by posting such changes on this page.
 ---
 

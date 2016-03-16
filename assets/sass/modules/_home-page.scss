@@ -6,20 +6,28 @@
 
   // "Who We Are" teaser block
   .who-we-are {
-    background: url('../images/ts_redesign/home_hero.jpg') left top;
-    background-size: cover;
-    height: 100%;
+    margin-bottom: -1px;
     padding: 2rem 0;
     position: relative;
-    width: 100%;
-    z-index: 1;
 
     @include mq(lt) { padding: 4rem 0; }
     @include mq(md) { padding: 8rem 0; }
     @include mq(l) { padding: 13rem 0; }
 
     &:after {
-      @extend %dotted-overlay;
+      background: url('../images/ts_redesign/home_hero.jpg') left top no-repeat;
+      background-size: cover;
+      content: "";
+      display: block;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: -1;
+
+      @include mq(m) { opacity: 0.3; }
+      @include mq(p) { opacity: 0.3; }
     }
 
     .who-we-are-text {
@@ -56,12 +64,13 @@
 
   // Featured Case Study
   .featured-case-study {
-    background: url('../images/ts_redesign/splc.png') center center;
+    background: url('../images/ts_redesign/case-studies/splc-main/header1.jpg') center center;
     background-size: cover;
     height: 100%;
     padding: 5rem 0 10rem 0;
     position: relative;
     width: 100%;
+    cursor: pointer;
 
     &:hover {
       opacity: 0.9;
@@ -211,7 +220,7 @@
     }
 
     .case-study-text {
-      top: 16rem;
+      top: 15rem;
       position: absolute;
       @include transition(0.5s transform ease-in-out);
 
@@ -227,6 +236,7 @@
 
     h2 {
       font-size: rem(26);
+      padding-bottom: 1rem;
     }
 
     p {

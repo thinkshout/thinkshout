@@ -1,13 +1,9 @@
 .team .team-member {
-  display: inline-block;
+  display: block;
   float: left;
   margin-bottom: 3.2rem;
   width: 25%;
   text-align: center;
-
-  &:last-of-type {
-    clear: left;
-  }
 
   &:hover {
     img {
@@ -40,7 +36,7 @@
 
   p {
     color: $midgray;
-    font-size: rem(15);
+    font-size: rem(12);
     margin: 0;
   }
 }

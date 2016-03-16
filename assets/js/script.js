@@ -109,4 +109,10 @@
      }
   });
 
+  // Add hotspot for featured case study
+  var featuredCSLink = $('.featured-case-study').find('a').attr('href');
+  $('.featured-case-study').click(function() {
+    window.location = featuredCSLink;
+  });
+
 })(jQuery);

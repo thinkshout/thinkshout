@@ -18,25 +18,22 @@ main-menu:
     url: /blog/
 
 secondary:
-  - title: Who We Are
-    url: /about/
+  - title: Strategy & Metrics
+    url: /expertise/content-strategy/
 
-  - title: Meet the Team
-    url: /team/
+  - title: Design & UX
+    url: /expertise/design/
 
-  - title: What We Do
-    url: /expertise/
+  - title: CRM & Engagement Tools
+    url: /expertise/engagement-tools/
 
-  - title: Our Work
-    url: /work/
-
-  - title: Connect With Us
-    url: /contact/
+  - title: Development
+    url: /expertise/development/
 
   - title: Careers
     url: /careers/
 
-  - title: Privacy policy
+  - title: Privacy Policy
     url: /privacy/
 
 social-media:
