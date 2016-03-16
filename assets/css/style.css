@@ -4638,10 +4638,13 @@ footer {
     color: #f58546; }
   @media (max-width: 480px) {
     footer {
+      height: auto;
+      padding-bottom: 7rem;
       padding-top: 2rem; } }
   @media (min-width: 481px) and (max-width: 979px) {
     footer {
-      height: 500px;
+      height: auto;
+      padding-bottom: 7rem;
       padding-top: 2rem; } }
   footer ul {
     padding-left: 0; }
@@ -4659,6 +4662,7 @@ footer {
         line-height: 1.75; } }
     @media (min-width: 481px) and (max-width: 979px) {
       footer li {
+        display: list-item;
         font-size: 1.5rem; } }
     footer li:hover {
       text-decoration: underline; }
@@ -6377,6 +6381,14 @@ header {
     .our-values-block .row:last-child {
       margin-right: 0; }
     @media (max-width: 480px) {
+      .our-values-block .row {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .our-values-block .row:last-child {
+          margin-right: 0; } }
+    @media (min-width: 481px) and (max-width: 979px) {
       .our-values-block .row {
         float: left;
         display: block;

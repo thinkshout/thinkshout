@@ -19,6 +19,7 @@ tags:
   - "Peer-to-peer fundraising"
   - Drupal Planet
   - Drupal fundraising
+  - Open Source
 date: 2015-08-13 15:00:00
 ---
 ### The Origin of RedHen Raiser
