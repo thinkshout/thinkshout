@@ -220,7 +220,7 @@
     }
 
     .case-study-text {
-      top: 16rem;
+      top: 15rem;
       position: absolute;
       @include transition(0.5s transform ease-in-out);
 
@@ -236,6 +236,7 @@
 
     h2 {
       font-size: rem(26);
+      padding-bottom: 1rem;
     }
 
     p {

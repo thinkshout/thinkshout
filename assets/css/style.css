@@ -5090,7 +5090,7 @@ header {
         .front .three-case-studies #case-study4 {
           width: 100%; } }
     .front .three-case-studies .case-study-text {
-      top: 16rem;
+      top: 15rem;
       position: absolute;
       -webkit-transition: 0.5s transform ease-in-out;
       -moz-transition: 0.5s transform ease-in-out;
@@ -5106,7 +5106,8 @@ header {
       color: #fff;
       z-index: 1; }
     .front .three-case-studies h2 {
-      font-size: 1.625rem; }
+      font-size: 1.625rem;
+      padding-bottom: 1rem; }
     .front .three-case-studies p {
       font-size: 0.875rem; }
   .front .blog-teaser {
