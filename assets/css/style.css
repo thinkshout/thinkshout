@@ -2640,7 +2640,8 @@ a:visited {
   line-height: 1.75rem;
   margin: 2rem auto;
   padding: 1rem 3rem;
-  text-align: center; }
+  text-align: center;
+  clear: left; }
   .blog-post .body .tags .tag-label {
     color: #292929;
     font-size: 0.8125rem;
@@ -2659,51 +2660,70 @@ a:visited {
   color: #f1f1f1; }
 .blog-post .body .blog-cta {
   background-color: #dbdcde;
-  display: block;
-  margin: 2rem auto;
+  line-height: 0;
+  overflow: hidden;
   padding: 0; }
+  .blog-post .body .blog-cta .text {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 57.35098%;
+    padding: 1rem 2rem; }
+    .blog-post .body .blog-cta .text:last-child {
+      margin-right: 0; }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .blog-post .body .blog-cta .text {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        padding: 1rem; }
+        .blog-post .body .blog-cta .text:last-child {
+          margin-right: 0; } }
+    @media (max-width: 480px) {
+      .blog-post .body .blog-cta .text {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        padding: 1rem; }
+        .blog-post .body .blog-cta .text:last-child {
+          margin-right: 0; } }
+  .blog-post .body .blog-cta .image {
+    background: #f26d21;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%; }
+    .blog-post .body .blog-cta .image:last-child {
+      margin-right: 0; }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .blog-post .body .blog-cta .image {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .blog-post .body .blog-cta .image:last-child {
+          margin-right: 0; } }
+    @media (max-width: 480px) {
+      .blog-post .body .blog-cta .image {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .blog-post .body .blog-cta .image:last-child {
+          margin-right: 0; } }
   .blog-post .body .blog-cta img {
-    display: none;
-    margin-left: 2rem; }
-    @media (min-width: 980px) and (max-width: 1199px) {
-      .blog-post .body .blog-cta img {
-        display: block;
-        float: right; } }
-    @media (min-width: 1200px) {
-      .blog-post .body .blog-cta img {
-        display: block;
-        float: right; } }
+    width: 100%; }
   .blog-post .body .blog-cta h3, .blog-post .body .blog-cta p, .blog-post .body .blog-cta a.uppercase-link {
     color: #3f3f41;
-    margin: 1rem 1rem 1rem 1rem;
     padding: 0;
     width: auto; }
-    @media (min-width: 671px) and (max-width: 979px) {
-      .blog-post .body .blog-cta h3, .blog-post .body .blog-cta p, .blog-post .body .blog-cta a.uppercase-link {
-        margin: 1rem 2rem 2rem 3rem; } }
-    @media (min-width: 980px) and (max-width: 1199px) {
-      .blog-post .body .blog-cta h3, .blog-post .body .blog-cta p, .blog-post .body .blog-cta a.uppercase-link {
-        margin: 1rem 2rem 2rem 3rem; } }
-    @media (min-width: 1200px) {
-      .blog-post .body .blog-cta h3, .blog-post .body .blog-cta p, .blog-post .body .blog-cta a.uppercase-link {
-        margin: 1rem 2rem 2rem 3rem; } }
   .blog-post .body .blog-cta h3 {
     clear: both;
     font-size: 1.375rem;
     font-weight: 700;
     margin-top: 1rem; }
-    @media (min-width: 671px) and (max-width: 979px) {
-      .blog-post .body .blog-cta h3 {
-        clear: none;
-        margin-top: 2rem; } }
-    @media (min-width: 980px) and (max-width: 1199px) {
-      .blog-post .body .blog-cta h3 {
-        clear: none;
-        margin-top: 2.5rem; } }
-    @media (min-width: 1200px) {
-      .blog-post .body .blog-cta h3 {
-        clear: none;
-        margin-top: 3rem; } }
   .blog-post .body .blog-cta a.uppercase-link {
     color: #3f3f41;
     display: block; }
@@ -6361,6 +6381,14 @@ header {
     .our-values-block .row:last-child {
       margin-right: 0; }
     @media (max-width: 480px) {
+      .our-values-block .row {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .our-values-block .row:last-child {
+          margin-right: 0; } }
+    @media (min-width: 481px) and (max-width: 979px) {
       .our-values-block .row {
         float: left;
         display: block;

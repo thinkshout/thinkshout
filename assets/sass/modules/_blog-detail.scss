@@ -248,6 +248,7 @@
     margin: 2rem auto;
     padding: 1rem 3rem;
     text-align: center;
+    clear: left;
     .tag-label {
       color: $darkergray;
       font-size: rem(13);
@@ -270,32 +271,52 @@
 
   .body .blog-cta {
     background-color: $ltgray;
-    display: block;
-    margin: 2rem auto;
+    line-height: 0;
+    overflow: hidden;
     padding: 0;
-    img {
-      display: none;
-      margin-left: 2rem;
-      @include mq(md) { display: block; float: right; }
-      @include mq(l)  { display: block; float: right; }
+
+    .text {
+      @include span-columns(7);
+      padding: 1rem 2rem;
+
+      @include mq(t) {
+        @include span-columns(12);
+        padding: 1rem;
+      }
+
+      @include mq(m) {
+        @include span-columns(12);
+        padding: 1rem;
+      }
     }
+
+    .image {
+      background: $orange;
+      @include span-columns(5);
+
+      @include mq(t) {
+        @include span-columns(12);
+      }
+
+      @include mq(m) {
+        @include span-columns(12);
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+
     h3, p, a.uppercase-link {
       color: darken($darkgray,10%);
-      margin: 1rem 1rem 1rem 1rem;
       padding: 0;
       width: auto;
-      @include mq(lt) { margin: 1rem 2rem 2rem 3rem; }
-      @include mq(md) { margin: 1rem 2rem 2rem 3rem; }
-      @include mq(l)  { margin: 1rem 2rem 2rem 3rem; }
     }
     h3 {
       clear: both;
       font-size: rem(22);
       font-weight: 700;
       margin-top: 1rem;
-      @include mq(lt) { clear: none; margin-top: 2rem; }
-      @include mq(md) { clear: none; margin-top: 2.5rem; }
-      @include mq(l)  { clear: none; margin-top: 3rem; }
     }
     a.uppercase-link {
       color: darken($darkgray,10%);
