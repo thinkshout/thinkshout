@@ -47,7 +47,7 @@ cs-sections:
     section-image-caption: "We kicked off the project with a 2-day onsite discovery engagement with the SPLC team"
 
   - section-description: |
-      Content is at the heart of ThinkShout’s discovery and development methodologies. When content is organized according to internal business structures, site visitors must first learn the language of the organization. This imposes a significant roadblock between them and the information they’re seeking. 
+      Content is at the heart of ThinkShout’s discovery and development methodologies. When content is organized according to internal business structures, site visitors must first learn the language of the organization. This imposes a significant roadblock between them and the information they’re seeking.
 
       We worked with the SPLC to put content strategy first, which in reality put their audiences first. This key step helped maintain – and build – the SPLC’s reputation as a trusted and valuable source of information amongst supporters, donors, consumers, and other stakeholders. The information architecture and organization of the site flowed naturally from there.
 
@@ -69,7 +69,7 @@ cs-sections:
 
   - section-title: "Digital Journalism"
     section-description: |
-      The sheer volume of content produced by the SPLC presented an organizational challenge. On the previous site, content was largely grouped by type, so an article from the [Intelligence Report](https://www.splcenter.org/intelligence-report) about the standoff with Ammon Bundy in Nevada often had no connection to a news story about the latest events. 
+      The sheer volume of content produced by the SPLC presented an organizational challenge. On the previous site, content was largely grouped by type, so an article from the [Intelligence Report](https://www.splcenter.org/intelligence-report) about the standoff with Ammon Bundy in Nevada often had no connection to a news story about the latest events.
 
       We worked with the SPLC to improve their taxonomies so that we could pull related content together, regardless of its structure, and introduced faceted search features that allowed users to quickly step down to just the content of interest to them, instead of making them dig 10 layers deep.
 
@@ -84,7 +84,7 @@ cs-sections:
 
   - section-title: "Infrastructure"
     section-description: |
-      The complicated and fragile infrastructure of the old site was re-engineered with three key requirements in mind: stability, security, and simplicity. 
+      The complicated and fragile infrastructure of the old site was re-engineered with three key requirements in mind: stability, security, and simplicity.
 
       Pantheon was selected to provide the core hosting platform due to its track record of stability and developer/workflow tools that enabled rapid development with minimal infrastructure distractions. Detailed load testing showed the site fully capable of handling traffic in excess of five times their historical peaks.
 
@@ -95,7 +95,7 @@ cs-sections:
     section-description: |
       In the end, the new SPLC flagship site is not simply streamlined, beautiful, and performant, it’s effective in furthering the mission of the SPLC by helping them tell the powerful stories we all need to hear.
 
-      Since the site launched, traffic has increased more than 60% year-over-year – and more than 130% for mobile devices. Visitors are staying longer, and importantly, providing more support online: donations through the website are up more than 20%, with a 40% increase from mobile devices.
+      Since the site launched, traffic has increased more than 60% year-over-year – and more than 130% for mobile devices. Visitors are staying longer, and importantly, providing more support online: donations through the website are up significantly, as well.
 
       The combination of a solidly built Drupal site, hosted with Pantheon, and CloudFlare as a CDN and security layer has allowed the SPLC to withstand both dramatic spikes in legitimate traffic and countless attacks. The launch of the updated Hate Map saw traffic to just that section of the site spike over 20 times the historical averages with no impact or additional needs placed on the underlying infrastructure.
 
