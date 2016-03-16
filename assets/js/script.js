@@ -53,26 +53,32 @@
 
   // Blog posts
   $('.post').matchHeight();
+  // Center single blog post
   var numberOfPost = $('.team-member-blog .post').length;
-
-  if (numberOfPost === 1) {
-    $('.team-member-blog .post').addClass('single-center');
+  if (numberOfPost === 1 || numberOfPost % 3 === 1) {
+    $('.team-member-blog .post:last-child').addClass('single-center');
   }
-  // $('.blogs-toggle').click(function() {
-  //   $('.post:nth-child(-n+3)').css({ display: "none" });
-  //   $('.post').slideToggle(800);
-  //   $('.post').css({ display: "inline-block"});
-  //
-  //   $('body, html').animate({
-  //     scrollTop: $('.team-member-blog' ).offset().top - 70
-  //   }, 800, function() {
-  //   // Animation complete.
-  //     $('.post').matchHeight();
-  //   });
-  //
-  //   $('.see-all-blogs').toggle();
-  //   $('.view-less-blogs').toggle();
-  // });
+
+  // Hide blogs greater than 3
+  $('.team-member-blog .post:gt(2)').addClass('reveal');
+
+  $('.see-all-blogs, .view-less-blogs').click(function() {
+    $('.post.reveal').fadeToggle();
+    $('body, html').animate({
+        scrollTop: $('.team-member-blog' ).offset().top - 70
+      }, 500, function() {
+        // Animation complete.
+        $('.post').matchHeight();
+    });
+
+    if ($('.view-less-blogs:visible').length < 1) {
+        $('.view-less-blogs').fadeIn();
+        $('.see-all-blogs').hide();
+    } else {
+      $('.see-all-blogs').fadeIn();
+      $('.view-less-blogs').hide();
+    }
+  });
 
   // Blog Type selector
   var blogType = window.location.pathname.replace(/^\/|\/$/g, '').split('/').pop();

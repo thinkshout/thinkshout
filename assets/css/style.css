@@ -3052,6 +3052,8 @@ a {
   @media (min-width: 481px) and (max-width: 979px) {
     .team-member-blog .post.single-center {
       margin-left: 25.58941%; } }
+  .team-member-blog .post.reveal {
+    display: none; }
   .team-member-blog h3:hover {
     text-decoration: underline; }
   .team-member-blog h4,
