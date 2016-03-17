@@ -18,9 +18,13 @@
     @include mq(m) { @include span-columns(12); }
     @include mq(t) { @include span-columns(6); @include omega(3n); }
 
-    h2 {
+  h2 {
+    color: $darkgray;
+    font-size: rem(22);
+  }
+
+  a h2 {
       color: $orange;
-      font-size: rem(22);
 
       &:hover {
         text-decoration: underline;

@@ -5538,9 +5538,11 @@ header {
         .our-expertise .our-expertise-block:nth-child(3n+1) {
           clear: left; } }
     .our-expertise .our-expertise-block h2 {
-      color: #f26d21;
+      color: #58585b;
       font-size: 1.375rem; }
-      .our-expertise .our-expertise-block h2:hover {
+    .our-expertise .our-expertise-block a h2 {
+      color: #f26d21; }
+      .our-expertise .our-expertise-block a h2:hover {
         text-decoration: underline; }
     .our-expertise .our-expertise-block p {
       color: #58585b; }
