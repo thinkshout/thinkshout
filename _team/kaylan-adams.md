@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Kaylan
 last_name: Adams
-position: Project Manager
+position: Interim Lead Project Manager
 leadin: |
   Kaylan is a natural storyteller and problem-solver. She genuinely loves the nature of project management and few things are quite as satisfying to her as seeing our clients’ projects to completion. That love is only rivaled by her passion for fairy tales - the scary kind.
 social:
