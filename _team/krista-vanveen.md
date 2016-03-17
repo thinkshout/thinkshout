@@ -4,7 +4,7 @@ first_name: Krista
 last_name: Van Veen
 position: Manager of Culture and People
 leadin: |
-  With a natural affinity for establishing operations procedures and a love for tech firms, Krista couldn’t feel more at home as the Operations Manager at ThinkShout. She loves solving complex organizational problems, almost as much as she loves her chickens.
+  With a natural affinity for establishing operations procedures and a love for tech firms, Krista couldn’t feel more at home as at ThinkShout. She loves solving complex organizational problems, almost as much as she loves her chickens.
 social:
   github:
   twitter: https://twitter.com/KristaVanVeen
