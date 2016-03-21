@@ -30,7 +30,7 @@
 - sector: Environment
   clients:
     - name: Baltimore Harborkeeper
-    - name: EcoTrust
+    - name: Ecotrust
     - name: Environmental Defense Fund
     - name: The Intertwine Alliance
     - name: Izaak Walton League of America
