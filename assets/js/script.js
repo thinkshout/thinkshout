@@ -88,8 +88,8 @@
     blogType = '/blog/topic/' + blogType;
   }
 
-  $('#blog-filter').chosen({ disable_search: true })
-    .val(blogType).trigger("chosen:updated")
+  $('#blog-filter')
+    .val(blogType)
     .change(function(evt, params) {
       if (params === undefined || params.selected === undefined) {
          window.location.replace($(this).val())
@@ -101,6 +101,10 @@
         }
       }
     });
+
+  if ($(window).width() >= 960) {
+    $('#blog-filter').chosen({disable_search: true});
+  }
 
   $('.case-study a, .blog-post a').each(function() {
      var a = new RegExp('/' + window.location.host + '/');
