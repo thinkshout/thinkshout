@@ -16,7 +16,7 @@ date: 2016-03-31 14:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 topic: culture
 ---
-While any of you were on spring break, working on your tans… we spent our spring break in San Jose. We weren’t catching rays and surfing. We were there for the [Nonprofit Technology Conference](http://www.nten.org/ntc/) (NTC) surfing through oodles of great content and meeting many amazing people working for worthy causes.
+While many of you were on spring break, working on your tans… we spent our spring break in San Jose. We weren’t catching rays and surfing. We were there for the [Nonprofit Technology Conference](http://www.nten.org/ntc/) (NTC) surfing through oodles of great content and meeting many amazing people working for worthy causes.
 
 For the uninitiated, the NTC is an annual conference that brings together roughly 2,000 nonprofit professionals from around the world (I met someone who flew in from India to attend). It is, without question, the banner technology event of the year if you’re in this field. Not only do the sessions (of which there were *over 100*) spark conversations, collaboration, and change, but they also explore the latest and greatest strategies and technologies available out there to help all of these worthy causes achieve their goals.
 
