@@ -1,96 +1,51 @@
 ---
 # LAYOUT DATA
 layout: case_study
-body-class: case-study template
-active: FALSE
+body-class: case-study giving-forum
+active: true
 order: 10
 featured: false
-published: false
 # END LAYOUT DATA
 
-title:
-cs-class: ""
+title: "The Forum of Regional Associations of Grantmakers"
+cs-class: "giving-forum"
 
 cs-preview:
-  image: /assets/images/
-  type:
-  client:
-  description:
+  image: /assets/images/work/givingforum/givingforum-card.jpg
+  type: "Responsive Drupal Site"
+  client: "Giving Forum"
+  description: |
+    The Forum of Regional Associations of Grantmakers is a national network comprised of thirty-four geographically-based professional associations with staff sizes ranging from one to twenty plus. Seventeen of these associations share a similar technology platform. The Forum wanted to transition to a more open and flexible system rather than maintain this highly-custom content management solution. That’s where ThinkShout came in. After careful consideration, we ultimately recommended Pantheon One -- the only solution that allows a network of nonprofits to roll out a custom-built shared Drupal distribution -- as a platform.
 
 cs-header:
-  header-image: /assets/images/
-  client:
-  title:
+  header-image: /assets/images/work/givingforum/givingforum-card.jpg
+  client: "Giving Forum"
+  title: "The Forum of Regional Associations of Grantmakers"
 
 cs-intro:
-  type:
-  mission:
-  link-text:
-  link-url:
+  type: "Responsive Drupal Site"
+  mission: "The Forum of Regional Associations of Grantmakers is a national network that facilitates effective philanthropy that strengthens communities and improves lives throughout the United States."
   text: |
+    The Forum of Regional Associations of Grantmakers is a national network comprised of thirty-four geographically-based professional associations with staff sizes ranging from one to twenty plus. Seventeen of these associations share a similar technology platform. The Forum wanted to transition to a more open and flexible system rather than maintain this highly-custom content management solution. That’s where ThinkShout came in. After careful consideration, we ultimately recommended Pantheon One -- the only solution that allows a network of nonprofits to roll out a custom-built shared Drupal distribution -- as a platform.
 
 cs-sections:
-  - section-image: "/assets/images/"
-    section-image-alt: ""
-    section-image-full: false
-    section-image-right: false
-
-  - section-title: ""
+  - section-title: "Discovery"
     section-description: |
-
-
-cs-cta-text: Launch Site
-cs-cta-url:
-
----
-
-
-
-
-layout: project
-shortname: Giving Forum
-title: The Forum of Regional Associations of Grantmakers
-permalink: work/giving-forum/
-images:
-  card: work/givingforum/givingforum-card.jpg
-  hero: work/givingforum/lac-iphone-in-environment.jpg
-breakpoints:
-  desktop:
-  tablet:
-  mobile:
-client: |
-  The Forum of Regional Associations of Grantmakers is a national network comprised of thirty-four geographically-based professional associations with staff sizes ranging from one to twenty plus. Seventeen of these associations share a similar technology platform. The Forum wanted to transition to a more open and flexible system rather than maintain this highly-custom content management solution. That’s where ThinkShout came in. After careful consideration, we ultimately recommended Pantheon One -- the only solution that allows a network of nonprofits to roll out a custom-built shared Drupal distribution -- as a platform.
-projecturl: http://www.salmonproject.org
-expertise: |
-  - User Experience
-  - CRM Integration
-  - Content Strategy
-
-components:
-  - title: Discovery
-    column1:
-    column2: |
       We initially considered using a multisite approach to host the seventeen sites, but were concerned about the customization and update difficulties we’d face with that platform. In the end, Pantheon One won out.
-  - title: Strategy
-    column1: |
+
+  - section-title: "Strategy"
+    section-description: |
       By building a robust Drupal distribution that each site could use, every member started off with the same tools for uniformity and ease of use. This not only cut down on cost, but still allowed for expansion if the association or individual members ever needed more advanced utilities. Lastly, we also introduced a brand new version of the Salesforce integration suite, which allowed for seamless, quick updates.
-    column2:
-  - title: Implementation
-    column1:
-    column2: |
+
+  - section-title: "Implementation"
+    section-description: |
       The Forum needed to make frequent, simultaneous updates across all of their sites, so we needed to go with a toolset that would allow for quick changes with minimal downtime. Each participating organization had the capability to customize the look and feel of their site while being empowered to make changes and updates according to their own timeline.
-results:
-  stats:
-    - number:
-      description:
-      type:
-    - number:
-      description:
-      type:
-    - number:
-      description:
-      type:
-  narrative:
-featured: true
-published: false
+
+  - section-title: "Groups Using the Distribution"
+    section-description: |
+      Here are a couple of groups associated with the Giving Forum who are using the distribution we built:
+
+      * [Philanthropy Northwest](https://philanthropynw.org/)
+      * [Council of Michigan Foundations](https://www.michiganfoundations.org/)  
+
 ---
