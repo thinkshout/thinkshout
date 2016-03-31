@@ -3327,6 +3327,7 @@ a:visited {
     left: 0;
     margin: 0 auto;
     max-width: 94%;
+    width: 94%;
     position: absolute;
     right: 0;
     z-index: 100; }
@@ -3407,7 +3408,8 @@ a:visited {
       .expertise .careers-header .wrapper,
       .expertise .case-study-header .wrapper,
       .expertise .expertise-header .wrapper {
-        max-width: 80%; }
+        max-width: 80%;
+        width: 80%; }
       .page-not-found .page-not-found-header .gradient,
       .page-not-found .careers-header .gradient,
       .page-not-found .case-study-header .gradient,
@@ -3495,7 +3497,8 @@ a:visited {
       .expertise .careers-header .wrapper,
       .expertise .case-study-header .wrapper,
       .expertise .expertise-header .wrapper {
-        max-width: 75%; }
+        max-width: 75%;
+        width: 75%; }
       .page-not-found .page-not-found-header .gradient,
       .page-not-found .careers-header .gradient,
       .page-not-found .case-study-header .gradient,
@@ -3583,7 +3586,8 @@ a:visited {
       .expertise .careers-header .wrapper,
       .expertise .case-study-header .wrapper,
       .expertise .expertise-header .wrapper {
-        max-width: 68%; }
+        max-width: 68%;
+        width: 68%; }
       .page-not-found .page-not-found-header .gradient,
       .page-not-found .careers-header .gradient,
       .page-not-found .case-study-header .gradient,
