@@ -5171,6 +5171,13 @@ header {
       @media (min-width: 481px) and (max-width: 979px) {
         .front .blog-teaser .featured-blog-post {
           width: 100%; } }
+      @media (min-width: 1440px) {
+        .front .blog-teaser .featured-blog-post .container {
+          max-width: 78%;
+          min-width: 842px;
+          padding-right: 112px;
+          margin: 0;
+          float: right; } }
       .front .blog-teaser .featured-blog-post h2 {
         font-size: 1.625rem;
         margin-bottom: 0; }
@@ -5202,6 +5209,9 @@ header {
         .front .blog-teaser .blog-menu {
           width: 100%;
           height: 350px; } }
+      @media (min-width: 1200px) {
+        .front .blog-teaser .blog-menu .container {
+          min-width: 540px; } }
       .front .blog-teaser .blog-menu ul {
         padding-top: 0.5rem;
         padding-left: 0; }
