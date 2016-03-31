@@ -24,15 +24,25 @@
 
     .gradient {
       background-image: linear-gradient( to right, rgba(40,40,40,0.8), rgba(40,40,40,0.5) );
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd000000', endColorstr='#00FFFFFF',GradientType=1 );
       height: 100%;
       left: 0;
       position: absolute;
       top: 0;
       width: 100%;
       z-index: 10;
-      @include mq(lt) { background-image: linear-gradient( to right, rgba(40,40,40,1), rgba(40,40,40,0.4) ) }
-      @include mq(md) { background-image: linear-gradient( to right, rgba(40,40,40,1), transparent 65% ) }
-      @include mq(l) { background-image: linear-gradient( to right, rgba(40,40,40,1), transparent 55% ) }
+      @include mq(lt) {
+        background-image: linear-gradient( to right, rgba(40,40,40,1), rgba(40,40,40,0.4) );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd000000', endColorstr='#00FFFFFF',GradientType=1 );
+      }
+      @include mq(md) {
+        background-image: linear-gradient( to right, rgba(40,40,40,1), transparent 65% );
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd000000', endColorstr='#00FFFFFF',GradientType=1 );
+      }
+      @include mq(l) {
+        background-image: linear-gradient( to right, rgba(40,40,40,1), transparent 55% );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd000000', endColorstr='#00FFFFFF',GradientType=1 );
+      }
     }
 
     .wrapper {
@@ -49,9 +59,19 @@
     &:nth-child(odd) {
       .gradient {
         background-image: linear-gradient( to left, rgba(40,40,40,0.8), rgba(40,40,40,0.5) );
-        @include mq(lt) { background-image: linear-gradient( to left, rgba(40,40,40,1), rgba(40,40,40,0.4) ); }
-        @include mq(md) { background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 65% ); }
-        @include mq(l) { background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 55% ); }
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
+        @include mq(lt) {
+          background-image: linear-gradient( to left, rgba(40,40,40,1), rgba(40,40,40,0.4) );
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
+        }
+        @include mq(md) {
+          background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 65% );
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
+        }
+        @include mq(l) {
+          background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 55% );
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
+        }
       }
       .wrapper {
         left: 0;

@@ -49,7 +49,7 @@ layout: default
   <div class="blog-cta">
     <div class="text">
       <h3>{{ cta.title }}</h3>
-      <p>{{ cta.description }}</p>
+      <p>{{ cta.description | markdownify }}</p>
       <a href="{{ site.baseurl }}{{ cta.link }}" class="uppercase-link">Learn More<i class="fa fa-caret-right"></i></a>
     </div>
 

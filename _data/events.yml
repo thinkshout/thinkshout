@@ -1,17 +1,4 @@
 # Upcoming events
-- title: Nonprofit Technology Conference
-  url: http://www.nten.org/ntc/
-  dates: March 23-25
-  location: San Jose, CA
-  description: |
-    With over 100 educational sessions, an exhibit hall highlighting the latest
-    nonprofit products and services, and networking events each day, the NTC is
-    an event you shouldn't miss. We’ll be presenting on user experience on
-    <a href="http://www.nten.org/session/if-i-only-had-a-framework-crafting-user-experiences-across-3rd-party-systems/" target="_blank">3rd party systems</a>
-    and <a href="http://www.nten.org/session/show-dont-tell-online-storytelling-through-digital-media/" target="_blank">digital storytelling</a>
-    this year. Want to chat with us in person about the work we do? Stop by
-    <a href="http://www.nten.org/ntc/at-the-ntc/exhibit-hall/" target="_blank">booth 715</a>!
-
 - title: DrupalCon New Orleans
   url: https://events.drupal.org/neworleans2016
   dates: May 9-13

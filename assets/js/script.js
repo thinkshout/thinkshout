@@ -88,8 +88,8 @@
     blogType = '/blog/topic/' + blogType;
   }
 
-  $('#blog-filter').chosen({ disable_search: true })
-    .val(blogType).trigger("chosen:updated")
+  $('#blog-filter')
+    .val(blogType)
     .change(function(evt, params) {
       if (params === undefined || params.selected === undefined) {
          window.location.replace($(this).val())
@@ -101,6 +101,10 @@
         }
       }
     });
+
+  if ($(window).width() >= 960) {
+    $('#blog-filter').chosen({disable_search: true});
+  }
 
   $('.case-study a, .blog-post a').each(function() {
      var a = new RegExp('/' + window.location.host + '/');
@@ -114,5 +118,44 @@
   $('.featured-case-study').click(function() {
     window.location = featuredCSLink;
   });
+
+
+  var isIE9OrBelow = function() {
+     return /MSIE\s/.test(navigator.userAgent) && parseFloat(navigator.appVersion.split("MSIE")[1]) < 10;
+  }
+
+  // placeholders for forms (IE9)
+  $(document).ready(function() {
+  if(isIE9OrBelow){
+    $("input").each(
+    function(){
+      var inputField = $(this);
+      if(inputField.val()=="" && inputField.attr("placeholder")!=""){
+
+        inputField.val(inputField.attr("placeholder"));
+
+        inputField.focus(function(){
+          if(inputField.val()==inputField.attr("placeholder")){ inputField.val(""); }
+        });
+
+        inputField.blur(function(){
+          if(inputField.val()==""){ inputField.val(inputField.attr("placeholder")); }
+        });
+
+        $(inputField).closest('form').submit(function(){
+          var form = $(this);
+          if(!form.hasClass('placeholderPending')){
+            $('input',this).each(function(){
+              var clearInput = $(this);
+              if(clearInput.val()==clearInput.attr("placeholder")){ clearInput.val(""); }
+            });
+            form.addClass('placeholderPending');
+          }
+        });
+      }
+    });
+  }
+  });
+
 
 })(jQuery);

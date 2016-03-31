@@ -135,7 +135,7 @@ header {
       @include mq(md) {
         color: $darkgray;
         margin: 0 0.7rem;
-        padding: rem(50) 0;
+        padding: rem(50) rem(5);
       }
 
       @include mq(l) {
@@ -155,7 +155,7 @@ header {
     .container {
       padding: 0 2rem 0 2rem;
     }
-    .main-menu li {      
+    .main-menu li {
       font-size: rem(14);
     }
     .main-menu a {
