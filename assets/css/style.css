@@ -4872,7 +4872,7 @@ header {
         header .main-menu a {
           color: #58585b;
           margin: 0 0.7rem;
-          padding: 3.125rem 0; } }
+          padding: 3.125rem 0.3125rem; } }
       @media (min-width: 1200px) {
         header .main-menu a {
           color: #58585b;
