@@ -1,26 +1,26 @@
 ---
 # LAYOUT DATA
 layout: case_study
-body-class: case-study wwf
-active: false
+body-class: case-study template
+active: FALSE
 order: 10
 featured: false
+published: false
 # END LAYOUT DATA
-
 
 title:
 cs-class: ""
 
 cs-preview:
-  image:
+  image: /assets/images/
   type:
   client:
   description:
 
 cs-header:
-  image:
+  header-image: /assets/images/
   client:
-  description:
+  title:
 
 cs-intro:
   type:
@@ -30,11 +30,20 @@ cs-intro:
   text: |
 
 cs-sections:
-  - section-image: ""
+  - section-image: "/assets/images/"
     section-image-alt: ""
+    section-image-full: false
+    section-image-right: false
 
   - section-title: ""
     section-description: |
+
+
+cs-cta-text: Launch Site
+cs-cta-url:
+
+---
+
 
 
 
@@ -71,7 +80,7 @@ components:
     column1: |
       This project gave us an opportunity to showcase Drupal’s strengths as a framework for building sophisticated web applications. Leveraging Drupal’s multilingual tools, we built the application to support English and Russian data translations. Integrating Drupal’s built-in reporting engine with the [Leaflet](https://drupal.org/project/leaflet/) and [Chart.js](http://www.chartjs.org/) libraries, we were able to rapidly develop interactive graphs and robust mapping interfaces.
     column2: work/fip/fip-implementation.jpg
-    background:  
+    background:
 results:
   stats:
     - number: 6

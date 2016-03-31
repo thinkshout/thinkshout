@@ -1,26 +1,26 @@
 ---
 # LAYOUT DATA
 layout: case_study
-body-class: case-study wwf
-active: false
+body-class: case-study template
+active: FALSE
 order: 10
 featured: false
+published: false
 # END LAYOUT DATA
-
 
 title:
 cs-class: ""
 
 cs-preview:
-  image:
+  image: /assets/images/
   type:
   client:
   description:
 
 cs-header:
-  image:
+  header-image: /assets/images/
   client:
-  description:
+  title:
 
 cs-intro:
   type:
@@ -30,11 +30,22 @@ cs-intro:
   text: |
 
 cs-sections:
-  - section-image: ""
+  - section-image: "/assets/images/"
     section-image-alt: ""
+    section-image-full: false
+    section-image-right: false
 
   - section-title: ""
     section-description: |
+
+
+cs-cta-text: Launch Site
+cs-cta-url:
+
+---
+
+
+
 
 
 layout: project
@@ -57,10 +68,10 @@ components:
   - title: Discovery
     column1:
     column2: |
-      The Intertwine needed to connect its constituents with the parks in its network, engagement being key in the process. There needed to be a way for park-goers to easily plan their adventures, tour routes, and learn more about the regions around them.  
+      The Intertwine needed to connect its constituents with the parks in its network, engagement being key in the process. There needed to be a way for park-goers to easily plan their adventures, tour routes, and learn more about the regions around them.
   - title: Strategy
     column1: |
-      Substance contributed a gorgeous design that really accentuated the parks’ themes. From there, we developed an interactive Leaflet map, which allowed site visitors to explore Intertwine from any device. We wanted to emphasize the beauty of the areas they sought to preserve with gorgeous image galleries and a collection of adventures comprised of parks and trails curated by the alliance.  
+      Substance contributed a gorgeous design that really accentuated the parks’ themes. From there, we developed an interactive Leaflet map, which allowed site visitors to explore Intertwine from any device. We wanted to emphasize the beauty of the areas they sought to preserve with gorgeous image galleries and a collection of adventures comprised of parks and trails curated by the alliance.
     column2:
   - title: Mapping
     column1:

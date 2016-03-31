@@ -1,9 +1,7 @@
-- image: /assets/images/ts_redesign/cta/ntc-team.jpg
-  title: Connect with us in San Jose at the 16NTC
+- image: /assets/images/ts_redesign/cta/drupalcon16.jpg
+  title: Meet the ThinkShout Team at DrupalCon New Orleans
   description: |
-    We love the Nonprofit Technology Conference. We’ll be presenting on user
-    experience on <a href="http://www.nten.org/session/if-i-only-had-a-framework-crafting-user-experiences-across-3rd-party-systems/" target="_blank">3rd party systems</a>
-    and <a href="http://www.nten.org/session/show-dont-tell-online-storytelling-through-digital-media/" target="_blank">digital storytelling</a>
-    this year. Want to chat with us in person about the work we do? Stop by
-    <a href="http://www.nten.org/ntc/at-the-ntc/exhibit-hall/" target="_blank">booth 715</a>!
-  link: http://www.nten.org/ntc/
+    Have a question about what's in store for our Drupal contributions? Want to
+    learn a little more about working at ThinkShout? Stop by booth 216 - we'd
+    love to chat! And be sure to check out our [UX session](https://events.drupal.org/neworleans2016/sessions/content-strategy-popular-culture).
+  link: https://events.drupal.org/neworleans2016

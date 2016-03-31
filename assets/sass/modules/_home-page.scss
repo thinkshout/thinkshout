@@ -71,7 +71,6 @@
     position: relative;
     width: 100%;
     cursor: pointer;
-
     &:hover {
       opacity: 0.9;
     }
@@ -79,15 +78,22 @@
     // Adding this for the preview / demo.
     .gradient {
       background-image: linear-gradient( to left, rgba(40,40,40,0.8), rgba(40,40,40,0.5) );
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
       height: 100%;
       left: 0;
       position: absolute;
       top: 0;
       width: 100%;
       z-index: 1;
-      @include mq(lt) { background-image: linear-gradient( to left, rgba(40,40,40,1), rgba(40,40,40,0.4) ) }
-      @include mq(md) { background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 65% ) }
-      @include mq(l) { background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 65% ) }
+      @include mq(lt) { background-image: linear-gradient( to left, rgba(40,40,40,1), rgba(40,40,40,0.4) );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
+      }
+      @include mq(md) { background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 65% );
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
+      }
+      @include mq(l) { background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 65% );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
+      }
     }
 
     .featured-case-study-text {
@@ -264,6 +270,17 @@
       @include mq(m) { width: 100%; }
       @include mq(t) { width: 100%; }
 
+      @media (min-width: 1440px) {
+        .container {
+          max-width: 78%;
+          min-width: 842px;
+          padding-right: 112px;
+          margin: 0;
+          float: right;
+        }
+      }
+
+
       h2 {
         font-size: rem(26);
         margin-bottom: 0;
@@ -307,6 +324,12 @@
 
       @include mq(m) { width: 100%; height: 375px}
       @include mq(t) { width: 100%; height: 350px}
+
+      @include mq(l) {
+        .container {
+          min-width: 540px;
+        }
+      }
 
       ul {
         padding-top: 0.5rem;

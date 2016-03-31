@@ -16,4 +16,59 @@
 	276113-101616-20160316
 */
 
-@font-face { font-family:"Gotham SSm A"; src: url('https://thinkshout.com/assets/fonts/435892/21DA3980EABDA7CF8.eot'); src: url('https://thinkshout.com/assets/fonts/435892/21DA3980EABDA7CF8.eot?#hco') format('embedded-opentype'); font-style:normal; font-weight:400; } @font-face { font-family:"Gotham SSm 4r"; src: url('https://thinkshout.com/assets/fonts/435892/21DA3980EABDA7CF8.eot'); src: url('https://thinkshout.com/assets/fonts/435892/21DA3980EABDA7CF8.eot?#hco') format('embedded-opentype'); font-style:normal; font-weight:400; } @font-face { font-family:"Gotham SSm A"; src: url('https://thinkshout.com/assets/fonts/435892/60EA8317DCB090DF9.eot'); src: url('https://thinkshout.com/assets/fonts/435892/60EA8317DCB090DF9.eot?#hco') format('embedded-opentype'); font-style:italic; font-weight:400; } @font-face { font-family:"Gotham SSm 4i"; src: url('https://thinkshout.com/assets/fonts/435892/60EA8317DCB090DF9.eot'); src: url('https://thinkshout.com/assets/fonts/435892/60EA8317DCB090DF9.eot?#hco') format('embedded-opentype'); font-style:italic; font-weight:400; } @font-face { font-family:"Gotham SSm A"; src: url('https://thinkshout.com/assets/fonts/435892/6EEEA8ABB7C774C65.eot'); src: url('https://thinkshout.com/assets/fonts/435892/6EEEA8ABB7C774C65.eot?#hco') format('embedded-opentype'); font-style:normal; font-weight:700; } @font-face { font-family:"Gotham SSm 7r"; src: url('https://thinkshout.com/assets/fonts/435892/6EEEA8ABB7C774C65.eot'); src: url('https://thinkshout.com/assets/fonts/435892/6EEEA8ABB7C774C65.eot?#hco') format('embedded-opentype'); font-style:normal; font-weight:700; } @font-face { font-family:"Gotham SSm A"; src: url('https://thinkshout.com/assets/fonts/435892/D28A0B221D612CEF9.eot'); src: url('https://thinkshout.com/assets/fonts/435892/D28A0B221D612CEF9.eot?#hco') format('embedded-opentype'); font-style:normal; font-weight:800; } @font-face { font-family:"Gotham SSm 8r"; src: url('https://thinkshout.com/assets/fonts/435892/D28A0B221D612CEF9.eot'); src: url('https://thinkshout.com/assets/fonts/435892/D28A0B221D612CEF9.eot?#hco') format('embedded-opentype'); font-style:normal; font-weight:800; } 
+@font-face {
+	font-family:"Gotham SSm A";
+	src: url('https://thinkshout.com/assets/fonts/435892/21DA3980EABDA7CF8.eot');
+	src: url('https://thinkshout.com/assets/fonts/435892/21DA3980EABDA7CF8.eot?#iefix') format('embedded-opentype');
+	font-style:normal;
+	font-weight:400;
+}
+@font-face {
+	font-family:"Gotham SSm 4r";
+	src: url('https://thinkshout.com/assets/fonts/435892/21DA3980EABDA7CF8.eot');
+	src: url('https://thinkshout.com/assets/fonts/435892/21DA3980EABDA7CF8.eot?#iefix') format('embedded-opentype');
+	font-style:normal;
+	font-weight:400;
+}
+@font-face {
+	font-family:"Gotham SSm A";
+	src: url('https://thinkshout.com/assets/fonts/435892/60EA8317DCB090DF9.eot');
+	src: url('https://thinkshout.com/assets/fonts/435892/60EA8317DCB090DF9.eot?#iefix') format('embedded-opentype');
+	font-style:italic;
+	font-weight:400;
+	}
+@font-face {
+	font-family:"Gotham SSm 4i";
+	src: url('https://thinkshout.com/assets/fonts/435892/60EA8317DCB090DF9.eot');
+	src: url('https://thinkshout.com/assets/fonts/435892/60EA8317DCB090DF9.eot?#iefix') format('embedded-opentype');
+	font-style:italic;
+	font-weight:400;
+}
+@font-face {
+	font-family:"Gotham SSm A";
+	src: url('https://thinkshout.com/assets/fonts/435892/6EEEA8ABB7C774C65.eot');
+	src: url('https://thinkshout.com/assets/fonts/435892/6EEEA8ABB7C774C65.eot?#iefix') format('embedded-opentype');
+	font-style:normal;
+	font-weight:700;
+}
+@font-face {
+	font-family:"Gotham SSm 7r";
+	src: url('https://thinkshout.com/assets/fonts/435892/6EEEA8ABB7C774C65.eot');
+	src: url('https://thinkshout.com/assets/fonts/435892/6EEEA8ABB7C774C65.eot?#iefix') format('embedded-opentype');
+	font-style:normal;
+	font-weight:700;
+}
+@font-face {
+	font-family:"Gotham SSm A";
+	src: url('https://thinkshout.com/assets/fonts/435892/D28A0B221D612CEF9.eot');
+	src: url('https://thinkshout.com/assets/fonts/435892/D28A0B221D612CEF9.eot?#iefix') format('embedded-opentype');
+	font-style:normal;
+	font-weight:800;
+}
+@font-face {
+	font-family:"Gotham SSm 8r";
+	src: url('https://thinkshout.com/assets/fonts/435892/D28A0B221D612CEF9.eot');
+	src: url('https://thinkshout.com/assets/fonts/435892/D28A0B221D612CEF9.eot?#iefix') format('embedded-opentype');
+	font-style:normal;
+	font-weight:800;
+}
