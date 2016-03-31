@@ -2029,7 +2029,7 @@ html {
   vertical-align: middle; }
 
 body {
-  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-family: "Gotham SSm A", "Gotham SSm B", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16px; }
 
 .main-content {
@@ -2798,17 +2798,20 @@ a:visited {
   width: 100%; }
   .blog-landing .featured-post .wrapper {
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaFFFFFF', endColorstr='#00ffffff',GradientType=1 );
     max-width: 100%;
     margin: 0 auto;
     padding: 2rem 1rem 1rem; }
     @media (min-width: 671px) and (max-width: 979px) {
       .blog-landing .featured-post .wrapper {
         padding: 4rem 1rem 2rem 2rem;
-        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0) 85%); } }
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0) 85%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaFFFFFF', endColorstr='#00ffffff',GradientType=1 ); } }
     @media (min-width: 980px) and (max-width: 1199px) {
       .blog-landing .featured-post .wrapper {
         padding: 8rem 1rem 3rem 2rem;
-        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0) 75%); } }
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0) 75%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaFFFFFF', endColorstr='#00ffffff',GradientType=1 ); } }
     @media (min-width: 1200px) {
       .blog-landing .featured-post .wrapper {
         padding: 10rem 0 2rem 0;
@@ -3297,6 +3300,7 @@ a:visited {
   .expertise .case-study-header .gradient,
   .expertise .expertise-header .gradient {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#DD000000',GradientType=0 );
     height: 100%;
     left: 0;
     position: absolute;
@@ -3420,7 +3424,8 @@ a:visited {
       .expertise .careers-header .gradient,
       .expertise .case-study-header .gradient,
       .expertise .expertise-header .gradient {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent 50%); }
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent 50%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#DD000000',GradientType=0 ); }
       .page-not-found .page-not-found-header h4,
       .page-not-found .careers-header h4,
       .page-not-found .case-study-header h4,
@@ -3507,7 +3512,8 @@ a:visited {
       .expertise .careers-header .gradient,
       .expertise .case-study-header .gradient,
       .expertise .expertise-header .gradient {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent 40%); }
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent 40%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#DD000000',GradientType=0 ); }
       .page-not-found .page-not-found-header h4,
       .page-not-found .careers-header h4,
       .page-not-found .case-study-header h4,
@@ -3594,7 +3600,8 @@ a:visited {
       .expertise .careers-header .gradient,
       .expertise .case-study-header .gradient,
       .expertise .expertise-header .gradient {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent 40%); }
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent 40%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#DD000000',GradientType=0 ); }
       .page-not-found .page-not-found-header h4,
       .page-not-found .careers-header h4,
       .page-not-found .case-study-header h4,
@@ -4964,6 +4971,7 @@ header {
       opacity: 0.9; }
     .front .featured-case-study .gradient {
       background-image: linear-gradient(to left, rgba(40, 40, 40, 0.8), rgba(40, 40, 40, 0.5));
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
       height: 100%;
       left: 0;
       position: absolute;
@@ -4972,13 +4980,16 @@ header {
       z-index: 1; }
       @media (min-width: 671px) and (max-width: 979px) {
         .front .featured-case-study .gradient {
-          background-image: linear-gradient(to left, #282828, rgba(40, 40, 40, 0.4)); } }
+          background-image: linear-gradient(to left, #282828, rgba(40, 40, 40, 0.4));
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 ); } }
       @media (min-width: 980px) and (max-width: 1199px) {
         .front .featured-case-study .gradient {
-          background-image: linear-gradient(to left, #282828, transparent 65%); } }
+          background-image: linear-gradient(to left, #282828, transparent 65%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 ); } }
       @media (min-width: 1200px) {
         .front .featured-case-study .gradient {
-          background-image: linear-gradient(to left, #282828, transparent 65%); } }
+          background-image: linear-gradient(to left, #282828, transparent 65%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 ); } }
     .front .featured-case-study .featured-case-study-text {
       text-align: center;
       position: relative;
@@ -5587,6 +5598,7 @@ header {
       min-height: 550px; } }
   .our-work .case-study-header .gradient {
     background-image: linear-gradient(to right, rgba(40, 40, 40, 0.8), rgba(40, 40, 40, 0.5));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd000000', endColorstr='#00FFFFFF',GradientType=1 );
     height: 100%;
     left: 0;
     position: absolute;
@@ -5595,13 +5607,16 @@ header {
     z-index: 10; }
     @media (min-width: 671px) and (max-width: 979px) {
       .our-work .case-study-header .gradient {
-        background-image: linear-gradient(to right, #282828, rgba(40, 40, 40, 0.4)); } }
+        background-image: linear-gradient(to right, #282828, rgba(40, 40, 40, 0.4));
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd000000', endColorstr='#00FFFFFF',GradientType=1 ); } }
     @media (min-width: 980px) and (max-width: 1199px) {
       .our-work .case-study-header .gradient {
-        background-image: linear-gradient(to right, #282828, transparent 65%); } }
+        background-image: linear-gradient(to right, #282828, transparent 65%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd000000', endColorstr='#00FFFFFF',GradientType=1 ); } }
     @media (min-width: 1200px) {
       .our-work .case-study-header .gradient {
-        background-image: linear-gradient(to right, #282828, transparent 55%); } }
+        background-image: linear-gradient(to right, #282828, transparent 55%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd000000', endColorstr='#00FFFFFF',GradientType=1 ); } }
   .our-work .case-study-header .wrapper {
     margin: 3% auto;
     max-width: 94%;
@@ -5622,16 +5637,20 @@ header {
         float: left;
         margin-left: 7%; } }
   .our-work .case-study-header:nth-child(odd) .gradient {
-    background-image: linear-gradient(to left, rgba(40, 40, 40, 0.8), rgba(40, 40, 40, 0.5)); }
+    background-image: linear-gradient(to left, rgba(40, 40, 40, 0.8), rgba(40, 40, 40, 0.5));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 ); }
     @media (min-width: 671px) and (max-width: 979px) {
       .our-work .case-study-header:nth-child(odd) .gradient {
-        background-image: linear-gradient(to left, #282828, rgba(40, 40, 40, 0.4)); } }
+        background-image: linear-gradient(to left, #282828, rgba(40, 40, 40, 0.4));
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 ); } }
     @media (min-width: 980px) and (max-width: 1199px) {
       .our-work .case-study-header:nth-child(odd) .gradient {
-        background-image: linear-gradient(to left, #282828, transparent 65%); } }
+        background-image: linear-gradient(to left, #282828, transparent 65%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 ); } }
     @media (min-width: 1200px) {
       .our-work .case-study-header:nth-child(odd) .gradient {
-        background-image: linear-gradient(to left, #282828, transparent 55%); } }
+        background-image: linear-gradient(to left, #282828, transparent 55%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 ); } }
   .our-work .case-study-header:nth-child(odd) .wrapper {
     left: 0;
     right: 0; }

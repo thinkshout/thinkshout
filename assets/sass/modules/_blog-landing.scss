@@ -13,16 +13,19 @@
 
     .wrapper {
       background-image: linear-gradient( to left, rgba(255,255,255,0.6), rgba(255,255,255,0.6) );
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaFFFFFF', endColorstr='#00ffffff',GradientType=1 );
       max-width: 100%;
       margin: 0 auto;
       padding: 2rem 1rem 1rem;
       @include mq(lt) {
         padding: 4rem 1rem 2rem 2rem;
         background-image: linear-gradient( to right, rgba(255,255,255,0.6), rgba(255,255,255,0.0) 85% );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaFFFFFF', endColorstr='#00ffffff',GradientType=1 );
       }
       @include mq(md) {
         padding: 8rem 1rem 3rem 2rem;
         background-image: linear-gradient( to right, rgba(255,255,255,0.6), rgba(255,255,255,0.0) 75% );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaFFFFFF', endColorstr='#00ffffff',GradientType=1 );
       }
       @include mq(l)  {
         padding: 10rem 0 2rem 0;

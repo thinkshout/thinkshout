@@ -24,6 +24,7 @@
 
     .gradient {
       background-image: linear-gradient( 0deg, rgba(0,0,0,0.8), transparent 80% );
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#DD000000',GradientType=0 );
       height: 100%;
       left: 0;
       position: absolute;
@@ -62,21 +63,30 @@
     @include mq(lt) {
       padding: 8rem 0;
       .wrapper { max-width: 80%; }
-      .gradient { background-image: linear-gradient( 0deg, rgba(0,0,0,0.8), transparent 50% ); }
+      .gradient {
+        background-image: linear-gradient( 0deg, rgba(0,0,0,0.8), transparent 50% );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#DD000000',GradientType=0 );
+      }
       h4 { font-size: 0.8rem; padding: rem(10); }
       h2 { font-size: 1.6rem; }
     }
     @include mq(md) {
       padding: 12rem 0;
       .wrapper { max-width: 75%; }
-      .gradient { background-image: linear-gradient( 0deg, rgba(0,0,0,0.8), transparent 40% ); }
+      .gradient {
+        background-image: linear-gradient( 0deg, rgba(0,0,0,0.8), transparent 40% );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#DD000000',GradientType=0 );
+      }
       h4 { font-size: 0.8rem; padding: rem(12); }
       h2 { font-size: 2rem; }
     }
     @include mq(l) {
       padding: 18rem 0;
       .wrapper { max-width: 68%; }
-      .gradient { background-image: linear-gradient( 0deg, rgba(0,0,0,0.8), transparent 40% ); }
+      .gradient {
+        background-image: linear-gradient( 0deg, rgba(0,0,0,0.8), transparent 40% );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#DD000000',GradientType=0 );
+      }
       h4 { font-size: 0.8rem; padding: rem(16); }
       h2 { font-size: 2.5rem; }
     }
