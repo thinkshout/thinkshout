@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-title: Meet ThinkShout at the 2016 Nonprofit Technology Conference
+title: Networking, Content Strategy, and Web Development at the 2016 NTC
 author: natania
 published: true
 featured: false
