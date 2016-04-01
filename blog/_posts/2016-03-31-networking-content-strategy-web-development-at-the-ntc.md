@@ -3,7 +3,7 @@ layout: blog
 body-class: blog-post
 title: Meet ThinkShout at the 2016 Nonprofit Technology Conference
 author: natania
-published: false
+published: true
 featured: false
 short: Our 2016 NTC takeaways
 tags:
@@ -12,7 +12,7 @@ tags:
   - Drupal Day
   - Events
   - NTC
-date: 2016-04-01 14:00:00
+date: 2016-04-01 11:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 topic: culture
 ---
