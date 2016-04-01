@@ -5,7 +5,7 @@ title: Meet ThinkShout at the 2016 Nonprofit Technology Conference
 author: natania
 published: true
 featured: false
-short: Our 2016 NTC takeaways
+short: Natania rounds up our 2016 NTC takeaways.
 tags:
   - Nonprofit Tech
   - Drupal Planet
