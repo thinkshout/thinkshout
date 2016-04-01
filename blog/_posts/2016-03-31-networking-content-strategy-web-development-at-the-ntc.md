@@ -12,7 +12,7 @@ tags:
   - Drupal Day
   - Events
   - NTC
-date: 2016-03-31 14:00:00
+date: 2016-04-01 14:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 topic: culture
 ---
