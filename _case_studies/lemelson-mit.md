@@ -3,8 +3,9 @@
 layout: case_study
 body-class: case-study lemelson
 active: false
+homepage: false
+published: true
 order: 10
-featured: false
 # END LAYOUT DATA
 
 title: The Lemelson-MIT Program

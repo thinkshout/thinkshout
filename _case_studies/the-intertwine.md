@@ -2,11 +2,10 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study interwine
-active: FALSE
-order: 10
-featured: false
+active: false
+homepage: false
 published: true
-permalink: work/the-interwine/
+order: 10
 # END LAYOUT DATA
 
 title: The Intertwine Alliance

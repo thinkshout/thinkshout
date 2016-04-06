@@ -3,8 +3,9 @@
 layout: case_study
 body-class: case-study ocean-outcomes
 active: true
+homepage: true
+published: true
 order: 3
-featured: true
 # END LAYOUT DATA
 
 title: Ocean Outcomes

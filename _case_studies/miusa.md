@@ -3,9 +3,9 @@
 layout: case_study
 body-class: case-study miusa
 active: false
-order: 10
-featured: false
+homepage: false
 published: true
+order: 10
 permalink: work/MIUSA/
 # END LAYOUT DATA
 

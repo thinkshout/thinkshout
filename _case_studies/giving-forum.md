@@ -3,8 +3,9 @@
 layout: case_study
 body-class: case-study giving-forum
 active: true
+homepage: false
+published: true
 order: 10
-featured: false
 # END LAYOUT DATA
 
 title: "The Forum of Regional Associations of Grantmakers"

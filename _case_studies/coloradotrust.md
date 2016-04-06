@@ -3,8 +3,9 @@
 layout: case_study
 body-class: case-study colorado-trust
 active: true
+homepage: true
+published: true
 order: 2
-featured: true
 # END LAYOUT DATA
 
 title: Colorado Trust

@@ -3,8 +3,9 @@
 layout: case_study
 body-class: case-study facing-history
 active: false
+homepage: false
+published: true
 order: 10
-featured: false
 # END LAYOUT DATA
 
 

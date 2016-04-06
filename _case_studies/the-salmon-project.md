@@ -3,8 +3,9 @@
 layout: case_study
 body-class: case-study the-salmon-project
 active: false
+homepage: false
+published: true
 order: 10
-featured: false
 # END LAYOUT DATA
 
 
