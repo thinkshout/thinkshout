@@ -3,7 +3,7 @@ layout: blog
 body-class: blog-post
 title: The Southern Poverty Law Center Nomated for a Webby
 author: stephanie
-published: false
+published: true
 featured: false
 short: Our redesign of the SPLC cite is up for a Webby!
 tags:
