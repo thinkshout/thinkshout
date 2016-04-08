@@ -28,6 +28,6 @@ The Webby’s are perhaps the most prestigious awards of their kind, and simply 
 
 This site is the outcome of countless hours of work and careful planning. We strove to build the SPLC a platform that would further their mission and protect them from the forces of hate that they combat every day, and together we’ve accomplished these goals. We believe that work speaks for itself on the new site, and we hope you’ll agree. From the Hate Map, which creates a highly accessible, albeit terrifying view of the rise of hate groups in the U.S., to the sheer volume of civil rights news and resources made readily available and searchable from the homepage. So we’re asking you to contribute your vote and show the world that the SPLC deserves the People’s Voice award.
 
-[Please take a moment to cast your vote for the Southern Poverty Law Center](https://pv.webbyawards.com/2016/websites/general-website/law). With the Webby’s your voice makes a difference, so vote and be heard!
+[Please take a moment to cast your vote for the Southern Poverty Law Center](https://pv.webbyawards.com/2016/websites/general-website/law). With the Webby’s, your voice makes a difference, so vote and be heard!
 
 
