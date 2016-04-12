@@ -3,8 +3,9 @@
 layout: case_study
 body-class: case-study giving-forum
 active: true
+homepage: false
+published: true
 order: 10
-featured: false
 # END LAYOUT DATA
 
 title: "The Forum of Regional Associations of Grantmakers"
@@ -15,7 +16,7 @@ cs-preview:
   type: "Responsive Drupal Site"
   client: "Giving Forum"
   description: |
-    The Forum of Regional Associations of Grantmakers is a national network comprised of thirty-four geographically-based professional associations with staff sizes ranging from one to twenty plus. Seventeen of these associations share a similar technology platform. The Forum wanted to transition to a more open and flexible system rather than maintain this highly-custom content management solution. That’s where ThinkShout came in. After careful consideration, we ultimately recommended Pantheon One -- the only solution that allows a network of nonprofits to roll out a custom-built shared Drupal distribution -- as a platform.
+    The Forum of Regional Associations of Grantmakers is a national network that facilitates effective philanthropy that strengthens communities and improves lives throughout the United States.
 
 cs-header:
   header-image: /assets/images/work/givingforum/givingforum-card.jpg

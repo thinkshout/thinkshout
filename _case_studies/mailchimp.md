@@ -2,10 +2,10 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study mailchimp
-active: FALSE
-order: 10
-featured: false
+active: false
+homepage: false
 published: true
+order: 10
 # END LAYOUT DATA
 
 title: The MailChimp Module for Drupal

@@ -2,10 +2,10 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study template
-active: FALSE
+active: false
+homepage: false
+published: true
 order: 10
-featured: false
-published: false
 # END LAYOUT DATA
 
 title: 
