@@ -17,7 +17,7 @@ tags:
 date: 2016-04-12 12:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 topic: culture
-header-image: /assets/images/blog/splc-header.jpg
+header-image: /assets/images/blog/trump.jpg
 header-image-alt: "Image: SPLC Header"
 ---
 
