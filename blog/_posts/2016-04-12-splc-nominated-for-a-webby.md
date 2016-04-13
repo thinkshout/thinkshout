@@ -4,7 +4,7 @@ body-class: blog-post
 title: The Southern Poverty Law Center Gets Nominated for a Webby
 author: stephanie
 published: true
-featured: false
+featured: true
 short: Our redesign of the SPLC cite is up for a Webby!
 tags:
   - Nonprofit Tech
@@ -16,6 +16,8 @@ tags:
 date: 2016-04-12 12:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 topic: culture
+header-image: /assets/images//blog/splc-hate-map.png
+header-image-alt: "Image: SPLC Hate Map"
 ---
 
 Have you heard the news? A ThinkShout-built site has been nominated for a [Webby](http://webbyawards.com/)! And yes, it’s a Drupal site.
