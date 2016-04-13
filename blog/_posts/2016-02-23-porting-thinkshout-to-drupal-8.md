@@ -2,10 +2,10 @@
 layout: blog
 body-class: blog-post
 title: Porting ThinkShout to Drupal 8
-homepage: true
+homepage: false
 author: gabe
 published: true
-featured: true
+featured: false
 short: Bringing our open source contributions to Drupal 8
 tags:
   - Drupal Planet
