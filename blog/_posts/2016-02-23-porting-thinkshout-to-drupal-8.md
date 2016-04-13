@@ -2,7 +2,7 @@
 layout: blog
 body-class: blog-post
 title: Porting ThinkShout to Drupal 8
-homepage: true
+homepage: false
 author: gabe
 published: true
 featured: true
