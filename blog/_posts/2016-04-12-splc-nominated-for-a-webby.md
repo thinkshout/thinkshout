@@ -6,7 +6,7 @@ author: stephanie
 homepage: true
 published: true
 featured: true
-short: Our redesign of the SPLC cite is up for a Webby!
+short: Our redesign of the SPLC site is up for a Webby!
 tags:
   - Nonprofit Tech
   - Drupal Planet
@@ -17,8 +17,8 @@ tags:
 date: 2016-04-12 12:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 topic: culture
-header-image: /assets/images/blog/splc-extremist-header.jpg
-header-image-alt: "Image: SPLC Extremism"
+header-image: /assets/images/blog/splc-header.jpg
+header-image-alt: "Image: SPLC Header"
 ---
 
 Have you heard the news? A ThinkShout-built site has been nominated for a [Webby](http://webbyawards.com/)! And yes, it’s a Drupal site.
