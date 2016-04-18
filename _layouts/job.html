@@ -15,7 +15,12 @@ layout: default
     <p class="job-details">{{ content }}</p>
 
     <div class="apply">
+      {% if page.mailto %}
       <a target="_blank" href="mailto:{{ page.mailto }}?subject=Applying for: {{ page.title }} at {{ site.name }}">Apply Now</a>
+      {% end %}
+      {% if page.joblink %}
+      <a target="_blank" href="{{ page.joblink }}">Apply Now</a>
+      {% end %}
     </div>
   </div>
 </div>
