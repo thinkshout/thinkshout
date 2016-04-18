@@ -6,58 +6,63 @@ joblink: https://www.fitzii.com/job/5535?s=fc
 blurb: Through research, the Sales Operations Manager will help ThinkShout identify new opportunities to provide cutting-edge web tools and strategy to the forward-thinking organizations we look to serve.
 active: true
 ---
-ThinkShout is a leading design, strategy, and web development team located in Portland, OR. We envision digital technology and strategy that creates positive change in the world. We craft compelling open source engagement solutions for forward-thinking organizations.
+If you could work for a company that offered only one of these options, which would you choose?
 
-We are seeking a Sales Operations Manager to join our Sales and Marketing team. This person will be responsible for research and coordination of tasks associated with ThinkShout’s sales efforts. Through research, the Sales Operations Manager will help ThinkShout identify new opportunities to provide cutting-edge web tools and strategy to the forward-thinking organizations we look to serve. This individual will facilitate ThinkShout’s introduction to new clients, as well as help us to close new business opportunities by coordinating the production of high-quality sales proposals and sales presentations.
+* A tech company that helps nonprofits leverage technology to work more effectively
+* A tech company that has competitive wages and a great work/life balance
+* A tech company with an amazing company culture
 
-## Success criteria
-1. The Sales Operations Manager will help increase ThinkShout’s overall revenues through the sale of new business and change order contracts.
-* The Sales Operations Manager will help us secure contracts for new strategy, design, and engineering services by coordinating our production and delivery of high quality sales proposals and presentations.
-* Coordinating with the Chief Operations Officer, the Sales Operations Manager will help us better align our opportunities pipeline with our capacity planning process to ensure a steady and reliable stream of project work.
-* The Sales Operations Manager will facilitate ThinkShout’s introduction to prospective clients and research and track down new project opportunities that align with our core service offerings.
-* The Sales Operations Manager will help increase ThinkShout’s profile in the nonprofit technology industry by supporting the Sales and Marketing team’s community engagement and outreach.
+What if there was a company that offered all three?
 
-## Specific responsibilities, broken down by category
-1. Sales operations management (35% time)
-    * The Sales Operations Manager will maintain all leads and opportunities in our CRM.
-    * The Sales Operations Manager will coordinate ThinkShout’s response to incoming web leads, as well as our follow-up with prospective clients met at conferences and events.
-    * The Sales Operations Manager will maintain our weekly and monthly pipeline forecasting reports, as well as generate more detailed sales reports as needed.
-    * The Sales Operations Manager will coordinate the production and delivery of sales proposals and presentations in pursuit of new opportunities.
-    * In collaboration with the Marketing Manager, the Sales Operations Manager will report on the effectiveness of specific sales and marketing campaigns (such as the NTC) in generating new business.
-    * The Sales Operations Manager will support the continual improvement of our sales process.
+We’re ThinkShout and we find creative and innovative ways to design and develop software that helps nonprofits and organizations promoting social good to fulfill their missions.
 
-2. Lead generation (35% time)
-    * The Sales Operations Manager will research and help identify prospective clients that ThinkShout should target in its business development efforts.
-    * The Sales Operations Manager will support the Marketing Manager in identifying new community engagement opportunities (such as conferences) where ThinkShout can meet with targeted clients. As appropriate, this individual will also attend these events to make connections on behalf of ThinkShout.
-    * The Sales Operations Manager will introduce ThinkShout to representatives of organizations with which our services offerings align with their business needs.
-    * The Sales Operations Manager will help ThinkShout stay informed about new RFP opportunities.
+We’re looking for a sales operation manager to help us expand our mission to help nonprofits and  organizations grow and succeed.
 
-3. Proposal and presentation development (30% time)
-    * The Sales Operations Manager will support the CSO and Strategy team in the preparation of sales proposals.
-    * The Sales Operations Manager will assist the team in the development of sales presentations, as well as other sales assets.
+## Sales Operations Manager
 
-## Position Requirements
-1. An obsessive attention to detail
-* Strong writing skills, excellent copyediting and proofing skills
-* Ability to juggle multiple deadlines and competing tasks
-* Experience administering a CRM
-* Familiarity with digital agency work and nonprofit technology
-* On occasion, the ability to sprint and push a little harder to meet proposal deadlines
-* Interest in meeting new people and occasional travel to represent the company
-* A positive and competitive spirit
-* An excitement for promoting ThinkShout’s mission, vision and values to prospective customers
-* Previous agency sales experience is a major plus, but not a requirement for the right candidate
+Your goal in this position is to grow ThinkShout’s overall impact and revenue in the nonprofit space. In your first three months, you’ll focus on mastering sales operations management, learning our ProsperWorks CRM, staying on top of our lead gen timelines, and assisting with proposal development. Once you’re excelling in these areas, you’ll focus on new business by dividing your time between:
 
-## Compensation Package
-* A competitive salary.
-* Comprehensive benefits package including health insurance with dental, vision, and alternative care, a matching 401k, life insurance, short term disability insurance, and a very generous 30 days of PTO, including holidays.
-* Get paid to learn and go to conferences, such as DrupalCon, OSCON, and the Nonprofit Technology Conference.
-* A focus on work/life balance, including a flexible office hours policy.
+* Sales Operations Management - maintaining leads and opportunities from the web and conferences through our CRM, generating reports, and refining our sales process
+* Lead Gen – identifying prospective clients, attending community engagement events, and finding new RFP opportunities
+* Proposal and Presentation Development – assisting the CSO and strategy team in the development and delivery of sales proposals
 
-## Next Steps
-Send us a cover letter focusing on why you're interested in a career at ThinkShout, a resume in PDF format or your LinkedIn profile, and as many of the following details as you can:
-* Any questions you might have for us here at ThinkShout.
+The best sales operation managers are:
+
+* Motivated – they’re inspired by the company’s vision and dive in to make an impact
+* Confident – they’re comfortable in face to face sales discussions and gain trust through great service
+* Compassionate – they understand the needs of their customers and how to best serve them
+
+You’ll love this job because of our culture and the opportunity you’ll have to work directly with good people making real change in the world. The team at ThinkShout values working together because we’ve created a supportive environment where we can share our expertise and learn from each other. You’ll appreciate and enjoy the work because you believe in the missions of the nonprofits and organizations we serve. The time you invest into the nonprofits we serve will have a significant impact locally, throughout the country and around the world. You’ll go home at night knowing you used energy and skills for something you can be proud of.
+
+## The Details
+
+This is a full-time position based in our peaceful office in downtown Portland, OR. We have a strong focus on work/life balance with a flexible office hours policy. This position may involve up to 15% travel, including opportunities to learn and attend conferences and onsite client meetings.
+
+The salary will range from $50k to $80k, depending on experience. On top of salary, we offer a comprehensive benefits package, including health insurance with dental, vision, and alternative care, a matching 401k, life insurance, short term disability insurance, and a very generous 30 days of PTO, including holidays.
+
+## About ThinkShout
+
+ThinkShout is a leading design, strategy, and web development team in Portland, OR. We envision digital technology and strategy that creates positive change in the world. We craft compelling open source engagement solutions for forward-thinking organizations 
+
+## Qualifications
+
+* Experience working in an agency sales role
+* Experience in a role administering a CRM (like Salesforce or Prosper Works)
+* Experience in a role preparing and delivering sales presentations to groups
+* Experience in a role requiring strong writing skills, excellent copyediting and proofing
+* Experience in a role selling to nonprofits (an asset)
+* Experience in a role collaborating with software developers
+
+## How to Apply
+
+Our online application will give you the option to apply to this role as a complete candidate – not just a resume. The application will assess your qualifications, personality traits and workplace preferences, and should take 10 to 15 minutes to complete. After submitting, you'll receive an email inviting you to log in and view your assessment results.
+
+We value diversity and inclusion and encourage all qualified people to apply. If we can make this easier through accommodation in the recruitment process, please contact us with the “Help” button in the application.
+
+Send us a cover letter focusing on why you’re interested in a career with ThinkShout, and as many of the following details as you can:
+
+* Any questions you might have for us.
 * An answer to this question: What nonprofit would you love to work with, and why? How would you go about connecting ThinkShout with the organization?
+ 
+We will review applications as they are received and look forward to hearing from you.
 
-## The Fine Print
-This is a full-time position based in our office in downtown Portland, OR. The Sales Operations Manager reports to the Chief Strategy Officer (CSO).  This position may involve up to 15% travel, including attendance at conferences and onsite client meetings.
