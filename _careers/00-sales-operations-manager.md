@@ -2,7 +2,7 @@
 layout: job
 title: Sales Operations Manager
 permalink: careers/sales-operations-manager/
-link: https://www.fitzii.com/job/5535?s=fc
+joblink: https://www.fitzii.com/job/5535?s=fc
 blurb: Through research, the Sales Operations Manager will help ThinkShout identify new opportunities to provide cutting-edge web tools and strategy to the forward-thinking organizations we look to serve.
 active: true
 ---

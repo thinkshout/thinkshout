@@ -9,7 +9,12 @@ layout: default
     </div>
 
     <div class="apply">
+      {% if page.mailto %}
       <a target="_blank" href="mailto:{{ page.mailto }}?subject=Applying for: {{ page.title }} at {{ site.name }}">Apply Now</a>
+      {% endif %}
+      {% if page.joblink %}
+      <a target="_blank" href="{{ page.joblink }}">Apply Now</a>
+      {% endif %}
     </div>
 
     <p class="job-details">{{ content }}</p>
@@ -17,10 +22,10 @@ layout: default
     <div class="apply">
       {% if page.mailto %}
       <a target="_blank" href="mailto:{{ page.mailto }}?subject=Applying for: {{ page.title }} at {{ site.name }}">Apply Now</a>
-      {% end %}
+      {% endif %}
       {% if page.joblink %}
       <a target="_blank" href="{{ page.joblink }}">Apply Now</a>
-      {% end %}
+      {% endif %}
     </div>
   </div>
 </div>
