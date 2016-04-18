@@ -20,7 +20,7 @@ We were recently asked by a client to A client recently requested that we edit t
 
 Prior to adding our custom code, the link to the contact form appears as a tab. 
 
-![Customize Menu 1](/assets/images/blog/customize-menu-1.png)
+![Customize Menu 1](/assets/images/blog/custom-menu-1.png)
 
 The "Contact" menu item starts out as a tab because the Drupal contact module originally creates the menu item and assigns it the type MENU_LOCAL_TASK. (See [Menu item types](https://api.drupal.org/api/drupal/includes!menu.inc/group/menu_item_types/7) for a list of the possible menu types and their uses in Drupal.) In order for us to change the type, we can use Drupal’s [hook_menu_alter()](https://api.drupal.org/api/drupal/modules%21system%21system.api.php/function/hook_menu_alter/7) function to change the item to the MENU_CALLBACK type, which will remove it from the display, but keep it available as a valid path. 
 
@@ -80,7 +80,7 @@ Now it is no longer a tab, but we still need make use of Drupal’s [hook_user_v
 
 After the custom code and a quick cache clear, the tab is gone and there is a link to the form within the body of the profile.
 
-![Customize Menu 2](/assets/images/blog/customize-menu-2.png)
+![Customize Menu 2](/assets/images/blog/custom-menu-2.png)
 
 I won’t go into creating a custom module inis beyond the scope of this post, but there is a tutorial for creating a custom module on drupal.org: [https://www.drupal.org/node/1074360](https://www.drupal.org/node/1074360) 
 
