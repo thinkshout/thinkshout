@@ -24,7 +24,7 @@ Prior to adding our custom code, the link to the contact form appears as a tab.
 
 The "Contact" menu item starts out as a tab because the Drupal contact module originally creates the menu item and assigns it the type MENU_LOCAL_TASK. (See [Menu item types](https://api.drupal.org/api/drupal/includes!menu.inc/group/menu_item_types/7) for a list of the possible menu types and their uses in Drupal.) In order for us to change the type, we can use Drupal’s [hook_menu_alter()](https://api.drupal.org/api/drupal/modules%21system%21system.api.php/function/hook_menu_alter/7) function to change the item to the MENU_CALLBACK type, which will remove it from the display, but keep it available as a valid path. 
 
-/**
+``` /**
 
  * Implements hook_menu_alter().
 
@@ -38,8 +38,11 @@ The "Contact" menu item starts out as a tab because the Drupal contact module or
 
 **}**
 
+```
+
 Now it is no longer a tab, but we still need make use of Drupal’s [hook_user_view_alter()](https://api.drupal.org/api/drupal/modules%21user%21user.api.php/function/hook_user_view_alter/7) to insert it into the content of the profile before it is rendered on the page.  
 
+```
 /**
 
  * Implements hook_user_view_alter().
@@ -77,6 +80,8 @@ Now it is no longer a tab, but we still need make use of Drupal’s [hook_user_v
 **  }**
 
 **}**
+
+```
 
 After the custom code and a quick cache clear, the tab is gone and there is a link to the form within the body of the profile.
 
