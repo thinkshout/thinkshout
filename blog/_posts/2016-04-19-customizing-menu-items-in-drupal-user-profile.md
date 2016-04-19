@@ -12,11 +12,12 @@ tags:
   - Drupal Planet
   - Drupal User Profile
   - Customize Menus
-date: 2016-04-18 15:00:00
+  - Drupal 7
+date: 2016-04-19 13:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
-We were recently asked by a client to A client recently requested that we edit the user profile view page on their site. This client needed us. We were asked to move the link to the user’s contact form out of the tab area at the top of the profile and replace it with a link that appears further down in the content of the user’s profile. While this is not something you can do through the admin interface in Drupal 7, it is easy to do with just a few lines of code in a custom module, which I will show you how to do here.. 
+We were recently asked by a client to edit the user profile view page on their site. This client needed us to move the link to the user’s contact form out of the tab area at the top of the profile and replace it with a link that appears further down in the content of the user’s profile. While this is not something you can do through the admin interface in Drupal 7, it is easy to do with just a few lines of code in a custom module, which I will show you how to do here.
 
 Prior to adding our custom code, the link to the contact form appears as a tab. 
 
@@ -62,7 +63,7 @@ After the custom code and a quick cache clear, the tab is gone and there is a li
 
 ![Customize Menu 2](/assets/images/blog/custom-menu-2.png)
 
-I won’t go into creating a custom module inis beyond the scope of this post, but there is a tutorial for creating a custom module on drupal.org: [https://www.drupal.org/node/1074360](https://www.drupal.org/node/1074360) 
+I won’t go into creating a custom module; that's a bit beyond the scope of this post, but there is a tutorial for creating a custom module on drupal.org: [https://www.drupal.org/node/1074360](https://www.drupal.org/node/1074360) 
 
 Shout out to Greg Boggs for his assistance!
 
