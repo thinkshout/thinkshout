@@ -26,60 +26,36 @@ The "Contact" menu item starts out as a tab because the Drupal contact module or
 
 ~~~php
 /**
-
  * Implements hook_menu_alter().
-
  */
-
-**function**** ****mymodule_menu_alter****(****&****$items) {**
-
-**  ****// Remove the 'contact' tab.**
-
-**  ****$items[****'user/%user/contact'****][****'type'****] ****=**** ****MENU_CALLBACK****;**
-
-**}**
+function mymodule_menu_alter(&$items) {
+  // Remove the 'contact' tab.
+  $items['user/%user/contact']['type'] = MENU_CALLBACK;
+}
 ~~~
 
 Now it is no longer a tab, but we still need make use of Drupal’s [hook_user_view_alter()](https://api.drupal.org/api/drupal/modules%21user%21user.api.php/function/hook_user_view_alter/7) to insert it into the content of the profile before it is rendered on the page.  
 
 ~~~php
 /**
-
  * Implements hook_user_view_alter().
-
  */
-
-**function**** ****mymodule_user_view_alter****(****&****$build) {**
-
-**  ****// Check to see if this user has allowed others to contact him/her.**
-
-**  ****if**** ($build[****'#account'****]****->****data[****'contact'****]) {**
-
-**    ****// Create the text for the link using the account info to get the user’s first name.**
-
-**    $link_text ****=**** $build[****'#account'****]****->****field_first_name[****'und'****][****0****][****'safe_value'****] ? ****"email "**
-
-**      ****.**** $build[****'#account'****]****->****field_first_name[****'und'****][****0****][****'safe_value'****] : ****"email"****;**
-
-**    // Use the l() function to create the link.**
-
-**    $contact_link ****=**** l($link_text,****'user/'**** ****.**** $build[****'#account'****]****->****uid ****.**** ****'/contact'****);**
-
-**    ****// Insert it into the $build array.**
-
-**    $build[****'contact_link'****][****0****][****'#markup'****] ****=**** ****"<div class=\"field\"><div class=\"field-label\">"**** **
-
-**    .**** t(****'Contact'****) ****.**** ****":&nbsp;</div><div class=\"field-items\"><div class=\"field-item even\">"**
-
-**    ****.**** $contact_link ****.**** ****"</div></div></div>"****;**
-
-**    ****// Insert into the user details that group we created in the display mode in admin interface.**
-
-**    ****$build[****'#group_children'****][****'contact_link'****] ****=**** ****'group_user_details'****;**
-
-**  }**
-
-**}**
+function mymodule_user_view_alter(&$build) {
+  // Check to see if this user has allowed others to contact him/her.
+  if ($build['#account']->data['contact']) {
+    // Create the text for the link using the account info to get the user’s first name.
+    $link_text = $build['#account']->field_first_name['und'][0]['safe_value'] ? "email "
+      . $build['#account']->field_first_name['und'][0]['safe_value'] : "email";
+    // Use the l() function to create the link.
+    $contact_link = l($link_text,'user/' . $build['#account']->uid . '/contact');
+    // Insert it into the $build array.
+    $build['contact_link'][0]['#markup'] = "<div class=\"field\"><div class=\"field-label\">" 
+    . t('Contact') . ":&nbsp;</div><div class=\"field-items\"><div class=\"field-item even\">"
+    . $contact_link . "</div></div></div>";
+    // Insert into the user details that group we created in the display mode in admin interface.
+    $build['#group_children']['contact_link'] = 'group_user_details';
+  }
+}
 ~~~
 
 After the custom code and a quick cache clear, the tab is gone and there is a link to the form within the body of the profile.
