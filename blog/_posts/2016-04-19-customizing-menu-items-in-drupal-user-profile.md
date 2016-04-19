@@ -63,7 +63,7 @@ After the custom code and a quick cache clear, the tab is gone and there is a li
 
 ![Customize Menu 2](/assets/images/blog/custom-menu-2.png)
 
-I won’t go into creating a custom module; that's a bit beyond the scope of this post, but there is a tutorial for creating a custom module on drupal.org: [https://www.drupal.org/node/1074360](https://www.drupal.org/node/1074360) 
+I won’t go into creating a custom module; that's a bit beyond the scope of this post, but there is a tutorial for [creating a custom module](https://www.drupal.org/node/1074360) on drupal.org.
 
 Shout out to Greg Boggs for his assistance!
 
