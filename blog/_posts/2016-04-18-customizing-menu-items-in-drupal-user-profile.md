@@ -4,7 +4,7 @@ body-class: blog-post
 topic: technology
 title: Customize Menu Items in Drupal User Profile
 author: nancy
-published: false
+published: true
 featured: false
 short: Learn how to change menu items with a little bit of code.
 tags:
