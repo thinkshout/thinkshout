@@ -16,7 +16,7 @@ date: 2016-04-27 12:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
-Drupal 8 theming can be irksome with cache-rebuilding and browswer refreshing, especially with responsive design. Wouldn't it be great if you could just open your site on three different devices and have them update live as you edit your theme? 
+Drupal 8 theming can be irksome with cache-rebuilding and browser refreshing, especially with responsive design. Wouldn't it be great if you could just open your site on three different devices and have them update live as you edit your theme? 
 
 Let me introduce you to Browsersync. Browsersync is a module for Node.js that allows you to sync your changes across browsers and devices.
 
@@ -92,10 +92,10 @@ Let's add the script tag to your `html.html.twig` file just above closing `</bod
 </html>
 ~~~
 
-Since Drupal will most likely be running on a local server configured by your LAMP stack, you'll need to run Browsersync with the proxy option. Run `browser-sync start --proxy <your site localhost>` in your terminal. For example if your site is running at http://mysite.dev then use `browswersync start --proxy mysite.dev` Your browswer will open automatically to http://localhost:3000. Now you should see "Connected to BrowswerSync" in the top right of your browser.
+Since Drupal will most likely be running on a local server configured by your LAMP stack, you'll need to run Browsersync with the proxy option. Run `browser-sync start --proxy <your site localhost>` in your terminal. For example if your site is running at http://mysite.dev then use `browswersync start --proxy mysite.dev` Your browser will open automatically to http://localhost:3000. Now you should see "Connected to BrowswerSync" in the top right of your browser.
 
 ## Watching for changes
-Although Browswersync and Drupal are connected, we need to watch for changes. Let's run Browsersync with the the `--files` option. We'll watch changes to our CSS file and have it automatically update the browswer with our changes. In your terminal run: 
+Although Browswersync and Drupal are connected, we need to watch for changes. Let's run Browsersync with the the `--files` option. We'll watch changes to our CSS file and have it automatically update the browser with our changes. In your terminal run: 
 ~~~ shell
 $ browswer-sync start --proxy mysite.dev --files "css/*.css" --no-inject-changes
 ~~~
