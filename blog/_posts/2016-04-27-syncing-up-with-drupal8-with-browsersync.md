@@ -16,7 +16,7 @@ date: 2016-04-27 12:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
-Drupal 8 theme can be irksome with cache-rebuilding and browswer refreshing, especially with responsive design. Wouldn't it be great if you could just open your site on 3 different devices and have them update live as you edit your theme? 
+Drupal 8 theming can be irksome with cache-rebuilding and browswer refreshing, especially with responsive design. Wouldn't it be great if you could just open your site on three different devices and have them update live as you edit your theme? 
 
 Let me introduce you to Browsersync. Browsersync is a module for Node.js that allows you to sync your changes across browsers and devices.
 
