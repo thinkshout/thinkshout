@@ -18,7 +18,7 @@ image: http://thinkshout.com/assets/images/ts_icon.jpg
 
 Drupal 8 theming can be irksome with cache-rebuilding and browser refreshing, especially with responsive design. Wouldn't it be great if you could just open your site on three different devices and have them update live as you edit your theme? 
 
-Let me introduce you to Browsersync. Browsersync is a module for Node.js that allows you to sync your changes across browsers and devices.
+Let me introduce you to [Browsersync](https://browsersync.io/). Browsersync is a module for Node.js that allows you to sync your changes across browsers and devices.
 
 ## Preparing Drupal
 This article assumes you have a working install of Drupal 8 and a theme in place. If you don’t, check out Joe Komenda’s post, [Up and Theming with Drupal 8](https://thinkshout.com/blog/2015/11/up-and-theming-with-drupal-8/). This will get you going.
