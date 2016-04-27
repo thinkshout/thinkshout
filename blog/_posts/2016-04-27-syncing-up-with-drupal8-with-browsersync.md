@@ -4,7 +4,7 @@ body-class: blog-post
 topic: technology
 title: Syncing up with Drupal 8 and Browsersync
 author: eric
-published: false
+published: true
 featured: false
 short: Introducing Browsersync for your responsive needs.
 tags:
