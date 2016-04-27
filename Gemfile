@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.2.4'
+
 gem 'jekyll', '3.1.2'
 gem 'sass', '~> 3.4.22'
 gem 'sass-globbing'
