@@ -3,9 +3,9 @@ layout: blog
 body-class: blog-post
 title: The Southern Poverty Law Center Gets Nominated for a Webby
 author: stephanie
-homepage: true
+homepage: false
 published: true
-featured: true
+featured: false
 short: Our redesign of the SPLC site is up for a Webby!
 tags:
   - Nonprofit Tech
