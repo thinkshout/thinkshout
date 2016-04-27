@@ -2,17 +2,18 @@
 layout: blog
 body-class: blog-post
 topic: technology
-title: Syncing up with Drupal 8 and Browsersync
+title: Syncing Up with Drupal 8 and Browsersync
 author: eric
 published: true
 featured: false
-short: Introducing Browsersync for your responsive needs.
+short: Theming trouble? Try Browsersync!
 tags:
   - Drupal
   - Drupal Planet
   - Browsersync
   - Drupal 8
-date: 2016-04-27 12:00:00
+  - Theming
+date: 2016-04-27 13:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
