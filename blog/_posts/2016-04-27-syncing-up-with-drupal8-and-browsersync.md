@@ -17,7 +17,7 @@ date: 2016-04-27 13:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
-Drupal 8 theming can be irksome with cache-rebuilding and browser refreshing, especially with responsive design. Wouldn't it be great if you could just open your site on three different devices and have them update live as you edit your theme? 
+Drupal 8 theming can be irksome with cache-rebuilding and browser refreshing, especially with responsive design. Wouldn't it be great if you could just open your site on three different devices and have them update live as you edit your theme?
 
 Let me introduce you to [Browsersync](https://browsersync.io/). Browsersync is a module for Node.js that allows you to sync your changes across browsers and devices.
 
@@ -26,25 +26,26 @@ This article assumes you have a working install of Drupal 8 and a theme in place
 
 Once you have D8 installed, you’ll need to turn off caching. Rename `sites/example.settings.local.php` to `sites/example.settings.local.php`.  You can rename the files with editor of choice, if you prefer, or run the following command from your site root :
 
-~~~ shell
+~~~shell
 $ cp sites/example.settings.local.php sites/default/settings.local.php
 ~~~
 
 To be sure your changes are included, we’ll need to enable Drupal’s Null Cache Service. Uncomment the following line `sites/default/settings.php`:
 
-~~~ php
+~~~php
 $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
 ~~~
 
 Next, let’s disable the render cache and dynamic page cache. Uncomment the following in the same file.
 
-~~~ php
+~~~php
 $settings['cache']['bins']['render'] = 'cache.backend.null';
 $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
 ~~~
 
 Finally, add the following to `sites/development.service.yml`:
-~~~ yaml
+
+~~~yaml
 parameters:
   twig.config:
     debug : true
@@ -66,8 +67,8 @@ Let’s make the magic happen by connecting Drupal and Browsersync. Go to the ro
 
 Let's add the script tag to your `html.html.twig` file just above closing `</body>` tag. This will add a connection to your Drupal environment and Browsersync.
 
-~~~ html
-<!DOCTYPE html>
+{% raw %}
+~~~html
 <html{{ html_attributes }}>
   <head>
     <head-placeholder token="{{ placeholder_token|raw }}">
@@ -92,12 +93,14 @@ Let's add the script tag to your `html.html.twig` file just above closing `</bod
   </body>
 </html>
 ~~~
+{% endraw %}
 
 Since Drupal will most likely be running on a local server configured by your LAMP stack, you'll need to run Browsersync with the proxy option. Run `browser-sync start --proxy <your site localhost>` in your terminal. For example, if your site is running at http://mysite.dev then use `browswersync start --proxy mysite.dev` Your browser will open automatically to http://localhost:3000. Now you should see "Connected to BrowswerSync" in the top right of your browser.
 
 ## Watching for Changes
-Although Browswersync and Drupal are connected, we need to watch for changes. Let's run Browsersync with the the `--files` option. We'll watch changes to our CSS file and have it automatically update the browser with our changes. In your terminal run: 
-~~~ shell
+Although Browswersync and Drupal are connected, we need to watch for changes. Let's run Browsersync with the the `--files` option. We'll watch changes to our CSS file and have it automatically update the browser with our changes. In your terminal run:
+
+~~~shell
 $ browswer-sync start --proxy mysite.dev --files "css/*.css" --no-inject-changes
 ~~~
 
@@ -108,5 +111,5 @@ Try opening your site in Chrome, Firefox, and even on your mobile device browser
 ## Where to Go from Here
 Browsersync is a great tool for fast development and syncing your changes across multiple devices without having to manually reload each one. I recommend integrating Browswersync with your task manager of choice. Here are some resources to help you integrate with Grunt or Gulp:
 
-- https://browsersync.io/docs/grunt/
-- https://browsersync.io/docs/gulp/
+- [https://browsersync.io/docs/grunt/](https://browsersync.io/docs/grunt/)
+- [https://browsersync.io/docs/gulp/](https://browsersync.io/docs/gulp/)
