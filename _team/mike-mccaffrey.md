@@ -15,7 +15,7 @@ team-image:
   medium: team/medium/mikem.jpg
   large: team/large/mikem.jpg
 published: true
-current-employee: true
+current-employee: false
 name: mikem
 bio: |
   Mike comes to us with a strong background in Drupal development for nonprofits. For the past few years, he’s been a prolific member of the Drupal community, and is one of the architects behind the Drupal fork, Backdrop CMS. He’s passionate about helping nonprofits build powerful websites to support their mission. When he’s not busy tackling the latest client project, he’s learning how to spin and knit, because that’s what you do when you have two really fluffy angora rabbits.
