@@ -4,9 +4,9 @@ body-class: blog-post
 topic: technology
 title: Drupal 8 File-based Configuration on Pantheon
 author: greg
-published: false
+published: true
 featured: false
-short: 
+short: Greg explores some of the benefits of file-based cofig
 tags:
   - Drupal
   - Drupal Planet
@@ -19,7 +19,6 @@ image: http://thinkshout.com/assets/images/ts_icon.jpg
 As Drupal 7 developers, we know how risky it is to edit production code and configuration live. However, we often let clients do it because using Features is hard. Drupal 8 has solved a lot of this headache with file-based configuration management, which allows [file-based workflows](http://www.gregboggs.com/drupal-configuration-best-practices/) that gracefully avoid editing production directly. This article will show you how to use Drupal 8 configuration management and Pantheon’s amazing workflow tools to easily give your clients the ability to make configuration changes. We’ll show you how to seamlessly integrate those changes into your normal development workflow, so that you - and your clients - will win at Drupal!
 
 ## Benefits of File-based Config
-
 
 Storing active configuration directly in files has many benefits. The main benefit is that clients no longer have any reason to ever edit production configuration directly on production. Further, using file-based configuration removes the extra steps required to edit configuration in the database. These extra steps are confusing, can fail with fatal errors, and are made unnecessary by not storing configuration in the database.
 
