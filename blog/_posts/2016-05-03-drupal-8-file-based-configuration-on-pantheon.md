@@ -34,13 +34,13 @@ Once deployed to Pantheon, the site will now be running in file-based configurat
 
 Now create a multidev for the client to use. Once the multidev is created, put the Pantheon account into SFTP mode because SFTP mode allows Drupal to edit the configuration files directory. put it into SFTP mode So, now so the client can edit the configuration in Drupal and save their work with the Pantheon dashboard.
 
-![file-config1](/assets/images/blog/file-config1.png)<span class="caption"><i class="fa fa-caret-up"></i>1. Changes ready to commit</span>
+![file-config1](/assets/images/blog/file-config1.png)<span class="caption"><i class="fa fa-caret-up"></i>Changes ready to commit</span>
 
-![file-config2](/assets/images/blog/file-config2.png)<span class="caption"><i class="fa fa-caret-up"></i>2. Changes committed</span>
+![file-config2](/assets/images/blog/file-config2.png)<span class="caption"><i class="fa fa-caret-up"></i>Changes committed</span>
 
-![file-config3](/assets/images/blog/file-config3.png)<span class="caption"><i class="fa fa-caret-up"></i>3. Merge to development</span>
+![file-config3](/assets/images/blog/file-config3.png)<span class="caption"><i class="fa fa-caret-up"></i>Merge to development</span>
 
-![file-config4](/assets/images/blog/file-config4.png)<span class="caption"><i class="fa fa-caret-up"></i>4. Configuration deployed to development</span>
+![file-config4](/assets/images/blog/file-config4.png)<span class="caption"><i class="fa fa-caret-up"></i>Configuration deployed to development</span>
 
 When the client has completed their work, they can deploy it using the Pantheon deployment tools. You can merge in a client’s work into your own easily because the client is now using version control. Once the configuration is merged to Dev, the standard Pantheon workflow makes it easy to deploy these changes to production.
 
