@@ -35,18 +35,18 @@ Once deployed to Pantheon, the site will now be running in file-based configurat
 
 Now create a multidev for the client to use. Once the multidev is created, put the Pantheon account into SFTP mode because SFTP mode allows Drupal to edit the configuration files directory. put it into SFTP mode So, now so the client can edit the configuration in Drupal and save their work with the Pantheon dashboard.
 
-1. Changes ready to commit
-2. Changes committed
-3. Merge to development
-4. Configuration deployed to development
+![file-config1](/assets/images/blog/file-config1.png)<span class="caption"><i class="fa fa-caret-up"></i>1. Changes ready to commit</span>
 
-![image alt text](image_0.png)![image alt text](image_1.png)![image alt text](image_2.png)![image alt text](image_3.png)
-**
-**When the client has completed their work, they can deploy it using the Pantheon deployment tools. You can merge in a client’s work into your own easily because the client is now using version control. Once the configuration is merged to Dev, the standard Pantheon workflow makes it easy to deploy these changes to production.
+![file-config2](/assets/images/blog/file-config2.png)<span class="caption"><i class="fa fa-caret-up"></i>2. Changes committed</span>
 
-**Don’t Edit Production Directly
-**If production is in SFTP mode, clients can still edit production live. To prevent this, either keep production in Git mode, or use the [Config Readonly](https://www.drupal.org/project/config_readonly) module to lock production configuration. 
+![file-config3](/assets/images/blog/file-config3.png)<span class="caption"><i class="fa fa-caret-up"></i>3. Merge to development</span>
 
+![file-config4](/assets/images/blog/file-config4.png)<span class="caption"><i class="fa fa-caret-up"></i>4. Configuration deployed to development</span>
+
+When the client has completed their work, they can deploy it using the Pantheon deployment tools. You can merge in a client’s work into your own easily because the client is now using version control. Once the configuration is merged to Dev, the standard Pantheon workflow makes it easy to deploy these changes to production.
+
+## Don’t Edit Production Directly
+If production is in SFTP mode, clients can still edit production live. To prevent this, either keep production in Git mode, or use the [Config Readonly](https://www.drupal.org/project/config_readonly) module to lock production configuration. 
 
 Drupal gives users the power to build and edit a website, and users can make dramatic changes to websites with just a few clicks in forms. With Pantheon’s tools and Drupal 8, we now have the ability to use those wonderful tools in a safe environment. The tools combined allow us to  bring clients into the workflow and manage deployments as a part of the team because Drupal 8 allows us to build robust, collaborative workflows like never before. 
 
