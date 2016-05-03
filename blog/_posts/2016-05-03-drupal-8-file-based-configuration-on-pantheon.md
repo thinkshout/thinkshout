@@ -3,6 +3,7 @@ layout: blog
 body-class: blog-post
 topic: technology
 title: Drupal 8 File-based Configuration on Pantheon
+homepage: true
 author: greg
 published: true
 featured: true
