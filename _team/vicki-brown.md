@@ -6,6 +6,9 @@ position: Senior User Experience Designer
 leadin: |
  Vicki has always felt a calling toward progressive causes, and she strives to use her skills to help people and organizations that work to better the world. She believes that having a strong visual presence is one of the best ways to reach your audience these days, and we couldn’t agree more.
 social:
+  github: 
+  twitter:
+  linkedin: https://www.linkedin.com/in/vicki-brown-3b94a03?trk=nav_responsive_tab_profile
 team-image:
   small: team/small/vicki.jpg
   medium: team/medium/vicki.jpg
