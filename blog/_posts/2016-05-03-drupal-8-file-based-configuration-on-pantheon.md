@@ -3,6 +3,7 @@ layout: blog
 body-class: blog-post
 topic: technology
 title: Drupal 8 File-based Configuration on Pantheon
+homepage: true
 author: greg
 published: true
 featured: true
@@ -14,6 +15,8 @@ tags:
   - Pantheon
 date: 2016-05-03 15:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
+header-image: /assets/images/ts_redesign/blog/up-and-theming1.jpg
+header-image-alt: "Image: Model Thinkshout Employees"
 ---
 
 As Drupal 7 developers, we know how risky it is to edit production code and configuration live. However, we often let clients do it because using Features is hard. Drupal 8 has solved a lot of this headache with file-based configuration management, which allows [file-based workflows](http://www.gregboggs.com/drupal-configuration-best-practices/) that gracefully avoid editing production directly. This article will show you how to use Drupal 8 configuration management and Pantheon’s amazing workflow tools to easily give your clients the ability to make configuration changes. We’ll show you how to seamlessly integrate those changes into your normal development workflow, so that you - and your clients - will win at Drupal!
