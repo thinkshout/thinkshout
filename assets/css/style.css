@@ -2309,6 +2309,7 @@ a:visited {
 .blog-post .body iframe,
 .blog-post .body .blog-cta,
 .blog-post .body .comments,
+.blog-post .body .gist,
 .blog-post .body .tags,
 .blog-post .intro h2,
 .blog-post .intro h3,
@@ -2320,6 +2321,7 @@ a:visited {
 .blog-post .intro iframe,
 .blog-post .intro .blog-cta,
 .blog-post .intro .comments,
+.blog-post .intro .gist,
 .blog-post .intro .tags {
   color: #58585b;
   display: block;
@@ -2338,6 +2340,7 @@ a:visited {
     .blog-post .body iframe,
     .blog-post .body .blog-cta,
     .blog-post .body .comments,
+    .blog-post .body .gist,
     .blog-post .body .tags,
     .blog-post .intro h2,
     .blog-post .intro h3,
@@ -2349,6 +2352,7 @@ a:visited {
     .blog-post .intro iframe,
     .blog-post .intro .blog-cta,
     .blog-post .intro .comments,
+    .blog-post .intro .gist,
     .blog-post .intro .tags {
       width: 90%;
       padding: 0 1.875rem; } }
@@ -2363,6 +2367,7 @@ a:visited {
     .blog-post .body iframe,
     .blog-post .body .blog-cta,
     .blog-post .body .comments,
+    .blog-post .body .gist,
     .blog-post .body .tags,
     .blog-post .intro h2,
     .blog-post .intro h3,
@@ -2374,6 +2379,7 @@ a:visited {
     .blog-post .intro iframe,
     .blog-post .intro .blog-cta,
     .blog-post .intro .comments,
+    .blog-post .intro .gist,
     .blog-post .intro .tags {
       width: 90%;
       padding: 0 3.75rem; } }
@@ -2388,6 +2394,7 @@ a:visited {
     .blog-post .body iframe,
     .blog-post .body .blog-cta,
     .blog-post .body .comments,
+    .blog-post .body .gist,
     .blog-post .body .tags,
     .blog-post .intro h2,
     .blog-post .intro h3,
@@ -2399,6 +2406,7 @@ a:visited {
     .blog-post .intro iframe,
     .blog-post .intro .blog-cta,
     .blog-post .intro .comments,
+    .blog-post .intro .gist,
     .blog-post .intro .tags {
       width: 100%;
       padding: 0 6.25rem; } }
@@ -2412,6 +2420,7 @@ a:visited {
   .blog-post .body iframe a,
   .blog-post .body .blog-cta a,
   .blog-post .body .comments a,
+  .blog-post .body .gist a,
   .blog-post .body .tags a,
   .blog-post .intro h2 a,
   .blog-post .intro h3 a,
@@ -2423,6 +2432,7 @@ a:visited {
   .blog-post .intro iframe a,
   .blog-post .intro .blog-cta a,
   .blog-post .intro .comments a,
+  .blog-post .intro .gist a,
   .blog-post .intro .tags a {
     color: #f26d21; }
   .blog-post .body h2 img,
@@ -2435,6 +2445,7 @@ a:visited {
   .blog-post .body iframe img,
   .blog-post .body .blog-cta img,
   .blog-post .body .comments img,
+  .blog-post .body .gist img,
   .blog-post .body .tags img,
   .blog-post .intro h2 img,
   .blog-post .intro h3 img,
@@ -2446,6 +2457,7 @@ a:visited {
   .blog-post .intro iframe img,
   .blog-post .intro .blog-cta img,
   .blog-post .intro .comments img,
+  .blog-post .intro .gist img,
   .blog-post .intro .tags img {
     max-width: 100%; }
 .blog-post .body ul li,
