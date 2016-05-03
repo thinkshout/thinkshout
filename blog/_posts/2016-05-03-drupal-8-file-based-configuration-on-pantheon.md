@@ -5,14 +5,14 @@ topic: technology
 title: Drupal 8 File-based Configuration on Pantheon
 author: greg
 published: true
-featured: false
-short: Greg explores some of the benefits of file-based cofig
+featured: true
+short: Greg explores some of the benefits of file-based configuration with Pantheon.
 tags:
   - Drupal
   - Drupal Planet
   - Drupal 8
   - Pantheon
-date: 2016-05-03 13:00:00
+date: 2016-05-03 15:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
