@@ -23,11 +23,19 @@ cs-header:
   client: "The Southern Poverty Law Center"
   title: "The SPLC fights hatred and bigotry, seeking justice for the most vulnerable members of society."
 
+
 cs-intro:
   type: ""
   mission: ""
   link-text: "View The Site"
   link-url: https://www.splcenter.org/
+  promo-images:
+    - url: /assets/images/ts_redesign/case-studies/splc-main/webby-winner.png
+      alt: Webby Award Winner
+      class: webby-winner
+    - url: /assets/images/ts_redesign/case-studies/splc-main/webby-honoree.png
+      alt: Webby Award Honoree
+      class: webby-honoree
   text: |
     The Southern Poverty Law Center fights hatred and bigotry, seeking justice for the most vulnerable members of society. Their aging platform, organized around content types and organizational departments, faced another challenge: surviving the multitude of crippling cyber attacks perpetrated by the hundreds of hate groups that the SPLC fights.
 
