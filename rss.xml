@@ -9,10 +9,8 @@
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/rss.xml" rel="self" type="application/rss+xml"/>
 
-    {% for post in site.posts limit:20 %}
-    {% if post.layout == 'post' %}
+    {% for post in site.categories.blog limit:20 %}
       {% include rss-item.xml %}
-    {% endif %}
     {% endfor %}
 
   </channel>
