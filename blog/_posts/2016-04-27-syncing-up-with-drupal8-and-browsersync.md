@@ -67,33 +67,7 @@ Let’s make the magic happen by connecting Drupal and Browsersync. Go to the ro
 
 Let's add the script tag to your `html.html.twig` file just above closing `</body>` tag. This will add a connection to your Drupal environment and Browsersync.
 
-{% raw %}
-~~~html
-<html{{ html_attributes }}>
-  <head>
-    <head-placeholder token="{{ placeholder_token|raw }}">
-    <title>{{ head_title|safe_join(' | ') }}</title>
-    <css-placeholder token="{{ placeholder_token|raw }}">
-    <js-placeholder token="{{ placeholder_token|raw }}">
-  </head>
-  <body{{ attributes.addClass(body_classes) }}>
-    <a href="#main-content" class="visually-hidden focusable skip-link">
-      {{ 'Skip to main content'|t }}
-    </a>
-    {{ page_top }}
-    {{ page }}
-    {{ page_bottom }}
-    <js-bottom-placeholder token="{{ placeholder_token|raw }}">
-    <!-- ADD THE BROWSWERSYNC SCRIPT HERE -->
-    <script id="__bs_script__">
-      //<![CDATA[
-        document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.2.11.2.js'><\/script>".replace("HOST", location.hostname));
-      //]]></script>
-    </script>
-  </body>
-</html>
-~~~
-{% endraw %}
+<script src="https://gist.github.com/levelos/0187b29071c3a56c3579ea2d95f42296.js"></script>
 
 Since Drupal will most likely be running on a local server configured by your LAMP stack, you'll need to run Browsersync with the proxy option. Run `browser-sync start --proxy <your site localhost>` in your terminal. For example, if your site is running at http://mysite.dev then use `browswersync start --proxy mysite.dev` Your browser will open automatically to http://localhost:3000. Now you should see "Connected to BrowswerSync" in the top right of your browser.
 
