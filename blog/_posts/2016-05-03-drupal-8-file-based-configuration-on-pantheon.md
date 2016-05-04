@@ -35,7 +35,7 @@ Once deployed to Pantheon, the site will now be running in file-based configurat
 
 ## Configuration Workflow on Pantheon
 
-Now create a multidev for the client to use. Once the multidev is created, put the Pantheon account into SFTP mode because SFTP mode allows Drupal to edit the configuration files directory. put it into SFTP mode So, now so the client can edit the configuration in Drupal and save their work with the Pantheon dashboard.
+Now create a multidev for the client to use. Once the multidev is created, put the Pantheon account into SFTP mode because SFTP mode allows Drupal to edit the configuration files directory. So, now so the client can edit the configuration in Drupal and save their work with the Pantheon dashboard.
 
 ![file-config1](/assets/images/blog/file-config1.png)<span class="caption"><i class="fa fa-caret-up"></i>Changes ready to commit</span>
 
