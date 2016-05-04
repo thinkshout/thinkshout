@@ -24,15 +24,18 @@ layout: default
         <a class="intro uppercase-link" href="{{ page.cs-intro.link-url }}" target="_blank">{{ page.cs-intro.link-text }}<i class="fa fa-caret-right"></i></a>
       {% endif %}
 
-      {% if page.cs-intro.promo-images %}
-      <p>
-      {% for img in page.cs-intro.promo-images %}
-      <img class="{{ img.class }}" src="{{ img.url }}" alt="{{ img.alt }}" />
-      {% endfor %}
-      </p>
-      {% endif %}
 
-      {{ page.cs-intro.text | markdownify }}
+
+      <div class="case-intro-text">
+        {% if page.cs-intro.promo-images %}
+        <p>
+        {% for img in page.cs-intro.promo-images %}
+        <img class="{{ img.class }}" src="{{ img.url }}" alt="{{ img.alt }}" />
+        {% endfor %}
+        </p>
+        {% endif %}
+        {{ page.cs-intro.text | markdownify }}
+      </div>
 
       {% for section in page.cs-sections %}
         {% if section.section-title %}

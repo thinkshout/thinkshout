@@ -3978,6 +3978,9 @@ a:visited {
     .case-study .webby-honoree {
       width: 30%; } }
 
+.case-study.splc .case-intro-text p {
+  padding: 0 2rem; }
+
 /*!
 Chosen, a Select Box Enhancer for jQuery and Prototype
 by Patrick Filler for Harvest, http://getharvest.com
