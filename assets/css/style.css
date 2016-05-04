@@ -3972,7 +3972,7 @@ a:visited {
   display: block;
   float: right;
   margin-bottom: 1rem;
-  margin-right: 10%; }
+  margin-right: 0; }
   @media (max-width: 480px) {
     .case-study .webby-winner,
     .case-study .webby-honoree {
