@@ -41,12 +41,12 @@ Lev Tsypin will share the stories of the MailChimp, iATS Payments, and Salesforc
 
 ## Birds of a Feather (BoF) Discussions
 
-Our team has three birds of a feather discussions planned on the Wednesday of DrupalCon, so mark your calendars and join the conversation!
+Our team has three birds of a feather discussions planned on the Tuesday of DrupalCon, so mark your calendars and join the conversation!
 
-“[Fundraising in Drupal](https://events.drupal.org/neworleans2016/bofs/fundraising-drupal)” - Wednesday (5/11), 11:00am - 12:00pm
+“[Fundraising in Drupal](https://events.drupal.org/neworleans2016/bofs/fundraising-drupal)” - Tuesday (5/10), 11:00am - 12:00pm
 
-“[Static Fanatic: Tips on Developing Static Sites](https://events.drupal.org/neworleans2016/bofs/static-fanatics-tips-developing-static-sites)” - Wednesday (5/11), 11:00am - 12:00pm
+“[Static Fanatic: Tips on Developing Static Sites](https://events.drupal.org/neworleans2016/bofs/static-fanatics-tips-developing-static-sites)” - Tuesday (5/10), 11:00am - 12:00pm
 
-“[Event Registration in Drupal](https://events.drupal.org/neworleans2016/bofs/event-registration-drupal-8)” - Wednesday (5/11), 3:45pm - 4:45pm
+“[Event Registration in Drupal](https://events.drupal.org/neworleans2016/bofs/event-registration-drupal-8)” - Tuesday (5/10), 3:45pm - 4:45pm
 
 Of course, we also plan on checking out the many wonderful social events that DrupalCon has in store in the evenings, so there's a good chance you'll see us there as well! It's going to be a jam-packed week, and we can't wait. As always, we're looking forward to catching lots of sessions, brushing up on trends, and learning new things. We hope to see you there!
