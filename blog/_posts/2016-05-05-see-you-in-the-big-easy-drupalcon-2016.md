@@ -2,7 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: culture
-title: See You in the Big Easy for DrupalCon 2016
+title: See You in the Big Easy
 homepage: true
 author: stephanie
 published: true
