@@ -5,8 +5,8 @@ topic: culture
 title: See You in the Big Easy for DrupalCon 2016
 homepage: true
 author: stephanie
-published: false
-featured: false
+published: true
+featured: true
 short: Connect with the ThinkShout team at DrupalCon New Orleans!
 tags:
   - Drupal
