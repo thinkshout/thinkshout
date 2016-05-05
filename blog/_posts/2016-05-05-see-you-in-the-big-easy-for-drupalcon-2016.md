@@ -41,7 +41,7 @@ Lev Tsypin will share the stories of the MailChimp, iATS Payments, and Salesforc
 
 ## Birds of a Feather (BoF) Discussions
 
-Our team has three birds of a feather discussions planned on the Wednesday of DrupalCon, so mark your calendars and be sure to join the conversation!
+Our team has three birds of a feather discussions planned on the Wednesday of DrupalCon, so mark your calendars and join the conversation!
 
 “[Fundraising in Drupal](https://events.drupal.org/neworleans2016/bofs/fundraising-drupal)” - Wednesday (5/11), 11:00am - 12:00pm
 
