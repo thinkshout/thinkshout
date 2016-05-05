@@ -37,7 +37,7 @@ Join Brett Meyer for an unconventional look at content strategy through a pop cu
 
 “[The Story of Successful Drupal Integrations in 3 Acts](https://events.drupal.org/neworleans2016/sessions/story-successful-drupal-integrations-3-acts)” - Thursday (5/12), 10:45am - 11:45am
 
-Lev Tsypin will share the stories of the MailChimp, iATS Payments, and Salesforce Drupal integrations, and share some insight into how be successful when setting out to integrate Drupal with other third party systems.
+Lev Tsypin will share the stories of the MailChimp, iATS Payments, and Salesforce Drupal integrations, and share some insight into how to be successful when setting out to integrate Drupal with other third party systems.
 
 ## Birds of a Feather (BoF) Discussions
 
@@ -49,4 +49,4 @@ Our team has three birds of a feather discussions planned on the Wednesday of Dr
 
 “[Event Registration in Drupal](https://events.drupal.org/neworleans2016/bofs/event-registration-drupal-8)” - Wednesday (5/11), 3:45pm - 4:45pm
 
-Of course, we also plan on checking out the many wonderful social events that DrupalCon has in store in the evenings, so you there's a good chance you'll see us there as well! It's going to be a jam-packed week, and we can't wait. As always, we're looking forward to catching lots of sessions, brushing up on trends, and learning new things. We hope to see you there!
+Of course, we also plan on checking out the many wonderful social events that DrupalCon has in store in the evenings, so there's a good chance you'll see us there as well! It's going to be a jam-packed week, and we can't wait. As always, we're looking forward to catching lots of sessions, brushing up on trends, and learning new things. We hope to see you there!
