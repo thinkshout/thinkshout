@@ -49,4 +49,4 @@ Our team has three birds of a feather discussions planned on the Wednesday of Dr
 
 “[Event Registration in Drupal](https://events.drupal.org/neworleans2016/bofs/event-registration-drupal-8)” - Wednesday (5/11), 3:45pm - 4:45pm
 
-As always, we're looking forward to catching lots of sessions, burhsing up on trends, and learning 
+As always, we're looking forward to catching lots of sessions, brushing up on trends, and learning new things. We hope to see you there!
