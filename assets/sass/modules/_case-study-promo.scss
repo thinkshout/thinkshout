@@ -1,0 +1,18 @@
+// Webby awards for splc
+.case-study .webby-winner,
+.case-study .webby-honoree {
+  clear: right;
+  display: block;
+  float: right;
+  margin-bottom: 1rem;
+  margin-right: 0;
+  margin-left: 1rem;
+
+  @include mq(m) {
+    width: 30%;
+  }
+}
+
+.case-study.splc .case-intro-text p {
+  padding: 0 2rem;
+}
