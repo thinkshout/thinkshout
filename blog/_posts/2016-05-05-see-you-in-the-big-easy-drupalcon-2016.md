@@ -29,7 +29,7 @@ As always, if you’re reading this and you plan on attending DrupalCon, too, we
 
 This year, booth 216 is the ThinkShout headquarters! Rest assured, we brought the swag. Shirts, socks, and MailChimp hats await you, so be sure to stop by and grab one before they’re all gone! We’ll also be raffling off another BB-8. All you have to do is sign up for our newsletter by dropping off a business card. Painless, right?
 
-We’ll also be on the lookout for folks interested in pursuing the senior engineer position we recently listed, so if you think you might be a good fit for the position and you’ll be at DrupalCon, then let’s chat! Drop us a line and we’ll set up a time to get to know each other a little better. 
+We’ll also be on the lookout for folks interested in pursuing the [senior engineer position](https://thinkshout.com/careers/senior-software-engineer/) we recently listed, so if you think you might be a good fit for the position and you’ll be at DrupalCon, then let’s chat! Drop us a line and we’ll set up a time to get to know each other a little better. Or just show up - that's fine too. 
 
 ## ThinkShout Sessions
 
