@@ -6,6 +6,7 @@
   float: right;
   margin-bottom: 1rem;
   margin-right: 0;
+  margin-left: 1rem;
 
   @include mq(m) {
     width: 30%;
