@@ -19,7 +19,9 @@ header-image: /assets/images/ts_redesign/blog/up-and-theming1.jpg
 header-image-alt: "Image: Model Thinkshout Employees"
 ---
 
-Next week, nine of us will ship out to New Orleans for DrupalCon. As excited as we are to finally enjoy an authentic beignet and explore the French Quarter, the real draw here is the opportunity to once again catch up with our friends and collaborators in the Drupal community. We’ve been hard at work preparing our presentations and lining up BoF schedules, and putting those finishing touches on our booth. All that’s missing is you! We have five short days to see what all DrupalCon has to offer, and meet everyone we want to meet. Can we do it? Two words: Challenge accepted.
+Next week, nine of us will ship out to New Orleans for DrupalCon. As excited as we are to finally enjoy an authentic beignet and explore the French Quarter, the real draw here is the opportunity to once again catch up with our friends and collaborators in the Drupal community. 
+
+We’ve been hard at work preparing our presentations and lining up BoF schedules, and putting those finishing touches on our booth. All that’s missing is you! We have five short days to see what all DrupalCon has to offer, and meet everyone we want to meet. Can we do it? Two words: Challenge accepted.
 
 As always, if you’re reading this and you plan on attending DrupalCon, too, we want to meet you! Here’s what we’ve got lined up.
 
