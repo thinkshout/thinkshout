@@ -41,7 +41,7 @@ cs-intro:
 
     In redesigning their website, we helped them better tell their story through digital journalism and data visualization. We also solidified their platform and implemented measures to keep the site secure.
     
-    Our redesign of the Southern Poverty Law Center site was voted the People's Voice winner in the Law Category of the 2016 [Webby Awards](http://webbyawards.com/), and was named an Honoree in the Best Practices category. 
+    Our redesign of the Southern Poverty Law Center site was voted the People's Voice winner in the Websites - Law category of the 2016 [Webby Awards](http://webbyawards.com/), and was named an Honoree in the Best Practices category. 
 
 
 cs-sections:
