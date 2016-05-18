@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: culture
 title: See You in the Big Easy
-homepage: true
+homepage: false
 author: stephanie
 published: true
-featured: true
+featured: false
 short: Connect with the ThinkShout team at DrupalCon New Orleans!
 tags:
   - Drupal
