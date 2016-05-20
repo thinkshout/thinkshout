@@ -4,7 +4,7 @@ first_name: Brittany
 last_name: Bennett
 position: Project Manager
 leadin: |
- Brittany isn’t afraid to ask questions and can get stuff done - the foundation of a great project manager. Her degree in advertising management and her green belt in Six Sigma help, too.
+ Brittany isn’t afraid to ask questions and can get stuff done - the foundation of a great project manager. Her degree in advertising management and green belt in Six Sigma help, too.
 social:
   github: 
   twitter:
