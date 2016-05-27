@@ -42,6 +42,7 @@ What we can do however is provide some basic guidance and make recommendations b
 Basically, maintain contact in valuable, meaningful ways. The major reason why people stop supporting an organization, outside of death or changes to one’s financial situation, is due to poor communication. [This infographic]( https://i0.wp.com/fundraisingcoach.com/blog/wp-content/uploads/2013/04/GuestPost-Jay-Love-Why-Donors-Stop-Their-Support.png ) from Bloomerang is a couple years old, but still highly relevant:
 
 ![retention-info.png](/assets/images/blog/retention-info.png)
+{:.center}
 
 Here are the top reasons why you’re really losing donors:
 
