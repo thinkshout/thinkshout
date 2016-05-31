@@ -12,16 +12,15 @@ tags:
   - Nonprofit tech
   - Donor retention
   - Fundraising
-  - Stewardship
 date: 2016-05-27 15:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 header-image: /assets/images/ts_redesign/blog/up-and-theming1.jpg
 header-image-alt: "Image: Model Thinkshout Employees"
 ---
 
-So, we’ve talked about [ways to attract and on-board new supporters](https://thinkshout.com/blog/2016/03/rethinking-strategies-for-online-donor-acquisition/). Maybe you’ve started testing some of those strategies and set up a lightbox. That was a lot of hard work! Let’s take a break….
+We’ve talked about [ways to attract and on-board new supporters](https://thinkshout.com/blog/2016/03/rethinking-strategies-for-online-donor-acquisition/). Maybe you’ve started testing some of those strategies and set up a lightbox. That was a lot of hard work! Let’s take a break...
 
-...and talk about how to cultivate those newbies so they don’t abandon ship. It’s called the [honeymoon phase](http://www.pamelagrow.com/7256/are-you-taking-advantage-of-the-honeymoon-phase-in-your-nonprofit-marketing/), and you need to take advantage of it while those contacts are feeling warm and fuzzy about supporting you.  
+... and talk about how to cultivate those newbies so they don’t abandon ship. It’s called the [honeymoon phase](http://www.pamelagrow.com/7256/are-you-taking-advantage-of-the-honeymoon-phase-in-your-nonprofit-marketing/), and you need to take advantage of it while those contacts are feeling warm and fuzzy about supporting you.  
 
 Let’s back up a few steps. Think about the people in your life. You have tertiary contacts - people that are friends of friends, or vague acquaintances that you might see at a party and never again. Then, there are closer contacts -- maybe they’re coworkers or people from class. You know them on the surface; some of their hobbies, general interests. You might even connect with them on LinkedIn, maybe Facebook. Then there are our closer friends; these are individuals you have a phone number and personal email for. They aren’t blocked from any of your social media accounts and you text each other frequently. You know each other on a deeper level and rarely find cause for disagreement.
 
@@ -31,7 +30,7 @@ Spoiler alert: there’s no ultimate, magic solution. You have to test and see w
 
 What we can do however is provide some basic guidance and make recommendations based on what we in the fundraising community have seen work for us. 
 
-* Content: Keep it fresh and up to date on your website - give people a reason to keep coming back to you. This isn’t just of benefit to donors, by the way -- refreshing content is good for google crawlers. They’re responsible for presenting the best content in search results to end users. If your site or home page hasn’t been refreshed in some time, google may not give you top billing in the search results. There’s a lot more that goes into SEO, but that’s a topic for another time. Bottom line is, don’t let things get stale.
+* Content: Keep it fresh and up to date on your website - give people a reason to keep coming back to you. This isn’t just of benefit to donors, by the way -- refreshing content is good for Google crawlers. They’re responsible for presenting the best content in search results to end users. If your site or home page hasn’t been refreshed in some time, Google may not give you top billing in the search results. There’s a lot more that goes into SEO, but that’s a topic for another time. Bottom line is, don’t let things get stale.
 
 * It’s like the theme from the Golden Girls, “Thank you for being a friend” er, donor: Set up a stewardship series to be sure you thank your supporters for being awesome. You can’t do the vital work for your cause without them, so show your appreciation! All this money you’ve been asking people for is presumably going towards something good and valuable, share those successes -- and make your donors the star.
 
