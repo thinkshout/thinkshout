@@ -6,7 +6,7 @@ position: Senior Software Engineer
 leadin: |
  Maria’s always had a knack for solving puzzles, and we think websites are basically puzzles, so she's good at those, too. She’s also pretty excited about all things open source. Who doesn't love free technology?
 social:
-  github: https://github.com/users/mariacha
+  github: https://github.com/mariacha
   linkedin: https://www.linkedin.com/in/marialynnfisher
   drupal: https://www.drupal.org/u/mariacha1
 team-image:
