@@ -30,7 +30,7 @@ cs-intro:
   link-text: "View The Site"
   link-url: http://changeforanimals.humanesociety.org/
   text: |
-    The Humane Society of the United States works within the U.S. and internationally to advocate for the better treatment of all animals. They are champions of animal rights, responsible pet ownership, and ending the exploitation of wild animals in captivity. 
+    The Humane Society of the United States works within the U.S. and internationally to advocate for the ethical treatment of all animals. They are champions of animal rights, responsible pet ownership, and ending the exploitation of wild animals in captivity. 
     
     The work that the HSUS does influences everything from how local county shelters operate, to national legislature. Their efforts have resulted in tremendous victories for animal welfare all over the world. 
 
@@ -42,7 +42,7 @@ cs-sections:
 
   - section-title: "Discovery"
     section-description: |
-      The Humane Society needed a site that would support a major donor fundraising campaign around their 60th anniversary. They were in the process of creating a print brochure, setting up events all across the country, and Humane Society’s executive director, Wayne Purcelle, was about to publish a new book, which they hoped to promote in this online brochure.
+      The Humane Society needed a site that would support a major donor fundraising campaign around their 60th anniversary. They were in the process of creating a print brochure, setting up events all across the country, and Humane Society’s executive director, Wayne Pacelle, was about to publish a new book, which they hoped to promote in this online brochure.
 
       This site had to match their branding while being gorgeous enough to appeal to major donors. The Humane Society also wanted a quick turnaround: two months from start to finish.Finally, the site also had to be something their in-house technical staff could update themselves going forward.
 
