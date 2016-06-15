@@ -30,7 +30,7 @@ cs-intro:
   link-text: "View The Site"
   link-url: http://changeforanimals.humanesociety.org/
   text: |
-    The Humane Society of the United States works within the U.S. and internationally to advocate for the ethical treatment of all animals. They are champions of animal rights, responsible pet ownership, and ending the exploitation of wild animals in captivity. 
+    The Humane Society of the United States works within the U.S. and internationally to advocate for the humane treatment of all animals. They are champions of animal rights, responsible pet ownership, and ending the exploitation of wild animals in captivity. 
     
     The work that the HSUS does influences everything from how local county shelters operate, to national legislature. Their efforts have resulted in tremendous victories for animal welfare all over the world. 
 
