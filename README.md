@@ -9,6 +9,12 @@ The ThinkShout.com website, built with Jekyll, Foundation 5, SASS, and lots of l
 2. Install Bundler if you don't have it, `gem install bundler`.
 3. In the root of the project, run `bundle install`.
 
+If you get Ruby version error messages, you can fix it by installing the version of ruby you need:  
+`rbenv install 2.2.4`  
+`rbenv local 2.2.4`  
+...then add the path and rbenv init to your `.profile` or similar:  
+`export PATH="$HOME/.rbenv/bin:$PATH" eval "$(rbenv init -)"`
+
 ## Building
 1. To build the site, run `bundle exec rake build`.
 2. To serve the site locally, `bundle exec rake serve`.
