@@ -34,12 +34,12 @@ end
 
 desc 'Watch jekyll files'
 task :jekyllwatch do
-  system 'bundle exec jekyll serve --watch --incremental --baseurl="" --drafts'
+  system 'bundle exec jekyll serve --watch --baseurl="" --drafts'
 end
 
 desc 'BrowserSync for live reloading and injecting new changes'
 task :browsersync do
-  system 'browser-sync start --proxy "localhost:4000" --files "_site/assets/css/*css"'
+  system 'browser-sync start --proxy "localhost:4000" --files "_site/assets/*, _site/*.md, _site/*.html, _site/*.js"'
 end
 
 
