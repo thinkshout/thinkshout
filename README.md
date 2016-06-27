@@ -13,7 +13,8 @@ If you get Ruby version error messages, you can fix it by installing the version
 `rbenv install 2.2.4`  
 `rbenv local 2.2.4`  
 ...then add the path and rbenv init to your `.profile` or similar:  
-`export PATH="$HOME/.rbenv/bin:$PATH" eval "$(rbenv init -)"`
+`export PATH="$HOME/.rbenv/bin:$PATH"`  
+`eval "$(rbenv init -)"`
 
 ## Building
 1. To build the site, run `bundle exec rake build`.
