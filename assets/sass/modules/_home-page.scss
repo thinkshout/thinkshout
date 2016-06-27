@@ -280,7 +280,6 @@
         }
       }
 
-
       h2 {
         font-size: rem(26);
         margin-bottom: 0;
@@ -337,6 +336,7 @@
       }
 
       a {
+        @include transition(color,0.3s,linear);
         color: $white;
         cursor: pointer;
         line-height: $line-height;

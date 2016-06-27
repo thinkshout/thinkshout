@@ -5244,6 +5244,9 @@ header {
         padding-top: 0.5rem;
         padding-left: 0; }
       .front .blog-teaser .blog-menu a {
+        -webkit-transition: color, 0.3s, linear;
+        -moz-transition: color, 0.3s, linear;
+        transition: color, 0.3s, linear;
         color: #fff;
         cursor: pointer;
         line-height: 1.75;
