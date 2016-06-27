@@ -4,23 +4,8 @@
 
 The ThinkShout.com website, built with Jekyll, Foundation 5, SASS, and lots of love.
 
-## Installation
-1. You need Ruby. It comes with OSX or install [rbenv](https://github.com/sstephenson/rbenv#homebrew-on-mac-os-x) via Homebrew.
-2. Install Bundler if you don't have it, `gem install bundler`.
-3. In the root of the project, run `bundle install`.
-4. `npm install -g browser-sync`
-
-If you get Ruby version error messages, you can fix it by installing the version of ruby you need:  
-`rbenv install 2.2.4`  
-`rbenv local 2.2.4`  
-
-Check if it's installed using `ruby -v`. If it does not show the version you just installed, run `rbenv rehash`. If it _still_ gives you a version error, then add the path and rbenv init to your `.profile` or similar:  
-`export PATH="$HOME/.rbenv/bin:$PATH"`  
-`eval "$(rbenv init -)"`
-
-## Building
-1. To build the site, run `bundle exec rake build`.
-2. To serve the site locally, `bundle exec rake serve`.
+## Installation & Building
+[See the Wiki](https://github.com/thinkshout/thinkshout/wiki/Installation-Guide)
 
 ## Branches
 1. Dev: New feature development.
