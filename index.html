@@ -28,6 +28,9 @@ keywords:
 
   {% assign featured_work = (site.case_studies | where: "homepage", "true" | sort: "order") | first %}
   <div class="featured-case-study">
+    <style scoped>
+      .front .featured-case-study { background-image: url('{{ site.baseurl }}{{ featured_work.cs-preview.image }}'); }
+    </style>
     <div class="gradient">&nbsp;</div>
     <div class="container">
       <div class="featured-case-study-text valign-wra">
