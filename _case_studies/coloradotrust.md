@@ -5,7 +5,7 @@ body-class: case-study colorado-trust
 active: true
 homepage: true
 published: true
-order: 2
+order: 4
 # END LAYOUT DATA
 
 title: Colorado Trust
