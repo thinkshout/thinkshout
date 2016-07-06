@@ -15,12 +15,12 @@ cs-preview:
   image: /assets/images/ts_redesign/case-studies/hsus-changeforanimals/hsus-cat.png
   type: Advocates for Animal Rights
   client: "Humane Society of the United States"
-  description: "A Digital Brochure in Honor of 60th Anniversary of the Humane Society of the United States."
+  description: "A Digital Brochure in Honor of the 60th Anniversary of the Humane Society of the United States."
 
 cs-header:
   header-image: /assets/images/ts_redesign/case-studies/hsus-changeforanimals/hsus-cat.png
   client: "Humane Society of the United States"
-  title: "A Digital Brochure in Honor of 60th Anniversary of the Humane Society of the United States."
+  title: "A Digital Brochure in Honor of the 60th Anniversary of the Humane Society of the United States."
 
 
 cs-intro:
