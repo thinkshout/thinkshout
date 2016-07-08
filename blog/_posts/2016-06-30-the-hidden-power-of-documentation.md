@@ -23,7 +23,7 @@ Anyone who works on team-based projects knows how handy good project documentati
 
 ## Defining Documentation
 
-Before we begin, we should be clear about what we mean when we say 'Project Documentation' (Docs for short). We're referring to the information for team members (developers, designers, project managers, and engineers) who join a project at some point after initial development has begun, or even long after a project is complete, such as a maintenance team. This is different than User/Tech Documentation (how things work on a site), and Code Documentation (Comments in files, README files, etc.). 
+Before we begin, we should be clear about what we mean when we say 'Project Documentation' (Docs for short). We're referring to the information for team members (developers, designers, project managers, and engineers) who join a project at some point after initial development has begun, or even long after a project is complete, such as a maintenance team. This is different than User/Tech docs (how things work on a site), and Code dos (Comments, README files, etc.). 
 
 Good docs allow these team members to get up to speed on a project with a minimum of questions for existing or previous team members. In an ideal world, docs alone would suffice in getting someone set up and working on new features, bugfixes, or other project tasks.
 
