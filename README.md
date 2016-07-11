@@ -4,14 +4,8 @@
 
 The ThinkShout.com website, built with Jekyll, Foundation 5, SASS, and lots of love.
 
-## Installation
-1. You need Ruby. It comes with OSX or install [rbenv](https://github.com/sstephenson/rbenv#homebrew-on-mac-os-x) via Homebrew.
-2. Install Bundler if you don't have it, `gem install bundler`.
-3. In the root of the project, run `bundle install`.
-
-## Building
-1. To build the site, run `bundle exec rake build`.
-2. To serve the site locally, `bundle exec rake serve`.
+## Installation & Building
+[See the Wiki](https://github.com/thinkshout/thinkshout/wiki/Installation-Guide)
 
 ## Branches
 1. Dev: New feature development.
