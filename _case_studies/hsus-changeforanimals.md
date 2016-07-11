@@ -64,7 +64,7 @@ cs-sections:
 
   - section-title: "Styling a Static Site"
     section-description: |
-      Jekyll seemed like a perfect fit, especially given how successful we’ve been with Jekyll on previous projects with similar constraints. The site needed five campaign pages, celebrity testimonials with featured videos, and a promotional section for their events. 
+      Jekyll seemed like a perfect fit, especially given [how successful we’ve been with Jekyll on previous projects](https://thinkshout.com/blog/category/jekyll/) with similar constraints. The site needed five campaign pages, celebrity testimonials with featured videos, and a promotional section for their events. 
 
       We considered building out the site in Drupal, but we simply didn’t need its features or its bulk to meet the HSUS’s needs. Static sites are very performant, and we wanted this high-traffic, image-rich design to load quickly and reliably. 
 
