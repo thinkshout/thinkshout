@@ -3,7 +3,7 @@ layout: blog
 body-class: blog-post
 topic: technology
 title: The Hidden Power of Documentation
-homepage: false
+homepage: true
 author: joe
 published: true
 featured: true
