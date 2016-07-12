@@ -6,7 +6,7 @@ title: The Hidden Power of Documentation
 homepage: false
 author: joe
 published: true
-featured: false
+featured: true
 short: Joe discusses the many benefits of project documentation.
 tags:
   - Drupal
