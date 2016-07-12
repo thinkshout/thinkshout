@@ -13,7 +13,7 @@ tags:
   - Drupal Planet
   - Drupal 8
   - Documentation
-date: 2016-06-30 15:00:00
+date: 2016-07-12 12:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 header-image: /assets/images/ts_redesign/blog/up-and-theming1.jpg
 header-image-alt: "Image: Model Thinkshout Employees"
