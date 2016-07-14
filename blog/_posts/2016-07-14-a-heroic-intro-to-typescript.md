@@ -10,7 +10,7 @@ featured: true
 short: Add static typing and object oriented features to your JavaScript.
 tags:
   - TypeScript
-  - Javascript
+  - JavaScript
   - Front end
   - Angular
 date: 2016-07-14 11:30:00
@@ -21,7 +21,7 @@ header-image-alt: "Image: Model Thinkshout Employees"
 
 [TypeScript](https://www.typescriptlang.org/) was released in 2012. When I first encountered it, I didn’t want to learn another version of a language I was already working with. My interest was renewed with the release of Angular 2, which is written in TypeScript. 
 
-One of the best features of TypeScript is that it is a superset of Javascript. TypeScript adds static typing and object oriented features to the language.  Since it is a superset, you can write JavaScript in TypeScript files and it still works. You can also include existing JavaScript code and it still works.
+One of the best features of TypeScript is that it is a superset of JavaScript. TypeScript adds static typing and object oriented features to the language.  Since it is a superset, you can write JavaScript in TypeScript files and it still works. You can also include existing JavaScript code and it still works.
 
 TypeScript is open source and maintained by Microsoft. Anders Hejlsberg, an architect of C#, is a core developer of TypeScript.
 
