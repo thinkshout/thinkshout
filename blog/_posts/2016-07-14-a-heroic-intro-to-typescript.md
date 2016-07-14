@@ -19,7 +19,7 @@ header-image: /assets/images/ts_redesign/blog/up-and-theming1.jpg
 header-image-alt: "Image: Model Thinkshout Employees"
 ---
 
-# A Heroic Introduction to TypeScript
+
 TypeScript was released in 2012. When I first encountered it, I didn’t want to learn another version of a language I was already working with. My interest was renewed with the release of Angular 2 which is written in TypeScript. 
 
 One of the best features of TypeScript is that it is a superset of Javascript. TypeScript adds static typing and object oriented features to the language.  Since it is a superset, you can write JavaScript in TypeScript files and it still works. You can also include existing JavaScript code and it still works.
