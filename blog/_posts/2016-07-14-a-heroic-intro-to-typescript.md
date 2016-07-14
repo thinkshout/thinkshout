@@ -13,7 +13,7 @@ tags:
   - Javascript
   - Front end
   - Angular
-date: 2016-07-14 12:00:00
+date: 2016-07-14 11:30:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 header-image: /assets/images/ts_redesign/blog/up-and-theming1.jpg
 header-image-alt: "Image: Model Thinkshout Employees"
