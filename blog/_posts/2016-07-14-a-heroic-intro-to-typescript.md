@@ -15,8 +15,6 @@ tags:
   - Angular
 date: 2016-07-14 12:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
-header-image: /assets/images/ts_redesign/blog/up-and-theming1.jpg
-header-image-alt: "Image: Model Thinkshout Employees"
 ---
 
 [TypeScript](https://www.typescriptlang.org/) was released in 2012. When I first encountered it, I didn’t want to learn another version of a language I was already working with. My interest was renewed with the release of Angular 2, which is written in TypeScript. 
