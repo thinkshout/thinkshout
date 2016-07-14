@@ -6,8 +6,8 @@ title: A Heroic Introduction to TypeScript
 homepage: false
 author: eric
 published: true
-featured: false
-short: Add static typing and object oriented features to your JavaScript
+featured: true
+short: Add static typing and object oriented features to your JavaScript.
 tags:
   - TypeScript
   - Javascript
