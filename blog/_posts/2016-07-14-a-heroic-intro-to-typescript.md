@@ -29,7 +29,7 @@ TypeScript is open source and maintained by Microsoft. Anders Hejlsberg, an arch
 Installing TypeScript is effortless with NodeJs and NPM.
 
 ~~~typescript
-npm install -g typescript`
+npm install -g typescript
 ~~~
 
 Verify your installation with `tsc -v`.  This will print the TypeScript version number in your terminal window.
