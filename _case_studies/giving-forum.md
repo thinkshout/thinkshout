@@ -2,7 +2,7 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study giving-forum
-active: true
+active: false
 homepage: false
 published: true
 order: 10
