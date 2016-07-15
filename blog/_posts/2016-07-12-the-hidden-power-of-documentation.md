@@ -15,7 +15,7 @@ tags:
   - Documentation
 date: 2016-07-12 12:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
-header-image: http://thinkshout.com/assets/images/blog/documentation-blog-header.jpg
+header-image: /assets/images/blog/documentation-blog-header.jpg
 header-image-alt: "The Hidden Power of Documentation"
 ---
 
