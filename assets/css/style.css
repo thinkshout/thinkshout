@@ -6251,7 +6251,8 @@ header {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%; }
+      width: 100%;
+      padding: 0 0 1rem; }
       .team-member-side:last-child {
         margin-right: 0; } }
   @media (min-width: 481px) and (max-width: 979px) {
@@ -6268,6 +6269,12 @@ header {
     font-size: 2.8125rem;
     margin-bottom: 0.5rem;
     margin-top: 0; }
+    @media (max-width: 480px) {
+      .team-member-side h1 {
+        font-size: 1.75rem; } }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .team-member-side h1 {
+        font-size: 2rem; } }
   .team-member-side .position {
     color: #f58546;
     margin-top: 0;

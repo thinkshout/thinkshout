@@ -8,7 +8,10 @@
   padding: 0 1rem 1rem;
   overflow: hidden;
 
-  @include mq(m) { @include span-columns(12); }
+  @include mq(m) {
+    @include span-columns(12);
+    padding: 0 0 1rem;
+  }
   @include mq(t) { @include span-columns(12); }
 
   img {
@@ -19,6 +22,9 @@
     font-size: rem(45);
     margin-bottom: 0.5rem;
     margin-top: 0;
+
+    @include mq(m) { font-size: rem(28); }
+    @include mq(t) { font-size: rem(32); }
   }
 
   .position {
