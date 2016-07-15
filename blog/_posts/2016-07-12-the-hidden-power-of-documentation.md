@@ -15,8 +15,8 @@ tags:
   - Documentation
 date: 2016-07-12 12:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
-header-image: /assets/images/ts_redesign/blog/up-and-theming1.jpg
-header-image-alt: "Image: Model Thinkshout Employees"
+header-image: http://thinkshout.com/assets/images/blog/documentation-blog-header.jpg
+header-image-alt: "The Hidden Power of Documentation"
 ---
 
 Anyone who works on team-based projects knows how handy good project documentation is, and how frustrating it can be when that documentation is out of date, incomplete, or just not there. But there are other benefits to good documentation aside from convenience, and a solid system for writing and maintaining documentation is the key.
