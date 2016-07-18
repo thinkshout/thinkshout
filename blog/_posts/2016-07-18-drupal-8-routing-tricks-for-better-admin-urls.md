@@ -16,7 +16,7 @@ date: 2016-07-18 12:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
-The National Center for Youth Law (NCYL) approached us with a clear design in mind to replace their existing software with a new web application. A web application differs from a website in that a website primarily provides content where a web application primarily provides tools.
+The National Center for Youth Law (NCYL) approached us with a clear design in mind to replace their existing software with a new web application. A web application differs from a website in that a website primarily provides *content* where a web application primarily provides *tools*.
 
 NCYL came to us with a tight deadline, which presented an opportunity for us to take advantage of Drupal 8. Drupal 8 introduces a simpler, more standardized object-oriented method of building admin forms. We were able to leverage this to build NCYL's toolset quickly and efficiently.
 
