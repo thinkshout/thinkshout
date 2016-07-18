@@ -7,7 +7,7 @@ homepage: false
 author: dan
 published: true
 featured: true
-short: Add static typing and object oriented features to your JavaScript.
+short: Utilize Drupal 8's routing system for a better admin experience.
 tags:
   - Drupal
   - Drupal 8
