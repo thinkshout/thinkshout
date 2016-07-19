@@ -3202,9 +3202,17 @@ a:visited {
   .careers .job-list .job-teaser {
     border-bottom: 1px solid #dbdcde;
     padding-bottom: 3rem;
-    padding-top: 1rem; }
+    padding-top: 1rem;
+    text-align: center; }
     .careers .job-list .job-teaser:first-of-type {
       border-top: 1px solid #dbdcde; }
+    .careers .job-list .job-teaser h3 {
+      color: #f26d21;
+      font-size: 1.625rem; }
+    @media (min-width: 980px) {
+      .careers .job-list .job-teaser p {
+        max-width: 50%;
+        margin: 1rem auto; } }
   .careers .job-list .side-left {
     text-align: center;
     width: 100%; }
@@ -3243,6 +3251,16 @@ a:visited {
       .careers .job-list .side-right a:hover {
         background: #f26d21;
         color: #fff; }
+  .careers .job-list #whr_embed_hook {
+    text-align: center; }
+    .careers .job-list #whr_embed_hook ul {
+      padding-left: 0; }
+      .careers .job-list #whr_embed_hook ul li {
+        line-height: 1.75; }
+    .careers .job-list #whr_embed_hook h3 {
+      font-size: 1.625rem; }
+    .careers .job-list #whr_embed_hook .whr-date {
+      display: none; }
   .careers .keep-me-in-mind {
     background: #dbdcde;
     color: #58585b;
@@ -6251,7 +6269,8 @@ header {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%; }
+      width: 100%;
+      padding: 0 0 1rem; }
       .team-member-side:last-child {
         margin-right: 0; } }
   @media (min-width: 481px) and (max-width: 979px) {
@@ -6268,6 +6287,12 @@ header {
     font-size: 2.8125rem;
     margin-bottom: 0.5rem;
     margin-top: 0; }
+    @media (max-width: 480px) {
+      .team-member-side h1 {
+        font-size: 1.75rem; } }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .team-member-side h1 {
+        font-size: 2rem; } }
   .team-member-side .position {
     color: #f58546;
     margin-top: 0;

@@ -5,6 +5,7 @@ topic: technology
 title: The Hidden Power of Documentation
 homepage: true
 author: joe
+cta-id: 1
 published: true
 featured: true
 short: Joe discusses the many benefits of project documentation.
