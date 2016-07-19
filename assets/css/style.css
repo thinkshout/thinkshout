@@ -3259,6 +3259,8 @@ a:visited {
         line-height: 1.75; }
     .careers .job-list #whr_embed_hook h3 {
       font-size: 1.625rem; }
+    .careers .job-list #whr_embed_hook .whr-date {
+      display: none; }
   .careers .keep-me-in-mind {
     background: #dbdcde;
     color: #58585b;
