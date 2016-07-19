@@ -6,13 +6,13 @@ title: Drupal 8 Routing Tricks for Better Admin URLs
 homepage: false
 author: dan
 published: true
-featured: true
+featured: false
 short: Utilize Drupal 8's routing system for a better admin experience.
 tags:
   - Drupal
   - Drupal 8
   - Drupal Planet
-date: 2016-07-18 12:00:00
+date: 2016-07-19 12:30:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
