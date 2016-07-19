@@ -4,7 +4,7 @@ title: Senior Software Engineer
 permalink: careers/senior-software-engineer/
 joblink: https://www.fitzii.com/job/5860?s=fc
 blurb: Senior Software Engineers at ThinkShout are responsible for the delivery of world-class open source solutions.
-active: true
+active: false
 ---
 If you could work for a company that offered only one of these options, which would you choose?
 

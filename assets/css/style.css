@@ -3202,9 +3202,17 @@ a:visited {
   .careers .job-list .job-teaser {
     border-bottom: 1px solid #dbdcde;
     padding-bottom: 3rem;
-    padding-top: 1rem; }
+    padding-top: 1rem;
+    text-align: center; }
     .careers .job-list .job-teaser:first-of-type {
       border-top: 1px solid #dbdcde; }
+    .careers .job-list .job-teaser h3 {
+      color: #f26d21;
+      font-size: 1.625rem; }
+    @media (min-width: 980px) {
+      .careers .job-list .job-teaser p {
+        max-width: 50%;
+        margin: 1rem auto; } }
   .careers .job-list .side-left {
     text-align: center;
     width: 100%; }
@@ -3243,6 +3251,14 @@ a:visited {
       .careers .job-list .side-right a:hover {
         background: #f26d21;
         color: #fff; }
+  .careers .job-list #whr_embed_hook {
+    text-align: center; }
+    .careers .job-list #whr_embed_hook ul {
+      padding-left: 0; }
+      .careers .job-list #whr_embed_hook ul li {
+        line-height: 1.75; }
+    .careers .job-list #whr_embed_hook h3 {
+      font-size: 1.625rem; }
   .careers .keep-me-in-mind {
     background: #dbdcde;
     color: #58585b;
