@@ -13,7 +13,7 @@ tags:
   - Drupal 8
   - Drupal Planet
   - NCYL
-date: 2016-07-19 12:30:00
+date: 2016-07-20 14:30:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
