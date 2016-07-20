@@ -3200,9 +3200,6 @@ a:visited {
         max-width: 75%;
         margin: 4rem auto; } }
   .careers .job-list .job-teaser {
-    border-bottom: 1px solid #dbdcde;
-    padding-bottom: 3rem;
-    padding-top: 1rem;
     text-align: center; }
     .careers .job-list .job-teaser:first-of-type {
       border-top: 1px solid #dbdcde; }
@@ -3253,10 +3250,13 @@ a:visited {
         color: #fff; }
   .careers .job-list #whr_embed_hook {
     text-align: center; }
-    .careers .job-list #whr_embed_hook ul {
-      padding-left: 0; }
-      .careers .job-list #whr_embed_hook ul li {
-        line-height: 1.75; }
+    .careers .job-list #whr_embed_hook .whr-item {
+      border-bottom: 1px solid #dbdcde;
+      padding-bottom: 3rem;
+      padding-top: 1rem;
+      text-align: center; }
+    .careers .job-list #whr_embed_hook ul li {
+      line-height: 1.75; }
     .careers .job-list #whr_embed_hook h3 {
       font-size: 1.625rem; }
     .careers .job-list #whr_embed_hook .whr-date {
@@ -6718,23 +6718,33 @@ header {
 .icon-bookmark-empty:before {
   content: "\e60c"; }
 
-.container {
+.container,
+.whr-title,
+.whr-info {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 7rem; }
-  .container::after {
+  .container::after,
+  .whr-title::after,
+  .whr-info::after {
     clear: both;
     content: "";
     display: table; }
   @media (max-width: 480px) {
-    .container {
+    .container,
+    .whr-title,
+    .whr-info {
       padding: 0 1rem; } }
   @media (min-width: 481px) and (max-width: 979px) {
-    .container {
+    .container,
+    .whr-title,
+    .whr-info {
       padding: 0 1rem; } }
   @media (min-width: 980px) and (max-width: 1199px) {
-    .container {
+    .container,
+    .whr-title,
+    .whr-info {
       padding: 0 3rem; } }
 
 .row {
