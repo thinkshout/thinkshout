@@ -19,9 +19,6 @@
 
   .job-list {
     .job-teaser {
-      border-bottom: 1px solid $ltgray;
-      padding-bottom: 3rem;
-      padding-top: 1rem;
       text-align: center;
 
       &:first-of-type {
@@ -79,8 +76,13 @@
     }
     #whr_embed_hook {
       text-align: center;
+      .whr-item {
+        border-bottom: 1px solid $ltgray;
+        padding-bottom: 3rem;
+        padding-top: 1rem;
+        text-align: center;
+      }
       ul {
-        padding-left: 0;
         li {
           line-height: 1.75;
         }
