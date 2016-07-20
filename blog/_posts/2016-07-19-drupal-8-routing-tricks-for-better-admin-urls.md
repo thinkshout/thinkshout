@@ -5,7 +5,7 @@ topic: technology
 title: Drupal 8 Routing Tricks for Better Admin URLs
 homepage: false
 author: dan
-published: false
+published: true
 featured: false
 short: Utilize Drupal 8's routing system for a better admin experience.
 tags:
@@ -14,14 +14,14 @@ tags:
   - Drupal Planet
   - NCYL
 date: 2016-07-19 12:30:00
-image: http://thinkshout.com/assets/images/ts_icon.jpg
+image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
-The National Center for Youth Law (NCYL) approached us with a clear design in mind to replace their existing software with a new web application. A web application differs from a website in that a website primarily provides *content* where a web application primarily provides *tools*.
+We recently launched a new case tracker for foster ed youth designed to improve their educational outcomes in partnership with [The National Center for Youth Law](http://youthlaw.org/) (NCYL). The web application replaces their existing platform, Goal Book, which lacked the flexibility they needed to meet their requirements. A web application differs from a website in that a website primarily provides *content* where a web application primarily provides *tools*.
 
-NCYL came to us with a tight deadline, which presented an opportunity for us to take advantage of Drupal 8. Drupal 8 introduces a simpler, more standardized object-oriented method of building admin forms. We were able to leverage this to build NCYL's toolset quickly and efficiently.
+The project presented us with an opportunity to do extensive custom development with our favorite new platform, Drupal 8. D8's many developer experience improvements, including standardized object-oriented development methods, allowed us to meet NCYL's requirements efficiently and with a level of quality that would have been more difficult on Drupal 7. In addition, we were able to accelerate the release of [RedHen CRM](https://drupal.org/project/redhen) on [Drupal 8](https://www.drupal.org/project/redhen/releases/8.x-1.0-alpha1), which lives at the heart of the application managing all of the contacts, organizations, and relationships.
 
-To enhance the utility of the application, we made an early decision to customize every URL a user would interact with. As most of the functionality would revolve around nodes, we wanted to make sure we avoided URLs like "/node/256/edit" that don't give the user any indication of which part of the application they're using.
+To enhance the utility of the application, we made an early decision to customize every URL a user would interact with. As most of the functionality would revolve around nodes, we wanted to make sure we avoided URLs like `/node/256/edit` that don't give the user any indication of which part of the application they're using.
 
 ## Implementation
 
