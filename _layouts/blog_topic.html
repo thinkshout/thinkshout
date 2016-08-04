@@ -23,8 +23,8 @@ layout: default
             {% for person in site.team %}
             {% if post.author == person.name %}
             <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}">
-              <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a><br>
-              {{ person.position }}
+            <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a><br>
+            {{ person.position }}
             {% endif %}
             {% endfor %}
           </p>
@@ -80,6 +80,10 @@ layout: default
   <ul class="blog-list">
     {% for post in site.categories.blog %}
       {% if post.topic == page.topic %}
+        {% if post.featured and feature != 'filtered' %}
+          {% assign feature = 'filtered' %}
+          {% continue %}
+        {% endif %}
         <li>{% include blog_teaser.html class=class header="h2" short=true title=page.title %}</li>
       {% endif %}
     {% endfor %}
@@ -90,6 +94,10 @@ layout: default
   {% endif %}
   <ul class="blog-list">
     {% for post in paginator.posts %}
+      {% if post.homepage and allFeature != 'filtered' %}
+        {% assign allFeature = 'filtered' %}
+        {% continue %}
+      {% endif %}
       {% if post.topic %}
         {% for hastopic in site.topic %}
         {% if hastopic.topic == post.topic %}

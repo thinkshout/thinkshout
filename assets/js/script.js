@@ -120,6 +120,13 @@
   });
 
 
+  //  Careers Page - whr
+  $('li.whr-item a').click(function(e) {
+    e.preventDefault();
+    window.open(this.href, '_blank');
+  });
+
+
   var isIE9OrBelow = function() {
      return /MSIE\s/.test(navigator.userAgent) && parseFloat(navigator.appVersion.split("MSIE")[1]) < 10;
   }

@@ -28,6 +28,9 @@ keywords:
 
   {% assign featured_work = (site.case_studies | where: "homepage", "true" | sort: "order") | first %}
   <div class="featured-case-study">
+    <style scoped>
+      .front .featured-case-study { background-image: url('{{ site.baseurl }}{{ featured_work.cs-preview.image }}'); }
+    </style>
     <div class="gradient">&nbsp;</div>
     <div class="container">
       <div class="featured-case-study-text valign-wra">
@@ -69,10 +72,15 @@ keywords:
   {% include our-expertise.html %}
 
   <div class="blog-teaser">
-      <div class="featured-blog-post">
+    {% for post in site.categories.blog%}
+    {% if post.homepage == true %}
+      {% if post.header-image %}
+        <div class="featured-blog-post" style="background-image: url('{{ site.baseurl }}{{ post.header-image }}');">
+        <div class="gradient">&nbsp;</div>
+      {% else %}
+        <div class="featured-blog-post">
+      {% endif %}
         <div class="container">
-          {% for post in site.categories.blog %}
-          {% if post.homepage == true %}
           <div class="blog-subject">
             <div class="header-down-caret">
               <h4>Featured blog post</h4>
@@ -84,28 +92,28 @@ keywords:
             {% endif %}
           </div>
 
-            <div class="blog-author byline">
-              {% for person in site.team %}
-              {% if post.author == person.name %}
-              <img src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}" alt="{{ person.first_name }}" />
-              <div class="author-info">
-                {% if person.current-employee %}
-                  <a class="team-name" href="{{ site.baseurl }}{{ person.url }}"><h4>{{ person.first_name }} {{ person.last_name }}</h4></a>
-                {% else %}
-                  <h4>{{ person.first_name }} {{ person.last_name }}</h4>
-                {% endif %}
-                <p>
-                  {{ person.position }}
-                </p>
-              </div>
+          <div class="blog-author byline">
+            {% for person in site.team %}
+            {% if post.author == person.name %}
+            <img src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}" alt="{{ person.first_name }}" />
+            <div class="author-info">
+              {% if person.current-employee %}
+                <a class="team-name" href="{{ site.baseurl }}{{ person.url }}"><h4>{{ person.first_name }} {{ person.last_name }}</h4></a>
+              {% else %}
+                <h4>{{ person.first_name }} {{ person.last_name }}</h4>
               {% endif %}
-              {% endfor %}
+              <p>
+                {{ person.position }}
+              </p>
             </div>
-          {% break %}
-          {% endif %}
-          {% endfor %}
+            {% endif %}
+            {% endfor %}
+          </div>
         </div>
       </div>
+      {% break %}
+      {% endif %}
+      {% endfor %}
       <div class="blog-menu">
         <div class="container">
           <div class="header-down-caret">

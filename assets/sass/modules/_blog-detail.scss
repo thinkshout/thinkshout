@@ -65,6 +65,7 @@
   .intro {
     h2,
     h3,
+    h4,
     p,
     blockquote,
     ul,
@@ -143,6 +144,15 @@
       @include mq(lt) { font-size: rem(20); }
       @include mq(md) { font-size: rem(22); }
       @include mq(l)  { font-size: rem(26); }
+    }
+    h4 {
+      color: $midgray;
+      font-size: rem(18);
+      font-weight: 700;
+      line-height: 1.4;
+      @include mq(lt) { font-size: rem(18); }
+      @include mq(md) { font-size: rem(20); }
+      @include mq(l)  { font-size: rem(22); }
     }
 
     blockquote {
