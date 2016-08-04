@@ -1,7 +1,13 @@
-- image: /assets/images/ts_redesign/cta/drupalcon16.jpg
-  title: Meet the ThinkShout Team at DrupalCon New Orleans
+- id: 1
+  image: /assets/images/ts_redesign/cta/default-cta.jpg
+  title: Get In Touch
   description: |
-    Have a question about what's in store for our Drupal contributions? Want to
-    learn a little more about working at ThinkShout? Stop by booth 216 - we'd
-    love to chat! And be sure to check out our [UX session](https://events.drupal.org/neworleans2016/sessions/content-strategy-popular-culture).
-  link: https://events.drupal.org/neworleans2016
+    Questions? Comments? We want to know! Drop us a line and let's start talking.
+  link: https://thinkshout.com/contact/
+
+- id: 2
+  image: /assets/images/ts_redesign/cta/drupalcon16.jpg
+  title: Join us at DrupalCon 16!
+  description: |
+    We'll have a booth, and shirts, and a bunch of cool things! Also FREE HUGS.
+  link: https://thinkshout.com/contact/

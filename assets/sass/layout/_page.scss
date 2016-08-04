@@ -1,4 +1,6 @@
-.container {
+.container,
+.whr-title,
+.whr-info {
   @include outer-container(1440px);
   padding: 0 7rem;
 

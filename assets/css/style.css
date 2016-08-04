@@ -2301,6 +2301,7 @@ a:visited {
     width: 100%; }
 .blog-post .body h2,
 .blog-post .body h3,
+.blog-post .body h4,
 .blog-post .body p,
 .blog-post .body blockquote,
 .blog-post .body ul,
@@ -2313,6 +2314,7 @@ a:visited {
 .blog-post .body .tags,
 .blog-post .intro h2,
 .blog-post .intro h3,
+.blog-post .intro h4,
 .blog-post .intro p,
 .blog-post .intro blockquote,
 .blog-post .intro ul,
@@ -2332,6 +2334,7 @@ a:visited {
   @media (min-width: 671px) and (max-width: 979px) {
     .blog-post .body h2,
     .blog-post .body h3,
+    .blog-post .body h4,
     .blog-post .body p,
     .blog-post .body blockquote,
     .blog-post .body ul,
@@ -2344,6 +2347,7 @@ a:visited {
     .blog-post .body .tags,
     .blog-post .intro h2,
     .blog-post .intro h3,
+    .blog-post .intro h4,
     .blog-post .intro p,
     .blog-post .intro blockquote,
     .blog-post .intro ul,
@@ -2359,6 +2363,7 @@ a:visited {
   @media (min-width: 980px) and (max-width: 1199px) {
     .blog-post .body h2,
     .blog-post .body h3,
+    .blog-post .body h4,
     .blog-post .body p,
     .blog-post .body blockquote,
     .blog-post .body ul,
@@ -2371,6 +2376,7 @@ a:visited {
     .blog-post .body .tags,
     .blog-post .intro h2,
     .blog-post .intro h3,
+    .blog-post .intro h4,
     .blog-post .intro p,
     .blog-post .intro blockquote,
     .blog-post .intro ul,
@@ -2386,6 +2392,7 @@ a:visited {
   @media (min-width: 1200px) {
     .blog-post .body h2,
     .blog-post .body h3,
+    .blog-post .body h4,
     .blog-post .body p,
     .blog-post .body blockquote,
     .blog-post .body ul,
@@ -2398,6 +2405,7 @@ a:visited {
     .blog-post .body .tags,
     .blog-post .intro h2,
     .blog-post .intro h3,
+    .blog-post .intro h4,
     .blog-post .intro p,
     .blog-post .intro blockquote,
     .blog-post .intro ul,
@@ -2412,6 +2420,7 @@ a:visited {
       padding: 0 6.25rem; } }
   .blog-post .body h2 a,
   .blog-post .body h3 a,
+  .blog-post .body h4 a,
   .blog-post .body p a,
   .blog-post .body blockquote a,
   .blog-post .body ul a,
@@ -2424,6 +2433,7 @@ a:visited {
   .blog-post .body .tags a,
   .blog-post .intro h2 a,
   .blog-post .intro h3 a,
+  .blog-post .intro h4 a,
   .blog-post .intro p a,
   .blog-post .intro blockquote a,
   .blog-post .intro ul a,
@@ -2437,6 +2447,7 @@ a:visited {
     color: #f26d21; }
   .blog-post .body h2 img,
   .blog-post .body h3 img,
+  .blog-post .body h4 img,
   .blog-post .body p img,
   .blog-post .body blockquote img,
   .blog-post .body ul img,
@@ -2449,6 +2460,7 @@ a:visited {
   .blog-post .body .tags img,
   .blog-post .intro h2 img,
   .blog-post .intro h3 img,
+  .blog-post .intro h4 img,
   .blog-post .intro p img,
   .blog-post .intro blockquote img,
   .blog-post .intro ul img,
@@ -2527,6 +2539,24 @@ a:visited {
     .blog-post .body h3,
     .blog-post .intro h3 {
       font-size: 1.625rem; } }
+.blog-post .body h4,
+.blog-post .intro h4 {
+  color: #626262;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.4; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .blog-post .body h4,
+    .blog-post .intro h4 {
+      font-size: 1.125rem; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .blog-post .body h4,
+    .blog-post .intro h4 {
+      font-size: 1.25rem; } }
+  @media (min-width: 1200px) {
+    .blog-post .body h4,
+    .blog-post .intro h4 {
+      font-size: 1.375rem; } }
 .blog-post .body blockquote,
 .blog-post .intro blockquote {
   color: #f26d21;
@@ -3170,11 +3200,16 @@ a:visited {
         max-width: 75%;
         margin: 4rem auto; } }
   .careers .job-list .job-teaser {
-    border-bottom: 1px solid #dbdcde;
-    padding-bottom: 3rem;
-    padding-top: 1rem; }
+    text-align: center; }
     .careers .job-list .job-teaser:first-of-type {
       border-top: 1px solid #dbdcde; }
+    .careers .job-list .job-teaser h3 {
+      color: #f26d21;
+      font-size: 1.625rem; }
+    @media (min-width: 980px) {
+      .careers .job-list .job-teaser p {
+        max-width: 50%;
+        margin: 1rem auto; } }
   .careers .job-list .side-left {
     text-align: center;
     width: 100%; }
@@ -3213,6 +3248,19 @@ a:visited {
       .careers .job-list .side-right a:hover {
         background: #f26d21;
         color: #fff; }
+  .careers .job-list #whr_embed_hook {
+    text-align: center; }
+    .careers .job-list #whr_embed_hook .whr-item {
+      border-bottom: 1px solid #dbdcde;
+      padding-bottom: 3rem;
+      padding-top: 1rem;
+      text-align: center; }
+    .careers .job-list #whr_embed_hook ul li {
+      line-height: 1.75; }
+    .careers .job-list #whr_embed_hook h3 {
+      font-size: 1.625rem; }
+    .careers .job-list #whr_embed_hook .whr-date {
+      display: none; }
   .careers .keep-me-in-mind {
     background: #dbdcde;
     color: #58585b;
@@ -4776,7 +4824,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 2; }
+  z-index: 200; }
   header .header-logo img {
     width: 13rem; }
     @media (max-width: 480px) {
@@ -5218,14 +5266,30 @@ header {
         bottom: 3rem;
         display: inline-block;
         position: absolute; }
-      .front .blog-teaser .featured-blog-post .author-info a {
-        color: #f1b332; }
-      .front .blog-teaser .featured-blog-post .author-info h4 {
-        margin: 0 0 0 5rem; }
-      .front .blog-teaser .featured-blog-post .author-info p {
-        color: #fff;
-        font-size: 0.875rem;
-        margin: 0 0 0.5rem 5rem; }
+      .front .blog-teaser .featured-blog-post .author-info {
+        z-index: 100; }
+        .front .blog-teaser .featured-blog-post .author-info a {
+          color: #f1b332; }
+        .front .blog-teaser .featured-blog-post .author-info h4 {
+          margin: 0 0 0 5rem; }
+        .front .blog-teaser .featured-blog-post .author-info p {
+          color: #fff;
+          font-size: 0.875rem;
+          margin: 0 0 0.5rem 5rem; }
+      .front .blog-teaser .featured-blog-post .blog-subject {
+        position: relative;
+        z-index: 100; }
+      .front .blog-teaser .featured-blog-post .blog-author img {
+        z-index: 100; }
+      .front .blog-teaser .featured-blog-post .gradient {
+        background-image: linear-gradient(to right, rgba(40, 40, 40, 0.8), rgba(40, 40, 40, 0.5));
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1; }
     .front .blog-teaser .blog-menu {
       background: #555555;
       width: 42%; }
@@ -5244,6 +5308,9 @@ header {
         padding-top: 0.5rem;
         padding-left: 0; }
       .front .blog-teaser .blog-menu a {
+        -webkit-transition: color, 0.3s, linear;
+        -moz-transition: color, 0.3s, linear;
+        transition: color, 0.3s, linear;
         color: #fff;
         cursor: pointer;
         line-height: 1.75;
@@ -6202,7 +6269,8 @@ header {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%; }
+      width: 100%;
+      padding: 0 0 1rem; }
       .team-member-side:last-child {
         margin-right: 0; } }
   @media (min-width: 481px) and (max-width: 979px) {
@@ -6219,6 +6287,12 @@ header {
     font-size: 2.8125rem;
     margin-bottom: 0.5rem;
     margin-top: 0; }
+    @media (max-width: 480px) {
+      .team-member-side h1 {
+        font-size: 1.75rem; } }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .team-member-side h1 {
+        font-size: 2rem; } }
   .team-member-side .position {
     color: #f58546;
     margin-top: 0;
@@ -6644,23 +6718,33 @@ header {
 .icon-bookmark-empty:before {
   content: "\e60c"; }
 
-.container {
+.container,
+.whr-title,
+.whr-info {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 7rem; }
-  .container::after {
+  .container::after,
+  .whr-title::after,
+  .whr-info::after {
     clear: both;
     content: "";
     display: table; }
   @media (max-width: 480px) {
-    .container {
+    .container,
+    .whr-title,
+    .whr-info {
       padding: 0 1rem; } }
   @media (min-width: 481px) and (max-width: 979px) {
-    .container {
+    .container,
+    .whr-title,
+    .whr-info {
       padding: 0 1rem; } }
   @media (min-width: 980px) and (max-width: 1199px) {
-    .container {
+    .container,
+    .whr-title,
+    .whr-info {
       padding: 0 3rem; } }
 
 .row {

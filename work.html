@@ -15,7 +15,7 @@ title: Our Work
 
 {% assign case-studies = (site.case_studies | where: "active", "true" | sort: "order") %}
 <div class="work-listing">
-  {% for preview in case-studies %}
+  {% for preview in case-studies | limit: 4 %}
     <section class="case-study-header {{ preview.cs-class }}">
     <style>
       .case-study-header.{{ preview.cs-class }} { background-image: url('{{ site.baseurl }}{{ preview.cs-preview.image }}'); }

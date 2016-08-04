@@ -33,26 +33,17 @@ keywords:
   </p>
 </div>
 
-  <div class="job-list">
-    {% for job in site.careers %}
-    {% if job.layout == 'job' and job.active == true %}
+  <section class="job-list">
     <div class="job-teaser">
-      <div class="container">
-        <div class="side-left">
-            <a href="{{ site.baseurl }}{{ job.url }}"><h3>{{ job.title }}</h3></a>
-            <p>
-              {{ job.blurb }}
-            </p>
-        </div>
-        <div class="side-right">
-          <a href="{{ site.baseurl }}{{ job.url }}">See & Apply</a>
-        </div>
-      </div>
+          <script src='https://www.workable.com/assets/embed.js' type='text/javascript'></script>
+          <script type='text/javascript' charset='utf-8'>
+          whr(document).ready(function(){
+          whr_embed(117028, {detail: 'titles', base: 'jobs', zoom: 'state', grouping: 'none'});
+          });
+          </script>
+          <div id="whr_embed_hook"></div>
     </div>
-    {% endif %}
-    {% endfor %}
   </section>
-</div>
 
 <div class="container">
   <div class="keep-me-in-mind">
