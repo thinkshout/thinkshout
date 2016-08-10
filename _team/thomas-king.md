@@ -4,7 +4,7 @@ first_name: Thomas
 last_name: King
 position: Director of Strategy
 leadin: |
- Thomas brings a wealth of digital strategy experience to ThinkShout. He’s been a champion of open source technology in the Portland community for years, and has worked with many local and national organizations to help maximize their digital potential.
+ Thomas brings a wealth of digital strategy experience to ThinkShout. He’s been a champion of open source technology in the Portland community for years and has worked with local and national organizations to help maximize their digital potential.
 social:
   github: 
   twitter: http://twitter.com/thomas_king
