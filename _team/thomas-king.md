@@ -13,7 +13,7 @@ team-image:
   small: team/small/thomas.jpg
   medium: team/medium/thomas.jpg
   large: team/large/thomas.jpg
-published: false
+published: true
 current-employee: true
 name: thomas
 bio: |
