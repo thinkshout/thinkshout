@@ -166,6 +166,11 @@
       &:hover .case-study-text {
         transform: translateY(-90px);
         @include transition(0.5s transform ease-in-out);
+
+        p {
+          display: initial;
+          @include transition(0.5s transform ease-in-out);
+        }
       }
 
       @include mq(m) {
@@ -226,11 +231,14 @@
     }
 
     .case-study-text {
-      top: 15rem;
+      left: 0;
+      padding: 1rem;
       position: absolute;
+      top: 14rem;
+      width: 100%;
       @include transition(0.5s transform ease-in-out);
 
-      @include mq(m) { top: 12.75rem; }
+      @include mq(m) { top: 10.75rem; }
       @include mq(md) { top: 15.75rem; }
     }
 
@@ -242,11 +250,16 @@
 
     h2 {
       font-size: rem(26);
-      padding-bottom: 1rem;
+      padding-bottom: 0;
     }
 
     p {
+      display: none;
       font-size: rem(14);
+
+      @include mq(m) {
+        display: initial;
+      }
     }
   }
 

@@ -5138,6 +5138,11 @@ header {
         -webkit-transition: 0.5s transform ease-in-out;
         -moz-transition: 0.5s transform ease-in-out;
         transition: 0.5s transform ease-in-out; }
+        .front .three-case-studies .case-study:hover .case-study-text p {
+          display: initial;
+          -webkit-transition: 0.5s transform ease-in-out;
+          -moz-transition: 0.5s transform ease-in-out;
+          transition: 0.5s transform ease-in-out; }
       @media (max-width: 480px) {
         .front .three-case-studies .case-study.active .orange-overlay {
           opacity: 0.9;
@@ -5208,14 +5213,17 @@ header {
         .front .three-case-studies #case-study4 {
           width: 100%; } }
     .front .three-case-studies .case-study-text {
-      top: 15rem;
+      left: 0;
+      padding: 1rem;
       position: absolute;
+      top: 14rem;
+      width: 100%;
       -webkit-transition: 0.5s transform ease-in-out;
       -moz-transition: 0.5s transform ease-in-out;
       transition: 0.5s transform ease-in-out; }
       @media (max-width: 480px) {
         .front .three-case-studies .case-study-text {
-          top: 12.75rem; } }
+          top: 10.75rem; } }
       @media (min-width: 980px) and (max-width: 1199px) {
         .front .three-case-studies .case-study-text {
           top: 15.75rem; } }
@@ -5225,9 +5233,13 @@ header {
       z-index: 1; }
     .front .three-case-studies h2 {
       font-size: 1.625rem;
-      padding-bottom: 1rem; }
+      padding-bottom: 0; }
     .front .three-case-studies p {
+      display: none;
       font-size: 0.875rem; }
+      @media (max-width: 480px) {
+        .front .three-case-studies p {
+          display: initial; } }
   .front .blog-teaser {
     color: #fff; }
     .front .blog-teaser .featured-blog-post,
