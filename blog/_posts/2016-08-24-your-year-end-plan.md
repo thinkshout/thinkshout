@@ -2,7 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: strategy
-title: Your Year-End Plan: Never Too Soon to Start
+title: Your Year-End Plan - Never Too Soon to Start
 homepage: false
 author: natania
 published: false
