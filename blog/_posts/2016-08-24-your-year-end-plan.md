@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: strategy
 title: Your Year-End Plan - Never Too Early to Start
-homepage: false
+homepage: true
 author: natania
 published: true
-featured: false
+featured: true
 short: Utilize Drupal 8's routing system for a better admin experience.
 tags:
   - Fundraising
