@@ -2,12 +2,12 @@
 layout: blog
 body-class: blog-post
 topic: strategy
-title: Your Year-End Plan - Never Too Early to Start
+title: Your Year-End Plan - It's Never Too Early to Start
 homepage: true
 author: natania
 published: true
 featured: true
-short: Utilize Drupal 8's routing system for a better admin experience.
+short: Now's the time to start thinking about how to make the biggest impact with your year-end campaign. 
 tags:
   - Fundraising
   - Nonprofit tech
