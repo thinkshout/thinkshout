@@ -3,11 +3,11 @@ layout: blog
 body-class: blog-post
 topic: technology
 title: The Hidden Power of Documentation
-homepage: true
+homepage: false
 author: joe
 cta-id: 1
 published: true
-featured: true
+featured: false
 short: Joe discusses the many benefits of project documentation.
 tags:
   - Drupal
