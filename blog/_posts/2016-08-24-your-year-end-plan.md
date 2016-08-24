@@ -45,9 +45,7 @@ By utilizing the most compelling way to let your story unfold, and carrying that
 
 Lightboxes and homepage takeovers - you think they’re tacky, but there’s a reason why more and more nonprofits are utilizing these tactics at year-end and intermittently throughout the year: because they work.
 
-![Email acquisition lightbox as seen on Travel Oregon website](/assets/images/blog/your-year-end-plan-1.png)
-
-Email acquisition lightbox on Travel Oregon website - www.traveloregon.com 
+![Email acquisition lightbox as seen on Travel Oregon website](/assets/images/blog/your-year-end-plan-1.png)<span class="caption"><i class="fa fa-caret-up"></i>Email acquisition lightbox on Travel Oregon website - www.traveloregon.com </span>
 
 I know what you’re thinking, ‘lightboxes and popups are aggressive and I hate them!’ ...but lightboxes are not an all-or-none part of your strategy. They can be programmed to appear on a user’s first visit and then never again, or whatever you are comfortable starting with. As you grow to understand your audience more, that will dictate the behavior you set for your lightbox overlay. 
 
@@ -65,9 +63,9 @@ The strategies outlined above for your year-end campaign should ideally also be 
 
 If you do it right, that whirlwind could be your next windfall. Here are some things you should consider:
 
-Swap out the creative/offer on your lightbox, your hero image, and all social channels to match the creative theme of the day
-Create a unique donation form/URL for tracking purposes
-Create 2-5 emails to promote: Teaser message dropping the day before; Day-of email (sent in the morning); Mid-day update; Last chance message later in the day; Stewardship/recap email the day after.
-Draft updates for social channels - have these ready to go but be flexible in case something awesome happens that you need to react to in the moment. Social needs to be organic. Canned messages are ok, but allow yourself the freedom to change gears in case you get a large gift or a match offer, etc. 
+* Swap out the creative/offer on your lightbox, your hero image, and all social channels to match the creative theme of the day
+* Create a unique donation form/URL for tracking purposes
+* Create 2-5 emails to promote: Teaser message dropping the day before; Day-of email (sent in the morning); Mid-day update; Last chance message later in the day; Stewardship/recap email the day after.
+* Draft updates for social channels - have these ready to go but be flexible in case something awesome happens that you need to react to in the moment. Social needs to be organic. Canned messages are ok, but allow yourself the freedom to change gears in case you get a large gift or a match offer, etc. 
 
 This might seem like a lot of work. That’s because it is! But with some careful planning, you can set yourself up for success. And if this still seems like a lot to work out, let us know. We’d love to hear how we can help you achieve your year-end goals.
