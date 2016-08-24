@@ -2,7 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: strategy
-title: Your Year-End Plan - Never Too Soon to Start
+title: Your Year-End Plan - Never Too Early to Start
 homepage: false
 author: natania
 published: false
@@ -14,6 +14,8 @@ tags:
   - Email marketing
 date: 2016-08-24 12:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
+header-image: /assets/images/blog/year-end-plan-header.jpg
+header-image-alt: "Your Year-End Plan - Never Too Early to Start"
 ---
 
 If you’re putting off planning your year-end campaign in October, get ready to put in a lot of overtime. 
