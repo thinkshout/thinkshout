@@ -212,6 +212,18 @@
       @include mq(md) { width: 280px; margin-right: 10rem;  }
       @include mq(l)  { width: 300px; margin-right: 17rem; }
     }
+
+    blockquote {
+      color: $orange;
+      font-size: rem(18);
+      font-weight: 700;
+      line-height: 1.4;
+      padding: 0 rem(8);
+      text-align: center;
+      @include mq(lt) { padding: 0 rem(16); font-size: rem(18); }
+      @include mq(md) { padding: 0 rem(24); font-size: rem(20); }
+      @include mq(l)  { padding: 0 rem(40); font-size: rem(22); }
+    }
   }
 
   .cta {

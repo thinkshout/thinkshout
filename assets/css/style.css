@@ -3963,6 +3963,37 @@ a:visited {
     .expertise .body div.right {
       width: 300px;
       margin-right: 17rem; } }
+.page-not-found .body blockquote,
+.careers .body blockquote,
+.case-study .body blockquote,
+.expertise .body blockquote {
+  color: #f26d21;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.4;
+  padding: 0 0.5rem;
+  text-align: center; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .page-not-found .body blockquote,
+    .careers .body blockquote,
+    .case-study .body blockquote,
+    .expertise .body blockquote {
+      padding: 0 1rem;
+      font-size: 1.125rem; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .page-not-found .body blockquote,
+    .careers .body blockquote,
+    .case-study .body blockquote,
+    .expertise .body blockquote {
+      padding: 0 1.5rem;
+      font-size: 1.25rem; } }
+  @media (min-width: 1200px) {
+    .page-not-found .body blockquote,
+    .careers .body blockquote,
+    .case-study .body blockquote,
+    .expertise .body blockquote {
+      padding: 0 2.5rem;
+      font-size: 1.375rem; } }
 .page-not-found .cta,
 .careers .cta,
 .case-study .cta,
