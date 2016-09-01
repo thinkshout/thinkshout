@@ -7,7 +7,7 @@ homepage: false
 author: amy
 published: true
 featured: true
-short: MailChimp API 2.0 is about to go extinct - here’s what you need to know to be prepared.
+short: MailChimp API 2.0 is about to go extinct - here’s what you need to know.
 tags:
   - Drupal Planet
   - MailChimp
