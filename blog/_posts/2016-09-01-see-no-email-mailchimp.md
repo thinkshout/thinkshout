@@ -6,7 +6,7 @@ title: See No Email, Hear No Email, Speak No Email
 homepage: false
 author: amy
 published: true
-featured: false
+featured: true
 short: MailChimp API 2.0 is about to go extinct - here’s what you need to know to be prepared.
 tags:
   - Drupal Planet
@@ -16,6 +16,8 @@ tags:
   - Drupal 8
 date: 2016-09-01 12:30:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
+header-image: /assets/images/blog/see-no-email-header.jpg
+header-image-alt: "See No Email, Hear No Email, Speak No Email"
 ---
 Listen up, Drupal savvy MailChimp fans. We’ve got some news for you: MailChimp recently rolled out a newer and more robust version of their API - [MailChimp API version 3.0](http://developer.mailchimp.com/documentation/mailchimp/)! Now I can probably guess what you’re thinking so I’ll just come out and say it: this means [MailChimp’s API version 2.0](https://apidocs.mailchimp.com/api/2.0/) is about to become deprecated, and we’re not monkeying around.
 
