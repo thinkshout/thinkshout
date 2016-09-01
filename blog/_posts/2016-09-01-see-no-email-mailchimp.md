@@ -21,7 +21,7 @@ header-image-alt: "See No Email, Hear No Email, Speak No Email"
 ---
 Listen up, Drupal savvy MailChimp fans. We’ve got some news for you: MailChimp recently rolled out a newer and more robust version of their API - [MailChimp API version 3.0](http://developer.mailchimp.com/documentation/mailchimp/)! Now I can probably guess what you’re thinking so I’ll just come out and say it: this means [MailChimp’s API version 2.0](https://apidocs.mailchimp.com/api/2.0/) is about to become deprecated, and we’re not monkeying around.
 
-For those of you using the 8.x and 7.x-4.x branches of the [MailChimp module](https://www.drupal.org/project/mailchimp), feel free to sit back and relax - you are already using MailChimp’s API v3.0. Those still using the 7.x-2.x and 7.x-3.x branches, API v2.0 will be phased out on December 31st, so we encourage you all to upgrade. 
+For those of you using the 8.x and 7.x-4.x branches of the [MailChimp module](https://www.drupal.org/project/mailchimp), feel free to sit back and relax - you are already using MailChimp’s API v3.0. Those of of you still using the 7.x-2.x and 7.x-3.x branches, get ready: API v2.0 will be phased out on December 31st, so we encourage you all to upgrade. 
 
 Don’t be a furious George - we’ve got you covered. Our documentation up on [Drupal.org](https://www.drupal.org/project/mailchimp) has been updated, and we’ve provided information that will help make your upgrade experience as seamless as possible. We’ve even included a shiny new [FAQ page](https://www.drupal.org/node/2793241) this go around. For additional support, feel free to post questions on [Drupal Answers](http://drupal.stackexchange.com/questions/tagged/mailchimp).
 
