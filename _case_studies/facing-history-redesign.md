@@ -50,7 +50,7 @@ cs-sections:
 
       Facing History’s site had a lot of moving pieces and a massive library of content that needed to be displayed in a variety of ways - card views, teasers, to full and detailed pages. We developed new calls to action that encouraged user engagement with this content. Image styling was a major element of this redesign, transforming what was formerly a primarily text-based site into a highly visual educational experience.
       
-   - section-image: "/assets/images/ts_redesign/case-studies/facing-history-redesign/facinghistory-home.jpg"
+  - section-image: "/assets/images/ts_redesign/case-studies/facing-history-redesign/facinghistory-home.jpg"
     section-image-alt: "Facing History Home"
 
   - section-title: "Implementation"
