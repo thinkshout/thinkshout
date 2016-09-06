@@ -32,8 +32,8 @@ cs-intro:
     Facing History and Ourselves provides students and teachers with educational resources that examine historical and modern bigotry. They seek to safeguard a more humane citizenry by encouraging careful study of prejudice as it affects our communities. Our engagement with Facing History began several years ago when we were approached to tackle a back-end redesign of their website. Over time, we recognized an opportunity to further improve upon the site architecture to better meet their web goals. We recommended a front-end redesign, and Facing History decided to pursue it.
 
 cs-sections:
-  - section-image: "/assets/images/ts_redesign/case-studies/facing-history-redesign/facinghistory-aboutus.jpg"
-    section-image-alt: "About Facing History and Ourselves"
+  - section-image: "/assets/images/ts_redesign/case-studies/facing-history-redesign/facinghistory-lesson.jpg"
+    section-image-alt: "History Lesson"
 
   - section-title: "Strategy & Structure"
     section-description: |
@@ -57,14 +57,20 @@ cs-sections:
     section-description: |
       We built two types of related content blocks, giving Facing History the tools to pull users deeper into their content. The first was a related content block where editors could reference any number of pieces of content or media, and then have them rendered in an attractive "card" view below or beside the primary content. When a curated block of related content isn't available, we use Apache Solr's “More Like This” functionality to display relevant content based on its similarity with the primary content. These same blocks can also show related or relevant upcoming events.
       
-  - section-image: "/assets/images/ts_redesign/case-studies/facing-history-redesign/facinghistory-lesson.jpg"
-    section-image-alt: "History Lesson"
+  - section-image: "/assets/images/ts_redesign/case-studies/facing-history-redesign/facinghistory-aboutus.jpg"
+    section-image-alt: "About Facing History"
 
   - section-title: "Results"
     section-description: |
       We launched the new Facing History with a fresh visual style and revamped information architecture. This new site tells Facing History’s story in a compelling and engaging way, encouraging users to dive deeper into the wealth of carefully curated information that awaits them. 
 
-      “It is clear that the length and maturity of our working relationship with TS has brought us to a highly functioning, productive, and positive place. It is also very apparent that ThinkShout deeply understands FH's digital landscape, our goals, and our staff/stakeholder needs. We've had a true partnership in executing every element of this project from discovery through to post-launch polish.”
+      <blockquote>
+        “It is clear that the length and maturity of our working relationship with TS has brought us to a highly functioning, productive, and positive place. It is also very apparent that ThinkShout deeply understands FH's digital landscape, our goals, and our staff/stakeholder needs. We've had a true partnership in executing every element of this project from discovery through to post-launch polish.”
+
+        April Lambert
+        Associate Director of Digital Infrastructure 
+        Facing History and Ourselves
+      <blockquote>
      
 
 cs-cta-text: Launch Site
