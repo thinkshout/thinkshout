@@ -217,12 +217,23 @@
       color: $orange;
       font-size: rem(18);
       font-weight: 700;
-      line-height: 1.4;
+      line-height: 1.1;
       padding: 0 rem(8);
       text-align: center;
+      p {
+        line-height: 1.4;
+        margin: 0 auto;
+      }
       @include mq(lt) { padding: 0 rem(16); font-size: rem(18); }
       @include mq(md) { padding: 0 rem(24); font-size: rem(20); }
       @include mq(l)  { padding: 0 rem(40); font-size: rem(22); }
+    }
+    blockquote.attrib {
+      font-size: rem(15);
+      text-align: right;
+      @include mq(lt) { padding: 0 rem(16); font-size: rem(15); }
+      @include mq(md) { padding: 0 rem(24); font-size: rem(16); }
+      @include mq(l)  { padding: 0 rem(40); font-size: rem(18); }
     }
   }
 
