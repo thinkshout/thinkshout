@@ -9,19 +9,19 @@ order: 10
 # END LAYOUT DATA
 
 
-title: New architecture and design bring teachers and educators closer to understanding a history of bigotry.
+title: New architecture and design for Facing History.
 cs-class: "facing-history-redesign"
 
 cs-preview:
-  image: /assets/images/ts_redesign/case-studies/facing-history-redesign/FH-Case-Study-Headers.jpg
+  image: /assets/images/ts_redesign/case-studies/facing-history-redesign/FH-Case-Study-Headers-2.jpg
   type: "Responsive Drupal Site"
   client: "Facing History and Ourselves"
-  description: "New architecture and design bring teachers and educators closer to understanding a history of bigotry."
+  description: "New architecture and design for Facing History."
 
 cs-header:
-  header-image: /assets/images/ts_redesign/case-studies/facing-history-redesign/FH-Case-Study-Headers.jpg
+  header-image: /assets/images/ts_redesign/case-studies/facing-history-redesign/FH-Case-Study-Headers-2.jpg
   client: "Facing History and Ourselves"
-  title: "New architecture and design bring teachers and educators closer to understanding a history of bigotry."
+  title: "New architecture and design for Facing History."
 
 cs-intro:
   type: "Responsive Drupal Site"
