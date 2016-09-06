@@ -3704,21 +3704,25 @@ a:visited {
 .page-not-found .body .intro,
 .page-not-found .body h4,
 .page-not-found .body p,
+.page-not-found .body blockquote,
 .page-not-found .body li,
 .page-not-found .body div.inline,
 .careers .body .intro,
 .careers .body h4,
 .careers .body p,
+.careers .body blockquote,
 .careers .body li,
 .careers .body div.inline,
 .case-study .body .intro,
 .case-study .body h4,
 .case-study .body p,
+.case-study .body blockquote,
 .case-study .body li,
 .case-study .body div.inline,
 .expertise .body .intro,
 .expertise .body h4,
 .expertise .body p,
+.expertise .body blockquote,
 .expertise .body li,
 .expertise .body div.inline {
   color: #3f3f41;
@@ -3730,21 +3734,25 @@ a:visited {
     .page-not-found .body .intro,
     .page-not-found .body h4,
     .page-not-found .body p,
+    .page-not-found .body blockquote,
     .page-not-found .body li,
     .page-not-found .body div.inline,
     .careers .body .intro,
     .careers .body h4,
     .careers .body p,
+    .careers .body blockquote,
     .careers .body li,
     .careers .body div.inline,
     .case-study .body .intro,
     .case-study .body h4,
     .case-study .body p,
+    .case-study .body blockquote,
     .case-study .body li,
     .case-study .body div.inline,
     .expertise .body .intro,
     .expertise .body h4,
     .expertise .body p,
+    .expertise .body blockquote,
     .expertise .body li,
     .expertise .body div.inline {
       width: 90%;
@@ -3753,21 +3761,25 @@ a:visited {
     .page-not-found .body .intro,
     .page-not-found .body h4,
     .page-not-found .body p,
+    .page-not-found .body blockquote,
     .page-not-found .body li,
     .page-not-found .body div.inline,
     .careers .body .intro,
     .careers .body h4,
     .careers .body p,
+    .careers .body blockquote,
     .careers .body li,
     .careers .body div.inline,
     .case-study .body .intro,
     .case-study .body h4,
     .case-study .body p,
+    .case-study .body blockquote,
     .case-study .body li,
     .case-study .body div.inline,
     .expertise .body .intro,
     .expertise .body h4,
     .expertise .body p,
+    .expertise .body blockquote,
     .expertise .body li,
     .expertise .body div.inline {
       width: 90%;
@@ -3776,21 +3788,25 @@ a:visited {
     .page-not-found .body .intro,
     .page-not-found .body h4,
     .page-not-found .body p,
+    .page-not-found .body blockquote,
     .page-not-found .body li,
     .page-not-found .body div.inline,
     .careers .body .intro,
     .careers .body h4,
     .careers .body p,
+    .careers .body blockquote,
     .careers .body li,
     .careers .body div.inline,
     .case-study .body .intro,
     .case-study .body h4,
     .case-study .body p,
+    .case-study .body blockquote,
     .case-study .body li,
     .case-study .body div.inline,
     .expertise .body .intro,
     .expertise .body h4,
     .expertise .body p,
+    .expertise .body blockquote,
     .expertise .body li,
     .expertise .body div.inline {
       width: 100%;
@@ -3977,8 +3993,9 @@ a:visited {
   .careers .body blockquote p,
   .case-study .body blockquote p,
   .expertise .body blockquote p {
-    line-height: 1.4;
-    margin: 0 auto; }
+    line-height: 1.5;
+    margin: 0 auto;
+    font-style: italic; }
   @media (min-width: 671px) and (max-width: 979px) {
     .page-not-found .body blockquote,
     .careers .body blockquote,
@@ -4005,6 +4022,7 @@ a:visited {
 .case-study .body blockquote.attrib,
 .expertise .body blockquote.attrib {
   font-size: 0.9375rem;
+  margin-top: 0.9375rem;
   text-align: right; }
   @media (min-width: 671px) and (max-width: 979px) {
     .page-not-found .body blockquote.attrib,
