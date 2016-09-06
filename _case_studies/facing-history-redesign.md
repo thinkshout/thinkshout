@@ -1,7 +1,7 @@
 ---
 # LAYOUT DATA
 layout: case_study
-body-class: case-study facing-history
+body-class: case-study facing-history-redesign
 active: false
 homepage: false
 published: true
@@ -9,7 +9,7 @@ order: 10
 # END LAYOUT DATA
 
 
-title: "New architecture and design bring teachers and educators closer to understanding a history of bigotry."
+title: New architecture and design bring teachers and educators closer to understanding a history of bigotry.
 cs-class: "facing-history-redesign"
 
 cs-preview:
