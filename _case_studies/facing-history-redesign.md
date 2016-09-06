@@ -4,24 +4,24 @@ layout: case_study
 body-class: case-study facing-history
 active: false
 homepage: false
-published: false
+published: true
 order: 10
 # END LAYOUT DATA
 
 
-title: Leveraging Drupal and Salesforce in Teaching Equality
+title: New architecture and design bring teachers and educators closer to understanding a history of bigotry.
 cs-class: "facing-history-redesign"
 
 cs-preview:
-  image: /assets/images/work/facinghistory/facinghistory-hero.jpg
+  image: /assets/images/ts_redesign/case-studies/facing-history-redesign/FH-Case-Study-Headers.jpg
   type: "Responsive Drupal Site"
   client: "Facing History and Ourselves"
-  description: "Leveraging Drupal and Salesforce in Teaching Equality"
+  description: "New architecture and design bring teachers and educators closer to understanding a history of bigotry."
 
 cs-header:
-  header-image: /assets/images/work/facinghistory/facinghistory-hero.jpg
+  header-image: /assets/images/ts_redesign/case-studies/facing-history-redesign/FH-Case-Study-Headers.jpg
   client: "Facing History and Ourselves"
-  title: "Leveraging Drupal and Salesforce in Teaching Equality"
+  title: "New architecture and design bring teachers and educators closer to understanding a history of bigotry."
 
 cs-intro:
   type: "Responsive Drupal Site"
@@ -34,9 +34,8 @@ cs-intro:
     Our engagement with Facing History began several years ago when we were approached to tackle a back-end redesign of their website. Over time, we recognized an opportunity to further improve upon the site architecture to better meet their web goals. We recommended a front-end redesign, and Facing History decided to pursue it.
 
 cs-sections:
-  - section-image: "/assets/images/work/facinghistory/facinghistory-discovery.jpg"
-    section-image-alt: "Technical architecture image."
-    section-image-right: true
+  - section-image: "/assets/images/ts_redesign/case-studies/facing-history-redesign/facinghistory-aboutus.jpg"
+    section-image-alt: "About FAcing History and Ourselves"
 
   - section-title: "Strategy & Structure"
     section-description: |
@@ -46,7 +45,6 @@ cs-sections:
 
   - section-image: "/assets/images/work/facinghistory/facinghistory-salesforce.jpg"
     section-image-alt: "Salesforce integration image"
-    section-image-right: true
 
   - section-title: "Design & User Experience"
     section-description: |
