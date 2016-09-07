@@ -1,3 +1,19 @@
+---
+layout: blog
+body-class: blog-post
+topic: development
+header-image:
+header-image-alt:
+
+title: Form Assembly
+created:
+permalink: 
+tags: forms, front end, css
+short: Easy forms with FormAssembly
+author: eric
+published: false
+---
+
 # Form Assembly
 
 Recently, I need to create a form for an existing site. Creating a form isn’t hard, but I had two problems I needed to solve. 1) The form needed to adopt the style of the existing site. 2) I had no backend to process the form.
@@ -7,9 +23,17 @@ I could have used Google Forms. Although it’s a solution, Google Forms does no
 Usually a site needs to collect some kind of data. It could be as simple as a contact form or collecting emails for a newsletter.  Forms are the way to collect user input on the internet. So we need them. You might have a static site or be a user of a CMS without the ability to create forms. A solution like FormAssembly can help solve this problem.
 
 # Building your form
-Inside FormAssembly you have access to a drag and drop interface. This way you don’t have to create your mark up by hand, which is good because FormAssembly provides a lot of custom scripts to help you with validation and grouping fields. When you click the options for each field you can select the type of data you want in the field as well as if it’s presence is required. You can also click into each label to change the text or drag fields around to reorder them. 
+Inside FormAssembly you have access to a drag and drop interface. This way you don’t have to create your mark up by hand, which is good because FormAssembly provides a lot of custom scripts to help you with validation and grouping fields. 
+
+![Form assembly validation](/assets/images/blog/formassembly-validation.png)
+
+When you click the options for each field you can select the type of data you want in the field as well as if it’s presence is required. You can also click into each label to change the text or drag fields around to reorder them. 
+
+![Form assembly add fields](/assets/images/blog/formassembly-add-fields.png)
 
 Although I’m don’t like the generated markup that much, it’s definitely better than writing all the markup by hand. Also the markup is manageable. Once you’ve created your markup you can click back to your list of forms and click “publish”. Under publishing options there is a text box for you to snag all of form markup. Instead of leaving this in FormAssembly, I copied the markup into an html file and committed it to a github repository. Once you’ve finalized your form fields this makes it easier to manage revisions to your form. If you have changes to a field, simply update it in form assembly and copy the field html into your form again.
+
+![Form assembly publishing](/assets/images/blog/formassembly-publishing.png)
 
 # Styling your form
 Now the magic can begin. I recommend wrapping the FormAssembly markup in an `id` such as `<div id=“formAssembly”></div>` If you are embedding your form in an existing site, you’ll surely have issues with conflicting styles. Nest all of your styles under the `id` attached to your wrapper element to reduce styling difficulty.  
