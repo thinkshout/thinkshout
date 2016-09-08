@@ -1,21 +1,21 @@
 ---
 layout: blog
 body-class: blog-post
-topic: development
-header-image:
-header-image-alt:
-
-title: Form Assembly
-created:
-permalink: 
-tags: forms, front end, css
-short: Easy forms with FormAssembly
+topic: technology
+title: Building Forms with FormAssembly
+homepage: false
 author: eric
 published: false
+featured: false
+short: When Google Forms isn't the answer, try FormAssembly
+tags:
+  - Front end
+  - CMS
+  - FormAssembly
+  - CSS
+date: 2016-09-07 13:00:00
+image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
-
-# Form Assembly
-
 In a recent project here at ThinkShout, I needed to create a form for an existing site. Creating a form isn’t hard, but I had two problems I needed to solve that made things a little more complicated: 
 
 1) The form needed to adopt the style of the existing site. 
