@@ -7,7 +7,7 @@ homepage: false
 author: eric
 published: true
 featured: false
-short: When Google Forms isn't the answer, try FormAssembly
+short: When Google Forms isn't the answer, try FormAssembly.
 tags:
   - Front end
   - CMS
