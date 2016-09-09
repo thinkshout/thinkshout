@@ -13,7 +13,7 @@ tags:
   - CMS
   - FormAssembly
   - CSS
-date: 2016-09-09 10:00:00
+date: 2016-09-09 11:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 In a recent project here at ThinkShout, I needed to create a form for an existing site. Creating a form isn’t hard, but I had two problems I needed to solve that made things a little more complicated: 1) The form needed to adopt the style of the existing site and, 2) I had no backend to process the form.
@@ -48,5 +48,3 @@ The benefit of doing it this way is having all your styles in one place. Then if
 FormAssembly is really easy to use. As always, my only gripe with a tool like this is that you have less control over the final markup. However, this tool seemed to offer more control than other solutions. They also have a form API if you want to get more advanced. 
 
 If you're using FormAssembly on a current project, please share your experience in the comments. I'd love to knopw what you think.
-
-
