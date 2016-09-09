@@ -25,7 +25,7 @@ I could have used Google Forms. Although it’s a solution, Google Forms does no
 
 Usually, a site needs to collect some kind of data. It could be as simple as a contact form or collecting emails for a newsletter.  Forms are the way to collect user input on the internet, so we need them. You might have a static site or be a user of a CMS without the ability to create forms. A solution like FormAssembly can help solve this problem.
 
-# Building Your Form
+## Building Your Form
 Inside FormAssembly, you have access to a drag and drop interface. This way, you don’t have to create your markup by hand, which is good because FormAssembly provides a lot of custom scripts to help you with validation and grouping fields. 
 
 ![Form assembly validation](/assets/images/blog/formassembly-validation.png)
@@ -38,7 +38,7 @@ Although I’m don’t like the generated markup that much, it’s definitely be
 
 ![Form assembly publishing](/assets/images/blog/formassembly-publishing.png)
 
-# Styling Your Form
+## Styling Your Form
 Now the magic can begin. I recommend wrapping the FormAssembly markup in an `id` such as `<div id=“formAssembly”></div>` If you are embedding your form in an existing site, you’ll surely have issues with conflicting styles. Nest all of your styles under the `id` attached to your wrapper element to reduce styling difficulty.  
 
 You can include your styles inside your form, but I opted for an external stylesheet.  I added a style tag inside the wrapper element to link to my stylesheet hosted on GitHub:
@@ -47,7 +47,7 @@ You can include your styles inside your form, but I opted for an external styles
 
 The benefit of doing it this way is having all your styles in one place. Then if you create multiple forms, you can link them all to one stylesheet.
 
-# Summary
+## Summary
 FormAssembly is really easy to use. As always, my only gripe with a tool like this is that you have less control over the final markup. However, this tool seemed to offer more control than other solutions. They also have a form API if you want to get more advanced. 
 
 If you're using FormAssembly on a current project, please share your experience in the comments. I'd love to knopw what you think.
