@@ -31,7 +31,7 @@ When you click the options for each field, you can select the type of data you w
 
 ![Form assembly add fields](/assets/images/blog/formassembly-add-fields.png)
 
-Although I’m don’t like the generated markup that much, it’s definitely better than writing all the markup by hand. Also, the markup is manageable. Once you’ve created your markup, you can click back to your list of forms and click “publish." Under publishing options, there is a text box for you to snag all of the form markup. Instead of leaving this in FormAssembly, I copied the markup into an html file and committed it to a GitHub repository. Once you’ve finalized your form fields, this makes it easier to manage revisions to your form. If you have changes to a field, simply update it in FormAssembly and copy the field html into your form again.
+Although I don’t like the generated markup that much, it’s definitely better than writing all the markup by hand. Also, the markup is manageable. Once you’ve created your markup, you can click back to your list of forms and click “publish." Under publishing options, there is a text box for you to snag all of the form markup. Instead of leaving this in FormAssembly, I copied the markup into an html file and committed it to a GitHub repository. Once you’ve finalized your form fields, this makes it easier to manage revisions to your form. If you have changes to a field, simply update it in FormAssembly and copy the field html into your form again.
 
 ![Form assembly publishing](/assets/images/blog/formassembly-publishing.png)
 
