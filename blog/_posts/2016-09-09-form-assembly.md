@@ -16,10 +16,7 @@ tags:
 date: 2016-09-09 10:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
-In a recent project here at ThinkShout, I needed to create a form for an existing site. Creating a form isn’t hard, but I had two problems I needed to solve that made things a little more complicated: 
-
-1) The form needed to adopt the style of the existing site. 
-2) I had no backend to process the form.
+In a recent project here at ThinkShout, I needed to create a form for an existing site. Creating a form isn’t hard, but I had two problems I needed to solve that made things a little more complicated: 1) The form needed to adopt the style of the existing site and, 2) I had no backend to process the form.
 
 I could have used Google Forms. Although it’s a solution, Google Forms does not allow a custom confirmation page. This could lead your user to be lost and wonder why they’ve landed on such a nondescript page after submitting your form. With [FormAssembly](https://www.formassembly.com/), I could generate the form markup, add validation, and add a custom link for my users to be redirected to after submitting my form.
 
