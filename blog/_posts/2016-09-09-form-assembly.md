@@ -5,7 +5,7 @@ topic: technology
 title: Building Forms with FormAssembly
 homepage: false
 author: eric
-published: false
+published: true
 featured: false
 short: When Google Forms isn't the answer, try FormAssembly
 tags:
@@ -13,7 +13,7 @@ tags:
   - CMS
   - FormAssembly
   - CSS
-date: 2016-09-07 13:00:00
+date: 2016-09-09 10:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 In a recent project here at ThinkShout, I needed to create a form for an existing site. Creating a form isn’t hard, but I had two problems I needed to solve that made things a little more complicated: 
