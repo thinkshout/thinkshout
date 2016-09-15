@@ -25,11 +25,11 @@ cs-header:
 
 cs-intro:
   type: "Responsive Drupal Site"
-  mission: "Facing History helps students learn about hatred and bigotry so they can stop them from happening in the future."
+  mission: "Facing History helps students learn about hatred and bigotry so they can prevent them from happening in the future."
   link-text: "View The Site"
   link-url: https://www.facinghistory.org/
   text: |
-    Facing History and Ourselves provides students and teachers with educational resources that examine historical and modern bigotry. They seek to safeguard a more humane citizenry by encouraging careful study of prejudice as it affects our communities. Our engagement with Facing History began several years ago when we were approached to tackle a back-end redesign of their website. Over time, we recognized an opportunity to further improve upon the site architecture to better meet their web goals. We recommended a front-end redesign, and Facing History decided to pursue it.
+    Facing History and Ourselves provides students and teachers with educational resources that examine historical and modern bigotry. They seek to safeguard a more humane citizenry by encouraging careful study of prejudice as it affects our communities. Our engagement with Facing History began several years ago when we were approached to tackle a move from Drupal 6 to Drupal 7 using new designs from another agency. Over time, we recognized an opportunity to further improve upon the site architecture to better meet their web goals. We recommended a front-end redesign, and Facing History decided to pursue it.
 
 cs-sections:
   - section-image: "/assets/images/ts_redesign/case-studies/facing-history-redesign/facinghistory-lesson.jpg"
@@ -39,23 +39,23 @@ cs-sections:
     section-description: |
       We identified areas where we could improve upon the end-user experience to better communicate the importance of Facing History’s work. In doing so, we also identified areas where structural changes needed to be made in order to support the subsequent design changes.
 
-      The Facing History team recognized that how they thought about their content also needed to change. They moved from their previous organizational system to one that grouped content by topic areas as opposed to content types, which was an overall shift from insider thinking to user thinking. The end result was an effective strategy for surfacing content, design, and UX vision for the site.
+      The Facing History team recognized that how they thought about their content also needed to change. They moved from their previous organizational system to one that grouped content by topic areas as opposed to content types, which was an overall shift from insider thinking to user thinking. The end result was an effective strategy for surfacing content on the site for Facing History's diverse audiences.
 
   - section-image: "/assets/images/ts_redesign/case-studies/facing-history-redesign/facinghistory-mobile.jpg"
     section-image-alt: "Facing History on Mobile"
 
   - section-title: "Design & User Experience"
     section-description: |
-      We did things a little differently with this design process. We actually presented a homepage comp to Facing History stakeholders as the first step of the design process. Once Facing History signed off on that comp, we began building the various responsive sizes that we would need based on the original comp. Then came the wireframes, which we created in Sketch. From there, we moved onto the design.
+      We did things a little differently with this design process. We presented a homepage comp to Facing History stakeholders as the first step. Once Facing History signed off on that comp as a general design direction, we began building the various responsive sizes that we would need. Then came the wireframes, which we created in Sketch. From there, we moved onto the design.
 
-      Facing History’s site had a lot of moving pieces and a massive library of content that needed to be displayed in a variety of ways - card views, teasers, to full and detailed pages. We developed new calls to action that encouraged user engagement with this content. Image styling was a major element of this redesign, transforming what was formerly a primarily text-based site into a highly visual educational experience.
+      Facing History’s site had a lot of moving pieces and a massive library of content that needed to be displayed in a variety of ways - from card views and teasers to full, detailed pages. We developed new calls to action that encouraged user engagement with the content. Image styling was a major element of this redesign, transforming what was formerly a primarily text-based site into a highly visual educational experience.
 
   - section-image: "/assets/images/ts_redesign/case-studies/facing-history-redesign/facinghistory-home.jpg"
     section-image-alt: "Facing History Home"
 
   - section-title: "Implementation"
     section-description: |
-      We built two types of related content blocks, giving Facing History the tools to pull users deeper into their content. The first was a related content block where editors could reference any number of pieces of content or media, and then have them rendered in an attractive "card" view below or beside the primary content. When a curated block of related content isn't available, we use Apache Solr's “More Like This” functionality to display relevant content based on its similarity with the primary content. These same blocks can also show related or relevant upcoming events.
+      We built two types of related content blocks, giving Facing History the tools to pull users deeper into their content. The first was a related content block where editors could reference any number of pieces of content or media, and then have them rendered in an attractive "card" view below or beside the primary content. When a curated block of related content isn't available, we use Apache Solr's “More Like This” functionality to display relevant content based on its similarity with the primary content. These same blocks can also show related or relevant upcoming events. To the end user, there's no difference between how the blocks appear, but the flexibility affords Facing History's team the ability to carefully curate the most important content without worrying about breaking the experience in other areas.
 
   - section-image: "/assets/images/ts_redesign/case-studies/facing-history-redesign/facinghistory-aboutus.jpg"
     section-image-alt: "About Facing History"
