@@ -5,7 +5,7 @@ body-class: case-study hsus-changeforanimals
 active: true
 homepage: true
 published: true
-order:3
+order: 3
 # END LAYOUT DATA
 
 title: "Transformational Change for Animals"
