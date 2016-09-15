@@ -2,10 +2,10 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study facing-history-redesign
-active: false
-homepage: false
+active: true
+homepage: true
 published: true
-order: 10
+order: 4
 # END LAYOUT DATA
 
 
