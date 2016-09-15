@@ -5,7 +5,7 @@ body-class: case-study ocean-outcomes
 active: true
 homepage: true
 published: true
-order: 2
+order: 3
 # END LAYOUT DATA
 
 title: Ocean Outcomes
