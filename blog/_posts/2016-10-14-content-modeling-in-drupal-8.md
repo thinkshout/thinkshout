@@ -7,7 +7,7 @@ homepage: false
 author: greg  
 published: false
 featured: false
-short: 
+short: Avoid creating overly complex content systems in Drupal by keeping these few things in mind.
 tags:
   - Drupal 8
   - Drupal
