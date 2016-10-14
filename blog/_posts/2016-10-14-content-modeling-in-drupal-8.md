@@ -17,7 +17,7 @@ date: 2016-10-14 11:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
-In many modern frameworks, data modeling is done by building out database tables. In Drupal, we use a web-based interface to build our models. This interface makes building the database accessible for people with no database experience. However, this easy access can lead to overly complex content models because it’s so easy to build out advanced structures with a few hours of clicking. It’s surprising how often Drupal developers are expected to be content modeling experts. Rachel Lovinger wrote this great overview of content modeling for the rest of us who aren’t experts yet.
+In many modern frameworks, data modeling is done by building out database tables. In Drupal, we use a web-based interface to build our models. This interface makes building the database accessible for people with no database experience. However, this easy access can lead to overly complex content models because it’s so easy to build out advanced structures with a few hours of clicking. It’s surprising how often Drupal developers are expected to be content modeling experts. Rachel Lovinger wrote this great [overview of content modeling](http://alistapart.com/article/content-modelling-a-master-skill) for the rest of us who aren’t experts yet.
 
 ##Data Modeling Goal
 
@@ -25,7 +25,7 @@ Our goal when modeling content in Drupal is to build out the structure that will
 
 ##Getting Started
 
-One of the first things to do when building a Drupal site is build content types. So, before you start a site build, start with either a content model or a detail page wireframe. This spreadsheet from Palantir will help you. The home page design may look amazing, but it’s unhelpful for building out content types. Get the detail pages before you start building.
+One of the first things to do when building a Drupal site is build content types. So, before you start a site build, start with either a content model or a detail page wireframe. This [spreadsheet from Palantir](https://docs.google.com/spreadsheets/d/15htLLWLguhwiuTLg_nndQNpgWVdUMy6UaR_d1q-v6iw/edit#gid=0) will help you. The home page design may look amazing, but it’s unhelpful for building out content types. Get the detail pages before you start building.
 
 ##Why Reduce Complexity?
 
@@ -39,5 +39,6 @@ Drupal has many built in entities like files, taxonomy, users, nodes, comments, 
 
 ##Break Up the Edit Form
 
-Drupal 8 allows you to have different form displays for a single content type. With either Form Mode Control or Form Mode Manager, you can create different edit experiences for the same content type without overloading the admin interface.
+Drupal 8 allows you to have different form displays for a single content type. With either [Form Mode Control](https://www.drupal.org/project/form_mode_control) or [Form Mode Manager](https://www.drupal.org/project/form_mode_manager), you can create different edit experiences for the same content type without overloading the admin interface.
+
 By reducing the complexity of the content model, we decrease maintenance cost, improve the consistency of the website, and simplify the editing experience. Now that you’ve got some content modeling basics, look for opportunities to reduce and reuse content types in your Drupal projects. Content editors will thank you.
