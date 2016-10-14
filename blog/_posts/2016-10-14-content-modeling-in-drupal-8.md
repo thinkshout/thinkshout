@@ -5,7 +5,7 @@ topic: technology
 title: Content Modeling in Drupal 8
 homepage: false
 author: greg  
-published: false
+published: true
 featured: false
 short: Avoid creating overly complex content systems in Drupal by keeping these few things in mind.
 tags:
