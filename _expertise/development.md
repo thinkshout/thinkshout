@@ -56,4 +56,4 @@ We know many nonprofits generate support and donations by holding events, so we 
 
 Visualizing data helps our clients create meaning and engagement with their online audiences. By leveraging the Drupal “geo stack” of Leaflet and Geofield, we’ve helped nonprofits across the country better tell their stories.
 
-But we haven’t stopped there. The full list of our contributions demonstrates our commitment to open source software that supports the needs of nonprofits. [Check out our full list of open source contributions.]({{site.baseurl}}/expertise/open-source-contributions/)
+But we haven’t stopped there. The full list of our contributions demonstrates our commitment to open source software that supports the needs of nonprofits. [Check out our full list of open source contributions.]({{site.baseurl}}/expertise/open-source/)
