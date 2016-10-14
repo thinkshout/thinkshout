@@ -28,6 +28,16 @@
       h3 {
         color: $orange;
         font-size: rem(26);
+        line-height: 1.25;
+        @include mq(t) {
+          line-height: 1.5;
+        }
+        @include mq(d) {
+          line-height: 1.75;
+        }
+      }
+      ul.whr-items {
+        padding-left: 0;
       }
 
       @include mq(d) {

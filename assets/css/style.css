@@ -3205,7 +3205,16 @@ a:visited {
       border-top: 1px solid #dbdcde; }
     .careers .job-list .job-teaser h3 {
       color: #f26d21;
-      font-size: 1.625rem; }
+      font-size: 1.625rem;
+      line-height: 1.25; }
+      @media (min-width: 481px) and (max-width: 979px) {
+        .careers .job-list .job-teaser h3 {
+          line-height: 1.5; } }
+      @media (min-width: 980px) {
+        .careers .job-list .job-teaser h3 {
+          line-height: 1.75; } }
+    .careers .job-list .job-teaser ul.whr-items {
+      padding-left: 0; }
     @media (min-width: 980px) {
       .careers .job-list .job-teaser p {
         max-width: 50%;
