@@ -13,7 +13,7 @@ tags:
   - Drupal
   - Drupal Planet
   - Content modeling
-date: 2016-10-14 14:00:00
+date: 2016-10-14 15:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
