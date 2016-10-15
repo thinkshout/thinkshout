@@ -17,7 +17,7 @@ date: 2016-10-14 15:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
-*Originally published Sept. 25, 2016 on [GregBoggs.com.](http://www.gregboggs.com/)
+*Originally published Sept. 25, 2016 on [GregBoggs.com.](http://www.gregboggs.com/)*
 
 In many modern frameworks, data modeling is done by building out database tables. In Drupal, we use a web-based interface to build our models. This interface makes building the database accessible for people with no database experience. However, this easy access can lead to overly complex content models because it’s so easy to build out advanced structures with a few hours of clicking. It’s surprising how often Drupal developers are expected to be content modeling experts. Rachel Lovinger wrote this great [overview of content modeling](http://alistapart.com/article/content-modelling-a-master-skill) for the rest of us who aren’t experts yet.
 
