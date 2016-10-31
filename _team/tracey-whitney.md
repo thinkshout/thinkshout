@@ -18,3 +18,4 @@ current-employee: true
 name: tracey
 bio: |
   Web projects and broadcast projects aren’t too different, aside from the television part. Both require an overseer who’s not afraid to manage many moving pieces. As a result, Tracey knows how to manage tight deadlines, quick turnarounds, and translate lots of information into action items. Before coming to ThinkShout, Tracey worked at Oregon Public Broadcasting and Funnel Box, where she accumulated experience in both the nonprofit and agency realms. Those worlds collided when she joined the team, and now she’s blending her agency chops with her nonprofit background to help us create exciting new tools for our clients.
+  ---
