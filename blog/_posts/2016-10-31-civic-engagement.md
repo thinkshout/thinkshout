@@ -5,7 +5,7 @@ topic: culture
 title: Civic Engagement at ThinkShout
 homepage: true
 author: lev  
-published: false
+published: true
 featured: true
 short: This election season, we're helping our staff be the change they want to see in our community.
 tags:
@@ -14,6 +14,7 @@ tags:
   - Civic Engagement
 date: 2016-10-31 13:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
+header-image: /assets/images/blog/civic-engagement.jpg
 ---
 One of the defining characteristics of the ThinkShout team is our desire to use business as a force for good. It's what inspires the team, drives our [B Corp status](https://www.bcorporation.net/community/thinkshout-inc), and draws clients and partners who share our values.
 
