@@ -7,8 +7,8 @@ leadin: |
  Corey feels right at home in the web world. He’s launched projects for industry giants like Nike, Apple, and Microsoft. At ThinkShout, he gets to put his experience to use for the organizations closest to his heart.
 social:
   github: 
-  twitter:
-  linkedin: 
+  twitter: https://twitter.com/coreymlong
+  linkedin: http://linkedin.com/in/coreymlong
 team-image:
   small: team/small/corey.jpg
   medium: team/medium/corey.jpg
