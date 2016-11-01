@@ -13,10 +13,10 @@ team-image:
   small: team/small/corey.jpg
   medium: team/medium/corey.jpg
   large: team/large/corey.jpg
-published: false
+published: true
 current-employee: true
 name: corey
 bio: |
-  Corey’s move to ThinkShout was due in part to his desire to work for a company whose values align with his professional goals. We’re thrilled to have him and his skills. Before joining our team, Corey worked in both Project Manager and Digital producer roles to help build websites and mobile applications for a wide variety of organizations. He even helped launched NIKEiD, a service on Nike.com that allows users to customize their purchased apparel. When Corey isn’t overseeing projects, he’s spending time with his kids, reading, or nerding out about whatever’s currently taken his interest.
+  Corey’s move to ThinkShout was due in part to his desire to work for a company whose values align with his professional goals. We’re thrilled to have him and his skills. Before joining our team, Corey worked in both project manager and digital producer roles to help build websites and mobile applications for a wide variety of organizations. He even helped launched NIKEiD, a service on Nike.com that allows users to customize their purchased apparel. When Corey isn’t overseeing projects, he’s spending time with his kids, reading, or nerding out about whatever’s currently taken his interest.
 slug: corey
 ---
