@@ -5070,16 +5070,13 @@ header {
     position: relative; }
     @media (min-width: 671px) and (max-width: 979px) {
       .front .who-we-are {
-        padding: 4rem 0;
-        margin-bottom: 2rem; } }
+        padding: 4rem 0; } }
     @media (min-width: 980px) and (max-width: 1199px) {
       .front .who-we-are {
-        padding: 8rem 0;
-        margin-bottom: 4rem; } }
+        padding: 8rem 0; } }
     @media (min-width: 1200px) {
       .front .who-we-are {
-        padding: 13rem 0;
-        margin-bottom: 7rem; } }
+        padding: 13rem 0; } }
     .front .who-we-are:after {
       background: url("../images/ts_redesign/home_hero.jpg") left top no-repeat;
       background-size: cover;
