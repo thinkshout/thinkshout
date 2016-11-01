@@ -34,5 +34,3 @@ ThinkShout is proud to support our team spending up to a half day on various civ
 I am honored to be able to work with a group of individuals so willing to dedicate themselves to making the world a better place. The least that ThinkShout can do is stay true to its values and leverage the business to have a positive impact, however small.
 
 I’ve heard it said that Democracy is a participatory sport. Go get in the game while you can!
-
-
