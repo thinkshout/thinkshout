@@ -13,7 +13,7 @@ tags:
   - B Corp
   - Civic engagement
 date: 2016-11-01 09:30:00
-image: https://thinkshout.com/assets/images/ts_icon.jpg
+image: https://thinkshout.com/assets/images/blog/civic-engagement-header.jpg
 header-image: /assets/images/blog/civic-engagement-header.jpg
 header-image-alt: "The Giving Team"
 ---
@@ -34,5 +34,3 @@ ThinkShout is proud to support our team spending up to a half day on various civ
 I am honored to be able to work with a group of individuals so willing to dedicate themselves to making the world a better place. The least that ThinkShout can do is stay true to its values and leverage the business to have a positive impact, however small.
 
 I’ve heard it said that Democracy is a participatory sport. Go get in the game while you can!
-
-
