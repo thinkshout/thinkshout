@@ -13,7 +13,7 @@ team-image:
   small: team/small/tracey.jpg
   medium: team/medium/tracey.jpg
   large: team/large/tracey.jpg
-published: false
+published: true
 current-employee: true
 name: tracey
 bio: |
