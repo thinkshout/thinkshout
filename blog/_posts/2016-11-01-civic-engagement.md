@@ -11,8 +11,8 @@ short: This election season, we're helping our staff be the change they want to 
 tags:
   - Culture
   - B Corp
-  - Civic Engagement
-date: 2016-10-31 13:00:00
+  - Civic engagement
+date: 2016-10-31 09:30:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 header-image: /assets/images/blog/civic-engagement-header.jpg
 header-image-alt: "The Giving Team"
