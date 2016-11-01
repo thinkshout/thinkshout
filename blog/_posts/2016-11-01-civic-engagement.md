@@ -13,6 +13,7 @@ tags:
   - B Corp
   - Civic engagement
 date: 2016-11-01 09:30:00
+image: http://thinkshout.com/assets/images/blog/civic-engagement-header.jpg
 header-image: /assets/images/blog/civic-engagement-header.jpg
 header-image-alt: "The Giving Team"
 ---
