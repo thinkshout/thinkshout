@@ -7,7 +7,7 @@ homepage: false
 author: amy  
 published: false
 featured: false
-short: 
+short: New to Drupal 8 theming? These tips might make the learning curve a little less steep.
 tags:
   - Drupal planet
   - Drupal 8
