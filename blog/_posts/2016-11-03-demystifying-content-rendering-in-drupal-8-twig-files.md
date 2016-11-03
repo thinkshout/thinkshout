@@ -5,7 +5,7 @@ topic: technology
 title: Turning a New Leaf - Demystifying Content Rendering in Drupal 8 Twig Files
 homepage: false
 author: amy  
-published: false
+published: true
 featured: false
 short: New to Drupal 8 theming? These tips might make the learning curve a little less steep.
 tags:
@@ -14,9 +14,9 @@ tags:
   - Twig
   - Content rendering
 date: 2016-11-03 12:00:00
-image: https://thinkshout.com/assets/images/blog/civic-engagement-header.jpg
-header-image: /assets/images/blog/civic-engagement-header.jpg
-header-image-alt: "The Giving Team"
+image: https://thinkshout.com/assets/images/blog/content-rendering-header.jpg
+header-image: /assets/images/blog/content-rendering-header.jpg
+header-image-alt: "Content Rendering in Drupal 8"
 ---
 Have you ever stared at your computer screen with a deer-in-headlights expression on your face thinking “I have no idea where to even start with this…”? That was me about a month ago when I was asked to help theme a Drupal 8 project for the very first time. Getting started theming in Drupal 8, still being in a fairly new iteration with a programming style differing from Drupal 7, was both an exciting and daunting task. It was exciting in the sense that I heard good things from those who’ve already started theming in D8, and daunting because there’d been a lot of changes between D7 and D8.
 
