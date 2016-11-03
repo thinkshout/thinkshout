@@ -28,13 +28,13 @@ Though there are a handful of debugging methods to choose from, I had the best l
 
 After following the steps listed in [Lubomir Culen’s post about debugging Twig templates](https://dev.acquia.com/blog/debugging-drupal-8/debugging-twig-templates-in-drupal-8-with-phpstorm-and-xdebug/25/08/2016/16586), I began to look for templates in the following path `sites/default/files/php`. From my understanding, opening a template folder gains access to the current template version the project is using, hence the long hash. 
 
-![content-rendering-1.png](http://thinkshout.com/assets/images/blog/content-rendering-1.png)
+![Content rendering 1](http://thinkshout.com/assets/images/blog/content-rendering-1.png)
 
 If a change is made to the template, an additional hash file is created and a new breakpoint will need to be set. If at any point the hash template files get overwhelming, clearing the cache (running `drush cr all`) will reset the PHP folder and the template files, reducing the hash files to one per template folder.
 
 First off, I needed to acclimate myself to translating PHPStorm syntax into Twig. For example, copying a variable name in PHPStorm produces a syntax like this: `$context[‘page’][‘#title’]->arguments[‘@name’]`. That gets translated into the twig file like so: `page[‘#title’].arguments[‘@name’]`. Here’s what my PHPStorm screen looked like while working on this solution:
 
-![content-rendering-2.png](http://thinkshout.com/assets/images/blog/content-rendering-2.png)
+![Content rendering 2](http://thinkshout.com/assets/images/blog/content-rendering-2.png)
 
 Some patterns and tricks I found helpful:
 
