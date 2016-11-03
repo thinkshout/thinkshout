@@ -23,7 +23,6 @@ Have you ever stared at your computer screen with a deer-in-headlights expressio
 
 One of the differences between Drupal 7 and 8 is template files; PHPTemplate (.tpl.php) files were replaced with Twig (.html.twig) files. [Twig](http://twig.sensiolabs.org/) is a robust and elegant template engine for PHP. Once I started working with Twig, I instantly loved it. I found it to be lightweight, fairly quick to pick up, and very readable. Not only that, but I had what felt like ultimate control to the markup, including wrapping elements and rendering exactly the ouput I needed. Often with Drupal 7, wrapping elements in a `<div>` requires assistance from a back-end developer.
 
-
 With this newfound enthusiasm, I set out to write the best twig code ever! In order to find the output I needed, I used the Twig function [dump()](http://twig.sensiolabs.org/doc/functions/dump.html). This function “dumps” a variable’s information right on the screen. This proved highly useful until I realized I needed to dig deeper into the arrays and objects contained within the variable. There was only so much guess work I could do here before getting epically frustrated, seemingly wasting valuable time looking for an image file’s path.
 
 
