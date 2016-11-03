@@ -5,7 +5,7 @@ topic: technology
 title: Turning a New Leaf - Demystifying Content Rendering in Drupal 8 Twig Files
 homepage: false
 author: amy  
-published: true
+published: false
 featured: false
 short: New to Drupal 8 theming? These tips might make the learning curve a little less steep.
 tags:
