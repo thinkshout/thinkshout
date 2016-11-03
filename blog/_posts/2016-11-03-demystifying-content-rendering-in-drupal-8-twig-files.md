@@ -5,7 +5,7 @@ topic: technology
 title: Turning a New Leaf - Demystifying Content Rendering in Drupal 8 Twig Files
 homepage: false
 author: amy  
-published: false
+published: true
 featured: false
 short: New to Drupal 8 theming? These tips might make the learning curve a little less steep.
 tags:
@@ -34,7 +34,7 @@ If a change is made to the template, an additional hash file is created and a ne
 
 First off, I needed to acclimate myself to translating PHPStorm syntax into Twig. For example, copying a variable name in PHPStorm produces a syntax like this: `$context[‘page’][‘#title’]->arguments[‘@name’]`. That gets translated into the twig file like so: `page[‘#title’].arguments[‘@name’]`. Here’s what my PHPStorm screen looked like while working on this solution:
 
-![content-rendering-2.jpg](http://thinkshout.com/assets/images/blog/content-rendering-2.png)
+![content-rendering-2.png](http://thinkshout.com/assets/images/blog/content-rendering-2.png)
 
 Some patterns and tricks I found helpful:
 
