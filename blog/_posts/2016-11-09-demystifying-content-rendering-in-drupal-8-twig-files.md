@@ -2,7 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: technology
-title: Turning a New Leaf - Demystifying Content Rendering in Drupal 8 Twig Files
+title: Demystifying Content Rendering in Drupal 8 Twig Files
 homepage: true
 author: amy  
 published: true
