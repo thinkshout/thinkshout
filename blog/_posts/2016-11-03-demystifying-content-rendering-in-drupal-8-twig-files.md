@@ -3,17 +3,17 @@ layout: blog
 body-class: blog-post
 topic: technology
 title: Turning a New Leaf - Demystifying Content Rendering in Drupal 8 Twig Files
-homepage: false
+homepage: true
 author: amy  
-published: false
-featured: false
+published: true
+featured: true
 short: New to Drupal 8 theming? These tips might make the learning curve a little less steep.
 tags:
   - Drupal planet
   - Drupal 8
   - Twig
   - Content rendering
-date: 2016-11-03 12:00:00
+date: 2016-11-09 14:00:00
 image: https://thinkshout.com/assets/images/blog/content-rendering-header.jpg
 header-image: /assets/images/blog/content-rendering-header.jpg
 header-image-alt: "Content Rendering in Drupal 8"
