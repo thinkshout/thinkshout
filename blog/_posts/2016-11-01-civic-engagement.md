@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: culture
 title: Civic Engagement at ThinkShout
-homepage: true
+homepage: false
 author: lev  
 published: true
-featured: true
+featured: false
 short: This election season, we're helping our staff be the change they want to see in our community.
 tags:
   - Culture
