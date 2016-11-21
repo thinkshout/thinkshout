@@ -13,7 +13,7 @@ tags:
   - Donor retention
   - E-mail
 date: 2016-11-21 14:00:00
-image: https://thinkshout.com/assets/images/blog/content-rendering-header.jpg
+image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 For many, this election cycle and the subsequent aftermath has been a rather unsettling, tumultuous experience. I’m still processing and mapping out what’s next and where to focus my personal resources – but in the nonprofit space, there has already been much conjecture about what this new administration will mean for the industry. 
 
