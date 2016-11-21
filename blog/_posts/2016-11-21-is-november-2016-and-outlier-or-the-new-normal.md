@@ -5,9 +5,9 @@ topic: strategy
 title: Is November 2016 an Outlier or the New Normal?
 homepage: false
 author: natania  
-published: false
+published: true
 featured: false
-short: 
+short: We have some tips to help you keep those new donors engaged.
 tags:
   - Fundraising
   - Donor retention
