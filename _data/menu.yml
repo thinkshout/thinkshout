@@ -7,6 +7,18 @@ main-menu:
 
   - title: What We Do
     url: /expertise/
+    sub:
+      - title: Strategy & Metrics
+        url: /expertise/content-strategy/
+
+      - title: Design & UX
+        url: /expertise/design/
+
+      - title: Engagement Tools
+        url: /expertise/engagement-tools/
+
+      - title: Development
+        url: /expertise/development/
 
   - title: Our Work
     url: /work/
@@ -17,22 +29,10 @@ main-menu:
   - title: Blog
     url: /blog/
 
-secondary:
-  - title: Strategy & Metrics
-    url: /expertise/content-strategy/
-
-  - title: Design & UX
-    url: /expertise/design/
-
-  - title: Engagement Tools
-    url: /expertise/engagement-tools/
-
-  - title: Development
-    url: /expertise/development/
-
   - title: Careers
     url: /careers/
 
+copyright:
   - title: Privacy Policy
     url: /privacy/
 

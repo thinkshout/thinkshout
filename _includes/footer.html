@@ -5,18 +5,20 @@
         {% for item in site.data.menu.main-menu %}
         <li>
           <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-      <ul class="secondary-menu-footer">
-        {% for item in site.data.menu.secondary %}
-        <li>
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+          {% if item.sub %}
+            <ul class="footer-submenu">
+            {% for subitem in item.sub %}
+              <li>
+                <a href="{{ site.baseurl }}{{ subitem.url }}">{{ subitem.title }}</a>
+              </li>
+            {% endfor %}
+            </ul>
+          {% endif %}
         </li>
         {% endfor %}
       </ul>
   	</nav>
-    
+
     <div class="bcorp-logo">
       {% assign items = site.data.menu.external %}
       {% for item in items %}
@@ -30,6 +32,12 @@
 
     <div class="copyright">
       &copy;2016 ThinkShout, Inc. ThinkShout and the ThinkShout logos are registered trademarks of ThinkShout, Inc.
+      {% assign items = site.data.menu.copyright %}
+      {% for item in items %}
+        {% if item.title == 'Privacy Policy' %}
+          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </footer>
