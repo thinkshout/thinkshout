@@ -4829,31 +4829,23 @@ footer {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 82.94039%; }
+    width: 91.4702%; }
     footer .footer-menu:last-child {
       margin-right: 0; }
   footer ul {
     padding-left: 0; }
-  footer li {
-    color: #f58546;
-    display: inline;
+  footer .main-menu-footer > li {
+    display: inline-table;
     font-size: 0.875rem;
-    line-height: 1.75;
-    margin-left: 0;
-    margin-right: 1rem; }
-    @media (max-width: 480px) {
-      footer li {
-        display: block;
-        font-size: 1.5rem;
-        line-height: 1.75; } }
-    @media (min-width: 481px) and (max-width: 979px) {
-      footer li {
-        display: list-item;
-        font-size: 1.5rem; } }
-    footer li:hover {
-      text-decoration: underline; }
+    line-height: 1.75; }
+  footer .main-menu-footer > li > a {
+    margin-right: 2rem; }
+  footer .main-menu-footer .footer-submenu {
+    margin-top: 0.5rem; }
+    footer .main-menu-footer .footer-submenu a {
+      color: #fff; }
   footer img {
-    max-width: 2.5rem; }
+    max-width: 4rem; }
   footer .secondary-menu-footer li a {
     color: #f78c50; }
   footer .bcorp-logo {
@@ -4874,7 +4866,8 @@ footer {
         width: 95%; } }
     @media (min-width: 980px) {
       footer .copyright {
-        width: 30%; } }
+        text-align: right;
+        width: 32.6%; } }
 
 header {
   background-color: #fff;
