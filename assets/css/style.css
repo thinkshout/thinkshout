@@ -4824,6 +4824,14 @@ footer {
       height: auto;
       padding-bottom: 7rem;
       padding-top: 2rem; } }
+  footer .footer-menu {
+    display: block;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%; }
+    footer .footer-menu:last-child {
+      margin-right: 0; }
   footer ul {
     padding-left: 0; }
   footer li {
@@ -4848,35 +4856,9 @@ footer {
     max-width: 2.5rem; }
   footer .secondary-menu-footer li a {
     color: #f78c50; }
-  footer .ts-address {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 82.94039%;
-    color: #fff;
-    font-size: 0.875rem;
-    line-height: 1.75;
-    margin-top: 2rem;
-    font-size: 0.875rem; }
-    footer .ts-address:last-child {
-      margin-right: 0; }
   footer .bcorp-logo {
-    margin-top: 2.5rem;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 14.70196%;
-    margin-right: 0;
-    text-align: right; }
-    footer .bcorp-logo:last-child {
-      margin-right: 0; }
-    @media (max-width: 480px) {
-      footer .bcorp-logo {
-        right: 1rem; } }
-    @media (min-width: 481px) and (max-width: 979px) {
-      footer .bcorp-logo {
-        margin-top: 2rem;
-        position: inherit; } }
+    text-align: right;
+    padding-top: 1.75rem; }
   footer .copyright {
     bottom: 5.5rem;
     color: #a6a8ad;
@@ -4893,19 +4875,6 @@ footer {
     @media (min-width: 980px) {
       footer .copyright {
         width: 30%; } }
-  @media (min-width: 481px) and (max-width: 979px) {
-    footer ul,
-    footer .ts-address,
-    footer .bcorp-logo {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%;
-      text-align: center; }
-      footer ul:last-child,
-      footer .ts-address:last-child,
-      footer .bcorp-logo:last-child {
-        margin-right: 0; } }
 
 header {
   background-color: #fff;
