@@ -90,22 +90,32 @@ footer {
   }
 
   .copyright {
-    bottom: 5.5rem;
     color: darken($ltgray, 20%);
+    float: right;
     font-size: rem(12);
-    position: absolute;
+    position: relative;
 
-    @include mq(m) { bottom: 2rem; }
+    a {
+      color: darken($ltgray, 20%);
+      font-weight: bold;
+
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+
+    // @include mq(m) { bottom: 2rem; }
 
     @include mq(t) {
-      bottom: 3rem;
       text-align: center;
       width: 95%;
     }
 
-    @include mq(d) {
+    @include mq(l) {
       text-align: right;
-      width: 32.6%;
+      top: 12rem;
+      width: 45%;
     }
   }
 }

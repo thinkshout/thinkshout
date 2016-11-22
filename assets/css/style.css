@@ -4852,22 +4852,25 @@ footer {
     text-align: right;
     padding-top: 1.75rem; }
   footer .copyright {
-    bottom: 5.5rem;
     color: #a6a8ad;
+    float: right;
     font-size: 0.75rem;
-    position: absolute; }
-    @media (max-width: 480px) {
-      footer .copyright {
-        bottom: 2rem; } }
+    position: relative; }
+    footer .copyright a {
+      color: #a6a8ad;
+      font-weight: bold; }
+      footer .copyright a:hover {
+        cursor: pointer;
+        text-decoration: underline; }
     @media (min-width: 481px) and (max-width: 979px) {
       footer .copyright {
-        bottom: 3rem;
         text-align: center;
         width: 95%; } }
-    @media (min-width: 980px) {
+    @media (min-width: 1200px) {
       footer .copyright {
         text-align: right;
-        width: 32.6%; } }
+        top: 12rem;
+        width: 45%; } }
 
 header {
   background-color: #fff;
