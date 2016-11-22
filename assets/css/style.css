@@ -4844,13 +4844,24 @@ footer {
     margin-top: 0.5rem; }
     footer .main-menu-footer .footer-submenu a {
       color: #fff; }
-  footer img {
-    max-width: 4rem; }
   footer .secondary-menu-footer li a {
     color: #f78c50; }
   footer .bcorp-logo {
     text-align: right;
     padding-top: 1.75rem; }
+    footer .bcorp-logo img {
+      max-width: 4rem; }
+  footer .social-media {
+    display: block;
+    float: left;
+    position: relative;
+    top: 11rem;
+    width: 25%; }
+    footer .social-media li {
+      display: inline;
+      margin-right: 0.5rem; }
+    footer .social-media img {
+      max-width: 1.5rem; }
   footer .copyright {
     color: #a6a8ad;
     float: right;
@@ -5531,56 +5542,6 @@ header {
         font-size: 1.5rem;
         margin-left: 0.625rem;
         vertical-align: sub; }
-  .newsletter-block .social-media {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%;
-    z-index: 1; }
-    .newsletter-block .social-media:last-child {
-      margin-right: 0; }
-    @media (min-width: 481px) and (max-width: 979px) {
-      .newsletter-block .social-media {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%;
-        margin-top: 2rem; }
-        .newsletter-block .social-media:last-child {
-          margin-right: 0; } }
-    @media (max-width: 480px) {
-      .newsletter-block .social-media {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%;
-        margin-top: 2rem; }
-        .newsletter-block .social-media:last-child {
-          margin-right: 0; } }
-    @media (min-width: 980px) {
-      .newsletter-block .social-media {
-        float: right !important; } }
-    .newsletter-block .social-media h1,
-    .newsletter-block .social-media ul {
-      clear: right;
-      float: right; }
-      @media (min-width: 481px) and (max-width: 979px) {
-        .newsletter-block .social-media h1,
-        .newsletter-block .social-media ul {
-          float: none; } }
-      @media (max-width: 480px) {
-        .newsletter-block .social-media h1,
-        .newsletter-block .social-media ul {
-          float: none; } }
-    .newsletter-block .social-media ul {
-      margin-top: 0; }
-      @media (max-width: 480px) {
-        .newsletter-block .social-media ul {
-          padding: 0; } }
-    .newsletter-block .social-media li {
-      display: inline-block;
-      width: 50px;
-      padding-right: 1em; }
 
 .open-source-contributions {
   background: url("../images/ts_redesign/open-source-contributions1.jpg") right center no-repeat;

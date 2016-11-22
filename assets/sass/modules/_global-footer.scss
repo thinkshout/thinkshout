@@ -76,10 +76,6 @@ footer {
   //   }
   // }
 
-  img {
-    max-width: 4rem;
-  }
-
   .secondary-menu-footer {
     li a { color: $ltorange; }
   }
@@ -87,6 +83,26 @@ footer {
   .bcorp-logo {
     text-align: right;
     padding-top: rem(28);
+
+    img {
+      max-width: 4rem;
+    }
+  }
+
+  .social-media {
+    display: block;
+    float: left;
+    position: relative;
+    top: 11rem;
+    width: 25%;
+
+    li {
+      display: inline;
+      margin-right: 0.5rem;
+    }
+    img {
+      max-width: 1.5rem;
+    }
   }
 
   .copyright {
