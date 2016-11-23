@@ -5155,11 +5155,12 @@ header {
   .front .featured-case-study {
     background: url("../images/ts_redesign/case-studies/splc-main/header1.jpg") center center;
     background-size: cover;
+    cursor: pointer;
     height: 100%;
+    margin: 1.5rem 0;
     padding: 5rem 0 10rem 0;
     position: relative;
-    width: 100%;
-    cursor: pointer; }
+    width: 100%; }
     .front .featured-case-study:hover {
       opacity: 0.9; }
     .front .featured-case-study .gradient {
@@ -5184,148 +5185,50 @@ header {
           background-image: linear-gradient(to left, #282828, transparent 65%);
           filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 ); } }
     .front .featured-case-study .featured-case-study-text {
+      background-color: #fff;
       text-align: center;
       position: relative;
       z-index: 1; }
-      @media (min-width: 671px) and (max-width: 979px) {
-        .front .featured-case-study .featured-case-study-text {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 40.29137%;
-          float: right; }
-          .front .featured-case-study .featured-case-study-text:last-child {
-            margin-right: 0; } }
-      @media (min-width: 980px) {
-        .front .featured-case-study .featured-case-study-text {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 31.76157%;
-          float: right; }
-          .front .featured-case-study .featured-case-study-text:last-child {
-            margin-right: 0; } }
-      .front .featured-case-study .featured-case-study-text h1 {
-        color: #f26d21;
-        font-size: 2.25rem;
-        margin: 0.5rem auto; }
-        .front .featured-case-study .featured-case-study-text h1:hover {
-          text-decoration: underline; }
       .front .featured-case-study .featured-case-study-text h4 {
-        color: #fff;
-        font-size: 0.8125rem;
-        text-transform: uppercase; }
-      .front .featured-case-study .featured-case-study-text p {
-        font-size: 0.875rem;
-        color: #fff; }
-      .front .featured-case-study .featured-case-study-text i {
-        color: #f26d21; }
-      .front .featured-case-study .featured-case-study-text .uppercase-link {
-        color: #fff; }
-  .front .three-case-studies {
+        color: #f26d21;
+        font-size: 0.8125rem; }
+  .front .two-case-studies {
     overflow: hidden; }
-    .front .three-case-studies .orange-overlay {
-      -webkit-transition: 0.5s opacity ease-in-out;
-      -moz-transition: 0.5s opacity ease-in-out;
-      transition: 0.5s opacity ease-in-out;
-      background: #f26d21;
-      background-size: cover;
-      height: 100%;
-      left: 0;
-      width: 100%;
-      opacity: 0;
-      position: absolute;
-      top: 0; }
-    .front .three-case-studies .case-study {
+    .front .two-case-studies .case-study {
       cursor: pointer;
       display: inline-block;
       float: left;
       position: relative; }
-      .front .three-case-studies .case-study:hover .orange-overlay {
-        opacity: 0.9;
-        transition: opacity 0.5s ease-in-out;
-        -moz-transition: opacity 0.5s ease-in-out;
-        -webkit-transition: opacity 0.5s ease-in-out; }
-      .front .three-case-studies .case-study:hover .case-study-text {
-        transform: translateY(-90px);
-        -webkit-transition: 0.5s transform ease-in-out;
-        -moz-transition: 0.5s transform ease-in-out;
-        transition: 0.5s transform ease-in-out; }
-        .front .three-case-studies .case-study:hover .case-study-text p {
-          display: initial;
-          -webkit-transition: 0.5s transform ease-in-out;
-          -moz-transition: 0.5s transform ease-in-out;
-          transition: 0.5s transform ease-in-out; }
-      @media (max-width: 480px) {
-        .front .three-case-studies .case-study.active .orange-overlay {
-          opacity: 0.9;
-          transition: opacity 0.5s ease-in-out;
-          -moz-transition: opacity 0.5s ease-in-out;
-          -webkit-transition: opacity 0.5s ease-in-out; }
-        .front .three-case-studies .case-study.active .case-study-text {
-          transform: translateY(-6.5rem);
-          -webkit-transition: 0.5s transform ease-in-out;
-          -moz-transition: 0.5s transform ease-in-out;
-          transition: 0.5s transform ease-in-out; } }
-      @media (min-width: 481px) and (max-width: 979px) {
-        .front .three-case-studies .case-study.active .orange-overlay {
-          opacity: 0.9;
-          transition: opacity 0.5s ease-in-out;
-          -moz-transition: opacity 0.5s ease-in-out;
-          -webkit-transition: opacity 0.5s ease-in-out; }
-        .front .three-case-studies .case-study.active .case-study-text {
-          transform: translateY(-3.5rem);
-          -webkit-transition: 0.5s transform ease-in-out;
-          -moz-transition: 0.5s transform ease-in-out;
-          transition: 0.5s transform ease-in-out; } }
-      @media (min-width: 980px) and (max-width: 1199px) {
-        .front .three-case-studies .case-study.active .orange-overlay {
-          opacity: 0.9;
-          transition: opacity 0.5s ease-in-out;
-          -moz-transition: opacity 0.5s ease-in-out;
-          -webkit-transition: opacity 0.5s ease-in-out; }
-        .front .three-case-studies .case-study.active .case-study-text {
-          transform: translateY(-6.5rem);
-          -webkit-transition: 0.5s transform ease-in-out;
-          -moz-transition: 0.5s transform ease-in-out;
-          transition: 0.5s transform ease-in-out; } }
-    .front .three-case-studies #case-study2 {
+    .front .two-case-studies #case-study2 {
       background-size: cover;
       height: 330px;
       padding: 2rem;
-      width: 33.33%; }
+      width: 48.75%; }
       @media (max-width: 480px) {
-        .front .three-case-studies #case-study2 {
+        .front .two-case-studies #case-study2 {
           height: 285px;
           width: 100%; } }
       @media (min-width: 481px) and (max-width: 979px) {
-        .front .three-case-studies #case-study2 {
+        .front .two-case-studies #case-study2 {
           width: 100%; } }
-    .front .three-case-studies #case-study3 {
+    .front .two-case-studies #case-study3 {
       background-size: cover;
       height: 330px;
       padding: 2rem;
-      width: 33.33%; }
+      width: 48.75%; }
       @media (max-width: 480px) {
-        .front .three-case-studies #case-study3 {
+        .front .two-case-studies #case-study3 {
           height: 285px;
           width: 100%; } }
       @media (min-width: 481px) and (max-width: 979px) {
-        .front .three-case-studies #case-study3 {
+        .front .two-case-studies #case-study3 {
           width: 100%; } }
-    .front .three-case-studies #case-study4 {
-      background-size: cover;
-      height: 330px;
-      padding: 2rem;
-      width: 33.33%; }
-      @media (max-width: 480px) {
-        .front .three-case-studies #case-study4 {
-          height: 285px;
-          width: 100%; } }
-      @media (min-width: 481px) and (max-width: 979px) {
-        .front .three-case-studies #case-study4 {
-          width: 100%; } }
-    .front .three-case-studies .case-study-text {
+    .front .two-case-studies #case-study2 {
+      margin-bottom: 1.5rem; }
+      @media (min-width: 980px) {
+        .front .two-case-studies #case-study2 {
+          margin: 0 2.5% 0 0; } }
+    .front .two-case-studies .case-study-text {
       left: 0;
       padding: 1rem;
       position: absolute;
@@ -5335,23 +5238,23 @@ header {
       -moz-transition: 0.5s transform ease-in-out;
       transition: 0.5s transform ease-in-out; }
       @media (max-width: 480px) {
-        .front .three-case-studies .case-study-text {
+        .front .two-case-studies .case-study-text {
           top: 10.75rem; } }
       @media (min-width: 980px) and (max-width: 1199px) {
-        .front .three-case-studies .case-study-text {
+        .front .two-case-studies .case-study-text {
           top: 15.75rem; } }
-    .front .three-case-studies h2,
-    .front .three-case-studies p {
+    .front .two-case-studies h2,
+    .front .two-case-studies p {
       color: #fff;
       z-index: 1; }
-    .front .three-case-studies h2 {
+    .front .two-case-studies h2 {
       font-size: 1.625rem;
       padding-bottom: 0; }
-    .front .three-case-studies p {
+    .front .two-case-studies p {
       display: none;
       font-size: 0.875rem; }
       @media (max-width: 480px) {
-        .front .three-case-studies p {
+        .front .two-case-studies p {
           display: initial; } }
   .front .blog-teaser {
     color: #fff; }

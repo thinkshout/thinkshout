@@ -66,11 +66,12 @@
   .featured-case-study {
     background: url('../images/ts_redesign/case-studies/splc-main/header1.jpg') center center;
     background-size: cover;
+    cursor: pointer;
     height: 100%;
+    margin: 1.5rem 0;
     padding: 5rem 0 10rem 0;
     position: relative;
     width: 100%;
-    cursor: pointer;
     &:hover {
       opacity: 0.9;
     }
@@ -97,137 +98,47 @@
     }
 
     .featured-case-study-text {
+      background-color: $white;
       text-align: center;
       position: relative;
       z-index: 1;
 
-      @include mq(lt) {  @include span-columns(5); float: right; }
-      @include mq(d) { @include span-columns(4); float: right; }
-
-      h1 {
-        color: $orange;
-        font-size: rem(36);
-        margin: 0.5rem auto;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-
       h4 {
-        color: $white;
-        font-size: rem(13);
-        text-transform: uppercase;
-      }
-
-      p {
-        font-size: rem(14);
-        color: $white;
-      }
-
-      i {
         color: $orange;
-      }
-      .uppercase-link {
-        color: $white;
+        font-size: rem(13);
       }
     }
   }
 
   // Three case studies
-  .three-case-studies {
+  .two-case-studies {
     overflow: hidden;
-
-    .orange-overlay {
-      @include transition(0.5s opacity ease-in-out);
-      background: $orange;
-      background-size: cover;
-      height: 100%;
-      left: 0;
-      width: 100%;
-      opacity: 0;
-      position: absolute;
-      top: 0;
-    }
 
     .case-study {
       cursor: pointer;
       display: inline-block;
       float: left;
       position: relative;
-
-      &:hover .orange-overlay {
-        opacity: 0.9;
-        transition: opacity 0.5s ease-in-out;
-        -moz-transition: opacity 0.5s ease-in-out;
-        -webkit-transition: opacity 0.5s ease-in-out;
-      }
-
-      &:hover .case-study-text {
-        transform: translateY(-90px);
-        @include transition(0.5s transform ease-in-out);
-
-        p {
-          display: initial;
-          @include transition(0.5s transform ease-in-out);
-        }
-      }
-
-      @include mq(m) {
-        &.active .orange-overlay {
-          opacity: 0.9;
-          transition: opacity 0.5s ease-in-out;
-          -moz-transition: opacity 0.5s ease-in-out;
-          -webkit-transition: opacity 0.5s ease-in-out;
-        }
-
-        &.active .case-study-text {
-          transform: translateY(-6.5rem);
-          @include transition(0.5s transform ease-in-out);
-        }
-      }
-
-      @include mq(t) {
-        &.active .orange-overlay {
-          opacity: 0.9;
-          transition: opacity 0.5s ease-in-out;
-          -moz-transition: opacity 0.5s ease-in-out;
-          -webkit-transition: opacity 0.5s ease-in-out;
-        }
-
-        &.active .case-study-text {
-          transform: translateY(-3.5rem);
-          @include transition(0.5s transform ease-in-out);
-        }
-      }
-
-      @include mq(md) {
-        &.active .orange-overlay {
-          opacity: 0.9;
-          transition: opacity 0.5s ease-in-out;
-          -moz-transition: opacity 0.5s ease-in-out;
-          -webkit-transition: opacity 0.5s ease-in-out;
-        }
-
-        &.active .case-study-text {
-          transform: translateY(-6.5rem);
-          @include transition(0.5s transform ease-in-out);
-        }
-      }
     }
 
     $case: 2;
-    @while $case < 5 {
+    @while $case < 4 {
       #case-study#{$case} {
         background-size: cover;
         height: 330px;
         padding: 2rem;
-        width: 33.33%;
+        width: 48.75%;
 
         @include mq(m) { height: 285px; width: 100%; }
         @include mq(t) { width: 100%; }
       }
       $case: $case + 1;
+    }
+
+    #case-study2 {
+      margin-bottom: 1.5rem;
+      
+      @include mq(d) { margin: 0 2.5% 0 0; }
     }
 
     .case-study-text {
