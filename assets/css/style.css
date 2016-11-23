@@ -5201,6 +5201,7 @@ header {
       position: relative; }
     .front .two-case-studies #case-study2 {
       background-size: cover;
+      border: none;
       height: 330px;
       padding: 2rem;
       width: 48.75%; }
@@ -5211,8 +5212,14 @@ header {
       @media (min-width: 481px) and (max-width: 979px) {
         .front .two-case-studies #case-study2 {
           width: 100%; } }
+      .front .two-case-studies #case-study2:hover {
+        border: 0.375rem solid #f26d21; }
+        .front .two-case-studies #case-study2:hover .case-study-text {
+          bottom: -0.5rem;
+          width: 73.49%; }
     .front .two-case-studies #case-study3 {
       background-size: cover;
+      border: none;
       height: 330px;
       padding: 2rem;
       width: 48.75%; }
@@ -5223,6 +5230,11 @@ header {
       @media (min-width: 481px) and (max-width: 979px) {
         .front .two-case-studies #case-study3 {
           width: 100%; } }
+      .front .two-case-studies #case-study3:hover {
+        border: 0.375rem solid #f26d21; }
+        .front .two-case-studies #case-study3:hover .case-study-text {
+          bottom: -0.5rem;
+          width: 73.49%; }
     .front .two-case-studies #case-study2 {
       margin-bottom: 1.5rem; }
       @media (min-width: 980px) {

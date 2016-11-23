@@ -146,12 +146,22 @@
     @while $case < 4 {
       #case-study#{$case} {
         background-size: cover;
+        border: none;
         height: 330px;
         padding: 2rem;
         width: 48.75%;
 
         @include mq(m) { height: 285px; width: 100%; }
         @include mq(t) { width: 100%; }
+
+        &:hover {
+          border: rem(6) solid $orange;
+
+          .case-study-text {
+            bottom: rem(-8);
+            width: 73.49%;
+          }
+        }
       }
       $case: $case + 1;
     }
