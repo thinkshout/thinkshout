@@ -45,6 +45,8 @@ footer {
       display: inline-table;
       font-size: rem(14);
       line-height: $line-height;
+
+      @include mq(t);
     }
 
     & > li > a {
@@ -68,7 +70,7 @@ footer {
   }
 
   .bcorp-logo {
-    text-align: right;
+    text-align: center;
     padding-top: rem(28);
 
     img {
@@ -78,26 +80,27 @@ footer {
     @include mq(md) {
       position: absolute;
       right: 3rem;
+      text-align: right;
       top: 5.2rem;
     }
     @include mq(l) {
       @include span-columns(0.5);
+      text-align: right;
     }
   }
 
   .footer-bottom {
     position: relative;
+    text-align: center;
     top: 5rem;
 
     @include mq(d) {
+      text-align: inherit;
       top: 11rem;
     }
   }
 
   .social-media {
-    float: left;
-    position: relative;
-
     li {
       display: inline;
       margin-right: 0.5rem;
@@ -108,6 +111,8 @@ footer {
 
     @include mq(d) {
       @include span-columns(7);
+      float: left;
+      position: relative;
     }
   }
 
@@ -116,7 +121,7 @@ footer {
     float: right;
     font-size: rem(12);
     position: relative;
-    text-align: right;
+
 
     a {
       color: darken($ltgray, 20%);
@@ -127,22 +132,9 @@ footer {
         text-decoration: underline;
       }
     }
-  //
-  //   // @include mq(m) { bottom: 2rem; }
-  //
-  //   @include mq(t) {
-  //     text-align: center;
-  //     width: 95%;
-  //   }
-  //
     @include mq(d) {
       @include span-columns(5);
+      text-align: right;
     }
-  //
-  //   @include mq(l) {
-  //     text-align: right;
-  //     top: 12rem;
-  //     width: 45%;
-  //   }
   }
 }
