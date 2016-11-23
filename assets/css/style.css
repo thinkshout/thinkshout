@@ -4825,21 +4825,29 @@ footer {
       padding-bottom: 7rem;
       padding-top: 2rem; } }
   footer .footer-menu {
-    display: block;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 91.4702%; }
-    footer .footer-menu:last-child {
-      margin-right: 0; }
+    display: block; }
+    @media (min-width: 980px) {
+      footer .footer-menu {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 91.4702%; }
+        footer .footer-menu:last-child {
+          margin-right: 0; } }
   footer ul {
     padding-left: 0; }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    footer .main-menu-footer {
+      margin-right: 0; } }
   footer .main-menu-footer > li {
     display: inline-table;
     font-size: 0.875rem;
     line-height: 1.75; }
   footer .main-menu-footer > li > a {
     margin-right: 2rem; }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      footer .main-menu-footer > li > a {
+        margin-right: 1.5rem; } }
   footer .main-menu-footer .footer-submenu {
     margin-top: 0.5rem; }
     footer .main-menu-footer .footer-submenu a {
@@ -4851,37 +4859,61 @@ footer {
     padding-top: 1.75rem; }
     footer .bcorp-logo img {
       max-width: 4rem; }
-  footer .social-media {
-    display: block;
-    float: left;
+    @media (min-width: 980px) and (max-width: 1199px) {
+      footer .bcorp-logo {
+        position: absolute;
+        right: 3rem;
+        top: 5.2rem; } }
+    @media (min-width: 1200px) {
+      footer .bcorp-logo {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 1.90725%; }
+        footer .bcorp-logo:last-child {
+          margin-right: 0; } }
+  footer .footer-bottom {
     position: relative;
-    top: 11rem;
-    width: 25%; }
+    top: 5rem; }
+    @media (min-width: 980px) {
+      footer .footer-bottom {
+        top: 11rem; } }
+  footer .social-media {
+    float: left;
+    position: relative; }
     footer .social-media li {
       display: inline;
       margin-right: 0.5rem; }
     footer .social-media img {
       max-width: 1.5rem; }
+    @media (min-width: 980px) {
+      footer .social-media {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 57.35098%; }
+        footer .social-media:last-child {
+          margin-right: 0; } }
   footer .copyright {
     color: #a6a8ad;
     float: right;
     font-size: 0.75rem;
-    position: relative; }
+    position: relative;
+    text-align: right; }
     footer .copyright a {
       color: #a6a8ad;
       font-weight: bold; }
       footer .copyright a:hover {
         cursor: pointer;
         text-decoration: underline; }
-    @media (min-width: 481px) and (max-width: 979px) {
+    @media (min-width: 980px) {
       footer .copyright {
-        text-align: center;
-        width: 95%; } }
-    @media (min-width: 1200px) {
-      footer .copyright {
-        text-align: right;
-        top: 12rem;
-        width: 45%; } }
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 40.29137%; }
+        footer .copyright:last-child {
+          margin-right: 0; } }
 
 header {
   background-color: #fff;

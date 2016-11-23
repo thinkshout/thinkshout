@@ -26,7 +26,10 @@ footer {
 
   .footer-menu {
     display: block;
-    @include span-columns(11);
+
+    @include mq(d) {
+      @include span-columns(11);
+    }
   }
 
   ul {
@@ -34,6 +37,10 @@ footer {
   }
 
   .main-menu-footer {
+    @include mq(md) {
+      margin-right: 0;
+    }
+
     & > li {
       display: inline-table;
       font-size: rem(14);
@@ -42,6 +49,10 @@ footer {
 
     & > li > a {
       margin-right: 2rem;
+
+      @include mq(md) {
+        margin-right: 1.5rem;
+      }
     }
 
     .footer-submenu {
@@ -51,30 +62,6 @@ footer {
       }
     }
   }
-
-  // li {
-  //   color: $midorange;
-  //   display: inline;
-  //   font-size: rem(14);
-  //   line-height: $line-height;
-  //   margin-left: 0;
-  //   margin-right: 1rem;
-  //
-  //   @include mq(m) {
-  //     display: block;
-  //     font-size: rem(24);
-  //     line-height: $line-height;
-  //   }
-  //
-  //   @include mq(t) {
-  //     display: list-item;
-  //     font-size: rem(24);
-  //   }
-  //
-  //   &:hover {
-  //     text-decoration: underline;
-  //   }
-  // }
 
   .secondary-menu-footer {
     li a { color: $ltorange; }
@@ -87,14 +74,29 @@ footer {
     img {
       max-width: 4rem;
     }
+
+    @include mq(md) {
+      position: absolute;
+      right: 3rem;
+      top: 5.2rem;
+    }
+    @include mq(l) {
+      @include span-columns(0.5);
+    }
+  }
+
+  .footer-bottom {
+    position: relative;
+    top: 5rem;
+
+    @include mq(d) {
+      top: 11rem;
+    }
   }
 
   .social-media {
-    display: block;
     float: left;
     position: relative;
-    top: 11rem;
-    width: 25%;
 
     li {
       display: inline;
@@ -103,6 +105,10 @@ footer {
     img {
       max-width: 1.5rem;
     }
+
+    @include mq(d) {
+      @include span-columns(7);
+    }
   }
 
   .copyright {
@@ -110,6 +116,7 @@ footer {
     float: right;
     font-size: rem(12);
     position: relative;
+    text-align: right;
 
     a {
       color: darken($ltgray, 20%);
@@ -120,18 +127,22 @@ footer {
         text-decoration: underline;
       }
     }
-
-    // @include mq(m) { bottom: 2rem; }
-
-    @include mq(t) {
-      text-align: center;
-      width: 95%;
+  //
+  //   // @include mq(m) { bottom: 2rem; }
+  //
+  //   @include mq(t) {
+  //     text-align: center;
+  //     width: 95%;
+  //   }
+  //
+    @include mq(d) {
+      @include span-columns(5);
     }
-
-    @include mq(l) {
-      text-align: right;
-      top: 12rem;
-      width: 45%;
-    }
+  //
+  //   @include mq(l) {
+  //     text-align: right;
+  //     top: 12rem;
+  //     width: 45%;
+  //   }
   }
 }
