@@ -27,46 +27,48 @@ keywords:
   </div>
 
   {% assign featured_work = (site.case_studies | where: "homepage", "true" | sort: "order") | first %}
-  <div class="featured-case-study">
-    <style scoped>
-      .front .featured-case-study { background-image: url('{{ site.baseurl }}{{ featured_work.cs-preview.image }}'); }
-    </style>
-    <div class="gradient">&nbsp;</div>
-    <div class="container">
-      <div class="featured-case-study-text valign-wra">
-        <div class="valign">
-          <h4>Featured Case Study</h4>
-          <h1><a href="{{ site.baseurl }}{{ featured_work.url }}">{{ featured_work.cs-preview.client }}</a></h1>
-          <p>
-            {{ featured_work.cs-preview.description}}
-          </p>
-          <a href="{{ site.baseurl }}{{ featured_work.url }}" class="uppercase-link">See more<i class="fa fa-caret-right"></i></a>
+  <div class="container">
+    <div class="featured-case-study">
+      <style scoped>
+        .front .featured-case-study { background-image: url('{{ site.baseurl }}{{ featured_work.cs-preview.image }}'); }
+      </style>
+      <div class="gradient">&nbsp;</div>
+      <div class="container">
+        <div class="featured-case-study-text valign-wra">
+          <div class="valign">
+            <h4>Featured Case Study</h4>
+            <h1><a href="{{ site.baseurl }}{{ featured_work.url }}">{{ featured_work.cs-preview.client }}</a></h1>
+            <p>
+              {{ featured_work.cs-preview.description}}
+            </p>
+            <a href="{{ site.baseurl }}{{ featured_work.url }}" class="uppercase-link">See more<i class="fa fa-caret-right"></i></a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="three-case-studies">
-    {% assign case-studies = (site.case_studies | where: "homepage", "true" | sort: "order" | ) %}
-    {% for case in case-studies limit:4 %}
-    {% if case.order > 1 %}
-      <a href="{{ site.baseurl }}{{ case.url }}">
-        <div class="case-study" id="case-study{{ case.order }}">
-        <style scoped>
-          #case-study{{ case.order }} { background: url('{{ site.baseurl }}{{ case.cs-preview.image }}') center center no-repeat; }
-        </style>
-          <div class="orange-overlay">
+    <div class="three-case-studies">
+      {% assign case-studies = (site.case_studies | where: "homepage", "true" | sort: "order" | ) %}
+      {% for case in case-studies limit:4 %}
+      {% if case.order > 1 %}
+        <a href="{{ site.baseurl }}{{ case.url }}">
+          <div class="case-study" id="case-study{{ case.order }}">
+          <style scoped>
+            #case-study{{ case.order }} { background: url('{{ site.baseurl }}{{ case.cs-preview.image }}') center center no-repeat; }
+          </style>
+            <div class="orange-overlay">
+            </div>
+            <div class="case-study-text">
+              <h2>{{ case.cs-preview.client }}</h2>
+              <p>
+                {{ case.cs-preview.description}}
+              </p>
+            </div>
           </div>
-          <div class="case-study-text">
-            <h2>{{ case.cs-preview.client }}</h2>
-            <p>
-              {{ case.cs-preview.description}}
-            </p>
-          </div>
-        </div>
-      </a>
-      {% endif %}
-    {% endfor %}
+        </a>
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
 
   {% include our-expertise.html %}
