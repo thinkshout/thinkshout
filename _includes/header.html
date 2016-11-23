@@ -15,7 +15,9 @@
 		<nav>
 			<ul class="main-menu">
         {% for item in site.data.menu.main-menu %}
-          <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+          {% if item.header-nav != false %}
+            <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+          {% endif %}
         {% endfor %}
 			</ul>
 		</nav>

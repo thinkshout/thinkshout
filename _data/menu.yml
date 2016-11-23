@@ -31,6 +31,7 @@ main-menu:
 
   - title: Careers
     url: /careers/
+    header-nav: false
 
 copyright:
   - title: Privacy Policy
