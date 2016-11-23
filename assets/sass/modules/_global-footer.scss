@@ -37,23 +37,34 @@ footer {
   }
 
   .main-menu-footer {
+    @include mq(m) {
+      text-align: center;
+    }
+    @include mq(t) {
+      text-align: center;
+    }
     @include mq(md) {
       margin-right: 0;
     }
 
     & > li {
-      display: inline-table;
-      font-size: rem(14);
+      display: block;
+      font-size: rem(20);
       line-height: $line-height;
 
-      @include mq(t);
+      @include mq(d) {
+        display: inline-table;
+        font-size: rem(14);
+      }
     }
 
     & > li > a {
-      margin-right: 2rem;
-
       @include mq(md) {
         margin-right: 1.5rem;
+      }
+
+      @include mq(l) {
+        margin-right: 2rem;
       }
     }
 
