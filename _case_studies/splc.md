@@ -9,6 +9,7 @@ order: 1
 # END LAYOUT DATA
 
 title: Southern Poverty Law Center
+featured_text: Webby Award Winning
 
 cs-class: splc
 
@@ -40,8 +41,8 @@ cs-intro:
     The Southern Poverty Law Center fights hatred and bigotry, seeking justice for the most vulnerable members of society. Their aging platform, organized around content types and organizational departments, faced another challenge: surviving the multitude of crippling cyber attacks perpetrated by the hundreds of hate groups that the SPLC fights.
 
     In redesigning their website, we helped them better tell their story through digital journalism and data visualization. We also solidified their platform and implemented measures to keep the site secure.
-    
-    Our redesign of the Southern Poverty Law Center site was voted the People's Voice winner in the Websites - Law category of the 2016 [Webby Awards](http://webbyawards.com/), and was named an Honoree in the Best Practices category. 
+
+    Our redesign of the Southern Poverty Law Center site was voted the People's Voice winner in the Websites - Law category of the 2016 [Webby Awards](http://webbyawards.com/), and was named an Honoree in the Best Practices category.
 
 
 cs-sections:
