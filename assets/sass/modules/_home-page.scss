@@ -62,6 +62,32 @@
     }
   }
 
+  // Featured Work
+  .featured-intro {
+    display: table;
+    margin-top: 2rem;
+    width: 100%;
+
+    @include mq(t) { margin-top: 3rem; }
+    @include mq(d) { margin-top: 5rem; }
+
+    h1 {
+      font-size: rem(36);
+      text-align: left;
+    }
+
+    a {
+      text-align: right;
+    }
+
+    h1,
+    a {
+      color: $darkgray;
+      display: table-cell;
+      width: 50%;
+    }
+  }
+
   // Featured Case Study
   .featured-case-study {
     @include transition(border 0.2s);

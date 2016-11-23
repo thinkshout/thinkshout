@@ -28,6 +28,11 @@ keywords:
 
   {% assign featured_work = (site.case_studies | where: "homepage", "true" | sort: "order") | first %}
   <div class="container">
+    <div class="featured-intro">
+      <h1>Featured Work</h1>
+      <a href="{{ site.baseurl }}/work/" class="uppercase-link">More work<i class="fa fa-caret-right"></i></a>
+    </div>
+
     <div class="featured-case-study">
       <style scoped>
         .front .featured-case-study { background-image: url('{{ site.baseurl }}{{ featured_work.cs-preview.image }}'); }

@@ -5152,6 +5152,26 @@ header {
         margin-top: -2rem; }
       .front .who-we-are .who-we-are-text p {
         color: #58585b; }
+  .front .featured-intro {
+    display: table;
+    margin-top: 2rem;
+    width: 100%; }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .front .featured-intro {
+        margin-top: 3rem; } }
+    @media (min-width: 980px) {
+      .front .featured-intro {
+        margin-top: 5rem; } }
+    .front .featured-intro h1 {
+      font-size: 2.25rem;
+      text-align: left; }
+    .front .featured-intro a {
+      text-align: right; }
+    .front .featured-intro h1,
+    .front .featured-intro a {
+      color: #58585b;
+      display: table-cell;
+      width: 50%; }
   .front .featured-case-study {
     -webkit-transition: border 0.2s;
     -moz-transition: border 0.2s;
