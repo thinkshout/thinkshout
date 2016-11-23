@@ -5165,6 +5165,8 @@ header {
     .front .featured-intro h1 {
       font-size: 2.25rem;
       text-align: left; }
+      .front .featured-intro h1:hover {
+        cursor: pointer; }
     .front .featured-intro a {
       text-align: right; }
     .front .featured-intro h1,

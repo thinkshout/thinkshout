@@ -74,6 +74,10 @@
     h1 {
       font-size: rem(36);
       text-align: left;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
 
     a {
