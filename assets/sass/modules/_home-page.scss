@@ -108,8 +108,10 @@
       right: 0;
       text-align: center;
       position: absolute;
-      width: 45%;
+      width: 60%;
       z-index: 1;
+
+      @include mq(d) { width: 45%; }
 
       h4 {
         color: $orange;
@@ -169,7 +171,9 @@
       position: absolute;
       right: 0;
       text-align: center;
-      width: 72%;
+      width: 60%;
+
+      @include mq(d) { width: 72%; }
     }
 
     h2 {

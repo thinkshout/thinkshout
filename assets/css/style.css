@@ -5177,8 +5177,11 @@ header {
       right: 0;
       text-align: center;
       position: absolute;
-      width: 45%;
+      width: 60%;
       z-index: 1; }
+      @media (min-width: 980px) {
+        .front .featured-case-study .featured-case-study-text {
+          width: 45%; } }
       .front .featured-case-study .featured-case-study-text h4 {
         color: #f26d21;
         font-size: 0.8125rem;
@@ -5234,7 +5237,10 @@ header {
       position: absolute;
       right: 0;
       text-align: center;
-      width: 72%; }
+      width: 60%; }
+      @media (min-width: 980px) {
+        .front .two-case-studies .case-study-text {
+          width: 72%; } }
     .front .two-case-studies h2 {
       color: #58585b;
       font-size: 1.25rem;
