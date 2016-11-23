@@ -64,7 +64,7 @@
 
   // Featured Case Study
   .featured-case-study {
-    background: url('../images/ts_redesign/case-studies/splc-main/header1.jpg') center center;
+    @include transition(border 0.2s);
     background-size: cover;
     cursor: pointer;
     height: rem(330);
@@ -72,11 +72,14 @@
     padding: 5rem 0 10rem 0;
     position: relative;
     width: 100%;
+
     &:hover {
-      opacity: 0.9;
+      border: rem(6) solid $orange;
+      @include transition(border 0.2s);
     }
 
     @include mq(md) { height: rem(380); }
+    @include mq(d) { margin: 1.5rem 0; }
     @include mq(l) { height: rem(570); }
 
     // Adding this for the preview / demo.
@@ -102,7 +105,7 @@
 
     .featured-case-study-text {
       background-color: $white;
-      bottom: rem(-2);
+      bottom: rem(-8);
       left: 0;
       margin: 0 auto;
       right: 0;
@@ -145,22 +148,17 @@
     $case: 2;
     @while $case < 4 {
       #case-study#{$case} {
+        @include transition(border 0.2s);
         background-size: cover;
-        border: none;
         height: 330px;
         padding: 2rem;
         width: 48.75%;
 
         @include mq(m) { height: 285px; width: 100%; }
-        @include mq(t) { width: 100%; }
 
         &:hover {
           border: rem(6) solid $orange;
-
-          .case-study-text {
-            bottom: rem(-8);
-            width: 73.49%;
-          }
+          @include transition(border 0.2s);
         }
       }
       $case: $case + 1;
@@ -169,12 +167,13 @@
     #case-study2 {
       margin-bottom: 1.5rem;
 
+      @include mq(t) { margin: 0 2.5% 0 0; }
       @include mq(d) { margin: 0 2.5% 0 0; }
     }
 
     .case-study-text {
       background: $white;
-      bottom: rem(-2);
+      bottom: rem(-8);
       left: 0;
       margin: 0 auto;
       padding: 1rem;
@@ -183,7 +182,7 @@
       text-align: center;
       width: 60%;
 
-      @include mq(d) { width: 72%; }
+      @include mq(d) { width: 74%; }
     }
 
     h2 {
