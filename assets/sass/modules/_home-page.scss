@@ -102,7 +102,7 @@
 
     .featured-case-study-text {
       background-color: $white;
-      bottom: 0;
+      bottom: rem(-2);
       left: 0;
       margin: 0 auto;
       right: 0;
@@ -161,35 +161,23 @@
     }
 
     .case-study-text {
+      background: $white;
+      bottom: rem(-2);
       left: 0;
+      margin: 0 auto;
       padding: 1rem;
       position: absolute;
-      top: 14rem;
-      width: 100%;
-      @include transition(0.5s transform ease-in-out);
-
-      @include mq(m) { top: 10.75rem; }
-      @include mq(md) { top: 15.75rem; }
-    }
-
-    h2,
-    p {
-      color: $white;
-      z-index: 1;
+      right: 0;
+      text-align: center;
+      width: 72%;
     }
 
     h2 {
-      font-size: rem(26);
+      color: $darkgray;
+      font-size: rem(20);
+      margin: 0;
       padding-bottom: 0;
-    }
-
-    p {
-      display: none;
-      font-size: rem(14);
-
-      @include mq(m) {
-        display: initial;
-      }
+      z-index: 1;
     }
   }
 
