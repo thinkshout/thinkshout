@@ -81,12 +81,12 @@
     }
 
     a {
+      @extend %uppercase-link;
       text-align: right;
     }
 
     h1,
     a {
-      color: $darkgray;
       display: table-cell;
       width: 50%;
     }

@@ -29,6 +29,10 @@
   &:hover {
     text-decoration: underline;
   }
+
+  &:visited {
+    color: $darkgray;
+  }
 }
 
 // Upper header text with the down facing arrow

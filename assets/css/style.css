@@ -2064,18 +2064,24 @@ a:visited {
   top: 0;
   z-index: -1; }
 
-.uppercase-link {
+.uppercase-link,
+.front .featured-intro a {
   color: #58585b;
   font-size: 0.875rem;
   font-weight: bold;
   text-transform: uppercase; }
-  .uppercase-link i {
+  .uppercase-link i,
+  .front .featured-intro a i {
     color: #f78c50;
     font-size: 1.5rem;
     margin-left: 0.625rem;
     vertical-align: sub; }
-  .uppercase-link:hover {
+  .uppercase-link:hover,
+  .front .featured-intro a:hover {
     text-decoration: underline; }
+  .uppercase-link:visited,
+  .front .featured-intro a:visited {
+    color: #58585b; }
 
 .header-down-caret h4 {
   font-size: 0.8125rem;
@@ -5171,7 +5177,6 @@ header {
       text-align: right; }
     .front .featured-intro h1,
     .front .featured-intro a {
-      color: #58585b;
       display: table-cell;
       width: 50%; }
   .front .featured-case-study {
