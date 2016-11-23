@@ -67,7 +67,7 @@
     background: url('../images/ts_redesign/case-studies/splc-main/header1.jpg') center center;
     background-size: cover;
     cursor: pointer;
-    height: 100%;
+    height: rem(330);
     margin: 1.5rem 0;
     padding: 5rem 0 10rem 0;
     position: relative;
@@ -76,36 +76,55 @@
       opacity: 0.9;
     }
 
+    @include mq(md) { height: rem(380); }
+    @include mq(l) { height: rem(570); }
+
     // Adding this for the preview / demo.
-    .gradient {
-      background-image: linear-gradient( to left, rgba(40,40,40,0.8), rgba(40,40,40,0.5) );
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
-      height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      z-index: 1;
-      @include mq(lt) { background-image: linear-gradient( to left, rgba(40,40,40,1), rgba(40,40,40,0.4) );
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
-      }
-      @include mq(md) { background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 65% );
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
-      }
-      @include mq(l) { background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 65% );
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
-      }
-    }
+    // .gradient {
+    //   background-image: linear-gradient( to left, rgba(40,40,40,0.8), rgba(40,40,40,0.5) );
+    //   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
+    //   height: 100%;
+    //   left: 0;
+    //   position: absolute;
+    //   top: 0;
+    //   width: 100%;
+    //   z-index: 1;
+    //   @include mq(lt) { background-image: linear-gradient( to left, rgba(40,40,40,1), rgba(40,40,40,0.4) );
+    //     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
+    //   }
+    //   @include mq(md) { background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 65% );
+    //   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
+    //   }
+    //   @include mq(l) { background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 65% );
+    //     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
+    //   }
+    // }
 
     .featured-case-study-text {
       background-color: $white;
+      bottom: 0;
+      left: 0;
+      margin: 0 auto;
+      right: 0;
       text-align: center;
-      position: relative;
+      position: absolute;
+      width: 45%;
       z-index: 1;
 
       h4 {
         color: $orange;
         font-size: rem(13);
+        margin-bottom: 0;
+      }
+
+      h1 {
+        line-height: rem(20);
+        margin: 0 0.5rem 1rem;
+
+        a {
+          color: $darkgray;
+          font-size: rem(20);
+        }
       }
     }
   }
@@ -137,7 +156,7 @@
 
     #case-study2 {
       margin-bottom: 1.5rem;
-      
+
       @include mq(d) { margin: 0 2.5% 0 0; }
     }
 

@@ -32,13 +32,10 @@ keywords:
       <style scoped>
         .front .featured-case-study { background-image: url('{{ site.baseurl }}{{ featured_work.cs-preview.image }}'); }
       </style>
-      <div class="gradient">&nbsp;</div>
       <div class="container">
-        <div class="featured-case-study-text valign-wra">
-          <div class="valign">
-            <h4>{{ featured_work.featured_text | upcase }}</h4>
-            <h1><a href="{{ site.baseurl }}{{ featured_work.url }}">{{ featured_work.cs-preview.client }}</a></h1>
-          </div>
+        <div class="featured-case-study-text">
+          <h4>{{ featured_work.featured_text | upcase }}</h4>
+          <h1><a href="{{ site.baseurl }}{{ featured_work.url }}">{{ featured_work.cs-preview.client }}</a></h1>
         </div>
       </div>
     </div>
