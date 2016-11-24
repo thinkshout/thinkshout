@@ -5171,6 +5171,9 @@ header {
     .front .featured-intro h1 {
       font-size: 2.25rem;
       text-align: left; }
+      @media (max-width: 480px) {
+        .front .featured-intro h1 {
+          font-size: 1.875rem; } }
       .front .featured-intro h1:hover {
         cursor: pointer; }
     .front .featured-intro a.uppercase-link {
@@ -5218,6 +5221,9 @@ header {
       position: absolute;
       width: 60%;
       z-index: 1; }
+      @media (max-width: 480px) {
+        .front .featured-case-study .featured-case-study-text {
+          width: 74%; } }
       @media (min-width: 980px) {
         .front .featured-case-study .featured-case-study-text {
           width: 45%; } }
@@ -5231,6 +5237,9 @@ header {
         .front .featured-case-study .featured-case-study-text h1 a {
           color: #58585b;
           font-size: 1.25rem; }
+          @media (max-width: 480px) {
+            .front .featured-case-study .featured-case-study-text h1 a {
+              font-size: 1.1rem; } }
   .front .two-case-studies {
     overflow: hidden; }
     .front .two-case-studies .case-study {
@@ -5289,16 +5298,19 @@ header {
       position: absolute;
       right: 0;
       text-align: center;
-      width: 60%; }
-      @media (min-width: 980px) {
-        .front .two-case-studies .case-study-text {
-          width: 74%; } }
+      width: 74%; }
     .front .two-case-studies h2 {
       color: #58585b;
       font-size: 1.25rem;
       margin: 0;
       padding-bottom: 0;
       z-index: 1; }
+      @media (max-width: 480px) {
+        .front .two-case-studies h2 {
+          font-size: 1.1rem; } }
+      @media (min-width: 481px) and (max-width: 979px) {
+        .front .two-case-studies h2 {
+          font-size: 1.1rem; } }
   .front .blog-teaser {
     color: #fff; }
     .front .blog-teaser .featured-blog-post,

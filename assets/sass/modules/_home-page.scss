@@ -75,6 +75,8 @@
       font-size: rem(36);
       text-align: left;
 
+      @include mq(m) { font-size: rem(30); }
+
       &:hover {
         cursor: pointer;
       }
@@ -126,6 +128,7 @@
       width: 60%;
       z-index: 1;
 
+      @include mq(m) { width: 74%; }
       @include mq(d) { width: 45%; }
 
       h4 {
@@ -141,6 +144,8 @@
         a {
           color: $darkgray;
           font-size: rem(20);
+
+          @include mq(m) { font-size: 1.1rem; }
         }
       }
     }
@@ -192,9 +197,7 @@
       position: absolute;
       right: 0;
       text-align: center;
-      width: 60%;
-
-      @include mq(d) { width: 74%; }
+      width: 74%;
     }
 
     h2 {
@@ -203,6 +206,9 @@
       margin: 0;
       padding-bottom: 0;
       z-index: 1;
+
+      @include mq(m) { font-size: 1.1rem; }
+      @include mq(t) { font-size: 1.1rem; }
     }
   }
 
