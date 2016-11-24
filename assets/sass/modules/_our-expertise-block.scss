@@ -1,15 +1,31 @@
-.our-expertise {
-  padding: 6rem 0;
+.our-expertise-intro {
+  display: table;
+  width: 100%;
 
-  @include mq(m) { padding: 2rem 0; }
-  @include mq(t) { padding: 3rem 0; }
-  @include mq(md) { padding: 3rem 0; }
+  @include mq(l) { margin-top: 5rem; }
 
   h1 {
     color: $darkgray;
     font-size: rem(36);
     margin: 0;
   }
+
+  a {
+    display: table-cell;
+    width: 50%;
+  }
+
+  a.uppercase-link {
+    text-align: right;
+
+    @include mq(m) { display: none; }
+  }
+}
+
+.our-expertise {
+  @include mq(m) { padding: 2rem 0; }
+  @include mq(t) { padding: 3rem 0; }
+  @include mq(md) { padding: 3rem 0; }
 
   .our-expertise-block {
     @include span-columns(3);
@@ -34,9 +50,5 @@
     p {
       color: $darkgray;
     }
-  }
-
-  a {
-    @include span-columns(12);
   }
 }

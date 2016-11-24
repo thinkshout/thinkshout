@@ -80,13 +80,16 @@
       }
     }
 
-    a {
+    a.uppercase-link {
       @extend %uppercase-link;
       text-align: right;
+
+      @include mq(m) { display: none; }
     }
 
     h1,
     a {
+      color: $darkgray;
       display: table-cell;
       width: 50%;
     }
