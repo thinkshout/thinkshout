@@ -1,25 +1,24 @@
 ---
 layout: default
 body-class: our-work
-permalink: work/
-title: Our Work
+permalink: work/archive
+title: Work Archive
 ---
 <div class="intro">
   <div class="container">
     <div class="text">
-      <h1>Our Work</h1>
+      <h1>Work Archive</h1>
       <p>Whether it’s a simple site or a sophisticated e-commerce solution, our work excels in terms of engagement and effectiveness.</p>
     </div>
 
-    {% assign case-studies = (site.case_studies | where: "active", "true" | sort: "order") %}
-    {% for preview in case-studies | limit: 4 %}
+    {% assign case-studies = (site.case_studies | where: "published", "true") %}
+    {% for preview in case-studies %}
     <a href="{{ site.baseurl }}{{ preview.url }}">
       <div class="case-study-header {{ preview.cs-class }}">
       <style>
-        .case-study-header.{{ preview.cs-class }} { background-image: url('{{ site.baseurl }}{{ preview.cs-preview.image }}'); }
+        .case-study-header.{{ preview.cs-class }} { background: url('{{ site.baseurl }}{{ preview.cs-preview.image }}'); }
       </style>
         <div class="wrapper">
-          <h4>{{ preview.cs-preview.topic }}</h4>
           <h2>{{ preview.cs-preview.client }}</h2>
           <p class="description">{{ preview.cs-preview.description }}</p>
         </div>
