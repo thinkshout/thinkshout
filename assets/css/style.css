@@ -4867,6 +4867,10 @@ footer {
       margin-right: 2rem; } }
   footer .main-menu-footer .footer-submenu {
     margin-top: 0.5rem; }
+    @media (max-width: 480px) {
+      footer .main-menu-footer .footer-submenu {
+        font-size: .75em;
+        margin-top: 0; } }
     footer .main-menu-footer .footer-submenu a {
       color: #fff; }
   footer .secondary-menu-footer li a {
