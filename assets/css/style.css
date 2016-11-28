@@ -5722,12 +5722,15 @@ header {
   .our-work .main-content {
     margin-top: 5.625rem; } }
 .our-work .case-study-header {
+  -webkit-transition: border 0.2s;
+  -moz-transition: border 0.2s;
+  transition: border 0.2s;
   background-position: center center;
   background-size: cover;
-  color: #fff;
+  color: #58585b;
   display: inline-block;
   height: 100%;
-  margin-bottom: -4px;
+  margin-bottom: 1.5rem;
   min-height: 340px;
   padding: 2rem 0;
   position: relative;
@@ -5746,72 +5749,21 @@ header {
     .our-work .case-study-header {
       padding: 6rem 0 4rem;
       min-height: 550px; } }
-  .our-work .case-study-header .gradient {
-    background-image: linear-gradient(to right, rgba(40, 40, 40, 0.8), rgba(40, 40, 40, 0.5));
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd000000', endColorstr='#00FFFFFF',GradientType=1 );
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 10; }
-    @media (min-width: 671px) and (max-width: 979px) {
-      .our-work .case-study-header .gradient {
-        background-image: linear-gradient(to right, #282828, rgba(40, 40, 40, 0.4));
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd000000', endColorstr='#00FFFFFF',GradientType=1 ); } }
-    @media (min-width: 980px) and (max-width: 1199px) {
-      .our-work .case-study-header .gradient {
-        background-image: linear-gradient(to right, #282828, transparent 65%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd000000', endColorstr='#00FFFFFF',GradientType=1 ); } }
-    @media (min-width: 1200px) {
-      .our-work .case-study-header .gradient {
-        background-image: linear-gradient(to right, #282828, transparent 55%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd000000', endColorstr='#00FFFFFF',GradientType=1 ); } }
+  .our-work .case-study-header:hover {
+    border: 0.375rem solid #f26d21;
+    -webkit-transition: border 0.2s;
+    -moz-transition: border 0.2s;
+    transition: border 0.2s; }
   .our-work .case-study-header .wrapper {
-    margin: 3% auto;
-    max-width: 94%;
-    position: relative;
-    vertical-align: center;
-    z-index: 100; }
-    @media (min-width: 671px) and (max-width: 979px) {
-      .our-work .case-study-header .wrapper {
-        max-width: 80%; } }
-    @media (min-width: 980px) and (max-width: 1199px) {
-      .our-work .case-study-header .wrapper {
-        max-width: 35%;
-        float: left;
-        margin-left: 5%; } }
-    @media (min-width: 1200px) {
-      .our-work .case-study-header .wrapper {
-        max-width: 25%;
-        float: left;
-        margin-left: 7%; } }
-  .our-work .case-study-header:nth-child(odd) .gradient {
-    background-image: linear-gradient(to left, rgba(40, 40, 40, 0.8), rgba(40, 40, 40, 0.5));
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 ); }
-    @media (min-width: 671px) and (max-width: 979px) {
-      .our-work .case-study-header:nth-child(odd) .gradient {
-        background-image: linear-gradient(to left, #282828, rgba(40, 40, 40, 0.4));
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 ); } }
-    @media (min-width: 980px) and (max-width: 1199px) {
-      .our-work .case-study-header:nth-child(odd) .gradient {
-        background-image: linear-gradient(to left, #282828, transparent 65%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 ); } }
-    @media (min-width: 1200px) {
-      .our-work .case-study-header:nth-child(odd) .gradient {
-        background-image: linear-gradient(to left, #282828, transparent 55%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 ); } }
-  .our-work .case-study-header:nth-child(odd) .wrapper {
+    background: #fff;
+    bottom: -0.5rem;
     left: 0;
-    right: 0; }
-    @media (min-width: 980px) and (max-width: 1199px) {
-      .our-work .case-study-header:nth-child(odd) .wrapper {
-        float: right;
-        margin-right: 5%; } }
-    @media (min-width: 1200px) {
-      .our-work .case-study-header:nth-child(odd) .wrapper {
-        float: right;
-        margin-right: 7%; } }
+    margin: 0 auto;
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 74%; }
   .our-work .case-study-header h4 {
     color: #c0c2c6;
     display: inline-block;
@@ -5855,7 +5807,6 @@ header {
     max-width: 90%;
     opacity: 0.9; }
   .our-work .case-study-header a.uppercase-link {
-    color: #fff;
     font-size: 0.8125rem; }
     .our-work .case-study-header a.uppercase-link i {
       color: #f1b332; }
