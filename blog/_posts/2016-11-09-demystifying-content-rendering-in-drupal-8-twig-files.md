@@ -2,7 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: technology
-title: Demystifying Content Rendering in Drupal 8 Twig Files
+title: Demystifying Rendered Content in Drupal 8 Twig Files
 homepage: true
 author: amy  
 published: true
@@ -43,23 +43,23 @@ Some patterns and tricks I found helpful:
 * If arrays exist next to each other, separate them with periods. Ex. `[‘page’][‘content’]` = `page.content`.
 * If an array has a #, @, or other symbol associated, keep its integrity. No period is needed here. Ex. `[‘page’][‘#title’]` = `page[‘#title’]`, and `arguments[‘@name’]` stays the same.
 * If an arrow exists, treat the method (what comes after the ->) in the same manner as arrays. Ex. `[‘#title’]->arguments` = `[‘#title’].arguments`
-* If you’re having trouble rendering the desired output, try adding `.value` to the end of the render code and see if that does the trick. 
+* If you’re having trouble rendering the desired output, try adding `.value` to the end of the render code and see if that does the trick.
 * Use `dump()` simultaneously with PHPStorm’s suggested variable path.
 * Refer to the [Twig documentation](http://twig.sensiolabs.org/documentation) for other handy built-in features.
 
-Up until the moment I got PHPStorm doing the heavy lifting, my team and I were relying soley on the `dump()` Twig function. We were halfway through the project when I discovered a value was no longer present. The disappearance was due to a template’s reliance on a value being rendered via an array placement, i.e. `content.tile.3['#markup']`, the ‘3’ referring to the 4th placement in the ‘tile’ array. To alleviate potential confusion, ‘tile’ happened to be the custom field group where the `field_to_render` existed, and the `field_to_render` was the 4th field in the list of fields. When a field was moved within the ‘tile’ field group, the code broke. Once I had access to the phpstorm debugger, I was able to see a better way to render this element, i.e. `content.field_to_render`. It suddenly dawned on me that our project needed some tidying, so I rolled up my sleeves and got to work. 
+Up until the moment I got PHPStorm doing the heavy lifting, my team and I were relying soley on the `dump()` Twig function. We were halfway through the project when I discovered a value was no longer present. The disappearance was due to a template’s reliance on a value being rendered via an array placement, i.e. `content.tile.3['#markup']`, the ‘3’ referring to the 4th placement in the ‘tile’ array. To alleviate potential confusion, ‘tile’ happened to be the custom field group where the `field_to_render` existed, and the `field_to_render` was the 4th field in the list of fields. When a field was moved within the ‘tile’ field group, the code broke. Once I had access to the phpstorm debugger, I was able to see a better way to render this element, i.e. `content.field_to_render`. It suddenly dawned on me that our project needed some tidying, so I rolled up my sleeves and got to work.
 
 These are the strategies I established during my clean-up process:
 
-* Create the shortest render code possible with the closest placement to the main content variable. This will be the most stable. My array placement example mentioned previously is a good example of this. The same value can be present and rendered in numerous ways. 
-* If rendering a field, use this pattern: `content.field_to_render`. This will render the field object, inheriting any backend logic that’s been applied to that field existing in the view_mode you are theming. 
+* Create the shortest render code possible with the closest placement to the main content variable. This will be the most stable. My array placement example mentioned previously is a good example of this. The same value can be present and rendered in numerous ways.
+* If rendering a field, use this pattern: `content.field_to_render`. This will render the field object, inheriting any backend logic that’s been applied to that field existing in the view_mode you are theming.
 * If you prefer having just the markup or integer value, try adding a `.value` to the end. Examples: `content[‘#node’].nid.value` will provide just the node id, and `content.node_title` will render the title object whereas `content[‘#node’].title.value` will render the title as a string.
 * The first element in an array might be the most stable. For example, we often use the media module which can add complexity to a media item’s data structure. In order use a node’s image as a background for a `<div>`, this is the best approach we found: `<div class=”banner-image” style="background-image: url({{file_url(content.field_banner_image.0['#item'].entity.uri.value)}})">`
 .
 
 Any change can be tough to navigate, but it’s often well worth the effort. My experience theming in Drupal 8 thus far has been lovely, and fairly intuitive. I find it offers front-end developers more authority over the markup than its predecessor, and makes me excited for the future of theming in Drupal 8. If you were at all daunted by the thought of theming in Drupal 8, I hope this post helps you in your future twig debugging endeavors!
 
-_Note:_ [Devel](https://www.drupal.org/project/devel) and [Kint](http://raveren.github.io/kint/) are a couple additional tools available for debugging Twig variables, and I mention those in case others find them useful. More information on how to set those tools up for debugging Twig files (and more!) can be found in this [Drupal 8 Theming Guide](https://sqndr.github.io/d8-theming-guide/twig/twig-debug.html) and on Amber Matz’s [Let’s Debug in Drupal 8!](https://drupalize.me/blog/201405/lets-debug-twig-drupal-8) post. 
+_Note:_ [Devel](https://www.drupal.org/project/devel) and [Kint](http://raveren.github.io/kint/) are a couple additional tools available for debugging Twig variables, and I mention those in case others find them useful. More information on how to set those tools up for debugging Twig files (and more!) can be found in this [Drupal 8 Theming Guide](https://sqndr.github.io/d8-theming-guide/twig/twig-debug.html) and on Amber Matz’s [Let’s Debug in Drupal 8!](https://drupalize.me/blog/201405/lets-debug-twig-drupal-8) post.
 
 If you’re new to Drupal 8 theming, I would start with the resources Amber specifies in her “Editor’s notes”, and [sqndr’s D8 theming docs](https://sqndr.github.io/d8-theming-guide/). Debugging twig files is an intermediate topic.
 
