@@ -17,7 +17,7 @@ image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 For many, this election cycle and the subsequent aftermath has been a rather unsettling, tumultuous experience. I’m still processing and mapping out what’s next and where to focus my personal resources – but in the nonprofit space, there has already been much conjecture about what this new administration will mean for the industry. 
 
-David Callahan wrote up some thoughts for [Inside Philanthropy](http://www.insidephilanthropy.com/home/2016/11/9/philanthropy-in-the-age-of-trump-five-predictions), and among his predictions he listed philanthropy influencing society more and centrist donors rallying to save what they value in society. He states that historically, when conservatives have been in power, donations have soared. “During the Bush era, we saw this phenomenon play out with dramatic effect, as numerous new donors - alarmed by a reckless president and Republican dominance — swung behind progressive causes in a big way.” 
+David Callahan wrote up some thoughts for [Inside Philanthropy](http://www.insidephilanthropy.com/home/2016/11/9/philanthropy-in-the-age-of-trump-five-predictions), and among his predictions he listed philanthropy influencing society more and centrist donors rallying to save what they value in society. He states, “we'll see a wave of funder-backed initiatives aimed at bringing more civility and unity to public life.”
 
 It’s only been a couple weeks, but some of those predictions are coming to fruition. 
 
