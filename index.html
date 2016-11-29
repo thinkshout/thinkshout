@@ -34,7 +34,7 @@ keywords:
     </div>
 
     <div class="featured-case-study">
-      <style scoped>
+      <style>
         .front .featured-case-study { background-image: url('{{ site.baseurl }}{{ featured_work.cs-preview.image }}'); }
       </style>
       <div class="container">
@@ -51,7 +51,7 @@ keywords:
       {% if case.order > 1 %}
         <a href="{{ site.baseurl }}{{ case.url }}">
           <div class="case-study" id="case-study{{ case.order }}">
-          <style scoped>
+          <style>
             #case-study{{ case.order }} { background: url('{{ site.baseurl }}{{ case.cs-preview.image }}') center center no-repeat; }
           </style>
             <div class="case-study-text">
