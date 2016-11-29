@@ -12,19 +12,5 @@
         <button type="submit">submit<i class="fa fa-caret-right"></i></button>
       </form>
     </div>
-
-    <div class="social-media">
-      <h1>Follow Us</h1>
-      <ul>
-        {% for item in site.data.menu.social-media %}
-          <li>
-            <a href="{{ item.url }}" target="_blank">
-              <img src="{{ site.baseurl }}/assets/images/ts_redesign/{{ item.title }}.svg" alt="{{ item.title }}" />
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-
   </div>
 </div>

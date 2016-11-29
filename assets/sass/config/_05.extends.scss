@@ -20,7 +20,7 @@
   text-transform: uppercase;
 
   i {
-    color: $ltorange;
+    color: $yellow;
     font-size: 1.5rem;
     margin-left: rem(10);
     vertical-align: sub;
@@ -28,6 +28,10 @@
 
   &:hover {
     text-decoration: underline;
+  }
+
+  &:visited {
+    color: $darkgray;
   }
 }
 

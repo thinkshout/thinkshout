@@ -70,44 +70,4 @@
       }
     }
   }
-
-  .social-media {
-    @include span-columns(3);
-    z-index: 1;
-
-    @include mq(t) {
-      @include span-columns(12);
-      margin-top: 2rem;
-    }
-
-    @include mq(m) {
-      @include span-columns(12);
-      margin-top: 2rem;
-    }
-
-    @include mq(d) { float: right !important; }
-
-    h1,
-    ul {
-      clear: right;
-      float: right;
-
-      @include mq(t) { float: none; }
-      @include mq(m) { float: none; }
-    }
-
-    ul {
-      margin-top: 0;
-
-      @include mq(m) {
-        padding: 0;
-      }
-    }
-
-    li {
-      display: inline-block;
-      width: 50px;
-      padding-right: 1em;
-    }
-  }
 }

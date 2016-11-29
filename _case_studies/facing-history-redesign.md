@@ -5,7 +5,7 @@ body-class: case-study facing-history-redesign
 active: true
 homepage: true
 published: true
-order: 4
+order: 3
 # END LAYOUT DATA
 
 
