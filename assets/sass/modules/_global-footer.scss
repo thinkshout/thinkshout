@@ -70,6 +70,11 @@ footer {
 
     .footer-submenu {
       margin-top: 0.5rem;
+      @include mq(m) {
+        font-size: .75em;
+        margin-top: 0;
+      }
+
       a {
         color: $white;
       }

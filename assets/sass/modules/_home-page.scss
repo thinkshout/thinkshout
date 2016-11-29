@@ -135,17 +135,20 @@
         color: $orange;
         font-size: rem(13);
         margin-bottom: 0;
+
+        @include mq(m) { font-size: rem(12); }
       }
 
       h1 {
+        font-size: rem(20);
         line-height: rem(20);
-        margin: 0 0.5rem 1rem;
+        margin: 0.5rem 0.5rem 1rem;
+        @include mq(m) {
+          font-size: 1.1rem;
+        }
 
         a {
           color: $darkgray;
-          font-size: rem(20);
-
-          @include mq(m) { font-size: 1.1rem; }
         }
       }
     }
