@@ -109,7 +109,7 @@ cs-sections:
 
       Since the site launched, traffic has increased more than 60% year-over-year – and more than 130% for mobile devices. Visitors are staying longer, and importantly, providing more support online: donations through the website are up significantly, as well.
 
-      The combination of a solidly built Drupal site, hosted with Pantheon, and CloudFlare as a CDN and security layer has allowed the SPLC to withstand both dramatic spikes in legitimate traffic and countless attacks. The launch of the updated Hate Map saw traffic to just that section of the site spike over 20 times the historical averages with no impact or additional needs placed on the underlying infrastructure.
+      The combination of a solidly built Drupal site, hosted with Pantheon, and Fastly as a CDN and security layer has allowed the SPLC to withstand both dramatic spikes in legitimate traffic and countless attacks. The launch of the updated Hate Map saw traffic to just that section of the site spike over 20 times the historical averages with no impact or additional needs placed on the underlying infrastructure.
 
 cs-cta-text: Launch Site
 cs-cta-url: https://www.splcenter.org/
