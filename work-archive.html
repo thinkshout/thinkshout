@@ -13,7 +13,17 @@ title: Work Archive
 
     {% assign case-studies = (site.case_studies | where: "published", "true") %}
     {% for preview in case-studies %}
-      {% include case_study_preview.html %}
+    <a href="{{ site.baseurl }}{{ preview.url }}">
+      <div class="case-study-header {{ preview.cs-class }}">
+      <style>
+        .case-study-header.{{ preview.cs-class }} { background: url('{{ site.baseurl }}{{ preview.cs-preview.image }}'); }
+      </style>
+        <div class="wrapper">
+          <h2>{{ preview.cs-preview.client }}</h2>
+          <p class="description">{{ preview.cs-preview.description }}</p>
+        </div>
+      </div>
+    </a>
     {% endfor %}
   </div>
 </div>
