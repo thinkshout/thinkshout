@@ -1,6 +1,6 @@
 ---
 layout: default
-body-class: our-work work-archive
+body-class: our-work
 permalink: work/archive
 title: Work Archive
 ---
@@ -11,12 +11,10 @@ title: Work Archive
       <p>Whether it’s a simple site or a sophisticated e-commerce solution, our work excels in terms of engagement and effectiveness.</p>
     </div>
 
-    <div class="case-study-previews">
-      {% assign case-studies = (site.case_studies | where: "published", "true") %}
-      {% for preview in case-studies %}
-        {% include case_study_preview.html %}
-      {% endfor %}
-    </div>
+    {% assign case-studies = (site.case_studies | where: "published", "true") %}
+    {% for preview in case-studies %}
+      {% include case_study_preview.html %}
+    {% endfor %}
   </div>
 </div>
 

@@ -6636,11 +6636,6 @@ header {
     .our-team-block .team-image img {
       max-width: 100%; }
 
-.work-archive .case-study-previews a .case-study-header {
-  width: 48%; }
-.work-archive .case-study-previews a:nth-of-type(odd) .case-study-header {
-  margin-right: 2%; }
-
 .work-with-us {
   background: url("../images/ts_redesign/work-with-us1.jpg") right center no-repeat;
   background-size: cover;
