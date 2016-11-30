@@ -100,7 +100,7 @@ cs-sections:
 
       Pantheon was selected to provide the core hosting platform due to its track record of stability and developer/workflow tools that enabled rapid development with minimal infrastructure distractions. Detailed load testing showed the site fully capable of handling traffic in excess of five times their historical peaks.
 
-      To further improve capacity and add an additional layer of security, the site sits behind CloudFlare’s extensive content distribution network (CDN) and web application firewall (WAF). The CloudFlare WAF enhances the security already provided by Pantheon by adding a variety of protections against attempts to hack or otherwise compromise the site. For the increasingly common Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks where attackers overwhelm a site with requests and make it unavailable for other visitors, CloudFlare again provides protection. By utilizing Pantheon and CloudFlare, the SPLC team can focus all of their energy on the important work they do rather than managing servers and other infrastructure.
+      To further improve capacity and add an additional layer of security, the site sits behind Fastly's extensive content distribution network (CDN). For the increasingly common Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks where attackers overwhelm a site with requests and make it unavailable for other visitors, Fastly again provides protection. By utilizing Pantheon and Fastly, the SPLC team can focus all of their energy on the important work they do rather than managing servers and other infrastructure.
 
 
   - section-title: "Results"
@@ -109,7 +109,7 @@ cs-sections:
 
       Since the site launched, traffic has increased more than 60% year-over-year – and more than 130% for mobile devices. Visitors are staying longer, and importantly, providing more support online: donations through the website are up significantly, as well.
 
-      The combination of a solidly built Drupal site, hosted with Pantheon, and CloudFlare as a CDN and security layer has allowed the SPLC to withstand both dramatic spikes in legitimate traffic and countless attacks. The launch of the updated Hate Map saw traffic to just that section of the site spike over 20 times the historical averages with no impact or additional needs placed on the underlying infrastructure.
+      The combination of a solidly built Drupal site, hosted with Pantheon, and Fastly as a CDN and security layer has allowed the SPLC to withstand both dramatic spikes in legitimate traffic and countless attacks. The launch of the updated Hate Map saw traffic to just that section of the site spike over 20 times the historical averages with no impact or additional needs placed on the underlying infrastructure.
 
 cs-cta-text: Launch Site
 cs-cta-url: https://www.splcenter.org/
