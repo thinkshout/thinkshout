@@ -9,7 +9,7 @@ order: 10
 # END LAYOUT DATA
 
 title: Mercy Corps
-cs-class: "mercycorps"
+cs-class: ""
 
 cs-preview:
   image: /assets/images/work/micromentor/micromentor-hero.jpg
