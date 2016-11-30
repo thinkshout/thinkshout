@@ -5,7 +5,7 @@
     @include mq(t) { margin-top: rem(90); }
   }
 
-  .case-study-previews a .case-study-header {
+  .case-study-header {
     @include transition(border 0.2s);
     background-position: center center;
     background-size: cover;
@@ -13,13 +13,15 @@
     display: inline-block;
     height: 100%;
     margin-bottom: 1.5rem;
-    min-height: 330px;
+    min-height: 285px;
     padding: 2rem 0;
     position: relative;
     text-align: center;
-    width: 48%;
+    width: 100%;
     z-index: 1;
-    @include mq(m) { min-height: 285px; width: 100%; }
+    @include mq(lt) { padding: 3rem 0; min-height: 340px; }
+    @include mq(md) { padding: 5rem 0 3rem; min-height: 450px; }
+    @include mq(l) { padding: 6rem 0 4rem; min-height: 550px; }
 
     &:hover {
       border: rem(6) solid $orange;
@@ -66,9 +68,5 @@
         color: $yellow;
       }
     }
-  }
-
-  .case-study-previews a:nth-of-type(odd) .case-study-header {
-    margin-right: 2%;
   }
 }

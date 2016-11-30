@@ -10,12 +10,10 @@ title: Our Work
       <h1>Our Work</h1>
       <p>Whether it’s a simple site or a sophisticated e-commerce solution, our work excels in terms of engagement and effectiveness.</p>
     </div>
-    <div class="case-study-previews">
-      {% assign case-studies = (site.case_studies | where: "active", "true" | sort: "order") %}
-      {% for preview in case-studies | limit: 4 %}
-        {% include case_study_preview.html %}
-      {% endfor %}
-    </div>
+    {% assign case-studies = (site.case_studies | where: "active", "true" | sort: "order") %}
+    {% for preview in case-studies | limit: 4 %}
+      {% include case_study_preview.html %}
+    {% endfor %}
   </div>
 </div>
 
