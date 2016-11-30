@@ -100,7 +100,7 @@ cs-sections:
 
       Pantheon was selected to provide the core hosting platform due to its track record of stability and developer/workflow tools that enabled rapid development with minimal infrastructure distractions. Detailed load testing showed the site fully capable of handling traffic in excess of five times their historical peaks.
 
-      To further improve capacity and add an additional layer of security, the site sits behind CloudFlare’s extensive content distribution network (CDN) and web application firewall (WAF). The CloudFlare WAF enhances the security already provided by Pantheon by adding a variety of protections against attempts to hack or otherwise compromise the site. For the increasingly common Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks where attackers overwhelm a site with requests and make it unavailable for other visitors, CloudFlare again provides protection. By utilizing Pantheon and CloudFlare, the SPLC team can focus all of their energy on the important work they do rather than managing servers and other infrastructure.
+      To further improve capacity and add an additional layer of security, the site sits behind Fastly's extensive content distribution network (CDN). For the increasingly common Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks where attackers overwhelm a site with requests and make it unavailable for other visitors, Fastly again provides protection. By utilizing Pantheon and Fastly, the SPLC team can focus all of their energy on the important work they do rather than managing servers and other infrastructure.
 
 
   - section-title: "Results"
