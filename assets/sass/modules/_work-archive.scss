@@ -3,7 +3,7 @@
     min-height: 330px;
     width: 48%;
 
-    @include mq(m) { min-height: 285px; width: 100%; }
+    @include mq(m) { width: 100%; }
   }
   .case-study-previews a:nth-of-type(odd) .case-study-header {
     margin-right: 2%;
