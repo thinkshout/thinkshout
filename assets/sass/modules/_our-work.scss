@@ -22,9 +22,63 @@
     @include mq(md) { padding: 5rem 0 3rem; min-height: 450px; }
     @include mq(l) { padding: 6rem 0 4rem; min-height: 550px; }
 
+    .gradient {
+      background-image: linear-gradient( to right, rgba(40,40,40,0.8), rgba(40,40,40,0.5) );
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd000000', endColorstr='#00FFFFFF',GradientType=1 );
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+      @include mq(lt) {
+        background-image: linear-gradient( to right, rgba(40,40,40,1), rgba(40,40,40,0.4) );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd000000', endColorstr='#00FFFFFF',GradientType=1 );
+      }
+      @include mq(md) {
+        background-image: linear-gradient( to right, rgba(40,40,40,1), transparent 65% );
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd000000', endColorstr='#00FFFFFF',GradientType=1 );
+      }
+      @include mq(l) {
+        background-image: linear-gradient( to right, rgba(40,40,40,1), transparent 55% );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd000000', endColorstr='#00FFFFFF',GradientType=1 );
+      }
     }
 
     .wrapper {
+      margin: 3% auto;
+      max-width: 94%;
+      position: relative;
+      vertical-align: center;
+      z-index: 100;
+      @include mq(lt) { max-width: 80%; }
+      @include mq(md) { max-width: 35%; float: left; margin-left: 5%; }
+      @include mq(l) { max-width: 25%; float: left; margin-left: 7%; }
+    }
+
+    &:nth-child(odd) {
+      .gradient {
+        background-image: linear-gradient( to left, rgba(40,40,40,0.8), rgba(40,40,40,0.5) );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
+        @include mq(lt) {
+          background-image: linear-gradient( to left, rgba(40,40,40,1), rgba(40,40,40,0.4) );
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
+        }
+        @include mq(md) {
+          background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 65% );
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
+        }
+        @include mq(l) {
+          background-image: linear-gradient( to left, rgba(40,40,40,1), transparent 55% );
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
+        }
+      }
+      .wrapper {
+        left: 0;
+        right: 0;
+        @include mq(md) { float: right; margin-right: 5%; }
+        @include mq(l) { float: right; margin-right: 7%; }
+      }
     }
 
     h4 {
