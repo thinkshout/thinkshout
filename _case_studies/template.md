@@ -4,29 +4,29 @@ layout: case_study
 body-class: case-study template
 active: false
 homepage: false
-published: false
+published: true
 order: 10
 # END LAYOUT DATA
 
-title:
+title: 
 cs-class: ""
 
 cs-preview:
   image: /assets/images/
-  type:
-  client:
+  type: 
+  client: 
   description:
 
 cs-header:
   header-image: /assets/images/
-  client:
-  title:
+  client: 
+  title: 
 
 cs-intro:
-  type:
-  mission:
-  link-text:
-  link-url:
+  type: 
+  mission: 
+  link-text: 
+  link-url: 
   text: |
 
 cs-sections:
@@ -40,6 +40,8 @@ cs-sections:
 
 
 cs-cta-text: Launch Site
-cs-cta-url:
+cs-cta-url: 
 
 ---
+
+
