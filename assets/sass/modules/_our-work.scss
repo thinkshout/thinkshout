@@ -13,13 +13,13 @@
     display: inline-block;
     height: 100%;
     margin-bottom: 1.5rem;
-    min-height: 285px;
+    min-height: 340px;
     padding: 2rem 0;
     position: relative;
     text-align: center;
     width: 100%;
     z-index: 1;
-    @include mq(lt) { padding: 3rem 0; min-height: 340px; }
+    @include mq(lt) { padding: 3rem 0; min-height: 250px; }
     @include mq(md) { padding: 5rem 0 3rem; min-height: 450px; }
     @include mq(l) { padding: 6rem 0 4rem; min-height: 550px; }
 
@@ -40,15 +40,32 @@
       width: 74%;
     }
 
-    h2 {
-      font-size: 1.2rem;
-      line-height: rem(24);
-      margin-bottom: rem(5);
-      margin-top: rem(3);
+    h4 {
+      color: darken($ltgray, 10%);
+      display: inline-block;
+      font-size: 0.6rem;
+      font-weight: 400;
+      margin: 0;
+      text-transform: uppercase;
+      @include mq(lt) { font-size: 0.8rem }
+      @include mq(md) { font-size: 0.8rem }
+      @include mq(l) { font-size: 0.8rem }
+    }
 
-      @include mq(m) {
-        font-size: 1.1rem;
-        margin-top: 0;
+    h2 {
+      color: $orange;
+      font-size: 1.2rem;
+      font-weight: 900;
+      letter-spacing: 0.5px;
+      line-height: 1;
+      margin-bottom: 1rem;
+      margin-top: 0.7rem;
+      @include mq(lt) { font-size: 1.5rem; }
+      @include mq(md) { font-size: 1.8rem; }
+      @include mq(l) { font-size: 2rem; }
+
+      &:hover {
+        text-decoration: underline;
       }
     }
 

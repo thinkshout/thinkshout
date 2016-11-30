@@ -5738,7 +5738,7 @@ header {
   display: inline-block;
   height: 100%;
   margin-bottom: 1.5rem;
-  min-height: 285px;
+  min-height: 340px;
   padding: 2rem 0;
   position: relative;
   text-align: center;
@@ -5747,7 +5747,7 @@ header {
   @media (min-width: 671px) and (max-width: 979px) {
     .our-work .case-study-header {
       padding: 3rem 0;
-      min-height: 340px; } }
+      min-height: 250px; } }
   @media (min-width: 980px) and (max-width: 1199px) {
     .our-work .case-study-header {
       padding: 5rem 0 3rem;
@@ -5771,15 +5771,41 @@ header {
     right: 0;
     text-align: center;
     width: 74%; }
+  .our-work .case-study-header h4 {
+    color: #c0c2c6;
+    display: inline-block;
+    font-size: 0.6rem;
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .our-work .case-study-header h4 {
+        font-size: 0.8rem; } }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .our-work .case-study-header h4 {
+        font-size: 0.8rem; } }
+    @media (min-width: 1200px) {
+      .our-work .case-study-header h4 {
+        font-size: 0.8rem; } }
   .our-work .case-study-header h2 {
+    color: #f26d21;
     font-size: 1.2rem;
-    line-height: 1.5rem;
-    margin-bottom: 0.3125rem;
-    margin-top: 0.1875rem; }
-    @media (max-width: 480px) {
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    margin-bottom: 1rem;
+    margin-top: 0.7rem; }
+    @media (min-width: 671px) and (max-width: 979px) {
       .our-work .case-study-header h2 {
-        font-size: 1.1rem;
-        margin-top: 0; } }
+        font-size: 1.5rem; } }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .our-work .case-study-header h2 {
+        font-size: 1.8rem; } }
+    @media (min-width: 1200px) {
+      .our-work .case-study-header h2 {
+        font-size: 2rem; } }
+    .our-work .case-study-header h2:hover {
+      text-decoration: underline; }
   .our-work .case-study-header p {
     color: #58585b;
     font-size: 0.8125rem;
@@ -6611,11 +6637,7 @@ header {
       max-width: 100%; }
 
 .work-archive .case-study-previews a .case-study-header {
-  min-height: 330px;
   width: 48%; }
-  @media (max-width: 480px) {
-    .work-archive .case-study-previews a .case-study-header {
-      width: 100%; } }
 .work-archive .case-study-previews a:nth-of-type(odd) .case-study-header {
   margin-right: 2%; }
 
