@@ -5,14 +5,14 @@ topic: strategy
 title: Is November 2016 an Outlier or the New Normal?
 homepage: false
 author: natania  
-published: false
+published: true
 featured: false
 short: We have some tips to help you keep those new donors engaged.
 tags:
   - Fundraising
   - Donor retention
   - E-mail
-date: 2016-11-21 14:00:00
+date: 2016-12-01 11:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 For many, this election cycle and the subsequent aftermath has been a rather unsettling, tumultuous experience. I’m still processing and mapping out what’s next and where to focus my personal resources – but in the nonprofit space, there has already been much conjecture about what this new administration will mean for the industry. 
