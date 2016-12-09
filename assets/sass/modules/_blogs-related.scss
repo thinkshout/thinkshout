@@ -138,8 +138,15 @@
       position: relative;
     }
     .byline {
+      padding-right: 0;
       position: absolute;
       bottom: -1rem;
+
+      @supports(display: flex) {
+        display: flex;
+        align-items: center;
+      }
+
       strong {
         color: #000;
         display: inline-block;
@@ -148,6 +155,10 @@
         &:hover {
           color: $orange;
         }
+      }
+
+      .position {
+        white-space: normal;
       }
     }
   }

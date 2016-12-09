@@ -6,8 +6,10 @@
     <p class="byline">
       {% assign person = site.team | where:"name",post.author %}
       <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person[0].team-image.small }}">
-      <strong>{{ person[0].first_name }} {{ person[0].last_name }}</strong><br>
-      {{ person[0].position }}
+      <span class="byline-text">
+        <strong>{{ person[0].first_name }} {{ person[0].last_name }}</strong><br>
+        <span class="position">{{ person[0].position }}</span>
+      </span>
     </p>
   </a>
 </div>
