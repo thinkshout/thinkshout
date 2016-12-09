@@ -3160,7 +3160,6 @@ a:visited {
   position: relative; }
 .blog-post .team-member-blog .byline,
 .expertise .team-member-blog .byline {
-  padding-right: 0;
   position: absolute;
   bottom: -1rem; }
   @supports (display: flex) {
