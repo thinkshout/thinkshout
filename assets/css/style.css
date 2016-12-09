@@ -3160,8 +3160,14 @@ a:visited {
   position: relative; }
 .blog-post .team-member-blog .byline,
 .expertise .team-member-blog .byline {
+  padding-right: 0;
   position: absolute;
   bottom: -1rem; }
+  @supports (display: flex) {
+    .blog-post .team-member-blog .byline,
+    .expertise .team-member-blog .byline {
+      display: flex;
+      align-items: center; } }
   .blog-post .team-member-blog .byline strong,
   .expertise .team-member-blog .byline strong {
     color: #000;
@@ -3170,6 +3176,9 @@ a:visited {
     .blog-post .team-member-blog .byline strong:hover,
     .expertise .team-member-blog .byline strong:hover {
       color: #f26d21; }
+  .blog-post .team-member-blog .byline .position,
+  .expertise .team-member-blog .byline .position {
+    white-space: normal; }
 
 .button {
   background: transparent;
