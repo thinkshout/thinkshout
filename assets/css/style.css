@@ -2843,30 +2843,40 @@ a:visited {
   background-position: center center;
   background-size: cover;
   padding: 0;
+  position: relative;
   width: 100%; }
+  .blog-landing .featured-post .gradient {
+    background-image: linear-gradient(to right, rgba(40, 40, 40, 0.8), rgba(40, 40, 40, 0.5));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1; }
   .blog-landing .featured-post .wrapper {
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaFFFFFF', endColorstr='#00ffffff',GradientType=1 );
     max-width: 100%;
     margin: 0 auto;
-    padding: 2rem 1rem 1rem; }
+    padding: 2rem 1rem 1rem;
+    position: relative;
+    z-index: 2; }
     @media (min-width: 671px) and (max-width: 979px) {
       .blog-landing .featured-post .wrapper {
-        padding: 4rem 1rem 2rem 2rem;
-        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0) 85%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaFFFFFF', endColorstr='#00ffffff',GradientType=1 ); } }
+        padding: 4rem 1rem 2rem 2rem; } }
     @media (min-width: 980px) and (max-width: 1199px) {
       .blog-landing .featured-post .wrapper {
-        padding: 8rem 1rem 3rem 2rem;
-        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0) 75%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaFFFFFF', endColorstr='#00ffffff',GradientType=1 ); } }
+        padding: 8rem 1rem 3rem 2rem; } }
     @media (min-width: 1200px) {
       .blog-landing .featured-post .wrapper {
         padding: 10rem 0 2rem 0;
         background-image: none;
         max-width: 68.75rem; } }
+  .blog-landing .featured-post .header-down-caret {
+    margin-bottom: 1rem; }
+    .blog-landing .featured-post .header-down-caret h4 {
+      color: #fff; }
   .blog-landing .featured-post h2, .blog-landing .featured-post p {
-    color: #58585b;
+    color: #fff;
     max-width: 95%;
     margin: 0 0 1rem; }
     @media (min-width: 671px) and (max-width: 979px) {
@@ -2879,11 +2889,12 @@ a:visited {
       .blog-landing .featured-post h2, .blog-landing .featured-post p {
         max-width: 35%; } }
     .blog-landing .featured-post h2 a, .blog-landing .featured-post p a {
-      color: #58585b;
+      color: #f1b332;
       font-weight: 800; }
     .blog-landing .featured-post h2 a:hover, .blog-landing .featured-post p a:hover {
       text-decoration: underline; }
   .blog-landing .featured-post h2 {
+    color: #f1b332;
     font-size: 1.375rem; }
     @media (min-width: 671px) and (max-width: 979px) {
       .blog-landing .featured-post h2 {
