@@ -7,11 +7,10 @@ homepage: false
 author: stephanie  
 published: false
 featured: false
-short: What's iATS Payments? 
+short:  
 tags:
   - Fundraising
   - iATS Payments
-  - RedHen
 date: 2016-12-16 14:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
