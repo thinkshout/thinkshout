@@ -15,7 +15,7 @@ date: 2016-12-16 14:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
-We talk about [iATS Payments](http://home.iatspayments.com/) quite a bit on our blog - we did partner with them to create [Commerce iATS for Drupa](https://www.drupal.org/project/commerce_iats)l after all. It's one of our preferred online payment processors, due in no small part to its incredibly reasonable processing fees and the excellent support it offcers nonprofits. It made sense for us to invest the time in making iATS Drupal compatible, given the large number of nonprofits currently using Drupal to host their sites and fundraising efforts. 
+We mention [iATS Payments](http://home.iatspayments.com/) quite frequently on our blog. Why? Well we *did* partner with them to create [Commerce iATS for Drupa](https://www.drupal.org/project/commerce_iats). It also happens to be one of our preferred online payment processors, due in no small part to its incredibly reasonable processing fees and the excellent support it offers nonprofits. It made sense for us to invest the time in making iATS Drupal compatible, given the ever-increasing number of nonprofits using Drupal to host their sites and fundraising efforts. 
 
 We sat down with Mike Kim, Partner Account Manager at iATS Payments, and asked him to explain in his own words exactly what iATS brings to the table:
 
