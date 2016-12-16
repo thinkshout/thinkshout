@@ -7,7 +7,7 @@ homepage: false
 author: stephanie  
 published: false
 featured: false
-short:  
+short:  Learn more about why we're such big fans of iATS Payments.
 tags:
   - Fundraising
   - iATS Payments
