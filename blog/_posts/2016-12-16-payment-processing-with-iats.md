@@ -5,7 +5,7 @@ topic: technology
 title: Payment Processing with iATS
 homepage: false
 author: stephanie  
-published: false
+published: true
 featured: false
 short:  Learn more about why we're such big fans of iATS Payments.
 tags:
