@@ -11,7 +11,9 @@ short:  Learn more about why we're such big fans of iATS Payments.
 tags:
   - Fundraising
   - iATS Payments
-date: 2016-12-16 14:00:00
+  - Drupal
+  - Drupal Planet
+date: 2016-12-16 15:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
