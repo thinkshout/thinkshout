@@ -99,8 +99,9 @@
 
   // Featured Case Study
   .featured-case-study {
-    @include transition(border 0.2s);
     background-size: cover;
+    @include transition(border 0.2s);
+    border: rem(0) solid $orange;
     cursor: pointer;
     height: rem(330);
     margin: 1.5rem 0;
@@ -109,8 +110,8 @@
     width: 100%;
 
     &:hover {
-      border: rem(6) solid $orange;
       @include transition(border 0.2s);
+      border: rem(6) solid $orange;
     }
 
     @include mq(md) { height: rem(380); }
@@ -170,6 +171,7 @@
       #case-study#{$case} {
         @include transition(border 0.2s);
         background-size: cover;
+        border: rem(0) solid $orange;
         height: 330px;
         padding: 2rem;
         width: 48.75%;
