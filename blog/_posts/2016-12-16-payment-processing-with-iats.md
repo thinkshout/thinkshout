@@ -2,7 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: technology
-title: Payment Processing with iATS
+title: Nonprofit Payment Processing with iATS
 homepage: false
 author: stephanie  
 published: true
