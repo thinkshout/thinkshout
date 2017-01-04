@@ -56,7 +56,8 @@ In D8, Migrations have been moved to core. This means a few things. First, it me
 As such, with a solid knowledge of the helpful migration plugins and two essential contributed modules, Migrate Tools and Migrate Plus, you can write a robust migration of both content and config entities without writing code more complicated than a few .yml files. If you don’t believe me, I encourage you to try upgrading your D6 or D7 site to D8 on a local or dev environment to see how much of your data is already in there.
 
 That being said, what if I don’t have an existing site? Or what if I want to implement a new content strategy to go along with my fancy new site?
-Our solution Part 2: Google Sheets
+
+##Our Solution Part 2: Google Sheets
 
 Throw that new content into a Google Doc!
 
