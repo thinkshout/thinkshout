@@ -62,16 +62,13 @@ Throw that new content into a Google Doc!
 
 Yes, spreadsheets are old school, but let’s take a minute to appreciate what they give us. 
 
-* Spreadsheets are familiar When it comes right down to it, spreadsheets are the universal language of business. Putting content into little boxes gives us the ability to move those boxes around, highlight them, and sort them -- few UX experiences can get you so much information so quickly.
+* **Spreadsheets are familiar.** When it comes right down to it, spreadsheets are the universal language of business. Putting content into little boxes gives us the ability to move those boxes around, highlight them, and sort them -- few UX experiences can get you so much information so quickly.
 
-Spreadsheets are dynamic
-It doesn’t take hours of database planning to get information into a spreadsheet. Nor does it take hours of testing to rearrange or remove items from a spreadsheet. It doesn’t demand anything of your data architect other than “organize things by columns and rows.”
+* **Spreadsheets are dynamic.** It doesn’t take hours of database planning to get information into a spreadsheet. Nor does it take hours of testing to rearrange or remove items from a spreadsheet. It doesn’t demand anything of your data architect other than “organize things by columns and rows.”
 
-Spreadsheets are sharable
-We can enable a Google spreadsheet and share it with the client in a few minutes. Clients can start entering their data from day 1 (alright, maybe day 2 or 3). And they can update content as needed -- take it out of the sheet, update things, and change them.
+* **Spreadsheets are sharable.** We can enable a Google spreadsheet and share it with the client in a few minutes. Clients can start entering their data from day 1 (alright, maybe day 2 or 3). And they can update content as needed -- take it out of the sheet, update things, and change them.
 
-Google spreadsheets have revisioning built in.
-If someone really messes up a Google Doc, you can go back through its history and revert it. It’s a nice compromise between committing all your initial content to source control or just letting it live freely.
+* **Google spreadsheets have revisioning built in.** If someone really messes up a Google Doc, you can go back through its history and revert it. It’s a nice compromise between committing all your initial content to source control or just letting it live freely.
 
 Ready to give it a shot?
 
