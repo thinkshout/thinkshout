@@ -7,14 +7,16 @@ homepage: false
 author: maria  
 published: false
 featured: false
-short:  Learn more about why we're such big fans of iATS Payments.
+short:  There's more than one way to migrate your site. In part one, we show you how with Migrate & Google Sheets.
 tags:
   - Drupal Planet
   - Drupal
   - Migrate
   - Google docs
 date: 2016-12-16 15:00:00
-image: https://thinkshout.com/assets/images/ts_icon.jpg
+image: https://thinkshout.com/assets/images/content-migrations-header.jpg
+header-image: /assets/images/blog/content-migrations-header.jpg
+header-image-alt: "Using Google Docs and Migrate to Populate Your Site"
 ---
 
 The problem:
