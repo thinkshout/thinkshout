@@ -53,7 +53,7 @@ It certainly was in Drupal 7, where the Migrate module had a (deserved) reputati
 
 In D8, Migrations have been moved to core. This means a few things. First, it means the core concept of entities is baked right in. So where in D7 migrations, you often had to hunt around for a plugin, hoping someone had written a Destination Handler for your favorite oddball entities, like [Redirects](https://www.drupal.org/node/1116408), or Addresses, or the dreaded Field Collections. In D8, an entity is an entity.
 
-As such, with a solid knowledge of the [helpful migration plugins](https://www.drupal.org/docs/8/api/migrate-api/migrate-process) and two essential contributed modules, Migrate Tools and Migrate Plus, you can write a robust migration of both content and config entities without writing code more complicated than a few .yml files. If you don’t believe me, I encourage you to try upgrading your D6 or D7 site to D8 on a local or dev environment to see how much of your data is already in there.
+As such, with a solid knowledge of the [helpful migration plugins](https://www.drupal.org/docs/8/api/migrate-api/migrate-process) and two essential contributed modules, [Migrate Tools](https://www.drupal.org/project/migrate_tools) and [Migrate Plus](https://www.drupal.org/project/migrate_plus), you can write a robust migration of both content and config entities without writing code more complicated than a few .yml files. If you don’t believe me, I encourage you to [try upgrading your D6 or D7 site to D8](http://slides.com/illepic/d8-migrations) on a local or dev environment to see how much of your data is already in there.
 
 That being said, what if I don’t have an existing site? Or what if I want to implement a new content strategy to go along with my fancy new site?
 
@@ -75,4 +75,4 @@ Ready to give it a shot?
 
 Stay tuned for Part 2 of this series, where I go into detail about how to set up your own Google sheet Drupal 8 migration.
 
-Can’t wait? Check out the Migrate Google Sheets module now! We’ve even set up a sample site whose content comes entirely from an external spreadsheet to help you get started.
+Can’t wait? Check out the [Migrate Google Sheets](https://www.drupal.org/project/migrate_google_sheets) module now! We’ve even set up a [sample site](https://live-mgs-demo.pantheonsite.io/) whose content comes entirely from [an external spreadsheet](https://docs.google.com/spreadsheets/d/1spS1BeUIzxR1KrGK2kKzAoiFZii6vBHyLx_SA0Sb89M) to help you get started.
