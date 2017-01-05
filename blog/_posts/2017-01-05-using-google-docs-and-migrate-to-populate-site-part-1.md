@@ -29,9 +29,9 @@ Client: “I thought I was paying you to build it.”
 
 The separation between content and development can lead to missed edge cases, unfounded assumptions, and wasted time for everyone involved.
 
-There are a few workarounds to this problem. We often prototype our sites with dummy content (insert your [favorite Ipsum](http://www.cupcakeipsum.com/) here). But this, without fail, leads to some nasty surprises when the client starts entering real content. It’s suddenly much longer (or shorter) than the designer or developer intended. Or maybe the images are far too big. Or they’re all portraits where we expected landscapes. In short, the arguments made against using Lorem Ipsum in designs go doubly once you start actually implementing fields on your Drupal site.
+There are a few workarounds to this problem. We often prototype our sites with dummy content (insert your [favorite Ipsum](http://www.cupcakeipsum.com/) here). But this, without fail, leads to some nasty surprises when the client starts entering real content. It’s suddenly much longer (or shorter) than the designer or developer intended. Or maybe the images are far too big. Or they’re all portraits where we expected landscapes. In short, [the arguments made against using Lorem Ipsum in designs](https://www.smashingmagazine.com/2010/01/lorem-ipsum-killing-designs/) go doubly once you start actually implementing fields on your Drupal site.
 
-So what about more meaningful content -- maybe exported from another source? Modules like Default Content allow developers to export certain content for import during the initial site build. But that content has the disadvantage of requiring a developer’s intervention. The more of a nuisance it is to update the content, sync the database, change the fields, etc, the less likely you are to keep the content up-to-date.
+So what about more meaningful content -- maybe exported from another source? Modules like [Default Content](https://www.drupal.org/project/default_content) allow developers to export certain content for import during the initial site build. But that content has the disadvantage of requiring a developer’s intervention. The more of a nuisance it is to update the content, sync the database, change the fields, etc, the less likely you are to keep the content up-to-date.
 
 At ThinkShout, we want to populate our client’s sites with content as soon as possible.
 
@@ -51,9 +51,9 @@ In other words, our initial content needs to be easy to change -- easy enough th
 
 It certainly was in Drupal 7, where the Migrate module had a (deserved) reputation for being difficult to use. Migrating from one Drupal site to another, or even from Wordpress to Drupal was relatively smooth, but if you really wanted to do something unusual, like migrate from a less-common CMS to Drupal, you were going to be writing a lot of custom code “glue” to get it all working.
 
-In D8, Migrations have been moved to core. This means a few things. First, it means the core concept of entities is baked right in. So where in D7 migrations, you often had to hunt around for a plugin, hoping someone had written a Destination Handler for your favorite oddball entities, like Redirects, or Addresses, or the dreaded Field Collections. In D8, an entity is an entity.
+In D8, Migrations have been moved to core. This means a few things. First, it means the core concept of entities is baked right in. So where in D7 migrations, you often had to hunt around for a plugin, hoping someone had written a Destination Handler for your favorite oddball entities, like [Redirects](https://www.drupal.org/node/1116408), or Addresses, or the dreaded Field Collections. In D8, an entity is an entity.
 
-As such, with a solid knowledge of the helpful migration plugins and two essential contributed modules, Migrate Tools and Migrate Plus, you can write a robust migration of both content and config entities without writing code more complicated than a few .yml files. If you don’t believe me, I encourage you to try upgrading your D6 or D7 site to D8 on a local or dev environment to see how much of your data is already in there.
+As such, with a solid knowledge of the [helpful migration plugins](https://www.drupal.org/docs/8/api/migrate-api/migrate-process) and two essential contributed modules, Migrate Tools and Migrate Plus, you can write a robust migration of both content and config entities without writing code more complicated than a few .yml files. If you don’t believe me, I encourage you to try upgrading your D6 or D7 site to D8 on a local or dev environment to see how much of your data is already in there.
 
 That being said, what if I don’t have an existing site? Or what if I want to implement a new content strategy to go along with my fancy new site?
 
