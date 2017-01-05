@@ -9,10 +9,10 @@ published: false
 featured: false
 short:  Learn more about why we're such big fans of iATS Payments.
 tags:
-  - Fundraising
-  - iATS Payments
-  - Drupal
   - Drupal Planet
+  - Drupal
+  - Migrate
+  - Google docs
 date: 2016-12-16 15:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
@@ -29,7 +29,7 @@ Client: “I thought I was paying you to build it.”
 
 The separation between content and development can lead to missed edge cases, unfounded assumptions, and wasted time for everyone involved.
 
-There are a few workarounds to this problem. We often prototype our sites with dummy content (insert your favorite Ipsum here). But this, without fail, leads to some nasty surprises when the client starts entering real content. It’s suddenly much longer (or shorter) than the designer or developer intended. Or maybe the images are far too big. Or they’re all portraits where we expected landscapes. In short, the arguments made against using Lorem Ipsum in designs go doubly once you start actually implementing fields on your Drupal site.
+There are a few workarounds to this problem. We often prototype our sites with dummy content (insert your [favorite Ipsum](http://www.cupcakeipsum.com/) here). But this, without fail, leads to some nasty surprises when the client starts entering real content. It’s suddenly much longer (or shorter) than the designer or developer intended. Or maybe the images are far too big. Or they’re all portraits where we expected landscapes. In short, the arguments made against using Lorem Ipsum in designs go doubly once you start actually implementing fields on your Drupal site.
 
 So what about more meaningful content -- maybe exported from another source? Modules like Default Content allow developers to export certain content for import during the initial site build. But that content has the disadvantage of requiring a developer’s intervention. The more of a nuisance it is to update the content, sync the database, change the fields, etc, the less likely you are to keep the content up-to-date.
 
