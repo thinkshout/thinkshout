@@ -77,4 +77,4 @@ Ready to give it a shot?
 
 Stay tuned for Part 2 of this series, where I go into detail about how to set up your own Google sheet Drupal 8 migration.
 
-Can’t wait? Check out the [Migrate Google Sheets](https://www.drupal.org/project/migrate_google_sheets) module now! We’ve even set up a [sample site](https://live-mgs-demo.pantheonsite.io/) whose content comes entirely from [an external spreadsheet](https://docs.google.com/spreadsheets/d/1spS1BeUIzxR1KrGK2kKzAoiFZii6vBHyLx_SA0Sb89M) to help you get started.
+Can’t wait? Check out the [Migrate Google Sheets](https://www.drupal.org/project/migrate_google_sheets) module now! We’ve even set up a [sample site](https://live-mgs-demo.pantheonsite.io/) where content comes entirely from [an external spreadsheet](https://docs.google.com/spreadsheets/d/1spS1BeUIzxR1KrGK2kKzAoiFZii6vBHyLx_SA0Sb89M) to help you get started.
