@@ -47,7 +47,7 @@ But it ought to be close…
 
 In other words, our initial content needs to be easy to change -- easy enough that the client can do it. Easy enough that the developers don’t have to take a walk around the block to calm down when they find out the fields are changing (again). Easy.
 
-##Our Solution Part 1: Migrate##
+## Our Solution Part 1: Migrate
 
 “But isn’t Migration to Drupal hard?” I hear you saying. 
 
@@ -59,7 +59,7 @@ As such, with a solid knowledge of the [helpful migration plugins](https://www.d
 
 That being said, what if I don’t have an existing site? Or what if I want to implement a new content strategy to go along with my fancy new site?
 
-##Our Solution Part 2: Google Sheets##
+## Our Solution Part 2: Google Sheets
 
 Throw that new content into a Google Doc!
 
