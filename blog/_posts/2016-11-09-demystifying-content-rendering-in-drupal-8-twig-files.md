@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: technology
 title: Demystifying Rendered Content in Drupal 8 Twig Files
-homepage: true
+homepage: false
 author: amy  
 published: true
-featured: true
+featured: false
 short: New to Drupal 8 theming? These tips might make the learning curve a little less steep.
 tags:
   - Drupal planet
