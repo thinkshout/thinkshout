@@ -13,7 +13,7 @@ tags:
   - Drupal
   - Migrate
   - Google docs
-date: 2017-01-05 15:00:00
+date: 2017-01-06 16:00:00
 image: https://thinkshout.com/assets/images/content-migrations-header.jpg
 header-image: /assets/images/blog/content-migrations-header.jpg
 header-image-alt: "Using Google Docs and Migrate to Populate Your Site"
@@ -23,7 +23,7 @@ The problem:
 
 Content management systems are extremely powerful, in that they let developers focus on what they do best -- build the infrastructure of a site, while allowing content editors to do what they do best -- create content.
 
-But this can be a problem when building a new feature. How often have you heard something to this effect: 
+But this can be a problem when building a new feature. How often have you heard something to this effect:
 
 Developer: “That blank spot right there will be a neat slideshow, once you build it.”
 
@@ -49,7 +49,7 @@ In other words, our initial content needs to be easy to change -- easy enough th
 
 ## Our Solution Part 1: Migrate
 
-“But isn’t Migration to Drupal hard?” I hear you saying. 
+“But isn’t Migration to Drupal hard?” I hear you saying.
 
 It certainly was in Drupal 7, where the Migrate module had a (deserved) reputation for being difficult to use. Migrating from one Drupal site to another, or even from Wordpress to Drupal was relatively smooth, but if you really wanted to do something unusual, like migrate from a less-common CMS to Drupal, you were going to be writing a lot of custom code “glue” to get it all working.
 
@@ -63,7 +63,7 @@ That being said, what if I don’t have an existing site? Or what if I want to i
 
 Throw that new content into a Google Doc!
 
-Yes, spreadsheets are old school, but let’s take a minute to appreciate what they give us. 
+Yes, spreadsheets are old school, but let’s take a minute to appreciate what they give us.
 
 * **Spreadsheets are familiar.** When it comes right down to it, spreadsheets are the universal language of business. Putting content into little boxes gives us the ability to move those boxes around, highlight them, and sort them -- few UX experiences can get you so much information so quickly.
 
