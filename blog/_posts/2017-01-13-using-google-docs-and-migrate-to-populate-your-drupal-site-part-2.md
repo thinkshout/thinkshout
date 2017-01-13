@@ -19,18 +19,19 @@ header-image: /assets/images/blog/content-migrations-header.jpg
 header-image-alt: "Using Google Docs and Migrate to Populate Your Site"
 ---
 
-In [Part 1](), I talked about [using Google Docs + Migrate to populate your site. Now we’re going to do that with the Migrate Google Sheets module. Below, I’ll provide the steps to get your own migration up and running, but if you prefer to experiment with a working example, check out a demo of the Migrate Google Sheets Example module (provided as a submodule within Migrate Google Sheets). All content on that site was built using this example Google Sheet. 
+In [Part 1](https://thinkshout.com/blog/2017/01/using-google-docs-and-migrate-to-populate-your-drupal-site-part-1/), I talked about using Google Docs + Migrate to populate your site. Now we’re going to do that with the [Migrate Google Sheets](https://www.drupal.org/project/migrate_google_sheets) module. Below, I’ll provide the steps to get your own migration up and running, but if you prefer to experiment with a working example, [check out a demo of the Migrate Google Sheets Example module](https://live-mgs-demo.pantheonsite.io/) (provided as a submodule within Migrate Google Sheets). [All content on that site was built using this example Google Sheet](https://docs.google.com/spreadsheets/d/1spS1BeUIzxR1KrGK2kKzAoiFZii6vBHyLx_SA0Sb89M). 
 
-##Setup: Install the module
+## Setup: Install the Module
 
 If you’ve already got a Drupal 8 site up and running, you can install the module in any of the normal ways. I’m assuming here that you have access to the site using Drush, as it’s not possible to run migrations through anything but the command line at this time. At ThinkShout, we use composer to build our site distributions, and have a repo for building the demo site here.
-Step 1: Creating your custom migration module
+
+### Step 1: Creating Your Custom Migration Module
 
 The easiest way to get started on your own set of migrations is to copy the migrate_google_sheets_example submodule and rename it something of your own. Let’s say we rename it “my_migration.” Follow these steps:
 
-Rename your .install file to “my_migration.install”, and change the function migrate_google_sheets_example_uninstall to “my_migration_uninstall”.
-Delete the helper submodule “migrate_google_sheets_example_setup” entirely -- that is just necessary to build the content types required for the example module, but you shouldn’t need it for your migration module.
-Rename your migrate_google_sheets_example.info.yml as “my_migration.info.yml” and open it up. At the very least, you’ll want to change the name of the migration to “name: my_migration” but you’ll also likely wish to remove the migrate_google_sheets:migrate_google_sheets_example_setup dependency. Mine ended up looking like this:
+1. Rename your .install file to “my_migration.install”, and change the function migrate_google_sheets_example_uninstall to “my_migration_uninstall”.
+2. Delete the helper submodule “migrate_google_sheets_example_setup” entirely -- that is just necessary to build the content types required for the example module, but you shouldn’t need it for your migration module.
+3. Rename your migrate_google_sheets_example.info.yml as “my_migration.info.yml” and open it up. At the very least, you’ll want to change the name of the migration to “name: my_migration” but you’ll also likely wish to remove the migrate_google_sheets:migrate_google_sheets_example_setup dependency. Mine ended up looking like this:
 
 name: my_migration
 type: module
@@ -45,17 +46,17 @@ dependencies:
 
 When completed, your module structure should look like this:
 
-
+![Module Structure](/assets/images/blog/google-sheets-migrate-1.png)
 
 You are now ready to enable your My Migrations module. (Make sure you disable the migrate_google_sheets_example module first, if you’d previously enabled that!)
 
-Step 2: Create your spreadsheet
+### Step 2: Create Your Spreadsheet
 
 Assuming you have the Game and Landing page content types, you could now run the migrations in your “My Migrations” module and it will pull the data from the Google Sheet.
 
 But since you don’t have permissions to edit that sheet, you’re going to need to copy the existing sheet and create your own to do any customizations.
 
-
+![Spreadsheet](/assets/images/blog/google-sheets-migrate-2.png)
 
 When this is done, you’ll get a url like this:
 
@@ -63,6 +64,7 @@ https://docs.google.com/spreadsheets/d/YourLongHashIDHere where YourLongHashIDHe
 
 Now you’ll need to publish your new spreadsheet. This is an option under “File” -> “Publish to the web”
 
+![Spreadsheet](/assets/images/blog/google-sheets-migrate-3.png)
 
 To verify that your migration module will be able to see the Google sheet, try opening an anonymous browser window and visiting the Feed version of the url, whose format is this:
 
@@ -72,16 +74,19 @@ If visiting that URL throws out a bunch of json, you’re ready to start migrati
 
 But of course, your current set of migration files still point to the old feed. In the my_migrations/config/install folder, you’ll need to find all instances of our feed string (1spS1BeUIzxR1KrGK2kKzAoiFZii6vBHyLx_SA0Sb89M) and replace them with your feed string.
 
-Step 3: Decide which migrations to keep
+### Step 3: Decide Which Migrations to Keep
 
 The Migrate Google Sheets Example module provides one Migration Group (games_example) and 6 Migrations. Depending on your site configuration, some of these might be useful, like the menu_links and the blocks migrations, and some of them will not be so useful (like the node_game migration, likely). This is a good time to trim or modify any migrations that aren’t going to be useful for your Drupal site. That being said, here are a few things that the sample migrations demonstrate:
 
-Block UUIDs: When you place a block using the Block Layout screen, the block’s UUID is saved in config. If you’re running a migration over and over, your block’s ID will iterate on its own, but the UUID can remain constant if  you add it to the migration. In the demo site, this allows us to create a persistent CTA block in the header. 
-Menu Links parents: You can specify that a menu link item has a parent from within the current migration. This lets us say /bohnanza and /hanabi are children of /games
-Page and Game redirects: These sheets demonstrate how to add the redirect from the url of content on an old site to the new home right in the content sheet. Try going to https://live-mgs-demo.pantheonsite.io/that-fireworks-game and see where you end up.
-Related content as strings or ids: On the Page sheet, we have a reference to the “Related games” for the given page. This is an entity reference which we could fill with a couple of things. We could refer to the ID of the related games, as they are stored in the Games sheet, or we could do what we’ve done here and use the migrate_plus plugin “entity_lookup” to search for the related game node by name. 
+* Block UUIDs: When you place a block using the Block Layout screen, the block’s UUID is saved in config. If you’re running a migration over and over, your block’s ID will iterate on its own, but the UUID can remain constant if  you add it to the migration. In the demo site, this allows us to create a persistent CTA block in the header. 
+
+![Module Structure](/assets/images/blog/google-sheets-migrate-4.png)
+
+* Menu Links parents: You can specify that a menu link item has a parent from within the current migration. This lets us say /bohnanza and /hanabi are children of /games
+* Page and Game redirects: These sheets demonstrate how to add the redirect from the url of content on an old site to the new home right in the content sheet. Try going to https://live-mgs-demo.pantheonsite.io/that-fireworks-game and see where you end up.
+* Related content as strings or ids: On the Page sheet, we have a reference to the “Related games” for the given page. This is an entity reference which we could fill with a couple of things. We could refer to the ID of the related games, as they are stored in the Games sheet, or we could do what we’ve done here and use the migrate_plus plugin “entity_lookup” to search for the related game node by name. 
 As long as there is a Game node called Bohnanza, we’ll always link to the right one. This is particularly useful with Term references, where the name of the item ideally remains constant.
-Game downloadable file: Games have associated images, which are files hosted externally to the spreadsheet. In order to relate my game content to its image, I need to download the image, get it into the file_managed database table (creating a file entity) and THEN relate that entity to the current node. This is done with the following lines in the “node_games” migration:
+* Game downloadable file: Games have associated images, which are files hosted externally to the spreadsheet. In order to relate my game content to its image, I need to download the image, get it into the file_managed database table (creating a file entity) and THEN relate that entity to the current node. This is done with the following lines in the “node_games” migration:
 
 public_file_directory:
     plugin: default_value
