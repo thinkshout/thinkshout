@@ -33,6 +33,7 @@ The easiest way to get started on your own set of migrations is to copy the migr
 2. Delete the helper submodule “migrate_google_sheets_example_setup” entirely -- that is just necessary to build the content types required for the example module, but you shouldn’t need it for your migration module.
 3. Rename your migrate_google_sheets_example.info.yml as “my_migration.info.yml” and open it up. At the very least, you’ll want to change the name of the migration to “name: my_migration” but you’ll also likely wish to remove the migrate_google_sheets:migrate_google_sheets_example_setup dependency. Mine ended up looking like this:
 
+```
 name: my_migration
 type: module
 description: My Migrations
@@ -42,7 +43,8 @@ dependencies:
   - migrate_plus
   - migrate_tools
   - migrate_google_sheets
-  - redirect
+  - redirect 
+```
 
 When completed, your module structure should look like this:
 
@@ -91,6 +93,7 @@ As long as there is a Game node called Bohnanza, we’ll always link to the righ
 
 * Game downloadable file: Games have associated images, which are files hosted externally to the spreadsheet. In order to relate my game content to its image, I need to download the image, get it into the file_managed database table (creating a file entity) and THEN relate that entity to the current node. This is done with the following lines in the “node_games” migration:
 
+```
 public_file_directory:
     plugin: default_value
     default_value: 'public://'
@@ -110,6 +113,8 @@ public_file_directory:
       plugin: entity_generate
   field_image/alt: imagealt
   field_image/title: imagetitle
+  ```
+  
 
 You can keep as many or as few of the migration files as you’d like. You can also create new ones. 
 
@@ -117,10 +122,12 @@ You can keep as many or as few of the migration files as you’d like. You can a
 
 Drupal 8 only sees the changes you’ve made to your migration yml files when you first install the module. That means that you need to uninstall and reinstall the module to make new changes show up. ThinkShout has a Robo script that does this, but the same thing can be  done in Drush:
 
+```
 drush mr --all             # Rolls back all migrations
 drush pmu my_migration -y  # Disables my migration module
 drush en my_migration -y   # Enable my migration module
 drush ms                   # Displays my current migration status
+```
 
 You can also string these together as one line:
 
