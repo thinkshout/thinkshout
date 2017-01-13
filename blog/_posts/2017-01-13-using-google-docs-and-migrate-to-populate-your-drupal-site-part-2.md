@@ -131,7 +131,9 @@ drush ms                   # Displays my current migration status
 
 You can also string these together as one line:
 
+```
 drush mr --all && drush pmu my_migration -y && drush pmu my_migration -y && drush ms
+```
 
 ### Step 5: Run your migrations
 
