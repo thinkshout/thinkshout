@@ -86,6 +86,9 @@ The Migrate Google Sheets Example module provides one Migration Group (games_exa
 * Page and Game redirects: These sheets demonstrate how to add the redirect from the url of content on an old site to the new home right in the content sheet. Try going to https://live-mgs-demo.pantheonsite.io/that-fireworks-game and see where you end up.
 * Related content as strings or ids: On the Page sheet, we have a reference to the “Related games” for the given page. This is an entity reference which we could fill with a couple of things. We could refer to the ID of the related games, as they are stored in the Games sheet, or we could do what we’ve done here and use the migrate_plus plugin “entity_lookup” to search for the related game node by name. 
 As long as there is a Game node called Bohnanza, we’ll always link to the right one. This is particularly useful with Term references, where the name of the item ideally remains constant.
+
+![Related Content](/assets/images/blog/google-sheets-migrate-5.png)
+
 * Game downloadable file: Games have associated images, which are files hosted externally to the spreadsheet. In order to relate my game content to its image, I need to download the image, get it into the file_managed database table (creating a file entity) and THEN relate that entity to the current node. This is done with the following lines in the “node_games” migration:
 
 public_file_directory:
@@ -109,7 +112,8 @@ public_file_directory:
   field_image/title: imagetitle
 
 You can keep as many or as few of the migration files as you’d like. You can also create new ones. 
-Step 4: Tell Drupal about your changes
+
+### Step 4: Tell Drupal About Your Changes
 
 Drupal 8 only sees the changes you’ve made to your migration yml files when you first install the module. That means that you need to uninstall and reinstall the module to make new changes show up. ThinkShout has a Robo script that does this, but the same thing can be  done in Drush:
 
@@ -121,7 +125,8 @@ drush ms                   # Displays my current migration status
 You can also string these together as one line:
 
 drush mr --all && drush pmu my_migration -y && drush pmu my_migration -y && drush ms
-Step 5: Run your migrations
+
+### Step 5: Run your migrations
 
 This part is simple. To run all migrations, it’s a quick drush command:
 
@@ -133,10 +138,11 @@ If you’d like to find out about all the possible options for the migrate-impor
 
 You can also see your list of migration groups at /admin/structure/migrate, and you can review your migrations by clicking “List Migrations.” The resulting page will give you the same output, more or less, that you get from running a `drush ms`. 
 
-
+![Migrations](/assets/images/blog/google-sheets-migrate-6.png)
 
 These pages are helpful to know about, as they give you an easy place to find errors logged during the migration process. However, you can’t currently run a migration from the UI (although there is an issue for this).
-Gotchas
+
+### Gotchas
 
 But before we close, I do want to acknowledge some challenges we’ve seen in this approach.
 
@@ -148,7 +154,7 @@ Sad fact #2: Sheet order matters (right now)
 
 Maintaining the order of sheets isn’t top on everyone’s minds as they’re making changes to a spreadsheet. Migrate Google Sheets asks for each sheet based on tab order, especially when duplicating tabs. If I make a copy of the Page tab, the Game tab is now the fourth tab instead of the third tab. 
 
-
+![Copy of page](/assets/images/blog/google-sheets-migrate-7.png)
 
 As it stands now, the module will happily request columns that don’t exist on the third tab and then fail in puzzling ways.
 
