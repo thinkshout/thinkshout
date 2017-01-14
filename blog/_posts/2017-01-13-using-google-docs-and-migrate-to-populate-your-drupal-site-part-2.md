@@ -54,7 +54,7 @@ You are now ready to enable your My Migrations module. (Make sure you disable th
 
 ### Step 2: Create Your Spreadsheet
 
-Assuming you have the Game and Landing page content types, you could now run the migrations in your “My Migrations” module and it will pull the data from the Google Sheet.
+Assuming you have the Game and Landing page content types, you could now run the migrations in your “My Migrations” module and it will pull the data from the [Google Sheet](https://docs.google.com/spreadsheets/d/1spS1BeUIzxR1KrGK2kKzAoiFZii6vBHyLx_SA0Sb89M/edit).
 
 But since you don’t have permissions to edit that sheet, you’re going to need to copy the existing sheet and create your own to do any customizations.
 
@@ -80,7 +80,7 @@ But of course, your current set of migration files still point to the old feed. 
 
 The Migrate Google Sheets Example module provides one Migration Group (games_example) and 6 Migrations. Depending on your site configuration, some of these might be useful, like the menu_links and the blocks migrations, and some of them will not be so useful (like the node_game migration, likely). This is a good time to trim or modify any migrations that aren’t going to be useful for your Drupal site. That being said, here are a few things that the sample migrations demonstrate:
 
-* Block UUIDs: When you place a block using the Block Layout screen, the block’s UUID is saved in config. If you’re running a migration over and over, your block’s ID will iterate on its own, but the UUID can remain constant if  you add it to the migration. In the demo site, this allows us to create a persistent CTA block in the header. 
+* Block UUIDs: When you place a block using the Block Layout screen, the block’s UUID is saved in config. If you’re running a migration over and over, your block’s ID will iterate on its own, but the UUID can remain constant if  you add it to the migration. [In the demo site](https://live-mgs-demo.pantheonsite.io/), this allows us to create a persistent CTA block in the header. 
 
 ![Module Structure](/assets/images/blog/google-sheets-migrate-4.png)
 
@@ -120,7 +120,7 @@ You can keep as many or as few of the migration files as you’d like. You can a
 
 ### Step 4: Tell Drupal About Your Changes
 
-Drupal 8 only sees the changes you’ve made to your migration yml files when you first install the module. That means that you need to uninstall and reinstall the module to make new changes show up. ThinkShout has a Robo script that does this, but the same thing can be  done in Drush:
+Drupal 8 only sees the changes you’ve made to your migration yml files when you first install the module. That means that you need to uninstall and reinstall the module to make new changes show up. [ThinkShout has a Robo script that does this](https://github.com/thinkshout/mgs_demo/blob/master/RoboFile.php#L18), but the same thing can be  done in Drush:
 
 ~~~yaml
 drush mr --all             # Rolls back all migrations
@@ -149,7 +149,7 @@ You can also see your list of migration groups at /admin/structure/migrate, and 
 
 ![Migrations](/assets/images/blog/google-sheets-migrate-6.png)
 
-These pages are helpful to know about, as they give you an easy place to find errors logged during the migration process. However, you can’t currently run a migration from the UI (although there is an issue for this).
+These pages are helpful to know about, as they give you an easy place to find errors logged during the migration process. However, you can’t currently run a migration from the UI ([although there is an issue for this](https://www.drupal.org/node/2470882)).
 
 ### Gotchas
 
@@ -157,7 +157,7 @@ But before we close, I do want to acknowledge some challenges we’ve seen in th
 
 Sad fact #1: HTML in a spreadsheet is ugly. 
 
-Google Spreadsheets don’t let you make your rows smaller than the number of line breaks in a cell. So if you have pretty html with a bunch of line breaks, your row might be too tall to fit on your screen. People have some clever workarounds for this, but so far we’ve not implemented any.
+Google Spreadsheets don’t let you make your rows smaller than the number of line breaks in a cell. So if you have pretty html with a bunch of line breaks, your row might be too tall to fit on your screen. [People have some clever workarounds for this](http://webapps.stackexchange.com/questions/6953/in-a-google-spreadsheet-how-can-i-force-a-row-to-be-a-certain-height), but so far we’ve not implemented any.
 
 Sad fact #2: Sheet order matters (right now)
 
@@ -167,11 +167,12 @@ Maintaining the order of sheets isn’t top on everyone’s minds as they’re m
 
 As it stands now, the module will happily request columns that don’t exist on the third tab and then fail in puzzling ways.
 
-There is currently only one issue in the issue queue for the Migrate Google Sheets module, and it’s to fix this. 
+There is currently [only one issue](https://www.drupal.org/node/2822948) in the issue queue for the Migrate Google Sheets module, and it’s to fix this. 
 
 Sad fact #3: Google sheets must be publicly viewable to work (again, right now)
 
-As the module exists right now, there’s no authentication involved, so any migrated content must be publicly viewable. Google authorization is possible with Oauth2, but that is not currently implemented. 
+As the module exists right now, there’s no authentication involved, so any migrated content must be publicly viewable. [Google authorization is possible with Oauth2](https://developers.google.com/google-apps/spreadsheets/authorize), but that is not currently implemented. 
 
-Conclusion
-Thanks for following along! I hope you found this series helpful. And don’t forget to visit the Migrate Google Sheets issue queue if you find any bugs, have an idea for a feature, or need help! 
+### Conclusion
+
+Thanks for following along! I hope you found this series helpful. And don’t forget to visit the [Migrate Google Sheets](https://www.drupal.org/project/migrate_google_sheets) [issue queue](https://www.drupal.org/project/issues/migrate_google_sheets?categories=All) if you find any bugs, have an idea for a feature, or need help! 
