@@ -23,7 +23,7 @@ In [Part 1](https://thinkshout.com/blog/2017/01/using-google-docs-and-migrate-to
 
 ## Setup: Install the Module
 
-If you’ve already got a Drupal 8 site up and running, you can install the module in any of the normal ways. I’m assuming here that you have access to the site using Drush, as it’s not possible to run migrations through anything but the command line at this time. At ThinkShout, we use composer to build our site distributions, and have a repo for building the demo site here.
+If you’ve already got a Drupal 8 site up and running, [you can install the module](https://www.drupal.org/docs/8/extending-drupal-8/installing-contributed-modules-find-import-enable-configure-drupal-8) in any of the normal ways. I’m assuming here that you have access to the site using [Drush](http://www.drush.org/en/master/), as it’s not possible to run migrations through anything but the command line at this time. At ThinkShout, we use composer to build our site distributions, and have [a repo for building the demo site here](https://github.com/thinkshout/mgs_demo).
 
 ### Step 1: Creating Your Custom Migration Module
 
@@ -33,7 +33,7 @@ The easiest way to get started on your own set of migrations is to copy the migr
 2. Delete the helper submodule “migrate_google_sheets_example_setup” entirely -- that is just necessary to build the content types required for the example module, but you shouldn’t need it for your migration module.
 3. Rename your migrate_google_sheets_example.info.yml as “my_migration.info.yml” and open it up. At the very least, you’ll want to change the name of the migration to “name: my_migration” but you’ll also likely wish to remove the migrate_google_sheets:migrate_google_sheets_example_setup dependency. Mine ended up looking like this:
 
-```
+~~~yaml
 name: my_migration
 type: module
 description: My Migrations
@@ -44,7 +44,7 @@ dependencies:
   - migrate_tools
   - migrate_google_sheets
   - redirect 
-```
+~~~
 
 When completed, your module structure should look like this:
 
@@ -93,7 +93,7 @@ As long as there is a Game node called Bohnanza, we’ll always link to the righ
 
 * Game downloadable file: Games have associated images, which are files hosted externally to the spreadsheet. In order to relate my game content to its image, I need to download the image, get it into the file_managed database table (creating a file entity) and THEN relate that entity to the current node. This is done with the following lines in the “node_games” migration:
 
-```
+~~~yamlyaml
 public_file_directory:
     plugin: default_value
     default_value: 'public://'
@@ -113,7 +113,7 @@ public_file_directory:
       plugin: entity_generate
   field_image/alt: imagealt
   field_image/title: imagetitle
-  ```
+~~~
   
 
 You can keep as many or as few of the migration files as you’d like. You can also create new ones. 
@@ -122,18 +122,18 @@ You can keep as many or as few of the migration files as you’d like. You can a
 
 Drupal 8 only sees the changes you’ve made to your migration yml files when you first install the module. That means that you need to uninstall and reinstall the module to make new changes show up. ThinkShout has a Robo script that does this, but the same thing can be  done in Drush:
 
-```
+~~~yaml
 drush mr --all             # Rolls back all migrations
 drush pmu my_migration -y  # Disables my migration module
 drush en my_migration -y   # Enable my migration module
 drush ms                   # Displays my current migration status
-```
+~~~
 
 You can also string these together as one line:
 
-```
+~~~yaml
 drush mr --all && drush pmu my_migration -y && drush pmu my_migration -y && drush ms
-```
+~~~
 
 ### Step 5: Run your migrations
 
