@@ -5,14 +5,15 @@ topic: technology
 title: Using Google Docs and Migrate to Populate Your Drupal Site, Part 2
 homepage: true
 author: maria  
-published: false
-featured: false
-short:  Part 2
+published: true
+featured: true
+short: In part 2, learn how to get your own migration up and running.
 tags:
   - Drupal Planet
   - Drupal
   - Migrate
   - Google docs
+  - Drush
 date: 2017-01-16 16:00:00
 image: https://thinkshout.com/assets/images/content-migrations-header.jpg
 header-image: /assets/images/blog/content-migrations-header.jpg
