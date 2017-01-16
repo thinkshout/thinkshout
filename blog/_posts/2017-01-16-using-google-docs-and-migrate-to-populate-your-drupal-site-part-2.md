@@ -26,7 +26,7 @@ In [Part 1](https://thinkshout.com/blog/2017/01/using-google-docs-and-migrate-to
 
 If you’ve already got a Drupal 8 site up and running, [you can install the module](https://www.drupal.org/docs/8/extending-drupal-8/installing-contributed-modules-find-import-enable-configure-drupal-8) in any of the normal ways. I’m assuming here that you have access to the site using [Drush](http://www.drush.org/en/master/), as it’s not possible to run migrations through anything but the command line at this time. At ThinkShout, we use composer to build our site distributions, and have [a repo for building the demo site here](https://github.com/thinkshout/mgs_demo).
 
-### Step 1: Creating Your Custom Migration Module
+## Step 1: Creating Your Custom Migration Module
 
 The easiest way to get started on your own set of migrations is to copy the migrate_google_sheets_example submodule and rename it something of your own. Let’s say we rename it “my_migration.” Follow these steps:
 
@@ -53,7 +53,7 @@ When completed, your module structure should look like this:
 
 You are now ready to enable your My Migrations module. (Make sure you disable the migrate_google_sheets_example module first, if you’d previously enabled that!)
 
-### Step 2: Create Your Spreadsheet
+## Step 2: Create Your Spreadsheet
 
 Assuming you have the Game and Landing page content types, you could now run the migrations in your “My Migrations” module and it will pull the data from the [Google Sheet](https://docs.google.com/spreadsheets/d/1spS1BeUIzxR1KrGK2kKzAoiFZii6vBHyLx_SA0Sb89M/edit).
 
@@ -77,7 +77,7 @@ If visiting that URL throws out a bunch of json, you’re ready to start migrati
 
 But of course, your current set of migration files still point to the old feed. In the my_migrations/config/install folder, you’ll need to find all instances of our feed string (1spS1BeUIzxR1KrGK2kKzAoiFZii6vBHyLx_SA0Sb89M) and replace them with your feed string.
 
-### Step 3: Decide Which Migrations to Keep
+## Step 3: Decide Which Migrations to Keep
 
 The Migrate Google Sheets Example module provides one Migration Group (games_example) and 6 Migrations. Depending on your site configuration, some of these might be useful, like the menu_links and the blocks migrations, and some of them will not be so useful (like the node_game migration, likely). This is a good time to trim or modify any migrations that aren’t going to be useful for your Drupal site. That being said, here are a few things that the sample migrations demonstrate:
 
@@ -119,7 +119,7 @@ public_file_directory:
 
 You can keep as many or as few of the migration files as you’d like. You can also create new ones. 
 
-### Step 4: Tell Drupal About Your Changes
+## Step 4: Tell Drupal About Your Changes
 
 Drupal 8 only sees the changes you’ve made to your migration yml files when you first install the module. That means that you need to uninstall and reinstall the module to make new changes show up. [ThinkShout has a Robo script that does this](https://github.com/thinkshout/mgs_demo/blob/master/RoboFile.php#L18), but the same thing can be  done in Drush:
 
@@ -136,7 +136,7 @@ You can also string these together as one line:
 drush mr --all && drush pmu my_migration -y && drush pmu my_migration -y && drush ms
 ~~~
 
-### Step 5: Run your migrations
+## Step 5: Run your migrations
 
 This part is simple. To run all migrations, it’s a quick drush command:
 
@@ -152,7 +152,7 @@ You can also see your list of migration groups at /admin/structure/migrate, and 
 
 These pages are helpful to know about, as they give you an easy place to find errors logged during the migration process. However, you can’t currently run a migration from the UI ([although there is an issue for this](https://www.drupal.org/node/2470882)).
 
-### Gotchas
+## Gotchas
 
 But before we close, I do want to acknowledge some challenges we’ve seen in this approach.
 
@@ -174,6 +174,6 @@ Sad fact #3: Google sheets must be publicly viewable to work (again, right now)
 
 As the module exists right now, there’s no authentication involved, so any migrated content must be publicly viewable. [Google authorization is possible with Oauth2](https://developers.google.com/google-apps/spreadsheets/authorize), but that is not currently implemented. 
 
-### Conclusion
+## Conclusion
 
 Thanks for following along! I hope you found this series helpful. And don’t forget to visit the [Migrate Google Sheets](https://www.drupal.org/project/migrate_google_sheets) [issue queue](https://www.drupal.org/project/issues/migrate_google_sheets?categories=All) if you find any bugs, have an idea for a feature, or need help! 
