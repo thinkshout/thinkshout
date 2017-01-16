@@ -86,7 +86,7 @@ The Migrate Google Sheets Example module provides one Migration Group (games_exa
 ![Module Structure](/assets/images/blog/google-sheets-migrate-4.png)
 
 * Menu Links parents: You can specify that a menu link item has a parent from within the current migration. This lets us say /bohnanza and /hanabi are children of /games
-* Page and Game redirects: These sheets demonstrate how to add the redirect from the url of content on an old site to the new home right in the content sheet. Try going to https://live-mgs-demo.pantheonsite.io/that-fireworks-game and see where you end up.
+* Page and Game redirects: These sheets demonstrate how to add the redirect from the url of content on an old site to the new home right in the content sheet. Try going to [https://live-mgs-demo.pantheonsite.io/that-fireworks-game](https://live-mgs-demo.pantheonsite.io/that-fireworks-game) and see where you end up.
 * Related content as strings or ids: On the Page sheet, we have a reference to the “Related games” for the given page. This is an entity reference which we could fill with a couple of things. We could refer to the ID of the related games, as they are stored in the Games sheet, or we could do what we’ve done here and use the migrate_plus plugin “entity_lookup” to search for the related game node by name. 
 As long as there is a Game node called Bohnanza, we’ll always link to the right one. This is particularly useful with Term references, where the name of the item ideally remains constant.
 
@@ -162,7 +162,7 @@ Google Spreadsheets don’t let you make your rows smaller than the number of li
 
 Sad fact #2: Sheet order matters (right now)
 
-Maintaining the order of sheets isn’t top on everyone’s minds as they’re making changes to a spreadsheet. Migrate Google Sheets asks for each sheet based on tab order, especially when duplicating tabs. If I make a copy of the Page tab, the Game tab is now the fourth tab instead of the third tab. 
+Maintaining the order of sheets isn’t top on everyone’s minds as they’re making changes to a spreadsheet, especially when duplicating tabs. Migrate Google Sheets asks for each sheet based on tab order. If I make a copy of the Page tab, the Game tab is now the fourth tab instead of the third tab. 
 
 ![Copy of page](/assets/images/blog/google-sheets-migrate-7.png)
 
