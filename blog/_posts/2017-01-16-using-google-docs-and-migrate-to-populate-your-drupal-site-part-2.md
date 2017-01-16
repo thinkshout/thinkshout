@@ -17,7 +17,7 @@ tags:
 date: 2017-01-16 16:00:00
 image: https://thinkshout.com/assets/images/content-migrations-header.jpg
 header-image: /assets/images/blog/content-migrations-header.jpg
-header-image-alt: "Using Google Docs and Migrate to Populate Your Site"
+header-image-alt: "Using Google Docs and Migrate to Populate Your Site, Part 2"
 ---
 
 In [Part 1](https://thinkshout.com/blog/2017/01/using-google-docs-and-migrate-to-populate-your-drupal-site-part-1/), I talked about using Google Docs + Migrate to populate your site. Now we’re going to do that with the [Migrate Google Sheets](https://www.drupal.org/project/migrate_google_sheets) module. Below, I’ll provide the steps to get your own migration up and running, but if you prefer to experiment with a working example, [check out a demo of the Migrate Google Sheets Example module](https://live-mgs-demo.pantheonsite.io/) (provided as a submodule within Migrate Google Sheets). [All content on that site was built using this example Google Sheet](https://docs.google.com/spreadsheets/d/1spS1BeUIzxR1KrGK2kKzAoiFZii6vBHyLx_SA0Sb89M). 
