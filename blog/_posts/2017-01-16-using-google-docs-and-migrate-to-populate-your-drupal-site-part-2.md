@@ -94,7 +94,7 @@ As long as there is a Game node called Bohnanza, we’ll always link to the righ
 
 * Game downloadable file: Games have associated images, which are files hosted externally to the spreadsheet. In order to relate my game content to its image, I need to download the image, get it into the file_managed database table (creating a file entity) and THEN relate that entity to the current node. This is done with the following lines in the “node_games” migration:
 
-~~~yamlyaml
+~~~yaml
 public_file_directory:
     plugin: default_value
     default_value: 'public://'
