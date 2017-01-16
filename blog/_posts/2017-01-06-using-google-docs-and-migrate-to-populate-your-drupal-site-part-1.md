@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: technology
 title: Using Google Docs and Migrate to Populate Your Drupal Site, Part 1
-homepage: true
+homepage: false
 author: maria  
 published: true
-featured: true
+featured: false
 short:  There's more than one way to migrate content to your site. In part one, we show you how with Migrate & Google Sheets.
 tags:
   - Drupal Planet
