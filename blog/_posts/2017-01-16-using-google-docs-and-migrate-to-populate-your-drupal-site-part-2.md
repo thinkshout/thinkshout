@@ -71,7 +71,7 @@ Now you’ll need to publish your new spreadsheet. This is an option under “Fi
 
 To verify that your migration module will be able to see the Google sheet, try opening an anonymous browser window and visiting the Feed version of the url, whose format is this:
 
-https://spreadsheets.google.com/feeds/list/<KEY>/<SHEET>/public/values?alt=json
+https://spreadsheets.google.com/feeds/list/YourLongHashIDHere/SHEET/public/values?alt=json
 
 If visiting that URL throws out a bunch of json, you’re ready to start migrating!
 
