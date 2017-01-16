@@ -13,7 +13,7 @@ tags:
   - Drupal
   - Migrate
   - Google docs
-date: 2017-01-13 16:00:00
+date: 2017-01-16 16:00:00
 image: https://thinkshout.com/assets/images/content-migrations-header.jpg
 header-image: /assets/images/blog/content-migrations-header.jpg
 header-image-alt: "Using Google Docs and Migrate to Populate Your Site"
