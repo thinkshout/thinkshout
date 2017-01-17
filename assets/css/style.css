@@ -6574,7 +6574,8 @@ header {
       text-transform: none; }
   .bcorp-info-block p,
   .bcorp-info-block a {
-    color: #fff; }
+    color: #fff;
+    text-decoration: none; }
     @media (min-width: 980px) {
       .bcorp-info-block p,
       .bcorp-info-block a {
@@ -6585,6 +6586,8 @@ header {
         .bcorp-info-block p:last-child,
         .bcorp-info-block a:last-child {
           margin-right: 0; } }
+  .bcorp-info-block a.uppercase-link:visited {
+    color: white; }
   .bcorp-info-block p {
     padding-bottom: 2.5rem; }
   .bcorp-info-block .fa-caret-right {

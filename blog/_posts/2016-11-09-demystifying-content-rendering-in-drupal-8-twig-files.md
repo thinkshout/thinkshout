@@ -3,13 +3,13 @@ layout: blog
 body-class: blog-post
 topic: technology
 title: Demystifying Rendered Content in Drupal 8 Twig Files
-homepage: true
+homepage: false
 author: amy  
 published: true
-featured: true
+featured: false
 short: New to Drupal 8 theming? These tips might make the learning curve a little less steep.
 tags:
-  - Drupal planet
+  - Drupal Planet
   - Drupal 8
   - Twig
   - Content rendering
@@ -26,7 +26,7 @@ With this newfound enthusiasm, I set out to write the best twig code ever! In or
 
 Though there are a handful of debugging methods to choose from, I had the best luck getting what I needed by using [PHPStorm to debug Twig files](https://dev.acquia.com/blog/debugging-drupal-8/debugging-twig-templates-in-drupal-8-with-phpstorm-and-xdebug/25/08/2016/16586). That’s right, front-end friends, PHPStorm isn’t just for back-end PHP-coding devs. It can be a great tool for front-end programmers as well!
 
-After following the steps listed in [Lubomir Culen’s post about debugging Twig templates](https://dev.acquia.com/blog/debugging-drupal-8/debugging-twig-templates-in-drupal-8-with-phpstorm-and-xdebug/25/08/2016/16586), I began to look for templates in the following path `sites/default/files/php`. From my understanding, opening a template folder gains access to the current template version the project is using, hence the long hash. 
+After following the steps listed in [Lubomir Culen’s post about debugging Twig templates](https://dev.acquia.com/blog/debugging-drupal-8/debugging-twig-templates-in-drupal-8-with-phpstorm-and-xdebug/25/08/2016/16586), I began to look for templates in the following path `sites/default/files/php`. From my understanding, opening a template folder gains access to the current template version the project is using, hence the long hash.
 
 ![Content rendering 1](/assets/images/blog/content-rendering-1.png)
 

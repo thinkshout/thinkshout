@@ -2,25 +2,26 @@
 layout: blog
 body-class: blog-post
 topic: technology
-title: Payment Processing with iATS
+title: Nonprofit Payment Processing with iATS
 homepage: false
 author: stephanie  
-published: false
+published: true
 featured: false
-short: What's iATS Payments? 
+short:  Learn more about why we're such big fans of iATS Payments.
 tags:
   - Fundraising
   - iATS Payments
-  - RedHen
-date: 2016-12-16 14:00:00
+  - Drupal
+  - Drupal Planet
+date: 2016-12-16 15:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
-We talk about iATS Payments quite a bit on our blog. After all, we did partner with them to create the Drupal iATS module. It's one of our preferred online payment processors because of the lower processing fees and excellent support it offcers nonprofits. It made sense for us to invest the time in making iATS Drupal compatible, given the large number of nonprofits currently using Drupal to host their sites and fundraising efforts. 
+We mention [iATS Payments](http://home.iatspayments.com/) quite frequently on our blog. Why? Well we *did* partner with them to create [Commerce iATS for Drupal](https://www.drupal.org/project/commerce_iats). It also happens to be one of our preferred online payment processors, due in no small part to its incredibly reasonable processing fees and the excellent support it offers nonprofits. It made sense for us to invest the time in making iATS Drupal compatible, given the ever-increasing number of nonprofits using Drupal to host their sites and fundraising efforts. 
 
-We sat down with Mike Kim, Partner Account Manager at iATS Payments, and asked him to explain in his own words exactly what iATS brings to the table.
+We sat down with Mike Kim, Partner Account Manager at iATS Payments, and asked him to explain in his own words exactly what iATS brings to the table:
 
-**What is iATS Payments? What differentiates you from other companies that offer similar services?**
+**What is iATS Payments exactly? What differentiates it from other companies that offer similar services?**
 
 **Mike:** iATS Payments offers payment processing solutions to over 10,000 nonprofit organizations around the globe. 
 
