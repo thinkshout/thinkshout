@@ -126,8 +126,11 @@
   p,
   a {
     color: $white;
-
+    text-decoration: none;
     @include mq(d) { @include span-columns(7); }
+  }
+  a.uppercase-link:visited {
+    color: white;
   }
 
   p {
