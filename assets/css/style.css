@@ -3162,6 +3162,11 @@ a:visited {
 .expertise .team-member-blog .byline {
   position: absolute;
   bottom: -1rem; }
+  @supports (display: flex) {
+    .blog-post .team-member-blog .byline,
+    .expertise .team-member-blog .byline {
+      display: flex;
+      align-items: center; } }
   .blog-post .team-member-blog .byline strong,
   .expertise .team-member-blog .byline strong {
     color: #000;
@@ -3170,6 +3175,9 @@ a:visited {
     .blog-post .team-member-blog .byline strong:hover,
     .expertise .team-member-blog .byline strong:hover {
       color: #f26d21; }
+  .blog-post .team-member-blog .byline .position,
+  .expertise .team-member-blog .byline .position {
+    white-space: normal; }
 
 .button {
   background: transparent;
@@ -5191,10 +5199,11 @@ header {
       display: table-cell;
       width: 50%; }
   .front .featured-case-study {
+    background-size: cover;
     -webkit-transition: border 0.2s;
     -moz-transition: border 0.2s;
     transition: border 0.2s;
-    background-size: cover;
+    border: 0rem solid #f26d21;
     cursor: pointer;
     height: 20.625rem;
     margin: 1.5rem 0;
@@ -5202,10 +5211,10 @@ header {
     position: relative;
     width: 100%; }
     .front .featured-case-study:hover {
-      border: 0.375rem solid #f26d21;
       -webkit-transition: border 0.2s;
       -moz-transition: border 0.2s;
-      transition: border 0.2s; }
+      transition: border 0.2s;
+      border: 0.375rem solid #f26d21; }
     @media (min-width: 980px) and (max-width: 1199px) {
       .front .featured-case-study {
         height: 23.75rem; } }
@@ -5259,6 +5268,7 @@ header {
       -moz-transition: border 0.2s;
       transition: border 0.2s;
       background-size: cover;
+      border: 0rem solid #f26d21;
       height: 330px;
       padding: 2rem;
       width: 48.75%; }
@@ -5276,6 +5286,7 @@ header {
       -moz-transition: border 0.2s;
       transition: border 0.2s;
       background-size: cover;
+      border: 0rem solid #f26d21;
       height: 330px;
       padding: 2rem;
       width: 48.75%; }
@@ -6551,7 +6562,8 @@ header {
       text-transform: none; }
   .bcorp-info-block p,
   .bcorp-info-block a {
-    color: #fff; }
+    color: #fff;
+    text-decoration: none; }
     @media (min-width: 980px) {
       .bcorp-info-block p,
       .bcorp-info-block a {
@@ -6562,6 +6574,8 @@ header {
         .bcorp-info-block p:last-child,
         .bcorp-info-block a:last-child {
           margin-right: 0; } }
+  .bcorp-info-block a.uppercase-link:visited {
+    color: white; }
   .bcorp-info-block p {
     padding-bottom: 2.5rem; }
   .bcorp-info-block .fa-caret-right {
