@@ -15,20 +15,21 @@ title: Our Work
 
 {% assign case-studies = (site.case_studies | where: "active", "true" | sort: "order") %}
 <div class="work-listing">
+  <div class="container">
   {% for preview in case-studies | limit: 4 %}
-    <section class="case-study-header {{ preview.cs-class }}">
-    <style>
-      .case-study-header.{{ preview.cs-class }} { background-image: url('{{ site.baseurl }}{{ preview.cs-preview.image }}'); }
-    </style>
-      <div class="gradient">&nbsp;</div>
-      <div class="wrapper">
-        <h4>{{ preview.cs-preview.topic }}</h4>
-        <a href="{{ site.baseurl }}{{ preview.url }}"><h2>{{ preview.cs-preview.client }}</h2></a>
-        <p class="description">{{ preview.cs-preview.description }}</p>
-        <a href="{{ site.baseurl }}{{ preview.url }}" class="uppercase-link">Read More<i class="fa fa-caret-right"></i></a>
-      </div>
-    </section>
+    <a class="case-study-wrapper-link" href="{{ site.baseurl }}{{ preview.url }}"><section class="case-study-header {{ preview.cs-class }}">
+      <style>
+        .case-study-header.{{ preview.cs-class }} { background-image: url('{{ site.baseurl }}{{ preview.cs-preview.image }}'); }
+      </style>
+        <div class="description">
+          <h2>{{ preview.cs-preview.client }}</h2>
+          {{ preview.cs-preview.description }}
+        </div>
+    </section></a>
   {% endfor %}
+    <!-- <a href="{{ site.baseurl }}archive/" class="work-archive-link uppercase-link">See all Case Studies<i class="fa fa-caret-right"></i></a> -->
+    <br><br><!-- Note: remove these <br><br> when the above link is live. -->
+  </div>
 </div>
 
 
