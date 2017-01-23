@@ -5839,7 +5839,7 @@ header {
       height: 23.75rem; } }
   @media (min-width: 980px) {
     .our-work .case-study-header {
-      margin: 0 0 4.5rem; } }
+      margin: 0 0 3rem; } }
   @media (min-width: 1200px) {
     .our-work .case-study-header {
       height: 35.625rem; } }
@@ -5862,7 +5862,7 @@ header {
     @media (min-width: 980px) {
       .our-work .case-study-header .description {
         width: 45%;
-        font-size: 1.125rem; } }
+        font-size: 0.85rem; } }
     .our-work .case-study-header .description h2 {
       color: #58585b;
       font-size: 1.125rem;
@@ -5870,12 +5870,12 @@ header {
       margin-top: 0.25rem; }
       @media (min-width: 980px) and (max-width: 1199px) {
         .our-work .case-study-header .description h2 {
-          font-size: 1.375rem;
+          font-size: 1.2rem;
           margin-bottom: 0.5rem;
           margin-top: 0.5rem; } }
       @media (min-width: 980px) {
         .our-work .case-study-header .description h2 {
-          font-size: 1.375rem;
+          font-size: 1.2rem;
           margin-bottom: 0.5rem;
           margin-top: 0.5rem; } }
 .our-work .case-study-previews a:nth-of-type(odd) .case-study-header {
@@ -5889,11 +5889,11 @@ header {
   padding-top: 1rem; }
   @media (min-width: 980px) and (max-width: 1199px) {
     .our-work .work-archive-link {
-      margin: -1.5rem 0 1.5rem;
+      margin: 0 0 1.5rem;
       padding-top: 1.5rem; } }
   @media (min-width: 980px) {
     .our-work .work-archive-link {
-      margin: -1.5rem 0 2rem;
+      margin: 0 0 2rem;
       padding-top: 2rem; } }
 
 .select-clients {
