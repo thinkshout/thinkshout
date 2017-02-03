@@ -11,7 +11,10 @@ short: A solid base for theming world-class websites, regardless of CMS
 tags:
   - Drupal Planet
   - Drupal
+  - Front-end
+  -
 date: 2017-02-03 14:00:00
+image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
 Front-end development is full of challenges - changing design trends, browser idiosyncrasies, client demands, and ever-evolving web standards to name a few. Over the last few years though, a new challenge has emerged. Which development stack should you choose? 
@@ -22,7 +25,7 @@ Here at ThinkShout, under the watchful eye of Eric Paxton, our Senior Front End 
 
 The last few builds have seen our dev stack settle down to a flexible tool set that is easy to setup and maintain, while providing us with excellent modern theming tools. Let’s dive in!
 
-Getting Started: Languages, Handlers, and Package Management
+## Getting Started: Languages, Handlers, and Package Management
 At the bottom of a development stack are the languages used, the language handlers, and the package managers that allow you to include pre-built tools and libraries in your project. Some of these are interchangeable, but it solves a lot of problems if everyone uses the same fundamental tools. 
 
 In our case, we use Ruby and JavaScript as the base languages, and rbenv and Node as their handlers. By using Ruby and JavaScript, we get access to an extremely wide array of applications, tools, plugins, and more. Once these are installed (Using an OS package manager! In this case, Homebrew, since we all use Macs), we add package handling for these languages: Bundler and NPM respectively. This gives us the following base:
@@ -61,7 +64,7 @@ This generates a `Gemfile.lock` listing all of the installed packages/versions.
 
 The `npm install` lines in the Rakefile setup tools that we’ll discuss later. Our next layer in the stack are the SASS tools that Bundler installed.
 
-SASS at ThinkShout (please pass the Bourbon)
+## SASS at ThinkShout (please pass the Bourbon)
 In the middle of our stack is SASS. We use SASS in a fairly simple way at ThinkShout, installing it with sass-globbing. This allows us to set up directories that allow any files using the appropriate `_filename.scss` syntax to be included in the build. We also tend to keep the directory structure fairly minimal:
 
 styles.scss:
@@ -132,7 +135,7 @@ task :sasswatch do
 system 'sass -r sass-globbing --watch sass/style.scss:css/style.css'
 end
 	
-Pulling it all together: Browsersync!
+## Pulling it all together: Browsersync!
 
 Finally, at the top of our stack, we have Browsersync. Eric Paxton, our Senior Front End Engineer, wrote an excellent overview of why we use this amazing tool, what it does, as well as how to install it in detail for Drupal 8. 
 
@@ -186,7 +189,7 @@ This has the magical effect of opening a new browser window to `localhost:3000` 
 
 This is really the cherry on top of the dev stack - after using it for a little while, you’ll wonder how you ever got along reloading everything manually. 
 
-Stack Overview
+## Stack Overview
 
 In summary, here’s that front-end stack:
 
