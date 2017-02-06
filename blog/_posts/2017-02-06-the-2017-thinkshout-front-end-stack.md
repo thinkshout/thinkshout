@@ -7,12 +7,15 @@ homepage: false
 author: joe
 published: true
 featured: false
-short: A solid base for theming world-class websites, regardless of CMS
+short: A solid base for theming world-class websites, regardless of CMS.
 tags:
   - Drupal Planet
   - Drupal
   - Front-end
-date: 2017-02-06 14:00:00
+  - Browserstack
+  - SASS
+  - Bourbon
+date: 2017-02-06 13:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
