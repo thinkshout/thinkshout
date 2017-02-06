@@ -152,7 +152,7 @@ system 'sass -r sass-globbing --watch sass/style.scss:css/style.css'
 end
 ~~~
 
-## Pulling it all together: Browsersync!
+## Pulling It All Together: Browsersync!
 
 Finally, at the top of our stack, we have [Browsersync](https://browsersync.io/). Eric Paxton, our Senior Front End Engineer, wrote an [excellent overview](https://thinkshout.com/blog/2016/04/syncing-up-with-drupal8-and-browsersync/) of why we use this amazing tool, what it does, as well as how to install it in detail for Drupal 8.
 
