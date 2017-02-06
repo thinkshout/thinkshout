@@ -30,13 +30,14 @@ At the bottom of a development stack are the languages used, the language handle
 
 In our case, we use Ruby and JavaScript as the base languages, and rbenv and Node as their handlers. By using Ruby and JavaScript, we get access to an extremely wide array of applications, tools, plugins, and more. Once these are installed (Using an OS package manager! In this case, Homebrew, since we all use Macs), we add package handling for these languages: Bundler and NPM respectively. This gives us the following base:
 
-Ruby via rbenv, managing gems using Bundler
-JavaScript via Node.js, managing packages using NPM
+* Ruby via rbenv, managing gems using Bundler
+* JavaScript via Node.js, managing packages using NPM
 
 Now we can specify Ruby Gems and Node packages in a Ruby Make file (`Rakefile`), and a complex project setup is as simple as running `rake install` once from the theme directory, and starting the task watcher using `rake serve`. (To be more precise, we use the Rakefile to install the Ruby Gems as defined in the Gemfile, and the Node modules as specified in the package.json file). 
 
 The complete project setup for a new developer would be the following:
 
+~~~bash
 	#: brew install rbenv 
 	#:gem install bundler
 	#:brew install node
@@ -44,6 +45,7 @@ The complete project setup for a new developer would be the following:
 	#:cd ~/path/to/theme/directory
 	#:rake install
 	#:rake serve
+~~~
 
 After that, any new projects would only need the last three lines run. 
 
