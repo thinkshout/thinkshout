@@ -57,7 +57,7 @@ Rakefile:
 
 ~~~ ruby
 task :install do
-     system 'bundle install' // this runs the Gemfile contents!
+     system 'bundle install' # this runs the Gemfile contents!
      system 'npm install -g browser-sync'
 end
 ~~~
@@ -77,7 +77,7 @@ The `npm install` lines in the Rakefile setup tools that we’ll discuss later. 
 ## SASS at ThinkShout (please pass the Bourbon)
 In the middle of our stack is [SASS](http://sass-lang.com/. We use SASS in a fairly simple way at ThinkShout, installing it with [sass-globbing](https://rubygems.org/gems/sass-globbing. This allows us to set up directories that allow any files using the appropriate `_filename.scss` syntax to be included in the build. We also tend to keep the directory structure fairly minimal:
 
-`styles.scss`:
+`style.scss`:
 
 ~~~ css
 @import 'lib/bourbon/bourbon';
