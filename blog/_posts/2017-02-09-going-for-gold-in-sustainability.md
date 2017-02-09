@@ -12,7 +12,7 @@ tags:
   - Culture
   - Sustainability
   - Green office
-date: 2017-02-09 12:00:00
+date: 2017-02-09 11:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
