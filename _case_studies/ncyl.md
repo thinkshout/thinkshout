@@ -75,4 +75,8 @@ cs-sections:
       {:.attrib}
       
      Since the initial launch, we continue to add new functionality to the site and we look forward to partnering with NCYL going forward to continue to improve their ability to do their important work.
+     
+cs-cta-text: Launch Site
+cs-cta-url: https://www.facinghistory.org/
+---
 ---
