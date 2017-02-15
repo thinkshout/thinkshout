@@ -67,7 +67,7 @@ cs-sections:
   - section-image: "/assets/images/ts_redesign/case-studies/ncyl/ncyl-ed.jpg"
     section-image-alt: "Education"
 
-      >““We are so pleased with the product to date and appreciate everything you and your team have done to help us to transition to this new tool in a very short time frame and in a way that will ensure that we continue to serve our youth effectively.”
+      >“We are so pleased with the product to date and appreciate everything you and your team have done to help us to transition to this new tool in a very short time frame and in a way that will ensure that we continue to serve our youth effectively.”
 
       >Michelle François Traiman 
       >Director
