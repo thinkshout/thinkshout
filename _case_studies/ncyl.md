@@ -64,7 +64,7 @@ cs-sections:
       NCYL still needed the data stored on their old platform, so the transition called for a large data migration. We used [Drupal Migrate in conjunction with exported CSV files](https://thinkshout.com/blog/2017/01/using-google-docs-and-migrate-to-populate-your-drupal-site-part-1/), all encrypted and transmitted over SFTP. Much of the content required custom-tailoring from the NCYL team, so we built them carefully-defined spreadsheets to tie all of the various objects together. Notes, goals, and team members all flowed into the new structures on Drupal 8.
 
   - section-title: "Results"
-    section-description: |
+    section-description: | 
      By focusing on the needs of the student and the team that serves them, we delivered a system that not only replaced NCYL’s old case management software, on time and on budget, but we combined all of their data that was previously stored in other sources - including simple spreadsheets - creating a cohesive, holistic view of each of their student’s progress.
 
   - section-image: "/assets/images/ts_redesign/case-studies/ncyl/ncyl-ed.jpg"
