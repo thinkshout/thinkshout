@@ -67,13 +67,13 @@ cs-sections:
     section-description: |
      By focusing on the needs of the student and the team that serves them, we delivered a system that not only replaced NCYL’s old case management software, on time and on budget, but we combined all of their data that was previously stored in other sources - including simple spreadsheets - creating a cohesive, holistic view of each of their student’s progress.
 
-     Since the initial launch, we continue to add new functionality to the site and we look forward to partnering with NCYL going forward to continue to improve their ability to do their important work.
-
   - section-image: "/assets/images/ts_redesign/case-studies/ncyl/ncyl-ed.jpg"
     section-image-alt: "Education"
     
   - section-title:  
-    section-description: |
+    section-description: | 
+    Since the initial launch, we continue to add new functionality to the site and we look forward to partnering with NCYL going forward to continue to improve their ability to do their important work.
+    
       >“We are so pleased with the product to date and appreciate everything you and your team have done to help us to transition to this new tool in a very short time frame and in a way that will ensure that we continue to serve our youth effectively.”
 
       >Michelle François Traiman
