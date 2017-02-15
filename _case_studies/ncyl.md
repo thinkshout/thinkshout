@@ -29,9 +29,7 @@ cs-intro:
   link-text: "View The Site"
   link-url: https://www.facinghistory.org/
   text: |
-    The National Center for Youth Law (NCYL) works to improve foster care systems and, through their FosterEd program, support the educational outcomes of children and youth in foster care. The system they used to track cases was about to be sunsetted, so we set out to quickly build NYCL a new case management system on the Drupal 8 platform.
-
-NCYL had been using a SaaS platform to manage its many foster ed cases, but the product was about to be discontinued. We began work at the very end of 2015, knowing we had to launch the platform and migrate all of their sensitive student data before the end of June, 2016. 
+    The National Center for Youth Law (NCYL) works to improve foster care systems and, through their FosterEd program, support the educational outcomes of children and youth in foster care. The system they used to track cases was about to be sunsetted, so we set out to quickly build NYCL a new case management system on the Drupal 8 platform. NCYL had been using a SaaS platform to manage its many foster ed cases, but the product was about to be discontinued. We began work at the very end of 2015, knowing we had to launch the platform and migrate all of their sensitive student data before the end of June, 2016. 
 
 cs-sections:
   - section-image: "/assets/images/ts_redesign/case-studies/ncyl/nycl-1.jpg"
@@ -63,6 +61,8 @@ cs-sections:
   - section-title: "Results"
     section-description: |
      By focusing on the needs of the student and the team that serves them, we delivered a system that not only replaced NCYL’s old case management software, on time and on budget, but we combined all of their data that was previously stored in other sources - including simple spreadsheets - creating a cohesive, holistic view of each of their student’s progress.
+     
+     Since the initial launch, we continue to add new functionality to the site and we look forward to partnering with NCYL going forward to continue to improve their ability to do their important work.
        
   - section-image: "/assets/images/ts_redesign/case-studies/ncyl/ncyl-ed.jpg"
     section-image-alt: "Education"
@@ -73,10 +73,7 @@ cs-sections:
       >Director
       >FosterEd
       {:.attrib}
-      
-     Since the initial launch, we continue to add new functionality to the site and we look forward to partnering with NCYL going forward to continue to improve their ability to do their important work.
      
 cs-cta-text: Launch Site
 cs-cta-url: https://www.facinghistory.org/
----
 ---
