@@ -42,6 +42,8 @@ cs-sections:
 
   - section-image: "/assets/images/ts_redesign/case-studies/ncyl/ncyl-phone.jpg"
     section-image-alt: "Mobile Overview"
+    
+  - section-title:  
     section-description: |
       By focusing on the needs of the individual students in the system, and the team that supported them, we designed a holistic case tracking platform that not only allowed easy communication, but enabled NCYL’s staff to measure a student’s progress toward the ultimate goal: ensuring they received the support they needed to complete their education.
 
