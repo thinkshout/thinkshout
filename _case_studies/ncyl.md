@@ -42,8 +42,8 @@ cs-sections:
 
   - section-image: "/assets/images/ts_redesign/case-studies/ncyl/ncyl-phone.jpg"
     section-image-alt: "Mobile Overview"
-    
-  - section-title:  
+
+  - section-title:
     section-description: |
       By focusing on the needs of the individual students in the system, and the team that supported them, we designed a holistic case tracking platform that not only allowed easy communication, but enabled NCYL’s staff to measure a student’s progress toward the ultimate goal: ensuring they received the support they needed to complete their education.
 
@@ -58,23 +58,22 @@ cs-sections:
 
   - section-image: "/assets/images/ts_redesign/case-studies/ncyl/ncyl-userflow.jpg"
     section-image-alt: "User Flow"
-    
-  - section-title:   
+
+  - section-title:
     section-description: |
       NCYL still needed the data stored on their old platform, so the transition called for a large data migration. We used [Drupal Migrate in conjunction with exported CSV files](https://thinkshout.com/blog/2017/01/using-google-docs-and-migrate-to-populate-your-drupal-site-part-1/), all encrypted and transmitted over SFTP. Much of the content required custom-tailoring from the NCYL team, so we built them carefully-defined spreadsheets to tie all of the various objects together. Notes, goals, and team members all flowed into the new structures on Drupal 8.
 
   - section-title: "Results"
-    section-description: | 
-     By focusing on the needs of the student and the team that serves them, we delivered a system that not only replaced NCYL’s old case management software, on time and on budget, but we combined all of their data that was previously stored in other sources - including simple spreadsheets - creating a cohesive, holistic view of each of their student’s progress.
-     
+    section-description: |
+      By focusing on the needs of the student and the team that serves them, we delivered a system that not only replaced NCYL’s old case management software, on time and on budget, but we combined all of their data that was previously stored in other sources - including simple spreadsheets - creating a cohesive, holistic view of each of their student’s progress.
+
       Since the initial launch, we continue to add new functionality to the site and we look forward to partnering with NCYL going forward to continue to improve their ability to do their important work.
 
   - section-image: "/assets/images/ts_redesign/case-studies/ncyl/ncyl-ed.jpg"
     section-image-alt: "Education"
-    
-  - section-title:   
-    section-description: | 
-       >“We are so pleased with the product to date and appreciate everything you and your team have done to help us to transition to this new tool in a very short time frame and in a way that will ensure that we continue to serve our youth effectively.”
+
+  - section-description: |
+      >“We are so pleased with the product to date and appreciate everything you and your team have done to help us to transition to this new tool in a very short time frame and in a way that will ensure that we continue to serve our youth effectively.”
 
       >Michelle François Traiman
       >Director
