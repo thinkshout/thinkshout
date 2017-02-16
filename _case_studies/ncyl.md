@@ -26,8 +26,6 @@ cs-header:
 cs-intro:
   type: "A Drupal 8 Platform for Success"
   mission: "The National Center for Youth Law (NCYL) works to improve foster care systems and, through their FosterEd program, support the educational outcomes of children and youth in foster care."
-  link-text: "View The Site"
-  link-url: https://www.facinghistory.org/
   text: |
     The system that the National Center for Youth Law was using to track cases was about to be sunsetted, so we set out to quickly build NCYL a new case management system on the Drupal 8 platform. NCYL had been using a SaaS platform to manage its many foster ed cases, but the product was about to be discontinued. We began work at the very end of 2015, knowing we had to launch the platform and migrate all of their sensitive student data before the end of June, 2016.
 
