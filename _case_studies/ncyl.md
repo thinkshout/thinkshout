@@ -76,11 +76,9 @@ cs-sections:
     section-description: |
       >“We are so pleased with the product to date and appreciate everything you and your team have done to help us to transition to this new tool in a very short time frame and in a way that will ensure that we continue to serve our youth effectively.”
 
-      >Michelle François Traiman
-      >Director
-      >FosterEd
+      >Michelle François Traiman  
+      >Director  
+      >FosterEd  
       {:.attrib}
 
-cs-cta-text: Launch Site
-cs-cta-url: https://www.facinghistory.org/
 ---
