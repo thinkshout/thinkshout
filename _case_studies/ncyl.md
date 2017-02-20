@@ -2,9 +2,9 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study ncyl
-active: false
-homepage: false
-published: false
+active: true
+homepage: true
+published: true
 order: 3
 # END LAYOUT DATA
 
