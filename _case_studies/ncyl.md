@@ -2,9 +2,9 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study ncyl
-active: false
+active: true
 homepage: false
-published: false
+published: true
 order: 3
 # END LAYOUT DATA
 
@@ -36,7 +36,7 @@ cs-sections:
 
   - section-title: "Moving Forward with Drupal 8"
     section-description: |
-      Once NCYL chose to adopt Drupal 8, we set out to improve the team’s efficiency, collaboration, and build a more robust tracking tool that addressed their needs instead of shoehorning them into a set of assumptions about how case tracking should work. The NCYL team was well-acquainted with how staff used their previous tracking system – and how they did their real work on the ground, which helped us define clear goals for the software we were about to build.
+      Once NCYL chose to adopt Drupal 8, we set out to improve the team’s efficiency and collaboration, and build a more robust tracking tool that addressed their needs instead of shoehorning them into a set of assumptions about how case tracking should work. The NCYL team was well-acquainted with how staff used their previous tracking system – and how they did their real work on the ground, which helped us define clear goals for the software we were about to build.
 
   - section-image: "/assets/images/ts_redesign/case-studies/ncyl/ncyl-phone.jpg"
     section-image-alt: "Mobile Overview"
