@@ -3,7 +3,7 @@
 layout: case_study
 body-class: case-study ncyl
 active: true
-homepage: false
+homepage: true
 published: true
 order: 3
 # END LAYOUT DATA

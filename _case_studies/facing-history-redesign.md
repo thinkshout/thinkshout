@@ -3,7 +3,7 @@
 layout: case_study
 body-class: case-study facing-history-redesign
 active: true
-homepage: true
+homepage: flase
 published: true
 order: 3
 # END LAYOUT DATA
