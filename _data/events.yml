@@ -5,3 +5,10 @@
   location: Washington, D.C.
   description: |
     We're going to the NTC, hosted by NTEN! If you work in nonprofit tech, you won't want to miss this.
+    
+- title: DrupalCon Baltimore
+  url: "https://events.drupal.org/baltimore2017"
+  dates: April 24-28, 2017
+  location: Baltimore, MD
+  description: |
+    Join us for the North American Drupal event of the year.
