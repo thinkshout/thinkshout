@@ -4831,11 +4831,13 @@ form.contact {
 footer {
   background: url("../images/ts_redesign/footer.jpg") center center;
   background-size: cover;
-  height: 544px;
+  height: 405px;
   margin: 0 auto;
-  padding-top: 5.5rem;
+  padding-top: 3.0rem;
   position: relative;
   width: 100%; }
+  footer a, footer a:visited {
+    color: #f58546; }
   footer a:hover {
     text-decoration: underline;
     color: #f58546; }
@@ -4873,7 +4875,11 @@ footer {
   footer .main-menu-footer > li {
     display: block;
     font-size: 1.25rem;
-    line-height: 1.75; }
+    line-height: 1.75;
+    margin-right: .5em; }
+    @media (max-width: 480px) {
+      footer .main-menu-footer > li {
+        margin-right: 0em; } }
     @media (min-width: 980px) {
       footer .main-menu-footer > li {
         display: inline-table;
@@ -4883,7 +4889,7 @@ footer {
       margin-right: 1.5rem; } }
   @media (min-width: 1200px) {
     footer .main-menu-footer > li > a {
-      margin-right: 2rem; } }
+      margin-right: 3rem; } }
   footer .main-menu-footer .footer-submenu {
     margin-top: 0.5rem; }
     @media (max-width: 480px) {
@@ -4921,7 +4927,7 @@ footer {
     @media (min-width: 980px) {
       footer .footer-bottom {
         text-align: inherit;
-        top: 11rem; } }
+        top: 7.25rem; } }
   footer .social-media li {
     display: inline;
     margin-right: 0.5rem; }

@@ -1,11 +1,9 @@
 main-menu:
-  - title: Who We Are
-    url: /about/
 
-  - title: Meet the Team
-    url: /team/
+  - title: Work
+    url: /work/
 
-  - title: What We Do
+  - title: Expertise
     url: /expertise/
     sub:
       - title: Strategy & Metrics
@@ -20,18 +18,21 @@ main-menu:
       - title: Development
         url: /expertise/development/
 
-  - title: Our Work
-    url: /work/
+  - title: Agency
+    url: /about/
+    sub:
+      - title: Team
+        url: /team/
 
-  - title: Connect With Us
-    url: /contact/
+      - title: Careers
+        url: /careers/
+        header-nav: false
 
   - title: Blog
     url: /blog/
 
-  - title: Careers
-    url: /careers/
-    header-nav: false
+  - title: Contact
+    url: /contact/
 
 copyright:
   - title: Privacy Policy

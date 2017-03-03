@@ -1,11 +1,15 @@
 footer {
   background: url('../images/ts_redesign/footer.jpg') center center;
   background-size: cover;
-  height: 544px;
+  height: 405px;
   margin: 0 auto;
-  padding-top: 5.5rem;
+  padding-top: 3.0rem;
   position: relative;
   width: 100%;
+
+  a, a:visited {
+    color: $midorange;
+  }
 
   a:hover {
     text-decoration: underline;
@@ -51,6 +55,11 @@ footer {
       display: block;
       font-size: rem(20);
       line-height: $line-height;
+      margin-right: .5em;
+
+      @include mq(m) {
+        margin-right: 0em;
+      }
 
       @include mq(d) {
         display: inline-table;
@@ -64,7 +73,7 @@ footer {
       }
 
       @include mq(l) {
-        margin-right: 2rem;
+        margin-right: 3rem;
       }
     }
 
@@ -112,7 +121,7 @@ footer {
 
     @include mq(d) {
       text-align: inherit;
-      top: 11rem;
+      top: 7.25rem;
     }
   }
 
