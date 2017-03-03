@@ -2,7 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: culture
-title: See You at the 17 NTC
+title: See You at the NTC
 homepage: true
 author: stephanie
 published: true
@@ -22,7 +22,7 @@ header-image-alt: "See You at the NTC"
 
 The Nonprofit Technology Conference is just around the corner, and we’re hard at work making those final preparations for our trip to D.C. 
 
-##Drupal Salon
+## Drupal Salon
 
 This year, we’re honored to coordinate the first ever Drupal Salon at the NTC. In lieu of the traditional pre-conference days as we’ve done in previous years, NTEN set aside space and time for subject matter experts to present nine twenty-minute-long talks on all things Drupal on Thursday, March 23rd. These talks will take place as part of the formal NTC schedule, and sessions can be viewed in the [Wordpress & Drupal Salon tracks on the NTC site](https://www.nten.org/ntc/program/agenda/). 
 
@@ -50,7 +50,7 @@ We hope you’ll be able to join us! Here’s what we’ll be talking about:
 
 We’re confident that the Drupal Salon sessions will have a little something for everyone, and we look forward to connecting with the nonprofit community with this new format.
 
-##Meet the ThinkShout Team
+## Meet the ThinkShout Team
 
 Be sure to catch our team session on March 23rd, as well! 
 
