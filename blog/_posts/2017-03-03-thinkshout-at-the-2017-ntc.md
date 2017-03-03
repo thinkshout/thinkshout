@@ -20,7 +20,7 @@ header-image: /assets/images/blog/17ntc_header.jpg
 header-image-alt: "See You at the NTC"
 ---
 
-The Nonprofit Technology Conference is just around the corner, and we’re hard at work making those final preparations for our trip to D.C. 
+The Nonprofit Technology Conference is just around the corner, and we’re hard at work making those final preparations for our trip to D.C. We have some exciting things in store for yoo this year, so mark your calendars!
 
 ## Drupal Salon
 
