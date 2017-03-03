@@ -3,7 +3,7 @@ layout: blog
 body-class: blog-post
 topic: culture
 title: See You at the 17 NTC
-homepage: false
+homepage: true
 author: stephanie
 published: true
 featured: true
