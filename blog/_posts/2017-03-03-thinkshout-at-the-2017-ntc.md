@@ -2,7 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: culture
-title: Going for Gold in Sustainability
+title: See You at the NTC!
 homepage: false
 author: stephanie
 published: true
@@ -15,7 +15,9 @@ tags:
   - Drupal
   - Events
 date: 2017-03-03 13:00:00
-image: https://thinkshout.com/assets/images/ts_icon.jpg
+image: https://thinkshout.com/assets/images/17ntc_header.jpg
+header-image: /assets/images/blog/17ntc_header.jpg
+header-image-alt: "See You at the NTC!"
 ---
 
 The Nonprofit Technology Conference is just around the corner, and we’re hard at work making those final preparations for our trip to D.C. 
