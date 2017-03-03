@@ -1,8 +1,8 @@
 .newsletter-block {
-  background: $midorange url('../images/ts_redesign/dot.png');
+  background: $midorange;
   clear: left;
   color: $white;
-  padding: 4rem 0;
+  padding: .75rem 0;
   position: relative;
 
   h1 {
@@ -12,18 +12,28 @@
   }
 
   .newsletter-info {
-    @include span-columns(7);
+    @include span-columns(12);
 
     @include mq(t) { @include span-columns(12); }
     @include mq(m) { @include span-columns(12); }
 
+    @include mq(d) {
+      p {
+        width: 50%;
+        float: left;
+      }
+    }
+
     form {
       margin-top: 2rem;
-      border-bottom: 4px solid rgba($white, 0.5);
+      border-bottom: 2px solid rgba($white, 0.5);
       overflow: hidden;
+      padding-bottom: .25rem;
 
       @include mq(d) {
-        max-width: 65%;
+        width: 35%;
+        margin-top: 1rem;
+        float: right;
       }
     }
 
@@ -34,22 +44,24 @@
       border-radius: 0;
       display: inline-block;
       float: left;
-      height: rem(55);
-      opacity: 0.5;
+      height: rem(32);
 
       @include placeholder {
-        color: $white;
+        color: white;
+        opacity: .5;
       }
     }
 
     input {
       margin-top: rem(-3);
       outline: none;
-      padding: 1rem 0;
+      padding: 0;
       width: 68%;
+      font-style: italic;
+      border-right: 2px solid rgba($white, 0.4);
 
-      @include mq(d) {
-        width: 50%;
+      @include mq(l) {
+        width: 70%;
       }
     }
 
@@ -60,7 +72,7 @@
       text-transform: uppercase;
 
       &:hover {
-        opacity: 1;
+        text-decoration: underline;
       }
 
       i {

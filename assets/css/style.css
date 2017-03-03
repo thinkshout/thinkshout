@@ -4835,7 +4835,8 @@ footer {
   margin: 0 auto;
   padding-top: 3.0rem;
   position: relative;
-  width: 100%; }
+  width: 100%;
+  box-shadow: inset 1px 4px 9px -6px black; }
   footer a, footer a:visited {
     color: #f58546; }
   footer a:hover {
@@ -5502,10 +5503,10 @@ header {
         background-size: cover; } }
 
 .newsletter-block {
-  background: #f58546 url("../images/ts_redesign/dot.png");
+  background: #f58546;
   clear: left;
   color: #fff;
-  padding: 4rem 0;
+  padding: .75rem 0;
   position: relative; }
   .newsletter-block h1 {
     font-family: "FilmotypeLucky";
@@ -5515,7 +5516,7 @@ header {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 57.35098%; }
+    width: 100%; }
     .newsletter-block .newsletter-info:last-child {
       margin-right: 0; }
     @media (min-width: 481px) and (max-width: 979px) {
@@ -5534,13 +5535,20 @@ header {
         width: 100%; }
         .newsletter-block .newsletter-info:last-child {
           margin-right: 0; } }
+    @media (min-width: 980px) {
+      .newsletter-block .newsletter-info p {
+        width: 50%;
+        float: left; } }
     .newsletter-block .newsletter-info form {
       margin-top: 2rem;
-      border-bottom: 4px solid rgba(255, 255, 255, 0.5);
-      overflow: hidden; }
+      border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+      overflow: hidden;
+      padding-bottom: .25rem; }
       @media (min-width: 980px) {
         .newsletter-block .newsletter-info form {
-          max-width: 65%; } }
+          width: 35%;
+          margin-top: 1rem;
+          float: right; } }
     .newsletter-block .newsletter-info input,
     .newsletter-block .newsletter-info button {
       background: #f58546;
@@ -5548,35 +5556,40 @@ header {
       border-radius: 0;
       display: inline-block;
       float: left;
-      height: 3.4375rem;
-      opacity: 0.5; }
+      height: 2rem; }
       .newsletter-block .newsletter-info input::-webkit-input-placeholder,
       .newsletter-block .newsletter-info button::-webkit-input-placeholder {
-        color: #fff; }
+        color: white;
+        opacity: .5; }
       .newsletter-block .newsletter-info input::-moz-placeholder,
       .newsletter-block .newsletter-info button::-moz-placeholder {
-        color: #fff; }
+        color: white;
+        opacity: .5; }
       .newsletter-block .newsletter-info input:-moz-placeholder,
       .newsletter-block .newsletter-info button:-moz-placeholder {
-        color: #fff; }
+        color: white;
+        opacity: .5; }
       .newsletter-block .newsletter-info input:-ms-input-placeholder,
       .newsletter-block .newsletter-info button:-ms-input-placeholder {
-        color: #fff; }
+        color: white;
+        opacity: .5; }
     .newsletter-block .newsletter-info input {
       margin-top: -0.1875rem;
       outline: none;
-      padding: 1rem 0;
-      width: 68%; }
-      @media (min-width: 980px) {
+      padding: 0;
+      width: 68%;
+      font-style: italic;
+      border-right: 2px solid rgba(255, 255, 255, 0.4); }
+      @media (min-width: 1200px) {
         .newsletter-block .newsletter-info input {
-          width: 50%; } }
+          width: 70%; } }
     .newsletter-block .newsletter-info button {
       float: right;
       font-size: 0.875rem;
       font-weight: bold;
       text-transform: uppercase; }
       .newsletter-block .newsletter-info button:hover {
-        opacity: 1; }
+        text-decoration: underline; }
       .newsletter-block .newsletter-info button i {
         font-size: 1.5rem;
         margin-left: 0.625rem;
