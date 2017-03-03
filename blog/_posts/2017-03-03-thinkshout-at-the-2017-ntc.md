@@ -2,7 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: culture
-title: See You at the NTC!
+title: See You at the 17 NTC
 homepage: false
 author: stephanie
 published: true
@@ -17,7 +17,7 @@ tags:
 date: 2017-03-03 13:00:00
 image: https://thinkshout.com/assets/images/17ntc_header.jpg
 header-image: /assets/images/blog/17ntc_header.jpg
-header-image-alt: "See You at the NTC!"
+header-image-alt: "See You at the NTC"
 ---
 
 The Nonprofit Technology Conference is just around the corner, and we’re hard at work making those final preparations for our trip to D.C. 
