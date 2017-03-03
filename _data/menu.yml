@@ -19,7 +19,7 @@ main-menu:
         url: /expertise/development/
 
   - title: Agency
-    url: /about/
+    url: /agency/
     sub:
       - title: Team
         url: /team/

@@ -2166,6 +2166,15 @@ a:visited {
   display: none;
   visibility: none; }
 
+.visually-hidden,
+body.agency-main h1 {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+
 .page-not-found .intro {
   color: #58585b;
   font-size: 1.5rem;
@@ -4829,7 +4838,7 @@ form.contact {
           margin-right: 0; } }
 
 footer {
-  background: url("../images/ts_redesign/footer.jpg") center center;
+  background: url("../images/ts_redesign/footer-sm.jpg") center center;
   background-size: cover;
   height: 405px;
   margin: 0 auto;
@@ -4905,7 +4914,7 @@ footer {
     text-align: center;
     padding-top: 1.75rem; }
     footer .bcorp-logo img {
-      max-width: 4rem; }
+      width: 3.25rem; }
     @media (min-width: 980px) and (max-width: 1199px) {
       footer .bcorp-logo {
         position: absolute;
@@ -6859,7 +6868,9 @@ header {
   display: block;
   margin-right: 2.35765%;
   width: 65.88078%;
-  padding: 2rem 0; }
+  margin-left: 17.05961%;
+  padding: 2rem 0;
+  text-align: center; }
   .intro .text:last-child {
     margin-right: 0; }
   @media (min-width: 481px) and (max-width: 979px) {
@@ -6867,7 +6878,8 @@ header {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%; }
+      width: 100%;
+      margin-left: 0%; }
       .intro .text:last-child {
         margin-right: 0; } }
   @media (max-width: 480px) {
@@ -6875,7 +6887,8 @@ header {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%; }
+      width: 100%;
+      margin-left: 0%; }
       .intro .text:last-child {
         margin-right: 0; } }
   .intro .text h1 {

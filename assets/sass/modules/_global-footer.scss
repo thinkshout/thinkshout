@@ -1,5 +1,5 @@
 footer {
-  background: url('../images/ts_redesign/footer.jpg') center center;
+  background: url('../images/ts_redesign/footer-sm.jpg') center center;
   background-size: cover;
   height: 405px;
   margin: 0 auto;
@@ -100,7 +100,7 @@ footer {
     padding-top: rem(28);
 
     img {
-      max-width: 4rem;
+      width: 3.25rem;
     }
 
     @include mq(md) {

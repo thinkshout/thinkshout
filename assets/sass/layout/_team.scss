@@ -2,14 +2,18 @@
   color: $darkgray;
   
   @include span-columns(8);
+  @include shift(2 of 12);
   padding: 2rem 0;
+  text-align: center;
 
   @include mq(t) {
     @include span-columns(12);
+    @include shift(0);
   }
 
   @include mq(m) {
     @include span-columns(12);
+    @include shift(0);
   }
 
   h1 {

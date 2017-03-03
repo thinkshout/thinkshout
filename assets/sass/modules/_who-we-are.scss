@@ -1,3 +1,9 @@
+body.agency-main {
+  h1 {
+    @extend %visually-hidden;
+  }
+}
+
 .blog-header-image {
   width: 100%;
 
