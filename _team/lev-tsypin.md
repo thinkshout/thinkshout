@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Lev
 last_name: Tsypin
-position: President, CEO
+position: Founder, CEO
 leadin: |
   Lev co-founded ThinkShout with the goal of bringing sustainable technology to organizations working for change. Lev leads a diverse team of forward-thinking engineers, helping our clients achieve their goals through innovation and technical excellence.
 social:
