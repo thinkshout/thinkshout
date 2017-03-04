@@ -38,7 +38,7 @@ We hope you’ll be able to join us! Here’s what we’ll be talking about:
 
 * “[Drupal as a Hub: Custom Integrations for CSIS](https://www.nten.org/session/drupal-as-a-hub-custom-integrations-for-csis/)” - Ian Gottesman, Chief Information Officer (CSIS)
 
-* “[Integrating Drupal and Salesforce](https://www.nten.org/session/integrating-drupal-and-salesforce/)” - Lev Tsypin, President & CEO (ThinkShout)
+* “[Integrating Drupal and Salesforce](https://www.nten.org/session/integrating-drupal-and-salesforce/)” - Lev Tsypin, Founder & CEO (ThinkShout)
 
 * “[Event Registration with Drupal](https://www.nten.org/session/event-registration-with-drupal/)” - Gabe Carleton-Barnes, Engineering Manager (ThinkShout)
 
