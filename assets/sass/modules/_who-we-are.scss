@@ -1,4 +1,9 @@
 body.agency-main {
+
+  .intro .text {
+    padding-top: 0;
+  }
+
   h1 {
     @extend %visually-hidden;
   }

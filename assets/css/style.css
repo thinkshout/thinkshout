@@ -6528,6 +6528,9 @@ header {
         .upcoming-events .event .detail:last-child {
           margin-right: 0; } }
 
+body.agency-main .intro .text {
+  padding-top: 0; }
+
 .blog-header-image {
   width: 100%; }
   .blog-header-image img {
@@ -6870,7 +6873,8 @@ header {
   width: 65.88078%;
   margin-left: 17.05961%;
   padding: 2rem 0;
-  text-align: center; }
+  text-align: center;
+  font-size: 1.5rem; }
   .intro .text:last-child {
     margin-right: 0; }
   @media (min-width: 481px) and (max-width: 979px) {

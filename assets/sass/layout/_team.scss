@@ -5,6 +5,7 @@
   @include shift(2 of 12);
   padding: 2rem 0;
   text-align: center;
+  font-size: 1.5rem;
 
   @include mq(t) {
     @include span-columns(12);
