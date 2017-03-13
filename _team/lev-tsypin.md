@@ -4,7 +4,7 @@ first_name: Lev
 last_name: Tsypin
 position: Founder, CEO
 leadin: |
-  Lev co-founded ThinkShout with the goal of bringing digital tools and strategy to organizations working to create lasting, positive change in the world. He believes that business *can* be a force for good in society, and strives for ThinkShout to reflect that ideal.
+  Lev co-founded ThinkShout with the goal of bringing digital tools and strategy to organizations working to create lasting, positive change in the world. He believes that business can be a force for good in society, and strives for ThinkShout to reflect that ideal.
 social:
   github: https://github.com/levelos
   twitter: https://twitter.com/levelos
