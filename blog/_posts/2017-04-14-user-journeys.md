@@ -5,16 +5,16 @@ topic: strategy
 title: User Journeys
 homepage: true
 author: natania
-published: false
-featured: false
-short: Learn how user journeys can help you better define your audiences.
+published: true
+featured: true
+short: Learn how developing user journeys can help you better define your audiences.
 tags:
   - Discovery
   - Strategy
   - User journeys
 date: 2017-04-14 12:00:00
-image: 
-header-image: 
+image: https://thinkshout.com/assets/images/userjourneys-header.jpg
+header-image: /assets/images/blog/userjourneys-header.jpg
 header-image-alt: "User Journeys"
 ---
 
