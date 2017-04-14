@@ -7,7 +7,7 @@ homepage: true
 author: natania
 published: true
 featured: true
-short: Learn how developing user journeys can help you better define your audiences.
+short: Learn how developing user journeys can help you better define the audiences for your web projects.
 tags:
   - Discovery
   - Strategy
