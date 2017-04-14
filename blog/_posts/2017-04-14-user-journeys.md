@@ -56,7 +56,7 @@ User journeys weave together the actions visitors to your site take and shows th
 
 In one of our most recent projects, we wanted to show the multitude of ways in which a user engages with an organization, and their needs at each stage of the lifecycle with said organization. This also helped to develop the user personas, which are fictional representations of a type of user likely to visit the site. 
 
-![userjourneys1.jpg](/assets/images/blog/userjourneys1.jpg){:.center}<span class="caption"><i class="fa fa-caret-up"></i>The first of several drafts of a Journey Map</span>
+![userjourneys1.jpg](/assets/images/blog/userjourneys1.jpg)<span class="caption"><i class="fa fa-caret-up"></i>The first of several drafts of a Journey Map</span>{:.center}
 
 Never has the non-linear path of an online user been more apparent than when we went through this exercise. In reality, there are countless ways someone could interact with your organization. We chose to focus our energies on the most common ones that surfaced in our interviews. 
 
