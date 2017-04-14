@@ -33,7 +33,7 @@ As much as it pains me to say this (being the data-geek that I am), the answers 
 
 ## The Interview Process
 
-While interviewing may come naturally to the likes of Terry Gross, for many of us, it’s an activity that requires a learned, delicate approach. Your phrasing and timing are hugely important, and it helps to be a natural listener. Sometimes, leaving space or an awkward silence for the interviewee to continue talking is the right thing to do. 
+While interviewing may come naturally to the likes of [Terry Gross](http://www.npr.org/people/2100593/terry-gross), for many of us, it’s an activity that requires a learned, delicate approach. Your phrasing and timing are hugely important, and it helps to be a natural listener. Sometimes, leaving space or an awkward silence for the interviewee to continue talking is the right thing to do. 
 
 ThinkShout spoke with an expert who gave us some pointers on how to phrase questions and assemble a matrix to guide the interview process itself. Using a guide is essential, as you’ll want to aim for consistency in your delivery/phrasing in each interview. But while consistency is important, you need to be open to taking the conversation in the direction the respondent takes you as well.
 
@@ -78,4 +78,4 @@ If you do decide to go this route and conduct interviews, a few items of note:
 * Start with an intro script to let the respondent know what they’re getting into and put the them at ease.
 * Promise them confidentiality; or at least that you’ll contact them if you wish to utilize their responses and name publicly in any way. And hold true to that promise!
 
-As you search for resources and info on user journeys, check out some blogs and podcasts with Kim Goodwin - she knows her stuff! And if you have questions about how we can help you develop your user journey, contact us - we want to set you up for success and give you the tools you need to do so. Let us know how we can make it happen for you!
+As you search for resources and info on user journeys, check out some blogs and podcasts with [Kim Goodwin](http://www.inuse.se/blogg/kim-godwins-what-your-user-journey-probably-missing/) - she knows her stuff! And if you have questions about how we can help you develop your user journey, contact us - we want to set you up for success and give you the tools you need to do so. Let us know how we can make it happen for you!
