@@ -12,7 +12,7 @@ tags:
   - Discovery
   - Strategy
   - User journeys
-date: 2017-04-14 12:00:00
+date: 2017-04-14 14:30:00
 image: https://thinkshout.com/assets/images/userjourneys-header.jpg
 header-image: /assets/images/blog/userjourneys-header.jpg
 header-image-alt: "User Journeys"
