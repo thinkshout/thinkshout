@@ -3,7 +3,7 @@ layout: blog
 body-class: blog-post
 topic: culture
 title: See You at the NTC
-homepage: true
+homepage: false
 author: stephanie
 published: true
 featured: true
