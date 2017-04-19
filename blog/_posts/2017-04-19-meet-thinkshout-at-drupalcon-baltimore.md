@@ -14,7 +14,7 @@ tags:
   - Drupal 
   - Twig
   - Nonprofit tech
-date: 2017-04-19 15:30:00
+date: 2017-04-19 16:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
@@ -34,7 +34,7 @@ The news cycle doesn’t stop, and your website must help you respond to emergen
 
 “[Demystifying Rendered Content in Drupal 8 Twig Files](https://events.drupal.org/baltimore2017/sessions/demystifying-rendered-content-drupal-8-twig-files)” - Tuesday (4/25), 3:45 - 4:45pm 
 
-Amy Vaillancourt-Sals is going to show you the ins and outs of Twig! [Twig](http://twig.sensiolabs.org/) is a robust and elegant template engine for PHP. It’'s lightweight, fairly quick to pick up, very readable, and it grants users ultimate control over the markup, including wrapping elements and rendering exactly the output you need. In this session, you’ll learn about the debugging process of sorting through twig variables, using xdebug in PHPStorm, the other helpful debugging tools at your disposal, plus common patterns Amy found helpful for rendering content in twig files. 
+Amy Vaillancourt-Sals is going to show you the ins and outs of Twig! [Twig](http://twig.sensiolabs.org/) is a robust and elegant template engine for PHP. It's lightweight, fairly quick to pick up, very readable, and it grants users ultimate control over the markup, including wrapping elements and rendering exactly the output you need. In this session, you’ll learn about the debugging process of sorting through twig variables, using xdebug in PHPStorm, the other helpful debugging tools at your disposal, plus common patterns Amy found helpful for rendering content in twig files. 
 
 “[Content Strategy in Popular Culture, Part Deux](https://events.drupal.org/baltimore2017/sessions/content-strategy-popular-culture-part-deux)” - Thursday (4/27), 10:45 - 11:45am
 
