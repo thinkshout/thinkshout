@@ -14,7 +14,7 @@ tags:
   - Drupal 
   - Twig
   - Nonprofit tech
-date: 2017-04-19 14:00:00
+date: 2017-04-19 15:30:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
