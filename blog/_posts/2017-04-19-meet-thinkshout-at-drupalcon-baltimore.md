@@ -5,7 +5,7 @@ topic: culture
 title: Meet the ThinkShout Team at DrupalCon Baltimore
 homepage: false
 author: stephanie
-published: false
+published: true
 featured: false
 short: We're off to Baltimore for a week of Drupal. Here's where you can find us.
 tags:
@@ -28,7 +28,7 @@ The ThinkShout Headquarters this year is booth 432! We’ll be giving away free 
 
 The ThinkShout team has two sessions in the DrupalCon agenda this year. We’re also very excited to be leading a discussion in our first DrupalCon Nonprofit Summit. Take a look at our lineup and mark your calendars
 
-“[Rapid Response Campaigns & Digital Tools](https://events.drupal.org/baltimore2017/nonprofit-summit)” - Monday (4/24), 12:30 - 1:15pm [Nonprofit Summit]
+“[Rapid Response Campaigns & Digital Tools](https://events.drupal.org/baltimore2017/nonprofit-summit)” - Monday (4/24), 12:30 - 1:15pm, Nonprofit Summit
 
 The news cycle doesn’t stop, and your website must help you respond to emergencies, not act as a barrier. Drupal can help you react quickly, in concert with your other channels, to turn current events into opportunities to spread your message and further your mission. In this breakout session, Brett Meyer and Lev Tsypin will talk about the tools you have at your disposal in Drupal, scenarios that call for rapid response solutions and how to implement them, and strategies that will help you turn these situations into lasting engagement with your constituents.
 
