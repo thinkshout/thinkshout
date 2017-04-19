@@ -42,6 +42,6 @@ Brett Meyer’s got a sequel to [his session from DrupalCon New Orleans](https:/
 
 ## Let’s Chat
 
-If you’d like to schedule some time to chat with us in advance, drop us a line via our contact form. We’d be happy to meet up with you in Baltimore!
+If you’d like to schedule some time to chat with us in advance, drop us a line via our [contact form](https://thinkshout.com/contact/). We’d be happy to meet up with you in Baltimore!
 
 
