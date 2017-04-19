@@ -22,7 +22,7 @@ We’re packing our bags for Baltimore and polishing up our slide decks for Drup
 
 ## Exhibit Hall
 
-The ThinkShout Headquarters this year is booth 432! We’ll be giving away free t-shirts and raffling off an Amazon Echo. You can enter to win for the low, low price of one business card. If you have any questions about [our work](https://thinkshout.com/work/), current available [job opportunities](https://thinkshout.com/careers/), or what the [weather’s like in Portland](https://isitraining.in/Portland) (spoiler: it’s probably raining), stop by - we’d love to chat with you!
+The ThinkShout Headquarters this year is **booth 432**! We’ll be giving away free t-shirts and raffling off an Amazon Echo. You can enter to win for the low, low price of one business card. If you have any questions about [our work](https://thinkshout.com/work/), current available [job opportunities](https://thinkshout.com/careers/), or what the [weather’s like in Portland](https://isitraining.in/Portland) (spoiler: it’s probably raining), stop by - we’d love to chat with you!
 
 ## ThinkShout Sessions
 
