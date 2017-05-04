@@ -8,7 +8,7 @@ leadin: |
 social:
   github: 
   twitter:
-  linkedin: http://www.linkedin.com/pub/alex-ellison/20/508/a83/
+  linkedin: www.linkedin.com/in/julialeahford
   drupal: 
 team-image:
   small: team/small/julia.jpg
