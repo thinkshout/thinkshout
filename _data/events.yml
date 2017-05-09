@@ -1,14 +1,7 @@
 # Upcoming events
-- title: 2017 Nonprofit Technology Conference
-  url: "https://www.nten.org/ntc/"
-  dates: March 23-25, 2017
-  location: Washington, D.C.
+- title: Bay Area Drupal Camp 2017
+  url: "https://2017.badcamp.net/"
+  dates: October 18-21, 2017
+  location: Berkeley, CA
   description: |
-    We're going to the NTC, hosted by NTEN! If you work in nonprofit tech, you won't want to miss this.
-    
-- title: DrupalCon Baltimore
-  url: "https://events.drupal.org/baltimore2017"
-  dates: April 24-28, 2017
-  location: Baltimore, MD
-  description: |
-    Join us for the North American Drupal event of the year.
+    Join us for a weekend of learning at the largest Drupal camp in the Bay Area.
