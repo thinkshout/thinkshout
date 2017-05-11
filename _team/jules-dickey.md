@@ -6,9 +6,9 @@ position: Software Engineer
 leadin: |
   Jules began her career in web development on the design side of the process. She became a software engineer out of a desire to better understand the limitations and possibilities of programming. 
 social:
-  github: 
+  github: https://github.com/juliadickey
   twitter:
-  linkedin: 
+  linkedin: https://www.linkedin.com/in/juliadickey/
   drupal: 
 team-image:
   small: team/small/jules.jpg
