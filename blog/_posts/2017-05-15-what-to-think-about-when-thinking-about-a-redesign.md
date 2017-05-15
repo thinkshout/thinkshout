@@ -12,6 +12,7 @@ tags:
   - Discovery
   - Strategy
   - Redesigns
+  - Drupal Planet
 date: 2017-05-15 13:00:00
 ---
 
@@ -43,7 +44,7 @@ For example, if your organization is a local animal shelter, one of your organiz
 
 Identifying and then prioritizing your project goals may also help you define what success will look like for your redesign project. How will you measure progress towards these goals? Which goals need to be met for the project to be successful?
 
-##Who are Your Audiences?
+## Who are Your Audiences?
 
 A website only adds value for your organization if your audiences use it, and mostly people will come to your website looking for information, driven by their own needs and motivations. If you focus primarily on your goals, you may end up with a website that is geared towards your organization’s needs and structures, but that does not allow your users to easily access the information they seek.
 
