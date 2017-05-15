@@ -3,7 +3,7 @@ layout: blog
 body-class: blog-post
 topic: strategy
 title: What to Think About When You're Thinking About a Redesign
-homepage: true
+homepage: false
 author: mimi
 published: true
 featured: false
