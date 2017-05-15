@@ -7,13 +7,13 @@ homepage: true
 author: mimi
 published: true
 featured: false
-short: We have a few key questions you should ask yourself before embarking on a website overhaul.
+short: Mimi poses a few questions you should ask yourself before embarking on a website overhaul.
 tags:
   - Discovery
   - Strategy
   - Redesigns
   - Drupal Planet
-date: 2017-05-15 13:00:00
+date: 2017-05-15 13:30:00
 ---
 
 Websites, like most things, have a lifespan. At first, they are new and shiny and aligned with both your organization’s goals and current web trends and best practices. As time goes on, however, technology continues to progress, and your organizational goals will probably evolve as well. 
