@@ -8,7 +8,7 @@ leadin: |
 social:
   github: https://github.com/unclegcb
   twitter: https://twitter.com/uncle_gcb
-  linkedin: http://www.linkedin.com/profile/view?id=22889597
+  linkedin: https://www.linkedin.com/in/gabe-carleton-barnes-3657ba7/
   drupal: https://drupal.org/user/1682976
 team-image:
   small: team/small/gabe.jpg
