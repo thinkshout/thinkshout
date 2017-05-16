@@ -8,7 +8,7 @@ leadin: |
 social:
   github:
   twitter: https://twitter.com/KristaVanVeen
-  linkedin: http://www.linkedin.com/kristavanveen
+  linkedin: https://www.linkedin.com/in/kristavanveen/
   drupal:
 team-image:
   small: team/small/krista3.jpg
