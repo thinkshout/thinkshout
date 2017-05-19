@@ -12,7 +12,7 @@ tags:
   - Drupal
   - Migrate
   - Drupal Planet
-date: 2017-05-15 13:30:00
+date: 2017-05-15 12:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 I recently had the opportunity to migrate content from a Drupal 6 site to a Drupal 8 site. This was especially interesting for me as I hadn’t used Drupal 6 before. As you’d expect, there are some major infrastructure changes between Drupal 6 and Drupal 8. Those differences introduce some migration challenges that I’d like to share.
