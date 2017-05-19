@@ -41,6 +41,7 @@ This field mapping works because content_field_text_author is a table in the Dru
 
 However, in Drupal 6, it’s possible for a field to exist only in the database table of the node type. These tables look like this:
 
+```sql
 mysql> DESC content_type_book;
 +----------------------------+------------------+------+-----+---------+-------+
 | Field                      | Type             | Null | Key | Default | Extra  |
@@ -49,6 +50,7 @@ mysql> DESC content_type_book;
 | nid                        | int(10) unsigned | NO   | MUL | 0           |   |
 | field_text_issue_value     | longtext         | YES  |     | NULL |   |
 +----------------------------+------------------+------+-----+---------+-------+
+```
 
 If we want to migrate the content of field_text_issue_value to Drupal 8, we need to use a custom migration source.
 
@@ -56,6 +58,7 @@ Custom migration sources are PHP classes that live in the src/Plugin/migrate/sou
 
 A simple source looks like this:
 
+```php
 namespace Drupal\custom_migrate_d6\Plugin\migrate\source;
 
 use Drupal\node\Plugin\migrate\source\d6\Node;
@@ -80,7 +83,7 @@ class BookNode extends Node {
   }
 
 }
-
+```
 As you can see, we are using our migration source to modify the query the Migrate module uses to retrieve the data to be migrated. Our modification extracts the field_text_issue_value column of the book content type table and provides it to the migration as a source field.
 
 To use this migration source, we need to make one minor change to change to our migration. We replace this:
@@ -95,6 +98,7 @@ We do this because our migration source extends the standard Drupal 6 node migra
 
 The migration now contains two source fields and looks like this:
 
+```yaml
 id: book
 label: Book
 migration_group: d6
@@ -109,5 +113,6 @@ process:
   field_issue: field_text_issue_value
 destination:
   plugin: entity:node
+ ```
 
 You’ll find you can do a lot with custom migration sources, and this is especially useful with legacy versions of Drupal where you’ll have to fudge data at least a little bit. So if the Migrate module isn’t doing it for you, you’ll always have the option to step in and give it a little assistance.
