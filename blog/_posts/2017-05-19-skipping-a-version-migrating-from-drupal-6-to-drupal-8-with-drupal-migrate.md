@@ -5,9 +5,9 @@ topic: technology
 title: Skipping a Version - Migrating from Drupal 6 to Drupal 8 with Drupal Migrate
 homepage: false
 author: dan
-published: false
+published: true
 featured: false
-short: 
+short: The differences between Drupal 6 and Drupal 8 are pretty major, but thankfully, making the jump is singificantly easier with Drupal Migrate.
 tags:
   - Drupal
   - Migrate
@@ -17,7 +17,7 @@ image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 I recently had the opportunity to migrate content from a Drupal 6 site to a Drupal 8 site. This was especially interesting for me as I hadn’t used Drupal 6 before. As you’d expect, there are some major infrastructure changes between Drupal 6 and Drupal 8. Those differences introduce some migration challenges that I’d like to share.
 
-The Migrate module is a wonderful thing. The vast majority of node-based content can be migrated into a Drupal 8 site with minimal effort, and for the content that doesn’t quite fit, there are custom migration sources. A custom migration source is a small class that can provide extra data to your migration in the form of source fields. Typically, a migration will map source fields to destination fields, expecting the fields to exist on both the source node type and destination node type.
+The [Migrate module](https://www.drupal.org/project/migrate) is a wonderful thing.  The vast majority of node-based content can be migrated into a Drupal 8 site with minimal effort, and for the content that doesn’t quite fit, there are custom migration sources. A custom migration source is a small class that can provide extra data to your migration in the form of source fields. Typically, a migration will map source fields to destination fields, expecting the fields to exist on both the source node type and destination node type. We actually published an in-depth, [two-part blog series about how we use Drupal Migrate](https://thinkshout.com/blog/2017/01/using-google-docs-and-migrate-to-populate-your-drupal-site-part-1/) to populate Drupal sites with content in conjunction with Google Sheets in our own projects. 
 
 In the following example, we are migrating the value of content_field_text_author from Drupal 6 to field_author in Drupal 8. These two fields map one-to-one:
 
@@ -115,4 +115,4 @@ destination:
   plugin: entity:node
  ```
 
-You’ll find you can do a lot with custom migration sources, and this is especially useful with legacy versions of Drupal where you’ll have to fudge data at least a little bit. So if the Migrate module isn’t doing it for you, you’ll always have the option to step in and give it a little assistance.
+You’ll find you can do a lot with custom migration sources, and this is especially useful with legacy versions of Drupal where you’ll have to fudge data at least a little bit. So if the Migrate module isn’t doing it for you, you’ll always have the option to step in and give it a little push.
