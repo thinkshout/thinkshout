@@ -43,7 +43,7 @@ The complete project setup for a new developer would be the following:
 ~: brew install rbenv
 ~: gem install bundler
 ~: brew install node
-~: brew install npm;
+~: brew install npm
 ~: cd ~/path/to/theme/directory
 ~: rake install
 ~: rake serve
