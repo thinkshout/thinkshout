@@ -12,7 +12,7 @@ tags:
   - Drupal Planet
   - Drupal
   - Front-end
-date: 2017-06-01 13:00:00
+date: 2017-06-02 13:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
