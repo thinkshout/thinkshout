@@ -3,7 +3,7 @@ layout: blog
 body-class: blog-post
 topic: strategy
 title: User Journeys
-homepage: true
+homepage: false
 author: natania
 published: true
 featured: true
