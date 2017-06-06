@@ -3,17 +3,19 @@ layout: blog
 body-class: blog-post
 topic: technology
 title: Fade To Black
-homepage: false
+homepage: true
 author: joe
 published: true
-featured: false
-short: Smoothly transitioning from an image to a solid color can be tough.
+featured: true
+short: Smoothly transitioning from an image to a solid color can be tough, but there are tools out there to make it easier.
 tags:
   - Drupal Planet
   - Drupal
   - Front-end
-date: 2017-06-02 13:00:00
-image: https://thinkshout.com/assets/images/ts_icon.jpg
+date: 2017-06-06 13:00:00
+image: https://thinkshout.com/assets/images/fade-to-black-header.jpg
+header-image: /assets/images/blog/fade-to-black-header.jpg
+header-image-alt: "Fade to Black"
 ---
 
 ![fade-to-black-1.jpg](/assets/images/blog/fade-to-black-1.jpg){:.left .forty} [Responsive design](//alistapart.com/article/responsive-web-design) brings a fascinating array of challenges to both designers and developers. Using background images in a call to action or blockquote element is a great way of adding visual appeal to a design, as you can see in the image to the left.
