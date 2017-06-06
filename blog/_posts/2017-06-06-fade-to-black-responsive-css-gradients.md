@@ -2,27 +2,28 @@
 layout: blog
 body-class: blog-post
 topic: technology
-title: Fade To Black
+title: Fade To Black - Responsive CSS Gradients
 homepage: true
 author: joe
 published: true
 featured: true
-short: Smoothly transitioning from an image to a solid color can be tough, but there are tools out there to make it easier.
+short: Smoothly transitioning from an image to a solid color can be tough. Let's make it easier.
 tags:
   - Drupal Planet
   - Drupal
   - Front-end
-date: 2017-06-06 13:00:00
+  - CSS
+date: 2017-06-06 12:30:00
 image: https://thinkshout.com/assets/images/fade-to-black-header.jpg
 header-image: /assets/images/blog/fade-to-black-header.jpg
 header-image-alt: "Fade to Black"
 ---
 
-![fade-to-black-1.jpg](/assets/images/blog/fade-to-black-1.jpg){:.left .forty} [Responsive design](//alistapart.com/article/responsive-web-design) brings a fascinating array of challenges to both designers and developers. Using background images in a call to action or blockquote element is a great way of adding visual appeal to a design, as you can see in the image to the left.
+![fade-to-black-1.jpg](/assets/images/blog/fade-to-black-1.jpg){:.left .forty} [Responsive design](//alistapart.com/article/responsive-web-design) brings a fascinating array of challenges to both designers and developers. Using background images in a call to action or blockquote element is a great way to add visual appeal to a design, as you can see in the image to the left.
 
 <br clear="all"><br>
 
-![fade-to-black-2.jpg](/assets/images/blog/fade-to-black-2.jpg){:.right .thirty} However, at mobile sizes, you're faced with some tough decisions. Do you try and stretch the image to fit the height of the container? If so, at very tall/narrow widths you're forced to load a giant image, and it likely won't be recognizable.
+![fade-to-black-2.jpg](/assets/images/blog/fade-to-black-2.jpg){:.right .thirty} However, at mobile sizes, you're faced with some tough decisions. Do you try and stretch the image to fit the height of the container? If so, at very tall/narrow widths, you're forced to load a giant image, and it likely won't be recognizable.
 
 In addition, forcing mobile users to load a large image is bad for performance. Creating custom responsive image sets would work, but that sets up a maintenance problem, something most clients will _not_ appreciate.
 
