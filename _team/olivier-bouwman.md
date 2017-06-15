@@ -9,7 +9,7 @@ social:
   github: https://github.com/olivierbouwman
   twitter:
   linkedin: https://www.linkedin.com/in/olivierbouwman
-  drupal:
+  drupal: https://www.drupal.org/u/olivier.bouwman
 team-image:
   small: team/small/olivier.jpg
   medium: team/medium/olivier.jpg
