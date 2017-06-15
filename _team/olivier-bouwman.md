@@ -4,7 +4,7 @@ first_name: Olivier
 last_name: Bouwman
 position: Software Engineer
 leadin: |
-  Olivier considers himself a maker. These days, that mostly means websites and the occasional art project. Or a [mini golf course](http://twinpinescountryclub.com/) in his backyard. 
+  Olivier considers himself a maker. These days, that mostly means websites and the occasional art project. Or a mini golf course in his backyard. 
 social:
   github: https://github.com/olivierbouwman
   twitter:
