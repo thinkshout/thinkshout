@@ -14,7 +14,7 @@ team-image:
   small: team/small/olivier.jpg
   medium: team/medium/olivier.jpg
   large: team/large/olivier.jpg
-published: false
+published: true
 current-employee: true
 name: olivier
 bio: |
