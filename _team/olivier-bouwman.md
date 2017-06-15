@@ -18,6 +18,6 @@ published: true
 current-employee: true
 name: olivier
 bio: |
-  Olivier got his start in web development when the Netscape browser was the hot new thing. He cut his teeth helping his father develop a digital library for a local university, and he hasn’t looked back. Born and raised in the Netherlands, Olivier studied computer science and put his schooling to work for a while in the creative industry, and later spent some time as a consultant. He eventually found himself roaming the US in a Volkswagen van - as all good adventures begin - and eventually wound up in the Pacific Northwest, and in love. Now he’s settled in Portland, putting his years of software engineering experience to use for our nonprofit clients. 
+  Olivier got his start in web development when the Netscape browser was the hot new thing. He cut his teeth helping his father develop a digital library for a local university, and he hasn’t looked back. Born and raised in the Netherlands, Olivier studied computer science and put his schooling to work for a while in the creative industry, and later spent some time as a consultant. He eventually found himself roaming the U.S. in a Volkswagen van - as all good adventures begin - and eventually wound up in the Pacific Northwest. Now he’s settled in Portland, putting his years of software engineering experience to use for our nonprofit clients. 
 slug: olivier
 ---
