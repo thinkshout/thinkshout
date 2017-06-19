@@ -25,7 +25,7 @@ ThinkShout currently identifies and decides on project management tools by:
 * **Identifying all tools currently being used in house.** We ask ourselves what is working, what isn't working, and where problem areas have continuously popped up that we would like to solve for. 
 * **Making a list.** What is mandatory to our team’s success? What would be nice to have but isn't absolutely necessary? We identify features which could actually hinder a tool’s ability to aid in our processes. We prioritize the list and cross apply it to available software solutions. 
  
-Once we whittle down the options to a few leading candidatesm we evaluate:
+Once we whittle down the options to a few leading candidates, we evaluate:
 * Is this software going to be easy and intuitive to use?
 * Will it scale to fit our organization and the needs of our clients? 
 * Is is well-maintained and supported? 
