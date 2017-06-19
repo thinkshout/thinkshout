@@ -21,7 +21,7 @@ A newcomer to the ThinkShout family goes through a rigorous project onboarding p
 The cadillac system has not yet arrived. In the meantime, ThinkShout’s project management team works hard to ensure our strategists, designers, and developers have tools that work for them - and most importantly, for our clients. 
  
 ThinkShout currently identifies and decides on project management tools by:
-* Identifying all tools currently being used in house. We ask ourselves what is working, what isn't working, and where * problem areas have continuously popped up that we would like to solve for. 
+* Identifying all tools currently being used in house. We ask ourselves what is working, what isn't working, and where problem areas have continuously popped up that we would like to solve for. 
 * Making a list. What is mandatory to our team’s success? What would be nice to have but isn't absolutely necessary? We identify features which could actually hinder a tool’s ability to aid in our processes. We prioritize the list and cross apply it to available software solutions. 
  
 Once we whittle down the options to a few leading candidates we evaluate:
