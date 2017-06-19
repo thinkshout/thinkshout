@@ -5,7 +5,7 @@ topic: process
 title: The ThinkShout Project Management Tool Selection Process
 homepage: false
 author: julia
-published: false
+published: true
 featured: false
 short: 
   - Project management
