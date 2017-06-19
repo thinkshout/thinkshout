@@ -7,7 +7,7 @@ homepage: false
 author: julia
 published: true
 featured: false
-short: 
+short: As technology evolves, so must our tools. Here's how we evulate which are right for our team.
   - Project management
   - Tools
 date: 2017-06-19 13:00:00
