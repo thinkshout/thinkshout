@@ -17,9 +17,6 @@ header-image: /assets/images/blog/fade-to-black-header.jpg
 header-image-alt: "Fade to Black"
 ---
 
-![fade-to-black-1.jpg](/assets/images/blog/fade-to-black-1.jpg){:.left .forty} 
-![fade-to-black-2.jpg](/assets/images/blog/fade-to-black-2.jpg){:.right .thirty}
-
 In 2015, in partnership with the Drupal Association, we hosted our first ever summer internship program. We’re thrilled to announce that this year, we’re bringing that program back and welcoming three interns to the ThinkShout family for the summer.
  
 Two of our interns are joining us from the Emerging Leaders Internship (ELI) program, an organization committed to matching students from underrepresented communities with paid internships at top Portland companies. We’re thrilled to have this opportunity to provide these students with a chance to further develop their career skills.
@@ -28,7 +25,7 @@ Let’s meet our interns!
 
 ### Alejandro Meillon
 
-![alejandr.jpg]
+![alejandro.jpg](/assets/images/blog/alejandro.jpg){:.left .thirty} 
 
 Alejandro is our very first design intern! He’ll be working closely with our team to hone his web design skills on a variety of projects this summer. He’s fascinated by the power of the web and its many possibilites. 
  
@@ -38,9 +35,9 @@ Alejandro is our very first design intern! He’ll be working closely with our t
 
 ## Myisha Kiberg-Cowan
 
-![myisha.jpg]
+![myisha2.jpg](/assets/images/blog/myisha2.jpg){:.right .thirty}
 
-Myisha is one of two interns joining our engineering team this summer. Her focus is front end development. She enjoys the challenge that coding provides and is looking forward to learning more about how to utilize open source technologies.
+Myisha is one of two interns joining our engineering team this summer. Her focus is back end development. She enjoys the challenge that coding provides and is looking forward to learning how to utilize open source technologies.
  
 **Dream Trip**: Haiti. I’m half Haitian, but I’m adopted and don’t know anything about the culture, and I’d like to know more about it.
  
@@ -48,12 +45,12 @@ Myisha is one of two interns joining our engineering team this summer. Her focus
 
 ## Katrina Hirsch
 
-![katrina.jpg]
+![katrina.jpg](/assets/images/blog/katrina.jpg){:.left .thirty}
 
-Katrina has been coding for over twenty years and only just recently decided to change gears to make it a career. She’ll be focusing on back end engineering, and hopes to continue her journey toward mastering SaSS. 
+Katrina has been coding for over twenty years and only just recently decided to change gears to make it a career. She’ll be focusing on front end engineering, and hopes to continue her journey toward mastering SaSS. 
  
 **Favorite Planet**: It’s not really a planet anymore, but Pluto. I like that it’s cold and dark, and it’s so small. I actually don’t know why I like those things about it.
  
 **Dream Trip**: Japan. I have a lot on my list, but that’s one that’s the most unique. I’d love to take a solo trip to Tokyo.
  
-
+We're thrilled to be able to provide these three talented individuals with an opportunity to continue their education. We're looking forward to seeing what they can do!
