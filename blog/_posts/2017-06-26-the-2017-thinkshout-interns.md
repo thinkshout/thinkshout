@@ -16,7 +16,7 @@ header-image: /assets/images/blog/2017interns.jpg
 header-image-alt: "2017 Summer Interns"
 ---
 
-In 2015, in partnership with the Drupal Association, we hosted our [first ever summer internship program.] We’re thrilled to announce that this year, we’re bringing that program back and welcoming three interns to the ThinkShout family for the summer.
+In 2015, in partnership with the Drupal Association, we hosted our [first ever summer internship program](https://thinkshout.com/blog/2015/06/meet-the-interns/). We’re thrilled to announce that this year, we’re bringing that program back and welcoming three interns to the ThinkShout family for the summer.
  
 Two of our interns are joining us from the [Emerging Leaders Internship (ELI) program](http://emergingleadersinternship.org/), an organization committed to matching students from underrepresented communities with paid internships at top Portland companies. We’re thrilled to have this opportunity to provide these students with a chance to further develop their career skills.
  
