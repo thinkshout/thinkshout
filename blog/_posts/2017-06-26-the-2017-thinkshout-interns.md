@@ -25,9 +25,7 @@ Let’s meet our interns!
 
 ### Alejandro Meillon
 
-![alejandro.jpg](/assets/images/blog/alejandro.jpg){:.left .thirty} 
-
-Alejandro is our very first design intern! He’ll be working closely with our team to hone his web design skills on a variety of projects this summer. He’s fascinated by the power of the web and its many possibilites. 
+![alejandro.jpg](/assets/images/blog/alejandro.jpg){:.left .forty} Alejandro is our very first design intern! He’ll be working closely with our team to hone his web design skills on a variety of projects this summer. He’s fascinated by the power of the web and its many possibilites. 
  
 **Favorite Planet**: Neptune, since Neptune doesn’t seem quite so deadly to humans as the other planets.  
  
@@ -35,9 +33,7 @@ Alejandro is our very first design intern! He’ll be working closely with our t
 
 ## Myisha Kiberg-Cowan
 
-![myisha2.jpg](/assets/images/blog/myisha2.jpg){:.right .thirty}
-
-Myisha is one of two interns joining our engineering team this summer. Her focus is back end development. She enjoys the challenge that coding provides and is looking forward to learning how to utilize open source technologies.
+![myisha2.jpg](/assets/images/blog/myisha2.jpg){:.left .forty} Myisha is one of two interns joining our engineering team this summer. Her focus is back end development. She enjoys the challenge that coding provides and is looking forward to learning how to utilize open source technologies.
  
 **Dream Trip**: Haiti. I’m half Haitian, but I’m adopted and don’t know anything about the culture, and I’d like to know more about it.
  
@@ -45,9 +41,7 @@ Myisha is one of two interns joining our engineering team this summer. Her focus
 
 ## Katrina Hirsch
 
-![katrina.jpg](/assets/images/blog/katrina.jpg){:.left .thirty}
-
-Katrina has been coding for over twenty years and only just recently decided to change gears to make it a career. She’ll be focusing on front end engineering, and hopes to continue her journey toward mastering SaSS. 
+![katrina.jpg](/assets/images/blog/katrina.jpg){:.left .forty}Katrina has been coding for over twenty years and only just recently decided to change gears to make it a career. She’ll be focusing on front end engineering, and hopes to continue her journey toward mastering SaSS. 
  
 **Favorite Planet**: It’s not really a planet anymore, but Pluto. I like that it’s cold and dark, and it’s so small. I actually don’t know why I like those things about it.
  
