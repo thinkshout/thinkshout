@@ -41,7 +41,6 @@ Let’s meet our interns!
 **Preferred Superpower**: I’d like to have the ability to remove hate from our society.
 
 <br>
-
 ### Katrina Hirsch
 
 ![katrina.jpg](/assets/images/blog/katrina.jpg){:.left .thirty}Katrina has been coding for over twenty years and only just recently decided to change gears to make it a career. She’ll be focusing on front end engineering, and hopes to continue her journey toward mastering SaSS. 
