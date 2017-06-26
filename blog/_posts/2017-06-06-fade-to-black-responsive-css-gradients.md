@@ -3,7 +3,7 @@ layout: blog
 body-class: blog-post
 topic: technology
 title: Fade To Black - Responsive CSS Gradients
-homepage: true
+homepage: false
 author: joe
 published: true
 featured: true
