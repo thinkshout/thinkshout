@@ -40,7 +40,7 @@ Let’s meet our interns!
  
 **Preferred Superpower**: I’d like to have the ability to remove hate from our society.
 
-<br><br>
+<br>
 
 ### Katrina Hirsch
 
