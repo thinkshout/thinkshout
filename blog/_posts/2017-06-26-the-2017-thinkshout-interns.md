@@ -52,4 +52,4 @@ Let’s meet our interns!
  
 <br><br>
  
-We're thrilled to be able to provide these three talented individuals with an opportunity to continue their education.
+We're thrilled to be able to provide these three talented individuals with an opportunity to continue their education. We’ll update you on the cool projects they'll be working on as the summer progresses — keep an eye out!
