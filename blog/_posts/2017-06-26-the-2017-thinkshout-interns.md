@@ -32,7 +32,7 @@ Let’s meet our interns!
 
 <br><br>
 
-## Myisha Kiberg-Cowan
+### Myisha Kiberg-Cowan
 
 ![myisha2.jpg](/assets/images/blog/myisha2.jpg){:.left .thirty} Myisha is one of two interns joining our engineering team this summer. Her focus is back end development. She enjoys the challenge that coding provides and is looking forward to learning how to utilize open source technologies.
  
@@ -40,7 +40,7 @@ Let’s meet our interns!
  
 **Preferred Superpower**: I’d like to have the ability to remove hate from our society.
 
-## Katrina Hirsch
+### Katrina Hirsch
 
 ![katrina.jpg](/assets/images/blog/katrina.jpg){:.left .thirty}Katrina has been coding for over twenty years and only just recently decided to change gears to make it a career. She’ll be focusing on front end engineering, and hopes to continue her journey toward mastering SaSS. 
  
