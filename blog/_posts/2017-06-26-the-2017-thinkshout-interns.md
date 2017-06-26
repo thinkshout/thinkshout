@@ -11,9 +11,9 @@ short: Introducing the 2017 ThinkShout summer interns!
 tags:
   - Internship
 date: 2017-06-26 16:30:00
-image: https://thinkshout.com/assets/images/fade-to-black-header.jpg
-header-image: /assets/images/blog/fade-to-black-header.jpg
-header-image-alt: "Fade to Black"
+image: https://thinkshout.com/assets/images/2017interns.jpg
+header-image: /assets/images/blog/2017interns.jpg
+header-image-alt: "2017 Summer Interns"
 ---
 
 In 2015, in partnership with the Drupal Association, we hosted our [first ever summer internship program.] We’re thrilled to announce that this year, we’re bringing that program back and welcoming three interns to the ThinkShout family for the summer.
@@ -39,6 +39,8 @@ Let’s meet our interns!
 **Dream Trip**: Haiti. I’m half Haitian, but I’m adopted and don’t know anything about the culture, and I’d like to know more about it.
  
 **Preferred Superpower**: I’d like to have the ability to remove hate from our society.
+
+<br><br>
 
 ### Katrina Hirsch
 
