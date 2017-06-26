@@ -6,7 +6,7 @@ title: Fade To Black - Responsive CSS Gradients
 homepage: false
 author: joe
 published: true
-featured: true
+featured: false
 short: Smoothly transitioning from an image to a solid color can be tough. Let's make it easier.
 tags:
   - Drupal Planet
