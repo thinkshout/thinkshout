@@ -48,5 +48,6 @@ Let’s meet our interns!
  
 **Dream Trip**: Japan. I have a lot on my list, but that’s one that’s the most unique. I’d love to take a solo trip to Tokyo.
  
+<br><br>
  
-We're thrilled to be able to provide these three talented individuals with an opportunity to continue their education. We're looking forward to seeing what they can do!
+We're thrilled to be able to provide these three talented individuals with an opportunity to continue their education.
