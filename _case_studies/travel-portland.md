@@ -24,10 +24,10 @@ cs-header:
   title: "Bringing Portland to the World (and the World to Portland)."
 
 cs-intro:
-  type: "A Drupal 8 Platform for Success"
-  mission: "Travel Portland is a DMO working to make Portland a top destination for travelers from all over the world."
+  type: "You Can in Portland"
+  mission: "Travel Portland is a nonprofit destination marketing organization (DMO) committed to making Portland a top destination for travelers to help promote the local economy."
   text: |
-    Portland hosted nine million overnight stays in 2016, accounting for over $5 billion in revenue across the city. Travel Portland, the nonprofit destination marketing organization (DMO) whose mission is to help visitors plan their ideal Portland experience, welcomed those visitors with a peerless approach to editorial, photography, and digital storytelling. The city’s recent success in drawing unprecedented numbers of visitors from across the globe has solidified Travel Portland’s status as industry leaders.
+    Portland hosted nine million overnight stays in 2016, accounting for over $5 billion in revenue across the city. Travel Portland's mission is to help visitors plan their ideal Portland experience, welcomed those visitors with a peerless approach to editorial, photography, and digital storytelling. The city’s recent success in drawing unprecedented numbers of visitors from across the globe has solidified Travel Portland’s status as industry leaders.
 
 cs-sections:
 
@@ -44,9 +44,9 @@ cs-sections:
       >Travel Portland
       {:.attrib}
 
-      
+ 
   - section-image: "/assets/images/ts_redesign/case-studies/travel-portland/TRPO-mytrip.jpg"
-    section-image-alt: "Mobile Overview"
+    section-image-alt: "My Trip"
 
   - section-title:
     section-description: |
