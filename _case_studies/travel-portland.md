@@ -2,9 +2,9 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study trpo
-active: false
+active: true
 homepage: false
-published: false
+published: true
 order: 5
 # END LAYOUT DATA
 
@@ -13,13 +13,13 @@ title: Bringing Portland to the World (and the World to Portland)
 cs-class: "trpo"
 
 cs-preview:
-  image: /assets/images/ts_redesign/case-studies/travel-portland/trpo-header.jpg
+  image: /assets/images/ts_redesign/case-studies/travel-portland/TRPO-header.jpg
   type: "Travel Portland"
   client: "Travel Portland"
   description: "Bringing Portland to the World (and the World to Portland)."
 
 cs-header:
-  header-image: /assets/images/ts_redesign/case-studies/travel-portland/trpo-header.jpg
+  header-image: /assets/images/ts_redesign/case-studies/travel-portland/TRPO-header.jpg
   client: "Travel Portland"
   title: "Bringing Portland to the World (and the World to Portland)."
 
