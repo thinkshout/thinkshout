@@ -35,6 +35,16 @@ cs-sections:
     section-description: |
       ThinkShout is Travel Portland’s strategic and technical partner for all things digital. In addition to maintaining core properties like the leisure and meeting planner sites, ThinkShout develops seasonal interactive experiences. So every year when Portland extends an invitation to the world — as with the acclaimed Portland Is Happening Now and new You Can, in Portland campaigns — ThinkShout brings the work to life online.
       
+  - section-title:
+    section-description: |
+      >“Working with ThinkShout has been a delight. Beyond the deep bench of technical talent, it’s the enthusiasm they display for our work and their eagerness and ability to add value to our creative vision that elevates their value from service provider to true strategic partner.”
+
+      >Richard Tammar
+      >Director of Digital Strategy  
+      >Travel Portland
+      {:.attrib}
+
+      
   - section-image: "/assets/images/ts_redesign/case-studies/travel-portland/TRPO-mytrip.jpg"
     section-image-alt: "Mobile Overview"
 
