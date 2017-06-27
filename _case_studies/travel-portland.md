@@ -63,5 +63,6 @@ cs-sections:
 
       We love Portland, so it’s gratifying to see our city named a top destination nationally and internationally by Travel + Leisure, The Telegraph, and International Traveller, to name a few. As an industry leader, however, Travel Portland isn’t satisfied. Advances in personalized content, live chat, enhanced recommendations, and intelligent search are in the pipeline, and they promise to maintain Travel Portland as a leader in destination marketing.
 
-
+cs-cta-text: Launch Site
+cs-cta-url: https://www.travelportland.com/
 ---
