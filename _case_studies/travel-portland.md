@@ -10,7 +10,7 @@ order: 5
 
 title: Bringing Portland to the World (and the World to Portland)
 
-cs-class: "ncyl"
+cs-class: "trpo"
 
 cs-preview:
   image: /assets/images/ts_redesign/case-studies/travel-portland/trpo-header.jpg
@@ -35,15 +35,6 @@ cs-sections:
     section-description: |
       ThinkShout is Travel Portland’s strategic and technical partner for all things digital. In addition to maintaining core properties like the leisure and meeting planner sites, ThinkShout develops seasonal interactive experiences. So every year when Portland extends an invitation to the world — as with the acclaimed Portland Is Happening Now and new You Can, in Portland campaigns — ThinkShout brings the work to life online.
       
-  - section-title:
-    section-description: |
-      >““Working with ThinkShout has been a delight. Beyond the deep bench of technical talent, it’s the enthusiasm they display for our work and their eagerness and ability to add value to our creative vision that elevates their value from service provider to true strategic partner.””
-
-      >Richard Tammar
-      >Director of Digital Strategy  
-      >Travel Portland
-      {:.attrib}
-
   - section-image: "/assets/images/ts_redesign/case-studies/travel-portland/TRPO-mytrip.jpg"
     section-image-alt: "Mobile Overview"
 
@@ -60,7 +51,7 @@ cs-sections:
     section-description: |
       Our long-term strategy has been to go beyond the planning stage for travelers, providing on-the-ground expertise and encouraging visitors to share their experiences after they head home. It’s been a winning strategy: visitors to Portland in 2016 generated over $5 billion in direct spending, resulted in $245 million in tax revenue, and supported over 36,000 jobs, all of which has increased year-over-year since partnering with ThinkShout.
 
-We love Portland, so it’s gratifying to see our city named a top destination nationally and internationally by Travel + Leisure, The Telegraph, and International Traveller, to name a few. As an industry leader, however, Travel Portland isn’t satisfied. Advances in personalized content, live chat, enhanced recommendations, and intelligent search are in the pipeline, and they promise to maintain Travel Portland as a leader in destination marketing.
+      We love Portland, so it’s gratifying to see our city named a top destination nationally and internationally by Travel + Leisure, The Telegraph, and International Traveller, to name a few. As an industry leader, however, Travel Portland isn’t satisfied. Advances in personalized content, live chat, enhanced recommendations, and intelligent search are in the pipeline, and they promise to maintain Travel Portland as a leader in destination marketing.
 
 
 ---
