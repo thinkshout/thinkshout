@@ -10,7 +10,8 @@ featured: true
 short: Introducing the 2017 ThinkShout summer interns!
 tags:
   - Internship
-date: 2017-06-26 16:30:00
+  - Culture
+date: 2017-06-26 18:30:00
 image: https://thinkshout.com/assets/images/2017interns.jpg
 header-image: /assets/images/blog/2017interns.jpg
 header-image-alt: "2017 Summer Interns"
