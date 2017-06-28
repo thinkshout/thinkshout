@@ -2,9 +2,9 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study trpo
-active: false
+active: true
 homepage: false
-published: false
+published: true
 order: 5
 # END LAYOUT DATA
 
