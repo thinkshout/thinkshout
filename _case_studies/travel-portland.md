@@ -5,7 +5,7 @@ body-class: case-study trpo
 active: true
 homepage: false
 published: true
-order: 5
+order: 3
 # END LAYOUT DATA
 
 title: Bringing Portland to the World (and the World to Portland)
