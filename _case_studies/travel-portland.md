@@ -62,6 +62,8 @@ cs-sections:
       Our long-term strategy has been to go beyond the planning stage for travelers, providing on-the-ground expertise and encouraging visitors to share their experiences after they head home. It’s been a winning strategy: visitors to Portland in 2016 generated over $5 billion in direct spending, resulted in $245 million in tax revenue, and supported over 36,000 jobs, all of which has increased year-over-year since partnering with ThinkShout.
 
       We love Portland, so it’s gratifying to see our city named a top destination nationally and internationally by Travel + Leisure, The Telegraph, and International Traveller, to name a few. As an industry leader, however, Travel Portland isn’t satisfied. Advances in personalized content, live chat, enhanced recommendations, and intelligent search are in the pipeline, and they promise to maintain Travel Portland as a leader in destination marketing.
+      
+      *Sasquatch & Sasquatch accessory illustrations by Wieden+Kennedy.*
 
 cs-cta-text: Launch Site
 cs-cta-url: https://www.travelportland.com/
