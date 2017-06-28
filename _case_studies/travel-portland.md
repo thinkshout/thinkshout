@@ -47,6 +47,7 @@ cs-sections:
  
   - section-image: "/assets/images/ts_redesign/case-studies/travel-portland/TRPO-mytrip.jpg"
     section-image-alt: "My Trip"
+    section-image-full: true
 
   - section-title:
     section-description: |
