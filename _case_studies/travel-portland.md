@@ -27,13 +27,13 @@ cs-intro:
   type: "You Can in Portland"
   mission: "Travel Portland is a nonprofit destination marketing organization (DMO) committed to making Portland a top destination for travelers to help promote the local economy."
   text: |
-    Portland hosted nine million overnight stays in 2016, accounting for over $5 billion in revenue across the city. Travel Portland's mission is to help visitors plan their ideal Portland experience, welcomed those visitors with a peerless approach to editorial, photography, and digital storytelling. The city’s recent success in drawing unprecedented numbers of visitors from across the globe has solidified Travel Portland’s status as industry leaders.
+    Portland hosted nine million overnight stays in 2016, accounting for over $5 billion in revenue across the city. Travel Portland's mission is to help visitors plan their ideal Portland experience, welcome those visitors with a peerless approach to editorial, photography, and digital storytelling. The city’s recent success in drawing unprecedented numbers of visitors from across the globe has solidified Travel Portland’s status as industry leaders.
 
 cs-sections:
 
   - section-title: 
     section-description: |
-      ThinkShout is Travel Portland’s strategic and technical partner for all things digital. In addition to maintaining core properties like the leisure and meeting planner sites, ThinkShout develops seasonal interactive experiences. So every year when Portland extends an invitation to the world — as with the acclaimed Portland Is Happening Now and new You Can, in Portland campaigns — ThinkShout brings the work to life online.
+      ThinkShout is Travel Portland’s strategic and technical partner for all things digital. In addition to maintaining core properties like the leisure and meeting planner sites, ThinkShout develops seasonal interactive experiences. Every year when Portland extends an invitation to the world — as with the acclaimed Portland Is Happening Now and new [You Can, in Portland](https://www.travelportland.com/you-can/?sid=5405)campaigns — ThinkShout brings the work to life online.
       
   - section-title:
     section-description: |
@@ -50,7 +50,7 @@ cs-sections:
 
   - section-title:
     section-description: |
-      The key to Travel Portland’s award-winning website is a deceptively simple design that’s flexible enough to contain a world of content while remaining easy to navigate. Among the industry-leading features is an account-free way to build and share a trip itinerary, called MyTrip. By appending each unique point of interest, article, and event to the Trip, we allow visitors to enjoy a personalized experience without having to add yet another password to the mix.
+      The key to Travel Portland’s award-winning website is a deceptively simple design that’s flexible enough to contain a world of content while remaining easy to navigate. Among the industry-leading features is an account-free way to build and share a trip itinerary, called [MyTrip](https://www.travelportland.com/my-trip/). By appending each unique point of interest, article, and event to the Trip, we allow visitors to enjoy a personalized experience without having to add yet another password to the mix.
       
       The core of TravelPortland.com is built with WordPress, chosen for the quality of its editorial experience and seamless integration with calendar, social, hotel reservation, and other critical third-party tools. By hosting the site with our partner Pantheon and optimizing the code in every imaginable way, we don’t have to sacrifice image quality or features for speed — a requirement for maintaining Travel Portland’s solid mobile and SEO advantages.
 
