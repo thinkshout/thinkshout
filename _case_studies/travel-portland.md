@@ -39,7 +39,7 @@ cs-sections:
     section-description: |
       >“Working with ThinkShout has been a delight. Beyond the deep bench of technical talent, it’s the enthusiasm they display for our work and their eagerness and ability to add value to our creative vision that elevates their value from service provider to true strategic partner.”
 
-      >Richard Tamar  
+      >Richard Tammar  
       >Director of Digital Strategy  
       >Travel Portland  
       {:.attrib}
