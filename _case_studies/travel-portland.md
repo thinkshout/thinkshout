@@ -33,7 +33,7 @@ cs-sections:
 
   - section-title: 
     section-description: |
-      ThinkShout is Travel Portland’s strategic and technical partner for all things digital. In addition to maintaining core properties like the leisure and meeting planner sites, ThinkShout develops seasonal interactive experiences. Every year when Portland extends an invitation to the world — as with the acclaimed Portland Is Happening Now and new [You Can, in Portland](https://www.travelportland.com/you-can/?sid=5405)campaigns — ThinkShout brings the work to life online.
+      ThinkShout is Travel Portland’s strategic and technical partner for all things digital. In addition to maintaining core properties like the leisure and meeting planner sites, ThinkShout develops seasonal interactive experiences. Every year when Portland extends an invitation to the world — as with the acclaimed Portland Is Happening Now and new [You Can, in Portland](https://www.travelportland.com/you-can/?sid=5405) campaigns — ThinkShout brings the work to life online.
       
   - section-title:
     section-description: |
