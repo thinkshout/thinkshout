@@ -2,18 +2,17 @@
 layout: blog
 body-class: blog-post
 topic: technology
-title: With Drupal 8, Dan Finds an Event No One Asks Him to Leave
+title: Upgrading MailChimp eCommerce and an Introduction to Drupal 8's Event System
 homepage: false
 author: dan
 published: false
 featured: false
-short: 
+short: “Get your hooks out of Drupal with Drupal 8's event system.”
 tags:
   - Drupal Planet
   - MailChimp
   - Mailchimp eCommerce
   - Drupal 8
-  - 
 date: 2017-07-06 13:30:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
