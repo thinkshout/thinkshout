@@ -23,7 +23,7 @@ The MailChimp eCommerce module depends on the Commerce module, naturally, and in
 
 First, let’s look at an event. I’m using an example ripped straight from Commerce.
 
-The Commerce submodule, Commerce Cart, contains a class named ``CartEntityAddEvent``. You’ll find it at src/Event/CartEntityAddEvent.php.
+The Commerce submodule, Commerce Cart, contains a class named ``CartEntityAddEvent``. You’ll find it at [src/Event/CartEntityAddEvent.php\(http://cgit.drupalcode.org/commerce/tree/modules/cart/src/Event/CartEntityAddEvent.php?h=8.x-2.x).
 
 The class itself is simple; it’s designed to store a few values - the cart, the item being added to the cart, and the quantity of that item. The class also has a few getter functions for convenience.
 
@@ -98,7 +98,7 @@ class CartEventSubscriber implements EventSubscriberInterface {
 }
 ```
 
-Here’s the complete version, if you’re interested.
+[Here’s the complete version, if you’re interested](https://github.com/thinkshout/mailchimp_ecommerce/blob/8.x-1.x/modules/mailchimp_ecommerce_commerce/src/EventSubscriber/CartEventSubscriber.php).
 
 So what does it do, exactly?
 
@@ -110,7 +110,7 @@ The ``cartAdd()`` function itself extracts the order and item information from t
 
 One final thing:
 
-Event subscribers won’t work unless they are defined as a service. Services are defined in a module’s *.services.yml file, which you can learn more about here.
+Event subscribers won’t work unless they are defined as a service. Services are defined in a module’s *.services.yml file, which you can [learn more about here](https://www.drupal.org/docs/8/api/services-and-dependency-injection/structure-of-a-service-file).
 
 The service definition for the ``CartEventSubscriber`` looks like this:
 
@@ -122,7 +122,7 @@ mailchimp_ecommerce_commerce.cart_event_subscriber:
       - { name: event_subscriber }
 ```
 
-We identify the class using its namespace, inject the “cart_handler” and “order_handler” services, then, finally, tag the service as an “event_subscriber”. Check out the full file here. Just for completeness, the two injected services are defined in here.
+We identify the class using its namespace, inject the “cart_handler” and “order_handler” services, then, finally, tag the service as an “event_subscriber”. [Check out the full file here](https://github.com/thinkshout/mailchimp_ecommerce/blob/8.x-1.x/modules/mailchimp_ecommerce_commerce/mailchimp_ecommerce_commerce.services.yml). Just for completeness, the two injected services are defined in [here](https://github.com/thinkshout/mailchimp_ecommerce/blob/8.x-1.x/mailchimp_ecommerce.services.yml).
 
 I’m a big fan of how Drupal 8 has shifted towards a more object-oriented way of doing things. It’s more organized, promotes consistency between modules, and, best of all, finally signals an end to massive .module files.
 
