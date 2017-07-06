@@ -5,11 +5,15 @@ topic: technology
 title: With Drupal 8, Dan Finds an Event No One Asks Him to Leave
 homepage: false
 author: dan
-published: false
+published: true
 featured: false
 short: 
 tags:
   - Drupal Planet
+  - MailChimp
+  - Mailchimp eCommerce
+  - Drupal 8
+  
 date: 2017-07-06 12:30:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
