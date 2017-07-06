@@ -13,6 +13,7 @@ tags:
   - MailChimp
   - Mailchimp eCommerce
   - Drupal 8
+  - Events
 date: 2017-07-06 14:30:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
