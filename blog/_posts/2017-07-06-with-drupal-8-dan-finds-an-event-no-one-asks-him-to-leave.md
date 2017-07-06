@@ -5,7 +5,7 @@ topic: technology
 title: With Drupal 8, Dan Finds an Event No One Asks Him to Leave
 homepage: false
 author: dan
-published: true
+published: false
 featured: false
 short: 
 tags:
@@ -13,8 +13,8 @@ tags:
   - MailChimp
   - Mailchimp eCommerce
   - Drupal 8
-  
-date: 2017-07-06 12:30:00
+  - 
+date: 2017-07-06 13:30:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 If you’ve ever built a Drupal 7 module, then you’ll be familiar with hooks: functions that allow modules to react to things happening in other modules. The hook system is functionally fine but, with so many hooks to implement, .module files often become bloated and difficult to manage.
