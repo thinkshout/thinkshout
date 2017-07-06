@@ -5,7 +5,7 @@ topic: technology
 title: Upgrading MailChimp eCommerce and an Introduction to Drupal 8's Event System
 homepage: false
 author: dan
-published: false
+published: true
 featured: false
 short: “Get your hooks out of Drupal with Drupal 8's event system.”
 tags:
