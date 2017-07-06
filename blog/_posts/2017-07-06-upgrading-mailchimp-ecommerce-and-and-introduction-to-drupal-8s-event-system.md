@@ -27,7 +27,7 @@ The MailChimp eCommerce module depends on the Commerce module, naturally, and in
 
 First, let’s look at an event. I’m using an example ripped straight from Commerce.
 
-The Commerce submodule, Commerce Cart, contains a class named ``CartEntityAddEvent``. You’ll find it at [src/Event/CartEntityAddEvent.php\(http://cgit.drupalcode.org/commerce/tree/modules/cart/src/Event/CartEntityAddEvent.php?h=8.x-2.x).
+The Commerce submodule, Commerce Cart, contains a class named ``CartEntityAddEvent``. You’ll find it at [src/Event/CartEntityAddEvent.php\](http://cgit.drupalcode.org/commerce/tree/modules/cart/src/Event/CartEntityAddEvent.php?h=8.x-2.x).
 
 The class itself is simple; it’s designed to store a few values - the cart, the item being added to the cart, and the quantity of that item. The class also has a few getter functions for convenience.
 
