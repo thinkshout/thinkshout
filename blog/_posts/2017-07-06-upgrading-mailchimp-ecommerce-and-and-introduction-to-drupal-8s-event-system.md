@@ -7,14 +7,14 @@ homepage: false
 author: dan
 published: true
 featured: false
-short: “Get your hooks out of Drupal with Drupal 8's event system.”
+short: Get your hooks out of Drupal with Drupal 8's event system.
 tags:
   - Drupal Planet
   - MailChimp
   - Mailchimp eCommerce
   - Drupal 8
   - Events
-date: 2017-07-06 14:30:00
+date: 2017-07-06 15:30:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 If you’ve ever built a Drupal 7 module, then you’ll be familiar with hooks: functions that allow modules to react to things happening in other modules. The hook system is functionally fine but, with so many hooks to implement, .module files often become bloated and difficult to manage.
