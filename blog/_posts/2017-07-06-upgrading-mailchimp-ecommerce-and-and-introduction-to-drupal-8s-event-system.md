@@ -40,7 +40,7 @@ $this->eventDispatcher->dispatch(CartEvents::CART_ENTITY_ADD, $event);
 
 The event class is created with all the relevant values, then “dispatched” to any event subscribers configured to pay attention to it. When dispatched, the event is identified by a constant - ``CartEvents::CART_ENTITY_ADD``. This constant is used by event subscribers, which we’ll take a look at now.
 
-This is a cut-down version of an event subscriber used by our world famous MailChimp eCommerce module.
+This is a cut-down version of an event subscriber used by our [MailChimp eCommerce module](https://www.drupal.org/project/mailchimp_ecommerce).
 
 ```php
 /**
