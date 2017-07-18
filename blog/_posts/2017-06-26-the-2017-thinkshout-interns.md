@@ -35,7 +35,7 @@ Let’s meet our interns!
 
 <br><br>
 
-### Myisha Kiberg-Cowan
+### Myisha Kinberg-Cowan
 
 ![myisha2.jpg](/assets/images/blog/myisha2.jpg){:.left .thirty} Myisha is one of two interns joining our engineering team this summer. Her focus is back end development. She enjoys the challenge that coding provides and is looking forward to learning how to utilize open source technologies.
  
