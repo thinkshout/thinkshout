@@ -22,8 +22,10 @@ In 2015, in partnership with the Drupal Association, we hosted our [first ever s
 We’re thrilled to announce that this year, we are welcoming three interns to the ThinkShout family for the summer.
  
 Two of our interns are joining us from the [Emerging Leaders Internship (ELI) program](http://emergingleadersinternship.org/), an organization committed to matching students from underrepresented communities with paid internships at top Portland companies. We’re thrilled to have this opportunity to provide these students with a chance to further develop their career skills.
+
+This summer, they'll be teaming up with our neighbors at p:ear, a Portland nonprofit that provides creative montorship to homeless you. They'll combine their engineering and design skills to create an actionable campaign site for p:ear. We can't wait to see what they come up with. We'll keep you updated on their progress, so stay tuned!
  
-Let’s meet our interns!
+Now let’s meet our interns.
 
 ### Alejandro Meillon
 
