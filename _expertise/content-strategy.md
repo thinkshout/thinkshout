@@ -87,4 +87,4 @@ From segmented welcome series to drip campaigns to direct mail appeals, we’ve 
 * Content Development
 * Donor Engagement Strategy
 * Community Development
-* Camppaign Planning
+* Campaign Planning
