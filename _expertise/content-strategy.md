@@ -51,7 +51,6 @@ This initial work is foundational to the metrics and evaluation work done over t
 * Content Audit & Gap Analysis
 * Benchmarks
 
-
 #### Requirements Gathering
 
 We’re not going to pretend we can learn everything about our clients’ work in just a few short days or even weeks. Our clients are partners every step of the way, co-developing the content strategy – and the resulting platform – that will help deepen the impact they can make.
