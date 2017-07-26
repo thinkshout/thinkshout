@@ -11,7 +11,7 @@ images:
   hero: ts_redesign/expertise/contentstrategy.jpg
   icon: expertise/icon-content-strategy.svg
 blurb: |
-  We build websites that inspire action. We help clients reach new audiences and engage more meaningfully with existing stakeholders. Our web development process begins with requirements gathering and content strategy. We then help our clients build comprehensive plans for evaluating the long-term success of their website, messaging, and digital outreach.
+  We partner with mission-driven organizations to develop and implement strategies that grow audiences, raise more funds, and amplify voices. Together, we can build strong, effective engagement ecosystems.
 blurb_short: |
   We partner with mission-driven organizations to develop and implement strategies that grow audiences, raise more funds, and amplify voices. Together, we can build strong, effective engagement ecosystems.
 points: |
