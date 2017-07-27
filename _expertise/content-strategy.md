@@ -40,7 +40,9 @@ We’re not going to pretend we can learn everything about your work in a single
 
 It  always starts with a conversation and evolves into follow-up discussions to curate a mutual understanding of the organizational goals central to the success of your site or campaign, as well as ensuring we engage the core audiences you want to reach.
 
-#### Website Audit and Metrics Evaluation<a name=webaudit></a>
+<a name="webaudit"></a>
+
+#### Website Audit and Metrics Evaluation
 
 *Unsure if users are engaging with key content?  
 Donations or email sign ups have plateaued?  
@@ -54,7 +56,9 @@ Google analytics shows us what users are actually doing and what content they’
 
 This initial work is foundational to the metrics and evaluation work done over the course of our projects – both to define what success looks like and to provide clear guidance on how to make and test incremental improvements over time.
 
-#### Communications Audit<a name=commaudit></a>
+<a name="commaudit"></a>
+
+#### Communications Audit
 
 *Emails under-performing?  
 Open and Click through rates dropping?  
@@ -69,7 +73,9 @@ We understand that organizations frequently operate on limited resources, but su
 
 Once we know your goals, we set the framework for your digital plan and work with you to ensure every step of the user experience is accounted for.
 
-#### Digital Marketing and Acquisition<a name=mktgstrat></a>
+<a name="mktgstrat"></a>
+
+#### Digital Marketing and Acquisition
 
 *Struggling to attract traffic to your site?  
 Users not interacting with your content?  
@@ -84,8 +90,9 @@ We work with organizations to set strategies with a low-barrier of entry to user
 
 With decades of experience running multi-channel fundraising and brand-awareness campaigns at the national and local scale, we’re well-positioned to elevate your message. And our engagement doesn’t end at launch, we’ll work with you to ensure actions and outcomes are measurable so you can report back to your board and leadership team with confidence. From campaign concept to deployment, we are here to serve as your resource and guides in whatever capacity you desire.
 
+<a name="campaign"></a>
 
-#### Online Fundraising and Campaigns<a name=campaign></a>
+#### Online Fundraising and Campaigns
 
 *Want to raise morem oney, from more individuals, with greater frequency?  
 Want to increase your pool of monthly donors/sustainers?  
@@ -99,8 +106,9 @@ If your audience doesn’t trust you, or know how you’ll use their funds to af
 
 Prior to arriving at ThinkShout, members of our team raised millions of dollars for organizations implementing strategies predicated on this knowledge; and executed them with the systems and tools that allowed those efforts to succeed. Let’s start a conversation about your goals and audiences, and how we can bridge the gap to make your mission one of the top causes they support.
 
+<a name="constrat"></a>
 
-#### Content Strategy<a name=constrat></a>
+#### Content Strategy
 
 At its basest level, content strategy for nonprofit websites is simple: provide great content and clear pathways to deeper engagement and your supporters will reward you by becoming lifelong activists and donors.
 
@@ -114,7 +122,9 @@ We believe content strategy hinges on understanding three things:
 
 We’ve developed and refined a set of practices that not only define and codify organizational content strategy, but set the stage for a technical implementation.
 
-#### Campaign Assets and Design<a name=design></a>
+<a name="design"></a>
+
+#### Campaign Assets and Design
 
 We pride ourselves on our ability to craft strong, clean designs that deliver a cohesive and pleasant user experience. Your strategy and outreach materials often require accompanying graphics. Whether it’s repurposing content from your direct mail outreach or coming up with a revised brand identity for a campaign, our designers are equipped to guide the discussion to assess how we can best serve you.
 
