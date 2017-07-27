@@ -126,8 +126,8 @@ Out staff staff has a wealth of experience in both areas and can provide assets 
 
 * Email Design
 * Digital Banner Ads
-* Campaign Graphics: hero images, social media, general website graphics 
-* Suporting printed materials 
+* Campaign Graphics: hero images, social media, general website graphics
+* Supporting printed materials
 
 For a uniquely branded campaign, we would extend the scope of work to encompass more of a traditional discovery engagement. This can include the following campaign branding elements:
  
