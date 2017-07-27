@@ -29,7 +29,7 @@ With decades of experience under our belt working for and on behalf of nonprofit
 
 Our offerings are designed to address common pain points for nonprofits that we have either seen or experienced first-hand. We know what it’s like to be in your shoes, and we want to make your life easier.
 
-* [Website Audit and Metrics](#webaudit) 
+* [Website Audit and Metrics](#webaudit)
 * [Communications Audit](#commaudit)
 * [Digital Marketing and Acquisition Strategies](#mktgstrat)
 * [Fundraising and Campaigns](#campaign)
@@ -50,7 +50,7 @@ Never closely examined user behavior on your site?*
 
 Start with a **Website Audit and Metrics Evaluation**
 
-Successful strategies depend on more than just gut instinct. ThinkShout’s practice begins by looking at the data and the concept of “desire paths.” Recognizing that people want to take the shortest path to meet their own needs allows us to identify gaps and potential improvements in the information architecture of a site, even as we collect the data that will inform our later understanding of your online audiences. 
+Successful strategies depend on more than just gut instinct. ThinkShout’s practice begins by looking at the data and the concept of “desire paths.” Recognizing that people want to take the shortest path to meet their own needs allows us to identify gaps and potential improvements in the information architecture of a site, even as we collect the data that will inform our later understanding of your online audiences.
 
 Google analytics shows us what users are actually doing and what content they’re engaging with, as well as what they’re not as interested in. Then we ask how these findings align with your goals. We work to bridge the gap between user needs and getting them to take valuable actions you want them to take to support your mission.
 
@@ -69,7 +69,7 @@ We can help with a **Communications Audit.**
 
 Sometimes, you just need to get an email out the door because you realized #GivingTuesday is in a week (we’ve all been there). But it’s impossible to improve and refine your strategy if you’re always reacting to what’s next rather than planning for it.
 
-We understand that organizations frequently operate on limited resources, but successful marketing plans don’t happen by accident - it takes planning and focused effort. It can be both difficult and frustrating to make improvements when there’s barely time to focus on the next outbound message. ThinkShout can assist with a communications audit that examines current processes and identify easy wins and strategies to help elevate your messaging to get the results you desire. 
+We understand that organizations frequently operate on limited resources, but successful marketing plans don’t happen by accident - it takes planning and focused effort. It can be both difficult and frustrating to make improvements when there’s barely time to focus on the next outbound message. ThinkShout can assist with a communications audit that examines current processes and identify easy wins and strategies to help elevate your messaging to get the results you desire.
 
 Once we know your goals, we set the framework for your digital plan and work with you to ensure every step of the user experience is accounted for.
 
@@ -84,7 +84,7 @@ Attracting users, but email lists aren’t growing?*
 
 Let’s look at your **Digital Marketing and Acquisition.**
 
-Whether it’s building general brand awareness, a seasonal promotion, a local Day of Giving, or a major capital campaign — you need to do more than toss up a Facebook post and swap out the hero image on your home page. Successful campaigns amplify your cause, attracting new supporters and re-engaging current ones. 
+Whether it’s building general brand awareness, a seasonal promotion, a local Day of Giving, or a major capital campaign — you need to do more than toss up a Facebook post and swap out the hero image on your home page. Successful campaigns amplify your cause, attracting new supporters and re-engaging current ones.
 
 We work with organizations to set strategies with a low-barrier of entry to users so the benefits of connecting to your cause are evident.
 
@@ -128,7 +128,7 @@ We’ve developed and refined a set of practices that not only define and codify
 
 We pride ourselves on our ability to craft strong, clean designs that deliver a cohesive and pleasant user experience. Your strategy and outreach materials often require accompanying graphics. Whether it’s repurposing content from your direct mail outreach or coming up with a revised brand identity for a campaign, our designers are equipped to guide the discussion to assess how we can best serve you.
 
-Marketing campaigns can have two prongs: 
+Marketing campaigns can have two prongs:
 1. Reinforce the brand itself with a clear message, which communicates your mission and immediate goals.
 2. The campaign itself has its own unique branding supported by organizational branding.
 
@@ -140,7 +140,7 @@ Out staff staff has a wealth of experience in both areas and can provide assets 
 * Supporting printed materials
 
 For a uniquely branded campaign, we would extend the scope of work to encompass more of a traditional discovery engagement. This can include the following campaign branding elements:
- 
+
 * Logo
 * Branding graphics/imagery
 * Pairing the campaign with the current existing brand
