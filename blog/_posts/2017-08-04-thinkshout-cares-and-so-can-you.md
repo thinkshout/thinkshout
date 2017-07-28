@@ -13,7 +13,9 @@ tags:
   - Interns
   - p:ear
 date: 2017-08-04 16:00:00
-image: https://thinkshout.com/assets/images/ts_icon.jpg
+image: https://thinkshout.com/assets/images/2017interns.jpg
+header-image: /assets/images/blog/2017interns.jpg
+header-image-alt: "ThinkShout Cares, A 2017 Intern Project"
 ---
 
 We've kept a pretty tight lid on this project all summer, but it's finally time to unveil the focus of our 2017 Summer Internship program. Who better to tell you about it then the talented interns who built it?
