@@ -39,8 +39,8 @@ redirects:
   blog/lev: /team/lev/
   blog/betsy: /team/betsy/
   blog/category/drupal-planet: /blog/category/drupal-planet/
-  expertise/content-strategy/: expertise/digital-strategy/
-  engage: expertise/digital-strategy/
+  expertise/content-strategy/: /expertise/digital-strategy/
+  engage: /expertise/digital-strategy/
 
 routing_rules:
   ## Redirect images from old site
