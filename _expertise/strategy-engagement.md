@@ -3,7 +3,7 @@ layout: expertise-detail
 body-class: expertise
 title: Strategy and Engagement
 slug: strategy-engagement
-tag: Strategy and Engagement
+tag: Strategy
 
 leadin: |
   Inspire Action
