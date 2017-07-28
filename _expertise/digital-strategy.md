@@ -1,19 +1,19 @@
 ---
 layout: expertise-detail
 body-class: expertise
-title: Digital Strategy and Engagement
-slug: content-strategy
-tag: Content Strategy
+title: Strategy and Engagement
+slug: strategy-engagement
+tag: Strategy and Engagement
 
 leadin: |
-  Strategy to Inspire Action
+  Inspire Action
 images:
   hero: ts_redesign/expertise/contentstrategy.jpg
   icon: expertise/icon-content-strategy.svg
 blurb: |
-  We partner with mission-driven organizations to develop and implement strategies that grow audiences, raise more funds, and amplify voices. Together, we can build strong, effective engagement ecosystems.
+  We partner with mission-driven organizations to develop and implement strategies that grow audiences, raise funds, and amplify voices. Together, we can build strong, effective engagement ecosystems.
 blurb_short: |
-  We partner with mission-driven organizations to develop and implement strategies that grow audiences, raise more funds, and amplify voices. Together, we can build strong, effective engagement ecosystems.
+  We partner with mission-driven organizations to develop and implement strategies that grow audiences, raise funds, and amplify voices. Together, we can build strong, effective engagement ecosystems.
 points: |
   <li>Website Audit and Metrics</li>
   <li>Communications Audit</li>
@@ -25,53 +25,43 @@ points: |
 order: 1
 ---
 
-We've been working for and on behalf of nonprofits and mission-driven organizations for decades. We understand the challenges you face in trying to raise more money, attract new supporters, all while simultaneously maintaining your current base and moving them up the ladder of engagement. Accomplishing all of this doesn't happen by accident - it takes careful planning, and most importantly: time. We are here to do the heavy lifting so that you can focus on the day-to-day tasks that keep your organization up and running.
+Engagement doesn't happen by accident - it takes careful planning, and most importantly: time. We are here to do the heavy lifting so that you can focus on the day-to-day tasks that keep your organization up and running.
 
 Our offerings are designed to address common pain points for nonprofits that we have either seen or experienced first-hand. We know what it’s like to be in your shoes, and we want to make your life easier.
 
-* [Website Audit and Metrics](#webaudit)  
+Start with a [Website Audit and Metrics](#webaudit) if:  
 *Unsure if users are engaging with key content?  
 Donations or email sign ups have plateaued?  
 Never closely examined user behavior on your site?*
 
-Start with a **Website Audit and Metrics Evaluation**
 
-* [Communications Audit](#commaudit)  
+We can help with a [Communications Audit](#commaudit) if:  
 *Emails under-performing?  
 Open and Click through rates dropping?  
 Unsubscribe rates on the rise?  
 Are you reacting rather than being proactive about your messages?*
 
-We can help with a **Communications Audit.**
 
-* [Digital Marketing and Acquisition Strategies](#mktgstrat)  
+Let's look at your [Digital Marketing and Acquisition Strategies](#mktgstrat) if:  
 *Struggling to attract traffic to your site?  
 Users not interacting with your content?  
 Site traffic trending downwards?  
 Attracting users, but email lists aren’t growing?*
 
-Let’s look at your **Digital Marketing and Acquisition.**
-
-* [Fundraising and Campaigns](#campaign)  
+Time to examine your [Fundraising and Campaigns](#campaign) if:  
 *Want to raise more money, from more individuals, with greater frequency?  
 Want to increase your pool of monthly donors/sustainers?  
 Feel like you're doing everything right, but the dollars don't add up?*
 
-Let's examine your **Fundraising Strategy.**
 
-* [Content Strategy](#constrat)  
+We can help develop your [Content Strategy](#constrat) if:  
 *Struggling to identify your user's motivations?  
 Do you know if your content addresses their needs?*  
 
-We can help you develop your **Content Strategy.**
 
-* [Campaign Assets and Design](#design)  
+Our designers can help with your [Campaign Assets and Design](#design) if:  
 *Need graphics to bring your campaign to life?  
 Is your typography or brand inconsistent across your site?*  
-
-Our designers can help with  your **Visual Identity and Brand.**
-
-No matter the project, we operate as your partner every step of the way, co-developing the final product that will help deepen the impact you can make.
 
 
 <a name="webaudit"></a>
