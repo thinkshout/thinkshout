@@ -1,11 +1,11 @@
 ---
 layout: blog
 body-class: blog-post
-topic: technology
+topic: community
 title: ThinkShout Cares (and So Can You)
 homepage: false
 author: stephanie
-published: false
+published: true
 featured: false
 short: Front end intern Katrina introduces the ThinkShout Cares project.
 tags:
@@ -24,7 +24,7 @@ You [met front end intern Katrina Hirsch](http://stage.thinkshout.com/blog/2017/
 
 **Katrina Hirsch:**
 
-It’s clear to me that ThinkShout is a company that cares deeply. 
+![katrina.jpg](/assets/images/blog/katrina.jpg){:.left .thirty}It’s clear to me that ThinkShout is a company that cares deeply. 
 
 There is evidence of this not only in ThinkShout’s work, but also in the way that staff collectively interacts with our community. Staff want to be involved in creating positive change in the world, they want to give to organizations making a difference. Not because it’s an expectation, but because ThinkShout believes it’s the right thing to do. And so it was in the spirit of this sentiment that the idea for ThinkShout Cares was born.
 
