@@ -29,39 +29,42 @@ Engagement doesn't happen by accident - it takes careful planning, and most impo
 
 Our offerings are designed to address common pain points for nonprofits that we have either seen or experienced first-hand. We know what it’s like to be in your shoes, and we want to make your life easier.
 
-Start with a [Website Audit and Metrics](#webaudit) if:  
+**Focus Areas and Offerings:**
+  
 *Unsure if users are engaging with key content?  
 Donations or email sign ups have plateaued?  
-Never closely examined user behavior on your site?*
+Never closely examined user behavior on your site?*  
+Start with a [Website Audit and Metrics](#webaudit)
 
-
-We can help with a [Communications Audit](#commaudit) if:  
+  
 *Emails under-performing?  
 Open and Click through rates dropping?  
 Unsubscribe rates on the rise?  
-Are you reacting rather than being proactive about your messages?*
+Are you reacting rather than being proactive about your messages?*  
+We can help with a [Communications Audit](#commaudit)
 
 
-Let's look at your [Digital Marketing and Acquisition Strategies](#mktgstrat) if:  
 *Struggling to attract traffic to your site?  
 Users not interacting with your content?  
 Site traffic trending downwards?  
-Attracting users, but email lists aren’t growing?*
+Attracting users, but email lists aren’t growing?*  
+Let's look at your [Digital Marketing and Acquisition Strategies](#mktgstrat)
 
-Time to examine your [Fundraising and Campaigns](#campaign) if:  
+ 
 *Want to raise more money, from more individuals, with greater frequency?  
 Want to increase your pool of monthly donors/sustainers?  
-Feel like you're doing everything right, but the dollars don't add up?*
+Feel like you're doing everything right, but the dollars don't add up?*  
+Time to examine your [Fundraising and Campaigns](#campaign)
 
-
-We can help develop your [Content Strategy](#constrat) if:  
+ 
 *Struggling to identify your user's motivations?  
 Do you know if your content addresses their needs?*  
+We can help develop your [Content Strategy](#constrat)
 
-
-Our designers can help with your [Campaign Assets and Design](#design) if:  
+ 
 *Need graphics to bring your campaign to life?  
 Is your typography or brand inconsistent across your site?*  
+Our designers can help with your [Campaign Assets and Design](#design)
 
 
 <a name="webaudit"></a>
