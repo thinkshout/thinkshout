@@ -25,41 +25,18 @@ points: |
 order: 1
 ---
 
-With decades of experience under our belt working for and on behalf of nonprofits and mission-driven organizations, we understand that you need to not only raise more money and attract new supporters, but simultaneously maintain your current base and move them up the ladder of engagement. That doesn’t happen by accident - it takes careful planning, and most importantly: time. We are here to do the heavy lifting so that you can focus on the day-to-day tasks that keep your organization up and running.
+We've been working for and on behalf of nonprofits and mission-driven organizations for decades. We understand the challenges you face in trying to raise more money, attract new supporters, all while simultaneously maintaining your current base and moving them up the ladder of engagement. Accomplishing all of this doesn't happen by accident - it takes careful planning, and most importantly: time. We are here to do the heavy lifting so that you can focus on the day-to-day tasks that keep your organization up and running.
 
 Our offerings are designed to address common pain points for nonprofits that we have either seen or experienced first-hand. We know what it’s like to be in your shoes, and we want to make your life easier.
 
-* [Website Audit and Metrics](#webaudit)
-* [Communications Audit](#commaudit)
-* [Digital Marketing and Acquisition Strategies](#mktgstrat)
-* [Fundraising and Campaigns](#campaign)
-* [Content Strategy](#constrat)
-* [Campaign Assets and Design](#design)
-
-We’re not going to pretend we can learn everything about your work in a single day, or even weeks. That’s why we’re your partner every step of the way, co-developing the final product that will help deepen the impact you can make.
-
-It  always starts with a conversation and evolves into follow-up discussions to curate a mutual understanding of the organizational goals central to the success of your site or campaign, as well as ensuring we engage the core audiences you want to reach.
-
-<a name="webaudit"></a>
-
-#### Website Audit and Metrics Evaluation
-
+* [Website Audit and Metrics](#webaudit)  
 *Unsure if users are engaging with key content?  
 Donations or email sign ups have plateaued?  
 Never closely examined user behavior on your site?*
 
 Start with a **Website Audit and Metrics Evaluation**
 
-Successful strategies depend on more than just gut instinct. ThinkShout’s practice begins by looking at the data and the concept of “desire paths.” Recognizing that people want to take the shortest path to meet their own needs allows us to identify gaps and potential improvements in the information architecture of a site, even as we collect the data that will inform our later understanding of your online audiences.
-
-Google analytics shows us what users are actually doing and what content they’re engaging with, as well as what they’re not as interested in. Then we ask how these findings align with your goals. We work to bridge the gap between user needs and getting them to take valuable actions you want them to take to support your mission.
-
-This initial work is foundational to the metrics and evaluation work done over the course of our projects – both to define what success looks like and to provide clear guidance on how to make and test incremental improvements over time.
-
-<a name="commaudit"></a>
-
-#### Communications Audit
-
+* [Communications Audit](#commaudit)  
 *Emails under-performing?  
 Open and Click through rates dropping?  
 Unsubscribe rates on the rise?  
@@ -67,16 +44,7 @@ Are you reacting rather than being proactive about your messages?*
 
 We can help with a **Communications Audit.**
 
-Sometimes, you just need to get an email out the door because you realized #GivingTuesday is in a week (we’ve all been there). But it’s impossible to improve and refine your strategy if you’re always reacting to what’s next rather than planning for it.
-
-We understand that organizations frequently operate on limited resources, but successful marketing plans don’t happen by accident - it takes planning and focused effort. It can be both difficult and frustrating to make improvements when there’s barely time to focus on the next outbound message. ThinkShout can assist with a communications audit that examines current processes and identify easy wins and strategies to help elevate your messaging to get the results you desire.
-
-Once we know your goals, we set the framework for your digital plan and work with you to ensure every step of the user experience is accounted for.
-
-<a name="mktgstrat"></a>
-
-#### Digital Marketing and Acquisition
-
+* [Digital Marketing and Acquisition Strategies](#mktgstrat)  
 *Struggling to attract traffic to your site?  
 Users not interacting with your content?  
 Site traffic trending downwards?  
@@ -84,25 +52,61 @@ Attracting users, but email lists aren’t growing?*
 
 Let’s look at your **Digital Marketing and Acquisition.**
 
-Whether it’s building general brand awareness, a seasonal promotion, a local Day of Giving, or a major capital campaign — you need to do more than toss up a Facebook post and swap out the hero image on your home page. Successful campaigns amplify your cause, attracting new supporters and re-engaging current ones.
-
-We work with organizations to set strategies with a low-barrier of entry to users so the benefits of connecting to your cause are evident.
-
-With decades of experience running multi-channel fundraising and brand-awareness campaigns at the national and local scale, we’re well-positioned to elevate your message. And our engagement doesn’t end at launch, we’ll work with you to ensure actions and outcomes are measurable so you can report back to your board and leadership team with confidence. From campaign concept to deployment, we are here to serve as your resource and guides in whatever capacity you desire.
-
-<a name="campaign"></a>
-
-#### Online Fundraising and Campaigns
-
-*Want to raise morem oney, from more individuals, with greater frequency?  
+* [Fundraising and Campaigns](#campaign)  
+*Want to raise more money, from more individuals, with greater frequency?  
 Want to increase your pool of monthly donors/sustainers?  
 Feel like you're doing everything right, but the dollars don't add up?*
 
 Let's examine your **Fundraising Strategy.**
 
-Our strategists started their careers in development/fundraising departments at nonprofits. Successful fundraising campaigns are part art, part science, and finding the right balance between the two. And it’s about much more than a beautiful, slick campaign landing page. People choose to support your cause because they trust you’ll make good use of their investment. How do you nurture a relationship with hundreds, thousands, or even just 20 individuals on your list?
+* [Content Strategy](#constrat)  
+*Struggling to identify your user's motivations?  
+Do you know if your content addresses their needs?*  
 
-If your audience doesn’t trust you, or know how you’ll use their funds to affect change, they’ll be less likely to be advocates for your cause. That trust comes from frequent, open communication that closes the loop on past campaigns and updates users on milestones that have been met -- thanks to them. We work with our clients to help them build communication plans that will cultivate strong relationships with their users that will stand the test of time.
+We can help you develop your **Content Strategy.**
+
+* [Campaign Assets and Design](#design)  
+*Need graphics to bring your campaign to life?  
+Is your typography or brand inconsistent across your site?*  
+
+Our designers can help with  your **Visual Identity and Brand.**
+
+No matter the project, we operate as your partner every step of the way, co-developing the final product that will help deepen the impact you can make.
+
+
+<a name="webaudit"></a>
+
+#### Website Audit and Metrics Evaluation
+
+Successful strategies depend on more than just gut instinct. ThinkShout’s practice begins by looking at the data. Google analytics shows us what users are actually doing and what content they’re engaging with, as well as what they’re not as interested in. Then we ask how these findings align with your goals. We work to bridge the gap between user needs and getting them to take valuable actions you want them to take to support your mission.
+
+This initial work is foundational to the metrics and evaluation work done over the course of our projects – both to define what success looks like and to provide clear guidance on how to make and test incremental improvements over time.
+
+<a name="commaudit"></a>
+
+#### Communications Audit
+
+Sometimes, you just need to get an email out the door because you realized #GivingTuesday is in a week (we’ve all been there). But it’s impossible to improve and refine your strategy if you’re always reacting to what’s next rather than planning for it.
+
+Successful marketing plans don’t happen by accident - it takes planning and focused effort. It can be both difficult and frustrating to make improvements when there’s barely time to focus on the next outbound message. ThinkShout can assist with a communications audit that examines current processes and identify easy wins and strategies to help elevate your messaging to get the results you desire.
+
+<a name="mktgstrat"></a>
+
+#### Digital Marketing and Acquisition
+
+Whether it’s building general brand awareness, a seasonal promotion, a local Day of Giving, or a major capital campaign — you need to do more than toss up a Facebook post and swap out the hero image on your home page. Successful campaigns amplify your cause, attracting new supporters and re-engaging current ones.
+
+We work with organizations at the local and national scale to set multi-channel strategies with a low-barrier of entry to users, ensuring that the benefits of connecting to your cause are evident.
+
+Our engagement doesn’t end at launch, either. We’ll work with you to ensure actions and outcomes are measurable so you can report back to your board and leadership team with confidence. From concepting to deployment, we are here to serve as your resource and guides in whatever capacity you desire.
+
+<a name="campaign"></a>
+
+#### Online Fundraising and Campaigns
+
+People choose to support your cause because they trust you’ll make good use of their investment. How do you nurture a relationship with hundreds, thousands, or even just 20 individuals on your list?
+
+Our strategists started their careers in development/fundraising departments at nonprofits. They know that if your audience doesn’t trust you, or know how you’ll use their funds to affect change, they’ll be less likely to support your cause. We work with our clients to help them build communication plans that will cultivate strong relationships with their users that will stand the test of time.
 
 Prior to arriving at ThinkShout, members of our team raised millions of dollars for organizations implementing strategies predicated on this knowledge; and executed them with the systems and tools that allowed those efforts to succeed. Let’s start a conversation about your goals and audiences, and how we can bridge the gap to make your mission one of the top causes they support.
 
@@ -147,4 +151,4 @@ For a uniquely branded campaign, we would extend the scope of work to encompass 
 
 Your brand identity speaks to your organization's mission and resonates with the motivations of your online audiences. We approach design collaboratively, centered on adaptive, mobile-first content.
 
-Visual aesthetic completes the success of a digital experience. Through clean design, pleasing typography, and bold imagery, we bring your content to life and make it accessible to all audiences that come into contact with your mission.
+Visual aesthetic completes the success of a digital experience. Through smart design, clean typography, and bold imagery, we bring your content to life and make it accessible to all audiences that come into contact with your mission.
