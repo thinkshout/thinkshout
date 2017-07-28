@@ -1,8 +1,8 @@
 ---
 layout: expertise-detail
 body-class: expertise
-title: Strategy and Engagement
-slug: strategy-engagement
+title: Digital Strategy
+slug: digital-strategy
 tag: Strategy
 
 leadin: |
