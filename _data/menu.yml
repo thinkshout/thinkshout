@@ -8,8 +8,8 @@ main-menu:
   - title: What We Do
     url: /expertise/
     sub:
-      - title: Strategy & Metrics
-        url: /expertise/content-strategy/
+      - title: Digital Strategy
+        url: /expertise/digital-strategy/
 
       - title: Design & UX
         url: /expertise/design/

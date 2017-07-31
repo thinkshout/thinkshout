@@ -11,17 +11,17 @@ short: Mimi poses a few questions you should ask yourself before embarking on a 
 tags:
   - Discovery
   - Strategy
-  - Redesigns
+  - Design
   - Drupal Planet
 date: 2017-05-15 13:30:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
-Websites, like most things, have a lifespan. At first, they are new and shiny and aligned with both your organization’s goals and current web trends and best practices. As time goes on, however, technology continues to progress, and your organizational goals will probably evolve as well. 
+Websites, like most things, have a lifespan. At first, they are new and shiny and aligned with both your organization’s goals and current web trends and best practices. As time goes on, however, technology continues to progress, and your organizational goals will probably evolve as well.
 
-If you’ve worked through a full Discovery process to develop an information architecture that supports your organization’s core mission, then all you may need to update is the look and some of the site content. But if you haven’t engaged in an in-depth Discovery process before, you may find that your site is not only technically outdated, but also no longer reflects who you are as an organization. 
+If you’ve worked through a full Discovery process to develop an information architecture that supports your organization’s core mission, then all you may need to update is the look and some of the site content. But if you haven’t engaged in an in-depth Discovery process before, you may find that your site is not only technically outdated, but also no longer reflects who you are as an organization.
 
-So it’s time to think about a redesign. The good news is, starting your new project with a full Discovery will help you create a site structure that will serve your needs not just for the new version of the site, but for years to come. Additionally, if you build your new site on a widely-used and well-supported open source CMS platform (like Drupal or Wordpress), you won’t need to switch systems every couple of years. For example, Drupal 8, the latest version of Drupal, is expected to have a lifespan of 8-10 years. 
+So it’s time to think about a redesign. The good news is, starting your new project with a full Discovery will help you create a site structure that will serve your needs not just for the new version of the site, but for years to come. Additionally, if you build your new site on a widely-used and well-supported open source CMS platform (like Drupal or Wordpress), you won’t need to switch systems every couple of years. For example, Drupal 8, the latest version of Drupal, is expected to have a lifespan of 8-10 years.
 
 Investing time and energy to develop a strong foundation now will set you up for success in the future. But how can you ensure your website redesign gets off to the right start?
 
@@ -31,7 +31,7 @@ Here are some things to think about when you’re thinking about a redesign:
 
 ## What are Your Organizational Goals?
 
-Before you dive into the specifics of your website, let’s take a step back and think at a higher level. Defining your organizational goals will help make sure that the solution you and your vendor create not only looks good and functions well, but will also support the fundamental mission of your organization. 
+Before you dive into the specifics of your website, let’s take a step back and think at a higher level. Defining your organizational goals will help make sure that the solution you and your vendor create not only looks good and functions well, but will also support the fundamental mission of your organization.
 
 So it’s important to take a moment to think about what your organization’s goals are. What issue are you working to address? What does success for your organization look like? The more specific and measurable these goals are, the better. Measuring your progress towards your higher level goals can help you assess the success of your project.
 
@@ -52,4 +52,3 @@ A website only adds value for your organization if your audiences use it, and mo
 Defining who your audiences are will allow you to put your users first when redesigning your website. Once you know who your audiences are, you can determine what content will satisfy their needs, sparking the trust that will allow you to nudge them to take an action beneficial to you.
 
 These questions are just a starting place for your website redesign. A full discovery process will delve more deeply into your programs and departments, your needs and wants, and what makes your organization tick. But asking yourself these three questions before you start will help give you an anchor to help you ensure that your new website engages your users and supports your mission.
-

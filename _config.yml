@@ -12,7 +12,7 @@ url: https://thinkshout.com
 # Permalink Configuration
 permalink: /blog/:year/:month/:title/
 
-exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'bower.json', '.bowerrc', 'config.rb', 'sass', 's3_website*.yml', 'stage_config']
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'package.json', 'config.rb', 'sass', 's3_website*.yml', 'stage_config', 'Guardfile']
 
 # Team directory used by the data_to_pages plugin.
 team_dir: 'team'
