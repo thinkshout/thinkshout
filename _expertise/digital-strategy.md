@@ -32,17 +32,15 @@ Our offerings are designed to address common pain points for nonprofits that we 
 #### Focus Areas and Offerings
 
 *Unsure if users are engaging with key content?  
-Donations or email sign ups have plateaued?  
-Never closely examined user behavior on your site?*
-
+Have your donations or email sign ups plateaued?  
+Never closely examined user behavior on your site?*  
 **Start with a [Website Audit and Metrics](#webaudit)**
 
 
 *Emails under-performing?  
-Open and Click through rates dropping?  
+Open and click through rates dropping?  
 Unsubscribe rates on the rise?  
 Are you reacting rather than being proactive about your messages?*  
-
 **We can help with a [Communications Audit](#commaudit)**
 
 
@@ -50,26 +48,22 @@ Are you reacting rather than being proactive about your messages?*
 Users not interacting with your content?  
 Site traffic trending downwards?  
 Attracting users, but email lists aren’t growing?*  
-
 **Let's look at your [Digital Marketing and Acquisition Strategies](#mktgstrat)**
 
 
-*Want to raise more money, from more individuals, with greater frequency?  
+*Want to raise money from more individuals, with greater frequency?  
 Want to increase your pool of monthly donors/sustainers?  
-Feel like you're doing everything right, but the dollars don't add up?*
-
+Feel like you're doing everything right, but the dollars don't add up?*  
 **Time to examine your [Fundraising and Campaigns](#campaign)**
 
 
 *Struggling to identify your user's motivations?  
-Do you know if your content addresses their needs?*
-
+Do you know if your content addresses their needs?*  
 **We can help develop your [Content Strategy](#constrat)**
 
 
 *Need graphics to bring your campaign to life?  
-Is your typography or brand inconsistent across your site?*
-
+Is your typography or brand inconsistent across your site?*  
 **Our designers can help with your [Campaign Assets and Design](#design)**
 
 
@@ -77,7 +71,7 @@ Is your typography or brand inconsistent across your site?*
 
 #### Website Audit and Metrics Evaluation
 
-Successful strategies depend on more than just gut instinct. ThinkShout’s practice begins by looking at the data. Google analytics shows us what users are actually doing and what content they’re engaging with, as well as what they’re not as interested in. Then we ask how these findings align with your goals. We work to bridge the gap between user needs and getting them to take valuable actions you want them to take to support your mission.
+Successful strategies depend on more than just gut instinct. ThinkShout’s practice begins by looking at the data. Google analytics shows us what users are actually doing and what content they’re engaging with, as well as what they’re not  interested in. Then we ask how these findings align with your goals. We work to bridge the gap between user needs and getting them to take valuable actions you want them to take to support your mission.
 
 This initial work is foundational to the metrics and evaluation work done over the course of our projects – both to define what success looks like and to provide clear guidance on how to make and test incremental improvements over time.
 
@@ -87,13 +81,13 @@ This initial work is foundational to the metrics and evaluation work done over t
 
 Sometimes, you just need to get an email out the door because you realized #GivingTuesday is in a week (we’ve all been there). But it’s impossible to improve and refine your strategy if you’re always reacting to what’s next rather than planning for it.
 
-Successful marketing plans don’t happen by accident - it takes planning and focused effort. It can be both difficult and frustrating to make improvements when there’s barely time to focus on the next outbound message. ThinkShout can assist with a communications audit that examines current processes and identify easy wins and strategies to help elevate your messaging to get the results you desire.
+Successful marketing plans don’t just happen - they take planning and focused effort. It can be difficult and frustrating to make improvements when there’s barely time to focus on the next outbound message. ThinkShout can assist with a communications audit that examines current processes to identify easy wins and strategies to help elevate your messaging to get the results you desire.
 
 <a name="mktgstrat"></a>
 
 #### Digital Marketing and Acquisition
 
-Whether it’s building general brand awareness, a seasonal promotion, a local Day of Giving, or a major capital campaign — you need to do more than toss up a Facebook post and swap out the hero image on your home page. Successful campaigns amplify your cause, attracting new supporters and re-engaging current ones.
+Whether it’s building brand awareness, a seasonal promotion, a local Day of Giving, or a major capital campaign — you need to do more than toss up a Facebook post and swap out the hero image on your home page. Successful campaigns amplify your cause, attracting new supporters and re-engaging current ones.
 
 We work with organizations at the local and national scale to set multi-channel strategies with a low-barrier of entry to users, ensuring that the benefits of connecting to your cause are evident.
 
@@ -105,9 +99,9 @@ Our engagement doesn’t end at launch, either. We’ll work with you to ensure 
 
 People choose to support your cause because they trust you’ll make good use of their investment. How do you nurture a relationship with hundreds, thousands, or even just 20 individuals on your list?
 
-Our strategists started their careers in development/fundraising departments at nonprofits. They know that if your audience doesn’t trust you, or know how you’ll use their funds to affect change, they’ll be less likely to support your cause. We work with our clients to help them build communication plans that will cultivate strong relationships with their users that will stand the test of time.
+Our strategists started their careers in development/fundraising departments at nonprofits. They know that if your audience doesn’t trust you, or know how you’ll use their funds to affect change, they’ll be less likely to support your cause. We work with our clients to help build communication plans that cultivate strong relationships with their users and stand the test of time.
 
-Prior to arriving at ThinkShout, members of our team raised millions of dollars for organizations implementing strategies predicated on this knowledge; and executed them with the systems and tools that allowed those efforts to succeed. Let’s start a conversation about your goals and audiences, and how we can bridge the gap to make your mission one of the top causes they support.
+Prior to arriving at ThinkShout, members of our team raised millions of dollars for organizations implementing strategies predicated on this knowledge, executing them with the systems and tools that allowed those efforts to succeed. Let’s start a conversation about your goals and audiences, and how we can bridge the gap to make your mission one of the top causes of your supporters.
 
 <a name="constrat"></a>
 
@@ -135,7 +129,7 @@ Marketing campaigns can have two prongs:
 1. Reinforce the brand itself with a clear message, which communicates your mission and immediate goals.
 2. The campaign itself has its own unique branding supported by organizational branding.
 
-Out staff staff has a wealth of experience in both areas and can provide assets such as:
+Our staff has a wealth of experience in both areas and can provide assets such as:
 
 * Email Design
 * Digital Banner Ads
