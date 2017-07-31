@@ -25,7 +25,7 @@ points: |
 order: 1
 ---
 
-Engagement doesn't happen by accident - it takes careful planning, and most importantly: time. We are here to do the heavy lifting so that you can focus on the day-to-day tasks that keep your organization up and running.
+Engagement doesn't happen by accident - it takes careful planning, and most importantly time. We are here to do the heavy lifting so that you can focus on the day-to-day tasks that keep your organization up and running.
 
 Our offerings are designed to address common pain points for nonprofits that we have either seen or experienced first-hand. We know what it’s like to be in your shoes, and we want to make your life easier.
 
@@ -67,11 +67,16 @@ Is your typography or brand inconsistent across your site?*
 **Our designers can help with your [Campaign Assets and Design](#design)**
 
 
+
+We can help you reach your aggressive goals -- [drop us a line and let's start a conversation!](https://thinkshout.com/contact/)
+
+
+
 <a name="webaudit"></a>
 
 #### Website Audit and Metrics Evaluation
 
-Successful strategies depend on more than just gut instinct. ThinkShout’s practice begins by looking at the data. Google analytics shows us what users are actually doing and what content they’re engaging with, as well as what they’re not  interested in. Then we ask how these findings align with your goals. We work to bridge the gap between user needs and getting them to take valuable actions you want them to take to support your mission.
+Successful strategies depend on more than just gut instinct. ThinkShout’s practice begins by looking at the data. Google Analytics shows us what users are actually doing and what content they’re engaging with, as well as what they’re not  interested in. Then we ask how these findings align with your goals. We work to bridge the gap between user needs and getting them to take valuable actions you want them to take to support your mission.
 
 This initial work is foundational to the metrics and evaluation work done over the course of our projects – both to define what success looks like and to provide clear guidance on how to make and test incremental improvements over time.
 
@@ -145,3 +150,6 @@ For a uniquely branded campaign, we would extend the scope of work to encompass 
 Your brand identity speaks to your organization's mission and resonates with the motivations of your online audiences. We approach design collaboratively, centered on adaptive, mobile-first content.
 
 Visual aesthetic completes the success of a digital experience. Through smart design, clean typography, and bold imagery, we bring your content to life and make it accessible to all audiences that come into contact with your mission.
+
+
+Want to learn more about what our partnership would look like? [Contact us today!](https://thinkshout.com/contact/)
