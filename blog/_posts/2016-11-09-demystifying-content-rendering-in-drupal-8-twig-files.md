@@ -12,7 +12,6 @@ tags:
   - Drupal Planet
   - Drupal 8
   - Twig
-  - Content rendering
 date: 2016-11-09 14:00:00
 image: https://thinkshout.com/assets/images/blog/content-rendering-header.jpg
 header-image: /assets/images/blog/content-rendering-header.jpg
