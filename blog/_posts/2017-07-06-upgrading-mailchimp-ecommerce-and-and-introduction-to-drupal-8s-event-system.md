@@ -6,7 +6,7 @@ title: Upgrading MailChimp eCommerce and an Introduction to Drupal 8's Event Sys
 homepage: false
 author: dan
 published: true
-featured: false
+featured: true
 short: Get your hooks out of Drupal with Drupal 8's event system.
 tags:
   - Drupal Planet

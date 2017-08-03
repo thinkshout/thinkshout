@@ -4,15 +4,15 @@ body-class: blog-post
 topic: community
 title: ThinkShout Cares (and So Can You)
 homepage: false
-author: stephanie
-published: false
-featured: false
-short: Front end intern Katrina introduces the ThinkShout Cares project.
+author: katrina
+published: true
+featured: true
+short: Engineering intern Katrina introduces the ThinkShout Cares project.
 tags:
   - ThinkShout Cares
   - Interns
   - p:ear
-date: 2017-08-04 16:00:00
+date: 2017-08-02 16:00:01
 image: https://thinkshout.com/assets/images/2017interns.jpg
 header-image: /assets/images/blog/2017interns.jpg
 header-image-alt: "ThinkShout Cares, A 2017 Intern Project"
@@ -20,11 +20,11 @@ header-image-alt: "ThinkShout Cares, A 2017 Intern Project"
 
 We've kept a pretty tight lid on this project all summer, but it's finally time to unveil the focus of our 2017 Summer Internship program. Who better to tell you about it then the talented interns who built it?
 
-You [met front end intern Katrina Hirsch](http://thinkshout.com/blog/2017/06/the-2017-thinkshout-interns/) last month on our blog. Now it's her turn to tell you in her own words what we've been working on.
+You [met Engineering intern Katrina Hirsch](http://thinkshout.com/blog/2017/06/the-2017-thinkshout-interns/) last month on our blog. Now it's her turn to tell you in her own words what we've been working on.
 
 **Katrina Hirsch:**
 
-![katrina.jpg](/assets/images/blog/katrina.jpg){:.left .thirty}It’s clear to me that ThinkShout is a company that cares deeply. 
+![katrina.jpg](/assets/images/blog/katrina.jpg){:.left .thirty}It’s clear to me that ThinkShout is a company that cares deeply.
 
 There is evidence of this not only in ThinkShout’s work, but also in the way that staff collectively interacts with our community. Staff want to be involved in creating positive change in the world, they want to give to organizations making a difference. Not because it’s an expectation, but because ThinkShout believes it’s the right thing to do. And so it was in the spirit of this sentiment that the idea for ThinkShout Cares was born.
 
