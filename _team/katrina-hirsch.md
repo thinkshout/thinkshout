@@ -8,8 +8,8 @@ leadin: |
 social:
   github: https://github.com/khirsch
 team-image:
-  small: blog/katrina.jpg
-  medium: blog/katrina.jpg
+  small: blog/katrina_sq.jpg
+  medium: blog/katrina_sq.jpg
   large: blog/katrina.jpg
 published: true
 current-employee: false
