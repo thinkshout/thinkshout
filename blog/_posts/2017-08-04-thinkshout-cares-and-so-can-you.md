@@ -3,7 +3,7 @@ layout: blog
 body-class: blog-post
 topic: community
 title: ThinkShout Cares (and So Can You)
-homepage: false
+homepage: true
 author: katrina
 published: true
 featured: true
@@ -12,7 +12,7 @@ tags:
   - ThinkShout Cares
   - Interns
   - p:ear
-date: 2017-08-02 16:00:01
+date: 2017-08-04 14:00:00
 image: https://thinkshout.com/assets/images/TS-Cares-header.png
 header-image: /assets/images/blog/TS-Cares-header.png
 header-image-alt: "ThinkShout Cares, A 2017 Intern Project"
