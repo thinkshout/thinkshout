@@ -13,8 +13,8 @@ tags:
   - Interns
   - p:ear
 date: 2017-08-02 16:00:01
-image: https://thinkshout.com/assets/images/2017interns.jpg
-header-image: /assets/images/blog/2017interns.jpg
+image: https://thinkshout.com/assets/images/ts-cares-group.jpg
+header-image: /assets/images/blog/ts-cares-group.jpg
 header-image-alt: "ThinkShout Cares, A 2017 Intern Project"
 ---
 
