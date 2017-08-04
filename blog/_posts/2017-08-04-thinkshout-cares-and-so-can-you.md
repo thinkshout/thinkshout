@@ -13,8 +13,8 @@ tags:
   - Interns
   - p:ear
 date: 2017-08-02 16:00:01
-image: https://thinkshout.com/assets/images/ts-cares-group.jpg
-header-image: /assets/images/blog/ts-cares-group.jpg
+image: https://thinkshout.com/assets/images/TS-Cares-header.png
+header-image: /assets/images/blog/TS-Cares-header.png
 header-image-alt: "ThinkShout Cares, A 2017 Intern Project"
 ---
 
@@ -36,6 +36,6 @@ We began by taking a walk over to the p:ear headquarters, which is a mere three 
 
 What we discovered was a vibrant space filled with intelligent, creative individuals. In many ways, they were just like us - uncertain of the future, eager to contribute, full of ambition and hope. We spent two hours talking and collaborating, which ultimately resulted in two very different, but equally awesome t-shirt designs.
 
-![freedom-sm.png](/assets/images/blog/freedom-sm.png){:.left .thirty}        ![that-summer-sm2.png](/assets/images/blog/that-summer-sm2.png){:.right .thirty}
+[![pear-summer.png](/assets/images/blog/pear-summer.png){:.center}](http://give.thinkshout.com/)
 
 Both designs are now for sale on [the e-commerce site that we built for this project.](http://give.thinkshout.com/) Buy one, or maybe even a few. Proceeds from shirt sales will go towards funding mentorships at p:ear such as their barista program, bike repair shop, or outdoor recreation program. The hope being that in giving students a safe space to explore and learn about an area where they can apply themselves and contribute back to society. [Help us support p:ear](http://give.thinkshout.com/) and keep the hope alive!
