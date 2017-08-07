@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: culture
 title: The 2017 ThinkShout Summer Interns
-homepage: true
+homepage: false
 author: stephanie
 published: true
-featured: true
+featured: false
 short: Introducing the 2017 ThinkShout summer interns!
 tags:
   - Internship
