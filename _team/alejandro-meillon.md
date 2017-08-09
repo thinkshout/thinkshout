@@ -9,8 +9,8 @@ social:
   github: 
 team-image:
   small: blog/alejandro_sq.jpg
-  medium: blog/alejandro.jpg
-  large: blog/alejandro.jpg
+  medium: blog/alejandro_sq.jpg
+  large: blog/alejandro_sq.jpg
 published: true
 current-employee: false
 name: alejandro
