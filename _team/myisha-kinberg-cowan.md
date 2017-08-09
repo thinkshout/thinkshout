@@ -13,9 +13,9 @@ team-image:
   large: blog/katrina_sq.jpg
 published: true
 current-employee: false
-name: katrina
+name: myisha
 bio: |
   <p><strong>Favorite Planet:</strong> It’s not really a planet anymore, but Pluto. I like that it’s cold and dark, and it’s so small. I actually don’t know why I like those things about it.</p>
   <p><strong>Dream Trip:</strong> Japan. I have a lot on my list, but that’s one that’s the most unique. I’d love to take a solo trip to Tokyo.</p>
-slug: katrina
+slug: myisha
 ---
