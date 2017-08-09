@@ -4,18 +4,18 @@ first_name: Alejandro
 last_name: Meillon
 position: Design Intern
 leadin: |
-  Katrina has been coding for over twenty years and only just recently decided to change gears to make it a career. She’ll be focusing on front-end engineering, and hopes to continue her journey toward mastering Sass.
+  Alejandro is our very first design intern! He’ll be working closely with our team to hone his web design skills on a variety of projects this summer. He’s fascinated by the power of the web and its many possibilites.
 social:
-  github: https://github.com/khirsch
+  github: 
 team-image:
-  small: blog/katrina_sq.jpg
-  medium: blog/katrina_sq.jpg
-  large: blog/katrina_sq.jpg
+  small: blog/alejandro_sq.jpg
+  medium: blog/alejandro.jpg
+  large: blog/alejandro.jpg
 published: true
 current-employee: false
 name: alejandro
 bio: |
-  <p><strong>Favorite Planet:</strong> It’s not really a planet anymore, but Pluto. I like that it’s cold and dark, and it’s so small. I actually don’t know why I like those things about it.</p>
-  <p><strong>Dream Trip:</strong> Japan. I have a lot on my list, but that’s one that’s the most unique. I’d love to take a solo trip to Tokyo.</p>
+  <p><strong>Favorite Planet:</strong> Neptune, since Neptune doesn’t seem quite so deadly to humans as the other planets.</p>
+  <p><strong>Preferred Superpower:</strong> The ability to stop time, like how Hermione’s time turner works in Harry Potter.</p>
 slug: alejandro
 ---
