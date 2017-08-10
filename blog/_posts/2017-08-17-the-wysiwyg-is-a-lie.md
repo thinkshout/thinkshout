@@ -5,7 +5,7 @@ topic: technology
 title: The WYSIWYG is a Lie
 homepage: false
 author: joe
-published: true
+published: false
 featured: false
 short: Drupal's CKEditor does not show the styles from the default theme. Let's fix that and make WYSIWYG true again.
 tags:
@@ -75,6 +75,10 @@ Then scroll down to the 'Styles dropdown' tab and add the appropriate markup and
 ![ckedit2.png](/assets/images/blog/ckedit2.png){:.center}
 
 In our case we want to turn an anchor link (`a`) into a button by adding a `.button` class, so we use `a.button`. The text after the pipe (`|`) is what will appear in the 'Styles' dropdown.
+
+Finally, make sure you've added that markup to the 'allowed HTML tags' section if you're adding it to a restricted markup configuration:
+
+![ckedit6.png](/assets/images/blog/ckedit6.png){:.center}
 
 _Important Note:_ style options won't show up in the Styles dropdown unless you have clicked/selected an eligible piece of markup - in our case the `a` tag - in the CKEditor window. So in our example, we'd have to click on 'read more' before we click on the Styles dropdown.
 
