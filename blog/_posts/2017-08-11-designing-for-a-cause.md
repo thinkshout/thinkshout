@@ -32,6 +32,8 @@ The designer has the same job as the writer: to communicate something. However, 
 
 I had to split my time between designing a shirt and the website where we’d sell it. To achieve harmony, I was careful not to let them differ too much visually. The shirt and the website are authentic on their own; they are related, but they aren’t siblings. They’re more like cousins. 
 
+![ts_cares_2.png](/assets/images/blog/ts_cares_2.png)
+
 My goal was to create a serendipitous experience, something you did not expect, but you’re glad it happened. There are a few visual surprises throughout, connected by a theme. I chose the Universe as a theme because it is as beautiful as it is scary. I integrated hand drawn illustrations because there is an undoubtedly charismatic aspect about them. The more I drew, the more I discovered a sequence in my drawings. The top of the page marks the beginning of the sky. As you scroll down, you progress through the sky all the way down to the Portland skyline. 
 
 Sometimes, we need to slow down to appreciate web imagery; images often tells stories all on their own. When I was creating the t-shirt’s tropical pattern, I was unaware of how personal it was for me. In it, I was representing my home, a tropical town in Mexico on the coast of the Pacific Ocean where you see whales jump in the winter and you can find shells in the sand. For me, the beach is this place where you leave all of your worries behind and gorge yourself on the sun. It is one of the very few places where you actually stop and absorb the present. I am pretty content about how my design turned out. For me, the only thing missing there is a Ceviche. Too bad Ceviche isn’t aesthetically pleasing as the jumping whales.
