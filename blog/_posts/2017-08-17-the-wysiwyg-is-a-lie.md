@@ -76,6 +76,10 @@ Then scroll down to the 'Styles dropdown' tab and add the appropriate markup and
 
 In our case we want to turn an anchor link (`a`) into a button by adding a `.button` class, so we use `a.button`. The text after the pipe (`|`) is what will appear in the 'Styles' dropdown.
 
+Finally, make sure you've added that markup to the 'allowed HTML tags' section if you're adding it to a restricted markup configuration:
+
+![ckedit6.png](/assets/images/blog/ckedit6.png){:.center}
+
 _Important Note:_ style options won't show up in the Styles dropdown unless you have clicked/selected an eligible piece of markup - in our case the `a` tag - in the CKEditor window. So in our example, we'd have to click on 'read more' before we click on the Styles dropdown.
 
 ![ckedit5.gif](/assets/images/blog/ckedit5.gif){:.center}
