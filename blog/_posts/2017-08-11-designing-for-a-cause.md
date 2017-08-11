@@ -24,7 +24,8 @@ For me, this turned out to be true. Now that it's two months into my internship,
 
 As the web designer for [ThinkShout Cares](https://thinkshout.com/blog/2017/08/thinkshout-cares-and-so-can-you/), I was responsible for desinging a t-shirt and website that would fit nicely with [p:ear's](http://pearmentor.org/) message. You know, the shirt you [probably ordered by now](http://give.thinkshout.com/#shop)... right?  I really enjoy the design process. It is a world of its own where you’re always learning. I think it is one of those professions where you have to reinvent yourself or you might not stick with it. I love the challenge it provides, as it energizes me to continually venture out of my comfort zone. For this project, I was challenged to create a shirt that people would like enough to want to buy. 
 
-![ts_cares_1.png](/assets/images/blog/ts_cares_1.png){:.center}
+![ts_cares_1.png](/assets/images/blog/ts_cares_1.png)
+{:.full}
 
 When looking at the past ThinkShout shirts (I’ve heard they are pretty popular at conferences), I was amazed at the beautiful typography and messaging in each of them. [Jessica Tate](https://thinkshout.com/team/jessica/) (my manager) is an avid typologist who, beyond being an amazing UX designer, makes reading delightful and easy by perfectly matching fonts. Knowing this, I knew that I should probably stay in my lane and do what I do best: illustration. 
 
