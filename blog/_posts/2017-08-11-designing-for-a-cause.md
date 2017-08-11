@@ -6,7 +6,7 @@ title: Designing for a Cause
 homepage: false
 author: alejandro
 published: true
-featured: false
+featured: true
 short: Design intern Alejandro shares his takeaways from his first web design project, and the inspiration behind his designs for ThinkShout Cares.
 tags:
   - ThinkShout Cares
