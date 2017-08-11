@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: community
+topic: culture
 title: Designing for a Cause
 homepage: false
 author: alejandro
