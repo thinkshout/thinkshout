@@ -26,7 +26,7 @@ As the web designer for ThinkShout Cares, I was responsible for desinging a t-sh
 
 ![ts_cares_1.png](/assets/images/blog/ts_cares_1.png){:.center}
 
-When looking at the past ThinkShout shirts (I’ve heard they are pretty popular at conferences), I was amazed at the beautiful typography and messaging in each of them. Jessica Tate (my manager) is an avid typologist who, beyond being an amazing UX designer, makes reading delightful and easy by perfectly matching fonts. Knowing this, I knew that I should probably stay in my lane and do what I do best: illustration. 
+When looking at the past ThinkShout shirts (I’ve heard they are pretty popular at conferences), I was amazed at the beautiful typography and messaging in each of them. [Jessica Tate](https://thinkshout.com/team/jessica/) (my manager) is an avid typologist who, beyond being an amazing UX designer, makes reading delightful and easy by perfectly matching fonts. Knowing this, I knew that I should probably stay in my lane and do what I do best: illustration. 
 
 The designer has the same job as the writer: to communicate something. However, the beauty of design is that you have the power to communicate widely and personally. I completely understand that today, the web is a behemoth. Intended or not, the surplus of media we consume is enough to make us slam the laptop closed and walk away. 
 
