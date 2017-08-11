@@ -5,15 +5,17 @@ topic: community
 title: Designing for a Cause
 homepage: false
 author: alejandro
-published: false
+published: true
 featured: false
-short: Alejandro shares his takeaways from his first web design project, and the inspiration behind his designs for p:ear.
+short: Design intern Alejandro shares his takeaways from his first web design project, and the inspiration behind his designs for ThinkShout Cares.
 tags:
   - ThinkShout Cares
   - Interns
   - p:ear
-date: 2017-08-10 15:00:00
+date: 2017-08-11 11:00:00
 image: https://thinkshout.com/assets/images/group-photo-large2.jpg
+header-image: /assets/images/blog/group-photo-large2.jpg
+header-image-alt: "ThinkShout Cares, A 2017 Intern Project"
 ---
 
 It’s the middle of August, so it seems like it’s a good time for me to write about my experience with [ThinkShout Cares](http://give.thinkshout.com/), too. This is very timely for me because, so far, this summer I have not been able to sit down and reflect on my experience as an intern at ThinkShout. In college, my professors and alumni told us, time after time, we should always first try working for a small company. Allegedly, this is because you experience all of the aspects that make up a company; in other words, you are not confined to your sole area of work. As it turns out, it is true; two months into my internship, I can confirm that I learned something about everything from web design, to coding, to public speaking. This internship has been an amazing experience. I am not exaggerating when I say that what I learned in two and a half months is equivalent to a whole year of school… assuming that everything I learned in school would actually be useful (I’m looking at you Geology 101). 
