@@ -27,7 +27,9 @@ cs-intro:
   type: "You Can in Portland"
   mission: "Travel Portland is a nonprofit destination marketing organization (DMO) committed to making Portland a top destination for travelers to help promote the local economy."
   text: |
-    Portland hosted nine million overnight stays in 2016, accounting for over $5 billion in revenue across the city. Travel Portland's mission is to help visitors plan their ideal Portland experience, welcome those visitors with a peerless approach to editorial, photography, and digital storytelling. The city’s recent success in drawing unprecedented numbers of visitors from across the globe has solidified Travel Portland’s status as industry leaders.
+     The Graham School is the University of Chicago’s continuing education program for skill seekers, career changers, lifelong learners. It offers an array of curriculum and certifications for nontraditional students looking to change the course of their career path, or those who simply want to learn for learning’s sake. 
+
+The school serves a wide range of student types, so the University of Chicago needed a site that was both attractive and navigable for its many constituents. It couldn’t just be a pretty site, though - it needed to tell a story that encourages lifelong learning.
 
 cs-sections:
 
@@ -35,16 +37,6 @@ cs-sections:
     section-description: |
       ThinkShout is Travel Portland’s strategic and technical partner for all things digital. In addition to maintaining core properties like the leisure and meeting planner sites, ThinkShout develops seasonal interactive experiences. Every year when Portland extends an invitation to the world — as with the acclaimed Portland Is Happening Now and new [You Can, in Portland](https://www.travelportland.com/you-can/?sid=5405) campaigns — ThinkShout brings the work to life online.
       
-  - section-title:
-    section-description: |
-      >“Working with ThinkShout has been a delight. Beyond the deep bench of technical talent, it’s the enthusiasm they display for our work and their eagerness and ability to add value to our creative vision that elevates their value from service provider to true strategic partner.”
-
-      >Richard Tammar  
-      >Director of Digital Strategy  
-      >Travel Portland  
-      {:.attrib}
-
- 
   - section-image: "/assets/images/ts_redesign/case-studies/travel-portland/TRPO-mytrip.jpg"
     section-image-alt: "My Trip"
 
