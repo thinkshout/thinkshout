@@ -35,27 +35,29 @@ cs-sections:
 
   - section-title: 
     section-description: |
-      ThinkShout is Travel Portland’s strategic and technical partner for all things digital. In addition to maintaining core properties like the leisure and meeting planner sites, ThinkShout develops seasonal interactive experiences. Every year when Portland extends an invitation to the world — as with the acclaimed Portland Is Happening Now and new [You Can, in Portland](https://www.travelportland.com/you-can/?sid=5405) campaigns — ThinkShout brings the work to life online.
+      The existing site’s information architecture made it difficult for staff to update content as their needs changed and course offerings expanded, and a cumbersome back-end made the updating process tedious. A messy admin interface and excess of content types cluttered the content creation experience. The University of Chicago needed to simplify this process while also improving the user experience by making the site easier for students to navigate and search for content.
+      
+      In just six months - one of the tightest timelines we’ve ever faced - our team turned this site around and delivered the new face of the University of Chicago Graham School.
       
   - section-image: "/assets/images/ts_redesign/case-studies/travel-portland/TRPO-mytrip.jpg"
     section-image-alt: "My Trip"
 
   - section-title:
     section-description: |
-      The key to Travel Portland’s award-winning website is a deceptively simple design that’s flexible enough to contain a world of content while remaining easy to navigate. Among the industry-leading features is an account-free way to build and share a trip itinerary, called [MyTrip](https://www.travelportland.com/my-trip/). By appending each unique point of interest, article, and event to the Trip, we allow visitors to enjoy a personalized experience without having to add yet another password to the mix.
+      The University of Chicago Graham School site was already on Drupal 7 and its web team was very familiar with the Drupal landscape, so transitioning to Drupal 8 appeared to be the natural next step. 
       
-      The core of TravelPortland.com is built with WordPress, chosen for the quality of its editorial experience and seamless integration with calendar, social, hotel reservation, and other critical third-party tools. By hosting the site with our partner Pantheon and optimizing the code in every imaginable way, we don’t have to sacrifice image quality or features for speed — a requirement for maintaining Travel Portland’s solid mobile and SEO advantages.
+      Since content management was a major pain point for the University of Chicago team, we came up with a solution that combined Google Sheets and Drupal Migrate to populate content on their site. Maria Fisher explains how we did it in <a href="https://thinkshout.com/blog/2017/01/using-google-docs-and-migrate-to-populate-your-drupal-site-part-1/">this two-part blog series</a>. Our engineers then trained the University of Chicago web team to use this system, as the system itself was unique to this project.
 
   - section-image: "/assets/images/ts_redesign/case-studies/travel-portland/TRPO-mytrip-2.jpg"
     section-image-alt: "My Trip"
 
   - section-title:
     section-description: |
-      Our long-term strategy has been to go beyond the planning stage for travelers, providing on-the-ground expertise and encouraging visitors to share their experiences after they head home. It’s been a winning strategy: visitors to Portland in 2016 generated over $5 billion in direct spending, resulted in $245 million in tax revenue, and supported over 36,000 jobs, all of which has increased year-over-year since partnering with ThinkShout.
+      Another facet of the Graham School site is its catalogues of curriculum. Students can go to the site, browse available courses, and register for them with Destiny One, a lifecycle management tool designed specifically for institutions like the Graham School that serve nontraditional students.
 
-      We love Portland, so it’s gratifying to see our city named a top destination nationally and internationally by Travel + Leisure, The Telegraph, and International Traveller, to name a few. As an industry leader, however, Travel Portland isn’t satisfied. Advances in personalized content, live chat, enhanced recommendations, and intelligent search are in the pipeline, and they promise to maintain Travel Portland as a leader in destination marketing.
+      We simplified the design and user interface, and restructured the program pages to be more microsite-like. We also built out related content blocks on these pages so relevant blogs and events populate based on the page the user is currently browsing. Additionally, we created sticky call to action blocks that appear for first-time visitors. These blocks can easily be moved to any page and customized by the University of Chicago web team. 
       
-      *Sasquatch & Sasquatch accessory illustrations by Wieden+Kennedy.*
+      The University of Chicago team wanted to tell a story with The Graham School’s new home on the web, so we built out a persistent timeline visible on each page to illustrate the school’s rich history as an academic institution. Related content and events all tied into the vision for a seamless, vibrant educational experience.
 
 cs-cta-text: Launch Site
 cs-cta-url: https://www.travelportland.com/
