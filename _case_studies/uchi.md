@@ -24,12 +24,12 @@ cs-header:
   title: "Making continued education for nontraditional students accessible and engaging with Drupal 8"
 
 cs-intro:
-  type: "You Can in Portland"
-  mission: "Travel Portland is a nonprofit destination marketing organization (DMO) committed to making Portland a top destination for travelers to help promote the local economy."
+  type: "The Graham School"
+  mission: "The Graham School is the University of Chicago’s continuing education program for skill seekers, career changers, lifelong learners."
   text: |
-     The Graham School is the University of Chicago’s continuing education program for skill seekers, career changers, lifelong learners. It offers an array of curriculum and certifications for nontraditional students looking to change the course of their career path, or those who simply want to learn for learning’s sake. 
+     The Graham Schools offers a wide array of curriculum and certifications for nontraditional students looking to change the course of their career path, or those who simply want to learn for learning’s sake. 
 
-The school serves a wide range of student types, so the University of Chicago needed a site that was both attractive and navigable for its many constituents. It couldn’t just be a pretty site, though - it needed to tell a story that encourages lifelong learning.
+     The school serves a wide range of student types, so the University of Chicago needed a site that was both attractive and navigable for its many constituents. It couldn’t just be a pretty site, though - it needed to tell a story that encourages lifelong learning.
 
 cs-sections:
 
