@@ -46,7 +46,7 @@ The expereince of partnering with a nonprofit was also extremely valuable. Worki
 
 I had been wanting to create a website where black women could come together and discuss hair, hair products, and recommendations around both. But I also wanted it to be a space where we could figure out how to get unused/gently-used products to women who were homeless or from low-income households who could otherwise not afford them. 
 
-![Myisha-blog-project-C.png](/assets/images/blog/Myisha-blog-project-C.png)
+![Project_C.png](/assets/images/blog/Project_C.png)
 {:.center}
 
 While doing back-end work for the [p:ear campaign website](http://give.thinkshout.com/), I was simultaneously [creating my own website](http://project-curls.org/) using open source software, Drupal. I had never used or even heard of Drupal before this summer and now I have completely developed a website using it, created a module, and have contributed a website to society that I believe will help with the distribution of hair care products for black women. 
