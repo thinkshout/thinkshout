@@ -27,7 +27,7 @@ My journey started with the [Emerging Leaders Internship Program](http://emergin
 ![pear-Summer-Mission.png](/assets/images/blog/pear-Summer-Mission.png)
 {:.center}
 
-I joined the ThinkShout team as a back-end development intern, my primary responsibility would be to build a website for their [summer campaign](http://give.thinkshout.com/) alongside two other interns that worked on front-end development and design. Walking into a tech company can be intimidating; everyone looks so smart and talented, but they look even smarter and more talented when you're an intern. I was confident in my skills, but worried I would not be able to deliver if I had to learn new languages or frameworks for the project. As I became immersed in the work, that fear quickly vanished, and looking back I probably learned at least 15 new things every day, maybe even every hour.
+I joined the ThinkShout team as a back-end development intern, my primary responsibility would be to build a website for their [summer campaign](http://give.thinkshout.com/) alongside two other interns that worked on front-end development and design. Walking into a tech company can be intimidating; everyone looks and sounds so smart and talented. I was confident in my skills, but as an intern I worried I would not be able to deliver if I had to learn new languages or frameworks for the project. As I became immersed in the work however, that fear quickly vanished, and looking back I probably learned at least 15 new things every day, maybe even every hour.
 
 The goal of the summer campaign site we were building was to raise money through t-shirt sales for a local nonprofit called [p:ear](http://pearmentor.org/). P:ear is an organization that creatively mentors homeless youth through education, art, recreation and job training. Their students designed one of the new shirts exclusively for this campaign, and our design intern, [Alejandro](https://thinkshout.com/blog/2017/08/designing-for-a-cause/), designed the other new shirt! 
 
@@ -40,7 +40,7 @@ My major roadblock in this project was working with the Shopify Storefront API. 
 
 Amazon Web Services provides a simple way to host a static site using an S3 Bucket. Essentially all you have to do is drop the files into the bucket and do some small configuration modifications to get the site hosted. 
 
-All the hoops I had to jump through to create the site ended up being great learning experiences. I had never worked with API's before this project, and now I'm much more comfortable with them. I also got the chance to write a few Javascript functions, work with Github tickets, and gain experience working with an open source framework. 
+All the hoops I had to jump through to create the site ended up being great learning experiences. I had never worked with APIs before this project, and now I'm much more comfortable with them. I also got the chance to write a few Javascript functions, work with Github tickets, and gain experience working with an open source framework. 
 
 The expereince of partnering with a nonprofit was also extremely valuable. Working with the students from p:ear really changed my perception of homelessness too. It taught me to look beyond what's on the surface, and inspired me to pursue a project I had been thinking about for some time.
 
