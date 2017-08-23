@@ -42,7 +42,7 @@ Amazon Web Services provides a simple way to host a static site using an S3 Buck
 
 All the hoops I had to jump through to create the site ended up being great learning experiences. I had never worked with APIs before this project, and now I'm much more comfortable with them. I also got the chance to write a few Javascript functions, work with Github tickets, and gain experience working with an open source framework. 
 
-The expereince of partnering with a nonprofit was also extremely valuable. Working with the students from p:ear really changed my perception of homelessness too. It taught me to look beyond what's on the surface, and inspired me to pursue a project I had been thinking about for some time.
+The experience of partnering with a nonprofit was also extremely valuable. Working with the students from p:ear really changed my perception of homelessness too. It taught me to look beyond what's on the surface, and inspired me to pursue a project I had been thinking about for some time.
 
 I had been wanting to create a website where black women could come together and discuss hair, hair products, and recommendations around both. But I also wanted it to be a space where we could figure out how to get unused/gently-used products to women who were homeless or from low-income households who could otherwise not afford them. 
 
