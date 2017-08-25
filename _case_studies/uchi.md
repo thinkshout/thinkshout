@@ -60,5 +60,5 @@ cs-sections:
       The University of Chicago team wanted to tell a story with The Graham School’s new home on the web, so we built out a persistent timeline visible on each page to illustrate the school’s rich history as an academic institution. Related content and events all tied into the vision for a seamless, vibrant educational experience.
 
 cs-cta-text: Launch Site
-cs-cta-url: https://www.travelportland.com/
+cs-cta-url: https://grahamschool.uchicago.edu
 ---
