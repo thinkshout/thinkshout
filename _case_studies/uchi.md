@@ -48,16 +48,26 @@ cs-sections:
       
       Since content management was a major pain point for the University of Chicago team, we came up with a solution that combined Google Sheets and Drupal Migrate to populate content on their site. Maria Fisher explains how we did it in <a href="https://thinkshout.com/blog/2017/01/using-google-docs-and-migrate-to-populate-your-drupal-site-part-1/">this two-part blog series</a>. Our engineers then trained the University of Chicago web team to use this system, as the system itself was unique to this project.
 
-  - section-image: "/assets/images/ts_redesign/case-studies/travel-portland/TRPO-mytrip-2.jpg"
-    section-image-alt: "My Trip"
-
   - section-title:
     section-description: |
       Another facet of the Graham School site is its catalogues of curriculum. Students can go to the site, browse available courses, and register for them with Destiny One, a lifecycle management tool designed specifically for institutions like the Graham School that serve nontraditional students.
 
+- section-image: "/assets/images/ts_redesign/case-studies/travel-portland/TRPO-mytrip-2.jpg"
+    section-image-alt: "Curriculum"
+    
       We simplified the design and user interface, and restructured the program pages to be more microsite-like. We also built out related content blocks on these pages so relevant blogs and events populate based on the page the user is currently browsing. Additionally, we created sticky call to action blocks that appear for first-time visitors. These blocks can easily be moved to any page and customized by the University of Chicago web team. 
       
+      - section-image: "/assets/images/ts_redesign/case-studies/travel-portland/TRPO-mytrip-2.jpg"
+    section-image-alt: "Programs"
+    
       The University of Chicago team wanted to tell a story with The Graham School’s new home on the web, so we built out a persistent timeline visible on each page to illustrate the school’s rich history as an academic institution. Related content and events all tied into the vision for a seamless, vibrant educational experience.
+      
+        - section-image: "/assets/images/ts_redesign/case-studies/travel-portland/TRPO-mytrip-2.jpg"
+    section-image-alt: "Timeline"
+    
+    - section-title:
+    section-description: |
+    The Uniersity of Chicago Garaham School website launched on time with a brand new look and admin interface. Content is easier to update and access, and above all, it's more engaging.
 
 cs-cta-text: Launch Site
 cs-cta-url: https://grahamschool.uchicago.edu
