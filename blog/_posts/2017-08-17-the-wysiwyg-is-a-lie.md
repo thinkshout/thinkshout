@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: technology
 title: The WYSIWYG is a Lie
-homepage: false
+homepage: true
 author: joe
-published: false
-featured: false
+published: true
+featured: true
 short: Drupal's CKEditor does not show the styles from the default theme. Let's fix that and make WYSIWYG true again.
 tags:
   - Drupal Planet
@@ -14,6 +14,7 @@ tags:
   - Front-end
   - CSS
   - CKEditor
+  - WYSIWYG
 date: 2017-08-07 08:20:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
