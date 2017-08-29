@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: technology
 title: The WYSIWYG is a Lie
-homepage: false
+homepage: true
 author: joe
-published: false
-featured: false
+published: true
+featured: true
 short: Drupal's CKEditor does not show the styles from the default theme. Let's fix that and make WYSIWYG true again.
 tags:
   - Drupal Planet
@@ -14,6 +14,7 @@ tags:
   - Front-end
   - CSS
   - CKEditor
+  - WYSIWYG
 date: 2017-08-07 08:20:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
@@ -62,7 +63,9 @@ Now, you *could* just tell CKEditor to load all of the site CSS - but that would
 
 ![intro3.png](/assets/images/blog/intro3.png){:.center}
 
-Bazinga! What a difference. Hmm, but our button is missing its styles because we haven't configured the CKEditor for that yet.
+Bazinga! What a difference. 
+
+Hmm, but our button is missing its styles because we haven't configured the CKEditor for that yet.
 
 Go into the Drupal configs to set that up at `/admin/config/content/formats` and click 'configure' for the CKEditor text format you want (Full HTML, etc).
 
@@ -86,5 +89,7 @@ _Important Note:_ style options won't show up in the Styles dropdown unless you 
 
 As long as you have `a.button` styles in `ckeditor.css`, it should work right away. (Well, after a cache clear. It's Drupal.)
 
-And that's it! From here you can continue to add styles to `ckeditor.css`, and to the Styles dropdown in the Drupal 'Text formats and editors' admin. The WYSIWYG is no longer a lie!
+And that's it! From here you can continue to add styles to `ckeditor.css`, and to the Styles dropdown in the Drupal 'Text formats and editors' admin. 
+
+The WYSIWYG is no longer a lie!
 
