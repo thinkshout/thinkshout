@@ -3,7 +3,7 @@ layout: blog
 body-class: blog-post
 topic: technology
 title: The WYSIWYG is a Lie
-homepage: true
+homepage: false
 author: joe
 published: true
 featured: false
@@ -63,7 +63,7 @@ Now, you *could* just tell CKEditor to load all of the site CSS - but that would
 
 ![intro3.png](/assets/images/blog/intro3.png){:.center}
 
-Bazinga! What a difference. 
+Bazinga! What a difference.
 
 Hmm, but our button is missing its styles because we haven't configured the CKEditor for that yet.
 
