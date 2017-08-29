@@ -86,5 +86,7 @@ _Important Note:_ style options won't show up in the Styles dropdown unless you 
 
 As long as you have `a.button` styles in `ckeditor.css`, it should work right away. (Well, after a cache clear. It's Drupal.)
 
-And that's it! From here you can continue to add styles to `ckeditor.css`, and to the Styles dropdown in the Drupal 'Text formats and editors' admin. The WYSIWYG is no longer a lie!
+And that's it! From here you can continue to add styles to `ckeditor.css`, and to the Styles dropdown in the Drupal 'Text formats and editors' admin. 
+
+The WYSIWYG is no longer a lie!
 
