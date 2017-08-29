@@ -63,7 +63,9 @@ Now, you *could* just tell CKEditor to load all of the site CSS - but that would
 
 ![intro3.png](/assets/images/blog/intro3.png){:.center}
 
-Bazinga! What a difference. Hmm, but our button is missing its styles because we haven't configured the CKEditor for that yet.
+Bazinga! What a difference. 
+
+Hmm, but our button is missing its styles because we haven't configured the CKEditor for that yet.
 
 Go into the Drupal configs to set that up at `/admin/config/content/formats` and click 'configure' for the CKEditor text format you want (Full HTML, etc).
 
