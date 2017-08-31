@@ -13,13 +13,13 @@ title: Making continued education for nontraditional students accessible and eng
 cs-class: "uchi"
 
 cs-preview:
-  image: /assets/images/ts_redesign/case-studies/travel-portland/TRPO-header.jpg
+  image: /assets/images/work/uchi/UCHI 4.png
   type: "University of Chicago Graham School"
   client: "University of Chicago Graham School"
   description: "Making continued education for nontraditional students accessible and engaging with Drupal 8"
 
 cs-header:
-  header-image: /assets/images/ts_redesign/case-studies/travel-portland/TRPO-header.jpg
+  header-image: /assets/images/work/uchi/UCHI 4.png
   client: "University of Chicago Graham School"
   title: "Making continued education for nontraditional students accessible and engaging with Drupal 8"
 
@@ -39,8 +39,8 @@ cs-sections:
       
       In just six months - one of the tightest timelines we’ve ever faced - our team turned this site around and delivered the new face of the University of Chicago Graham School.
       
-  - section-image: "/assets/images/ts_redesign/case-studies/travel-portland/TRPO-mytrip.jpg"
-    section-image-alt: "My Trip"
+  - section-image: "/assets/images/work/uchi/UCHI 1.png"
+    section-image-alt: "University of Chicago Campus"
 
   - section-title:
     section-description: |
@@ -52,17 +52,15 @@ cs-sections:
     section-description: |
       Another facet of the Graham School site is its catalogues of curriculum. Students can go to the site, browse available courses, and register for them with Destiny One, a lifecycle management tool designed specifically for institutions like the Graham School that serve nontraditional students.
 
-- section-image: "/assets/images/ts_redesign/case-studies/travel-portland/TRPO-mytrip-2.jpg"
-    section-image-alt: "Curriculum"
     
       We simplified the design and user interface, and restructured the program pages to be more microsite-like. We also built out related content blocks on these pages so relevant blogs and events populate based on the page the user is currently browsing. Additionally, we created sticky call to action blocks that appear for first-time visitors. These blocks can easily be moved to any page and customized by the University of Chicago web team. 
       
-      - section-image: "/assets/images/ts_redesign/case-studies/travel-portland/TRPO-mytrip-2.jpg"
-    section-image-alt: "Programs"
+      - section-image: "/assets/images/work/uchi/IMG_1604.CR2"
+    section-image-alt: "Mobile view"
     
       The University of Chicago team wanted to tell a story with The Graham School’s new home on the web, so we built out a persistent timeline visible on each page to illustrate the school’s rich history as an academic institution. Related content and events all tied into the vision for a seamless, vibrant educational experience.
       
-        - section-image: "/assets/images/ts_redesign/case-studies/travel-portland/TRPO-mytrip-2.jpg"
+        - section-image: "/assets/images/work/uchi/UCHI timeline.png"
     section-image-alt: "Timeline"
     
     - section-title:
