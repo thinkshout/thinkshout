@@ -2,7 +2,7 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study uchi
-active: false
+active: true
 homepage: false
 published: false
 order: 10
