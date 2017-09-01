@@ -2,7 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: community
-title: Wrapping up the ThinkShout Cares Campaign
+title: Wrapping up ThinkShout Cares
 homepage: true
 author: lev
 published: true
