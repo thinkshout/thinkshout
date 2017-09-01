@@ -7,7 +7,6 @@ homepage: false
 published: true
 order: 4
 # END LAYOUT DATA
----
 
 title: Making continued education for nontraditional students accessible and engaging with Drupal 8
 
