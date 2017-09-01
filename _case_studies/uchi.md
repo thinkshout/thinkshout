@@ -49,11 +49,12 @@ cs-sections:
       Since content management was a major pain point for the University of Chicago team, we came up with a solution that combined Google Sheets and Drupal Migrate to populate content on their site. Maria Fisher explains how we did it in <a href="https://thinkshout.com/blog/2017/01/using-google-docs-and-migrate-to-populate-your-drupal-site-part-1/">this two-part blog series</a>. Our engineers then trained the University of Chicago web team to use this system, as the system itself was unique to this project.
 
       Another facet of the Graham School site is its catalogues of curriculum. Students can go to the site, browse available courses, and register for them with Destiny One, a lifecycle management tool designed specifically for institutions like the Graham School that serve nontraditional students.
+      
+      - section-image: "/assets/images/work/uchi/UCHI-mobile.png"
+    section-image-alt: "Mobile view"
 
       We simplified the design and user interface, and restructured the program pages to be more microsite-like. We also built out related content blocks on these pages so relevant blogs and events populate based on the page the user is currently browsing. Additionally, we created sticky call to action blocks that appear for first-time visitors. These blocks can easily be moved to any page and customized by the University of Chicago web team.
 
-  - section-image: "/assets/images/work/uchi/IMG_1604.CR2"
-    section-image-alt: "Mobile view"
 
   - section-title:
     section-description: |
