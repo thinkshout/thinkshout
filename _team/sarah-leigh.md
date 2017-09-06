@@ -10,9 +10,9 @@ social:
   twitter: https://twitter.com/manifestdesktop
   linkedin: https://www.linkedin.com/in/sarah-leigh/
 team-image:
-  small: 
-  medium: team/medium/sarah-1.jpg
-  large: 
+  small: team/small/Sarah-small.jpg
+  medium: team/medium/Sarah-med.jpg
+  large: team/large/Sarah-1.jpg
 published: true
 current-employee: true
 name: Sarah
