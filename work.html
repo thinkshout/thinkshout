@@ -13,10 +13,10 @@ title: Our Work
   </div>
 </div>
 
-{% assign case-studies = (site.case_studies | where: "active", "true" | sort: "order") %}
+{% assign case-studies = site.case_studies | where: "active", "true" | sort: "order" %}
 <div class="work-listing">
   <div class="container">
-  {% for preview in case-studies | limit: 5 %}
+  {% for preview in case-studies limit: 5 %}
     <a class="case-study-wrapper-link" href="{{ site.baseurl }}{{ preview.url }}"><section class="case-study-header {{ preview.cs-class }}">
       <style>
         .case-study-header.{{ preview.cs-class }} { background-image: url('{{ site.baseurl }}{{ preview.cs-preview.image }}'); }
