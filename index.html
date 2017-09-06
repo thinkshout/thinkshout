@@ -26,7 +26,7 @@ keywords:
     </div>
   </div>
 
-  {% assign featured_work = (site.case_studies | where: "homepage", "true" | sort: "order") | first %}
+  {% assign featured_work = site.case_studies | where: "homepage", "true" | sort: "order" | first %}
   <div class="container">
     <div class="featured-intro">
       <a href="{{ site.baseurl }}/work/"><h1>Featured Work</h1></a>
@@ -46,7 +46,7 @@ keywords:
     </div>
 
     <div class="two-case-studies">
-      {% assign case-studies = (site.case_studies | where: "homepage", "true" | sort: "order" | ) %}
+      {% assign case-studies = site.case_studies | where: "homepage", "true" | sort: "order" %}
       {% for case in case-studies limit:3 %}
       {% if case.order > 1 %}
         <a href="{{ site.baseurl }}{{ case.url }}">
@@ -116,7 +116,7 @@ keywords:
             <i class="fa fa-caret-down"></i>
           </div>
           <ul>
-            {% assign topics = (site.topic | sort: "order") %}
+            {% assign topics = site.topic | sort: "order" %}
             {% for topic in topics %}
               <li><a href="{{ site.baseurl }}{{ topic.url }}">{{ topic.title }}<i class="fa fa-caret-right"></i></a></li>
             {% endfor %}
