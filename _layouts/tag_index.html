@@ -6,7 +6,7 @@ body-class: tag-index
 
   <h1 class="post-title">Posts tagged "{{ page.tag }}"</h1>
 
-    {% assign posts = site.tags[page.tag] | reverse %}
+    {% assign posts = site.tags[page.tag] | reversed %}
     {% for post in posts %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% unless year == this_year %}
