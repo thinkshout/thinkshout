@@ -65,7 +65,7 @@ cs-sections:
 
   - section-title:
     section-description: |
-      The University of Chicago Garaham School website launched on time with a brand new look and admin interface. Content is easier to update and access, and above all, it's more engaging.
+      The University of Chicago Graham School website launched on time with a brand new look and admin interface. Content is easier to update and access, and above all, it's more engaging.
 
 cs-cta-text: Launch Site
 cs-cta-url: https://grahamschool.uchicago.edu
