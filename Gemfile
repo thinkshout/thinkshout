@@ -11,4 +11,3 @@ gem "rake", "~> 10"
 gem "bourbon", '~> 4.2.6'
 gem "neat", '~> 1.7.4'
 gem "jekyll-paginate"
-gem "jekyll-paginate-category"
