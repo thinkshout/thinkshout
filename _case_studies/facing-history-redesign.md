@@ -3,9 +3,9 @@
 layout: case_study
 body-class: case-study facing-history-redesign
 active: true
-homepage: flase
+homepage: false
 published: true
-order: 5
+order: 6
 # END LAYOUT DATA
 
 
