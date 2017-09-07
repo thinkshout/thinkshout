@@ -10,7 +10,7 @@ social:
   twitter: https://twitter.com/manifestdesktop
   linkedin: https://www.linkedin.com/in/sarah-leigh/
 team-image:
-  small: team/small/Sarah.jpeg
+  small: team/small/sarah.jpeg
   medium: team/medium/sarah.jpeg
   large: team/large/sarah.jpeg
 published: true
