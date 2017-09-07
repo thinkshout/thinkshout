@@ -11,8 +11,8 @@ social:
   linkedin: https://www.linkedin.com/in/sarah-leigh/
 team-image:
   small: team/small/sarah.jpeg
-  medium: team/medium/sarah.jpeg
-  large: team/large/sarah.jpeg
+  medium: team/medium/sarah.jpg
+  large: team/large/sarah.jpg
 published: true
 current-employee: true
 name: Sarah
