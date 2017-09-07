@@ -4,7 +4,7 @@ layout: case_study
 body-class: case-study uchi
 active: true
 homepage: false
-published: false
+published: true
 order: 5
 # END LAYOUT DATA
 
@@ -12,13 +12,13 @@ title: Making continued education for nontraditional students accessible and eng
 cs-class: "uchi"
 
 cs-preview:
-  image: /assets/images/work/uchi/UCHI-4.png
+  image: /assets/images/work/uchi/UCHI-header.png
   type: "University of Chicago Graham School"
   client: "University of Chicago Graham School"
   description: "Making continued education for nontraditional students accessible and engaging with Drupal 8"
 
 cs-header:
-  header-image: /assets/images/work/uchi/UCHI-4.png
+  header-image: /assets/images/work/uchi/UCHI-header.png
   client: "University of Chicago Graham School"
   title: "Making continued education for nontraditional students accessible and engaging with Drupal 8"
 
@@ -29,7 +29,10 @@ cs-intro:
     The Graham Schools offers a wide array of curriculum and certifications for nontraditional students looking to change the course of their career path, or those who simply want to learn for learning’s sake.
 
     The school serves a wide range of student types, so the University of Chicago needed a site that was both attractive and navigable for its many constituents. It couldn’t just be a pretty site, though - it needed to tell a story that encourages lifelong learning.
-
+    
+  - section-image: "/assets/images/work/uchi/TS-Case-Studies-UChicago-Arabic-Cert-Example-3.png"
+    section-image-alt: "University of Chicago offers a certificate in Arabic Language and Cultures"
+    
 cs-sections:
   - section-title:
     section-description: |
@@ -37,8 +40,8 @@ cs-sections:
 
       In just six months - one of the tightest timelines we’ve ever faced - our team turned this site around and delivered the new face of the University of Chicago Graham School.
 
-  - section-image: "/assets/images/work/uchi/UCHI-1.png"
-    section-image-alt: "University of Chicago Campus"
+  - section-image: "/assets/images/work/uchi/TS-Case-Studies-UChicago-Homepage-Example-3.png"
+    section-image-alt: "University of Chicago Graham School Home page on mobile and desktop screens"
 
   - section-title:
     section-description: |
@@ -48,8 +51,8 @@ cs-sections:
 
       Another facet of the Graham School site is its catalogues of curriculum. Students can go to the site, browse available courses, and register for them with Destiny One, a lifecycle management tool designed specifically for institutions like the Graham School that serve nontraditional students.
 
-  - section-image: "/assets/images/work/uchi/UCHI-mobile.png"
-    section-image-alt: "Mobile view"
+  - section-image: "/assets/images/work/uchi/TS-Case-Studies-UChicago-Mobile-Screens-3.png"
+    section-image-alt: "Mobile view of program screens"
 
   - section-title:
     section-description: |
@@ -70,3 +73,4 @@ cs-sections:
 cs-cta-text: Launch Site
 cs-cta-url: https://grahamschool.uchicago.edu
 ---
+
