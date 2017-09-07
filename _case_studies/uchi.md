@@ -3,7 +3,7 @@
 layout: case_study
 body-class: case-study uchi
 active: true
-homepage: false
+homepage: true
 published: true
 order: 5
 # END LAYOUT DATA
@@ -64,7 +64,7 @@ cs-sections:
       The University of Chicago team wanted to tell a story with The Graham School’s new home on the web, so we built out a persistent timeline visible on each page to illustrate the school’s rich history as an academic institution. Related content and events all tied into the vision for a seamless, vibrant educational experience.
 
   - section-image: "/assets/images/work/uchi/UCHI-timeline.png"
-    section-image-alt: "Timeline"
+    section-image-alt: "Snapshot of the University of Chicago's timeline"
 
   - section-title:
     section-description: |
