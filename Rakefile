@@ -42,12 +42,6 @@ task :browsersync do
   system 'browser-sync start --proxy "localhost:4000" --files "_site/assets/*, _site/*.md, _site/*.html, _site/*.js"'
 end
 
-
-def jekyll(opts = '')
-  system 'rm -rf _site'
-  system 'jekyll ' + opts
-end
-
 desc "Generate and publish site to thinkshout.com on Amazon S3."
 task :publish => [:build] do
   system 'bundle exec s3_website push'

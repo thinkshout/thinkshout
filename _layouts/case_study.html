@@ -73,7 +73,7 @@ layout: default
     <div class="our-expertise">
       <div class="container">
         <h1>Other work</h1>
-        {% assign case-studies = (site.case_studies | where: "active", "true" | sort: "order") %}
+        {% assign case-studies = site.case_studies | where: "active", "true" | sort: "order" %}
         {% for case in case-studies %}
         {% if case.url != page.url %}
           <div class="our-expertise-block">

@@ -48,9 +48,9 @@ layout: default
     <div class="container">
       <h4>{{ page.first_name }}'s Recent Blog Posts</h4>
       <div class="row posts">
-        {% assign author_posts = (site.posts | where: "author", page.name) %}
+        {% assign author_posts = site.posts | where: "author", page.name %}
           {% for post in author_posts %}
-          {% if (!post.published) or (post.published == true) %}
+          {% if post.published == nil or post.published == true %}
               <div class="post">
                 <a href="{{ site.baseurl }}{{ post.url }}">
                   <p class="post-date">{{ post.date | date: "%m.%d.%Y" }}</p>
@@ -61,7 +61,7 @@ layout: default
           {% endif %}
           {% endfor %}
       </div>
-      {% assign num_posts = (author_posts | size) %}
+      {% assign num_posts = author_posts | size %}
       {% if num_posts > 3 %}
         <div class="blogs-toggle">
           <div class="see-all-blogs">
