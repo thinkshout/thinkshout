@@ -5,7 +5,7 @@ body-class: case-study ncyl
 active: true
 homepage: true
 published: true
-order: 3
+order: 10
 # END LAYOUT DATA
 
 title: A new application for safeguarding America’s most vulnerable youth in our schools.
