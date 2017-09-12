@@ -2,10 +2,10 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study tolerance
-active: false
+active: true
 homepage: false
-published: false
-order: 4
+published: true
+order: 3
 # END LAYOUT DATA
 
 title: Making it easier for educators to meet the immediate needs of their students.
@@ -13,44 +13,46 @@ title: Making it easier for educators to meet the immediate needs of their stude
 cs-class: "teaching tolerance"
 
 cs-preview:
-  image: /assets/images/ts_redesign/case-studies/tolerance/tolerance-illustrations-daniel-fishel.jpg
+  image: /assets/images/work/tolerance/TT-header.jpg
   type: Responsive Drupal Site
   client: "Teaching Tolerance"
   description: "Teaching Tolerance is dedicated to educating young people to become engaged actors in a diverse democracy."
 
 cs-header:
-  header-image: /assets/images/ts_redesign/case-studies/tolerance/tolerance-illustrations-daniel-fishel.jpg
+  header-image: /assets/images/work/tolerance/TT-header.jpg
   client: "Teaching Tolerance"
   title: "Teaching Tolerance is dedicated to educating young people to become engaged actors in a diverse democracy."
 
-
 cs-intro:
-  type:
-  mission:
+  type: "Teaching Tolerance"
+  mission: "Teaching Tolerance is committed to providing educators with a multitude of resources and activities that will help to foster a kind and inclusive school climate."
   text: |
-
-  - section-title: "The Strategy"
-    section-description: |
-    Educators often have to respond to issues of intolerance at a speed and scale that can be incredibly challenging. News travels quickly, students form opinions and harbor fears, and teachers can feel isolated when trying to make sense of these issues for themselves and their students.
-
-    While Teaching Tolerance already provided the ability to create learning plans around certain themes; they needed their tools to evolve. The world was moving at a pace that their present systems could not address. They needed something that would enable rapid generation and dissemination of new materials, while also surfacing valuable content from the past that has renewed importance.
-
-    The key to Teaching Tolerance's redesign was providing timely materials that let educators turn cultural issues and current events into educational experiences. Additionally, this content and its related interactions needed to be accessible no matter the device users were on.
-
-    - section-image: "/assets/images/ts_redesign/case-studies/tolerance/TS-Case-Studies-Tolerance-Actionable-Content-1.png"
-      section-image-alt: "Image: Examples of actionable content such as featured articles with a "Teach This" button that adds content directly to your learning plan."
-
-    ThinkShout set out to turn the wealth of articles and resources Tolerance.org had into teachable materials, and did so by creating a guided learning plan builder that makes all content classroom-ready. It takes familiar tropes from online survey builders and combines it with Teaching Tolerance's content. They're presenting free access to thousands of resource -- from video to essays to proven teaching strategies -- and that content is now actionable.
-
-    - section-image: "/assets/images/ts_redesign/case-studies/tolerance/TS-Case-Studies-Tolerance-Bullying-Bias-1.png"
-      section-image-alt: "Image: Tolerance.org Desktop and Mobile"
-
-    Educators now have the ability to use this step-by-step process to create their own custom lessons, or they can start with any compelling piece of content and build a plan around that. And, because ThinkShout takes a mobile-first approach to all our projects, the site is well-positioned to meet its users where they are in the moment they are inspired.
-
+    Teaching tolerance is awesome
 
 cs-sections:
+  - section-title: "The Strategy"
+    section-description: |
+      Educators often have to respond to issues of intolerance at a speed and scale that can be incredibly challenging. News travels quickly, students form opinions and harbor fears, and teachers can feel isolated when trying to make sense of these issues for themselves and their students.
 
-  - section-image: "/assets/images/ts_redesign/case-studies/tolerance/TS-Case-Studies-Tolerance-Desktop-Homepage.png"
+      While Teaching Tolerance already provided the ability to create learning plans around certain themes; they needed their tools to evolve. The world was moving at a pace that their present systems could not address. They needed something that would enable rapid generation and dissemination of new materials, while also surfacing valuable content from the past that has renewed importance.
+
+      The key to Teaching Tolerance's redesign was providing timely materials that let educators turn cultural issues and current events into educational experiences. Additionally, this content and its related interactions needed to be accessible no matter the device users were on.
+
+  - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Actionable-Content-1.png"
+    section-image-alt: "Image: Examples of actionable content such as featured articles with a 'Teach This' button that adds content directly to your learning plan."
+
+  - section-title:
+    section-description: |
+      ThinkShout set out to turn the wealth of articles and resources Tolerance.org had into teachable materials, and did so by creating a guided learning plan builder that makes all content classroom-ready.  They grant free access to thousands of resources -- from video to essays to proven teaching strategies -- and that content is now actionable.
+
+  - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Bullying-Bias-1.png"
+    section-image-alt: "Image: Tolerance.org Desktop and Mobile"
+
+  - section-title:
+    section-description: |
+      Educators now have the ability to use this step-by-step process to create their own custom lessons, or they can start with any compelling piece of content and build a plan around that. And, because ThinkShout takes a mobile-first approach to all our projects, the site is well-positioned to meet its users where they are in the moment they are inspired.
+
+  - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Desktop-Homepage.png"
     section-image-alt: "Image: Teaching Tolerance Desktop Homepage"
 
   - section-title: "The Design"
@@ -59,35 +61,39 @@ cs-sections:
 
       The overall goal however was to provide an experience without barriers. Regardless of whether a user is on their phone while riding the train to work or on their desktop at home, they should be able to easily access all resources as well as use them to build learning plans. We wanted a streamlined experience, with everything from magazine articles, lessons, texts, and professional development materials to be easily digestible, searchable, and most importantly, the ability for users to build a plan off of them on the fly.
 
-      - section-image: "/assets/images/ts_redesign/case-studies/tolerance/TS-Case-Studies-Tolerance-Learning-Plan-Builder-Mobile-Desktop.png"
-        section-image-alt: "Image: Tolerance.org Learning Plan Builder on Mobile and Desktop views"
+  - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Learning-Plan-Builder-Mobile-Desktop.png"
+    section-image-alt: "Image: Tolerance.org Learning Plan Builder on Mobile and Desktop views"
 
+  - section-title:
+    section-description: |
       We partnered with the internal design team at the Southern Poverty Law Center (Teaching Tolerance is a program of the SPLC) to evolve the current Tolerance.org brand to accommodate a modern, content-rich site. While sticking with their current brand's foundation, we explored brand colors and typography treatments that would allow for a design that supports (rather than overshadows) the robust content offered. They also have a beautiful, vast library of photography, and are consistently creating timely and engaging illustration. Those elements are what drive the core visuals of the site.
 
   - section-image: "/assets/images/ts_redesign/tolerance/splc-main/tolerance-illustrations-john-jay-cabuay.jpg"
     section-image-alt: "Image: illustration of 2 students"
     section-image-caption: "Illustration by John Jay Cabuay"
 
-  - section-description: |
+  - section-title:
+    section-description: |
       Once we got the Learning Plan Builder feature designed, we had to construct it - which turned out to be a rather complex endeavor! We essentially thought of it as one long form with a progress bar that (as the name implies) tracks your progress as you create a learning plan; highlighting the portion of the plan you are currently viewing. A user can click different titles within the progress bar to jump around to other sections of the Learning Plan Builder. Additionally, we added javascript to handle the AJAX requests that added texts, strategies, and tasks so they could display five items at a time for the user.
 
       This project featured an abundance of detailed information for the implementation team. But it was executed thank to a very detailed style guide that [Vicki Brown](https://thinkshout.com/team/vicki/) created, along with extensive documentation of the desired interactions.
 
-
-  - section-title: "The Technology"
+  - section-title: "The Learning Plan Builder"
     section-description: |
       Learning Plans are a key part of the Tolerance.org ecosystem. They are the bridge between a stagnant piece of content on the site and the classroom. They allow teachers to start with a foundational Text/Article written by Teaching Tolerance, and tailor the presentation of the ideas within the article to their students' grade level, interests, as well as other customizations.
 
-  - section-image: "/assets/images/ts_redesign/case-studies/tolerance/TS-Case-Studies-Tolerance-Learning-Plan-Builder-Mobile-Desktop.png"
+  - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Learning-Plan-Builder-Mobile-Desktop.png"
     section-image-alt: "Image: Learning Plan Builder landing page"
 
-  - section-description: |
+  - section-title:
+    section-description: |
       The Learning Plan Builder we created is essentially a set of tools for teachers to explore (through search features), bookmark (create a robust user profile), and transform Teaching Tolerance content into classroom-ready lesson plans. We also created the necessary privacy settings to allow teachers to work on a Learning Plan and save as a draft until they're ready to publish and share it with the world (where it will appear in the Learning Plan index on the site). Or, they can also share it with their colleagues and specific individuals with a link unique to their plan and only visible to them.
 
-      - section-image: "/assets/images/ts_redesign/case-studies/tolerance/TS-Case-Studies-Tolerance-Learning-Plan-Mobile-Screens.png"
-        section-image-alt: "Image: mobile screens of the learning plan builder"
+  - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Learning-Plan-Mobile-Screens.png"
+    section-image-alt: "Image: mobile screens of the learning plan builder"
 
-      - section-description: |
+  - section-title:
+    section-description: |
       We utilized Drupal 8's Display Suite features for custom form diplays, as well as custom entity displays, and built a custom entity selection widget for the selection of related materials based on dynamic filters; which displays the option as previews of the materials themselves.
 
       This was our first Drupal 8 Salesforce Integration, and probably one of the first anywhere, as the [module](https://www.drupal.org/project/salesforce) is still in active development and we had to contribute a great deal of code to make it production-ready. It's a minimal integration, but does include entity relationship synchronization and is currently syncing over 340,000 records between the systems (mostly Contacts and Orgs/Accounts).
@@ -100,11 +106,12 @@ cs-sections:
 
       In order to uniquely identify one's school, we built a google-maps based search/selection tool for users to input their school and attach to their profile.
 
-      - section-image: "/assets/images/ts_redesign/case-studies/tolerance/TS-Case-Studies-Tolerance-School-Selector.png"
-        section-image-alt: "Image: SPLC Mobile"
+  - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-School-Selector.png"
+    section-image-alt: "Image: School selector"
 
+  - section-title:
+    section-description: |
       Using the Google Places API, we were able to identify these schools, allowing for clean differentiation and preventing duplication in the backend. All while providing an intuitive, quick, and unobtrusive user interface. We built this tool with code adapted from Google Places documentation, Redhen Orgs, Entity Reference fields, and custom code.
-
 
   - section-title: "Engaging Audiences"
     section-description: |
@@ -114,10 +121,12 @@ cs-sections:
 
       That's what lead to the creation of "The Moment," a curated response to anything happening in the news.
 
-      - section-image: "/assets/images/ts_redesign/case-studies/tolerance/The-moment.png"
-        section-image-alt: "Image: The Moment"
-        section-image-full: true
+  - section-image: "/assets/images/work/tolerance/The-moment.png"
+    section-image-alt: "Image: The Moment"
+    section-image-full: true
 
+  - section-title:
+    section-description: |
       The Moment is a branded publishing platform that surfaces the most important content in response to cultural events. Whether the content is from five years ago or five hours, users get the best that Teaching Tolerance has to offer. And, by linking this content up to the organization's email communication strategy, we ensure that teachers get the materials in their inbox before they know they need it. Now when educators subscribe to this list, they can create first class lessons in a timely manner, send them via email and social, and create a real sense of community in the classrooms across the country.
 
 
