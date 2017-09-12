@@ -10,7 +10,7 @@ order: 3
 
 title: Making it easier for educators to meet the immediate needs of their students.
 
-cs-class: "teaching tolerance"
+cs-class: "teaching-tolerance"
 
 cs-preview:
   image: /assets/images/work/tolerance/TT-header.jpg
@@ -27,7 +27,7 @@ cs-intro:
   type: "Teaching Tolerance"
   mission: "Teaching Tolerance is committed to providing educators with a multitude of resources and activities that will help to foster a kind and inclusive school climate."
   text: |
-    Teaching tolerance is awesome
+    Teaching tolerance, a program of the Southern Poverty Law Center, works to teach empathy and inclusivity in our classrooms.
 
 cs-sections:
   - section-title: "The Strategy"
