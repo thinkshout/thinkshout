@@ -68,7 +68,7 @@ cs-sections:
     section-description: |
       We partnered with the internal design team at the Southern Poverty Law Center (Teaching Tolerance is a program of the SPLC) to evolve the current Tolerance.org brand to accommodate a modern, content-rich site. While sticking with their current brand's foundation, we explored brand colors and typography treatments that would allow for a design that supports (rather than overshadows) the robust content offered. They also have a beautiful, vast library of photography, and are consistently creating timely and engaging illustration. Those elements are what drive the core visuals of the site.
 
-  - section-image: "/assets/images/ts_redesign/tolerance/splc-main/tolerance-illustrations-john-jay-cabuay.jpg"
+  - section-image: "/assets/images/work/tolerance/tolerance-illustrations-john-jay-cabuay.jpg"
     section-image-alt: "Image: illustration of 2 students"
     section-image-caption: "Illustration by John Jay Cabuay"
 
