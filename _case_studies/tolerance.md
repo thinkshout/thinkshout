@@ -51,9 +51,6 @@ cs-sections:
     section-description: |
       Users can create custom lessons using the step-by-step process in the Learning Plan Builder, or they can start with any compelling piece of content they find and build a plan around that. And, because ThinkShout takes a mobile-first approach to all our projects, the site is well-positioned to meet its users where they are in the moment they are inspired.
 
-  - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Desktop-Homepage.png"
-    section-image-alt: "Image: Teaching Tolerance Desktop Homepage"
-
   - section-title: "The Design"
     section-description: |
       Our approach to design was based on the foundation that the user in this case is looking for resources related to a specific topic they wish to address in the classroom.
