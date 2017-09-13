@@ -42,14 +42,14 @@ cs-sections:
 
   - section-title:
     section-description: |
-      ThinkShout set out to turn the wealth of articles and resources Tolerance.org had into teachable materials, and did so by creating a guided learning plan builder that makes all content classroom-ready.  They grant free access to thousands of resources -- from video to essays to proven teaching strategies -- and that content is now actionable.
+      ThinkShout set out to turn the wealth of articles and resources Tolerance.org had into teachable materials, and did so by creating a guided Learning Plan Builder that makes all content classroom-ready.  Tolerance.org grants free access to thousands of resources -- from video to essays to proven teaching strategies -- and everything within that catalogue is now actionable.
 
   - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Bullying-Bias-1.png"
     section-image-alt: "Image: Tolerance.org Desktop and Mobile"
 
   - section-title:
     section-description: |
-      Educators now have the ability to use this step-by-step process to create their own custom lessons, or they can start with any compelling piece of content and build a plan around that. And, because ThinkShout takes a mobile-first approach to all our projects, the site is well-positioned to meet its users where they are in the moment they are inspired.
+      Users can create custom lessons using the step-by-step process in the Learning Plan Builder, or they can start with any compelling piece of content they find and build a plan around that. And, because ThinkShout takes a mobile-first approach to all our projects, the site is well-positioned to meet its users where they are in the moment they are inspired.
 
   - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Desktop-Homepage.png"
     section-image-alt: "Image: Teaching Tolerance Desktop Homepage"
