@@ -13,13 +13,13 @@ title: Making it easier for educators to meet the immediate needs of their stude
 cs-class: "teaching-tolerance"
 
 cs-preview:
-  image: /assets/images/work/tolerance/TT-header.jpg
+  image: /assets/images/work/tolerance/TT-homepage.jpg
   type: Responsive Drupal Site
   client: "Teaching Tolerance"
   description: "Teaching Tolerance is dedicated to educating young people to become engaged actors in a diverse democracy."
 
 cs-header:
-  header-image: /assets/images/work/tolerance/TT-header.jpg
+  header-image: /assets/images/work/tolerance/TT-homepage.jpg
   client: "Teaching Tolerance"
   title: "Teaching Tolerance is dedicated to educating young people to become engaged actors in a diverse democracy."
 
@@ -27,7 +27,7 @@ cs-intro:
   type: "Teaching Tolerance"
   mission: "Teaching Tolerance is committed to providing educators with a multitude of resources and activities that will help to foster a kind and inclusive school climate."
   text: |
-    Teaching tolerance, a program of the Southern Poverty Law Center, works to teach empathy and inclusivity in our classrooms.
+    Teaching tolerance -- a program of the Southern Poverty Law Center -- works to provide educators with the resources to teach empathy and inclusivity in our classrooms.
 
 cs-sections:
   - section-title: "The Strategy"
