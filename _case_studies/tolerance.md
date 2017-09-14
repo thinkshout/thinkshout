@@ -29,29 +29,26 @@ cs-intro:
   text: |
 
 cs-sections:
-  - section-title: "The Strategy"
+  - section-title: "Strategy and Design"
     section-description: |
       Educators often have to respond to issues of intolerance at a speed and scale that can be incredibly challenging. News travels quickly, students form opinions and harbor fears, and teachers can feel isolated when trying to make sense of these issues for themselves and their students.
 
       While Teaching Tolerance already provided the ability to create learning plans around certain themes; they needed their tools to evolve. The world was moving at a pace that their present systems could not address. They needed something that would enable rapid generation and dissemination of new materials, while also surfacing valuable content from the past that has renewed importance.
 
-      The key to Teaching Tolerance's redesign was providing timely materials that let educators turn cultural issues and current events into educational experiences. Additionally, this content and its related interactions needed to be accessible no matter the device users were on.
+      ThinkShout set out to turn the wealth of articles and resources Tolerance.org had into teachable materials, and did so by creating a guided Learning Plan Builder that makes all content classroom-ready.  Tolerance.org grants free access to thousands of resources -- from video to essays to proven teaching strategies -- and everything within that catalogue is now actionable.
 
   - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Actionable-Content-1.png"
     section-image-alt: "Image: Examples of actionable content such as featured articles with a 'Teach This' button that adds content directly to your learning plan."
 
   - section-title:
     section-description: |
-      ThinkShout set out to turn the wealth of articles and resources Tolerance.org had into teachable materials, and did so by creating a guided Learning Plan Builder that makes all content classroom-ready.  Tolerance.org grants free access to thousands of resources -- from video to essays to proven teaching strategies -- and everything within that catalogue is now actionable.
+
+      Users can create custom lessons using the step-by-step process in the Learning Plan Builder, or they can start with any compelling piece of content they find and build a plan around that. And, because ThinkShout takes a mobile-first approach to all our projects, the site is well-positioned to meet its users where they are in the moment they are inspired.
 
   - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Bullying-Bias-1.png"
     section-image-alt: "Image: Tolerance.org Desktop and Mobile"
 
   - section-title:
-    section-description: |
-      Users can create custom lessons using the step-by-step process in the Learning Plan Builder, or they can start with any compelling piece of content they find and build a plan around that. And, because ThinkShout takes a mobile-first approach to all our projects, the site is well-positioned to meet its users where they are in the moment they are inspired.
-
-  - section-title: "The Design"
     section-description: |
       Our approach to design was based on the foundation that the user in this case is looking for resources related to a specific topic they wish to address in the classroom.
 
