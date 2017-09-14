@@ -55,13 +55,8 @@ cs-sections:
     section-description: |
       Our approach to design was based on the foundation that the user in this case is looking for resources related to a specific topic they wish to address in the classroom.
 
-      The overall goal however was to provide an experience without barriers. Regardless of whether a user is on their phone while riding the train to work or on their desktop at home, they should be able to easily access all resources as well as use them to build learning plans. We wanted a streamlined experience, with everything from magazine articles, lessons, texts, and professional development materials to be easily digestible, searchable, and most importantly, the ability for users to build a plan off of them on the fly.
+      The overall goal however was to provide an experience without barriers. Regardless of whether a user is on their phone while riding the train to work, or on their desktop at home, they should be able to easily access all resources as well as use them to build learning plans. We wanted a streamlined experience, with everything from magazine articles, lessons, texts, and professional development materials to be easily digestible, searchable, and most importantly, the ability for users to build a plan off of them on the fly.
 
-  - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Learning-Plan-Builder-Mobile-Desktop.png"
-    section-image-alt: "Image: Tolerance.org Learning Plan Builder on Mobile and Desktop views"
-
-  - section-title:
-    section-description: |
       We partnered with the internal design team at the Southern Poverty Law Center (Teaching Tolerance is a program of the SPLC) to evolve the current Tolerance.org brand to accommodate a modern, content-rich site. While sticking with their current brand's foundation, we explored brand colors and typography treatments that would allow for a design that supports (rather than overshadows) the robust content offered. They also have a beautiful, vast library of photography, and are consistently creating timely and engaging illustration. Those elements are what drive the core visuals of the site.
 
   - section-image: "/assets/images/work/tolerance/tolerance-illustrations-john-jay-cabuay.jpg"
