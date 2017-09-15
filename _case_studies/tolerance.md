@@ -25,7 +25,7 @@ cs-header:
 
 cs-intro:
   type: "Teaching Tolerance"
-  mission: "Teaching Tolerance -- a program of the Southern Poverty Law Center -- is committed to providing educators with a multitude of resources and activities that will help to foster a kind and inclusive school climate."
+  mission: "Teaching Tolerance -- a program of the Southern Poverty Law Center -- is committed to providing educators with a multitude of resources and activities that will help foster a kind and inclusive school climate."
   text: |
 
 cs-sections:
@@ -35,21 +35,21 @@ cs-sections:
 
       While Teaching Tolerance already provided the ability to create learning plans around certain themes; they needed their tools to evolve. The world was moving at a pace that their present systems could not address. They needed something that would enable rapid generation and dissemination of new materials, while also surfacing valuable content from the past that has renewed importance.
 
-      ThinkShout set out to turn the wealth of articles and resources Tolerance.org had into teachable materials, and did so by creating a guided Learning Plan Builder that makes all content classroom-ready.  Tolerance.org grants free access to thousands of resources -- from video to essays to proven teaching strategies -- and everything within that catalogue is now actionable.
+      ThinkShout set out to turn the wealth of articles and resources Tolerance had into teachable materials, and did so by creating a guided Learning Plan Builder that makes all content classroom-ready.  Tolerance grants free access to thousands of resources -- from video to essays to proven teaching strategies -- and everything within that catalogue is now actionable.
 
   - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Bullying-Bias-1.png"
     section-image-alt: "Image: Tolerance.org Desktop and Mobile"
 
   - section-title:
     section-description: |
-      Our approach to design was to provide an experience without barriers. Regardless of whether a user is on their phone while riding the train to work, or on their desktop at home, they should be able to easily access all resources as well as use them to build learning plans using the step-by-step process we built. We wanted a streamlined experience, with everything from magazine articles, lessons, texts, and professional development materials to be easily digestible, searchable, and most importantly, the ability for users to build a plan off of them on the fly.
+      Our approach to design was to provide an experience without barriers. Regardless of whether a user is on their phone while taking the train to work or on their desktop at home, they should be able to easily access all resources as well as use them to build learning plans using the step-by-step process we built. We wanted a streamlined experience, with everything from magazine articles, lessons, texts, and professional development materials to be easily digestible, searchable, and most importantly, the ability for users to build a plan off of them on the fly.
 
   - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Actionable-Content-1.png"
     section-image-alt: "Image: Examples of actionable content such as featured articles with a 'Teach This' button that adds content directly to your learning plan."
 
   - section-title:
     section-description: |
-      We took the current Tolerance.org brand and refreshed it to accommodate a modern, content-rich site. While sticking with their current brand's foundation, we explored brand colors and typography treatments that would allow for a design that supports (rather than overshadows) the robust content offered. Teaching Tolerance also has a beautiful, vast library of photography, and are consistently creating timely and engaging illustration. Those elements are what drive the core visuals of the site.
+      We took the current Tolerance brand and refreshed it to accommodate a modern, content-rich site. While sticking with their current brand's foundation, we explored colors and typography treatments that would allow for a design that supports (rather than overshadows) the robust content offered. Tolerance also has a beautiful, vast library of photography, and are consistently creating timely and engaging illustration. Those elements are what drive the core visuals of the site.
 
   - section-image: "/assets/images/work/tolerance/tolerance-illustrations-john-jay-cabuay.jpg"
     section-image-alt: "Image: illustration of 2 students"
@@ -61,31 +61,27 @@ cs-sections:
 
   - section-title: "The Learning Plan Builder"
     section-description: |
-      Learning Plans are a key part of the Tolerance.org ecosystem. They are the bridge between a stagnant piece of content on the site and the classroom. They allow teachers to start with a foundational Text/Article written by Teaching Tolerance, and tailor the presentation of the ideas within the article to their students' grade level, interests, as well as other customizations.
+      Learning Plans are a key part of the Tolerance.org ecosystem. They are the bridge between a stagnant piece of content on the site and the classroom. They allow teachers to start with a foundational Text or Article written by Teaching Tolerance, and tailor the presentation of the ideas within the article to their students' grade level, topics, and social justice domains.
 
   - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Learning-Plan-Builder-Mobile-Desktop.png"
     section-image-alt: "Image: Learning Plan Builder landing page"
 
   - section-title:
     section-description: |
-      The Learning Plan Builder we created is essentially a set of tools for teachers to explore (through search features), bookmark (create a robust user profile), and transform Teaching Tolerance content into classroom-ready lesson plans. We also created the necessary privacy settings to allow teachers to work on a Learning Plan and save as a draft until they're ready to publish and share it with the world (where it will appear in the Learning Plan index on the site). Or, they can also share it with their colleagues and specific individuals with a link unique to their plan and only visible to them.
+      We built the Learning Plan Builder as one long form with a progress bar to allow a teacher to quickly move through the creation process. Content is dynamically added via AJAX requests when selections are made, and teachers can add these texts, strategies, and tasks to their Learning Plan.
+
+      We also built the necessary privacy settings to allow teachers to work on a Learning Plan as a draft until they're ready to publish and share it with the world (where it will appear in the Learning Plan index on the site). Teachers can also share a plan with their colleagues or copy an existing plan as a starting point.
 
   - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Learning-Plan-Mobile-Screens.png"
     section-image-alt: "Image: mobile screens of the learning plan builder"
 
-  - section-title:
-    section-description: |
-      We had designs and the infrastructure for the Learning Plan Builder, all that was left was the front-end construction - which turned out to be a rather complex endeavor! We essentially thought of it as one long form with a progress bar that (as the name implies) tracks your progress as you create a learning plan; highlighting the portion of the plan you are currently viewing. A user can click different titles within the progress bar to jump around to other sections of the Learning Plan Builder. Additionally, we added javascript to handle the AJAX requests that added texts, strategies, and tasks so they could display five items at a time for the user.
-
-      We utilized Drupal 8's Display Suite features for custom form diplays, as well as custom entity displays, and built a custom entity selection widget for the selection of related materials based on dynamic filters; which displays the option as previews of the materials themselves.
-
   - section-title: "Migration and Integrations"
     section-description: |
-      This was our first Drupal 8 Salesforce Integration, and probably one of the first anywhere, as the [module](https://www.drupal.org/project/salesforce) is still in active development and we had to contribute a great deal of code to make it production-ready. It's a minimal integration, but does include entity relationship synchronization and is currently syncing over 340,000 records between the systems (mostly Contacts and Orgs/Accounts).
+      Teaching Tolerance was started in 1991 and first began producing content for teachers through their award winning Teaching Tolerance Magazine and films about the modern civil rights movement. Tolerance's online presence was quick to follow and produced a vast amount of content they needed migrated to the new site. ThinkShout took on the challenge of migrating this huge amount of content from an older Drupal 6 and 7 site into the new Drupal 8 site, while mapping to a new site architecture at the same time.
 
-      The Salesforce integration is syncing Redhen objects. We have Redhen Contact & Orgs used on Tolerance.org to track incoming constituent information, tie new users to existing constituent data, connect users to the schools where they work and/or study, and provide a platform for sharing and collecting the constituent data managed in Salesforce.
+      ThinkShout has maintained the Drupal Salesforce module for a number of years, but this was our first Drupal 8 Salesforce integration, and probably one of the first anywhere. Although the Drupal 8 Salesforce [module](https://www.drupal.org/project/salesforce) is still in active development, we contributed a lot of code to make it production-ready for Tolerance. We use RedHen Contacts & Orgs on Tolerance.org to map to Salesforce objects and sync data bi-directionally. Tolerance can now use Salesforce to manage their large user base and the schools and organizations they are connected to.
 
-      Most organizations at one time or another face data integrity issues. It was certainly true of Teaching Tolerance, particularly when it came to the schools listed in their system. Two individuals might use slightly different names or spellings for the same institution ("Thomas Jefferson HS" vs "Thomas Jefferson High School" for example). This makes it especially challenging to match up in a database and would generate multiple duplicates. Conversely, there are a wealth of schools with exactly the same names located in different parts of the country. Treating them as the same leads to all sorts of other problems!
+      Most organizations at one time or another face data integrity issues. It was certainly true of Teaching Tolerance, particularly when it came to the schools teachers are connected to. Two individuals might use slightly different names or spellings for the same institution ("Thomas Jefferson HS" vs "Thomas Jefferson High School" for example). This makes it especially challenging to match up in a database and would generate multiple duplicates.
 
       In order to uniquely identify one's school, we built a google-maps based search/selection tool for users to input their school and attach to their profile.
 
