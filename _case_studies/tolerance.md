@@ -33,7 +33,7 @@ cs-sections:
     section-description: |
       Educators often have to respond to issues of intolerance at a speed and scale that can be incredibly challenging. News travels quickly, students form opinions and harbor fears, and teachers can feel isolated when trying to make sense of these issues for themselves and their students.
 
-      While Teaching Tolerance already provided the ability to create learning plans around certain themes; they needed their tools to evolve. The world was moving at a pace that their present systems could not address. They needed something that would enable rapid generation and dissemination of new materials, while also surfacing valuable content from the past that has renewed importance.
+      While Teaching Tolerance already provided the ability to create learning plans around certain themes, they needed their tools to evolve. The world was moving at a pace that their present systems could not address. They needed something that would enable rapid generation and dissemination of new materials, while also surfacing valuable content from the past that has renewed importance.
 
       In redesigning their website, ThinkShout set out to turn the wealth of articles and resources Tolerance had into teachable materials, and did so by creating a guided Learning Plan Builder that makes all content classroom-ready.  Tolerance grants free access to thousands of resources -- from video to essays to proven teaching strategies -- and everything within that catalogue is now actionable.
 
@@ -42,7 +42,7 @@ cs-sections:
 
   - section-title:
     section-description: |
-      Our approach to design was to provide an experience without barriers. Regardless of whether a user is on their phone while taking the train to work or on their desktop at home, they should be able to easily access all resources as well as use them to build learning plans using the step-by-step process we built. We wanted a streamlined experience, with everything from magazine articles, lessons, texts, and professional development materials to be easily digestible, searchable, and most importantly, the ability for users to build a plan off of them on the fly.
+      Our approach to design was to provide an experience without barriers. Regardless of whether a user is on their phone while taking the train to work or on their desktop at home, they should be able to easily access all resources as well as use them to build learning plans using the step-by-step process we built. We wanted a streamlined experience, with everything from magazine articles, lessons, texts, and professional development materials to be easily digestible, searchable, and most importantly, offer the ability for users to build a plan off of them on the fly.
 
   - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Actionable-Content-1.png"
     section-image-alt: "Image: Examples of actionable content such as featured articles with a 'Teach This' button that adds content directly to your learning plan."
@@ -57,7 +57,7 @@ cs-sections:
 
   - section-title:
     section-description: |
-      With a new design and a multitude of options for displaying content types, [Vicki Brown](https://thinkshout.com/team/vicki/) created a detailed a style guide that specified the desired interactions that would take place on the pages of Tolerance.org; and this truly set the team up for success in the next phase, implementation.
+      With a new design and a multitude of options for displaying content types, we created a detailed a style guide that specified the desired interactions that would take place on the pages of Tolerance.org. This truly set the team up for success in the next phase, implementation.
 
   - section-title: "The Learning Plan Builder"
     section-description: |
@@ -83,14 +83,14 @@ cs-sections:
 
       Most organizations at one time or another face data integrity issues. It was certainly true of Teaching Tolerance, particularly when it came to the schools teachers are connected to. Two individuals might use slightly different names or spellings for the same institution ("Thomas Jefferson HS" vs "Thomas Jefferson High School" for example). This makes it especially challenging to match up in a database and would generate multiple duplicates.
 
-      In order to uniquely identify one's school, we built a google-maps based search/selection tool for users to input their school and attach to their profile.
+      In order to uniquely identify one's school, we built a Google Maps based search/selection tool for users to input their school and attach to their profile.
 
   - section-image: "/assets/images/work/tolerance/LearningPlan_locator.jpg"
     section-image-alt: "Image: School selector"
 
   - section-title:
     section-description: |
-      Using the Google Places API, we were able to identify these schools, allowing for clean differentiation and preventing duplication in the backend. All while providing an intuitive, quick, and unobtrusive user interface. We built this tool with code adapted from Google Places documentation, Redhen Orgs, Entity Reference fields, and custom code.
+      Using the Google Places API, we were able to identify these schools, allowing for clean differentiation and preventing duplication in the backend, all while providing an intuitive, quick, and unobtrusive user interface. We built this tool with code adapted from Google Places documentation, Redhen Orgs, Entity Reference fields, and custom code.
 
   - section-title: "Engaging Audiences"
     section-description: |
@@ -113,7 +113,7 @@ cs-sections:
     section-description: |
       While Teaching Tolerance can keep its finger on the pulse of current events and cultural moments, it's impossible to predict what every individual educator will need in their local communities. Providing these materials free of charge in an extensive library opens up endless possibilities for all educators.
 
-      Now users can craft unique learning plans and share them with peers in their own schools or across the country. Over time, as the online community grows, we hope to build more social tools for teachers to share, comment on, and learn from each other's work. Work that ultimately fosters a more inclusive and kind environment in our schools.
+      Now users can craft unique learning plans and share them with peers in their own schools or across the country. Over time, as the online community grows, we hope to build more social tools for teachers to share, comment on, and learn from each other's work, work that ultimately fosters a more inclusive and kind environment in our schools.
 
 cs-cta-text: Launch Site
 cs-cta-url: https://www.tolerance.org/

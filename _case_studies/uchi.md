@@ -35,7 +35,7 @@ cs-sections:
     section-description: |
       The existing site’s information architecture made it difficult for staff to update content as their needs changed and course offerings expanded, and a cumbersome back-end made the updating process tedious. A messy admin interface and excess of content types cluttered the content creation experience. The University of Chicago needed to simplify this process while also improving the user experience by making the site easier for students to navigate and search for content.
 
-      In just six months - one of the tightest timelines we’ve ever faced - our team turned this site around and delivered the new face of the University of Chicago Graham School.
+      In just six months, our team turned this site around and delivered the new face of the University of Chicago Graham School.
 
   - section-image: "/assets/images/work/uchi/TS-Case-Studies-UChicago-Homepage-Example-3.png"
     section-image-alt: "University of Chicago Graham School Home page on mobile and desktop screens"
@@ -44,7 +44,7 @@ cs-sections:
     section-description: |
       The University of Chicago Graham School site was already on Drupal 7 and its web team was very familiar with the Drupal landscape, so transitioning to Drupal 8 appeared to be the natural next step.
 
-      Since content management was a major pain point for the University of Chicago team, we came up with a solution that combined Google Sheets and Drupal Migrate to populate content on their site. Maria Fisher explains how we did it in <a href="https://thinkshout.com/blog/2017/01/using-google-docs-and-migrate-to-populate-your-drupal-site-part-1/">this two-part blog series</a>. Our engineers then trained the University of Chicago web team to use this system, as the system itself was unique to this project.
+      Since content management was a major pain point for the University of Chicago team, we came up with a solution that combined Google Sheets and Drupal Migrate to populate content on their site. You can learn more about how we did it in <a href="https://thinkshout.com/blog/2017/01/using-google-docs-and-migrate-to-populate-your-drupal-site-part-1/">this two-part blog series</a>. Our engineers then trained the University of Chicago web team to use this system, as the system itself was unique to this project.
 
       Another facet of the Graham School site is its catalogues of curriculum. Students can go to the site, browse available courses, and register for them with Destiny One, a lifecycle management tool designed specifically for institutions like the Graham School that serve nontraditional students.
 
