@@ -35,7 +35,7 @@ cs-sections:
 
       While Teaching Tolerance already provided the ability to create learning plans around certain themes; they needed their tools to evolve. The world was moving at a pace that their present systems could not address. They needed something that would enable rapid generation and dissemination of new materials, while also surfacing valuable content from the past that has renewed importance.
 
-      ThinkShout set out to turn the wealth of articles and resources Tolerance had into teachable materials, and did so by creating a guided Learning Plan Builder that makes all content classroom-ready.  Tolerance grants free access to thousands of resources -- from video to essays to proven teaching strategies -- and everything within that catalogue is now actionable.
+      In redesigning their website, ThinkShout set out to turn the wealth of articles and resources Tolerance had into teachable materials, and did so by creating a guided Learning Plan Builder that makes all content classroom-ready.  Tolerance grants free access to thousands of resources -- from video to essays to proven teaching strategies -- and everything within that catalogue is now actionable.
 
   - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Bullying-Bias-1.png"
     section-image-alt: "Image: Tolerance.org Desktop and Mobile"
