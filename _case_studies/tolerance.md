@@ -85,7 +85,7 @@ cs-sections:
 
       In order to uniquely identify one's school, we built a google-maps based search/selection tool for users to input their school and attach to their profile.
 
-  - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-School-Selector.png"
+  - section-image: "/assets/images/work/tolerance/LearningPlan_locator.jpg"
     section-image-alt: "Image: School selector"
 
   - section-title:
