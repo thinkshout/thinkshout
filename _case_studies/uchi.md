@@ -24,12 +24,12 @@ cs-header:
 
 cs-intro:
   type: "The Graham School"
-  mission: "The Graham School is the University of Chicago’s continuing education program for skill seekers, career changers, lifelong learners."
+  mission: "The Graham School is the University of Chicago’s continuing education program for skill seekers, career changers, and lifelong learners."
   text: |
     The Graham School offers a wide array of curriculum and certifications for nontraditional students looking to change the course of their career path, or those who simply want to learn for learning’s sake.
 
     The school serves a wide range of student types, so the University of Chicago needed a site that was both attractive and navigable for its many constituents. It couldn’t just be a pretty site, though - it needed to tell a story that encourages lifelong learning.
-    
+
 cs-sections:
   - section-title:
     section-description: |
@@ -55,7 +55,7 @@ cs-sections:
     section-description: |
       We simplified the design and user interface, and restructured the program pages to be more microsite-like. We also built out related content blocks on these pages so relevant blogs and events populate based on the page the user is currently browsing. Additionally, we created sticky call to action blocks that appear for first-time visitors. These blocks can easily be moved to any page and customized by the University of Chicago web team.
 
-      The University of Chicago team wanted to tell a story with The Graham School’s new home on the web, so we built out a persistent timeline visible on each page to illustrate the school’s rich history as an academic institution. Related content and events all tied into the vision for a seamless, vibrant educational experience.
+      The University of Chicago team wanted to tell a story with The Graham School’s new home on the web, so we built out a timeline to illustrate the school’s rich history as an academic institution. Related content and events all tied into the vision for a seamless, vibrant educational experience.
 
   - section-image: "/assets/images/work/uchi/UCHI-timeline.png"
     section-image-alt: "Snapshot of the University of Chicago's timeline"

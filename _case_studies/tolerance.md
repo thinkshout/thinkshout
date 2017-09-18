@@ -49,7 +49,7 @@ cs-sections:
 
   - section-title:
     section-description: |
-      We took the current Tolerance brand and refreshed it to accommodate a modern, content-rich site. While sticking with their current brand's foundation, we explored colors and typography treatments that would allow for a design that supports (rather than overshadows) the robust content offered. Tolerance also has a beautiful, vast library of photography, and are consistently creating timely and engaging illustration. Those elements are what drive the core visuals of the site.
+      We took the current Tolerance brand and refreshed it to accommodate a modern, content-rich site. While sticking with their current brand's foundation, we explored colors and typography treatments that would allow for a design that supports (rather than overshadows) the robust content offered. Tolerance also has a beautiful, vast library of photography, and are continually creating timely and engaging illustration. Those elements drive the core visuals of the site.
 
   - section-image: "/assets/images/work/tolerance/tolerance-illustrations-john-jay-cabuay.jpg"
     section-image-alt: "Image: illustration of 2 students"
@@ -77,7 +77,7 @@ cs-sections:
 
   - section-title: "Migration and Integrations"
     section-description: |
-      Teaching Tolerance was started in 1991 and first began producing content for teachers through their award winning Teaching Tolerance Magazine and films about the modern civil rights movement. Tolerance's online presence was quick to follow and produced a vast amount of content they needed migrated to the new site. ThinkShout took on the challenge of migrating this huge amount of content from an older Drupal 6 and 7 site into the new Drupal 8 site, while mapping to a new site architecture at the same time.
+      Teaching Tolerance was started in 1991 and first began producing content for teachers through their award winning Teaching Tolerance Magazine and films about the modern civil rights movement. Tolerance's online presence was quick to follow and produced a vast amount of content they needed migrated to the new site. ThinkShout took on the challenge of migrating this huge amount of content from two older Drupal 6 and 7 sites into one new Drupal 8 site, while mapping to a new site architecture at the same time.
 
       ThinkShout has maintained the Drupal Salesforce module for a number of years, but this was our first Drupal 8 Salesforce integration, and probably one of the first anywhere. Although the Drupal 8 Salesforce [module](https://www.drupal.org/project/salesforce) is still in active development, we contributed a lot of code to make it production-ready for Tolerance. We use RedHen Contacts & Orgs on Tolerance.org to map to Salesforce objects and sync data bi-directionally. Tolerance can now use Salesforce to manage their large user base and the schools and organizations they are connected to.
 
@@ -106,7 +106,7 @@ cs-sections:
 
   - section-title:
     section-description: |
-      The Moment is a branded publishing platform that surfaces the most important content in response to cultural events. Whether the content is from five years ago or five hours, users get the best that Teaching Tolerance has to offer. And, by linking this content up to the organization's email communication strategy, we ensure that teachers get the materials in their inbox before they know they need it. Now when educators subscribe to this list, they can create first class lessons in a timely manner, send them via email and social, and create a real sense of community in the classrooms across the country.
+      The Moment is a branded publishing platform that surfaces the most important content in response to cultural events. Whether the content is from five years ago or five hours, users get the best that Teaching Tolerance has to offer. And, by linking this content up to the organization's email communication strategy, we ensure that teachers get the materials in their inbox before they know they need it. Now when educators subscribe to this list, they can create first-class lessons in a timely manner, send them via email and social, and create a real sense of community in the classrooms across the country.
 
 
   - section-title: "The Result"
