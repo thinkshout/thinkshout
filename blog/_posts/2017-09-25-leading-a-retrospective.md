@@ -6,7 +6,7 @@ title: How to Lead a Retrospective for a More Successful Project
 homepage: false
 author: rose
 published: true
-featured: false
+featured: true
 short: Rose walks us through how to run a retrospective meeting, and why they're a vital component to the close of every project.
 tags:
   - Project Management
