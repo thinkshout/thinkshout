@@ -3,7 +3,7 @@ layout: blog
 body-class: blog-post
 topic: Project Management
 title: How to Lead a Retrospective for a More Successful Project
-homepage: true
+homepage: false
 author: Rose
 published: true
 featured: false
