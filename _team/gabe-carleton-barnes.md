@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Gabe
 last_name: Carleton-Barnes
-position: Engineering Manager
+position: Director of Engineering
 leadin: |
   Gabe’s not only a Magic: The Gathering champion, he is a champion for our Salesforce integration tools and other open source contributions. His experience in streamlining processes for nonprofits drew him to ThinkShout, where he could apply his skills and do some good for the world at the same time.
 social:

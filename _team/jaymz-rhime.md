@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Jaymz
 last_name: Rhime
-position: Senior Software Engineer
+position: Technical Architect
 leadin: |
   Jaymz has been passionate about coding since high school, nerding out in English class by writing programs on his TI-83 calculator. He believes strongly in the open web, and is committed to writing great code for the good of those who strive to affect meaningful change in the world.
 social:
