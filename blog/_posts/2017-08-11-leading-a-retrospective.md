@@ -3,34 +3,34 @@ layout: blog
 body-class: blog-post
 topic: Project Management
 title: How to Lead a Retrospective for a More Successful Project
-homepage: false
+homepage: true
 author: Rose
-published: false
+published: true
 featured: false
 short: Rose walks us through how to run a retrospective meeting, and why they're a vital component to the close of every project.
 tags:
   - Project Management
   - Process
   - Innovation
-  - Redesign
+  - Website Redesign
   - Retrospective
-date: 2017-08-11 12:30:00 
-image: https://thinkshout.com/assets/images/group-photo-large2.jpg
-header-image: /assets/images/blog/group-photo-large2.jpg
-header-image-alt: "ThinkShout Cares, A 2017 Intern Project"
+date: 2017-08-11 12:30:00
+image: https://thinkshout.com/assets/ThinkShout_March16_IMG_6099_JasonQuigley.jpg
+header-image: /assets/images/blog/ThinkShout_March16_IMG_6099_JasonQuigley.jpg
+header-image-alt: "Image: Leading your project team through a retrospective"
 ---
 
 So, what's a retrospective meeting?
 
 For one thing, a retrospective meeting is _not_ a post-mortem meeting. At the end of a project, the new website is anything but dead. It's living and breathing. And hopefully neither our team or our client is feeling the need for resuscitation!
 
-On a more serious note, a retrospective meeting is an opportunity to look back at what worked well and what didn't, with the ultimate goal of taking lessons away that will improve the project in question as well as future projects. 
+On a more serious note, a retrospective meeting is an opportunity to look back at what worked well and what didn't, with the ultimate goal of taking lessons away that will improve the project in question as well as future projects.
 
 ### When
 We always hold a retrospective at the end of every project. And for larger, more complex projects, we often hold a retrospective mid-way through. This allows us to address pain points immediately, making the rest of the project more successful and efficient.
 
 ### Who
-Everyone who touched the project at some point on our internal team shoul dideally be in the meeting - project manager (PM), account manager, team leaders, developers, designers, etc. But the meeting itself isn't led by that project's PM. We want PMs to be able to participate in the discussion without worrying about facilitating or taking notes. So another PM who did not participate in the project leads the retrospective. 
+Everyone who touched the project at some point on our internal team shoul dideally be in the meeting - project manager (PM), account manager, team leaders, developers, designers, etc. But the meeting itself isn't led by that project's PM. We want PMs to be able to participate in the discussion without worrying about facilitating or taking notes. So another PM who did not participate in the project leads the retrospective.
 
 ### What
 We discuss the following topics:
@@ -47,7 +47,7 @@ The retrospective has two components: An in-person discussion and and online fol
 For the in-person discussion, we have a few ground rules that we review before we start the discussion.
 
 * Be honest: Nothing is meant personally, so it's ok to speak honestly about what has been challenging.
-* Be positive: Don't blame other team members for what didn't work well. This is an opportunity to learn and improve. 
+* Be positive: Don't blame other team members for what didn't work well. This is an opportunity to learn and improve.
 * No laptops or phones: The only person with a computer is the one leading the meeting and taking notes. We all need to be engaged and fully present.
 
 After the meeting, we send out a quick SurveyMonkey link that asks team members to score the project from 1-5 on a client satisfaction, product quality, adherence to budget, timeline, requirements, end user experience, project leadership, and team morale. They can also add more comments that they didn't convey during the meeting. It's anonymous, and once responses are in, the retrospective facilitator sends the summary to the project PM.
