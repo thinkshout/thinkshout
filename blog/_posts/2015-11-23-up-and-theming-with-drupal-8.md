@@ -129,7 +129,7 @@ To add the inline styling class, we add the following to the top of the template
 And then update the label’s parent div attributes:
 
 before: `<div{{ attributes }}>`
-after: `<div{{ attributes.addClass(classes) }}>`
+after: {% raw %}<div{{ attributes.addClass(classes) }}>{% endraw %}
 
 Now the correct class is in place, but we see no change yet - because the `<div{{ title_attributes }}>` isn’t populating any classes. To fix that, we add the following, again at the top of the template:
 
@@ -148,7 +148,7 @@ Now the correct class is in place, but we see no change yet - because the `<div{
 And update the div:
 
 before: `<div{{ title_attributes }}>{{ label }}</div>`
-after: `<div {{ title_attributes.addClass(title_classes) }}>{{ label }}</div>`
+after: {% raw %}`<div {{ title_attributes.addClass(title_classes) }}>{{ label }}</div>`{% endraw %}
 
 Rebuild the cache (drush cr) and… success! well sort of - we still have to add CSS. Note that we also added a custom class of 'field__publish-date-label' in case we want to style it directly.
 

@@ -12,7 +12,7 @@ title: Work Archive
     </div>
 
     <div class="case-study-previews">
-      {% assign case-studies = (site.case_studies | where: "published", "true") %}
+      {% assign case-studies = site.case_studies | where: "published", "true" %}
       {% for preview in case-studies %}
         {% include case_study_preview.html %}
       {% endfor %}

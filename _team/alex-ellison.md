@@ -2,11 +2,11 @@
 layout: teammember
 first_name: Alex
 last_name: Ellison
-position: Senior Software Engineer
+position: Technical Architect
 leadin: |
   Alex studied bioinformatics in college. We still don't know exactly what that means, but we do know that it's given him a keen understanding of how humans interact with software.
 social:
-  github: https://github.com/caxy4/
+  github: https://github.com/alexellison/
   twitter:
   linkedin: http://www.linkedin.com/pub/alex-ellison/20/508/a83/
   drupal: https://drupal.org/user/2735491/

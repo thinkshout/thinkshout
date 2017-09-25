@@ -12,7 +12,7 @@ tags:
   - Drupal 8
   - Drupal
   - Drupal Planet
-  - Content modeling
+  - Strategy
 date: 2016-10-14 15:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---

@@ -34,18 +34,12 @@ end
 
 desc 'Watch jekyll files'
 task :jekyllwatch do
-  system 'bundle exec jekyll serve --watch --baseurl="" --drafts'
+  system 'bundle exec jekyll serve --watch --baseurl="" --drafts --incremental'
 end
 
 desc 'BrowserSync for live reloading and injecting new changes'
 task :browsersync do
   system 'browser-sync start --proxy "localhost:4000" --files "_site/assets/*, _site/*.md, _site/*.html, _site/*.js"'
-end
-
-
-def jekyll(opts = '')
-  system 'rm -rf _site'
-  system 'jekyll ' + opts
 end
 
 desc "Generate and publish site to thinkshout.com on Amazon S3."
