@@ -3,7 +3,7 @@
 layout: case_study
 body-class: case-study uchi
 active: true
-homepage: true
+homepage: false
 published: true
 order: 5
 # END LAYOUT DATA
