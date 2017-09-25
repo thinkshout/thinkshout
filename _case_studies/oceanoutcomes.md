@@ -3,7 +3,7 @@
 layout: case_study
 body-class: case-study ocean-outcomes
 active: true
-homepage: true
+homepage: false
 published: true
 order: 10
 # END LAYOUT DATA

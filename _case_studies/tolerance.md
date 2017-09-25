@@ -3,12 +3,12 @@
 layout: case_study
 body-class: case-study tolerance
 active: true
-homepage: false
+homepage: true
 published: true
 order: 3
 # END LAYOUT DATA
 
-title: Making it easier for educators to meet the immediate needs of their students.
+title: "Making it easier for educators to meet the immediate needs of their students."
 
 cs-class: "teaching-tolerance"
 
