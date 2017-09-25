@@ -25,6 +25,7 @@ body.agency-main {
 
   .container {
     @include outer-container($max-width);
+    display: flex;
   }
 }
 
