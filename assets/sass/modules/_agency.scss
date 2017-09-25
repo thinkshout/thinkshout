@@ -22,10 +22,50 @@ body.agency-main {
 .agency-stats-block {
   background-color: $ltgray;
   padding: 3rem 0;
+  text-align: center;
+
+  .intro {
+    color: $midgray;
+    display: block;
+
+    h3 {
+      width: 40%;
+      margin-right: auto;
+      margin-left: auto;
+      @include mq(m) { width: 75%; }
+    }
+  }
 
   .container {
-    @include outer-container($max-width);
+    @include outer-container(1200px);
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @include mq(d) { flex-wrap: wrap; }
+
+    div {
+      flex: 0 1 100%;
+      min-width: rem(300);
+      
+      @include mq(d) { flex: 0 1 33%; }
+
+      &:nth-of-type(1) {
+        h2 { color: $orange; } }
+      &:nth-of-type(2) {
+        h2 { color: $ltorange; } }
+      &:nth-of-type(3) {
+        h2 { color: $yellow; } }
+
+      h2 { margin-bottom: 0; }
+
+      p {
+        color: $midgray;
+        margin-top: 0;
+      }
+
+    }
+
   }
 }
 
