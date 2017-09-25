@@ -18,6 +18,16 @@ body.agency-main {
   }
 }
 
+//Agency stats block
+.agency-stats-block {
+  background-color: $ltgray;
+  padding: 3rem 0;
+
+  .container {
+    @include outer-container($max-width);
+  }
+}
+
 // Our values block
 .our-values-block {
   color: $darkgray;
