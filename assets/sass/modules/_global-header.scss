@@ -135,13 +135,13 @@ header {
       @include mq(md) {
         color: $darkgray;
         margin: 0 0.7rem;
-        padding: rem(50) rem(5);
+        padding: rem(50) rem(20);
       }
 
       @include mq(l) {
         color: $darkgray;
         margin: 0 0.7rem;
-        padding: rem(50) rem(5);
+        padding: rem(50) rem(25);
       }
     }
   }

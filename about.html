@@ -89,27 +89,48 @@ body-class: agency-main
   </div>
 </div>
 
-<div class="bcorp-info-block">
-  <div class="container">
-    <div class="bcorp-text valign-wrap">
-      <div class="valign">
-        <h4>A <span>Beneficial </span>corporation</h4>
-        <p>
-          Since our founding in 2011, our focus has been on building a company that is
-          generous to its staff, its clients, and the community. In 2015, we
-          formalized this commitment by achieving B Corp certification. As a
-          Beneficial Corporation, we have embraced a framework and global movement
-          that helps continue to make intentional choices that put people and the
-          planet above profit.
-        </p>
-        {% assign items = site.data.menu.external %}
-        {% for item in items %}
+<div class="bcor-diversity-wrapper">
+  <div class="bcorp-info-block">
+    <div class="container">
+      <div class="bcorp-text valign-wrap">
+        <div class="valign">
+          <h4>A <span>beneficial </span>corporation</h4>
+          <p>
+            As a Beneficial Corporation, ThinkShout is commited first and foremost
+            to the people we work with–our clients, our team, and our community at large.
+          </p>
+          {% assign items = site.data.menu.external %}
+          {% for item in items %}
+            {% if item.title == 'bcorp'%}
+              <a href="{{ item.url }}" class="uppercase-link" target="_blank">
+                More on BCorps<i class="fa fa-caret-right"></i>
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="diversity-pledge-block">
+    <div class="container">
+      <div class="diversity-text valign-wrap">
+        <div class="valign">
+          <h4>A commitment to <span>diversity</span></h4>
+          <p>
+            Our clients serve some of the world’s most vulnerable and marginalized populations.
+            Our commitment to diversity is foremost about serving those clients the best we can.
+            We believe our ommunities–inside and outside of the workplace–benefit as well.
+          </p>
+          {% assign items = site.data.menu.external %}
+          {% for item in items %}
           {% if item.title == 'bcorp'%}
-            <a href="{{ item.url }}" class="uppercase-link" target="_blank">
-              Learn more about our journey to becoming a B corp<i class="fa fa-caret-right"></i>
-            </a>
+          <a href="{{ item.url }}" class="uppercase-link" target="_blank">
+            View the pledge<i class="fa fa-caret-right"></i>
+          </a>
           {% endif %}
-        {% endfor %}
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
