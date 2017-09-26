@@ -29,7 +29,7 @@ body.agency-main {
     display: block;
 
     h3 {
-      width: 40%;
+      width: 35%;
       margin-right: auto;
       margin-left: auto;
       @include mq(m) { width: 75%; }
@@ -169,17 +169,19 @@ body.agency-main {
 
 .bcorp-info-block,
 .diversity-pledge-block {
-  background: url('../images/ts_redesign/bcorp-background.jpg') right top;
   background-size: cover;
+  background-repeat: no-repeat;
   display: inline-block;
-  flex: 0 1 50%;
+  flex-basis: calc(50% - 1px);
+  flex-grow: 0;
+  flex-shrink: 1;
   min-width: rem(400);
-  padding: 8rem 0;
+  padding: 5rem 0;
   text-align: center;
 
   @include mq(t) {
     flex: 0 1 auto;
-    padding: 4rem 0;
+    padding: 2rem 0;
   }
   @include mq(m) {
     flex: 0 1 auto;
@@ -213,6 +215,8 @@ body.agency-main {
 
   p {
     padding-bottom: 2.5rem;
+
+    @include mq(m) { padding-bottom: 0; }
   }
 
   .fa-caret-right {
@@ -225,11 +229,15 @@ body.agency-main {
 }
 
 .bcorp-info-block {
+  background: url('../images/ts_redesign/bcorp-background.jpg') right top;
   h4 span { color: $yellow; }
+  @include mq(d) { margin-right: 1px; }
 }
 
 .diversity-pledge-block {
+  background: url('../images/ts_redesign/diversity-background.jpg') right top;
   h4 span { color: $orange; }
+  @include mq(d) { margin-left: 1px; }
 }
 
 // "Our Team" bcorp-info-block

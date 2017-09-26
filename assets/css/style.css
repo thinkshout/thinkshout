@@ -2208,7 +2208,7 @@ body.agency-main .intro .text {
     color: #626262;
     display: block; }
     .agency-stats-block .intro h3 {
-      width: 40%;
+      width: 35%;
       margin-right: auto;
       margin-left: auto; }
       @media (max-width: 480px) {
@@ -2382,18 +2382,20 @@ body.agency-main .intro .text {
 
 .bcorp-info-block,
 .diversity-pledge-block {
-  background: url("../images/ts_redesign/bcorp-background.jpg") right top;
   background-size: cover;
+  background-repeat: no-repeat;
   display: inline-block;
-  flex: 0 1 50%;
+  flex-basis: calc(50% - 1px);
+  flex-grow: 0;
+  flex-shrink: 1;
   min-width: 25rem;
-  padding: 8rem 0;
+  padding: 5rem 0;
   text-align: center; }
   @media (min-width: 481px) and (max-width: 979px) {
     .bcorp-info-block,
     .diversity-pledge-block {
       flex: 0 1 auto;
-      padding: 4rem 0; } }
+      padding: 2rem 0; } }
   @media (max-width: 480px) {
     .bcorp-info-block,
     .diversity-pledge-block {
@@ -2425,6 +2427,10 @@ body.agency-main .intro .text {
   .bcorp-info-block p,
   .diversity-pledge-block p {
     padding-bottom: 2.5rem; }
+    @media (max-width: 480px) {
+      .bcorp-info-block p,
+      .diversity-pledge-block p {
+        padding-bottom: 0; } }
   .bcorp-info-block .fa-caret-right,
   .diversity-pledge-block .fa-caret-right {
     color: #f1b332; }
@@ -2432,11 +2438,21 @@ body.agency-main .intro .text {
   .diversity-pledge-block a:hover {
     color: #f1b332; }
 
-.bcorp-info-block h4 span {
-  color: #f1b332; }
+.bcorp-info-block {
+  background: url("../images/ts_redesign/bcorp-background.jpg") right top; }
+  .bcorp-info-block h4 span {
+    color: #f1b332; }
+  @media (min-width: 980px) {
+    .bcorp-info-block {
+      margin-right: 1px; } }
 
-.diversity-pledge-block h4 span {
-  color: #f26d21; }
+.diversity-pledge-block {
+  background: url("../images/ts_redesign/diversity-background.jpg") right top; }
+  .diversity-pledge-block h4 span {
+    color: #f26d21; }
+  @media (min-width: 980px) {
+    .diversity-pledge-block {
+      margin-left: 1px; } }
 
 .our-team-block {
   color: #58585b;
