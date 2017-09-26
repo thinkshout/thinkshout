@@ -15,6 +15,13 @@ h2 {
   font-size: rem(40);
 }
 
+h4 {
+  color: $midgray;
+  font-size: rem(28);
+
+  @media (max-width: 480px) { font-size: rem(20); }
+}
+
 p {
   font-size: 1em;
   line-height: $line-height;
@@ -29,3 +36,23 @@ a:visited {
   color: $orange;
   text-decoration: none;
 }
+
+.cursive-h1 {
+  color: $white;
+  font-family: "FilmotypeLucky";
+  font-size: 5.5rem;
+  font-weight: normal;
+  letter-spacing: .5px;
+  text-transform: none;
+  @media (max-width: 480px) { font-size: rem(56); }
+}
+
+.cursive-h2 {
+  color: $ltgray;
+  font-family: "FilmotypeLucky";
+  font-size: 3.5rem;
+  font-weight: normal;
+  letter-spacing: .5px;
+  text-transform: none;
+}
+
