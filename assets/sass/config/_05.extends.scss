@@ -33,6 +33,10 @@
   &:visited {
     color: $darkgray;
   }
+
+  &.white {
+    color: $white;
+  }
 }
 
 // Upper header text with the down facing arrow
