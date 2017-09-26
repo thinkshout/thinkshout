@@ -2376,50 +2376,67 @@ body.agency-main .intro .text {
   .our-values-block .value p {
     margin-top: 0.3125rem; }
 
-.bcorp-info-block {
+.bcor-diversity-wrapper {
+  display: flex;
+  flex-wrap: wrap; }
+
+.bcorp-info-block,
+.diversity-pledge-block {
   background: url("../images/ts_redesign/bcorp-background.jpg") right top;
   background-size: cover;
-  height: 100%;
+  display: inline-block;
+  flex: 0 1 50%;
+  min-width: 25rem;
   padding: 8rem 0;
-  width: 100%; }
+  text-align: center; }
   @media (min-width: 481px) and (max-width: 979px) {
-    .bcorp-info-block {
+    .bcorp-info-block,
+    .diversity-pledge-block {
+      flex: 0 1 auto;
       padding: 4rem 0; } }
   @media (max-width: 480px) {
-    .bcorp-info-block {
+    .bcorp-info-block,
+    .diversity-pledge-block {
+      flex: 0 1 auto;
+      min-width: 18.75rem;
       padding: 2rem 0; } }
-  .bcorp-info-block h4 {
-    color: #f1b332;
+  .bcorp-info-block h4,
+  .diversity-pledge-block h4 {
+    color: #fff;
     font-size: 1.125rem;
     margin-top: 0;
     text-transform: uppercase; }
-    .bcorp-info-block h4 span {
+    .bcorp-info-block h4 span,
+    .diversity-pledge-block h4 span {
       font-family: "FilmotypeLucky";
-      font-size: 4rem;
+      font-size: 2.5rem;
       font-weight: normal;
+      padding: 0 0.1875rem;
       text-transform: none; }
   .bcorp-info-block p,
-  .bcorp-info-block a {
+  .bcorp-info-block a,
+  .diversity-pledge-block p,
+  .diversity-pledge-block a {
     color: #fff;
     text-decoration: none; }
-    @media (min-width: 980px) {
-      .bcorp-info-block p,
-      .bcorp-info-block a {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 57.35098%; }
-        .bcorp-info-block p:last-child,
-        .bcorp-info-block a:last-child {
-          margin-right: 0; } }
-  .bcorp-info-block a.uppercase-link:visited {
+  .bcorp-info-block a.uppercase-link:visited,
+  .diversity-pledge-block a.uppercase-link:visited {
     color: white; }
-  .bcorp-info-block p {
+  .bcorp-info-block p,
+  .diversity-pledge-block p {
     padding-bottom: 2.5rem; }
-  .bcorp-info-block .fa-caret-right {
+  .bcorp-info-block .fa-caret-right,
+  .diversity-pledge-block .fa-caret-right {
     color: #f1b332; }
-  .bcorp-info-block a:hover {
+  .bcorp-info-block a:hover,
+  .diversity-pledge-block a:hover {
     color: #f1b332; }
+
+.bcorp-info-block h4 span {
+  color: #f1b332; }
+
+.diversity-pledge-block h4 span {
+  color: #f26d21; }
 
 .our-team-block {
   color: #58585b;
@@ -5371,12 +5388,12 @@ header {
         header .main-menu a {
           color: #58585b;
           margin: 0 0.7rem;
-          padding: 3.125rem 0.3125rem; } }
+          padding: 3.125rem 1.25rem; } }
       @media (min-width: 1200px) {
         header .main-menu a {
           color: #58585b;
           margin: 0 0.7rem;
-          padding: 3.125rem 0.3125rem; } }
+          padding: 3.125rem 1.5625rem; } }
   @media (min-width: 1200px) and (max-width: 1282px) {
     header .container {
       padding: 0 3rem 0 5.8rem; } }
