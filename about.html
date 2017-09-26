@@ -19,7 +19,7 @@ body-class: agency-main
   <img src="{{ site.baseurl }}/assets/images/ts_redesign/agency.jpg" alt="Working together." />
 </div>
 
-<div class="agency-stats-block">
+<div class="intro-flexcolumns-section">
   <div class="intro"><h3>We begin with the simple idea that the world's best organizations deserve the world's best work.</h3></div>
   <div class="container">
     <div class=""><h2>57</h2><p><em>mission driven clients with</em></p></div>
@@ -136,26 +136,68 @@ body-class: agency-main
   </div>
 </div>
 
-<div class="our-team-block">
+<div class="intro-flexcolumns-section awards">
+  <div class="intro cursive-h2"><h2>Awards & Recognition</h2></div>
   <div class="container">
-    {% for item in site.data.menu.main-menu %}
-    {% if item.url == '/team/' %}
-      <a href="{{ site.baseurl }}{{ item.url }}"><h2>Our Team</h2></a>
-      <p>
-        We lead with technical excellence, innovation, and sustainable business
-        practices. We’ve got our finger on the pulse of the open source community
-        and we contribute back daily. We believe that company culture goes deeper
-        than having an office ping pong table.
-      </p>
-      <a href="{{ site.baseurl }}{{ item.url }}" class="uppercase-link">
-        Get to know us<i class="fa fa-caret-right"></i>
-      </a>
-      <a href="{{ site.baseurl }}{{ item.url }}" class="team-image">
-        <img src="{{ site.baseurl }}/assets/images/ts_redesign/our-team.jpg" alt="Six images of our team displayed in a montage." />
-      </a>
-    {% endif %}
-  {% endfor %}
+    <div class="award four-col"></div>
+    <div class="award four-col"></div>
+    <div class="award four-col"></div>
+    <div class="award four-col"></div>
   </div>
 </div>
 
-{% include careers-cta.html %}
+<div class="work-together">
+  <div class="intro"><h4>Let's work together</h4></div>
+  <div class="full-bleed-container">
+    <div class="join"><h2 class="cursive-h1">Join</h2>
+      <a href="{{ item.url }}" class="uppercase-link white" target="_blank">
+      The team<i class="fa fa-caret-right"></i>
+    </a></div>
+    <div class="meet"><h2 class="cursive-h1">Meet</h2>
+      <a href="{{ item.url }}" class="uppercase-link white" target="_blank">
+        Our people<i class="fa fa-caret-right"></i>
+      </a>
+    </div>
+    <div class="partner"><h2 class="cursive-h1">Partner</h2>
+      <a href="{{ item.url }}" class="uppercase-link white" target="_blank">
+        On a project<i class="fa fa-caret-right"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="intro-flexcolumns-section partners">
+  <div class="container">
+    <p><strong>Partners & organizations</strong>
+        <!--<i class="fa fa-caret-down"></i>-->
+    </p>
+    <div class="four-col"><a href="https://www.bcorporation.net/what-are-b-corps" target="_blank"></a></div>
+    <div class="four-col"><a href="https://www.nten.org/" target="_blank"></a></div>
+    <div class="four-col"><a href="https://www.drupal.org/association" target="_blank"></a></div>
+    <div class="four-col"><a href="http://www.pdxwit.org/" target="_blank"></a></div>
+  </div>
+</div>
+
+<!--<div class="our-team-block">-->
+  <!--<div class="container">-->
+    <!--{% for item in site.data.menu.main-menu %}-->
+    <!--{% if item.url == '/team/' %}-->
+      <!--<a href="{{ site.baseurl }}{{ item.url }}"><h2>Our Team</h2></a>-->
+      <!--<p>-->
+        <!--We lead with technical excellence, innovation, and sustainable business-->
+        <!--practices. We’ve got our finger on the pulse of the open source community-->
+        <!--and we contribute back daily. We believe that company culture goes deeper-->
+        <!--than having an office ping pong table.-->
+      <!--</p>-->
+      <!--<a href="{{ site.baseurl }}{{ item.url }}" class="uppercase-link">-->
+        <!--Get to know us<i class="fa fa-caret-right"></i>-->
+      <!--</a>-->
+      <!--<a href="{{ site.baseurl }}{{ item.url }}" class="team-image">-->
+        <!--<img src="{{ site.baseurl }}/assets/images/ts_redesign/our-team.jpg" alt="Six images of our team displayed in a montage." />-->
+      <!--</a>-->
+    <!--{% endif %}-->
+  <!--{% endfor %}-->
+  <!--</div>-->
+<!--</div>-->
+
+<!--{% include careers-cta.html %}-->
