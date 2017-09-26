@@ -13,13 +13,15 @@ body.agency-main {
   width: 100%;
 
   img {
-    width: 100%;
+    display: block;
     height: auto;
+    width: 100%;
   }
 }
 
-//Agency stats block
-.agency-stats-block {
+//Agency stats block,
+//Agency awards block shared styles
+.intro-flexcolumns-section {
   background-color: $ltgray;
   padding: 3rem 0;
   text-align: center;
@@ -41,8 +43,6 @@ body.agency-main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
-    @include mq(d) { flex-wrap: wrap; }
 
     div {
       flex: 0 1 100%;
@@ -66,6 +66,96 @@ body.agency-main {
 
     }
 
+  }
+}
+
+//Specific to the Awards block
+.intro-flexcolumns-section.awards {
+  background-color: transparent;
+
+  .intro.cursive-h2 { color: $ltgray; }
+
+  .container {
+    div {
+
+      h4 { width: 100%; }
+
+      &.award,
+      &.four-col {
+        background-color: $midgray;
+      }
+
+      &.four-col {
+        height: rem(100);
+        margin: rem(16);
+        min-width: auto;
+        width: rem(100);
+        @include mq(d) { flex: 0 1 20%; }
+      }
+    }
+
+    &:after { display: none; }
+
+    @include mq(t) { flex-wrap: nowrap; }
+  }
+}
+
+//Partners block
+.intro-flexcolumns-section.partners {
+  background: transparent;
+
+  .container {
+    justify-content: space-between;
+
+    p {
+      color: $midgray;
+      text-align: left;
+      text-transform: uppercase;
+      width: 100%;
+    }
+
+    div.four-col {
+      align-content: stretch;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: flex;
+      height: rem(100);
+      min-width: auto;
+
+      @include mq(m) { margin: 0 auto .5rem auto; }
+
+      a { width: 100%; }
+
+      @include mq(t) { flex: 0 1 20%; }
+      @include mq(d) { flex: 0 1 20%; }
+
+      &:nth-of-type(1) {
+        background-image: url('../images/ts_redesign/partner-bcorp-grey.svg');
+        flex: 0 1 6%;
+      }
+      &:nth-of-type(2) {
+        background-image: url('../images/ts_redesign/partner-ntn.jpg');
+      }
+      &:nth-of-type(3) {
+        background-image: url('../images/ts_redesign/partner-drupal.jpg');
+      }
+      &:nth-of-type(4) {
+        background-image: url('../images/ts_redesign/partner-pdxwit.jpg');
+        flex: 0 1 10%;
+      }
+
+      &:nth-of-type(1),
+      &:nth-of-type(4) {
+        @include mq(m) { flex: 0 1 100%; }
+      }
+
+      &:nth-of-type(2),
+      &:nth-of-type(3) {
+        @include mq(m) { flex: 0 1 60%; }
+      }
+
+    }
   }
 }
 
@@ -240,35 +330,82 @@ body.agency-main {
   @include mq(d) { margin-left: 1px; }
 }
 
-// "Our Team" bcorp-info-block
-
-.our-team-block {
-  color: $darkgray;
-  padding: 5rem 0;
-
-  @include mq(t) { padding: 3rem 0; }
-  @include mq(m) { padding: 2rem 0; }
-
-  a h2 {
-    color: $darkgray;
-    margin: 0;
-
-    &:hover {
-      text-decoration: underline;
-    }
+.work-together {
+  .intro h4 {
+    text-align: center;
   }
 
-  p,
-  a {
-    @include mq(d) { @include span-columns(7); }
-  }
+  .full-bleed-container {
+    display: flex;
 
-  .team-image {
-    @include span-columns(12);
-    margin-top: 2rem;
+    div {
+      background-color: $ltgray;
+      flex-basis: calc(33% - 1px);
+      flex-shrink: 0;
+      flex-grow: 1;
 
-    img {
-      max-width: 100%;
+      @include mq(m) { flex: 0 1 100%; }
+      @include mq(d) {
+        margin-right: 1px;
+        &:last-of-type { margin-right: 0; }
+      }
+
+      &.join { background: url('../images/ts_redesign/agency-join.jpg') right top; }
+      &.meet { background: url('../images/ts_redesign/agency-meet.jpg') right top; }
+      &.partner { background: url('../images/ts_redesign/agency-partner.jpg') right top; }
+
+      &.join,
+      &.meet,
+      &.partner {
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 8rem 0;
+        text-align: center;
+
+        h2.cursive-h1 {
+          line-height: .5;
+          margin: 0;
+        }
+
+        @include mq(m) {
+          padding: 2rem 0;
+        }
+      }
     }
+
+    @include mq(m) { flex-wrap: wrap; }
   }
 }
+
+// "Our Team" bcorp-info-block
+//
+//.our-team-block {
+//  color: $darkgray;
+//  padding: 5rem 0;
+//
+//  @include mq(t) { padding: 3rem 0; }
+//  @include mq(m) { padding: 2rem 0; }
+//
+//  a h2 {
+//    color: $darkgray;
+//    margin: 0;
+//
+//    &:hover {
+//      text-decoration: underline;
+//    }
+//  }
+//
+//  p,
+//  a {
+//    @include mq(d) { @include span-columns(7); }
+//  }
+//
+//  .team-image {
+//    @include span-columns(12);
+//    margin-top: 2rem;
+//
+//    img {
+//      max-width: 100%;
+//    }
+//  }
+//}
