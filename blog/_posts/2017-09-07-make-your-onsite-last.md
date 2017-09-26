@@ -27,7 +27,7 @@ This intensive two-day session is meant to lay the foundation for the rest of th
 ### 1. Bring your Project Manager (PM), or someone else who will be solely responsible for taking kickass, copious notes.
 Not only should you write everything down, as a fail-safe, we also recommend recording the meetings. This is helpful in that once your PM's fingers start bleeding from all the amazing notes they're typing, you can rest assured that all of the information is still being captured and can be reference later. In addition to being a fail-safe for note taking, it allows other team members who weren't able to attend in person the opportunity to absorb all the same information. To really streamline your resources and documents, try using Google Drive and add links to the audio files in the corresponding section of the notes. Or, try a program like Microsoft OneNote which will automatically sync your notes and audio.
 
-### 2. Take lots of photos.
+## 2. Take lots of photos.
 Be sure to document any whiteboarding or sticky note activities so that you a have a visual reference when you're digging through the notes and need more context. Also, take photos of the group because they're working super-duper hard! Clients love to reflect back on evidence of the efforts they've put into their new website.
 
 ### 3. Continue the conversation with collaborative worksheets.
