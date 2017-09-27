@@ -12,7 +12,7 @@ tags:
   - Project Management
   - process
   - Onsite
-date: 2017-09-07
+date: 2017-09-27
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
