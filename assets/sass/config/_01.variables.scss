@@ -1,4 +1,5 @@
 // Colors
+$dkorange: #dc6420;
 $orange: #f26d21;
 $midorange: #f58546;
 $ltorange: #f78c50;
@@ -13,6 +14,7 @@ $orange-yellow4: #F1A52F;
 // Grayscale
 $white: #fff;
 $ltgray: #dbdcde;
+$newltgray: #ebebeb;
 $midgray: #626262;
 $darkgray: #58585b;
 $darkergray: #292929;
@@ -21,6 +23,11 @@ $black: #000;
 
 // Text
 $line-height: 1.75;
+
+//Margins and Padding
+$vertical-padding: 2rem;
+$twiceverticalpadding: 4rem;
+$hero-height: 36rem;
 
 // Helper classes
 .valign-wrap {
