@@ -1,40 +1,48 @@
+.hero-image.contact {
+  background-image: url('../images/ts_redesign/contact-hero.jpg');
+}
+
 .contact-form {
-  background: $yellow;
-  padding: 4rem 0;
+  padding: $vertical-padding 0;
 
   .form-row {
     @include outer-container;
   }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
-.inquiry-text {
-  @include span-columns(6);
+.contact-events-wrapper {
+  flex: 0 1 40%;
+  @include mq(m) { flex: 0 1 100%; }
+}
 
-  @include mq(m) {
-    @include span-columns(12);
-  }
+.contact-info {
+  background-color: $ltorange;
+  margin-top: -4rem;
+  padding: $twiceverticalpadding 0;
+  text-align: center;
 
-  h4 {
-    color: $darkgray;
-    margin-top: 0;
+  .fa.fa-map-marker {
+    color: $dkorange;
     font-size: 2rem;
+    padding-top: $vertical-padding;
   }
 
-  strong {
-    color: $darkgray;
-  }
-
-  p {
-    color: $darkgray;
+  p, h3 {
+    color: $white;
+    font-size: 1.25rem;
+    line-height: $line-height;
   }
 }
 
 form.contact {
-  @include span-columns(6);
+  flex: 0 1 50%;
 
-  @include mq(m) {
-    @include span-columns(12);
-  }
+  @include mq(m) { flex: 0 1 100%; }
 
   label {
     display: block;
@@ -45,7 +53,7 @@ form.contact {
   textarea,
   input[type=email],
   input[type=text] {
-    border: rem(1) solid $ltgray;
+    border: rem(1) solid $midgray;
     display: block;
     margin-bottom: 1rem;
     padding: 0.75rem 1rem;
