@@ -1,0 +1,11 @@
+.blog-header-image,
+.hero-image {
+  background-size: cover;
+  height: $hero-height;
+  width: 100%;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
