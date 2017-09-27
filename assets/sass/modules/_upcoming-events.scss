@@ -1,6 +1,11 @@
 .upcoming-events {
   padding: 4rem 0;
 
+  p strong {
+    color: $midgray;
+    text-transform: uppercase;
+  }
+
   h4 {
     color: $darkgray;
     margin-top: 0;
@@ -16,10 +21,17 @@
     &:last-of-type {
       border: none;
     }
+
+    p {
+      color: $midgray;
+      font-weight: 400;
+      margin-top: .5rem;
+    }
   }
 
-  .event h3 {
-    margin-top: 0;
+  .event h2 {
+    margin: 0;
+    font-size: rem(22);
 
     a {
       color: $orange;
@@ -50,18 +62,18 @@
     }
   }
 
-  .event .date {
-    @include span-columns(3);
-
-    @include mq(m) {
-      @include span-columns(12);
-      margin-bottom: 1rem;
-    }
-
-    span {
-      font-weight: bold;
-    }
-  }
+  //.event .date {
+  //  @include span-columns(3);
+  //
+  //  @include mq(m) {
+  //    @include span-columns(12);
+  //    margin-bottom: 1rem;
+  //  }
+  //
+  //  span {
+  //    font-weight: bold;
+  //  }
+  //}
 
   .event .detail {
     @include span-columns(9);

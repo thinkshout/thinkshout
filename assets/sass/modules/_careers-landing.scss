@@ -1,25 +1,16 @@
+.careers-header { background-image: url('{{ site.baseurl }}/assets/images/ts_redesign/career-pages.jpg'); }
+
 .careers {
   color: $darkgray;
 
-  .careers-header h2 {
-    font-size: rem(45) !important;
-  }
-
-  #careers-blurb {
-    font-size: rem(20);
-    font-style: italic;
-    text-align: center;
-
-    @include mq(d) {
-      font-size: 1.5rem;
-      max-width: 75%;
-      margin: 4rem auto;
-    }
+  .careers-hero {
+    background: url('../images/ts_redesign/careers-hero-aerial.jpg') center top;
+    height: $hero-height;
   }
 
   .job-list {
     .job-teaser {
-      text-align: center;
+      text-align: left;
 
       &:first-of-type {
         border-top: 1px solid $ltgray;
@@ -85,32 +76,37 @@
       }
     }
     #whr_embed_hook {
-      text-align: center;
+      text-align: left;
       .whr-item {
         border-bottom: 1px solid $ltgray;
         padding-bottom: 3rem;
         padding-top: 1rem;
-        text-align: center;
+        text-align: left;
       }
+
       ul {
         li {
           line-height: 1.75;
+
         }
       }
+
       h3 {
         font-size: rem(26);
+        margin-bottom: 0;
       }
-      .whr-date {
-        display: none;
-      }
+
+      .whr-date,
+      .whr-code { display: none; }
+
     }
   }
 
   .keep-me-in-mind {
-    background: $ltgray;
+    background: $newltgray;
     color: $darkgray;
     margin: 3.5rem 0;
-    padding: 1rem 1rem;
+    padding: $vertical-padding 1rem;
     text-align: center;
 
     .text {
@@ -170,5 +166,17 @@
     a {
       color: $white;
     }
+  }
+}
+
+.two-col-flex {
+  display: flex;
+  padding-bottom: $vertical-padding;
+  width: 100%;
+
+  div { flex: 0 1 50%; }
+
+  div:first-of-type {
+    padding-right: 1rem;
   }
 }
