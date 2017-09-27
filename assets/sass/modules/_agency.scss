@@ -9,16 +9,6 @@ body.agency-main {
   }
 }
 
-.blog-header-image {
-  width: 100%;
-
-  img {
-    display: block;
-    height: auto;
-    width: 100%;
-  }
-}
-
 //Agency stats block,
 //Agency awards block shared styles
 .intro-flexcolumns-section {
@@ -106,13 +96,6 @@ body.agency-main {
 
   .container {
     justify-content: space-between;
-
-    p {
-      color: $midgray;
-      text-align: left;
-      text-transform: uppercase;
-      width: 100%;
-    }
 
     div.four-col {
       align-content: stretch;
