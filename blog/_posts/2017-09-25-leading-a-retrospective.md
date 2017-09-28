@@ -1,12 +1,12 @@
 ---
 layout: blog
 body-class: blog-post
-topic: Project Management
+topic: process
 title: How to Lead a Retrospective for a More Successful Project
-homepage: true
-author: Rose
+homepage: false
+author: rose
 published: true
-featured: false
+featured: true
 short: Rose walks us through how to run a retrospective meeting, and why they're a vital component to the close of every project.
 tags:
   - Project Management
@@ -61,4 +61,4 @@ We can't help but do a retrospective on our retrospectives! We could do a better
 ### Why are retrospectives important?
 As project managers, it's our responsibility to not set our processes in stone, but rather to keep improving. A retrospective is an excellent way to make processes better and more efficient for entire project teams. It also helps your team members to feel heard and supported because they see that processes re not coming from on high, but are based on their direct feedback. Finally, retrospectives let you fix pain points before they begin to negatively impact your team or your client.
 
-Do you hold retrospectives at your organization? What has worked well for you? Drop us a line and let us know!](https://thinkshout.com/contact/)
+Do you hold retrospectives at your organization? What has worked well for you? Drop us a line and [let us know!](https://thinkshout.com/contact/)
