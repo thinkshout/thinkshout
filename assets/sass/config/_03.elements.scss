@@ -36,8 +36,9 @@ p {
   line-height: $line-height;
 }
 
-.intro {
-  font-size: 1.25rem;
+.intro,
+.text p {
+  font-size: 1.5rem;
   line-height: $line-height;
   margin: 0 auto;
   text-align: center;
@@ -119,7 +120,6 @@ form.contact label {
   color: $midgray;
   font-size: .8rem;
   font-weight: 900;
-  margin-bottom: $vertical-padding;
   position: relative;
   text-align: left;
   text-transform: uppercase;

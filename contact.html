@@ -87,3 +87,28 @@ title: Contact
     </form>
   </div>
 </div>
+
+<div class="container">
+  <div class="featured-intro">
+    <a href="{{ site.baseurl }}/work/"><h4>Featured Work</h4></a>
+    <a href="{{ site.baseurl }}/work/" class="uppercase-link">More work<i class="fa fa-caret-right"></i></a>
+  </div>
+
+  <div class="two-case-studies">
+    {% assign case-studies = site.case_studies | where: "homepage", "true" | sort: "order" %}
+    {% for case in case-studies limit:3 %}
+      {% if case.order > 1 %}
+      <a href="{{ site.baseurl }}{{ case.url }}">
+        <div class="case-study" id="case-study{{ case.order }}">
+          <style>
+            #case-study{{ case.order }} { background: url('{{ site.baseurl }}{{ case.cs-preview.image }}') center center no-repeat; }
+          </style>
+          <div class="case-study-text">
+            <h2>{{ case.cs-preview.client }}</h2>
+          </div>
+        </div>
+      </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
