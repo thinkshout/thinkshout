@@ -2,7 +2,7 @@
   background: transparent;
   border: 1px solid $orange;
   color: $orange;
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
   text-transform: uppercase;
   @include transition(0.5s all);
 
@@ -15,6 +15,14 @@
 }
 
 .button.solid {
-  background: $orange;
+  background-color: $orange;
   color: $white;
+}
+
+.contact .form-actions {
+  background-image: url('../images/ts_redesign/arrow-right.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  //position: relative;
 }
