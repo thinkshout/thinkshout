@@ -1,8 +1,8 @@
 .blog-header-image,
 .hero-image {
   background-size: cover;
+  background-repeat: no-repeat;
   height: auto;
-  max-height: $hero-height;
   width: 100%;
 
   img {

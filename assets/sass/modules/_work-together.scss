@@ -3,6 +3,7 @@
 
   .full-bleed-container {
     display: flex;
+    width: 100vw;
 
     div {
       background-color: $ltgray;
@@ -33,7 +34,10 @@
         h2.cursive-h1 {
           line-height: .5;
           margin: 0;
+          text-decoration: none;
         }
+
+        a:hover { text-decoration: none; }
 
         @include mq(m) { padding: calc(2 * #{$verticalpadding}) 0; }
       }
