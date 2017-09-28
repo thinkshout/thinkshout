@@ -244,6 +244,7 @@ body.agency-main {
 .diversity-pledge-block {
   background-size: cover;
   background-repeat: no-repeat;
+  border-bottom: 1px solid white;
   display: inline-block;
   flex-basis: calc(50% - 1px);
   flex-grow: 0;
@@ -302,13 +303,13 @@ body.agency-main {
 }
 
 .bcorp-info-block {
-  background: url('../images/ts_redesign/bcorp-background.jpg') right top;
+  background: url('../images/ts_redesign/bcorp-background.jpg') center center;
   h4 span { color: $yellow; }
   @include mq(d) { margin-right: 1px; }
 }
 
 .diversity-pledge-block {
-  background: url('../images/ts_redesign/diversity-background.jpg') right top;
+  background: url('../images/ts_redesign/diversity-background.jpg') center center;
   h4 span { color: $ltorange; }
   @include mq(d) { margin-left: 1px; }
 
