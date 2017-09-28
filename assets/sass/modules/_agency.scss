@@ -249,17 +249,17 @@ body.agency-main {
   flex-grow: 0;
   flex-shrink: 1;
   min-width: rem(400);
-  padding: 5rem 0;
+  padding: calc(2 * #{$verticalpadding}) 0;
   text-align: center;
 
   @include mq(t) {
     flex: 0 1 auto;
-    padding: 2rem 0;
+    padding: $verticalpadding 0;
   }
   @include mq(m) {
     flex: 0 1 auto;
     min-width: rem(300);
-    padding: 2rem 0;
+    padding: $verticalpadding 0;
   }
 
   h4 {
@@ -309,55 +309,10 @@ body.agency-main {
 
 .diversity-pledge-block {
   background: url('../images/ts_redesign/diversity-background.jpg') right top;
-  h4 span { color: $orange; }
+  h4 span { color: $ltorange; }
   @include mq(d) { margin-left: 1px; }
-}
 
-.work-together {
-  .intro h4 {
-    text-align: center;
-  }
-
-  .full-bleed-container {
-    display: flex;
-
-    div {
-      background-color: $ltgray;
-      flex-basis: calc(33% - 1px);
-      flex-shrink: 0;
-      flex-grow: 1;
-
-      @include mq(m) { flex: 0 1 100%; }
-      @include mq(d) {
-        margin-right: 1px;
-        &:last-of-type { margin-right: 0; }
-      }
-
-      &.join { background: url('../images/ts_redesign/agency-join.jpg') right top; }
-      &.meet { background: url('../images/ts_redesign/agency-meet.jpg') right top; }
-      &.partner { background: url('../images/ts_redesign/agency-partner.jpg') right top; }
-
-      &.join,
-      &.meet,
-      &.partner {
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 8rem 0;
-        text-align: center;
-
-        h2.cursive-h1 {
-          line-height: .5;
-          margin: 0;
-        }
-
-        @include mq(m) {
-          padding: 2rem 0;
-        }
-      }
-    }
-
-    @include mq(m) { flex-wrap: wrap; }
-  }
+  .fa-caret-right { color: $ltorange; }
 }
 
 // "Our Team" bcorp-info-block

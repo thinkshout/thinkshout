@@ -106,7 +106,7 @@
     background: $newltgray;
     color: $darkgray;
     margin: 3.5rem 0;
-    padding: $vertical-padding 1rem;
+    padding: $verticalpadding 1rem;
     text-align: center;
 
     .text {
@@ -171,7 +171,7 @@
 
 .two-col-flex {
   display: flex;
-  padding-bottom: $vertical-padding;
+  padding-bottom: $verticalpadding;
   width: 100%;
 
   div { flex: 0 1 50%; }

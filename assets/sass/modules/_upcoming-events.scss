@@ -1,6 +1,8 @@
 .upcoming-events {
   padding: 4rem 0;
 
+  @include mq(m) { padding: $verticalpadding 0; }
+
   p strong {
     color: $midgray;
     text-transform: uppercase;

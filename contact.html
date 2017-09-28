@@ -36,7 +36,6 @@ title: Contact
           <div class="event">
             <h2><a href="{{event.url}}" target="_blank">{{event.title}}</a></h2>
             <p><strong>{{event.dates}}</strong> &nbsp;|&nbsp; {{event.location}}</p>
-            <!--<p>{{event.description}}</p>-->
           </div>
         {% endfor %}
       </div>
@@ -88,7 +87,7 @@ title: Contact
   </div>
 </div>
 
-<div class="container">
+<div class="container featured-case-studies">
   <div class="featured-intro">
     <a href="{{ site.baseurl }}/work/"><h4>Featured Work</h4></a>
     <a href="{{ site.baseurl }}/work/" class="uppercase-link">More work<i class="fa fa-caret-right"></i></a>
@@ -110,5 +109,21 @@ title: Contact
       </a>
       {% endif %}
     {% endfor %}
+  </div>
+</div>
+
+<!--ADD TWO-COL OR THREE-COL CLASS TO FULL-BLEED-CONTAINER DEPENDING ON THE NUMBER OF BLOCKS-->
+<div class="work-together">
+  <div class="intro"><h4>Let's work together</h4></div>
+  <div class="full-bleed-container two-col">
+    <div class="join"><h2 class="cursive-h1">Join</h2>
+      <a href="{{ item.url }}" class="uppercase-link white" target="_blank">
+        The team<i class="fa fa-caret-right"></i>
+      </a></div>
+    <div class="meet"><h2 class="cursive-h1">Meet</h2>
+      <a href="{{ item.url }}" class="uppercase-link white" target="_blank">
+        Our people<i class="fa fa-caret-right"></i>
+      </a>
+    </div>
   </div>
 </div>

@@ -3,7 +3,9 @@
 }
 
 .contact-form {
-  padding: $vertical-padding 0;
+  padding: $verticalpadding 0;
+
+  @include mq(m) { padding: 0; }
 
   .form-row {
     @include outer-container;
@@ -12,24 +14,31 @@
   .container {
     display: flex;
     justify-content: space-between;
+
+    @include mq(p) { flex-wrap: wrap-reverse; }
+    @include mq(m) { flex-wrap: wrap-reverse; }
   }
 }
 
 .contact-events-wrapper {
   flex: 0 1 40%;
+  @include mq(p) { flex: 0 1 100%; }
   @include mq(m) { flex: 0 1 100%; }
 }
 
 .contact-info {
   background-color: $ltorange;
   margin-top: -4rem;
-  padding: $twiceverticalpadding 0;
+  padding: calc(2 * #{$verticalpadding}) 0;
   text-align: center;
+
+  @include mq(p) { margin-top: $verticalpadding; }
+  @include mq(m) { margin-top: $verticalpadding; }
 
   .fa.fa-map-marker {
     color: $dkorange;
     font-size: 2rem;
-    padding-top: $vertical-padding;
+    padding-top: $verticalpadding;
   }
 
   p, h3 {
@@ -42,6 +51,7 @@
 form.contact {
   flex: 0 1 50%;
 
+  @include mq(p) { flex: 0 1 100%; }
   @include mq(m) { flex: 0 1 100%; }
 
   label {

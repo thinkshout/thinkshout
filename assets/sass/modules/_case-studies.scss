@@ -1,4 +1,8 @@
-// Three case studies
+// Featured case study followed by two col featured story
+//Used on homepage and contact page
+
+.container.featured-case-studies { margin-bottom: calc(2 * #{$verticalpadding}); }
+
 .two-case-studies {
   overflow: hidden;
 
