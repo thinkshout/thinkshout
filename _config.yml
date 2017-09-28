@@ -54,7 +54,7 @@ collections:
     permalink: /expertise/:slug/
   team:
     output: true
-    permalink: /team/:slug/
+    permalink: /agency/team/:slug/
   topic:
     output: true
     permalink: /blog/topic/:slug/
