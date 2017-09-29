@@ -2522,6 +2522,7 @@ body.agency-main .intro .text {
 .diversity-pledge-block {
   background-size: cover;
   background-repeat: no-repeat;
+  border-bottom: 1px solid white;
   display: inline-block;
   flex-basis: calc(50% - 1px);
   flex-grow: 0;
@@ -2577,7 +2578,7 @@ body.agency-main .intro .text {
     color: #f1b332; }
 
 .bcorp-info-block {
-  background: url("../images/ts_redesign/bcorp-background.jpg") right top; }
+  background: url("../images/ts_redesign/bcorp-background.jpg") center center; }
   .bcorp-info-block h4 span {
     color: #f1b332; }
   @media (min-width: 980px) {
@@ -2585,7 +2586,7 @@ body.agency-main .intro .text {
       margin-right: 1px; } }
 
 .diversity-pledge-block {
-  background: url("../images/ts_redesign/diversity-background.jpg") right top; }
+  background: url("../images/ts_redesign/diversity-background.jpg") center center; }
   .diversity-pledge-block h4 span {
     color: #f78c50; }
   @media (min-width: 980px) {
@@ -6359,8 +6360,8 @@ header {
 .blog-header-image,
 .hero-image {
   background-size: cover;
+  background-repeat: no-repeat;
   height: auto;
-  max-height: 36rem;
   width: 100%; }
   .blog-header-image img,
   .hero-image img {
@@ -6967,7 +6968,8 @@ header {
 .work-together .intro h4 {
   text-align: center; }
 .work-together .full-bleed-container {
-  display: flex; }
+  display: flex;
+  width: 100vw; }
   .work-together .full-bleed-container div {
     background-color: #dbdcde;
     flex-shrink: 0;
@@ -6993,7 +6995,10 @@ header {
           padding: 12rem 0; } }
       .work-together .full-bleed-container div.join h2.cursive-h1, .work-together .full-bleed-container div.meet h2.cursive-h1, .work-together .full-bleed-container div.partner h2.cursive-h1 {
         line-height: .5;
-        margin: 0; }
+        margin: 0;
+        text-decoration: none; }
+      .work-together .full-bleed-container div.join a:hover, .work-together .full-bleed-container div.meet a:hover, .work-together .full-bleed-container div.partner a:hover {
+        text-decoration: none; }
       @media (max-width: 480px) {
         .work-together .full-bleed-container div.join, .work-together .full-bleed-container div.meet, .work-together .full-bleed-container div.partner {
           padding: calc(2 * 2rem) 0; } }
