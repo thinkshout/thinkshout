@@ -75,7 +75,7 @@ This [generates](http://bundler.io/v1.3/rationale.html) a `Gemfile.lock` listing
 The `npm install` lines in the Rakefile setup tools that we’ll discuss later. Our next layer in the stack are the SASS tools that Bundler installed.
 
 ## SASS at ThinkShout (please pass the Bourbon)
-In the middle of our stack is [SASS](http://sass-lang.com/. We use SASS in a fairly simple way at ThinkShout, installing it with [sass-globbing](https://rubygems.org/gems/sass-globbing. This allows us to set up directories that allow any files using the appropriate `_filename.scss` syntax to be included in the build. We also tend to keep the directory structure fairly minimal:
+In the middle of our stack is [SASS](http://sass-lang.com/). We use SASS in a fairly simple way at ThinkShout, installing it with [sass-globbing](https://rubygems.org/gems/sass-globbing). This allows us to set up directories that allow any files using the appropriate `_filename.scss` syntax to be included in the build. We also tend to keep the directory structure fairly minimal:
 
 `style.scss`:
 
@@ -90,9 +90,9 @@ In the middle of our stack is [SASS](http://sass-lang.com/. We use SASS in a fai
 
 The first thing we include is the [Bourbon](http://bourbon.io/) mixin library. This includes coding shortcuts such as the [pixels-to-rems](http://bourbon.io/docs/#px-to-rem) syntax `rem(24)`. This allows us to read a design’s pixel spacing and it converts them to the appropriate rem values. The [Bourbon Docs](http://bourbon.io/docs/) are excellent and well-maintained as well. Never worry about browser prefixes or fallbacks again.
 
-Next up is the Bourbon-related grid framework, [Neat](http://neat.bourbon.io/. A simple but powerful grid that uses semantic markup and easy-to-read terminology such as `@include span-columns(9)`. No extra wrappers, no specific classes to add, and it’s extremely robust. We haven’t run into any cross-browser issues in over two years of using it, which says a lot, and since it’s only applied as you specify, it’s easy to break out of the grid if you need to.
+Next up is the Bourbon-related grid framework, [Neat](http://neat.bourbon.io/). A simple but powerful grid that uses semantic markup and easy-to-read terminology such as `@include span-columns(9)`. No extra wrappers, no specific classes to add, and it’s extremely robust. We haven’t run into any cross-browser issues in over two years of using it, which says a lot, and since it’s only applied as you specify, it’s easy to break out of the grid if you need to.
 
-Next up is [normalize.css](https://github.com/necolas/normalize.css, a modern update to the old CSS reset stylesheets. Not really much to add to that except it’s _really_ well commented, so make sure you change it from `normalize.css` to `_normalize.scss` so that you don’t bloat your final `site.css` file.
+Next up is [normalize.css](https://github.com/necolas/normalize.css), a modern update to the old CSS reset stylesheets. Not really much to add to that except it’s _really_ well commented, so make sure you change it from `normalize.css` to `_normalize.scss` so that you don’t bloat your final `site.css` file.
 
 The `Global` directory has the following:
 
