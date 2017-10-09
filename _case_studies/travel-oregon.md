@@ -5,7 +5,7 @@ body-class: case-study tror
 active: true
 homepage: false
 published: true
-order: 12
+order: 16
 # END LAYOUT DATA
 
 title: To Delight and Inspire.
@@ -21,12 +21,13 @@ cs-preview:
 cs-header:
   header-image: /assets/images/work/tolerance/TT-homepage.jpg
   client: "Travel Oregon"
-  title: "Bringing the wonders of Oregon directly to you."
+  title: "To Delight and Inspire."
 
 cs-intro:
   type: "Travel Oregon"
-  mission: "We think Oregon is kind of a big deal. From the coastline in the west to the deserts in the east, there's a lot to do here. But how on earth does one convey the majesty of this state through a website and not only inform, but tempt them to visit and see it with their own eyes? That was the goal of the Travel Oregon website redesign: To delight and inspire people to come to Oregon and realize that yes, they like it here too."
+  mission: "Bringing the wonders of Oregon directly to you."
   text: |
+    We think Oregon is kind of a big deal. From the coastline in the west to the deserts in the east, there's a lot to do here. But how on earth does one convey the majesty of this state through a website and not only inform, but tempt them to visit and see it with their own eyes? That was the goal of the Travel Oregon website redesign: To delight and inspire people to come to Oregon and realize that yes, they like it here too.
 
 cs-sections:
   - section-title: "Discovery and Design"
