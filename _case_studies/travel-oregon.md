@@ -13,13 +13,13 @@ title: To Delight and Inspire.
 cs-class: "tror"
 
 cs-preview:
-  image: /assets/images/work/tolerance/TT-homepage.jpg
+  image: /assets/images/work/travel-oregon/the-gorge.png
   type: "Responsive WordPress Site"
   client: "Travel Oregon"
   description: "Bringing the wonders of Oregon directly to you."
 
 cs-header:
-  header-image: /assets/images/work/tolerance/TT-homepage.jpg
+  header-image: /assets/images/work/travel-oregon/the-gorge.png
   client: "Travel Oregon"
   title: "To Delight and Inspire."
 
@@ -34,8 +34,8 @@ cs-sections:
     section-description: |
       Travel Oregon is the official tourism marketing organization for the State of Oregon. They work to enhance visitors' experiences by provising information, resources, and trip planning tools that inrpire travel and consistently convey the exceptional quality of Oregon. We embarked on this project with Travel Oregon when they were part of the way through the discovery phase. They already had recommended and approved site architecture, user research and project goals. So we leveraged our remaining discovery process to deliver a site that showcased their mass amounts of editorial content and gorgeous imagery.
 
-  - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Bullying-Bias-1.png"
-    section-image-alt: "Image: Tolerance.org Desktop and Mobile"
+  - section-image: "/assets/images/work/travel-oregon/TROR-Landscapes-2.jpg"
+    section-image-alt: "Image: Aurora over Crater Lake"
 
   - section-title:
     section-description: |
@@ -43,40 +43,40 @@ cs-sections:
 
       In addition, midway through the project, Travel Oregon went through a rebrand which proved to be a huge lift for all involved. The previous site was filled with whimsy, illustrations, and generally had a warm, earthy feel. The new brand pushed the site into a modern aesthetic. Some key design choices were made to retain the playful vibe expected from Travel Oregon's fan base, however their future presence needed to feel clean, bright, and inspired.
 
-  - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Bullying-Bias-1.png"
-    section-image-alt: "Image: Tolerance.org Desktop and Mobile"
-
-  - section-title:
-    section-description: |
       One of the things we felt strongly about in taking on this project was the concept of giving users a sense of "place." It's that feeling you get when you see an image of a location so breath-taking that you want to go see it for yourself. And Oregon has no shortage of impressive vistas.
 
-  - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Actionable-Content-1.png"
-    section-image-alt: "Image: Examples of actionable content such as featured articles with a 'Teach This' button that adds content directly to your learning plan."
-
-  - section-title:
-    section-description: |
       We wanted users to really, truly picture themselves here; and we achieved this through a feature we implemented on the homepage hero. Visit TravelOregon.com at various times of day from other time zones, and you'll be served up a scenic image from somewhere in Oregon at the local time here, in Oregon.
 
-  - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Actionable-Content-1.png"
-    section-image-alt: "Image: Examples of actionable content such as featured articles with a 'Teach This' button that adds content directly to your learning plan."
+  - section-image: "/assets/images/work/travel-oregon/TO-HP-night.png"
+    section-image-alt: "Image: Example of homepage hero when it's evening in the Pacific time zone."
+
+  - section-image: "/assets/images/work/travel-oregon/TO-HP-2up.png"
+    section-image-alt: "Image: Example of homepage hero at other local times during the day (afternoon and evening)."
 
   - section-title:
     section-description: |
       Instantly, a user is transported to the Painted Hills, a hike in the forest, or a waterfall out of a fairy tale.
 
-  cs-sections:
   - section-title: "Front-End"
     section-description: |
       The most unique element of Travel Oregon's site goes back to the rebrand. We had to skin the theme and apply the new brand halfway through the project lifecycle. This was achieved in record time (a few weeks), and it was due to the care and consistency with which the initial theme was developed.
 
       The design embodies how many Oregonians feel about our state: it's picturesque, has many wide-open and grand natural spaces to explore, and a warm and friendly culture that is often synonymous with a small-town feel. It was important for the front-end team to translate these designs into reality with this in mind.
 
-      At first glance, visitors will notice the images and will find it very easy to dive deeper into the site down to micro-levels of content that speak to their interests. After sticking around the site a bit longer, visitors may even notice the details of whimsy: 7 different colors for 7 different regions, the aforementioned hero image and time on the home page changing throughout the day, the Oregon skyline textures scattered across the site. Even the dashed horizontal rule has its own story.
+      At first glance, visitors will notice the images and will find it very easy to dive deeper into the site down to micro-levels of content that speak to their interests. After sticking around the site a bit longer, visitors may even notice the details of whimsy: 7 different colors for 7 different regions, the aforementioned hero image and time on the home page changing throughout the day, the Oregon skyline textures scattered across the site. Even the dashed horizontal rule has its own story, spelling out Oregon in morse code.
 
+  - section-image: "/assets/images/work/travel-oregon/TROR-Regional-Colors.jpg"
+    section-image-alt: "Image: Example of regional colors to distinguish site content"
+
+  - section-image: "/assets/images/work/travel-oregon/TROR-Texture-Details.jpg"
+    section-image-alt: "Image: Keeping whimsy with textures and morse code across the site"
+
+  - section-title:
+    section-description: |
       There was special attention placed on mobile responsiveness and browser compatibility. Considering many visitors would potentially be exploring this site while on their Oregon vacation, we needed to ensure that accessibility wasn't hindered in any way. All content, maps, and resources needed to be seamlessly served up in the mobile experience.
 
-  - section-image: "/assets/images/work/tolerance/TS-Case-Studies-Tolerance-Bullying-Bias-1.png"
-    section-image-alt: "Image: Tolerance.org Desktop and Mobile"
+  - section-image: "/assets/images/work/travel-oregon/TROR-Mobile-Travellers.jpg"
+    section-image-alt: "Image: traveloregon.com mobile views of maps and articles"
 
   - section-title: "Collaboration, Integration, and Implementation...Oh my!"
     section-description: |
@@ -86,17 +86,24 @@ cs-sections:
 
       One of the most vital components of the Travel Oregon site is the request form for Travel Guides. Increasing distribution of these guides is one of the leading KPI's (Key Performance Indicators) for this project; and the seamless integration of those request forms was top of mind. So we worked with Co-Operations to be sure we understood how information needed to be captured and sent to them for fulfillment of said travel guides. Of course, Travel Oregon also has their sights set on expanding their digital audience. For that we worked with Tourism Engine, who manages their email list and travel newsletter. Needless to say, there were integrations galore, and assuring all invested parties that we would connect the dots in this complex ecosystem was no small feat!
 
+  - section-image: "/assets/images/work/travel-oregon/TROR-Landscapes.jpg"
+    section-image-alt: "Image: Oregon landscapes at different screen sizes"
+
+  - section-title:
+    section-description: |
       We built the site on WordPress (WP) -- our largest build in the platform to-date. Travel Oregon's database (OTIS) has its own heirarchical structure, but we built an approach in WP to allow all the robust content to import and scaffold into a distinct heirarchy on the WP side that is maintained in a constant integration. It proved to be a *very* complex yet necessary integration. But we did develop a custom WP plugin to support the integration with the OTIS API. Did we mention we also had to merge content from Ride Oregon Ride into this new site? Because we totally did.
 
-      Performance of the site on a variety of devices was key -- as part of the redesign, we focused on the performance of the platform, the code, and of course, the content. At the platform level, Travel Oregon selected Pantheon for their reliability, highly tuned hosting environment and the inclusion of their Fastly-backed Global CDN. Throughout development, inefficient code was refactored and additional services such as ElasticSearch were implemented to increase performance. As content is created, images are optimized (without taking away from their quality) to quickly deliver all of those juicy, rich landscapes to you.
+      Performance of the site on a variety of devices was key -- as part of the redesign, we focused on the performance of the platform, the code, and of course, the content, At the platform level, Travel Oregon selected Pantheon for their reliability, highly tuned hosting environment and the includion of their Fastly-backed Global CDN. Throughout development, inefficient code was refactored and additional services such as ElasticSearch were implemented to increase performance. As content is created, imaged are optimized (without takeing away from their wuality) to quickly deliver all of those juicy, rich landscapes to you.
 
-      Worth noting that it's rather unusual for a site serving up images at such a high volume to be as quick as this. Significant efforts were made to optimize images to speed things up for the modern user that is both impatient and expects immediate results from their technology.
+  - section-image: "/assets/images/work/travel-oregon/welikeithere.png"
+    section-image-alt: "Image: Grid of Oregon locations and activities across the state"
 
   - section-title: "The Results"
-    section-description: |
+    section-description: |  
       Overall, ThinkShout maintained a strong UX narrative throughout the project lifecycle -- this project was really more about how Travel Oregon could serve their audiences and tell an attractive, content-rich story of Oregon and all that it has to offer.
 
       The result was the merging of two sites (the former TravelOregon.com and Ride Oregon Ride) that now make this the go-to site for all things indoor and outdoor in Oregon. It welcomes hours of exploration and information for those considering a visit as well as resident Oregonians themselves.
+
 
 cs-cta-text: Launch Site
 cs-cta-url: https://www.traveloregon.com/
