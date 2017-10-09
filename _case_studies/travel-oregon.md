@@ -10,7 +10,7 @@ order: 12
 
 title: To Delight and Inspire.
 
-cs-class: "travel-oregon"
+cs-class: "tror"
 
 cs-preview:
   image: /assets/images/work/tolerance/TT-homepage.jpg
