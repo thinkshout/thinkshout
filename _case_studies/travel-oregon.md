@@ -14,7 +14,7 @@ cs-class: "tror"
 
 cs-preview:
   image: /assets/images/work/tolerance/TT-homepage.jpg
-  type: Responsive WordPress Site
+  type: "Travel Oregon"
   client: "Travel Oregon"
   description: "Bringing the wonders of Oregon directly to you."
 
