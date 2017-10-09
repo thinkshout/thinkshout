@@ -32,7 +32,7 @@ cs-intro:
 cs-sections:
   - section-title: "Discovery and Design"
     section-description: |
-      Travel Oregon is the official tourism marketing organization for the State of Oregon. They work to enhance visitors' experiences by provising information, resources, and trip planning tools that inrpire travel and consistently convey the exceptional quality of Oregon. We embarked on this project with Travel Oregon when they were part of the way through the discovery phase. They already had recommended and approved site architecture, user research and project goals. So we leveraged our remaining discovery process to deliver a site that showcased their mass amounts of editorial content and gorgeous imagery.
+      Travel Oregon is the official tourism marketing organization for the State of Oregon. They work to enhance visitors' experiences by providing information, resources, and trip planning tools that inspire travel and consistently convey the exceptional quality of Oregon. We embarked on this project with Travel Oregon when they were part of the way through the discovery phase. They already had recommended and approved site architecture, user research and project goals. So we leveraged our remaining discovery process to deliver a site that showcased their mass amounts of editorial content and gorgeous imagery.
 
   - section-image: "/assets/images/work/travel-oregon/TROR-Landscapes-2.jpg"
     section-image-alt: "Image: Aurora over Crater Lake"
@@ -80,7 +80,7 @@ cs-sections:
 
   - section-title: "Collaboration, Integration, and Implementation...Oh my!"
     section-description: |
-      There were a lot of players involved in this rebuild. As with many of our projects, we needed to partner with several third party vendors to make sure all the pieced synced and that there would be no gaps in the process for Travel Oregon. Wieden+Kennedy was responsible for the re-brand that was released midway through the project, and we worked closely with their team to apply their shiny, modern brand into our design concepts.
+      There were a lot of players involved in this rebuild. As with many of our projects, we needed to partner with several third party vendors to make sure all the pieced synced and that there would be no gaps in the process for Travel Oregon. [Wieden+Kennedy](http://www.wk.com/) was responsible for the re-brand that was released midway through the project, and we worked closely with their team to apply their shiny, modern brand into our design concepts.
 
       TenBridges is the agency that rebuilt the platform responsible for supporting the robust listing content (OTIS). The scaffolding for that content occurred in parallel with our rebuild in WordPress. Needless to say, it was high-risk for us to simultaneously define data structures in supporting systems; and had to be in sync every step of the way to ensure content appeared as intended to administrators and end-users alike.
 
@@ -91,9 +91,9 @@ cs-sections:
 
   - section-title:
     section-description: |
-      We built the site on WordPress (WP) -- our largest build in the platform to-date. Travel Oregon's database (OTIS) has its own heirarchical structure, but we built an approach in WP to allow all the robust content to import and scaffold into a distinct heirarchy on the WP side that is maintained in a constant integration. It proved to be a *very* complex yet necessary integration. But we did develop a custom WP plugin to support the integration with the OTIS API. Did we mention we also had to merge content from Ride Oregon Ride into this new site? Because we totally did.
+      We built the site on WordPress (WP) -- our largest build in the platform to-date. Travel Oregon's database (OTIS) has its own hierarchical structure, but we built an approach in WP to allow all the robust content to import and scaffold into a distinct hierarchy on the WP side that is maintained in a constant integration. It proved to be a *very* complex yet necessary integration. But we did develop a custom WP plugin to support the integration with the OTIS API. Did we mention we also had to merge content from Ride Oregon Ride into this new site? Because we totally did.
 
-      Performance of the site on a variety of devices was key -- as part of the redesign, we focused on the performance of the platform, the code, and of course, the content, At the platform level, Travel Oregon selected Pantheon for their reliability, highly tuned hosting environment and the includion of their Fastly-backed Global CDN. Throughout development, inefficient code was refactored and additional services such as ElasticSearch were implemented to increase performance. As content is created, imaged are optimized (without takeing away from their wuality) to quickly deliver all of those juicy, rich landscapes to you.
+      Performance of the site on a variety of devices was key -- as part of the redesign, we focused on the performance of the platform, the code, and of course, the content, At the platform level, Travel Oregon selected Pantheon for their reliability, highly tuned hosting environment and the inclusion of their Fastly-backed Global CDN. Throughout development, inefficient code was refactored and additional services such as ElasticSearch were implemented to increase performance. As content is created, imaged are optimized (without taking away from their quality) to quickly deliver all of those juicy, rich landscapes to you.
 
   - section-image: "/assets/images/work/travel-oregon/welikeithere.png"
     section-image-alt: "Image: Grid of Oregon locations and activities across the state"
