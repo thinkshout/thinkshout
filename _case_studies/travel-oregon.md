@@ -30,6 +30,7 @@ cs-intro:
     We think Oregon is kind of a big deal. From the coastline in the west to the deserts in the east, there's a lot to do here. But how on earth does one convey the majesty of this state through a website and not only inform, but tempt them to visit and see it with their own eyes? That was the goal of the Travel Oregon website redesign: To delight and inspire people to come to Oregon and realize that yes, they like it here too.
 
 cs-sections:
+
   - section-title: "Discovery and Design"
     section-description: |
       Travel Oregon is the official tourism marketing organization for the State of Oregon. They work to enhance visitors' experiences by provising information, resources, and trip planning tools that inrpire travel and consistently convey the exceptional quality of Oregon. We embarked on this project with Travel Oregon when they were part of the way through the discovery phase. They already had recommended and approved site architecture, user research and project goals. So we leveraged our remaining discovery process to deliver a site that showcased their mass amounts of editorial content and gorgeous imagery.
