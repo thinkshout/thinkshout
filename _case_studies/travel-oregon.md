@@ -96,3 +96,7 @@ cs-sections:
       Overall, ThinkShout maintained a strong UX narrative throughout the project lifecycle -- this project was really more about how Travel Oregon could serve their audiences and tell an attractive, content-rich story of Oregon and all that it has to offer.
 
       The result was the merging of two sites (the former TravelOregon.com and Ride Oregon Ride) that now make this the go-to site for all things indoor and outdoor in Oregon. It welcomes hours of exploration and information for those considering a visit as well as resident Oregonians themselves.
+
+cs-cta-text: Launch Site
+cs-cta-url: https://www.traveloregon.com/
+---
