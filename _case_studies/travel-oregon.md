@@ -27,11 +27,11 @@ cs-intro:
   type: "Travel Oregon"
   mission: "Bringing the wonders of Oregon directly to you."
   text: |
-    We think Oregon is kind of a big deal. From the coastline in the west to the deserts in the east, there's a lot to see and do here. But how on earth does one convey the majesty of this state through a website and not only inform, but tempt them to visit and see it with their own eyes? That was the goal of the Travel Oregon website redesign: To delight and inspire people to come to Oregon and realize that yes, they like it here too.
+    We think Oregon is kind of a big deal. From the coastline in the west to the deserts in the east, there's a lot to see and do here. But how on earth does one convey the majesty of this state through a website that not only informs, but tempts them to visit and see it with their own eyes? That was the goal of the Travel Oregon website redesign: To delight and inspire people to come to Oregon and realize that yes, they like it here too.
 
-    Travel Oregon is the official tourism marketing organization for the State of Oregon. They work to enhance visitors' experiences by providing information, resources, and trip planning tools for just about any activity available in our state. Most importantly, they inspire the public to travel to our great state, and consistently convey the exceptional quality of Oregon.
+    Travel Oregon is the official tourism marketing organization for the State of Oregon. They work to enhance visitors' experiences by providing information, resources, and trip planning tools for just about any activity available in our state. Most importantly, they inspire the public to visit, and consistently convey the exceptional quality of Oregon.
 
-    Naturally, we were pretty enthused to be working with their team. They came to us prepared with user research and project goals, so we focused our remaining discovery process on design and creating the ideal user experience, and integrating their many platforms and toolsets to deliver a site that showcased their gorgeous imagery throughout, and intentionally led users to their abundance of editorial content.
+    Naturally, we were pretty enthused to be working with such an exceptional team. They came to us prepared with user research and project goals, so we focused our remaining discovery process on design and creating the ideal user experience. We also focused on integrating their many platforms and toolsets into the site to deliver a seamless experience that showcased their gorgeous imagery throughout, and intentionally led users to their abundance of editorial content.
 
 cs-sections:
   - section-title: "Creating the Optimal User Experience"
@@ -42,7 +42,7 @@ cs-sections:
 
   - section-title:
     section-description: |
-      One of our goals was to create an experience that would invite users to uncover more activities and more content throughout the site. We did this by leveraging their editorial content (1,947 trip ideas) to contextualize the 10,716 (at launch) listings that are maintained in Oregon Tourism Information System (OTIS), their tourism database, and inspire travel to Oregon. However, figuring out how to utilize this vast amount of content proved to be a bit of a challenge -- but not impossible!
+      One of our primary goals was to create an experience that would invite users to discover more activities and resources throughout the site. We did this by leveraging their editorial content (1,947 trip ideas) to contextualize the 10,716 (at launch) listings that are maintained in Oregon Tourism Information System (OTIS), their tourism database, and inspire travel to Oregon. However, figuring out how to utilize this vast amount of content proved to be a bit of a challenge -- but not impossible!
 
       In addition, midway through the project, Travel Oregon went through a rebrand which proved to be a huge lift for all involved. The previous site was filled with whimsy, illustrations, and generally had a warm, earthy feel. The new brand pushed the site into a modern aesthetic. Some key design choices were made to retain the playful vibe expected from Travel Oregon's fan base, however their future presence needed to feel clean, bright, and inspired.
 
