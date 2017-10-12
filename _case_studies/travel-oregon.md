@@ -13,13 +13,13 @@ title: To Delight and Inspire.
 cs-class: "tror"
 
 cs-preview:
-  image: /assets/images/work/travel-oregon/mount-hood.jpg
+  image: /assets/images/work/travel-oregon/Bandon-Coast.jpg
   type: "Responsive WordPress Site"
   client: "Travel Oregon"
   description: "Bringing the wonders of Oregon directly to you."
 
 cs-header:
-  header-image: /assets/images/work/travel-oregon/mount-hood.jpg
+  header-image: /assets/images/work/travel-oregon/Bandon-Coast.jpg
   client: "Travel Oregon"
   title: "To Delight and Inspire."
 
