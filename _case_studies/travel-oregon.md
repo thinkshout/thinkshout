@@ -13,13 +13,13 @@ title: To Delight and Inspire.
 cs-class: "tror"
 
 cs-preview:
-  image: /assets/images/work/travel-oregon/Bandon-Coast.jpg
+  image: /assets/images/work/travel-oregon/bandon-beach-header.jpg
   type: "Responsive WordPress Site"
   client: "Travel Oregon"
   description: "Bringing the wonders of Oregon directly to you."
 
 cs-header:
-  header-image: /assets/images/work/travel-oregon/Bandon-Coast.jpg
+  header-image: /assets/images/work/travel-oregon/bandon-beach-header.jpg
   client: "Travel Oregon"
   title: "To Delight and Inspire."
 
@@ -31,7 +31,7 @@ cs-intro:
 
     Travel Oregon is the official tourism marketing organization for the State of Oregon. They work to enhance visitors' experiences by providing information, resources, and trip planning tools for just about any activity available in our state. Most importantly, they inspire the public to visit, and consistently convey the exceptional quality of Oregon.
 
-    Naturally, we were pretty enthused to be working with such an exceptional team. They came to us prepared with user research and project goals, so we focused our remaining discovery process on design and creating the ideal user experience. We also focused on integrating their many platforms and toolsets into the site to deliver a seamless experience that showcased their gorgeous imagery throughout, and intentionally led users to their abundance of editorial content.
+    We crafted a stunning new design leveraging an abundance of beautiful imagery with an information architecture that drives users to the content they need to plan their visit. But it's not all good looks. The site, build on WordPress, integrates numerous backend systems including a content repository shared by all Destination Management Organizations in the state. The new site is blazing fast, with performance wins all around, thanks, in no small part, to our partners at Pantheon.
 
 cs-sections:
   - section-title: "Creating the Optimal User Experience"
@@ -104,6 +104,8 @@ cs-sections:
   - section-title: "The Results"
     section-description: |  
       Overall, ThinkShout maintained a strong UX narrative throughout the project lifecycle -- this project was really more about how Travel Oregon could serve their audiences and tell an attractive, content-rich story of Oregon and all that it has to offer.
+
+      Not only that, but we also have built an infrastructure that is easy for administrators to maintain and manage -- saving time and costs for staff. Additionally, the improvement in site speed and performance gives the team at Travel Oregon the sense of security and peace of mind that comes with having one less thing to worry about.
 
       The result was the merging of two sites (the former TravelOregon.com and Ride Oregon Ride) that now make this the go-to site for all things indoor and outdoor in Oregon. It welcomes hours of exploration and information for those considering a visit as well as resident Oregonians themselves.
 
