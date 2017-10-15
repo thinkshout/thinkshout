@@ -5,7 +5,7 @@ body-class: case-study tror
 active: true
 homepage: false
 published: true
-order: 16
+order: 4
 # END LAYOUT DATA
 
 title: To Delight and Inspire.
