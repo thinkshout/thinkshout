@@ -31,7 +31,7 @@ cs-intro:
 
     Travel Oregon is the official tourism marketing organization for the State of Oregon. They work to enhance visitors' experiences by providing information, resources, and trip planning tools for just about any activity available in our state. Most importantly, they inspire the public to visit, and consistently convey the exceptional quality of Oregon.
 
-    We crafted a stunning new design leveraging an abundance of beautiful imagery with an information architecture that drives users to the content they need to plan their visit. But it's not all good looks. The site, build on WordPress, integrates numerous backend systems including a content repository shared by all Destination Management Organizations in the state. The new site is blazing fast, with performance wins all around, thanks, in no small part, to our partners at Pantheon.
+    We crafted a stunning new design leveraging an abundance of beautiful imagery with an information architecture that drives users to the content they need to plan their visit. But it's not all good looks. The site, built on WordPress, integrates numerous backend systems including a content repository shared by all Destination Management Organizations in the state. The new site is blazing fast, with performance wins all around, thanks, in no small part, to our partners at Pantheon.
 
 cs-sections:
   - section-title: "Creating the Optimal User Experience"
