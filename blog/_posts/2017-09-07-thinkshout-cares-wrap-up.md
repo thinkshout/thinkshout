@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: culture
 title: Wrapping up ThinkShout Cares
-homepage: true
+homepage: false
 author: lev
 published: true
-featured: true
+featured: false
 short: How a kooky idea turned into a fulfilling, team-building project.
 tags:
   - ThinkShout Cares
