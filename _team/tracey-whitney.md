@@ -2,13 +2,13 @@
 layout: teammember
 first_name: Tracey
 last_name: Whitney
-position: Project Manager
+position: Senior Project Manager
 leadin: |
- Tracey’s background in video production positions her well as a project manager. She also once summited Mt. Kosciuszko in Australia, so we’re confident she can take on any challenge. 
+ Tracey’s background in video production positions her well as a project manager. She also once summited Mt. Kosciuszko in Australia, so we’re confident she can take on any challenge.
 social:
-  github: 
+  github:
   twitter:
-  linkedin: 
+  linkedin:
 team-image:
   small: team/small/tracey.jpg
   medium: team/medium/tracey.jpg
