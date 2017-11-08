@@ -35,11 +35,11 @@ Let's hear from Mario and Lui--I mean Amy and Jules, on what their first BADCamp
 ### What did you learn at BADCamp?
 _Amy_: Component-based theming is a hot topic these days for those building sites due to a number of reasons. Here are a couple of them:
 
-        - It encourages a DRY (Don't Repeat Yourself) and more organized theming code base.
-        - It decouples site building in such a way that backend and frontend developers can work on the site at the same time, rather than the backend code needing to be built first before the frontend developer can do their work.
-        - It provides clients with an interactive experience of their site (including responsiveness) before the database and backend elements are hooked up to it. This allows the client more time to provide feedback in case they want to change behaviors before they're completely built.
+* It encourages a DRY (Don't Repeat Yourself) and more organized theming code base.
+* It decouples site building in such a way that backend and frontend developers can work on the site at the same time, rather than the backend code needing to be built first before the frontend developer can do their work.
+* It provides clients with an interactive experience of their site (including responsiveness) before the database and backend elements are hooked up to it. This allows the client more time to provide feedback in case they want to change behaviors before they're completely built.
 
-      I also attended a session called: React, GraphQL, and Drupal. This talk was largely about an opportunity to create multiple suites using the same API. The team used "headless Drupal" (to serve as the API), React.js to build the sites, and GraphQL to explore data coming from the API in a much more direct and clear way. It seemed like a great solution for a tricky problem, in addition to giving this team the opportunity to learn and use cutting edge technologies - so much fun!
+I also attended a session called: React, GraphQL, and Drupal. This talk was largely about an opportunity to create multiple suites using the same API. The team used "headless Drupal" (to serve as the API), React.js to build the sites, and GraphQL to explore data coming from the API in a much more direct and clear way. It seemed like a great solution for a tricky problem, in addition to giving this team the opportunity to learn and use cutting edge technologies - so much fun!
 
 _Jules_: I learned a lot about the Drupal Community. This was my first BADCamp, and also my first Drupal conference. I was excited about how generous the community is with knowledge and tools, working together so we can succeed together.
 
