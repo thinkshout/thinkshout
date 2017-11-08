@@ -14,7 +14,7 @@ tags:
   - BADCamp
   - Culture
   - Professional Development
-date: 2017-11-06
+date: 2017-11-06 12:30:00
 image: https://thinkshout.com/assets/images/blog/marioluigi.jpg
 header-image: /assets/images/blog/marioluigi.jpg
 header-image-alt: "Image: My first BADCamp"
@@ -27,6 +27,9 @@ BADCamp is essentially three days of intense workshops and sessions for Drupal u
 Sessions they attended ranged from learning about component-based theming tools, object oriented php, module development, debugging JavaScript; to Drupal 9 and backward compatibility and the importance of upgrading to D8 now.
 
 Let's hear from Mario and Lui--I mean Amy and Jules, on what their first BADCamp experience was like!
+
+![Amy and Jules](/assets/images/blog/marioluigi.jpg)
+{:.center}
 
 ###What did you learn at BADCamp?
 _Amy_: Component-based theming is a hot topic these days for those building sites due to a number of reasons. Here are a couple of them:
