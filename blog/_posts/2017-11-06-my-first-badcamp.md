@@ -30,9 +30,9 @@ Let's hear from Mario and Lui--I mean Amy and Jules, on what their first BADCamp
 
 ![Amy and Jules](/assets/images/blog/marioluigi.jpg)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>Note: Amy and Jules on Halloween. Costumes are not required at BADCamp.</span>
+<span class="caption"><i class="fa fa-caret-up"></i>Amy and Jules on Halloween. Costumes are not required at BADCamp.</span>
 
-###What did you learn at BADCamp?###
+### What did you learn at BADCamp?
 _Amy_: Component-based theming is a hot topic these days for those building sites due to a number of reasons. Here are a couple of them:
 
         - It encourages a DRY (Don't Repeat Yourself) and more organized theming code base.
@@ -45,17 +45,17 @@ _Jules_: I learned a lot about the Drupal Community. This was my first BADCamp, 
 
 I learned about some of the changes to Drupal releases from []@Webchick's](https://twitter.com/webchick?lang=en) talk (Drupal 9 and Backward Compatibility: Why Now is the Time to Upgrade to Drupal 8). If I keep up with the incremental point releases (ie: 8.x), upgrading to 9 should be pretty painless, which is a relief. Knowing the incremental releases will be coming out with a regular six month-ish cadence will make planning easier. I'm also excited about the new features in the works; including Layouts, Work Spaces, a better out of the box experience on first install, a better UI admin experience (possibly with React?).
 
-###What would you tell someone who is planing to attend BADCamp next year?###
+### What would you tell someone who is planing to attend BADCamp next year?
 _Amy_: Definitely invest in attending the full-day sessions if they interest you. The information I took away from my Pattern Lab day was priceless, and I came back to ThinkShout excited and empowered to figure out a way to make component based theming part of our usual practice.
 
 _Jules_: The full day sessions were a great way to dive into deeper concepts. It's hard to fully cover a subject in a shorter session. It also helps to show up with an open mind. It's impossible to know everything about Drupal, and there are so many tools available. It was valuable just meeting people and talking to them about their workflows, challenges, and favorite new tools.
 
-###Do you consider BADCamp to be better for networking, professional development, or both?###
+### Do you consider BADCamp to be better for networking, professional development, or both?
 _Amy_: My big focus was on professional development. There were so many good training days and sessions happening that those filled my schedule almost entirely. Of course, attending sessions (and being a session speaker!) is a great way to network with like-minded people too.
 
 _Jules_: My goal was to immerse myself in the Drupal community. Since I'm new to Drupal, the sessions were really valuable for me. Returning with more experience, that might not be the case. It was valuable to see new ideas being presented, challenged, discussed, and explored with mutual respect and support. We're all in this together. Some talks were stronger than others, but every speaker had a nugget of gold I could take with me. It was encouraging to meet peers and to see all of the great work people are doing out in the world. It also served as a reminder that great strides can come from many small steps (or pushes)!
 
-###Make time to learn###
+### Make time to learn
 
 It can be difficult to take time away from project work and dedicate yourself to two or three days of conferencing. But when you disconnect and dive into several days of leaning, it makes your contributions back at the office invaluable. As Jules commented to me after her first day of sessions, "it was like php church!"
 
