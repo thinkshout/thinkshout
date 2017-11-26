@@ -38,6 +38,10 @@ While the new tax plan has yet to become law, the uncertainty donors are facing 
 
 We're not suggesting people will stop giving altogether, because we know that giving makes people feel good -- it increases serotonin levels and has been proven to be good for your health (hey, science says so!).
 
+![Passion](/assets/images/blog/passion.jpg)
+{:.center}
+<span class="caption"><i class="fa fa-caret-up"></i>Photo by Ian Schneider on Unsplash</span>
+
 However, what this does tell us is that we need to think critically and strategically about how we're going to move beyond this antiquated, deadline driven approach so that your constituents feel inspired to support you; not just when it may be of convenience to them, but year-round. In fact, making the claim that a donation is tax-deductible has zero exclusivity -- it's something all nonprofits have leaned on for decades, and it's time to step it up and talk about what you actually accomplish day in and day out.
 
 ## Impact-driven approach
@@ -67,6 +71,10 @@ As time-consuming as this approach is, I can say from experience that it works. 
 This is a common issue: how do we create a sense of empathy and human connection when people don’t want us to tell their personal stories or use their real information? Answer: You develop a composite scenario.
 
 I worked for and with food banks for many years. Initially I started as nonprofit staff in the development department and years later, on the agency side as a consultant. A composite story was necessity. Without it, all we had to go on was that $1 = 6 meals. And knowing you provided 6 meals is great, but knowing one of those meals went to a child in an after school program, that they’d be sent home with food they most certainly would not be getting otherwise...this paints a very different picture. This, among other composite stories, was very common among the people we served. **A composite story preserves the dignity and privacy of your subjects while telling a story that rings true to your mission.**
+
+![Child with cereal](/assets/images/blog/child-cereal.jpg)
+{:.center}
+<span class="caption"><i class="fa fa-caret-up"></i>Photo by Providence Doucet on Unsplash</span>
 
 You also don’t have to include a photo of the subject in question. I’m not suggesting you omit photo usage altogether; your imagery can be something mission-related but not specific to the subject in question. Focus on the hands of volunteers, or a group of people at an event, for example.
 
