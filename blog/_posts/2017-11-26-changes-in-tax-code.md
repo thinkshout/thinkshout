@@ -11,9 +11,12 @@ short: We share strategies to combat this antiquated approach to fundraising and
 tags:
   - strategy
   - fundraising
+  - development
   - year-end
   - nonprofits
   - NP Tech
+  - tax code
+  - tax-deductible gifts
 date: 2017-11-26 12:30:00
 ---
 
