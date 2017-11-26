@@ -40,7 +40,7 @@ We're not suggesting people will stop giving altogether, because we know that gi
 
 However, what this does tell us is that we need to think critically and strategically about how we're going to move beyond this antiquated, deadline driven approach so that your constituents feel inspired to support you; not just when it may be of convenience to them, but year-round. In fact, making the claim that a donation is tax-deductible has zero exclusivity -- it's something all nonprofits have leaned on for decades, and it's time to step it up and talk about what you actually accomplish day in and day out.
 
-##Impact-driven approach
+##Impact-driven approach##
 
 Motivating your constituents is all about making your case. The list of reputable organizations to support continues to grow each year. There is palpable competition in the inbox to grab the attention of your supporters. How can you stand out in the sea of appeals? We recommend focusing on an impact-driven approach.
 
@@ -48,7 +48,7 @@ What this boils down to is *good storytelling*. Sharing content that shows how y
 
 This goes beyond saying “we provided 5,000 people with [enter a valuable service here].” It’s about telling the story of one. Or, at least telling a compelling story of how you affect change. Donors empathize more with these stories, and their likelihood to make a gift increases if they have a tangible, real example of an individual or specific scenario that was the result of the important work you do. Large numbers tell a story in broad strokes, but the details and impact of one life or one specific outcome is ultimately more meaningful and more likely to be remembered.
 
-*_How do I go about doing this?_*
+##*How do I go about doing this?*##
 
 If you’re thinking this approach sounds time consuming, you’re right. It is. Content curation is one of those things that is either incredibly easy or seemingly impossible depending on the resources available to you.
 
@@ -58,7 +58,7 @@ Talk to volunteers or people in the field about what they experience and see. As
 
 As time-consuming as this approach is, I can say from experience that it works. The more personal stories are the ones that will build relationships with your supporters and turn them into multi-channel, multi-year supporters. They won’t remember the big numbers you share, but they’ll remember the story of that one individual; a child, an animal that was rescued, a family that now has a home… stories touch the heart in ways numbers simply can’t.
 
-*_This won't work for me, the people I serve need to remain anonymous_*
+##*This won't work for me, the people I serve need to remain anonymous*##
 
 This is a common issue: how do we create a sense of empathy and human connection when people don’t want us to tell their personal stories or use their real information? Answer: You develop a composite scenario.
 
@@ -66,7 +66,7 @@ I worked for and with food banks for many years. Initially I started as nonprofi
 
 You also don’t have to include a photo of the subject in question. I’m not suggesting you omit photo usage altogether; your imagery can be something mission-related but not specific to the subject in question. Focus on the hands of volunteers, or a group of people at an event, for example.
 
-##Parting Thoughts
+##Parting Thoughts##
 
 Whether the tax plan goes through or not, my hope is that we see people giving not because of the potential for a kickback, but because being altruistic and helping each other and our planet is just better for everyone.
 
