@@ -21,22 +21,22 @@ The end of the year is approaching and along with that, the traditional wave of 
 
 Or is it?
 
-This uncertainty around tax-deductible gifts isn't a commentary on the ever-fluctuating state of affairs at your organization or in our country, rather it's about proposed changes to the tax code. It's been suggested that these changes could alter the long-held tradition of donors looking to get that extra tax break with their year-end gift -- and not to your advantage.
+This uncertainty around tax-deductible gifts isn't a commentary on the ever-fluctuating state of affairs at your organization or in our country, rather it's about [proposed changes to the tax code](http://www.thenonprofittimes.com/news-articles/nonprofits-hammered-federal-budget-proposal/). It's been suggested that these changes could alter the long-held tradition of donors looking to get that extra tax break with their year-end gift -- and not to your advantage.
 
-The proposal currently being considered by Congress aims to reduce or eliminate key tax breaks for giving, and that rightfully has many organizations concerned. There has been speculation that the tax plan could reduce giving between $5 - $13 billion per year (or 4.6%). It won't kill all charitable giving, about 5% of people will continue to itemize, specifically those in a higher income bracket.
+The proposal currently being considered by Congress aims to reduce or eliminate key tax breaks for giving, and that rightfully has many organizations concerned. There has been speculation that the tax plan could reduce giving between [$5 - $13 billion per year (or 4.6%)](http://money.cnn.com/2017/08/06/news/economy/tax-reform-charitable-giving/index.html). It won't kill all charitable giving, about 5% of people will continue to itemize, specifically those in a higher income bracket.
 
 This poses a shift in incentives, as the purpose of the charitable tax deductions was to inspire a sense of altruism among people in varying stages of wealth -- but particularly the middle class. As it's being proposed, the new plan only incentivizes giving for the richest among us. The one-percenters. And while those major donors are highly valued at your organization, I'm willing to bet the bulk of your file is not made up of 4, 5, and 6-figure one-time gifts.
 
+So why are we talking about this? For one, in the various conversations I've had with nonprofits since this news broke earlier in the year, it seems many organizations are either unaware of the impact the tax plan has on them, or feel their energy is better spent on things they can control.
+
 ![TimGunn](/assets/images/blog/Tim Gunn.gif)
 {:.center}
-
-So why are we talking about this? For one, in the various conversations I've had with nonprofits since this news broke earlier in the year, it seems many organizations are either unaware of the impact the tax plan has on them, or feel their energy is better spent on things they can control.
 
 **Let's talk about that.**
 
 While the new tax plan has yet to become law, the uncertainty donors are facing about many of the points in the tax plan may already be influencing their gift-giving behavior. How you planning to pivot your messaging to reflect the fact that you can't confidently close your messages with the tagline, "You'll be happy you gave come April 15th!"
 
-We're not suggesting people will stop giving altogether, because we know that giving makes people feel good -- it increases serotonin levels and has been proven to be good for your health (hey, science says so!).
+We're not suggesting people will stop giving altogether, because we know that [giving makes people feel good](https://www.psychologytoday.com/blog/out-the-darkness/201501/happiness-comes-giving-not-buying-and-having) -- it increases serotonin levels and has been proven to be good for your health (hey, [science says so!](http://www.huffingtonpost.com/brady-josephson/want-to-be-happier-give-m_b_6175358.html)).
 
 ![Passion](/assets/images/blog/passion.jpg)
 {:.center}
@@ -50,7 +50,7 @@ Motivating your constituents is all about making your case. The list of reputabl
 
 What this boils down to is **good storytelling**. Sharing content that shows how you’re saving lives, improving your community, enriching the world we live in…_all_ the positive contributions that would not be possible without your organization.
 
-This goes beyond saying “we provided 5,000 people with [enter a valuable service here].” It’s about telling the story of one. Or, at least telling a compelling story of how you affect change. Donors empathize more with these stories, and their likelihood to make a gift increases if they have a tangible, real example of an individual or specific scenario that was the result of the important work you do. Large numbers tell a story in broad strokes, but the details and impact of one life or one specific outcome is ultimately more meaningful and more likely to be remembered.
+This goes beyond saying “we provided 5,000 people with [enter a valuable service here].” [It’s about telling the story of one](http://clairification.com/2012/05/06/one-incredibly-dramatic-way-to-create-winning-content/). Or, at least telling a compelling story of how you affect change. Donors empathize more with these stories, and their likelihood to make a gift increases if they have a tangible, real example of an individual or specific scenario that was the result of the important work you do. Large numbers tell a story in broad strokes, but the details and impact of one life or one specific outcome is ultimately more meaningful and more likely to be remembered.
 
 **How do I go about doing this?**
 
@@ -77,6 +77,8 @@ I worked for and with food banks for many years. Initially I started as nonprofi
 <span class="caption"><i class="fa fa-caret-up"></i>Photo by Providence Doucet on Unsplash</span>
 
 You also don’t have to include a photo of the subject in question. I’m not suggesting you omit photo usage altogether; your imagery can be something mission-related but not specific to the subject in question. Focus on the hands of volunteers, or a group of people at an event, for example.
+
+This is very common practice for nonprofits. Luckily, there are [resources](https://www.thebalance.com/fundraising-stories-when-confidentiality-is-important-2501840) out there to guide you when it comes to maintaining transparency in your messaging while successfully sharing the impact of your work. In the age of Instagramming every moment, imagery and photography is central to effective storytelling.
 
 ## Parting Thoughts
 
