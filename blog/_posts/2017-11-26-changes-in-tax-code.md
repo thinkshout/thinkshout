@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: strategy
+topic: strategy and design
 title: What the proposed changes in the tax code mean for your organization
 homepage: true
 author: natania
@@ -9,11 +9,11 @@ published: true
 featured: true
 short: We share strategies to combat this antiquated approach to fundraising and help you remain relevant to constituents year-round.
 tags:
-  - Drupal Planet
-  - Drupal
-  - BADCamp
-  - Culture
-  - Community
+  - strategy
+  - fundraising
+  - year-end
+  - nonprofits
+  - NP Tech
 date: 2017-11-26 12:30:00
 image: https://thinkshout.com/assets/images/BADcamp2017.jpg
 header-image: /assets/images/blog/BADcamp2017.jpg
