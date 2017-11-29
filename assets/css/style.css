@@ -2241,6 +2241,75 @@ a:visited {
         color: #fff; }
 
 @media (max-width: 480px) {
+  .bene .main-content {
+    margin-top: 5.625rem; } }
+@media (min-width: 481px) and (max-width: 979px) {
+  .bene .main-content {
+    margin-top: 5.625rem; } }
+.bene .main-content .blog-header-image {
+  position: relative;
+  display: flex;
+  justify-content: center; }
+.bene .main-content .overlay-text {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; }
+  .bene .main-content .overlay-text div {
+    display: flex; }
+  .bene .main-content .overlay-text .bene-logo {
+    width: 18.3125rem;
+    height: 20.125rem; }
+  .bene .main-content .overlay-text h2 {
+    display: flex;
+    align-items: flex-end;
+    color: #fff;
+    max-width: 40%;
+    height: 20.625rem;
+    margin: 0; }
+.bene .main-content h3 {
+  color: #3f3f41;
+  margin: 2em auto 1rem;
+  max-width: 996px;
+  padding: 0 1.25rem;
+  width: 94%; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .bene .main-content h3 {
+      width: 90%;
+      padding: 0 2.5rem; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .bene .main-content h3 {
+      width: 90%;
+      padding: 0 3.75rem; } }
+  @media (min-width: 1200px) {
+    .bene .main-content h3 {
+      width: 100%;
+      padding: 0 6.25rem; } }
+.bene .main-content .body div.inline {
+  max-width: 49.5625rem; }
+.bene .main-content .body p.bene-caption {
+  font-weight: 100;
+  color: #444447; }
+.bene .main-content .our-values-block h4 {
+  font-size: 1.125rem;
+  margin-top: 2.8125rem; }
+.bene .main-content .our-values-block .value h3 {
+  color: #FF9012;
+  font-size: 1.625rem;
+  margin-top: 4.375rem;
+  padding: 0; }
+@media (min-width: 980px) {
+  .bene .main-content .our-values-block .value p {
+    width: 80%; } }
+.bene .main-content .free-geek-info-block {
+  background: url("../images/bene/free-geek.jpg") no-repeat center center/cover;
+  padding-top: 32.777%;
+  color: #fff; }
+
+@media (max-width: 480px) {
   .blog-post .main-content {
     margin-top: 5.625rem; } }
 @media (min-width: 481px) and (max-width: 979px) {
