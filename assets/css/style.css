@@ -2247,62 +2247,62 @@ a:visited {
   .bene .main-content {
     margin-top: 5.625rem; } }
 .bene .main-content .blog-header-image {
-  position: relative;
   display: flex;
   justify-content: center;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative; }
   .bene .main-content .blog-header-image > img {
-    width: auto;
-    height: 29.6875rem; }
+    height: 29.6875rem;
+    width: auto; }
     @media (min-width: 980px) {
       .bene .main-content .blog-header-image > img {
-        width: 100%;
-        height: auto; } }
+        height: auto;
+        width: 100%; } }
 .bene .main-content .overlay-text {
-  position: absolute;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   height: 100%;
-  flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
-  display: flex; }
+  position: absolute; }
   @media (min-width: 980px) {
     .bene .main-content .overlay-text {
       flex-direction: row; } }
   .bene .main-content .overlay-text div {
+    max-width: 300px;
     text-align: center;
-    width: 90%;
-    max-width: 300px; }
+    width: 90%; }
     @media (min-width: 980px) {
       .bene .main-content .overlay-text div {
         display: flex;
         width: auto; } }
   .bene .main-content .overlay-text .bene-logo {
-    width: 60%;
+    height: auto;
     max-width: 12rem;
-    height: auto; }
+    width: 60%; }
     @media (min-width: 980px) {
       .bene .main-content .overlay-text .bene-logo {
+        height: 20.125rem;
         margin: 1.5rem auto;
         max-width: 18.3125rem;
-        width: 18.3125rem;
-        height: 20.125rem; } }
+        width: 18.3125rem; } }
   .bene .main-content .overlay-text h2 {
     color: #fff;
-    margin: 0;
     font-size: 1.5rem;
-    text-align: center;
+    margin: 0;
+    margin: -1.25rem auto 0;
     max-width: 80%;
-    margin: -1.25rem auto 0; }
+    text-align: center; }
     @media (min-width: 980px) {
       .bene .main-content .overlay-text h2 {
-        margin: 0;
-        height: 20.625rem;
         align-items: flex-end;
         display: flex;
+        font-size: 2.5rem;
+        height: 20.625rem;
+        margin: 0;
         max-width: 40%;
-        text-align: left;
-        font-size: 2.5rem; } }
+        text-align: left; } }
 .bene .main-content .body h3 {
   color: #3f3f41;
   margin: 2em auto 1rem;
@@ -2324,27 +2324,27 @@ a:visited {
 .bene .main-content .body div.inline {
   max-width: 49.5625rem; }
 .bene .main-content .body p.bene-caption {
-  font-weight: 100;
-  color: #444447; }
+  color: #444447;
+  font-weight: 100; }
 @media (min-width: 980px) {
   .bene .main-content .our-values-block .row {
     max-width: 796px; } }
 .bene .main-content .our-values-block .right-caret {
-  margin-right: 4.3%;
-  margin-left: -2%; }
+  margin-left: -2%;
+  margin-right: 4.3%; }
 .bene .main-content .our-values-block h4 {
-  font-size: 1.125rem;
-  margin-top: 2.8125rem;
-  display: flex;
-  text-align: right;
   align-items: center;
+  display: flex;
+  font-size: 1.125rem;
   justify-content: flex-end;
-  line-height: 24px; }
+  line-height: 24px;
+  margin-top: 2.8125rem;
+  text-align: right; }
   .bene .main-content .our-values-block h4 .fa.fa-caret-right {
     margin-left: 1rem; }
 .bene .main-content .our-values-block .down-caret h4 {
-  text-align: left;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+  text-align: left; }
 .bene .main-content .our-values-block .value h3 {
   color: #FF9012;
   font-size: 1.625rem;
@@ -2373,14 +2373,14 @@ a:visited {
     position: relative; }
     .bene .main-content .our-values-block.additional ul li:before {
       content: "•";
-      position: absolute;
-      left: -1rem; }
+      left: -1rem;
+      position: absolute; }
 .bene .main-content .our-values-block blockquote {
   margin: 3.4375rem 0 2.5rem; }
   .bene .main-content .our-values-block blockquote p {
     font-size: 1.625rem;
-    line-height: 2.25rem;
     font-weight: 100;
+    line-height: 2.25rem;
     margin-bottom: 0.75rem; }
     @media (min-width: 980px) {
       .bene .main-content .our-values-block blockquote p {
@@ -2391,39 +2391,39 @@ a:visited {
         font-size: 2.375rem;
         line-height: 2.875rem; } }
 .bene .main-content .free-geek-info-block {
-  background: url("../images/bene/free-geek.jpg") no-repeat center center/cover;
-  min-height: 29.5rem;
-  color: #fff;
-  margin-top: 2.5rem;
-  display: flex;
   align-items: center;
-  justify-content: center; }
+  background: url("../images/bene/free-geek.jpg") no-repeat center center/cover;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+  min-height: 29.5rem; }
   .bene .main-content .free-geek-info-block .container {
-    height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 1.25rem 1rem;
-    justify-content: center; }
+    height: 100%;
+    justify-content: center;
+    padding: 1.25rem 1rem; }
     @media (min-width: 980px) {
       .bene .main-content .free-geek-info-block .container {
         padding: 2.5rem 10rem; } }
     .bene .main-content .free-geek-info-block .container h2 {
-      margin-top: 0;
+      font-weight: 800;
       margin-bottom: 0.75rem;
-      font-weight: 800; }
+      margin-top: 0; }
     .bene .main-content .free-geek-info-block .container p {
       font-size: 1.25rem;
       font-weight: 400;
-      margin-top: 0.625rem;
-      margin-bottom: 2rem; }
+      margin-bottom: 2rem;
+      margin-top: 0.625rem; }
       @media (min-width: 980px) {
         .bene .main-content .free-geek-info-block .container p {
           max-width: 60%; } }
     .bene .main-content .free-geek-info-block .container a {
       color: #fff;
-      text-transform: uppercase;
       font-size: 1rem;
-      font-weight: 600; }
+      font-weight: 600;
+      text-transform: uppercase; }
 .bene .main-content .contact-form {
   background-color: #FF9012; }
   .bene .main-content .contact-form .container {
@@ -2441,10 +2441,10 @@ a:visited {
         padding: 0 6.25rem; } }
   .bene .main-content .contact-form h2 {
     color: #fff;
-    text-align: center;
-    font-weight: 800;
     font-size: 2rem;
-    line-height: 2.375rem; }
+    font-weight: 800;
+    line-height: 2.375rem;
+    text-align: center; }
     @media (min-width: 980px) {
       .bene .main-content .contact-form h2 {
         font-size: 2.625rem;
@@ -2456,45 +2456,129 @@ a:visited {
       .bene .main-content .contact-form form.contact {
         display: flex; } }
   .bene .main-content .contact-form .form-group.half {
-    width: auto;
+    flex: 1 1 25%;
     float: none;
-    flex: 1 1 25%; }
+    width: auto; }
     .bene .main-content .contact-form .form-group.half input[type="email"],
     .bene .main-content .contact-form .form-group.half input[type="text"] {
-      height: 4.1875rem;
-      border: 0; }
-      .bene .main-content .contact-form .form-group.half input[type="email"]::-webkit-input-placeholder,
-      .bene .main-content .contact-form .form-group.half input[type="text"]::-webkit-input-placeholder {
-        color: #9B9B9B; }
-      .bene .main-content .contact-form .form-group.half input[type="email"]::-moz-placeholder,
-      .bene .main-content .contact-form .form-group.half input[type="text"]::-moz-placeholder {
-        color: #9B9B9B; }
-      .bene .main-content .contact-form .form-group.half input[type="email"]:-ms-input-placeholder,
-      .bene .main-content .contact-form .form-group.half input[type="text"]:-ms-input-placeholder {
-        color: #9B9B9B; }
-      .bene .main-content .contact-form .form-group.half input[type="email"]:-moz-placeholder,
-      .bene .main-content .contact-form .form-group.half input[type="text"]:-moz-placeholder {
-        color: #9B9B9B; }
-      .bene .main-content .contact-form .form-group.half input[type="email"]::-webkit-input-placeholder,
-      .bene .main-content .contact-form .form-group.half input[type="text"]::-webkit-input-placeholder {
-        color: #9B9B9B; }
-      .bene .main-content .contact-form .form-group.half input[type="email"]::-moz-placeholder,
-      .bene .main-content .contact-form .form-group.half input[type="text"]::-moz-placeholder {
-        color: #9B9B9B; }
-      .bene .main-content .contact-form .form-group.half input[type="email"]:-ms-input-placeholder,
-      .bene .main-content .contact-form .form-group.half input[type="text"]:-ms-input-placeholder {
-        color: #9B9B9B; }
-      .bene .main-content .contact-form .form-group.half input[type="email"]:-moz-placeholder,
-      .bene .main-content .contact-form .form-group.half input[type="text"]:-moz-placeholder {
-        color: #9B9B9B; }
+      border: 0;
+      color: #9B9B9B;
+      height: 4.1875rem; }
+      .bene .main-content .contact-form .form-group.half input[type="email"]:focus, .bene .main-content .contact-form .form-group.half input[type="email"]:active,
+      .bene .main-content .contact-form .form-group.half input[type="text"]:focus,
+      .bene .main-content .contact-form .form-group.half input[type="text"]:active {
+        color: #000; }
   .bene .main-content .contact-form .button {
-    text-transform: capitalize;
-    height: 4.1875rem;
+    border-radius: 0;
     border: 3px solid #fff;
     color: #fff;
-    border-radius: 0; }
+    height: 4.1875rem;
+    text-transform: capitalize; }
 .bene .newsletter-block {
   display: none; }
+
+.bene-cta {
+  background: url("../images/bene/free-geek-2.jpg") no-repeat top center/cover;
+  color: #fff;
+  padding: 6rem 0 2rem; }
+  @media (min-width: 980px) {
+    .bene-cta {
+      padding: 14rem 0 2rem; } }
+  .bene-cta .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    @media (min-width: 980px) {
+      .bene-cta .container {
+        flex-direction: row;
+        text-align: left; } }
+  .bene-cta .bene-logo {
+    flex: 0 1 auto;
+    width: 50%;
+    margin: 24px auto;
+    max-width: 160px; }
+    @media (min-width: 980px) {
+      .bene-cta .bene-logo {
+        width: 216px;
+        max-width: none;
+        margin: 0 2.75rem 0 0; } }
+  .bene-cta h2 {
+    margin: 0 auto 2rem;
+    font-size: 1.5rem;
+    max-width: 31.25rem; }
+    @media (min-width: 980px) {
+      .bene-cta h2 {
+        max-width: none;
+        margin: 0 0 2rem;
+        font-size: 2.5rem; } }
+  .bene-cta .button {
+    border-radius: 0;
+    border: 3px solid #fff;
+    color: #fff;
+    display: inline-block;
+    height: 4.1875rem;
+    line-height: 2;
+    text-transform: capitalize; }
+
+.front .blog-teaser .blog-menu.bene-cta {
+  background: transparent url("../images/bene/free-geek-2.jpg") no-repeat top center/cover;
+  color: #fff;
+  padding: 8rem 0 1rem; }
+  @media (max-width: 600px) {
+    .front .blog-teaser .blog-menu.bene-cta {
+      padding: 7rem 0 1rem; } }
+  @media (max-width: 440px) {
+    .front .blog-teaser .blog-menu.bene-cta {
+      padding: 8rem 0 1rem; } }
+  @media (min-width: 980px) {
+    .front .blog-teaser .blog-menu.bene-cta {
+      padding: 10rem 0 2rem; } }
+  .front .blog-teaser .blog-menu.bene-cta .container {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 0 2rem; }
+  .front .blog-teaser .blog-menu.bene-cta .bene-logo {
+    flex: 0 1 auto;
+    width: 50%;
+    margin: 24px auto;
+    max-width: 160px; }
+    @media (max-width: 600px) {
+      .front .blog-teaser .blog-menu.bene-cta .bene-logo {
+        margin: 24px; } }
+    @media (max-width: 440px) {
+      .front .blog-teaser .blog-menu.bene-cta .bene-logo {
+        width: 24%;
+        margin: 0 16px 0 0; } }
+    @media (min-width: 980px) {
+      .front .blog-teaser .blog-menu.bene-cta .bene-logo {
+        width: 216px;
+        max-width: none;
+        margin: 0 2.75rem 0 0; } }
+  .front .blog-teaser .blog-menu.bene-cta h2 {
+    margin: 0 auto 1rem;
+    font-size: 1.5rem;
+    max-width: 31.25rem; }
+    @media (max-width: 600px) {
+      .front .blog-teaser .blog-menu.bene-cta h2 {
+        font-size: 1.125rem;
+        margin: 0 auto 1.5rem; } }
+    @media (min-width: 980px) {
+      .front .blog-teaser .blog-menu.bene-cta h2 {
+        font-size: 1.125rem;
+        margin: 0 auto 1.5rem; } }
+    @media (min-width: 1200px) {
+      .front .blog-teaser .blog-menu.bene-cta h2 {
+        font-size: 1.5rem; } }
+  .front .blog-teaser .blog-menu.bene-cta .button {
+    border-radius: 0;
+    border: 3px solid #fff;
+    color: #fff;
+    display: inline-block;
+    height: 4.1875rem;
+    line-height: 2;
+    font-size: 1rem;
+    text-transform: capitalize; }
 
 @media (max-width: 480px) {
   .blog-post .main-content {
