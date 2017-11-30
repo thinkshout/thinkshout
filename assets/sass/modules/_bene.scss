@@ -8,30 +8,64 @@
       position: relative;
       display: flex;
       justify-content: center;
+      overflow: hidden;
+      & > img {
+        width: auto;
+        height: rem(475);
+        @include mq(d) {
+          width: 100%;
+          height: auto
+        }
+      }
     }
 
     .overlay-text {
       position: absolute;
-      display: flex;
       flex-wrap: wrap;
       height: 100%;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
+      display: flex;
+      @include mq(d) {
+        flex-direction: row;
+      }
       div {
-        display: flex;
+        text-align: center;
+        width: 90%;
+        max-width: 300px;
+        @include mq(d) {
+          display: flex;
+          width: auto;
+        }
       }
       .bene-logo {
-        width: rem(293);
-        height: rem(322);
+        width: 60%;
+        max-width: rem(192);
+        height: auto;
+        @include mq(d) {
+          margin: rem(24) auto;
+          max-width: rem(293);
+          width: rem(293);
+          height: rem(322);
+        }
       }
       h2 {
-        display: flex;
-        align-items: flex-end;
         color: $white;
-        max-width: 40%;
-        height: rem(330);
         margin: 0;
+        font-size: rem(24);
+        text-align: center;
+        max-width: 80%;
+        margin: rem(-20) auto 0;
+        @include mq(d) {
+          margin: 0;
+          height: rem(330);
+          align-items: flex-end;
+          display: flex;
+          max-width: 40%;
+          text-align: left;
+          font-size: rem(40);
+        }
       }
     }
 
@@ -79,18 +113,23 @@
           margin-left: rem(16);
         }
       }
+      .down-caret h4 {
+        text-align: left;
+        justify-content: flex-start;
+      }
       .value {
         h3 {
           color: #FF9012;
           font-size: rem(26);
-          margin-top: rem(70);
+          margin-top: rem(15);
           padding: 0;
+          @include mq(d) { margin-top: rem(70); }
         }
-         @include mq(d) {
-           p {
+        @include mq(d) {
+          p {
             width: 80%;
-           }
-         }
+          }
+        }
       }
       &.additional {
         p {
@@ -98,13 +137,21 @@
           line-height: rem(26);
         }
         p:first-of-type {
-          padding-top: rem(48);
+          padding-top: rem(28);
+          @include mq(d) { padding-top: rem(48); }
         }
         ul {
           padding-left: rem(6);
           li {
             font-size: rem(18);
             line-height: rem(28);
+            margin: rem(12);
+            position: relative;
+            &:before {
+              content: "•";
+              position: absolute;
+              left: rem(-16);
+            }
           }
         }
       }
@@ -112,10 +159,12 @@
         margin: rem(55) 0 rem(40);
 
         p {
-          font-size: rem(32);
-          line-height: rem(46);
+          font-size: rem(26);
+          line-height: rem(36);
           font-weight: 100;
           margin-bottom: rem(12);
+          @include mq(d) { font-size: rem(32); line-height: rem(46);}
+          @include mq(l)  { font-size: rem(38); line-height: rem(46);}
         }
       }
     }
@@ -133,8 +182,9 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        padding: rem(40) rem(160);
+        padding: rem(20) rem(16);
         justify-content: center;
+        @include mq(d) { padding: rem(40) rem(160); }
 
         h2 {
           margin-top: 0;
@@ -166,20 +216,24 @@
         max-width: 996px;
         padding: 0 rem(20);
         width: 94%;
-        @include mq(lt) { width: 90%; padding: 0 rem(40); }
-        @include mq(md) { width: 90%; padding: 0 rem(60); }
+        @include mq(d) { width: 90%; padding: 0 rem(60); }
         @include mq(l)  { width: 100%; padding: 0 rem(100); }
       }
       h2 {
         color: $white;
         text-align: center;
         font-weight: 800;
-        font-size: rem(42);
-        line-height: rem(48);
+        font-size: rem(32);
+        line-height: rem(38);
+        @include mq(d) {
+          font-size: rem(42);
+          line-height: rem(48);
+        }
       }
       form.contact {
-        display: flex;
+        display: block;
         width: 100%;
+        @include mq(d) { display: flex; }
       }
       .form-group.half {
         width: auto;
@@ -207,15 +261,11 @@
         border-radius: 0;
       }
     }
-
-
-
   }
   .newsletter-block {
     display: none;
   }
 }
 
-  // @include mq(lt) {  }
-  // @include mq(md) {  }
+  // @include mq(d) {  }
   // @include mq(l)  {  }

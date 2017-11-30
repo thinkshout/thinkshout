@@ -2249,27 +2249,60 @@ a:visited {
 .bene .main-content .blog-header-image {
   position: relative;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  overflow: hidden; }
+  .bene .main-content .blog-header-image > img {
+    width: auto;
+    height: 29.6875rem; }
+    @media (min-width: 980px) {
+      .bene .main-content .blog-header-image > img {
+        width: 100%;
+        height: auto; } }
 .bene .main-content .overlay-text {
   position: absolute;
-  display: flex;
   flex-wrap: wrap;
   height: 100%;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
-  align-items: center; }
+  align-items: center;
+  display: flex; }
+  @media (min-width: 980px) {
+    .bene .main-content .overlay-text {
+      flex-direction: row; } }
   .bene .main-content .overlay-text div {
-    display: flex; }
+    text-align: center;
+    width: 90%;
+    max-width: 300px; }
+    @media (min-width: 980px) {
+      .bene .main-content .overlay-text div {
+        display: flex;
+        width: auto; } }
   .bene .main-content .overlay-text .bene-logo {
-    width: 18.3125rem;
-    height: 20.125rem; }
+    width: 60%;
+    max-width: 12rem;
+    height: auto; }
+    @media (min-width: 980px) {
+      .bene .main-content .overlay-text .bene-logo {
+        margin: 1.5rem auto;
+        max-width: 18.3125rem;
+        width: 18.3125rem;
+        height: 20.125rem; } }
   .bene .main-content .overlay-text h2 {
-    display: flex;
-    align-items: flex-end;
     color: #fff;
-    max-width: 40%;
-    height: 20.625rem;
-    margin: 0; }
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 80%;
+    margin: -1.25rem auto 0; }
+    @media (min-width: 980px) {
+      .bene .main-content .overlay-text h2 {
+        margin: 0;
+        height: 20.625rem;
+        align-items: flex-end;
+        display: flex;
+        max-width: 40%;
+        text-align: left;
+        font-size: 2.5rem; } }
 .bene .main-content .body h3 {
   color: #3f3f41;
   margin: 2em auto 1rem;
@@ -2309,11 +2342,17 @@ a:visited {
   line-height: 24px; }
   .bene .main-content .our-values-block h4 .fa.fa-caret-right {
     margin-left: 1rem; }
+.bene .main-content .our-values-block .down-caret h4 {
+  text-align: left;
+  justify-content: flex-start; }
 .bene .main-content .our-values-block .value h3 {
   color: #FF9012;
   font-size: 1.625rem;
-  margin-top: 4.375rem;
+  margin-top: 0.9375rem;
   padding: 0; }
+  @media (min-width: 980px) {
+    .bene .main-content .our-values-block .value h3 {
+      margin-top: 4.375rem; } }
 @media (min-width: 980px) {
   .bene .main-content .our-values-block .value p {
     width: 80%; } }
@@ -2321,19 +2360,36 @@ a:visited {
   font-size: 1.125rem;
   line-height: 1.625rem; }
 .bene .main-content .our-values-block.additional p:first-of-type {
-  padding-top: 3rem; }
+  padding-top: 1.75rem; }
+  @media (min-width: 980px) {
+    .bene .main-content .our-values-block.additional p:first-of-type {
+      padding-top: 3rem; } }
 .bene .main-content .our-values-block.additional ul {
   padding-left: 0.375rem; }
   .bene .main-content .our-values-block.additional ul li {
     font-size: 1.125rem;
-    line-height: 1.75rem; }
+    line-height: 1.75rem;
+    margin: 0.75rem;
+    position: relative; }
+    .bene .main-content .our-values-block.additional ul li:before {
+      content: "•";
+      position: absolute;
+      left: -1rem; }
 .bene .main-content .our-values-block blockquote {
   margin: 3.4375rem 0 2.5rem; }
   .bene .main-content .our-values-block blockquote p {
-    font-size: 2rem;
-    line-height: 2.875rem;
+    font-size: 1.625rem;
+    line-height: 2.25rem;
     font-weight: 100;
     margin-bottom: 0.75rem; }
+    @media (min-width: 980px) {
+      .bene .main-content .our-values-block blockquote p {
+        font-size: 2rem;
+        line-height: 2.875rem; } }
+    @media (min-width: 1200px) {
+      .bene .main-content .our-values-block blockquote p {
+        font-size: 2.375rem;
+        line-height: 2.875rem; } }
 .bene .main-content .free-geek-info-block {
   background: url("../images/bene/free-geek.jpg") no-repeat center center/cover;
   min-height: 29.5rem;
@@ -2346,8 +2402,11 @@ a:visited {
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 2.5rem 10rem;
+    padding: 1.25rem 1rem;
     justify-content: center; }
+    @media (min-width: 980px) {
+      .bene .main-content .free-geek-info-block .container {
+        padding: 2.5rem 10rem; } }
     .bene .main-content .free-geek-info-block .container h2 {
       margin-top: 0;
       margin-bottom: 0.75rem;
@@ -2372,11 +2431,7 @@ a:visited {
     max-width: 996px;
     padding: 0 1.25rem;
     width: 94%; }
-    @media (min-width: 671px) and (max-width: 979px) {
-      .bene .main-content .contact-form .container {
-        width: 90%;
-        padding: 0 2.5rem; } }
-    @media (min-width: 980px) and (max-width: 1199px) {
+    @media (min-width: 980px) {
       .bene .main-content .contact-form .container {
         width: 90%;
         padding: 0 3.75rem; } }
@@ -2388,11 +2443,18 @@ a:visited {
     color: #fff;
     text-align: center;
     font-weight: 800;
-    font-size: 2.625rem;
-    line-height: 3rem; }
+    font-size: 2rem;
+    line-height: 2.375rem; }
+    @media (min-width: 980px) {
+      .bene .main-content .contact-form h2 {
+        font-size: 2.625rem;
+        line-height: 3rem; } }
   .bene .main-content .contact-form form.contact {
-    display: flex;
+    display: block;
     width: 100%; }
+    @media (min-width: 980px) {
+      .bene .main-content .contact-form form.contact {
+        display: flex; } }
   .bene .main-content .contact-form .form-group.half {
     width: auto;
     float: none;
