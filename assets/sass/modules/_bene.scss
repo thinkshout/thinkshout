@@ -34,18 +34,20 @@
         margin: 0;
       }
     }
-    h3 {
-      color: darken($darkgray, 10%);
-      margin: 2em auto 1rem;
-      max-width: 996px;
-      padding: 0 rem(20);
-      width: 94%;
-      @include mq(lt) { width: 90%; padding: 0 rem(40); }
-      @include mq(md) { width: 90%; padding: 0 rem(60); }
-      @include mq(l)  { width: 100%; padding: 0 rem(100); }
-    }
 
     .body {
+
+      h3 {
+        color: darken($darkgray, 10%);
+        margin: 2em auto 1rem;
+        max-width: 996px;
+        padding: 0 rem(20);
+        width: 94%;
+        @include mq(lt) { width: 90%; padding: 0 rem(40); }
+        @include mq(md) { width: 90%; padding: 0 rem(60); }
+        @include mq(l)  { width: 100%; padding: 0 rem(100); }
+      }
+
       div.inline {
         max-width: rem(793);
       }
@@ -56,9 +58,26 @@
     }
 
     .our-values-block {
+      .row {
+        @include mq(d) {
+          max-width: 796px;
+        }
+      }
+      .right-caret {
+        margin-right: 4.3%;
+        margin-left: -2%;
+      }
       h4 {
         font-size: rem(18);
         margin-top: rem(45);
+        display: flex;
+        text-align: right;
+        align-items: center;
+        justify-content: flex-end;
+        line-height: 24px;
+      .fa.fa-caret-right {
+          margin-left: rem(16);
+        }
       }
       .value {
         h3 {
@@ -73,19 +92,127 @@
            }
          }
       }
+      &.additional {
+        p {
+          font-size: rem(18);
+          line-height: rem(26);
+        }
+        p:first-of-type {
+          padding-top: rem(48);
+        }
+        ul {
+          padding-left: rem(6);
+          li {
+            font-size: rem(18);
+            line-height: rem(28);
+          }
+        }
+      }
+      blockquote {
+        margin: rem(55) 0 rem(40);
+
+        p {
+          font-size: rem(32);
+          line-height: rem(46);
+          font-weight: 100;
+          margin-bottom: rem(12);
+        }
+      }
     }
 
     .free-geek-info-block {
       background: url('../images/bene/free-geek.jpg') no-repeat center center /cover;
-      padding-top: 32.777%;
+      min-height: rem(472);
       color: $white;
+      margin-top: rem(40);
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
+      .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: rem(40) rem(160);
+        justify-content: center;
 
+        h2 {
+          margin-top: 0;
+          margin-bottom: rem(12);
+          font-weight: 800;
+        }
+
+        p {
+          font-size: rem(20);
+          font-weight: 400;
+          margin-top: rem(10);
+          margin-bottom: rem(32);
+          @include mq(d)  { max-width: 60%; }
+        }
+
+        a {
+          color: $white;
+          text-transform: uppercase;
+          font-size: rem(16);
+          font-weight: 600;
+        }
+      }
+    }
+
+    .contact-form {
+      background-color: #FF9012;
+      .container {
+        margin: 2em auto 1rem;
+        max-width: 996px;
+        padding: 0 rem(20);
+        width: 94%;
+        @include mq(lt) { width: 90%; padding: 0 rem(40); }
+        @include mq(md) { width: 90%; padding: 0 rem(60); }
+        @include mq(l)  { width: 100%; padding: 0 rem(100); }
+      }
+      h2 {
+        color: $white;
+        text-align: center;
+        font-weight: 800;
+        font-size: rem(42);
+        line-height: rem(48);
+      }
+      form.contact {
+        display: flex;
+        width: 100%;
+      }
+      .form-group.half {
+        width: auto;
+        float: none;
+        flex: 1 1 25%;
+        input[type="email"],
+        input[type="text"] {
+          height: rem(67);
+          border: 0;
+          &::-webkit-input-placeholder { color: #9B9B9B; }
+          &::-moz-placeholder { color: #9B9B9B; }
+          &:-ms-input-placeholder { color: #9B9B9B; }
+          &:-moz-placeholder { color: #9B9B9B; }
+          &::-webkit-input-placeholder { color: #9B9B9B; }
+          &::-moz-placeholder { color: #9B9B9B; }
+          &:-ms-input-placeholder { color: #9B9B9B; }
+          &:-moz-placeholder { color: #9B9B9B; }
+        }
+      }
+      .button {
+        text-transform: capitalize;
+        height: rem(67);
+        border: 3px solid $white;
+        color: $white;
+        border-radius: 0;
+      }
     }
 
 
 
-
+  }
+  .newsletter-block {
+    display: none;
   }
 }
 

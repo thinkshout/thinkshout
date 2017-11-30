@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: strategy and design
+topic: strategy
 title: What the proposed changes in the tax code mean for your organization
 homepage: true
 author: natania
@@ -18,6 +18,9 @@ tags:
   - tax code
   - tax-deductible gifts
 date: 2017-11-26 12:30:00
+image: https://thinkshout.com/assets/images/userjourneys-header.jpg
+header-image: /assets/images/blog/userjourneys-header.jpg
+header-image-alt: "What the proposed changes in the tax code mean for your organization"
 ---
 
 The end of the year is approaching and along with that, the traditional wave of last minute, tax-deductible gifts from supporters.
@@ -32,10 +35,10 @@ This poses a shift in incentives, as the purpose of the charitable tax deduction
 
 So why are we talking about this? For one, in the various conversations I've had with nonprofits since this news broke earlier in the year, it seems many organizations are either unaware of the impact the tax plan has on them, or feel their energy is better spent on things they can control.
 
-![TimGunn](/assets/images/blog/Tim Gunn.gif)
+![TimGunn](/assets/images/blog/tim-gunn.gif)
 {:.center}
 
-**Let's talk about that.**
+## Let's talk about that.
 
 While the new tax plan has yet to become law, the uncertainty donors are facing about many of the points in the tax plan may already be influencing their gift-giving behavior. How you planning to pivot your messaging to reflect the fact that you can't confidently close your messages with the tagline, "You'll be happy you gave come April 15th!"
 
@@ -55,7 +58,7 @@ What this boils down to is **good storytelling**. Sharing content that shows how
 
 This goes beyond saying “we provided 5,000 people with [enter a valuable service here].” [It’s about telling the story of one](http://clairification.com/2012/05/06/one-incredibly-dramatic-way-to-create-winning-content/). Or, at least telling a compelling story of how you affect change. Donors empathize more with these stories, and their likelihood to make a gift increases if they have a tangible, real example of an individual or specific scenario that was the result of the important work you do. Large numbers tell a story in broad strokes, but the details and impact of one life or one specific outcome is ultimately more meaningful and more likely to be remembered.
 
-**How do I go about doing this?**
+## How do I go about doing this?
 
 If you’re thinking this approach sounds time consuming, you’re right. It is. Content curation is one of those things that is either incredibly easy or seemingly impossible depending on the resources available to you.
 
@@ -69,7 +72,7 @@ Talk to volunteers or people in the field about what they experience and see. As
 
 As time-consuming as this approach is, I can say from experience that it works. The more personal stories are the ones that will build relationships with your supporters and turn them into multi-channel, multi-year supporters. They won’t remember the big numbers you share, but they’ll remember the story of that one individual; a child, an animal that was rescued, a family that now has a home… stories touch the heart in ways numbers simply can’t.
 
-**This won't work for me, the people I serve need to remain anonymous**
+## This won't work for me, the people I serve need to remain anonymous
 
 This is a common issue: how do we create a sense of empathy and human connection when people don’t want us to tell their personal stories or use their real information? Answer: You develop a composite scenario.
 

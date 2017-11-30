@@ -54,9 +54,9 @@
       color: $white;
       max-width: 95%;
       margin: 0 0 1rem;
-      @include mq(lt) { max-width: 40%; }
-      @include mq(md) { max-width: 40%; }
-      @include mq(l)  { max-width: 35%; }
+      @include mq(lt) { max-width: 60%; }
+      @include mq(md) { max-width: 70%; }
+      @include mq(l)  { max-width: 55%; }
       a {
         color: $yellow;
         font-weight: 800;
