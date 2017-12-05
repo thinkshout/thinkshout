@@ -3009,6 +3009,9 @@ a:visited {
 .blog-post .body .ninety,
 .blog-post .intro .ninety {
   width: 90%; }
+.blog-post .body .clear,
+.blog-post .intro .clear {
+  clear: both; }
 .blog-post .intro p {
   color: #626262;
   font-size: 1.125rem;
