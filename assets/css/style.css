@@ -2881,13 +2881,13 @@ a:visited {
     margin: 0 0 1rem; }
     @media (min-width: 671px) and (max-width: 979px) {
       .blog-landing .featured-post h2, .blog-landing .featured-post p {
-        max-width: 40%; } }
+        max-width: 60%; } }
     @media (min-width: 980px) and (max-width: 1199px) {
       .blog-landing .featured-post h2, .blog-landing .featured-post p {
-        max-width: 40%; } }
+        max-width: 70%; } }
     @media (min-width: 1200px) {
       .blog-landing .featured-post h2, .blog-landing .featured-post p {
-        max-width: 35%; } }
+        max-width: 55%; } }
     .blog-landing .featured-post h2 a, .blog-landing .featured-post p a {
       color: #f1b332;
       font-weight: 800; }
