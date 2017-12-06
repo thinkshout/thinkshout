@@ -17,7 +17,7 @@ tags:
   - NP Tech
   - tax code
   - tax-deductible gifts
-date: 2017-11-26 12:30:00
+date: 2017-12-02 12:30:00
 image: https://thinkshout.com/assets/images/userjourneys-header.jpg
 header-image: /assets/images/blog/userjourneys-header.jpg
 header-image-alt: "What the proposed changes in the tax code mean for your organization"
@@ -27,7 +27,7 @@ The end of the year is approaching and along with that, the traditional wave of 
 
 Or is it?
 
-This uncertainty around tax-deductible gifts isn't a commentary on the ever-fluctuating state of affairs at your organization or in our country, rather it's about [proposed changes to the tax code](http://www.thenonprofittimes.com/news-articles/nonprofits-hammered-federal-budget-proposal/). It's been suggested that these changes could alter the long-held tradition of donors looking to get that extra tax break with their year-end gift -- and not to your advantage.
+This uncertainty around tax-deductible gifts isn't a commentary on the ever-fluctuating state of affairs at your organization or in our country, rather it's about [proposed changes to the tax code](http://www.thenonprofittimes.com/news-articles/nonprofits-hammered-federal-budget-proposal/). These changes, should they come to pass, could alter the long-held tradition of donors looking to get that extra tax break with their year-end gift -- and not to your advantage.
 
 The proposal currently being considered by Congress aims to reduce or eliminate key tax breaks for giving, and that rightfully has many organizations concerned. There has been speculation that the tax plan could reduce giving between [$5 - $13 billion per year (or 4.6%)](http://money.cnn.com/2017/08/06/news/economy/tax-reform-charitable-giving/index.html). It won't kill all charitable giving, about 5% of people will continue to itemize, specifically those in a higher income bracket.
 
@@ -88,7 +88,7 @@ This is very common practice for nonprofits. Luckily, there are [resources](http
 
 ## Parting Thoughts
 
-Whether the tax plan goes through or not, my hope is that we see people giving not because of the potential for a kickback, but because being altruistic and helping each other and our planet is just better for everyone.
+We're keeping a close eye on the tax plan as it develops, as much of it has the potential to impact not only our work but our personal lives. Whether the plan goes through or not, my hope is that we see people giving not because of the potential for a kickback, but because being altruistic and helping each other and our planet is just better for everyone.
 
 The work of a nonprofit is never done, almost sisyphean in nature. Once you think the hardest task is complete, you have to roll the boulder up another mountain. It’s easy to become jaded and feel that you’ll never make progress. I promise you, that is not true.
 
