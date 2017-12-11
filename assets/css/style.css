@@ -2324,8 +2324,11 @@ a:visited {
 .bene .main-content .body div.inline {
   max-width: 49.5625rem; }
 .bene .main-content .body p.bene-caption {
+  margin-top: 0;
   color: #444447;
   font-weight: 100; }
+.bene .main-content .our-values-block.in-action {
+  display: none; }
 @media (min-width: 980px) {
   .bene .main-content .our-values-block .row {
     max-width: 796px; } }
@@ -2397,7 +2400,8 @@ a:visited {
   display: flex;
   justify-content: center;
   margin-top: 2.5rem;
-  min-height: 29.5rem; }
+  min-height: 29.5rem;
+  position: relative; }
   .bene .main-content .free-geek-info-block .container {
     display: flex;
     flex-direction: column;
@@ -2424,6 +2428,12 @@ a:visited {
       font-size: 1rem;
       font-weight: 600;
       text-transform: uppercase; }
+    .bene .main-content .free-geek-info-block .container .caption {
+      position: absolute;
+      bottom: 1.25rem;
+      font-size: 0.875rem;
+      font-style: italic;
+      color: #dbdcde; }
 .bene .main-content .contact-form {
   background-color: #FF9012; }
   .bene .main-content .contact-form .container {
@@ -4976,7 +4986,7 @@ form.contact {
   form.contact .form-actions {
     display: flex; }
     form.contact .form-actions .button.solid {
-      max-height: 53px; }
+      max-height: 3.3125rem; }
     form.contact .form-actions .signup-notification {
       font-size: 0.75rem;
       padding-top: 0.25rem;

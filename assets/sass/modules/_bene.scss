@@ -86,12 +86,16 @@
         max-width: rem(793);
       }
       p.bene-caption {
+        margin-top: 0;
         color: #58585B - 20;
         font-weight: 100;
       }
     }
 
     .our-values-block {
+      &.in-action {
+        display: none;
+      }
       .row {
         @include mq(d) {
           max-width: 796px;
@@ -177,6 +181,7 @@
       justify-content: center;
       margin-top: rem(40);
       min-height: rem(472);
+      position: relative;
 
       .container {
         display: flex;
@@ -205,6 +210,14 @@
           font-size: rem(16);
           font-weight: 600;
           text-transform: uppercase;
+        }
+
+        .caption {
+          position: absolute;
+          bottom: rem(20);
+          font-size: rem(14);
+          font-style: italic;
+          color: $ltgray;
         }
       }
     }

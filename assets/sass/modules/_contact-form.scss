@@ -70,7 +70,7 @@ form.contact {
   .form-actions {
     display: flex;
     .button.solid {
-      max-height: 53px;
+      max-height: rem(53);
     }
     .signup-notification {
       font-size: rem(12);
