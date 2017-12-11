@@ -256,6 +256,14 @@
         height: rem(67);
         text-transform: capitalize;
       }
+      .signup-notification {
+        font-size: rem(14);
+        color: $darkgray;
+        font-style: italic;
+        max-width: 75%;
+        margin: 0 auto;
+        text-align: center;
+      }
     }
   }
   .newsletter-block {

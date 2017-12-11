@@ -2474,6 +2474,13 @@ a:visited {
     color: #fff;
     height: 4.1875rem;
     text-transform: capitalize; }
+  .bene .main-content .contact-form .signup-notification {
+    font-size: 0.875rem;
+    color: #58585b;
+    font-style: italic;
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: center; }
 .bene .newsletter-block {
   display: none; }
 
@@ -4966,6 +4973,20 @@ form.contact {
       margin-right: 0; }
   form.contact .form-group.half.omega {
     margin-right: 0; }
+  form.contact .form-actions {
+    display: flex; }
+    form.contact .form-actions .button.solid {
+      max-height: 53px; }
+    form.contact .form-actions .signup-notification {
+      font-size: 0.75rem;
+      padding-top: 0.25rem;
+      color: #58585b;
+      font-style: italic;
+      max-width: 75%;
+      margin-left: 3rem; }
+      @media (max-width: 480px) {
+        form.contact .form-actions .signup-notification {
+          margin-left: 0.625rem; } }
 
 .careers-cta {
   background: url("../images/careers.jpg") right center no-repeat;
