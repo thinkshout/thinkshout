@@ -107,9 +107,15 @@ keywords:
       {% break %}
       {% endif %}
       {% endfor %}
-      <div class="blog-menu">
+      <div class="blog-menu bene-cta">
         <div class="container">
-          <div class="header-down-caret">
+          <img class="bene-logo" src="{{ site.baseurl }}/assets/images/bene/bene-logo-white.svg" alt="Logo: Bene" />
+          <div class="text-wrapper">
+            <h2>Introducing Bene:<br>
+            Our affordable, out-of-the box website solution for growing nonprofits. </h2>
+            <a href="{{ site.baseurl }}/bene" class="button">Meet Bene</a>
+          </div>
+          <!-- <div class="header-down-caret">
             <h4>Read more about</h4>
             <i class="fa fa-caret-down"></i>
           </div>
@@ -119,7 +125,7 @@ keywords:
               <li><a href="{{ site.baseurl }}{{ topic.url }}">{{ topic.title }}<i class="fa fa-caret-right"></i></a></li>
             {% endfor %}
           </ul>
+        </div> -->
       </div>
-    </div>
   </div>
 </div>

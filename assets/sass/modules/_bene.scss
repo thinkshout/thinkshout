@@ -1,0 +1,402 @@
+.bene {
+
+  .main-content {
+    @include mq(m) { margin-top: rem(90); }
+    @include mq(t) { margin-top: rem(90); }
+
+    .blog-header-image {
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+      & > img {
+        height: rem(475);
+        width: auto;
+        @include mq(d) {
+          height: auto;
+          width: 100%;
+        }
+      }
+    }
+
+    .overlay-text {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 100%;
+      justify-content: space-evenly;
+      position: absolute;
+      @include mq(d) {
+        flex-direction: row;
+      }
+      div {
+        max-width: 300px;
+        text-align: center;
+        width: 90%;
+        @include mq(d) {
+          display: flex;
+          width: auto;
+        }
+      }
+      .bene-logo {
+        height: auto;
+        max-width: rem(192);
+        width: 60%;
+        @include mq(d) {
+          height: rem(322);
+          margin: rem(24) auto;
+          max-width: rem(293);
+          width: rem(293);
+        }
+      }
+      h2 {
+        color: $white;
+        font-size: rem(24);
+        margin: 0;
+        margin: rem(-20) auto 0;
+        max-width: 80%;
+        text-align: center;
+        @include mq(d) {
+          align-items: flex-end;
+          display: flex;
+          font-size: rem(40);
+          height: rem(330);
+          margin: 0;
+          max-width: 40%;
+          text-align: left;
+        }
+      }
+    }
+
+    .body {
+
+      h3 {
+        color: darken($darkgray, 10%);
+        margin: 2em auto 1rem;
+        max-width: 996px;
+        padding: 0 rem(20);
+        width: 94%;
+        @include mq(lt) { width: 90%; padding: 0 rem(40); }
+        @include mq(md) { width: 90%; padding: 0 rem(60); }
+        @include mq(l)  { width: 100%; padding: 0 rem(100); }
+      }
+
+      div.inline {
+        max-width: rem(793);
+      }
+      p.bene-caption {
+        margin-top: 0;
+        color: $darkgray;
+        font-weight: 100;
+      }
+    }
+
+    .our-values-block {
+      &.in-action {
+        display: none;
+      }
+      .row {
+        @include mq(d) {
+          max-width: 796px;
+        }
+      }
+      .right-caret {
+        margin-left: -2%;
+        margin-right: 4.3%;
+      }
+      h4 {
+        align-items: center;
+        display: flex;
+        font-size: rem(18);
+        justify-content: flex-end;
+        line-height: 24px;
+        margin-top: rem(45);
+        text-align: right;
+      .fa.fa-caret-right {
+          margin-left: rem(16);
+        }
+      }
+      .down-caret h4 {
+        justify-content: flex-start;
+        text-align: left;
+      }
+      .value {
+        h3 {
+          color: $bright-orange;
+          font-size: rem(26);
+          margin-top: rem(15);
+          padding: 0;
+          @include mq(d) { margin-top: rem(70); }
+        }
+        @include mq(d) {
+          p {
+            width: 80%;
+          }
+        }
+      }
+      &.additional {
+        p {
+          font-size: rem(18);
+          line-height: rem(26);
+        }
+        p:first-of-type {
+          padding-top: rem(28);
+          @include mq(d) { padding-top: rem(48); }
+        }
+        ul {
+          padding-left: rem(6);
+          li {
+            font-size: rem(18);
+            line-height: rem(28);
+            margin: rem(12);
+            position: relative;
+            &:before {
+              content: "•";
+              left: rem(-16);
+              position: absolute;
+            }
+          }
+        }
+      }
+      blockquote {
+        margin: rem(55) 0 rem(40);
+
+        p {
+          font-size: rem(26);
+          font-weight: 100;
+          line-height: rem(36);
+          margin-bottom: rem(12);
+          @include mq(d) { font-size: rem(32); line-height: rem(46);}
+          @include mq(l)  { font-size: rem(38); line-height: rem(46);}
+        }
+      }
+    }
+
+    .free-geek-info-block {
+      align-items: center;
+      background: url('../images/bene/free-geek.jpg') no-repeat center center /cover;
+      color: $white;
+      display: flex;
+      justify-content: center;
+      margin-top: rem(40);
+      min-height: rem(472);
+      position: relative;
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        padding: rem(20) rem(16);
+        @include mq(d) { padding: rem(40) rem(160); }
+
+        h2 {
+          font-weight: 800;
+          margin-bottom: rem(12);
+          margin-top: 0;
+        }
+
+        p {
+          font-size: rem(20);
+          font-weight: 400;
+          margin-bottom: rem(32);
+          margin-top: rem(10);
+          @include mq(d)  { max-width: 60%; }
+        }
+
+        a {
+          color: $white;
+          font-size: rem(16);
+          font-weight: 600;
+          text-transform: uppercase;
+        }
+
+        .caption {
+          position: absolute;
+          bottom: rem(20);
+          font-size: rem(14);
+          font-style: italic;
+          color: $ltgray;
+        }
+      }
+    }
+
+    .contact-form {
+      background-color: $bright-orange;
+      .container {
+        margin: 2em auto 1rem;
+        max-width: 996px;
+        padding: 0 rem(20);
+        width: 94%;
+        @include mq(d) { width: 90%; padding: 0 rem(60); }
+        @include mq(l)  { width: 100%; padding: 0 rem(100); }
+      }
+      h2 {
+        color: $white;
+        font-size: rem(32);
+        font-weight: 800;
+        line-height: rem(38);
+        text-align: center;
+        @include mq(d) {
+          font-size: rem(42);
+          line-height: rem(48);
+        }
+      }
+      form.contact {
+        display: block;
+        width: 100%;
+        @include mq(d) { display: flex; }
+      }
+      .form-group.half {
+        flex: 1 1 25%;
+        float: none;
+        width: auto;
+        input[type="email"],
+        input[type="text"] {
+          border: 0;
+          color: #9B9B9B;
+          height: rem(67);
+          &:focus, &:active {
+            color: $black;
+          }
+        }
+      }
+      .button {
+        border-radius: 0;
+        border: 3px solid $white;
+        color: $white;
+        height: rem(67);
+        text-transform: capitalize;
+      }
+      .signup-notification {
+        font-size: rem(14);
+        color: $darkgray;
+        font-style: italic;
+        max-width: 75%;
+        margin: 0 auto;
+        text-align: center;
+      }
+    }
+  }
+  .newsletter-block {
+    display: none;
+  }
+}
+
+
+.bene-cta {
+  background: url('../images/bene/free-geek-2.jpg') no-repeat top center /cover;
+  color: $white;
+  padding: 6rem 0 2rem;
+  @include mq(d) {
+    padding: 14rem 0 2rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    @include mq(d) {
+      flex-direction: row;
+      text-align: left;
+    }
+  }
+  .bene-logo {
+    flex: 0 1 auto;
+    width: 50%;
+    margin: 24px auto;
+    max-width: 160px;
+    @include mq(d) {
+      width: 216px;
+      max-width: none;
+      margin: 0 rem(44) 0 0;
+    }
+  }
+  h2 {
+    margin: 0 auto rem(32);
+    font-size: rem(24);
+    max-width: rem(500);
+    @include mq(d) {
+      max-width: none;
+      margin: 0 0 rem(32);
+      font-size: rem(40);
+    }
+  }
+  .button {
+    border-radius: 0;
+    border: 3px solid $white;
+    color: $white;
+    display: inline-block;
+    height: rem(67);
+    line-height: 2;
+    text-transform: capitalize;
+  }
+}
+
+.front .blog-teaser .blog-menu.bene-cta {
+  background: transparent url('../images/bene/free-geek-2.jpg') no-repeat top center /cover;
+  color: $white;
+  padding: 8rem 0 1rem;
+  @media (max-width: 600px) {
+    padding: 7rem 0 1rem;
+  }
+  @media (max-width: 440px) {
+    padding: 8rem 0 1rem;
+  }
+  @include mq(d) { padding: 10rem 0 2rem; }
+  .container {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 0 2rem;
+  }
+  .bene-logo {
+    flex: 0 1 auto;
+    width: 50%;
+    margin: 24px auto;
+    max-width: 160px;
+    @media (max-width: 600px) {
+      margin: 24px;
+    }
+    @media (max-width: 440px) {
+      width: 24%;
+      margin: 0 16px 0 0;
+    }
+    @include mq(d) {
+      width: 216px;
+      max-width: none;
+      margin: 0 rem(44) 0 0;
+    }
+  }
+  h2 {
+    margin: 0 auto rem(16);
+    font-size: rem(24);
+    max-width: rem(500);
+    @media (max-width: 600px) {
+      font-size: rem(18);
+      margin: 0 auto rem(24);
+    }
+    @include mq(d) {
+      font-size: rem(18);
+      margin: 0 auto rem(24);
+    }
+    @include mq(l) {
+      font-size: rem(24);
+    }
+  }
+  .button {
+    border-radius: 0;
+    border: 3px solid $white;
+    color: $white;
+    display: inline-block;
+    height: rem(67);
+    line-height: 2;
+    font-size: rem(16);
+    text-transform: capitalize;
+  }
+}
+
+
+
+  // @include mq(d) {  }
+  // @include mq(l)  {  }

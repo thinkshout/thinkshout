@@ -2241,6 +2241,363 @@ a:visited {
         color: #fff; }
 
 @media (max-width: 480px) {
+  .bene .main-content {
+    margin-top: 5.625rem; } }
+@media (min-width: 481px) and (max-width: 979px) {
+  .bene .main-content {
+    margin-top: 5.625rem; } }
+.bene .main-content .blog-header-image {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative; }
+  .bene .main-content .blog-header-image > img {
+    height: 29.6875rem;
+    width: auto; }
+    @media (min-width: 980px) {
+      .bene .main-content .blog-header-image > img {
+        height: auto;
+        width: 100%; } }
+.bene .main-content .overlay-text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-evenly;
+  position: absolute; }
+  @media (min-width: 980px) {
+    .bene .main-content .overlay-text {
+      flex-direction: row; } }
+  .bene .main-content .overlay-text div {
+    max-width: 300px;
+    text-align: center;
+    width: 90%; }
+    @media (min-width: 980px) {
+      .bene .main-content .overlay-text div {
+        display: flex;
+        width: auto; } }
+  .bene .main-content .overlay-text .bene-logo {
+    height: auto;
+    max-width: 12rem;
+    width: 60%; }
+    @media (min-width: 980px) {
+      .bene .main-content .overlay-text .bene-logo {
+        height: 20.125rem;
+        margin: 1.5rem auto;
+        max-width: 18.3125rem;
+        width: 18.3125rem; } }
+  .bene .main-content .overlay-text h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0;
+    margin: -1.25rem auto 0;
+    max-width: 80%;
+    text-align: center; }
+    @media (min-width: 980px) {
+      .bene .main-content .overlay-text h2 {
+        align-items: flex-end;
+        display: flex;
+        font-size: 2.5rem;
+        height: 20.625rem;
+        margin: 0;
+        max-width: 40%;
+        text-align: left; } }
+.bene .main-content .body h3 {
+  color: #3f3f41;
+  margin: 2em auto 1rem;
+  max-width: 996px;
+  padding: 0 1.25rem;
+  width: 94%; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .bene .main-content .body h3 {
+      width: 90%;
+      padding: 0 2.5rem; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .bene .main-content .body h3 {
+      width: 90%;
+      padding: 0 3.75rem; } }
+  @media (min-width: 1200px) {
+    .bene .main-content .body h3 {
+      width: 100%;
+      padding: 0 6.25rem; } }
+.bene .main-content .body div.inline {
+  max-width: 49.5625rem; }
+.bene .main-content .body p.bene-caption {
+  margin-top: 0;
+  color: #58585b;
+  font-weight: 100; }
+.bene .main-content .our-values-block.in-action {
+  display: none; }
+@media (min-width: 980px) {
+  .bene .main-content .our-values-block .row {
+    max-width: 796px; } }
+.bene .main-content .our-values-block .right-caret {
+  margin-left: -2%;
+  margin-right: 4.3%; }
+.bene .main-content .our-values-block h4 {
+  align-items: center;
+  display: flex;
+  font-size: 1.125rem;
+  justify-content: flex-end;
+  line-height: 24px;
+  margin-top: 2.8125rem;
+  text-align: right; }
+  .bene .main-content .our-values-block h4 .fa.fa-caret-right {
+    margin-left: 1rem; }
+.bene .main-content .our-values-block .down-caret h4 {
+  justify-content: flex-start;
+  text-align: left; }
+.bene .main-content .our-values-block .value h3 {
+  color: #FF9012;
+  font-size: 1.625rem;
+  margin-top: 0.9375rem;
+  padding: 0; }
+  @media (min-width: 980px) {
+    .bene .main-content .our-values-block .value h3 {
+      margin-top: 4.375rem; } }
+@media (min-width: 980px) {
+  .bene .main-content .our-values-block .value p {
+    width: 80%; } }
+.bene .main-content .our-values-block.additional p {
+  font-size: 1.125rem;
+  line-height: 1.625rem; }
+.bene .main-content .our-values-block.additional p:first-of-type {
+  padding-top: 1.75rem; }
+  @media (min-width: 980px) {
+    .bene .main-content .our-values-block.additional p:first-of-type {
+      padding-top: 3rem; } }
+.bene .main-content .our-values-block.additional ul {
+  padding-left: 0.375rem; }
+  .bene .main-content .our-values-block.additional ul li {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin: 0.75rem;
+    position: relative; }
+    .bene .main-content .our-values-block.additional ul li:before {
+      content: "•";
+      left: -1rem;
+      position: absolute; }
+.bene .main-content .our-values-block blockquote {
+  margin: 3.4375rem 0 2.5rem; }
+  .bene .main-content .our-values-block blockquote p {
+    font-size: 1.625rem;
+    font-weight: 100;
+    line-height: 2.25rem;
+    margin-bottom: 0.75rem; }
+    @media (min-width: 980px) {
+      .bene .main-content .our-values-block blockquote p {
+        font-size: 2rem;
+        line-height: 2.875rem; } }
+    @media (min-width: 1200px) {
+      .bene .main-content .our-values-block blockquote p {
+        font-size: 2.375rem;
+        line-height: 2.875rem; } }
+.bene .main-content .free-geek-info-block {
+  align-items: center;
+  background: url("../images/bene/free-geek.jpg") no-repeat center center/cover;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+  min-height: 29.5rem;
+  position: relative; }
+  .bene .main-content .free-geek-info-block .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding: 1.25rem 1rem; }
+    @media (min-width: 980px) {
+      .bene .main-content .free-geek-info-block .container {
+        padding: 2.5rem 10rem; } }
+    .bene .main-content .free-geek-info-block .container h2 {
+      font-weight: 800;
+      margin-bottom: 0.75rem;
+      margin-top: 0; }
+    .bene .main-content .free-geek-info-block .container p {
+      font-size: 1.25rem;
+      font-weight: 400;
+      margin-bottom: 2rem;
+      margin-top: 0.625rem; }
+      @media (min-width: 980px) {
+        .bene .main-content .free-geek-info-block .container p {
+          max-width: 60%; } }
+    .bene .main-content .free-geek-info-block .container a {
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: uppercase; }
+    .bene .main-content .free-geek-info-block .container .caption {
+      position: absolute;
+      bottom: 1.25rem;
+      font-size: 0.875rem;
+      font-style: italic;
+      color: #dbdcde; }
+.bene .main-content .contact-form {
+  background-color: #FF9012; }
+  .bene .main-content .contact-form .container {
+    margin: 2em auto 1rem;
+    max-width: 996px;
+    padding: 0 1.25rem;
+    width: 94%; }
+    @media (min-width: 980px) {
+      .bene .main-content .contact-form .container {
+        width: 90%;
+        padding: 0 3.75rem; } }
+    @media (min-width: 1200px) {
+      .bene .main-content .contact-form .container {
+        width: 100%;
+        padding: 0 6.25rem; } }
+  .bene .main-content .contact-form h2 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 2.375rem;
+    text-align: center; }
+    @media (min-width: 980px) {
+      .bene .main-content .contact-form h2 {
+        font-size: 2.625rem;
+        line-height: 3rem; } }
+  .bene .main-content .contact-form form.contact {
+    display: block;
+    width: 100%; }
+    @media (min-width: 980px) {
+      .bene .main-content .contact-form form.contact {
+        display: flex; } }
+  .bene .main-content .contact-form .form-group.half {
+    flex: 1 1 25%;
+    float: none;
+    width: auto; }
+    .bene .main-content .contact-form .form-group.half input[type="email"],
+    .bene .main-content .contact-form .form-group.half input[type="text"] {
+      border: 0;
+      color: #9B9B9B;
+      height: 4.1875rem; }
+      .bene .main-content .contact-form .form-group.half input[type="email"]:focus, .bene .main-content .contact-form .form-group.half input[type="email"]:active,
+      .bene .main-content .contact-form .form-group.half input[type="text"]:focus,
+      .bene .main-content .contact-form .form-group.half input[type="text"]:active {
+        color: #000; }
+  .bene .main-content .contact-form .button {
+    border-radius: 0;
+    border: 3px solid #fff;
+    color: #fff;
+    height: 4.1875rem;
+    text-transform: capitalize; }
+  .bene .main-content .contact-form .signup-notification {
+    font-size: 0.875rem;
+    color: #58585b;
+    font-style: italic;
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: center; }
+.bene .newsletter-block {
+  display: none; }
+
+.bene-cta {
+  background: url("../images/bene/free-geek-2.jpg") no-repeat top center/cover;
+  color: #fff;
+  padding: 6rem 0 2rem; }
+  @media (min-width: 980px) {
+    .bene-cta {
+      padding: 14rem 0 2rem; } }
+  .bene-cta .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    @media (min-width: 980px) {
+      .bene-cta .container {
+        flex-direction: row;
+        text-align: left; } }
+  .bene-cta .bene-logo {
+    flex: 0 1 auto;
+    width: 50%;
+    margin: 24px auto;
+    max-width: 160px; }
+    @media (min-width: 980px) {
+      .bene-cta .bene-logo {
+        width: 216px;
+        max-width: none;
+        margin: 0 2.75rem 0 0; } }
+  .bene-cta h2 {
+    margin: 0 auto 2rem;
+    font-size: 1.5rem;
+    max-width: 31.25rem; }
+    @media (min-width: 980px) {
+      .bene-cta h2 {
+        max-width: none;
+        margin: 0 0 2rem;
+        font-size: 2.5rem; } }
+  .bene-cta .button {
+    border-radius: 0;
+    border: 3px solid #fff;
+    color: #fff;
+    display: inline-block;
+    height: 4.1875rem;
+    line-height: 2;
+    text-transform: capitalize; }
+
+.front .blog-teaser .blog-menu.bene-cta {
+  background: transparent url("../images/bene/free-geek-2.jpg") no-repeat top center/cover;
+  color: #fff;
+  padding: 8rem 0 1rem; }
+  @media (max-width: 600px) {
+    .front .blog-teaser .blog-menu.bene-cta {
+      padding: 7rem 0 1rem; } }
+  @media (max-width: 440px) {
+    .front .blog-teaser .blog-menu.bene-cta {
+      padding: 8rem 0 1rem; } }
+  @media (min-width: 980px) {
+    .front .blog-teaser .blog-menu.bene-cta {
+      padding: 10rem 0 2rem; } }
+  .front .blog-teaser .blog-menu.bene-cta .container {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 0 2rem; }
+  .front .blog-teaser .blog-menu.bene-cta .bene-logo {
+    flex: 0 1 auto;
+    width: 50%;
+    margin: 24px auto;
+    max-width: 160px; }
+    @media (max-width: 600px) {
+      .front .blog-teaser .blog-menu.bene-cta .bene-logo {
+        margin: 24px; } }
+    @media (max-width: 440px) {
+      .front .blog-teaser .blog-menu.bene-cta .bene-logo {
+        width: 24%;
+        margin: 0 16px 0 0; } }
+    @media (min-width: 980px) {
+      .front .blog-teaser .blog-menu.bene-cta .bene-logo {
+        width: 216px;
+        max-width: none;
+        margin: 0 2.75rem 0 0; } }
+  .front .blog-teaser .blog-menu.bene-cta h2 {
+    margin: 0 auto 1rem;
+    font-size: 1.5rem;
+    max-width: 31.25rem; }
+    @media (max-width: 600px) {
+      .front .blog-teaser .blog-menu.bene-cta h2 {
+        font-size: 1.125rem;
+        margin: 0 auto 1.5rem; } }
+    @media (min-width: 980px) {
+      .front .blog-teaser .blog-menu.bene-cta h2 {
+        font-size: 1.125rem;
+        margin: 0 auto 1.5rem; } }
+    @media (min-width: 1200px) {
+      .front .blog-teaser .blog-menu.bene-cta h2 {
+        font-size: 1.5rem; } }
+  .front .blog-teaser .blog-menu.bene-cta .button {
+    border-radius: 0;
+    border: 3px solid #fff;
+    color: #fff;
+    display: inline-block;
+    height: 4.1875rem;
+    line-height: 2;
+    font-size: 1rem;
+    text-transform: capitalize; }
+
+@media (max-width: 480px) {
   .blog-post .main-content {
     margin-top: 5.625rem; } }
 @media (min-width: 481px) and (max-width: 979px) {
@@ -2669,6 +3026,9 @@ a:visited {
 .blog-post .body .ninety,
 .blog-post .intro .ninety {
   width: 90%; }
+.blog-post .body .clear,
+.blog-post .intro .clear {
+  clear: both; }
 .blog-post .intro p {
   color: #626262;
   font-size: 1.125rem;
@@ -4623,6 +4983,20 @@ form.contact {
       margin-right: 0; }
   form.contact .form-group.half.omega {
     margin-right: 0; }
+  form.contact .form-actions {
+    display: flex; }
+    form.contact .form-actions .button.solid {
+      max-height: 3.3125rem; }
+    form.contact .form-actions .signup-notification {
+      font-size: 0.75rem;
+      padding-top: 0.25rem;
+      color: #58585b;
+      font-style: italic;
+      max-width: 75%;
+      margin-left: 3rem; }
+      @media (max-width: 480px) {
+        form.contact .form-actions .signup-notification {
+          margin-left: 0.625rem; } }
 
 .careers-cta {
   background: url("../images/careers.jpg") right center no-repeat;

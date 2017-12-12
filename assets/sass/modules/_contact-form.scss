@@ -67,4 +67,21 @@ form.contact {
   .form-group.half.omega {
     @include omega();
   }
+  .form-actions {
+    display: flex;
+    .button.solid {
+      max-height: rem(53);
+    }
+    .signup-notification {
+      font-size: rem(12);
+      padding-top: rem(4);
+      color: $darkgray;
+      font-style: italic;
+      max-width: 75%;
+      margin-left: rem(48);
+      @include mq(m) {
+        margin-left: rem(10);
+      }
+    }
+  }
 }
