@@ -20,10 +20,3 @@ env:
   global:
   - secure: EciSz3rL8k9q9SyyGGsKSzpwQzPp/234Xzk4vA6aRMbRxzEBCeD9J7CtCpon2sk8UtSO4cj6jpJtgPbGyyXbGw3pyIR4l6giDxdxu/PWxeHICnSQpf7lJQqz0dBRVFt8801VvcnknYLCDmX+VWUAI028PFBFFHhjVIC+AN0sezQ=
   - secure: OsBYQUP/INNm/YHWaHAinX2Cg3ksjh6iRimWokUxOB0x8Vq4UX6Nno+HRNfxW5dDmG3zC3OlrTPa+ymDBwPiZKLoLRrleC58V568OKZNQUIw+fJnQj1m6w+pl4HZ2h4WTsMgIsCTOeVquKLHRnHfHneqBeLMHN/ATWsrI4N5YFk=
-notifications:
-  hipchat:
-    rooms:
-      secure: LB3BGjsG8kYaFDKDkQjwDIlN6LnJuXdm7QkZDt0vGdWgebtF278Xqe0uB4A36dU36XP2qDeURniQHDlRCBay5adna8v0gfOk5IoC+e1hzYnjjFs0+aMhcwrPy2TQd7m48YMF480NshIAACfdGNge/L8uxjQ1HwZpcPbqQ4VhLtw=
-    template:
-      - '%{repository_slug} - <a href="%{build_url}">Build %{build_number}</a> <a href="%{compare_url}">%{commit}</a> on %{branch} by %{author}: %{commit_message} - Travis result: %{message}'
-    format: html
