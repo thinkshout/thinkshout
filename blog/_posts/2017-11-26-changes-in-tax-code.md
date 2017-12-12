@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: strategy
 title: What the proposed changes in the tax code mean for your organization
-homepage: true
+homepage: false
 author: natania
 published: true
-featured: true
+featured: false
 short: We share strategies to combat this antiquated approach to fundraising and help you remain relevant to constituents year-round.
 tags:
   - strategy

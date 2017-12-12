@@ -5,7 +5,7 @@ topic: technology
 title: RedHen gets Engaged
 homepage: false
 author: joe
-published: true
+published: false
 featured: false
 short: Help your nonprofit meet it's strategic goals with the RedHen engagement module.
 tags:
@@ -55,10 +55,3 @@ Some of these rules require an extra module to work - in the case of the 'Rate a
 In this 'Rate a Lesson' rule, we have a _Condition_ wherein the `site:current-user` votes on a node (rates it). It's a Negated condition, because we want it to pass when someone has _not_ voted on given node yet. Then we take two actions - scoring the engagement, and then registering the vote on that node. That way, a user who changes their rating won't count as another engagement.
 
 ## You've Got Scores - Now What?
-
-
-
-
-
-
-
