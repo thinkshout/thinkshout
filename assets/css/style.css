@@ -5783,7 +5783,7 @@ header {
         z-index: 100; }
         @media (max-width: 480px) {
           .front .blog-teaser .featured-blog-post .blog-author img {
-            bottom: 1.75rem; } }
+            bottom: 1.625rem; } }
       .front .blog-teaser .featured-blog-post .gradient {
         background-image: linear-gradient(to right, rgba(40, 40, 40, 0.8), rgba(40, 40, 40, 0.5));
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );

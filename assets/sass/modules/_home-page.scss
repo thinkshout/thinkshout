@@ -297,7 +297,7 @@
 
       .blog-author img {
         z-index: 100;
-        @include mq(m) { bottom: rem(28); }
+        @include mq(m) { bottom: rem(26); }
       }
 
       .gradient {
