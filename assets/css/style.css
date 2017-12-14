@@ -5729,7 +5729,8 @@ header {
       width: 58%; }
       @media (max-width: 480px) {
         .front .blog-teaser .featured-blog-post {
-          width: 100%; } }
+          width: 100%;
+          padding-top: 1rem; } }
       @media (min-width: 481px) and (max-width: 979px) {
         .front .blog-teaser .featured-blog-post {
           width: 100%; } }
@@ -5743,10 +5744,16 @@ header {
       .front .blog-teaser .featured-blog-post h2 {
         font-size: 1.625rem;
         margin-bottom: 0; }
+        @media (max-width: 480px) {
+          .front .blog-teaser .featured-blog-post h2 {
+            font-size: 1.5rem; } }
         .front .blog-teaser .featured-blog-post h2 a {
           color: #f1b332; }
       .front .blog-teaser .featured-blog-post p {
         margin-top: 0.5rem; }
+        @media (max-width: 480px) {
+          .front .blog-teaser .featured-blog-post p {
+            font-size: 0.9375rem; } }
       .front .blog-teaser .featured-blog-post img,
       .front .blog-teaser .featured-blog-post .author-info {
         bottom: 3rem;
@@ -5754,6 +5761,9 @@ header {
         position: absolute; }
       .front .blog-teaser .featured-blog-post .author-info {
         z-index: 100; }
+        @media (max-width: 480px) {
+          .front .blog-teaser .featured-blog-post .author-info {
+            bottom: 1rem; } }
         .front .blog-teaser .featured-blog-post .author-info a {
           color: #f1b332; }
         .front .blog-teaser .featured-blog-post .author-info h4 {
@@ -5762,11 +5772,18 @@ header {
           color: #fff;
           font-size: 0.875rem;
           margin: 0 0 0.5rem 5rem; }
+          @media (max-width: 480px) {
+            .front .blog-teaser .featured-blog-post .author-info p {
+              white-space: normal;
+              line-height: 1.4; } }
       .front .blog-teaser .featured-blog-post .blog-subject {
         position: relative;
         z-index: 100; }
       .front .blog-teaser .featured-blog-post .blog-author img {
         z-index: 100; }
+        @media (max-width: 480px) {
+          .front .blog-teaser .featured-blog-post .blog-author img {
+            bottom: 1.625rem; } }
       .front .blog-teaser .featured-blog-post .gradient {
         background-image: linear-gradient(to right, rgba(40, 40, 40, 0.8), rgba(40, 40, 40, 0.5));
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
