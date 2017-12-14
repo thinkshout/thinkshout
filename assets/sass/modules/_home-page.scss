@@ -234,7 +234,10 @@
       position: relative;
       width: 58%;
 
-      @include mq(m) { width: 100%; }
+      @include mq(m) {
+        width: 100%;
+        padding-top: rem(16);
+      }
       @include mq(t) { width: 100%; }
 
       @media (min-width: 1440px) {
@@ -250,7 +253,7 @@
       h2 {
         font-size: rem(26);
         margin-bottom: 0;
-
+        @include mq(m) { font-size: rem(24); }
         a {
           color: $yellow;
         }
@@ -258,6 +261,7 @@
 
       p {
         margin-top: 0.5rem;
+        @include mq(m) { font-size: rem(15); }
       }
 
       img,
@@ -269,6 +273,7 @@
 
       .author-info {
         z-index: 100;
+        @include mq(m) { bottom: rem(16); }
         a {
           color: $yellow;
         }
@@ -281,6 +286,7 @@
           color: $white;
           font-size: rem(14);
           margin: 0 0 0.5rem 5rem;
+          @include mq(m) { white-space: normal; line-height: 1.4; }
         }
       }
 
@@ -291,6 +297,7 @@
 
       .blog-author img {
         z-index: 100;
+        @include mq(m) { bottom: rem(28); }
       }
 
       .gradient {
