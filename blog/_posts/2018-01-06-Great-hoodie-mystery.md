@@ -14,9 +14,6 @@ tags:
   - technology
   - nonprofit technology
 date: 2018-01-06 12:30:00
-image: https://thinkshout.com/assets/images/the-game-is-afoot.jpg
-header-image: /assets/images/blog/the-game-is-afoot.jpg
-header-image-alt: "The game is afoot"
 ---
 Last summer, Rose noticed a problem at the ThinkShout offices. What seemed at first to be an innocuous little issue turned into an unsolvable mystery that had been hiding in our office for an unknown period of time. _It remains unsolved to this day!_
 
