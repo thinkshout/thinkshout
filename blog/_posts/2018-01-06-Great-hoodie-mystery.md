@@ -4,7 +4,7 @@ body-class: blog-post
 topic: technology and innovation
 title: The Great Hoodie Mystery
 homepage: false
-author: natania
+author: Gabe
 published: true
 featured: false
 short: Gabe takes what would otherwise be an inane office exchange and ties it back to data structures.
