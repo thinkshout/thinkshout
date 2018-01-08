@@ -14,9 +14,9 @@ tags:
   - technology
   - nonprofit technology
 date: 2018-01-06 12:30:00
-image: https://thinkshout.com/assets/images/userjourneys-header.jpg
-header-image: /assets/images/blog/userjourneys-header.jpg
-header-image-alt: "What the proposed changes in the tax code mean for your organization"
+image: https://thinkshout.com/assets/images/the-game-is-afoot.jpg
+header-image: /assets/images/blog/the-game-is-afoot.jpg
+header-image-alt: "The game is afoot"
 ---
 Last summer, Rose noticed a problem at the ThinkShout offices. What seemed at first to be an innocuous little issue turned into an unsolvable mystery that had been hiding in our office for an unknown period of time. _It remains unsolved to this day!_
 
@@ -25,22 +25,29 @@ What is this mystery? Here’s Rose on the ThinkShout Slack “General” channe
 ![rose_slack](/assets/images/blog/rose_slack.png)
 {:.center}
 
+
 Being a data structure enthusiast, I was immediately struck by the strong possibility that this question could not be answered.
+
 
 ![gcb_slack](/assets/images/blog/gcb_slack.png)
 {:.center}
 
+
 With an organization full of developers, suggestions were quickly provided. Someone suggested using the “Refrigerator leftovers” method: place the hoodies somewhere conspicuous with a sign that says, “If this is yours, claim it by such-and-such date”. Katrina didn’t like it:
+
 
 ![katrina_slack](/assets/images/blog/katrina_slack.png)
 {:.center}
+
 
 A fine point! Leftovers are naturally somewhat unique. ThinkShout hoodies are, of course, unquestionably unique (and beautifully designed!) in the greater world of hoodies. But in the ThinkShout offices, the “uniqueness” factor is undermined. Moving the hoodies would remove one of the most vital pieces of identifying information in the mind of the only person likely to be able to identify it: the mind of the person who left the hoodie where it currently is!
 
 Nancy had the real solution to this mystery:
 
+
 ![nancy_slack](/assets/images/blog/nancy_slack.png)
 {:.center}
+
 
 Perfect! Connect the identifying information permanently to the hoodie in a way that anyone, not just the owner, can use to identify it!
 
