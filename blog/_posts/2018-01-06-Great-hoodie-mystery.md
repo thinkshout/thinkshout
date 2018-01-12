@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: technology and innovation
+topic: technology
 title: The Great Hoodie Mystery
 homepage: false
 author: gabe
@@ -60,7 +60,7 @@ Rose was too polite, of course, to point out that this “solution” was, shall
 
 However, our data interpretation resources (employees who owned hoodies) did a great job identifying the two hoodies on the back coat rack. As for the one in the front? I recently returned from 3 months away from the office, and saw this:
 
-![hoodie_lives](/assets/images/blog/hoodie_lives.jpg)
+![hoodie_lives](/assets/images/blog/hoodie_lives_web.jpg)
 {:.center}
 
 The mystery remains! In fact, as far as I can recall, that hoodie has been hanging there for at least three years.
