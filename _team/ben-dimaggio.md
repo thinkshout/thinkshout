@@ -22,3 +22,4 @@ bio: |
   <p>That’s the type of leadership and initiative we like to see at ThinkShout. We’re glad he’s representing us on the east coast!
 
 slug: ben
+---

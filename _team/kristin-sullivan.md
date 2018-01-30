@@ -22,3 +22,4 @@ bio: |
   <p>When she’s not leading project teams, she loves to write under a pen name that she claims is top secret (and refuses to share with us!). She also likes to hike and dance, and is anything but tentative about the unknown….she and her husband once moved to Mexico for a year with no plan in place. They ended up working on movie sets for a film and had a blast with it. That flexible mentality to tackle anything is just what we like to see in a project manager. We couldn’t be happier to have her with us.
 
 slug: kristin
+---
