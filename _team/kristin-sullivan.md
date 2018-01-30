@@ -11,9 +11,9 @@ social:
   linkedin: www.linkedin.com/in/kristin-sullivan-27b00623
   drupal:
 team-image:
-  small: team/small/chelsea-small.jpg
-  medium: team/medium/chelsea-medium.jpg
-  large: team/large/chelsea-large.jpg
+  small: team/small/kristin-small.jpg
+  medium: team/medium/kristin-medium.jpg
+  large: team/large/kristin-large.jpg
 published: true
 current-employee: true
 name: kristin
