@@ -11,7 +11,7 @@ social:
   linkedin: https://www.linkedin.com/in/bdimaggio/
   drupal:
 team-image:
-  small: team/small/ben-small.jpg
+  small: team/small/ben-small.jpeg
   medium: team/medium/ben-medium.jpg
   large: team/large/ben-large.jpg
 published: true
