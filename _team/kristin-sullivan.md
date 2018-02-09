@@ -11,7 +11,7 @@ social:
   linkedin: www.linkedin.com/in/kristin-sullivan-27b00623
   drupal:
 team-image:
-  small: team/small/kristin-small.jpg
+  small: team/small/kristin-small.jpeg
   medium: team/medium/kristin-medium.jpg
   large: team/large/kristin-large.jpg
 published: true
