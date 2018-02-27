@@ -18,12 +18,12 @@ image: https://thinkshout.com/assets/images/ts_icon.jpg
 
 If you walk into ThinkShout’s office around 2pm on any given day of the week, you’ll be confronted with the following:
 
-[Group Plank](/assets/images/blog/group_plank.jpg)
+![Group Plank](/assets/images/blog/group_plank.jpg)
 {:.center}
 
 Occasionally, dogs get into the mix:
 
-[Amy Greg and Ducky planking](/assets/images/blog/amy_greg_plank.jpg)
+![Amy Greg and Ducky planking](/assets/images/blog/amy_greg_plank.jpg)
 {:.center}
 
 This is what we affectionately refer to as PLANKS; a 100% optional activity aimed at helping us get up, move, stretch, and encourage general office health during those snoozy afternoon hours. The origin story of these afternoon planks is best shared by Amy, one of our front-end developers and the initiator of our afternoon planks:
