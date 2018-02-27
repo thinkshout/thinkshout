@@ -26,7 +26,7 @@ Occasionally, dogs get into the mix:
 ![Amy Greg and Ducky planking](/assets/images/blog/amy_greg_plank.jpg)
 {:.center}
 
-This is what we affectionately refer to as PLANKS; a 100% optional activity aimed at helping us get up, move, stretch, and encourage general office health during those snoozy afternoon hours. The origin story of these afternoon planks is best shared by Amy, one of our front-end developers and the initiator of our afternoon planks:
+This is what we affectionately refer to as PLANKS; a 100% optional activity aimed at helping us get up, move, stretch, and encourage general office health during those snoozy afternoon hours. The origin story of these afternoon planks is best shared by Amy, one of our front-end developers and the initiator of our afternoon planks. Here's her take on this unique office tradition:
 
 I didn’t exercise at all in my 20’s. I spent much of my time partying with friends, playing video games, watching lots of movies and shows, and eating deep fried foods and sugary delectables - it was a good life! (Who am I kidding, I still do that on occasion.) Unfortunately, doing these things on a constant basis was starting to take its toll: my mood gradually darkened, extreme fatigue was setting in, my self-esteem tanked, etc. But, that wasn’t the worst of it! I felt my body breaking down. It was hard to walk, hard to breathe, and I kept throwing my back out from stupid, mundane, daily tasks.
 
