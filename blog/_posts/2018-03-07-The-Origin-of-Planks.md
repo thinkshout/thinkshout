@@ -3,7 +3,7 @@ layout: blog
 body-class: blog-post
 topic: culture
 title: The origin of ThinkShout Planks
-homepage: true
+homepage: false
 author: amy
 published: true
 featured: false
