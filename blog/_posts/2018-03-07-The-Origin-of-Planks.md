@@ -28,6 +28,8 @@ Occasionally, dogs get into the mix:
 
 This is what we affectionately refer to as PLANKS; a 100% optional activity aimed at helping us get up, move, stretch, and encourage general office health during those snoozy afternoon hours. The origin story of these afternoon planks is best shared by Amy, one of our front-end developers and the initiator of our afternoon planks. Here's her take on this unique office tradition:
 
+### Amy Vaillancourt-Sals
+
 I didn’t exercise at all in my 20’s. I spent much of my time partying with friends, playing video games, watching lots of movies and shows, and eating deep fried foods and sugary delectables - it was a good life! (Who am I kidding, I still do that on occasion.) Unfortunately, doing these things on a constant basis was starting to take its toll: my mood gradually darkened, extreme fatigue was setting in, my self-esteem tanked, etc. But, that wasn’t the worst of it! I felt my body breaking down. It was hard to walk, hard to breathe, and I kept throwing my back out from stupid, mundane, daily tasks.
 
 So when my 30th birthday rolled around, I found myself thinking about the state of my body, how much time left on this earth that I may or may not have, and all the adventurous things I long to do with this time left. Nothin’ like a notable revolution around the sun to make a person think about their life choices and potential implications.That’s when I made the shift towards improved overall health and wellness.
