@@ -23,7 +23,7 @@ If you walk into ThinkShout’s office around 2pm on any given day of the week, 
 ![Group Plank](/assets/images/blog/group_plank.jpg)
 {:.center}
 
-Occasionally, dogs get into the mix:
+Occasionally, dogs get into the mix...
 
 ![Amy Greg and Ducky planking](/assets/images/blog/amy_greg_plank.jpg)
 {:.center}
