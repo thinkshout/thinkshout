@@ -13,7 +13,9 @@ tags:
   - Work-Life Balance
   - planks
 date: 2018-02-27 12:00:00
-image: https://thinkshout.com/assets/images/ts_icon.jpg
+image: https://thinkshout.com/assets/images/blog/ThinkShout_March16_IMG_6070_JasonQuigley.jpg
+header-image: /assets/images/blog/ThinkShout_March16_IMG_6070_JasonQuigley.jpg
+header-image-alt: "Amy at Standing Desk"
 ---
 
 If you walk into ThinkShout’s office around 2pm on any given day of the week, you’ll be confronted with the following:
