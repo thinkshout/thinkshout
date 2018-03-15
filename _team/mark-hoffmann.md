@@ -4,14 +4,14 @@ first_name: Mark
 last_name: Hoffmann
 position: Technical Architect
 leadin: |
- Mark has a flare for the dramatic. He once jumped out of a plane, and got married during a total solar eclipse (not on the same day).
+ Mark has a flare for the dramatic. He once jumped out of a plane and got married during a total solar eclipse (not on the same day).
 social:
   github: https://github.com/teh-grza
   linkedin: https://www.linkedin.com/in/mark-f-hoffmann/
   drupal: https://www.drupal.org/u/tehgrza
   twitter: https://twitter.com/markftwhoffmann
 team-image:
-  small: team/small/mark1.jpg
+  small: team/small/mark1.jpeg
   medium: team/medium/mark2.jpg
   large: team/large/mark3.jpg
 published: true
