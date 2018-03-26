@@ -26,7 +26,7 @@ Well, we saw it coming and knew it sounded like an ill-informed idea, yet just l
 ![Plan Ahead](/assets/images/blog/plan-ahead.jpg)
 {:.center}
 
-#NTC
+# NTC
 
 We're heading to the Big Easy/NOLA/New Orleans for a week of jam-packed nonprofit goodness. The fun kicks off on April 10th with a pre-con event,Drupal Day!
 
@@ -45,7 +45,7 @@ And no NTC would be complete without some ThinkShout classic tees! We’ll be ha
 ![ThinkShout 2018 shirts](/assets/images/blog/TS2018-shirts.jpg)
 {:.center}
 
-#DrupalCon
+# DrupalCon
 
 They said it couldn’t be done...so naturally we took on the challenge! A handful of our team will also be in Nashville for DrupalCon.
 
