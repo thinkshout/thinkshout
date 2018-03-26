@@ -26,11 +26,12 @@ Well, we saw it coming and knew it sounded like an ill-informed idea, yet just l
 ![Plan Ahead](/assets/images/blog/plan-ahead.jpg)
 {:.center}
 
-# NTC
+### NTC
 
 We're heading to the Big Easy/NOLA/New Orleans for a week of jam-packed nonprofit goodness. The fun kicks off on April 10th with a pre-con event,Drupal Day!
 
 [Agenda Here!](http://ntcdrupalday.org/)
+{:.center}
 
 We're still  looking for lightning talk speakers so [contact us](mailto:natania.leclerc@thinkshout.com) if you have a hot topic you want to share. Lightning talks are traditionally 5 minutes in length, and can cover any topic ranging from Drupal to nonprofit life to lessons learned and funny predicaments involving all of the above!
 
@@ -45,7 +46,7 @@ And no NTC would be complete without some ThinkShout classic tees! We’ll be ha
 ![ThinkShout 2018 shirts](/assets/images/blog/TS2018-shirts.jpg)
 {:.center}
 
-# DrupalCon
+### DrupalCon
 
 They said it couldn’t be done...so naturally we took on the challenge! A handful of our team will also be in Nashville for DrupalCon.
 
