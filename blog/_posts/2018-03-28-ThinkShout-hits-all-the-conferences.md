@@ -23,7 +23,7 @@ It unfolded like a sitcom. You know, the one where someone promises two separate
 
 Well, we saw it coming and knew it sounded like an ill-informed idea, yet just like in a sitcom, we went ahead with it anyway. We’re sending teams to DrupalCon AND the #18NTC; mostly because they both got scheduled in the same week.
 
-(hey y’all, let’s plan ahead next year.)
+Hey y’all, let’s plan ahead next year.
 
 ![Plan Ahead](/assets/images/blog/plan-ahead.jpg)
 {:.center}
