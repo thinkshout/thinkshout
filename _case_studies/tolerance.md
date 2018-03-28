@@ -16,12 +16,12 @@ cs-preview:
   image: /assets/images/work/tolerance/TT-homepage.jpg
   type: Responsive Drupal Site
   client: "Teaching Tolerance"
-  description: "Dedicated to educating young people to become engaged actors in a diverse democracy."
+  description: "Dedicated to educating young people to become active participants in a diverse democracy."
 
 cs-header:
   header-image: /assets/images/work/tolerance/TT-homepage.jpg
   client: "Teaching Tolerance"
-  title: "Dedicated to educating young people to become engaged actors in a diverse democracy."
+  title: "Dedicated to educating young people to become active participants in a diverse democracy."
 
 cs-intro:
   type: "Teaching Tolerance"
