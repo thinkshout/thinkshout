@@ -21,16 +21,14 @@ image: https://thinkshout.com/assets/images/ts_icon.jpg
 
 It unfolded like a sitcom. You know, the one where someone promises two separate people to be their date to the dance at school. It’s gonna end badly for everyone.
 
-Well, we saw it coming and knew it sounded like an ill-informed idea, yet just like in a sitcom, we went ahead with it anyway. We’re sending teams to DrupalCon AND the #18NTC; mostly because they both got scheduled in the same week.
+Well, we saw it coming, and like the hero of that sitcom, we concocted an elaborate scheme to be in two places at once. Can we pull it off? Join us at DrupalCon and #18NTC to find out!
 
-Hey y’all, let’s plan ahead next year.
-
-![Plan Ahead](/assets/images/blog/plan-ahead.jpg)
+![Zack Morris](/assets/images/blog/zackmorris.gif)
 {:.center}
 
 ### NTC
 
-We're heading to New Orleans for a week of jam-packed nonprofit goodness. The fun kicks off on April 10th with a pre-con event,Drupal Day:
+We're heading to New Orleans for a week of jam-packed nonprofit goodness. The fun kicks off on April 10th with a pre-con event, Drupal Day:
 
 [Agenda Here!](http://ntcdrupalday.org/)
 {:.center}
@@ -50,8 +48,10 @@ And no NTC would be complete without some ThinkShout classic tees! We’ll be ha
 
 ### DrupalCon
 
-They said it couldn’t be done...so naturally we took on the challenge! A handful of our team will also be in Nashville for DrupalCon.
+They said it couldn’t be done...so naturally we took on the challenge! A handful of our team will also be in Nashville for DrupalCon to learn about and contribute to the latest innovations in the Drupal ecosystem. As long-time supporters of Drupal, we felt it was important to continue to deepen our involvement and commitment to the open source community.
 
-Join us for the [Nonprofit Summit](https://events.drupal.org/nashville2018/nonprofit-summit), where Gabe Carleton-Barnes will give you the scoop on [Bene](https://thinkshout.com/bene/), the distro we released this winter. We’re also sponsoring a [Women in Drupal](https://events.drupal.org/nashville2018/women-drupal_) reception on April 10th. We'll be handing out t-shirts at both events, so head there early to grab yours while supplies last!
+Join us for the [Nonprofit Summit](https://events.drupal.org/nashville2018/nonprofit-summit), an interactive day of learning and networking with nonprofit leaders and Drupal experts. The summit features breakout sessions on a variety of topics -- including a case study presented by Gabe Carleton-Barnes on [Bene](https://thinkshout.com/bene/), the distribution we released this winter. Don’t miss it!
+
+We’re also sponsoring a [Women in Drupal](https://events.drupal.org/nashville2018/women-drupal_) on April 10th. All women, trans* individuals, those who identify outside of the gender binary, and allies are welcome. Our goal is to foster inclusivity and embrace the involvement of individuals across the gender spectrum. We'll be handing out those same tees at both events, so be sure to show up early and grab yours while supplies last!
 
 All joking about conference logistics aside, we truly appreciate every opportunity to connect with the nonprofit tech community. It's a chance to hear more about the inspiring work being done in the world. If you'd like to sit with us and talk about what we can do for your digital presence, [let us know](hello@thinkshout.com), we look forward to hearing from you!
