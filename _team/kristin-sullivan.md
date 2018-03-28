@@ -14,8 +14,8 @@ team-image:
   small: team/small/kristin-small.jpg
   medium: team/medium/kristin-medium.jpg
   large: team/large/kristin-large.jpg
-published: true
-current-employee: true
+published: false
+current-employee: false
 name: kristin
 bio: |
   As an established technology professional, Kristin had noticed how digital strategies impacted the total experience for her as a user, and she wanted to help drive that experience.
