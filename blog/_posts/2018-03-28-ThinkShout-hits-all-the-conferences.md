@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: culture
 title: ThinkShout hits all the conferences
-homepage: false
+homepage: true
 author: natania
 published: true
-featured: false
+featured: true
 short: See you at DrupalCon and the NTC!
 tags:
   - Culture
