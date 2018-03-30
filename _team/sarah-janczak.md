@@ -7,7 +7,7 @@ leadin: |
   Sarah defines adventure as pushing yourself to try new things, things that you’re afraid of, that end up having a positive effect. That's just the type of positive attitude we like to see in our team members.
 social:
   github:
-  twitter:
+  twitter: http://twitter.com/sejanczak
   linkedin: https://www.linkedin.com/in/adamskaylan
   drupal:
 team-image:
