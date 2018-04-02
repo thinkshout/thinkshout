@@ -8,7 +8,7 @@ leadin: |
 social:
   github:
   twitter: http://twitter.com/sejanczak
-  linkedin: https://www.linkedin.com/in/adamskaylan
+  linkedin: https://www.linkedin.com/in/sejanczak/
   drupal:
 team-image:
   small: team/small/sarahj-sm.jpeg
