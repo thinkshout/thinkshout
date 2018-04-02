@@ -16,7 +16,7 @@ tags:
   - nptech
   - Drupal Planet
 date: 2018-03-28 12:00:00
-image: https://thinkshout.com/assets/images/conference-pic.jpg
+image: https://thinkshout.com/assets/images/blog/conference-pic.jpg
 ---
 
 It unfolded like a sitcom. You know, the one where someone promises two separate people to be their date to the dance at school. It’s gonna end badly for everyone.
