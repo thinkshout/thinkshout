@@ -6,7 +6,6 @@ leadin: |
   Increase Engagement Across All Channels
 slug: digital-ecosystem
 tag: Digital Ecosystem
-redirect_from: "/expertise/engagement-tools"
 
 images:
   hero: ts_redesign/services/crm.jpg

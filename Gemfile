@@ -6,7 +6,6 @@ gem 'jekyll', '3.5.2'
 gem 'sass', '~> 3.4.22'
 gem 'sass-globbing'
 gem 'guard-livereload'
-gem 'jekyll-redirect-from'
 gem "s3_website"
 gem "rake", "~> 10"
 gem "bourbon", '~> 4.2.6'
