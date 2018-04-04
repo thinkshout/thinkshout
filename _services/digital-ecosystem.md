@@ -20,7 +20,6 @@ points: |
   <li>Salesforce and MailChimp Integration</li>
   <li>Engagement Scoring</li>
   <li>Faceted Search</li>
-examples: We help our clients leverage the power of open source to create immersive experiences for their constituents using products like <a href="https://www.drupal.org/project/salesforce" target="_blank" >Salesforce</a> and <a href="https://www.drupal.org/project/redhen" target="_blank">Redhen</a>, our own custom CRM.
 order: 3
 ---
 

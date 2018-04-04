@@ -51,7 +51,9 @@
     @include mq(m) { margin-top: 1.5rem; }
 
     ul {
+      display: inline-block;
       padding-left: 0;
+      text-align: left;
     }
 
     li {

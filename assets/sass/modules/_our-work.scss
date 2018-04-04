@@ -151,9 +151,24 @@
     margin-bottom: rem(16);
     margin-top: 0;
     padding-top: rem(16);
+    font-size: rem(18);
 
-    @include mq(md) { margin: 0 0 rem(24); padding-top: rem(24); }
-    @include mq(d) { margin: 0 0 rem(32); padding-top: rem(32);  }
+    i { font-size: rem(30); }
+
+    @include mq(lt) {
+      margin: 0 0 rem(24);
+      padding-top: rem(24);
+      font-size: rem(20);
+
+      i { font-size: rem(36); }
+    }
+    @include mq(d) {
+      margin: 0 0 rem(32);
+      padding-top: rem(32);
+      font-size: rem(24);
+
+      i { font-size: rem(40); }
+    }
   }
 
 }

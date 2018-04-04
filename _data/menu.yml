@@ -23,12 +23,12 @@ main-menu:
   - title: Our Team
     url: /team/
 
+  - title: Blog
+    url: /blog/
+
   - title: Connect With Us
     url: /contact/
     header-nav: false
-
-  - title: Blog
-    url: /blog/
 
   - title: Careers
     url: /careers/
