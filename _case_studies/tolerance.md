@@ -5,7 +5,7 @@ body-class: case-study tolerance
 active: true
 homepage: true
 published: true
-order: 3
+order: 1
 # END LAYOUT DATA
 
 title: Making it easier for educators to meet the immediate needs of their students.

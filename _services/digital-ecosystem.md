@@ -1,15 +1,16 @@
 ---
-layout: expertise-detail
-body-class: expertise
-title: CRM & Engagement Tools
+layout: services-detail
+body-class: services
+title: Digital Ecosystem
 leadin: |
   Increase Engagement Across All Channels
-slug: engagement-tools
-tag: Engagement Tools
+slug: digital-ecosystem
+tag: Digital Ecosystem
+redirect_from: "/expertise/engagement-tools"
 
 images:
-  hero: ts_redesign/expertise/crm.jpg
-  icon: expertise/icon-tools.svg
+  hero: ts_redesign/services/crm.jpg
+  icon: services/icon-tools.svg
 blurb: |
   Users experience nonprofits across channels, not departments. Every interaction is an opportunity to increase their engagement – or lose their support entirely. We help our clients break information out of silos and flow across their distributed third-party systems. We understand constituent management systems so well, we even developed our own.
 blurb_short: |
@@ -20,7 +21,7 @@ points: |
   <li>Salesforce and MailChimp Integration</li>
   <li>Engagement Scoring</li>
   <li>Faceted Search</li>
-examples: We help our clients leverage the power of open source to create immersive experiences for       their constituents using products like <a href="https://www.drupal.org/project/salesforce" target="_blank" >Salesforce</a> and <a href="https://www.drupal.org/project/redhen" target="_blank">Redhen</a>, our own custom CRM.
+examples: We help our clients leverage the power of open source to create immersive experiences for their constituents using products like <a href="https://www.drupal.org/project/salesforce" target="_blank" >Salesforce</a> and <a href="https://www.drupal.org/project/redhen" target="_blank">Redhen</a>, our own custom CRM.
 order: 3
 ---
 
@@ -70,3 +71,8 @@ We partner with our clients to explore the evolution of digital experience manag
 * MailChimp and Mandrill
 * Engagement Scoring
 * Entity Registration
+
+Regardless of the scope of our engagement, we understand that no website is an island; rather, it is the hub of your entire digital ecosystem. As such, it is critical to understand how all the pieces work together.
+
+We will document the systems in play in your organization’s current digital ecosystem, including their purpose and how information moves between them. We then present a concept for what a more effective and efficient future ecosystem will look like with the ultimate goal of creating a system that makes your job easier and more effective.
+

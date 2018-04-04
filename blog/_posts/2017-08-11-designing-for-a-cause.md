@@ -10,6 +10,7 @@ featured: true
 short: Design intern Alejandro shares his takeaways from his first web design project, and the inspiration behind his designs for ThinkShout Cares.
 tags:
   - ThinkShout Cares
+  - Design
   - Interns
   - p:ear
 date: 2017-08-11 12:30:00

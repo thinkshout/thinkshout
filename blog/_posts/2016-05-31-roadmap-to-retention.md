@@ -9,9 +9,11 @@ published: true
 featured: false
 short: You've got new donors - great! Now let's talk about how to keep them.
 tags:
+  - Strategy
   - Nonprofit tech
   - Donor retention
   - Fundraising
+  - Digital Ecosystem
 date: 2016-05-31 14:00:00
 image: http://thinkshout.com/assets/images/ts_icon.jpg
 ---

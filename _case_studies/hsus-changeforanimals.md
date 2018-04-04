@@ -2,10 +2,10 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study hsus-changeforanimals
-active: true
+active: false
 homepage: true
 published: true
-order: 2
+order: 5
 # END LAYOUT DATA
 
 title: "Transformational Change for Animals"

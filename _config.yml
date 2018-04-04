@@ -20,7 +20,7 @@ contact_redirect: 'thanks'
 tag_dir: 'blog/category'
 
 # Blog pagination.
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate,jekyll-redirect-from]
 paginate: 10
 paginate_path: "blog/page:num"
 
@@ -49,9 +49,9 @@ collections:
   case_studies:
     output: true
     permalink: /work/:slug/
-  expertise:
+  services:
     output: true
-    permalink: /expertise/:slug/
+    permalink: /services/:slug/
   team:
     output: true
     permalink: /team/:slug/

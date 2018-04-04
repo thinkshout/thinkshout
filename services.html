@@ -1,29 +1,30 @@
 ---
 layout: default
-body-class: what-we-do
-permalink: expertise/
-title: What We Do
+body-class: services
+permalink: services/
+redirect_from: "/expertise/"
+title: Services
 ---
 <div class="intro">
   <div class="container">
     <div class="text">
-      <h1>What We Do</h1>
+      <h1>Services</h1>
        <p>We use technology and strategy to elevate organizations creating positive change in the world.</p>
     </div>
   </div>
 </div>
 
-{% assign expertise = site.expertise | sort: 'order' %}
+{% assign services = site.services | sort: 'order' %}
 {% assign counter = 1 %}
-{% for area in expertise %}
-  {% if area.layout == 'expertise-detail' %}
-    <section class="expertise-teaser" id="expertise{{ counter }}">
+{% for area in services %}
+  {% if area.layout == 'services-detail' %}
+    <section class="services-teaser" id="services{{ counter }}">
       <div class="container">
-        <div class="side expertise-teaser-left">
+        <div class="side services-teaser-left">
           <h1>{{ area.title }}</h1>
           <a href="{{ site.baseurl }}{{ area.url }}" class="uppercase-link">Learn More</a>
         </div>
-        <div class="side expertise-teaser-right">
+        <div class="side services-teaser-right">
           <p>{{ area.blurb }}</p>
           <ul>
             {% for point in area.points %}
@@ -32,7 +33,7 @@ title: What We Do
           </ul>
           {% if area.examples %}
           <i class="fa fa-caret-up"></i>
-          <p class="expertise-examples">
+          <p class="services-examples">
             {{ area.examples }}
           </p>
           {% endif %}

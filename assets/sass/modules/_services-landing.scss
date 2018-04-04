@@ -1,11 +1,11 @@
-.expertise-teaser {
+.services-teaser {
   color: $white;
   text-align: center;
 
   $counter: 0;
   @while $counter < 5 {
-    &#expertise#{$counter} {
-      background: url('../images/ts_redesign/expertise/expertise#{$counter}.jpg') center center no-repeat;
+    &#services#{$counter} {
+      background: url('../images/ts_redesign/services/services#{$counter}.jpg') center center no-repeat;
       background-size: cover;
       height: 100%;
       padding: 2rem 0;
@@ -20,7 +20,7 @@
     $counter: $counter + 1;
   }
 
-  .expertise-teaser-left {
+  .services-teaser-left {
     @include mq(d) { text-align: right; padding-right: 2rem;}
 
     h1 {
@@ -45,7 +45,7 @@
     }
   }
 
-  .expertise-teaser-right {
+  .services-teaser-right {
     @include mq(d) { text-align: left; }
     @include mq(t) { margin-top: 2rem; }
     @include mq(m) { margin-top: 1.5rem; }
@@ -80,7 +80,7 @@
       }
     }
 
-    .expertise-examples {
+    .services-examples {
       font-weight: bold;
 
       a {
