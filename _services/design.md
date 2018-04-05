@@ -26,7 +26,7 @@ order: 2
 
 #### Information Architecture
 
-Every website must provide a balance between structure and flexibility on the front and and ease of use for content producers on the back end. We develop information architectures for our clients that ensure their site will help them move the needle on their organizational goals. From sketches and prototypes right through the final content model and site map, we design systems that support the content that will resonate with your audiences and move them to support your mission.
+Every website must provide a balance between structure and flexibility on the front end and and ease of use for content producers on the back end. We develop information architectures for our clients that ensure their site will help them move the needle on their organizational goals. From sketches and prototypes right through the final content model and site map, we design systems that support the content that will resonate with your audiences and move them to support your mission.
 
 <div class="inline"><a class="case-study-wrapper-link" href="{{ site.baseurl }}/work/tolerance/"><img src="{{ site.baseurl }}/assets/images/services/tolerance-sitemap.png" alt="Teaching Tolerance Information Architecture" /></a></div>
 >[See the Case Study on Teaching Tolerance]({{ site.baseurl }}/work/tolerance/)
