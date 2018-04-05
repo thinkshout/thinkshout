@@ -29,7 +29,7 @@ redirects:
   expertise/design: /services/design
   expertise/development: /services/development
   expertise/digital-strategy: /services/digital-strategy
-  expertise/engagement-tools: /digital-ecosystem
+  expertise/engagement-tools: /services/digital-ecosystem
   blog/feed: /rss.xml
   taxonomy/term/21/all/feed: /blog/category/drupal-planet/rss.xml
   portfolio: /work/
