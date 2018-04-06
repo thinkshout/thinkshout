@@ -27,7 +27,7 @@ You might remember this project from our [Case Study](https://thinkshout.com/wor
 
 The result? Since launching summer of 2017, Tolerance.org has seen improvements across the board. From increased engagement and pageviews on their site, to a spike in registrations on their site (19,000 registrations in Fall of 2016; compared to **36,000 registrations** post-launch in fall of 2017).
 
-Here’s where you come in: our nomination for a [Webby](https://vote.webbyawards.com/PublicVoting/#/2018/websites/general/education) means we need the people’s voice (aka *VOTES*) to actually win! Personally, we can’t think of anything more critical at this time than the work Tolerance.org is doing to ensure the next generation is primed to participate in our democracy.
+Here’s where you come in: our nomination for a [Webby](https://vote.webbyawards.com/PublicVoting/#/2018/websites/general/education) means we need the people’s voice (aka **VOTES**) to actually win! Personally, we can’t think of anything more critical at this time than the work Tolerance.org is doing to ensure the next generation is primed to participate in our democracy.
 
 
 [Vote for Tolerance.org in the Webby’s](https://vote.webbyawards.com/PublicVoting/#/2018/websites/general/education)
