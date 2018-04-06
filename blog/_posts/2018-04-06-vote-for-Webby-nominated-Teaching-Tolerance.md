@@ -33,7 +33,11 @@ Here’s where you come in: our nomination for a [Webby](https://vote.webbyaward
 [Vote for Tolerance.org in the Webby’s](https://vote.webbyawards.com/PublicVoting/#/2018/websites/general/education)
 {:.center}
 
+
+
 [See the Case Study](https://thinkshout.com/work/tolerance/)
 {:.center}
+
+
 
 P.S. Travel Oregon also made it as an honoree in the Travel category, and they were up against some stiff competition! You can see their [case study here.](https://thinkshout.com/work/travel-oregon/)
