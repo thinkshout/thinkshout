@@ -25,7 +25,7 @@ We’re thrilled to announce that [Teaching Tolerance](https://www.tolerance.org
 
 You might remember this project from our [Case Study](https://thinkshout.com/work/tolerance/). In redesigning their website, ThinkShout set out to turn the wealth of articles and resources Tolerance had into teachable materials, and did so by creating a guided Learning Plan Builder that makes all content classroom-ready. Tolerance grants free access to thousands of resources – from video to essays to proven teaching strategies – and everything within that catalogue is now actionable.
 
-The result? Since launching summer of 2017, Tolerance.org has seen improvements across the board. From increased engagement and pageviews on their site, to a spike in registrations on their site (19,000 registrations in Fall of 2016; compared to *36,000 registrations* post-launch in fall of 2017).
+The result? Since launching summer of 2017, Tolerance.org has seen improvements across the board. From increased engagement and pageviews on their site, to a spike in registrations on their site (19,000 registrations in Fall of 2016; compared to **36,000 registrations** post-launch in fall of 2017).
 
 Here’s where you come in: our nomination for a [Webby](https://vote.webbyawards.com/PublicVoting/#/2018/websites/general/education) means we need the people’s voice (aka *VOTES*) to actually win! Personally, we can’t think of anything more critical at this time than the work Tolerance.org is doing to ensure the next generation is primed to participate in our democracy.
 
