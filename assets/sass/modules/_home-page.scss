@@ -10,9 +10,9 @@
     padding: 2rem 0;
     position: relative;
 
-    @include mq(lt) { padding: 3rem 0; }
-    @include mq(md) { padding: 7rem 0; }
-    @include mq(l) { padding: 11rem 0; }
+    @include mq(lt) { padding: 2rem 0 3rem 0; }
+    @include mq(md) { padding: 6rem 0 7rem 0; }
+    @include mq(l) { padding: 10rem 0 11rem 0; }
 
     &:after {
       background: url('../images/ts_redesign/tolerance-nominated-for-webby.jpg') 75% top no-repeat;
