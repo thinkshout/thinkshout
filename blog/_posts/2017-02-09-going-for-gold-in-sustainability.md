@@ -16,7 +16,7 @@ date: 2017-02-09 11:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 
-From the day ThinkShout was founded, we’ve strived to [improve local communities and have a more positive impact on the environment](https://thinkshout.com/about/). These values resonate with our team, our clients, and our partners. Historically, much of that positive impact has happened by working with mission-driven clients. It was a natural step to go beyond that and ensure our business practices are also in line with our values. That’s why [we became a B Corp in 2015](https://thinkshout.com/blog/2015/08/our-road-to-bcorp/). 
+From the day ThinkShout was founded, we’ve strived to [improve local communities and have a more positive impact on the environment](https://thinkshout.com/values/). These values resonate with our team, our clients, and our partners. Historically, much of that positive impact has happened by working with mission-driven clients. It was a natural step to go beyond that and ensure our business practices are also in line with our values. That’s why [we became a B Corp in 2015](https://thinkshout.com/blog/2015/08/our-road-to-bcorp/). 
 
 This year, as we began to work on re-certifying as a B Corp, we identified opportunities to improve our sustainability efforts. Not only is it the right thing to do, it can help us use our financial resources more efficiently and build a stable business that our team and clients can depend upon over time. Plus, our whole team was excited and ready to help out. 
 

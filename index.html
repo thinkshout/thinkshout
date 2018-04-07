@@ -15,14 +15,16 @@ keywords:
     <div class="container">
       <div class="who-we-are-text valign-wrap">
         <div class="valign">
-          <h1 id="inspiring">Inspiring</h1>
-          <h1 id="change">Change</h1>
-          <p>We craft compelling open source engagement solutions in partnership with forward-thinking clients.</p>
-          <a href="{{ site.baseurl }}/about/" class="uppercase-link">Who We Are<i class="fa fa-caret-right"></i></a>
+          <h1 id="inspiring">Engage&nbsp;and</h1>
+          <h1 id="change">Inspire</h1>
+          <p>We use technology and strategy to elevate organizations creating positive change in the world.</p>
+          <a href="{{ site.baseurl }}/blog/2018/04/vote-for-Webby-nominated-Teaching-Tolerance/" class="uppercase-link">Tolerance.org is nominated for a webby!<i class="fa fa-caret-right"></i></a>
         </div>
       </div>
     </div>
   </div>
+
+{% include work-with-us.html %}
 
   {% assign featured_work = site.case_studies | where: "homepage", "true" | sort: "order" | first %}
   <div class="container">

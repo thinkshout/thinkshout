@@ -5323,15 +5323,15 @@ header {
     position: relative; }
     @media (min-width: 671px) and (max-width: 979px) {
       .front .who-we-are {
-        padding: 4rem 0; } }
+        padding: 3rem 0; } }
     @media (min-width: 980px) and (max-width: 1199px) {
       .front .who-we-are {
-        padding: 8rem 0; } }
+        padding: 7rem 0; } }
     @media (min-width: 1200px) {
       .front .who-we-are {
-        padding: 13rem 0; } }
+        padding: 11rem 0; } }
     .front .who-we-are:after {
-      background: url("../images/ts_redesign/home_hero.jpg") left top no-repeat;
+      background: url("../images/ts_redesign/tolerance-nominated-for-webby.jpg") 75% top no-repeat;
       background-size: cover;
       content: "";
       display: block;
@@ -5354,7 +5354,7 @@ header {
           float: left;
           display: block;
           margin-right: 2.35765%;
-          width: 40.29137%;
+          width: 65.88078%;
           float: right; }
           .front .who-we-are .who-we-are-text:last-child {
             margin-right: 0; } }
@@ -5363,26 +5363,46 @@ header {
           float: left;
           display: block;
           margin-right: 2.35765%;
-          width: 31.76157%;
+          width: 48.82117%;
+          float: right; }
+          .front .who-we-are .who-we-are-text:last-child {
+            margin-right: 0; } }
+      @media (min-width: 1200px) {
+        .front .who-we-are .who-we-are-text {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 40.29137%;
           float: right; }
           .front .who-we-are .who-we-are-text:last-child {
             margin-right: 0; } }
       .front .who-we-are .who-we-are-text h1 {
-        color: #f78c50;
+        color: #f26d21;
         font-family: "FilmotypeLucky";
-        font-size: 5.5rem;
+        font-size: 6rem;
         font-weight: normal;
-        line-height: 100px;
+        line-height: 120px;
         margin: 0 auto;
         transform: rotate(-10deg);
         max-width: 85%; }
-      .front .who-we-are .who-we-are-text #inspiring {
-        margin-left: -0.5rem; }
       .front .who-we-are .who-we-are-text #change {
-        margin-right: -0.5rem;
-        margin-top: -2rem; }
+        margin-right: 1.5rem;
+        margin-top: -1rem; }
       .front .who-we-are .who-we-are-text p {
-        color: #58585b; }
+        font-size: 1.1875rem;
+        line-height: 1.6;
+        color: #58585b;
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto; }
+      @media (max-width: 480px) {
+        .front .who-we-are .who-we-are-text h1 {
+          font-size: 4rem;
+          line-height: 80px;
+          max-width: 95%; }
+        .front .who-we-are .who-we-are-text p {
+          font-size: 1rem;
+          max-width: 95%; } }
   .front .featured-intro {
     display: table;
     margin-top: 2rem;
