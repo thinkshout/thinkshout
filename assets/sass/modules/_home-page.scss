@@ -26,8 +26,8 @@
       width: 100%;
       z-index: -1;
 
-      @include mq(m) { opacity: 0.3; }
-      @include mq(p) { opacity: 0.3; }
+      @include mq(m) { opacity: 0.3; background-position-x: 10%; }
+      @include mq(p) { opacity: 0.3; background-position-x: 10%; }
     }
 
     .who-we-are-text {
@@ -55,6 +55,9 @@
       #change {
         margin-right: 1.5rem;
         margin-top: -1rem;
+
+        @include mq(m) { margin-right: 0; }
+        @include mq(p) { margin-right: 0; }
       }
 
       p {

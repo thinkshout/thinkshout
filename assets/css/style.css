@@ -5343,10 +5343,12 @@ header {
       z-index: -1; }
       @media (max-width: 480px) {
         .front .who-we-are:after {
-          opacity: 0.3; } }
+          opacity: 0.3;
+          background-position-x: 10%; } }
       @media (min-width: 481px) and (max-width: 670px) {
         .front .who-we-are:after {
-          opacity: 0.3; } }
+          opacity: 0.3;
+          background-position-x: 10%; } }
     .front .who-we-are .who-we-are-text {
       text-align: center; }
       @media (min-width: 671px) and (max-width: 979px) {
@@ -5388,6 +5390,12 @@ header {
       .front .who-we-are .who-we-are-text #change {
         margin-right: 1.5rem;
         margin-top: -1rem; }
+        @media (max-width: 480px) {
+          .front .who-we-are .who-we-are-text #change {
+            margin-right: 0; } }
+        @media (min-width: 481px) and (max-width: 670px) {
+          .front .who-we-are .who-we-are-text #change {
+            margin-right: 0; } }
       .front .who-we-are .who-we-are-text p {
         font-size: 1.1875rem;
         line-height: 1.6;
