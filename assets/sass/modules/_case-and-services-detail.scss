@@ -1,7 +1,7 @@
 .page-not-found,
 .careers,
 .case-study,
-.expertise {
+.services {
 
   .main-content {
     @include mq(m) { margin-top: rem(90); }
@@ -11,7 +11,7 @@
   .page-not-found-header,
   .careers-header,
   .case-study-header,
-  .expertise-header {
+  .services-header {
     background-position: left top;
     background-size: cover;
     color: $white;
@@ -269,6 +269,6 @@
   }
 }
 
-.expertise .body {
+.services .body {
   padding: 3rem 0;
 }

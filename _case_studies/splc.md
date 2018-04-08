@@ -5,7 +5,7 @@ body-class: case-study splc
 active: true
 homepage: true
 published: true
-order: 1
+order: 3
 # END LAYOUT DATA
 
 title: Southern Poverty Law Center

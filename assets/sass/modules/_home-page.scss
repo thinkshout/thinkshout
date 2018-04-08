@@ -10,12 +10,12 @@
     padding: 2rem 0;
     position: relative;
 
-    @include mq(lt) { padding: 4rem 0; }
-    @include mq(md) { padding: 8rem 0; }
-    @include mq(l) { padding: 13rem 0; }
+    @include mq(lt) { padding: 2rem 0 3rem 0; }
+    @include mq(md) { padding: 6rem 0 7rem 0; }
+    @include mq(l) { padding: 10rem 0 11rem 0; }
 
     &:after {
-      background: url('../images/ts_redesign/home_hero.jpg') left top no-repeat;
+      background: url('../images/ts_redesign/tolerance-nominated-for-webby.jpg') 75% top no-repeat;
       background-size: cover;
       content: "";
       display: block;
@@ -26,38 +26,61 @@
       width: 100%;
       z-index: -1;
 
-      @include mq(m) { opacity: 0.3; }
-      @include mq(p) { opacity: 0.3; }
+      @include mq(m) { opacity: 0.3; background-position-x: 10%; }
+      @include mq(p) { opacity: 0.3; background-position-x: 10%; }
     }
 
     .who-we-are-text {
       text-align: center;
 
-      @include mq(lt) { @include span-columns(5); float: right; }
-      @include mq(d) { @include span-columns(4); float: right; }
+      @include mq(lt) { @include span-columns(8); float: right; }
+      @include mq(d) { @include span-columns(6); float: right; }
+      @include mq(l) { @include span-columns(5); float: right; }
 
       h1 {
-        color: $ltorange;
+        color: $orange;
         font-family: $secondary-font;
-        font-size: 5.5rem;
+        font-size: 6rem;
         font-weight: normal;
-        line-height: 100px;
+        line-height: 120px;
         margin: 0 auto;
         transform: rotate(-10deg);
         max-width: 85%;
       }
 
       #inspiring {
-        margin-left: -0.5rem;
+        // margin-left: -0.5rem;
       }
 
       #change {
-        margin-right: -0.5rem;
-        margin-top: -2rem;
+        margin-right: 1.5rem;
+        margin-top: -1rem;
+
+        @include mq(m) { margin-right: 0; }
+        @include mq(p) { margin-right: 0; }
       }
 
       p {
+        font-size: rem(19);
+        line-height: 1.6;
         color: $darkgray;
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      @include mq(m) { 
+        h1 {
+          font-size: 4rem;
+          line-height: 80px;
+          max-width: 95%;
+        }
+        p {
+          font-size: rem(16);
+          max-width: 95%;
+        }
+
+
       }
     }
   }

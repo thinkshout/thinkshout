@@ -9,6 +9,7 @@ published: true
 featured: true
 short: Now's the time to start thinking about how to make the biggest impact with your year-end campaign. 
 tags:
+  - Strategy
   - Fundraising
   - Nonprofit tech
   - Email marketing

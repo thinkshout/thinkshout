@@ -11,7 +11,7 @@ short: We're off to Baltimore for a week of Drupal. Here's where you can find us
 tags:
   - Drupal Planet
   - DrupalCon
-  - Drupal 
+  - Drupal
   - Twig
   - Nonprofit tech
 date: 2017-04-19 16:00:00

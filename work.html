@@ -7,8 +7,8 @@ title: Our Work
 <div class="intro">
   <div class="container">
     <div class="text">
-      <h1>Our Work</h1>
-      <p>Whether it’s a simple site or a sophisticated e-commerce solution, our work excels in terms of engagement and effectiveness.</p>
+      <h1>Featured Projects</h1>
+      <p>Our experience spans the social good sector -- from social justice, to universities, to animal welfare. We work to create solutions that engage and inspire your audiences in meaningful ways.</p>
     </div>
   </div>
 </div>
@@ -16,7 +16,7 @@ title: Our Work
 <div class="work-listing">
   <div class="container">
   {% assign case-studies = site.case_studies | where: "active", "true" | sort: "order" %}
-  {% for preview in case-studies limit: 5 %}
+  {% for preview in case-studies limit: 4 %}
     <a class="case-study-wrapper-link" href="{{ site.baseurl }}{{ preview.url }}"><section class="case-study-header {{ preview.cs-class }}">
       <style>
         .case-study-header.{{ preview.cs-class }} { background-image: url('{{ site.baseurl }}{{ preview.cs-preview.image }}'); }
@@ -27,8 +27,7 @@ title: Our Work
         </div>
     </section></a>
   {% endfor %}
-    <!-- <a href="{{ site.baseurl }}archive/" class="work-archive-link uppercase-link">See all Case Studies<i class="fa fa-caret-right"></i></a> -->
-    <br><br><!-- Note: remove these <br><br> when the above link is live. -->
+    <a href="{{ site.baseurl }}archive/" class="work-archive-link uppercase-link">See all Case Studies<i class="fa fa-caret-right"></i></a>
   </div>
 </div>
 

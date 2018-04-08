@@ -14,6 +14,7 @@ tags:
   - Innovation
   - Website Redesign
   - Retrospective
+  - Digital Ecosystem
 date: 2017-09-25 12:30:00
 image: https://thinkshout.com/assets/ThinkShout_March16_IMG_6099_JasonQuigley.jpg
 header-image: /assets/images/blog/ThinkShout_March16_IMG_6099_JasonQuigley.jpg

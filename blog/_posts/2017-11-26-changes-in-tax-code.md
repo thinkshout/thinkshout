@@ -9,9 +9,9 @@ published: true
 featured: false
 short: We share strategies to combat this antiquated approach to fundraising and help you remain relevant to constituents year-round.
 tags:
-  - strategy
-  - fundraising
-  - development
+  - Strategy
+  - Fundraising
+  - Development
   - year-end
   - nonprofits
   - NP Tech

@@ -13,6 +13,7 @@ tags:
   - Strategy
   - User journeys
   - Design
+  - Digital Ecosystem
 date: 2017-04-14 15:00:00
 image: https://thinkshout.com/assets/images/userjourneys-header.jpg
 header-image: /assets/images/blog/userjourneys-header.jpg

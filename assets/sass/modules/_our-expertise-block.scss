@@ -1,4 +1,4 @@
-.our-expertise-intro {
+.our-services-intro {
   display: table;
   width: 100%;
 
@@ -22,14 +22,14 @@
   }
 }
 
-.our-expertise {
+.our-services {
   padding-bottom: 3rem;
 
   @include mq(m) { padding: 2rem 0; }
   @include mq(t) { padding: 3rem 0; }
   @include mq(md) { padding: 3rem 0; }
 
-  .our-expertise-block {
+  .our-services-block {
     @include span-columns(3);
     @include omega(5n);
 

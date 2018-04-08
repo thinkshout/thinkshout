@@ -49,9 +49,9 @@ collections:
   case_studies:
     output: true
     permalink: /work/:slug/
-  expertise:
+  services:
     output: true
-    permalink: /expertise/:slug/
+    permalink: /services/:slug/
   team:
     output: true
     permalink: /team/:slug/

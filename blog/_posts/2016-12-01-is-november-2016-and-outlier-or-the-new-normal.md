@@ -9,6 +9,7 @@ published: true
 featured: false
 short: We have some tips to help you keep those new donors engaged.
 tags:
+  - Strategy
   - Fundraising
   - Donor retention
   - E-mail

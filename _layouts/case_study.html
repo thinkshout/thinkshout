@@ -70,13 +70,13 @@ layout: default
         <a class="button" href="{{ page.cs-cta-url }}" target="_blank">{{ page.cs-cta-text }}</a>
     </section>
     {% endif %}
-    <div class="our-expertise">
+    <div class="our-services">
       <div class="container">
         <h1>Other work</h1>
         {% assign case-studies = site.case_studies | where: "active", "true" | sort: "order" %}
         {% for case in case-studies %}
         {% if case.url != page.url %}
-          <div class="our-expertise-block">
+          <div class="our-services-block">
             <a href="{{ site.baseurl }}{{ case.url }}"><h2>{{ case.title }}</h2></a>
             <p>{{ case.cs-preview.description }}</p>
           </div>
