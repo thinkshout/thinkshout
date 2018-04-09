@@ -25,12 +25,17 @@ gzip:
 # Configure redirects
 redirects:
   about: /values/
-  about.html: /values/
   expertise: /services/
   expertise/design: /services/design
   expertise/development: /services/development
   expertise/digital-strategy: /services/digital-strategy
   expertise/engagement-tools: /services/digital-ecosystem
+  about/index.html: /values/
+  expertise/index.html: /services/
+  expertise/design/index.html: /services/design
+  expertise/development/index.html: /services/development
+  expertise/digital-strategy/index.html: /services/digital-strategy
+  expertise/engagement-tools/index.html: /services/digital-ecosystem
   blog/feed: /rss.xml
   taxonomy/term/21/all/feed: /blog/category/drupal-planet/rss.xml
   portfolio: /work/
