@@ -21,7 +21,7 @@ header-image: /assets/images/blog/Teaching-Tolerance-Webby-Nom.png
 header-image-alt: "Teaching Tolerance primes young people to become active in our democracy"
 ---
 
-We’re thrilled to announce that [Teaching Tolerance](https://www.tolerance.org/), a program of the [Southern Poverty Law Center](https://www.splcenter.org/) is up for a [Webby](https://vote.webbyawards.com/PublicVoting/#/2018/websites/general/education)! Their mission is to provide educators with the tools to create a kind and inclusive school climate. They do this through a library of articles and resources that they’ve turned into teachable materials via a Learning Plan Builder, d and other classroom activities. It’s something that we feel is especially important work, now more than ever.
+We’re thrilled to announce that [Teaching Tolerance](https://www.tolerance.org/), a program of the [Southern Poverty Law Center](https://www.splcenter.org/) is up for a [Webby](https://vote.webbyawards.com/PublicVoting/#/2018/websites/general/education)! Their mission is to provide educators with the tools to create a kind and inclusive school climate. They do this through a library of articles and resources that they’ve turned into teachable materials via a Learning Plan Builder, and other classroom activities. It’s something that we feel is especially important work, now more than ever.
 
 This is a project that meant so much to everyone that touched it; and it was a true partnership every step of the way for both our teams (Tolerance and ThinkShout). It certainly speaks to the passion that was put into it from all angles, and it’s an honor to be recognized for this work.
 
