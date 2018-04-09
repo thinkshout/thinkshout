@@ -25,6 +25,7 @@ gzip:
 # Configure redirects
 redirects:
   about: /values/
+  about.html: /values/
   expertise: /services/
   expertise/design: /services/design
   expertise/development: /services/development
