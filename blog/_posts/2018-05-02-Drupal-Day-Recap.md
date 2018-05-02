@@ -2,23 +2,23 @@
 layout: blog
 body-class: blog-post
 topic: culture
-title: ThinkShout hits all the conferences
-homepage: true
+title: That's a wrap!
+homepage: false
 author: natania
 published: true
-featured: true
-short: See you at DrupalCon and the NTC!
+featured: false
+short: A quick recap on Drupal Day and what's to come
 tags:
   - Culture
   - Community
   - 18NTC
-  - DrupalCon
+  - Drupal
   - nptech
   - Drupal Planet
-date: 2018-03-28 12:00:00
-image: https://thinkshout.com/assets/images/blog/conference-pic.jpg
-header-image: /assets/images/blog/conference-pic.jpg
-header-image-alt: "Thinkshout loves conference season!"
+date: 2018-05-02 12:00:00
+image: https://thinkshout.com/assets/images/blog/Drupal Day.jpg.jpg
+header-image: /assets/images/blog/Drupal Day.jpg.jpg
+header-image-alt: "That's a wrap for Conference Season"
 
 It feels like it was just yesterday… probably because we still have visions of beignets dancing in our head. But we had such a blast at 18NTC, and we have you, the nonprofit community to thank for it.
 
