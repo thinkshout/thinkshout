@@ -15,15 +15,17 @@ tags:
   - Drupal
   - nptech
   - Drupal Planet
+  - Gizra
+  - Fionta 
 date: 2018-05-02 12:00:00
-image: https://thinkshout.com/assets/images/blog/Drupal Day.jpg.jpg
-header-image: /assets/images/blog/Drupal Day.jpg.jpg
+image: https://thinkshout.com/assets/images/blog/Drupal Day.jpg
+header-image: /assets/images/blog/Drupal Day.jpg
 header-image-alt: "That's a wrap for Conference Season"
 ---
 
 It feels like it was just yesterday… probably because we still have visions of beignets dancing in our head. But we had such a blast at 18NTC, and we have you, the nonprofit community to thank for it.
 
-![Booth Beignets](/assets/images/blog/NTC Beignets.jpg)
+![Booth Beingets](/assets/images/blog/NTC Beingets.jpg)
 {:.center}
 
 Our pre-conference Drupal Day was jam-packed with content from project management to content strategy, to Bene.
