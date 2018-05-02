@@ -28,7 +28,7 @@ It feels like it was just yesterday… probably because we still have visions of
 ![Booth Beingets](/assets/images/blog/NTC Beingets.jpg)
 {:.center}
 
-Our pre-conference Drupal Day was jam-packed with content from project management to content strategy, to Bene.
+Our pre-conference Drupal Day was jam-packed with content from project management to content strategy, to [Bene](https://thinkshout.com/bene/).
 
 ![Drupal Day booth](/assets/images/blog/Drupal Day.jpg)
 {:.center}
