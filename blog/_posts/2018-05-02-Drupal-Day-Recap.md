@@ -16,10 +16,10 @@ tags:
   - nptech
   - Drupal Planet
   - Gizra
-  - Fionta 
+  - Fionta
 date: 2018-05-02 12:00:00
-image: https://thinkshout.com/assets/images/blog/Drupal Day.jpg
-header-image: /assets/images/blog/Drupal Day.jpg
+image: https://thinkshout.com/assets/images/blog/trumpet.jpg
+header-image: /assets/images/blog/trumpet.jpg
 header-image-alt: "That's a wrap for Conference Season"
 ---
 
