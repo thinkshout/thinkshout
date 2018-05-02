@@ -2,7 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: culture
-title: That's a wrap!
+title: That's a wrap from New Orleans!
 homepage: false
 author: natania
 published: true
