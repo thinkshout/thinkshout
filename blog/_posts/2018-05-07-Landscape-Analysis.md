@@ -16,8 +16,8 @@ tags:
   - Landscape Analysis
   - Competitive Analysis
 date: 2018-05-02 12:00:00
-image: https://thinkshout.com/assets/images/blog/trumpet.jpg
-header-image: /assets/images/blog/trumpet.jpg
+image: https://thinkshout.com/assets/images/blog/himesh-kumar-behera-216019-unsplash.jpg
+header-image: /assets/images/blog/himesh-kumar-behera-216019-unsplash.jpg
 header-image-alt: "landscape analysis"
 ---
 
