@@ -56,31 +56,31 @@ They approached ThinkShout with the goal to provide the same kind of powerful ex
 
 ### How do you do a landscape analysis?
 
-1.**Understand You, Your Goals, and Everyone You Want to Engage**
+**1. Understand You, Your Goals, and Everyone You Want to Engage**
 The first step is to be clear about your organizational goals, your target audiences, and what those audiences are looking for. This will ensure that you ask the right questions in your analysis and end up with accurate insights. If you haven’t done so before, conducting user research may help uncover what your audiences really need that they are not currently getting, and can also be great preliminary research into the organizations to include in your landscape analysis.
 
 For AnitaB.org, we actually started out organizing our thinking around the kind of concrete features that would comprise an online engagement platform — a user’s profile, private messaging and groups, and event functionality, for example. But we stepped back and re-oriented our goal to something that was bigger picture and much more specific to our client’s particular needs: how do we connect women meaningfully and help them advance in their career and as advocates for women in tech via an online platform?
 
-2.**Set Parameters**
+**2. Set Parameters**
 Once you have your goals in hand, you want to determine the parameters, or the criteria, of your analysis: who do you include? Who do you not? You may want to consider:
 - Whether organization type matters
 - Where there is issue area or mission overlap
 - Whether to set:
-  A narrow set of parameters within a broad context, or
-  A broad set of parameters within a narrow context
+  - A narrow set of parameters within a broad context, or
+  - A broad set of parameters within a narrow context
 
 For AnitaB.org, we set a narrow set of parameters within a broad context. We chose to seek out organizations who were meeting their own goals well — that were by and large not the same goals as our client’s — but who did so using similar strategies to AnitaB.org: facilitating connections between people who may otherwise not meet, and providing opportunities for mentorship, professional development, and career advancement.
 
 *Quick Tip: It may be tempting to skip the first two steps and jump right into step 3, but how can you find what you’re looking for if you don’t know what you’re trying to find? A bit more time upfront will result in more efficient research results and outcomes from your analysis.*
 
-3.**Brainstorm & Vet Potential Organizations**
+**3. Brainstorm & Vet Potential Organizations**
 Now that you know what you are looking for, go out and think about every organization that might fit your criteria here! This isn’t the editing stage — that comes next — so be creative as you can while brainstorming which organizations might fit your criteria. Then, spend a brief time reviewing each one against your parameters, and see how they stack up against each other.
 
 ThinkShout created a list of over 20 organizations that fit our client’s parameters, and it was a diverse list: no two organizations were delivering the same product, but they all had common aspects to their work that mapped back to our goals for our client. We spent about an hour exploring each one and ranking how well it performed against our criteria. Those that ranked highest moved forward in our analysis.
 
 *Quick Tip: If you are improving upon or evolving current offerings, be sure to include your own organization in the next step!*
 
-4.**Examine Strengths, Weaknesses, and Opportunities of Select Organizations**
+**4. Examine Strengths, Weaknesses, and Opportunities of Select Organizations**
 Time and budget typically doesn’t allow for a full in-depth analysis of more than a handful of organizations. But you can still get a lot of value of doing a deep dive into those select few. Spend a while longer getting to know your top-ranked organizations, and really uncover those areas where they’re performing well and not so well. An analysis across your select organizations may reveal those opportunities where no one is currently providing any offerings.
 
 At this stage of our client project, we had six platforms that we spent an additional three hours of time on, getting to know how they facilitated new connections between their users, connected mentors with mentees, delivered professional development content, and promoted career opportunities. In doing so, we came away with many valuable insights that informed the development of the final phase of our project, to create the recommended set of core features for a new online platform. Those insights included:
