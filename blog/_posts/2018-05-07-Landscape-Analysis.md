@@ -37,15 +37,19 @@ All of these questions can be answered by a landscape analysis. The process brea
 A better understanding of the broader context in which you are operating can help you design your strategy to maximize your impact. Some benefits can be:
 
 **Saving Time & Money**
+
 Research can often be an under-resourced line item in a mission-driven organization’s budget. But the upfront investment into a landscape analysis can pay dividends over time by helping avoid problems you might otherwise face, and ensure your offerings are the most effective and unique to grab your audience’s attention and achieve your organizational goals.
 
 **Innovating and Improving**
+
 Seeing how others are providing a similar offering often sparks creative ideas on your team for how to improve and/or innovate the work.
 
 **Making Actionable Decisions**
+
 Stuck on how best to move forward or improve your offerings? Knowing what others are doing can help dislodge any of that and bring action items more clearly into focus.
 
 **Identifying Opportunities**
+
 Differentiating your organization from others in the space is key to success, and a landscape review allows you to identify those areas where you can either outperform others, or fill a gap that no one is filling yet. You can quickly get up to speed on everything from a new field to a new geographic focus, from new trends to not-yet identified competitors.
 
 This was where one of our most recent projects with [AnitaB.org](https://anitab.org/) took us.
