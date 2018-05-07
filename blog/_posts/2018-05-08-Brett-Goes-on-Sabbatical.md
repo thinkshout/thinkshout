@@ -4,7 +4,7 @@ body-class: blog-post
 topic: Culture and community
 title: Brett Goes on Sabbatical
 homepage: false
-author: brett
+author: brett-meyer
 published: true
 featured: false
 short: A long-overdue adventure awaits...
@@ -32,8 +32,6 @@ As we completed each trip, we traced over the roads we’d been on with a highli
 ![Oregon Atlas and Gazatteer](/assets/images/blog/map_highlight.jpg)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Behold, actual highlighting as described above!</span>
-
-___
 
 When I joined ThinkShout in early 2013, we all worked out of a tiny space in the business incubator in the EcoTrust building in Portland. My hire came during an early growth spurt: three hires in three months brought the company up to nine. I joined for the chance to work with a range of great nonprofits: Mobility International USA, Philanthropy Northwest, the Salmon Project, Facing History and Ourselves.
 
@@ -69,7 +67,6 @@ I selflessly volunteered to beta-test that latest one.
 Importantly, though, sabbaticals aren’t just being offered to those of us who’ve taken on the leadership of the company, but to everybody. Work hard for five years, take up to five months off to recharge, come back refreshed to keep pushing us and our clients forward. From what I’ve seen over the years, it’s pretty rare for a company our size to offer this sort of policy.
 
 But it’s the right thing to do.
-___
 
 I’d be lying if I claimed to be spending a lot of time thinking about what I’ll be doing when I come back to ThinkShout in the Fall. There’s the World Cup coming up in June, and I won’t have to plan to watch games around my work schedule.
 
