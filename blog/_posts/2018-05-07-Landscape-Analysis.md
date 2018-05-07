@@ -79,9 +79,7 @@ For AnitaB.org, we actually started out organizing our thinking around the kind 
 Once you have your goals in hand, you want to determine the parameters, or the criteria, of your analysis: who do you include? Who do you not? You may want to consider:
 - Whether organization type matters
 - Where there is issue area or mission overlap
-- Whether to set:
-    A. A narrow set of parameters within a broad context, or
-    B. A broad set of parameters within a narrow context
+- Whether to set a narrow set of parameters within a broad context, or a broad set of parameters within a narrow context
 
 For AnitaB.org, we set a narrow set of parameters within a broad context. We chose to seek out organizations who were meeting their own goals well — that were by and large not the same goals as our client’s — but who did so using similar strategies to AnitaB.org: facilitating connections between people who may otherwise not meet, and providing opportunities for mentorship, professional development, and career advancement.
 
