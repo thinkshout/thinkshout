@@ -36,7 +36,7 @@ All of these questions can be answered by a landscape analysis. The process brea
 ### Why is it important?
 A better understanding of the broader context in which you are operating can help you design your strategy to maximize your impact. Some benefits can be:
 
-Saving Time & Money
+**Saving Time & Money**
 Research can often be an under-resourced line item in a mission-driven organization’s budget. But the upfront investment into a landscape analysis can pay dividends over time by helping avoid problems you might otherwise face, and ensure your offerings are the most effective and unique to grab your audience’s attention and achieve your organizational goals.
 
 **Innovating and Improving**
@@ -48,9 +48,9 @@ Stuck on how best to move forward or improve your offerings? Knowing what others
 **Identifying Opportunities**
 Differentiating your organization from others in the space is key to success, and a landscape review allows you to identify those areas where you can either outperform others, or fill a gap that no one is filling yet. You can quickly get up to speed on everything from a new field to a new geographic focus, from new trends to not-yet identified competitors.
 
-This was where one of our most recent projects with AnitaB.org took us.
+This was where one of our most recent projects with [AnitaB.org](https://anitab.org/) took us.
 
-AnitaB.org is on a mission to connect, inspire and guide women in computing and organizations that view technology innovation as a strategic imperative. The organization supports women working in technical fields, as well as the companies that employ them and the academic institutions that educate them. Each year AnitaB.org hosts the Grace Hopper Celebration, a three-day event which draws over 18,000 women together, and it serves as one of the most powerful ways AnitaB.org carries out its mission.
+AnitaB.org is on a mission to connect, inspire and guide women in computing and organizations that view technology innovation as a strategic imperative. The organization supports women working in technical fields, as well as the companies that employ them and the academic institutions that educate them. Each year AnitaB.org hosts the [Grace Hopper Celebration](https://ghc.anitab.org/), a three-day event which draws over 18,000 women together, and it serves as one of the most powerful ways AnitaB.org carries out its mission.
 
 ![GHC 2018](/assets/images/blog/GHC_2018.jpg)
 {:.center}
@@ -115,4 +115,4 @@ Whether it’s a new website, program, or offering that you’re considering, yo
 {:.center}
 
 ### ThinkShout is Here to Help
-Are you considering a landscape analysis for your organization but not sure if you have the bandwidth to take on the work? We’d love to help you! Our team is comprised of former nonprofit staff and agency veterans who have decades of experience working with nonprofits that vary in size, budgets, and goals, so we know what it’s like to be in your shoes. We are here to help you achieve your goals and be your strategic partner. To get started, let us know a little more about your needs.
+Are you considering a landscape analysis for your organization but not sure if you have the bandwidth to take on the work? We’d love to help you! Our team is comprised of former nonprofit staff and agency veterans who have decades of experience working with nonprofits that vary in size, budgets, and goals, so we know what it’s like to be in your shoes. We are here to help you achieve your goals and be your strategic partner. To get started, [let us know a little more about your needs.](https://thinkshout.com/contact/)
