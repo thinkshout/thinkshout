@@ -21,7 +21,7 @@ header-image: /assets/images/blog/himesh-kumar-behera-216019-unsplash.jpg
 header-image-alt: "landscape analysis"
 ---
 
-No organization is an island. While each and every mission-driven organization is unique, many aspects of your work are shared by other organizations: similar goals, objectives, and core audiences can make it difficult to know how to stand out. One of the most efficient and cost-saving ways to gain such insight is by understanding and navigating the landscape you operate in.
+No organization is an island. While each and every mission-driven organization is unique, many aspects of your work are shared by other organizations. Having similar goals, objectives, and core audiences can make it difficult to know how to stand out. One of the most efficient and cost-saving ways to gain such insight is by understanding and navigating the landscape you operate in.
 
 ### What is a Landscape Analysis?
 Basically, a landscape analysis allows you to learn about your competitor landscape:
@@ -50,11 +50,11 @@ Stuck on how best to move forward or improve your offerings? Knowing what others
 
 **Identifying Opportunities**
 
-Differentiating your organization from others in the space is key to success, and a landscape review allows you to identify those areas where you can either outperform others, or fill a gap that no one is filling yet. You can quickly get up to speed on everything from a new field to a new geographic focus, from new trends to not-yet identified competitors.
+Differentiating your organization from others in the space is key to success, and a landscape review allows you to identify those areas where you can either outperform others or fill a gap that no one is filling yet. You can quickly get up to speed on everything from a new field to a new geographic focus, from new trends to not-yet identified competitors.
 
 This was where one of our most recent projects with [AnitaB.org](https://anitab.org/) took us.
 
-AnitaB.org is on a mission to connect, inspire and guide women in computing and organizations that view technology innovation as a strategic imperative. The organization supports women working in technical fields, as well as the companies that employ them and the academic institutions that educate them. Each year AnitaB.org hosts the [Grace Hopper Celebration](https://ghc.anitab.org/), a three-day event which draws over 18,000 women together, and it serves as one of the most powerful ways AnitaB.org carries out its mission.
+AnitaB.org is on a mission to connect, inspire, and guide women in computing and organizations that view technology innovation as a strategic imperative. The organization supports women working in technical fields, as well as the companies that employ them and the academic institutions that educate them. Each year AnitaB.org hosts the [Grace Hopper Celebration](https://ghc.anitab.org/), a three-day event which draws over 18,000 women together, and it serves as one of the most powerful ways AnitaB.org carries out its mission.
 
 ![GHC 2018](/assets/images/blog/GHC_2018.jpg)
 {:.center}
@@ -81,7 +81,7 @@ Once you have your goals in hand, you want to determine the parameters, or the c
 - Where there is issue area or mission overlap
 - Whether to set a narrow set of parameters within a broad context, or a broad set of parameters within a narrow context
 
-For AnitaB.org, we set a narrow set of parameters within a broad context. We chose to seek out organizations who were meeting their own goals well — that were by and large not the same goals as our client’s — but who did so using similar strategies to AnitaB.org: facilitating connections between people who may otherwise not meet, and providing opportunities for mentorship, professional development, and career advancement.
+For AnitaB.org, we set a narrow set of parameters within a broad context. We chose to seek out organizations who were meeting their own goals well — these were by and large not the same goals as our client’s — but who did so using similar strategies to AnitaB.org: facilitating connections between people who may otherwise not meet, and providing opportunities for mentorship, professional development, and career advancement.
 
 ![Women in Tech](/assets/images/blog/WOC_tech_chat.jpg)
 {:.center}
@@ -91,22 +91,22 @@ For AnitaB.org, we set a narrow set of parameters within a broad context. We cho
 
 **3. Brainstorm & Vet Potential Organizations**
 
-Now that you know what you are looking for, go out and think about every organization that might fit your criteria here! This isn’t the editing stage — that comes next — so be creative as you can while brainstorming which organizations might fit your criteria. Then, spend a brief time reviewing each one against your parameters, and see how they stack up against each other.
+Now that you know what you are looking for, go out and think about every organization that might fit your criteria here! This isn’t the editing stage — that comes next — so be as creative as you can while brainstorming which organizations might fit your criteria. Then, spend a brief time reviewing each one against your parameters, and see how they stack up against each other.
 
 ThinkShout created a list of over 20 organizations that fit our client’s parameters, and it was a diverse list: no two organizations were delivering the same product, but they all had common aspects to their work that mapped back to our goals for our client. We spent about an hour exploring each one and ranking how well it performed against our criteria. Those that ranked highest moved forward in our analysis.
 
-*Quick Tip: If you are improving upon or evolving current offerings, be sure to include your own organization in the next step!*
+*Quick Tip: If you are improving or evolving current offerings, be sure to include your own organization in the next step!*
 
 **4. Examine Strengths, Weaknesses, and Opportunities of Select Organizations**
 
-Time and budget typically doesn’t allow for a full in-depth analysis of more than a handful of organizations. But you can still get a lot of value of doing a deep dive into those select few. Spend a while longer getting to know your top-ranked organizations, and really uncover those areas where they’re performing well and not so well. An analysis across your select organizations may reveal those opportunities where no one is currently providing any offerings.
+Time and budget typically don’t allow for a full in-depth analysis of more than a handful of organizations. But you can still get a lot of value of doing a deep dive into those select few. Spend a while longer getting to know your top-ranked organizations, and really uncover those areas where they’re performing well and not so well. An analysis across your select organizations may reveal those opportunities where no one is currently providing any offerings.
 
 ![landscape analysis](/assets/images/blog/anita-b-landscape-analysis.jpg)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Some platforms we included were Italki, NTEN, and Doximity.</span>
 
-At this stage of our client project, we had six platforms that we spent an additional three hours of time on, getting to know how they facilitated new connections between their users, connected mentors with mentees, delivered professional development content, and promoted career opportunities. In doing so, we came away with many valuable insights that informed the development of the final phase of our project, to create the recommended set of core features for a new online platform. Those insights included:
-  - Unique and specific features we could take inspiration from to build our own,
+At this stage of our client project, we had six platforms that we spent an additional three hours of time on, getting to know how they facilitated new connections between their users, connected mentors with mentees, delivered professional development content, and promoted career opportunities. In doing so, we came away with many valuable insights that informed the development of the final phase of our project, creating a recommended set of core features for a new online platform. Those insights included:
+  - Unique and specific features AnitaB.org could take inspiration from to build their own platform,
   - Offerings that were so strongly provided by other organizations that it didn’t make sense for our client to invest resources in developing and trying to compete against, and
   - A confirmation of market opportunity.
 
