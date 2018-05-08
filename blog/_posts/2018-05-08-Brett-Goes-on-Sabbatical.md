@@ -81,7 +81,7 @@ I’d be lying if I claimed to be spending a lot of time thinking about what I�
 ![Messi and Cats](/assets/images/blog/messi_cats.gif)
 {:.center}
 
-We’re throwing a big party for our 20th wedding anniversary in July. We’re planning trips to Asia, Europe, and South America. And we have about 10 maps in that DeLorme atlas left to trace our lives across.
+Melissa and I are throwing a big party for our 20th wedding anniversary in July. We’re planning trips to Asia, Europe, and South America. And we have about 10 maps in that DeLorme atlas left to trace our lives across.
 
 Through it all, though, I know that I’ll be excited to come back: to see what ThinkShout has accomplished, the new organizations we get to help, the new teammates who’ve joined in our group effort to make the world a better place, one fundraising strategy and line of code at a time.
 
