@@ -18,8 +18,11 @@ published: true
 current-employee: true
 name: sarahj
 bio: |
-  Sarah comes from a long line of NTEN alumni (two other ThinkShouters were previously at NTEN). It was in her role there that she not only fell in love with nonprofit strategy but also with the nonprofit community itself and the idea of leveraging technology to help the greater good. Hearing about how nonprofits are innovating with limited resources to do the most good is inspiring to her. This role involved a lot of relationship management, a skill that will serve her well as an account manager for us at ThinkShout.
+  Sarah comes from a long line of NTEN alumni (two other ThinkShouters were previously at NTEN). It was in her role there that she not only fell in love with nonprofit strategy but also with the community itself and the idea of leveraging technology to help the greater good. After fully embracing the role of nonprofit accidental techie, Sarah moved to Austin, TX where she spent five years as an analyst and senior digital strategy consultant with Pricewaterhouse Cooper’s Digital Experience Center.
 
-  When she’s not working, Sarah writes and publishes poems. Her dog Nadia serves as an incredibly diligent proofreader! But the most adventurous thing? Lately her sense of adventure has turned to other hobbies -- namely lifting weights and working with a trainer, activities she’s never attempted before. That takes guts!
+
+  A passion for helping mission driven organizations create innovative solutions with limited resources to do the most good brought her back to the nonprofit sector. Her extensive experience in client services involved a lot of relationship management, a skill that will serve her well as an account manager for us at ThinkShout.
+
+  Sarah earned a BA in writing at Sarah Lawrence College. When she’s not working, she still writes and publishes poems. Her dog Nadia serves as an incredibly diligent proofreader! 
 slug: sarahj
 ---
