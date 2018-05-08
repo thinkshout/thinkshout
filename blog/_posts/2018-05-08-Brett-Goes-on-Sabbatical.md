@@ -47,17 +47,22 @@ Five years on, ThinkShout has grown to 36 staff. Or maybe 37? It’s hard to kee
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Brett gets gussied up for the Webbys</span>
 
-That we care about the work our clients do is still reflected in the work we do – but something else has changed. Over the years, we’ve come to care for each other.
+That we care about the work our clients do is still reflected in the work we do – but something else has changed. Over the years, we’ve come to view each other as more than just co-workers.
 
 ![Bowtie Thursday](/assets/images/blog/bowtie_thursday.jpg)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Brett and Gabe participating in our bowtie Thursday tradition.</span>
 
-ThinkShout is not just a place people come to be able to do work for organizations making a difference in the world. Instead, I think they’ve come more and more to work with great people who want to do great work. All of the policies, processes, systemizations, and professionalization we’ve experienced and led have kept in mind the basic tenet that people do better work when happy and fulfilled.
+ThinkShout is not just a place people come to be able to do work for organizations making a difference in the world. In addition, I think they’ve come more and more to work with great people who want to do great work. All of the policies, processes, systemizations, and professionalization we’ve experienced and led have kept in mind the tenet that people do better work when happy and fulfilled – and that ThinkShout’s mission extends beyond helping our clients to serving our team and our community as best we can.
 
 This is reflected in our hiring process, in the clients we choose to work with, and in the benefits we offer; one recent hire pointed out that our health insurance is better than she’d had at a company more than a hundred times our size. As we’ve grown, we’ve done our best to insure that when we say we value work-life balance, we’re not saying it just because it sounds like something people want to hear.
 
-As part of that commitment, we’ve rolled out a profit-sharing plan, paid family leave – and a sabbatical policy.
+As part of that commitment, we’ve expanded our benefits package to better assist people at different stages of their life. When you invest 40 or more hours a week into an organization or company, it helps to know they in turn are there for you when you need an assist. Life throws us curve balls from time to time, that’s why we rolled out the following:
+
+- a profit-sharing plan
+- paid leave to take care of yourself or loved ones (young and old)
+- and a sabbatical policy
+
 
 I selflessly volunteered to beta-test that latest one.
 
