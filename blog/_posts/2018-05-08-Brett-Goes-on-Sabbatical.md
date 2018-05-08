@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: Culture and community
+topic: culture
 title: Brett Goes on Sabbatical
 homepage: false
 author: brett-meyer
