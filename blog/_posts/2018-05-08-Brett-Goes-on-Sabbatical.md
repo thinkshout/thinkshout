@@ -11,6 +11,9 @@ short: A long-overdue adventure awaits...
 tags:
   - Company Culture
   - benefits
+  - work-life balance
+  - human resources
+  - sabbatical
   - digital agency
   - community
 date: 2018-05-07 12:00:00
