@@ -14,9 +14,9 @@ tags:
   - digital agency
   - community
 date: 2018-05-07 12:00:00
-image: https://thinkshout.com/assets/images/blog/himesh-kumar-behera-216019-unsplash.jpg
-header-image: /assets/images/blog/himesh-kumar-behera-216019-unsplash.jpg
-header-image-alt: "Brett at ThinkShout"
+image: https://thinkshout.com/assets/images/blog/travel_the_world.jpg
+header-image: /assets/images/blog/travel_the_world.jpg
+header-image-alt: "Brett goes on sabbatical"
 ---
 
 More than 20 years ago, before we were married, Melissa and I bought the DeLorme Oregon Atlas and Gazetteer. This was long before iPhones, and the best way to explore the backroads was to trust the topographical maps that were updated every few years. At one point, we experimented with an early Garmin GPS system, but the DeLorme had a better track record of not leading us on to bad tracks. The dotted lines meant something: even a jacked up 93 Explorer may not have enough clearance.
