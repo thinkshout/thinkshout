@@ -44,7 +44,7 @@ When I joined ThinkShout in early 2013, we all worked out of a tiny space in the
 
 We made a lot of mistakes back then, but what has shown through was how much we all cared about the work. Clients forgave our early missteps because it was obvious we were committed to helping them, to figuring it out, and to doing better.
 
-Five years on, ThinkShout has grown to 36 staff. Or maybe 37? It’s hard to keep track, as change has been pretty consistent. We’ve outgrown our office space, again. Our team has had the honor and the privilege to work with amazing organizations like the Southern Poverty Law Center, the Humane Society and the United States, the Sierra Club, Teaching Tolerance, the National Center for Youth Law, and so many more. We’ve been nominated for a couple of Webby Awards, and even won one. I had to buy a suit because of that.
+Five years on, ThinkShout has grown to 36 staff. Or maybe 37? It’s hard to keep track, as change has been pretty consistent. We’ve outgrown our office space, again. Our team has had the honor and the privilege to work with amazing organizations like the Southern Poverty Law Center, the Humane Society of the United States, the Sierra Club, Teaching Tolerance, the National Center for Youth Law, and so many more. We’ve been nominated for a couple of Webby Awards, and even won one. I had to buy a suit because of that.
 
 ![Brett gets gussied up](/assets/images/blog/Brett_suit.jpg)
 {:.center}
