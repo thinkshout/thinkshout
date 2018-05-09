@@ -11,9 +11,9 @@ social:
   linkedin:
   drupal:
 team-image:
-  small: team/small/kelly-sm.jpeg
-  medium: team/medium/kelly-md.jpeg
-  large: team/large/kelly-lg.jpeg
+  small: team/small/kelly-sm.jpg
+  medium: team/medium/kelly-md.jpg
+  large: team/large/kelly-lg.jpg
 published: true
 current-employee: true
 name: kelly
