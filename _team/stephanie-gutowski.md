@@ -14,7 +14,7 @@ team-image:
   small: team/small/stephanie.jpg
   medium: team/medium/stephanie.jpg
   large: team/large/stephanie.jpg
-published: true
+published: false
 current-employee: false
 name: stephanie
 bio: |
