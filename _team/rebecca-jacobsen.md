@@ -6,9 +6,10 @@ position: Software Engineer
 leadin: |
  Passionate about mitigating climate change and making the world a kinder place, it’s no surprise Rebecca has made ThinkShout her new home!
 social:
-  github:
+  github: https://github.com/rjacobsen0
   twitter:
-  linkedin:
+  linkedin: https://www.linkedin.com/in/rjacobsen0
+  drupal: https://www.drupal.org/u/rjacobsen0
 team-image:
   small: team/small/rebecca-sm.jpg
   medium: team/medium/rebecca-md.jpg
