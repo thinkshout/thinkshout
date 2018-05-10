@@ -58,7 +58,7 @@ AnitaB.org is on a mission to connect, inspire, and guide women in computing and
 
 ![GHC 2018](/assets/images/blog/GHC_2018.jpg)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>Natania and Mimi attended GHC as part of ThinkShout's research and introduction to the AnitaB.org.</span>
+<span class="caption"><i class="fa fa-caret-up"></i>Natania and Mimi attended GHC as part of ThinkShout's research and introduction to [AnitaB.org](https://anitab.org/).</span>
 
 They approached ThinkShout with the goal to provide the same kind of powerful experience and support to women in technology a full 365 days a year, and not just the three days of the Grace Hopper Celebration. Our assignment was to research whether any organization was already providing this kind of support and a sense of community to women in tech, and to also identify online platforms that deliver similar support to their users in unique and innovative ways.
 
