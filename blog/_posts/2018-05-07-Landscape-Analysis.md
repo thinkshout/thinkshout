@@ -85,7 +85,7 @@ For AnitaB.org, we set a narrow set of parameters within a broad context. We cho
 
 ![Women in Tech](/assets/images/blog/WOC_tech_chat.jpg)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>Photo credit: #WOCinTech Chat on [Flickr](www.flickr.com)</span>
+<span class="caption"><i class="fa fa-caret-up"></i>Photo credit: #WOCinTech Chat on [Flickr](https://www.flickr.com/people/wocintechchat/)</span>
 
 *Quick Tip: It may be tempting to skip the first two steps and jump right into step 3, but how can you find what you’re looking for if you don’t know what you’re trying to find? A bit more time upfront will result in more efficient research results and outcomes from your analysis.*
 
