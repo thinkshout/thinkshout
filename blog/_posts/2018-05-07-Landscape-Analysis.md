@@ -31,7 +31,7 @@ Who else is in your sector and doing what you do or want to do? What are they do
 All of these questions can be answered by a landscape analysis. The process breaks down into three steps, which we explore in more depth later on:
 1. **Identification** of key organizations in a field, sector, or location
 2. **Classification** of those organizations by relevant characteristics (organization type, target audience, mission)
-3. **Evaluation** of how they’re performing against those characteristics
+3. **Evaluation** of how they’re performing relative to the focus of your review
 
 ### Why is it important?
 A better understanding of the broader context in which you are operating can help you design your strategy to maximize your impact. Some benefits can be:
@@ -58,7 +58,7 @@ AnitaB.org is on a mission to connect, inspire, and guide women in computing and
 
 ![GHC 2018](/assets/images/blog/GHC_2018.jpg)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>Natania and Mimi attended GHC as part of our research and introduction to the organization.</span>
+<span class="caption"><i class="fa fa-caret-up"></i>Natania and Mimi attended GHC as part of ThinkShout's research and introduction to the AnitaB.org.</span>
 
 They approached ThinkShout with the goal to provide the same kind of powerful experience and support to women in technology a full 365 days a year, and not just the three days of the Grace Hopper Celebration. Our assignment was to research whether any organization was already providing this kind of support and a sense of community to women in tech, and to also identify online platforms that deliver similar support to their users in unique and innovative ways.
 
@@ -70,7 +70,7 @@ The first step is to be clear about your organizational goals, your target audie
 
 ![Evaluating features](/assets/images/blog/Mimi_Chelsea_Posts.jpg)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>Mimi and I sort through features and how they relate to the client/project goals.</span>
+<span class="caption"><i class="fa fa-caret-up"></i>Mimi and Chelsea sorted through features to determine how they related to the client/project goals.</span>
 
 For AnitaB.org, we actually started out organizing our thinking around the kind of concrete features that would comprise an online engagement platform — a user’s profile, private messaging and groups, and event functionality, for example. But we stepped back and re-oriented our goal to something that was bigger picture and much more specific to our client’s particular needs: how do we connect women meaningfully and help them advance in their career and as advocates for women in tech via an online platform?
 
@@ -105,7 +105,7 @@ Time and budget typically don’t allow for a full in-depth analysis of more tha
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Some platforms we included were Italki, NTEN, and Doximity.</span>
 
-At this stage of our client project, we had six platforms that we spent an additional three hours of time on, getting to know how they facilitated new connections between their users, connected mentors with mentees, delivered professional development content, and promoted career opportunities. In doing so, we came away with many valuable insights that informed the development of the final phase of our project, creating a recommended set of core features for a new online platform. Those insights included:
+At this stage of our client project, we had six platforms that we each spent an additional three hours of time on; getting to know how they facilitated new connections between their users, connected mentors with mentees, delivered professional development content, and promoted career opportunities. In doing so, we came away with many valuable insights that informed the development of the final phase of our project, creating a recommended set of core features for a new online platform. Those insights included:
   - Unique and specific features AnitaB.org could take inspiration from to build their own platform,
   - Offerings that were so strongly provided by other organizations that it didn’t make sense for our client to invest resources in developing and trying to compete against, and
   - A confirmation of market opportunity.
