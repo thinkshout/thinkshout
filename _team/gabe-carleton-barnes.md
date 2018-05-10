@@ -4,7 +4,7 @@ first_name: Gabe
 last_name: Carleton-Barnes
 position: Director of Engineering
 leadin: |
-  Gabe’s not only a Magic: The Gathering champion, he is a champion for our Salesforce integration tools and other open source contributions. His experience in streamlining processes for nonprofits drew him to ThinkShout, where he could apply his skills and do some good for the world at the same time.
+  In addition to being a semi-professional actor, a borderline-professional Magic: The Gathering player, and a far-from-professional travel blogger, Gabe spent 10 years as an actual professional at nonprofits before joining ThinkShout.
 social:
   github: https://github.com/unclegcb
   twitter: https://twitter.com/uncle_gcb
@@ -18,6 +18,7 @@ published: true
 current-employee: true
 name: gabe
 bio: |
-  Gabe is highly experienced in building custom Salesforce solutions for constituent management and fundraising. Before joining ThinkShout, Gabe worked in the nonprofit world at Ecotrust, the Wild Salmon Center, and Immigration Equality. He holds a BA in Computer Science and Theatre from Oberlin College. Gabe really does spend his free time playing Magic: The Gathering in a variety of time zones.
+  As the Systems Administrator at Ecotrust & The Wild Salmon Center, Gabe gained a deep knowledge of nonprofit technology needs and challenges, solved technical problems of many stripes, and gained a deep understanding of nonprofit culture. As the Operations Director for Immigration Equality, he helped a small non-profit grow from 7 to 17 employees, open an office in DC, form an Action Fund to lobby for political change, and built a unified database for tracking the organization’s constituents, contributions, and legal clients.
+  <p>Gabe has a BA in Computer Science and Theatre from Oberlin College. Those seemingly isolated subjects describe his approach to building great technology solutions: collaboration in pursuit of a shared goal requires communication and understanding. Only with that understanding can we build successful software.
 slug: gabe
 ---
