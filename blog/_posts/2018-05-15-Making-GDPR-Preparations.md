@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: technology
 title: Preparing for the GDPR Regulations
-homepage: true
-author: chelsea
+homepage: false
+author: tauno
 published: true
-featured: true
+featured: false
 short: The European Union’s General Data Protection Regulations go into effect May 25th. Here's how you need to prepare.
 tags:
   - Technology
@@ -16,7 +16,7 @@ tags:
   - Google Analytics
   - GDPR
   - General Data Protection Regulations
-date: 2018-05-15 12:00:00
+date: 2018-05-13 12:00:00
 image: https://thinkshout.com/assets/images/blog/himesh-kumar-behera-216019-unsplash.jpg
 header-image: /assets/images/blog/himesh-kumar-behera-216019-unsplash.jpg
 header-image-alt: "landscape analysis"
