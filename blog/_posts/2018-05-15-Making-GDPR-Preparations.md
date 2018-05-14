@@ -56,7 +56,7 @@ Basically, ensure that the general population (who did not attend law school) ca
 
 ### Processing must be allowed under a lawful basis.
 
-Any processing of personal data must be supported by both the need to process that data as well as a lawful basis. Out of the [eight lawful basis](https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/) that the GDPR defines, consent, legal obligation and legitimate interest appear to be the most likely to be cited in the work of our clients. For consent to apply, it must be active (opt-in), current, specific and revocable.
+Any processing of personal data must be supported by both the need to process that data as well as a lawful basis. Out of the [eight lawful bases](https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/) that the GDPR defines, consent, legal obligation and legitimate interest appear to be the most likely to be cited in the work of our clients. For consent to apply, it must be active (opt-in), current, specific and revocable.
 
 Legal obligation covers data needed for accounting or other legal audit trails. Legitimate interest is less defined, but addresses situations where the usage of the data can be reasonably expected, has minimal privacy impact and there is strong justification for the processing of the data. Using a user’s email address on an account they created to send them a link to reset their password might be an example of legitimate interest as a lawful basis.
 
