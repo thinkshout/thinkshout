@@ -90,11 +90,11 @@ We’re recommending that all our clients take the following steps to ensure com
 * Review and revise privacy notices and cookie policies to be clearly written and comprehensive. Be sure to include information about third-party data collection (Google Analytics, AddThis, Facebook, etc). [Here's a privacy notice checklist to get you started.](https://ico.org.uk/for-organisations/guide-to-data-protection/privacy-notices-transparency-and-control/your-privacy-notice-checklist/)
 * Document processes for handling user requests as well as security breaches. Your organization has a month to respond to an individual’s request for export, access, or deletion of their data. In most cases this will currently be a manual process although there is working happening in both the Drupal and WordPress communities to make these request easier to accommodate. If there is a data breach, the GDPR states that the regulating agency must be notified within 72-hours. A good starting point is the [Security Breach Response Plan Toolkit.](https://iapp.org/resources/article/security-breach-response-plan-toolkit/)
 * Evaluate if changes to your website (beyond the privacy/cookie notices) are necessary. Consider specifically:
-  <p>1.Is Google Analytics configured properly? Ensure IP anonymization is enabled, data retention settings are correct and that no personal information is being tracked (check page urls, titles, etc.).
-  <p>2.What third-party scripts or pixel trackers are included?
-  <p>3.How is consent being collected in newsletter signup forms?
-  <p>4.How is consent being collected in user registration forms?
-  <p>5.Any other places that user data could be collected?
+  <p>1. Is Google Analytics configured properly? Ensure IP anonymization is enabled, data retention settings are correct and that no personal information is being tracked (check page urls, titles, etc.).
+  <p>2. What third-party scripts or pixel trackers are included?
+  <p>3. How is consent being collected in newsletter signup forms?
+  <p>4. How is consent being collected in user registration forms?
+  <p>5. Any other places that user data could be collected?
 
 ### What’s next for us?
 
