@@ -28,16 +28,17 @@ If you’ve ever given your email address to an online store, entity, social med
 
 Most of these notices are related to the European Union’s General Data Protection Regulations (GDPR) that are going into effect later this month on **May 25, 2018.**
 
-To be clear, **we at ThinkShout are not lawyers** and we strongly encourage our clients and anyone collecting user information in some way shape or form to seek legal counsel for your own specific obligations related to the GDPR. Here’s how we’re viewing the regulations and what actions we are taking at ThinkShout.
+To be clear, **we at ThinkShout are not lawyers** and we strongly encourage our clients and anyone collecting user information in some way, shape, or form to seek legal counsel for your own specific obligations related to the GDPR. Here’s how we’re viewing the regulations and what actions we are taking at ThinkShout.
 
 ### The big picture
 
 The regulations apply specifically to organizations that collect or process data associated with EU citizens. The overall intent is to give EU citizens control over how their own data is collected and used. The stick that’s being wielded to enforce the regulations is the possibility of fines of up to €20 million or 4% of an organization’s global annual revenue (whichever is greater). Charitable organizations are not exempted from these penalties, however it’s likely that the steep fines will be for recurring or significant privacy issues and that the focus will be on fixing any issues that are discovered. There are questions about enforceability (particularly in the USA) that will likely need to be settled in court, but many of the regulations reflect smart privacy practices regardless of the penalties. All the chatter and hand wringing about the GDPR has led to a fast growing industry of businesses offering compliance audits, consulting and technical solutions to the regulations. Some of the vendors offering these services are legitimate, while many are simply designed to sell products or services based on embellished fears.
 
-[The principles of the GDPR](https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/principles/) can be broadly summed up as protecting personal data by allowing individuals to choose what data they allow to be collected, how that data is used or processed, and gives them control over that data even after it’s been collected. The UK’s Information Commissioner’s Office provides an easy to read [guide to the GDPR](https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/) that goes into detail on the various provisions while the EU provides a [more graphical explanation](http://ec.europa.eu/justice/smedataprotect/index_en.htm).
+[The principles of the GDPR](https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/principles/) can be broadly summed up as protecting personal data by allowing individuals to choose what data they allow to be collected, how that data is used or processed, and gives them control over that data even after it’s been collected. The UK’s Information Commissioner’s Office provides an easy to read [guide to the GDPR](https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/) that goes into detail on the various provisions while the EU provides a [more graphical explanation](http://ec.europa.eu/justice/smedataprotect/index_en.htm). That last link might be more palatable for the visual learners reading this.
 
 ![EU Graphic Explanation of GDPR](/assets/images/blog/GDPR-Data.png)
 {:.center}
+<span class="caption"><i class="fa fa-caret-up"></i>Portion of the EU's graphical explanation of GDPR - full explanation can be found [here](http://ec.europa.eu/justice/smedataprotect/index_en.htm).</span>
 
 ### Does the GDPR apply to you and your users?
 
@@ -74,18 +75,18 @@ Legal obligation covers data needed for accounting or other legal audit trails. 
 
 Cookies aren’t specifically called out in the GDPR, however some of the provisions can apply to them. Some experts recommend altering the site behavior to prevent cookies from being created until after the user has provided and the site has recorded consent. [Several](https://www.civicuk.com/cookie-control) [services](https://www.cookiebot.com/en/) seek to provide paid services that support this approach, although altering the code on your site is generally necessary to use them correctly. A few Drupal modules and WordPress plugins also seek to provide this functionality. It is expected that in 2019 the [revised e-Privacy Directive](https://www.i-scoop.eu/gdpr/eu-eprivacy-regulation/#The_EU_ePrivacy_Regulation_and_cookies) will shift some or all of the obligations for managing consent related to cookies to the browser application.
 
-### What next?
+### Recommendations
 
 We’re recommending that all our clients take the following steps to ensure compliance:
 
 * Evaluate your organization’s legal needs related to the GDPR. Consulting with your own counsel is recommended.
 * Appoint an internal person to take responsibility for data protection in your organization. While the GDPR includes provisions for [appointing a Data Protection Officer (DPO)](https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-officers/), it’s specifically for public authorities and organizations whose core business is tracking behavior or processing criminal data. Appointing a staff person will help avoid a diffusion of responsibility regarding data security.
 * Audit your data collection and processing [(here's a sample template)](https://docs.google.com/spreadsheets/d/1fEys1ekOpHjup2l9Jto-Q8Ppv8P96jezou2kkOu9PcU/edit#gid=0):
-  * What is being held already and what is being collected?
-  * Is there data being collected or stored that isn’t needed?
-  * How is the collected data is used within the organization?
-  * Is there a legal basis for the different pieces of personal data being collected?
-  * If consent is the legal basis, is the consent active (opt-in), granular and recent?
+  What is being held already and what is being collected?
+  Is there data being collected or stored that isn’t needed?
+  How is the collected data is used within the organization?
+  Is there a legal basis for the different pieces of personal data being collected?
+  If consent is the legal basis, is the consent active (opt-in), granular and recent?
 * Review and revise privacy notices and cookie policies to be clearly written and comprehensive. Be sure to include information about third-party data collection (Google Analytics, AddThis, Facebook, etc). [Here's a privacy notice checklist to get you started.](https://ico.org.uk/for-organisations/guide-to-data-protection/privacy-notices-transparency-and-control/your-privacy-notice-checklist/)
 * Document processes for handling user requests as well as security breaches. Your organization has a month to respond to an individual’s request for export, access, or deletion of their data. In most cases this will currently be a manual process although there is working happening in both the Drupal and WordPress communities to make these request easier to accommodate. If there is a data breach, the GDPR states that the regulating agency must be notified within 72-hours. A good starting point is the [Security Breach Response Plan Toolkit.](https://iapp.org/resources/article/security-breach-response-plan-toolkit/)
 * Evaluate if changes to your website (beyond the privacy/cookie notices) are necessary. Consider specifically:
