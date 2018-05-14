@@ -2,7 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: technology
-title: Preparing for the GDPR Regulations
+title: Preparing for the GDPR
 homepage: false
 author: tauno
 published: true
