@@ -82,19 +82,19 @@ We’re recommending that all our clients take the following steps to ensure com
 * Evaluate your organization’s legal needs related to the GDPR. Consulting with your own counsel is recommended.
 * Appoint an internal person to take responsibility for data protection in your organization. While the GDPR includes provisions for [appointing a Data Protection Officer (DPO)](https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-officers/), it’s specifically for public authorities and organizations whose core business is tracking behavior or processing criminal data. Appointing a staff person will help avoid a diffusion of responsibility regarding data security.
 * Audit your data collection and processing [(here's a sample template)](https://docs.google.com/spreadsheets/d/1fEys1ekOpHjup2l9Jto-Q8Ppv8P96jezou2kkOu9PcU/edit#gid=0):
-  What is being held already and what is being collected?
-  Is there data being collected or stored that isn’t needed?
-  How is the collected data is used within the organization?
-  Is there a legal basis for the different pieces of personal data being collected?
-  If consent is the legal basis, is the consent active (opt-in), granular and recent?
+  * What is being held already and what is being collected?
+  * Is there data being collected or stored that isn’t needed?
+  * How is the collected data is used within the organization?
+  * Is there a legal basis for the different pieces of personal data being collected?
+  * If consent is the legal basis, is the consent active (opt-in), granular and recent?
 * Review and revise privacy notices and cookie policies to be clearly written and comprehensive. Be sure to include information about third-party data collection (Google Analytics, AddThis, Facebook, etc). [Here's a privacy notice checklist to get you started.](https://ico.org.uk/for-organisations/guide-to-data-protection/privacy-notices-transparency-and-control/your-privacy-notice-checklist/)
 * Document processes for handling user requests as well as security breaches. Your organization has a month to respond to an individual’s request for export, access, or deletion of their data. In most cases this will currently be a manual process although there is working happening in both the Drupal and WordPress communities to make these request easier to accommodate. If there is a data breach, the GDPR states that the regulating agency must be notified within 72-hours. A good starting point is the [Security Breach Response Plan Toolkit.](https://iapp.org/resources/article/security-breach-response-plan-toolkit/)
 * Evaluate if changes to your website (beyond the privacy/cookie notices) are necessary. Consider specifically:
- * Is Google Analytics configured properly? Ensure IP anonymization is enabled, data retention settings are correct and that no personal information is being tracked (check page urls, titles, etc.).
- * What third-party scripts or pixel trackers are included?
- * How is consent being collected in newsletter signup forms?
- * How is consent being collected in user registration forms?
- * Any other places that user data could be collected?
+  * Is Google Analytics configured properly? Ensure IP anonymization is enabled, data retention settings are correct and that no personal information is being tracked (check page urls, titles, etc.).
+  * What third-party scripts or pixel trackers are included?
+  * How is consent being collected in newsletter signup forms?
+  * How is consent being collected in user registration forms?
+  * Any other places that user data could be collected?
 
 ### What’s next for us?
 
