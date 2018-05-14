@@ -22,8 +22,7 @@ header-image: /assets/images/blog/Data-is-watching.jpg
 header-image-alt: "Big Data is Watching"
 ---
 
-**“We’ve recently updated our privacy policy.”**
-{:.center}
+### **“We’ve recently updated our privacy policy.”**
 
 If you’ve ever given your email address to an online store, entity, social media platform or done just about anything online, then you’ve probably received the above notice in your inbox from those entities with increasing regularity over the last month or two.
 
