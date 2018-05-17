@@ -14,7 +14,7 @@ team-image:
   small: team/small/claire.jpg
   medium: team/medium/claire.jpg
   large: team/large/claire.jpg
-published: true
+published: false
 current-employee: false
 name: claire
 bio: |
