@@ -14,7 +14,7 @@ team-image:
   small: team/small/cooper2.jpg
   medium: team/medium/cooper2.jpg
   large: team/large/cooper2.jpg
-published: true
+published: false
 current-employee: false
 name: cooper
 bio: |
