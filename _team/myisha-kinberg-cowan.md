@@ -11,7 +11,7 @@ team-image:
   small: blog/myisha2.jpg
   medium: blog/myisha2.jpg
   large: blog/myisha2.jpg
-published: true
+published: false
 current-employee: false
 name: myisha
 bio: |
