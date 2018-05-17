@@ -11,7 +11,7 @@ team-image:
   small: blog/katrina_sq.jpg
   medium: blog/katrina_sq.jpg
   large: blog/katrina_sq.jpg
-published: true
+published: false
 current-employee: false
 name: katrina
 bio: |
