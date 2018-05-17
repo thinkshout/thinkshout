@@ -14,7 +14,7 @@ team-image:
   small: team/small/david.jpg
   medium: team/medium/david.jpg
   large: team/large/david.jpg
-published: true
+published: false
 current-employee: false
 name: david
 bio: |
