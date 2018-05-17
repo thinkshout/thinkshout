@@ -14,7 +14,7 @@ team-image:
   small: team/small/jami.jpg
   medium: team/medium/jami.jpg
   large: team/large/jami.jpg
-published: true
+published: false
 current-employee: false
 name: jami
 bio: |
