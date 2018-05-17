@@ -14,7 +14,7 @@ team-image:
   small: team/small/josh.jpg
   medium: team/medium/josh.jpg
   large: team/large/josh.jpg
-published: true
+published: false
 current-employee: false
 name: josh
 bio: |
