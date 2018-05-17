@@ -13,7 +13,7 @@ team-image:
   small: team/small/corey.jpg
   medium: team/medium/corey.jpg
   large: team/large/corey.jpg
-published: true
+published: false
 current-employee: false
 name: corey
 bio: |
