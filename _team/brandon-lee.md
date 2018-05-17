@@ -14,7 +14,7 @@ team-image:
   small: team/small/brandon.jpg
   medium: team/medium/brandon.jpg
   large: team/large/brandon.jpg
-published: true
+published: false
 current-employee: false
 name: brandon
 bio: |
