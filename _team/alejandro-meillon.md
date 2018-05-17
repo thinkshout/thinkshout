@@ -11,7 +11,7 @@ team-image:
   small: blog/alejandro_sq.jpg
   medium: blog/alejandro_sq.jpg
   large: blog/alejandro_sq.jpg
-published: true
+published: false
 current-employee: false
 name: alejandro
 bio: |
