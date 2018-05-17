@@ -11,7 +11,7 @@ team-image:
   small: team/small/jaden.jpg
   medium: team/medium/jaden.jpg
   large: team/large/jaden.jpg
-published: true
+published: false
 current-employee: false
 name: jaden
 bio: |
