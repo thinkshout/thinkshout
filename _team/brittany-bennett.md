@@ -13,7 +13,7 @@ team-image:
   small: team/small/brittany.jpg
   medium: team/medium/brittany.jpg
   large: team/large/brittany.jpg
-published: true
+published: false
 current-employee: false
 name: brittany
 bio: |
