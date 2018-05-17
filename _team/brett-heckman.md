@@ -14,7 +14,7 @@ team-image:
   small: team/small/brett.jpg
   medium: team/medium/brett.jpg
   large: team/large/brett.jpg
-published: true
+published: false
 current-employee: false
 name: brett
 bio: |
