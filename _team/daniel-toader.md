@@ -14,7 +14,7 @@ team-image:
   small: team/small/Daniel.jpg
   medium: team/medium/Daniel.jpg
   large: team/large/Daniel.jpg
-published: true
+published: false
 current-employee: false
 name: danielt
 bio: |
