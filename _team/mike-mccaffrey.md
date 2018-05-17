@@ -14,7 +14,7 @@ team-image:
   small: team/small/mikem.jpg
   medium: team/medium/mikem.jpg
   large: team/large/mikem.jpg
-published: true
+published: false
 current-employee: false
 name: mikem
 bio: |
