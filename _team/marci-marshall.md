@@ -14,7 +14,7 @@ team-image:
   small: team/small/marci.jpg
   medium: team/medium/marci.jpg
   large: team/large/marci.jpg
-published: true
+published: false
 current-employee: false
 name: marci
 bio: |
