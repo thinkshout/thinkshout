@@ -14,7 +14,7 @@ team-image:
   small: team/small/betsy.jpg
   medium: team/medium/betsy.jpg
   large: team/large/betsy.jpg
-published: true
+published: false
 current-employee: false
 name: betsy
 bio: |
