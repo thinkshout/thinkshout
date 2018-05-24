@@ -2485,7 +2485,7 @@ a:visited {
     color: #fff;
     height: 4.1875rem;
     text-transform: capitalize; }
-  .bene .main-content .contact-form #newsletter-opt-in {
+  .bene .main-content .contact-form .newsletter-confirm {
     position: absolute;
     left: -9999px; }
   .bene .main-content .contact-form .signup-notification:hover {
@@ -2509,11 +2509,11 @@ a:visited {
     width: 13px; }
   .bene .main-content .contact-form .signup-notification::before:hover {
     cursor: pointer; }
-  .bene .main-content .contact-form #newsletter-opt-in:checked + label::before {
+  .bene .main-content .contact-form .newsletter-confirm:checked + label::before {
     color: #524c46;
     text-shadow: 1px 1px 1px rgba(240, 240, 240, 0.5); }
-  .bene .main-content .contact-form #newsletter-opt-in:focus + label::before,
-  .bene .main-content .contact-form #newsletter-opt-in:active + label::before {
+  .bene .main-content .contact-form .newsletter-confirm:focus + label::before,
+  .bene .main-content .contact-form .newsletter-confirm:active + label::before {
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08); }
   .bene .main-content .contact-form .opt-in-text {
     flex: 0 0 100%;
@@ -5024,7 +5024,7 @@ form.contact {
     display: flex; }
     form.contact .form-actions .button.solid {
       max-height: 3.3125rem; }
-    form.contact .form-actions #newsletter-opt-in {
+    form.contact .form-actions .newsletter-confirm {
       position: absolute;
       left: -9999px; }
     form.contact .form-actions .signup-notification:hover {
@@ -5048,11 +5048,11 @@ form.contact {
       width: 13px; }
     form.contact .form-actions .signup-notification::before:hover {
       cursor: pointer; }
-    form.contact .form-actions #newsletter-opt-in:checked + label::before {
+    form.contact .form-actions .newsletter-confirm:checked + label::before {
       color: #524c46;
       text-shadow: 1px 1px 1px rgba(240, 240, 240, 0.5); }
-    form.contact .form-actions #newsletter-opt-in:focus + label::before,
-    form.contact .form-actions #newsletter-opt-in:active + label::before {
+    form.contact .form-actions .newsletter-confirm:focus + label::before,
+    form.contact .form-actions .newsletter-confirm:active + label::before {
       box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08); }
     form.contact .form-actions .signup-notification {
       color: #58585b;
