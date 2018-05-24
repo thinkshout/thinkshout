@@ -2464,9 +2464,10 @@ a:visited {
     width: 100%; }
     @media (min-width: 980px) {
       .bene .main-content .contact-form form.contact {
-        display: flex; } }
+        display: flex;
+        flex-wrap: wrap; } }
   .bene .main-content .contact-form .form-group.half {
-    flex: 1 1 25%;
+    flex: 1 1 24%;
     float: none;
     width: auto; }
     .bene .main-content .contact-form .form-group.half input[type="email"],
@@ -2484,13 +2485,49 @@ a:visited {
     color: #fff;
     height: 4.1875rem;
     text-transform: capitalize; }
+  .bene .main-content .contact-form #newsletter-opt-in {
+    position: absolute;
+    left: -9999px; }
+  .bene .main-content .contact-form .signup-notification:hover {
+    cursor: pointer; }
+  .bene .main-content .contact-form .signup-notification::before {
+    background-color: white;
+    border-radius: 3px;
+    border: 2px solid #666;
+    color: transparent;
+    content: "✓";
+    display: inline-block;
+    font-family: 'Zapf Dingbats', menlo, arial, sans-serif;
+    font-size: 14px;
+    height: 13px;
+    left: -4px;
+    line-height: 0.4;
+    position: relative;
+    text-indent: 0;
+    top: -3px;
+    transition: color 0.2s linear, background-color 0.2s linear;
+    width: 13px; }
+  .bene .main-content .contact-form .signup-notification::before:hover {
+    cursor: pointer; }
+  .bene .main-content .contact-form #newsletter-opt-in:checked + label::before {
+    color: #524c46;
+    text-shadow: 1px 1px 1px rgba(240, 240, 240, 0.5); }
+  .bene .main-content .contact-form #newsletter-opt-in:focus + label::before,
+  .bene .main-content .contact-form #newsletter-opt-in:active + label::before {
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08); }
+  .bene .main-content .contact-form .opt-in-text {
+    flex: 0 0 100%;
+    margin-top: 0.625rem; }
   .bene .main-content .contact-form .signup-notification {
-    font-size: 0.875rem;
     color: #58585b;
+    font-size: 0.875rem;
     font-style: italic;
-    max-width: 75%;
+    margin-bottom: 0;
     margin: 0 auto;
-    text-align: center; }
+    max-width: 75%;
+    text-align: center;
+    text-indent: 13px;
+    text-transform: none; }
 .bene .newsletter-block {
   display: none; }
 
@@ -4987,13 +5024,47 @@ form.contact {
     display: flex; }
     form.contact .form-actions .button.solid {
       max-height: 3.3125rem; }
+    form.contact .form-actions #newsletter-opt-in {
+      position: absolute;
+      left: -9999px; }
+    form.contact .form-actions .signup-notification:hover {
+      cursor: pointer; }
+    form.contact .form-actions .signup-notification::before {
+      background-color: white;
+      border-radius: 3px;
+      border: 2px solid #666;
+      color: transparent;
+      content: "✓";
+      display: inline-block;
+      font-family: 'Zapf Dingbats', menlo, arial, sans-serif;
+      font-size: 14px;
+      height: 13px;
+      left: -4px;
+      line-height: 0.4;
+      position: relative;
+      text-indent: 0;
+      top: -2px;
+      transition: color 0.2s linear, background-color 0.2s linear;
+      width: 13px; }
+    form.contact .form-actions .signup-notification::before:hover {
+      cursor: pointer; }
+    form.contact .form-actions #newsletter-opt-in:checked + label::before {
+      color: #524c46;
+      text-shadow: 1px 1px 1px rgba(240, 240, 240, 0.5); }
+    form.contact .form-actions #newsletter-opt-in:focus + label::before,
+    form.contact .form-actions #newsletter-opt-in:active + label::before {
+      box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08); }
     form.contact .form-actions .signup-notification {
-      font-size: 0.75rem;
-      padding-top: 0.25rem;
       color: #58585b;
+      font-size: 0.75rem;
       font-style: italic;
+      line-height: 1.4;
+      margin-bottom: 0;
+      margin-left: 3rem;
       max-width: 75%;
-      margin-left: 3rem; }
+      padding-top: 0.25rem;
+      text-indent: 4px;
+      text-transform: none; }
       @media (max-width: 480px) {
         form.contact .form-actions .signup-notification {
           margin-left: 0.625rem; } }

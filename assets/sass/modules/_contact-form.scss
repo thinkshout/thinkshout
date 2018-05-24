@@ -72,13 +72,53 @@ form.contact {
     .button.solid {
       max-height: rem(53);
     }
+    #newsletter-opt-in {
+      position: absolute;
+      left: -9999px;
+    }
+    .signup-notification:hover {
+      cursor: pointer;
+    }
+    .signup-notification::before {
+      background-color: white;
+      border-radius: 3px;
+      border: 2px solid #666;
+      color: transparent;
+      content: "✓";
+      display: inline-block;
+      font-family: 'Zapf Dingbats', menlo, arial, sans-serif;
+      font-size: 14px;
+      height: 13px;
+      left: -4px;
+      line-height: 0.4;
+      position: relative;
+      text-indent: 0;
+      top: -2px;
+      transition: color 0.2s linear, background-color 0.2s linear;
+      width: 13px;
+    }
+    .signup-notification::before:hover {
+      cursor: pointer;
+    }
+    #newsletter-opt-in:checked + label::before {
+      color: #524c46;
+      text-shadow: 1px 1px 1px rgba(240, 240, 240, 0.5);
+    }
+    #newsletter-opt-in:focus + label::before,
+    #newsletter-opt-in:active + label::before {
+      box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+    }
     .signup-notification {
-      font-size: rem(12);
-      padding-top: rem(4);
       color: $darkgray;
+      font-size: rem(12);
       font-style: italic;
-      max-width: 75%;
+      line-height: 1.4;
+      margin-bottom: 0;
       margin-left: rem(48);
+      max-width: 75%;
+      padding-top: rem(4);
+      text-indent: 4px;
+      text-transform: none;
       @include mq(m) {
         margin-left: rem(10);
       }
