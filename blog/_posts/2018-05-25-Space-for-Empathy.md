@@ -86,7 +86,7 @@ If you’re interested in learning more about the sessions I attended this week,
 If you’re overwhelmed by accessibility and don’t know where to start, here’s a great video on how to do [a very basic accessibility audit](https://youtu.be/cOmehxAU_4s).
 
 
-If you’re interested in refining your accessibility practices, there are some amazing tools and resources available. Here are some of my favorites. If you have tools or processes you love, please share in the comments below.
+If you’re interested in refining your accessibility practices, there are some amazing tools and resources available. Here are some of my favorites. If you have tools or processes you love, please share in the comments below!
 
 [Style Guide Module](https://styleguide.enjoycreativity.com/): Allows you to run accessibility tests on one page that is automatically populated with all basic layout elements. This is also great as a living style guide for the site.
 
