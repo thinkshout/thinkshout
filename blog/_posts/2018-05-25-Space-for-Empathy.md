@@ -82,34 +82,31 @@ If you’re interested in learning more about the sessions I attended this week,
 
 [A smarter Way to Test Accessibility - a comparison of top tools (Lighthouse, Tenon.io and WAVE API)](https://events.drupal.org/nashville2018/sessions/smarter-way-test-accessibility-comparison-top-tools-lighthouse-tenonio-and)
 
-<p>If you’re overwhelmed by accessibility and don’t know where to start, here’s a great video on how to do [a very basic accessibility audit](https://youtu.be/cOmehxAU_4s).
 
-<p>If you’re interested in refining your accessibility practices, there are some amazing tools and resources available. Here are some of my favorites. If you have tools or processes you love, please share in the comments below.
+If you’re overwhelmed by accessibility and don’t know where to start, here’s a great video on how to do [a very basic accessibility audit](https://youtu.be/cOmehxAU_4s).
 
-**[Style Guide Module](https://styleguide.enjoycreativity.com/)**
-<p>Allows you to run accessibility tests on one page that is automatically populated with all basic layout elements. This is also great as a living style guide for the site.
 
-**VoiceOver Screen Reader Getting Started Guide**
-(https://webaim.org/articles/voiceover/)
+If you’re interested in refining your accessibility practices, there are some amazing tools and resources available. Here are some of my favorites. If you have tools or processes you love, please share in the comments below.
 
-**A11y checklist:**
-A11y has a ton of patterns and a useful checklist.
-https://a11yproject.com/checklist.html#aria-roles
+[Style Guide Module](https://styleguide.enjoycreativity.com/): Allows you to run accessibility tests on one page that is automatically populated with all basic layout elements. This is also great as a living style guide for the site.
 
-**WAVE Accessibility Plugin**
-Described in the “A smarter Way to Test Accessibility” talk as the ‘Cadillac of accessibility plugins,” this free tool will catch errors, markup the page with an outline of your headings and make accessibility QA much easier.  https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh
 
-**Sim Daltonism tool**
-This overlay tool allows you to preview your site for multiple types of colorblindness.  https://itunes.apple.com/us/app/sim-daltonism/id693112260?mt=12
+[VoiceOver Screen Reader Getting Started Guide](https://webaim.org/articles/voiceover/)
 
-**Color Contrast Ratio Checker**
-This chrome plugin will tell you whether the color contrast of fonts on your site passes WCAG 2.0 standards.
-https://chrome.google.com/webstore/detail/contrast-ratio-checker/kmicfegjejpginnockfnjpdgeffebdcf?hl=en
 
-**ARIA cheat sheet**
-This doc outlines all of the different ways you can use ARIA to make your site more accessible
-https://www.w3.org/TR/WCAG20-TECHS/aria.html
+[A11y checklist](https://a11yproject.com/checklist.html#aria-roles): A11y has a ton of patterns and a useful checklist.
 
-**HTML Codesniffer by Squiz**
-Allows you to set the accessibility standard you want to meet (WCAG2AA is the new legal requirement), and creates a report identifying errors, warnings and notices.
-http://squizlabs.github.io/HTML_CodeSniffer/
+
+[WAVE Accessibility Plugin](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh): Described in the “A smarter Way to Test Accessibility” talk as the ‘Cadillac of accessibility plugins,” this free tool will catch errors, markup the page with an outline of your headings and make accessibility QA much easier.  
+
+
+[Sim Daltonism tool](https://itunes.apple.com/us/app/sim-daltonism/id693112260?mt=12): This overlay tool allows you to preview your site for multiple types of colorblindness.  
+
+
+[Color Contrast Ratio Checker](https://chrome.google.com/webstore/detail/contrast-ratio-checker/kmicfegjejpginnockfnjpdgeffebdcf?hl=en):  This chrome plugin will tell you whether the color contrast of fonts on your site passes WCAG 2.0 standards.
+
+
+[ARIA cheat sheet](https://www.w3.org/TR/WCAG20-TECHS/aria.html): This doc outlines all of the different ways you can use ARIA to make your site more accessible
+
+
+[HTML Codesniffer by Squiz](http://squizlabs.github.io/HTML_CodeSniffer/): Allows you to set the accessibility standard you want to meet (WCAG2AA is the new legal requirement), and creates a report identifying errors, warnings and notices.
