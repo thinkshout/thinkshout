@@ -75,16 +75,18 @@ Empathy is what makes us human. We all want to be seen and known and understood.
 If you’re interested in learning more about the sessions I attended this week, here are links to some of my favorite talks:
 
 [JavaScript and Accessibility: Don’t blame the language](https://www.youtube.com/watch?v=elRWQnzlfcw)
-<p>[DrupalCon Nashville 2018: Core Accessibility: Building Inclusivity into the Drupal Project](https://youtu.be/-z9bD2wMgqQ)
-<p>[Usability testing is super important and easier than you think](https://events.drupal.org/nashville2018/sessions/usability-testing-super-important-and-easier-you-think)
-<p>[A smarter Way to Test Accessibility - a comparison of top tools (Lighthouse, Tenon.io and WAVE API)](https://events.drupal.org/nashville2018/sessions/smarter-way-test-accessibility-comparison-top-tools-lighthouse-tenonio-and)
 
-If you’re overwhelmed by accessibility and don’t know where to start, here’s a great video on how to do [a very basic accessibility audit.](https://youtu.be/cOmehxAU_4s)
+[DrupalCon Nashville 2018: Core Accessibility: Building Inclusivity into the Drupal Project](https://youtu.be/-z9bD2wMgqQ)
 
-If you’re interested in refining your accessibility practices, there are some amazing tools and resources available. Here are some of my favorites. If you have tools or processes you love, please share in the comments below.
+[Usability testing is super important and easier than you think](https://events.drupal.org/nashville2018/sessions/usability-testing-super-important-and-easier-you-think)
 
-**Style Guide Module**
-(https://styleguide.enjoycreativity.com/)
+[A smarter Way to Test Accessibility - a comparison of top tools (Lighthouse, Tenon.io and WAVE API)](https://events.drupal.org/nashville2018/sessions/smarter-way-test-accessibility-comparison-top-tools-lighthouse-tenonio-and)
+
+<p>If you’re overwhelmed by accessibility and don’t know where to start, here’s a great video on how to do [a very basic accessibility audit.](https://youtu.be/cOmehxAU_4s)
+
+<p>If you’re interested in refining your accessibility practices, there are some amazing tools and resources available. Here are some of my favorites. If you have tools or processes you love, please share in the comments below.
+
+[**Style Guide Module**](https://styleguide.enjoycreativity.com/)
 <p>Allows you to run accessibility tests on one page that is automatically populated with all basic layout elements. This is also great as a living style guide for the site.
 
 **VoiceOver Screen Reader Getting Started Guide**
