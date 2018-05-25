@@ -4,7 +4,7 @@ body-class: blog-post
 topic: technology
 title: Space for Empathy
 homepage: true
-author: Jules
+author: jules
 published: true
 featured: true
 short: How do we make space for empathy in our work and in our community? Jules takes us on a deep dive into what she learned at this year's DrupalCon
@@ -22,7 +22,7 @@ image: https://thinkshout.com/assets/images/blog/neon-heart.jpg
 header-image: /assets/images/blog/neon-heart.jpg
 header-image-alt: "Neon Heart, Photo credit: Matias Rengel"
 ---
-Last month I went to my first DrupalCon in Nashville.I met a lot of interesting people, had good conversations, and had a hard time choosing from the record number of sessions. As the week went on, I noticed a theme kept coming up. It showed up in sessions on how to create a better admin and content editing experience, in sessions on accessibility and what it’s like to be a blind or deaf engineer, in conversations about helping first-time users enjoy the experience of using Drupal, and in debates about what Drupal will look like in the future. What if the thing that will give Drupal a competitive advantage and improve the admin experience is the same thing that will attract new users and create sites that are accessible for all? 
+Last month I went to my first DrupalCon in Nashville.I met a lot of interesting people, had good conversations, and had a hard time choosing from the record number of sessions. As the week went on, I noticed a theme kept coming up. It showed up in sessions on how to create a better admin and content editing experience, in sessions on accessibility and what it’s like to be a blind or deaf engineer, in conversations about helping first-time users enjoy the experience of using Drupal, and in debates about what Drupal will look like in the future. What if the thing that will give Drupal a competitive advantage and improve the admin experience is the same thing that will attract new users and create sites that are accessible for all?
 
 The idea that kept surfacing during my week at DrupalCon was this: we need empathy. The Drupal community has excelled at solving complex engineering problems, and the next challenge we face is just as critical, though it requires us to think a little differently: how do we make space for empathy in our work and in our community?
 
