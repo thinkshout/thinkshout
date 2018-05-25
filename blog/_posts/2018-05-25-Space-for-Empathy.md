@@ -28,7 +28,8 @@ The idea that kept surfacing during my week at DrupalCon was this: we need empat
 
 ![Reflection photo](/assets/images/blog/perspective.jpg)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>Time to shift our perspective, y'all. Photo Credit: Randy Jacob.</span>
+<span class="caption"><i class="fa fa-caret-up"></i>It's time to shift our perspective. Photo Credit: Randy Jacob.</span>
+
 
 ### Our Bias is our Blindspot
 Sometimes we don’t need more complex solutions, we need thoughtful ones. Building websites is challenging. There’s never enough time or resources. It’s easy to stick with what’s known and what works. But sometimes what I know is limited, and only works for people who look and think like me. It’s easy to become insular and indifferent to the needs of others because it’s hard to make everyone happy, and thinking about the effort required to change can be overwhelming.
@@ -40,7 +41,7 @@ If someone told me, “It’s really hard to talk to people with accents, so I j
 <span class="caption"><i class="fa fa-caret-up"></i>I kicked off my deep dive with Katherine Shaw and Fito Kahn’s awesome all day Drupal Accessibility training. Check out Katherine Shaw’s [great blog posts on accessibility.](https://www.prometsource.com/team/katherine-shaw)</span>
 
 ### Accessible Empathy
-I learned that excuses like “accessibility is hard,” or “it doesn’t affect me because I’m not working on a government site” won’t get me off the hook. Accessible websites are now a part of the Americans with Disabilities Act. And any site that is not accessible to all users is liable, and I met several engineers who are currently resolving warnings or navigating lawsuits for not meeting [WCAG 2.0 guidelines.](https://www.w3.org/TR/WCAG20/)
+I learned that excuses like “accessibility is hard,” or “it doesn’t affect me because I’m not working on a government site” won’t get me off the hook. Accessible websites are now a part of the Americans with Disabilities Act. And any site that is not accessible to all users is liable. I met several engineers who are currently resolving warnings or navigating lawsuits for not meeting [WCAG 2.0 guidelines.](https://www.w3.org/TR/WCAG20/)
 
 But it’s about much more than just changing processes to avoid a lawsuit. Listening to the Core Accessibility panel, I was humbled when it was pointed out that we labor over fixes for Internet Explorer, which can make up 2-3% of users. Meanwhile, **12.6% of people in the US have disabilities (40.7 million people)**, and accessibility can still be considered an edge case. Building a website that works for more users is not difficult, but it takes intention, a willingness to learn and **empathy.**
 
@@ -61,7 +62,7 @@ Something that stood out to me in particular in sessions at DrupalCon was how pe
 A better admin experience, and faster and more accessible websites are only created when we think about how our work is used by everyone. Take a moment to walk a mile in someone else’s shoes. Now apologize for taking their shoes, sit down and talk to them about how they use your site, what the sticking points are, and how it can be improved. Most importantly, **listen.** Forget what you think you know, and learn about what it means to be someone else using your website. Then you just might have a week like mine where you were reminded: sometimes engineers are blind or deaf, or both. Sometimes keynotes are a she or a he or a they. Sometimes content editors know exactly what is needed to make a better editing experience--if you just ask.
 
 ### Be Human. Think Digital.
-Empathy is what makes us human. We all want to be seen and known and understood. And at the end of the day we all want to use tools that help us to accomplish a task, not remind us that we’re not who the engineer had in mind. Technology without empathy is hollow. Empathy without technology is limited. Let’s make space for empathy in our community and in our code, and let’s change the world for good—-for everyone.
+Empathy is what makes us human. We all want to be seen and known and understood. And at the end of the day we all want to use tools that help us to accomplish a task, not remind us that we’re not who the engineer had in mind. Technology without empathy is hollow. Empathy without technology is limited. Let’s make space for empathy in our community and in our code, and let’s change the world for good—for everyone.
 
 ![Driesnote Slide: There is no power for change greater than a community discovering what it cares about](/assets/images/blog/Driesnote.png)
 {:.center}
