@@ -29,7 +29,7 @@ The idea that kept surfacing during my week at DrupalCon was this: we need empat
 ![Reflection photo](/assets/images/blog/perspective.jpg)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>It's time to shift our perspective. Photo Credit: Randy Jacob.</span>
-
+</br>
 
 ### Our Bias is our Blindspot
 Sometimes we don’t need more complex solutions, we need thoughtful ones. Building websites is challenging. There’s never enough time or resources. It’s easy to stick with what’s known and what works. But sometimes what I know is limited, and only works for people who look and think like me. It’s easy to become insular and indifferent to the needs of others because it’s hard to make everyone happy, and thinking about the effort required to change can be overwhelming.
