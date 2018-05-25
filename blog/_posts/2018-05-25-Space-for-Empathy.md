@@ -82,11 +82,11 @@ If you’re interested in learning more about the sessions I attended this week,
 
 [A smarter Way to Test Accessibility - a comparison of top tools (Lighthouse, Tenon.io and WAVE API)](https://events.drupal.org/nashville2018/sessions/smarter-way-test-accessibility-comparison-top-tools-lighthouse-tenonio-and)
 
-<p>If you’re overwhelmed by accessibility and don’t know where to start, here’s a great video on how to do [a very basic accessibility audit.](https://youtu.be/cOmehxAU_4s)
+<p>If you’re overwhelmed by accessibility and don’t know where to start, here’s a great video on how to do [a very basic accessibility audit](https://youtu.be/cOmehxAU_4s).
 
 <p>If you’re interested in refining your accessibility practices, there are some amazing tools and resources available. Here are some of my favorites. If you have tools or processes you love, please share in the comments below.
 
-[**Style Guide Module**](https://styleguide.enjoycreativity.com/)
+**[Style Guide Module](https://styleguide.enjoycreativity.com/)**
 <p>Allows you to run accessibility tests on one page that is automatically populated with all basic layout elements. This is also great as a living style guide for the site.
 
 **VoiceOver Screen Reader Getting Started Guide**
