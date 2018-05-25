@@ -26,10 +26,10 @@ Last month I went to my first DrupalCon in Nashville. I met a lot of interesting
 
 The idea that kept surfacing during my week at DrupalCon was this: we need empathy. The Drupal community has excelled at solving complex engineering problems, and the next challenge we face is just as critical, though it requires us to think a little differently: how do we make space for empathy in our work and in our community?
 
+
 ![Reflection photo](/assets/images/blog/perspective.jpg)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>It's time to shift our perspective. Photo Credit: Randy Jacob.</span>
-
 
 ### Our Bias is our Blindspot
 Sometimes we don’t need more complex solutions, we need thoughtful ones. Building websites is challenging. There’s never enough time or resources. It’s easy to stick with what’s known and what works. But sometimes what I know is limited, and only works for people who look and think like me. It’s easy to become insular and indifferent to the needs of others because it’s hard to make everyone happy, and thinking about the effort required to change can be overwhelming.
