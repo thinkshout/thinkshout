@@ -17,9 +17,9 @@ tags:
   - disaster fundraising
   - fundraising
 date: 2018-05-28 12:00:00
-image: https://thinkshout.com/assets/images/blog/hurricane.jpg
-header-image: /assets/images/blog/hurricane.jpg
-header-image-alt: "Aerial view of 2017 hurricane season"
+image: https://thinkshout.com/assets/images/blog/storm.jpg
+header-image: /assets/images/blog/storm.jpg
+header-image-alt: "Coastline view of incoming storm"
 ---
 Hurricane Season is around the corner (the official start is June 1), and while [some experts](http://www.heraldtribune.com/news/20180518/experts-hurricane-season-may-be-less-active-than-first-predicted) report that it won’t be as brutal as in recent years, it never hurts to revisit some tried and true practices that could help you and your organization avoid some headaches, save a lot of time and be ready to spring into action when the time comes.
 
@@ -36,18 +36,21 @@ Blackbaud (love em or love to hate em) has also done some [research](https://www
 ### The checklist:
 
 **Bandwidth**
+
 ![The Hulk](/assets/images/blog/hulk.jpg)
 {:.center}
 
 The majority of fundraising tends to happen in the [two weeks](https://www.networkforgood.com/nonprofitblog/infographic-disaster-strikes-america-gives/) after an episodic event takes place. Knowing that, how does your organization need to prepare? Do you need to set up a phone bank? Is your website fast enough to handle a spike in traffic? I’ll be honest, I still have nightmares of my site going down on December 31st...luckily technology has come a long way in the last 10-ish years and many of us don’t have to worry about that as much. But check yourself, before you wreck yourself.
 
 **Speed**
+
 ![The Flash](/assets/images/blog/theflash.jpg)
 {:.center}
 
 Can your site load in under 2 seconds? Because [that’s the expectation users have now](https://mrbenchmarks.com/#!/speed).  M+R dedicated an entire section of their 2018 Benchmarks study to speed, saying that “a one-second delay in page load time can lead to an 11% decrease in traffic, and significantly fewer conversions.” Make sure you’re taking steps now to improve the experience when it will matter most. This isn’t just a disaster response plan, it should be the standard.
 
 **The Messaging**
+
 ![Coffee cup with inrpirational message](/assets/images/blog/messaging.jpg)
 {:.center}
 
@@ -59,6 +62,6 @@ Adjusting the communication plan was always the most jarring part for me; becaus
 
 - Don’t forget about social media. As in, don’t forget to amplify your message there and utilize your connections, fans, and influencers to spread your message. Have a plan for how to reach out to those influencers and talk to them about the work you’re doing.
 
-- Incorporate text to give. I say this with caution because I’ve had bad experiences with this in the past, and it just depends on the vendor. So read all the fine print; or you’ll be like me: wondering where all the money is and realizing that the vendor only sends it to you in a lump sum every 6 months (and only if the donor has paid their phone bill). But don’t let my sour attitude get you down -- there are a lot of benefits to giving via text; several are outlined in this [helpful list from Guidestar](https://trust.guidestar.org/text-to-give-software-five-unexpected-and-amazing-benefits). If you find a vendor that you love, tell us so we can also give em some love! And once you’ve got one lined up, agree upon the logic you’ll use to create your keywords so they’re consistent. 
+- Incorporate text to give. I say this with caution because I’ve had bad experiences with this in the past, and it just depends on the vendor. So read all the fine print; or you’ll be like me: wondering where all the money is and realizing that the vendor only sends it to you in a lump sum every 6 months (and only if the donor has paid their phone bill). But don’t let my sour attitude get you down -- there are a lot of benefits to giving via text; several are outlined in this [helpful list from Guidestar](https://trust.guidestar.org/text-to-give-software-five-unexpected-and-amazing-benefits). If you find a vendor that you love, tell us so we can also give em some love! And once you’ve got one lined up, agree upon the logic you’ll use to create your keywords so they’re consistent.
 
 All this is to say, have a checklist of things you need to do when the time comes, so that you’re not scrambling to be 5 different people at once (that may still happen regardless, but at least you’ll be prepared!).
