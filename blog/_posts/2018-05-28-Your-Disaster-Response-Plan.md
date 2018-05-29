@@ -37,24 +37,22 @@ Blackbaud (love em or love to hate em) has also done some [research](https://www
 
 **Bandwidth**
 
+The majority of fundraising tends to happen in the [two weeks](https://www.networkforgood.com/nonprofitblog/infographic-disaster-strikes-america-gives/) after an episodic event takes place. Knowing that, how does your organization need to prepare? Do you need to set up a phone bank? Is your website fast enough to handle a spike in traffic? I’ll be honest, I still have nightmares of my site going down on December 31st...luckily technology has come a long way in the last 10-ish years and many of us don’t have to worry about that as much. But check yourself, before you wreck yourself.
 ![The Hulk](/assets/images/blog/hulk.jpg)
 {:.center}
 
-The majority of fundraising tends to happen in the [two weeks](https://www.networkforgood.com/nonprofitblog/infographic-disaster-strikes-america-gives/) after an episodic event takes place. Knowing that, how does your organization need to prepare? Do you need to set up a phone bank? Is your website fast enough to handle a spike in traffic? I’ll be honest, I still have nightmares of my site going down on December 31st...luckily technology has come a long way in the last 10-ish years and many of us don’t have to worry about that as much. But check yourself, before you wreck yourself.
-
 **Speed**
 
+Can your site load in under 2 seconds? Because [that’s the expectation users have now](https://mrbenchmarks.com/#!/speed).  M+R dedicated an entire section of their 2018 Benchmarks study to speed, saying that “a one-second delay in page load time can lead to an 11% decrease in traffic, and significantly fewer conversions.” Make sure you’re taking steps now to improve the experience when it will matter most. This isn’t just a disaster response plan, it should be the standard.
 ![The Flash](/assets/images/blog/theflash.jpg)
 {:.center}
 
-Can your site load in under 2 seconds? Because [that’s the expectation users have now](https://mrbenchmarks.com/#!/speed).  M+R dedicated an entire section of their 2018 Benchmarks study to speed, saying that “a one-second delay in page load time can lead to an 11% decrease in traffic, and significantly fewer conversions.” Make sure you’re taking steps now to improve the experience when it will matter most. This isn’t just a disaster response plan, it should be the standard.
-
 **The Messaging**
 
-![Coffee cup with inrpirational message](/assets/images/blog/messaging.jpg)
-{:.center}
-
 Adjusting the communication plan was always the most jarring part for me; because I already had a plan, but I had to pitch it all and start over (I love a roadmap, but despise forced improvisation)! Taking some small steps to prepare now will help minimize that stress of having to create a bunch of new pieces overnight to send out to solicit support later.
+
+![Coffee cup with inspirational message](/assets/images/blog/messaging.jpg)
+{:.center}
 
 - Create a template. By that I don’t mean “create a highly designed and polished email” but have a starting point with some copy that you can easily fill in with specific details or edit once you have more information so that when that pressure is mounting for you to produce, you’re not starting from a blank slate. Some of us work well under pressure, but many of us don’t. Some standard things to include might be your efficiency rating / how far a dollar goes; maybe adding in some boilerplate language about your org and its effectiveness.
 
