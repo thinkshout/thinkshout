@@ -58,7 +58,7 @@ Adjusting the communication plan was always the most jarring for me; because I a
 
 - Create a template. By that I don’t mean “create a highly designed and polished email” but have a starting point with some copy that you can easily fill in with specific details or edit once you have more information. Standard things to include might be your efficiency rating / how far a dollar goes; maybe adding in some boilerplate language about your organization and its effectiveness.
 
-- Loosely set the cadence for the messages, but be flexible in the moment to respond to things in a way that isn’t tone deaf or inconsiderate.
+- Loosely set the cadence for the messages, but be flexible so you can respond to things in the moment as the situation evolves.
 
 - Don’t forget about social media. As in, don’t forget to amplify your message there and utilize your connections, fans, and influencers to spread your message. Have a plan for how to reach out to those influencers and talk to them about the work you’re doing.
 
