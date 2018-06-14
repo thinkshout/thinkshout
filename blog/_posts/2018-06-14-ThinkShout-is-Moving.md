@@ -23,6 +23,7 @@ After nearly 5 years in our current Old Town location, we are moving, a whopping
 
 ![Portlandia Move by Bike](/assets/images/blog/portlandia-move.gif)
 {:.center}
+<span class="caption"><i class="fa fa-caret-up"></i>In Portlandia, we move by bike.</span>
 
 It’s been fascinating to watch how a physical space comes to reflect its occupants, and vice versa. In addition to stunning natural light, high ceilings, and warm, historical character, our office has encouraged a deep connection with our Old Town neighbors. We partner with [p:ear Youth Mentoring on fundraising campaigns](https://thinkshout.com/blog/2017/09/thinkshout-cares-wrap-up/), volunteer at the Blanchet House, and have lunch & learns with Sisters of the Road, The Street Trust, and Clean and Safe. Being surrounded by the organizations we strive to support adds meaning to our daily routines and is a constant reminder of how much work remains.
 
