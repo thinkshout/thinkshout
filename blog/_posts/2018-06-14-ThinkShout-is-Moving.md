@@ -35,7 +35,7 @@ Of course, our new office is first and foremost for our own team. We’re tripli
 
 Our team has grown significantly in the last 5 years, from a team of barely 13 to now 35 strong, and growing. We’ve expanded our practice beyond just being a team of experienced engineers with naive notions of the limited ways technology alone can support our clients missions. Our team now includes professional project managers, creative designers, and innovative strategists, along with that same talented engineering team. Together we’re striving to find ever more ways we can support the important work of our clients.
 
-![ThinkShout team collage: images from events and office life](/assets/images/blog/tTS-collage.jpg)
+![ThinkShout team collage: images from events and office life](/assets/images/blog/TS-collage.jpg)
 {:.center}
 
 We’re excited for what’s ahead in the evolution of ThinkShout, and how our new office and growing team will reflect each other. But one thing remains the same: Our commitment to serve social good organizations, doing our part to make the world which we inhabit a more kind, equitable, and conscientious place.
