@@ -1,0 +1,22 @@
+---
+layout: teammember
+first_name: Brendan
+last_name: Adkins
+position: Senior Software Engineer
+leadin: |
+  Brendan learned BASIC on his Dad’s work computer when he was five. He pursued this path, because unlike homework assignments, compilers allowed him to make mistakes as often as he needed to, until he got it right.
+social:
+  github:
+  linkedin: 
+team-image:
+  small: team/small/brendan-sm.jpg
+  medium: team/medium/brendan-md.jpg
+  large: team/large/brendan-lg.jpg
+published: true
+current-employee: true
+name: brendan
+bio: |
+  Brendan got his degree in Computer Science and Dramatic Arts at Centre College in Kentucky, then continued to pursue Computer Science in graduate school at the University of Louisville while working as a systems analyst for a health insurance subrogation company. He followed that up with three years of remote web development work for iNDELIBLE, an agency in New York. After moving to Portland, he spent seven years building mobile apps at DevelopmentNow, a local dev agency, then a year at PlotWatt, an energy-efficiency startup based in North Carolina.
+  <p>Not only does Brendan bring with him an extensive list of experience in software engineering, he’s also a self-proclaimed hobbyist. “I have literally every hobby...the ascendant ones right now are baking, gardening, photography, pole dance, and cross stitch." So if this whole building websites thing falls through, he has several backups.
+slug: brendan
+---
