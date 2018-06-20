@@ -15,8 +15,8 @@ tags:
   - B Corp
   - B LAB
 date: 2018-06-20 12:00:00
-image: https://thinkshout.com/assets/images/blog/ladyliberty.jpg
-header-image: /assets/images/blog/ladyliberty.jpg
+image: https://thinkshout.com/assets/images/blog/lady_liberty.jpg
+header-image: /assets/images/blog/lady_liberty.jpg
 header-image-alt: "Statue of Liberty"
 ---
 There are many reasons we are proud to be a certified as a [B Corp](http://www.bcorporation.net/), not the least of which are the values we share with that community. Among those values are standing up for all members in our society, especially those who are most vulnerable. In today’s political climate, perhaps no group is more deserving of that support than immigrants. Legal. Illegal. First generation, or 10th. We are all immigrants, lest we forget.
