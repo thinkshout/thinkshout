@@ -19,7 +19,7 @@ image: https://thinkshout.com/assets/images/blog/lady_liberty.jpg
 header-image: /assets/images/blog/lady_liberty.jpg
 header-image-alt: "Statue of Liberty"
 ---
-There are many reasons we are proud to be a certified as a [B Corp](http://www.bcorporation.net/), not the least of which are the values we share with that community. Among those values are standing up for all members in our society, especially those who are most vulnerable. In today’s political climate, perhaps no group is more deserving of that support than immigrants. Legal. Illegal. First generation, or 10th. We are all immigrants, lest we forget.
+There are many reasons we are proud to be certified as a [B Corp](http://www.bcorporation.net/), not the least of which are the values we share with that community. Among those values are standing up for all members in our society, especially those who are most vulnerable. In today’s political climate, perhaps no group is more deserving of that support than immigrants. Legal. Illegal. First generation, or 10th. We are all immigrants, lest we forget.
 
 One recent initiative the local B Corp community undertook is to gather and tell the stories of immigrants working for local B Corps. The stories of people making lasting, positive change in our communities. The stories of people undertaking harrowing journeys to provide a better life for their families. The stories of people we should be welcoming with open arms. These stories were compiled into a booklet that was distributed at the recent B Corp Leadership Development Conference, with other future plans.
 
