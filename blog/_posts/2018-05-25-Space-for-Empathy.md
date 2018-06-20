@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: technology
 title: Space for Empathy
-homepage: true
+homepage: false
 author: jules
 published: true
-featured: true
+featured: false
 short: How do we make space for empathy in our work and in our community? Jules takes us on a deep dive into what she learned at this year's DrupalCon
 tags:
   - Technology
