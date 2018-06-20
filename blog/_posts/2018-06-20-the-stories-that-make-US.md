@@ -19,14 +19,15 @@ image: https://thinkshout.com/assets/images/blog/ladyliberty.jpg
 header-image: /assets/images/blog/ladyliberty.jpg
 header-image-alt: "Statue of Liberty"
 ---
-There are many reasons we are proud to be a certified as a B Corp, not the least of which are the values we share with that community. Among those values are standing up for all members in our society, especially those who are most vulnerable. In today’s political climate, perhaps no group is more deserving of that support than immigrants. Legal. Illegal. First generation, or 10th. We are all immigrants, lest we forget.
+There are many reasons we are proud to be a certified as a [B Corp](http://www.bcorporation.net/), not the least of which are the values we share with that community. Among those values are standing up for all members in our society, especially those who are most vulnerable. In today’s political climate, perhaps no group is more deserving of that support than immigrants. Legal. Illegal. First generation, or 10th. We are all immigrants, lest we forget.
 
 One recent initiative the local B Corp community undertook is to gather and tell the stories of immigrants working for local B Corps. The stories of people making lasting, positive change in our communities. The stories of people undertaking harrowing journeys to provide a better life for their families. The stories of people we should be welcoming with open arms. These stories were compiled into a booklet that was distributed at the recent B Corp Leadership Development Conference, with other future plans.
 
 One of those stories is published here, my story. I too am an immigrant, whose family came here seeking asylum 40 years ago. I have nothing to add to the chorus of outcries breaking out across the country, but silence in the face of what is currently unfolding in our southern states is unacceptable. If we all contribute our stories and our compassion, it will make a difference. But words are not enough, action is also required. Consider supporting the organizations listed below who are fighting for those who need most need our support.
 
 Special thanks to Krista Van Veen for conducting my interview and to Mike Mercer for leading this initiative.
-________
+
+**________**
 
 **Krista:** Tell us about the story of your immigration.
 
@@ -53,7 +54,8 @@ Once in the US, both of my parents got jobs at the local phone company and they 
 **Krista:** As ThinkShout is reaching out to more and more people in the community and talking to more people from diverse backgrounds, do you have any advice on how we can be more open to people who come from similar backgrounds as yourself?
 
 **Lev:** Even though I’m an immigrant, I’m also a stereotypical white guy who was very privileged growing up. When I walk around the street, I’ve got all the power. And I really didn’t think about that growing up. I didn’t think of myself has having privilege. And even starting the company I went through a lot of really defensive phases in trying to understand what it meant to build an inclusive community here. This isn’t a journey that I’ve been on on my own, but it’s taken experiences to understand what those blind spots and those unconscious biases are. They are there, but you aren’t a bad person because they are there—but you’re not doing the right thing if you don’t open yourself up to them. So that’s my advice. We all need to really open up to other people’s perspectives to really understand what they need to be successful.
-________
+
+**________**
 
 Take action and support these organizations in their efforts to provide fair treatment to immigrants looking for a better life in this country:
 
