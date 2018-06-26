@@ -36,7 +36,7 @@ But for now, let’s introduce our interns…drumroll please!
 
 **What do you love most about the internet?**
 
-*How vast the internet is! It not only hold so much information, but it makes communication so much easier and quicker. I feel like the internet has created a platform where life has simply been made easier. Plus, gifs and memes are incredible! They always make my day just a little bit better.*
+*How vast the internet is! It not only holds so much information, but it makes communication so much easier and quicker. I feel like the internet has created a platform where life has simply been made easier. Plus, gifs and memes are incredible! They always make my day just a little bit better.*
 
 **If you were a ghost, who would you haunt and why?**
 
