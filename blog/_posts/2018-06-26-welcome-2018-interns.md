@@ -51,7 +51,7 @@ But for now, let’s introduce our interns….
 
 ![Naily.jpg](/assets/images/blog/Naily.jpg){:.left .thirty}Naily is a student of the University of Oregon (go Ducks!) majoring in Art & Technology with a minor in Computer Information Technology and Business Administration.
 
-More recently, Naily has been serving as the Art Director for Majesty Digital, a startup publication for women of color to share their lived experiences. In this role, she has helped to establish their brand and release their first volume. You can find it at [www.majestydigital.org](www.majestydigital.org).
+More recently, Naily has been serving as the Art Director for Majesty Digital, a startup publication for women of color to share their lived experiences. In this role, she has helped to establish their brand and release their first volume. You can find it at [majestydigital.org](https://www.majestydigital.org/).
 
 **What do you love most about the internet?**
 
@@ -85,4 +85,4 @@ The work she is most proud of is with [Daughters of Eve](http://daughtersofeve.o
 ![That way](/assets/images/blog/thatway.gif)
 {:.center}
 
-We're thrilled to have such talented and charismatic interns this summer. Keep track of their projects over the course of the summer by [signing up for our newsletter](https://thinkshout.com/)!
+We're thrilled to have such talented and charismatic interns. Keep track of their projects over the course of the summer by [signing up for our newsletter](https://thinkshout.com/)!
