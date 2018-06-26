@@ -26,6 +26,7 @@ ELI provides these internship opportunities specifically to young adults from un
 We hosted interns last summer as well, launching our [ThinkShout Cares campaign](https://thinkshout.com/blog/2017/09/thinkshout-cares-wrap-up/). Through that, we gave our interns the opportunity to create a unique campaign (complete with campaign microsite, shopify integration, and marketing efforts) that raised money for [p:ear](https://www.pearmentor.org/) and helped further their mission. It was a fun and rewarding project for both our team and the interns, and we’ll be kicking off a new project soon (stay tuned to see how that unfolds!).
 
 But for now, let’s introduce our interns….
+
 ![Drumroll](/assets/images/blog/catdrumroll.gif)
 {:.center}
 
@@ -42,6 +43,7 @@ But for now, let’s introduce our interns….
 *I would haunt Snoop Dogg because frankly if he got high enough, he just might actually see me.*
 
 **Favorite meme / gif reaction:**
+
 ![Manta Ray](/assets/images/blog/manta-ray.png)
 {:.center}
 
@@ -60,6 +62,7 @@ More recently, Naily has been serving as the Art Director for Majesty Digital, a
 *If I were a ghost, I would haunt Nicholas Kristof! He has been my favorite journalist since I read his book Half the Sky in middle school.*
 
 **Favorite meme / gif reaction:**
+
 ![Stay Sane](/assets/images/blog/staysane.jpg)
 {:.center}
 
@@ -78,5 +81,8 @@ The work she is most proud of is with [Daughters of Eve](http://daughtersofeve.o
 *I would troll the world cup and mess with the soccer ball by making it go different directions from where it was kicked.*
 
 **Favorite meme / gif reaction:**
+
 ![That way](/assets/images/blog/thatway.gif)
 {:.center}
+
+We're thrilled to have such talented and charismatic interns this summer. Keep track of their projects over the course of the summer by [signing up for our newsletter](https://thinkshout.com/)! 
