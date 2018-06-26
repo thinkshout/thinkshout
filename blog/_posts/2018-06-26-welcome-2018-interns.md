@@ -25,7 +25,7 @@ ELI provides these internship opportunities specifically to young adults from un
 
 We hosted interns last summer as well, launching our [ThinkShout Cares campaign](https://thinkshout.com/blog/2017/09/thinkshout-cares-wrap-up/). Through that, we gave our interns the opportunity to create a unique campaign (complete with campaign microsite, shopify integration, and marketing efforts) that raised money for  [p:ear](https://www.pearmentor.org/) and helped further their mission. It was a fun and rewarding project for both our team and the interns, and we’ll be kicking off a new project soon (stay tuned to see how that unfolds!).
 
-But for now, let’s introduce our interns….
+But for now, let’s introduce our interns…drumroll please!
 
 ![Drumroll](/assets/images/blog/catdrumroll.gif)
 {:.center}
