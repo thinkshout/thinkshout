@@ -85,4 +85,4 @@ The work she is most proud of is with [Daughters of Eve](http://daughtersofeve.o
 ![That way](/assets/images/blog/thatway.gif)
 {:.center}
 
-We're thrilled to have such talented and charismatic interns. Keep track of their projects over the course of the summer by [signing up for our newsletter](https://thinkshout.com/)!
+We're thrilled to have such talented and charismatic interns. Keep track of their progress over the course of the summer by [signing up for our newsletter](https://thinkshout.com/)!
