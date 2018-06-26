@@ -19,11 +19,11 @@ header-image: /assets/images/blog/group.jpg
 header-image-alt: "2018 Summer Interns"
 ---
 
-This summer, ThinkShout is once again participating in the [Emerging Leaders Internship](http://emergingleadersinternship.org/) (ELI) program, and three interns will be joining our team to learn all about client relations, building websites, digital strategy, and get their feet wet in consulting and agency life.
+This summer, ThinkShout is participating in the [Emerging Leaders Internship](http://emergingleadersinternship.org/) (ELI) program, and three interns will be joining our team to learn all about client relations, building websites, digital strategy, and get their feet wet in consulting and agency life.
 
-ELI provides these internship opportunities specifically to young adults from underrepresented / minority groups. We love them because they provide a pathway to give these talented individuals the experience and connections they need to advance in their careers in the Portland community and beyond.
+ELI provides these internship opportunities specifically to young adults from underrepresented / minority groups. We love ELI because they provide a pathway to give these talented individuals the experience and connections they need to advance in their careers in the Portland community and beyond.
 
-We hosted interns last summer as well, launching our [ThinkShout Cares campaign](https://thinkshout.com/blog/2017/09/thinkshout-cares-wrap-up/). Through that, we gave our interns the opportunity to create a unique campaign (complete with campaign microsite, shopify integration, and marketing efforts) that raised money for [p:ear](https://www.pearmentor.org/) and helped further their mission. It was a fun and rewarding project for both our team and the interns, and we’ll be kicking off a new project soon (stay tuned to see how that unfolds!).
+We hosted interns last summer as well, launching our [ThinkShout Cares campaign](https://thinkshout.com/blog/2017/09/thinkshout-cares-wrap-up/). Through that, we gave our interns the opportunity to create a unique campaign (complete with campaign microsite, shopify integration, and marketing efforts) that raised money for  [p:ear](https://www.pearmentor.org/) and helped further their mission. It was a fun and rewarding project for both our team and the interns, and we’ll be kicking off a new project soon (stay tuned to see how that unfolds!).
 
 But for now, let’s introduce our interns….
 
@@ -85,4 +85,4 @@ The work she is most proud of is with [Daughters of Eve](http://daughtersofeve.o
 ![That way](/assets/images/blog/thatway.gif)
 {:.center}
 
-We're thrilled to have such talented and charismatic interns this summer. Keep track of their projects over the course of the summer by [signing up for our newsletter](https://thinkshout.com/)! 
+We're thrilled to have such talented and charismatic interns this summer. Keep track of their projects over the course of the summer by [signing up for our newsletter](https://thinkshout.com/)!
