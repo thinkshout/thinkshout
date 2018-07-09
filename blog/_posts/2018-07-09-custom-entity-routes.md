@@ -128,7 +128,7 @@ Title: [paragraph:field_title_text]
 
 Next we need to account for the fact that the site uses URL aliases. A node called 'main office' will get a link such as `/locations/main-office` via the [Pathauto module](https://www.drupal.org/project/pathauto). We want our sub-pages to use that path.
 
-We do this by adding a URL Alias to the sub-page routes on creation (inset) or edit (update). In our module, we add the following functions to the `ts_sub_pages.module`:
+We do this by adding a URL Alias to the sub-page routes on creation (insert) or edit (update). In our module, we add the following functions to the `ts_sub_pages.module`:
 
 ~~~php
 <?php
