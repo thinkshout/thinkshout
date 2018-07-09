@@ -22,7 +22,7 @@ One of the most useful items in the Drupal 8 toolbox is the [Paragraphs Module](
 
 A recent client of ThinkShout needed a content type (office locations) to include 'sub-pages' for things like office hours, services, and other items depending on the location. Most of the sub-page content was pretty simple, but they also needed to have direct links, be printable, and have the same header as the parent page. This ruled out an Ajax solution.
 
-We've been using Paragraphs to make configurable content throughout the site, and since the sub-pages only have Title and Content fields we the thought they would be a good fit here as well. We then decided to explore the possibility of using custom entity routes to fulfill the other requirements.
+We've been using Paragraphs to make configurable content throughout the site, and since the sub-pages only have Title and Content fields, we thought they would be a good fit here as well. We then decided to explore the possibility of using custom entity routes to fulfill the other requirements.
 
 To start, we created two additional view modes for the sub-page paragraphs called `Sub-page` and `Menu link` containing the Content and Title fields respectively. By keeping these fields in separate view modes, we make it much easier to work with them.
 
