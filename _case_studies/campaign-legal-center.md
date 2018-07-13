@@ -106,6 +106,8 @@ cs-sections:
 
       Not only is CLC telling the story of their impact in a more compelling way, it’s also easier for them to do so with the new systems and tools at their disposal. Now the CLC team can focus on the mission at large, and that’s something to celebrate.
 
+      _“Working with ThinkShout has been the most organized, efficient and thoughtful experience I have ever had with a vendor. We are so excited about our new site! Thank you for your help and support. Looking forward to continuing to work together!”_
+
 
 cs-cta-text: Launch Site
 cs-cta-url: https://campaignlegal.org/
