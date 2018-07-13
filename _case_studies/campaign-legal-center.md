@@ -12,13 +12,13 @@ title: Fighting for every American to meaningfully participate in the political 
 cs-class: "clc"
 
 cs-preview:
-  image: /assets/images/work/uchi/UCHI-header.png
+  image: /assets/images/work/clc/clc-hero.jpg
   type: "Campaign Legal Center"
   client: "Campaign Legal Center"
   description: "Fighting for every American to meaningfully participate in the political process."
 
 cs-header:
-  header-image: /assets/images/work/uchi/UCHI-header.png
+  header-image: /assets/images/work/clc/clc-hero.jpg
   client: "Campaign Legal Center"
   title: "Fighting for every American to meaningfully participate in the political process."
 
@@ -35,8 +35,8 @@ cs-sections:
 
       They also wanted to find ways to communicate their impact through plaintiff stories with a site that focused on the work they do to help people like you and me. And of course another key goal of the project was to grow their supporter list and collect donations to support their important work. Before we could do any of that though, we had to learn more about them through our discovery process to set the foundation for this work.
 
-  - section-image: "/assets/images/work/uchi/TS-Case-Studies-UChicago-Homepage-Example-3.png"
-    section-image-alt: "University of Chicago Graham School Home page on mobile and desktop screens"
+  - section-image: "/assets/images/work/clc/clc-case-study-homepage-1.jpg"
+    section-image-alt: "CLC home page"
 
   - section-title: Discovery
     section-description: |
@@ -57,16 +57,12 @@ cs-sections:
         * Design content-specific calls to action (CTAs) to convert traffic spikes into a larger and more diverse supporter community
         * And finally, to produce different content for different audiences: press releases, breaking news, legal narratives for reporters/influencers; and personal stories and human interest for the general public
 
-
-  - section-image: "/assets/images/work/uchi/TS-Case-Studies-UChicago-Mobile-Screens-3.png"
-    section-image-alt: "Mobile view of program screens"
-
   - section-title: Design
     section-description: |
       ThinkShout took a content-first approach to the site design. There is a lot of dense information to disperse, so right away we knew we needed a flexible, clear typographic system. Additionally, CLC doesn't have a robust photo library (a common issue facing nonprofits), so we couldn't rely on images to carry the site.
 
-  - section-image: "/assets/images/work/uchi/UCHI-timeline.png"
-    section-image-alt: "Snapshot of the University of Chicago's timeline"
+  - section-image: "/assets/images/work/clc/clc-typography-mobile.jpg"
+    section-image-alt: "Examples of typography across CLC's site on mobile screens"
 
   - section-title:
     section-description: |
@@ -78,8 +74,8 @@ cs-sections:
 
       We also were working with a brand new visual identity for CLC — one that highlighted their bipartisanship and emphasized clean typography and bold, angular elements.
 
-  - section-image: "/assets/images/work/uchi/UCHI-timeline.png"
-    section-image-alt: "Snapshot of the University of Chicago's timeline"
+  - section-image: "/assets/images/work/clc/clc-brand-colors.jpg"
+    section-image-alt: "Representation of CLC's brand colors on desktop and mobile views"
 
   - section-title:
     section-description: |      
@@ -93,7 +89,7 @@ cs-sections:
 
       Admittedly, it took a significant lift to make the file and media migration work for things like images embedded in WYSIWYG, redirects and url aliases. But because of the true collaboration and partnership between CLC and ThinkShout, we ended up in a great place: We built them a CMS that enables them to easily write stories, it provides flexibility in their content types, and have made it so the end user can find related content with greater ease.
 
-  - section-title: The Back End
+  - section-title: Speed
     section-description: |
       Site speed is an area that is demanding more and more attention from organizations we work with. M+R dedicated an entire section of their 2018 Benchmarks study to site speed, saying that “a one-second delay in page load time can lead to an 11% decrease in traffic, and significantly fewer conversions.” A drop in traffic like that isn’t something to gamble with if you’re a nonprofit seeking supporters and advocates.
 
@@ -101,8 +97,8 @@ cs-sections:
 
       In our testing of the live site (using Google's Lighthouse), the homepage consistently loads within 0.25 seconds* (the measure is Consistently Interactive).
 
-  - section-image: "/assets/images/work/uchi/UCHI-timeline.png"
-    section-image-alt: "Snapshot of the University of Chicago's timeline"
+  - section-image: "/assets/images/work/clc/clc-final-screenshot.jpg"
+    section-image-alt: "CLC CTA block to drive support"
 
   - section-title: Conclusion
     section-description: |
@@ -112,5 +108,5 @@ cs-sections:
 
 
 cs-cta-text: Launch Site
-cs-cta-url: https://grahamschool.uchicago.edu
+cs-cta-url: https://campaignlegal.org/
 ---
