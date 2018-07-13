@@ -14,8 +14,8 @@ team-image:
   small: team/small/jeff-sm.jpeg
   medium: team/medium/jeff-md.jpeg
   large: team/large/jeff-lg.jpeg
-published: true
-current-employee: true
+published: false
+current-employee: false
 name: jeff
 bio: |
   Jeff’s history building websites goes back to his high school days. At the time it was all static html (pre css). As an efficiency appreciator, Jeff kept thinking “there has to be a more efficient way,” which ignited his exploration of .NET and MySQL.
