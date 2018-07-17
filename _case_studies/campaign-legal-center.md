@@ -66,7 +66,7 @@ cs-sections:
 
   - section-title:
     section-description: |
-      CLC's work is very human centered — take voting rights for example. Voting is so core to the democratic process. It's an incredibly personal action, and one that strikes an emotional chord with many people no matter what side of the aisle you’re on. The old site was virtually faceless, which just didn't fit with the on-the-ground work CLC does, and makes it difficult for visitors to truly connect with the work.
+      CLC's work is very human-centered — take voting rights for example. Voting is so core to the democratic process. It's an incredibly personal action, and one that strikes an emotional chord with many people no matter what side of the aisle you’re on. The old site was virtually faceless, which just didn't fit with the on-the-ground work CLC does, and makes it difficult for visitors to truly connect with the work.
 
       We wanted to give them a way to balance that human narrative without sacrificing utilitarian content. The basic content strategy was to balance the facts (such as case details, documents) with expert opinion (op-eds, for instance) and then show impact (the human-centered narrative).
 
@@ -87,11 +87,11 @@ cs-sections:
     section-description: |
       We migrated CLC’s content from a D7 site to D8; moving images to media entities, placing redirects, url aliases, and entity references. It all sounds rather routine, but one thing the ThinkShout team found in this process is that the D8 Migration is still not ideal.
 
-      Admittedly, it took a significant lift to make the file and media migration work for things like images embedded in WYSIWYG, redirects and url aliases. But because of the true collaboration and partnership between CLC and ThinkShout, we ended up in a great place: We built them a CMS that enables them to easily write stories, it provides flexibility in their content types, and have structured it so the end user can find related content with greater ease.
+      Admittedly, it took a significant lift to make the file and media migration work for things like images embedded in WYSIWYG, redirects and url aliases. But because of the true collaboration and partnership between CLC and ThinkShout, we ended up in a great place: We built them a CMS that enables them to easily write stories, provides flexibility in their content types, and is structured so the end use can easily find related content.
 
       Site speed was another area of focus as it's demanding more and more attention from organizations we work with. M+R dedicated an entire section of their [2018 Benchmarks study](https://mrbenchmarks.com/#!/speed) to site speed, saying that “a one-second delay in page load time can lead to an 11% decrease in traffic, and significantly fewer conversions.” A drop in traffic like that isn’t something to gamble with if you’re a nonprofit seeking supporters and advocates.
 
-      So we made tweaks to make pages load faster through asynchronous loading of some items, using every caching option available to us--including Pantheon’s advanced page cache. We also made sure all images were scaled to a reasonable size. There was of course also basic load testing to make sure CLC can handle a large amount of traffic, which is vital for when they’re mentioned in the news or receive any type of national coverage. 
+      So we made tweaks to make pages load faster through asynchronous loading of some items, using every caching option available to us--including Pantheon’s advanced page cache. We also made sure all images were scaled to a reasonable size. We also conducted basic load testing to make doubly sure CLC can handle a large amount of traffic, which is extremely vital for when they’re mentioned in the news or receive any type of national coverage. 
 
       In our testing of the live site (using Google's Lighthouse), the homepage consistently loads within 0.25 seconds (the measure is [Consistently Interactive](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)). We do want to note, this load time varies depending on the strength and speed of your internet connection.
 
