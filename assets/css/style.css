@@ -3736,6 +3736,28 @@ a:visited {
         padding-right: 0.5rem; }
     .careers .more-about-us a {
       color: #fff; }
+  .careers.fundraiser .careers-header {
+    padding: 0;
+    height: 49.9vw; }
+  .careers.fundraiser .main-content .intro {
+    font-size: 1.125rem;
+    font-style: italic;
+    text-align: center; }
+    @media (min-width: 980px) {
+      .careers.fundraiser .main-content .intro {
+        font-size: 1.5rem;
+        max-width: 75%;
+        margin: 4.6875rem auto; } }
+  .careers.fundraiser .main-content .intro ul {
+    padding: 1rem; }
+  .careers.fundraiser .main-content .intro ul li {
+    line-height: 1.6; }
+  .careers.fundraiser .eventbrite {
+    background-color: #F8F8FA;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 75px; }
 
 @media (max-width: 480px) {
   .page-not-found .main-content,
