@@ -15,7 +15,7 @@ tags:
   - Paragraphs
   - Entity Routes
 date: 2018-07-09 09:02:00
-image: https://thinkshout/assets/images/marquee/expertise.jpg
+image: https://thinkshout.com/assets/images/marquee/expertise.jpg
 ---
 
 One of the most useful items in the Drupal 8 toolbox is the [Paragraphs Module](https://www.drupal.org/project/paragraphs). By creating custom paragraph types, you can have much finer control over the admin and content creation process in Drupal.
