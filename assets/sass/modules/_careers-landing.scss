@@ -171,4 +171,37 @@
       color: $white;
     }
   }
+
+  &.fundraiser {
+    .careers-header {
+      padding: 0;
+      height: 49.9vw;
+    }
+    .main-content .intro {
+      font-size: rem(18);
+      font-style: italic;
+      text-align: center;
+
+      @include mq(d) {
+        font-size: rem(24);
+        max-width: 75%;
+        margin: rem(75) auto;
+      }
+    }
+
+    .main-content .intro ul {
+      padding: rem(16);
+    }
+    .main-content .intro ul li {
+      line-height: 1.6;
+    }
+
+    .eventbrite {
+      background-color: #F8F8FA;
+      width:100%;
+      text-align:left;
+      padding-bottom: 20px;
+      padding-top: 75px;
+    }
+  }
 }
