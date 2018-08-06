@@ -35,7 +35,7 @@
 
         Their staff works to inform and engage the public on issues facing the Columbia River. They are a leader in high-profile campaigns to protect our region from dirty fossil fuel infrastructure and other threats facing Columbia River communities and salmon habitat; and have a proven track record in organizing and empowering local communities, enforcing environmental laws, and building strategic coalitions.
 
-        Not unlike many nonprofits out there, Columbia Riverkeeper does all of this with a modest staff size (16 total) and limited budget. But if there’s one thing ThinkShout knows, it’s nonprofits, and when you’re committed and driven to make a difference, you don’t let those details derail you. You dig in and make it work. So we were excited to help them tackle the task of building a new website on the Drupal distribution we released last fall, Bene.
+        Not unlike many nonprofits out there, Columbia Riverkeeper does all of this with a modest staff size (16 total) and limited budget. But if there’s one thing ThinkShout knows, it’s nonprofits, and when you’re committed and driven to make a difference, you don’t let those details derail you. You dig in and make it work. So we were excited to help them tackle the task of building a new website on the Drupal distribution we released last fall, <a href="https://thinkshout.com/bene/">Bene</a>.
 
 
     - section-title: The Goals
