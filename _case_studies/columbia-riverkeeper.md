@@ -89,5 +89,5 @@
         _“On behalf of Columbia Riverkeeper, I want to thank you for all your hard work and creativity that went into this project from content strategy to art and coding, we appreciate the awesome platform you've built for us. I'm thrilled to start 2018 with a website that appropriately reflects the work we're doing. We love our new website and we're excited to continue to improve it with your expertise.” - Liz Terhaar, Communications Director_
 
 cs-cta-text: Launch Site
-cs-cta-url: https://www.columbiariverkeeper.org/
+cs-cta-url: https://www.columbiariverkeeper.org
 ---
