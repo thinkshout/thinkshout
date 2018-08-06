@@ -72,8 +72,8 @@
 
         After the onsite, we reviewed any and all assets the client had to help guide our creative direction and set their style tiles.
 
-    - section-image: "/assets/images/work/cori/TS-Case-Studies-cori-style-tile.jpg"
-      section-image-alt: "Mobile views of Columbia Riverkeeper's site"
+    - section-image: "/assets/images/work/cori/TS-Case-Study-cori-style-tile.jpg"
+      section-image-alt: "Style tiles for Columbia Riverkeeper's site"
 
     - section-title:
       section-description: |
