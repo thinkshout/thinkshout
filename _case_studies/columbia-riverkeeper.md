@@ -26,7 +26,7 @@
     type: "Columbia Riverkeeper"
     mission:
     text: |
-        _"ThinkShout's BENE platform is a forward-thinking solution designed to make the daunting task of building a website, a fun and enjoyable experience. Thanks ThinkShout's team, no matter how complex the design request seems, the BENE platform delivers a thoughtful, well-designed solution." - Liz Terhaar, Communications Director, Columbia Riverkeeper_
+        _"ThinkShout's BENE platform is a forward-thinking solution designed to make the daunting task of building a website, a fun and enjoyable experience. Thanks to ThinkShout's team, no matter how complex the design request seems, the BENE platform delivers a thoughtful, well-designed solution." - Liz Terhaar, Communications Director, Columbia Riverkeeper_
 
   cs-sections:
     - section-title: Who is Columbia Riverkeeper
@@ -72,7 +72,7 @@
 
         After the onsite, we reviewed any and all assets the client had to help guide our creative direction and set their style tiles.
 
-    - section-image: "/assets/images/work/cori/TS-Case-Studies-CORI-3-Mobile.jpg"
+    - section-image: "/assets/images/work/cori/TS-Case-Studies-cori-style-tile.jpg"
       section-image-alt: "Mobile views of Columbia Riverkeeper's site"
 
     - section-title:
@@ -82,7 +82,7 @@
 
         After some training sessions to ensure Columbia Riverkeeper’s  staff was set up for success in using and administering the tool, we then handed over the keys to the team to import and stage their own content in the system. It truly was an intuitive, clean, and simple process.
 
-        Recorded trainings and documentation are part of the package with <a href="https://thinkshout.com/bene/">Bene</a>. We recognize that we’re providing a valuable tool for our partners, and part of ensuring  sustainable success is providing that instruction  so that as staff changes or grows, they can share that knowledge without depending on their own internal resources. That’s music to a small staff’s ears! 
+        Recorded trainings and documentation are part of the package with <a href="https://thinkshout.com/bene/">Bene</a>. We recognize that we’re providing a valuable tool for our partners, and part of ensuring  sustainable success is providing that instruction  so that as staff changes or grows, they can share that knowledge without depending on their own internal resources. That’s music to a small staff’s ears!
 
         We’re still working closely with Columbia Riverkeeper, providing support in the form of security updates, addressing bug fixes as they arise, and quarterly strategic planning sessions. Our goal in all of this was to set our partners up in a successful way to achieve maximum impact with their missions. We’re excited to see where they go as they embark upon this new chapter in their digital identity.
 
