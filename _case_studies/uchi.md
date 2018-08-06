@@ -3,9 +3,9 @@
 layout: case_study
 body-class: case-study uchi
 active: true
-homepage: true
+homepage: false
 published: true
-order: 2
+order: 22
 # END LAYOUT DATA
 
 title: Making continued education for nontraditional students accessible and engaging with Drupal 8
