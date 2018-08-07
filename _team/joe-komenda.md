@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Joe
 last_name: Komenda
-position: Software Engineer
+position: Senior Software Engineer
 leadin: |
   When Joe started dabbling in CSS, it didn’t even work in browsers yet. He’s been entrenched in web development for the better part of two decades. Judging by the awesome cartoons that have started appearing on our white boards, he’s a pretty darn good artist, too.
 social:
