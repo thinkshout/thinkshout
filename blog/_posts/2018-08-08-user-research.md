@@ -7,7 +7,7 @@ homepage: true
 author: natania
 published: true
 featured: true
-short: When data doesn't supply all the answers, hit some people up!
+short: When data doesn't supply all the answers, hit up some people!
 tags:
   - NP Tech
   - nonprofit strategy
