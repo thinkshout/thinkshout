@@ -37,7 +37,7 @@ However, we often see 2 scenarios emerge:
   1. Site visitors are not finding something that directly serves them and their needs or interests, often because...
   2. Your strategy is guided by “gut feelings” of decision-makers or other incomplete data.
 
-If this all sounds familiar, user research will bring the focus back to your end-user and will serve as an invaluable tool to get to the root of all of this!
+If this all sounds familiar, user research will bring the focus back to your end-user and will serve as an invaluable tool to get to the root of your lack of engagement!
 
 There are a number of ways to go about user research. The primary tools we utilize are interviews (in-person or over the phone), and/or sending out a survey to an email list. ThinkShout has found that we’ve garnered the most comprehensive results when combining both methods. The following are some tips to help you successfully conduct user research at your organization.
 
@@ -68,7 +68,7 @@ Ask this: _“What do you consider are the most effective professional growth an
 
 At ThinkShout, we like to use a matrix to transform questions-we-want-answers-to into questions-we-will-ask (they are not the same, and sadly, it doesn’t involve Keanu Reeves).
 
-![Keanu in the Matrix](/assets/images/blog/keanu.gif)
+![Keanu in the Matrix](/assets/images/blog/keanusad.jpg)
 {:.center}
 
 The matrix includes the questions you know you want to ask and provides a structure, and  then allows you the freedom to deviate from the questions should your conversation go down an interesting path. These questions can also be used in a survey should you want to cast a wider net.
@@ -96,18 +96,16 @@ Interviewing Best Practices
 * Embrace how others see the world: When possible, go where your users are rather than asking them to come to you.
 * Build Rapport: Be selective about social graces (just enough small talk); and be selective about talking about yourself (reveal personal info to give them permission to share)
 * Work towards tipping point (move from question-answer to question-story)
-* **Listen -- this is a big one!**
-  * Asking questions shows you’re listening: follow-up; ‘earlier you told us…’
-  * Signal transitions; “I’d like to move to a different topic now” - signal your lane change so they are aware and go with you.
+* **Listen -- this is a big one!** Asking questions shows you’re listening: follow-up with statements like, ‘earlier you told us…’ Also, signal transitions: “I’d like to move to a different topic now” - signal your lane change so they are aware and go with you.
 * After you ask your question, be silent. It’s human nature to avoid awkward silences. Sometimes not saying anything prompts your subject to elaborate more. Use that to give them space to provide more details.
 
 ### Now What?
 
 Typically we see patterns in responses emerge after about 5 or 6 interviews. But if you have the bandwidth to do more than that, and to include a range of subjects from different backgrounds, we encourage you to do so! Showing you’ve been thorough in your research and not just waiting to hear the answer you want is especially more compelling when selling your case to your leadership team or board.
 
-Have you been nodding your head this whole time thinking, “this is amazing and I’d love to do this but WHO HAS THE TIME? NOT ME, A NONPROFIT STAFFER!”
+Now, have you been nodding your head this whole time thinking, “this is amazing and I’d love to do this but WHO HAS THE TIME? NOT ME, A NONPROFIT STAFFER!”
 
 ![Ain't got time](/assets/images/blog/aint-got-time.gif)
 {:.center}
 
-It’s ok! We’re here to help. Are there 5 people you can spend 10 minutes with? Start small, and know that some insight is better than none. We would also love to partner with you to complete this work if you’re after more than you can handle. ThinkShout has done projects that are exclusively research-based, and have nothing to do with implementation of technology. We have a team of strategists who know how to get to the heart of what users really want and as an objective third party, can make the case to your team for your organization’s direction. Contact us if you’d like to know more!
+It’s ok! We’re here to help. Are there 5 people you can spend 10 minutes with? Start small, and know that some insight is better than none. We would also love to partner with you to complete this work if you’re after more than you can handle. ThinkShout has done projects that are exclusively strategy and research-based, having nothing to do with the implementation of technology. We have a team of strategists who know how to get to the heart of what users really want and as an objective third party, can make the case to your team for your organization’s direction. Contact us if you’d like to know more!
