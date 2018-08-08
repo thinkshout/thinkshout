@@ -36,9 +36,10 @@ However, we often see 2 scenarios emerge:
   1. Site visitors are not finding something that directly serves them and their needs or interests, often because...
   2. Your strategy is guided by “gut feelings” of decision-makers or other incomplete data.
 
-If this all sounds familiar, user research will bring the focus back to your end-user and will serve as an invaluable tool to get to the root of your lack of engagement!
+  When your site and its content only reflects the needs and desires of a select few within your organization (rather than your primary target audiences), your site and your mission becomes less sustainable. More importantly, your ability to attract and retain constituents will diminish. What you’re sharing and communicating about your organization has to serve your audience, while tying back to your goals in very intentional, strategic ways. Spoiler alert: It’s not achieved overnight! But user research can help you get there, and it will bring the focus of your strategy back to your end-user and make you more successful, long-term.
 
-There are a number of ways to go about user research. The primary tools we utilize are interviews (in-person or over the phone), and/or sending out a survey to an email list. ThinkShout has found that we’ve garnered the most comprehensive results when combining both methods. The following are some tips to help you successfully conduct user research at your organization.
+  There are a number of ways to go about user research. The primary tools we utilize are interviews (in-person or over the phone), and/or sending out a survey to an email list. ThinkShout has found that we’ve garnered the most comprehensive results when combining both methods. The following are some tips to help you successfully conduct user research at your organization.
+
 
 ### Step 1: Find the People
 
@@ -107,4 +108,4 @@ Now, have you been nodding your head this whole time thinking, “this is amazin
 ![Ain't got time](/assets/images/blog/aint-got-time.gif)
 {:.center}
 
-It’s ok! We’re here to help. Are there 5 people you can spend 10 minutes with? Start small, and know that some insight is better than none. We would also love to partner with you to complete this work if you’re after more than you can handle. ThinkShout has done projects that are exclusively strategy and research-based, having nothing to do with the implementation of technology. We have a team of strategists who know how to get to the heart of what users really want and as an objective third party, can make the case to your team for your organization’s direction. Contact us if you’d like to know more!
+It’s ok! We’re here to help. Are there 5 people you can spend 10 minutes with? Start small, and know that some insight is better than none. We would also love to partner with you to complete this work if you’re after more than you can handle. ThinkShout has experience working with a variety of nonprofit organizations on strategy and user-research projects. Our team knows how to get to the heart of what users really want, and as an objective third party, we can help guide you. Contact us if you’d like to know more!
