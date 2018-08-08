@@ -18,7 +18,9 @@ tags:
   - user interviews
   - nonprofit marketing
 date: 2018-07-09 09:02:00
-image: https://thinkshout.com/assets/images/marquee/expertise.jpg
+image: https://thinkshout.com/assets/images/blog/audience-header.jpg
+header-image: /assets/images/blog/audience-header.jpg
+header-image-alt: "Audience and Community"
 ---
 Have you ever looked at your data in Google Analytics and wondered why no one is engaging with certain content you worked so hard to curate and develop, specifically with your users in mind? Why there’s an 80% bounce rate on a resource page that should address the needs of the users it’s intended to serve? Or why your returning users are dwindling and not coming back to re-engage with you?
 
