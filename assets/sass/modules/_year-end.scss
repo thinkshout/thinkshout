@@ -70,15 +70,17 @@
 
     .intro {
       h3 {
-        color: darken($darkgray, 10%);
-        margin: 1em auto;
+        color: lighten($midgray, 5%);
+        font-size: rem(18);
         font-weight: 400;
+        line-height: 1.5;
+        margin: 1em auto;
         padding: rem(20);
         text-align: center;
-        width: 94%;
-        @include mq(lt) { width: 90%; padding: rem(40); }
-        @include mq(md) { width: 90%; padding: rem(60); }
-        @include mq(l)  { width: 100%; padding: rem(100); }
+        width: 80%;
+        @include mq(lt) { padding: rem(40); font-size: rem(20); }
+        @include mq(md) { padding: rem(60); font-size: rem(22); }
+        @include mq(l)  { padding: rem(100); font-size: rem(24); }
       }
     }
 
@@ -86,6 +88,9 @@
       display: flex;
       flex-direction: column;
 
+      @include mq(lt) {
+        flex-direction: row;
+      }
       @include mq(d) {
         flex-direction: row;
       }
@@ -94,37 +99,159 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #515151;
+        background-color: lighten($darkergray, 3%);
         width: 100%;
         height: 100vw;
+        max-height: rem(250);
         position: relative;
 
-        @include mq(d) {
+        @include mq(lt) {
           width: 33%;
-          height: 33vw;
+          height: 32vw;
+          max-height: none;
+          border-right: 1px solid white;
+        }
+        @include mq(d) {
+          width: 33.333%;
+          height: 32vw;
+          max-height: none;
+          border-right: 1px solid white;
         }
 
         h4 {
           color: white;
-          font-size: rem(22);
+          font-size: rem(20);
+          font-weight: 500;
+          line-height: 1.3;
           text-align: center;
           max-width: 85%;
+          @include mq(lt) {
+            font-size: rem(22);
+            max-width: 72%;
+          }
           @include mq(d) {
-            font-size: rem(28);
-            max-width: 70%;
+            font-size: rem(26);
+            max-width: 62%;
           }
         }
 
         a {
           position: absolute;
-          bottom: rem(24);
+          bottom: 3.5vw;
+          color: white;
+          font-weight: 500;
+          i {
+            color: #f55e1f;
+          }
         }
       }
       .block2 {
-        background-color: #828282;
+        background-color: darken($midgray, 3%);
+        a i { color: #ee7b42; }
+      }
+      .block3 {
+        border-right: none;
+        a i { color: #d9a93a; }
       }
     }
 
+    .results {
+      padding: rem(20);
+      @include mq(lt) { padding: rem(40); }
+      @include mq(md) { padding: rem(60); }
+      @include mq(l)  { padding: rem(100); }
+
+      h3 {
+        color: darken($midgray, 5%);
+        font-size: rem(22);
+        line-height: 1.4;
+        font-weight: 900;
+        letter-spacing: 0.05rem;
+        margin: 0 auto rem(16);
+        text-align: center;
+        width: 80%;
+        @include mq(lt) { font-size: rem(24); }
+        @include mq(md) { font-size: rem(28); }
+        @include mq(l)  { font-size: rem(32); }
+      }
+
+      p {
+        color: lighten($midgray, 10%);
+        font-size: rem(12);
+        font-weight: 400;
+        line-height: 1.5;
+        margin: 0 auto rem(32);
+        text-align: center;
+        width: 80%;
+        @include mq(lt) { font-size: rem(14); }
+        @include mq(md) { font-size: rem(15); }
+        @include mq(l)  { font-size: rem(16); }
+      }
+    }
+
+    .client-example-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      @include mq(lt) {
+        flex-direction: row;
+      }
+      @include mq(d) {
+        flex-direction: row;
+      }
+    }
+    .client-example {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-bottom: rem(24);
+      position: relative;
+      width: 100%;
+      @include mq(lt) { width: 46%; }
+      @include mq(d) { width: 46%; }
+
+      .fa-caret-right {
+        color: $ltgray;
+        font-size: 2rem;
+        vertical-align: sub;
+        border-left: 3px solid $ltgray;
+        margin-left: 0.5rem;
+        padding: 0.75rem 0;
+      }
+
+      img {
+        width: 33vw;
+        padding-right: rem(16);
+        @include mq(lt) { width: 18vw; }
+        @include mq(d) { width: 18vw;}
+        @include mq(l)  { width: 18vw; }
+      }
+
+      .client-stats {
+        align-items: flex-start;
+        color: lighten($midgray, 10%);
+        display: flex;
+        flex-direction: column;
+        font-size: rem(14);
+        font-weight: 600;
+        justify-content: center;
+        padding-left: rem(24);
+        text-transform: uppercase;
+      }
+      .number {
+        color: #f26b4e;
+        font-size: rem(28);
+        font-weight: 900;
+        @include mq(lt) { font-size: rem(32); }
+        @include mq(md) { font-size: rem(48); }
+        @include mq(l)  { font-size: rem(60); }
+      }
+      &.splc .number {
+        color: #d9a93a;
+      }
+    }
 
 
     .contact-form {

@@ -5,12 +5,12 @@
     @media (max-width: 480px) { @content; }
   }
 
-  // Phablet *tweeks
+  // Phablet *tweaks
   @if $screen == p {
     @media (min-width: 481px) and (max-width: 670px) { @content; }
   }
 
-  // Large Tablet *tweeks
+  // Large Tablet *tweaks
   @if $screen == lt {
     @media (min-width: 671px) and (max-width: 979px) { @content; }
   }
