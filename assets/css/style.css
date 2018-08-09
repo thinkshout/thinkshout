@@ -7321,7 +7321,7 @@ header {
   color: #6f6f6f;
   font-size: 1.125rem;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.5;
   margin: 1em auto;
   padding: 1.25rem;
   text-align: center;
@@ -7398,6 +7398,121 @@ header {
     border-right: none; }
     .year-end .main-content .action-blocks .block3 a i {
       color: #d9a93a; }
+.year-end .main-content .results {
+  padding: 1.25rem; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .year-end .main-content .results {
+      padding: 2.5rem; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .year-end .main-content .results {
+      padding: 3.75rem; } }
+  @media (min-width: 1200px) {
+    .year-end .main-content .results {
+      padding: 6.25rem; } }
+  .year-end .main-content .results h3 {
+    color: #555555;
+    font-size: 1.375rem;
+    line-height: 1.4;
+    font-weight: 900;
+    letter-spacing: 0.05rem;
+    margin: 0 auto 1rem;
+    text-align: center;
+    width: 80%; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .year-end .main-content .results h3 {
+        font-size: 1.5rem; } }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .year-end .main-content .results h3 {
+        font-size: 1.75rem; } }
+    @media (min-width: 1200px) {
+      .year-end .main-content .results h3 {
+        font-size: 2rem; } }
+  .year-end .main-content .results p {
+    color: #7c7c7c;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto 2rem;
+    text-align: center;
+    width: 80%; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .year-end .main-content .results p {
+        font-size: 0.875rem; } }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .year-end .main-content .results p {
+        font-size: 0.9375rem; } }
+    @media (min-width: 1200px) {
+      .year-end .main-content .results p {
+        font-size: 1rem; } }
+.year-end .main-content .client-example-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .year-end .main-content .client-example-wrapper {
+      flex-direction: row; } }
+  @media (min-width: 980px) {
+    .year-end .main-content .client-example-wrapper {
+      flex-direction: row; } }
+.year-end .main-content .client-example {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  position: relative;
+  width: 100%; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .year-end .main-content .client-example {
+      width: 46%; } }
+  @media (min-width: 980px) {
+    .year-end .main-content .client-example {
+      width: 46%; } }
+  .year-end .main-content .client-example .fa-caret-right {
+    color: #dbdcde;
+    font-size: 2rem;
+    vertical-align: sub;
+    border-left: 3px solid #dbdcde;
+    margin-left: 0.5rem;
+    padding: 0.75rem 0; }
+  .year-end .main-content .client-example img {
+    width: 33vw;
+    padding-right: 1rem; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .year-end .main-content .client-example img {
+        width: 18vw; } }
+    @media (min-width: 980px) {
+      .year-end .main-content .client-example img {
+        width: 18vw; } }
+    @media (min-width: 1200px) {
+      .year-end .main-content .client-example img {
+        width: 18vw; } }
+  .year-end .main-content .client-example .client-stats {
+    align-items: flex-start;
+    color: #7c7c7c;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.875rem;
+    font-weight: 600;
+    justify-content: center;
+    padding-left: 1.5rem;
+    text-transform: uppercase; }
+  .year-end .main-content .client-example .number {
+    color: #f26b4e;
+    font-size: 1.75rem;
+    font-weight: 900; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .year-end .main-content .client-example .number {
+        font-size: 2rem; } }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .year-end .main-content .client-example .number {
+        font-size: 3rem; } }
+    @media (min-width: 1200px) {
+      .year-end .main-content .client-example .number {
+        font-size: 3.75rem; } }
+  .year-end .main-content .client-example.splc .number {
+    color: #d9a93a; }
 .year-end .main-content .contact-form {
   background-color: #f26b4e; }
   .year-end .main-content .contact-form .container {
