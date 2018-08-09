@@ -48,10 +48,10 @@ However, we often encounter the following:
 
 Finding people to participate in your interviews can feel the most challenging. Your criteria for selecting participants is important, and you need to be sure you are including a diverse range of users and audiences so your results aren’t biased or skewed in a particular direction.
 
-When it comes to sample size or how many people to include, 8 is fine if you’re strapped for time or budget. 8 -16 individuals is a typical range...although we have interviewed as many as 20 people in certain projects to ensure equity in the responses we receive. When it comes to recruiting, think about the following:
+When it comes to sample size or how many people to include, 8 is fine if you’re strapped for time or budget (8 -16 individuals is a typical range); although we have interviewed as many as 20 people in certain projects to ensure equity in the responses we receive. When it comes to recruiting, think about the following:
 
 * What’s their relationship to the organization (do they know you well or not at all?)
-* Are we representing multiple perspectives / levels of engagement (think demographics or types of supporters/donors/advocates)
+* Are we representing multiple perspectives / levels of engagement (think demographics or types of supporters)
 * Who should be using your site or platform (we want to engage millennials more!)
 * Who rejected/abandoned the site or platform (track down deeply lapsed donors)
 * Who has used it multiple times (who signs all your petitions and is your biggest fan?)
