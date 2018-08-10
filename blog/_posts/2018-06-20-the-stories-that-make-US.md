@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: culture
 title: The Stories that Make US
-homepage: true
+homepage: false
 author: lev
 published: true
-featured: true
+featured: false
 short:
 tags:
   - community

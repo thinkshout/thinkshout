@@ -118,7 +118,6 @@
           max-height: none;
           border-right: 1px solid white;
         }
-        
         /* Overlay color. */
         &:before {
           background: rgba(0, 0, 0, 0.5);
@@ -139,6 +138,8 @@
           text-align: center;
           max-width: 85%;
           z-index: 20;
+          position: absolute;
+          bottom: 5.5vw;
           @include mq(lt) {
             font-size: rem(22);
             max-width: 72%;

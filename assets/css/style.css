@@ -7386,7 +7386,9 @@ header {
       line-height: 1.3;
       text-align: center;
       max-width: 85%;
-      z-index: 20; }
+      z-index: 20;
+      position: absolute;
+      bottom: 5.5vw; }
       @media (min-width: 671px) and (max-width: 979px) {
         .year-end .main-content .action-blocks .block h4 {
           font-size: 1.375rem;
