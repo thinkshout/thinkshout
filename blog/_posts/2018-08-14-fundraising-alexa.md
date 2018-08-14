@@ -19,7 +19,7 @@ date: 2018-08-14 09:02:00
 image: https://thinkshout.com/assets/images/marquee/expertise.jpg
 ---
 
-### “Alexa, make a $25 donation to [organization of choice].”
+### “Alexa, make a $25 donation to ____”
 
 When I started at nonprofits, giving online was seldom utilized. So much so,  that we  would manually enter the donations into our CRM one by one from a printout. That was in 2004 when data syncs from online platforms to your legacy database were not a thing. People were skeptical about banking online and making purchases through a website. In fact, texting was still relatively new (holler if you had a flip-phone!), Facebook was in its infancy, and we were 3 years away from Twitter being ubiquitous in our lives. iPods had just starting popping up and looked like this:
 
