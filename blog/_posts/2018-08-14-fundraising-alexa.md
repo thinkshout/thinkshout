@@ -39,6 +39,7 @@ Just under 50 nonprofits are registered with Alexa, so far reporting varying deg
 These breakthrough technologies are not just for millennials and early adopters, either. Alexa (or Amazon Echo, if you prefer to use its proper name) is taking off with baby boomers. As many as [51% of those 55 and older](https://www.google.com/url?q=https://www.thinkwithgoogle.com/consumer-insights/three-ways-voice-assistance-resonating-baby-boomers/&sa=D&ust=1534266031490000&usg=AFQjCNHGMVi4MaBgMS_HpfbC3j4duimzcA) have said a top reason for using their voice activated speaker is “it empowers me to instantly get answers and information.”
 
 If you’re a fundraiser, the above statement probably gave you major dollar-sign-eyes.
+
 ![money-face emoji](/assets/images/blog/money-mouth-face.png)
 {:.center}
 
@@ -56,4 +57,4 @@ We’ve seen how quickly society adapts to things that make their lives convenie
 
 It will be interesting to see how this tool is employed this coming holiday season and in the coming year(s). I’m excited to see if the next newsletter I receive in the mail not only includes a custom URL for online giving, but also some language around donating by Alexa/Amazon Echo at the close of an impactful story. Because remember: the channel of action doesn’t necessarily represent the channel of inspiration. Give your donors options to give in the ways that they want, in the ways that are convenient for them. Don’t shut doors to your mission that are available pathways, open them.
 
-Here are some [FAQs](https://pay.amazon.com/us/help/201754640) on Alexa Donations with Amazon Pay; and [here is a list of current charities](https://www.google.com/url?q=https://pay.amazon.com/us/alexadonations&sa=D&ust=1534269069643000&usg=AFQjCNFzJm2VPxZLM8KQSeT8lH-WvGDR-Q) using Alexa. If you’re ready to jump on board, I applaud you! And if you want some help in the process, ThinkShout is here to craft that compelling ask or work out your data woes. 
+Here are some [FAQs](https://pay.amazon.com/us/help/201754640) on Alexa Donations with Amazon Pay; and [here is a list of current charities](https://www.google.com/url?q=https://pay.amazon.com/us/alexadonations&sa=D&ust=1534269069643000&usg=AFQjCNFzJm2VPxZLM8KQSeT8lH-WvGDR-Q) using Alexa. If you’re ready to jump on board, I applaud you! And if you want some help in the process, ThinkShout is here to craft that compelling ask or work out your data woes.
