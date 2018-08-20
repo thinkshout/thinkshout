@@ -38,13 +38,13 @@ Three words: eye-opening, informational and inconceivable (for my Princess Bride
 ## How did this internship differ from what you were expecting?
 
 _*Sadio*_
-When I was first matched with Thinkshout through the ELI program, I was a little worried that I would not get past the interview because I didn’t know any PHP. When I got the internship, I was still a little apprehensive and worried that I would not be able to keep up. Fortunately, the team had great documentation and specs for all the tasks we were assigned and I was able to get my work done easily (and I learned some PHP too!). I also had the support of Amy (the best manager that I could ever ask for), she motivated me to try new things and always encouraged me whenever she saw me struggling.
+When I was first matched with ThinkShout through the ELI program, I was a little worried that I would not get past the interview because I didn’t know any PHP. When I got the internship, I was still a little apprehensive and worried that I would not be able to keep up. Fortunately, the team had great documentation and specs for all the tasks we were assigned and I was able to get my work done easily (and I learned some PHP too!). I also had the support of Amy (the best manager that I could ever ask for), she motivated me to try new things and always encouraged me whenever she saw me struggling.
 
 _*Naily*_
-Before working at Thinkshout, I was unaware of how impactful the company culture is in regards to the employee experience. Because of this, I expected the Thinkshout company culture to be similar to past work environments. Fortunately, I could not have been more wrong! I was pleasantly surprised to see that the company’s culture fostered learning, personal growth, and social/environmental consciousness. This completely aligned with my personal values, and thus helped me thrive during this internship.
+Before working at ThinkShout, I was unaware of how impactful the company culture is in regards to the employee experience. Because of this, I expected the ThinkShout company culture to be similar to past work environments. Fortunately, I could not have been more wrong! I was pleasantly surprised to see that the company’s culture fostered learning, personal growth, and social/environmental consciousness. This completely aligned with my personal values, and thus helped me thrive during this internship.
 
 _*Kiele*_
-Well first off, I didn’t expect the company culture to be so relaxed. When I thought of this job, I thought of like an agency where everyone wore suits and dresses and got little to no sleep. For context, my dad works for a very well known tech company, and he’s incredibly overworked. The expectations are forever higher than what can be produced...but here, Thinkshout cares about their employee’s lives because if they aren’t happy or well rested, they can’t do their job efficiently. Going to a place where the employees want the best for each other, for them to take days off if they need it, not work weekends or evenings is unimaginable in my mind. But it exists!
+Well first off, I didn’t expect the company culture to be so relaxed. When I thought of this job, I thought of like an agency where everyone wore suits and dresses and got little to no sleep. For context, my dad works for a very well known tech company, and he’s incredibly overworked. The expectations are forever higher than what can be produced...but here, ThinkShout cares about their employee’s lives because if they aren’t happy or well rested, they can’t do their job efficiently. Going to a place where the employees want the best for each other, for them to take days off if they need it, not work weekends or evenings is unimaginable in my mind. But it exists!
 
 
 ## What have you learned (could be about coding, about yourself, about agency life)?
@@ -59,3 +59,27 @@ _*Kiele*_
 I’ve learned how to use applications like Sketch, gained practice with project management sites, learned the process of creating a website within a company, gained technical skills in Adobe software, but the largest learning experience revolved around myself.
 
 With my upcoming graduation in December, I questioned whether or not I would be ready for the world outside academia. Will I be proficient enough in design to be able to get a job before or close to graduation? Do I have enough experience under my belt to be a successful designer? Do I have the inherent talent to even be a designer? And my answers to all of those are now an emphatic yes. I never believed my professors when they told me I will have no problem getting a job and that I’m talented. It wasn’t until I began creating and designing at ThinkShout that I realized I have what it takes. I’m still learning, but I should always be learning and striving to figure out a better way of doing something. I learned that the best way to succeed is to put yourself in uncomfortable situations so that you can learn, grow, and become a better person from that experience.
+
+
+## What have you enjoyed most about this summer internship?
+
+_*Sadio*_
+I really enjoyed the fact that we were able to work on and contribute to real, significant projects. Thinkshout allowed us to explore and learn as interns, while also giving us responsibilities just like the full time developers here. We were able to sit in on meetings and also have our voices heard.
+
+_*Naily*_
+One of my favorite aspects of this internship was the opportunity to develop strong relationships with and learn from the experiences of ThinkShout employees. Throughout the summer, I met with employees one-on-one to discuss their career journey, as well as my long term aspirations. Everyone at ThinkShout has worked so diligently to get to where they are today, and it was a huge honor to speak with and receive insight from all the talented professionals. Thank you for an amazing summer!
+
+_*Kiele*_
+Can I put everything as my answer? Genuinely, I’ve been excited to come to work (even though my commute would be between 3-4 hours a day) because my coworkers are so kind and loving, and even the clients are fun and they’re so excited to see their websites transformed! The most touching thing is my coworkers have seen my work, have seen that this millennial is rising to the challenge with every project, and they believe in me and what I’m capable of. In demonstrating my value, I’m not really seen as an intern here. I’m seen as a coworker that others can go to for assistance and that’s an amazing feeling.
+
+I will miss working here because the people here have honestly become individuals I can go to for advice, people I can laugh with and learn from. My manager, Jessica Tate, has become a friend of mine whom I look forward to spending time with after my internship ends, which is something I never expected.
+
+## Use a gif to summarize your internship experience:
+
+_*Sadio*_
+
+
+_*Naily*_
+
+
+_*Kiele*_
