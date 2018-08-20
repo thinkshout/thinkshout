@@ -25,7 +25,7 @@ We asked our interns to tell us in their own words what the last few months have
 
 ## What has this internship been like for you?
 
-_*Sadio*_
+*_Sadio_*
 My internship at Thinkshout has been one of the best experiences of my life. I learned so much the few weeks that we have been here. I have never been so excited to wake up early in the morning and commute to work. Everyone on the team was really welcoming and encouraging and the overall experience was just amazing.
 
 _*Naily*_
