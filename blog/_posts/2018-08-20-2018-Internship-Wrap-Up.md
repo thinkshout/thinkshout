@@ -65,13 +65,16 @@ I will miss working here because the people here have honestly become individual
 ## Use a gif to summarize your internship experience:
 
 _**Sadio**_:
+
 ![Hacking](/assets/images/blog/hacking_gif.gif)
 {:.center}
 
 _**Naily**_:
+
 ![Explain it to me like I'm five](/assets/images/blog/explain-to-me.gif)
 {:.center}
 
 _**Kiele**_:
+
 ![Excited Corgi Dance](/assets/images/blog/corgi.gif)
 {:.center}
