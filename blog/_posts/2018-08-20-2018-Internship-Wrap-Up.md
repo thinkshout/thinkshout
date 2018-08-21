@@ -66,7 +66,7 @@ I will miss working here because the people here have honestly become individual
 
 _**Sadio**_:
 
-![Hacking](/assets/images/blog/hacking_gif.gif)
+![Hacking](/assets/images/blog/hacking.gif)
 {:.center}
 
 _**Naily**_:
