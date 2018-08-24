@@ -7,7 +7,7 @@ homepage: false
 author: natania
 published: true
 featured: false
-short: Kiele, Naily, and Sadio share their experience as ThinkShout interns
+short: Kiele, Naily, and Sadiyah share their experience as ThinkShout interns
 tags:
   - Internship
   - Culture
@@ -27,7 +27,7 @@ We asked our interns to tell us in their own words what the last few months have
 
 ## What has this internship been like for you?
 
-_**Sadio**_: My internship at Thinkshout has been one of the best experiences of my life. I learned so much the few weeks that we have been here. I have never been so excited to wake up early in the morning and commute to work. Everyone on the team was really welcoming and encouraging and the overall experience was just amazing.
+_**Sadiyah*_: My internship at Thinkshout has been one of the best experiences of my life. I learned so much the few weeks that we have been here. I have never been so excited to wake up early in the morning and commute to work. Everyone on the team was really welcoming and encouraging and the overall experience was just amazing.
 
 _**Naily**_: Without a doubt, interning at ThinkShout this summer has been one the most impactful experiences of my life. With each passing day, I took in valuable information that not only helped me develop technical skills, but influenced my life goals. Most of all, this summer has been a demonstration that with continuous drive and passion, nothing is out of reach.
 
@@ -36,7 +36,7 @@ _**Kiele**_: Three words: eye-opening, informational and inconceivable (for my P
 
 ## How did this internship differ from what you were expecting?
 
-_**Sadio**_: When I was first matched with ThinkShout through the ELI program, I was a little worried that I would not get past the interview because I didn’t know any PHP. When I got the internship, I was still a little apprehensive and worried that I would not be able to keep up. Fortunately, the team had great documentation and specs for all the tasks we were assigned and I was able to get my work done easily (and I learned some PHP too!). I also had the support of Amy (the best manager that I could ever ask for), she motivated me to try new things and always encouraged me whenever she saw me struggling.
+_**Sadiyah*_: When I was first matched with ThinkShout through the ELI program, I was a little worried that I would not get past the interview because I didn’t know any PHP. When I got the internship, I was still a little apprehensive and worried that I would not be able to keep up. Fortunately, the team had great documentation and specs for all the tasks we were assigned and I was able to get my work done easily (and I learned some PHP too!). I also had the support of Amy (the best manager that I could ever ask for), she motivated me to try new things and always encouraged me whenever she saw me struggling.
 
 _**Naily**_: Before working at ThinkShout, I was unaware of how impactful the company culture is in regards to the employee experience. Because of this, I expected the ThinkShout company culture to be similar to past work environments. Fortunately, I could not have been more wrong! I was pleasantly surprised to see that the company’s culture fostered learning, personal growth, and social/environmental consciousness. This completely aligned with my personal values, and thus helped me thrive during this internship.
 
@@ -45,7 +45,7 @@ _**Kiele**_: Well first off, I didn’t expect the company culture to be so rela
 
 ## What have you learned (could be about coding, about yourself, about agency life)?
 
-_**Sadio**_: I learned how important company culture is. I was introduced to a world where everyone wanted the best for each other and supported one another to grow and learn. Seeing this made me really excited about coming to work and made me want to contribute back to the team as much as I could.
+_**Sadiyah*_: I learned how important company culture is. I was introduced to a world where everyone wanted the best for each other and supported one another to grow and learn. Seeing this made me really excited about coming to work and made me want to contribute back to the team as much as I could.
 
 _**Naily**_: Perhaps one of the most valuable things I learned this summer was how small scale actions can create large scale change. For example, I assisted in the implementation of a website for a non-profit that uplifts women in areas of conflict. Though creating a website is not directly related to what some may consider social work, the website will ultimately help the organization gain more exposure, credibility, as well as donations; resulting in progress toward global and social change. Thus, the work we do and the action we take — no matter how big or small — always contributes to larger solutions.
 
@@ -56,7 +56,7 @@ With my upcoming graduation in December, I questioned whether or not I would be 
 
 ## What have you enjoyed most about this summer internship?
 
-_**Sadio**_: I really enjoyed the fact that we were able to work on and contribute to real, significant projects. Thinkshout allowed us to explore and learn as interns, while also giving us responsibilities just like the full time developers here. We were able to sit in on meetings and also have our voices heard.
+_**Sadiyah*_: I really enjoyed the fact that we were able to work on and contribute to real, significant projects. Thinkshout allowed us to explore and learn as interns, while also giving us responsibilities just like the full time developers here. We were able to sit in on meetings and also have our voices heard.
 
 _**Naily**_: One of my favorite aspects of this internship was the opportunity to develop strong relationships with and learn from the experiences of ThinkShout employees. Throughout the summer, I met with employees one-on-one to discuss their career journey, as well as my long term aspirations. Everyone at ThinkShout has worked so diligently to get to where they are today, and it was a huge honor to speak with and receive insight from all the talented professionals. Thank you for an amazing summer!
 
@@ -66,7 +66,7 @@ I will miss working here because the people here have honestly become individual
 
 ## Use a gif to summarize your internship experience:
 
-_**Sadio**_:
+_**Sadiyah*_:
 
 ![Hacking](/assets/images/blog/hacking.gif)
 {:.center}
