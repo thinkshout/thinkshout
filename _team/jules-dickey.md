@@ -1,7 +1,7 @@
 ---
 layout: teammember
 first_name: Jules
-last_name: Dickey
+last_name: Khong
 position: Software Engineer
 leadin: |
   Jules began her career in web development on the design side of the process. She became a software engineer out of a desire to better understand the limitations and possibilities of programming. 
