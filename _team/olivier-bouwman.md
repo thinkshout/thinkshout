@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Olivier
 last_name: Bouwman
-position: Software Engineer
+position: Technical Architect
 leadin: |
   Olivier considers himself a maker. These days, that mostly means websites and the occasional art project. But there was that one time he built a mini golf course in his side yard. 
 social:
