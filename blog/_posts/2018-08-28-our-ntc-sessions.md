@@ -7,7 +7,7 @@ homepage: false
 author: natania
 published: true
 featured: false
-short: Want to hear us speak at the #19NTC? Vote for our sessions!
+short: Want to hear us speak at the NTC in 2019? Vote for our sessions!
 tags:
   - 19NTC
   - Culture
