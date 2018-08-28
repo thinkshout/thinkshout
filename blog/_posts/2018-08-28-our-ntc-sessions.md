@@ -18,12 +18,13 @@ date: 2018-08-28 11:00:00
 image: https://thinkshout.com/assets/images/marquee/expertise.jpg
 ---
 
-Memories of beignets from New Orleans and the #18NTC may still be dancing in our heads...but it's time to look ahead towards #19NTC in none other than our home town, Portland, Oregon!
+Memories of beignets from New Orleans and the #18NTC (Nonprofit Technology Conference) may still be dancing in our heads...but it's time to look ahead towards [#19NTC](https://www.nten.org/ntc/) in none other than our hometown, Portland, Oregon!
 
-We hope we'll see you there - but even more so, we hope you vote for our NTC sessions by **midnight on Thursday, August 31st!** It's part of NTEN's process to allow you, the attendees of this conference, to speak up about what interests you. And we hope some of what we're offering piques your interest at least as much as the prospect of seeing the Unipiper in real life.
+And since this will be happening in our neck of the woods, we hope you vote for our NTC sessions by **midnight on Thursday, August 31st!** It's part of NTEN's process to allow you, the attendees of this conference, to speak up about what interests you. And we hope some of what we're offering piques your interest at least as much as the prospect of seeing the Unipiper (Portland's unofficial mascot) in real life.
 
 ![PDX Unipiper](/assets/images/blog/unipiper.gif)
 {:.center}
+<span class="caption"><i class="fa fa-caret-up"></i>The Unipiper in his natural habitat.</span>
 
 So check 'em out, give us some votes, and look at all the sessions listed too (they're pretty incredible!). #19NTC is shaping up to be especially amazing and it's no doubt due to the giving and supportive nature of this community.
 
