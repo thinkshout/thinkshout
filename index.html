@@ -11,8 +11,8 @@ keywords:
   - responsive design
 ---
 <div class="front">
-  <div class="who-we-are">
-    <div class="container">
+  <a href="/thinkshout-cares-old-town/#home-jump"><div class="who-we-are">
+    <!--<div class="container">
       <div class="who-we-are-text valign-wrap">
         <div class="valign">
           <h1 id="inspiring">Engage&nbsp;and</h1>
@@ -20,10 +20,29 @@ keywords:
           <p>We use technology and strategy to elevate organizations creating positive change in the world.</p>
         </div>
       </div>
-    </div>
-  </div>
+    </div>-->
+  </div></a>
 
-{% include work-with-us.html %}
+  <!-- {% include work-with-us.html %} -->
+
+  <style>
+    .who-we-are {
+      background-image: url('{{ site.baseurl }}/assets/images/ts_redesign/ts-cares-old-town.jpg'); 
+      padding: 0;
+      height: 49.9vw;
+      display: block;
+      background-position: left top;
+      background-size: cover;
+      color: #fff;
+      position: relative;
+      text-align: center;
+      width: 100%;
+      z-index: 1;
+    }
+    .front .who-we-are:after {
+      content: none;
+    }
+  </style>
 
   {% assign featured_work = site.case_studies | where: "homepage", "true" | sort: "order" | first %}
   <div class="container">
