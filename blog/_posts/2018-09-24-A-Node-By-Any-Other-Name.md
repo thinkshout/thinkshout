@@ -57,7 +57,7 @@ Drupal maintains a well-curated (but slow) system for vetting and approving cont
 ## Hooks
 Drupal contains a very large library of custom functions. While some can be used or re-used in a standalone manner, there are special functions called hooks that allow you to access specific points in the Drupal execution thread. As such, some have to be implemented in a custom module, and some can be used in the template layer (template hooks). They’re called ‘hooks’ because you rename the first part of the function depending on where you implement it.
 
-For example, if you implement the template hook called _hook_preprocess_page()_ in a theme called _mytheme_, you would rename it _mytheme_preprocess_page()_. If you implement _hook_form_alter_ in a custom module called _mysite_common_, it would be _mytheme_common_hook_form_alter()_.
+For example, if you implement the template hook called _hook_preprocess_page()_ in a theme called _mytheme_, you would rename it _mytheme_preprocess_page()_. If you implement _hook_form_alter_ in a custom module called _mysite_common_, it would be _mytheme_common_form_alter()_.
 
 The full, searchable list of hooks is in the [Drupal Core API.](https://api.drupal.org/api/drupal/core!core.api.php/group/hooks/)
 
