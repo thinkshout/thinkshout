@@ -49,4 +49,3 @@ One of our goals in moving to this space was to support the broader nonprofit, c
 
 ![PDX at sunset](/assets/images/blog/IMG_4802.jpg)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>Check out these views.</span>
