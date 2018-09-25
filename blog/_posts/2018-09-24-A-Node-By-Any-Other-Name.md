@@ -62,7 +62,7 @@ For example, if you implement the template hook called _hook_preprocess_page()_ 
 The full, searchable list of hooks is in the [Drupal Core API.](https://api.drupal.org/api/drupal/core!core.api.php/group/hooks/)
 
 ## Views
-This is a UI for a custom database query generator. It’s fairly unique to Drupal. There’s an optional setting in Drupal 8 `/admin/structure/views/settings`: ‘Show the SQL query’ that can be helpful if you know SQL.
+This is a UI for a custom database query generator, and it’s fairly unique to Drupal. There’s an optional setting in Drupal 8 `/admin/structure/views/settings`: ‘Show the SQL query’ that can be helpful if you know SQL.
 
 Views is used to build many Drupal lists, such as the primary list of content, blocks, files, etc. The place to add or edit _Views_ is under the _Structure_ tab:
 
