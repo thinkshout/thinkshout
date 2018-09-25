@@ -17,6 +17,7 @@ tags:
   - Sisters of the Road
   - Community Fundraiser
   - PDX Agency
+  - Twin Pines Country Club
 date: 2018-09-25 11:00:00
 image: https://thinkshout.com/assets/images/event-blog-header.jpeg
 header-image: /assets/images/blog/event-blog-header.jpeg
@@ -30,7 +31,7 @@ We approached three organizations that we admire and share the neighborhood with
 
 We knew we needed to offer more than just food and drinks to draw a crowd. As is often the case with most of our projects, the full team started to collaborate on ideas and the party started to take shape.
 
-We hit up local businesses and community contacts to get items donated for silent auction packages ranging from a weekend in Hood River to Yoga classes. Our teammate Olivier (owner of Twin Pines Golf Club) assembled a mini golf course to entertain people of any age that would be in attendance. And the partner of one of our software engineers was inspired to create the set design for said golf course (all by hand!).   
+We hit up local businesses and community contacts to get items donated for silent auction packages ranging from a weekend in Hood River to Yoga classes. Our teammate Olivier (owner of [Twin Pines Country Club](http://twinpinescountryclub.com/)) assembled a mini golf course to entertain people of any age that would be in attendance. And the partner of one of our software engineers was inspired to create the set design for said golf course (all by hand!).   
 
 ![Mini golf players at capacity!](/assets/images/blog/DSC_0071.jpg)
 {:.center}
