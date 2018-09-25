@@ -18,8 +18,8 @@ tags:
   - Community Fundraiser
   - PDX Agency
 date: 2018-09-25 11:00:00
-image: https://thinkshout.com/assets/images/event-blog-header.jpg
-header-image: /assets/images/blog/event-blog-header.jpg
+image: https://thinkshout.com/assets/images/event-blog-header.jpeg
+header-image: /assets/images/blog/event-blog-header.jpeg
 header-image-alt: "2018 Housewarming Mini Golf"
 ---
 Over the summer, we moved ThinkShout's headquarters just across the street, up seven floors. [Lev wrote all about it](https://thinkshout.com/blog/2018/06/ThinkShout-is-Moving/) earlier this year; how the choice to stay in Old Town was not an obvious one. There are challenges that go along with being located in a neighborhood with such a high density of social services. Several groups have made promises to be good neighbors to businesses moving into the area. But Lev (and our entire team) were inspired by one organization that responded to local organizations by saying _'it’s we who intend to be good neighbors, by supporting the work you do in every way we can, from volunteering to fundraising, to showing respect for those you serve.'_
