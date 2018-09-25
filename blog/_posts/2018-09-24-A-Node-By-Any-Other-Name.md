@@ -28,7 +28,7 @@ The basic content for Drupal is the _Node_. This would be a _Page_ (or post) in 
 
 ![Node Screenshot](/assets/images/blog/Node-1.png)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>Behold, a Node in its natural habitat.</span>
+<span class="caption"><i class="fa fa-caret-up"></i>Behold, a Node AKA Content in its natural habitat.</span>
 
 ## Blocks
 Small pieces of reusable content are called Blocks (and sometimes Beans in Drupal 7). These are _Widgets_ in WordPress and elsewhere. They’re primarily managed through the _Block Layout_ page, which is under the _Structure_ tab.
