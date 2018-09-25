@@ -16,7 +16,7 @@ tags:
   - Blocks
   - Entities
   - Modules
-date: 2018-24-09 12:00:00
+date: 2018-09-24 12:00:00
 image: https://thinkshout.com/assets/images/marquee/expertise.jpg
 ---
 One of the most overlooked barriers to working with Drupal is learning its idiosyncratic naming conventions. Most CMSs use a fairly simple set of terms for things such as Pages, Widgets, and Plugins. Drupal used a more computer-science precise language that is nevertheless confusing as heck when you first start working in the CMS.
