@@ -10,9 +10,9 @@ social:
   twitter:
   linkedin:
 team-image:
-  small: team/small/tracey.jpg
-  medium: team/medium/tracey.jpg
-  large: team/large/tracey.jpg
+  small: team/small/tracey-sm.jpg
+  medium: team/medium/tracey-md.jpg
+  large: team/large/tracey-lg.jpg
 published: true
 current-employee: true
 name: tracey
