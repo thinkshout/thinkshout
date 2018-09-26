@@ -2,7 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: culture
-title: More than just a housewarming
+title: More than a housewarming
 homepage: true
 author: natania
 published: true
@@ -45,7 +45,7 @@ There was live music by Samuel Eisen-Meyers, and live art by Bryan Olsen -- wher
 
 It truly turned into a labor of love for our team, and the way in which our collective talents, hobbies, and interests all came together to create this celebration was a thing of beauty.
 
-One of our goals in moving to this space was to support the broader nonprofit, creative, and technology communities. Well, after all was said and done and the totals tallied, we raised just over $6,000 for Blanchet House, Transition Project, and Sisters of the Road! We look forward to being able to continue making contributions of this kind and creating a space for inclusion and causes we care about. If you were with us that night, or plan to attend a future event, thanks for being part of this community we share.   
+One of our goals in moving to this space was to support the broader nonprofit, creative, and technology communities. Well, after all was said and done and the totals tallied, we raised just over $6,000 for Blanchet House, Transition Projects, and Sisters of the Road! We look forward to being able to continue making contributions of this kind and creating a space for inclusion and causes we care about. If you were with us that night, or plan to attend a future event, thanks for being part of this community we share.   
 
 ![PDX at sunset](/assets/images/blog/IMG_4802.JPG)
 {:.center}
