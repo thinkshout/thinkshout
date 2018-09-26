@@ -23,7 +23,7 @@ image: https://thinkshout.com/assets/images/event-blog-header.jpeg
 header-image: /assets/images/blog/event-blog-header.jpeg
 header-image-alt: "2018 Housewarming Mini Golf"
 ---
-Over the summer, we moved ThinkShout's headquarters just across the street, up seven floors. [Lev wrote all about it](https://thinkshout.com/blog/2018/06/ThinkShout-is-Moving/) earlier this year; how the choice to stay in Old Town was not an obvious one. There are challenges that go along with being located in a neighborhood with such a high density of social services. Several groups have made promises to be good neighbors to businesses moving into the area. But Lev (and our entire team) were inspired by one organization that responded to local organizations by saying _'it’s we who intend to be good neighbors, by supporting the work you do in every way we can, from volunteering to fundraising, to showing respect for those you serve.'_
+Over the summer, we moved ThinkShout's headquarters just across the street, up seven floors. [Lev wrote all about it](https://thinkshout.com/blog/2018/06/ThinkShout-is-Moving/) earlier this year; how the choice to stay in Old Town was not an obvious one. There are challenges that go along with being located in a neighborhood with such a high density of social services. Several groups have made promises to be good neighbors to businesses moving into the area. But Lev (and our entire team) were inspired by one business that responded to local organizations by saying _'it’s we who intend to be good neighbors, by supporting the work you do in every way we can, from volunteering to fundraising, to showing respect for those you serve.'_
 
 It was from this sentiment that the idea to combine our housewarming party with a fundraiser was born.
 
@@ -37,7 +37,7 @@ We hit up local businesses and community contacts to get items donated for silen
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Mini golf players in action!</span>
 
-There was live music by Samuel Eisen-Meyers, and live art by Bryan Olsen -- where people could observe him making collages that he's well known for, or create a masterpiece of their own.
+There was live music by Samuel Eisen-Meyers, and live art by Bryan Olsen where people could observe him making collages that he's well known for, or create a masterpiece of their own.
 
 ![Bryan Olsen Collage](/assets/images/blog/DSC_0057.jpg)
 {:.center}
