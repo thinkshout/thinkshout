@@ -27,17 +27,17 @@ Over the summer, we moved ThinkShout's headquarters just across the street, up s
 
 It was from this sentiment that the idea to combine our housewarming party with a fundraiser was born.
 
-We approached three organizations that we admire and share the neighborhood with about the party: [Blanchet House](http://blanchethouse.org/), [Transition Projects](https://www.tprojects.org/), and [Sisters of the Road](https://sistersoftheroad.org/). All three provide services to the homeless -- a place where someone can get a meal, nourishment, and positive human interaction without fear or judgment. We got an emphatic "YES" from all three regarding their participation. Now we just had to throw an amazing party and draw crowds so we could raise the money! (no sweat, right?)
+We approached three organizations that we admire and share the neighborhood with about the party: [Blanchet House](http://blanchethouse.org/), [Transition Projects](https://www.tprojects.org/), and [Sisters of the Road](https://sistersoftheroad.org/). All three provide services to the homeless -- a place where someone can get a meal, nourishment, and positive human interaction without fear or judgment. We got an emphatic "YES" from all three regarding being beneficiaries of our fundraiser. Now we just had to throw an amazing party and draw crowds so we could raise the money! (no sweat, right?)
 
 We knew we needed to offer more than just food and drinks to draw a crowd. As is often the case with most of our projects, the full team started to collaborate on ideas and the party started to take shape.
 
-We hit up local businesses and community contacts to get items donated for silent auction packages ranging from a weekend in Hood River to Yoga classes. Our teammate Olivier (owner of [Twin Pines Country Club](http://twinpinescountryclub.com/)) assembled a mini golf course to entertain people of any age that would be in attendance. And the partner of one of our software engineers was inspired to create the set design for said golf course (all by hand!).   
+We hit up local businesses and community contacts to get items donated for silent auction packages ranging from a weekend in Hood River to Yoga classes. Our teammate Olivier (owner of [Twin Pines Country Club](http://twinpinescountryclub.com/)) assembled a mini golf course to entertain party goers of all ages. And the partner of one of our software engineers created the set design for the golf course by hand!   
 
 ![Mini golf players at capacity!](/assets/images/blog/DSC_0071.jpg)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Mini golf players in action!</span>
 
-There was live music by Samuel Eisen-Meyers, and live art by Bryan Olsen where people could observe him making collages that he's well known for, or create a masterpiece of their own.
+Samuel Eisen-Meyers provided live music, and Bryan Olsen created a collage station where people could observe him making his well-known collages or create a masterpiece of their own.
 
 ![Bryan Olsen Collage](/assets/images/blog/DSC_0057.jpg)
 {:.center}
