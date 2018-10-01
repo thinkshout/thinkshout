@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: strategy
 title: Three tips to conducting user research
-homepage: true
+homepage: false
 author: natania
 published: true
-featured: true
+featured: false
 short: When data doesn't supply all the answers, hit up some people!
 tags:
   - NP Tech
