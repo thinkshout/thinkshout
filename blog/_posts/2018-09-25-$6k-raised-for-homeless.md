@@ -27,7 +27,7 @@ Over the summer, we moved ThinkShout's headquarters just across the street, up s
 
 It was from this sentiment that the idea to combine our housewarming party with a fundraiser was born.
 
-We partnered with three organizations that we've long admired and shared the neighborhood with about their involvement in our party/fundraiser: [Blanchet House](http://blanchethouse.org/), [Transition Projects](https://www.tprojects.org/), and [Sisters of the Road](https://sistersoftheroad.org/). All three provide services to the homeless -- a place where someone can get a meal, nourishment, and positive human interaction without fear or judgment. Now we just had to throw an amazing party and draw crowds so we could raise the money for them! (no sweat, right?)
+We partnered with three organizations that we've long admired about their involvement in our party/fundraiser: [Blanchet House](http://blanchethouse.org/), [Transition Projects](https://www.tprojects.org/), and [Sisters of the Road](https://sistersoftheroad.org/). All three provide services to the homeless -- a place where someone can get a meal, nourishment, and positive human interaction without fear or judgment. Now we just had to throw an amazing party and draw crowds so we could raise the money for them! (no sweat, right?)
 
 We knew we needed to offer more than just food and drinks to draw a crowd. As is often the case with most of our projects, the full team started to collaborate on ideas and the party started to take shape.
 
