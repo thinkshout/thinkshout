@@ -16,9 +16,9 @@ published: true
 current-employee: true
 name: andy
 bio: |
-  Andy was more interested in building systems to solve design problems than designing itself. That’s where his interest in web design, and more specifically coding, came into play. Seeing what a few lines of code could create on a page was absolute magic to him.
-  <p>This passion evolved into managing and developing new features for a rather complicated Drupal 5 (and eventually Drupal 6) website. At that point, Andy realized that he was more drawn to backend development. So, he found a position at a Drupal agency where he took on the role of developing complex backend features and providing technical direction for Drupal 7 and Drupal 8 websites.
-  <p>Andy loves web development, and also wants to help make the world better -- which makes him a great fit for ThinkShout! When Andy isn’t building websites, he’s busy  with photography, listening to and discovering new music, meditation, energy work, and playing with his children.
+  Andy found he was more interested in building systems to solve design problems than designing itself. That’s where his interest in web design, and more specifically coding, came into play. Seeing what a few lines of code could create on a page was absolute magic to him.
+  <p>This passion led to building and maintaining a rather complicated Drupal 5 website in 2006. Many websites and several versions of Drupal later, Andy no longer finds web development mysterious -- but he still sees the magic when exploring new territory.
+  <p>Andy loves web development, and also cares deeply for our world -- which makes him a great fit for ThinkShout! When Andy isn’t building websites, he’s busy with photography, discovering new music, meditation, energy work, and exploring the PNW with his wife and two children.
 
 slug: andy
 ---
