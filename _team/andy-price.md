@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Andy
 last_name: Price
-position: Software Engineer
+position: Senior Software Engineer
 leadin: |
   Andy started out as a graphic designer, but all it took was seeing a page he coded live in a browser to change his career path entirely.
 social:
