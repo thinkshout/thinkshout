@@ -27,7 +27,7 @@ Over the summer, we moved ThinkShout's headquarters just across the street, up s
 
 It was from this sentiment that the idea to combine our housewarming party with a fundraiser was born.
 
-We approached three organizations that we admire and share the neighborhood with about the party: [Blanchet House](http://blanchethouse.org/), [Transition Projects](https://www.tprojects.org/), and [Sisters of the Road](https://sistersoftheroad.org/). All three provide services to the homeless -- a place where someone can get a meal, nourishment, and positive human interaction without fear or judgment. We got an emphatic "YES" from all three regarding being beneficiaries of our fundraiser. Now we just had to throw an amazing party and draw crowds so we could raise the money! (no sweat, right?)
+We partnered with three organizations that we've long admired and shared the neighborhood with about their involvement in our party/fundraiser: [Blanchet House](http://blanchethouse.org/), [Transition Projects](https://www.tprojects.org/), and [Sisters of the Road](https://sistersoftheroad.org/). All three provide services to the homeless -- a place where someone can get a meal, nourishment, and positive human interaction without fear or judgment. Now we just had to throw an amazing party and draw crowds so we could raise the money for them! (no sweat, right?)
 
 We knew we needed to offer more than just food and drinks to draw a crowd. As is often the case with most of our projects, the full team started to collaborate on ideas and the party started to take shape.
 
@@ -45,7 +45,9 @@ Samuel Eisen-Meyers provided live music, and Bryan Olsen created a collage stati
 
 It truly turned into a labor of love for our team, and the way in which our collective talents, hobbies, and interests all came together to create this celebration was a thing of beauty.
 
-One of our goals in moving to this space was to support the broader nonprofit, creative, and technology communities. Well, after all was said and done and the totals tallied, we raised just over $6,000 for Blanchet House, Transition Projects, and Sisters of the Road! We look forward to being able to continue making contributions of this kind and creating a space for inclusion and causes we care about. If you were with us that night, or plan to attend a future event, thanks for being part of this community we share.   
+One of our goals in moving to this space was to support the broader nonprofit, creative, and technology communities. Well, after all was said and done and the totals tallied, we raised just over $6,000 for Blanchet House, Transition Projects, and Sisters of the Road! We look forward to being able to continue supporting the communities and organizations who are doing the important, hard work of societal improvement. If you were with us that night, thanks for being part of this community we share.
+
+And if you missed the big night, we hope you join us next time! There will definitely be more of these in the future. Follow us on [Twitter](http://www.twitter.com/ThinkShout) or [Facebook](http://www.facebook.com/ThinkShout) for announcements, or [jump on our newsletter list](https://mailchi.mp/thinkshout/enews) to get updates delivered straight to your inbox.
 
 ![PDX at sunset](/assets/images/blog/IMG_4802.JPG)
 {:.center}
