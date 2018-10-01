@@ -11,9 +11,9 @@ social:
   linkedin: https://www.linkedin.com/in/nrackleff
   drupal: https://www.drupal.org/u/nrackleff
 team-image:
-  small: team/small/nancy.jpg
-  medium: team/medium/nancy.jpg
-  large: team/large/nancy.jpg
+  small: team/small/nancy-sm.jpg
+  medium: team/medium/nancy-md.jpg
+  large: team/large/nancy-lg.jpg
 published: true
 current-employee: true
 name: nancy

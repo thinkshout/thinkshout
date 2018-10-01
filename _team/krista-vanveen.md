@@ -11,9 +11,9 @@ social:
   linkedin: https://www.linkedin.com/in/kristavanveen/
   drupal:
 team-image:
-  small: team/small/krista3.jpg
-  medium: team/medium/krista3.jpg
-  large: team/large/krista3.jpg
+  small: team/small/krista-sm.jpg
+  medium: team/medium/krista-md.jpg
+  large: team/large/krista-lg.jpg
 published: true
 current-employee: true
 name: krista
