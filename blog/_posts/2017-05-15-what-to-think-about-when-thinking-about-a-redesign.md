@@ -41,7 +41,7 @@ Now it’s time to zoom in and focus on this project itself. Project goals shoul
 
 It may be helpful when thinking about your project goals to determine how they relate to your organizational goals. Can you map your project goals to the organizational goals they support? If not, perhaps you should consider if that particular goal for the project is even necessary -- or if it can be deprioritized.
 
-For example, if your organization is a local animal shelter, one of your organizational goals may be to increase pet adoption. Website project goals that support this higher-level goal might be to post profiles for adoptable pets online, or allow facilitate adoptions through your website.
+For example, if your organization is a local animal shelter, one of your organizational goals may be to increase pet adoption. Website project goals that support this higher-level goal might be to post profiles for adoptable pets online, or facilitate adoptions through your website.
 
 Identifying and then prioritizing your project goals may also help you define what success will look like for your redesign project. How will you measure progress towards these goals? Which goals need to be met for the project to be successful?
 
@@ -51,4 +51,4 @@ A website only adds value for your organization if your audiences use it, and mo
 
 Defining who your audiences are will allow you to put your users first when redesigning your website. Once you know who your audiences are, you can determine what content will satisfy their needs, sparking the trust that will allow you to nudge them to take an action beneficial to you.
 
-These questions are just a starting place for your website redesign. A full discovery process will delve more deeply into your programs and departments, your needs and wants, and what makes your organization tick. But asking yourself these three questions before you start will help give you an anchor to help you ensure that your new website engages your users and supports your mission.
+These questions are just a starting place for your website redesign. A full discovery process will delve more deeply into your programs and departments, your needs and wants, and what makes your organization tick. But asking yourself these three questions before you start will give you an anchor to help you ensure that your new website engages your users and supports your mission.
