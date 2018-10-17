@@ -11,8 +11,8 @@ social:
   linkedin: https://www.linkedin.com/in/bdimaggio/
   drupal:
 team-image:
-  small: team/small/Ben.jpg
-  medium: team/medium/Ben.jpg
+  small: team/small/ben.jpg
+  medium: team/medium/ben.jpg
   large: team/large/ben.jpg 
 published: true
 current-employee: true
