@@ -11,9 +11,9 @@ social:
   linkedin: https://www.linkedin.com/in/adamskaylan
   drupal:
 team-image:
-  small: team/small/Kaylan.jpg
-  medium: team/medium/Kaylan.jpg
-  large: team/large/Kaylan.jpg
+  small: team/small/kaylan.jpg
+  medium: team/medium/kaylan.jpg
+  large: team/large/kaylan.jpg
 published: true
 current-employee: true
 name: kaylan
