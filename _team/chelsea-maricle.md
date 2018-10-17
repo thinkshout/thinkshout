@@ -11,9 +11,9 @@ social:
   linkedin: https://www.linkedin.com/in/cpmaricle
   drupal: 
 team-image:
-  small: team/small/chelsea-small.jpg
-  medium: team/medium/chelsea-medium.jpg
-  large: team/large/chelsea-large.jpg
+  small: team/small/Chelsea.jpg
+  medium: team/medium/Chelsea.jpg
+  large: team/large/Chelsea.jpg
 published: true
 current-employee: true
 name: chelsea

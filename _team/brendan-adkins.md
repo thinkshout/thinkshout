@@ -9,9 +9,9 @@ social:
   github:
   linkedin: 
 team-image:
-  small: team/small/brendan-sm.jpg
-  medium: team/medium/brendan-md.jpg
-  large: team/large/brendan-lg.jpg
+  small: team/small/Brendan.jpg
+  medium: team/medium/Brendan.jpg
+  large: team/large/Brendan.jpg
 published: true
 current-employee: true
 name: brendan

@@ -11,9 +11,9 @@ social:
   linkedin: https://www.linkedin.com/in/bastets629
   drupal:
 team-image:
-  small: team/small/Britt-sm.jpeg
-  medium: team/medium/Britt-md.jpeg
-  large: team/large/Britt-lg.jpeg
+  small: team/small/Britt.jpg
+  medium: team/medium/Britt.jpg
+  large: team/large/Britt.jpg
 published: true
 current-employee: true
 name: britt
