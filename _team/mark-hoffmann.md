@@ -11,9 +11,9 @@ social:
   drupal: https://www.drupal.org/u/tehgrza
   twitter: https://twitter.com/markftwhoffmann
 team-image:
-  small: team/small/mark1.jpeg
-  medium: team/medium/mark2.jpg
-  large: team/large/mark3.jpg
+  small: team/small/Mark.jpg
+  medium: team/medium/Mark.jpg
+  large: team/large/Mark.jpg
 published: true
 current-employee: true
 name: mark

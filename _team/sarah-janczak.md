@@ -11,9 +11,9 @@ social:
   linkedin: https://www.linkedin.com/in/sejanczak/
   drupal:
 team-image:
-  small: team/small/sarahj-sm.jpeg
-  medium: team/medium/sarahj-md.jpeg
-  large: team/large/sarahj-lg.jpeg
+  small: team/small/SarahJ.jpg 
+  medium: team/medium/SarahJ.jpg
+  large: team/large/SarahJ.jpg
 published: true
 current-employee: true
 name: sarahj

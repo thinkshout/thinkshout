@@ -8,9 +8,9 @@ leadin: |
 social:
   linkedin: http://www.linkedin.com/pub/alex-macmillan/90/bb8/827/
 team-image:
-  small: team/small/alexm2.jpg
-  medium: team/medium/alexm2.jpg
-  large: team/large/alexm2.jpg
+  small: team/small/Alex.jpg
+  medium: team/medium/Alex.jpg
+  large: team/large/Alex.jpg
 published: true
 current-employee: true
 name: alexm

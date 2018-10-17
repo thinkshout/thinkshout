@@ -11,9 +11,9 @@ social:
   linkedin: https://www.linkedin.com/in/rjacobsen0
   drupal: https://www.drupal.org/u/rjacobsen0
 team-image:
-  small: team/small/rebecca-sm.jpg
-  medium: team/medium/rebecca-md.jpg
-  large: team/large/rebecca-lg.jpg
+  small: team/small/Rebecca.jpg
+  medium: team/medium/Rebecca.jpg
+  large: team/large/Rebecca.jpg
 published: true
 current-employee: true
 name: rebecca

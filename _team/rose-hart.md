@@ -11,9 +11,9 @@ social:
   linkedin: https://www.linkedin.com/in/rosalynhart
   drupal:
 team-image:
-  small: team/small/Rose2.jpg
-  medium: team/medium/Rose2.jpg
-  large: team/large/Rose2.jpg
+  small: team/small/rose.jpg
+  medium: team/medium/rose.jpg
+  large: team/large/rose.jpg
 published: true
 current-employee: true
 name: rose
