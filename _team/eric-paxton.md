@@ -12,7 +12,7 @@ social:
 team-image:
   small: team/small/Eric.jpg
   medium: team/medium/Eric.jpg
-  large: team/large/Eric.jpg
+  large: team/large/eric.jpg
 published: true
 current-employee: true
 name: eric
