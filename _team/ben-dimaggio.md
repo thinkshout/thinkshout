@@ -13,7 +13,7 @@ social:
 team-image:
   small: team/small/Ben.jpg
   medium: team/medium/Ben.jpg
-  large: team/large/Ben.jpg
+  large: team/large/Ben.jpg 
 published: true
 current-employee: true
 name: ben
