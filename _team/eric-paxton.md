@@ -10,9 +10,9 @@ social:
   linkedin: http://www.linkedin.com/pub/eric-paxton/4b/956/517/
   drupal: https://drupal.org/user/2904565/
 team-image:
-  small: team/small/Eric.jpg
-  medium: team/medium/Eric.jpg
-  large: team/large/eric.jpg
+  small:  team/small/Eric.jpg
+  medium:  team/medium/Eric.jpg
+  large:  team/large/eric.jpg
 published: true
 current-employee: true
 name: eric
