@@ -13,8 +13,8 @@ team-image:
   small: team/small/mimi.jpg
   medium: team/medium/mimi.jpg
   large: team/large/mimi.jpg
-published: true
-current-employee: true
+published: false
+current-employee: false
 name: mimi
 bio: |
  Mimi began her journey into the nonprofit world when she accepted a position at the Nonprofit Technology Network (NTEN). She fell in love with the tight-knit nonprofit technology community and hasn’t looked back since. She’s run technology crash courses for nonprofit leadership, managed communications initiatives, and just about everything else under the sun. She’s deeply rooted in this world and knows all too well the many hurdles that these organizations face, which puts her in a great position to help them find the solutions to their technology woes. If she’s not getting lost in her research, then she’s probably biking, gardening, or working on one of her many creative writing projects.

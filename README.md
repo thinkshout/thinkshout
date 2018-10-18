@@ -66,3 +66,8 @@ The site is hosted on Amazon S3 where we have 2 buckets, one for staging mapped 
 1. Compile the CSS using Compass.
 2. Build the site using Jekyll.
 3. Deploy the code to the appropriate S3 bucket: master will push to the private staging site and live to thinkshout.com.
+
+Sites you might be interested in looking at:
+- local: http://localhost:4000/
+- stage: http://stage.thinkshout.com/
+- live: https://thinkshout.com/
