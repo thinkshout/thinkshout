@@ -6,8 +6,10 @@ position: Software Engineer
 leadin: |
   Sadiyah came to ThinkShout from the Emerging Leaders Internship program. In her short time with us over the summer, we knew she was a natural fit to join our team.
 social:
-  github: https://github.com/AmyVS
-  linkedin: http://www.linkedin.com/in/amyvs/
+  github: https://github.com/5adiyah/
+  linkedin: https://www.linkedin.com/in/sadioali/
+  twitter: https://twitter.com/5adiali
+  instagram: https://www.instagram.com/5adiyah/ 
 team-image:
   small: team/small/sadiyah-sm.jpg
   medium: team/medium/sadiyah-md.jpg
