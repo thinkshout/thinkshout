@@ -36,14 +36,14 @@ Now make sure our field is being output.
 - Go to Admin > Structure > Types > Manage > Landing page > Display > Full
 - Make sure it is enabled and the label is hidden. It should be output in the default format. <Make_sure_inline_css_is_displayed.png>
 
-Visit a landing page content form by going to Manage > Content > Add content > Landing Page, and put some real css in our new field: 
+Visit a landing page content form by going to Manage > Content > Add content > Landing Page, and put some real css in our new field:
 <Add_map_background_raw_css.png>
 
 We also provide a WYSIWYG place to enter HTML. In this case we need some HTML, perhaps a div, with class=‘map’.
 
 We’re not finished yet! We need to provide a twig template. Look at the output HTML. We get
 
-~~~
+<code>
 <!-- THEME DEBUG -->
 <!-- THEME HOOK: 'field' -->
 <!-- FILE NAME SUGGESTIONS:
@@ -61,13 +61,13 @@ padding-top: 80px;
 min-height: 350px;
 }</div>
 <!-- END OUTPUT from 'core/themes/classy/templates/field/field--text-long.html.twig' -->
-~~~
+</code>
 
 in our output! Notice the <div> surrounding our CSS! We don’t want that! So it’s time to create a Twig template without extra div’s. One that will output raw CSS.
 
 We will go from this (notice all the extra <div>s)
-~~~
-{% if label_hidden %}
+
+<code>{% if label_hidden %}
    {% if multiple %}
        <div{{ attributes.addClass(classes, 'field__items') }}>
            {% for item in items %}
@@ -92,15 +92,15 @@ We will go from this (notice all the extra <div>s)
        </div>
        {% endif %}
    </div>
-{% endif %}
-~~~
+{% endif %}</code>
+
 
 And we should do three things:
 1. Remove all <div> tags,
 2. Send it through a raw filter, and
 3. Surround it with <style> tags so we will go to this >
 
-~~~
+<code>
 <style>
 {% if label_hidden %}
    {% if multiple %}
@@ -122,10 +122,10 @@ And we should do three things:
        {% endif %}
 {% endif %}
 </style>
-~~~
+</code>
 
 Then we get in output:
-~~~
+<code>
 <!-- THEME DEBUG -->
 <!-- THEME HOOK: 'field' -->
 <!-- FILE NAME SUGGESTIONS:
@@ -145,7 +145,7 @@ min-height: 350px;
 }
 </style>
 <!-- END OUTPUT from 'themes/custom/example/templates/field/field--node--field-inline-css--landing-page.html.twig' -->
-~~~
+</code>
 
 Tada! The CSS shows up ready to use on the page! The same technique can be used to allow content editors to put JavaScript on the page! Instead of putting <style> tags around the template, make it <script> tags instead.
 
