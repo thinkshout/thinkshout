@@ -23,7 +23,7 @@ Our client is migrating from Luminate CMS to Drupal because they want to improve
 This technically savvy client wants a way to add existing JavaScript and CSS to Drupal pages. So let’s give them the capability of putting raw CSS and JavaScript on their pages. This will help them complete the migration, moving their existing code to Drupal. These are the tools the content editors need to make their website beautiful and effective. If your content editors are more familiar with writing javascript and css here’s how to enable them to keep doing that.
 
 To make this happen, first make a raw field formatter.
-- Go to Configuration | Content authoring | Text formats and editors.
+- Go to Configuration > Content authoring > Text formats and editors.
 - Add a new text format called “Raw”. None of the filters should be enabled since this will be raw output. <Add_a_raw_text_format.png> and <No_filters_enabled.png>
 
 Since our client wants to add raw css and javascript to landing pages, we will create a field on the ‘landing page’ content type. It will be Text (formatted, long) and label “Inline CSS”. We will limit it to just one on the page. <Add_field_inline_css.png> Have it use the Raw text format from the last step. You can limit the field to only this format by installing the package
@@ -33,10 +33,11 @@ Composer require drupal/allowed_formats
 Be sure to check the “Raw” box on the field page and *save it.*
 
 Now make sure our field is being output.
-- Go to Admin | Structure | Types | Manage | Landing page | Display | Full
+- Go to Admin > Structure > Types > Manage > Landing page > Display > Full
 - Make sure it is enabled and the label is hidden. It should be output in the default format. <Make_sure_inline_css_is_displayed.png>
 
-Visit a landing page content form by going to Manage | Content | Add content | Landing Page, and put some real css in our new field: <Add_map_background_raw_css.png>
+Visit a landing page content form by going to Manage > Content > Add content > Landing Page, and put some real css in our new field: 
+<Add_map_background_raw_css.png>
 
 We also provide a WYSIWYG place to enter HTML. In this case we need some HTML, perhaps a div, with class=‘map’.
 
