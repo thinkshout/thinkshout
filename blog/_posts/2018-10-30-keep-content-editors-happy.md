@@ -43,7 +43,7 @@ We also provide a WYSIWYG place to enter HTML. In this case we need some HTML, p
 
 We’re not finished yet! We need to provide a twig template. Look at the output HTML. We get
 
-<code>
+~~~
 <!-- THEME DEBUG -->
 <!-- THEME HOOK: 'field' -->
 <!-- FILE NAME SUGGESTIONS:
@@ -61,13 +61,14 @@ padding-top: 80px;
 min-height: 350px;
 }</div>
 <!-- END OUTPUT from 'core/themes/classy/templates/field/field--text-long.html.twig' -->
-</code>
+~~~
 
 in our output! Notice the <div> surrounding our CSS! We don’t want that! So it’s time to create a Twig template without extra div’s. One that will output raw CSS.
 
 We will go from this (notice all the extra <div>s)
 
-<code>{% if label_hidden %}
+~~~
+{% if label_hidden %}
    {% if multiple %}
        <div{{ attributes.addClass(classes, 'field__items') }}>
            {% for item in items %}
@@ -92,7 +93,8 @@ We will go from this (notice all the extra <div>s)
        </div>
        {% endif %}
    </div>
-{% endif %}</code>
+{% endif %}
+~~~
 
 
 And we should do three things:
@@ -100,7 +102,7 @@ And we should do three things:
 2. Send it through a raw filter, and
 3. Surround it with <style> tags so we will go to this >
 
-<code>
+~~~
 <style>
 {% if label_hidden %}
    {% if multiple %}
@@ -122,10 +124,11 @@ And we should do three things:
        {% endif %}
 {% endif %}
 </style>
-</code>
+~~~
 
 Then we get in output:
-<code>
+
+~~~
 <!-- THEME DEBUG -->
 <!-- THEME HOOK: 'field' -->
 <!-- FILE NAME SUGGESTIONS:
@@ -145,7 +148,7 @@ min-height: 350px;
 }
 </style>
 <!-- END OUTPUT from 'themes/custom/example/templates/field/field--node--field-inline-css--landing-page.html.twig' -->
-</code>
+~~~
 
 Tada! The CSS shows up ready to use on the page! The same technique can be used to allow content editors to put JavaScript on the page! Instead of putting <style> tags around the template, make it <script> tags instead.
 
