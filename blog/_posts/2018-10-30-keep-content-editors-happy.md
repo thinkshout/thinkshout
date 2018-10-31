@@ -28,7 +28,9 @@ To make this happen, first make a raw field formatter.
 
 ![Raw Text Format](/assets/images/blog/Add_a_raw_text_format.png)
 {:.center}
+
 AND....
+
 ![No Filters Enabled](/assets/images/blog/No_filters_enabled.png)
 {:.center}
 
