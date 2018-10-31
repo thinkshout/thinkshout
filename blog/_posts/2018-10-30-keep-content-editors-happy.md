@@ -24,9 +24,15 @@ This technically savvy client wants a way to add existing JavaScript and CSS to 
 
 To make this happen, first make a raw field formatter.
 - Go to Configuration > Content authoring > Text formats and editors.
-- Add a new text format called “Raw”. None of the filters should be enabled since this will be raw output. <Add_a_raw_text_format.png> and <No_filters_enabled.png>
+- Add a new text format called “Raw”. None of the filters should be enabled since this will be raw output. ![Raw Text Format](/assets/images/blog/Add_a_raw_text_format.png)
+{:.left} and ![No Filters Enabled](/assets/images/blog/No_filters_enabled.png)
+{:.right}
 
-Since our client wants to add raw css and javascript to landing pages, we will create a field on the ‘landing page’ content type. It will be Text (formatted, long) and label “Inline CSS”. We will limit it to just one on the page. <Add_field_inline_css.png> Have it use the Raw text format from the last step. You can limit the field to only this format by installing the package
+Since our client wants to add raw css and javascript to landing pages, we will create a field on the ‘landing page’ content type. It will be Text (formatted, long) and label “Inline CSS”. We will limit it to just one on the page.
+![Add field inline](/assets/images/blog/Add_field_inline_css.png)
+{:.center}
+
+Have it use the Raw text format from the last step. You can limit the field to only this format by installing the package
 
 Composer require drupal/allowed_formats
 
@@ -34,16 +40,20 @@ Be sure to check the “Raw” box on the field page and *save it.*
 
 Now make sure our field is being output.
 - Go to Admin > Structure > Types > Manage > Landing page > Display > Full
-- Make sure it is enabled and the label is hidden. It should be output in the default format. <Make_sure_inline_css_is_displayed.png>
+- Make sure it is enabled and the label is hidden. It should be output in the default format.
+
+![Inline css displayed](/assets/images/blog/Make_sure_inline_css_is_displayed.png)
+{:.center}
 
 Visit a landing page content form by going to Manage > Content > Add content > Landing Page, and put some real css in our new field:
-<Add_map_background_raw_css.png>
+![Add map background raw](/assets/images/blog/Add_map_background_raw_css.png)
+{:.center}
 
 We also provide a WYSIWYG place to enter HTML. In this case we need some HTML, perhaps a div, with class=‘map’.
 
-We’re not finished yet! We need to provide a twig template. Look at the output HTML. We get
+We’re not finished yet! We need to provide a twig template. Look at the output HTML. We get:
 
-~~~
+~~~html
 <!-- THEME DEBUG -->
 <!-- THEME HOOK: 'field' -->
 <!-- FILE NAME SUGGESTIONS:
@@ -63,11 +73,11 @@ min-height: 350px;
 <!-- END OUTPUT from 'core/themes/classy/templates/field/field--text-long.html.twig' -->
 ~~~
 
-in our output! Notice the <div> surrounding our CSS! We don’t want that! So it’s time to create a Twig template without extra div’s. One that will output raw CSS.
+in our output! Notice the `<div>` surrounding our CSS! We don’t want that! So it’s time to create a Twig template without extra div’s. One that will output raw CSS.
 
-We will go from this (notice all the extra <div>s)
+We will go from this (notice all the extra `<div>`s)
 
-~~~
+~~~html
 {% if label_hidden %}
    {% if multiple %}
        <div{{ attributes.addClass(classes, 'field__items') }}>
@@ -98,11 +108,11 @@ We will go from this (notice all the extra <div>s)
 
 
 And we should do three things:
-1. Remove all <div> tags,
+1. Remove all `<div>` tags,
 2. Send it through a raw filter, and
-3. Surround it with <style> tags so we will go to this >
+3. Surround it with `<style>` tags so we will go to this >
 
-~~~
+~~~html
 <style>
 {% if label_hidden %}
    {% if multiple %}
@@ -128,7 +138,7 @@ And we should do three things:
 
 Then we get in output:
 
-~~~
+~~~html
 <!-- THEME DEBUG -->
 <!-- THEME HOOK: 'field' -->
 <!-- FILE NAME SUGGESTIONS:
@@ -150,6 +160,6 @@ min-height: 350px;
 <!-- END OUTPUT from 'themes/custom/example/templates/field/field--node--field-inline-css--landing-page.html.twig' -->
 ~~~
 
-Tada! The CSS shows up ready to use on the page! The same technique can be used to allow content editors to put JavaScript on the page! Instead of putting <style> tags around the template, make it <script> tags instead.
+Tada! The CSS shows up ready to use on the page! The same technique can be used to allow content editors to put JavaScript on the page! Instead of putting `<style>` tags around the template, make it `<script>` tags instead.
 
 Make sure you meet your content editors where they are, give them tools they can use but don’t use this technique with novice or non-technical content editors.
