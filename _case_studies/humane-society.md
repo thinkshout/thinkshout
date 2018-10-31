@@ -15,13 +15,13 @@ cs-class: "hsus"
 cs-preview:
   image: /assets/images/work/hsus/hsus_case-study-hero.jpg
   type: Responsive Drupal Site
-  client: "Teaching Tolerance"
-  description: "Dedicated to educating young people to become active participants in a diverse democracy."
+  client: "Humane Society of the United States"
+  description: "Turning passion into action with the nation’s most effective animal protection organization."
 
 cs-header:
   header-image: /assets/images/work/hsus/hsus_case-study-hero.jpg
-  client: "Teaching Tolerance"
-  title: "Dedicated to educating young people to become active participants in a diverse democracy."
+  client: "Humane Society of the United States"
+  title: "Turning passion into action with the nation’s most effective animal protection organization."
 
 cs-intro:
   type: "Humane Society of the United States"
