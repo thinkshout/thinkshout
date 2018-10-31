@@ -28,16 +28,17 @@ To make this happen, first make a raw field formatter.
 
 ![Raw Text Format](/assets/images/blog/Add_a_raw_text_format.png)
 {:.center}
-
-AND....
+<span class="caption"><i class="fa fa-caret-up"></i>Adding in raw text format</span>
 
 ![No Filters Enabled](/assets/images/blog/No_filters_enabled.png)
 {:.center}
+<span class="caption"><i class="fa fa-caret-up"></i>AND...No filters enabled!</span>
 
 Since our client wants to add raw css and javascript to landing pages, we will create a field on the ‘landing page’ content type. It will be Text (formatted, long) and label “Inline CSS”. We will limit it to just one on the page.
 
 ![Add field inline](/assets/images/blog/Add_field_inline_css.png)
 {:.center}
+<span class="caption"><i class="fa fa-caret-up"></i>Add field inline css</span>
 
 Have it use the Raw text format from the last step. You can limit the field to only this format by installing the package
 
@@ -51,11 +52,13 @@ Now make sure our field is being output.
 
 ![Inline css displayed](/assets/images/blog/Make_sure_inline_css_is_displayed.png)
 {:.center}
+<span class="caption"><i class="fa fa-caret-up"></i>Making sure inline css is displayed</span>
 
 Visit a landing page content form by going to Manage > Content > Add content > Landing Page, and put some real css in our new field:
 
 ![Add map background raw](/assets/images/blog/Add_map_background_raw_css.png)
 {:.center}
+<span class="caption"><i class="fa fa-caret-up"></i>Adding map background raw</span>
 
 We also provide a WYSIWYG place to enter HTML. In this case we need some HTML, perhaps a div, with class=‘map’.
 
