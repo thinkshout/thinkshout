@@ -24,11 +24,16 @@ This technically savvy client wants a way to add existing JavaScript and CSS to 
 
 To make this happen, first make a raw field formatter.
 - Go to Configuration > Content authoring > Text formats and editors.
-- Add a new text format called “Raw”. None of the filters should be enabled since this will be raw output. ![Raw Text Format](/assets/images/blog/Add_a_raw_text_format.png)
-{:.left} and ![No Filters Enabled](/assets/images/blog/No_filters_enabled.png)
-{:.right}
+- Add a new text format called “Raw”. None of the filters should be enabled since this will be raw output.
+
+![Raw Text Format](/assets/images/blog/Add_a_raw_text_format.png)
+{:.center}
+AND....
+![No Filters Enabled](/assets/images/blog/No_filters_enabled.png)
+{:.center}
 
 Since our client wants to add raw css and javascript to landing pages, we will create a field on the ‘landing page’ content type. It will be Text (formatted, long) and label “Inline CSS”. We will limit it to just one on the page.
+
 ![Add field inline](/assets/images/blog/Add_field_inline_css.png)
 {:.center}
 
@@ -46,6 +51,7 @@ Now make sure our field is being output.
 {:.center}
 
 Visit a landing page content form by going to Manage > Content > Add content > Landing Page, and put some real css in our new field:
+
 ![Add map background raw](/assets/images/blog/Add_map_background_raw_css.png)
 {:.center}
 
