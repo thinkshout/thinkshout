@@ -2,10 +2,10 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study clc
-active: true
-homepage: true
+active: false
+homepage: false
 published: true
-order: 1
+order: 5
 # END LAYOUT DATA
 
 title: Fighting for every American to meaningfully participate in the political process.
@@ -91,7 +91,7 @@ cs-sections:
 
       Site speed was another area of focus as it's demanding more and more attention from organizations we work with. M+R dedicated an entire section of their [2018 Benchmarks study](https://mrbenchmarks.com/#!/speed) to site speed, saying that “a one-second delay in page load time can lead to an 11% decrease in traffic, and significantly fewer conversions.” A drop in traffic like that isn’t something to gamble with if you’re a nonprofit seeking supporters and advocates.
 
-      So we made tweaks to make pages load faster through asynchronous loading of some items, using every caching option available to us--including Pantheon’s advanced page cache. We also made sure all images were scaled to a reasonable size. We also conducted basic load testing to make doubly sure CLC can handle a large amount of traffic, which is extremely vital for when they’re mentioned in the news or receive any type of national coverage. 
+      So we made tweaks to make pages load faster through asynchronous loading of some items, using every caching option available to us--including Pantheon’s advanced page cache. We also made sure all images were scaled to a reasonable size. We also conducted basic load testing to make doubly sure CLC can handle a large amount of traffic, which is extremely vital for when they’re mentioned in the news or receive any type of national coverage.
 
       In our testing of the live site (using Google's Lighthouse), the homepage consistently loads within 0.25 seconds (the measure is [Consistently Interactive](https://developers.google.com/web/tools/lighthouse/audits/consistently-interactive)). We do want to note, this load time varies depending on the strength and speed of your internet connection.
 
