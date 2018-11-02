@@ -77,7 +77,7 @@ cs-sections:
       We embraced the fact that these are long, difficult fights, and they aren’t going to get solved overnight. But when progress is made on policies or the needle moves in favor of these big fights, it will be easier for people to know it and see it surfaced on the site.
 
 
-  - section-image: "/assets/images/work/hsus_howyoucanhelp.jpg"
+  - section-image: "/assets/images/work/hsus/hsus_howyoucanhelp.jpg"
     section-image-alt: "How you can help"
 
 
@@ -88,7 +88,7 @@ cs-sections:
       Even more to the point, the mobile templates were a usability stopgap, in that they may have stacked columns and revised font sizes. They did not address the core challenges of contextual navigation and content hierarchies that are the hallmark of good responsive design.
 
 
-  - section-image: "/assets/images/work/hsus_victories.jpg"
+  - section-image: "/assets/images/work/hsus/hsus_victories.jpg"
     section-image-alt: "Our Impact"   
 
   - section-title:
