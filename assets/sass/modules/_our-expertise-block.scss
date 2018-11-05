@@ -37,11 +37,17 @@
 
   .our-services-block {
     @include span-columns(3);
-    @include omega(5n);
-    max-width: rem(250);
+    margin-right: 0;
+    float: none;
 
-    @include mq(m) { @include span-columns(12); max-width: none; }
-    @include mq(t) { @include span-columns(6); @include omega(3n); }
+    @include mq(m) {
+      @include span-columns(12);
+    }
+    @include mq(t) {
+      @include span-columns(6);
+      margin-right: 0;
+      float: none;
+    }
 
   h2 {
     color: $darkgray;
