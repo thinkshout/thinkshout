@@ -90,6 +90,7 @@ in our output! Notice the `<div>` surrounding our CSS! We don’t want that! So 
 We will go from this (notice all the extra `<div>`s)
 
 ~~~html
+{% raw %}
 {% if label_hidden %}
    {% if multiple %}
        <div{{ attributes.addClass(classes, 'field__items') }}>
@@ -116,6 +117,7 @@ We will go from this (notice all the extra `<div>`s)
        {% endif %}
    </div>
 {% endif %}
+{% endraw %}
 ~~~
 
 
@@ -125,6 +127,7 @@ And we should do three things:
 3. Surround it with `<style>` tags so we will go to this >
 
 ~~~html
+{% raw %}
 <style>
 {% if label_hidden %}
    {% if multiple %}
@@ -146,6 +149,7 @@ And we should do three things:
        {% endif %}
 {% endif %}
 </style>
+{% endraw %}
 ~~~
 
 Then we get in output:
