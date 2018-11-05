@@ -25,6 +25,12 @@
 .our-services {
   padding-bottom: 3rem;
 
+  .container.case-studies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
   @include mq(m) { padding: 2rem 0; }
   @include mq(t) { padding: 3rem 0; }
   @include mq(md) { padding: 3rem 0; }
@@ -32,8 +38,9 @@
   .our-services-block {
     @include span-columns(3);
     @include omega(5n);
+    max-width: rem(250);
 
-    @include mq(m) { @include span-columns(12); }
+    @include mq(m) { @include span-columns(12); max-width: none; }
     @include mq(t) { @include span-columns(6); @include omega(3n); }
 
   h2 {

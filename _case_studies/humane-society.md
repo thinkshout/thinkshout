@@ -5,11 +5,11 @@ body-class: case-study hsus
 active: true
 homepage: true
 published: true
+image: /assets/images/work/hsus/hsus_casestudyhero.jpg
 order: 1
 # END LAYOUT DATA
 
 title: Turning passion into action with the nation’s most effective animal protection organization.
-
 cs-class: "hsus"
 
 cs-preview:
@@ -68,7 +68,7 @@ cs-sections:
       All the while when we were working on the direction of the site and the user’s journey, the Humane Society was working on a rebrand. A transition from complex to clear, from similar to distinct, and from quiet to energized requires bold design. The new humanesociety.org delivers just that with a huge investment in content — video, personal narrative, vibrant personalities, and a sense of place everywhere The HSUS works, which is pretty much everywhere.
 
   - section-image: "/assets/images/work/hsus/hsus_donatemobile.jpg"
-    section-image-alt: "Donate Mobile"   
+    section-image-alt: "Donate Mobile"
 
   - section-title:
     section-description: |
@@ -89,14 +89,14 @@ cs-sections:
 
 
   - section-image: "/assets/images/work/hsus/hsus_victories.jpg"
-    section-image-alt: "Our Impact"   
+    section-image-alt: "Our Impact"
 
   - section-title:
     section-description: |
       Content on the new HSUS site was designed for mobile interaction from the ground up. By focusing on positive user flow through the site and defining clear goals for every interface, we designed an experience that is at least as delightful on a small screen as it will be for visitors on large displays.
 
   - section-title: Toward a More Humane Society
-    section-description: |    
+    section-description: |
       Our journey began by examining the data and connecting with real users to learn how visitors experienced the HSUS website. Armed with new insight, we developed a bold, story-driven, action-packed site that elevates the organization’s new brand. Along with our friends at the Humane Society (and our animal friends around the world), we look forward to engaging a whole new generation of HSUS supporters and creating opportunities for any visitor to become a hero the instant they are inspired to take action.
 
 cs-cta-text: Launch Site

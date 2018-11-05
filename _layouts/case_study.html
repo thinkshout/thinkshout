@@ -73,11 +73,13 @@ layout: default
     <div class="our-services">
       <div class="container">
         <h1>Other work</h1>
+      </div>
+      <div class="container case-studies">
         {% assign case-studies = site.case_studies | where: "active", "true" | sort: "order" %}
         {% for case in case-studies %}
         {% if case.url != page.url %}
           <div class="our-services-block">
-            <a href="{{ site.baseurl }}{{ case.url }}"><h2>{{ case.title }}</h2></a>
+            <a href="{{ site.baseurl }}{{ case.url }}"><h2>{{ case.cs-header.client }}</h2></a>
             <p>{{ case.cs-preview.description }}</p>
           </div>
         {% endif %}

@@ -6034,6 +6034,10 @@ header {
 
 .our-services {
   padding-bottom: 3rem; }
+  .our-services .container.case-studies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
   @media (max-width: 480px) {
     .our-services {
       padding: 2rem 0; } }
@@ -6047,7 +6051,8 @@ header {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 23.23176%; }
+    width: 23.23176%;
+    max-width: 15.625rem; }
     .our-services .our-services-block:last-child {
       margin-right: 0; }
     .our-services .our-services-block:nth-child(5n) {
@@ -6059,7 +6064,8 @@ header {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 100%; }
+        width: 100%;
+        max-width: none; }
         .our-services .our-services-block:last-child {
           margin-right: 0; } }
     @media (min-width: 481px) and (max-width: 979px) {
