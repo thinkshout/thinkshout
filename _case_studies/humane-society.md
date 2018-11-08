@@ -33,7 +33,7 @@ cs-sections:
     section-description: |
       Since its founding in 1954, the Humane Society of the United States has fought the fights that only it could fight, taking on powerful forces and root causes that threaten the welfare of animals.The organization works directly to impact policies and systemic animal welfare issues. Their most important goal is to prevent animals from getting into situations of distress in the first place. They drive transformational change for animals—bringing a wide set of tools to take on the biggest fights, confronting multibillion dollar industries and staying the course until they achieve reform.
 
-  - section-image: "/assets/images/work/hsus/hsus_fighthomehero.jpg"
+  - section-image: "/assets/images/work/hsus/hsus_fight-for-all-animals.jpg"
     section-image-alt: "HSUS home page"
 
   - section-title: The Power of Simplicity
@@ -45,7 +45,7 @@ cs-sections:
       Through our discovery and content audit of the site, we found that much of the existing traffic to humanesociety.org came from people searching for tips, tricks, and resources for treating animals more humanely. That’s a great starting point, but we discovered that the content they were finding often served as a dead end — they found what they might have been looking for in the moment, but we missed the opportunity to engage them on the broader mission. And so one of our early insights was born: people start their journey with The Humane Society of the United States through the a love of one animal, and by connecting them with the underlying issue, we invite them to participate in a larger story.
 
 
-  - section-image: "/assets/images/work/hsus/hsus_trophyhunting.jpg"
+  - section-image: "/assets/images/work/hsus/hsus_end-trophy-hunting.jpg"
     section-image-alt: "Ban Trophy Hunting"
 
   - section-title:
@@ -67,7 +67,7 @@ cs-sections:
     section-description: |
       All the while when we were working on the direction of the site and the user’s journey, the Humane Society was working on a rebrand. A transition from complex to clear, from similar to distinct, and from quiet to energized requires bold design. The new humanesociety.org delivers just that with a huge investment in content — video, personal narrative, vibrant personalities, and a sense of place everywhere The HSUS works, which is pretty much everywhere.
 
-  - section-image: "/assets/images/work/hsus/hsus_donatemobile.jpg"
+  - section-image: "/assets/images/work/hsus/hsus_work-donate-stop.jpg"
     section-image-alt: "Donate Mobile"
 
   - section-title:
@@ -77,7 +77,7 @@ cs-sections:
       We embraced the fact that these are long, difficult fights, and they aren’t going to get solved overnight. But when progress is made on policies or the needle moves in favor of these big fights, it will be easier for people to know it and see it surfaced on the site.
 
 
-  - section-image: "/assets/images/work/hsus/hsus_howyoucanhelp.jpg"
+  - section-image: "/assets/images/work/hsus/hsus_how-you-can-help.jpg"
     section-image-alt: "How you can help"
 
 
@@ -88,7 +88,7 @@ cs-sections:
       Even more to the point, the mobile templates were a usability stopgap, in that they may have stacked columns and revised font sizes. They did not address the core challenges of contextual navigation and content hierarchies that are the hallmark of good responsive design.
 
 
-  - section-image: "/assets/images/work/hsus/hsus_victories.jpg"
+  - section-image: "/assets/images/work/hsus/hsus_impact.jpg"
     section-image-alt: "Our Impact"
 
   - section-title:
