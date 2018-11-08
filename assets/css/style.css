@@ -6034,6 +6034,10 @@ header {
 
 .our-services {
   padding-bottom: 3rem; }
+  .our-services .container.case-studies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
   @media (max-width: 480px) {
     .our-services {
       padding: 2rem 0; } }
@@ -6047,13 +6051,11 @@ header {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 23.23176%; }
+    width: 23.23176%;
+    margin-right: 0;
+    float: none; }
     .our-services .our-services-block:last-child {
       margin-right: 0; }
-    .our-services .our-services-block:nth-child(5n) {
-      margin-right: 0; }
-    .our-services .our-services-block:nth-child(5n+1) {
-      clear: left; }
     @media (max-width: 480px) {
       .our-services .our-services-block {
         float: left;
@@ -6067,13 +6069,11 @@ header {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 48.82117%; }
+        width: 48.82117%;
+        margin-right: 0;
+        float: none; }
         .our-services .our-services-block:last-child {
-          margin-right: 0; }
-        .our-services .our-services-block:nth-child(3n) {
-          margin-right: 0; }
-        .our-services .our-services-block:nth-child(3n+1) {
-          clear: left; } }
+          margin-right: 0; } }
     .our-services .our-services-block h2 {
       color: #58585b;
       font-size: 1.375rem; }

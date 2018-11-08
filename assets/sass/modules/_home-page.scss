@@ -15,7 +15,7 @@
     @include mq(l) { padding: 10rem 0 11rem 0; }
 
     &:after {
-      background: url('../images/ts_redesign/tolerance-nominated-for-webby.jpg') 75% top no-repeat;
+      background: url('../images/ts_redesign/hsus_thinkshout-homehero.jpg') 75% top no-repeat;
       background-size: cover;
       content: "";
       display: block;
@@ -69,7 +69,7 @@
         margin-right: auto;
       }
 
-      @include mq(m) { 
+      @include mq(m) {
         h1 {
           font-size: 4rem;
           line-height: 80px;

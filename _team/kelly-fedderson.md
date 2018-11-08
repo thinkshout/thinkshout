@@ -14,8 +14,8 @@ team-image:
   small: team/small/kelly-sm.jpg
   medium: team/medium/kelly-md.jpg
   large: team/large/kelly-lg.jpg
-published: true
-current-employee: true
+published: false
+current-employee: false
 name: kelly
 bio: |
   Kelly joins the ranks of our staff that come from the nonprofit sector. She largely focused on civic engagement and building community capacity for social change. While at a local grantmaking nonprofit, she worked with the leadership team and broader community to integrate diversity, equity, and inclusion principles into all components of their grantmaking process. This change management process included refining the funding criteria to prioritize projects led by or in collaboration with historically marginalized populations, using targeted outreach and offering technical support to bring in attract new grant applicants, increasing the accessibility of program materials, and recruiting diverse grant selection committee members. She also implemented systems which allowed the organization to define and measure success.

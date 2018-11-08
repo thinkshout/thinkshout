@@ -12,6 +12,7 @@ tags:
   - Drupal Planet
   - Drupal
   - Luminate
+  - CMS
   - CSS
   - Javascript
   - Content Editors
