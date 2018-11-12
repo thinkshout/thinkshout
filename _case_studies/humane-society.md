@@ -31,7 +31,7 @@ cs-intro:
 cs-sections:
   - section-title:
     section-description: |
-      Since its founding in 1954, the Humane Society of the United States has fought the fights that only it could fight, taking on powerful forces and root causes that threaten the welfare of animals.The organization works directly to impact policies and systemic animal welfare issues. Their most important goal is to prevent animals from getting into situations of distress in the first place. They drive transformational change for animals—bringing a wide set of tools to take on the biggest fights, confronting multibillion dollar industries and staying the course until they achieve reform.
+      Since its founding in 1954, the Humane Society of the United States has fought the fights that only it could fight, taking on powerful forces and root causes that threaten the welfare of animals. The organization works directly to impact policies and systemic animal welfare issues. Their most important goal is to prevent animals from getting into situations of distress in the first place. They drive transformational change for animals—bringing a wide set of tools to take on the biggest fights, confronting multibillion dollar industries and staying the course until they achieve reform.
 
   - section-image: "/assets/images/work/hsus/hsus_fight-for-all-animals.jpg"
     section-image-alt: "HSUS home page"
