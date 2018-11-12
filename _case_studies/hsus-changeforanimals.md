@@ -15,12 +15,12 @@ cs-class: "hsus-change"
 cs-preview:
   image: /assets/images/ts_redesign/case-studies/hsus-changeforanimals/hsus-cat.jpg
   type: Advocates for Animal Rights
-  client: "The Humane Society of the United States"
+  client: "HSUS - Change for Animals"
   description: "A Digital Brochure in Honor of the 60th Anniversary of the Humane Society."
 
 cs-header:
   header-image: /assets/images/ts_redesign/case-studies/hsus-changeforanimals/hsus-cat.jpg
-  client: "HSUS - Change for Animals"
+  client: "The Humane Society of the United States"
   title: "A Digital Brochure in Honor of the 60th Anniversary of the Humane Society."
 
 
