@@ -5,11 +5,12 @@ body-class: case-study hsus-changeforanimals
 active: false
 homepage: true
 published: true
+image: /assets/images/ts_redesign/case-studies/hsus-changeforanimals/hsus-cat.jpg
 order: 5
 # END LAYOUT DATA
 
 title: "Transformational Change for Animals"
-cs-class: hsus
+cs-class: "hsus-change"
 
 cs-preview:
   image: /assets/images/ts_redesign/case-studies/hsus-changeforanimals/hsus-cat.jpg
@@ -19,7 +20,7 @@ cs-preview:
 
 cs-header:
   header-image: /assets/images/ts_redesign/case-studies/hsus-changeforanimals/hsus-cat.jpg
-  client: "The Humane Society of the United States"
+  client: "HSUS - Change for Animals"
   title: "A Digital Brochure in Honor of the 60th Anniversary of the Humane Society."
 
 
