@@ -11,7 +11,7 @@ social:
   linkedin: https://www.linkedin.com/in/nrackleff
   drupal: https://www.drupal.org/u/nrackleff
 team-image:
-  small: team/small/Nancy-sm.jpg
+  small: team/small/nancy-sm.jpg
   medium:
   large: team/large/Nancy.jpg
 published: true
