@@ -11,9 +11,9 @@ social:
   linkedin: www.linkedin.com/in/julialeahford
   drupal:
 team-image:
-  small: team/small/julia-sm.jpg
-  medium: team/medium/julia-md.jpg
-  large: team/large/julia-lg.jpg
+  small: team/small/Julia-sm.jpg
+  medium:
+  large: team/large/Julia.jpg
 published: true
 current-employee: true
 name: julia
