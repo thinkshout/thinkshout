@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Krista
 last_name: Van Veen
-position: Director of Human Resources
+position: Business Operations Manager
 leadin: |
   With a natural affinity for establishing operations procedures and a love for tech firms, Krista couldn’t feel more at home as at ThinkShout. She loves solving complex organizational problems, almost as much as she loves her chickens.
 social:

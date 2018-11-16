@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Maria
 last_name: Fisher
-position: Technical Architect
+position: Engineering Manager
 leadin: |
  Maria’s always had a knack for solving puzzles, and we think websites are basically puzzles, so she's good at those, too. She’s also pretty excited about all things open source. Who doesn't love free technology?
 social:
