@@ -13,13 +13,13 @@ cs-class: "anitab"
 
 cs-preview:
   image: /assets/images/work/anitab/anita-b-hero-image.jpg
-  type: "User and Landscape Research"
-  client: "anitab"
+  type: "AnitaB.org"
+  client: "AnitaB.org"
   description: "Leveraging User Research and Landscape Analysis to Know What Your Users Want and Need"
 
 cs-header:
   header-image: /assets/images/work/anitab/anita-b-hero-image.jpg
-  client: "anitab"
+  client: "AnitaB.org"
   title: "End the Guessing Game: How to Know What Your Users Really Want"
 
 cs-intro:
