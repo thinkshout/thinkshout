@@ -8,7 +8,6 @@ published: true
 order: 16
 # END LAYOUT DATA
 
-
 title: End the Guessing Game: How to Know What Your Users Really Want
 cs-class: "anitab"
 
@@ -106,5 +105,4 @@ cs-sections:
   - section-image:
     section-image-alt:
     section-image-caption: Strategic Services Utilized: User Research (Surveys, Interviews) | Landscape Analysis | Persona Development
-
 ---
