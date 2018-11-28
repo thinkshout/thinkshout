@@ -14,12 +14,12 @@ cs-class: "anitab"
 cs-preview:
   image: /assets/images/work/anitab/anita-b-hero-image.jpg
   type: "User and Landscape Research"
-  client: "AnitaB.org"
+  client: "anitab"
   description: "Leveraging User Research and Landscape Analysis to Know What Your Users Want and Need"
 
 cs-header:
   header-image: /assets/images/work/anitab/anita-b-hero-image.jpg
-  client: "AnitaB.org"
+  client: "anitab"
   title: "End the Guessing Game: How to Know What Your Users Really Want"
 
 cs-intro:
@@ -47,7 +47,7 @@ cs-sections:
 
   - section-title: Who Are Our Users
     section-description: |
-    
+
   - section-image: "/assets/images/work/anitab/anita-b-user-research.jpg"
     section-image-alt: "AnitaB WOC in Tech"
     section-image-caption: Photo Credit: wocintechchat.com | #WOCinTech Chat
