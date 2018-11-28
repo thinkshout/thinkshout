@@ -2,10 +2,10 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study anitab
-active: true 
+active: false
 homepage: false
 published: true
-order: 6
+order: 16
 # END LAYOUT DATA
 
 
