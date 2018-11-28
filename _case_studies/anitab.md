@@ -2,10 +2,10 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study anitab
-active: false
+active: true
 homepage: false
 published: true
-order: 16
+order: 26
 # END LAYOUT DATA
 
 title: End the Guessing Game: How to Know What Your Users Really Want
@@ -36,17 +36,18 @@ cs-sections:
       GHC is widely known in the tech community as an empowering, inspiring conference that provides support and validation to the experiences of women in tech -- which as a predominantly male industry, can be rather isolating as a woman/non-binary individual. Women forge lifelong connections at this conference and find themselves re-invigorated by the ideas and energy shared.
 
 cs-sections:
+
   - section-title: How to Create Community
-  section-description: |
+    section-description: |
         AnitaB.org wanted to find a way to sustain the energy and connections felt at GHC to make them last year-round. There are AnitaB.org local communities (online groups) in existence, but the success of these is varied and relies heavily on the participation of volunteers and local ambassadors. If a city has a highly engaged community leader, the group thrives...but if a city doesn’t have anyone willing to lead the charge, the group lies dormant and lacks purpose and engagement.
 
         Women find ways to keep in touch, but it is fractured across various platforms: slack, Instagram, Facebook, WhatsApp (for starters) -- and AnitaB.org wanted to be the glue that held it all together via a platform or online system, hosted by the organization themselves.
 
         But nobody wants another social network to check -- a service like this had to offer something that these other existing services didn’t. Jeanne Hultquist, Chief Marketing officer and project lead at AnitaB.org said it had to have a “stickiness” to it. So we set about to conduct user research to learn exactly what it was women technologists needed to be successful.
 
-cs-sections:
   - section-title: Who Are Our Users
     section-description: |
+    
   - section-image: "/assets/images/work/anitab/anita-b-user-research.jpg"
     section-image-alt: "AnitaB WOC in Tech"
     section-image-caption: Photo Credit: wocintechchat.com | #WOCinTech Chat
