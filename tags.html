@@ -1,0 +1,33 @@
+---
+layout: default
+title: All tags used on blog posts
+contact: false
+permalink: tags/
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="text">
+      <h1>All TS.com tags</h1>
+      <strong>Based on {{ site.posts | size }} blog posts.</strong><br>
+      <strong>Total tags: {{ site.tags | size }} </strong>
+      <ul>
+        {% capture counts_with_tags_string %}{% for tag in site.tags %}{{ tag[1] | size | prepend:"000000" | slice:-6,6 }}:{{ tag[0] }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+        {% assign counts_with_tags = counts_with_tags_string | split:"," | sort | reverse %}
+
+          {% for count_with_tag in counts_with_tags %}
+            {% assign posts = site.posts | size %}
+            {% assign tag = count_with_tag | split:":" | last %}
+            {% assign count = site.tags[tag] | size %}
+              {% if count > 0 %}
+                <li><a href="/blog/category/{{ tag | slugify }}" style="font-size: {{ count | times: 2 | plus: 80  }}%">{{ tag }}: {{ count }} 
+                  {% if count > 4 %}
+                    <span style="font-size:13px">({{ count | times: 100 | divided_by: posts }}%)</span>
+                  {% endif %}
+                  </a></li>
+              {% endif %}
+          {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
