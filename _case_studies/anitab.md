@@ -26,7 +26,7 @@ cs-intro:
   type: "AnitaB.org"
   mission:
   text: |
-       [AnitaB.org](https://anitab.org/) is an organization that provides resources and support to women in technology. Their premier event is their annual conference - [The Grace Hopper Celebration](https://ghc.anitab.org/) (GHC). This conference is attended by thousands of women in tech (and to a smaller degree, male allies) with over 18,000 attendees. The conference is known as an empowering, inspiring conference that provides support and validation to the experiences of women in tech -- which as a predominantly male industry, can be rather isolating as a woman/non-binary individual. Women forge lifelong connections at this conference and find themselves re-invigorated by the ideas and energy shared. They wanted to help women in tech beyond their current offerings, but to do that, they had to know what women in tech wanted. Our partnership delved into the research that helped them answer this question.
+       [AnitaB.org](https://anitab.org/) is an organization that provides resources and support to women in technology. Their premier event is their annual conference - [The Grace Hopper Celebration](https://ghc.anitab.org/) (GHC). This conference is attended by women in tech (and to a smaller degree, male allies) with over 18,000 attendees. The conference is known as an empowering, inspiring conference that provides support and validation to the experiences of women in tech -- which as a predominantly male industry, can be rather isolating for women and non-binary individuals. Attendees forge lifelong connections at this conference and find themselves re-invigorated by the ideas and energy shared. They wanted to help women in tech beyond their current offerings, but to do that, they had to know what women in tech wanted. Our partnership delved into the research that helped them answer this question.
 
 cs-sections:
   - section-title: How to Create Community
@@ -61,14 +61,14 @@ cs-sections:
         * Access to resources and support
         * Ways to connect with and access more women in your field
 
-      In addition to learning more about what women in tech really needed, this research fed into defined personas: the high priority audiences that it would be important to AnitaB.org to address. These personas contained trends in needs, motivations, challenges, and success states. Below are sample narratives that emerged for the personas of Mothers in Tech and Mid-career individuals.
+      In addition to learning more about what women in tech really needed, this research fed into defined personas: the high priority audiences that it would be important to AnitaB.org to address. These personas contained trends in needs, motivations, challenges, and success states. Below are sample narratives that emerged for the personas of Mothers in Tech.
 
   - section-image: "/assets/images/work/anitab/AnitaB-Persona.png"
     section-image-alt: "Persona example from AnitaB.org"
 
   - section-title: Who Else is Creating Community?
     section-description: |
-      Alongside the user research we were conducting, we also ran a [landscape analysis](https://thinkshout.com/blog/2018/05/Landscape-Analysis/) to determine who else in the sector was maintaining a sense of community, and doing so successfully. We started with broad reviews of sites, apps, and community platforms that were doing some form of what we wanted to achieve: Connecting people in meaningful ways.
+      Alongside the user research, we also ran a [landscape analysis](https://thinkshout.com/blog/2018/05/Landscape-Analysis/) to determine who else in the sector was maintaining a sense of community, and doing so successfully. We started with broad reviews of sites, apps, and community platforms that were doing some form of what we wanted to achieve: Connecting people in meaningful ways.
 
       We also wanted to make note of features and functionality within tools and platforms that we could improve upon, as well as identify gaps in the landscape where AnitaB.org could fulfill a need. It’s known to many as a basic SWOT analysis (Strengths, Weaknesses, Opportunities, and Threats).
 
