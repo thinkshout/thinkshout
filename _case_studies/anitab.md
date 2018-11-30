@@ -26,9 +26,7 @@ cs-intro:
   type: "AnitaB.org"
   mission:
   text: |
-       [AnitaB.org](https://anitab.org/) is an organization that provides resources and support to women in technology. Their premier event is their annual conference - [The Grace Hopper Celebration](https://ghc.anitab.org/) (GHC). This conference is attended by thousands of women in tech (and to a smaller degree, male allies) with over 18,000 attendees.
-
-      GHC is widely known in the tech community as an empowering, inspiring conference that provides support and validation to the experiences of women in tech -- which as a predominantly male industry, can be rather isolating as a woman/non-binary individual. Women forge lifelong connections at this conference and find themselves re-invigorated by the ideas and energy shared.They wanted to help women in tech beyond their current offerings, but to do that, they had to know what women in tech wanted. Our partnership delved into the research that helped them answer this question.
+       [AnitaB.org](https://anitab.org/) is an organization that provides resources and support to women in technology. Their premier event is their annual conference - [The Grace Hopper Celebration](https://ghc.anitab.org/) (GHC). This conference is attended by thousands of women in tech (and to a smaller degree, male allies) with over 18,000 attendees. The conference is known as an empowering, inspiring conference that provides support and validation to the experiences of women in tech -- which as a predominantly male industry, can be rather isolating as a woman/non-binary individual. Women forge lifelong connections at this conference and find themselves re-invigorated by the ideas and energy shared. They wanted to help women in tech beyond their current offerings, but to do that, they had to know what women in tech wanted. Our partnership delved into the research that helped them answer this question.
 
 cs-sections:
   - section-title: How to Create Community
