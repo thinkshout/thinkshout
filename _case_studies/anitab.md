@@ -70,7 +70,7 @@ cs-sections:
 
       In addition to learning more about what women in tech really needed, this research fed into defined personas: the high priority audiences that it would be important to AnitaB.org to address. These personas contained trends in needs, motivations, challenges, and success states. Below are sample narratives that emerged for the personas of Mothers in Tech and Mid-career individuals.
 
-  - section-image: "/assets/images/work/anitab/AnitaB-persona.png"
+  - section-image: "/assets/images/work/anitab/AnitaB-Persona.png"
     section-image-alt: "Persona example from AnitaB.org"
 
   - section-title: Who Else is Creating Community?
