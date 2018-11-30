@@ -8,7 +8,7 @@ published: true
 order: 26
 # END LAYOUT DATA
 
-title: End the Guessing Game: How to Know What Your Users Really Want
+title: "End the Guessing Game: How to Know What Your Users Really Want"
 cs-class: "anitab"
 
 cs-preview:
@@ -49,24 +49,24 @@ cs-sections:
 
   - section-image: "/assets/images/work/anitab/anita-b-user-research.jpg"
     section-image-alt: "AnitaB WOC in Tech"
-    section-image-caption: Photo Credit: wocintechchat.com | #WOCinTech Chat
+    section-image-caption: "Photo Credit: wocintechchat.com | #WOCinTech Chat"
 
   - section-title:
     section-description: |
       Our projects always start by learning as much as we can about our partner and their goals for a project. In an onsite session with the AnitaB team, a lot of ideas came out for what a networking platform would contain:
 
-          - Job boards
-          - Facilitating connections
-          - Resources
-          - Access to events
+        * Job boards
+        * Facilitating connections
+        * Resources
+        * Access to events
 
       But we knew from past projects that what an organization wants isn’t always what _its audience_ wants. Jeanne knew this as well. So we set about to conduct extensive [user research](https://thinkshout.com/blog/2018/07/user-research/) to learn what it was that women in tech needed and wanted to feel successful and better supported.
 
       We combined research methods and held conversations with 17 women, 3 male allies, and distributed a survey to over 40,000 contacts in the AnitaB.org email list. As the interviews progressed, some clear patterns began to emerge about what women in tech want and need to feel successful:
 
-          - Mentorship (specifically from women who represent specific experiences and backgrounds)
-          - Access to resources and support
-          - Ways to connect with and access more women in your field
+        * Mentorship (specifically from women who represent specific experiences and backgrounds)
+        * Access to resources and support
+        * Ways to connect with and access more women in your field
 
       In addition to learning more about what women in tech really needed, this research fed into defined personas: the high priority audiences that it would be important to AnitaB.org to address. These personas contained trends in needs, motivations, challenges, and success states. Below are sample narratives that emerged for the personas of Mothers in Tech and Mid-career individuals.
 
@@ -75,7 +75,6 @@ cs-sections:
 
   - section-title: Who Else is Creating Community?
     section-description: |
-
       Alongside the user research we were conducting, we also ran a [landscape analysis](https://thinkshout.com/blog/2018/05/Landscape-Analysis/) to determine who else in the sector was maintaining a sense of community, and doing so successfully. We started with broad reviews of sites, apps, and community platforms that were doing some form of what we wanted to achieve: Connecting people in meaningful ways.
 
       We also wanted to make note of features and functionality within tools and platforms that we could improve upon, as well as identify gaps in the landscape where AnitaB.org could fulfill a need. It’s known to many as a basic SWOT analysis (Strengths, Weaknesses, Opportunities, and Threats).
@@ -84,7 +83,7 @@ cs-sections:
 
   - section-image: "/assets/images/work/anitab/anita-b-case-study-women-in-tech.jpg"
     section-image-alt: "WOCinTech"
-    section-image-caption: Photo Credit: wocintechchat.com | #WOCinTech Chat
+    section-image-caption: "Photo Credit: wocintechchat.com | #WOCinTech Chat"
 
   - section-title: The Recommendations
     section-description: |
@@ -95,14 +94,14 @@ cs-sections:
     section-image-caption: 3 Recommendations were to focus on Mentorship, Networking and Connections, and Knowledge Sharing.
 
   - section-title:
-    section-description: |  
-      In utilizing features we found across a variety of sites, platforms, and apps, we could borrow functionality that we liked and piece together the components of a platform that would serve this specific audience. And, even though implementation of a platform hasn't come to fruition, our findings have helped AnitaB.org re-shape GHC itself, as well as their marketing and engagement strategies.        
+    section-description: |
+      In utilizing features we found across a variety of sites, platforms, and apps, we could borrow functionality that we liked and piece together the components of a platform that would serve this specific audience. And, even though implementation of a platform hasn't come to fruition, our findings have helped AnitaB.org re-shape GHC itself, as well as their marketing and engagement strategies.
 
   - section-title: What We Learned
     section-description: |
       The greatest learning that happened in this entire project was seeing how the organization’s assumptions about their users compared to what people actually told us they wanted out of AnitaB.org. Whether you’re building a platform, designing a new site, or simply trying to learn more about your users; these research tools are invaluable in bridging those gaps and building relationships with your users. It can help you shape your content in more intentional ways, and lead your users towards deeper engagement through content that resonates with them.
 
-  - section-image:
-    section-image-alt:
-    section-image-caption: Strategic Services Utilized: User Research (Surveys, Interviews) | Landscape Analysis | Persona Development
+  - section-image: ""
+    section-image-alt: ""
+    section-image-caption: "Strategic Services Utilized: User Research (Surveys, Interviews) | Landscape Analysis | Persona Development"
 ---
