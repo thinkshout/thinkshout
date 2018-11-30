@@ -5,7 +5,7 @@ body-class: case-study clc
 active: false
 homepage: false
 published: true
-order: 5
+order: 6
 # END LAYOUT DATA
 
 title: Fighting for every American to meaningfully participate in the political process.

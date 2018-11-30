@@ -5,7 +5,8 @@ body-class: case-study anitab
 active: true
 homepage: false
 published: true
-order: 26
+order: 5
+image: https://thinkshout.com/assets/images/work/anitab/anita-b-hero-image.jpg
 # END LAYOUT DATA
 
 title: "End the Guessing Game: How to Know What Your Users Really Want"
