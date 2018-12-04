@@ -107,7 +107,7 @@ Many of the elements on the site needed grid to be applied first. However these 
 
 It took my team some acclimating to enter start and end column values for every element in every breakpoint necessary. Admittedly, it was a bit of a mind-bender at times. This especially took some getting used to since applying grid to a parent element will render all its children into a single column out of the box. It wasn’t long before this grid centering code appeared in the project, thanks to innovative thinking from Maria, Marlene, and Jules:
 
-![Center Columns](/assets/images/blog/center_columns.png)
+![Center Columns](/assets/images/blog/center-columns.png)
 {:.center}
 
 With that, a themer simply enters how many columns the centered element is wide and how many columns exist on the grid at that breakpoint. Voila, centered grid elements in no time flat!
