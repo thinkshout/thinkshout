@@ -2,7 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: technology
-title: Pixel Perfect Project Foundations`:` Part One of a Series
+title: 'Pixel Perfect Project Foundations: Part One of a Series'
 homepage: true
 author: amy
 published: true
