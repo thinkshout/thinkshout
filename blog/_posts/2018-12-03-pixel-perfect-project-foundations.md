@@ -16,11 +16,10 @@ tags:
   - CSS Grid Layout
   - Flexbox
 date: 2018-12-03 12:00:00
-image: https://thinkshout.com/assets/images/blog/Data-is-watching.jpg
-header-image: /assets/images/blog/Data-is-watching.jpg
+image: https://thinkshout.com/assets/images/blog/css-grid-layouts-03.jpg
+header-image: /assets/images/blog/css-grid-layouts-03.jpg
 header-image-alt: "Pixel Perfect Project Foundations"
 ---
-
 I used to draw a lot. I never thought of myself as a good artist, but I felt like I had a knack for replicating images, so I turned into a game. I’d say, “let’s see if I can take this small cell from my favorite comic and blow it up into a larger version of itself.” Take this for example:
 
 ![Alita as drawn by Amy](/assets/images/blog/alita.JPG)
@@ -66,7 +65,7 @@ You’re going to see a lot of Sass variables in these code examples, so this mi
 
 After creating the global grid, it dawned on me that I could create a visual grid fairly easily so my team and I could check our work against the exact line assignments. The idea came to me after I saw my teammate, Marlene, apply a Neat (of [Bourbon and Neat](https://neat.bourbon.io/docs/1.7.0/) CSS libraries) `visual-grid` to a previous project. So, I added a bit of markup to the `html.html.twig` template:
 
-![EU Graphic Explanation of GDPR](/assets/images/blog/checker_markup.png)
+![Checker Markup](/assets/images/blog/checker_markup.png)
 {:.center}
 
 My tech lead, Maria, loved the idea so she came up with a quick way for us to see the visual grid using a preprocess hook in the `.theme` file. All the team needed to do was apply `?show-grid=1` to the end of any of the site’s urls to check our work and see if it lined up:
