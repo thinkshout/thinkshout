@@ -2,22 +2,22 @@
 layout: blog
 body-class: blog-post
 topic: technology
-title: "Pixel Perfect Project Foundations: Part One of a Series"
+title: Pixel Perfect Project Foundations: Part One of a Series
 homepage: true
 author: amy
 published: true
 featured: true
 short: How to create websites that look good at any size, on any device.
 tags:
-  - Drupal Planet
-  - Drupal
   - Technology
+  - Drupal Planet
   - nptech
+  - Drupal
   - CSS Grid Layout
   - Flexbox
 date: 2018-12-03 12:00:00
-image: https://thinkshout.com/assets/images/blog/css-grid-layouts-03.jpg
-header-image: /assets/images/blog/css-grid-layouts-03.jpg
+image: https://thinkshout.com/assets/images/blog/pixel-perfect-design.jpg
+header-image: /assets/images/blog/pixel-perfect-design.jpg
 header-image-alt: "Pixel Perfect Project Foundations"
 ---
 I used to draw a lot. I never thought of myself as a good artist, but I felt like I had a knack for replicating images, so I turned into a game. I’d say, “let’s see if I can take this small cell from my favorite comic and blow it up into a larger version of itself.” Take this for example:
@@ -107,7 +107,7 @@ Many of the elements on the site needed grid to be applied first. However these 
 
 It took my team some acclimating to enter start and end column values for every element in every breakpoint necessary. Admittedly, it was a bit of a mind-bender at times. This especially took some getting used to since applying grid to a parent element will render all its children into a single column out of the box. It wasn’t long before this grid centering code appeared in the project, thanks to innovative thinking from Maria, Marlene, and Jules:
 
-![Center Columns](/assets/images/blog/center-columns.png)
+![Center Columns](/assets/images/blog/center_columns.png)
 {:.center}
 
 With that, a themer simply enters how many columns the centered element is wide and how many columns exist on the grid at that breakpoint. Voila, centered grid elements in no time flat!
