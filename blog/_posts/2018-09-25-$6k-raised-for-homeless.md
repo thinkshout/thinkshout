@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: culture
 title: More than a housewarming
-homepage: true
+homepage: false
 author: natania
 published: true
-featured: true
+featured: false
 short: Together, you helped us raise $6k for the homeless
 tags:
   - Community
