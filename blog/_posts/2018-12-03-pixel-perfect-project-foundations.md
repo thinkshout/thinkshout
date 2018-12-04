@@ -9,12 +9,12 @@ published: true
 featured: true
 short: How to create websites that look good at any size, on any device.
 tags:
-  - Technology
   - Drupal Planet
-  - nptech
   - Drupal
+  - Technology
+  - nptech
   - CSS Grid Layout
-  - Flexbox
+  - Felxbox
 date: 2018-12-03 12:00:00
 image: https://thinkshout.com/assets/images/blog/css-grid-layouts-03.jpg
 header-image: /assets/images/blog/css-grid-layouts-03.jpg
