@@ -1,7 +1,7 @@
 ---
 layout: teammember
 first_name: Amy
-last_name: Vaillancourt-Sals
+last_name: Swan
 position: Senior Software Engineer
 leadin: |
   Amy spent a good portion of her life advocating for the causes close to her heart, especially rights for independent musicians. Her knack for logic games led her to try programming, and she hasn’t looked back. She’s been searching for a place where she could apply her skills in web development to support those advocacy groups. She found it in ThinkShout.
@@ -9,9 +9,9 @@ social:
   github: https://github.com/AmyVS
   linkedin: http://www.linkedin.com/in/amyvs/
 team-image:
-  small: team/small/amy.jpg
+  small: team/small/Amy-sm.jpg
   medium: team/medium/amy.jpg
-  large: team/large/amy.jpg
+  large: team/large/Amy-lg.jpeg
 published: true
 current-employee: true
 name: amy
