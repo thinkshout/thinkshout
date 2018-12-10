@@ -11,7 +11,7 @@ social:
 team-image:
   small: team/small/Amy-sm.jpg
   medium: team/medium/amy.jpg
-  large: team/large/Amy-lg.jpg
+  large: team/large/Amy-lg.jpeg
 published: true
 current-employee: true
 name: amy
