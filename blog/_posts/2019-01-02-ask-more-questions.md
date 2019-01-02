@@ -7,7 +7,7 @@ homepage: true
 author: kate
 published: true
 featured: true
-short: When you don't know what drives your constituents, just ask!
+short: 'When you don't know what drives your constituents, just ask!'
 tags:
   - strategy
   - nptech
