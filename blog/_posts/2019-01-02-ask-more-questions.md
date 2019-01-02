@@ -22,6 +22,7 @@ image: https://thinkshout.com/assets/images/blog/ask-questions-header.jpg
 header-image: /assets/images/blog/ask-questions-header.jpg
 header-image-alt: "Ask More Questions"
 ---
+
 How often, during regularly scheduled meetings, does the following phrase get repeated?
 
 _“I wish we knew the answer to that, but we’d have to ask our audience. Let’s make a note to be sure to include it in our annual survey.”_
