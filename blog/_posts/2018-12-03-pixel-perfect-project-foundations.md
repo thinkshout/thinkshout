@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: technology
 title: 'Pixel Perfect Project Foundations: Part One of a Series'
-homepage: true
+homepage: false
 author: amy
 published: true
-featured: true
+featured: false
 short: How to create websites that look good at any size, on any device.
 tags:
   - Technology
