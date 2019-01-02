@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: tstrategy
+topic: strategy
 title: Ask More Questions
 homepage: true
 author: kate
