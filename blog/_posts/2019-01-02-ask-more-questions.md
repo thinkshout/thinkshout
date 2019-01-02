@@ -7,7 +7,7 @@ homepage: true
 author: kate
 published: true
 featured: true
-short: 'When you don't know what drives your constituents, just ask!'
+short: When you don't know what drives your constituents, just ask!
 tags:
   - strategy
   - nptech
@@ -22,10 +22,9 @@ image: https://thinkshout.com/assets/images/blog/ask-questions-header.jpg
 header-image: /assets/images/blog/ask-questions-header.jpg
 header-image-alt: "Ask More Questions"
 ---
-
 How often, during regularly scheduled meetings, does the following phrase get repeated?
 
-_“I wish we knew the answer to that, but we’d have to ask our audience. Let’s make a note to be sure to include it in our annual survey.”_
+_"I wish we knew the answer to that, but we’d have to ask our audience. Let’s make a note to be sure to include it in our annual survey."_
 
 Our guess is that it’s come up in the last month or so, if not the last week. The truth is that most nonprofits—or really any advocacy organizations operating through the lens of a theory of change—share the sense that the needs of our community members are shifting as quickly as the ever-shortening news cycle. (Sidenote: Can it get any shorter? When will “ever-shortening” short-circuit? We’re just wondering.)
 
