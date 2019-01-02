@@ -17,7 +17,7 @@ tags:
   - survey monkey
   - Google Forms
   - user research
-date: 2019-01-02 12:00:00
+date: 2019-01-02 11:00:00
 image: https://thinkshout.com/assets/images/blog/ask-questions-header.jpg
 header-image: /assets/images/blog/ask-questions-header.jpg
 header-image-alt: "Ask More Questions"
