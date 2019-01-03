@@ -2,7 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: technology
-title: "A Node by Any Other Name foo"
+title: A Node by Any Other Name
 homepage: false
 author: joe
 published: true
