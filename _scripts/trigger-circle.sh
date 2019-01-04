@@ -2,7 +2,7 @@
 
 # todo: use correct repo url for pull requests and forks
 
-REPO = "thinkshout/thinkshout"
+REPO="thinkshout/thinkshout"
 
 echo "Triggering Circle build against deployed url $DEPLOY_URL branch $BRANCH for $REPO"
 
