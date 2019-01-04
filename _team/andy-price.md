@@ -9,9 +9,9 @@ social:
   github:
   linkedin:
 team-image:
-  small: team/small/Andy-sm.jpg
-  medium: 
-  large: team/large/Andy.jpg
+  small: team/small/andy-sm.jpg
+  medium:
+  large: team/large/andy.jpg
 published: true
 current-employee: true
 name: andy

@@ -10,9 +10,9 @@ social:
   twitter: http://twitter.com/thomas_king
   linkedin: http://linkedin.com/in/thomasjosephking
 team-image:
-  small: team/small/Thomas-sm.jpg
+  small: team/small/thomas-sm.jpg
   medium:
-  large: team/large/Thomas.jpg
+  large: team/large/thomas.jpg
 published: true
 current-employee: true
 name: thomas
