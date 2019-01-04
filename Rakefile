@@ -19,11 +19,15 @@ task :install do
   system 'npm install -g browser-sync'
 end
 
-
 desc 'Build site with Jekyll'
 task :build do
   system 'bundle exec sass --update -r sass-globbing assets/sass:assets/css'
   system 'bundle exec jekyll build'
+end
+
+desc 'Trigger visual regression test'
+task :test do
+  system '_scripts/trigger-circle.sh'
 end
 
 desc 'Watch sass files'
