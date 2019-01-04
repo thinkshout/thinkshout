@@ -1,0 +1,40 @@
+[build]
+  publish = "_site"
+  command = "rake build"
+
+[build.environment]
+  JEKYLL_ENV = "production"
+
+[[redirects]]
+    /about		/values/
+    /expertise		/services/
+    /expertise/design		/services/design
+    /expertise/development		/services/development
+    /expertise/digital-strategy		/services/digital-strategy
+    /expertise/engagement-tools		/services/digital-ecosystem
+    /about/index.html		/values/
+    /expertise/index.html		/services/
+    /expertise/design/index.html		/services/design
+    /expertise/development/index.html		/services/development
+    /expertise/digital-strategy/index.html		/services/digital-strategy
+    /expertise/engagement-tools/index.html		/services/digital-ecosystem
+    /blog/feed		/rss.xml
+    /taxonomy/term/21/all/feed		/blog/category/drupal-planet/rss.xml
+    /portfolio		/work/
+    /contact		/
+    /home		/
+    /case-study/distribution-hosting-with-pantheon		/blog/2013/08/distribution-hosting-with-pantheon/
+    /portfolio/los-angeles-conservancy		/work/la-conservancy/
+    /portfolio/portland-design-works		/work/ridepdw/
+    /portfolio/environmental-defense-fund		/work/edf/
+    /portfolio/salmon-project		/work/the-salmon-project/
+    /portfolio/mailchimp		/work/mailchimp/
+    /blog/sean		/team/sean/
+    /blog/lev		/team/lev/
+    /blog/betsy		/team/betsy/
+    /blog/category/drupal-planet		/blog/category/drupal-planet/
+    /expertise/content-strategy		/services/digital-strategy/
+    /engage		/services/digital-strategy/
+
+    # Old site redirects
+    /sites/default/files/*      assets/images/old_site/:splat   301
