@@ -37,4 +37,4 @@
     /engage		/services/digital-strategy/
 
     # Old site redirects
-    /sites/default/files/*      assets/images/old_site/:splat   301
+    /sites/default/files/*      /assets/images/old_site/:splat   301
