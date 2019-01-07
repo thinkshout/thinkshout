@@ -40,9 +40,9 @@ My challenge to you in 2019 is this: Don’t let national holidays dictate your 
 
 Here are some ways to set yourself up for success in these tests:
 
-Know your audience and what motivates them - build key messages around these issues and content.
-Communicate with them in the ways that are most meaningful to them - provide multiple ways for them to support you; be it through the mail, online, or through Alexa.
-Segment your tests to donors who haven’t responded to holiday-based messages in the past
-Target your holiday campaign to the segment or individuals that do engage with it - you never want to take away options from supporters
+- Know your audience and what motivates them - build key messages around these issues and content.
+- Communicate with them in the ways that are most meaningful to them - provide multiple ways for them to support you; be it through the mail, online, or through Alexa.
+- Segment your tests to donors who haven’t responded to holiday-based messages in the past
+- Target your holiday campaign to the segment or individuals that do engage with it - you never want to take away options from supporters
 
-And if you’re not ready to step away from a national holiday, at least try testing some other aspects of those campaigns to make them more relatable to your mission: try new images or photography (gifs, even!), incorporate video, or voice-activated technology. Venture into new territory that is authentic to you. After all, there’s no way to know what will work for you and your audience until you test it!
+And if you’re not ready to step away from a national holiday, at least try testing some other aspects of those campaigns to make them more relatable to your mission: try new images or photography (gifs, even!), incorporate video, or [voice-activated technology](http://127.0.0.1:4000/blog/2018/08/fundraising-alexa/). Venture into new territory that is authentic to you. After all, there’s no way to know what will work for you and your audience until you test it!
