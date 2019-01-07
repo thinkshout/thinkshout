@@ -30,7 +30,7 @@ But what about when there isn’t a natural correlation between a holiday and yo
 
 Organizations have always done this in some way shape or form; and if it’s not a fully dedicated campaign around a holiday, at a minimum it’s an ask to “make a gift in someone’s honor for Father’s Day” or the like. Depending on your mission, that may work well for you...but in my experience (and tbh, for many organizations), these campaigns that attempt to push an organization’s mission into relevance with a national holiday perform mediocre at best, and are utterly forgettable. Why? Because it’s not authentic.
 
-![Raw Text Format](/assets/images/blog/social-fail.jpg)
+![Social Media Fail](/assets/images/blog/social-fail.jpg)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>When brands adopt holidays poorly.</span>
 
