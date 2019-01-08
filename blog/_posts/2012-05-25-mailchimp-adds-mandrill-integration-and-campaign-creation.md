@@ -21,7 +21,7 @@ author: lev
 We've previously written about a [complete rewrite of the MailChimp module](/blog/2011/06/lev/mailchimp-20-anatomy-drupal-module-rewrite), and while our most recent changes aren't quite as big, they're significant enough that we want to share the details with the community.
 
 ## Mandrill
-<img src="http://blog.mandrill.com/images/mandrill-shield.gif" style="float: right; margin: 0px 0px 10px 10px" />
+<img src="https://blog.mandrill.com/images/mandrill-shield.gif" style="float: right; margin: 0px 0px 10px 10px" />
 
 [Mandrill](http://www.mandrill.com/) is MailChimp's new transactional email offering, intended to replace the [MailChimp STS](http://blog.mailchimp.com/mailchimp-launches-transactional-email-service-on-top-of-amazon-ses) service. Rather than being based on top of [Amazons SES](http://aws.amazon.com/ses/), Mandrill is built on MailChimp's own infrastructure:
 

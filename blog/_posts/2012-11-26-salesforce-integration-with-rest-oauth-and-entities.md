@@ -15,7 +15,7 @@ tags:
 short: The Drupal Salesforce Suite has been around since Drupal 5, having undergone many transformations in trying to keep pace with both Drupal and Salesforce API changes. The result is a feature set as impressive as it is ambitious, although the incremental updates and additions have come at a cost of significant technical debt, inconsistent API usage, a monolithic architecture, and fragility.
 author: lev
 ---
-<img src="http://www.sfdcstatic.com/common/assets/img/logo-company.png" alt="Salesforce logo" style="float:left; margin:0 10px 10px 0 " /> 
+<img src="https://www.sfdcstatic.com/common/assets/img/logo-company.png" alt="Salesforce logo" style="float:left; margin:0 10px 10px 0 " /> 
 The [Drupal Salesforce Suite](http://drupal.org/project/salesforce) has been around since Drupal 5, having undergone many transformations in trying to keep pace with both Drupal and Salesforce API changes. The result is a feature set as impressive as it is ambitious, although the incremental updates and additions have come at a cost of significant technical debt, inconsistent API usage, a monolithic architecture, and fragility.
 
 ThinkShout, not being strangers to major rewrites, [even of our own modules](/blog/2011/06/lev/mailchimp-20-anatomy-drupal-module-rewrite), and driven by our need to integrate Salesforce with our native Drupal CRM, [RedHen](http://drupal.org/project/redhen), undertook the challenge to completely rewrite the Salesforce suite this fall.

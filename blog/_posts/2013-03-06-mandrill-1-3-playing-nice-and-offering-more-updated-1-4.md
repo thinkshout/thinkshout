@@ -28,7 +28,7 @@ author: gabe
 
 If any of the above issues gave you trouble, our apologies! Give 1.4 a spin. We put it through the extra-enthusiastic testing cycle, and are running it happily on this very website (www.thinkshout.com).</i>
 
-<img src="http://mandrill.com/assets/images/brand/logo-shield-72695847.png" alt="Mandrill Mascot" title="Mandrill Mascot" height="240" width="240" img style="float:right"/>
+<img src="https://mandrill.com/assets/images/brand/logo-shield-72695847.png" alt="Mandrill Mascot" title="Mandrill Mascot" height="240" width="240" img style="float:right"/>
 We ThinkShouters have been working away on our [Drupal/Mandrill integration module](http://drupal.org/project/mandrill), and released version 7.x-1.3 today. We think it's a pretty significant step for the module: I'll tell you how we got to where we are, what's in this release, and a little about what's next for Mandrill.
 
 If you aren't familiar with [Mandrill](https://mandrill.com/), it's a transactional email service built around the email delivery system for [MailChimp](http://mailchimp.com/), and it's deliberately built to be used by custom apps and plugins. If you want your Drupal site's automated emails to get sophisticated modern analytics and reporting, be spam compliant, scale to bulk levels, and be more reliably delivered, you can route your email through Mandrill.

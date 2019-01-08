@@ -20,7 +20,7 @@ tags:
 short: The session submission deadline drawing to a close for DrupalCon Portland 2013
 author: betsy
 ---
-<img src="http://portland2013.drupal.org/sites/default/files/drupalcon_pdx_icon_2.png" alt="DrupalCon Portland" title="DrupalCon Portland" height="200" width="163" img style="float:right"/>
+<img src="https://portland2013.drupal.org/sites/default/files/drupalcon_pdx_icon_2.png" alt="DrupalCon Portland" title="DrupalCon Portland" height="200" width="163" img style="float:right"/>
 With the session submission deadline drawing to a close for [DrupalCon Portland 2013](http://portland2013.drupal.org), [ThinkShout](http://thinkshout.com) (along with many other fine Drupal community members) participated in the mad rush to get all of our awesome session ideas in on time!  The DrupalCon session committee has a busy couple of weeks coming their way, and in the meantime, we'd love to hear your comments and feedback on our presentation ideas.  
 
 Our team has a broad range of topics we can't wait to share with the community, from CRM and Salesforce to Magic: The Gathering!
