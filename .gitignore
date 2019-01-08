@@ -1,7 +1,6 @@
 .sass-cache
 .idea
 _site
-Gemfile.lock
 app.css
 ts.css
 .DS_store

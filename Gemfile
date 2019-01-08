@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.3.6'
 
-gem 'jekyll', '3.5.2'
+gem 'jekyll', '>= 3.6.3'
 gem 'sass', '~> 3.4.22'
 gem 'sass-globbing'
 gem 'guard-livereload'
