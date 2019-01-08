@@ -66,7 +66,7 @@ In SCSS, you can easily nest a list of styles under one body class.
 
 On the Narrow view, the tagline is positioned to the left, while the menu is positioned at the top and right of the container. We added two featured project thumbnails to enhance the Recent Project section and brought the search bar and social media links into the footer.
 
-The [Portfolio landing page](http://www.thinkshout.com/portfolio) now has two columns of thumbnails and the images are larger width and height than the mobile web experience. The user also gets a small bit of interaction bling when they hover over any of the Portfolio thumbnails. The image’s opacity decreases over a black background and the user can now see a short description of the project.
+The [Portfolio landing page](http://thinkshout.com/portfolio) now has two columns of thumbnails and the images are larger width and height than the mobile web experience. The user also gets a small bit of interaction bling when they hover over any of the Portfolio thumbnails. The image’s opacity decreases over a black background and the user can now see a short description of the project.
 
 Also, as a bonus, the user can now see the "Put a bird on it" badge/image we have added to the site. If you are lost with this reference, [watch and learn](http://www.hulu.com/watch/210887/portlandia-put-a-bird-on-it). 
 

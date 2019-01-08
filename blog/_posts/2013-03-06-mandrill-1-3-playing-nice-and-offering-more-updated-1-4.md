@@ -26,7 +26,7 @@ author: gabe
 *  Resolved problems sending HTML content through templates  
 *  Added a configuration feature to log module/key pairs that send messages through Mandrill, easing Mailsystem & Mandrill configuration
 
-If any of the above issues gave you trouble, our apologies! Give 1.4 a spin. We put it through the extra-enthusiastic testing cycle, and are running it happily on this very website (www.thinkshout.com).</i>
+If any of the above issues gave you trouble, our apologies! Give 1.4 a spin. We put it through the extra-enthusiastic testing cycle, and are running it happily on this very website (thinkshout.com).</i>
 
 <img src="https://mandrill.com/assets/images/brand/logo-shield-72695847.png" alt="Mandrill Mascot" title="Mandrill Mascot" height="240" width="240" img style="float:right"/>
 We ThinkShouters have been working away on our [Drupal/Mandrill integration module](http://drupal.org/project/mandrill), and released version 7.x-1.3 today. We think it's a pretty significant step for the module: I'll tell you how we got to where we are, what's in this release, and a little about what's next for Mandrill.

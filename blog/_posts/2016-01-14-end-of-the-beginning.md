@@ -12,7 +12,7 @@ tags:
 date: 2016-01-14 16:00:00
 topic: culture
 ---
-![Winston Churchill](http://static.independent.co.uk/s3fs-public/thumbnails/image/2013/10/14/12/2638166.jpg)
+![Winston Churchill](https://static.independent.co.uk/s3fs-public/thumbnails/image/2013/10/14/12/2638166.jpg)
 
 While I fully realize it’s not fair to compare a major turning point at an organization to one in an existential battle over the future of the civilized world, Winston Churchill was clearly onto something. At this point, the news is out that [Sean is leaving ThinkShout](/blog/2016/01/stepping-down-as-ceo-stepping-into-colorado/). I still wince when I see those words, although we’re all getting used to the idea.
 

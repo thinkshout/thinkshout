@@ -37,7 +37,7 @@ I'll be using screenshots and code here, but I've also made [all 6 steps availab
 
 Let's start with that first blockquote:
 
-![fade-to-black-1.jpg](/assets/images/blog/fade-to-black-1.jpg){:.left .forty} [(pen)](//codepen.io/komejo/pen/GERJwy) This is set up for desktop - the image aspect ratio is determining the height of the container using the [padding ratio trick](//stackoverflow.com/questions/1495407/maintain-the-aspect-ratio-of-a-div-with-css). Everything in the container is using absolute positioning and [flexbox](http://www.sketchingwithcss.com/samplechapter/cheatsheet.html) for centering. We have a simple `rgba()` background set using the `:before` pseudo-property in the .parent-container:
+![fade-to-black-1.jpg](/assets/images/blog/fade-to-black-1.jpg){:.left .forty} [(pen)](//codepen.io/komejo/pen/GERJwy) This is set up for desktop - the image aspect ratio is determining the height of the container using the [padding ratio trick](//stackoverflow.com/questions/1495407/maintain-the-aspect-ratio-of-a-div-with-css). Everything in the container is using absolute positioning and [flexbox](https://www.sketchingwithcss.com/samplechapter/cheatsheet.html) for centering. We have a simple `rgba()` background set using the `:before` pseudo-property in the .parent-container:
 
 ~~~css
   :before {
@@ -68,7 +68,7 @@ Specifically, we remove the padding from the parent element, and make the .conte
 <br clear="all"><br>
 
 
-![fade-to-black-5.jpg](/assets/images/blog/fade-to-black-5.jpg){:.right .forty} [(pen)](//codepen.io/komejo/pen/JJjGXB) Now we can add the fader code - `background-image: linear-gradient`, which can be used [unprefixed](http://caniuse.com/#search=linear-gradient). This is inserted into the .image-wrapper using another `:before` pseudo-element:
+![fade-to-black-5.jpg](/assets/images/blog/fade-to-black-5.jpg){:.right .forty} [(pen)](//codepen.io/komejo/pen/JJjGXB) Now we can add the fader code - `background-image: linear-gradient`, which can be used [unprefixed](https://caniuse.com/#search=linear-gradient). This is inserted into the .image-wrapper using another `:before` pseudo-element:
 
 ~~~css
   :before {
