@@ -1,6 +1,6 @@
 [build]
   publish = "_site"
-  command = "rake build && rake test"
+  command = "rake build"
 
 [build.environment]
   JEKYLL_ENV = "production"
