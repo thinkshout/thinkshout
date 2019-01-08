@@ -96,12 +96,6 @@ status = 301
 force = false
 
 [[redirects]]
-from = "/contact"
-to = "/"
-status = 301
-force = false
-
-[[redirects]]
 from = "/home"
 to = "/"
 status = 301
