@@ -106,4 +106,4 @@ ii. http://zengrids.com/
 
 ## Up Next
 
-When you're ready to get a little more advanced, move on down to [Getting Started with SASS for Drupal and Zen, Part II](http://thinkshout.com/blog/2014/07/getting-started-with-sass-for-drupal-and-zen-part-ii/).
+When you're ready to get a little more advanced, move on down to [Getting Started with SASS for Drupal and Zen, Part II](/blog/2014/07/getting-started-with-sass-for-drupal-and-zen-part-ii/).

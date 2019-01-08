@@ -21,7 +21,7 @@ author: lev
 <h2>Redmine with GitHub</h2>
 <p>But this post isn&#8217;t focused on Redmine, so I won&#8217;t go into too much detail about it. I will add that I&#8217;ve been using Redmine as my primary project management and communications tool for both clients and developers for about 2 years and am very happy with it. It doesn&#8217;t do everything perfectly, but makes it for by placing all the tools you need under one roof. Also worth watching is <a href="http://chiliproject.org">Chili Project</a>, a recent fork of Redmine by some very prominent members of that community.</p>
 <p>Redmine also does a great job associating commits with tickets. Using keywords in your commit message, you can close, resolve, or simply associate the commit with a ticket.<br />
-<img src="http://thinkshout.com/sites/default/files/redmine_blog_revs.jpg" alt="" /></p>
+<img src="/sites/default/files/redmine_blog_revs.jpg" alt="" /></p>
 <p>Enough said on that front. We also obviously need to host remote source control repositories, in our case git. GitHub is amazing in so many ways, and <a href="https://github.com/organizations/thinkshout">ThinkShout takes full advantage of it</a>, but aside from the $100 monthly cost, which is not a huge deal, the workflow for setting up a project between Redmine and GitHub is less than ideal.</p>
 <ol>
 	<li>Create the project in Redmine and add members to their respective roles.</li>

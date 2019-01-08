@@ -20,7 +20,7 @@ header-image-alt: "ThinkShout Cares, A 2017 Intern Project"
 
 We've kept a pretty tight lid on this project all summer, but it's finally time to unveil the focus of our 2017 Summer Internship program. Who better to tell you about it then the talented interns who built it?
 
-You [met Engineering intern Katrina Hirsch](http://thinkshout.com/blog/2017/06/the-2017-thinkshout-interns/) last month on our blog. Now it's her turn to tell you in her own words what we've been working on.
+You [met Engineering intern Katrina Hirsch](/blog/2017/06/the-2017-thinkshout-interns/) last month on our blog. Now it's her turn to tell you in her own words what we've been working on.
 
 **Katrina Hirsch:**
 

@@ -45,11 +45,11 @@ And that’s why we all do this work, isn’t it?
 
 Taking the time to create data-informed personas can help you hone a strategy for your content that goes beyond assumptions and guesswork.
 
-[Once you understand HOW users arrive at your site](http://thinkshout.com/blog/2014/04/desire-paths/) and examine WHAT they do after they get there, you can begin to parse out WHY they’re interested in your content in the first place – and implement the tactics that will tie their motivations to your organizational goals.
+[Once you understand HOW users arrive at your site](/blog/2014/04/desire-paths/) and examine WHAT they do after they get there, you can begin to parse out WHY they’re interested in your content in the first place – and implement the tactics that will tie their motivations to your organizational goals.
 
 **So, what _are_ they doing?**
 
-As we’ve suggested before, [a good website will nudge a visitor from her desire path](http://thinkshout.com/blog/2014/04/desire-paths/) – the reason she visited your site to begin with – to the desired path: a series of actions that will serve your organization’s mission.
+As we’ve suggested before, [a good website will nudge a visitor from her desire path](/blog/2014/04/desire-paths/) – the reason she visited your site to begin with – to the desired path: a series of actions that will serve your organization’s mission.
 
 It pains me to say it, but you need to start with a content audit. If you don’t understand what you have, you can’t understand how it’s being used.
 
@@ -84,7 +84,7 @@ On ThinkShout’s own site, for example, we know that there are a handful of old
 
 2) **Include any page in your site navigation**, down two or three levels. Presumably, this content was once important to some stakeholder, somewhere. You may still cut it – hopefully, that stakeholder has already left your organization – but if it was important enough to include in your site architecture the last time around, you should try to understand why it’s there, even if it’s failing. This will help you not simply develop a strong argument to convince, say, your development director that her pet page is just getting in the way, but identify the pages that DO work and use them as exemplars to rewrite content deemed vital to the organization that may not be connecting with end users… yet.
 
-3) **Aggregate data for your primary content types**. Task number one will catch that one event you did with Pharrell Williams in 2011 that still drives a lot of traffic to your site, but you probably have a certain number of content types – you can think of these as page "templates" – that handle the bulk of your content. You may have a blog, you may run events. If you’re already [good at the structured content thing](http://thinkshout.com/blog/2014/05/content-structure-from-pearl-jam/), you may have broken videos or media mentions into their own content types.
+3) **Aggregate data for your primary content types**. Task number one will catch that one event you did with Pharrell Williams in 2011 that still drives a lot of traffic to your site, but you probably have a certain number of content types – you can think of these as page "templates" – that handle the bulk of your content. You may have a blog, you may run events. If you’re already [good at the structured content thing](/blog/2014/05/content-structure-from-pearl-jam/), you may have broken videos or media mentions into their own content types.
 
 [Kivi Leroux Miller](https://twitter.com/kivilm) talks about [differentiating between your evergreen content](http://www.nonprofitmarketingguide.com/blog/2013/04/11/creating-content-on-the-topics-you-want-to-be-known-for/) (your main site pages, likely contained in your navigation structure) from your perennial and annual color (those blog posts and tweets). A lot of your content has a shelf life, so you need to make sure the wrapper keeps it as fresh as possible. Part of your content audit should examine how well the standard structure around your more temporal content is performing.
 
@@ -92,7 +92,7 @@ If you find that your audit still runs into hundreds of pages, Facebook’s [Jon
 
 **Who’s doing it?**
 
-Now it’s time to tie content back to your users. [You have a good idea how they arrived](http://thinkshout.com/blog/2014/04/desire-paths/). By segmenting your traffic, you can study what they do next, all the way down to a page-by-page basis, if you’re feeling frisky.
+Now it’s time to tie content back to your users. [You have a good idea how they arrived](/blog/2014/04/desire-paths/). By segmenting your traffic, you can study what they do next, all the way down to a page-by-page basis, if you’re feeling frisky.
 
 A good place to start is the Google Analytics "Navigation Summary." This hidden gem of a report can be found under Behavior -> Site Content -> All Pages. In the upper left corner of the content, there are a series of tabs for “Explorer,” “Navigation Summary,” and “In-Page.” You want the middle one.
 

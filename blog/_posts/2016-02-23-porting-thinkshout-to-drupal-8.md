@@ -19,13 +19,13 @@ tags:
   - Salesforce
   - Development
 date: 2016-02-23 15:00:00
-image: http://thinkshout.com/assets/images/ts_icon.jpg
+image: /assets/images/ts_icon.jpg
 topic: technology
 header-image: /assets/images/ts_redesign/blog/up-and-theming1.jpg
 header-image-alt: "Image: Model Thinkshout Employees"
 ---
 
-A fundamental part of ThinkShout’s philosophy and business is to not only use great open source tools, but to [actively give back](http://thinkshout.com/blog/2015/03/the-how-and-why-of-open-source/) to the open source community. The most recognizable part of that contribution is in the form of Drupal modules: over 60,000 Drupal sites run on ThinkShout technology! This strategy has been a huge [win for our clients](http://thinkshout.com/blog/2014/09/small-business-of-nonprofits/), who get features, bugfixes, and security updates from the community because they are sharing code. We benefit from this work as well, as it enhances our profile in the community and helps us generate leads for new projects. Of course, the vast majority of these sites are built on Drupal 7, which [released](https://www.drupal.org/drupal-7-released) in the same month that [ThinkShout was founded](http://thinkshout.com/blog/2016/01/five-years/).
+A fundamental part of ThinkShout’s philosophy and business is to not only use great open source tools, but to [actively give back](/blog/2015/03/the-how-and-why-of-open-source/) to the open source community. The most recognizable part of that contribution is in the form of Drupal modules: over 60,000 Drupal sites run on ThinkShout technology! This strategy has been a huge [win for our clients](/blog/2014/09/small-business-of-nonprofits/), who get features, bugfixes, and security updates from the community because they are sharing code. We benefit from this work as well, as it enhances our profile in the community and helps us generate leads for new projects. Of course, the vast majority of these sites are built on Drupal 7, which [released](https://www.drupal.org/drupal-7-released) in the same month that [ThinkShout was founded](/blog/2016/01/five-years/).
 
 The exciting and much-anticipated release of Drupal 8 has given us a lot to think about. Internally, we’ve been running a Drupal 8 "book club" to give our development team a chance to dive in and figure out what’s going on with D8. While we’ve bathed in the glories of Composer, Twig, and YAML files galore, we’ve also had a chance to start upgrading a few of our favorite modules to Drupal 8!
 

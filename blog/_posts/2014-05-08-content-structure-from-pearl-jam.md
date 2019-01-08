@@ -97,7 +97,7 @@ It’s also worth noting that structured data has also allowed Pearl Jam to fles
 
 [On a song page](http://pearljam.com/music/lyrics/997/studio/21989/sirens?ref_album_id=21996), the “First Played”, “Last Played”, and “Times Played” lines are created dynamically, as is the list of every place and date it’s been performed. [Tours are created by referencing each of the setlists](https://pearljam.com/tour/history/show/clark-county-ampitheater). I imagine that the [slider showing all of the album covers](http://pearljam.com/music/albums/997/studio) is created by pulling the cover image associated with each album (instead of being inserted by hand).
 
-Once your content is structured, the ways you can reformat and display it are limited only by your imagination communications plan, your organizational goals, and your CMS. Oh, and it helps if you [understand the motivations of your various audiences](http://thinkshout.com/blog/2014/04/desire-paths/).
+Once your content is structured, the ways you can reformat and display it are limited only by your imagination communications plan, your organizational goals, and your CMS. Oh, and it helps if you [understand the motivations of your various audiences](/blog/2014/04/desire-paths/).
 
 What’s your core content offering? Can you create a similar structure? Have you already?
 

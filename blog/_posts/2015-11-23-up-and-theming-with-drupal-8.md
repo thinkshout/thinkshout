@@ -13,13 +13,13 @@ tags:
   - Theming
   - Twig
 date: 2015-11-23 11:00:00
-image: http://thinkshout.com/assets/images/ts_icon.jpg
+image: /assets/images/ts_icon.jpg
 topic: technology
 header-image: /assets/images/ts_redesign/blog/up-and-theming1.jpg
 header-image-alt: "Image: Model Thinkshout Employees"
 ---
 
-Drupal 8 is [finally here](https://www.drupal.org/8)! We’ve been digging into the code and learning how to install D8 in a way that allow us to sync sites and use it for production work. A lot of things have changed, which we covered in our previous article, [Up and Running with Drupal 8](http://thinkshout.com/blog/2015/11/up-and-running-with-drupal-8/). The next step is to see what’s changed in the theming layer, installing a basic theme, and working with the new Twig templating system. There’s a good deal to cover, so let’s [jump in](http://twig.sensiolabs.org/)!
+Drupal 8 is [finally here](https://www.drupal.org/8)! We’ve been digging into the code and learning how to install D8 in a way that allow us to sync sites and use it for production work. A lot of things have changed, which we covered in our previous article, [Up and Running with Drupal 8](/blog/2015/11/up-and-running-with-drupal-8/). The next step is to see what’s changed in the theming layer, installing a basic theme, and working with the new Twig templating system. There’s a good deal to cover, so let’s [jump in](http://twig.sensiolabs.org/)!
 
 ## Creating a Theme##
 

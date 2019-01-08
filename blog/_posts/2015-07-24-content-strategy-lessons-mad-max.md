@@ -14,7 +14,7 @@ tags:
 - Content Strategy
 - Drupal Planet
 date: 2015-07-24
-image: http://thinkshout.com/assets/images/team/large/brettmeyer.jpg
+image: /assets/images/team/large/brettmeyer.jpg
 ---
 
 George Miller has a vision of the future. Judging by the non-stop mayhem and desolation that is *[Mad Max: Fury Road](http://www.madmaxmovie.com/)*, if I had the same vision, I wouldn’t sleep very much. As a piece of action cinema, however, *Fury Road* succeeds on every level. I couldn’t look away – but the second time I saw it, I was surprised by the number of carefully rendered details I missed the first time. I want to see it again.

@@ -30,7 +30,7 @@ There are nearly 10,000 sites currently using the Entity Registration module to 
 
 The sprint resulted in a much-needed release of the Entity Registration module: [7.x-1.5](https://www.drupal.org/node/2544986). We knocked out a chunk of issues, added a bunch of nifty new features, and paved the way for some even *bigger* new features. Additionally, we made our initial [port of Registration to Drupal 8](https://www.drupal.org/node/2543160) on a completely different branch.
 
-What’s more, we had our interns on hand to participate in their very first sprint! [Daniel](http://thinkshout.com/blog/2015/06/meet-the-interns/) even managed to make eight commits to Entity Registration. It was one of the most exciting Thursdays we’d had in a while. And that’s saying something, since bowtie Thursdays are pretty epic. 
+What’s more, we had our interns on hand to participate in their very first sprint! [Daniel](/blog/2015/06/meet-the-interns/) even managed to make eight commits to Entity Registration. It was one of the most exciting Thursdays we’d had in a while. And that’s saying something, since bowtie Thursdays are pretty epic. 
 
 For this sprint, we broke into three teams. Team one focused on resolving the highest priority items in the issue queue, team two worked on building out a roadmap for upcoming features in the 2.x release, and team three began working on the D8 port.  
 

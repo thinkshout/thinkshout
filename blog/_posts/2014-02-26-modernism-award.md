@@ -25,7 +25,7 @@ Speaking for the award selection committee, James Polshek, Former Dean of the Ar
 
 Of course, we do what we do because we are passionate about bringing the best of open source software and design to forward-thinking organizations. But it’s nice to be recognized from time to time, and we are excited to celebrate the great CRM integration work that we did on this project with [Kell Partners](http://www.kellpartners.com/), as well as the great design provided by our partners at [YYES](http://www.yyes.org/).
 
-We invite you to read about [this project](http://thinkshout.com/work/la-conservancy/) in our portfolio. In building this website, we pioneered deep [integration between Drupal and Salesforce](http://thinkshout.com/blog/2014/01/tauno/rebuilding-los-angeles-conservancy-website-power-salesforce/). We also leveraged responsive design and online mapping features to tell beautiful, timeless stories of the history of L.A.’s architecture and the growth of its local communities.
+We invite you to read about [this project](/work/la-conservancy/) in our portfolio. In building this website, we pioneered deep [integration between Drupal and Salesforce](/blog/2014/01/tauno/rebuilding-los-angeles-conservancy-website-power-salesforce/). We also leveraged responsive design and online mapping features to tell beautiful, timeless stories of the history of L.A.’s architecture and the growth of its local communities.
 
 ![Curating the City homepage]({{ site.baseurl }}/assets/images/blog/lac_screenshot1.png "Curating the City homepage")
 

@@ -10,7 +10,7 @@ tags:
   - ThinkShout
   - Drupal Planet
 date: 2016-01-14 13:00:00
-image: http://thinkshout.com/assets/images/blog/ernie_sean.jpg
+image: /assets/images/blog/ernie_sean.jpg
 topic: culture
 ---
 
@@ -30,7 +30,7 @@ At the same time, I could not feel more confident in the future of this company.
 
 ThinkShout will continue telling stories of good people making lasting change. Now I just get to tell ThinkShout’s story as fan and supporter in Colorado.
 
-![ernie_sean.jpg](http://thinkshout.com/assets/images/blog/ernie_sean.jpg)
+![ernie_sean.jpg](/assets/images/blog/ernie_sean.jpg)
 
 _(My son Ernie is a big fan of ThinkShout, too.)_
 

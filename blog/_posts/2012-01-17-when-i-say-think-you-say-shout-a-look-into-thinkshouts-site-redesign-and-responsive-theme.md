@@ -41,7 +41,7 @@ Sometimes Drupal has been known to provide us with multi-layered complex markup.
 
 ## The Different Responses of ThinkShout.com
 
-<div style="text-align: center; margin: 0 0 30px 0; "><img src="http://thinkshout.com/sites/default/files/images/inline/responses.png"  />
+<div style="text-align: center; margin: 0 0 30px 0; "><img src="/sites/default/files/images/inline/responses.png"  />
 <p style="font-size: 12px; color: #333; font-style: italic; width: 50%; text-align: center; margin: 0 auto;"> Clockwise from top left: Mobile, iPad - Portrait, Normal (960)</p></div>
 
 ### Mobile
