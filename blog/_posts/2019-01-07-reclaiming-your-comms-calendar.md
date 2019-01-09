@@ -34,14 +34,14 @@ Organizations have always done this in some way shape or form; and if it’s not
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>When brands adopt holidays poorly.</span>
 
-Now, I know authenticity is becoming a buzzword - but before you roll your eyes at this, consider the fact that you put just as much effort into those holiday-based campaigns as you do any other high-performing campaign that speaks directly to your mission. So why not try at least testing a more inspired, genuine messaging strategy instead of trying to put a square peg in a round hole and getting lesser results?
+Now, I know authenticity is becoming a buzzword - but before you roll your eyes at this, consider the fact that you put just as much effort into those holiday-based campaigns as you do any other high-performing campaign that speaks directly to your mission. So why not try testing a more inspired, genuine messaging strategy instead of trying to put a square peg in a round hole and getting lesser results?
 
 My challenge to you in 2019 is this: Don’t let national holidays dictate your communications calendar. Free yourself from the restrictions of holiday themes. Run some tests and see if something more mission-based resonates with your supporters. Pay attention to the news cycle, and react to things that are relevant to your organization in the moment they happen - those are often the messages that drive the most engagement and ROI.
 
 Here are some ways to set yourself up for success in these tests:
 
-- Know your audience and what motivates them - build key messages around these issues and content.
-- Communicate with them in the ways that are most meaningful to them - provide multiple ways for them to support you; be it through the mail, online, or through Alexa.
+- Know your audience and what motivates them - build key messages around these issues and content
+- Communicate with them in the ways that are most meaningful to them - provide multiple ways for them to support you; be it through the mail, online, or through Alexa
 - Segment your tests to donors who haven’t responded to holiday-based messages in the past
 - Target your holiday campaign to the segment or individuals that do engage with it - you never want to take away options from supporters
 
