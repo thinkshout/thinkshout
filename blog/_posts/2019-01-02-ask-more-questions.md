@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: strategy
 title: "Ask More Questions"
-homepage: false
+homepage: true
 author: kate
 published: true
-featured: false
+featured: true
 short: "When you don't know what drives your constituents, just ask!"
 tags:
   - strategy
