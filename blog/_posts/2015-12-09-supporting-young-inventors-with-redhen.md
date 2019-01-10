@@ -14,7 +14,7 @@ tags:
   - Slideroom
   - Lemelson-MIT
 date: 2015-12-09 23:00:00
-image: http://thinkshout.com/assets/images/ts_icon.jpg
+image: /assets/images/ts_icon.jpg
 topic: technology
 
 ---

@@ -31,7 +31,7 @@ Previously, these sprints were loosely structured around a topic or technology, 
 
 ### Introducing RedHen Raiser
 
-![raiser_1.jpg](http://thinkshout.com/assets/images/blog/raiser_1.jpg)
+![raiser_1.jpg](/assets/images/blog/raiser_1.jpg)
 
 RedHen Raiser is designed for building peer-to-peer fundraising websites, like the sites you see for marathons and walks, where a fundraising campaign is made up of myriad individual and team pages, and can be customized by the participants for fundraising amongst their respective communities, while remaining connected to the larger campaign.
 
@@ -61,7 +61,7 @@ As a result of our work with this client, we were able to release a very rudimen
 
 ### Involving the Full Team in One Sprint
 
-![raiser_2.jpg](http://thinkshout.com/assets/images/blog/raiser_2.jpg)
+![raiser_2.jpg](/assets/images/blog/raiser_2.jpg)
 
 As an open source *product*, RedHen Raiser presented us with some interesting opportunities to engage more than just our engineers in the sprint process, and it certainly needed a lot of love on a lot of fronts. Leveraging the different interests and expertise of our 18-person company, we split into five teams:
 
@@ -79,7 +79,7 @@ It’s worth noting that the quality assurance team and the community engagement
 
 ### Planning for the Sprint
 
-![raiser_3.jpg](http://thinkshout.com/assets/images/blog/raiser_3.jpg)
+![raiser_3.jpg](/assets/images/blog/raiser_3.jpg)
 
 As ThinkShout has grown, the need for sprint planning has grown with it. Back when we first started these sprints, we could fit our entire team around a single table (covered in pizza boxes and beer) and call out development tickets we each needed help with. 
 
@@ -98,7 +98,7 @@ Now, with a team of 18 working together from 11am to 5pm, these sprints take a b
 ### Outcomes of Our RedHen Raiser Sprint
 
 
-![raiser_4.png](http://thinkshout.com/assets/images/blog/raiser_4.png)
+![raiser_4.png](/assets/images/blog/raiser_4.png)
 
 So what does it all mean? This new approach to our team sprints resulted in just shy of 100 commits on RedHen Raiser and the underlying modules that power the distribution. We published a [new release](https://www.drupal.org/node/2414581) of RedHen Raiser, [RedHen Donation](https://www.drupal.org/node/2413307) and the [RedHen Campaign](https://www.drupal.org/node/2414563) modules - as well as a release of our base [RedHen CRM](https://www.drupal.org/node/2414559)[ suite](https://www.drupal.org/node/2414559). 
 

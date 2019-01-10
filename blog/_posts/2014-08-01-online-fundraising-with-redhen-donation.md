@@ -39,7 +39,7 @@ Wow. Look at this awesomely long list of annoying things that plague such an int
 
 We began working on the [RedHen](https://www.drupal.org/project/redhen_donation)[Donation](https://www.drupal.org/project/redhen_donation) module with intent to create a better online donation solution. We wanted to create a donation tool that allowed nonprofits to keep everything under one roof. The end result accomplishes this. What we came up with is unique in the sense that it offers nonprofits several features that aren’t quite so commonplace. RedHen Donation is inside their website, connected to their CRM. It allows for both one-time and recurring donations, multiple donation pages, and easy-to-edit donation forms.
 
-I chatted with [Brandon Lee](http://thinkshout.com/team/brandon/), the architect behind RedHen Donation, to get a better understanding of RedHen Donation’s capabilities.  
+I chatted with [Brandon Lee](/team/brandon/), the architect behind RedHen Donation, to get a better understanding of RedHen Donation’s capabilities.  
 
 **Stephanie: So what’s the big deal with RedHen Donation?**
 

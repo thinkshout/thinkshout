@@ -29,7 +29,7 @@ cs-intro:
   link-text: "View The Site"
   link-url: http://www.oceanoutcomes.org/
   text: |
-    Ocean Outcomes is dedicated to the growth of locally-led, independently-supported conservation projects that improve ocean fisheries. The organization grew out of the work of the [Wild Salmon Center's State of the Salmon program](http://thinkshout.com/work/fip-tracker/).
+    Ocean Outcomes is dedicated to the growth of locally-led, independently-supported conservation projects that improve ocean fisheries. The organization grew out of the work of the [Wild Salmon Center's State of the Salmon program](/work/fip-tracker/).
 
     In announcing their founding, Ocean Outcomes sought to invest as much of its digital communications budget as possible into design, user experience, and content strategy. They were hesitant to invest in a _heavy_ CMS. However, they did have a need for a multilingual content management solution.    
 cs-sections:

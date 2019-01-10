@@ -20,7 +20,7 @@ author: david
 ---
 October is National Breast Cancer Awareness month, so the timing couldn’t be more right for ThinkShout to officially launch the Young Survival Coalition’s updated site. [www.youngsurvival.org](http://www.youngsurvival.org/)
 
-[<img src="http://www.youngsurvival.org/profiles/ysc/themes/survival/images/logo.gif" style="float: right; padding-left: 20px;" />](http://www.youngsurvival.org/)
+[<img src="https://www.youngsurvival.org/profiles/ysc/themes/survival/images/logo.gif" style="float: right; padding-left: 20px;" />](http://www.youngsurvival.org/)
 
 This past spring, YSC asked ThinkShout to take its existing, proprietary back-end and bring everything into Drupal. And because of the importance and high profile of [Breast Cancer Awareness Month](http://en.wikipedia.org/wiki/National_Breast_Cancer_Awareness_Month) it had to be done by October 1st. 
 

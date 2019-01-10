@@ -1,7 +1,6 @@
 .sass-cache
 .idea
 _site
-Gemfile.lock
 app.css
 ts.css
 .DS_store
@@ -9,6 +8,5 @@ ts.css
 *.css.map
 
 .jekyll-metadata
-.ruby-version
 _case_studies/anitab.md
 _case_studies/anitab.md

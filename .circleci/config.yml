@@ -1,0 +1,26 @@
+# Check https://circleci.com/docs/2.0/ for more details
+# for config.yml syntax see https://circleci.com/docs/2.0/configuration-reference/
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.3
+
+    working_directory: ~/repo
+
+    steps:
+      - run:
+          name: Trigger screener.io tests
+          command: |
+            if [[ -v deploy_url ]]; then
+              # Install Screener CI Script
+              curl -O https://s3-us-west-2.amazonaws.com/screener-files/ci/v2.1/screener-ci.zip
+              unzip -o screener-ci.zip
+              ./screener-ci.sh $SCREENER_API_KEY $SCREENER_GROUP_ID $CIRCLE_BUILD_NUM --host $deploy_url
+            fi
+
+workflows:
+  version: 2
+  tests:
+    jobs:
+      - build

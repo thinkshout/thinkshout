@@ -29,4 +29,4 @@ This video covers installing RedHen and configuring a Contact Type, and a few ot
 
 <iframe width="700" height="525" src="//www.youtube.com/embed/hivg0CsxG7c" frameborder="0" allowfullscreen></iframe>
 
-Setting up RedHen: Creating your first Contact Type</a> from <a href="http://thinkshout.com/team/gabe/">Gabe Carleton-Barnes</a> on <a href="http://YouTube.com">YouTube</a>.</p>
+Setting up RedHen: Creating your first Contact Type</a> from <a href="/team/gabe/">Gabe Carleton-Barnes</a> on <a href="http://YouTube.com">YouTube</a>.</p>

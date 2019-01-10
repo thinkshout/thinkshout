@@ -102,4 +102,4 @@ And because Relevant Content Bean returns nodes using view modes, on sites that 
 
 We'd encourage you to give the Relevant Content Bean module a try. We'd love to get your feedback and talk more about how we can make it even easier on site administrators to customize block content.
 
-And special thanks for ThinkShout developer, [Brandon Lee](http://thinkshout.com/blog/Brandon), for writing this great module!
+And special thanks for ThinkShout developer, [Brandon Lee](/blog/Brandon), for writing this great module!

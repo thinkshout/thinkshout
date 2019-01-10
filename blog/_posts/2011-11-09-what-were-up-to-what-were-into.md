@@ -31,7 +31,7 @@ Soon we'll have a couple case studies and technical write-ups of our responsive 
 
 ### Leaflet and MapBox ###
 
-As maintainers of several [OpenLayers-based modules](http://thinkshout.com/blog/2011/09/lev/openlayers-love-drupal-7), we've been involved in the Drupal mapping space for quite some time. However, because of our interest in mobile and HTML5, this summer we started work on a new [Leaflet module](http://drupal.org/project/leaflet) for Drupal. We've also been getting heavily into Development Seed's [MapBox](http://mapbox.com) tool suite. We've been doing our own custom cartography work, producing watershed-based map [tilesets](http://tiles.mapbox.com/thinkshout/map/map-1318268325327). In addition, this winter we will be helping Oregon's [The Intertwine](http://theintertwine.org/) launch a new urban trails guide for the Portland area which leverages responsive design, Leaflet, and custom Tilemill tiles served up via Tilestream.
+As maintainers of several [OpenLayers-based modules](/blog/2011/09/lev/openlayers-love-drupal-7), we've been involved in the Drupal mapping space for quite some time. However, because of our interest in mobile and HTML5, this summer we started work on a new [Leaflet module](http://drupal.org/project/leaflet) for Drupal. We've also been getting heavily into Development Seed's [MapBox](http://mapbox.com) tool suite. We've been doing our own custom cartography work, producing watershed-based map [tilesets](http://tiles.mapbox.com/thinkshout/map/map-1318268325327). In addition, this winter we will be helping Oregon's [The Intertwine](http://theintertwine.org/) launch a new urban trails guide for the Portland area which leverages responsive design, Leaflet, and custom Tilemill tiles served up via Tilestream.
 
 ## What we're up to... ##
 
@@ -39,13 +39,13 @@ The truth is that there's not much difference between what we are _into_ and wha
 
 ### Content Migrations ###
 
-Geeky, I know...But our newest team member, [Brandon Lee](http://thinkshout.com/team#brandon), has been enjoying the heck out of working on a complex migration of the content from two Drupal 6.x sites and one Drupal 5.x site to a single Drupal 7.x site. In the process, he's had the opportunity to roll up his sleeves and get into the weeds of the [Migrate 2.x](http://drupal.org/project/migrate) module.
+Geeky, I know...But our newest team member, [Brandon Lee](/team#brandon), has been enjoying the heck out of working on a complex migration of the content from two Drupal 6.x sites and one Drupal 5.x site to a single Drupal 7.x site. In the process, he's had the opportunity to roll up his sleeves and get into the weeds of the [Migrate 2.x](http://drupal.org/project/migrate) module.
 
 Lev and I couldn't be more excited for Brandon to develop this passion. I'm doubtful that we'd ever try to position ourselves as the next [Cyrve](http://cyrve.com/), but it's great to bring on this skill set.
 
 ### Event Registrations ###
 
-This spring we had the opportunity to develop a custom event management tool for our friends at [Manhattan Kayak Company](http://thinkshout.com/portfolio/manhattan-kayak-company) in NYC. Abstracting that work into a Drupal contributed module, we've been actively working on an entity-base event sign-up tool for Drupal 7.x. The project is currently called [Entity Registrations](http://drupal.org/project/registration). We're talking with the good folks who manage the [Signup module](http://drupal.org/project/signup) about porting our work there as the 7.x-2.x branch of sign-up, as well as potentially working the module into Drupal's [Conference Organizing Distribution, cod](http://drupal.org/project/cod).
+This spring we had the opportunity to develop a custom event management tool for our friends at [Manhattan Kayak Company](/portfolio/manhattan-kayak-company) in NYC. Abstracting that work into a Drupal contributed module, we've been actively working on an entity-base event sign-up tool for Drupal 7.x. The project is currently called [Entity Registrations](http://drupal.org/project/registration). We're talking with the good folks who manage the [Signup module](http://drupal.org/project/signup) about porting our work there as the 7.x-2.x branch of sign-up, as well as potentially working the module into Drupal's [Conference Organizing Distribution, cod](http://drupal.org/project/cod).
 
 We're also excited to have a number of larger client engagements this winter that will fund new features for this entity-based registration system, an approach we've had some success with and discussed at the recent [BADCamp NP Summit](http://2011.badcamp.net/drupal-non-profit-summit). We anticipate releasing CRM integration, paid event management, and group-based sign-up features over the next few months - so stay tuned.
 
@@ -65,4 +65,4 @@ Obviously there's always more to get excited about. So, here are a few phrases d
 
 ## Help us... ##
 
-That's right. We've got a lot going on and are looking to bring on another senior-level Drupal engineer. So, if you know anybody who would like to live in always-sunny PDX, Oregon - have them check out the following [announcement](http://thinkshout.com/blog/2011/10/sean/thinkshout-hiring).
+That's right. We've got a lot going on and are looking to bring on another senior-level Drupal engineer. So, if you know anybody who would like to live in always-sunny PDX, Oregon - have them check out the following [announcement](/blog/2011/10/sean/thinkshout-hiring).

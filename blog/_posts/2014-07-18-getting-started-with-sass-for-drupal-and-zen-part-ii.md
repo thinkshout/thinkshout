@@ -18,7 +18,7 @@ tags:
 - Theming
 ---
 
-In [part one of "Getting Started with SASS for Drupal and Zen,"](http://thinkshout.com/blog/2013/10/candice/getting-started-sass-drupal-and-zen/) we went over getting your environment set up to work with SASS.
+In [part one of "Getting Started with SASS for Drupal and Zen,"](/blog/2013/10/candice/getting-started-sass-drupal-and-zen/) we went over getting your environment set up to work with SASS.
 
 If you followed the instructions in part one, you should have SASS/Compass, Zen, and your sub-theme installed. Your theme will be installed in `sites/all/YOUR THEME NAME`.
 

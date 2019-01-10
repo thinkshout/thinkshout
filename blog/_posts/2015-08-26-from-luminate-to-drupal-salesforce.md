@@ -21,7 +21,7 @@ topic: process
 ---
 We've helped a number of nonprofits move from Luminate CRM to Drupal-Salesforce solutions, including the Young Survival Coalition, Facing History and Ourselves, the National Kidney Foundation, and the Los Angeles Conservancy.
 
-Without getting too deep into the technical architecture - [which you can nerd out on in other posts on our blog](http://thinkshout.com/blog/2015/04/salesforce-new-features/) - our open source Salesforce integration can map any object/field in Salesforce to a corresponding entity type/field in Drupal. We can then sync these records bidirectionally. We can even support complex, cascading upserts of multiple records in real time.
+Without getting too deep into the technical architecture - [which you can nerd out on in other posts on our blog](/blog/2015/04/salesforce-new-features/) - our open source Salesforce integration can map any object/field in Salesforce to a corresponding entity type/field in Drupal. We can then sync these records bidirectionally. We can even support complex, cascading upserts of multiple records in real time.
 
 This allows us to leverage everything that’s great about Drupal (CMS tools, personalization, paid and unpaid event registrations, membership purchases, general ecommerce, and user access controls) with everything that’s great about Salesforce's Nonprofit Starter Pack (NPSP) 3.0 (best-in-class donor management, unlimited extendability and scalability, flexible and intuitive reporting tools, and the most robust Application Exchange available).
 

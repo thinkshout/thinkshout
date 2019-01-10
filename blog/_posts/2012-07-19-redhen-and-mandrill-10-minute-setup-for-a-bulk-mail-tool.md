@@ -19,7 +19,7 @@ author: tauno
 ---
 ### Introduction
 
-RedHen CRM is a native CRM solution for Drupal 7. If you haven't heard about it, check out our recent [blog announcements](http://thinkshout.com/blog/category/redhen). [Mandrill](http://mandrill.com) is a pay-as-you-go transactional email service provided by [MailChimp](http://mailchimp.com). This spring, ThinkShout was fortunate to have the opportunity to release a [Mandrill integration module](http://thinkshout.com/blog/2012/05/lev/mailchimp-adds-mandrill-integration-campaign-creation) for Drupal.
+RedHen CRM is a native CRM solution for Drupal 7. If you haven't heard about it, check out our recent [blog announcements](/blog/category/redhen). [Mandrill](http://mandrill.com) is a pay-as-you-go transactional email service provided by [MailChimp](http://mailchimp.com). This spring, ThinkShout was fortunate to have the opportunity to release a [Mandrill integration module](/blog/2012/05/lev/mailchimp-adds-mandrill-integration-campaign-creation) for Drupal.
 
 In this brief tutorial, I'll show you how to quickly set up a bulk mailing tool in Drupal leveraging [RedHen CRM](http://drupal.org/project/redhen), [Views Bulk Operations](http://drupal.org/project/views_bulk_operations) (VBO), and [Mandrill](http://drupal.org/project/mandrill).
 

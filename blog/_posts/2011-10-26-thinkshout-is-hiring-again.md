@@ -16,7 +16,7 @@ Well, we're at it again...our team is growing as we take on more and more exciti
 
 Are you passionate about Drupal web application development? Do you want to be paid to make significant contributions to the open source community? Do you want to go to sleep each night proud of the clients you serve? Are you looking for an employer who will invest in your professional development? Are you looking for a cool geek community with a great location in an awesome progressive town? Do you enjoy organic burritos and acupuncture (both available downstairs from our office). Do you want you want to take your dog to work? Do you want to help choose the Spotify playlists we listen to in the office?
 
-[Lev, Andrea, Brandon and I](http://thinkshout.com/team) care about these things too - and, in large part, that's why we think that we've become such a successful team in just the two short years that we've been working together. Now we're looking to grow the team. Given our commitment to remaining a lean, "high-end, do-good" shop, you are invited to help us iterate on the culture and best practices you've always wanted on a development team.
+[Lev, Andrea, Brandon and I](/team) care about these things too - and, in large part, that's why we think that we've become such a successful team in just the two short years that we've been working together. Now we're looking to grow the team. Given our commitment to remaining a lean, "high-end, do-good" shop, you are invited to help us iterate on the culture and best practices you've always wanted on a development team.
 
 ## More About Us ##
 

@@ -77,7 +77,7 @@ This is advice that has been repeated almost endlessly, but Google made it more 
 
 Social media traffic is generally some of the worst quality, in terms of meeting your organizational goals.
 
-The metrics for bounce rate, visit duration, and pages per session were significantly worse for social referrals compared to the site as a whole for 6 of the 9 organizations we reviewed. (Interestingly, the redesigned [ThinkShout.com](http://thinkshout.com/) showed significant improvement across the board.) For the most part, they come, they spend a moment, they go back to Facebook.
+The metrics for bounce rate, visit duration, and pages per session were significantly worse for social referrals compared to the site as a whole for 6 of the 9 organizations we reviewed. (Interestingly, the redesigned [ThinkShout.com](/) showed significant improvement across the board.) For the most part, they come, they spend a moment, they go back to Facebook.
 
 Social traffic can be driven by all sorts of user motivations, from links posted in your own social channels – “I want to keep up with the latest news from one of my favorite organizations” – to something posted on your Wall by your mom – “I’d better know what that is so I can talk about it at our next dinner.” You’re not likely to meet all of them, so your analysis should focus on the highest value interactions. What are the outliers? If you have a few pages that outperform the majority, try to figure out what’s unique about them.
 

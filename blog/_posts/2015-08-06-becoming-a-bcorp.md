@@ -7,7 +7,7 @@ header-image-alt:
 
 title: Being the Change - Becoming a B Corp
 author: lev
-image: http://thinkshout.com/assets/images/blog/thinkshout-bcorp-blog__2_.jpg
+image: /assets/images/blog/thinkshout-bcorp-blog__2_.jpg
 published: true 
 featured: false
 short: We are proud to announce our certification as a B Corporation.
@@ -20,13 +20,13 @@ date: 2015-08-06
 ---
 ![thinkshout-bcorp.jpg]({{ site.baseurl }}/assets/images/blog/thinkshout-bcorp-blog__2_.jpg)
 
-When [Sean](http://thinkshout.com/blog/2009/07/sean/why-thinkshout-why-now/) and [I founded](http://thinkshout.com/blog/2011/01/lev/levs-take-new-thinkshout-inc/) ThinkShout in January of 2011, one of the first things we did was sit down and write the following Mission Statement:
+When [Sean](/blog/2009/07/sean/why-thinkshout-why-now/) and [I founded](/blog/2011/01/lev/levs-take-new-thinkshout-inc/) ThinkShout in January of 2011, one of the first things we did was sit down and write the following Mission Statement:
 
 *ThinkShout helps progressive organizations achieve their goals through web strategy and open source software. We treat our business and nonprofit clients as partners. Our motivation comes from knowing that they make the world a better place.*
 
 This Mission Statement worked well for the two of us. Our focus was 100% on our clients. We had a tiny environmental footprint, as we were just two guys with laptops and rented desks. We had no staff, so we didn’t yet need to think about organizational culture. Our considerations of the workplace environment didn’t go much further than choosing Spotify channels in our tiny office. The bottom line is that we loved using open source technology to help nonprofits have a positive impact and in our early days, our mission, as well as many other things, just *worked*.
 
-In the ensuing years, we’ve been very fortunate and, well, haven’t made too much of a mess of things. We’ve connected with wonderful, forward-thinking [clients](http://thinkshout.com/work/) who are, indeed, making the world a better place. We have a [team](http://thinkshout.com/team/) of 21 talented, dedicated, and passionate individuals. And we’re still [growing](http://thinkshout.com/careers/). We have a clearly defined culture representing our values, and a gorgeous workplace to match. We laid a solid foundation for growth on top of a strong management team and cohesive organizational structure. Of course, apart from surrounding ourselves with great people, Sean and I are personally responsible for very little of all this.
+In the ensuing years, we’ve been very fortunate and, well, haven’t made too much of a mess of things. We’ve connected with wonderful, forward-thinking [clients](/work/) who are, indeed, making the world a better place. We have a [team](/team/) of 21 talented, dedicated, and passionate individuals. And we’re still [growing](/careers/). We have a clearly defined culture representing our values, and a gorgeous workplace to match. We laid a solid foundation for growth on top of a strong management team and cohesive organizational structure. Of course, apart from surrounding ourselves with great people, Sean and I are personally responsible for very little of all this.
 
 ### Staying Focused Through Growth###
 

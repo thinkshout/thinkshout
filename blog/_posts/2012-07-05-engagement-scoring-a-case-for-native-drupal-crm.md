@@ -26,7 +26,7 @@ The majority of Drupal websites that we build allow anonymous users to leave com
 
 ## Enter RedHen CRM Engagement Scoring
 
-[RedHen CRM](http://drupal.org/project/redhen) is a native CRM solution built in Drupal 7. I won't go into the larger, general RedHen description here, as you can [read more about RedHen on our blog](http://thinkshout.com/blog/tag/redhen). The focus of this post is on the RedHen Engagement system. The RedHen Engagements sub-module provides an API and framework for tracking and **measuring** engagement, through a configurable scoring system, for both authenticated users and anonymous visitors. Anonymous visitors are currently tracked by a given email address, but we have future plans to add session and IP address tracking as well.
+[RedHen CRM](http://drupal.org/project/redhen) is a native CRM solution built in Drupal 7. I won't go into the larger, general RedHen description here, as you can [read more about RedHen on our blog](/blog/tag/redhen). The focus of this post is on the RedHen Engagement system. The RedHen Engagements sub-module provides an API and framework for tracking and **measuring** engagement, through a configurable scoring system, for both authenticated users and anonymous visitors. Anonymous visitors are currently tracked by a given email address, but we have future plans to add session and IP address tracking as well.
 
 The module integrates out of the box with the "RedHen Notes" module, so that offline interactions with RedHen contacts - such as phone calls or in-person meetings - can be tracked and scored. The module also integrates with [Rules](http://drupal.org/project/rules), so that you can programmatically score different types of engagement.
 

@@ -15,10 +15,10 @@ tags:
 short: The Drupal Salesforce Suite has been around since Drupal 5, having undergone many transformations in trying to keep pace with both Drupal and Salesforce API changes. The result is a feature set as impressive as it is ambitious, although the incremental updates and additions have come at a cost of significant technical debt, inconsistent API usage, a monolithic architecture, and fragility.
 author: lev
 ---
-<img src="http://www.sfdcstatic.com/common/assets/img/logo-company.png" alt="Salesforce logo" style="float:left; margin:0 10px 10px 0 " /> 
+<img src="https://www.sfdcstatic.com/common/assets/img/logo-company.png" alt="Salesforce logo" style="float:left; margin:0 10px 10px 0 " /> 
 The [Drupal Salesforce Suite](http://drupal.org/project/salesforce) has been around since Drupal 5, having undergone many transformations in trying to keep pace with both Drupal and Salesforce API changes. The result is a feature set as impressive as it is ambitious, although the incremental updates and additions have come at a cost of significant technical debt, inconsistent API usage, a monolithic architecture, and fragility.
 
-ThinkShout, not being strangers to major rewrites, [even of our own modules](http://thinkshout.com/blog/2011/06/lev/mailchimp-20-anatomy-drupal-module-rewrite), and driven by our need to integrate Salesforce with our native Drupal CRM, [RedHen](http://drupal.org/project/redhen), undertook the challenge to completely rewrite the Salesforce suite this fall.
+ThinkShout, not being strangers to major rewrites, [even of our own modules](/blog/2011/06/lev/mailchimp-20-anatomy-drupal-module-rewrite), and driven by our need to integrate Salesforce with our native Drupal CRM, [RedHen](http://drupal.org/project/redhen), undertook the challenge to completely rewrite the Salesforce suite this fall.
 
 ## Why a rewrite?
 * The current modules uses the [SOAP API](http://www.salesforce.com/us/developer/docs/api/index.htm) and depends on the external [PHP Toolkit library](http://wiki.developerforce.com/page/Force.com_Toolkit_for_PHP). We wanted to leverage the much lighter weight, real time, [REST API](http://www.salesforce.com/us/developer/docs/api_rest/index.htm).
@@ -59,7 +59,7 @@ In addition, the REST API allows, or rather requires, the use of [OAuath 2.0](ht
 
 1. Create a remote application within the Salesforce instance. The callback URL must be in the format *https://mydrupalsite.com/salesforce/oauch_callback*. Obviously replace *mydrupalsite.com* with the url of the site being integrated with Salesforce. Also note that HTTPS is *required* for a secure authorization to take place. Yes, that means this module will not work on sites that don't support HTTPS.
 2. Obtain the consumer key and secret from the remote application created in step 1 and enter it in the authorization form. Click the authorize button.
-![authorization form](http://thinkshout.com/sites/default/files/images/inline/salesforce-authorize-2.png)
+![authorization form](/sites/default/files/images/inline/salesforce-authorize-2.png)
 3. This will initiate 2 requests to Salesforce. The first redirects the user to Salesforce, sending along the consumer key and callback URL. If the user authorizes the remote application, the same one created in step 1, in our case a Drupal site, Salesforce responds with an authorization code.
 4. The Module then sends another request to Salesforce with the authorization code obtained in step 3, along with the consumer key, secret, and callback URL, and gets a response containing a refresh token and API instance URL.
 5. The refresh token is used to obtain an ephermal access token, analogous to a session ID, which is used to access the REST resources. The access token is actually only stored in session storage to emphasize it's temporary nature and a new one is obtained when the access token expires on the Salesforce side or the Drupal session ends. There's certainly room for improvement in this process, but it seems to work for now.
@@ -129,7 +129,7 @@ Salesforce field mappings are the configuraiton that guides how Salesforce objec
 * Specify the triggers points for syncronizing data.
 * Process the data in realtime or via a batch process.
 * Mappings are weighted so that related entities can be processed in the right order.
-![Mappings list](http://thinkshout.com/sites/default/files/images/inline/salesforce-mappings-list.png)
+![Mappings list](/sites/default/files/images/inline/salesforce-mappings-list.png)
 
 ### Flexible fieldmap type system
 When mapping fields, we needed a flexible system to handle different type of data mappings and how to derive the correct values. We modeled the fieldmap type system very loosely after Drupal entity definition hooks. Any module can implement <code>hook_salesforce_mapping_fieldmap_type()</code> to define a type of field mapping. The module ships with 4 fieldmap types:
@@ -172,7 +172,7 @@ function salesforce_mapping_salesforce_mapping_fieldmap_type() {
 
 The fieldmap UI allows an admin to select a fieldmap type which then presents either a list of options, E.g. a list of fields and properties in the case of a Property fieldmap type, or a textbox, E.g., for Tokens. After passing an optional validation step, the value is saved with the field mapping. When data is synced, the push or pull value callback is used to get the correct value. We're hopeful this approach will provide the right balance between flexibility and out of the box utility in mapping simple and complex data structures.
 
-![field mappings](http://thinkshout.com/sites/default/files/images/inline/salesforce-field-mappings-2.png)
+![field mappings](/sites/default/files/images/inline/salesforce-field-mappings-2.png)
 
 ## Where things are heading
 We'll be launching several sites before years using the new version of the Salesforce module and are including it in a private distribution we've developed for the [Forum of Regional Associations of Grantmakers](http://www.givingforum.org/), who have generously sponsored the initial development, and we already feel it's alpha quality and at the "MVP" stage. There are certain to be lots of bugs, and perhaps even major API changes, but that's to be expected for a project of this complexity and with a such a wide array of use cases. We're hoping to engage even more with the community at this time to gather architectural feedback and help work out the kinks. 

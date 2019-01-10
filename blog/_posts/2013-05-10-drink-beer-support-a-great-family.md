@@ -32,6 +32,6 @@ We joke that *"open source is free as in beer"* - that we have an obligation to 
 
 * Please register for the event at: [http://pdxdrupaldogooders.eventbrite.com](http://pdxdrupaldogooders.eventbrite.com).
 * If you cannot attend, please consider making a donation directly to Aaron's [special needs trust](http://aaronwinborn.com/blogs/aaron/special-needs-trust).
-* And Drupal firms, consider [sponsoring the event](http://thinkshout.com/contact).
+* And Drupal firms, consider [sponsoring the event](/contact).
 
 So far, the generous sponsors of this event have raised over $4,000 for Aaron and his family. Let's keep the momentum going and hit the goal of raising $10,000 on this special night.
