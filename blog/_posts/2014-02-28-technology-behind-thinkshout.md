@@ -15,9 +15,9 @@ tags:
 date: 2014-03-05 15:00:00
 ---
 
-Now that we've covered the [goals, strategy and process for our new site](http://thinkshout.com/blog/2014/02/the-new-thinkshout-website/), I wanted to dive into the technology choices we made. First, the obvious: unlike most of the sites we've launched over the last four years, this one is _not_ built with [Drupal](http://drupal.org). Instead we used [Jekyll](http://jekyllrb.com), one of a fast growing list of [static site generators](http://staticsitegenerators.net/) (SSG), along with [Foundation 5](http://foundation.zurb.com/), [GitHub](http://github.com), and [Amazon S3](http://aws.amazon.com/s3/) for hosting.
+Now that we've covered the [goals, strategy and process for our new site](/blog/2014/02/the-new-thinkshout-website/), I wanted to dive into the technology choices we made. First, the obvious: unlike most of the sites we've launched over the last four years, this one is _not_ built with [Drupal](http://drupal.org). Instead we used [Jekyll](http://jekyllrb.com), one of a fast growing list of [static site generators](http://staticsitegenerators.net/) (SSG), along with [Foundation 5](http://foundation.zurb.com/), [GitHub](http://github.com), and [Amazon S3](http://aws.amazon.com/s3/) for hosting.
 
-![Jekyll logo](http://jekyllrb.com/img/logo-2x.png)
+![Jekyll logo](https://jekyllrb.com/img/logo-2x.png)
 
 ## So, why not Drupal?
 
@@ -96,7 +96,7 @@ prose:
 
 Yields this form:
 
-![prose metadata](http://thinkshout.com/assets/images/blog/prose-metadata.png)
+![prose metadata](/assets/images/blog/prose-metadata.png)
 
 Aside from Prose.io, content can, of course, be managed the old fashioned way by cloning, adding, and pushing files via git. In addition, content be managed directly on GitHub which recently added file creation and has a nice editor and preview feature for markdown and html files.
 

@@ -30,13 +30,13 @@ Setting things up is easy:
 4. Select the name of the USB card reader you're using
 5. Save the changes to the payment method and you're good to go
 
-![Enable USB card reader functionality](http://www.thinkshout.com/assets/images/blog/commerce-iats-card-reader-settings.png)
+![Enable USB card reader functionality](https://thinkshout.com/assets/images/blog/commerce-iats-card-reader-settings.png)
 
 The USB card reader option is only available to Drupal admin users, not regular customers, so you'll need to create an order manually through the Drupal Commerce admin interface before you can process a payment by swiping a credit card.
 
 The next time you add a credit card payment to an order, you'll see something like this:
 
-![Adding a payment with an encrypted USB card reader](http://www.thinkshout.com/assets/images/blog/commerce-iats-card-reader-data.png)
+![Adding a payment with an encrypted USB card reader](https://thinkshout.com/assets/images/blog/commerce-iats-card-reader-data.png)
 
 That code is the encrypted credit card data fed into Drupal by the USB card reader. Or it might be the Matrix, we're still not entirely sure.
 

@@ -27,7 +27,7 @@ The location for this year’s conference holds a special place in our hearts, a
 
 ## Exhibit Hall##
 
-We’re partnering with our friends MailChimp at booth 800. Stop by for some cool swag, to talk shop, and learn about the exciting work we’re doing porting the MailChimp module to Drupal 8. We’re also hiring for [several positions](http://thinkshout.com/careers/), so if you’d like to meet face to face and get a better feel for what it would be like to join the ThinkShout team, come chat with us.
+We’re partnering with our friends MailChimp at booth 800. Stop by for some cool swag, to talk shop, and learn about the exciting work we’re doing porting the MailChimp module to Drupal 8. We’re also hiring for [several positions](/careers/), so if you’d like to meet face to face and get a better feel for what it would be like to join the ThinkShout team, come chat with us.
 
 ## Official Sessions##
 
@@ -87,7 +87,7 @@ Wednesday May 13th, 10:45-11:45am
 
 Room: 505 - Chromatic
 
-And finally, as we mentioned earlier, we’re excited about visiting LA this year because we’ll get a bit of face time with some of the great west coast clients and partners we’ve been working with over the last few years. We will be hosting a special happy hour reception celebrating these LA organizations and honoring one of our long-time clients and partners, the [Los Angeles Conservancy](http://thinkshout.com/work/la-conservancy/), with a donation from our team.
+And finally, as we mentioned earlier, we’re excited about visiting LA this year because we’ll get a bit of face time with some of the great west coast clients and partners we’ve been working with over the last few years. We will be hosting a special happy hour reception celebrating these LA organizations and honoring one of our long-time clients and partners, the [Los Angeles Conservancy](/work/la-conservancy/), with a donation from our team.
 
 We hope to see you at DrupalCon this year. If you can’t make it, get in touch with us and we’ll fill you in on what you missed! You can also follow along on all the social networks: [Twitter](https://twitter.com/thinkshout), [Facebook](https://www.facebook.com/ThinkShout), and [Instagram](https://instagram.com/thinkshout/) - we’ll keep you posted!
 

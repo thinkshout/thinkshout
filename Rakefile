@@ -5,7 +5,6 @@ require 'date'
 require 'yaml'
 require 'tmpdir'
 require 'jekyll'
-require 's3_website'
 
 task :default => :serve
 
@@ -20,11 +19,15 @@ task :install do
   system 'npm install -g browser-sync'
 end
 
-
 desc 'Build site with Jekyll'
 task :build do
   system 'bundle exec sass --update -r sass-globbing assets/sass:assets/css'
   system 'bundle exec jekyll build'
+end
+
+desc 'Trigger visual regression test'
+task :test do
+  system '_scripts/trigger-circle.sh'
 end
 
 desc 'Watch sass files'
@@ -40,16 +43,6 @@ end
 desc 'BrowserSync for live reloading and injecting new changes'
 task :browsersync do
   system 'browser-sync start --proxy "localhost:4000" --files "_site/assets/*, _site/*.md, _site/*.html, _site/*.js"'
-end
-
-desc "Generate and publish site to thinkshout.com on Amazon S3."
-task :publish => [:build] do
-  system 'bundle exec s3_website push'
-end
-
-desc "Generate and publish site to stage.thinkshout.com on S3."
-task :stage => [:build] do
-  system 'bundle exec s3_website push --config-dir=stage_config'
 end
 
 # Run development tasks on separate threads

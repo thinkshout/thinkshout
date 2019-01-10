@@ -18,9 +18,9 @@ tags:
   - modules
 ---
 
-Last month, we released the 2.0-beta release of the Commerce iATS module, a Drupal module that leverages [Drupal Commerce](https://drupal.org/project/commerce) and the [iATS Payments PHP Wrapper](http://thinkshout.com/blog/2014/03/announcing-iats-php-wrapper/) to add support for payment processing via [iATS Payments](http://home.iatspayments.com/).
+Last month, we released the 2.0-beta release of the Commerce iATS module, a Drupal module that leverages [Drupal Commerce](https://drupal.org/project/commerce) and the [iATS Payments PHP Wrapper](/blog/2014/03/announcing-iats-php-wrapper/) to add support for payment processing via [iATS Payments](http://home.iatspayments.com/).
 
-We also [promised to deliver](http://thinkshout.com/blog/2014/04/refactoring-the-iats-drupal-module/) ACH/EFT and Direct Debit payment functionality before DrupalCon Austin. It took a few long days, but we're proud to announce the release of [Commerce iATS 2.0](https://drupal.org/project/commerce_iats).
+We also [promised to deliver](/blog/2014/04/refactoring-the-iats-drupal-module/) ACH/EFT and Direct Debit payment functionality before DrupalCon Austin. It took a few long days, but we're proud to announce the release of [Commerce iATS 2.0](https://drupal.org/project/commerce_iats).
 
 Commerce iATS 2.0 is packed with new features that allow you to fully take advantage of the services offered by iATS Payments.
 

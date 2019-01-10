@@ -31,7 +31,7 @@ cs-intro:
   text: |
     Feeding Texas is the leading online resource for food assistance in Texas, bringing together and supporting over 20 local food banks across the state. Despite its ambitious mandate and broad reach, the organization’s communications team is small. Their time and resources are limited. Consequently, they need the most lightweight, “no fuss no muss” website possible.
 
-    Breaking new ground in nonprofit tech, we launched a [“no-CMS”](http://thinkshout.com/blog/2014/10/success-building-cmsless-production-sites-with-jekyll/) website for Feeding Texas built on top of Jekyll and Foundation.
+    Breaking new ground in nonprofit tech, we launched a [“no-CMS”](/blog/2014/10/success-building-cmsless-production-sites-with-jekyll/) website for Feeding Texas built on top of Jekyll and Foundation.
 
 cs-sections:
   - section-image: "/assets/images/work/feedingtexas/feedingtexas-discovery.jpg"

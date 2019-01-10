@@ -13,7 +13,7 @@ tags:
   - Design
   - Typography
 date: 2015-11-02 12:00:00
-image: http://thinkshout.com/assets/images/ts_icon.jpg
+image: /assets/images/ts_icon.jpg
 ---
 
 On my third day at ThinkShout, I casually (read: scared out of my mind) took a risk and asked what would happen if I suggested a few updates to the current ThinkShout logo.

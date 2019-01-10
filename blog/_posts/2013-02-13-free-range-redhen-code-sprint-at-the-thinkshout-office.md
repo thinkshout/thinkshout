@@ -19,9 +19,9 @@ tags:
 short: Time to circle up in the office and bust out an open source sprint. 
 author: betsy
 ---
-<img src="https://dl.dropbox.com/s/3vsjjgva9gimabh/redhen_logo.png" style="float: right; margin: -10px 0px 10px 15px">With 2013 well underway, we thought it was time to circle up in the office and bust out an open source sprint.  Our focus this time was on [RedHen](http://drupal.org/project/redhen), our [native Drupal CRM](http://thinkshout.com/blog/2012/06/sean/redhen-crm-part-1), which is fully open sourced and lives on Drupal.org.  In one afternoon, with our team of 8, we were able to give the issue queue some lovin' and also roll the release of RedHen 1.0!
+<img src="https://dl.dropbox.com/s/3vsjjgva9gimabh/redhen_logo.png" style="float: right; margin: -10px 0px 10px 15px">With 2013 well underway, we thought it was time to circle up in the office and bust out an open source sprint.  Our focus this time was on [RedHen](http://drupal.org/project/redhen), our [native Drupal CRM](/blog/2012/06/sean/redhen-crm-part-1), which is fully open sourced and lives on Drupal.org.  In one afternoon, with our team of 8, we were able to give the issue queue some lovin' and also roll the release of RedHen 1.0!
 
-So kudos and applause to [Lev](http://thinkshout.com/team#Lev), [Sean](http://thinkshout.com/team#Sean), [Tauno](http://thinkshout.com/team#Tauno), [Brandon](http://thinkshout.com/team#Brandon), [Brett](http://thinkshout.com/team#Brett), [Gabe](http://thinkshout.com/team#Gabe) and [David](http://thinkshout.com/team#David), ThinkShout's newest team member who was in Portland for the first time, for coding up a storm.  Here's a quick update on the most recent 1.0 releases we've been able to get out the door:
+So kudos and applause to [Lev](/team#Lev), [Sean](/team#Sean), [Tauno](/team#Tauno), [Brandon](/team#Brandon), [Brett](/team#Brett), [Gabe](/team#Gabe) and [David](/team#David), ThinkShout's newest team member who was in Portland for the first time, for coding up a storm.  Here's a quick update on the most recent 1.0 releases we've been able to get out the door:
 
 * [RedHen core](http://drupal.org/node/1910206), 'nough said.
 * [RedHen membership](http://drupal.org/project/redhen_membership), a separate module to manage association memberships.

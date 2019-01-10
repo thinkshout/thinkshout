@@ -13,7 +13,7 @@ tags:
 short: Betsy Ensley has joined our team as our new Director of Professional Services.
 author: sean
 ---
-ThinkShout is proud to announce that [Betsy Ensley](http://thinkshout.com/team#betsy) has joined our [team](http://thinkshout.com/team) as our new Director of Professional Services.
+ThinkShout is proud to announce that [Betsy Ensley](/team#betsy) has joined our [team](/team) as our new Director of Professional Services.
 
 Betsy has made significant contributions to the Drupal community over the last two years. You may know Betsy from her work as the Director of Marketing at [Phase2](http://www.phase2technology.com/), her volunteer service with the Drupal Association's Marketing and Branding Committee, and her organizing efforts with the DC Drupal Users' Group.
 

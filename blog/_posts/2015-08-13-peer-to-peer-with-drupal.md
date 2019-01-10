@@ -7,7 +7,7 @@ header-image-alt:
 
 title: "Peer-To-Peer Fundraising With Drupal - RedHen Raiser"
 author: sean
-image: http://thinkshout.com/assets/images/blog/image_2.png
+image: /assets/images/blog/image_2.png
 published: true
 featured: false
 short: We take a closer look at a RedHen Raiser success story.
@@ -26,7 +26,7 @@ date: 2015-08-13 15:00:00
 
 Last summer, the [Capital Area Food Bank of Washington, DC](http://www.capitalareafoodbank.org/) came to us with a great idea: The Food Bank wanted to increase its investment in team fundraising initiatives, but they didn’t necessarily want to continue to invest in a "pay as you go" service like StayClassy, TeamRaiser, or Razoo. Rather, they wanted to explore whether or not they could invest in the development of an open source alternative that would eliminate licensing costs, that they could customize more easily, and that they could then give back to the broader nonprofit community.
 
-We’ve spoken a lot in the community regarding various strategies for [how nonprofits can contribute to the development of open source tools](http://thinkshout.com/blog/2015/03/the-how-and-why-of-open-source/). Most of the time, we recommend that nonprofits start off by solving their own organizational problems first, and then abstracting components of the resulting solutions at the end of the project.
+We’ve spoken a lot in the community regarding various strategies for [how nonprofits can contribute to the development of open source tools](/blog/2015/03/the-how-and-why-of-open-source/). Most of the time, we recommend that nonprofits start off by solving their own organizational problems first, and then abstracting components of the resulting solutions at the end of the project.
 
 However, in the case of the Capital Area Food Bank’s team fundraising needs, a competitive analysis of existing solutions provided us with a well-defined roadmap for how to meet the Food Bank’s goals, while simultaneously working on a suite of contributed tools that could be given back to the broader community. So, in coming up with their solution, we started out by developing RedHen Raiser as a stand-alone Drupal Distribution, and then implemented a customized instance of the Distribution to meet the Food Bank’s more specific design needs.
 

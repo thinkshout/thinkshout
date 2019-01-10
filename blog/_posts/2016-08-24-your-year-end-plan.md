@@ -45,7 +45,7 @@ By utilizing the most compelling way to let your story unfold, and carrying that
 
 Lightboxes and homepage takeovers - you think they’re tacky, but there’s a reason why more and more nonprofits are utilizing these tactics at year-end and intermittently throughout the year: because [they work](http://npengage.com/nonprofit-marketing/why-pop-ups-should-be-part-of-your-online-fundraising/).
 
-![Email acquisition lightbox as seen on Travel Oregon website](/assets/images/blog/your-year-end-plan-1.png)<span class="caption"><i class="fa fa-caret-up"></i>Email acquisition lightbox on Travel Oregon website - [www.traveloregon.com](http://www.traveloregon.com) </span>
+![Email acquisition lightbox as seen on Travel Oregon website](/assets/images/blog/your-year-end-plan-1.png)<span class="caption"><i class="fa fa-caret-up"></i>Email acquisition lightbox on Travel Oregon website - [www.traveloregon.com](https://www.traveloregon.com) </span>
 
 I know what you’re thinking, ‘lightboxes and popups are aggressive and I hate them!’ ...but lightboxes are not an all-or-none part of your strategy. They can be programmed to appear on a user’s first visit and then never again, or whatever you are comfortable starting with. As you grow to understand your audience more, that will dictate the behavior you set for your lightbox overlay. 
 

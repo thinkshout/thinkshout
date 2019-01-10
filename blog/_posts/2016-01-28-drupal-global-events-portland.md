@@ -12,7 +12,7 @@ tags:
   - Drupal training
   - Events
 date: 2016-01-28 13:00:00
-image: http://thinkshout.com/assets/images/ts_icon.jpg
+image: /assets/images/ts_icon.jpg
 topic: technology
 
 intro: |  
