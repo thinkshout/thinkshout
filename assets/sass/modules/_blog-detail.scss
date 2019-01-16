@@ -110,6 +110,18 @@
       }
     }
 
+    ul ul,
+    ul ol,
+    ol ol,
+    ol ul {
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+
+    ul ul li:last-of-type {
+      padding-bottom: 0;
+    }
+
     ol li {
       font-size: rem(15);
       letter-spacing: 0;
@@ -289,6 +301,7 @@
     line-height: 0;
     overflow: hidden;
     padding: 0;
+    margin-top: rem(48);
 
     .text {
       @include span-columns(7);
