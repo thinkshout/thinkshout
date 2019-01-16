@@ -18,8 +18,8 @@ tags:
   - marketing
   - "digital marketing"
 date: 2019-01-07 11:00:00
-image: https://thinkshout.com/assets/images/blog/retrospective-header.jpg
-header-image: /assets/images/blog/retrospective-header.jpg
+image: https://thinkshout.com/assets/images/blog/retrospective-header.jpeg
+header-image: /assets/images/blog/retrospective-header.jpeg
 header-image-alt: "Retrospectives: Quick, Easy, and Data-Informed"
 ---
 Congratulations, you’ve made it to 2019! Whether the past year for you was full of successes or challenges (probably both, right?), you no doubt worked your butt off and deserve some breathing room before jumping back into your infinite to-do list and your org’s annual plan.
