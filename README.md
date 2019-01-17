@@ -1,5 +1,3 @@
-![Travis CI status](https://travis-ci.org/thinkshout/thinkshout.svg)
-
 # ThinkShout.com
 
 The ThinkShout.com website, built with Jekyll, Foundation 5, SASS, and lots of love.
@@ -9,8 +7,8 @@ The ThinkShout.com website, built with Jekyll, Foundation 5, SASS, and lots of l
 
 ## Branches
 1. Dev: New feature development.
-2. Master: New content. Features from Dev merged into master. Pushed to stage.
-3. Live: Mapped to production. No commits, only merges from master.
+2. Stage: New content. Features from Dev merged into stage. Pushed to stage.
+3. Live: Mapped to production. No commits, only merges from stage.
 
 ### Development workflow
 Something along the lines of the following should be used by developers working on this site.
@@ -18,15 +16,15 @@ Something along the lines of the following should be used by developers working 
 1. Clone the repository if you don't have it.
 2. Checkout the dev branch, `git checkout dev`.
 3. Make sure you're current, `git pull origin dev`.
-4. Optionally grab the latest content by rebasing master from the dev branch, `git rebase master`.'
+4. Optionally grab the latest content by rebasing stage from the dev branch, `git rebase stage`.'
 5. Create a feature branch _off of dev_, `git checkout -b myfeature`.
 6. Make magic happen
 7. Merge your feature into dev, `git checkout dev && git merge myfeature`. Clean up and delete your feature branch.
 8. Run `rake serve` and make sure all is well.
 9. Push your exciting new feature, `git push origin dev`.
-10. If it's ready for staging, merge into master, `git checkout master && git merge dev && git push origin master`.
+10. If it's ready for staging, merge into stage, `git checkout stage && git merge dev && git push origin stage`.
 11. Optionally deploy to staging, `rake stage`.
-12. To launch the new feature, `git checkout live && git merge master`. Then publish, `rake publish`.
+12. To launch the new feature, `git checkout live && git merge stage`.
 
 ## Content editing
 Blog posts should be managed via [prose.io](http://prose.io/). Visit the website and, when prompted, authorize via GitHub. Select the [thinkshout/thinkshout](http://prose.io/#thinkshout/thinkshout) project. Prose will only make the blog post folder accessible. You can create new posts by clicking the large green "new file" button at the top of the page (see below "New Posts section"). Existing posts can be edited by clicking on the file in the list. When editing or creating a post, the metadata button on the right side will load with the available variables that can be filled in, including teaser, author name, and tags.
@@ -58,16 +56,13 @@ If you do not specify a title, Jekyll will generate one for you based on the nam
 To get a post to show on the home page, add `featured: true` to the post's YAML front matter. This will also add a class of `featured-post` across the site for styling convenience.
 
 ### Preview your post
-Click on the preview (eye) button on the right hand side. If you don't see images, etc. that you're referencing in your Markdown it's because they're not pushed to the repo (master branch).
+Click on the preview (eye) button on the right hand side. If you don't see images, etc. that you're referencing in your Markdown it's because they're not pushed to the repo (stage
+branch).
 
 ## Testing, CI, and Deployment
-The site is hosted on Amazon S3 where we have 2 buckets, one for staging mapped to http://stage.thinkshout.com and one for production mapped to our apex domain, http://thinkshout.com. A build on Travis CI will be triggered by any commit to master or live. Travis CI will:
-
-1. Compile the CSS using Compass.
-2. Build the site using Jekyll.
-3. Deploy the code to the appropriate S3 bucket: master will push to the private staging site and live to thinkshout.com.
+The site is hosted on [Netlify](https://netlify.com). Netlify will build previews of all commits in any branch. Preview environments are available in the Pull Request status checks. Commits to `stage` are published to https://stage.thinkshout.com and commits to `live` are published to https://thinkshout.com.
 
 Sites you might be interested in looking at:
 - local: http://localhost:4000/
-- stage: http://stage.thinkshout.com/
+- stage: https://stage.thinkshout.com/
 - live: https://thinkshout.com/
