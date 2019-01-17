@@ -17,7 +17,7 @@ tags:
   - retrospectives
   - marketing
   - "digital marketing"
-date: 2019-01-07 11:00:00
+date: 2019-01-17 11:00:00
 image: https://thinkshout.com/assets/images/blog/retrospective-header.jpg
 header-image: /assets/images/blog/retrospective-header.jpg
 header-image-alt: "Retrospectives: Quick, Easy, and Data-Informed"
@@ -31,9 +31,9 @@ At ThinkShout, we hold retrospectives after every project. We want to celebrate 
 - What went well and what can we celebrate? What were the highlights of the year for us and our team?
 - What challenges did we face? Of those challenges, which did we solve, and which still need to be solved?
 - What did we learn that we want to carry into 2019?
-- Where do we go from here?
+- What next steps will best move these learnings forward?
 
-Consider bringing some data to the discussion to enhance your reflections. If you’re not a data-based organization, you can pull simple analytics numbers to inform your discussion and set you on a path of establishing a more data-informed mindset. Did you launch a new site, campaign, communications strategy, or program? Do a quick numbers comparison from before and after to provide some insight into how they went, and to establish baselines from which to measure moving into 2019. To help get you started, here are some of the simple metrics we look at when we launch a new website or campaign:
+Consider bringing some data to the discussion to enhance your reflections. If you’re not a data-based organization, you can pull simple analytics numbers to inform your discussion and set you on a path of establishing a more data-informed mindset. Did you launch a new site, campaign, communications strategy, or program? Do a quick numbers comparison from before and after to provide some insight into how those efforts went, and to establish baselines from which to measure moving into 2019. To help get you started, here are some of the simple metrics we look at when we launch a new website or campaign:
 
 **New Website:**    
 - In Google Analytics, you can compare pre- and post- launch periods in these reports:
@@ -41,17 +41,16 @@ Consider bringing some data to the discussion to enhance your reflections. If yo
     - Channels (Acquisition>All Traffic) shows you which channels are driving the most visits to your site.
     - All Pages (Behavior>Site Content) shows you the individual pages that get the most pageviews as well as the quality of those views in terms of time on page and bounce/exit rate.
     - Content Drilldown (Behavior>Site Content) provides insight into which sections of your site are most visited.
-    - Goals Overview Report (Conversions). Note: this report requires you to set up your goals in Google Analytics first — such as email subscribe, donations, online actions, and more. If you haven’t done that yet, be sure that this is the year you do!
+    - Goals Overview Report (Conversions). Note: this report requires you to set up your goals in Google Analytics first — such as email subscriptions, donations, online actions, and more. If you haven’t done that yet, be sure that this is the year you do!
 
 **Campaign:**    
 - In Google Analytics, Tag Manager, and/or AdWords, you can compare recurring campaigns year-over-year to see how your landing page is performing by focusing on:
-    - Channel acquisition
-        - For any paid ads you do outside of AdWords, you can use Google Tag Manager to set up UTM links to track your ad variations
-    - Total pageviews
-    - Time on page
-    - Scroll depth (Tag Manager can help you create Events to track this)
-    - Conversions (remember that this report requires you to set up your goals in Google Analytics first)
-- For marketing channels such as social media and/or email, you can also pull basic stats (likes/clicks/comments in social and open/click rate in email)
+    - Channel acquisition. Note: for any paid ads you do outside of AdWords, you can use Google Tag Manager to set up UTM links to track your ad variations.
+    - Total pageviews.
+    - Time on page.
+    - Scroll depth (Tag Manager can help you create Events to track this).
+    - Conversions (remember that this report requires you to set up your goals in Google Analytics first).
+- For marketing channels such as social media and/or email, you can also pull basic stats (likes/clicks/comments in social and open/click rate in email).
 
 These metrics are all easily accessible from your reporting tools and are a great starting point to understand how your digital efforts are doing quantitatively.
 
