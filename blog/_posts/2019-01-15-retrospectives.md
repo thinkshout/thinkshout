@@ -17,7 +17,7 @@ tags:
   - retrospectives
   - marketing
   - "digital marketing"
-date: 2019-01-17 11:00:00
+date: 2019-01-16 11:00:00
 image: https://thinkshout.com/assets/images/blog/retrospective-header.jpg
 header-image: /assets/images/blog/retrospective-header.jpg
 header-image-alt: "Retrospectives: Quick, Easy, and Data-Informed"
