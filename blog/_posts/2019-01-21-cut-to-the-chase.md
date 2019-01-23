@@ -26,7 +26,7 @@ I love this series because I believe the most important thing about strategy is 
 
 As we settle into the new year, I find myself revisiting three lessons for creating impactful work that’s aligned with your core values. Even if you’ve learned these lessons before, it’s worth reviewing them before you blink and find yourself staring down the year-end calendar for 2019.
 
-###Ten ideas is easy. One insight is hard.
+### Ten ideas is easy. One insight is hard.
 
 During initial research it’s important to get ideas on paper as quickly as possible. If it’s easier to come up with ten decent ideas than one good one, doesn’t it stand to reason that you shouldn’t be fussy in getting those first ideas out of your head?
 
@@ -38,7 +38,7 @@ How you keep ideas moving is a matter of personal style. This year, try a few di
 
 Challenge yourself to come up with ten pieces of material to refine. Maybe it’s an emerging trend you catch from interviews. An unexpected sentiment among your youngest constituents. A previously unseen pattern in your traffic data. This phase of a project is your time, and for a moment you are an audience of one. This time usually is (and should be) brief. Use it wisely.
 
-###Flip the script
+### Flip the script
 
 When you sign up to work for a mission-driven organization, either on staff or as a consultant, by extension you sign up to work for its values. You try to live them in your daily life. You communicate them to the people around you. You do everything in your power to increase the impact of your organization through your efforts.
 
@@ -50,7 +50,7 @@ At this point, I lay out the values in front of me (on paper, screen, mental bil
 
 Move quickly through this part. No insight is precious enough to warrant divergence with organizational values. If you find that certain values are unclear or prematurely disqualify good ideas, that brings up an entirely different conversation, but for now let’s trust that this important filter will get you from a stack of decent ideas to a short list of aligned, powerful ones.
 
-###~~~Strike it~~~
+### ~~Strike it~~
 
 One of the most difficult projects I’ve ever worked on started with what seemed like a dream scenario: another vendor had provided multiple strategy decks that combined for over 200 pages. Without a doubt, it was a wealth of information, and it soon became clear that with so much to process it was next to impossible to determine what was most important. We should have known — what looked like a head start turned out to be a lot of noise with no clear signal.
 
@@ -69,7 +69,7 @@ If the above rubric is too strict or time-consuming, try simply asking yourself 
 
 This process will take a little longer, and might involve more collaboration internally. If the project can afford it, I recommend this as a time to test your ideas with other team members. You’ve been in the weeds for a while and can use some fresh eyes. If you can equip other members of your team with these same filters, there’s a good chance that together you can refine one or two into truly meaningful, actionable work.
 
-###P.S.
+### P.S.
 
 I’ll wrap with an admission. If all of this doesn’t seem conformant with our January series about _taking it easy on ourselves_, well, that’s because it doesn’t. None of these posts really do. In reality, it’s a way of making life easier — and more impactful — for everyone around us. Isn’t that our job as strategists?
 
