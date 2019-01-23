@@ -56,7 +56,7 @@ One of the most difficult projects I’ve ever worked on started with what seeme
 
 After you’ve gone through the process of weighing your ideas against your organization’s values to ensure they’re aligned, it’s time for the last leg. Do the important work that might pain you personally (“but I _loved_ that idea!”), and embrace the fact that every edit is one less thing for others to edit later on.
 
-It’s important to develop a personal style for determining what leaves your desk (and by developing a personal style, I mean crib liberally from others). One writer I steal from as often as possible is Avinash Kaushik (Digital Marketing Evangelist at Google for the last dozen years). He writes about how to []“go from insights to out-of-sights.”](https://madmimi.com/p/9d946d#) In this short essay, he provides a rubric of four evaluations:
+It’s important to develop a personal style for determining what leaves your desk (and by developing a personal style, I mean crib liberally from others). One writer I steal from as often as possible is Avinash Kaushik (Digital Marketing Evangelist at Google for the last dozen years). He writes about how to [“go from insights to out-of-sights.”](https://madmimi.com/p/9d946d#) In this short essay, he provides a rubric of four evaluations:
 
 - Is your idea novel?
 - Is it actionable?
