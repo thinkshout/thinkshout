@@ -16,8 +16,8 @@ tags:
   - simplify
   - "generative process"
 date: 2019-01-16 11:00:00
-image: https://thinkshout.com/assets/images/blog/retrospective-header.jpg
-header-image: /assets/images/blog/retrospective-header.jpg
+image: https://thinkshout.com/assets/images/blog/simplicity-header.jpg
+header-image: /assets/images/blog/simplicity-header.jpg
 header-image-alt: "Cut to the Chase: A Refresher on Getting to Less"
 ---
 As we reached the end of 2018, ThinkShout’s strategy team was reminded by clients (and ourselves) how the rush of year-end appeals and fundraising efforts was a recipe for burnout. So our strategy team came up with a refreshing idea: why not open 2019 with a blog series on how to do more with less. So far we’ve covered how [asking more questions can provide faster and more consistent community insights](https://thinkshout.com/blog/2019/01/ask-more-questions/); how to [reclaim your communications calendar](https://thinkshout.com/blog/2019/01/reclaiming-your-comms-calendar/); and how to [effectively run lightweight, data-driven retrospectives](https://thinkshout.com/blog/2019/01/retrospectives/).
