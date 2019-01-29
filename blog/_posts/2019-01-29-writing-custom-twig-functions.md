@@ -45,9 +45,8 @@ Note, the finished module created below is also available [here](https://gist.gi
 
 Let’s say you want to print out a field label within a template. For example, the default Drupal 8 Article display shows the label for the Tags field:
 
-![Test Article](/assets/images/blog/Add_a_raw_text_format.png)
+![Test Article](/assets/images/blog/custom-twig-no-customization.png)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>Adding in raw text format</span>
 
 Let’s say we also, for some reason, wanted to put the “Tags” label somewhere else on the page, like right under the node’s “Submitted” information. Out of the box, you can use Twig to get the label’s raw value if you’re extending your node.twig.html file:
 
@@ -72,7 +71,7 @@ Now, suppose a site builder decides they don’t want to show the label on the T
 
 If you’re using the Twig Field Value module and use this syntax:
 
-~~~html
+~~~twig
 {{ content.field_tags|field_label }}
 ~~~
 
