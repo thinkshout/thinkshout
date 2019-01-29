@@ -51,27 +51,28 @@ Let’s say you want to print out a field label within a template. For example, 
 
 Let’s say we also, for some reason, wanted to put the “Tags” label somewhere else on the page, like right under the node’s “Submitted” information. Out of the box, you can use Twig to get the label’s raw value if you’re extending your node.twig.html file:
 
-`{{ content.field_tags['#title'] }}`
+~~~html
+{{ content.field_tags['#title'] }}
+~~~
 
 That works!
 
 ![with-tags](/assets/images/blog/with-tags.png)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>With Tags</span>
 
 Now, suppose a site builder decides they don’t want to show the label on the Tags field anymore. They go into the admin area, change the field value on the label from “Above” to “Hidden”, and reload the entity.
 
 ![Backend](/assets/images/blog/backend.png)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>backend</span>
 
 ![Part Tags](/assets/images/blog/part-tags.png)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>part tags</span>
 
 If you’re using the Twig Field Value module and use this syntax:
 
-`{{ content.field_tags|field_label }}`
+~~~html
+{{ content.field_tags|field_label }}
+~~~
 
 The same thing happens. That’s because the field_label function doesn’t take into account the settings on the admin side either.
 
@@ -217,17 +218,17 @@ Then you just write your custom method! Here’s the full code for the getRespec
 
 If we now use our custom twig filter in the node.html.twig file, the label behaves as expected:
 
-`{{ content.field_tags|field_respectful_label }}`
+~~~html
+{{ content.field_tags|field_respectful_label }}
+~~~
 
 ![No Tags](/assets/images/blog/no-tags.png)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>no tags</span>
 
 There is now no label showing up on the front end, because we’ve hidden the label in the backend. If I went and changed the label visibility setting to “Above”, the label does show up. No code changes required:
 
 ![Both Tags](/assets/images/blog/both-tags.png)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>both tags</span>
 
 And with that you have a new, custom Twig filter.
 
