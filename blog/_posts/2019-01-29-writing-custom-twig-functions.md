@@ -71,9 +71,11 @@ Now, suppose a site builder decides they don’t want to show the label on the T
 
 If you’re using the Twig Field Value module and use this syntax:
 
+{% raw %}
 ~~~twig
 {{ content.field_tags|field_label }}
 ~~~
+{% endraw %}
 
 The same thing happens. That’s because the field_label function doesn’t take into account the settings on the admin side either.
 
@@ -219,9 +221,11 @@ Then you just write your custom method! Here’s the full code for the getRespec
 
 If we now use our custom twig filter in the node.html.twig file, the label behaves as expected:
 
+{% raw %}
 ~~~twig
 {{ content.field_tags|field_respectful_label }}
 ~~~
+{% endraw %}
 
 ![No Tags](/assets/images/blog/no-tags.png)
 {:.center}
