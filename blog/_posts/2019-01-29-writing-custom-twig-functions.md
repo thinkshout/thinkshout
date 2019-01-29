@@ -51,9 +51,11 @@ Let’s say you want to print out a field label within a template. For example, 
 
 Let’s say we also, for some reason, wanted to put the “Tags” label somewhere else on the page, like right under the node’s “Submitted” information. Out of the box, you can use Twig to get the label’s raw value if you’re extending your node.twig.html file:
 
+{% raw %}
 ~~~twig
 {{ content.field_tags['#title'] }}
 ~~~
+{% endraw %}
 
 That works!
 
