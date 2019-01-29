@@ -131,10 +131,11 @@ services:
   custom_twig.my_custom_twig_items:
     class: Drupal\custom_twig\MyCustomTwigItems
     arguments: []
-
+~~~
 
 And the MyCustomTwigItems php file:
 
+~~~html
 <?php
 
 namespace Drupal\custom_twig;
