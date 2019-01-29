@@ -17,7 +17,7 @@ tags:
   - "Twig functions"
   - Drupal 8
 date: 2019-01-29 12:00:00
-image: https://thinkshout.com/assets/images/marquee/expertise.jpg
+image: https://thinkshout.com/assets/images/marquee/Jules-at-computer.jpg
 ---
 When Drupal 8 came out, it introduced the Drupal community to the concept of separating the theming layer from the logic layer through the [Twig](https://twig.symfony.com/) templating language. This had many advantages. For one, instead of needing to know PHP, a themer could just know Twig  -- an extremely stripped-down templating engine that has a [few syntax elements, minimal built-in operators, and only about 50 provided functions](https://twig.symfony.com/doc/2.x/). Additionally, the limited list of available functions makes it much harder to shoehorn heavy logic or even more dangerous things like SQL queries directly into the theming layer.
 
