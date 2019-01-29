@@ -85,7 +85,7 @@ As outlined above, first you need to create a service. The quickest way to do th
 
 Let’s assume you’ve already got a module called  “custom_twig”. The command to generate this service would look like this:
 
-~~~html
+~~~bash
 $ drupal generate:service
 
  // Welcome to the Drupal service generator
@@ -126,7 +126,7 @@ Generated or updated files
 
 This creates two files. The custom_twig.services.yml file:
 
-~~~html
+~~~yaml
 services:
   custom_twig.my_custom_twig_items:
     class: Drupal\custom_twig\MyCustomTwigItems
@@ -157,7 +157,7 @@ class MyCustomTwigItems {
 
 We now need to alter these files slightly. For the services.yml file, we will need to remove the “arguments” line, and add a reference to the twig extension tag:
 
-~~~html
+~~~yaml
 services:
   custom_twig.my_custom_twig_items:
     class: Drupal\custom_twig\MyCustomTwigItems
@@ -167,7 +167,7 @@ services:
 
 In the MyCustomTwigItems.php file, we can make a few changes as well. First, the MyCustomTwigItems class must extend the \Twig_Extension class. We can also get rid of the constructor, which leaves you with a very bare class declaration:
 
-~~~html
+~~~php
 /**
  * Class MyCustomTwigItems.
  */
@@ -178,7 +178,7 @@ class MyCustomTwigItems extends \Twig_Extension {
 
 You now have a skeleton service in place, but it’s currently not doing anything. To let Twig know about a new Twig filter, you implement the “getFilters” method on this class:
 
-~~~html
+~~~php
 /**
    * {@inheritdoc}
    */
@@ -193,7 +193,7 @@ The syntax above links up the string “'field_respectful_label'” (which will 
 
 Then you just write your custom method! Here’s the full code for the getRespectfulFieldLabel method, which you’d place anywhere within the MyCustomTwigItems class declaration:
 
-~~~html
+~~~php
 /**
   * Twig filter callback: Only return a field's label if not hidden.
   *
