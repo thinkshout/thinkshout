@@ -42,7 +42,7 @@ This is a worst-case support development scenario, one likely to bring with it u
 
 The very first thing to do when you have a new support project is to find the site documentation, or failing that, create a place for new docs. You are in the best position to document the site, because you don’t have any preconceived ideas about what to do - so document everything. Future engineers (and future you) will thank you.
 
-Starting with the site and its hosting, you can reverse-engineer pretty much anything. You can even reverse-engineer the hosting if you need to, using Robtex! (Find the host, and ask the client to reach out to them for login info).
+Starting with the site and its hosting, you can reverse-engineer pretty much anything. You can even reverse-engineer the hosting if you need to, using [Robtex](https://www.robtex.com/)! (Find the host, and ask the client to reach out to them for login info).
 
 Once you have the hosting info, you can log in and establish the following:
 Are they running backups?
