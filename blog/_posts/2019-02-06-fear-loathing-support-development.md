@@ -33,6 +33,9 @@ Consider the following exchange:
 
 <p style="padding-left: 10rem"><em>PM: “We believe in you.”</em></p>
 
+![Worst Case Scenario](/assets/images/blog/FaL-documentation.gif)
+{:.center}
+
 This is a worst-case support development scenario, one likely to bring with it uncertainty and fear. However, with a methodical approach, even the worst case can be turned to your advantage.
 
 ### Getting started: Docs and detective work.
