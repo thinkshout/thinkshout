@@ -40,7 +40,7 @@ This is a worst-case support development scenario, one likely to bring with it u
 
 ### Getting started: Docs and detective work.
 
-The very first thing to do when you have a new support project is to find the site documentation, or failing that, create a place for new docs. You are in the best position to document the site, because you don’t have any preconceived ideas about what to do - so document everything. Future engineers (and future you) will thank you.
+The very first thing to do when you have a new support project is to find the [site documentation](https://thinkshout.com/blog/2016/07/the-hidden-power-of-documentation/), or failing that, create a place for new docs. You are in the best position to document the site, because you don’t have any preconceived ideas about what to do - so document everything. Future engineers (and future you) will thank you.
 
 Starting with the site and its hosting, you can reverse-engineer pretty much anything. You can even reverse-engineer the hosting if you need to, using [Robtex](https://www.robtex.com/)! (Find the host, and ask the client to reach out to them for login info).
 
@@ -51,21 +51,21 @@ Do they have any version control?
 Is there any sort of deployment process?
 Do they have a staging environment?
 
-If the answer is ‘No’ to any of the above, then it’s usually pretty easy to add/enable. Once you have a ‘Yes’ for all of the above, update the documentation, password manager, etc. For example, even if they don’t use version control, there’s nothing stopping you from adding it to your local install, and pushing that code to a (now free!) private GitHub repo. 
+If the answer is ‘No’ to any of the above, then it’s usually pretty easy to add/enable. Once you have a ‘Yes’ for all of the above, update the documentation, password manager, etc. For example, even if they don’t use version control, there’s nothing stopping you from adding it to your local install, and pushing that code to a (now free!) [private GitHub repo](https://github.com/pricing).
 
-From there, you can add user accounts for yourself, and if it’s a CMS-based website such as WordPress or Drupal, log in and start investigating the code. 
+From there, you can add user accounts for yourself, and if it’s a CMS-based website such as WordPress or Drupal, log in and start investigating the code.
 
 ### Figuring out the code - locally.
 
-It’s always a good idea to do code investigations on a local installation - any tweaks and debug code can be spotted pre-deploy and removed. Make sure you document the process of getting a local installation up and running as well! Example: letting your co-workers know that they should run the WordPress-based  wp-cli command `wp search-replace client-site.com client-site.localhost` on a newly imported database will save them hours of frustration, as well as preventing terrible accidents from happening (WordPress will quietly redirect you to the live site after logging in if you don’t change the site URLs in the local database. Oopsie!)
+It’s always a good idea to do code investigations on a local installation - any tweaks and debug code can be spotted pre-deploy and removed. Make sure you document the process of getting a local installation up and running as well! Example: letting your co-workers know that they should run the WordPress-based  [wp-cli](https://wp-cli.org/) command `wp search-replace client-site.com client-site.localhost` on a newly imported database will save them hours of frustration, as well as preventing terrible accidents from happening (WordPress will quietly redirect you to the live site after logging in if you don’t change the site URLs in the local database. Oopsie!)
 
 Once set up locally, you can start looking for theme-layer build tips. In the root of the project, look for Composer files, (which could indicate an automated build process). A README would also be a good thing to look for - these will often be the hidden documentation for a project.
 
-You should also look for any taskrunner files, such as those used by Gulp or Grunt, or any other files that you wouldn’t expect to see in a clean install of the CMS.
+You should also look for any taskrunner files, such as those used by [Gulp](https://gulpjs.com/) or [Grunt](https://gruntjs.com/), or any other files that you wouldn’t expect to see in a clean install of the CMS.
 
 Next, find the active theme. Usually, you can inspect the website and find paths to the theme from images (WordPress), or the favicon link in the header (Drupal).
 
-Once you’ve located (and documented) the theme location, look in the theme for taskrunners, as well as any README files. If there’s are none to be found, look for a Sass or {less} directory. Gemfiles and Rakefiles will also give hints about the type front-end preprocessors in use, and what the scope of the preprocessor is. If it’s an older site, it might still use a Compass-based framework. If there’s no preprocessor, it might be using vanilla CSS!
+Once you’ve located (and documented) the theme location, look in the theme for taskrunners, as well as any README files. If there’s are none to be found, look for a [Sass](https://sass-lang.com/) or [{less}](http://lesscss.org/) directory. [Gemfiles](https://bundler.io/gemfile.html) and [Rakefiles](https://github.com/ruby/rake) will also give hints about the type front-end preprocessors in use, and what the scope of the preprocessor is. If it’s an older site, it might still use a [Compass](http://compass.kkbox.com/)-based framework. If there’s no preprocessor, it might be using vanilla CSS!
 
 Once all of _that_ is done (and documented), you can actually start finding and working on code!
 
@@ -73,7 +73,7 @@ Once all of _that_ is done (and documented), you can actually start finding and 
 
 Actually finding code can be tricky - say it’s a WordPress site, and you’ve been asked to add a menu to ‘campaign’ pages across the site. How to find the template quickly?
 
-This is where a codebase searchable IDE is handy. Sites can have tens of thousands of files, and you want to be able to narrow your search. In the case of a WordPress template, you’d limit the search to the theme directory, preferably with a `*.php` file extension. From there, you can look at a campaign page and look for specific classes. In our case, `hero-area campaign`.
+This is where a codebase searchable [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) is handy. Sites can have tens of thousands of files, and you want to be able to narrow your search. In the case of a WordPress template, you’d limit the search to the theme directory, preferably with a `*.php` file extension. From there, you can look at a campaign page and look for specific classes. In our case, `hero-area campaign`.
 
 Result:
 
@@ -83,7 +83,7 @@ Result:
 
 This site had over 100,000 files! A full search could have taken several minutes instead of the 1-2 seconds it took to search the 244 PHP files in the theme.
 
-From here, you could simply get to work and add the menu, but it can be valuable to run a codesniffer against the template. The more it deviates from the coding standard for a particular CMS, the more likely your ‘correct’ code will run into issues. In addition, if the site is ever migrated to an automated deployment environment, it will fail builds that have coding standard filters.
+From here, you could simply get to work and add the menu, but it can be valuable to run a [codesniffer](https://github.com/squizlabs/PHP_CodeSniffer) against the template. The more it deviates from the coding standard for a particular CMS, the more likely your ‘correct’ code will run into issues. In addition, if the site is ever migrated to an automated deployment environment, it will fail builds that have coding standard filters.
 
 You can also glean a lot about the mindset of the people who built the site - were they careful and clean in their coding style? Did they document/comment code? Did they make the same style errors over and over (like a lone developer would do) or is it random (like a team)?
 
