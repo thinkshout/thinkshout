@@ -15,7 +15,7 @@ permalink: /blog/:year/:month/:title/
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'package.json', 'config.rb', 'sass', 's3_website*.yml', 'stage_config', 'Guardfile']
 
 # Team directory used by the data_to_pages plugin.
-team_dir: 'team'
+team_dir: 'about'
 contact_redirect: 'thanks'
 tag_dir: 'blog/category'
 
@@ -52,9 +52,9 @@ collections:
   services:
     output: true
     permalink: /services/:slug/
-  team:
+  about:
     output: true
-    permalink: /team/:slug/
+    permalink: /about/:slug/
   topic:
     output: true
     permalink: /blog/topic/:slug/

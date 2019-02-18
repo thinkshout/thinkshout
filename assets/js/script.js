@@ -6,7 +6,7 @@
   // Mobile Menu
   $('.mobile-menu-icon').click(function() {
     $(this).toggleClass('active');
-    $('header nav .main-menu').slideToggle(800);
+    $('header nav .main-menu').slideToggle(500);
   });
 
   // Set active states for the Main Menu items and their subitems

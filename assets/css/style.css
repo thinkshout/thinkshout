@@ -2050,7 +2050,7 @@ li {
 
 a,
 a:visited {
-  color: #f26d21;
+  color: #F06D2F;
   text-decoration: none; }
 
 .dotted-overlay,
@@ -2154,7 +2154,7 @@ a:visited {
     font-weight: 700;
     padding-top: 0.375rem; }
     .byline a:hover {
-      color: #f26d21; }
+      color: #F06D2F; }
   .byline img {
     width: 3.375rem;
     height: auto;
@@ -2180,7 +2180,7 @@ a:visited {
     color: #58585b;
     text-decoration: underline; }
     .page-not-found .intro a:hover {
-      color: #f26d21; }
+      color: #F06D2F; }
 
 .basic-page {
   color: #58585b;
@@ -2213,7 +2213,7 @@ a:visited {
     padding-bottom: 0.75rem;
     text-indent: -1.3em; }
     .basic-page li:before {
-      color: #f26d21;
+      color: #F06D2F;
       content: '•';
       font-size: 1.2rem;
       padding-right: 0.875rem; }
@@ -2231,13 +2231,13 @@ a:visited {
     margin: 3rem 0;
     text-align: center; }
     .basic-page .apply a {
-      border: 1px solid #f26d21;
-      color: #f26d21;
+      border: 1px solid #F06D2F;
+      color: #F06D2F;
       padding: 1rem 2rem;
       text-decoration: none;
       text-transform: uppercase; }
       .basic-page .apply a:hover {
-        background: #f26d21;
+        background: #F06D2F;
         color: #fff; }
 
 @media (max-width: 480px) {
@@ -2844,7 +2844,7 @@ a:visited {
   .blog-post .intro .comments a,
   .blog-post .intro .gist a,
   .blog-post .intro .tags a {
-    color: #f26d21; }
+    color: #F06D2F; }
   .blog-post .body h2 img,
   .blog-post .body h3 img,
   .blog-post .body h4 img,
@@ -2972,7 +2972,7 @@ a:visited {
       font-size: 1.375rem; } }
 .blog-post .body blockquote,
 .blog-post .intro blockquote {
-  color: #f26d21;
+  color: #F06D2F;
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.4;
@@ -3112,8 +3112,8 @@ a:visited {
     color: #626262;
     margin-right: .3em; }
     .blog-post .body .tags a:hover {
-      border-bottom: 1px solid #f26d21;
-      color: #f26d21; }
+      border-bottom: 1px solid #F06D2F;
+      color: #F06D2F; }
 .blog-post .body .leadin {
   color: #f1f1f1; }
 .blog-post .body .blog-cta {
@@ -3149,7 +3149,7 @@ a:visited {
         .blog-post .body .blog-cta .text:last-child {
           margin-right: 0; } }
   .blog-post .body .blog-cta .image {
-    background: #f26d21;
+    background: #F06D2F;
     float: left;
     display: block;
     margin-right: 2.35765%;
@@ -3215,7 +3215,7 @@ a:visited {
     transition: color, 0.3s, linear;
     color: #58585b; }
     .pagination a:hover {
-      color: #f26d21; }
+      color: #F06D2F; }
   .pagination .previous,
   .pagination .next,
   .pagination .page_number {
@@ -3596,22 +3596,22 @@ a:visited {
     padding-top: 0.5rem; }
     .blog-post .team-member-blog .byline strong:hover,
     .services .team-member-blog .byline strong:hover {
-      color: #f26d21; }
+      color: #F06D2F; }
   .blog-post .team-member-blog .byline .position,
   .services .team-member-blog .byline .position {
     white-space: normal; }
 
 .button {
   background: transparent;
-  border: 1px solid #f26d21;
-  color: #f26d21;
+  border: 1px solid #F06D2F;
+  color: #F06D2F;
   padding: 1rem 2rem;
   text-transform: uppercase;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
   transition: 0.5s all; }
   .button:hover {
-    background: #f26d21;
+    background: #F06D2F;
     box-shadow: 0 0 0.1875rem rgba(0, 0, 0, 0.3);
     color: #fff;
     -webkit-transition: 0.5s all;
@@ -3619,7 +3619,7 @@ a:visited {
     transition: 0.5s all; }
 
 .button.solid {
-  background: #f26d21;
+  background: #F06D2F;
   color: #fff; }
 
 .careers {
@@ -3640,7 +3640,7 @@ a:visited {
     .careers .job-list .job-teaser:first-of-type {
       border-top: 1px solid #dbdcde; }
     .careers .job-list .job-teaser h3 {
-      color: #f26d21;
+      color: #F06D2F;
       font-size: 1.625rem;
       line-height: 1.25; }
       @media (min-width: 481px) and (max-width: 979px) {
@@ -3668,7 +3668,7 @@ a:visited {
         .careers .job-list .side-left:last-child {
           margin-right: 0; } }
     .careers .job-list .side-left h3 {
-      color: #f26d21;
+      color: #F06D2F;
       font-size: 1.625rem; }
   .careers .job-list .side-right {
     margin-top: 2.5rem;
@@ -3686,12 +3686,12 @@ a:visited {
         .careers .job-list .side-right:last-child {
           margin-right: 0; } }
     .careers .job-list .side-right a {
-      border: 1px solid #f26d21;
-      color: #f26d21;
+      border: 1px solid #F06D2F;
+      color: #F06D2F;
       padding: 1rem 2rem;
       text-transform: uppercase; }
       .careers .job-list .side-right a:hover {
-        background: #f26d21;
+        background: #F06D2F;
         color: #fff; }
   .careers .job-list #whr_embed_hook {
     text-align: center; }
@@ -3721,7 +3721,7 @@ a:visited {
     .careers .keep-me-in-mind #ts-email {
       margin-top: 2rem; }
     .careers .keep-me-in-mind a {
-      color: #f26d21; }
+      color: #F06D2F; }
   .careers .more-about-us {
     background: url("../images/ts_redesign/more-about-us.jpg") center center no-repeat;
     background-size: cover;
@@ -4450,7 +4450,7 @@ a:visited {
 .careers .body blockquote,
 .case-study .body blockquote,
 .services .body blockquote {
-  color: #f26d21;
+  color: #F06D2F;
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.1;
@@ -4527,7 +4527,7 @@ a:visited {
     -webkit-transition: background-color 0.3s linear;
     -moz-transition: background-color 0.3s linear;
     transition: background-color 0.3s linear;
-    background-color: #f26d21;
+    background-color: #F06D2F;
     color: #fff;
     display: inline-block;
     font-size: 0.9rem;
@@ -5276,29 +5276,31 @@ header {
   top: 0;
   width: 100%;
   z-index: 200; }
-  header .header-logo img {
-    width: 13rem; }
-    @media (max-width: 480px) {
-      header .header-logo img {
-        float: left; } }
-  @media (min-width: 481px) and (max-width: 979px) {
-    header .header-logo {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%;
-      margin-right: 0; }
-      header .header-logo:last-child {
-        margin-right: 0; } }
-  @media (min-width: 980px) {
-    header .header-logo {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 23.23176%;
-      margin-right: 0; }
-      header .header-logo:last-child {
-        margin-right: 0; } }
+  header .header-logo {
+    margin-top: 6px; }
+    header .header-logo img {
+      width: 11.625rem; }
+      @media (max-width: 480px) {
+        header .header-logo img {
+          float: left; } }
+    @media (min-width: 481px) and (max-width: 979px) {
+      header .header-logo {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 23.23176%;
+        margin-right: 0; }
+        header .header-logo:last-child {
+          margin-right: 0; } }
+    @media (min-width: 980px) {
+      header .header-logo {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 23.23176%;
+        margin-right: 0; }
+        header .header-logo:last-child {
+          margin-right: 0; } }
   header .mobile-menu-icon {
     color: #dbdcde;
     float: right;
@@ -5368,10 +5370,12 @@ header {
           display: inline;
           font-size: 0.9375rem;
           padding: 3.125rem 0; } }
+    header .main-menu li:last-of-type a {
+      color: #F06D2F; }
     @media (min-width: 980px) {
       header .main-menu li:nth-child(1) a.active,
       header .main-menu li:nth-child(1) a:hover {
-        border-top: 4px solid #f26d21; } }
+        border-top: 4px solid #F06D2F; } }
     @media (min-width: 980px) {
       header .main-menu li:nth-child(2) a.active,
       header .main-menu li:nth-child(2) a:hover {
@@ -5393,7 +5397,7 @@ header {
       header .main-menu li:nth-child(6) a:hover {
         border-top: 4px solid #f1b332; } }
     header .main-menu a {
-      color: #f26d21;
+      color: #F06D2F;
       display: inline; }
       @media (min-width: 980px) and (max-width: 1199px) {
         header .main-menu a {
@@ -5486,7 +5490,7 @@ header {
           .front .who-we-are .who-we-are-text:last-child {
             margin-right: 0; } }
       .front .who-we-are .who-we-are-text h1 {
-        color: #f26d21;
+        color: #F06D2F;
         font-family: "FilmotypeLucky";
         font-size: 6rem;
         font-weight: normal;
@@ -5551,7 +5555,7 @@ header {
     -webkit-transition: border 0.2s;
     -moz-transition: border 0.2s;
     transition: border 0.2s;
-    border: 0rem solid #f26d21;
+    border: 0rem solid #F06D2F;
     cursor: pointer;
     height: 20.625rem;
     margin: 1.5rem 0;
@@ -5562,7 +5566,7 @@ header {
       -webkit-transition: border 0.2s;
       -moz-transition: border 0.2s;
       transition: border 0.2s;
-      border: 0.375rem solid #f26d21; }
+      border: 0.375rem solid #F06D2F; }
     @media (min-width: 980px) and (max-width: 1199px) {
       .front .featured-case-study {
         height: 23.75rem; } }
@@ -5589,7 +5593,7 @@ header {
         .front .featured-case-study .featured-case-study-text {
           width: 45%; } }
       .front .featured-case-study .featured-case-study-text h4 {
-        color: #f26d21;
+        color: #F06D2F;
         font-size: 0.8125rem;
         margin-bottom: 0; }
         @media (max-width: 480px) {
@@ -5616,7 +5620,7 @@ header {
       -moz-transition: border 0.2s;
       transition: border 0.2s;
       background-size: cover;
-      border: 0rem solid #f26d21;
+      border: 0rem solid #F06D2F;
       height: 330px;
       padding: 2rem;
       width: 48.75%; }
@@ -5625,7 +5629,7 @@ header {
           height: 285px;
           width: 100%; } }
       .front .two-case-studies #case-study2:hover {
-        border: 0.375rem solid #f26d21;
+        border: 0.375rem solid #F06D2F;
         -webkit-transition: border 0.2s;
         -moz-transition: border 0.2s;
         transition: border 0.2s; }
@@ -5634,7 +5638,7 @@ header {
       -moz-transition: border 0.2s;
       transition: border 0.2s;
       background-size: cover;
-      border: 0rem solid #f26d21;
+      border: 0rem solid #F06D2F;
       height: 330px;
       padding: 2rem;
       width: 48.75%; }
@@ -5643,7 +5647,7 @@ header {
           height: 285px;
           width: 100%; } }
       .front .two-case-studies #case-study3:hover {
-        border: 0.375rem solid #f26d21;
+        border: 0.375rem solid #F06D2F;
         -webkit-transition: border 0.2s;
         -moz-transition: border 0.2s;
         transition: border 0.2s; }
@@ -6016,14 +6020,14 @@ header {
     margin-bottom: 0.5rem;
     margin-top: 3rem; }
   .open-source h3 a {
-    color: #f26d21;
+    color: #F06D2F;
     font-size: 1.5rem; }
     .open-source h3 a:hover {
       text-decoration: underline; }
   .open-source p {
     margin-top: 0; }
     .open-source p a {
-      color: #f26d21; }
+      color: #F06D2F; }
       .open-source p a:hover {
         text-decoration: underline; }
 
@@ -6092,7 +6096,7 @@ header {
       color: #58585b;
       font-size: 1.375rem; }
     .our-services .our-services-block a h2 {
-      color: #f26d21; }
+      color: #F06D2F; }
       .our-services .our-services-block a h2:hover {
         text-decoration: underline; }
     .our-services .our-services-block p {
@@ -6132,7 +6136,7 @@ header {
       min-height: 285px;
       width: 100%; } }
   .our-work .case-study-previews a .case-study-header:hover {
-    border: 0.375rem solid #f26d21;
+    border: 0.375rem solid #F06D2F;
     -webkit-transition: border 0.2s;
     -moz-transition: border 0.2s;
     transition: border 0.2s; }
@@ -6175,7 +6179,7 @@ header {
   -webkit-transition: border 0.2s;
   -moz-transition: border 0.2s;
   transition: border 0.2s;
-  border: 0rem solid #f26d21;
+  border: 0rem solid #F06D2F;
   cursor: pointer;
   height: 20.625rem;
   margin: 0 0 1.5rem;
@@ -6186,7 +6190,7 @@ header {
     -webkit-transition: border 0.2s;
     -moz-transition: border 0.2s;
     transition: border 0.2s;
-    border: 0.375rem solid #f26d21; }
+    border: 0.375rem solid #F06D2F; }
   @media (min-width: 980px) and (max-width: 1199px) {
     .our-work .case-study-header {
       margin: 0 0 3rem;
@@ -6404,7 +6408,7 @@ header {
     padding: 1rem 2rem; }
     .services-teaser .services-teaser-left a:hover {
       background: #fff;
-      color: #f26d21; }
+      color: #F06D2F; }
   @media (min-width: 980px) {
     .services-teaser .services-teaser-right {
       text-align: left; } }
@@ -6583,7 +6587,7 @@ header {
 
 /* Literal.Number */
 .highlight .s {
-  color: #f26d21; }
+  color: #F06D2F; }
 
 /* Literal.String */
 .highlight .na {
@@ -6665,20 +6669,20 @@ header {
 
 /* Literal.Number.Oct */
 .highlight .sb {
-  color: #f26d21; }
+  color: #F06D2F; }
 
 /* Literal.String.Backtick */
 .highlight .sc {
-  color: #f26d21; }
+  color: #F06D2F; }
 
 /* Literal.String.Char */
 .highlight .sd {
-  color: #f26d21;
+  color: #F06D2F;
   font-style: italic; }
 
 /* Literal.String.Doc */
 .highlight .s2 {
-  color: #f26d21; }
+  color: #F06D2F; }
 
 /* Literal.String.Double */
 .highlight .se {
@@ -6687,7 +6691,7 @@ header {
 
 /* Literal.String.Escape */
 .highlight .sh {
-  color: #f26d21; }
+  color: #F06D2F; }
 
 /* Literal.String.Heredoc */
 .highlight .si {
@@ -6704,7 +6708,7 @@ header {
 
 /* Literal.String.Regex */
 .highlight .s1 {
-  color: #f26d21; }
+  color: #F06D2F; }
 
 /* Literal.String.Single */
 .highlight .ss {
@@ -6793,7 +6797,7 @@ header {
     .tag-index h3 a:hover,
     .tag-index h4 a:hover,
     .tag-index p a:hover {
-      color: #f26d21; }
+      color: #F06D2F; }
   @media (min-width: 671px) and (max-width: 979px) {
     .tag-index h2,
     .tag-index h3,
@@ -6942,7 +6946,7 @@ header {
   .team .team-member:hover img {
     opacity: 0.7; }
   .team .team-member:hover .name-title {
-    color: #f26d21; }
+    color: #F06D2F; }
   @media (min-width: 481px) and (max-width: 979px) {
     .team .team-member {
       width: 50%; } }
@@ -6984,7 +6988,7 @@ header {
   .upcoming-events .event h3 {
     margin-top: 0; }
     .upcoming-events .event h3 a {
-      color: #f26d21; }
+      color: #F06D2F; }
       .upcoming-events .event h3 a:hover {
         text-decoration: underline; }
     .upcoming-events .event h3 .location {
@@ -7167,7 +7171,7 @@ header {
           .our-values-block .row .value:nth-child(2n+1) {
             clear: left; } }
   .our-values-block .value h3 {
-    color: #f26d21;
+    color: #F06D2F;
     font-size: 2.25rem;
     margin-bottom: 0; }
   .our-values-block .value p {

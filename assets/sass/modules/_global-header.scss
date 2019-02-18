@@ -9,8 +9,9 @@ header {
   z-index: 200;
 
   .header-logo {
+    margin-top: 6px;
     img {
-      width: 13rem;
+      width: rem(186);
 
       @include mq(m) {
         float: left;
@@ -114,6 +115,10 @@ header {
         font-size: rem(15);
         padding: rem(50) 0;
       }
+    }
+
+    li:last-of-type a {
+      color: $orange;
     }
 
     $colors: $orange, $orange-yellow1, $orange-yellow2, $orange-yellow3, $orange-yellow4, $yellow;
