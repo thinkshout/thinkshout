@@ -6,37 +6,31 @@ layout: default
       .case-study-header { background-image: url('{{ site.baseurl }}{{ page.cs-header.header-image }}'); }
     </style>
 
-    <section class="case-study-header">
-      <div class="gradient">&nbsp;</div>
-      <div class="wrapper">
+    <section class="container case-study-hero">
+      <h4>{{ page.cs-header.client }}</h4>
+      <h2 class="description">{{ page.cs-header.title }}</h2>
+      <div class="case-study-header"></div>
+    </section>
 
-        <h4>{{ page.cs-header.client }}</h4>
-
-        <h2 class="description">{{ page.cs-header.title }}</h2>
+    <section class="case-intro">
+      {% for paragraph in page.cs-intro %}
+        {% if paragraph.intro-paragraph %}
+          <div class="text">{{ paragraph.intro-paragraph | markdownify }}</div>
+        {% endif %}
+      {% endfor %}
+      <div class="titles">
+        {% for title in page.cs-intro %}
+          {% if title.intro-title %}
+            <h4>{{ title.intro-title }}</h4>
+          {% endif %}
+          {% if title.intro-text %}
+            {{ title.intro-text | markdownify }}
+          {% endif %}
+        {% endfor %}
       </div>
     </section>
 
     <section class="body">
-      <h3 class="intro">{{ page.cs-intro.topic }}</h3>
-      <h4 class="intro">{{ page.cs-intro.mission }}</h4>
-
-      {% if page.cs-intro.link-text %}
-        <a class="intro uppercase-link" href="{{ page.cs-intro.link-url }}" target="_blank">{{ page.cs-intro.link-text }}<i class="fa fa-caret-right"></i></a>
-      {% endif %}
-
-
-
-      <div class="case-intro-text">
-        {% if page.cs-intro.promo-images %}
-        <p>
-        {% for img in page.cs-intro.promo-images %}
-        <img class="{{ img.class }}" src="{{ img.url }}" alt="{{ img.alt }}" />
-        {% endfor %}
-        </p>
-        {% endif %}
-        {{ page.cs-intro.text | markdownify }}
-      </div>
-
       {% for section in page.cs-sections %}
         {% if section.section-title %}
           <h4>{{ section.section-title }}</h4>
@@ -63,6 +57,12 @@ layout: default
             </div>
         {% endif %}
       {% endfor %}
+
+
+      {% if page.cs-cta-text %}
+        <a class="intro uppercase-link" href="{{ page.cs-cta-url }}" target="_blank">{{ page.cs-cta-text }}<i class="fa fa-caret-right"></i></a>
+      {% endif %}
+
     </section>
 
     {% if page.cs-cta-text %}
