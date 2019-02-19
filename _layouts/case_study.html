@@ -32,12 +32,56 @@ layout: default
 
     <section class="body">
       {% for section in page.cs-sections %}
-        {% if section.section-title %}
-          <h4>{{ section.section-title }}</h4>
+        {% if section.section-color == 'gray-bg' %}
+          {% assign case-color = 'gray-bg' %}
+        {% elsif section.section-color == 'black-bg' %}
+          {% assign case-color = 'black-bg' %}
+        {% else %}
+          {% assign case-color = '' %}
         {% endif %}
 
-        {% if section.section-description %}
-          {{ section.section-description | markdownify }}
+        {% if section.section-type == 'quote' %}
+          {% assign case-type = ' quote' %}
+        {% else %}
+          {% assign case-type = '' %}
+        {% endif %}
+
+        {% if case-type == ' quote' %}
+          <div class="{{ case-color }}{{ case-type }}">
+            <div class="case-wrapper">
+              {% if section.section-quote %}
+                {{ section.section-quote | markdownify }}
+              {% endif %}
+
+              {% if section.section-attribution %}
+                <h4>{{ section.section-attribution }}</h4>
+              {% endif %}
+            </div>
+          </div>
+        {% elsif case-color != '' %}
+          <div class="{{ case-color }}">
+            <div class="case-wrapper">
+              {% if section.section-title %}
+                <h4>{{ section.section-title }}</h4>
+              {% endif %}
+
+              {% if section.section-description %}
+                {{ section.section-description | markdownify }}
+              {% endif %}
+            </div>
+          </div>
+        {% elsif section.section-title or section.section-description %}
+          <div>
+            <div class="case-wrapper">
+              {% if section.section-title %}
+                <h4>{{ section.section-title }}</h4>
+              {% endif %}
+
+              {% if section.section-description %}
+                {{ section.section-description | markdownify }}
+              {% endif %}
+            </div>
+          </div>
         {% endif %}
 
         {% if section.section-image %}
@@ -57,12 +101,6 @@ layout: default
             </div>
         {% endif %}
       {% endfor %}
-
-
-      {% if page.cs-cta-text %}
-        <a class="intro uppercase-link" href="{{ page.cs-cta-url }}" target="_blank">{{ page.cs-cta-text }}<i class="fa fa-caret-right"></i></a>
-      {% endif %}
-
     </section>
 
     {% if page.cs-cta-text %}

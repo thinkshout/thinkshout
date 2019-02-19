@@ -43,12 +43,19 @@ cs-intro:
 
 cs-sections:
 
+  - section-color: gray-bg
+    section-title: "Discovery"
+    section-description: |
+      After reviewing the existing site and evaluating the data gathered about how the SPLC’s visitors navigate it, ThinkShout traveled to Montgomery to work with the SPLC’s team in person to better understand their organizational goals, what they hoped to achieve with their online presence, their audiences, and the content that could connect the two.
+
   - section-image: "/assets/images/ts_redesign/case-studies/splc-main/splc-desktopmobile.jpg"
     section-image-alt: "Image: SPLC Desktop and Mobile"
 
-  - section-title: "Discovery"
-    section-description: |
-      After reviewing the existing site and evaluating the data gathered about how the SPLC’s visitors navigate it, ThinkShout traveled to Montgomery to work with the SPLC’s team in person to better understand their organizational goals, what they hoped to achieve with their online presence, their audiences, and the content that could connect the two.
+  - section-color: black-bg
+    section-type: quote
+    section-quote: |
+      After reviewing the existing site and evaluating the data gathered about how the SPLC’s visitors navigate it, ThinkShout traveled to Montgomery to work with the SPLC’s team in person.
+    section-attribution: "Quoted Person - SPLC"
 
   - section-image: "/assets/images/ts_redesign/case-studies/splc-main/splc-process.jpg"
     section-image-alt: "Image: Woman working with brightly colored sticky notes during project discovery phase"
