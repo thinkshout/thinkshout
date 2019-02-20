@@ -417,4 +417,36 @@
       }
     }
   }
+
+  .related-case-studies {
+    padding-bottom: rem(85);
+    padding-top: rem(85);
+
+    @include mq(m) {
+      padding-bottom: rem(45);
+      padding-top: rem(45);
+    }
+    @include mq(t) {
+      padding-bottom: rem(65);
+      padding-top: rem(65);
+    }
+
+    h2 {
+      color: $darkgray;
+      font-size: rem(24);
+      padding-bottom: 0;
+      margin-top: 0;
+
+      @include mq(m) { font-size: rem(20); }
+      @include mq(t) { font-size: rem(22); }
+    }
+
+    .more-case-studies {
+      padding-top: rem(35);
+
+      @include mq(m) { padding-top: rem(16); }
+      @include mq(t) { padding-top: rem(22); }
+    }
+  }
+
 }

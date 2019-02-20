@@ -5,6 +5,7 @@ body-class: case-study cori
 active: true
 homepage: true
 published: true
+related: bene
 order: 2
 # END LAYOUT DATA
 

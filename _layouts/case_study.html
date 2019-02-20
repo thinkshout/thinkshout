@@ -188,3 +188,5 @@ layout: default
       {% endfor %}
     </section>
 
+    {% assign related_work = page.related %}
+    {% include related_work.html related=related_work %}

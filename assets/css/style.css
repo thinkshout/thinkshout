@@ -4188,6 +4188,36 @@ a:visited {
     text-transform: uppercase; }
     .case-study .cta a:hover {
       background-color: #f58546; }
+.case-study .related-case-studies {
+  padding-bottom: 5.3125rem;
+  padding-top: 5.3125rem; }
+  @media (max-width: 480px) {
+    .case-study .related-case-studies {
+      padding-bottom: 2.8125rem;
+      padding-top: 2.8125rem; } }
+  @media (min-width: 481px) and (max-width: 979px) {
+    .case-study .related-case-studies {
+      padding-bottom: 4.0625rem;
+      padding-top: 4.0625rem; } }
+  .case-study .related-case-studies h2 {
+    color: #525255;
+    font-size: 1.5rem;
+    padding-bottom: 0;
+    margin-top: 0; }
+    @media (max-width: 480px) {
+      .case-study .related-case-studies h2 {
+        font-size: 1.25rem; } }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .case-study .related-case-studies h2 {
+        font-size: 1.375rem; } }
+  .case-study .related-case-studies .more-case-studies {
+    padding-top: 2.1875rem; }
+    @media (max-width: 480px) {
+      .case-study .related-case-studies .more-case-studies {
+        padding-top: 1rem; } }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .case-study .related-case-studies .more-case-studies {
+        padding-top: 1.375rem; } }
 
 .case-study .webby-winner,
 .case-study .webby-honoree {
@@ -5234,79 +5264,6 @@ header {
             font-size: 1.1rem; } }
         .front .featured-case-study .featured-case-study-text h1 a {
           color: #525255; }
-  .front .two-case-studies {
-    overflow: hidden; }
-    .front .two-case-studies .case-study {
-      cursor: pointer;
-      display: inline-block;
-      float: left;
-      position: relative; }
-    .front .two-case-studies #case-study2 {
-      -webkit-transition: border 0.2s;
-      -moz-transition: border 0.2s;
-      transition: border 0.2s;
-      background-size: cover;
-      border: 0rem solid #F06D2F;
-      height: 330px;
-      padding: 2rem;
-      width: 48.75%; }
-      @media (max-width: 480px) {
-        .front .two-case-studies #case-study2 {
-          height: 285px;
-          width: 100%; } }
-      .front .two-case-studies #case-study2:hover {
-        border: 0.375rem solid #F06D2F;
-        -webkit-transition: border 0.2s;
-        -moz-transition: border 0.2s;
-        transition: border 0.2s; }
-    .front .two-case-studies #case-study3 {
-      -webkit-transition: border 0.2s;
-      -moz-transition: border 0.2s;
-      transition: border 0.2s;
-      background-size: cover;
-      border: 0rem solid #F06D2F;
-      height: 330px;
-      padding: 2rem;
-      width: 48.75%; }
-      @media (max-width: 480px) {
-        .front .two-case-studies #case-study3 {
-          height: 285px;
-          width: 100%; } }
-      .front .two-case-studies #case-study3:hover {
-        border: 0.375rem solid #F06D2F;
-        -webkit-transition: border 0.2s;
-        -moz-transition: border 0.2s;
-        transition: border 0.2s; }
-    .front .two-case-studies #case-study2 {
-      margin-bottom: 1.5rem; }
-      @media (min-width: 481px) and (max-width: 979px) {
-        .front .two-case-studies #case-study2 {
-          margin: 0 2.5% 0 0; } }
-      @media (min-width: 980px) {
-        .front .two-case-studies #case-study2 {
-          margin: 0 2.5% 0 0; } }
-    .front .two-case-studies .case-study-text {
-      background: #fff;
-      bottom: -0.5rem;
-      left: 0;
-      margin: 0 auto;
-      padding: 1rem;
-      position: absolute;
-      right: 0;
-      text-align: center;
-      width: 74%; }
-    .front .two-case-studies h2 {
-      color: #525255;
-      font-size: 1.25rem;
-      margin: 0;
-      padding-bottom: 0;
-      z-index: 1; }
-      @media (max-width: 480px) {
-        .front .two-case-studies h2 {
-          font-size: 1.1rem; } }
-      @media (min-width: 481px) and (max-width: 979px) {
-        .front .two-case-studies h2 {
-          font-size: 1.1rem; } }
   .front .blog-teaser {
     color: #fff; }
     .front .blog-teaser .featured-blog-post,
@@ -5434,6 +5391,80 @@ header {
             .front .blog-teaser .blog-menu a i {
               font-size: 2rem;
               vertical-align: middle; } }
+
+.two-case-studies {
+  overflow: hidden; }
+  .two-case-studies .case-study {
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    position: relative; }
+  .two-case-studies #case-study2 {
+    -webkit-transition: border 0.2s;
+    -moz-transition: border 0.2s;
+    transition: border 0.2s;
+    background-size: cover;
+    border: 0rem solid #F06D2F;
+    height: 330px;
+    padding: 2rem;
+    width: 48.75%; }
+    @media (max-width: 480px) {
+      .two-case-studies #case-study2 {
+        height: 285px;
+        width: 100%; } }
+    .two-case-studies #case-study2:hover {
+      border: 0.375rem solid #F06D2F;
+      -webkit-transition: border 0.2s;
+      -moz-transition: border 0.2s;
+      transition: border 0.2s; }
+  .two-case-studies #case-study3 {
+    -webkit-transition: border 0.2s;
+    -moz-transition: border 0.2s;
+    transition: border 0.2s;
+    background-size: cover;
+    border: 0rem solid #F06D2F;
+    height: 330px;
+    padding: 2rem;
+    width: 48.75%; }
+    @media (max-width: 480px) {
+      .two-case-studies #case-study3 {
+        height: 285px;
+        width: 100%; } }
+    .two-case-studies #case-study3:hover {
+      border: 0.375rem solid #F06D2F;
+      -webkit-transition: border 0.2s;
+      -moz-transition: border 0.2s;
+      transition: border 0.2s; }
+  .two-case-studies #case-study2 {
+    margin-bottom: 1.5rem; }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .two-case-studies #case-study2 {
+        margin: 0 2.5% 0 0; } }
+    @media (min-width: 980px) {
+      .two-case-studies #case-study2 {
+        margin: 0 2.5% 0 0; } }
+  .two-case-studies .case-study-text {
+    background: #fff;
+    bottom: -0.5rem;
+    left: 0;
+    margin: 0 auto;
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 74%; }
+  .two-case-studies h2 {
+    color: #525255;
+    font-size: 1.25rem;
+    margin: 0;
+    padding-bottom: 0;
+    z-index: 1; }
+    @media (max-width: 480px) {
+      .two-case-studies h2 {
+        font-size: 1.1rem; } }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .two-case-studies h2 {
+        font-size: 1.1rem; } }
 
 .map-teaser {
   background: #555555;

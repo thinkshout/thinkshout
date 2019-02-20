@@ -5,6 +5,7 @@ body-class: case-study splc
 active: false
 homepage: false
 published: true
+related: splc
 order: 10
 # END LAYOUT DATA
 

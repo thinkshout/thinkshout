@@ -178,68 +178,6 @@
     }
   }
 
-  // Three case studies
-  .two-case-studies {
-    overflow: hidden;
-
-    .case-study {
-      cursor: pointer;
-      display: inline-block;
-      float: left;
-      position: relative;
-    }
-
-    $case: 2;
-    @while $case < 4 {
-      #case-study#{$case} {
-        @include transition(border 0.2s);
-        background-size: cover;
-        border: rem(0) solid $orange;
-        height: 330px;
-        padding: 2rem;
-        width: 48.75%;
-
-        @include mq(m) { height: 285px; width: 100%; }
-
-        &:hover {
-          border: rem(6) solid $orange;
-          @include transition(border 0.2s);
-        }
-      }
-      $case: $case + 1;
-    }
-
-    #case-study2 {
-      margin-bottom: 1.5rem;
-
-      @include mq(t) { margin: 0 2.5% 0 0; }
-      @include mq(d) { margin: 0 2.5% 0 0; }
-    }
-
-    .case-study-text {
-      background: $white;
-      bottom: rem(-8);
-      left: 0;
-      margin: 0 auto;
-      padding: 1rem;
-      position: absolute;
-      right: 0;
-      text-align: center;
-      width: 74%;
-    }
-
-    h2 {
-      color: $darkgray;
-      font-size: rem(20);
-      margin: 0;
-      padding-bottom: 0;
-      z-index: 1;
-
-      @include mq(m) { font-size: 1.1rem; }
-      @include mq(t) { font-size: 1.1rem; }
-    }
-  }
-
   .blog-teaser {
     color: $white;
 
@@ -378,5 +316,66 @@
         }
       }
     }
+  }
+}
+// case studies
+.two-case-studies {
+  overflow: hidden;
+
+  .case-study {
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    position: relative;
+  }
+
+  $case: 2;
+  @while $case < 4 {
+    #case-study#{$case} {
+      @include transition(border 0.2s);
+      background-size: cover;
+      border: rem(0) solid $orange;
+      height: 330px;
+      padding: 2rem;
+      width: 48.75%;
+
+      @include mq(m) { height: 285px; width: 100%; }
+
+      &:hover {
+        border: rem(6) solid $orange;
+        @include transition(border 0.2s);
+      }
+    }
+    $case: $case + 1;
+  }
+
+  #case-study2 {
+    margin-bottom: 1.5rem;
+
+    @include mq(t) { margin: 0 2.5% 0 0; }
+    @include mq(d) { margin: 0 2.5% 0 0; }
+  }
+
+  .case-study-text {
+    background: $white;
+    bottom: rem(-8);
+    left: 0;
+    margin: 0 auto;
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 74%;
+  }
+
+  h2 {
+    color: $darkgray;
+    font-size: rem(20);
+    margin: 0;
+    padding-bottom: 0;
+    z-index: 1;
+
+    @include mq(m) { font-size: 1.1rem; }
+    @include mq(t) { font-size: 1.1rem; }
   }
 }

@@ -5,6 +5,7 @@ body-class: case-study tolerance
 active: true
 homepage: true
 published: true
+related: splc
 order: 4
 # END LAYOUT DATA
 
