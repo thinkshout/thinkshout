@@ -66,12 +66,19 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    padding: 1rem;
     flex-direction: column;
     justify-content: space-between;
-    padding: 6rem 7rem;
-    @include mq(m) { padding: 1rem; }
-    @include mq(t) { flex-direction: row; padding: 1rem; }
-    @include mq(d) { flex-direction: row; }
+    @media (min-width: 481px) and (max-width: 767px) {
+      padding: 2rem;
+    }
+    @media (min-width: 768px) and (max-width: 979px) {
+      flex-direction: row; padding: 2rem;
+    }
+    @include mq(d) {
+      flex-direction: row;
+      padding: 6rem 7rem;
+    }
   }
   .case-intro .text p,
   .case-intro .titles p {
@@ -86,10 +93,7 @@
     line-height: calc(32/24);
     margin: 0 0 rem(8) 0;
     @include mq(lt) {
-      font-size: rem(18);
-    }
-    @include mq(md) {
-      font-size: rem(20);
+      font-size: rem(19);
     }
     @include mq(l) {
       font-size: rem(22);
@@ -103,11 +107,11 @@
   }
 
   .case-intro .text {
-    @include mq(t) { flex: 0 0 50%; }
+    @include mq(t) { flex: 0 0 48%; }
     @include mq(d) { flex: 0 0 50%; }
   }
   .case-intro .titles {
-    @include mq(t) { flex: 0 0 40%; }
+    @include mq(t) { flex: 0 0 48%; }
     @include mq(d) { flex: 0 0 40%; }
   }
 
@@ -118,7 +122,7 @@
     li,
     div.inline {
       color: darken($darkgray, 10%);
-      margin: 2em auto 1rem;
+      margin: 1em auto;
       max-width: 1440px;
       padding: 0 7rem;
       @include mq(m) { padding: 0 1rem; }
@@ -143,10 +147,12 @@
       margin-left: auto;
       margin-right: auto;
       max-width: 1440px;
-      padding: 0 7rem;
-      height: 100%;
-      @include mq(m) { padding: 0 1rem; }
-      @include mq(t) { padding: 0 1rem; }
+      padding: 2rem 7rem;
+      height: auto;
+      @include mq(m) { padding: 2rem 1rem; }
+      @include mq(t) { min-height: 50vw; padding: 3rem 2rem; }
+      @include mq(d) { min-height: 600px; }
+      @include mq(l) { min-height: 800px; }
     }
 
     h4, p {
@@ -160,7 +166,7 @@
       font-size: rem(20);
       font-weight: 900;
       line-height: calc(30/26);
-      @include mq(md) { font-size: rem(23); }
+      @include mq(lt) { font-size: rem(23); }
       @include mq(d) { font-size: rem(26); }
     }
     p {
@@ -168,16 +174,25 @@
       font-size: rem(16);
       font-weight: 600;
       line-height: calc(35/20);
-      margin: 0;
-      @include mq(md) { font-size: rem(18); }
+      margin: 0 0 1rem;
+      @include mq(lt) { font-size: rem(18); }
       @include mq(d) { font-size: rem(20); }
+    }
+    p + p {
+      margin: 1rem 0 0;
+    }
+
+    .default,
+    .gray-bg,
+    .black-bg  {
+      height: auto;
+      display: flex;
+      flex-direction: column;
     }
 
     .gray-bg,
     .black-bg {
       background-color: $bggray;
-      height: 55.555vw;
-      max-height: 800px;
       h4, p {
         width: 75%;
         @include mq(m) { width: 100%; }
@@ -192,20 +207,89 @@
     }
 
     .quote {
+      .case-wrapper {
+        align-items: center;
+        text-align: center;
+      }
       p {
-        font-size: rem(20);
+        font-size: rem(24);
         font-weight: 900;
-        line-height: calc(30/26);
-        @include mq(md) { font-size: rem(23); }
-        @include mq(d) { font-size: rem(26); }
+        line-height: calc(59/48);
+        width: 95%;
+        @include mq(lt) { font-size: rem(32); }
+        @include mq(d) { font-size: rem(48); }
       }
       h4 {
-        font-size: rem(16);
-        font-weight: 600;
-        line-height: calc(35/20);
+        font-size: rem(14);
+        font-weight: 900;
+        line-height: calc(45/16);
+        text-transform: uppercase;
         margin: 0;
-        @include mq(md) { font-size: rem(18); }
-        @include mq(d) { font-size: rem(20); }
+        @include mq(lt) { font-size: rem(15); }
+        @include mq(d) { font-size: rem(16); }
+      }
+    }
+
+    .result {
+      .case-wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        @include mq(lt) { flex-direction: row; }
+        @include mq(d) { flex-direction: row; }
+      }
+      .result-set {
+        flex: 1 1 66.666%;
+        p {
+          font-size: 16px;
+          font-weight: 500;
+          line-height: calc(35/20);
+          @include mq(lt) { font-size: rem(18); }
+          @include mq(d) { font-size: rem(20); }
+        }
+      }
+      .data-set {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        .data-wrapper {
+          flex: 0 1 32%;
+          @include mq(lt) { flex: 0 1 25%; }
+          @include mq(d) { flex: 0 1 25%; }
+        }
+        .number {
+          color: $orange;
+          font-size: rem(24);
+          font-weight: 600;
+          line-height: calc(48/44);
+          @include mq(lt) { font-size: rem(34); }
+          @include mq(d) { font-size: rem(44); }
+        }
+        .data-text {
+          color: $white;
+          font-size: rem(14);
+          font-weight: 500;
+          line-height: calc(21/16);
+          margin: 0 0 1rem;
+          max-width: 90%;
+          @include mq(lt) { font-size: rem(15); }
+          @include mq(d) { font-size: rem(16); }
+        }
+      }
+      .result-right {
+        flex: 1 1 25%;
+        img {
+          width: 100%;
+        }
+        .caption {
+          color: $ltgray;
+          font-size: rem(12);
+          font-weight: 300;
+          line-height: calc(23/13);
+          width: 100%;
+          @include mq(lt) { font-size: rem(12); }
+          @include mq(d) { font-size: rem(13); }
+        }
       }
     }
 
@@ -226,7 +310,7 @@
       color: $midgray;
       display: block;
       font-size: 0.85rem;
-      margin: 0 auto 2rem;
+      margin: .5rem 0 2rem 0;
       width: 80%;
       i {
         @extend %fa-caret-up;
@@ -247,6 +331,9 @@
       img {
         width: 100%;
       }
+      .caption {
+        margin: .5rem 0 2rem 1rem;
+      }
     }
 
     div.right {
@@ -260,43 +347,59 @@
         width: 100%;
       }
       @include mq(lt) { width: 250px; margin-right: 5rem;  }
-      @include mq(md) { width: 280px; margin-right: 10rem;  }
+      @include mq(md) { width: 280px; margin-right: 10rem; }
       @include mq(l)  { width: 300px; margin-right: 17rem; }
     }
 
-    blockquote {
-      color: $orange;
-      font-size: rem(18);
-      font-weight: 700;
-      line-height: 1.1;
-      padding: 0 rem(8);
-      text-align: center;
-      p {
-        line-height: 1.5;
-        margin: 0 auto;
-        font-style: italic;
+    .four-up {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: row;
+      .img-wrapper {
+        flex: 0 1 48%;
+        margin-bottom: 3rem;
+        @include mq(m)  { flex: 0 1 100%; }
+        @include mq(p)  { flex: 0 1 100%; }
       }
-      @include mq(lt) { padding: 0 rem(16); font-size: rem(18); }
-      @include mq(md) { padding: 0 rem(24); font-size: rem(20); }
-      @include mq(l)  { padding: 0 rem(40); font-size: rem(22); }
-    }
-    blockquote.attrib {
-      font-size: rem(14);
-      margin-top: rem(14);
-      text-align: right;
-      p {
-        // font-style: normal;
+      .caption {
+        margin: .5rem 0 0 0;
       }
-      @include mq(lt) { padding: 0 rem(16); font-size: rem(14); }
-      @include mq(md) { padding: 0 rem(24); font-size: rem(15); }
-      @include mq(l)  { padding: 0 rem(40); font-size: rem(16); }
     }
+
+
+    // blockquote {
+    //   color: $orange;
+    //   font-size: rem(18);
+    //   font-weight: 700;
+    //   line-height: 1.1;
+    //   padding: 0 rem(8);
+    //   text-align: center;
+    //   p {
+    //     line-height: 1.5;
+    //     margin: 0 auto;
+    //     font-style: italic;
+    //   }
+    //   @include mq(lt) { padding: 0 rem(16); font-size: rem(18); }
+    //   @include mq(md) { padding: 0 rem(24); font-size: rem(20); }
+    //   @include mq(l)  { padding: 0 rem(40); font-size: rem(22); }
+    // }
+    // blockquote.attrib {
+    //   font-size: rem(14);
+    //   margin-top: rem(14);
+    //   text-align: right;
+    //   p {
+    //     // font-style: normal;
+    //   }
+    //   @include mq(lt) { padding: 0 rem(16); font-size: rem(14); }
+    //   @include mq(md) { padding: 0 rem(24); font-size: rem(15); }
+    //   @include mq(l)  { padding: 0 rem(40); font-size: rem(16); }
+    // }
   }
 
   .cta {
-    margin: 2em auto;
-    max-width: 996px;
-    text-align: center;
+    margin: 2em auto 0;
     width: 100%;
     a {
       @include transition(background-color 0.3s linear);
@@ -313,8 +416,5 @@
         background-color: $midorange;
       }
     }
-    @include mq(lt) { margin: 3em auto; }
-    @include mq(md) { margin: 4em auto; }
-    @include mq(l)  { margin: 6em auto; }
   }
 }

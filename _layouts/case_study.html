@@ -41,13 +41,65 @@ layout: default
         {% endif %}
 
         {% if section.section-type == 'quote' %}
-          {% assign case-type = ' quote' %}
+          {% assign case-type-quote = 'quote' %}
         {% else %}
-          {% assign case-type = '' %}
+          {% assign case-type-quote = '' %}
         {% endif %}
 
-        {% if case-type == ' quote' %}
-          <div class="{{ case-color }}{{ case-type }}">
+        {% if section.section-type == 'result' %}
+          {% assign case-type-result = 'result' %}
+        {% else %}
+          {% assign case-type-result = '' %}
+        {% endif %}
+
+        {% if case-type-result == 'result' %}
+          <div class="{{ case-color }} result">
+            <div class="case-wrapper">
+              <div class="result-set">
+                {% if section.section-description %}
+                  {{ section.section-description | markdownify }}
+                {% endif %}
+
+                {% if section.section-data-number1 %}
+                  <div class="data-set">
+                    <div class="data-wrapper">
+                      <div class="number">{{ section.section-data-number1 }}</div>
+                      <div class="data-text">{{ section.section-data-text1 }}</div>
+                    </div>
+                    {% if section.section-data-number2 %}
+                      <div class="data-wrapper">
+                        <div class="number">{{ section.section-data-number2 }}</div>
+                        <div class="data-text">{{ section.section-data-text2 }}</div>
+                      </div>
+                    {% endif %}
+                    {% if section.section-data-number3 %}
+                      <div class="data-wrapper">
+                        <div class="number">{{ section.section-data-number3 }}</div>
+                        <div class="data-text">{{ section.section-data-text3 }}</div>
+                      </div>
+                    {% endif %}
+                  </div>
+                {% endif %}
+
+                {% if page.cs-cta-text %}
+                <section class="cta">
+                    <a class="button" href="{{ page.cs-cta-url }}" target="_blank">{{ page.cs-cta-text }}</a>
+                </section>
+                {% endif %}
+              </div>
+
+              {% if section.section-image-right %}
+                <div class="result-right">
+                  <img src="{{ site.baseurl }}{{ section.section-image-right }}" alt="{{ section.section-image-right-alt }}">
+                  {% if section.section-image-right-caption %}
+                    <span class="caption">{{ section.section-image-right-caption }}</span>
+                  {% endif %}
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        {% elsif case-type-quote == 'quote' %}
+          <div class="{{ case-color }} quote">
             <div class="case-wrapper">
               {% if section.section-quote %}
                 {{ section.section-quote | markdownify }}
@@ -71,7 +123,7 @@ layout: default
             </div>
           </div>
         {% elsif section.section-title or section.section-description %}
-          <div>
+          <div class="default">
             <div class="case-wrapper">
               {% if section.section-title %}
                 <h4>{{ section.section-title }}</h4>
@@ -96,31 +148,41 @@ layout: default
           {% endif %}
           <img src="{{ site.baseurl }}{{ section.section-image }}" alt="{{ section.section-image-alt }}">
           {% if section.section-image-caption %}
-            <span class="caption"><i class="fa fa-caret-up"></i>{{ section.section-image-caption }}</span>
+            <span class="caption">{{ section.section-image-caption }}</span>
           {% endif %}
             </div>
+        {% endif %}
+
+        {% if section.section-image1 %}
+          <div class="inline four-up">
+            <div class="img-wrapper">
+              <img src="{{ site.baseurl }}{{ section.section-image1 }}" alt="{{ section.section-image-alt1 }}">
+              {% if section.section-image-caption1 %}
+                <span class="caption">{{ section.section-image-caption1 }}</span>
+              {% endif %}
+            </div>
+            <div class="img-wrapper">
+              <img src="{{ site.baseurl }}{{ section.section-image2 }}" alt="{{ section.section-image-alt2 }}">
+              {% if section.section-image-caption2 %}
+                <span class="caption">{{ section.section-image-caption2 }}</span>
+              {% endif %}
+            </div>
+            <div class="img-wrapper">
+              <img src="{{ site.baseurl }}{{ section.section-image3 }}" alt="{{ section.section-image-alt3 }}">
+              {% if section.section-image-caption3 %}
+                <span class="caption">{{ section.section-image-caption3 }}</span>
+              {% endif %}
+            </div>
+            <div class="img-wrapper">
+              <img src="{{ site.baseurl }}{{ section.section-image4 }}" alt="{{ section.section-image-alt4 }}">
+              {% if section.section-image-caption4 %}
+                <span class="caption">{{ section.section-image-caption4 }}</span>
+              {% endif %}
+            </div>
+          </div>
         {% endif %}
       {% endfor %}
     </section>
 
-    {% if page.cs-cta-text %}
-    <section class="cta">
-        <a class="button" href="{{ page.cs-cta-url }}" target="_blank">{{ page.cs-cta-text }}</a>
-    </section>
-    {% endif %}
-    <div class="our-services">
-      <div class="container">
-        <h1>Other work</h1>
-      </div>
-      <div class="container case-studies">
-        {% assign case-studies = site.case_studies | where: "active", "true" | sort: "order" %}
-        {% for case in case-studies %}
-        {% if case.url != page.url %}
-          <div class="our-services-block">
-            <a href="{{ site.baseurl }}{{ case.url }}"><h2>{{ case.cs-header.client }}</h2></a>
-            <p>{{ case.cs-preview.description }}</p>
-          </div>
-        {% endif %}
-        {% endfor %}
-      </div>
-    </div>
+    
+
