@@ -12,6 +12,7 @@ tags:
   - Drupal Day
   - Events
   - NTC
+  - hsus
 date: 2016-04-01 11:00:00
 image: /assets/images/ts_icon.jpg
 topic: culture

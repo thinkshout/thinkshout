@@ -6,7 +6,7 @@
 
   <div class="two-case-studies">
     {% assign related-case-studies = site.case_studies | where: "related", include.related | where_exp: "post", "post.url != page.url" | sort: "order" %}
-    {% assign homepage-case-studies = site.case_studies | where: "homepage", "true" | sort: "order" %}
+    {% assign homepage-case-studies = site.case_studies | where: "homepage", "true" | where_exp: "post", "post.url != page.url" | sort: "order" %}
     {% assign case-studies = related-case-studies | concat: homepage-case-studies %}
 
     {% for case in case-studies limit:2 %}

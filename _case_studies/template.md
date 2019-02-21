@@ -53,18 +53,6 @@ cs-sections:
       “”
     section-attribution: ""
 
-  - section-type: result
-    section-color: black-bg
-    section-image-right: ""
-    section-image-right-alt: ""
-    section-image-right-caption: ""
-    section-data-number1: ""
-    section-data-text1: ""
-    section-data-number2: ""
-    section-data-text2: ""
-    section-data-number3: ""
-    section-data-text3: ""
-    section-description: |
 
   - section-image1: ""
     section-image-alt1: ""
@@ -81,6 +69,20 @@ cs-sections:
     section-image4: ""
     section-image-alt4: ""
     section-image-caption4: ""
+
+
+  - section-type: result
+    section-color: black-bg
+    section-image-right: ""
+    section-image-right-alt: ""
+    section-image-right-caption: ""
+    section-data-number1: ""
+    section-data-text1: ""
+    section-data-number2: ""
+    section-data-text2: ""
+    section-data-number3: ""
+    section-data-text3: ""
+    section-description: |
 
 cs-cta-text: Launch Site
 cs-cta-url:
