@@ -50,6 +50,7 @@ cs-sections:
   - section-type: quote
     section-color: black-bg
     section-quote: |
+      “”
     section-attribution: ""
 
   - section-type: result
