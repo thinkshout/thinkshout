@@ -13,7 +13,7 @@ team-image:
   small: team/small/mimi.jpg
   medium: team/medium/mimi.jpg
   large: team/large/mimi.jpg
-published: false
+published: true
 current-employee: false
 name: mimi
 bio: |

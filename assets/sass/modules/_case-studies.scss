@@ -14,7 +14,7 @@
     @include mq(d) {
       margin-top: 263px;
     }
-    h4 {
+    h1 {
       color: $orange;
       display: inline-block;
       font-size: rem(16);
@@ -37,11 +37,11 @@
       @include mq(d) { max-width: 65%; }
     }
     @include mq(md) {
-      h4 { font-size: rem(18); }
+      h1 { font-size: rem(18); }
       h2 { font-size: rem(48); }
     }
     @include mq(d) {
-      h4 { font-size: rem(24); }
+      h1 { font-size: rem(24); }
       h2 { font-size: rem(72); }
     }
   }
@@ -85,7 +85,7 @@
     margin: 0 0 rem(24) 0;
   }
   .case-intro .text,
-  .case-intro .titles h4 {
+  .case-intro .titles h3 {
     color: $darkgray;
     display: inline-block;
     font-size: rem(16);

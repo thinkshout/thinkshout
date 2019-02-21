@@ -6,12 +6,6 @@
   JEKYLL_ENV = "production"
 
 [[redirects]]
-from = "/team"
-to = "/about/"
-status = 301
-force = false
-
-[[redirects]]
 from = "/expertise"
 to = "/services/"
 status = 301
@@ -44,12 +38,6 @@ force = false
 [[redirects]]
 from = "/expertise/engagement-tools"
 to = "/services/digital-ecosystem"
-status = 301
-force = false
-
-[[redirects]]
-from = "/about/index.html"
-to = "/values/"
 status = 301
 force = false
 

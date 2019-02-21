@@ -64,6 +64,11 @@
       {{ content }}
   </div>
 
+  <!-- Newsletter -->
+  {% if page.layout != "case_study" %}
+  {% include newsletter.html %}
+  {% endif %}
+
   <!-- Footer -->
   {% include footer.html %}
 

@@ -7,7 +7,7 @@ layout: default
     </style>
 
     <section class="container case-study-hero">
-      <h4>{{ page.cs-header.client }}</h4>
+      <h1>{{ page.cs-header.client }}</h1>
       <h2 class="description">{{ page.cs-header.title }}</h2>
       <div class="case-study-header"></div>
     </section>
@@ -21,7 +21,7 @@ layout: default
       <div class="titles">
         {% for title in page.cs-intro %}
           {% if title.intro-title %}
-            <h4>{{ title.intro-title }}</h4>
+            <h3>{{ title.intro-title }}</h3>
           {% endif %}
           {% if title.intro-text %}
             {{ title.intro-text | markdownify }}
@@ -188,5 +188,30 @@ layout: default
       {% endfor %}
     </section>
 
-    {% assign related_work = page.related %}
-    {% include related_work.html related=related_work %}
+    {% assign related_content = page.related %}
+    {% include related_work.html related=related_content %}
+
+    <div class="team-member-blog">
+      <div class="container">
+        <h4>Related Blogs</h4>
+        <div class="row posts">
+          {% assign tsloop = 1 %}
+          {% for post in site.posts %}
+            {% if post.layout == 'blog' and post.published %}
+              {% for tag in post.tags %}
+                {% assign cstag = tag | downcase %}
+                {% if cstag == related_content %}
+                  {% include blogs_related.html %}
+
+                  {% assign tsloop = tsloop | plus: 1 %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+
+            {% if tsloop > 3 %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>

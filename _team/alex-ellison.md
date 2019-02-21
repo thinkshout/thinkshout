@@ -14,7 +14,7 @@ team-image:
   small: team/small/alex2.jpg
   medium: team/medium/alex2.jpg
   large: team/large/alex2.jpg
-published: false
+published: true
 current-employee: false
 name: alex
 bio: |
