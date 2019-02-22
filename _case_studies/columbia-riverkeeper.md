@@ -11,6 +11,8 @@ order: 2
 
 title: Navigating the waters of Bene
 cs-class: "cori"
+featured_impact_text: Our Planet
+featured_client_name: Columbia Riverkeeper Bene Website
 
 cs-preview:
   image: /assets/images/work/cori/TS-Case-Study-CORI-header.jpg

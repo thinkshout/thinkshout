@@ -2064,23 +2064,19 @@ a:visited {
   top: 0;
   z-index: -1; }
 
-.uppercase-link,
-.front .featured-intro a.uppercase-link {
+.uppercase-link {
   color: #525255;
   font-size: 0.875rem;
   font-weight: bold;
   text-transform: uppercase; }
-  .uppercase-link i,
-  .front .featured-intro a.uppercase-link i {
+  .uppercase-link i {
     color: #f1b332;
     font-size: 1.5rem;
     margin-left: 0.625rem;
     vertical-align: sub; }
-  .uppercase-link:hover,
-  .front .featured-intro a.uppercase-link:hover {
+  .uppercase-link:hover {
     text-decoration: underline; }
-  .uppercase-link:visited,
-  .front .featured-intro a.uppercase-link:visited {
+  .uppercase-link:visited {
     color: #525255; }
 
 .header-down-caret h4 {
@@ -2138,7 +2134,6 @@ a:visited {
   color: #7c7c7c;
   text-align: left;
   display: inline-block;
-  margin: 0 auto;
   white-space: nowrap;
   line-height: 1.4;
   font-size: 0.875rem;
@@ -3785,7 +3780,7 @@ a:visited {
     margin-top: 5.625rem; } }
 .case-study .case-study-hero {
   margin-top: 65px; }
-  @media (min-width: 980px) and (max-width: 1199px) {
+  @media (min-width: 481px) and (max-width: 979px) {
     .case-study .case-study-hero {
       margin-top: 133px; } }
   @media (min-width: 980px) {
@@ -3813,7 +3808,7 @@ a:visited {
     @media (min-width: 980px) {
       .case-study .case-study-hero h2 {
         max-width: 65%; } }
-  @media (min-width: 980px) and (max-width: 1199px) {
+  @media (min-width: 481px) and (max-width: 979px) {
     .case-study .case-study-hero h1 {
       font-size: 1.125rem; }
     .case-study .case-study-hero h2 {
@@ -3833,10 +3828,7 @@ a:visited {
   text-align: center;
   width: 100%;
   z-index: 1; }
-  @media (min-width: 671px) and (max-width: 979px) {
-    .case-study .case-study-header {
-      padding: 8rem 0; } }
-  @media (min-width: 980px) and (max-width: 1199px) {
+  @media (min-width: 481px) and (max-width: 979px) {
     .case-study .case-study-header {
       padding: 12rem 0; } }
   @media (min-width: 1200px) {
@@ -4222,6 +4214,80 @@ a:visited {
     @media (min-width: 481px) and (max-width: 979px) {
       .case-study .related-case-studies .more-case-studies {
         padding-top: 1.375rem; } }
+
+.two-case-studies {
+  overflow: hidden; }
+  .two-case-studies .case-study {
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    position: relative; }
+  .two-case-studies #case-study2 {
+    -webkit-transition: border 0.2s;
+    -moz-transition: border 0.2s;
+    transition: border 0.2s;
+    background-size: cover;
+    border: 0rem solid #F06D2F;
+    height: 330px;
+    padding: 2rem;
+    width: 48.75%; }
+    @media (max-width: 480px) {
+      .two-case-studies #case-study2 {
+        height: 285px;
+        width: 100%; } }
+    .two-case-studies #case-study2:hover {
+      border: 0.375rem solid #F06D2F;
+      -webkit-transition: border 0.2s;
+      -moz-transition: border 0.2s;
+      transition: border 0.2s; }
+  .two-case-studies #case-study3 {
+    -webkit-transition: border 0.2s;
+    -moz-transition: border 0.2s;
+    transition: border 0.2s;
+    background-size: cover;
+    border: 0rem solid #F06D2F;
+    height: 330px;
+    padding: 2rem;
+    width: 48.75%; }
+    @media (max-width: 480px) {
+      .two-case-studies #case-study3 {
+        height: 285px;
+        width: 100%; } }
+    .two-case-studies #case-study3:hover {
+      border: 0.375rem solid #F06D2F;
+      -webkit-transition: border 0.2s;
+      -moz-transition: border 0.2s;
+      transition: border 0.2s; }
+  .two-case-studies #case-study2 {
+    margin-bottom: 1.5rem; }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .two-case-studies #case-study2 {
+        margin: 0 2.5% 0 0; } }
+    @media (min-width: 980px) {
+      .two-case-studies #case-study2 {
+        margin: 0 2.5% 0 0; } }
+  .two-case-studies .case-study-text {
+    background: #fff;
+    bottom: -0.5rem;
+    left: 0;
+    margin: 0 auto;
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 74%; }
+  .two-case-studies h2 {
+    color: #525255;
+    font-size: 1.25rem;
+    margin: 0;
+    padding-bottom: 0;
+    z-index: 1; }
+    @media (max-width: 480px) {
+      .two-case-studies h2 {
+        font-size: 1.1rem; } }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .two-case-studies h2 {
+        font-size: 1.1rem; } }
 
 .case-study .webby-winner,
 .case-study .webby-honoree {
@@ -5089,387 +5155,104 @@ header {
   @media (min-width: 481px) and (max-width: 979px) {
     .front {
       margin-top: 5.625rem; } }
-  .front .who-we-are {
-    margin-bottom: -1px;
-    padding: 2rem 0;
+  .front .home-hero {
+    margin-top: 65px; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .front .home-hero {
+        margin-top: 133px; } }
+    @media (min-width: 980px) {
+      .front .home-hero {
+        margin-top: 263px; } }
+    .front .home-hero h1 {
+      color: #656565;
+      font-size: 2rem;
+      font-weight: 900;
+      line-height: calc(73/56);
+      margin-bottom: 3.75rem;
+      margin-top: 0.8rem; }
+      .front .home-hero h1 em {
+        color: #F06D2F;
+        font-style: normal; }
+      @media (min-width: 481px) and (max-width: 979px) {
+        .front .home-hero h1 {
+          max-width: 85%; } }
+      @media (min-width: 980px) {
+        .front .home-hero h1 {
+          max-width: 72%; } }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .front .home-hero h1 {
+        font-size: 3rem; } }
+    @media (min-width: 980px) {
+      .front .home-hero h1 {
+        font-size: 3.5rem; } }
+  .front .case-study {
+    height: 80vw;
+    max-height: 400px;
     position: relative; }
     @media (min-width: 671px) and (max-width: 979px) {
-      .front .who-we-are {
-        padding: 2rem 0 3rem 0; } }
-    @media (min-width: 980px) and (max-width: 1199px) {
-      .front .who-we-are {
-        padding: 6rem 0 7rem 0; } }
-    @media (min-width: 1200px) {
-      .front .who-we-are {
-        padding: 10rem 0 11rem 0; } }
-    .front .who-we-are:after {
-      background: url("../images/ts_redesign/hsus_thinkshout-homehero-1.jpg") 75% top no-repeat;
-      background-size: cover;
-      content: "";
+      .front .case-study {
+        height: 46.18vw;
+        max-height: 500px; } }
+    @media (min-width: 980px) {
+      .front .case-study {
+        height: 46.18vw;
+        max-height: 665px; } }
+    .front .case-study a {
       display: block;
       height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      z-index: -1; }
-      @media (max-width: 480px) {
-        .front .who-we-are:after {
-          opacity: 0.3;
-          background-position-x: 10%; } }
-      @media (min-width: 481px) and (max-width: 670px) {
-        .front .who-we-are:after {
-          opacity: 0.3;
-          background-position-x: 10%; } }
-    .front .who-we-are .who-we-are-text {
-      text-align: center; }
-      @media (min-width: 671px) and (max-width: 979px) {
-        .front .who-we-are .who-we-are-text {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 65.88078%;
-          float: right; }
-          .front .who-we-are .who-we-are-text:last-child {
-            margin-right: 0; } }
-      @media (min-width: 980px) {
-        .front .who-we-are .who-we-are-text {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 48.82117%;
-          float: right; }
-          .front .who-we-are .who-we-are-text:last-child {
-            margin-right: 0; } }
-      @media (min-width: 1200px) {
-        .front .who-we-are .who-we-are-text {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 40.29137%;
-          float: right; }
-          .front .who-we-are .who-we-are-text:last-child {
-            margin-right: 0; } }
-      .front .who-we-are .who-we-are-text h1 {
-        color: #F06D2F;
-        font-family: "FilmotypeLucky";
-        font-size: 6rem;
-        font-weight: normal;
-        line-height: 120px;
-        margin: 0 auto;
-        transform: rotate(-10deg);
-        max-width: 85%; }
-      .front .who-we-are .who-we-are-text #change {
-        margin-right: 1.5rem;
-        margin-top: -1rem; }
-        @media (max-width: 480px) {
-          .front .who-we-are .who-we-are-text #change {
-            margin-right: 0; } }
-        @media (min-width: 481px) and (max-width: 670px) {
-          .front .who-we-are .who-we-are-text #change {
-            margin-right: 0; } }
-      .front .who-we-are .who-we-are-text p {
-        font-size: 1.1875rem;
-        line-height: 1.6;
-        color: #525255;
-        max-width: 85%;
-        margin-left: auto;
-        margin-right: auto; }
-      @media (max-width: 480px) {
-        .front .who-we-are .who-we-are-text h1 {
-          font-size: 4rem;
-          line-height: 80px;
-          max-width: 95%; }
-        .front .who-we-are .who-we-are-text p {
-          font-size: 1rem;
-          max-width: 95%; } }
-  .front .featured-intro {
-    display: table;
-    margin-top: 2rem;
-    width: 100%; }
-    @media (min-width: 481px) and (max-width: 979px) {
-      .front .featured-intro {
-        margin-top: 3rem; } }
-    @media (min-width: 980px) {
-      .front .featured-intro {
-        margin-top: 5rem; } }
-    .front .featured-intro h1 {
-      font-size: 2.25rem;
-      text-align: left; }
-      @media (max-width: 480px) {
-        .front .featured-intro h1 {
-          font-size: 1.875rem; } }
-      .front .featured-intro h1:hover {
-        cursor: pointer; }
-    .front .featured-intro a.uppercase-link {
-      text-align: right; }
-      @media (max-width: 480px) {
-        .front .featured-intro a.uppercase-link {
-          display: none; } }
-    .front .featured-intro h1,
-    .front .featured-intro a {
-      color: #525255;
-      display: table-cell;
-      width: 50%; }
-  .front .featured-case-study {
-    background-size: cover;
-    -webkit-transition: border 0.2s;
-    -moz-transition: border 0.2s;
-    transition: border 0.2s;
-    border: 0rem solid #F06D2F;
-    cursor: pointer;
-    height: 20.625rem;
-    margin: 1.5rem 0;
-    padding: 5rem 0 10rem 0;
-    position: relative;
-    width: 100%; }
-    .front .featured-case-study:hover {
-      -webkit-transition: border 0.2s;
-      -moz-transition: border 0.2s;
-      transition: border 0.2s;
-      border: 0.375rem solid #F06D2F; }
-    @media (min-width: 980px) and (max-width: 1199px) {
-      .front .featured-case-study {
-        height: 23.75rem; } }
-    @media (min-width: 980px) {
-      .front .featured-case-study {
-        margin: 1.5rem 0; } }
-    @media (min-width: 1200px) {
-      .front .featured-case-study {
-        height: 35.625rem; } }
-    .front .featured-case-study .featured-case-study-text {
-      background-color: #fff;
-      bottom: -0.5rem;
-      left: 0;
-      margin: 0 auto;
-      right: 0;
-      text-align: center;
-      position: absolute;
-      width: 60%;
-      z-index: 1; }
-      @media (max-width: 480px) {
-        .front .featured-case-study .featured-case-study-text {
-          width: 74%; } }
-      @media (min-width: 980px) {
-        .front .featured-case-study .featured-case-study-text {
-          width: 45%; } }
-      .front .featured-case-study .featured-case-study-text h4 {
-        color: #F06D2F;
-        font-size: 0.8125rem;
-        margin-bottom: 0; }
-        @media (max-width: 480px) {
-          .front .featured-case-study .featured-case-study-text h4 {
-            font-size: 0.75rem; } }
-      .front .featured-case-study .featured-case-study-text h1 {
-        font-size: 1.25rem;
-        line-height: 1.25rem;
-        margin: 0.5rem 0.5rem 1rem; }
-        @media (max-width: 480px) {
-          .front .featured-case-study .featured-case-study-text h1 {
-            font-size: 1.1rem; } }
-        .front .featured-case-study .featured-case-study-text h1 a {
-          color: #525255; }
-  .front .blog-teaser {
-    color: #fff; }
-    .front .blog-teaser .featured-blog-post,
-    .front .blog-teaser .blog-menu {
-      display: inline-block;
-      height: 408px;
-      float: left;
-      padding-top: 3rem; }
-    .front .blog-teaser .featured-blog-post {
-      background: url("../images/ts_redesign/blog_teaser.png") center center no-repeat;
-      background-size: cover;
       position: relative;
-      width: 58%; }
-      @media (max-width: 480px) {
-        .front .blog-teaser .featured-blog-post {
-          width: 100%;
-          padding-top: 1rem; } }
-      @media (min-width: 481px) and (max-width: 979px) {
-        .front .blog-teaser .featured-blog-post {
-          width: 100%; } }
-      @media (min-width: 1440px) {
-        .front .blog-teaser .featured-blog-post .container {
-          max-width: 78%;
-          min-width: 842px;
-          padding-right: 112px;
-          margin: 0;
-          float: right; } }
-      .front .blog-teaser .featured-blog-post h2 {
-        font-size: 1.625rem;
-        margin-bottom: 0; }
-        @media (max-width: 480px) {
-          .front .blog-teaser .featured-blog-post h2 {
-            font-size: 1.5rem; } }
-        .front .blog-teaser .featured-blog-post h2 a {
-          color: #f1b332; }
-      .front .blog-teaser .featured-blog-post p {
-        margin-top: 0.5rem; }
-        @media (max-width: 480px) {
-          .front .blog-teaser .featured-blog-post p {
-            font-size: 0.9375rem; } }
-      .front .blog-teaser .featured-blog-post img,
-      .front .blog-teaser .featured-blog-post .author-info {
-        bottom: 3rem;
-        display: inline-block;
-        position: absolute; }
-      .front .blog-teaser .featured-blog-post .author-info {
-        z-index: 100; }
-        @media (max-width: 480px) {
-          .front .blog-teaser .featured-blog-post .author-info {
-            bottom: 1rem; } }
-        .front .blog-teaser .featured-blog-post .author-info a {
-          color: #f1b332; }
-        .front .blog-teaser .featured-blog-post .author-info h4 {
-          margin: 0 0 0 5rem; }
-        .front .blog-teaser .featured-blog-post .author-info p {
-          color: #fff;
-          font-size: 0.875rem;
-          margin: 0 0 0.5rem 5rem; }
-          @media (max-width: 480px) {
-            .front .blog-teaser .featured-blog-post .author-info p {
-              white-space: normal;
-              line-height: 1.4; } }
-      .front .blog-teaser .featured-blog-post .blog-subject {
-        position: relative;
-        z-index: 100; }
-      .front .blog-teaser .featured-blog-post .blog-author img {
-        z-index: 100; }
-        @media (max-width: 480px) {
-          .front .blog-teaser .featured-blog-post .blog-author img {
-            bottom: 1.625rem; } }
-      .front .blog-teaser .featured-blog-post .gradient {
-        background-image: linear-gradient(to right, rgba(40, 40, 40, 0.8), rgba(40, 40, 40, 0.5));
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
-        height: 100%;
-        left: 0;
-        position: absolute;
-        top: 0;
-        width: 100%;
-        z-index: 1; }
-    .front .blog-teaser .blog-menu {
-      background: #555555;
-      width: 42%; }
-      @media (max-width: 480px) {
-        .front .blog-teaser .blog-menu {
-          width: 100%;
-          height: 375px; } }
-      @media (min-width: 481px) and (max-width: 979px) {
-        .front .blog-teaser .blog-menu {
-          width: 100%;
-          height: 350px; } }
-      @media (min-width: 1200px) {
-        .front .blog-teaser .blog-menu .container {
-          min-width: 540px; } }
-      .front .blog-teaser .blog-menu ul {
-        padding-top: 0.5rem;
-        padding-left: 0; }
-      .front .blog-teaser .blog-menu a {
-        -webkit-transition: color, 0.3s, linear;
-        -moz-transition: color, 0.3s, linear;
-        transition: color, 0.3s, linear;
-        color: #fff;
-        cursor: pointer;
-        line-height: 1.75;
-        margin-left: 0; }
-        @media (max-width: 480px) {
-          .front .blog-teaser .blog-menu a {
-            font-size: 1.125rem;
-            line-height: 2; } }
-        @media (min-width: 481px) and (max-width: 979px) {
-          .front .blog-teaser .blog-menu a {
-            font-size: 1.375rem;
-            line-height: 2; } }
-        .front .blog-teaser .blog-menu a:hover {
-          color: #f1b332; }
-        .front .blog-teaser .blog-menu a i {
-          color: #f1b332;
-          font-size: 1.5rem;
-          margin-left: 0.625rem;
-          vertical-align: sub; }
-          @media (max-width: 480px) {
-            .front .blog-teaser .blog-menu a i {
-              font-size: 1.5rem;
-              vertical-align: middle; } }
-          @media (min-width: 481px) and (max-width: 979px) {
-            .front .blog-teaser .blog-menu a i {
-              font-size: 2rem;
-              vertical-align: middle; } }
-
-.two-case-studies {
-  overflow: hidden; }
-  .two-case-studies .case-study {
-    cursor: pointer;
-    display: inline-block;
-    float: left;
-    position: relative; }
-  .two-case-studies #case-study2 {
-    -webkit-transition: border 0.2s;
-    -moz-transition: border 0.2s;
-    transition: border 0.2s;
-    background-size: cover;
-    border: 0rem solid #F06D2F;
-    height: 330px;
-    padding: 2rem;
-    width: 48.75%; }
-    @media (max-width: 480px) {
-      .two-case-studies #case-study2 {
-        height: 285px;
-        width: 100%; } }
-    .two-case-studies #case-study2:hover {
-      border: 0.375rem solid #F06D2F;
-      -webkit-transition: border 0.2s;
-      -moz-transition: border 0.2s;
-      transition: border 0.2s; }
-  .two-case-studies #case-study3 {
-    -webkit-transition: border 0.2s;
-    -moz-transition: border 0.2s;
-    transition: border 0.2s;
-    background-size: cover;
-    border: 0rem solid #F06D2F;
-    height: 330px;
-    padding: 2rem;
-    width: 48.75%; }
-    @media (max-width: 480px) {
-      .two-case-studies #case-study3 {
-        height: 285px;
-        width: 100%; } }
-    .two-case-studies #case-study3:hover {
-      border: 0.375rem solid #F06D2F;
-      -webkit-transition: border 0.2s;
-      -moz-transition: border 0.2s;
-      transition: border 0.2s; }
-  .two-case-studies #case-study2 {
-    margin-bottom: 1.5rem; }
-    @media (min-width: 481px) and (max-width: 979px) {
-      .two-case-studies #case-study2 {
-        margin: 0 2.5% 0 0; } }
-    @media (min-width: 980px) {
-      .two-case-studies #case-study2 {
-        margin: 0 2.5% 0 0; } }
-  .two-case-studies .case-study-text {
-    background: #fff;
-    bottom: -0.5rem;
-    left: 0;
-    margin: 0 auto;
-    padding: 1rem;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    width: 74%; }
-  .two-case-studies h2 {
-    color: #525255;
-    font-size: 1.25rem;
-    margin: 0;
-    padding-bottom: 0;
-    z-index: 1; }
-    @media (max-width: 480px) {
-      .two-case-studies h2 {
-        font-size: 1.1rem; } }
-    @media (min-width: 481px) and (max-width: 979px) {
-      .two-case-studies h2 {
-        font-size: 1.1rem; } }
+      width: 100%;
+      z-index: 3; }
+    .front .case-study h2, .front .case-study h3 {
+      color: #fff;
+      margin: 0;
+      position: relative;
+      z-index: 3; }
+    .front .case-study h2 {
+      font-size: 1.875rem;
+      font-weight: 900;
+      line-height: calc(66/46); }
+      @media (min-width: 671px) and (max-width: 979px) {
+        .front .case-study h2 {
+          font-size: 2.5rem; } }
+      @media (min-width: 980px) {
+        .front .case-study h2 {
+          font-size: 2.875rem; } }
+    .front .case-study h3 {
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: calc(22/18); }
+      @media (min-width: 671px) and (max-width: 979px) {
+        .front .case-study h3 {
+          font-size: 1.0625rem; } }
+      @media (min-width: 980px) {
+        .front .case-study h3 {
+          font-size: 1.125rem; } }
+    .front .case-study .case-study-text {
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: center;
+      position: relative; }
+    .front .case-study a::before {
+      background-color: rgba(0, 0, 0, 0.5);
+      bottom: 0;
+      content: "";
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      transition: background-color 0.2s linear;
+      z-index: 2; }
+    .front .case-study a:hover::before,
+    .front .case-study a:focus::before {
+      background-color: rgba(0, 0, 0, 0.4); }
+    .front .case-study a:hover .case-study-text h2,
+    .front .case-study a:hover .case-study-text h3,
+    .front .case-study a:focus .case-study-text h2,
+    .front .case-study a:focus .case-study-text h3 {
+      text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2); }
 
 .map-teaser {
   background: #555555;

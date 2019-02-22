@@ -6,11 +6,12 @@ active: true
 homepage: true
 published: true
 related: splc
-order: 5
+order: 1
 # END LAYOUT DATA
 
 title: Southern Poverty Law Center
-featured_text: Webby Award Winning
+featured_impact_text: Social Justice
+featured_client_name: Southern Poverty Law Center Website
 
 cs-class: splc
 

@@ -10,7 +10,8 @@ order: 10
 # END LAYOUT DATA
 
 title:
-featured_text:
+featured_impact_text:
+featured_client_name:
 cs-class: ""
 
 cs-preview:

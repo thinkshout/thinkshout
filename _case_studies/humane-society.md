@@ -7,11 +7,13 @@ homepage: true
 published: true
 related: hsus
 image: /assets/images/work/hsus/hsus_casestudyhero.jpg
-order: 1
+order: 3
 # END LAYOUT DATA
 
 title: Turning passion into action with the nation’s most effective animal protection organization.
 cs-class: "hsus"
+featured_impact_text: Animal Rights
+featured_client_name: Humane Society Website
 
 cs-preview:
   image: /assets/images/work/hsus/hsus_casestudyhero.jpg

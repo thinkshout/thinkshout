@@ -5,12 +5,13 @@ body-class: case-study tror
 active: true
 homepage: true
 published: true
-order: 3
+order: 4
 # END LAYOUT DATA
 
 title: To Delight and Inspire.
-
 cs-class: "tror"
+featured_impact_text: Animal Rights
+featured_client_name: Humane Society Website
 
 cs-preview:
   image: /assets/images/work/travel-oregon/bandon-beach-header.jpg
