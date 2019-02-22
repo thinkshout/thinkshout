@@ -120,7 +120,7 @@
     blockquote,
     li,
     div.inline {
-      color: darken($darkgray, 10%);
+      color: $casegray;
       margin: 1em auto;
       max-width: 1440px;
       padding: 0 7rem;
@@ -129,13 +129,18 @@
     }
 
     ul li {
-      font-size: rem(15);
+      font-size: rem(18);
       font-weight: bold;
+      margin-bottom: rem(8);
       margin-top: 0;
+      padding: 0;
+
+      @include mq(lt) { font-size: rem(18); }
+      @include mq(d) { font-size: rem(20); }
 
       &:before {
         content: '•';
-        padding-right: 0.5rem;
+        padding-right: rem(12);
       }
     }
 
@@ -201,7 +206,7 @@
 
     .black-bg {
       background-color: $bgblack;
-      p { color: $white; }
+      p, li { color: $white; }
       h4 { color: $midyellow; }
     }
 
@@ -324,7 +329,8 @@
     }
 
     div.full {
-      margin: 2em auto;
+      font-size: 0;
+      margin: 0 auto;
       max-width: 100%;
       width: 100%;
       img {

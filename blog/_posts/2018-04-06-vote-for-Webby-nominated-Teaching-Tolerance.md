@@ -15,6 +15,8 @@ tags:
   - Best of the Internet
   - nptech
   - Drupal Planet
+  - tror
+  - splc
 date: 2018-04-06 12:00:00
 image: https://thinkshout.com/assets/images/blog/Teaching-Tolerance-Webby-Nom.png
 header-image: /assets/images/blog/Teaching-Tolerance-Webby-Nom.png
