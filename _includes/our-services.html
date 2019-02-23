@@ -6,7 +6,7 @@
     {% assign site-services = site.services | sort: "order" %}
     {% for area in site-services %}
       <div class="our-services-block">
-        <a href="{{ site.baseurl }}services/"><h4>{{ area.title }}</h4><span class="arrow-right"></span></a>
+        <a href="{{ site.baseurl }}services/#{{ area.slug }}"><h4>{{ area.title }}</h4><span class="arrow-right"></span></a>
         <p>{{ area.blurb_short }}</p>
       </div>
     {% endfor %}

@@ -5356,7 +5356,7 @@ header {
     .front .case-study a:hover .arrow-right,
     .front .case-study a:focus .arrow-right {
       opacity: 1; }
-  .front p.lets-chat {
+  .front h4.lets-chat {
     border-top: 6px solid #ececec;
     padding-top: 28px;
     color: #525255;
@@ -5365,20 +5365,20 @@ header {
     line-height: calc(30/24);
     margin: 0 0 2rem 0; }
     @media (min-width: 481px) and (max-width: 979px) {
-      .front p.lets-chat {
+      .front h4.lets-chat {
         font-size: 1.375rem;
         margin-bottom: 3rem; } }
     @media (min-width: 980px) {
-      .front p.lets-chat {
+      .front h4.lets-chat {
         font-size: 1.5rem;
         margin-bottom: 5rem; } }
-    .front p.lets-chat a {
+    .front h4.lets-chat a {
       font-weight: 900;
       color: #F06D2F; }
       @media (max-width: 480px) {
-        .front p.lets-chat a {
+        .front h4.lets-chat a {
           display: block; } }
-    .front p.lets-chat .arrow-right {
+    .front h4.lets-chat .arrow-right {
       left: 10px;
       top: 1px; }
 

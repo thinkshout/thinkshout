@@ -2,7 +2,7 @@
 layout: services-detail
 body-class: services
 title: Strategy
-slug: digital-strategy
+slug: strategy
 tag: Strategy
 order: 1
 
