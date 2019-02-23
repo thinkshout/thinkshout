@@ -5380,7 +5380,7 @@ header {
           display: block; } }
     .front h4.lets-chat .arrow-right {
       left: 10px;
-      top: 1px; }
+      top: 0; }
 
 .map-teaser {
   background: #555555;
