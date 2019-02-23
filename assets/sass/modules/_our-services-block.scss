@@ -33,10 +33,10 @@
     justify-content: space-between;
     flex: 1 1 100%;
     margin-bottom: 1rem;
-    @include mq(t) { flex: 0 1 49%; }
+    @include mq(lt) { flex: 0 1 49%; }
     @include mq(d) { flex: 0 1 31%; }
 
-    a { flex: 0 0 45%; }
+    a { flex: 0 0 44%; }
     p { flex: 0 0 52%; }
 
     a {
@@ -50,7 +50,8 @@
       font-weight: 900;
       line-height: calc(21/18);
       margin: 0;
-      @include mq(t) { font-size: rem(16); }
+      padding-right: 4px;
+      @include mq(lt) { font-size: rem(16); }
       @include mq(d) { font-size: rem(18); }
     }
 

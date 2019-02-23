@@ -130,11 +130,13 @@
     a {
       font-weight: 900;
       color: $orange;
+
+      @include mq(m) { display: block; }
     }
 
     .arrow-right {
       left: 10px;
-      top: 0;
+      top: 1px;
     }
   }
 

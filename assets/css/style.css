@@ -4873,8 +4873,7 @@ form.contact {
           margin-right: 0; } }
 
 footer {
-  background: url("../images/ts_redesign/footer.jpg") center center;
-  background-size: cover;
+  background: url("../images/ts_redesign/footer.jpg") center center/cover;
   clear: both;
   height: 544px;
   margin: 0 auto;
@@ -4884,8 +4883,8 @@ footer {
   footer .container {
     position: relative; }
   footer a:hover {
-    text-decoration: underline;
-    color: #fff; }
+    color: #fff;
+    text-decoration: underline; }
   @media (max-width: 480px) {
     footer {
       height: auto;
@@ -5376,9 +5375,12 @@ header {
     .front p.lets-chat a {
       font-weight: 900;
       color: #F06D2F; }
+      @media (max-width: 480px) {
+        .front p.lets-chat a {
+          display: block; } }
     .front p.lets-chat .arrow-right {
       left: 10px;
-      top: 0; }
+      top: 1px; }
 
 .map-teaser {
   background: #555555;
@@ -5637,14 +5639,14 @@ header {
     justify-content: space-between;
     flex: 1 1 100%;
     margin-bottom: 1rem; }
-    @media (min-width: 481px) and (max-width: 979px) {
+    @media (min-width: 671px) and (max-width: 979px) {
       .our-services .our-services-block {
         flex: 0 1 49%; } }
     @media (min-width: 980px) {
       .our-services .our-services-block {
         flex: 0 1 31%; } }
     .our-services .our-services-block a {
-      flex: 0 0 45%; }
+      flex: 0 0 44%; }
     .our-services .our-services-block p {
       flex: 0 0 52%; }
     .our-services .our-services-block a {
@@ -5655,8 +5657,9 @@ header {
       font-size: 0.9375rem;
       font-weight: 900;
       line-height: calc(21/18);
-      margin: 0; }
-      @media (min-width: 481px) and (max-width: 979px) {
+      margin: 0;
+      padding-right: 4px; }
+      @media (min-width: 671px) and (max-width: 979px) {
         .our-services .our-services-block a h4 {
           font-size: 1rem; } }
       @media (min-width: 980px) {

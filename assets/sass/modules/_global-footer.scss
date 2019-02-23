@@ -1,6 +1,5 @@
 footer {
-  background: url('../images/ts_redesign/footer.jpg') center center;
-  background-size: cover;
+  background: url('../images/ts_redesign/footer.jpg') center center /cover;
   clear: both;
   height: 544px;
   margin: 0 auto;
@@ -13,8 +12,8 @@ footer {
   }
 
   a:hover {
-    text-decoration: underline;
     color: $white;
+    text-decoration: underline;
   }
 
   @include mq(m) {
