@@ -1,18 +1,12 @@
 <div class="our-services">
-  <div class="container">
-    <div class="our-services-intro">
-      <a href="{{ site.baseurl }}services/"><h1>Our Services</h1></a>
-      {% if page.layout != "services-detail" %}
-        <a href="{{ site.baseurl }}/services/" class="uppercase-link">Services<i class="fa fa-caret-right"></i></a>
-      {% endif %}
-    </div>
-    {% for area in site.services %}
+  <div class="our-services-intro">
+    <a href="{{ site.baseurl }}services/"><h3>Our Services</h3></a>
+  </div>
+  <div class="our-services-blocks">
+    {% assign site-services = site.services | sort: "order" %}
+    {% for area in site-services %}
       <div class="our-services-block">
-        {% if page.slug == area.slug %}
-          <h2>{{ area.title }}</h2>
-        {% else %}
-          <a href="{{ site.baseurl }}{{ area.url }}"><h2>{{ area.title }}</h2></a>
-        {% endif %}
+        <a href="{{ site.baseurl }}services/"><h4>{{ area.title }}</h4><span class="arrow-right"></span></a>
         <p>{{ area.blurb_short }}</p>
       </div>
     {% endfor %}

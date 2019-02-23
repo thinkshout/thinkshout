@@ -27,7 +27,7 @@ keywords:
       </style>
         <div class="case-study-text container">
           <h2>{{ case.featured_impact_text }}</h2>
-          <h3>{{ case.featured_client_name }}</h3>
+          <h3>{{ case.featured_client_name }}<span class="arrow-right"></span></h3>
         </div>
       </a>
     </div>
@@ -35,6 +35,10 @@ keywords:
 
   <div class="container">
     {% include our-services.html %}
+  </div>
+
+  <div class="container">
+    <p class="lets-chat">Want to get in touch? <a href="{{ site.baseurl }}contact/">Let's Chat<span class="arrow-right"></span></a></p>
   </div>
 
 </div>

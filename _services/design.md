@@ -1,11 +1,12 @@
 ---
 layout: services-detail
 body-class: services
-title: Website Design & User Experience
+title: Design & User Experience
 leadin: |
   A Collaborative, Iterative Design Approach
 slug: design
 tag: Design
+order: 2
 
 images:
   hero: ts_redesign/services/design.jpg
@@ -13,7 +14,7 @@ images:
 blurb: |
   Visual aesthetic impacts the success of a digital experience. Through clean design, pleasing typography, and bold imagery, we bring your content to life and make it accessible to all audiences that come into contact with your mission.
 blurb_short: |
-  We approach design collaboratively, beginning with an iterative discovery process centered on adaptive, mobile-first content.
+  We approach design collaboratively, beginning with an iterative discovery process.
 points: |
   <li>User-Centered Design</li>
   <li>Information Architecture</li>
@@ -21,7 +22,6 @@ points: |
   <li>Responsive Design</li>
   <li>Usability Testing</li>
 
-order: 2
 ---
 
 #### Information Architecture

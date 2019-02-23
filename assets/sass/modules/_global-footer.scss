@@ -10,7 +10,7 @@ footer {
 
   a:hover {
     text-decoration: underline;
-    color: $midorange;
+    color: $white;
   }
 
   @include mq(m) {
@@ -60,12 +60,19 @@ footer {
     }
 
     & > li > a {
+      color: $white;
       @include mq(md) {
         margin-right: 1.5rem;
       }
 
       @include mq(l) {
         margin-right: 2rem;
+      }
+    }
+
+    li:last-of-type {
+      a {
+        font-weight: bold;
       }
     }
 

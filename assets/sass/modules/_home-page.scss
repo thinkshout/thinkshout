@@ -79,6 +79,11 @@
       @include mq(d) { font-size: rem(18); }
     }
 
+    .arrow-right {
+      opacity: 0;
+      left: 10px;
+    }
+
     .case-study-text {
       align-items: flex-start;
       display: flex;
@@ -103,12 +108,60 @@
     a:hover,
     a:focus {
       &::before {
-        background-color: rgba(0,0,0,0.4);
+        background-color: rgba(0,0,0,0.8);
       }
-      .case-study-text h2,
-      .case-study-text h3 {
-        text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+      .arrow-right {
+        opacity: 1;
       }
     }
   }
+
+  p.lets-chat {
+    border-top: 6px solid $bggray;
+    padding-top: 28px;
+    color: $darkgray;
+    font-size: rem(20);
+    font-weight: 600;
+    line-height: calc(30/24);
+    margin: 0 0 2rem 0;
+    @include mq(t) { font-size: rem(22); margin-bottom: 3rem; }
+    @include mq(d) { font-size: rem(24); margin-bottom: 5rem; }
+
+    a {
+      font-weight: 900;
+      color: $orange;
+    }
+
+    .arrow-right {
+      left: 10px;
+      top: 0;
+    }
+  }
+
+  .footer-newsletter {
+    h4 {
+      color: $white;
+    }
+
+    textarea,
+    input[type=email],
+    input[type=text] {
+      border: none;
+      display: block;
+      margin-bottom: 1rem;
+      padding: 0.75rem 1rem;
+      width: 100%;
+      @include transition(box-shadow 0.2s);
+
+      &:focus {
+        background: $white;
+        box-shadow: 0 0 rem(5) rgba($black, 0.2);
+        outline: none;
+        @include transition(box-shadow 0.2s);
+      }
+    }
+    
+  }
+
+
 }

@@ -1,9 +1,10 @@
 ---
 layout: services-detail
 body-class: services
-title: Digital Strategy
+title: Strategy
 slug: digital-strategy
 tag: Strategy
+order: 1
 
 leadin: |
   Inspire Action
@@ -13,7 +14,7 @@ images:
 blurb: |
   A well-cultivated, strong base doesn’t happen by accident. It takes careful planning and intentional messaging that resonates with your wide array of audiences.
 blurb_short: |
-  A well-cultivated, strong base doesn’t happen by accident. It takes careful planning and intentional messaging that resonates with your wide array of audiences.
+  A well-cultivated, strong base takes careful planning and intentional messaging.
 points: |
   <li>Website Audit and Metrics</li>
   <li>Communications Audit</li>
@@ -21,9 +22,8 @@ points: |
   <li>Digital Marketing and Acquisition Strategies</li>
   <li>Content Strategy</li>
   <li>Campaign Design</li>
-
-order: 1
 ---
+
 We know what it’s like to be in your shoes. Our team is comprised of former nonprofit staff and agency veterans who have decades of experience working with nonprofits that vary in size, budgets, and goals. We've worked locally and nationally to develop innovative, sustainable, data-driven growth strategies.
 
 Here are some ways we make that possible:
