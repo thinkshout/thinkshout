@@ -37,7 +37,7 @@ end
 
 desc 'Watch jekyll files'
 task :jekyllwatch do
-  system 'bundle exec jekyll serve --watch --baseurl="" --drafts'
+  system 'bundle exec jekyll serve --watch --baseurl="" --drafts --incremental'
 end
 
 desc 'BrowserSync for live reloading and injecting new changes'

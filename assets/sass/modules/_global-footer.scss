@@ -8,6 +8,10 @@ footer {
   position: relative;
   width: 100%;
 
+  .container {
+    position: relative;
+  }
+
   a:hover {
     text-decoration: underline;
     color: $white;
@@ -37,11 +41,59 @@ footer {
     padding-left: 0;
   }
 
+  .footer-newsletter {
+    text-align: center;
+    @include mq(lt) { text-align: left; }
+    @include mq(d) { text-align: left; }
+
+    h4 {
+      color: $white;
+      font-weight: 500;
+      margin-bottom: 4px;
+      font-size: rem(16);
+      line-height: calc(32/16);
+    }
+
+    textarea,
+    input[type=email],
+    input[type=text] {
+      border: none;
+      display: inline-block;
+      margin-bottom: 1rem;
+      padding: 0.75rem 1rem;
+      font-size: rem(12);
+      font-weight: 300;
+      width: 200px;
+      height: 45px;
+      @include transition(box-shadow 0.2s);
+      @include mq(t) { width: 250px; }
+      @include mq(d) { width: 250px; }
+
+      &:focus {
+        background: $white;
+        box-shadow: 0 0 rem(5) rgba($black, 0.2);
+        outline: none;
+        @include transition(box-shadow 0.2s);
+      }
+    }
+    .button.solid {
+      display: inline-block;
+      padding: 0.75rem 1rem;
+      font-size: rem(12);
+      font-weight: 300;
+      margin-left: -5px;
+      letter-spacing: 0.5px;
+      height: 45px;
+    }
+
+  }
+
+
   .main-menu-footer {
     @include mq(m) {
       text-align: center;
     }
-    @include mq(t) {
+    @include mq(p) {
       text-align: center;
     }
     @include mq(md) {
@@ -53,6 +105,10 @@ footer {
       font-size: rem(20);
       line-height: $line-height;
 
+      @include mq(lt) {
+        display: inline-table;
+        font-size: rem(14);
+      }
       @include mq(d) {
         display: inline-table;
         font-size: rem(14);
@@ -61,11 +117,11 @@ footer {
 
     & > li > a {
       color: $white;
-      @include mq(md) {
+      @include mq(lt) {
         margin-right: 1.5rem;
       }
 
-      @include mq(l) {
+      @include mq(d) {
         margin-right: 2rem;
       }
     }
@@ -79,6 +135,10 @@ footer {
     .footer-submenu {
       margin-top: 0.5rem;
       @include mq(m) {
+        font-size: .75em;
+        margin-top: 0;
+      }
+      @include mq(p) {
         font-size: .75em;
         margin-top: 0;
       }
@@ -101,15 +161,17 @@ footer {
       max-width: 4rem;
     }
 
-    @include mq(md) {
+    @include mq(lt) {
       position: absolute;
       right: 3rem;
       text-align: right;
-      top: 5.2rem;
+      top: 0;
     }
-    @include mq(l) {
-      @include span-columns(0.5);
+    @include mq(d) {
+      position: absolute;
+      right: 7rem;
       text-align: right;
+      top: 0;
     }
   }
 
@@ -125,6 +187,7 @@ footer {
   }
 
   .social-media {
+    
     li {
       display: inline;
       margin-right: 0.5rem;
@@ -133,10 +196,18 @@ footer {
       max-width: 1.5rem;
     }
 
+    @include mq(lt) {
+      @include span-columns(7);
+      float: left;
+      position: relative;
+      text-align: left;
+      ul { margin: 0; }
+    }
     @include mq(d) {
       @include span-columns(7);
       float: left;
       position: relative;
+      ul { margin: 0; }
     }
   }
 
@@ -145,6 +216,7 @@ footer {
     float: right;
     font-size: rem(12);
     position: relative;
+    width: 100%;
 
 
     a {
@@ -156,9 +228,16 @@ footer {
         text-decoration: underline;
       }
     }
+    @include mq(lt) {
+      @include span-columns(5);
+      text-align: right;
+      float: right;
+    }
     @include mq(d) {
       @include span-columns(5);
       text-align: right;
+      float: right;
+      max-width: 400px;
     }
   }
 }
