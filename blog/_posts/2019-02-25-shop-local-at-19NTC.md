@@ -15,6 +15,8 @@ tags:
   - Diversity
   - PDX
   - Portland
+  - "Travel Portland"
+  - "minority-owned businesses"
 date: 2019-02-25 12:00:00
 image: https://thinkshout.com/assets/images/blog/Deadstock.jpg
 header-image: /assets/images/blog/Deadstock.jpg
