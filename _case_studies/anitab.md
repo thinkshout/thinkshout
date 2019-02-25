@@ -42,8 +42,7 @@ cs-intro:
 
 
 cs-sections:
-  - section-color: gray-bg
-    section-title: How to Create Community
+  - section-title: How to Create Community
     section-description: |
       There are AnitaB.org local communities (online groups) in existence, but the success of these is varied and relies heavily on the participation of volunteers and local ambassadors.
 
@@ -52,8 +51,7 @@ cs-sections:
       Jeanne Hultquist, Chief Marketing officer and project lead at AnitaB.org said it had to have a “stickiness” to it. So we set out to conduct [user research](https://thinkshout.com/blog/2018/07/user-research/) to learn exactly what it was women technologists needed to be successful.
 
 
-  - section-color: black-bg
-    section-title: Who Are Our Users
+  - section-title: Who Are Our Users
     section-description: |
       In an onsite session with the AnitaB team, a lot of ideas came out for what a networking platform would contain:
 
@@ -69,8 +67,7 @@ cs-sections:
     section-image-caption: "Photo Credit: wocintechchat.com | #WOCinTech Chat"
 
 
-  - section-color: gray-bg
-    section-description: |
+  - section-description: |
       We combined research methods and held conversations with 17 women and 3 male allies, and distributed a survey to over 40,000 contacts in the AnitaB.org email list. As the interviews progressed, some clear patterns began to emerge about what women in tech want and need to feel successful:
 
         * Mentorship (specifically from women who represent specific experiences and backgrounds)
@@ -83,8 +80,7 @@ cs-sections:
     section-image-alt: "Persona example from AnitaB.org"
 
 
-  - section-color: gray-bg
-    section-title: Who Else is Creating Community?
+  - section-title: Who Else is Creating Community?
     section-description: |
       Alongside the user research, we also ran a [landscape analysis](https://thinkshout.com/blog/2018/05/Landscape-Analysis/) to determine who in the sector was successfully maintaining a sense of community. We started with broad reviews of sites, apps, and community platforms that were doing some form of what we wanted to achieve: connecting people in meaningful ways.
 
@@ -97,14 +93,12 @@ cs-sections:
     section-image-caption: "Photo Credit: wocintechchat.com | #WOCinTech Chat"
 
 
-  - section-color: gray-bg
-    section-title:
+  - section-title:
     section-description: |
       In utilizing features we found across a variety of sites, platforms, and apps, we could borrow functionality that we liked and piece together the components of a platform that would serve this specific audience. Although no platform has been implemented (yet), our findings have helped AnitaB.org re-shape GHC itself, as well as their marketing and engagement strategies.
 
 
   - section-type: result
-    section-color: black-bg
     section-image-right: "/assets/images/work/anitab/AnitaB-Recommendations.png"
     section-image-right-alt: "Research Recommendations: Mentorship, Networking, Knowledge Sharing"
     section-image-right-caption: 3 Recommendations were to focus on Mentorship, Networking and Connections, and Knowledge Sharing.

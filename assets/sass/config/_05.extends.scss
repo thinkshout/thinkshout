@@ -91,12 +91,10 @@
   color: lighten($midgray,10%);
   text-align: left;
   display: inline-block;
-  // margin: 0 auto;
-  white-space: nowrap;
   line-height: 1.4;
   font-size: rem(14);
   margin-bottom: 2rem;
-  padding-right: rem(53);
+  padding-right: 0;
   a {
     @include transition(color,0.3s,linear);
     color: #000;

@@ -41,14 +41,12 @@ cs-intro:
 
 cs-sections:
   - section-type: quote
-    section-color: black-bg
     section-quote: |
       “ThinkShout's BENE platform is a forward-thinking solution designed to make the daunting task of building a website, a fun and enjoyable experience. Thanks to ThinkShout's team, no matter how complex the design request seems, the BENE platform delivers a thoughtful, well-designed solution.”
     section-attribution: " - Liz Terhaar, Communications Director, Columbia Riverkeeper"
 
 
-  - section-color: gray-bg
-    section-title: The Goals
+  - section-title: The Goals
     section-description: |
       Columbia Riverkeeper needed more than just a platform to build a site on, they needed strategy and design support to help them craft clean visuals, simplified messaging, and clear calls to action throughout the website. They required the discovery process, strategy, and design that comes with a high budget website redesign, but they needed it for a fraction of the cost.
 
@@ -57,8 +55,7 @@ cs-sections:
   - section-image: "/assets/images/work/cori/TS-Case-Studies-CORI-Homepage.jpg"
     section-image-alt: "Columbia Riverkeeper Home Page Screens"
 
-  - section-color: black-bg
-    section-title: Why Bene
+  - section-title: Why Bene
     section-description: |
       <a href="https://thinkshout.com/bene/">Bene</a> is built on Drupal, the leading open source web platform which allows for expansion and customization to meet an organization’s evolving needs. As improvements, integrations, and contributions are made to Bene, those enhancements become available to anyone on the platform. That’s the beauty of open source.
 
@@ -68,8 +65,7 @@ cs-sections:
     section-image-alt: "Mobile views of Columbia Riverkeeper's site"
 
 
-  - section-color: gray-bg
-    section-title: Bene & Columbia Riverkeeper
+  - section-title: Bene & Columbia Riverkeeper
     section-description: |
       All ThinkShout website redesign projects start with a discovery workshop to assess the client goals and audience motivations -- Bene projects are no different. Our experienced staff worked with Columbia Riverkeeper to define and prioritize their target audiences, their motivations, and how to structure content on their site to keep those audiences coming back and engaged.
 
@@ -84,14 +80,12 @@ cs-sections:
 
 
   - section-type: quote
-    section-color: gray-bg
     section-quote: |
       “I'm thrilled to start 2018 with a website that appropriately reflects the work we're doing. We love our new website and we're excited to continue to improve it with your expertise.”
     section-attribution: "- Liz Terhaar, Communications Director"
 
 
   - section-type: result
-    section-color: black-bg
     section-description: |
       We’re still working closely with Columbia Riverkeeper, providing support in the form of security updates, addressing bug fixes as they arise, and quarterly strategic planning sessions.
 

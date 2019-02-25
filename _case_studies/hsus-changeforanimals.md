@@ -47,8 +47,7 @@ cs-sections:
   - section-image: "/assets/images/ts_redesign/case-studies/hsus-changeforanimals/hsus-intro.png"
     section-image-alt: "Image: HSUS Change for Animals Intro"
 
-  - section-color: gray-bg
-    section-title: "Discovery"
+  - section-title: "Discovery"
     section-description: |
       The Humane Society was in the process of creating a print brochure, setting up events all across the country, and was about to publish a new book, all of which they hoped to promote in this online brochure. The site had to match their branding while being appealing to major donors.
 
@@ -58,8 +57,7 @@ cs-sections:
     section-image-alt: "Image: Woman holding small dog"
     section-image-caption: "The HSUS microsite features beautiful photography"
 
-  - section-color: black-bg
-    section-title: "Design Direction"
+  - section-title: "Design Direction"
     section-description: |
       Our directive was to design and develop a website heavily inspired by an existing print brochure. The challenge became blending the print and digital world; both platforms have similar requirements, but express content completely differently.
 
@@ -69,8 +67,7 @@ cs-sections:
     section-image-alt: "Image: HSUS Mobile"
     section-image-caption: "HSUS Change for Animals on Mobile"
 
-  - section-color: gray-bg
-    section-title: "Styling a Static Site"
+  - section-title: "Styling a Static Site"
     section-description: |
       The site needed five campaign pages, celebrity testimonials with featured videos, and a promotional section for their events. [Jekyll](https://jekyllrb.com/) was a perfect fit, and we've used it with great success on projects with similar constraints.
 
@@ -80,7 +77,6 @@ cs-sections:
     section-image-alt: "Image: HSUS Home"
 
   - section-type: result
-    section-color: black-bg
     section-description: |
       We launched the Transformational Change for Animals microsite in April of 2016 and are currently measuring the analytics around the site’s performance. We hope to share our findings with you in the near future!
 

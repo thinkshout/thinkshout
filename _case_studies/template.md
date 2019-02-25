@@ -44,12 +44,10 @@ cs-sections:
     section-image-full: false
     section-image-right: false
 
-  - section-color: black-bg gray-bg
-    section-title: ""
+  - section-title: ""
     section-description: |
 
   - section-type: quote
-    section-color: black-bg
     section-quote: |
       “”
     section-attribution: ""
@@ -73,7 +71,6 @@ cs-sections:
 
 
   - section-type: result
-    section-color: black-bg
     section-image-right: ""
     section-image-right-alt: ""
     section-image-right-caption: ""

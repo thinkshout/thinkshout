@@ -2134,11 +2134,10 @@ a:visited {
   color: #7c7c7c;
   text-align: left;
   display: inline-block;
-  white-space: nowrap;
   line-height: 1.4;
   font-size: 0.875rem;
   margin-bottom: 2rem;
-  padding-right: 3.3125rem; }
+  padding-right: 0; }
   .byline a {
     -webkit-transition: color, 0.3s, linear;
     -moz-transition: color, 0.3s, linear;
@@ -3794,12 +3793,12 @@ a:visited {
     line-height: calc(29/24);
     margin: 0;
     padding: 0.5rem 0;
-    text-transform: uppercase; }
+    text-transform: capitalize; }
   .case-study .case-study-hero h2 {
     color: #656565;
-    font-size: 2rem;
+    font-size: 1.5625rem;
     font-weight: 900;
-    line-height: calc(80/72);
+    line-height: calc(73/56);
     margin-bottom: 3.75rem;
     margin-top: 0.8rem; }
     @media (min-width: 481px) and (max-width: 979px) {
@@ -3812,12 +3811,12 @@ a:visited {
     .case-study .case-study-hero h1 {
       font-size: 1.125rem; }
     .case-study .case-study-hero h2 {
-      font-size: 3rem; } }
+      font-size: 2.375rem; } }
   @media (min-width: 980px) {
     .case-study .case-study-hero h1 {
       font-size: 1.5rem; }
     .case-study .case-study-hero h2 {
-      font-size: 4.5rem; } }
+      font-size: 3.5rem; } }
 .case-study .case-study-header {
   background-position: left top;
   background-size: cover;
@@ -3864,11 +3863,11 @@ a:visited {
   font-weight: 900;
   line-height: calc(32/24);
   margin: 0 0 0.5rem 0; }
-  @media (min-width: 671px) and (max-width: 979px) {
+  @media (min-width: 768px) and (max-width: 979px) {
     .case-study .case-intro .text,
     .case-study .case-intro .titles h3 {
       font-size: 1.1875rem; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 980px) {
     .case-study .case-intro .text,
     .case-study .case-intro .titles h3 {
       font-size: 1.375rem; } }
@@ -3934,15 +3933,15 @@ a:visited {
   margin-left: auto;
   margin-right: auto;
   max-width: 1440px;
-  padding: 2rem 7rem;
+  padding: 3rem 7rem;
   height: auto; }
   @media (max-width: 480px) {
     .case-study .body .case-wrapper {
-      padding: 2rem 1rem; } }
+      padding: 3rem 1rem; } }
   @media (min-width: 481px) and (max-width: 979px) {
     .case-study .body .case-wrapper {
       min-height: 50vw;
-      padding: 3rem 2rem; } }
+      padding: 4.5rem 2rem; } }
   @media (min-width: 980px) {
     .case-study .body .case-wrapper {
       min-height: 600px; } }
@@ -4012,16 +4011,16 @@ a:visited {
   align-items: center;
   text-align: center; }
 .case-study .body .quote p {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-weight: 900;
-  line-height: calc(59/48);
+  line-height: calc(55/36);
   width: 95%; }
   @media (min-width: 671px) and (max-width: 979px) {
     .case-study .body .quote p {
-      font-size: 2rem; } }
+      font-size: 1.5rem; } }
   @media (min-width: 980px) {
     .case-study .body .quote p {
-      font-size: 3rem; } }
+      font-size: 2.25rem; } }
 .case-study .body .quote h4 {
   font-size: 0.875rem;
   font-weight: 900;
@@ -4048,7 +4047,7 @@ a:visited {
   flex: 1 1 66.666%; }
   .case-study .body .result .result-set p {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: calc(35/20); }
     @media (min-width: 671px) and (max-width: 979px) {
       .case-study .body .result .result-set p {
@@ -4082,8 +4081,8 @@ a:visited {
   .case-study .body .result .data-set .data-text {
     color: #fff;
     font-size: 0.875rem;
-    font-weight: 500;
-    line-height: calc(21/16);
+    font-weight: 700;
+    line-height: calc(20/16);
     margin: 0 0 1rem;
     max-width: 90%; }
     @media (min-width: 671px) and (max-width: 979px) {
@@ -4097,9 +4096,9 @@ a:visited {
   .case-study .body .result .result-right img {
     width: 100%; }
   .case-study .body .result .result-right .caption {
-    color: #dbdcde;
+    color: #D9D9D9;
     font-size: 0.75rem;
-    font-weight: 300;
+    font-weight: 400;
     line-height: calc(23/13);
     width: 100%; }
     @media (min-width: 671px) and (max-width: 979px) {

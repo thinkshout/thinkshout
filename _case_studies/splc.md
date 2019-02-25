@@ -45,16 +45,14 @@ cs-intro:
 
 cs-sections:
 
-  - section-color: gray-bg
-    section-title: "Discovery"
+  - section-title: "Discovery"
     section-description: |
       After reviewing the existing site and evaluating the data gathered about how the SPLC’s visitors navigate it, ThinkShout traveled to Montgomery to work with the SPLC’s team in person to better understand their organizational goals, what they hoped to achieve with their online presence, their audiences, and the content that could connect the two.
 
   - section-image: "/assets/images/ts_redesign/case-studies/splc-main/splc-desktopmobile.jpg"
     section-image-alt: "Image: SPLC Desktop and Mobile"
 
-  - section-color: black-bg
-    section-type: quote
+  - section-type: quote
     section-quote: |
       “After reviewing the existing site and evaluating the data gathered about how the SPLC’s visitors navigate it, ThinkShout traveled to Montgomery to work with the SPLC’s team in person.”
     section-attribution: "Quoted Person - SPLC"
@@ -64,8 +62,7 @@ cs-sections:
     section-image-caption: "We kicked off the project with a 2-day onsite discovery engagement with the SPLC team"
 
 
-  - section-color: gray-bg
-    section-description: |
+  - section-description: |
       Content is at the heart of ThinkShout’s discovery and development methodologies. When content is organized according to internal business structures, site visitors must first learn the language of the organization. This imposes a significant roadblock between them and the information they’re seeking.
 
       We worked with the SPLC to put content strategy first, which in reality put their audiences first. This key step helped maintain – and build – the SPLC’s reputation as a trusted and valuable source of information amongst supporters, donors, consumers, and other stakeholders. The information architecture and organization of the site flowed naturally from there.
@@ -85,8 +82,7 @@ cs-sections:
     section-image-caption4: "4 We kicked off the project with a 2-day onsite discovery engagement with the SPLC team"
 
 
-  - section-color: black-bg
-    section-title: "Visual Storytelling and Mapping"
+  - section-title: "Visual Storytelling and Mapping"
     section-description: |
       The SPLC maintains an annual list of hate groups, “groups [that] have beliefs or practices that attack or malign an entire class of people, typically for their immutable characteristics.” The Hate Map, one of the SPLC’s flagship pieces of cross-channel content, needed a major overhaul for today’s responsive environment.
 
@@ -112,8 +108,7 @@ cs-sections:
     section-image-alt: "Image: SPLC Mobile"
 
 
-  - section-color: gray-bg
-    section-title: "Infrastructure"
+  - section-title: "Infrastructure"
     section-description: |
       The complicated and fragile infrastructure of the old site was re-engineered with three key requirements in mind: stability, security, and simplicity.
 
@@ -123,7 +118,6 @@ cs-sections:
 
 
   - section-type: result
-    section-color: black-bg
     section-image-right: "/assets/images/ts_redesign/case-studies/splc-main/splc-process.jpg"
     section-image-right-alt: "Image: Woman working with brightly colored sticky notes during project discovery phase"
     section-image-right-caption: "4 We kicked off the project with a 2-day onsite discovery engagement with the SPLC team"

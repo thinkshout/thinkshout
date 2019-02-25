@@ -44,8 +44,7 @@ cs-intro:
 
 
 cs-sections:
-  - section-color: gray-bg
-    section-title:
+  - section-title:
     section-description: |
       Since its founding in 1954, the Humane Society of the United States has fought the fights that only it could fight, taking on powerful forces and root causes that threaten the welfare of animals. The organization works directly to impact policies and systemic animal welfare issues. Their most important goal is to prevent animals from getting into situations of distress in the first place. They drive transformational change for animals—bringing a wide set of tools to take on the biggest fights, confronting multibillion dollar industries and staying the course until they achieve reform.
 
@@ -53,8 +52,7 @@ cs-sections:
     section-image-alt: "HSUS home page"
 
 
-  - section-color: black-bg
-    section-title: The Power of Simplicity
+  - section-title: The Power of Simplicity
     section-description: |
       The Humane Society of the United States does so much important work, across so many issues and in so many places, that the brand position had become overly complex. People were having trouble connecting with the organization, and the existing website suffered from an encyclopedic approach that wasn’t working for supporters, staff, or the general public.
 
@@ -65,8 +63,7 @@ cs-sections:
     section-image-full: true
 
 
-  - section-color: gray-bg
-    section-title: Invitation to Act
+  - section-title: Invitation to Act
     section-description: |
       The decision to place organizational emphasis on big fights opened the door for making every piece of content actionable. Going into the redesign, we heard from constituents that The HSUS did incredible work, but that often the work was done in isolation. They wanted an invitation to be part of the success story and take action alongside the organization.
 
@@ -76,8 +73,7 @@ cs-sections:
     section-image-alt: "Add your voice"
 
 
-  - section-color: black-bg
-    section-title: Opening Up
+  - section-title: Opening Up
     section-description: |
       Supporters were asking for richer content around The HSUS’s daily work, and the results of that work. We found that there were so many stories happening that weren’t reaching the audiences that wanted to hear them. The long-tail process meant results sometimes came months after the call to action was made.
 
@@ -91,7 +87,6 @@ cs-sections:
 
 
   - section-type: result
-    section-color: gray-bg
     section-title: Toward a More Humane Society
     section-description: |
       Our journey began by examining the data and connecting with real users to learn how visitors experienced the HSUS website. Armed with new insight, we developed a bold, story-driven, action-packed site that elevates the organization’s new brand. Along with our friends at the Humane Society (and our animal friends around the world), we look forward to engaging a whole new generation of HSUS supporters and creating opportunities for any visitor to become a hero the instant they are inspired to take action.

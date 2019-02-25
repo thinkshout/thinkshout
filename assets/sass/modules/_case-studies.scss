@@ -22,14 +22,14 @@
       line-height: calc(29/24);
       margin: 0;
       padding: rem(8) 0;
-      text-transform: uppercase;
+      text-transform: capitalize;
     }
 
     h2 {
       color: $herogray;
-      font-size: rem(32);
+      font-size: rem(25);
       font-weight: 900;
-      line-height: calc(80/72);
+      line-height: calc(73/56);
       margin-bottom: rem(60);
       margin-top: 0.8rem;
 
@@ -38,11 +38,11 @@
     }
     @include mq(t) {
       h1 { font-size: rem(18); }
-      h2 { font-size: rem(48); }
+      h2 { font-size: rem(38); }
     }
     @include mq(d) {
       h1 { font-size: rem(24); }
-      h2 { font-size: rem(72); }
+      h2 { font-size: rem(56); }
     }
   }
   .case-study-header {
@@ -91,10 +91,10 @@
     font-weight: 900;
     line-height: calc(32/24);
     margin: 0 0 rem(8) 0;
-    @include mq(lt) {
+    @media (min-width: 768px) and (max-width: 979px) {
       font-size: rem(19);
     }
-    @include mq(l) {
+    @media (min-width: 980px) {
       font-size: rem(22);
     }
   }
@@ -151,10 +151,10 @@
       margin-left: auto;
       margin-right: auto;
       max-width: 1440px;
-      padding: 2rem 7rem;
+      padding: 3rem 7rem;
       height: auto;
-      @include mq(m) { padding: 2rem 1rem; }
-      @include mq(t) { min-height: 50vw; padding: 3rem 2rem; }
+      @include mq(m) { padding: 3rem 1rem; }
+      @include mq(t) { min-height: 50vw; padding: 4.5rem 2rem; }
       @include mq(d) { min-height: 600px; }
       @include mq(l) { min-height: 800px; }
     }
@@ -216,12 +216,12 @@
         text-align: center;
       }
       p {
-        font-size: rem(24);
+        font-size: rem(18);
         font-weight: 900;
-        line-height: calc(59/48);
+        line-height: calc(55/36);
         width: 95%;
-        @include mq(lt) { font-size: rem(32); }
-        @include mq(d) { font-size: rem(48); }
+        @include mq(lt) { font-size: rem(24); }
+        @include mq(d) { font-size: rem(36); }
       }
       h4 {
         font-size: rem(14);
@@ -246,7 +246,7 @@
         flex: 1 1 66.666%;
         p {
           font-size: 16px;
-          font-weight: 500;
+          font-weight: 700;
           line-height: calc(35/20);
           @include mq(lt) { font-size: rem(18); }
           @include mq(d) { font-size: rem(20); }
@@ -272,8 +272,8 @@
         .data-text {
           color: $white;
           font-size: rem(14);
-          font-weight: 500;
-          line-height: calc(21/16);
+          font-weight: 700;
+          line-height: calc(20/16);
           margin: 0 0 1rem;
           max-width: 90%;
           @include mq(lt) { font-size: rem(15); }
@@ -286,9 +286,9 @@
           width: 100%;
         }
         .caption {
-          color: $ltgray;
+          color: #D9D9D9;
           font-size: rem(12);
-          font-weight: 300;
+          font-weight: 400;
           line-height: calc(23/13);
           width: 100%;
           @include mq(lt) { font-size: rem(12); }

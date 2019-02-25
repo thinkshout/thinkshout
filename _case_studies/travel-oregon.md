@@ -43,8 +43,7 @@ cs-intro:
       We crafted a stunning new design leveraging an abundance of beautiful imagery with an information architecture that drives users to the content they need to plan their visit.
 
 cs-sections:
-  - section-color: gray-bg
-    section-title: "Creating the Optimal User Experience"
+  - section-title: "Creating the Optimal User Experience"
     section-description: |
       One of the things we felt strongly about in taking on this project was the concept of giving users a sense of "place." It's that feeling you get when you see an image of a location so breath-taking that you want to go see it for yourself.
 
@@ -52,8 +51,7 @@ cs-sections:
     section-image-alt: "Image: Example of homepage hero when it's evening in the Pacific time zone."
     section-image-full: true
 
-  - section-color: black-bg
-    section-description: |
+  - section-description: |
       We achieved this through a feature we implemented on the homepage hero. Visit TravelOregon.com at various times of day from other time zones, and you'll be served up a scenic image from somewhere in Oregon at the local time here, in Oregon.
 
   - section-image: "/assets/images/work/travel-oregon/TO-HP-2up.png"
@@ -61,32 +59,28 @@ cs-sections:
     section-image-full: true
 
 
-  - section-color: gray-bg
-    section-title: "Front-End"
+  - section-title: "Front-End"
     section-description: |
       At first glance, visitors will notice the images and will find it very easy to dive deeper into the site down to micro-levels of content that speak to their interests. After sticking around the site a bit longer, visitors may even notice the details of whimsy.
 
   - section-image: "/assets/images/work/travel-oregon/TROR-Regional-Colors.jpg"
     section-image-alt: "Image: Example of regional colors to distinguish site content"
 
-  - section-color: black-bg
-    section-description: |
+  - section-description: |
       7 different colors for 7 different regions, the aforementioned hero image and time on the home page changing throughout the day, the Oregon skyline textures scattered across the site. Even the dashed horizontal rule has its own story, spelling out Oregon in morse code.
 
   - section-image: "/assets/images/work/travel-oregon/TROR-Texture-Details.jpg"
     section-image-alt: "Image: Keeping whimsy with textures and morse code across the site"
 
 
-  - section-color: gray-bg
-    section-description: |
+  - section-description: |
       There was special attention placed on mobile responsiveness and browser compatibility. Considering many visitors would potentially be exploring this site while on their Oregon vacation, we needed to ensure that accessibility wasn't hindered in any way. All content, maps, and resources needed to be seamlessly served up in the mobile experience.
 
   - section-image: "/assets/images/work/travel-oregon/TROR-Mobile-Travellers.jpg"
     section-image-alt: "Image: traveloregon.com mobile views of maps and articles"
 
 
-  - section-color: black-bg
-    section-title: "Collaboration, Integration, and Implementation"
+  - section-title: "Collaboration, Integration, and Implementation"
     section-description: |
       There were a lot of players involved in this rebuild. [Wieden+Kennedy](http://www.wk.com/) was responsible for the re-brand that was released midway through the project, and we worked closely with their team to apply their modern brand into our design concepts.
 
@@ -97,8 +91,7 @@ cs-sections:
     section-image-full: true
 
 
-  - section-color: gray-bg
-    section-title:
+  - section-title:
     section-description: |
       We built the site on WordPress (WP) -- our largest build in the platform to-date. Performance of the site on a variety of devices was key -- as part of the redesign, we focused on the performance of the platform, the code, and of course, the content.
 
@@ -109,7 +102,6 @@ cs-sections:
 
 
   - section-type: result
-    section-color: black-bg
     section-image-right: "/assets/images/work/travel-oregon/TROR-Landscapes.jpg"
     section-image-right-alt: "Oregon landscapes at different screen sizes"
     section-image-right-caption: "Oregon landscapes at different screen sizes"

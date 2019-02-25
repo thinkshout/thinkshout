@@ -42,8 +42,7 @@ cs-intro:
 
 
 cs-sections:
-  - section-color: gray-bg
-    section-description: |
+  - section-description: |
       In the fall of 2014, we began work on the relaunch of the [Southern Poverty Law Center](http://splcenter.org/) (SPLC) website. The Southern Poverty Law Center benefits from an excellent in-house graphic design team, as well as a top-notch digital communications team. They have some of the highest-quality and most compelling multimedia assets of any organization with whom we’ve worked.
 
       Their story and their approach to advocacy could not be stronger.
@@ -51,16 +50,14 @@ cs-sections:
   - section-image: "/assets/images/ts_redesign/case-studies/splc-selma/selma-desktopmobile.jpg"
     section-image-alt: "Image: photo of the Selma-to-Montgomery March"
 
-  - section-color: black-bg
-    section-title: "Our Role on the Project"
+  - section-title: "Our Role on the Project"
     section-description: |
       Because it’s focused on a single ask – to order the movie and so expand the SPLC’s list of supporters – we determined it was best to strip away most of the opportunities to explore other areas of the SPLC’s work and let the story of the March itself persuade users to take that action. The strategy work we had already completed allowed us to develop the campaign more quickly than would otherwise have been possible, to gorgeous effect.
 
   - section-image: "/assets/images/ts_redesign/case-studies/splc-selma/selma-march.jpg"
     section-image-alt: "Image: two views of website - desktop and mobile"
 
-  - section-color: gray-bg
-    section-title: "Prototyping & Testing"
+  - section-title: "Prototyping & Testing"
     section-description: |
       We approached this 50th Anniversary campaign website as a test case for a number of visual storytelling elements that we are proposing for the overall SPLC redesign.
 
@@ -73,7 +70,6 @@ cs-sections:
     section-image-alt2: "Image: #Marchfor Gallery"
 
   - section-type: result
-    section-color: black-bg
     section-image-right: "/assets/images/ts_redesign/case-studies/splc-selma/selma-mobile.jpg"
     section-image-right-alt: "Selma Mobile"
     section-description: |
