@@ -70,6 +70,8 @@ Portland is often branded as a very homogenous city, but there are in fact many 
 [Champions Barber Shop](https://www.championspdx.com/) - Get fly before your session presentation  
 [Abbey Creek](https://www.abbeycreekvineyard.com/) - If you need a quick jaunt out of the city  
 
+This is by no means a comprehensive list, which is why we want to point to some other resources that could help you find local businesses we encourage you support while you're here for `#19NTC`:
+
 ### OTHER HELPFUL RESOURCES
 
 [Travel Portland list of minority-owned businesses](https://www.travelportland.com/directory/feature/minority-owned-business/)  
