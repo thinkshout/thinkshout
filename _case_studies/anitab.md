@@ -12,6 +12,8 @@ image: https://thinkshout.com/assets/images/work/anitab/anita-b-hero-image.jpg
 
 title: "End the Guessing Game: How to Know What Your Users Really Want"
 cs-class: "anitab"
+featured_impact_text: Women’s Rights
+featured_client_name: "Women for Women International: Digital Storytelling &amp; User Pathways"
 
 cs-preview:
   image: /assets/images/work/anitab/anita-b-hero-image.jpg

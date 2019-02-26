@@ -10,6 +10,8 @@ order: 4
 # END LAYOUT DATA
 
 title: Making it easier for educators to meet the immediate needs of their students.
+featured_impact_text: Social Justice
+featured_client_name: "Teaching Tolerance: 21st Century Content Management Tools"
 
 cs-class: "teaching-tolerance"
 

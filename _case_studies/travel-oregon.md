@@ -11,8 +11,8 @@ related: tror
 
 title: To Delight and Inspire.
 cs-class: "tror"
-featured_impact_text: Celebrating Oregon
-featured_client_name: Travel Oregon Website
+featured_impact_text: Sustainable Tourism
+featured_client_name: "Travel Oregon: Site Speed &amp; Beauty"
 
 cs-preview:
   image: /assets/images/work/travel-oregon/bandon-beach-header.jpg

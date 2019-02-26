@@ -13,7 +13,7 @@ order: 3
 title: Turning passion into action with the nation’s most effective animal protection organization.
 cs-class: "hsus"
 featured_impact_text: Animal Rights
-featured_client_name: Humane Society Website
+featured_client_name: "The Humane Society of the United States: Digital Advocacy & User Journeys"
 
 cs-preview:
   image: /assets/images/work/hsus/hsus_casestudyhero.jpg

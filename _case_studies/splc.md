@@ -11,7 +11,7 @@ order: 1
 
 title: Southern Poverty Law Center
 featured_impact_text: Social Justice
-featured_client_name: Southern Poverty Law Center Website
+featured_client_name: "The Southern Poverty Law Center: Digital Security & Storytelling"
 
 cs-class: splc
 

@@ -1,7 +1,7 @@
 ---
 layout: services-detail
 body-class: services
-title: Design & User Experience
+title: Design &amp; User Experience
 leadin: |
   A Collaborative, Iterative Design Approach
 slug: design
@@ -14,7 +14,7 @@ images:
 blurb: |
   Visual aesthetic impacts the success of a digital experience. Through clean design, pleasing typography, and bold imagery, we bring your content to life and make it accessible to all audiences that come into contact with your mission.
 blurb_short: |
-  We approach design collaboratively, beginning with an iterative discovery process.
+  We infuse your brand into every touchpoint to advance your goals and inspire action.
 points: |
   <li>User-Centered Design</li>
   <li>Information Architecture</li>

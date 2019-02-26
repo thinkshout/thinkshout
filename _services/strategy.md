@@ -1,7 +1,7 @@
 ---
 layout: services-detail
 body-class: services
-title: Strategy
+title: Strategy &amp; Insights
 slug: strategy
 tag: Strategy
 order: 1
@@ -14,7 +14,7 @@ images:
 blurb: |
   A well-cultivated, strong base doesn’t happen by accident. It takes careful planning and intentional messaging that resonates with your wide array of audiences.
 blurb_short: |
-  A well-cultivated, strong base takes careful planning and intentional messaging.
+  We provide data-driven recommendations that set your most important initiatives up for success.
 points: |
   <li>Website Audit and Metrics</li>
   <li>Communications Audit</li>

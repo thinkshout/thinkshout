@@ -1,7 +1,7 @@
 ---
 layout: services-detail
 body-class: services
-title: Technical Development
+title: Technology &amp; Support
 leadin: |
   Unwavering Commitment To Open Source Excellence
 slug: development
@@ -14,7 +14,7 @@ images:
 blurb: |
   We are nationally recognized leaders in web application development for nonprofits. Geeks at heart, we love playing on the bleeding edge of web technology, which also happens to ensure we're adding the most possible value to our clients. One thing we don't waver on is our commitment to engineering excellence and open source, as demonstrated by the more than 50,000 websites running on our contributions.
 blurb_short: |
-  We are nationally recognized leaders in web application development for nonprofits.
+  We build world-class digital products that deliver real impact.
 points: |
   <li>Website Development</li>
   <li>Association Management Solutions</li>
