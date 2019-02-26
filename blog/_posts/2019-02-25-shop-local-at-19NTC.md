@@ -22,6 +22,8 @@ image: https://thinkshout.com/assets/images/blog/Deadstock.jpg
 header-image: /assets/images/blog/Deadstock.jpg
 header-image-alt: "Deadstock Coffee's business owner."
 ---
+<span class="caption">Above, Ian William, owner of Deadstock Coffee</span>
+
 Can you believe #19NTC is in two weeks? We certainly can’t…
 
 Here at ThinkShout, we’ve been buzzing with excitement over the conference and a chance to share the city we love with the community that we value highly. After all, without you, NTC doesn’t exist. We’re of course anticipating #NTCBeer and our [Happy Hour hosted at our office on March 13th (RSVP and reserve your spot if you haven’t yet!)](https://hhthinkshout.eventbrite.com). But what in the end it gets down to ensuring you have a rich experience in our city.
@@ -29,19 +31,19 @@ Here at ThinkShout, we’ve been buzzing with excitement over the conference and
 Portland is often branded as a very homogenous city, but there are in fact many POC- and Womxn-owned businesses in town that we love. We hope you take the time to support them while in town. Below is a collection of places the ThinkShout team holds near and dear, as well as other resources and listicles to help you while you’re here.
 
 
-## HOTELS or PLACES TO WORK FROM WHILE IN TOWN
-[Sapphire Hotel](http://thesapphirehotel.com/)
-[Society](https://thesocietyhotel.com/)
-[Workfrom](https://workfrom.co/)
+### HOTELS or PLACES TO WORK FROM WHILE IN TOWN
+[Sapphire Hotel](http://thesapphirehotel.com/)  
+[Society](https://thesocietyhotel.com/)  
+[Workfrom](https://workfrom.co/)  
 
-## COFFEE SHOPS
-[Milk Glass Market](http://www.milkglassmrkt.com/)
-[Deadstock Coffee](http://www.deadstockcoffee.com/)
-[E’NJONI CAFE](http://www.enjonicafe.com/)
-[Posie’s](http://posiescafe.com/)
-[SweeDeeDee](http://www.sweedeedee.com/)
+### COFFEE SHOPS
+[Milk Glass Market](http://www.milkglassmrkt.com/)  
+[Deadstock Coffee](http://www.deadstockcoffee.com/)  
+[E’NJONI CAFE](http://www.enjonicafe.com/)  
+[Posie’s](http://posiescafe.com/)  
+[SweeDeeDee](http://www.sweedeedee.com/)  
 
-## FOOD
+### FOOD
 [Almafi’s](https://www.amalfisrestaurant.com/)
 [Brass Tacks](http://www.brasstackssandwiches.com/)
 [Dar Salam](http://darsalamportland.com/)
@@ -54,13 +56,13 @@ Portland is often branded as a very homogenous city, but there are in fact many 
 [Ruby Jewel](http://www.rubyjewel.com/)
 [Blue Star Donuts](https://www.bluestardonuts.com/about/)
 
-## DRINK
+### DRINK
 [La Familia Cider](http://lafamiliacider.com/) - try their Tamarindo cider!! So good.
 [Brewvana](https://www.brewvana.com)
 [Freeland Spirits](https://www.freelandspirits.com/)
 [Olive or Twist](http://www.oliveortwistmartinibar.com/index2.php)
 
-## A MIX OF THINGS
+### A MIX OF THINGS
 [Mercatus PDX](https://mercatuspdx.com/#home)  
 [AllGo](https://www.canweallgo.com/)
 [The Radical Brand Lab[(https://theradicalbrandlab.com/)]
@@ -68,7 +70,7 @@ Portland is often branded as a very homogenous city, but there are in fact many 
 [Champions Barber Shop](https://www.championspdx.com/) - Get fly before your session presentation
 [Abbey Creek](https://www.abbeycreekvineyard.com/) - If you need a quick jaunt out of the city
 
-## OTHER HELPFUL RESOURCES
+### OTHER HELPFUL RESOURCES
 
 [Travel Portland list of minority-owned businesses](https://www.travelportland.com/directory/feature/minority-owned-business/)
 [Racist Sandwich POC directory](http://www.racistsandwich.com/pocdirectory)
