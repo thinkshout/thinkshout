@@ -4,46 +4,76 @@ body-class: services
 permalink: services/
 title: Services
 ---
-<div class="intro">
-  <div class="container">
-    <div class="text">
-      <h1>Services</h1>
-       <p>We use technology and strategy to elevate organizations creating positive change in the world.</p>
-    </div>
+<div class="services-hero container">
+  <h1>We employ creative strategies and digital solutions to help progressive organizations change the world.</h1>
+</div>
+
+<div class="services-body">
+  <div class="gradient"></div>
+  <div class="container intro">
+    <h2>Services</h2>
+    <p>We design digital products that deliver real impact.</p>
+    <p>We build lasting partnerships with our clients, and we strive to do so with a style and thoughtfulness you won’t find anywhere else.</p>
+  </div>
+
+  <div class="container service-types">
+
+    <section>
+      <h3>Strategy &amp; Insights</h3>
+      <div class="description">
+        <h4>We lend a data-informed, goal-oriented, high-impact perspective to all of your most important initiatives.</h4>
+        <p>We base our work in a deep understanding of who you are and who you serve.</p>
+        <p>We then employ data and research to ground your project in the best strategic thinking to move your mission forward.</p>
+      </div>
+      <ul class="offerings">
+        <li>Audience Research &amp; Insights</li>
+        <li>Data Analysis</li>
+        <li>Content Strategy &amp; Development</li>
+        <li>Information Architecture</li>
+        <li>Campaign &amp; Fundraising Strategy</li>
+        <li>Branding &amp; Marketing Strategy</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Design &amp; User Experience</h3>
+      <div class="description">
+        <h4>We design for action.</h4>
+        <p>We infuse your brand into everything you do, producing exceptional user experiences from digital to print.</p>
+        <p>We care deeply about designing user experiences that resonate with your audiences and help meet your goals.</p>
+      </div>
+      <ul class="offerings">
+        <li>Visual Identity System</li>
+        <li>Creative Direction</li>
+        <li>Responsive Wireframes & Prototypes</li>
+        <li>Accessibility-First Designs</li>
+        <li>Print &amp; Digital Assets</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Technology &amp; Support</h3>
+      <div class="description">
+        <h4>We code for good.</h4>
+        <p>We build every project to meet your needs and your budget of today, while providing the tools to respond to the demands of tomorrow.</p>
+      </div>
+      <ul class="offerings">
+        <li>Open-Source Solutions for All Devices</li>
+        <li>Wordpress &amp; Drupal Expertise</li>
+        <li>Front-End Development</li>
+        <li>Systems Assessment</li>
+        <li>Content Migrations</li>
+        <li>Accessibility Compliance &amp; Quality Assurance</li>
+      </ul>
+    </section>
+
   </div>
 </div>
 
-{% assign services = site.services | sort: 'order' %}
-{% assign counter = 1 %}
-{% for area in services %}
-  {% if area.layout == 'services-detail' %}
-    <section class="services-teaser" id="services{{ counter }}">
-      <div class="container">
-        <div class="side services-teaser-left">
-          <h1>{{ area.title }}</h1>
-          <a href="{{ site.baseurl }}{{ area.url }}" class="uppercase-link">Learn More</a>
-        </div>
-        <div class="side services-teaser-right">
-          <p>{{ area.blurb }}</p>
-          <ul>
-            {% for point in area.points %}
-              {{ point }}
-            {% endfor %}
-          </ul>
-          {% if area.examples %}
-          <i class="fa fa-caret-up"></i>
-          <p class="services-examples">
-            {{ area.examples }}
-          </p>
-          {% endif %}
-        </div>
-      </div>
-    </section>
-    {% assign counter = counter | plus: 1 %}
-  {% endif %}
-{% endfor %}
 
-{% include bene-cta.html %}
 
-{% include open-source-contributions.html %}
 
+
+<div class="container">
+  <h4 class="lets-chat">Want to get in touch? <a href="{{ site.baseurl }}contact/">Let's Chat<span class="arrow-right"></span></a></h4>
+</div>
