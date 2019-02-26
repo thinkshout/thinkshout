@@ -65,7 +65,7 @@ Portland is often branded as a very homogenous city, but there are in fact many 
 ### A MIX OF THINGS
 [Mercatus PDX](https://mercatuspdx.com/#home)  
 [AllGo](https://www.canweallgo.com/)
-[The Radical Brand Lab[(https://theradicalbrandlab.com/)]
+[The Radical Brand Lab](https://theradicalbrandlab.com/)
 [Marie Ernst](https://www.marieernst.com/) - If you need buy soap
 [Champions Barber Shop](https://www.championspdx.com/) - Get fly before your session presentation
 [Abbey Creek](https://www.abbeycreekvineyard.com/) - If you need a quick jaunt out of the city
