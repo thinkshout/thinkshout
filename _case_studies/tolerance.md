@@ -7,6 +7,9 @@ homepage: true
 published: true
 related: splc
 order: 4
+image: https://thinkshout.com/assets/images/work/tolerance/TT-homepage.jpg
+image-alt: "A diverse montage of small children, with inspirational leaders of equality and civil rights movements in the background."
+description: "Teaching Tolerance: Dedicated to educating young people to become active participants in a diverse democracy."
 # END LAYOUT DATA
 
 title: Making it easier for educators to meet the immediate needs of their students.

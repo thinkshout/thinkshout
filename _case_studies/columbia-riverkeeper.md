@@ -7,6 +7,9 @@ homepage: true
 published: true
 related: bene
 order: 2
+image: https://thinkshout.com/assets/images/work/cori/TS-Case-Study-CORI-header.jpg
+image-alt: "View of the Comumbia River valley."
+description: "Columbia Riverkeeper’s mission is to protect and restore the water quality of the Columbia River and all life connected to it, from the headwaters to the Pacific Ocean."
 # END LAYOUT DATA
 
 title: Navigating the waters of Bene

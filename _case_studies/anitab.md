@@ -8,6 +8,8 @@ published: true
 related: anitab
 order: 5
 image: https://thinkshout.com/assets/images/work/anitab/anita-b-hero-image.jpg
+image-alt: "Montage of many different women in various roles."
+description: "AnitaB.org is an organization that provides resources and support to women in technology. Their premier event is their annual conference - The Grace Hopper Celebration (GHC)."
 # END LAYOUT DATA
 
 title: "End the Guessing Game: How to Know What Your Users Really Want"

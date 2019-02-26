@@ -6,7 +6,9 @@ active: true
 homepage: true
 published: true
 related: hsus
-image: /assets/images/work/hsus/hsus_casestudyhero.jpg
+image: https://thinkshout.com/assets/images/work/hsus/hsus_casestudyhero.jpg
+image-alt: "A small group of elephants in the wild."
+description: "The Humane Society of the United States fights the big fights, working to end all forms of animal cruelty and achieve the vision behind our name: A humane society."
 order: 3
 # END LAYOUT DATA
 

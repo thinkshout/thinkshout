@@ -7,6 +7,9 @@ homepage: true
 published: true
 related: splc
 order: 1
+image: https://thinkshout.com/assets/images/ts_redesign/case-studies/splc-main/header1.jpg
+image-alt: "A laptop showing the redesigned SPLC website."
+description: "The SPLC fights hatred and bigotry, seeking justice for the most vulnerable members of society."
 # END LAYOUT DATA
 
 title: Southern Poverty Law Center

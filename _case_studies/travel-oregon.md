@@ -7,6 +7,8 @@ homepage: true
 published: true
 order: 4
 related: tror
+image: https://thinkshout.com/assets/images/work/travel-oregon/bandon-beach-header.jpg
+image-alt: "A couple flying a kite at the Bandon Beach, Oregon"
 # END LAYOUT DATA
 
 title: To Delight and Inspire.
