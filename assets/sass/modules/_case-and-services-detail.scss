@@ -1,0 +1,183 @@
+.bene {
+
+  .main-content {
+    @include mq(m) { margin-top: rem(90); }
+    @include mq(t) { margin-top: rem(90); }
+  }
+
+  .body {
+    .intro,
+    h4,
+    p,
+    blockquote,
+    li,
+    div.inline {
+      color: darken($darkgray, 10%);
+      margin: 2em auto 1rem;
+      max-width: 996px;
+      padding: 0 rem(20);
+      width: 94%;
+      @include mq(lt) { width: 90%; padding: 0 rem(40); }
+      @include mq(md) { width: 90%; padding: 0 rem(60); }
+      @include mq(l)  { width: 100%; padding: 0 rem(100); }
+    }
+
+    .intro {
+      text-align: center;
+    }
+
+    h3.intro {
+      color: darken($darkgray, 20%);
+      font-size: 1.2rem;
+      font-weight: 900;
+      margin-bottom: 0;
+      margin-top: 3rem;
+      @include mq(lt) { font-size: 1.4rem; }
+      @include mq(md) { font-size: 1.6rem; }
+      @include mq(l)  { font-size: 2rem; }
+    }
+
+    h4.intro {
+      color: $midgray;
+      font-size: 1rem;
+      font-style: italic;
+      font-weight: 100;
+      line-height: 1.5;
+      margin-top: 1rem;
+
+      @include mq(lt) { font-size: 1.1rem; }
+      @include mq(md) { font-size: 1.2rem; }
+      @include mq(l)  { font-size: 1.3rem; }
+    }
+
+    h4 {
+      color: darken($darkgray, 20%);
+      font-size: 1.4rem;
+    }
+
+    p a {
+      color: $ltorange;
+    }
+
+    ul li {
+      font-size: rem(15);
+      font-weight: bold;
+      margin-top: 0;
+
+      &:before {
+        content: '•';
+        padding-right: 0.5rem;
+      }
+    }
+
+    a.intro {
+      color: #000;
+      display: block;
+      font-weight: 900;
+      &:after {
+        border-bottom: 3px solid $ltgray;
+        content: "";
+        display: block;
+        margin: 1rem auto 1.2rem;
+        width: 47px;
+      }
+    }
+
+    .caption {
+      color: $midgray;
+      display: block;
+      font-size: 0.85rem;
+      margin: 0 auto 2rem;
+      width: 80%;
+      i {
+        @extend %fa-caret-up;
+      }
+    }
+
+    div.inline {
+      margin: 2em auto;
+      padding: 0;
+      img {
+        width: 100%;
+      }
+    }
+
+    div.full {
+      margin: 2em auto;
+      max-width: 100%;
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+
+    div.right {
+      clear: both;
+      float: right;
+      margin-right: 2rem;
+      margin-left: rem(16);
+      margin-bottom: rem(16);
+      width: 30%;
+      img {
+        width: 100%;
+      }
+      @include mq(lt) { width: 250px; margin-right: 5rem;  }
+      @include mq(md) { width: 280px; margin-right: 10rem;  }
+      @include mq(l)  { width: 300px; margin-right: 17rem; }
+    }
+
+    blockquote {
+      color: $orange;
+      font-size: rem(18);
+      font-weight: 700;
+      line-height: 1.1;
+      padding: 0 rem(8);
+      text-align: center;
+      p {
+        line-height: 1.5;
+        margin: 0 auto;
+        font-style: italic;
+      }
+      @include mq(lt) { padding: 0 rem(16); font-size: rem(18); }
+      @include mq(md) { padding: 0 rem(24); font-size: rem(20); }
+      @include mq(l)  { padding: 0 rem(40); font-size: rem(22); }
+    }
+    blockquote.attrib {
+      font-size: rem(14);
+      margin-top: rem(14);
+      text-align: right;
+      p {
+        // font-style: normal;
+      }
+      @include mq(lt) { padding: 0 rem(16); font-size: rem(14); }
+      @include mq(md) { padding: 0 rem(24); font-size: rem(15); }
+      @include mq(l)  { padding: 0 rem(40); font-size: rem(16); }
+    }
+  }
+
+  .cta {
+    margin: 2em auto;
+    max-width: 996px;
+    text-align: center;
+    width: 100%;
+    a {
+      @include transition(background-color 0.3s linear);
+      background-color: $orange;
+      color: $white;
+      display: inline-block;
+      font-size: 0.9rem;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+      margin: 0;
+      padding: rem(12) rem(64);
+      text-transform: uppercase;
+      &:hover {
+        background-color: $midorange;
+      }
+    }
+    @include mq(lt) { margin: 3em auto; }
+    @include mq(md) { margin: 4em auto; }
+    @include mq(l)  { margin: 6em auto; }
+  }
+}
+
