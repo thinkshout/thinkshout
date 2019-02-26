@@ -26,7 +26,7 @@ header-image-alt: "Deadstock Coffee's business owner."
 
 Can you believe #19NTC is in two weeks? We certainly can’t…
 
-Here at ThinkShout, we’ve been buzzing with excitement over the conference and a chance to share the city we love with the community that we value highly. After all, without you, NTC doesn’t exist. We’re of course anticipating #NTCBeer and our [Happy Hour hosted at our office on March 13th (RSVP and reserve your spot if you haven’t yet!)](https://hhthinkshout.eventbrite.com). But what in the end it gets down to ensuring you have a rich experience in our city.
+Here at ThinkShout, we’ve been buzzing with excitement over the conference and a chance to share the city we love with the community that we value highly. After all, without you, NTC doesn’t exist. We’re of course anticipating #NTCBeer and our [Happy Hour hosted at our office on March 13th (RSVP and reserve your spot if you haven’t yet!)](https://hhthinkshout.eventbrite.com). But in the end it gets down to ensuring you have a rich, vibrant experience in our city.
 
 Portland is often branded as a very homogenous city, but there are in fact many POC- and Womxn-owned businesses in town that we love. We hope you take the time to support them while in town. Below is a collection of places the ThinkShout team holds near and dear, as well as other resources and listicles to help you while you’re here.
 
