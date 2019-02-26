@@ -36,8 +36,10 @@
 
   {% if page.image-alt != nil %}
   <meta name="twitter:image:alt" content="{{ page.image-alt }}">
+  <meta name="og:image:alt" content="{{ page.image-alt }}">
   {% else %}
   <meta name="twitter:image:alt" content="ThinkShout Logo">
+  <meta name="og:image:alt" content="ThinkShout Logo">
   {% endif %}
 
   {% if page.keywords != nil %}
