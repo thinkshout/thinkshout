@@ -22,7 +22,7 @@ image: https://thinkshout.com/assets/images/blog/Deadstock.jpg
 header-image: /assets/images/blog/Deadstock.jpg
 header-image-alt: "Deadstock Coffee's business owner."
 ---
-<span class="caption">Pictured above: Ian Williams, owner of Deadstock Coffee. Photo Credit Vanndy Ouk `@vanndy_` on Instagram.</span>
+<span class="caption">Pictured above: Ian Williams, owner of Deadstock Coffee. Photo Credit: Vanndy Ouk `@vanndy_` on Instagram.</span>
 
 Can you believe #19NTC is in two weeks? We certainly can’t…
 
