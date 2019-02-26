@@ -44,37 +44,37 @@ Portland is often branded as a very homogenous city, but there are in fact many 
 [SweeDeeDee](http://www.sweedeedee.com/)  
 
 ### FOOD
-[Almafi’s](https://www.amalfisrestaurant.com/)
-[Brass Tacks](http://www.brasstackssandwiches.com/)
-[Dar Salam](http://darsalamportland.com/)
-[Rose City Taqueria](https://rosecitytaqueria.com/)
-[Taqueria Santa Cruz](http://www.tiendasantacruz.com/)
-[Barreled Bee Honey](https://www.thebarreledbee.com/)
-[Cannon’s BBQ](https://www.yelp.com/biz/cannons-rib-express-portland)
-[Pho Jasmine](https://www.yelp.com/biz/pho-jasmine-restaurant-portland)
-[Nourish NW](http://nourishnorthwest.com/)
-[Ruby Jewel](http://www.rubyjewel.com/)
-[Blue Star Donuts](https://www.bluestardonuts.com/about/)
+[Almafi’s](https://www.amalfisrestaurant.com/)  
+[Brass Tacks](http://www.brasstackssandwiches.com/)  
+[Dar Salam](http://darsalamportland.com/)  
+[Rose City Taqueria](https://rosecitytaqueria.com/)  
+[Taqueria Santa Cruz](http://www.tiendasantacruz.com/)  
+[Barreled Bee Honey](https://www.thebarreledbee.com/)  
+[Cannon’s BBQ](https://www.yelp.com/biz/cannons-rib-express-portland)  
+[Pho Jasmine](https://www.yelp.com/biz/pho-jasmine-restaurant-portland)  
+[Nourish NW](http://nourishnorthwest.com/)  
+[Ruby Jewel](http://www.rubyjewel.com/)  
+[Blue Star Donuts](https://www.bluestardonuts.com/about/)  
 
 ### DRINK
-[La Familia Cider](http://lafamiliacider.com/) - try their Tamarindo cider!! So good.
-[Brewvana](https://www.brewvana.com)
-[Freeland Spirits](https://www.freelandspirits.com/)
-[Olive or Twist](http://www.oliveortwistmartinibar.com/index2.php)
+[La Familia Cider](http://lafamiliacider.com/) - try their Tamarindo cider!! So good.  
+[Brewvana](https://www.brewvana.com)  
+[Freeland Spirits](https://www.freelandspirits.com/)  
+[Olive or Twist](http://www.oliveortwistmartinibar.com/index2.php)  
 
 ### A MIX OF THINGS
-[Mercatus PDX](https://mercatuspdx.com/#home)  
-[AllGo](https://www.canweallgo.com/)
-[The Radical Brand Lab](https://theradicalbrandlab.com/)
-[Marie Ernst](https://www.marieernst.com/) - If you need buy soap
-[Champions Barber Shop](https://www.championspdx.com/) - Get fly before your session presentation
-[Abbey Creek](https://www.abbeycreekvineyard.com/) - If you need a quick jaunt out of the city
+[Mercatus PDX](https://mercatuspdx.com/#home)   
+[AllGo](https://www.canweallgo.com/)  
+[The Radical Brand Lab](https://theradicalbrandlab.com/)  
+[Marie Ernst](https://www.marieernst.com/) - If you need buy soap  
+[Champions Barber Shop](https://www.championspdx.com/) - Get fly before your session presentation  
+[Abbey Creek](https://www.abbeycreekvineyard.com/) - If you need a quick jaunt out of the city  
 
 ### OTHER HELPFUL RESOURCES
 
-[Travel Portland list of minority-owned businesses](https://www.travelportland.com/directory/feature/minority-owned-business/)
-[Racist Sandwich POC directory](http://www.racistsandwich.com/pocdirectory)
-[Yelp will sort based on paramteres you dictate](https://www.yelp.com/search?find_desc=woman%20owned&find_loc=Portland%2C%20OR)
-[I love black food](https://iloveblackfood.com/pdx-directory)
+[Travel Portland list of minority-owned businesses](https://www.travelportland.com/directory/feature/minority-owned-business/)  
+[Racist Sandwich POC directory](http://www.racistsandwich.com/pocdirectory)  
+[Yelp will sort based on paramteres you dictate](https://www.yelp.com/search?find_desc=woman%20owned&find_loc=Portland%2C%20OR)  
+[I love black food](https://iloveblackfood.com/pdx-directory)  
 
 We look forward to having you in town! Got more suggestions to add to this list? Add it in the [Community Thread on nten.org](https://community.nten.org/communities/community-home/digestviewer?CommunityKey=4d36fcae-0adf-4a97-82ce-b028aef06c46&tab=digestviewer&MDATE=74774756%3E&UserKey=2ebbe068-cc21-48e0-b9cb-2947a8182c57&sKey=a819203a2b544e43a5aa).
