@@ -1,14 +1,16 @@
-<div class="our-services">
-  <div class="our-services-intro">
-    <a href="{{ site.baseurl }}services/"><h3>Our Services</h3></a>
-  </div>
-  <div class="our-services-blocks">
-    {% assign site-services = site.services | sort: "order" %}
-    {% for area in site-services %}
-      <div class="our-services-block">
-        <a href="{{ site.baseurl }}services/#{{ area.slug }}"><h4>{{ area.title }}</h4><span class="arrow-right"></span></a>
-        <p>{{ area.blurb_short }}</p>
-      </div>
-    {% endfor %}
+<div class="container">
+  <div class="our-services">
+    <div class="our-services-intro">
+      <a href="{{ site.baseurl }}services/"><h3>Our Services</h3></a>
+    </div>
+    <div class="our-services-blocks">
+      {% assign site-services = site.services | sort: "order" %}
+      {% for area in site-services %}
+        <div class="our-services-block">
+          <a href="{{ site.baseurl }}services/#{{ area.slug }}"><h4>{{ area.title }}</h4><span class="arrow-right"></span></a>
+          <p>{{ area.blurb_short }}</p>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
