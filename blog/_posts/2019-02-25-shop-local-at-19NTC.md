@@ -7,7 +7,7 @@ homepage: true
 author: natania
 published: true
 featured: true
-short: Specifically, POC- and Womxn-owned businesses.
+short: Specifically: LGBTQ, POC, and womxn-owned businesses.
 tags:
   - Culture
   - Community
