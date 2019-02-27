@@ -73,7 +73,7 @@ Portland is often branded as a very homogenous city, but there are in fact many 
 
 [Travel Portland list of minority-owned businesses](https://www.travelportland.com/directory/feature/minority-owned-business/)  
 [Racist Sandwich POC directory](http://www.racistsandwich.com/pocdirectory)  
-[Yelp will sort based on paramteres you dictate](https://www.yelp.com/search?find_desc=woman%20owned&find_loc=Portland%2C%20OR)  
+[Yelp will sort based on parameters you dictate](https://www.yelp.com/search?find_desc=woman%20owned&find_loc=Portland%2C%20OR)  
 [I love Black food](https://iloveblackfood.com/pdx-directory)  
 
 We look forward to having you in town! Got more suggestions to add to this list? Add it in the [Community Thread on nten.org](https://community.nten.org/communities/community-home/digestviewer?CommunityKey=4d36fcae-0adf-4a97-82ce-b028aef06c46&tab=digestviewer&MDATE=74774756%3E&UserKey=2ebbe068-cc21-48e0-b9cb-2947a8182c57&sKey=a819203a2b544e43a5aa).
