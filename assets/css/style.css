@@ -2028,7 +2028,11 @@ html {
   display: table-cell;
   vertical-align: middle; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
+  scroll-behavior: smooth;
   font-family: "Gotham SSm A", "Gotham SSm B", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16px; }
 
@@ -6784,25 +6788,23 @@ h4.lets-chat {
   .services .service-types section {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 6rem;
-    padding-top: 3rem;
+    padding-bottom: 0rem;
+    padding-top: 9rem;
     flex-direction: column; }
     @media (max-width: 480px) {
       .services .service-types section {
-        padding-bottom: 1rem;
-        padding-top: 2rem; } }
+        padding-top: 3rem; } }
     @media (min-width: 481px) and (max-width: 979px) {
       .services .service-types section {
-        padding-bottom: 1.5rem;
-        padding-top: 2rem; } }
+        padding-top: 4.5rem; } }
     @media (min-width: 671px) and (max-width: 979px) {
       .services .service-types section {
         flex-direction: row; } }
     @media (min-width: 980px) {
       .services .service-types section {
         flex-direction: row; } }
-    .services .service-types section:last-of-type {
-      padding-bottom: 0; }
+    .services .service-types section:first-of-type {
+      padding-top: 4.5rem; }
     .services .service-types section h3,
     .services .service-types section .offerings {
       flex: 0 1 23.23176%; }

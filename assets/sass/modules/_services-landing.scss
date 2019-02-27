@@ -82,23 +82,21 @@
     section {
       display: flex;
       justify-content: space-between;
-      padding-bottom: 6rem;
-      padding-top: 3rem;
+      padding-bottom: 0rem;
+      padding-top: 9rem;
       flex-direction: column;
       @include mq(m) {
-        padding-bottom: 1rem;
-        padding-top: 2rem;
+        padding-top: 3rem;
       }
       @include mq(t) {
-        padding-bottom: 1.5rem;
-        padding-top: 2rem;
+        padding-top: 4.5rem;
       }
 
       @include mq(lt) { flex-direction: row; }
       @include mq(d) { flex-direction: row; }
 
-      &:last-of-type {
-        padding-bottom: 0;
+      &:first-of-type {
+        padding-top: 4.5rem;
       }
 
       h3,
