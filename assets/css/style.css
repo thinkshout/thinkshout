@@ -5088,15 +5088,25 @@ form.contact {
           margin-right: 0; } }
 
 footer {
-  background: url("../images/ts_redesign/footer.jpg") center center/cover;
+  background: url("../images/falcon-view.jpg") center center/cover;
   clear: both;
   height: 544px;
   margin: 0 auto;
   padding-top: 5.5rem;
   position: relative;
   width: 100%; }
+  footer::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(62, 62, 62, 0.83);
+    z-index: 1; }
   footer .container {
-    position: relative; }
+    position: relative;
+    z-index: 2; }
   footer a:hover {
     color: #fff;
     text-decoration: underline; }
