@@ -5094,9 +5094,9 @@ form.contact {
 footer {
   background: url("../images/falcon-view.jpg") center center/cover;
   clear: both;
-  height: 544px;
+  height: 532px;
   margin: 0 auto;
-  padding-top: 5.5rem;
+  padding-top: 4.625rem;
   position: relative;
   width: 100%; }
   footer::before {
@@ -5148,12 +5148,14 @@ footer {
       color: #fff;
       font-weight: 500;
       margin-bottom: 4px;
+      margin-top: 0;
       font-size: 1rem;
       line-height: calc(32/16); }
     footer .footer-newsletter textarea,
     footer .footer-newsletter input[type=email],
     footer .footer-newsletter input[type=text] {
       border: none;
+      box-shadow: none;
       display: inline-block;
       margin-bottom: 1rem;
       padding: 0.75rem 1rem;
@@ -5238,7 +5240,7 @@ footer {
     color: #f78c50; }
   footer .bcorp-logo {
     text-align: center;
-    padding-top: 1.75rem; }
+    padding-top: 0.5rem; }
     footer .bcorp-logo img {
       max-width: 4rem; }
     @media (min-width: 671px) and (max-width: 979px) {
@@ -5260,12 +5262,14 @@ footer {
     @media (min-width: 980px) {
       footer .footer-bottom {
         text-align: inherit;
-        top: 11rem; } }
+        top: 11.625rem; } }
   footer .social-media li {
     display: inline;
     margin-right: 0.5rem; }
   footer .social-media img {
     max-width: 1.5rem; }
+  footer .social-media a:hover {
+    text-decoration: none; }
   @media (min-width: 671px) and (max-width: 979px) {
     footer .social-media {
       float: left;
@@ -5292,13 +5296,13 @@ footer {
       footer .social-media ul {
         margin: 0; } }
   footer .copyright {
-    color: #a6a8ad;
+    color: #ececec;
     float: right;
     font-size: 0.75rem;
     position: relative;
     width: 100%; }
     footer .copyright a {
-      color: #a6a8ad;
+      color: #ececec;
       font-weight: bold; }
       footer .copyright a:hover {
         cursor: pointer;
@@ -5329,15 +5333,19 @@ header {
   background-color: #fff;
   left: 0;
   opacity: 0.95;
-  padding: 2rem 0;
+  padding: 1rem 0;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 200; }
+  @media (min-width: 980px) {
+    header {
+      padding: 2rem 0; } }
   header .header-logo {
-    margin-top: 6px; }
+    margin-top: 4px; }
     header .header-logo img {
-      width: 11.625rem; }
+      width: 11.625rem;
+      margin-top: 0.5rem; }
       @media (max-width: 480px) {
         header .header-logo img {
           float: left; } }
@@ -5347,9 +5355,12 @@ header {
         display: block;
         margin-right: 2.35765%;
         width: 23.23176%;
-        margin-right: 0; }
+        margin-right: 0;
+        width: auto; }
         header .header-logo:last-child {
-          margin-right: 0; } }
+          margin-right: 0; }
+        header .header-logo img {
+          margin-top: 0.5rem; } }
     @media (min-width: 980px) {
       header .header-logo {
         float: left;
@@ -5358,7 +5369,9 @@ header {
         width: 23.23176%;
         margin-right: 0; }
         header .header-logo:last-child {
-          margin-right: 0; } }
+          margin-right: 0; }
+        header .header-logo img {
+          margin-top: 0; } }
   header .mobile-menu-icon {
     color: #dbdcde;
     float: right;
@@ -5487,13 +5500,13 @@ header {
     .front {
       margin-top: 5.625rem; } }
   .front .home-hero {
-    margin-top: 65px; }
+    margin-top: 60px; }
     @media (min-width: 671px) and (max-width: 979px) {
       .front .home-hero {
-        margin-top: 133px; } }
+        margin-top: 123px; } }
     @media (min-width: 980px) {
       .front .home-hero {
-        margin-top: 263px; } }
+        margin-top: 243px; } }
     .front .home-hero h1 {
       color: #656565;
       font-size: 2rem;

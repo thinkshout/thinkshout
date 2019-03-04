@@ -2,16 +2,21 @@ header {
   background-color: $white;
   left: 0;
   opacity: 0.95;
-  padding: 2rem 0;
+  padding: 1rem 0;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 200;
 
+  @include mq(d) {
+    padding: 2rem 0;
+  }
+
   .header-logo {
-    margin-top: 6px;
+    margin-top: 4px;
     img {
       width: rem(186);
+      margin-top: rem(8);
 
       @include mq(m) {
         float: left;
@@ -21,11 +26,18 @@ header {
     @include mq(t) {
       @include span-columns(3);
       @include omega;
+      width: auto;
+      img {
+        margin-top: rem(8);
+      }
     }
 
     @include mq(d) {
       @include span-columns(3);
       @include omega;
+      img {
+        margin-top: 0;
+      }
     }
   }
 

@@ -13,7 +13,7 @@
       <a href="{{ site.baseurl }}{{ case.url }}">
         <div class="case-study" id="case-study{{ forloop.index | plus: 1 }}">
         <style>
-          #case-study{{ forloop.index | plus: 1 }} { background: url('{{ site.baseurl }}{{ case.cs-preview.image }}') center center no-repeat; }
+          #case-study{{ forloop.index | plus: 1 }} { background: transparent url('{{ site.baseurl }}{{ case.cs-preview.image }}') no-repeat center center /cover; }
         </style>
           <div class="case-study-text">
             <h2>{{ case.cs-preview.client }}</h2>

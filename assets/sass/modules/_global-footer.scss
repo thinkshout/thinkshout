@@ -1,9 +1,9 @@
 footer {
   background: url('../images/falcon-view.jpg') center center /cover;
   clear: both;
-  height: 544px;
+  height: 532px;
   margin: 0 auto;
-  padding-top: 5.5rem;
+  padding-top: rem(74);
   position: relative;
   width: 100%;
 
@@ -61,6 +61,7 @@ footer {
       color: $white;
       font-weight: 500;
       margin-bottom: 4px;
+      margin-top: 0;
       font-size: rem(16);
       line-height: calc(32/16);
     }
@@ -69,6 +70,7 @@ footer {
     input[type=email],
     input[type=text] {
       border: none;
+      box-shadow: none;
       display: inline-block;
       margin-bottom: 1rem;
       padding: 0.75rem 1rem;
@@ -166,7 +168,7 @@ footer {
 
   .bcorp-logo {
     text-align: center;
-    padding-top: rem(28);
+    padding-top: rem(8);
 
     img {
       max-width: 4rem;
@@ -193,18 +195,20 @@ footer {
 
     @include mq(d) {
       text-align: inherit;
-      top: 11rem;
+      top: rem(186);
     }
   }
 
   .social-media {
-    
     li {
       display: inline;
       margin-right: 0.5rem;
     }
     img {
       max-width: 1.5rem;
+    }
+    a:hover {
+      text-decoration: none;
     }
 
     @include mq(lt) {
@@ -223,15 +227,14 @@ footer {
   }
 
   .copyright {
-    color: darken($ltgray, 20%);
+    color: $bggray;
     float: right;
     font-size: rem(12);
     position: relative;
     width: 100%;
 
-
     a {
-      color: darken($ltgray, 20%);
+      color: $bggray;
       font-weight: bold;
 
       &:hover {

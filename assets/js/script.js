@@ -42,11 +42,11 @@
     } else {
       if (windowSize > 979) {
         $('header').animate({"padding":"2rem 0"}, 50);
-        $('header .header-logo img').animate({"width":"13rem"}, 600);
+        $('header .header-logo img').animate({"width":"11.625rem", "margin-top": "0"}, 600);
         $('.main-menu li a').animate({"padding": "3.125rem 5px"}, 600);
       } else {
-        $('header').animate({"padding":"0.5rem"}, 50);
-        $('header .header-logo img').animate({"width":"13rem", "margin-top": "0"}, 600);
+        $('header').animate({"padding":"1rem 0"}, 50);
+        $('header .header-logo img').animate({"width":"11.625rem", "margin-top": "0.5rem"}, 600);
       }
     }
   }, { offset: 100 });
