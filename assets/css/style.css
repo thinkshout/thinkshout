@@ -2045,6 +2045,10 @@ h1 {
 h2 {
   font-size: 2.5rem; }
 
+h1, h2, h3, h4, h5 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
 p {
   font-size: 1em;
   line-height: 1.75; }
@@ -5300,7 +5304,9 @@ footer {
     float: right;
     font-size: 0.75rem;
     position: relative;
-    width: 100%; }
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
     footer .copyright a {
       color: #ececec;
       font-weight: bold; }

@@ -232,6 +232,8 @@ footer {
     font-size: rem(12);
     position: relative;
     width: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
     a {
       color: $bggray;
