@@ -1,6 +1,6 @@
 main-menu:
   - title: About
-    url: /team/
+    url: /about/
 
   - title: Work
     url: /work/
