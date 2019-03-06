@@ -5151,7 +5151,7 @@ footer {
       font-weight: 500;
       margin-bottom: 4px;
       margin-top: 0;
-      font-size: 1rem;
+      font-size: 0.8125rem;
       line-height: calc(32/16); }
     footer .footer-newsletter textarea,
     footer .footer-newsletter input[type=email],
@@ -5623,6 +5623,8 @@ h4.lets-chat {
     @media (max-width: 480px) {
       h4.lets-chat a {
         display: block; } }
+    h4.lets-chat a:hover, h4.lets-chat a:focus {
+      text-decoration: underline; }
   h4.lets-chat .arrow-right {
     left: 10px;
     top: 0; }
@@ -5910,6 +5912,8 @@ h4.lets-chat {
       @media (min-width: 980px) {
         .our-services .our-services-block a h4 {
           font-size: 1.125rem; } }
+    .our-services .our-services-block a:hover, .our-services .our-services-block a:focus {
+      text-decoration: underline; }
     .our-services .our-services-block p {
       color: #242424;
       font-size: 0.75rem;

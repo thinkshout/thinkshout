@@ -55,6 +55,10 @@
       @include mq(d) { font-size: rem(18); }
     }
 
+    a:hover, a:focus {
+      text-decoration: underline;
+    }
+
     p {
       color: $bgblack;
       font-size: rem(12);
