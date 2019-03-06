@@ -12,7 +12,7 @@ image-alt: "A diverse montage of small children, with inspirational leaders of e
 description: "Enabling educators to foster a kind and inclusive school climate."
 # END LAYOUT DATA
 
-title: Making it easier for educators to meet the immediate needs of their students.
+title: Teaching Tolerance: 21st Century Content Management Tools.
 featured_impact_text: Social Justice
 featured_client_name: "Teaching Tolerance: 21st Century Content Management Tools"
 
