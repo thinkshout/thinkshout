@@ -56,6 +56,13 @@
     .intro {
       z-index: 3;
       position: relative;
+      margin-bottom: 4rem;
+      @include mq(m) {
+        padding-top: 1rem;
+      }
+      @include mq(t) {
+        padding-top: 2rem;
+      }
 
       h2 {
         font-size: rem(20);
@@ -69,7 +76,7 @@
         font-weight: 300;
         line-height: calc(29/16);
         @include mq(lt) { font-size: rem(15); max-width: 80%; }
-        @include mq(d) { font-size: rem(16); max-width: 65%; }
+        @include mq(d) { font-size: rem(16); max-width: 550px; }
       }
     }
 
@@ -84,9 +91,9 @@
       justify-content: space-between;
       padding-bottom: 0rem;
       padding-top: 9rem;
-      flex-direction: column;
       @include mq(m) {
         padding-top: 3rem;
+        flex-direction: column;
       }
       @include mq(t) {
         padding-top: 4.5rem;
@@ -102,10 +109,21 @@
       h3,
       .offerings {
         flex: 0 1 23.23176%;
+        padding-right: 10px;
+      }
+      @media (min-width: 481px) and (max-width: 767px) {
+        flex-wrap: wrap;
+
+        h3 {
+          flex: 1 1 100%;
+        }
       }
 
       .description {
-        flex: 0 1 48.82117%;
+        flex: 1 1 45%;
+        max-width: 550px;
+        padding-right: 10px;
+        
       }
 
       h3 {
@@ -123,8 +141,9 @@
         font-weight: 900;
         line-height: calc(32/24);
         margin-top: 0;
-        @include mq(lt) { font-size: rem(22); }
-        @include mq(d) { font-size: rem(24); }
+        margin-bottom: rem(12);
+        @include mq(lt) { font-size: rem(22); margin-bottom: rem(14); }
+        @include mq(d) { font-size: rem(24); margin-bottom: rem(16); }
       }
       .description p {
         font-size: rem(14);

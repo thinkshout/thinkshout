@@ -131,7 +131,7 @@ h4.lets-chat {
     font-weight: 900;
     color: $orange;
 
-    @include mq(m) { display: block; }
+    // @include mq(m) { display: block; }
 
     &:hover, &:focus {
       text-decoration: underline;
