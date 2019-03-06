@@ -2581,10 +2581,14 @@ a:visited {
       flex: 0 1 75%; }
     .bene-oss-cta.container .bene-cta img,
     .bene-oss-cta.container .oss-cta img {
-      max-width: 100px;
+      max-width: 75px;
       height: auto;
       padding-top: 5px;
       padding-right: 10px; }
+      @media (min-width: 671px) and (max-width: 979px) {
+        .bene-oss-cta.container .bene-cta img,
+        .bene-oss-cta.container .oss-cta img {
+          max-width: 100px; } }
       @media (min-width: 980px) {
         .bene-oss-cta.container .bene-cta img,
         .bene-oss-cta.container .oss-cta img {
@@ -5170,10 +5174,10 @@ footer {
       box-shadow: none;
       display: inline-block;
       margin-bottom: 1rem;
-      padding: 0.75rem 1rem;
+      padding: 0.75rem 0.5rem;
       font-size: 0.75rem;
       font-weight: 300;
-      width: 200px;
+      width: 175px;
       height: 45px;
       -webkit-transition: box-shadow 0.2s;
       -moz-transition: box-shadow 0.2s;
@@ -5182,12 +5186,14 @@ footer {
         footer .footer-newsletter textarea,
         footer .footer-newsletter input[type=email],
         footer .footer-newsletter input[type=text] {
-          width: 250px; } }
+          width: 250px;
+          padding: 0.75rem 1rem; } }
       @media (min-width: 980px) {
         footer .footer-newsletter textarea,
         footer .footer-newsletter input[type=email],
         footer .footer-newsletter input[type=text] {
-          width: 250px; } }
+          width: 250px;
+          padding: 0.75rem 1rem; } }
       footer .footer-newsletter textarea:focus,
       footer .footer-newsletter input[type=email]:focus,
       footer .footer-newsletter input[type=text]:focus {
@@ -5199,12 +5205,18 @@ footer {
         transition: box-shadow 0.2s; }
     footer .footer-newsletter .button.solid {
       display: inline-block;
-      padding: 0.75rem 1rem;
+      padding: 0.75rem 0.5rem;
       font-size: 0.75rem;
       font-weight: 300;
       margin-left: -5px;
       letter-spacing: 0.5px;
       height: 45px; }
+      @media (min-width: 481px) and (max-width: 979px) {
+        footer .footer-newsletter .button.solid {
+          padding: 0.75rem 1rem; } }
+      @media (min-width: 980px) {
+        footer .footer-newsletter .button.solid {
+          padding: 0.75rem 1rem; } }
   @media (max-width: 480px) {
     footer .main-menu-footer {
       text-align: center; } }
@@ -6787,10 +6799,10 @@ h4.lets-chat {
     margin-bottom: 4rem; }
     @media (max-width: 480px) {
       .services .services-body .intro {
-        padding-top: 1rem; } }
+        margin-bottom: 1rem; } }
     @media (min-width: 481px) and (max-width: 979px) {
       .services .services-body .intro {
-        padding-top: 2rem; } }
+        margin-bottom: 2rem; } }
     .services .services-body .intro h2 {
       font-size: 1.25rem;
       font-weight: 900;

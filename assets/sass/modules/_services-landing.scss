@@ -58,10 +58,10 @@
       position: relative;
       margin-bottom: 4rem;
       @include mq(m) {
-        padding-top: 1rem;
+        margin-bottom: 1rem;
       }
       @include mq(t) {
-        padding-top: 2rem;
+        margin-bottom: 2rem;
       }
 
       h2 {
@@ -123,7 +123,6 @@
         flex: 1 1 45%;
         max-width: 550px;
         padding-right: 10px;
-        
       }
 
       h3 {

@@ -366,10 +366,11 @@
     }
 
     img {
-      max-width: 100px;
+      max-width: 75px;
       height: auto;
       padding-top: 5px;
       padding-right: 10px;
+      @include mq(lt) { max-width: 100px; }
       @include mq(d) { max-width: 115px; }
     }
   }
