@@ -11,6 +11,10 @@ main-menu:
   - title: Ideas
     url: /blog/
 
+  - title: Careers
+    url: /careers/
+    header-nav: false
+
   - title: Contact
     url: /contact/
 
