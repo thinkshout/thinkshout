@@ -12,7 +12,7 @@ description: "The Humane Society of the United States fights the big fights, wor
 order: 3
 # END LAYOUT DATA
 
-title: Turning passion into action with the nation’s most effective animal protection organization.
+title: How we brought every site visit to within a single click of action
 cs-class: "hsus"
 featured_impact_text: Animal Rights
 featured_client_name: "The Humane Society of the United States: Digital Advocacy & User Journeys"
@@ -20,29 +20,29 @@ featured_client_name: "The Humane Society of the United States: Digital Advocacy
 cs-preview:
   image: /assets/images/work/hsus/hsus_casestudyhero.jpg
   type: Responsive Drupal Site
-  client: "Humane Society of the United States"
-  description: "Turning passion into action with the nation’s most effective animal protection organization."
+  client: "The Humane Society of the United States"
+  description: "How we brought every site visit to within a single click of action"
 
 cs-header:
   header-image: /assets/images/work/hsus/hsus_casestudyhero.jpg
-  client: "Humane Society of the United States"
-  title: "Turning passion into action with the nation’s most effective animal protection organization."
+  client: "The Humane Society of the United States"
+  title: "How we brought every site visit to within a single click of action"
 
 cs-intro:
   - intro-paragraph: |
-      The Humane Society of the United States fights the big fights, working to end all forms of animal cruelty and achieve the vision behind our name: A humane society.
+      The Humane Society of the United States isn’t your local humane society or pet adoption center. Their mission is to end all forms of animal cruelty. From puppy mills to animal testing, and from trophy hunting to horse slaughter, they take on powerful forces like multibillion dollar industries and systemic governmental policies to bring about a more humane society for us all.
 
   - intro-title: Challenge
     intro-text: |
-      People were having trouble connecting with the organization, and the existing website suffered from an encyclopedic approach that wasn’t working for supporters, staff, or the general public.
+      The Humane Society fights so many big fights, across issue areas and 50 states. With such important but complex work, people were struggling to connect with the mission, and the website was suffering from an overload of content.
 
-  - intro-title: Approach
+  - intro-title: Solutions
     intro-text: |
-      As we worked with the HSUS team to improve the quality of content across the site, we also developed a site governance plan that will ensure the strength, cadence, and relevancy of content into the future.
+      We launched a stunning new website based in extensive user research that brought their new brand direction to life, streamlined and focused the content, and gave the Humane Society their first truly-custom site complete with features and functionality tailored to meet their big goals.
 
   - intro-title: Solution
     intro-text: |
-      People start their journey with The Humane Society of the United States through the a love of one animal, and by connecting them with the underlying issue, we invite them to participate in a larger story.
+      The new website is already providing value to the Humane Society’s rebranding efforts. As the organization’s single-most important brand touchpoint, it is clear from site analytics that visitors are better understanding the mission, engaging with their work at a new level, and looking more into how to get involved.
 
 
 cs-sections:

@@ -1,20 +1,42 @@
 .services {
   .services-hero {
-    margin-top: 65px;
+    margin-top: 55px;
 
     @include mq(lt) {
-      margin-top: 133px
+      margin-top: 113px
     }
     @include mq(d) {
-      margin-top: 263px;
+      margin-top: 223px;
     }
     h1 {
       color: $herogray;
       font-size: rem(32);
       font-weight: 900;
       line-height: calc(73/56);
-      margin-bottom: rem(60);
+      margin-bottom: rem(35);
       margin-top: 0.8rem;
+
+      em {
+        color: $orange;
+        font-style: normal;
+      }
+
+      @include mq(t) {
+        max-width: 95%;
+        margin-bottom: rem(55);
+      }
+      @include mq(d) {
+        max-width: 90%;
+        margin-bottom: rem(75);
+      }
+    }
+    h2 {
+      color: $herogray;
+      font-size: rem(24);
+      font-weight: 900;
+      line-height: calc(73/56);
+      margin-bottom: 0;
+      margin-top: 0;
 
       em {
         color: $orange;

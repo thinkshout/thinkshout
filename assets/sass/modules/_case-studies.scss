@@ -114,6 +114,20 @@
     @include mq(d) { flex: 0 0 40%; }
   }
 
+  .case-intro ol li {
+    font-size: rem(15);
+    font-weight: 600;
+    line-height: calc(32/28);
+    list-style-type: decimal;
+    margin: 0 rem(24) rem(12) rem(4);
+    @media (min-width: 768px) and (max-width: 979px) {
+      font-size: rem(17);
+    }
+    @media (min-width: 980px) {
+      font-size: rem(20);
+    }
+  }
+
   .body {
     h4,
     p,

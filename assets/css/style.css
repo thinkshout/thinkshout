@@ -2184,6 +2184,126 @@ a:visited {
     .page-not-found .intro a:hover {
       color: #F06D2F; }
 
+.about .about-hero {
+  margin-top: 55px; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .about .about-hero {
+      margin-top: 113px; } }
+  @media (min-width: 980px) {
+    .about .about-hero {
+      margin-top: 223px; } }
+  .about .about-hero h1 {
+    color: #656565;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: calc(73/56);
+    margin-bottom: 2.1875rem;
+    margin-top: 0.8rem; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .about .about-hero h1 {
+        font-size: 3rem; } }
+    @media (min-width: 980px) {
+      .about .about-hero h1 {
+        font-size: 3.5rem; } }
+    .about .about-hero h1 em {
+      color: #F06D2F;
+      font-style: normal; }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .about .about-hero h1 {
+        max-width: 95%;
+        margin-bottom: 3.4375rem; } }
+    @media (min-width: 980px) {
+      .about .about-hero h1 {
+        max-width: 90%;
+        margin-bottom: 4.6875rem; } }
+  .about .about-hero h2 {
+    color: #656565;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: calc(73/56);
+    margin-bottom: 0;
+    margin-top: 0; }
+    .about .about-hero h2 em {
+      color: #F06D2F;
+      font-style: normal; }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .about .about-hero h2 {
+        max-width: 95%; } }
+    @media (min-width: 980px) {
+      .about .about-hero h2 {
+        max-width: 90%; } }
+.about .about-body {
+  background: #242424 url("../images/ts_redesign/case-studies/splc-main/splc-process.jpg") no-repeat top center;
+  background-size: 100% auto;
+  color: #fff;
+  height: auto;
+  padding: 6rem 0;
+  position: relative; }
+  @media (max-width: 480px) {
+    .about .about-body {
+      padding: 3rem 0; } }
+  @media (min-width: 481px) and (max-width: 979px) {
+    .about .about-body {
+      padding: 4.5rem 0; } }
+  .about .about-body .gradient {
+    background-image: linear-gradient(0deg, #242424, #242424 60%, rgba(36, 36, 36, 0.95) 70%, rgba(36, 36, 36, 0.9) 80%, rgba(36, 36, 36, 0.85) 90%, rgba(36, 36, 36, 0.8) 95%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#DD000000',GradientType=0 );
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2; }
+  .about .about-body .intro h2 {
+    color: #F06D2F;
+    margin-bottom: 3rem;
+    font-size: 1.75rem;
+    position: relative;
+    z-index: 3; }
+    @media (max-width: 480px) {
+      .about .about-body .intro h2 {
+        margin-bottom: 1rem; } }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .about .about-body .intro h2 {
+        margin-bottom: 2rem; } }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .about .about-body .intro h2 {
+        font-size: 2rem; } }
+    @media (min-width: 980px) {
+      .about .about-body .intro h2 {
+        font-size: 2.25rem; } }
+.about .value {
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 3; }
+  @media (max-width: 480px) {
+    .about .value {
+      margin-bottom: 1rem; } }
+  @media (min-width: 481px) and (max-width: 979px) {
+    .about .value {
+      margin-bottom: 1.5rem; } }
+  .about .value h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: calc(42/36);
+    margin-bottom: 0;
+    margin-top: 0; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .about .value h3 {
+        font-size: 1.375rem; } }
+    @media (min-width: 980px) {
+      .about .value h3 {
+        font-size: 1.5rem; } }
+  .about .value p {
+    margin-top: 0.5rem;
+    max-width: 95%; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .about .value p {
+        max-width: 85%; } }
+    @media (min-width: 980px) {
+      .about .value p {
+        max-width: 55%; } }
+
 .basic-page {
   color: #525255;
   padding-bottom: 3rem; }
@@ -4126,6 +4246,18 @@ a:visited {
 @media (min-width: 980px) {
   .case-study .case-intro .titles {
     flex: 0 0 40%; } }
+.case-study .case-intro ol li {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: calc(32/28);
+  list-style-type: decimal;
+  margin: 0 1.5rem 0.75rem 0.25rem; }
+  @media (min-width: 768px) and (max-width: 979px) {
+    .case-study .case-intro ol li {
+      font-size: 1.0625rem; } }
+  @media (min-width: 980px) {
+    .case-study .case-intro ol li {
+      font-size: 1.25rem; } }
 .case-study .body h4,
 .case-study .body p,
 .case-study .body blockquote,
@@ -6744,28 +6876,46 @@ h4.lets-chat {
   padding: 3rem 0; }
 
 .services .services-hero {
-  margin-top: 65px; }
+  margin-top: 55px; }
   @media (min-width: 671px) and (max-width: 979px) {
     .services .services-hero {
-      margin-top: 133px; } }
+      margin-top: 113px; } }
   @media (min-width: 980px) {
     .services .services-hero {
-      margin-top: 263px; } }
+      margin-top: 223px; } }
   .services .services-hero h1 {
     color: #656565;
     font-size: 2rem;
     font-weight: 900;
     line-height: calc(73/56);
-    margin-bottom: 3.75rem;
+    margin-bottom: 2.1875rem;
     margin-top: 0.8rem; }
     .services .services-hero h1 em {
       color: #F06D2F;
       font-style: normal; }
     @media (min-width: 481px) and (max-width: 979px) {
       .services .services-hero h1 {
-        max-width: 95%; } }
+        max-width: 95%;
+        margin-bottom: 3.4375rem; } }
     @media (min-width: 980px) {
       .services .services-hero h1 {
+        max-width: 90%;
+        margin-bottom: 4.6875rem; } }
+  .services .services-hero h2 {
+    color: #656565;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: calc(73/56);
+    margin-bottom: 0;
+    margin-top: 0; }
+    .services .services-hero h2 em {
+      color: #F06D2F;
+      font-style: normal; }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .services .services-hero h2 {
+        max-width: 95%; } }
+    @media (min-width: 980px) {
+      .services .services-hero h2 {
         max-width: 90%; } }
   @media (min-width: 671px) and (max-width: 979px) {
     .services .services-hero h1 {

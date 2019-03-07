@@ -12,7 +12,7 @@ image-alt: "View of the Comumbia River valley."
 description: "Columbia Riverkeeper’s mission is to protect and restore the water quality of the Columbia River and all life connected to it, from the headwaters to the Pacific Ocean."
 # END LAYOUT DATA
 
-title: Navigating the waters of Bene
+title: Helping a local environmental group effectively engage audiences
 cs-class: "cori"
 featured_impact_text: Our Planet
 featured_client_name: "Columbia Riverkeeper: From Strategy to Site at a Fraction of the Cost"
@@ -21,78 +21,82 @@ cs-preview:
   image: /assets/images/work/cori/TS-Case-Study-CORI-header.jpg
   type: "Columbia Riverkeeper"
   client: "Columbia Riverkeeper"
-  description: "Navigating the waters of Bene"
+  description: "Helping a local environmental group effectively engage audiences"
 
 cs-header:
   header-image: /assets/images/work/cori/TS-Case-Study-CORI-header.jpg
   client: "Columbia Riverkeeper"
-  title: "Navigating the waters of Bene"
+  title: "Helping a local environmental group effectively engage audiences"
 
 
 cs-intro:
   - intro-paragraph: |
-      Columbia Riverkeeper’s mission is to protect and restore the water quality of the Columbia River and all life connected to it, from the headwaters to the Pacific Ocean.
+      Columbia Riverkeeper’s mission is to protect and restore the water quality of the Columbia River and all life connected to it, from the headwaters to the Pacific Ocean. Their previous website lacked intuitive navigation, and no longer reflected the organization’s brand. They desperately needed a site that did the following three things:
+
+      1. Would allow people to easily find the information they were looking for,
+      2. Told a compelling story of who they are and what they do, and
+      3. Increased conversions for donations and newsletter subscriptions
+
+      They also wanted a platform that was easier to manage, more performant, and secure. Bene was the perfect solution to address all of these points.
+
 
   - intro-title: Challenge
     intro-text: |
-      Columbia Riverkeeper’s website lacked intuitive navigation, and no longer reflected the organization’s brand. They needed a site that would allow users to easily find the information they were looking for, increase donations, and was easier to manage, performant, and secure.
+      Columbia Riverkeeper needed more than just a platform, they needed the strategic expertise and ongoing support to craft compelling calls to action and tell their story.
 
-  - intro-title: Solution
+  - intro-title: Solutions
     intro-text: |
-      Like many nonprofits, Columbia Riverkeeper has a modest staff and limited budget. We were excited to help them tackle the task of building a new website on the Drupal distribution we released last fall, <a href="https://thinkshout.com/bene/">Bene</a>.
+      Bene offered the security and room to grow that they were looking for in a platform, coupled with the strategic and design support from a team ready to spring into action.
+
+  - intro-title: Results
+    intro-text: |
+      +8% increased time on site<br>
+      -21% decrease in bounce rate<br>
+      +45% increase in pageviews
 
 
 cs-sections:
-  - section-type: quote
-    section-quote: |
-      “ThinkShout's BENE platform is a forward-thinking solution designed to make the daunting task of building a website, a fun and enjoyable experience. Thanks to ThinkShout's team, no matter how complex the design request seems, the BENE platform delivers a thoughtful, well-designed solution.”
-    section-attribution: " - Liz Terhaar, Communications Director, Columbia Riverkeeper"
-
-
-  - section-title: The Goals
-    section-description: |
-      Columbia Riverkeeper needed more than just a platform to build a site on, they needed strategy and design support to help them craft clean visuals, simplified messaging, and clear calls to action throughout the website. They required the discovery process, strategy, and design that comes with a high budget website redesign, but they needed it for a fraction of the cost.
-
-      ThinkShout developed <a href="https://thinkshout.com/bene/">Bene</a> precisely to address this scenario.
+  - section-description: |
+      The challenges Columbia Riverkeeper faced were by no means unique to nonprofits (big or small), however, content strategy and design support doesn’t just come with the wiki or FAQs of an out of the box solution. They required the discovery process, strategic direction, and design skills that comes with a high budget website redesign, but they needed it for a fraction of the cost.
 
   - section-image: "/assets/images/work/cori/TS-Case-Studies-CORI-Homepage.jpg"
     section-image-alt: "Columbia Riverkeeper Home Page Screens"
 
-  - section-title: Why Bene
-    section-description: |
-      <a href="https://thinkshout.com/bene/">Bene</a> is built on Drupal, the leading open source web platform which allows for expansion and customization to meet an organization’s evolving needs. As improvements, integrations, and contributions are made to Bene, those enhancements become available to anyone on the platform. That’s the beauty of open source.
-
-      And, since <a href="https://thinkshout.com/bene/">Bene</a> is templated and built on a specific set of blocks, ThinkShout is able to focus our work with smaller organizations on strategy, design, and customization. Precisely what Columbia Riverkeeper needed.
-
-  - section-image: "/assets/images/work/cori/TS-Case-Studies-CORI-3-Mobile.jpg"
-    section-image-alt: "Mobile views of Columbia Riverkeeper's site"
+  - section-description: |
+      Our experienced staff worked with Columbia Riverkeeper to define and prioritize their target audiences, their motivations, and how to structure content on their site to keep those audiences coming back and engaged.
 
 
-  - section-title: Bene & Columbia Riverkeeper
-    section-description: |
-      All ThinkShout website redesign projects start with a discovery workshop to assess the client goals and audience motivations -- Bene projects are no different. Our experienced staff worked with Columbia Riverkeeper to define and prioritize their target audiences, their motivations, and how to structure content on their site to keep those audiences coming back and engaged.
+  - section-description: |
+      Next was the application of the Bene base build, followed by the implementation of Columbia Riverkeeper’s design. We also provided template theming for Salsa, (their CRM system and Email Service Provider) to ensure continuity for the end user when they completed petitions or other actions on their site.
 
-      After the onsite, we reviewed any and all assets the client had to help guide our creative direction and set their style tiles.
+      After some training sessions to ensure Columbia Riverkeeper’s staff was set up for success in using and administering the tool, we then handed over the keys to the team to import and stage their own content in the system. It truly was an intuitive, clean, and simple process.
+
+  - section-image: "/assets/images/work/cori/TS-Case-Studies-CORI-Homepage.jpg"
+    section-image-alt: "Columbia Riverkeeper Home Page Screens"
+
+
+  - section-type: quote
+    section-quote: |
+      “ThinkShout's BENE platform is a forward-thinking solution designed to make the daunting task of building a website, a fun and enjoyable experience. Thanks to ThinkShout's team, no matter how complex the design request seems, the BENE platform delivers a thoughtful, well-designed solution.”
+    section-attribution: "~ Liz Terhaar, Communications Director, Columbia Riverkeeper"
+
 
   - section-image1: "/assets/images/work/cori/TS-Case-Study-cori-style-tile1.jpg"
     section-image-alt1: "Style tiles for Columbia Riverkeeper's site"
-    section-image-caption1: "Style tiles for Columbia Riverkeeper's site"
 
     section-image2: "/assets/images/work/cori/TS-Case-Study-cori-style-tile2.jpg"
     section-image-alt2: "Style tiles for Columbia Riverkeeper's site"
 
 
-  - section-type: quote
-    section-quote: |
-      “I'm thrilled to start 2018 with a website that appropriately reflects the work we're doing. We love our new website and we're excited to continue to improve it with your expertise.”
-    section-attribution: "- Liz Terhaar, Communications Director"
-
-
   - section-type: result
+    section-data-number1: "+8%"
+    section-data-text1: "increased time on site"
+    section-data-number2: "-21%"
+    section-data-text2: "decrease in bounce rate"
+    section-data-number3: "+45%"
+    section-data-text3: "increase in pageviews"
     section-description: |
-      We’re still working closely with Columbia Riverkeeper, providing support in the form of security updates, addressing bug fixes as they arise, and quarterly strategic planning sessions.
-
-      Our goal in all of this was to set our partners up in a successful way to achieve maximum impact with their missions. We’re excited to see where they go as they embark upon this new chapter in their digital identity.
+      Since launch, our relationship with Columbia Riverkeeper has evolved into one of our most valued partnerships, with quarterly strategy meetings where we cover their upcoming campaigns and fundraising goals, as well as provide them with an analysis of their site performance to identify future areas for improvement. We’re excited to see where they go as they embark on this new chapter in their digital identity.
 
 cs-cta-text: Launch Site
 cs-cta-url: https://www.columbiariverkeeper.org
