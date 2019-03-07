@@ -1,39 +1,24 @@
 ---
 layout: default
-body-class: our-work
+body-class: our-work work-archive
 permalink: work/
 title: Work
 ---
+
 <div class="intro">
-  <div class="container">
-    <div class="text">
-      <h1>Featured Projects</h1>
-      <p>Our experience spans the social good sector -- from social justice, to universities, to animal welfare. We work to create solutions that engage and inspire your audiences in meaningful ways.</p>
-    </div>
+  <div class="work-hero container">
+    <h2>Work</h2>
+    <h1>Our strategies, designs, and digital products enable progressive organizations to achieve greater impact.</h1>
+  </div>
+
+  <div class="case-study-previews container">
+    {% assign case-studies = site.case_studies | where: "published", "true" %}
+    {% for preview in case-studies %}
+      {% include case_study_preview.html %}
+    {% endfor %}
   </div>
 </div>
-
-<div class="work-listing">
-  <div class="container">
-  {% assign case-studies = site.case_studies | where: "active", "true" | sort: "order" %}
-  {% for preview in case-studies limit: 5 %}
-    <a class="case-study-wrapper-link" href="{{ site.baseurl }}{{ preview.url }}"><section class="case-study-header {{ preview.cs-class }}">
-      <style>
-        .case-study-header.{{ preview.cs-class }} { background-image: url('{{ site.baseurl }}{{ preview.cs-preview.image }}'); }
-      </style>
-        <div class="description">
-          <h2>{{ preview.cs-preview.client }}</h2>
-          {{ preview.cs-preview.description }}
-        </div>
-    </section></a>
-  {% endfor %}
-    <a href="{{ site.baseurl }}archive/" class="work-archive-link uppercase-link">See all Case Studies<i class="fa fa-caret-right"></i></a>
-  </div>
-</div>
-
 
 {% include work-with-us.html %}
-
-{% include open-source-contributions.html %}
 
 {% include select-clients.html %}

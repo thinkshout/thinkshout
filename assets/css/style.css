@@ -7877,6 +7877,55 @@ h4.lets-chat {
     .work-with-us a.uppercase-link i {
       color: #f1b332; }
 
+.our-work .work-hero {
+  margin-top: 55px; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .our-work .work-hero {
+      margin-top: 113px; } }
+  @media (min-width: 980px) {
+    .our-work .work-hero {
+      margin-top: 223px; } }
+  .our-work .work-hero h1 {
+    color: #656565;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: calc(73/56);
+    margin-bottom: 2.1875rem;
+    margin-top: 0.8rem; }
+    @media (min-width: 671px) and (max-width: 979px) {
+      .our-work .work-hero h1 {
+        font-size: 3rem; } }
+    @media (min-width: 980px) {
+      .our-work .work-hero h1 {
+        font-size: 3.5rem; } }
+    .our-work .work-hero h1 em {
+      color: #F06D2F;
+      font-style: normal; }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .our-work .work-hero h1 {
+        max-width: 95%;
+        margin-bottom: 3.4375rem; } }
+    @media (min-width: 980px) {
+      .our-work .work-hero h1 {
+        max-width: 90%;
+        margin-bottom: 4.6875rem; } }
+  .our-work .work-hero h2 {
+    color: #656565;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: calc(73/56);
+    margin-bottom: 0;
+    margin-top: 0; }
+    .our-work .work-hero h2 em {
+      color: #F06D2F;
+      font-style: normal; }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .our-work .work-hero h2 {
+        max-width: 95%; } }
+    @media (min-width: 980px) {
+      .our-work .work-hero h2 {
+        max-width: 90%; } }
+
 @media (max-width: 480px) {
   .year-end .main-content {
     margin-top: 5.625rem; } }
