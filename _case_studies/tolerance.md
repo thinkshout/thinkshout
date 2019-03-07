@@ -34,11 +34,9 @@ cs-intro:
   - intro-paragraph: |
       Teaching Tolerance -- a program of the Southern Poverty Law Center -- is dedicated to educating young people to be active participants in a diverse democracy. Educators often have to respond to issues of intolerance at a speed and scale that can be incredibly challenging. News travels quickly, students form opinions and harbor fears, and teachers can feel isolated when trying to make sense of these issues for themselves and their students.
 
-      Teaching Tolerance already provided the ability to create learning plans around certain themes, but they needed their tools to evolve. The world was moving at a pace that their present systems could not address. They needed something that would enable rapid generation and dissemination of new materials, while also surfacing valuable content from the past that has renewed importance.
-
   - intro-title: Challenge
     intro-text: |
-      Tolerance.org needed their site to enable rapid generation and dissemination of new materials, while also surfacing valuable content from the past that has renewed importance in today’s news cycle.
+      Teaching Tolerance needed their site to enable rapid generation and dissemination of new materials, while also surfacing valuable content from the past that has renewed importance in today’s news cycle.
 
 
   - intro-title: Solutions
@@ -47,20 +45,13 @@ cs-intro:
 
   - intro-title: Results
     intro-text: |
-      +50% increased registrations
-
-      +22% increased return visits
-
-      +27% increased session duration
+      Tolerance.org has experienced huge gains in registrations, return visits, and sessions. The site was also a Webby Award Finalist.
 
 
 cs-sections:
   - section-title:
     section-description: |
       Our approach to design was to provide an experience without barriers. Regardless of whether a user is on their phone while taking the train to work or on their desktop at home, they should be able to easily access all resources as well as use them to build learning plans using the step-by-step process we built. We wanted a streamlined experience, with everything from magazine articles, lessons, texts, and professional development materials to be easily digestible, searchable, and most importantly, offer the ability for users to build a plan off of them on the fly.
-
-  - section-image: "/assets/images/case-studies/Tolerance-large0.jpg"
-    section-image-alt: "Image: Tolerance.org Desktop"
 
   - section-image: "/assets/images/case-studies/Tolerance-large1.jpg"
     section-image-alt: "Image: Tolerance.org Tablet"
