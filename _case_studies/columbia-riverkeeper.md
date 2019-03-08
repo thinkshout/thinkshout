@@ -7,7 +7,7 @@ homepage: true
 published: true
 related: bene
 order: 2
-image: https://thinkshout.com/assets/images/work/cori/TS-Case-Study-CORI-header.jpg
+image: https://thinkshout.com/assets/images/case-studies/CORI-case-study-header.jpg
 image-alt: "View of the Comumbia River valley."
 description: "Columbia Riverkeeper’s mission is to protect and restore the water quality of the Columbia River and all life connected to it, from the headwaters to the Pacific Ocean."
 # END LAYOUT DATA
@@ -18,13 +18,13 @@ featured_impact_text: Our Planet
 featured_client_name: "Columbia Riverkeeper: From Strategy to Site at a Fraction of the Cost"
 
 cs-preview:
-  image: /assets/images/work/cori/TS-Case-Study-CORI-header.jpg
+  image: /assets/images/case-studies/CORI-case-study-header.jpg
   type: "Columbia Riverkeeper"
   client: "Columbia Riverkeeper"
   description: "Helping a local environmental group effectively engage audiences"
 
 cs-header:
-  header-image: /assets/images/work/cori/TS-Case-Study-CORI-header.jpg
+  header-image: /assets/images/case-studies/CORI-case-study-header.jpg
   client: "Columbia Riverkeeper"
   title: "Helping a local environmental group effectively engage audiences"
 
@@ -59,7 +59,7 @@ cs-sections:
   - section-description: |
       The challenges Columbia Riverkeeper faced were by no means unique to nonprofits (big or small), however, content strategy and design support doesn’t just come with the wiki or FAQs of an out of the box solution. They required the discovery process, strategic direction, and design skills that comes with a high budget website redesign, but they needed it for a fraction of the cost.
 
-  - section-image: "/assets/images/work/cori/TS-Case-Studies-CORI-Homepage.jpg"
+  - section-image: "/assets/images/case-studies/CORI-large-1.jpg"
     section-image-alt: "Columbia Riverkeeper Home Page Screens"
 
   - section-description: |
@@ -71,8 +71,8 @@ cs-sections:
 
       After some training sessions to ensure Columbia Riverkeeper’s staff was set up for success in using and administering the tool, we then handed over the keys to the team to import and stage their own content in the system. It truly was an intuitive, clean, and simple process.
 
-  - section-image: "/assets/images/work/cori/TS-Case-Studies-CORI-Homepage.jpg"
-    section-image-alt: "Columbia Riverkeeper Home Page Screens"
+  - section-image: "/assets/images/case-studies/CORI-large-2.jpg"
+    section-image-alt: "Website homepage displayed on a smartphone"
 
 
   - section-type: quote
@@ -81,11 +81,11 @@ cs-sections:
     section-attribution: "~ Liz Terhaar, Communications Director, Columbia Riverkeeper"
 
 
-  - section-image1: "/assets/images/work/cori/TS-Case-Study-cori-style-tile1.jpg"
-    section-image-alt1: "Style tiles for Columbia Riverkeeper's site"
+  - section-image1: "/assets/images/case-studies/CORI-Small-1.jpg"
+    section-image-alt1: "Website interior displayed on a smartphone"
 
-    section-image2: "/assets/images/work/cori/TS-Case-Study-cori-style-tile2.jpg"
-    section-image-alt2: "Style tiles for Columbia Riverkeeper's site"
+    section-image2: "/assets/images/case-studies/CORI-Small-2.jpg"
+    section-image-alt2: "White pelicans"
 
 
   - section-type: result
