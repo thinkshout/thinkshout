@@ -53,20 +53,17 @@ cs-sections:
 
       From this research, we developed six unique personas across life and career stages — including two that AnitaB.org had never before considered. We outlined the nuanced needs, motivations, challenges, and success states from our interview and survey findings. And as we looked for patterns and commonalities across all six personas, three core needs soon became apparent.
 
-  - section-image1: "/assets/images/case-studies/AnitaB-Small-1.jpg"
-    section-image-alt1: "Serious busineswoman whiteboarding a flowchart"
+  - section-image1: "/assets/images/case-studies/AnitaB-Small-2.jpg"
+    section-image-alt1: "Smiling woman with bright red hair"
 
-    section-image2: "/assets/images/case-studies/AnitaB-Small-2.jpg"
-    section-image-alt2: "Smiling woman with bright red hair"
+    section-image2: "/assets/images/case-studies/AnitaB-Small-3.jpg"
+    section-image-alt2: "Smiling professional woman leading a meeting"
 
-    section-image3: "/assets/images/case-studies/AnitaB-Small-3.jpg"
-    section-image-alt3: "Smiling professional woman leading a meeting"
+    section-image3: "/assets/images/case-studies/AnitaB-Small-4.jpg"
+    section-image-alt3: "Smiling professional woman with fancy earrings"
 
-    section-image4: "/assets/images/case-studies/AnitaB-Small-4.jpg"
-    section-image-alt4: "Smiling professional woman with fancy earrings"
-
-  - section-image1: "/assets/images/case-studies/AnitaB-Small-5.jpg"
-    section-image-alt1: "Serious busineswoman in a meeting"
+    section-image4: "/assets/images/case-studies/AnitaB-Small-5.jpg"
+    section-image-alt4: "Serious busineswoman in a meeting"
 
 
 
@@ -74,23 +71,6 @@ cs-sections:
     section-description: |
       With the findings from our user research in hand, we set out to complete a landscape analysis and determine market opportunity. From our in-depth evaluation of six platforms and high-level evaluations on over 20 more, we identified features and functionality that could be improved upon, and gaps that an AnitaB.org platform could fill. Our conclusion was that yes, there was indeed a strong market opportunity for such a platform.
 
-
-  - section-image1: "/assets/images/case-studies/AnitaB-Small-Image-Set2-2.jpg"
-    section-image-alt1: "Logos: Italki, NTEN, Doximity"
-
-    section-image2: "/assets/images/case-studies/AnitaB-Small-Image-Set2-1.jpg"
-    section-image-alt2: "Woman using a smart phone waiting for a train."
-
-    section-image3: "/assets/images/case-studies/AnitaB-Small-Image-Set2-3.jpg"
-    section-image-alt3: "Two women sorting through features with post-it notes"
-
-    section-image4: "/assets/images/case-studies/AnitaB-Small-Image-Set2-4.jpg"
-    section-image-alt4: Several people ina meeting."
-
-
-  - section-title: "Envisioning a new platform: features, functionality, and UX"
-    section-description: |
-      Having confirmed market opportunity, the final phase of our exploratory research was to develop a set of requirements for a minimal viable product to launch. We also mapped out user journeys for all six of the personas we had identified, indicating opportunities for AnitaB.org to engage with their audiences not just on this platform, but at GHC and via other core programmatic offerings.
 
   - section-image: "/assets/images/case-studies/AnitaB-Large-1.jpg"
     section-image-alt: "Persona example from AnitaB.org"
@@ -100,6 +80,23 @@ cs-sections:
     section-quote: |
       “ThinkShout worked hand-in-hand with us to reveal our blind spots, boost our empathy for our audiences, and provide the information we needed to take decisive next steps.”
     section-attribution: "~ Genie Gratto, Senior Director, Marketing Communications & PR"
+
+
+  - section-title: "Envisioning a new platform: features, functionality, and UX"
+    section-description: |
+      Having confirmed market opportunity, the final phase of our exploratory research was to develop a set of requirements for a minimal viable product to launch. We also mapped out user journeys for all six of the personas we had identified, indicating opportunities for AnitaB.org to engage with their audiences not just on this platform, but at GHC and via other core programmatic offerings.
+
+  - section-image1: "/assets/images/case-studies/AnitaB-Small-1.jpg"
+    section-image-alt1: "Serious busineswoman whiteboarding a flowchart"
+
+    section-image2: "/assets/images/case-studies/AnitaB-Small-Image-Set2-1.jpg"
+    section-image-alt2: "Woman using a smart phone waiting for a train."
+
+    section-image3: "/assets/images/case-studies/AnitaB-Small-Image-Set2-3.jpg"
+    section-image-alt3: "Two women sorting through features with post-it notes"
+
+    section-image4: "/assets/images/case-studies/AnitaB-Small-Image-Set2-4.jpg"
+    section-image-alt4: Several people ina meeting."
 
   - section-type: result
     section-description: |
