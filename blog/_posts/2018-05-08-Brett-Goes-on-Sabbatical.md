@@ -16,6 +16,7 @@ tags:
   - sabbatical
   - digital agency
   - community
+  - facing-history
 date: 2018-05-07 12:00:00
 image: https://thinkshout.com/assets/images/blog/travel_the_world.jpg
 header-image: /assets/images/blog/travel_the_world.jpg
