@@ -32,7 +32,7 @@ cs-header:
 
 cs-intro:
   - intro-paragraph: |
-      Travel Oregon is the official tourism marketing organization for the State of Oregon. They work to enhance visitors’ experiences by providing information, resources, and trip planning tools for just about any activity available in our state. Most importantly, they inspire the public to visit, and consistently convey the magic and whimsy of Oregon.
+      Travel Oregon is the official destination marketing organization for the State of Oregon. They work to enhance visitors’ experiences by providing information, resources, and trip planning tools for just about any activity available in our state. Most importantly, they inspire the public to visit, and consistently convey the magic and whimsy of Oregon.
 
   - intro-title: Challenge
     intro-text: |
@@ -49,14 +49,15 @@ cs-intro:
       -33% bounce rate
 
 cs-sections:
-  - section-image: "/assets/images/case-studies/TROR-Large-2.jpg"
-    section-image-alt: "A laptop view of the Travel Oregon homepage"
-
   - section-image: "/assets/images/case-studies/TROR-Large-4.jpg"
     section-image-alt: "A smartphone view of the Travel Oregon website"
 
   - section-description: |
       We crafted a stunning new design leveraging an abundance of beautiful imagery with an information architecture that intuitively drives people to the content they need to plan their visit. But it’s not all good looks. The site, built on WordPress, integrates numerous backend systems including a content repository designed for Destination Management Organizations throughout the state. The new site is blazing fast, with performance wins all around. In fact, page load times decreased from just over eight seconds to five under our watch.
+
+
+  - section-image: "/assets/images/case-studies/TROR-Large-2.jpg"
+    section-image-alt: "A laptop view of the Travel Oregon homepage"
 
 
   - section-description: |
@@ -80,7 +81,7 @@ cs-sections:
 
   - section-type: quote
     section-quote: |
-      “Your...commitment to bringing a project like this to fruition is intense and incredible. Thank you for what your work means to all of us as tourism nerds in Oregon. Thank you!”
+      “Your commitment to bringing a project like this to fruition is incredible. Thank you for what your work means to all of us as tourism nerds in Oregon. Thank you!”
     section-attribution: "~ Scott Youngblood, Travel Oregon Commissioner"
 
 
