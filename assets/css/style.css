@@ -5632,7 +5632,8 @@ header {
         clear: left;
         display: none;
         float: none;
-        margin-top: 1rem; } }
+        padding-top: 1rem;
+        margin-bottom: 0; } }
     @media (min-width: 481px) and (max-width: 979px) {
       header .main-menu {
         clear: left;
@@ -6147,12 +6148,6 @@ h4.lets-chat {
 .our-work .intro .text p {
   font-size: 1.125rem;
   margin-top: 0; }
-@media (max-width: 480px) {
-  .our-work .main-content {
-    margin-top: 5.625rem; } }
-@media (min-width: 481px) and (max-width: 979px) {
-  .our-work .main-content {
-    margin-top: 5.625rem; } }
 .our-work .case-study-previews a .case-study-header {
   -webkit-transition: border 0.2s;
   -moz-transition: border 0.2s;
@@ -6340,16 +6335,6 @@ h4.lets-chat {
         line-height: 1.75;
         list-style-type: disc; }
 
-@media (max-width: 480px) {
-  .page-not-found .main-content,
-  .careers .main-content,
-  .services .main-content {
-    margin-top: 5.625rem; } }
-@media (min-width: 481px) and (max-width: 979px) {
-  .page-not-found .main-content,
-  .careers .main-content,
-  .services .main-content {
-    margin-top: 5.625rem; } }
 .page-not-found .page-not-found-header,
 .page-not-found .careers-header,
 .page-not-found .services-header,

@@ -107,7 +107,8 @@ header {
       clear: left;
       display: none;
       float: none;
-      margin-top: 1rem;
+      padding-top: 1rem;
+      margin-bottom: 0;
     }
 
     @include mq(t) {

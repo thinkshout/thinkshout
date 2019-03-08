@@ -2,11 +2,6 @@
 .careers,
 .services {
 
-  .main-content {
-    @include mq(m) { margin-top: rem(90); }
-    @include mq(t) { margin-top: rem(90); }
-  }
-
   .page-not-found-header,
   .careers-header,
   .services-header {

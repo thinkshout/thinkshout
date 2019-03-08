@@ -12,11 +12,6 @@
     }
   }
 
-  .main-content {
-    @include mq(m) { margin-top: rem(90); }
-    @include mq(t) { margin-top: rem(90); }
-  }
-
   .case-study-previews a .case-study-header {
     @include transition(border 0.2s);
     background-position: center center;
