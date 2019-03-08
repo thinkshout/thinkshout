@@ -7,7 +7,7 @@ homepage: false
 published: false
 related: ""
 order: 10
-image: https://thinkshout.com/assets/images/
+image: https://thinkshout.com/assets/images/case-studies/
 image-alt: "Description of the contents of the above image."
 description: "Description paragraph here. The inro Paragraph ususally works well."
 # END LAYOUT DATA
@@ -34,7 +34,7 @@ cs-intro:
   - intro-title: Challenge
     intro-text: |
 
-  - intro-title: Solution
+  - intro-title: Solutions
     intro-text: |
 
   - intro-title: Results
