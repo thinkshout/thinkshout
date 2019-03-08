@@ -6148,6 +6148,8 @@ h4.lets-chat {
 .our-work .intro .text p {
   font-size: 1.125rem;
   margin-top: 0; }
+.our-work .case-study-previews.container {
+  max-width: 2000px; }
 .our-work .case-study-previews a .case-study-header {
   -webkit-transition: border 0.2s;
   -moz-transition: border 0.2s;
