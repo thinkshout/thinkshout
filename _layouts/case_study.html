@@ -114,6 +114,14 @@ layout: default
               {% endif %}
             </div>
           </div>
+        {% elsif section.section-video %}
+          <div class="white-bg">
+            <div class="case-wrapper">
+              {% if section.section-video %}
+                {{ section.section-video }}
+              {% endif %}
+            </div>
+          </div>
         {% endif %}
 
         {% if section.section-image %}

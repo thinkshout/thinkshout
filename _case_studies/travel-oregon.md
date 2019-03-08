@@ -44,17 +44,16 @@ cs-intro:
 
   - intro-title: Results
     intro-text: |
-      +30% increase time on site
-      +38% faster load time
+      +30% increase time on site<br>
+      +38% faster load time<br>
       -33% bounce rate
 
 cs-sections:
-
   - section-image: "/assets/images/case-studies/TROR-Large-2.jpg"
-    section-image-alt: ""
+    section-image-alt: "A laptop view of the Travel Oregon homepage"
 
   - section-image: "/assets/images/case-studies/TROR-Large-4.jpg"
-    section-image-alt: ""
+    section-image-alt: "A smartphone view of the Travel Oregon website"
 
   - section-description: |
       We crafted a stunning new design leveraging an abundance of beautiful imagery with an information architecture that intuitively drives people to the content they need to plan their visit. But it’s not all good looks. The site, built on WordPress, integrates numerous backend systems including a content repository designed for Destination Management Organizations throughout the state. The new site is blazing fast, with performance wins all around. In fact, page load times decreased from just over eight seconds to five under our watch.
@@ -64,21 +63,18 @@ cs-sections:
       One of the things we felt strongly about in taking on this project was the concept of giving site visitors a sense of “place.” It’s that feeling you get when you see an image of a location so breathtaking that you want to go see it for yourself. And Oregon has no shortage of impressive vistas.
 
   - section-image: "/assets/images/case-studies/TROR-Large-3.jpg"
-    section-image-alt: ""
+    section-image-alt: "Three smartphones showing images of the Travel Oregon website"
 
   - section-image: "/assets/images/case-studies/TROR-Large-5.jpg"
-    section-image-alt: ""
+    section-image-alt: "A laptop view of the Travel Oregon website"
 
   - section-image1:  "/assets/images/case-studies/TROR-Small-3.jpg"
-    section-image-alt1: ""
-    section-image-caption1: ""
+    section-image-alt1: "A laptop view of the Travel Oregon website"
 
     section-image2:  "/assets/images/case-studies/TROR-Small-5.jpg"
-    section-image-alt2: ""
-    section-image-caption2: ""
+    section-image-alt2: "A smartphone view of the Travel Oregon website"
 
-  - section-title:
-    section-description: |
+  - section-description: |
       We wanted people to truly picture themselves here; and we achieved this through a feature we implemented on the homepage hero. Visit TravelOregon.com at various times of day from other time zones, and you’ll be served up a scenic image from somewhere in Oregon at the local time here, in Oregon.
 
 
@@ -89,7 +85,7 @@ cs-sections:
 
 
   - section-image: "/assets/images/case-studies/TROR-Large-1.jpg"
-    section-image-alt: ""
+    section-image-alt: "Laptop and smartphone views of the Travel Oregon website"
 
 
   - section-type: result
