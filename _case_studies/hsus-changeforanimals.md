@@ -3,8 +3,8 @@
 layout: case_study
 body-class: case-study hsus-changeforanimals
 active: false
-homepage: true
-published: true
+homepage: false
+published: false
 related: hsus
 image: /assets/images/ts_redesign/case-studies/hsus-changeforanimals/hsus-cat.jpg
 order: 5

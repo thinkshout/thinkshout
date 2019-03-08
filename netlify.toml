@@ -19,25 +19,25 @@ force = false
 
 [[redirects]]
 from = "/expertise/design"
-to = "/services/design"
+to = "/services/"
 status = 301
 force = false
 
 [[redirects]]
 from = "/expertise/development"
-to = "/services/development"
+to = "/services/"
 status = 301
 force = false
 
 [[redirects]]
 from = "/expertise/digital-strategy"
-to = "/services/digital-strategy"
+to = "/services/"
 status = 301
 force = false
 
 [[redirects]]
 from = "/expertise/engagement-tools"
-to = "/services/digital-ecosystem"
+to = "/services/"
 status = 301
 force = false
 
@@ -49,25 +49,49 @@ force = false
 
 [[redirects]]
 from = "/expertise/design/index.html"
-to = "/services/design"
+to = "/services/"
 status = 301
 force = false
 
 [[redirects]]
 from = "/expertise/development/index.html"
-to = "/services/development"
+to = "/services/"
 status = 301
 force = false
 
 [[redirects]]
 from = "/expertise/digital-strategy/index.html"
-to = "/services/digital-strategy"
+to = "/services/"
 status = 301
 force = false
 
 [[redirects]]
 from = "/expertise/engagement-tools/index.html"
-to = "/services/digital-ecosystem"
+to = "/services/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/services/design"
+to = "/services/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/services/development"
+to = "/services/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/services/digital-strategy"
+to = "/services/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/services/digital-ecosystem"
+to = "/services/"
 status = 301
 force = false
 
@@ -131,6 +155,137 @@ to = "/work/mailchimp/"
 status = 301
 force = false
 
+
+
+
+[[redirects]]
+from = "/work/coloradotrust/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/edf/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/facing-history/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/families-usa/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/feedingtexas/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/fip-tracker/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/giving-forum/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/hsus-changeforanimals/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/la-conservancy/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/lemelson-mit/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/mailchimp/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/mercy-corps-micromentor/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/MIUSA/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/ncyl/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/oceanoutcomes/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/ridepdw/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/splc-selma/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/the-interwine/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/the-salmon-project/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/travel-portland/"
+to = "/work/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/work/wwf/"
+to = "/work/"
+status = 301
+force = false
+
+
+
 [[redirects]]
 from = "/blog/sean"
 to = "/team/sean/"
@@ -163,7 +318,7 @@ force = false
 
 [[redirects]]
 from = "/engage"
-to = "/services/digital-strategy/"
+to = "/services/"
 status = 301
 force = false
 

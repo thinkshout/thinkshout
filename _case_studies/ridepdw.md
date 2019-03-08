@@ -4,7 +4,7 @@ layout: case_study
 body-class: case-study pdw
 active: false
 homepage: false
-published: true
+published: false
 order: 10
 # END LAYOUT DATA
 
