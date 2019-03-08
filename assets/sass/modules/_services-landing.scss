@@ -10,11 +10,13 @@
     }
     h1 {
       color: $herogray;
-      font-size: rem(32);
+      font-size: rem(25);
       font-weight: 900;
       line-height: calc(73/56);
       margin-bottom: rem(35);
       margin-top: 0.8rem;
+      @include mq(lt) { font-size: rem(38); }
+      @include mq(d) { font-size: rem(56); }
 
       em {
         color: $orange;
@@ -32,11 +34,13 @@
     }
     h2 {
       color: $herogray;
-      font-size: rem(24);
+      font-size: rem(16);
       font-weight: 900;
       line-height: calc(73/56);
       margin-bottom: 0;
       margin-top: 0;
+      @include mq(lt) { font-size: rem(18); }
+      @include mq(d) { font-size: rem(24); }
 
       em {
         color: $orange;
@@ -45,12 +49,6 @@
 
       @include mq(t) { max-width: 95%; }
       @include mq(d) { max-width: 90%; }
-    }
-    @include mq(lt) {
-      h1 { font-size: rem(48); }
-    }
-    @include mq(d) {
-      h1 { font-size: rem(56); }
     }
   }
 
