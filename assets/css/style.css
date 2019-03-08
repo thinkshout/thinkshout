@@ -4129,20 +4129,14 @@ a:visited {
     .bene .cta {
       margin: 6em auto; } }
 
-@media (max-width: 480px) {
-  .case-study .main-content {
-    margin-top: 5.625rem; } }
-@media (min-width: 481px) and (max-width: 979px) {
-  .case-study .main-content {
-    margin-top: 5.625rem; } }
 .case-study .case-study-hero {
-  margin-top: 65px; }
-  @media (min-width: 481px) and (max-width: 979px) {
+  margin-top: 55px; }
+  @media (min-width: 671px) and (max-width: 979px) {
     .case-study .case-study-hero {
-      margin-top: 133px; } }
+      margin-top: 113px; } }
   @media (min-width: 980px) {
     .case-study .case-study-hero {
-      margin-top: 263px; } }
+      margin-top: 223px; } }
   .case-study .case-study-hero h1 {
     color: #F06D2F;
     display: inline-block;
@@ -4150,7 +4144,7 @@ a:visited {
     font-weight: 900;
     line-height: calc(29/24);
     margin: 0;
-    padding: 0.5rem 0;
+    padding: 0;
     text-transform: capitalize; }
   .case-study .case-study-hero h2 {
     color: #656565;

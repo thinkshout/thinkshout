@@ -1,18 +1,13 @@
 .case-study {
 
-  .main-content {
-    @include mq(m) { margin-top: rem(90); }
-    @include mq(t) { margin-top: rem(90); }
-  }
-
   .case-study-hero {
-    margin-top: 65px;
+    margin-top: 55px;
 
-    @include mq(t) {
-      margin-top: 133px
+    @include mq(lt) {
+      margin-top: 113px
     }
     @include mq(d) {
-      margin-top: 263px;
+      margin-top: 223px;
     }
     h1 {
       color: $orange;
@@ -21,7 +16,7 @@
       font-weight: 900;
       line-height: calc(29/24);
       margin: 0;
-      padding: rem(8) 0;
+      padding: 0;
       text-transform: capitalize;
     }
 
