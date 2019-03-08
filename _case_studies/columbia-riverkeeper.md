@@ -65,6 +65,8 @@ cs-sections:
   - section-description: |
       Our experienced staff worked with Columbia Riverkeeper to define and prioritize their target audiences, their motivations, and how to structure content on their site to keep those audiences coming back and engaged.
 
+  - section-image: "/assets/images/case-studies/CORI-large-3.jpg"
+    section-image-alt: "Columbia Riverkeeper Brealing Screen on a laptop"
 
   - section-description: |
       Next was the application of the Bene base build, followed by the implementation of Columbia Riverkeeper’s design. We also provided template theming for Salsa, (their CRM system and Email Service Provider) to ensure continuity for the end user when they completed petitions or other actions on their site.
