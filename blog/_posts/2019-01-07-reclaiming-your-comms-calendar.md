@@ -15,6 +15,7 @@ tags:
   - communications
   - marketing
   - "digital marketing"
+  - wfwi
 date: 2019-01-07 11:00:00
 image: https://thinkshout.com/assets/images/blog/calendar-header.jpg
 header-image: /assets/images/blog/calendar-header.jpg

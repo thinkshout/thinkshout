@@ -17,6 +17,7 @@ tags:
   - Accessibility
   - Being human
   - Empathy
+  - wfwi
 date: 2018-05-24 12:00:00
 image: https://thinkshout.com/assets/images/blog/neon-heart.jpg
 header-image: /assets/images/blog/neon-heart.jpg
