@@ -5656,7 +5656,7 @@ header {
           font-size: 0.9375rem;
           padding: 3.125rem 0; } }
     header .main-menu li:last-of-type a {
-      color: #F06D2F; }
+      font-weight: bold; }
     @media (min-width: 980px) {
       header .main-menu li:nth-child(1) a.active,
       header .main-menu li:nth-child(1) a:hover {

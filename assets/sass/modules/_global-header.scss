@@ -131,7 +131,8 @@ header {
     }
 
     li:last-of-type a {
-      color: $orange;
+      // color: $orange;
+      font-weight: bold;
     }
 
     $colors: $orange, $orange-yellow1, $orange-yellow2, $orange-yellow3, $orange-yellow4, $yellow;
