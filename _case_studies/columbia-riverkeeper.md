@@ -9,7 +9,7 @@ related: bene
 order: 2
 image: https://thinkshout.com/assets/images/case-studies/CORI-case-study-header.jpg
 image-alt: "View of the Comumbia River valley."
-description: "Columbia Riverkeeper’s mission is to protect and restore the water quality of the Columbia River and all life connected to it, from the headwaters to the Pacific Ocean."
+description: "Columbia Riverkeeper’s mission is to protect and restore the water quality of the Columbia River and all life connected to it. Their previous website lacked intuitive navigation, and no longer reflected the organization’s brand. They desperately needed a site that told a compelling story, allowed visitors to easily find important information, and increase conversion for donation and newsletter subscriptions."
 # END LAYOUT DATA
 
 title: Helping a local environmental group effectively engage audiences
@@ -31,14 +31,7 @@ cs-header:
 
 cs-intro:
   - intro-paragraph: |
-      Columbia Riverkeeper’s mission is to protect and restore the water quality of the Columbia River and all life connected to it, from the headwaters to the Pacific Ocean. Their previous website lacked intuitive navigation, and no longer reflected the organization’s brand. They desperately needed a site that did the following three things:
-
-      1. Would allow people to easily find the information they were looking for,
-      2. Told a compelling story of who they are and what they do, and
-      3. Increased conversions for donations and newsletter subscriptions
-
-      They also wanted a platform that was easier to manage, more performant, and secure. Bene was the perfect solution to address all of these points.
-
+      Columbia Riverkeeper’s mission is to protect and restore the water quality of the Columbia River and all life connected to it. Their previous website lacked intuitive navigation, and no longer reflected the organization’s brand. They desperately needed a site that told a compelling story, allowed visitors to easily find important information, and increase conversion for donation and newsletter subscriptions.
 
   - intro-title: Challenge
     intro-text: |
@@ -65,8 +58,11 @@ cs-sections:
   - section-description: |
       Our experienced staff worked with Columbia Riverkeeper to define and prioritize their target audiences, their motivations, and how to structure content on their site to keep those audiences coming back and engaged.
 
-  - section-image: "/assets/images/case-studies/CORI-large-3.jpg"
-    section-image-alt: "Columbia Riverkeeper Brealing Screen on a laptop"
+
+  - section-type: quote
+    section-quote: |
+      “ThinkShout's BENE platform is a forward-thinking solution designed to make the daunting task of building a website, a fun and enjoyable experience. Thanks to ThinkShout's team, no matter how complex the design request seems, the BENE platform delivers a thoughtful, well-designed solution.”
+    section-attribution: "~ Liz Terhaar, Communications Director, Columbia Riverkeeper"
 
   - section-description: |
       Next was the application of the Bene base build, followed by the implementation of Columbia Riverkeeper’s design. We also provided template theming for Salsa, (their CRM system and Email Service Provider) to ensure continuity for the end user when they completed petitions or other actions on their site.
@@ -75,13 +71,6 @@ cs-sections:
 
   - section-image: "/assets/images/case-studies/CORI-large-2.jpg"
     section-image-alt: "Website homepage displayed on a smartphone"
-
-
-  - section-type: quote
-    section-quote: |
-      “ThinkShout's BENE platform is a forward-thinking solution designed to make the daunting task of building a website, a fun and enjoyable experience. Thanks to ThinkShout's team, no matter how complex the design request seems, the BENE platform delivers a thoughtful, well-designed solution.”
-    section-attribution: "~ Liz Terhaar, Communications Director, Columbia Riverkeeper"
-
 
   - section-image1: "/assets/images/case-studies/CORI-Small-1.jpg"
     section-image-alt1: "Website interior displayed on a smartphone"
