@@ -54,9 +54,6 @@ cs-sections:
   - section-image: "/assets/images/case-studies/HSUS-Large-3.jpg"
     section-image-alt: "Laptop view of the HSUS website featuring a malnurished horse in a pen"
 
-  - section-image: "/assets/images/case-studies/HSUS-Large-1.jpg"
-    section-image-alt: "Laptop view of the HSUS website with healthy horses in an open field"
-
   - section-image: "/assets/images/case-studies/HSUS-Large-2.jpg"
     section-image-alt: "Three smartphones showing images of the HSUS website"
 
