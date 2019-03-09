@@ -51,7 +51,7 @@ cs-intro:
 cs-sections:
   - section-title:
     section-description: |
-      Our approach to design was to provide an experience without barriers. Regardless of whether a user is on their phone while taking the train to work or on their desktop at home, they should be able to easily access all resources as well as use them to build learning plans using the step-by-step process we built. We wanted a streamlined experience, with everything from magazine articles, lessons, texts, and professional development materials to be easily digestible, searchable, and most importantly, offer the ability for users to build a plan off of them on the fly.
+      Our approach to design was to provide an experience without barriers. Regardless of whether a user is on their phone while taking the train to work or on their desktop at home, they should be able to easily access all resources as well as use them to build learning plans using the step-by-step process. We wanted a streamlined experience, with everything from magazine articles, lessons, texts, and professional development materials to be easily digestible, searchable, and, most importantly, offer the ability for users to build a plan off of them as they discovered valuable resources.
 
   - section-image: "/assets/images/case-studies/Tolerance-large1.jpg"
     section-image-alt: "Image: Tolerance.org Tablet"
