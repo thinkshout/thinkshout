@@ -51,14 +51,9 @@ cs-sections:
   - section-description: |
       Facing History’s site had a lot of moving pieces and a massive library of content that needed to be displayed in a variety of ways - from card views and teasers to full, detailed pages. We developed new calls to action that encouraged user engagement with the content. Image styling was a major element of this redesign, transforming what was formerly a primarily text-based site into a highly visual educational experience.
 
-  - section-image: "/assets/images/case-studies/FHAO-Large-1.jpg"
+  - section-image: "/assets/images/case-studies/FHAO-Large-3.jpg"
     section-image-alt: "The Facing History website as viewed on a laptop"
 
-  - section-image1: "/assets/images/case-studies/FHAO-Small-2.jpg"
-    section-image-alt1: "The Facing History website as viewed on a tablet"
-
-    section-image2: "/assets/images/case-studies/FHAO-Small-1.jpg"
-    section-image-alt2: "The Facing History website as viewed on a laptop - reversed!"
 
   - section-description: |
       We built two types of related content blocks, giving Facing History the tools to pull users deeper into their content. The first was a related content block where editors could reference any number of pieces of content or media, and then have them rendered in an attractive card view below or beside the primary content. When a curated block of related content isn’t available, we use Apache Solr’s “More Like This” functionality to display relevant content based on its similarity with the primary content. These same blocks can also show related or relevant upcoming events. To the site visitor, there’s no difference between how the blocks appear, but the flexibility affords Facing History’s team the ability to carefully curate the most important content without worrying about breaking the experience in other areas.
