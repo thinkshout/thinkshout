@@ -115,12 +115,8 @@ layout: default
             </div>
           </div>
         {% elsif section.section-video %}
-          <div class="white-bg">
-            <div class="case-wrapper">
-              {% if section.section-video %}
-                {{ section.section-video }}
-              {% endif %}
-            </div>
+          <div class="inline">
+            {{ section.section-video }}
           </div>
         {% endif %}
 
