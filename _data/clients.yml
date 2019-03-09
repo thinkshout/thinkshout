@@ -27,14 +27,17 @@
     - name: RedesignU
     - name: Stanford University
     - name: University of California
+    - name: University of Chicago
 
 - sector: Environment
   clients:
+    - name: 1000 Friends of Oregon
     - name: Baltimore Harborkeeper
+    - name: Columbia Riverkeeper
     - name: Ecotrust
+    - name: Energy Trust of Oregon
     - name: Environmental Defense Fund
     - name: The Intertwine Alliance
-    - name: Izaak Walton League of America
     - name: Mohonk Preserve
     - name: North Saskatchewan Riverkeeper
     - name: Ocean Outcomes
@@ -44,15 +47,20 @@
     - name: Tree People
     - name: Trust for Conservation Innovation
     - name: Wild Salmon Center
+    - name: Willamette River Initiative
 
 - sector: Health and Wellness
   clients:
     - name: American Tinnitus Association
     - name: Cascade Bicycle Club
-    - name: Change Lab Solutions
+    - name: ChangeLab Solutions
     - name: Families USA
+    - name: Lehigh Valley Health Network
+    - name: NASTAD
+    - name: National Council on Family Relations
     - name: National Kidney Foundation
     - name: Portland Design Works
+    - name: Shatterproof
     - name: Young Survival Coalition
 
 - sector: Human Services
@@ -62,12 +70,14 @@
     - name: Feeding Texas
     - name: Mercy Corps
     - name: Relief International
+    - name: Women for Women International
 
 - sector: Philanthropy
   clients:
     - name: The Colorado Trust
     - name: Donors Forum
     - name: Forum of Regional Associations of Grantmakers
+    - name: Lemelson Foundation
     - name: Meyer Memorial Trust
     - name: Nike Foundation
     - name: Philanthropy Northwest
@@ -77,8 +87,8 @@
 
 - sector: Social Justice and Human Rights
   clients:
-    - name: Intercommunity Justice and Peace Center
-    - name: International Labor Rights Forum
+    - name: Campaign Legal Center
+    - name: Demos
     - name: Mobility International USA
     - name: National Center for Youth Law
     - name: Open Technology Fund
@@ -93,4 +103,3 @@
 
 # Clients without sectors:
 # - name: National Parks Service
-# - name: Lemelson Foundation
