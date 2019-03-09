@@ -80,7 +80,7 @@ cs-sections:
       By moving humanesociety.org to Drupal, their team now has a completely custom website for the first time in recent memory, with features and controls that allow them to make visiting the new website a totally on-brand, unique, and compelling experience. For example, in order to showcase their Big Fights in a meaningful way, we implemented cinemagraphs on those key pages — animated images that bring the animal to life right in front of your eyes. We also built exciting new popup functionality that slides in to the user’s view and then repeats further down the page, all completely customizable on a page-by-page basis.
 
   - section-video: |
-      <video width="1216" height="auto" style="max-width:1216px" playsinline autoplay loop muted markdown="0"><source src="/assets/images/case-studies/HSUS-puppy-mills.mp4" type="video/mp4" markdown="0"></video>
+      <video width="1216" height="auto" style="max-width:100%" playsinline autoplay loop muted markdown="0"><source src="/assets/images/case-studies/HSUS-puppy-mills.mp4" type="video/mp4" markdown="0"></video>
 
   - section-image1: "/assets/images/case-studies/HSUS-Small-1.jpg"
     section-image-alt1: "View of the HSUS website on a smartphone with a clear call to action"

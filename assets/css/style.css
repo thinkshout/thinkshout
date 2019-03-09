@@ -4176,7 +4176,7 @@ a:visited {
     .case-study .case-study-hero h2 {
       font-size: 3.5rem; } }
 .case-study .case-study-header {
-  background-position: left top;
+  background-position: center top;
   background-size: cover;
   color: #fff;
   height: 100%;
