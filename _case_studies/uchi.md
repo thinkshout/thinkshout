@@ -66,10 +66,6 @@ cs-sections:
     section-image2: "/assets/images/case-studies/uchi-small2.jpg"
     section-image-alt2: "View of a spreadsheet on a laptop"
 
-  - section-type: quote
-    section-quote: |
-      “Quote here”
-    section-attribution: "~ Thomas"
 
   - section-description: |
       We simplified the design and user experience even beyond the critical registration workflows, restructuring program pages to be more self-contained and unique. We built out related content blocks on these pages so relevant blogs and events populate based on the page the user is currently browsing. Additionally, we created sticky call to action blocks that appear for first-time visitors to encourage relationship-building.
