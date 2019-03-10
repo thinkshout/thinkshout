@@ -284,6 +284,12 @@ to = "/work/"
 status = 301
 force = false
 
+[[redirects]]
+from = "/work/archive/"
+to = "/work/"
+status = 301
+force = false
+
 
 
 [[redirects]]
