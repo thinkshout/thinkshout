@@ -49,7 +49,7 @@ cs-intro:
 cs-sections:
   - section-title: Our user research was both in-depth and broad-based.
     section-description: |
-      We began our work by conducting one-on-one interviews of 17 women and three male allies, and distributing a broad-based survey to over 40,000 contacts on the AnitaB.org email list. The individual conversations surfaced invaluable qualitative insights and powerfully candid quotes, while the survey confirmed those insights with solid quantitative data.
+      We [began our work](https://thinkshout.com/blog/2018/07/user-research/) by conducting one-on-one interviews of 17 women and three male allies, and distributing a broad-based survey to over 40,000 contacts on the AnitaB.org email list. The individual conversations surfaced invaluable qualitative insights and powerfully candid quotes, while the survey confirmed those insights with solid quantitative data.
 
       From this research, we developed six unique personas across life and career stages — including two that AnitaB.org had never before considered. We outlined the nuanced needs, motivations, challenges, and success states from our interview and survey findings. And as we looked for patterns and commonalities across all six personas, three core needs soon became apparent.
 
@@ -69,7 +69,7 @@ cs-sections:
 
   - section-title: Our landscape analysis evaluated competitors and identified market opportunities.
     section-description: |
-      With the findings from our user research in hand, we set out to complete a landscape analysis and determine market opportunity. From our in-depth evaluation of six platforms and high-level evaluations on over 20 more, we identified features and functionality that could be improved upon, and gaps that an AnitaB.org platform could fill. Our conclusion was that yes, there was indeed a strong market opportunity for such a platform.
+      With the findings from our user research in hand, we set out to complete a [landscape analysis](https://thinkshout.com/blog/2018/05/Landscape-Analysis/) and determine market opportunity. From our in-depth evaluation of six platforms and high-level evaluations on over 20 more, we identified features and functionality that could be improved upon, and gaps that an AnitaB.org platform could fill. Our conclusion was that yes, there was indeed a strong market opportunity for such a platform.
 
 
   - section-image: "/assets/images/case-studies/AnitaB-Large-1.jpg"
