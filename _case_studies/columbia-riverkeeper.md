@@ -12,7 +12,7 @@ image-alt: "View of the Comumbia River valley."
 description: "Columbia Riverkeeper’s mission is to protect and restore the water quality of the Columbia River and all life connected to it. Their previous website lacked intuitive navigation, and no longer reflected the organization’s brand. They desperately needed a site that told a compelling story, allowed visitors to easily find important information, and increase conversion for donation and newsletter subscriptions."
 # END LAYOUT DATA
 
-title: Helping a local environmental group effectively engage audiences
+title: Helping a local environmental group effectively engage the community
 cs-class: "cori"
 featured_impact_text: Our Planet
 featured_client_name: "Columbia Riverkeeper: From Strategy to Site at a Fraction of the Cost"
@@ -21,12 +21,12 @@ cs-preview:
   image: /assets/images/case-studies/CORI-case-study-header.jpg
   type: "Columbia Riverkeeper"
   client: "Columbia Riverkeeper"
-  description: "Helping a local environmental group effectively engage audiences"
+  description: "Helping a local environmental group effectively engage the community"
 
 cs-header:
   header-image: /assets/images/case-studies/CORI-case-study-header.jpg
   client: "Columbia Riverkeeper"
-  title: "Helping a local environmental group effectively engage audiences"
+  title: "Helping a local environmental group effectively engage the community"
 
 
 cs-intro:
