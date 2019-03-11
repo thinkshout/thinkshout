@@ -7,7 +7,7 @@ homepage: true
 published: true
 related: splc
 order: 1
-image: https://thinkshout.com/assets/images/case-studies/splc-hero.jpg
+image: https://thinkshout.com/assets/images/case-studies/splc-hero2.jpg
 image-alt: "A laptop showing the redesigned SPLC website."
 description: "The Southern Poverty Law Center (SPLC) fights hatred and bigotry, seeking justice for the most vulnerable members of society. They maintain an annual list of hate groups, expose incidents across the country, and provide critical intelligence for journalists and the public alike."
 # END LAYOUT DATA
@@ -19,13 +19,13 @@ featured_client_name: "The Southern Poverty Law Center: Digital Security & Story
 cs-class: splc
 
 cs-preview:
-  image: /assets/images/case-studies/splc-hero.jpg
+  image: /assets/images/case-studies/splc-hero2.jpg
   type: Responsive Drupal Site
   client: "The Southern Poverty Law Center"
   description: "Exposing the forces of hate in America through digital journalism and data visualization."
 
 cs-header:
-  header-image: /assets/images/case-studies/splc-hero.jpg
+  header-image: /assets/images/case-studies/splc-hero2.jpg
   client: "The Southern Poverty Law Center"
   title: "Exposing the forces of hate in America through digital journalism and data visualization."
 
