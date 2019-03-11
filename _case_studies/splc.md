@@ -7,7 +7,7 @@ homepage: true
 published: true
 related: splc
 order: 1
-image: https://thinkshout.com/assets/images/case-studies/splc_large1.jpg
+image: https://thinkshout.com/assets/images/case-studies/splc-hero.jpg
 image-alt: "A laptop showing the redesigned SPLC website."
 description: "The Southern Poverty Law Center (SPLC) fights hatred and bigotry, seeking justice for the most vulnerable members of society. They maintain an annual list of hate groups, expose incidents across the country, and provide critical intelligence for journalists and the public alike."
 # END LAYOUT DATA
@@ -19,13 +19,13 @@ featured_client_name: "The Southern Poverty Law Center: Digital Security & Story
 cs-class: splc
 
 cs-preview:
-  image: /assets/images/case-studies/splc_large1.jpg
+  image: /assets/images/case-studies/splc-hero.jpg
   type: Responsive Drupal Site
   client: "The Southern Poverty Law Center"
   description: "Exposing the forces of hate in America through digital journalism and data visualization."
 
 cs-header:
-  header-image: /assets/images/case-studies/splc_large1.jpg
+  header-image: /assets/images/case-studies/splc-hero.jpg
   client: "The Southern Poverty Law Center"
   title: "Exposing the forces of hate in America through digital journalism and data visualization."
 
@@ -53,6 +53,9 @@ cs-sections:
 
   - section-description: |
       After reviewing usage data for the SPLC’s previous site, we realized visitors faced a significant roadblock because content was organized according to internal structures. We worked with the SPLC on a comprehensive content strategy that put visitors first. This key step helped maintain – and build – the SPLC’s reputation as a trusted source of information for supporters, donors, and the general public.
+
+  - section-image: "/assets/images/case-studies/splc_large1.jpg"
+    section-image-alt: "SPLC Mobile"
 
   - section-image: "/assets/images/case-studies/splc_large2.jpg"
     section-image-alt: "SPLC Mobile"
