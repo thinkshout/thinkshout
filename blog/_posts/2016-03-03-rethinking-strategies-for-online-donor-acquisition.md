@@ -13,7 +13,7 @@ tags:
   - Benchmarks
   - Nonprofit tech
 date: 2016-03-03 13:00:00
-image: /assets/images/ts_icon.jpg
+image: /assets/images/thinkshout-logo.png
 topic: strategy
 ---
 

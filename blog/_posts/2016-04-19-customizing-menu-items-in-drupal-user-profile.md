@@ -14,7 +14,7 @@ tags:
   - Customize Menus
   - Drupal 7
 date: 2016-04-19 13:00:00
-image: /assets/images/ts_icon.jpg
+image: /assets/images/thinkshout-logo.png
 ---
 
 We were recently asked by a client to edit the user profile view page on their site. This client needed us to move the link to the user’s contact form out of the tab area at the top of the profile and replace it with a link that appears further down in the content of the user’s profile. While this is not something you can do through the admin interface in Drupal 7, it is easy to do with just a few lines of code in a custom module, which I will show you how to do here.

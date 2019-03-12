@@ -13,7 +13,7 @@ tags:
   - Drupal Planet
   - hsus
 date: 2016-01-11 09:30:00
-image: /assets/images/ts_icon.jpg
+image: /assets/images/thinkshout-logo.png
 topic: culture
 ---
 

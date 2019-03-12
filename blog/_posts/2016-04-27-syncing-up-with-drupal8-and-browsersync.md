@@ -14,7 +14,7 @@ tags:
   - Drupal 8
   - Theming
 date: 2016-04-27 13:00:00
-image: /assets/images/ts_icon.jpg
+image: /assets/images/thinkshout-logo.png
 ---
 
 Drupal 8 theming can be irksome with cache-rebuilding and browser refreshing, especially with responsive design. Wouldn't it be great if you could just open your site on three different devices and have them update live as you edit your theme?

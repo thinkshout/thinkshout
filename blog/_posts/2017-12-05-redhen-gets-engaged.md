@@ -16,7 +16,7 @@ tags:
   - Non-profit
   - Digital Ecosystem
 date: 2017-12-05 08:20:00
-image: https://thinkshout.com/assets/images/ts_icon.jpg
+image: https://thinkshout.com/assets/images/thinkshout-logo.png
 ---
 
 One of the early features built into the [RedHen CRM suite](https://www.drupal.org/project/redhen) is the engagement submodule. Recently, ThinkShout had the opportunity to implement this for our philanthropic education client [Learning To Give](https://www.learningtogive.org/).

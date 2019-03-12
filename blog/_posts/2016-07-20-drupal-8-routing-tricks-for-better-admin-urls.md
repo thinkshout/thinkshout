@@ -14,7 +14,7 @@ tags:
   - Drupal Planet
   - NCYL
 date: 2016-07-20 14:30:00
-image: https://thinkshout.com/assets/images/ts_icon.jpg
+image: https://thinkshout.com/assets/images/thinkshout-logo.png
 ---
 
 We recently launched a new case tracker for foster ed youth designed to improve their educational outcomes in partnership with [The National Center for Youth Law](http://youthlaw.org/) (NCYL). The web application replaces their existing platform, Goal Book, which lacked the flexibility they needed to meet their requirements. A web application differs from a website in that a website primarily provides *content* where a web application primarily provides *tools*.
