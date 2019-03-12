@@ -15,7 +15,7 @@ tags:
   - Fundraising
   - Digital Ecosystem
 date: 2016-05-31 14:00:00
-image: /assets/images/thinkshout-logo.png
+image: /assets/images/thinkshout-logo1.jpg
 ---
 
 We’ve talked about [ways to attract and on-board new supporters](https://thinkshout.com/blog/2016/03/rethinking-strategies-for-online-donor-acquisition/). Maybe you’ve started testing some of those strategies and set up a lightbox. That was a lot of hard work! Let’s take a break...

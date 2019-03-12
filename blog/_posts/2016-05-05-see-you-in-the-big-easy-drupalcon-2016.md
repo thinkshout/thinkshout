@@ -14,7 +14,7 @@ tags:
   - DrupalCon
   - Events
 date: 2016-05-05 15:00:00
-image: /assets/images/thinkshout-logo.png
+image: /assets/images/thinkshout-logo1.jpg
 header-image: /assets/images/ts_redesign/blog/up-and-theming1.jpg
 header-image-alt: "Image: Model Thinkshout Employees"
 ---

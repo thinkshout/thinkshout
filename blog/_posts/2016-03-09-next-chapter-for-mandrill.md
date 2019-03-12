@@ -15,7 +15,7 @@ tags:
   - Open source
   - Modules
 date: 2016-03-09 15:00:00
-image: /assets/images/thinkshout-logo.png
+image: /assets/images/thinkshout-logo1.jpg
 ---
 
 It’s easy to take for granted all the great tools we use on the web, everything from email, to social media, to git hosting. Many of these services are free or use advertising to support the sometimes significant costs to run them. [Mandrill](https://www.mandrill.com/) is one of those great tools and one that we’ve been recommending to our clients on a consistent basis. If you’re unfamiliar with Mandrill, it’s a transactional email service for sending email ranging from password resets to Commerce receipts. Now we realize that your webserver can already send email, so why bother with a service like Mandrill? It offers three major advantages: 

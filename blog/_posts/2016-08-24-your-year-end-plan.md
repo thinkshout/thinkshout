@@ -15,7 +15,7 @@ tags:
   - Email marketing
   - tror
 date: 2016-08-24 12:30:00
-image: https://thinkshout.com/assets/images/thinkshout-logo.png
+image: https://thinkshout.com/assets/images/thinkshout-logo1.jpg
 header-image: /assets/images/blog/year-end-plan-header.jpg
 header-image-alt: "Your Year-End Plan - Never Too Early to Start"
 ---

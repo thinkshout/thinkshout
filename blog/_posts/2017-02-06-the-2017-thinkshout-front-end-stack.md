@@ -16,7 +16,7 @@ tags:
   - SASS
   - Bourbon
 date: 2017-02-06 13:00:00
-image: https://thinkshout.com/assets/images/thinkshout-logo.png
+image: https://thinkshout.com/assets/images/thinkshout-logo1.jpg
 ---
 
 Front-end development is full of challenges - changing design trends, browser idiosyncrasies, client demands, and ever-evolving web standards to name a few. Over the last few years though, a new challenge has emerged. Which development stack should you choose?
