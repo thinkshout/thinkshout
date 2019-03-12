@@ -1,38 +1,22 @@
 main-menu:
-  - title: Our Work
+  - title: About
+    url: /about/
+
+  - title: Work
     url: /work/
 
   - title: Services
     url: /services/
-    sub:
-      - title: Digital Strategy
-        url: /services/digital-strategy/
-
-      - title: Design & UX
-        url: /services/design/
-
-      - title: Digital Ecosystem
-        url: /services/digital-ecosystem/
-
-      - title: Development
-        url: /services/development/
-
-  - title: Values
-    url: /values/
-
-  - title: Team
-    url: /team/
 
   - title: Blog
     url: /blog/
 
-  - title: Connect With Us
-    url: /contact/
-    header-nav: false
-
   - title: Careers
     url: /careers/
     header-nav: false
+
+  - title: Contact
+    url: /contact/
 
 copyright:
   - title: Privacy Policy

@@ -1,0 +1,527 @@
+.case-study {
+
+  .case-study-hero {
+    margin-top: 55px;
+
+    @include mq(lt) {
+      margin-top: 113px
+    }
+    @include mq(d) {
+      margin-top: 223px;
+    }
+    h1 {
+      color: $orange;
+      display: inline-block;
+      font-size: rem(16);
+      font-weight: 900;
+      line-height: calc(29/24);
+      margin: 0;
+      padding: 0;
+      text-transform: capitalize;
+    }
+
+    h2 {
+      color: $herogray;
+      font-size: rem(25);
+      font-weight: 900;
+      line-height: calc(73/56);
+      margin-bottom: rem(60);
+      margin-top: 0.8rem;
+
+      @include mq(t) { max-width: 80%; }
+      @include mq(d) { max-width: 65%; }
+    }
+    @include mq(t) {
+      h1 { font-size: rem(18); }
+      h2 { font-size: rem(38); }
+    }
+    @include mq(d) {
+      h1 { font-size: rem(24); }
+      h2 { font-size: rem(56); }
+    }
+  }
+  .case-study-header {
+    background-position: center top;
+    background-size: cover;
+    color: $white;
+    height: 100%;
+    padding: 6rem 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+
+    @include mq(t) { padding: 12rem 0; }
+    @include mq(l) { padding: 18rem 0; }
+  }
+
+  .case-intro {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    @media (min-width: 481px) and (max-width: 767px) {
+      padding: 2rem;
+    }
+    @media (min-width: 768px) and (max-width: 979px) {
+      flex-direction: row; padding: 2rem;
+    }
+    @include mq(d) {
+      flex-direction: row;
+      padding: 6rem 7rem;
+    }
+  }
+  .case-intro .text p,
+  .case-intro .titles p {
+    margin: 0 0 rem(24) 0;
+  }
+  .case-intro .text,
+  .case-intro .titles h3 {
+    color: $darkgray;
+    display: inline-block;
+    font-size: rem(16);
+    font-weight: 900;
+    line-height: calc(32/24);
+    margin: 0 0 rem(8) 0;
+    @media (min-width: 768px) and (max-width: 979px) {
+      font-size: rem(19);
+    }
+    @media (min-width: 980px) {
+      font-size: rem(22);
+    }
+  }
+  .case-intro .titles p {
+    color: $casegray;
+    font-size: rem(16);
+    font-weight: 300;
+    line-height: calc(29/16);
+  }
+
+  .case-intro .text {
+    @include mq(t) { flex: 0 0 48%; }
+    @include mq(d) { flex: 0 0 50%; }
+  }
+  .case-intro .titles {
+    @include mq(t) { flex: 0 0 48%; }
+    @include mq(d) { flex: 0 0 40%; }
+  }
+
+  .case-intro ol li {
+    font-size: rem(15);
+    font-weight: 600;
+    line-height: calc(32/28);
+    list-style-type: decimal;
+    margin: 0 rem(24) rem(12) rem(4);
+    @media (min-width: 768px) and (max-width: 979px) {
+      font-size: rem(17);
+    }
+    @media (min-width: 980px) {
+      font-size: rem(20);
+    }
+  }
+
+  .body {
+    h4,
+    p,
+    blockquote,
+    li,
+    div.inline {
+      color: $casegray;
+      margin: 1em auto;
+      max-width: 1440px;
+      padding: 0 7rem;
+      @include mq(m) { padding: 0 1rem; }
+      @include mq(t) { padding: 0 1rem; }
+    }
+
+    ul li {
+      font-size: rem(18);
+      font-weight: bold;
+      margin-bottom: rem(8);
+      margin-top: 0;
+      padding: 0;
+
+      @include mq(lt) { font-size: rem(18); }
+      @include mq(d) { font-size: rem(20); }
+
+      &:before {
+        content: '•';
+        padding-right: rem(12);
+      }
+    }
+
+    .case-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1440px;
+      padding: 3rem 7rem;
+      height: auto;
+      @include mq(m) { padding: 3rem 1rem; }
+      @include mq(t) { min-height: 50vw; padding: 4.5rem 2rem; }
+      @include mq(d) { min-height: 600px; }
+      @include mq(l) { min-height: 800px; }
+    }
+
+    h4, p {
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    h4 {
+      color: $orange;
+      font-size: rem(20);
+      font-weight: 900;
+      line-height: calc(30/26);
+      @include mq(lt) { font-size: rem(23); }
+      @include mq(d) { font-size: rem(26); }
+    }
+    p {
+      color: $casegray;
+      font-size: rem(16);
+      font-weight: 600;
+      line-height: calc(35/20);
+      margin: 0 0 1rem;
+      @include mq(lt) { font-size: rem(18); }
+      @include mq(d) { font-size: rem(20); }
+    }
+    p + p {
+      margin: 1rem 0 0;
+    }
+
+    .default,
+    .gray-bg,
+    .black-bg  {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .gray-bg,
+    .black-bg {
+      background-color: $bggray;
+      h4, p {
+        width: 75%;
+        @include mq(m) { width: 100%; }
+        @include mq(t) { width: 90%; }
+      }
+    }
+
+    .black-bg {
+      background-color: $bgblack;
+      p, li { color: $white; }
+      h4 { color: $midyellow; }
+    }
+
+    .quote {
+      .case-wrapper {
+        align-items: center;
+        text-align: center;
+      }
+      p {
+        font-size: rem(18);
+        font-weight: 900;
+        line-height: calc(55/36);
+        width: 95%;
+        @include mq(lt) { font-size: rem(24); }
+        @include mq(d) { font-size: rem(36); }
+      }
+      h4 {
+        font-size: rem(14);
+        font-weight: 900;
+        line-height: calc(45/16);
+        text-transform: uppercase;
+        margin: 0;
+        @include mq(lt) { font-size: rem(15); }
+        @include mq(d) { font-size: rem(16); }
+      }
+    }
+
+    .result {
+      .case-wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        @include mq(lt) { flex-direction: row; }
+        @include mq(d) { flex-direction: row; }
+      }
+      .result-set {
+        flex: 1 1 66.666%;
+        p {
+          font-size: 16px;
+          font-weight: 700;
+          line-height: calc(35/20);
+          @include mq(lt) { font-size: rem(18); }
+          @include mq(d) { font-size: rem(20); }
+        }
+      }
+      .data-set {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        .data-wrapper {
+          flex: 0 1 32%;
+          @include mq(lt) { flex: 0 1 25%; }
+          @include mq(d) { flex: 0 1 25%; }
+        }
+        .number {
+          color: $orange;
+          font-size: rem(24);
+          font-weight: 600;
+          line-height: calc(48/44);
+          @include mq(lt) { font-size: rem(34); }
+          @include mq(d) { font-size: rem(44); }
+        }
+        .data-text {
+          color: $white;
+          font-size: rem(14);
+          font-weight: 700;
+          line-height: calc(20/16);
+          margin: 0 0 1rem;
+          max-width: 90%;
+          @include mq(lt) { font-size: rem(15); }
+          @include mq(d) { font-size: rem(16); }
+        }
+      }
+      .result-right {
+        flex: 1 1 25%;
+        img {
+          width: 100%;
+        }
+        .caption {
+          color: #D9D9D9;
+          font-size: rem(12);
+          font-weight: 400;
+          line-height: calc(23/13);
+          width: 100%;
+          @include mq(lt) { font-size: rem(12); }
+          @include mq(d) { font-size: rem(13); }
+        }
+      }
+    }
+
+    a.intro {
+      color: #000;
+      display: block;
+      font-weight: 900;
+      &:after {
+        border-bottom: 3px solid $ltgray;
+        content: "";
+        display: block;
+        margin: 1rem auto 1.2rem;
+        width: 47px;
+      }
+    }
+
+    .caption {
+      color: $midgray;
+      display: block;
+      font-size: 0.85rem;
+      margin: .5rem 0 2rem 0;
+      width: 80%;
+      i {
+        @extend %fa-caret-up;
+      }
+    }
+
+    div.inline {
+      margin: 2em auto;
+      img {
+        width: 100%;
+      }
+    }
+
+    div.full {
+      font-size: 0;
+      margin: 0 auto;
+      max-width: 100%;
+      width: 100%;
+      img {
+        width: 100%;
+      }
+      .caption {
+        margin: .5rem 0 2rem 1rem;
+      }
+    }
+
+    div.right {
+      clear: both;
+      float: right;
+      margin-right: 2rem;
+      margin-left: rem(16);
+      margin-bottom: rem(16);
+      width: 30%;
+      img {
+        width: 100%;
+      }
+      @include mq(lt) { width: 250px; margin-right: 5rem;  }
+      @include mq(md) { width: 280px; margin-right: 10rem; }
+      @include mq(l)  { width: 300px; margin-right: 17rem; }
+    }
+
+    .four-up {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: row;
+      .img-wrapper {
+        flex: 0 1 48%;
+        margin-bottom: 3rem;
+        @include mq(m)  { flex: 0 1 100%; }
+        @include mq(p)  { flex: 0 1 100%; }
+      }
+      .caption {
+        margin: .5rem 0 0 0;
+      }
+    }
+
+
+    // blockquote {
+    //   color: $orange;
+    //   font-size: rem(18);
+    //   font-weight: 700;
+    //   line-height: 1.1;
+    //   padding: 0 rem(8);
+    //   text-align: center;
+    //   p {
+    //     line-height: 1.5;
+    //     margin: 0 auto;
+    //     font-style: italic;
+    //   }
+    //   @include mq(lt) { padding: 0 rem(16); font-size: rem(18); }
+    //   @include mq(md) { padding: 0 rem(24); font-size: rem(20); }
+    //   @include mq(l)  { padding: 0 rem(40); font-size: rem(22); }
+    // }
+    // blockquote.attrib {
+    //   font-size: rem(14);
+    //   margin-top: rem(14);
+    //   text-align: right;
+    //   p {
+    //     // font-style: normal;
+    //   }
+    //   @include mq(lt) { padding: 0 rem(16); font-size: rem(14); }
+    //   @include mq(md) { padding: 0 rem(24); font-size: rem(15); }
+    //   @include mq(l)  { padding: 0 rem(40); font-size: rem(16); }
+    // }
+  }
+
+  .cta {
+    margin: 2em auto 0;
+    width: 100%;
+    a {
+      @include transition(background-color 0.3s linear);
+      background-color: $orange;
+      color: $white;
+      display: inline-block;
+      font-size: 0.9rem;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+      margin: 0;
+      padding: rem(12) rem(64);
+      text-transform: uppercase;
+      &:hover {
+        background-color: $midorange;
+      }
+    }
+  }
+
+  .related-case-studies {
+    padding-bottom: rem(85);
+    padding-top: rem(85);
+
+    @include mq(m) {
+      padding-bottom: rem(45);
+      padding-top: rem(45);
+    }
+    @include mq(t) {
+      padding-bottom: rem(65);
+      padding-top: rem(65);
+    }
+
+    h2 {
+      color: $darkgray;
+      font-size: rem(24);
+      padding-bottom: 0;
+      margin-top: 0;
+
+      @include mq(m) { font-size: rem(20); }
+      @include mq(t) { font-size: rem(22); }
+    }
+
+    .more-case-studies {
+      padding-top: rem(35);
+
+      @include mq(m) { padding-top: rem(16); }
+      @include mq(t) { padding-top: rem(22); }
+    }
+  }
+}
+
+// case studies
+.two-case-studies {
+  overflow: hidden;
+
+  .case-study {
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    position: relative;
+  }
+
+  $case: 2;
+  @while $case < 4 {
+    #case-study#{$case} {
+      @include transition(border 0.2s);
+      background-size: cover;
+      border: rem(0) solid $orange;
+      height: 330px;
+      padding: 2rem;
+      width: 48.75%;
+
+      @include mq(m) { height: 285px; width: 100%; }
+
+      &:hover {
+        border: rem(6) solid $orange;
+        @include transition(border 0.2s);
+      }
+    }
+    $case: $case + 1;
+  }
+
+  #case-study2 {
+    margin-bottom: 1.5rem;
+
+    @include mq(t) { margin: 0 2.5% 0 0; }
+    @include mq(d) { margin: 0 2.5% 0 0; }
+  }
+
+  .case-study-text {
+    background: $white;
+    bottom: rem(-8);
+    left: 0;
+    margin: 0 auto;
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 74%;
+  }
+
+  h2 {
+    color: $darkgray;
+    font-size: rem(20);
+    margin: 0;
+    padding-bottom: 0;
+    z-index: 1;
+
+    @include mq(m) { font-size: 1.1rem; }
+    @include mq(t) { font-size: 1.1rem; }
+  }
+}

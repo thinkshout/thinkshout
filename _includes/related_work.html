@@ -1,0 +1,30 @@
+<div class="container related-case-studies">
+
+  <div class="featured-intro">
+    <a href="{{ site.baseurl }}/work/"><h2>Related Work</h2></a>
+  </div>
+
+  <div class="two-case-studies">
+    {% assign related-case-studies = site.case_studies | where: "related", include.related | where_exp: "post", "post.url != page.url" | sort: "order" %}
+    {% assign homepage-case-studies = site.case_studies | where: "homepage", "true" | where_exp: "post", "post.url != page.url" | sort: "order" %}
+    {% assign case-studies = related-case-studies | concat: homepage-case-studies %}
+
+    {% for case in case-studies limit:2 %}
+      <a href="{{ site.baseurl }}{{ case.url }}">
+        <div class="case-study" id="case-study{{ forloop.index | plus: 1 }}">
+        <style>
+          #case-study{{ forloop.index | plus: 1 }} { background: transparent url('{{ site.baseurl }}{{ case.cs-preview.image }}') no-repeat center center /cover; }
+        </style>
+          <div class="case-study-text">
+            <h2>{{ case.cs-preview.client }}</h2>
+          </div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+
+  <div class="more-case-studies">
+    <a href="{{ site.baseurl }}/work/" class="uppercase-link">More work<i class="fa fa-caret-right"></i></a>
+  </div>
+
+</div>

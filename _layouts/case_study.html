@@ -6,44 +6,118 @@ layout: default
       .case-study-header { background-image: url('{{ site.baseurl }}{{ page.cs-header.header-image }}'); }
     </style>
 
-    <section class="case-study-header">
-      <div class="gradient">&nbsp;</div>
-      <div class="wrapper">
+    <section class="container case-study-hero">
+      <h1>{{ page.cs-header.client }}</h1>
+      <h2 class="description">{{ page.cs-header.title }}</h2>
+      <div class="case-study-header"></div>
+    </section>
 
-        <h4>{{ page.cs-header.client }}</h4>
-
-        <h2 class="description">{{ page.cs-header.title }}</h2>
+    <section class="case-intro">
+      {% for paragraph in page.cs-intro %}
+        {% if paragraph.intro-paragraph %}
+          <div class="text">{{ paragraph.intro-paragraph | markdownify }}</div>
+        {% endif %}
+      {% endfor %}
+      <div class="titles">
+        {% for title in page.cs-intro %}
+          {% if title.intro-title %}
+            <h3>{{ title.intro-title }}</h3>
+          {% endif %}
+          {% if title.intro-text %}
+            {{ title.intro-text | markdownify }}
+          {% endif %}
+        {% endfor %}
       </div>
     </section>
 
     <section class="body">
-      <h3 class="intro">{{ page.cs-intro.topic }}</h3>
-      <h4 class="intro">{{ page.cs-intro.mission }}</h4>
-
-      {% if page.cs-intro.link-text %}
-        <a class="intro uppercase-link" href="{{ page.cs-intro.link-url }}" target="_blank">{{ page.cs-intro.link-text }}<i class="fa fa-caret-right"></i></a>
-      {% endif %}
-
-
-
-      <div class="case-intro-text">
-        {% if page.cs-intro.promo-images %}
-        <p>
-        {% for img in page.cs-intro.promo-images %}
-        <img class="{{ img.class }}" src="{{ img.url }}" alt="{{ img.alt }}" />
-        {% endfor %}
-        </p>
-        {% endif %}
-        {{ page.cs-intro.text | markdownify }}
-      </div>
-
       {% for section in page.cs-sections %}
-        {% if section.section-title %}
-          <h4>{{ section.section-title }}</h4>
+        {% if section.section-type == 'quote' %}
+          {% assign case-type-quote = 'quote' %}
+        {% else %}
+          {% assign case-type-quote = '' %}
         {% endif %}
 
-        {% if section.section-description %}
-          {{ section.section-description | markdownify }}
+        {% if section.section-type == 'result' %}
+          {% assign case-type-result = 'result' %}
+        {% else %}
+          {% assign case-type-result = '' %}
+        {% endif %}
+
+        {% if case-type-result == 'result' %}
+          <div class="black-bg result">
+            <div class="case-wrapper">
+              <div class="result-set">
+                {% if section.section-description %}
+                  {{ section.section-description | markdownify }}
+                {% endif %}
+
+                {% if section.section-data-number1 %}
+                  <div class="data-set">
+                    <div class="data-wrapper">
+                      <div class="number">{{ section.section-data-number1 }}</div>
+                      <div class="data-text">{{ section.section-data-text1 }}</div>
+                    </div>
+                    {% if section.section-data-number2 %}
+                      <div class="data-wrapper">
+                        <div class="number">{{ section.section-data-number2 }}</div>
+                        <div class="data-text">{{ section.section-data-text2 }}</div>
+                      </div>
+                    {% endif %}
+                    {% if section.section-data-number3 %}
+                      <div class="data-wrapper">
+                        <div class="number">{{ section.section-data-number3 }}</div>
+                        <div class="data-text">{{ section.section-data-text3 }}</div>
+                      </div>
+                    {% endif %}
+                  </div>
+                {% endif %}
+
+                {% if page.cs-cta-text %}
+                <section class="cta">
+                    <a class="button" href="{{ page.cs-cta-url }}" target="_blank">{{ page.cs-cta-text }}</a>
+                </section>
+                {% endif %}
+              </div>
+
+              {% if section.section-image-right %}
+                <div class="result-right">
+                  <img src="{{ site.baseurl }}{{ section.section-image-right }}" alt="{{ section.section-image-right-alt }}">
+                  {% if section.section-image-right-caption %}
+                    <span class="caption">{{ section.section-image-right-caption }}</span>
+                  {% endif %}
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        {% elsif case-type-quote == 'quote' %}
+          <div class="black-bg quote">
+            <div class="case-wrapper">
+              {% if section.section-quote %}
+                {{ section.section-quote | markdownify }}
+              {% endif %}
+
+              {% if section.section-attribution %}
+                <h4>{{ section.section-attribution }}</h4>
+              {% endif %}
+            </div>
+          </div>
+        {% elsif section.section-title or section.section-description %}
+          <div class="gray-bg">
+            <div class="case-wrapper">
+              {% if section.section-title %}
+                <h4>{{ section.section-title }}</h4>
+              {% endif %}
+
+              {% if section.section-description %}
+                {{ section.section-description | markdownify }}
+              {% endif %}
+            </div>
+          </div>
+        {% elsif section.section-video %}
+          <div class="inline">
+            {{ section.section-video }}
+          </div>
         {% endif %}
 
         {% if section.section-image %}
@@ -58,31 +132,70 @@ layout: default
           {% endif %}
           <img src="{{ site.baseurl }}{{ section.section-image }}" alt="{{ section.section-image-alt }}">
           {% if section.section-image-caption %}
-            <span class="caption"><i class="fa fa-caret-up"></i>{{ section.section-image-caption }}</span>
+            <span class="caption">{{ section.section-image-caption }}</span>
           {% endif %}
             </div>
+        {% endif %}
+
+        {% if section.section-image1 %}
+          <div class="inline four-up">
+            <div class="img-wrapper">
+              <img src="{{ site.baseurl }}{{ section.section-image1 }}" alt="{{ section.section-image-alt1 }}">
+              {% if section.section-image-caption1 %}
+                <span class="caption">{{ section.section-image-caption1 }}</span>
+              {% endif %}
+            </div>
+            <div class="img-wrapper">
+              <img src="{{ site.baseurl }}{{ section.section-image2 }}" alt="{{ section.section-image-alt2 }}">
+              {% if section.section-image-caption2 %}
+                <span class="caption">{{ section.section-image-caption2 }}</span>
+              {% endif %}
+            </div>
+            {% if section.section-image3 %}
+              <div class="img-wrapper">
+                <img src="{{ site.baseurl }}{{ section.section-image3 }}" alt="{{ section.section-image-alt3 }}">
+                {% if section.section-image-caption3 %}
+                  <span class="caption">{{ section.section-image-caption3 }}</span>
+                {% endif %}
+              </div>
+            {% endif %}
+            {% if section.section-image4 %}
+              <div class="img-wrapper">
+                <img src="{{ site.baseurl }}{{ section.section-image4 }}" alt="{{ section.section-image-alt4 }}">
+                {% if section.section-image-caption4 %}
+                  <span class="caption">{{ section.section-image-caption4 }}</span>
+                {% endif %}
+              </div>
+            {% endif %}
+          </div>
         {% endif %}
       {% endfor %}
     </section>
 
-    {% if page.cs-cta-text %}
-    <section class="cta">
-        <a class="button" href="{{ page.cs-cta-url }}" target="_blank">{{ page.cs-cta-text }}</a>
-    </section>
-    {% endif %}
-    <div class="our-services">
+    {% assign related_content = page.related %}
+    {% include related_work.html related=related_content %}
+
+    <div class="team-member-blog">
       <div class="container">
-        <h1>Other work</h1>
-      </div>
-      <div class="container case-studies">
-        {% assign case-studies = site.case_studies | where: "active", "true" | sort: "order" %}
-        {% for case in case-studies %}
-        {% if case.url != page.url %}
-          <div class="our-services-block">
-            <a href="{{ site.baseurl }}{{ case.url }}"><h2>{{ case.cs-header.client }}</h2></a>
-            <p>{{ case.cs-preview.description }}</p>
-          </div>
-        {% endif %}
-        {% endfor %}
+        <h4>Related Blogs</h4>
+        <div class="row posts">
+          {% assign tsloop = 1 %}
+          {% for post in site.posts %}
+            {% if post.layout == 'blog' and post.published %}
+              {% for tag in post.tags %}
+                {% assign cstag = tag | downcase %}
+                {% if cstag == related_content %}
+                  {% include blogs_related.html %}
+
+                  {% assign tsloop = tsloop | plus: 1 %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+
+            {% if tsloop > 3 %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        </div>
       </div>
     </div>

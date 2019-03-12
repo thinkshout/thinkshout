@@ -2,9 +2,9 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study ocean-outcomes
-active: true
-homepage: true
-published: true
+active: false
+homepage: false
+published: false
 order: 10
 # END LAYOUT DATA
 

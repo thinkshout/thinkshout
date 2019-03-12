@@ -14,7 +14,7 @@ team-image:
   small: team/small/greg.jpg
   medium: team/medium/greg.jpg
   large: team/large/greg.jpg
-published: false
+published: true
 current-employee: false
 name: greg
 bio: |

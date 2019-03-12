@@ -13,6 +13,7 @@ tags:
   - Culture
   - ThinkShout Cares
   - Emerging Leaders Internship
+  - wfwi
 date: 2018-06-26 11:00:00
 image: https://thinkshout.com/assets/images/group.jpg
 header-image: /assets/images/blog/group.jpg

@@ -1,0 +1,54 @@
+.our-work {
+  .work-hero {
+    margin-top: 55px;
+
+    @include mq(lt) {
+      margin-top: 113px
+    }
+    @include mq(d) {
+      margin-top: 223px;
+    }
+    h1 {
+      color: $herogray;
+      font-size: rem(25);
+      font-weight: 900;
+      line-height: calc(73/56);
+      margin-bottom: rem(35);
+      margin-top: 0.8rem;
+      @include mq(lt) { font-size: rem(38); }
+      @include mq(d) { font-size: rem(56); }
+
+      em {
+        color: $orange;
+        font-style: normal;
+      }
+
+      @include mq(t) {
+        max-width: 95%;
+        margin-bottom: rem(55);
+      }
+      @include mq(d) {
+        max-width: 90%;
+        margin-bottom: rem(75);
+      }
+    }
+    h2 {
+      color: $herogray;
+      font-size: rem(16);
+      font-weight: 900;
+      line-height: calc(73/56);
+      margin-bottom: 0;
+      margin-top: 0;
+      @include mq(lt) { font-size: rem(18); }
+      @include mq(d) { font-size: rem(24); }
+
+      em {
+        color: $orange;
+        font-style: normal;
+      }
+
+      @include mq(t) { max-width: 95%; }
+      @include mq(d) { max-width: 90%; }
+    }
+  }
+}

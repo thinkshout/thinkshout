@@ -1,20 +1,21 @@
-<div class="our-services">
-  <div class="container">
+<div class="container">
+  <div class="our-services">
     <div class="our-services-intro">
-      <a href="{{ site.baseurl }}services/"><h1>Our Services</h1></a>
-      {% if page.layout != "services-detail" %}
-        <a href="{{ site.baseurl }}/services/" class="uppercase-link">Services<i class="fa fa-caret-right"></i></a>
-      {% endif %}
+      <a href="{{ site.baseurl }}services/"><h3>Our Services</h3></a>
     </div>
-    {% for area in site.services %}
+    <div class="our-services-blocks">
       <div class="our-services-block">
-        {% if page.slug == area.slug %}
-          <h2>{{ area.title }}</h2>
-        {% else %}
-          <a href="{{ site.baseurl }}{{ area.url }}"><h2>{{ area.title }}</h2></a>
-        {% endif %}
-        <p>{{ area.blurb_short }}</p>
+        <a href="{{ site.baseurl }}services/#strategy"><h4>Strategy &amp; Insights</h4><span class="arrow-right"></span></a>
+        <p>We provide data-driven recommendations that set your most important initiatives up for success.</p>
       </div>
-    {% endfor %}
+      <div class="our-services-block">
+        <a href="{{ site.baseurl }}services/#design"><h4>Design &amp; User Experience</h4><span class="arrow-right"></span></a>
+        <p>We infuse your brand into every touchpoint to advance your goals and inspire action.</p>
+      </div>
+      <div class="our-services-block">
+        <a href="{{ site.baseurl }}services/#development"><h4>Technology &amp; SUpport</h4><span class="arrow-right"></span></a>
+        <p>We build world-class digital products that deliver real impact.</p>
+      </div>
+    </div>
   </div>
 </div>

@@ -1,0 +1,128 @@
+---
+layout: default
+permalink: values_old/
+title: Values
+---
+<div class="intro">
+  <div class="container">
+    <div class="text">
+      <h1>{{ page.title }}</h1>
+      <p>We are ThinkShout, a Portland-grown, certified B Corp dedicated to delivering exceptional web development, design, user experience, and strategy to the nonprofits and forward-thinking organizations that inspire us.</p>
+    </div>
+  </div>
+</div>
+
+<div class="blog-header-image">
+  <img src="{{ site.baseurl }}/assets/images/ts_redesign/who-we-are.jpg" alt="Alex and Brett, working together." />
+</div>
+
+<div class="our-values-block">
+  <div class="container">
+    <div class="right-caret">
+      <h4>Our Values<i class="fa fa-caret-right"></i></h4>
+    </div>
+
+    <div class="down-caret">
+      <h4>Our Values</h4>
+      <i class="fa fa-caret-down"></i>
+    </div>
+
+    <div class="row">
+      <div class="value">
+        <h3>Innovation</h3>
+        <p>
+          We embrace flexibility and creativity in the approaches we take to serve
+          our clients and staff. We recognize that our success is supported
+          through refinement of our processes.
+        </p>
+      </div>
+      <div class="value">
+        <h3>Expertness</h3>
+        <p>
+          We bring proficiency and good judgement to problem solving, both
+          internally and in serving clients. We are dedicated to being among the
+          best at what we do, fostering a culture of continuous education and
+          improvement.
+        </p>
+      </div>
+      <div class="value">
+        <h3>Respect</h3>
+        <p>
+          We respect our clients as experts in their field and honor their
+          missions and resources. We respect the individuality and diversity of
+          our peers. We treat each other with respect and kindness, honoring the
+          different but equally important contributions that we all make in
+          service to our mission.
+        </p>
+      </div>
+      <div class="value">
+        <h3>Sustainability</h3>
+        <p>
+          We are committed to building a stable business that our team and clients
+          can depend upon over time. Through our business practices, values, and
+          client engagements, we seek to improve local communities and to have a
+          more positive impact on the environment.
+        </p>
+      </div>
+      <div class="value">
+        <h3>Helpfulness</h3>
+        <p>
+          We support the nonprofit and broader technology community through our
+          open source contributions. We are committed to supporting our peers in
+          their daily work and professional growth. We help organizations make the
+          world a better place.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bcorp-info-block">
+  <div class="container">
+    <div class="bcorp-text valign-wrap">
+      <div class="valign">
+        <h4>A <span>Beneficial </span>corporation</h4>
+        <p>
+          Since our founding in 2011, our focus has been on building a company that is
+          generous to its staff, its clients, and the community. In 2015, we
+          formalized this commitment by achieving B Corp certification. As a
+          Beneficial Corporation, we have embraced a framework and global movement
+          that helps continue to make intentional choices that put people and the
+          planet above profit.
+        </p>
+        {% assign items = site.data.menu.external %}
+        {% for item in items %}
+          {% if item.title == 'bcorp'%}
+            <a href="{{ item.url }}" class="uppercase-link" target="_blank">
+              Learn more about our journey to becoming a B corp<i class="fa fa-caret-right"></i>
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="our-team-block">
+  <div class="container">
+    {% for item in site.data.menu.main-menu %}
+    {% if item.url == '/team/' %}
+      <a href="{{ site.baseurl }}{{ item.url }}"><h2>Our Team</h2></a>
+      <p>
+        We lead with technical excellence, innovation, and sustainable business
+        practices. We’ve got our finger on the pulse of the open source community
+        and we contribute back daily. We believe that company culture goes deeper
+        than having an office ping pong table.
+      </p>
+      <a href="{{ site.baseurl }}{{ item.url }}" class="uppercase-link">
+        Get to know us<i class="fa fa-caret-right"></i>
+      </a>
+      <a href="{{ site.baseurl }}{{ item.url }}" class="team-image">
+        <img src="{{ site.baseurl }}/assets/images/ts_redesign/our-team.jpg" alt="Six images of our team displayed in a montage." />
+      </a>
+    {% endif %}
+  {% endfor %}
+  </div>
+</div>
+
+{% include careers-cta.html %}
