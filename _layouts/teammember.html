@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% if page.current-employee %}
 <div class="container team-detail">
   <div class="split">
     <div class="team-member-side side-left">
@@ -42,11 +43,17 @@ layout: default
   {% endif %}
 </ul>
 
+{% endif %}
+
 {% assign names = site.posts | map: 'author' %}
 {% if names contains page.name %}
   <div class="team-member-blog">
     <div class="container">
+      {% if page.current-employee %}
       <h4>{{ page.first_name }}'s Recent Blog Posts</h4>
+      {% else %}
+      <h4>{{ page.first_name }}'s Blog Post Archive</h4>
+      {% endif %}
       <div class="row posts">
         {% assign author_posts = site.posts | where: "author", page.name %}
           {% for post in author_posts %}
@@ -77,6 +84,7 @@ layout: default
     </div>
   </div>
 {% endif %}
+
 
 <div class="team">
   {% include teamlisting.html %}

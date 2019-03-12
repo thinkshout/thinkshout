@@ -2,19 +2,11 @@
   <div class="container">
     <div class="text">
       <div class="header-down-caret">
-        <h4>Careers</h4>
+        <h4>Careers at ThinkShout</h4>
         <i class="fa fa-caret-down"></i>
       </div>
-      <p>
-        If you share our passion for open source technology and digital
-        strategy, we’d love to hear from you.
-      </p>
-      {% assign items = site.data.menu.main-menu %}
-      {% for item in items %}
-        {% if item.title == 'Careers'%}
-          <a href="{{ site.baseurl }}{{ item.url }}" class="uppercase-link">Learn more and see current openings <i class="fa fa-caret-right"></i></a>
-        {% endif %}
-      {% endfor %}
+      <p>If you share our passion for open source technology and digital
+        strategy, <a href="/careers/">we’d love to hear from you.</a></p>
     </div>
   </div>
 </div>

@@ -14,7 +14,7 @@ team-image:
   small: team/small/sean2.jpg
   medium: team/medium/sean2.jpg
   large: team/large/sean2.jpg
-published: false
+published: true
 current-employee: false
 name: sean
 bio: |

@@ -1,105 +1,198 @@
-.services-teaser {
-  color: $white;
-  text-align: center;
+.services {
+  .services-hero {
+    margin-top: 55px;
 
-  $counter: 0;
-  @while $counter < 5 {
-    &#services#{$counter} {
-      background: url('../images/ts_redesign/services/services#{$counter}.jpg') center center no-repeat;
-      background-size: cover;
-      height: 100%;
-      padding: 2rem 0;
-      position: relative;
-      width: 100%;
-      z-index: 1;
-
-      @include mq(lt) { padding: 4rem 0; }
-      @include mq(md) { padding: 8rem 0; }
-      @include mq(l) { padding: 13rem 0; }
+    @include mq(lt) {
+      margin-top: 113px
     }
-    $counter: $counter + 1;
-  }
-
-  .services-teaser-left {
-    @include mq(d) { text-align: right; padding-right: 2rem;}
-
+    @include mq(d) {
+      margin-top: 223px;
+    }
     h1 {
-      font-size: 3.5rem;
-      @include mq(m) { font-size: 2.5rem; }
-    }
+      color: $herogray;
+      font-size: rem(25);
+      font-weight: 900;
+      line-height: calc(73/56);
+      margin-bottom: rem(35);
+      margin-top: 0.8rem;
+      @include mq(lt) { font-size: rem(38); }
+      @include mq(d) { font-size: rem(56); }
 
-    p {
-      font-size: rem(18);
-    }
-
-    a {
-      border: 1px solid $white;
-      color: $white;
-      font-size: rem(14);
-      padding: 1rem 2rem;
-
-      &:hover {
-        background: $white;
+      em {
         color: $orange;
+        font-style: normal;
       }
+
+      @include mq(t) {
+        max-width: 95%;
+        margin-bottom: rem(55);
+      }
+      @include mq(d) {
+        max-width: 90%;
+        margin-bottom: rem(75);
+      }
+    }
+    h2 {
+      color: $herogray;
+      font-size: rem(16);
+      font-weight: 900;
+      line-height: calc(73/56);
+      margin-bottom: 0;
+      margin-top: 0;
+      @include mq(lt) { font-size: rem(18); }
+      @include mq(d) { font-size: rem(24); }
+
+      em {
+        color: $orange;
+        font-style: normal;
+      }
+
+      @include mq(t) { max-width: 95%; }
+      @include mq(d) { max-width: 90%; }
     }
   }
 
-  .services-teaser-right {
-    @include mq(d) { text-align: left; }
-    @include mq(t) { margin-top: 2rem; }
-    @include mq(m) { margin-top: 1.5rem; }
+  .services-body {
+    background: $bgblack url('../images/ts_redesign/case-studies/splc-main/splc-process.jpg') no-repeat top center;
+    background-size: 100% auto;
+    color: $white;
+    position: relative;
+    height: auto;
+    padding: 6rem 0;
+    @include mq(m) { padding: 3rem 0; }
+    @include mq(t) { padding: 4.5rem 0; }
 
-    ul {
-      display: inline-block;
-      padding-left: 0;
-      text-align: left;
+    .gradient {
+      background-image: linear-gradient( 0deg, rgba($bgblack,1), rgba($bgblack,1) 60%, rgba($bgblack,.95) 70%, rgba($bgblack,.9) 80%, rgba($bgblack,.85) 90%, rgba($bgblack,.8) 95% );
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#DD000000',GradientType=0 );
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 2;
     }
 
-    li {
-      font-size: rem(14);
-      line-height: $line-height;
+    .intro {
+      z-index: 3;
+      position: relative;
+      margin-bottom: 4rem;
+      @include mq(m) {
+        margin-bottom: 1rem;
+      }
+      @include mq(t) {
+        margin-bottom: 2rem;
+      }
 
-      &:before {
-        content: '•';
-        padding-right: 0.5rem;
+      h2 {
+        font-size: rem(20);
+        font-weight: 900;
+        line-height: calc(32/24);
+        @include mq(lt) { font-size: rem(22); max-width: 80%; }
+        @include mq(d) { font-size: rem(24); max-width: 65%; }
+      }
+      p {
+        font-size: rem(14);
+        font-weight: 300;
+        line-height: calc(29/16);
+        @include mq(lt) { font-size: rem(15); max-width: 80%; }
+        @include mq(d) { font-size: rem(16); max-width: 550px; }
       }
     }
 
-    i {
-      border-bottom: 3px solid $white;
-      margin-bottom: -0.5rem;
-      margin-top: 3rem;
-      width: rem(55);
+  }
 
-      @include mq(t) { margin-left: auto; margin-right: auto; }
-      @include mq(m) { margin-left: auto; margin-right: auto; }
+  .service-types  {
+    z-index: 3;
+    position: relative;
 
-      &:before {
-        bottom: rem(-9);
-        color: $white;
-        font-size: 1.7rem;
+    section {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0rem;
+      padding-top: 9rem;
+      @include mq(m) {
+        padding-top: 3rem;
+        flex-direction: column;
       }
-    }
+      @include mq(t) {
+        padding-top: 4.5rem;
+      }
 
-    .services-examples {
-      font-weight: bold;
+      @include mq(lt) { flex-direction: row; }
+      @include mq(d) { flex-direction: row; }
 
-      a {
-        color: $white;
-        text-decoration: underline;
+      &:first-of-type {
+        padding-top: 4.5rem;
+      }
 
-        &:hover {
-          color: $ltorange;
+      h3,
+      .offerings {
+        flex: 0 1 23.23176%;
+        padding-right: 10px;
+      }
+      @media (min-width: 481px) and (max-width: 767px) {
+        flex-wrap: wrap;
+
+        h3 {
+          flex: 1 1 100%;
+        }
+      }
+
+      .description {
+        flex: 1 1 45%;
+        max-width: 550px;
+        padding-right: 10px;
+      }
+
+      h3 {
+        color: $orange;
+        font-size: rem(28);
+        font-weight: 600;
+        line-height: calc(42/36);
+        margin-top: 0;
+        @include mq(lt) { font-size: rem(32); }
+        @include mq(d) { font-size: rem(36); }
+      }
+
+      .description h4 {
+        font-size: rem(20);
+        font-weight: 900;
+        line-height: calc(32/24);
+        margin-top: 0;
+        margin-bottom: rem(12);
+        @include mq(lt) { font-size: rem(22); margin-bottom: rem(14); }
+        @include mq(d) { font-size: rem(24); margin-bottom: rem(16); }
+      }
+      .description p {
+        font-size: rem(14);
+        font-weight: 300;
+        line-height: calc(29/16);
+        @include mq(lt) { font-size: rem(15); }
+        @include mq(d) { font-size: rem(16); }
+      }
+
+      .offerings {
+        padding: 0;
+        margin: 0;
+      }
+      .offerings li {
+        color: #adadad;
+        font-size: rem(12);
+        font-weight: 500;
+        line-height: calc(18/13);
+        margin-bottom: rem(16);
+        margin-left: 0;
+        padding-left: 0;
+        @include mq(lt) {
+          font-size: rem(12);
+          padding: 0 0 0 1rem;
+        }
+        @include mq(d) {
+          font-size: rem(13);
+          padding: 0 0 0 2rem;
         }
       }
     }
-  }
-
-  .side {
-    @include span-columns(6);
-
-    @include mq(m) { @include span-columns(12); }
-    @include mq(t) { @include span-columns(12); }
   }
 }

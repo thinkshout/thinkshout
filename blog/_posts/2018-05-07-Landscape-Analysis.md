@@ -15,6 +15,7 @@ tags:
   - nonprofit strategy
   - Landscape Analysis
   - Competitive Analysis
+  - anitab
 date: 2018-05-02 12:00:00
 image: https://thinkshout.com/assets/images/blog/himesh-kumar-behera-216019-unsplash.jpg
 header-image: /assets/images/blog/himesh-kumar-behera-216019-unsplash.jpg

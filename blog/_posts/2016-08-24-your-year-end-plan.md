@@ -13,6 +13,7 @@ tags:
   - Fundraising
   - Nonprofit tech
   - Email marketing
+  - tror
 date: 2016-08-24 12:30:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 header-image: /assets/images/blog/year-end-plan-header.jpg

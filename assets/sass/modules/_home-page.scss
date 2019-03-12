@@ -4,379 +4,142 @@
   @include mq(m) { margin-top: rem(90); }
   @include mq(t) { margin-top: rem(90); }
 
-  // "Who We Are" teaser block
-  .who-we-are {
-    margin-bottom: -1px;
-    padding: 2rem 0;
+  .home-hero {
+    margin-top: 60px;
+
+    @include mq(lt) {
+      margin-top: 123px
+    }
+    @include mq(d) {
+      margin-top: 243px;
+    }
+    h1 {
+      color: $herogray;
+      font-size: rem(32);
+      font-weight: 900;
+      line-height: calc(73/56);
+      margin-bottom: rem(60);
+      margin-top: 0.8rem;
+
+      em {
+        color: $orange;
+        font-style: normal;
+      }
+
+      @include mq(t) { max-width: 85%; }
+      @include mq(d) { max-width: 72%; }
+    }
+    @include mq(lt) {
+      h1 { font-size: rem(48); }
+    }
+    @include mq(d) {
+      h1 { font-size: rem(56); }
+    }
+  }
+
+  .case-study {
+    height: 80vw;
+    max-height: 400px;
     position: relative;
+    @include mq(lt) {
+      height: 46.18vw;
+      max-height: 500px;
+    }
+    @include mq(d) {
+      height: 46.18vw;
+      max-height: 665px;
+    }
 
-    @include mq(lt) { padding: 2rem 0 3rem 0; }
-    @include mq(md) { padding: 6rem 0 7rem 0; }
-    @include mq(l) { padding: 10rem 0 11rem 0; }
-
-    &:after {
-      background: url('../images/ts_redesign/hsus_thinkshout-homehero-1.jpg') 75% top no-repeat;
-      background-size: cover;
-      content: "";
+    a {
       display: block;
       height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      z-index: -1;
-
-      @include mq(m) { opacity: 0.3; background-position-x: 10%; }
-      @include mq(p) { opacity: 0.3; background-position-x: 10%; }
-    }
-
-    .who-we-are-text {
-      text-align: center;
-
-      @include mq(lt) { @include span-columns(8); float: right; }
-      @include mq(d) { @include span-columns(6); float: right; }
-      @include mq(l) { @include span-columns(5); float: right; }
-
-      h1 {
-        color: $orange;
-        font-family: $secondary-font;
-        font-size: 6rem;
-        font-weight: normal;
-        line-height: 120px;
-        margin: 0 auto;
-        transform: rotate(-10deg);
-        max-width: 85%;
-      }
-
-      #inspiring {
-        // margin-left: -0.5rem;
-      }
-
-      #change {
-        margin-right: 1.5rem;
-        margin-top: -1rem;
-
-        @include mq(m) { margin-right: 0; }
-        @include mq(p) { margin-right: 0; }
-      }
-
-      p {
-        font-size: rem(19);
-        line-height: 1.6;
-        color: $darkgray;
-        max-width: 85%;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      @include mq(m) {
-        h1 {
-          font-size: 4rem;
-          line-height: 80px;
-          max-width: 95%;
-        }
-        p {
-          font-size: rem(16);
-          max-width: 95%;
-        }
-
-
-      }
-    }
-  }
-
-  // Featured Work
-  .featured-intro {
-    display: table;
-    margin-top: 2rem;
-    width: 100%;
-
-    @include mq(t) { margin-top: 3rem; }
-    @include mq(d) { margin-top: 5rem; }
-
-    h1 {
-      font-size: rem(36);
-      text-align: left;
-
-      @include mq(m) { font-size: rem(30); }
-
-      &:hover {
-        cursor: pointer;
-      }
-    }
-
-    a.uppercase-link {
-      @extend %uppercase-link;
-      text-align: right;
-
-      @include mq(m) { display: none; }
-    }
-
-    h1,
-    a {
-      color: $darkgray;
-      display: table-cell;
-      width: 50%;
-    }
-  }
-
-  // Featured Case Study
-  .featured-case-study {
-    background-size: cover;
-    @include transition(border 0.2s);
-    border: rem(0) solid $orange;
-    cursor: pointer;
-    height: rem(330);
-    margin: 1.5rem 0;
-    padding: 5rem 0 10rem 0;
-    position: relative;
-    width: 100%;
-
-    &:hover {
-      @include transition(border 0.2s);
-      border: rem(6) solid $orange;
-    }
-
-    @include mq(md) { height: rem(380); }
-    @include mq(d) { margin: 1.5rem 0; }
-    @include mq(l) { height: rem(570); }
-
-    .featured-case-study-text {
-      background-color: $white;
-      bottom: rem(-8);
-      left: 0;
-      margin: 0 auto;
-      right: 0;
-      text-align: center;
-      position: absolute;
-      width: 60%;
-      z-index: 1;
-
-      @include mq(m) { width: 74%; }
-      @include mq(d) { width: 45%; }
-
-      h4 {
-        color: $orange;
-        font-size: rem(13);
-        margin-bottom: 0;
-
-        @include mq(m) { font-size: rem(12); }
-      }
-
-      h1 {
-        font-size: rem(20);
-        line-height: rem(20);
-        margin: 0.5rem 0.5rem 1rem;
-        @include mq(m) {
-          font-size: 1.1rem;
-        }
-
-        a {
-          color: $darkgray;
-        }
-      }
-    }
-  }
-
-  // Three case studies
-  .two-case-studies {
-    overflow: hidden;
-
-    .case-study {
-      cursor: pointer;
-      display: inline-block;
-      float: left;
       position: relative;
+      width: 100%;
+      z-index: 3;
     }
 
-    $case: 2;
-    @while $case < 4 {
-      #case-study#{$case} {
-        @include transition(border 0.2s);
-        background-size: cover;
-        border: rem(0) solid $orange;
-        height: 330px;
-        padding: 2rem;
-        width: 48.75%;
-
-        @include mq(m) { height: 285px; width: 100%; }
-
-        &:hover {
-          border: rem(6) solid $orange;
-          @include transition(border 0.2s);
-        }
-      }
-      $case: $case + 1;
+    h2, h3 {
+      color: $white;
+      margin: 0;
+      position: relative;
+      z-index: 3;
+    }
+    h2 {
+      font-size: rem(30);
+      font-weight: 900;
+      line-height: calc(66/46);
+      @include mq(lt) { font-size: rem(40); }
+      @include mq(d) { font-size: rem(46); }
+    }
+    h3 {
+      font-size: rem(16);
+      font-weight: 500;
+      line-height: calc(22/18);
+      @include mq(lt) { font-size: rem(17); }
+      @include mq(d) { font-size: rem(18); }
     }
 
-    #case-study2 {
-      margin-bottom: 1.5rem;
-
-      @include mq(t) { margin: 0 2.5% 0 0; }
-      @include mq(d) { margin: 0 2.5% 0 0; }
+    .arrow-right {
+      opacity: 0;
+      left: 10px;
     }
 
     .case-study-text {
-      background: $white;
-      bottom: rem(-8);
-      left: 0;
-      margin: 0 auto;
-      padding: 1rem;
-      position: absolute;
-      right: 0;
-      text-align: center;
-      width: 74%;
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: center;
+      position: relative;
     }
 
-    h2 {
-      color: $darkgray;
-      font-size: rem(20);
-      margin: 0;
-      padding-bottom: 0;
-      z-index: 1;
+    a::before {
+      background-color: rgba(0,0,0,0.5);
+      bottom: 0;
+      content: "";
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      transition: background-color 0.2s linear;
+      z-index: 2;
+    }
 
-      @include mq(m) { font-size: 1.1rem; }
-      @include mq(t) { font-size: 1.1rem; }
+    a:hover,
+    a:focus {
+      &::before {
+        background-color: rgba(0,0,0,0.8);
+      }
+      .arrow-right {
+        opacity: 1;
+      }
+    }
+  }
+}
+h4.lets-chat {
+  border-top: 6px solid $bggray;
+  padding-top: 28px;
+  color: $darkgray;
+  font-size: rem(20);
+  font-weight: 600;
+  line-height: calc(30/24);
+  margin: 0 0 2rem 0;
+  @include mq(t) { font-size: rem(22); margin-bottom: 3rem; }
+  @include mq(d) { font-size: rem(24); margin-bottom: 5rem; }
+
+  a {
+    font-weight: 900;
+    color: $orange;
+
+    // @include mq(m) { display: block; }
+
+    &:hover, &:focus {
+      text-decoration: underline;
     }
   }
 
-  .blog-teaser {
-    color: $white;
-
-    .featured-blog-post,
-    .blog-menu {
-      display: inline-block;
-      height: 408px;
-      float: left;
-      padding-top: 3rem;
-    }
-
-    .featured-blog-post {
-      background: url('../images/ts_redesign/blog_teaser.png') center center no-repeat;
-      background-size: cover;
-      position: relative;
-      width: 58%;
-
-      @include mq(m) {
-        width: 100%;
-        padding-top: rem(16);
-      }
-      @include mq(t) { width: 100%; }
-
-      @media (min-width: 1440px) {
-        .container {
-          max-width: 78%;
-          min-width: 842px;
-          padding-right: 112px;
-          margin: 0;
-          float: right;
-        }
-      }
-
-      h2 {
-        font-size: rem(26);
-        margin-bottom: 0;
-        @include mq(m) { font-size: rem(24); }
-        a {
-          color: $yellow;
-        }
-      }
-
-      p {
-        margin-top: 0.5rem;
-        @include mq(m) { font-size: rem(15); }
-      }
-
-      img,
-      .author-info {
-        bottom: 3rem;
-        display: inline-block;
-        position: absolute;
-      }
-
-      .author-info {
-        z-index: 100;
-        @include mq(m) { bottom: rem(16); }
-        a {
-          color: $yellow;
-        }
-
-        h4 {
-          margin: 0 0 0 5rem;
-        }
-
-        p {
-          color: $white;
-          font-size: rem(14);
-          margin: 0 0 0.5rem 5rem;
-          @include mq(m) { white-space: normal; line-height: 1.4; }
-        }
-      }
-
-      .blog-subject {
-        position: relative;
-        z-index: 100;
-      }
-
-      .blog-author img {
-        z-index: 100;
-        @include mq(m) { bottom: rem(26); }
-      }
-
-      .gradient {
-        background-image: linear-gradient( to right, rgba(40,40,40,0.8), rgba(40,40,40,0.5) );
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
-        height: 100%;
-        left: 0;
-        position: absolute;
-        top: 0;
-        width: 100%;
-        z-index: 1;
-      }
-    }
-
-    .blog-menu {
-      background: $backgroundgray;
-      width: 42%;
-
-      @include mq(m) { width: 100%; height: 375px}
-      @include mq(t) { width: 100%; height: 350px}
-
-      @include mq(l) {
-        .container {
-          min-width: 540px;
-        }
-      }
-
-      ul {
-        padding-top: 0.5rem;
-        padding-left: 0;
-      }
-
-      a {
-        @include transition(color,0.3s,linear);
-        color: $white;
-        cursor: pointer;
-        line-height: $line-height;
-        margin-left: 0;
-
-        @include mq(m) { font-size: rem(18); line-height: 2; }
-        @include mq(t) { font-size: rem(22); line-height: 2; }
-
-        &:hover {
-          color: $yellow;
-        }
-
-        i {
-          color: $yellow;
-          font-size: 1.5rem;
-          margin-left: rem(10);
-          vertical-align: sub;
-
-          @include mq(m) { font-size: 1.5rem; vertical-align: middle; }
-          @include mq(t) { font-size: 2rem; vertical-align: middle; }
-        }
-      }
-    }
+  .arrow-right {
+    left: 10px;
+    top: 0;
   }
 }

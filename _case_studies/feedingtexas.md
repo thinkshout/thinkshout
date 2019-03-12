@@ -4,7 +4,7 @@ layout: case_study
 body-class: case-study feedingtexas
 active: false
 homepage: false
-published: true
+published: false
 order: 10
 # END LAYOUT DATA
 
@@ -59,19 +59,4 @@ cs-sections:
 cs-cta-text: Launch Site
 cs-cta-url: http://www.feedingtexas.org
 
-
-
-results:
-  stats:
-    - number: 2
-      description: Dollars spent per month on hosting.
-      type: dollars
-    - number: 30
-      description: Savings over building the site in Drupal.
-      type: percent
-    - number: 300
-      description: Pounds of food donated each year in Texas.
-      type: millions
-featured: true
-published: true
 ---

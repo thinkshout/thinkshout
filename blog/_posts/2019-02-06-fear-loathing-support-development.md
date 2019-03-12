@@ -16,6 +16,7 @@ tags:
   - Drupal 8
 date: 2019-02-06 12:00:00
 image: https://thinkshout.com/assets/images/fade-to-black-header.jpg
+image-alt: "Sunset in Portland, OR"
 ---
 Consider the following exchange:
 

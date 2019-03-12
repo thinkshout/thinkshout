@@ -5,10 +5,15 @@
     <p class="post-short">{{ post.short }}</p>
     <p class="byline">
       {% assign person = site.team | where:"name",post.author %}
-      <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person[0].team-image.small }}">
+      <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person[0].team-image.small }}" alt="{{ person[0].first_name }} {{ person[0].last_name }}">
       <span class="byline-text">
         <strong>{{ person[0].first_name }} {{ person[0].last_name }}</strong><br>
+        {% if person[0].current-employee %}
         <span class="position">{{ person[0].position }}</span>
+        {% else %}
+        <span class="position">{{ person[0].position }}</span><br>
+        <small class="position">ThinkShout Alumnus</small>
+        {% endif %}
       </span>
     </p>
   </a>

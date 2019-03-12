@@ -12,9 +12,8 @@
     }
   }
 
-  .main-content {
-    @include mq(m) { margin-top: rem(90); }
-    @include mq(t) { margin-top: rem(90); }
+  .case-study-previews.container {
+    max-width: 2000px;
   }
 
   .case-study-previews a .case-study-header {

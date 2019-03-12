@@ -2,15 +2,21 @@ header {
   background-color: $white;
   left: 0;
   opacity: 0.95;
-  padding: 2rem 0;
+  padding: 1rem 0;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 200;
 
+  @include mq(d) {
+    padding: 2rem 0;
+  }
+
   .header-logo {
+    margin-top: 4px;
     img {
-      width: 13rem;
+      width: rem(186);
+      margin-top: rem(8);
 
       @include mq(m) {
         float: left;
@@ -20,11 +26,18 @@ header {
     @include mq(t) {
       @include span-columns(3);
       @include omega;
+      width: auto;
+      img {
+        margin-top: rem(8);
+      }
     }
 
     @include mq(d) {
       @include span-columns(3);
       @include omega;
+      img {
+        margin-top: 0;
+      }
     }
   }
 
@@ -94,7 +107,8 @@ header {
       clear: left;
       display: none;
       float: none;
-      margin-top: 1rem;
+      padding-top: 1rem;
+      margin-bottom: 0;
     }
 
     @include mq(t) {
@@ -114,6 +128,11 @@ header {
         font-size: rem(15);
         padding: rem(50) 0;
       }
+    }
+
+    li:last-of-type a {
+      // color: $orange;
+      font-weight: bold;
     }
 
     $colors: $orange, $orange-yellow1, $orange-yellow2, $orange-yellow3, $orange-yellow4, $yellow;

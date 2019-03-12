@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Welcome
-description: "Open source designed for a better world."
+description: "We partner with courageous organizations that put people and the planet first."
 keywords:
   - digital agency
   - drupal
@@ -10,122 +10,30 @@ keywords:
   - user experience
   - responsive design
 ---
-<div class="front"><div class="who-we-are">
+<div class="front">
+
+  <div class="home-hero">
     <div class="container">
-      <div class="who-we-are-text valign-wrap">
-        <div class="valign">
-          <h1 id="inspiring">Engage&nbsp;and</h1>
-          <h1 id="change">Inspire</h1>
-          <p>We use technology and strategy to elevate organizations creating positive change in the world.</p>
-        </div>
-      </div>
+      <h1>We partner with courageous organizations that <em>put people and the planet first.</em></h1>
     </div>
   </div>
 
-  {% include work-with-us.html %}
-
-  {% assign featured_work = site.case_studies | where: "homepage", "true" | sort: "order" | first %}
-  <div class="container">
-    <div class="featured-intro">
-      <a href="{{ site.baseurl }}/work/"><h1>Featured Work</h1></a>
-      <a href="{{ site.baseurl }}/work/" class="uppercase-link">More work<i class="fa fa-caret-right"></i></a>
-    </div>
-
-    <div class="featured-case-study">
+  {% assign case-studies = site.case_studies | where: "homepage", "true" | sort: "order" %}
+  {% for case in case-studies limit:3 %}
+    <div class="case-study" id="case-study{{ case.order }}">
+      <a href="{{ site.baseurl }}{{ case.url }}">
       <style>
-        .front .featured-case-study { background-image: url('{{ site.baseurl }}{{ featured_work.cs-preview.image }}'); }
+        #case-study{{ case.order }} { background: transparent url('{{ site.baseurl }}{{ case.cs-preview.image }}') no-repeat center center /cover; }
       </style>
-      <div class="container">
-        <div class="featured-case-study-text">
-          <h4>{{ featured_work.featured_text | upcase }}</h4>
-          <h1><a href="{{ site.baseurl }}{{ featured_work.url }}">{{ featured_work.cs-preview.client }}</a></h1>
+        <div class="case-study-text container">
+          <h2>{{ case.featured_impact_text }}</h2>
+          <h3>{{ case.featured_client_name }}<span class="arrow-right"></span></h3>
         </div>
-      </div>
+      </a>
     </div>
-
-    <div class="two-case-studies">
-      {% assign case-studies = site.case_studies | where: "homepage", "true" | sort: "order" %}
-      {% for case in case-studies limit:3 %}
-      {% if case.order > 1 %}
-        <a href="{{ site.baseurl }}{{ case.url }}">
-          <div class="case-study" id="case-study{{ case.order }}">
-          <style>
-            #case-study{{ case.order }} { background: url('{{ site.baseurl }}{{ case.cs-preview.image }}') center center no-repeat; }
-          </style>
-            <div class="case-study-text">
-              <h2>{{ case.cs-preview.client }}</h2>
-            </div>
-          </div>
-        </a>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
+  {% endfor %}
 
   {% include our-services.html %}
+  {% include contact.html %}
 
-  <div class="blog-teaser">
-    {% for post in site.categories.blog%}
-    {% if post.homepage == true %}
-      {% if post.header-image %}
-        <div class="featured-blog-post" style="background-image: url('{{ site.baseurl }}{{ post.header-image }}');">
-        <div class="gradient">&nbsp;</div>
-      {% else %}
-        <div class="featured-blog-post">
-      {% endif %}
-        <div class="container">
-          <div class="blog-subject">
-            <div class="header-down-caret">
-              <h4>Featured blog post</h4>
-              <i class="fa fa-caret-down"></i>
-            </div>
-            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-            {% if post.short %}
-            <p class="short">{{ post.short }}</p>
-            {% endif %}
-          </div>
-
-          <div class="blog-author byline">
-            {% for person in site.team %}
-            {% if post.author == person.name %}
-            <img src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}" alt="{{ person.first_name }}" />
-            <div class="author-info">
-              {% if person.current-employee %}
-                <a class="team-name" href="{{ site.baseurl }}{{ person.url }}"><h4>{{ person.first_name }} {{ person.last_name }}</h4></a>
-              {% else %}
-                <h4>{{ person.first_name }} {{ person.last_name }}</h4>
-              {% endif %}
-              <p>
-                {{ person.position }}
-              </p>
-            </div>
-            {% endif %}
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-      {% break %}
-      {% endif %}
-      {% endfor %}
-      <div class="blog-menu bene-cta">
-        <div class="container">
-          <img class="bene-logo" src="{{ site.baseurl }}/assets/images/bene/bene-logo-white.svg" alt="Logo: Bene" />
-          <div class="text-wrapper">
-            <h2>Introducing Bene:<br>
-            Our affordable, out-of-the box website solution for growing nonprofits. </h2>
-            <a href="{{ site.baseurl }}/bene" class="button">Meet Bene</a>
-          </div>
-          <!-- <div class="header-down-caret">
-            <h4>Read more about</h4>
-            <i class="fa fa-caret-down"></i>
-          </div>
-          <ul>
-            {% assign topics = site.topic | sort: "order" %}
-            {% for topic in topics %}
-              <li><a href="{{ site.baseurl }}{{ topic.url }}">{{ topic.title }}<i class="fa fa-caret-right"></i></a></li>
-            {% endfor %}
-          </ul>
-        </div> -->
-      </div>
-  </div>
 </div>

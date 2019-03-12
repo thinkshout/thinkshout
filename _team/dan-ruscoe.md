@@ -13,7 +13,7 @@ team-image:
   small: team/small/dan.jpg
   medium: team/medium/dan.jpg
   large: team/large/dan.jpg
-published: false
+published: true
 current-employee: false
 name: dan
 bio: |

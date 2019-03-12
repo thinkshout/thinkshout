@@ -17,15 +17,17 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <p class="byline">
     {% for person in site.team %}
-    {% if page.author == person.name %}
-    <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}">
-    {% if person.current-employee %}
-      <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a>
-    {% else %}
-      <strong>{{ person.first_name }} {{ person.last_name }}</strong>
-    {% endif %}<br>
-      {{ person.position }}
-    {% endif %}
+      {% if page.author == person.name %}
+        <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}" alt="{{ person.first_name }} {{ person.last_name }}">
+        {% if person.current-employee %}
+          <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a><br>
+          {{ person.position }}
+        {% else %}
+          <strong>{{ person.first_name }} {{ person.last_name }}</strong><br>
+          {{ person.position }}<br>
+          <small>ThinkShout Alumnus</small>
+        {% endif %}
+      {% endif %}
     {% endfor %}
   </p>
 </div>
