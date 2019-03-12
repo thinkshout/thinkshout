@@ -1,15 +1,13 @@
 <div class="container related-case-studies">
 
   <div class="featured-intro">
-    <a href="{{ site.baseurl }}/work/"><h2>Related Work</h2></a>
+    <a href="{{ site.baseurl }}/work/"><h2>More Work</h2></a>
   </div>
 
   <div class="two-case-studies">
-    {% assign related-case-studies = site.case_studies | where: "related", include.related | where_exp: "post", "post.url != page.url" | sort: "order" %}
     {% assign homepage-case-studies = site.case_studies | where: "homepage", "true" | where_exp: "post", "post.url != page.url" | sort: "order" %}
-    {% assign case-studies = related-case-studies | concat: homepage-case-studies %}
 
-    {% for case in case-studies limit:2 %}
+    {% for case in homepage-case-studies limit:2 %}
       <a href="{{ site.baseurl }}{{ case.url }}">
         <div class="case-study" id="case-study{{ forloop.index | plus: 1 }}">
         <style>
