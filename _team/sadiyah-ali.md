@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Sadiyah
 last_name: Ali
-position: Software Engineer
+position: Web Developer
 leadin: |
   Sadiyah came to ThinkShout from the Emerging Leaders Internship program. In her short time with us over the summer, we knew she was a natural fit to join our team.
 social:
