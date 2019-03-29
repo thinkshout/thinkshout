@@ -2,7 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: culture
-title: The Future of Work is Looking Bright
+title: "The Future of Work is Looking Bright"
 homepage: true
 author: kaylan
 published: true
