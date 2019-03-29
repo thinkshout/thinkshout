@@ -17,7 +17,7 @@ tags:
   - Portland
   - "NW Youth Career Expo"
   - "Emerging Leaders"
-date: 2019-03-26 12:00:00
+date: 2019-03-29 12:00:00
 image: https://thinkshout.com/assets/images/blog/good-news.jpg
 header-image: /assets/images/blog/good-news.jpg
 header-image-alt: "Good News is Coming"
