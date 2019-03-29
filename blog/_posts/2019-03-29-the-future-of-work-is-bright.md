@@ -11,7 +11,7 @@ short: "Kaylan shares her experience at the NW Youth Career Expo"
 tags:
   - Culture
   - Community
-  - "Tech Town
+  - "Tech Town"
   - Diversity
   - PDX
   - Portland
@@ -22,6 +22,7 @@ image: https://thinkshout.com/assets/images/blog/good-news.jpg
 header-image: /assets/images/blog/good-news.jpg
 header-image-alt: "Good News is Coming"
 ---
+
 _“What would you say are your greatest strengths and weaknesses?”_
 
 _“Tell me about a time you had to solve a problem.”_
