@@ -4,7 +4,7 @@ body-class: blog-post
 topic: culture
 title: "The Future of Work is Looking Bright"
 homepage: true
-author: kaylan
+author: kaylan-adams
 published: true
 featured: true
 short: "Kaylan shares her experience at the NW Youth Career Expo"
