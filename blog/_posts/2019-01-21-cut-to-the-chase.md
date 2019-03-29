@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: strategy
 title: "Cut to the Chase: A Refresher on Getting to Less"
-homepage: true
+homepage: false
 author: thomas
 published: true
-featured: true
+featured: false
 short: "How simplifying things makes for stronger results"
 tags:
   - strategy

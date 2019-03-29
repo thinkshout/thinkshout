@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: culture
 title: In town for NTC? Here are some businesses you should support.
-homepage: true
+homepage: false
 author: natania
 published: true
-featured: true
+featured: false
 short: "Specifically: LGBTQ, POC, and womxn-owned businesses."
 tags:
   - Culture
