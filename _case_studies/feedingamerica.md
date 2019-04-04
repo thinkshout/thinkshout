@@ -36,7 +36,6 @@ cs-intro:
     intro-text: |
       A battery of A/B tests over months confirmed that they needed a lightning fast site to increase conversion rates.
 
-
   - intro-title: Solutions
     intro-text: |
       Move the site off of Luminate CMS and shift it over to Drupal 8, with hosting by Pantheon.
@@ -46,8 +45,6 @@ cs-intro:
     +84% Increased Pageviews<br>
     -16% Decreased Bounce Rate<br>
     +19% Increased Pages per session
-
-
 
 cs-sections:
   - section-description: |
@@ -60,10 +57,9 @@ cs-sections:
       To ensure that Feeding America’s website saw reliably fast loading speeds, even during large spikes in traffic, ThinkShout recommended hosting their site on Pantheon. Milliseconds can make all the difference, and in this case, it could mean a substantial loss in donations. With Pantheon’s Global CDN, sites hosted on the platform are optimized to deliver content to users anywhere across the globe securely and at blazing fast speeds.
 
   - section-description: |
-      The result was something that looks and works the same on the front end but is easier to navigate on the admin side and performs exponentially faster.
+      The result was something that looks and works the same on the front end but is easier to navigate on the admin side and performs exponentially faster.  
 
       Ending hunger isn’t just about feeding people, it’s also about building awareness of the issue and empathy for children, families and seniors who are struggling with hunger. The website provides resources beyond just where to get meals and, with the right strategy, hierarchy of content and user experience, they can provide the pathways to that information -- and do so at lightning speed.
-
 
   - section-image: "/assets/images/case-studies/FA_kids.jpg"
     section-image-alt: "Feeding America helps kids"
@@ -76,9 +72,9 @@ cs-sections:
 
   - section-description: |
       If you want to test your site speed to see if pages load under 2 seconds, here are some tools we recommend:
-      - Google’s [Lighthouse](https://developers.google.com/web/tools/lighthouse/) audit
-      - [New Relic](https://newrelic.com/) for application performance
-      - [Speedcurve](https://speedcurve.com/) - best for monitoring and auditing over time
+      - Google’s [Lighthouse](https://developers.google.com/web/tools/lighthouse/) audit  
+      - [New Relic](https://newrelic.com/) for application performance  
+      - [Speedcurve](https://speedcurve.com/) - best for monitoring and auditing over time  
 
 
 cs-cta-text: Launch Site
