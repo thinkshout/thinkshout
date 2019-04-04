@@ -1,11 +1,12 @@
 ---
 # LAYOUT DATA
 layout: case_study
-body-class: case-study feam
+body-class: case-study feeding-america
 active: false
 homepage: false
 published: true
 order: 10
+related: feeding-america
 image: https://thinkshout.com/assets/images/case-studies/FA_Rosa.jpg
 image-alt: "Photo of family receiving assistance"
 description: "Feeding America is the nation’s largest hunger-relief organization, and exists to end hunger once and for all."
