@@ -7,9 +7,9 @@ homepage: false
 published: true
 order: 10
 related: feeding-america
-image: https://thinkshout.com/assets/images/case-studies/FA_Rosa.jpg
+image: https://thinkshout.com/assets/images/case-studies/rosa_m.jpg
 image-alt: "Photo of family receiving assistance"
-description: "Feeding America is the nation’s largest hunger-relief organization, and exists to end hunger once and for all."
+description: "How site speed and Drupal 8 increased donation conversions to help feed more people in need."
 # END LAYOUT DATA
 
 title: Working to end hunger
@@ -18,15 +18,15 @@ featured_impact_text: "Working to end hunger once and for all"
 featured_client_name: "Feeding America"
 
 cs-preview:
-  image: /assets/images/case-studies/FA_Rosa.jpg
+  image: /assets/images/case-studies/rosa_m.jpg
   type: "Feeding America"
   client: "Feeding America"
-  description: "Feeding America is the nation’s largest hunger-relief organization, and exists to end hunger once and for all."
+  description: "How site speed and Drupal 8 increased donation conversions to help feed more people in need."
 
 cs-header:
-  header-image: /assets/images/case-studies/FA_Rosa.jpg
+  header-image: /assets/images/case-studies/rosa_m.jpg
   client: "Feeding America"
-  title: "Feeding America is the nation’s largest hunger-relief organization, and exists to end hunger once and for all."
+  title: "How site speed and Drupal 8 increased donation conversions to help feed more people in need."
 
 cs-intro:
   - intro-paragraph: |
@@ -57,7 +57,7 @@ cs-sections:
       To ensure that Feeding America’s website saw reliably fast loading speeds, even during large spikes in traffic, ThinkShout recommended hosting their site on Pantheon. Milliseconds can make all the difference, and in this case, it could mean a substantial loss in donations. With Pantheon’s Global CDN, sites hosted on the platform are optimized to deliver content to users anywhere across the globe securely and at blazing fast speeds.
 
   - section-description: |
-      The result was something that looks and works the same on the front end but is easier to navigate on the admin side and performs exponentially faster.
+      The result was something that looks and works the same on the front end but is easier to navigate on the admin side and performs exponentially faster.  
 
       Ending hunger isn’t just about feeding people, it’s also about building awareness of the issue and empathy for children, families and seniors who are struggling with hunger. The website provides resources beyond just where to get meals and, with the right strategy, hierarchy of content and user experience, they can provide the pathways to that information -- and do so at lightning speed.
 
