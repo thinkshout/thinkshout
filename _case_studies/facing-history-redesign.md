@@ -5,10 +5,10 @@ body-class: case-study facing-history-redesign
 active: true
 homepage: false
 published: true
-order: 10
+order: 11
 related: "facing-history"
 image: https://thinkshout.com/assets/images/case-studies/FHAO-Hero.jpg
-image-alt: "A woman conforts a person in a wheelchair at the site of a WWII concentration camp."
+image-alt: "A woman comforts a person in a wheelchair at the site of a WWII concentration camp."
 description: "Facing History and Ourselves provides students and teachers with educational resources that examine historical and modern bigotry. They seek to safeguard a more humane citizenry by encouraging careful study of prejudice as it affects our communities."
 # END LAYOUT DATA
 
