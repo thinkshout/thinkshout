@@ -54,9 +54,8 @@ cs-sections:
     section-image-alt: "Feeding America client"
 
   - section-description: |
-      To ensure that Feeding America’s website saw reliably fast loading speeds, even during large spikes in traffic, ThinkShout recommended hosting their site on Pantheon. Milliseconds can make all the difference, and in this case, it could mean a substantial loss in donations. With Pantheon’s Global CDN, sites hosted on the platform are optimized to deliver content to users anywhere across the globe securely and at blazing fast speeds.
+      To ensure that Feeding America’s website saw reliably fast loading speeds, even during large spikes in traffic, ThinkShout recommended hosting their site on Pantheon. Milliseconds can make all the difference, and in this case, it could mean a substantial loss in donations. With Pantheon’s Global CDN, sites hosted on the platform are optimized to deliver content to users anywhere across the globe securely and at blazing fast speeds.  
 
-  - section-description: |
       The result was something that looks and works the same on the front end but is easier to navigate on the admin side and performs exponentially faster.  
 
       Ending hunger isn’t just about feeding people, it’s also about building awareness of the issue and empathy for children, families and seniors who are struggling with hunger. The website provides resources beyond just where to get meals and, with the right strategy, hierarchy of content and user experience, they can provide the pathways to that information -- and do so at lightning speed.
