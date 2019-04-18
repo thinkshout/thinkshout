@@ -41,7 +41,7 @@ cs-intro:
 
   - intro-title: Solutions
     intro-text: |
-      ThinkShout integrated two previously isolated sites into a learning plan builder, deep content library, and guided Learning Plan Builder that makes all of Teaching Tolerance’s content classroom-ready.
+      ThinkShout integrated two previously isolated sites into custom lesson plans, deep content library, and guided Learning Plan Builder that makes all of Teaching Tolerance’s content classroom-ready.
 
   - intro-title: Results
     intro-text: |
