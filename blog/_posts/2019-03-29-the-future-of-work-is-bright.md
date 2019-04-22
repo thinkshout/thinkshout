@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: culture
 title: "The Future of Work is Looking Bright"
-homepage: true
+homepage: false
 author: kaylan
 published: true
-featured: true
+featured: false
 short: "Kaylan shares her experience at the NW Youth Career Expo"
 tags:
   - Culture
