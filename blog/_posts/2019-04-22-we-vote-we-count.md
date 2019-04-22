@@ -18,7 +18,6 @@ tags:
   - "WeVoteWeCount"
   - "voting rights"
   - "racial equity"
-  - ""
 date: 2019-04-22 11:00:00
 image: https://thinkshout.com/assets/images/blog/DEMOS microsite header.png
 header-image: /assets/images/blog/DEMOS microsite header.png
