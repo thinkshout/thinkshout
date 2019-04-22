@@ -23,9 +23,9 @@ image: https://thinkshout.com/assets/images/blog/WeVoteWeCount-header.jpg
 header-image: /assets/images/blog/WeVoteWeCount-header.jpg
 header-image-alt: "WeVoteWeCount.org"
 ---
-### We Vote We Count
+### We Vote. We Count
 
-The United States prides itself as a country that champions freedom and democracy, a place where civic participation determines our representation, and by extension, the policies that define our everyday lives. A significant part of that civic participation is the act of voting, and though voter suppression is as much a part of our history as voting itself, attacks on access to the polls are worse than ever. Driven by disenfranchisement through deliberate misinformation campaigns and outright discriminatory policies, not everyone who lives in this country has the opportunity to leverage their voice by casting their vote.
+The United States prides itself as a country that champions freedom and democracy, a place where civic participation determines our representation, and, by extension, the policies that define our everyday lives. A significant part of that civic participation is the act of voting, and though voter suppression is as much a part of our history as voting itself, attacks on access to the polls are worse than ever. Driven by disenfranchisement through deliberate misinformation campaigns and outright discriminatory policies, not everyone who lives in this country has the opportunity to leverage their voice by casting their vote.
 
 That’s why the Racial Equity Anchor Collective got together to create [WeVoteWeCount.org](https://wevotewecount.org/), a microsite that focuses on one goal: Collecting and amplifying the stories of those who have been impacted by the 2013 Supreme Court decision in the case of Shelby County v. Holder, which reinforced decades of restrictive voting laws.
 
@@ -36,7 +36,7 @@ In order to keep the focal point on disenfranchised voters submitting their stor
 ![Share your story](/assets/images/blog/DEMOS microsite stories.png)
 {:.center}
 
-What made this project additionally challenging, however, wasn’t the agility of the site or its distribution tooling, which is all relatively straightforward: It was the timeline on which all partners, including the team at ThinkShout, needed to execute under. From start to finish—development through QA to launch—WeVoteWeCount.org was created in three weeks.
+What made this project additionally challenging, however, wasn’t the agility of the site or its distribution tooling, which is all relatively straightforward: It was the timeline under which all partners, including the team at ThinkShout, needed to execute. From start to finish—development through QA to launch—WeVoteWeCount.org was created in three weeks.
 
 ### A Team Effort
 
