@@ -23,7 +23,7 @@ image: https://thinkshout.com/assets/images/blog/WeVoteWeCount-header.jpg
 header-image: /assets/images/blog/WeVoteWeCount-header.jpg
 header-image-alt: "WeVoteWeCount.org"
 ---
-### We Vote. We Count
+### We Vote. We Count.
 
 The United States prides itself as a country that champions freedom and democracy, a place where civic participation determines our representation, and, by extension, the policies that define our everyday lives. A significant part of that civic participation is the act of voting, and though voter suppression is as much a part of our history as voting itself, attacks on access to the polls are worse than ever. Driven by disenfranchisement through deliberate misinformation campaigns and outright discriminatory policies, not everyone who lives in this country has the opportunity to leverage their voice by casting their vote.
 
