@@ -2,9 +2,9 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study demos
-active: true
+active: false
 homepage: false
-published: true
+published: false
 related: demos
 order: 4
 image: https://thinkshout.com/assets/images/case-studies/demos-large-homepage.jpg
