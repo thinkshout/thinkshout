@@ -20,7 +20,7 @@ tags:
   - "Drupal APIs"
 date: 2019-05-09 12:00:00
 image: https://thinkshout.com/assets/images/insecure-drupal-code-header.jpg
-image-alt: "Storm trooper on a mousepad"
+image-alt: "Stormtrooper on a mousepad"
 ---
 # Recognizing insecure Drupal code
 
