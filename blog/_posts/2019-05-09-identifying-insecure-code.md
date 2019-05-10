@@ -2,12 +2,12 @@
 layout: blog
 body-class: blog-post
 topic: technology
-title: Identifying Insecure Code
+title: Identifying Insecure Drupal Code
 homepage: true
 author: sam
 published: true
 featured: true
-short:
+short: And, why you shouldn't allow users to input a SQL operator!
 tags:
   - Drupal Planet
   - Drupal
