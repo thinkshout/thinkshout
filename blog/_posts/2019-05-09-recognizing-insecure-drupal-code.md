@@ -36,89 +36,99 @@ XSS occurs when a malicious user identifies an exploit that allows user input to
 ### Twig has your back
 With Drupal 8’s implementation of Twig, all variables rendered normally (within curly braces) are automatically filtered. The attributes object, which is often used in Twig, is also generally safe. For example, trying to add a malicious attribute with code like:
 
-```
+{% raw %}
+~~~twig
 <b {{ attributes.addClass('"onmouseover="alert(1)"') }}>Hello</b>
-```
+~~~
+{% endraw %}
 Will render safely as:
-```
+~~~html
 <b class="&quot;onload=&quot;alert&quot;">Hello</b>
-```
+~~~
 
 ### Unquoted attributes
 Twig isn’t inherently immune to XSS. If you don’t wrap attributes in double quotes, for instance, user input could render a malicious attribute. For example, if you have a template like:
-```
+{% raw %}
+~~~twig
 <b class={{ configurable_class }}>Hello</b>
-```
+~~~
+{% endraw %}
 And pass in a class configured by a user:
-```
+~~~php
 $variables['configurable_class'] = 'foo onclick=alert(bar)';
-```
+~~~
 The final, unsafe HTML will be:
-```
+~~~html
 <b class=foo onclick=alert(bar)>Hello</b>
-```
+~~~
 This is because variables have HTML special characters escaped, but aren’t aware of the context they’re rendered in. `onclick=alert(bar)` on its own is completely safe, but when inside an opening HTML tag can trigger XSS.  
 
 ### The raw filter
 One of the filters that comes with Twig, `raw`, marks a value as being safe and does not escape it. That means that if you ever see something like:
-```
+{% raw %}
+~~~twig
 {{ variable | raw }}
-```
-In your templates, that could lead to an XSS vulnerability. There are very few use cases for `raw`, so if you can avoid using it completely you should.  
+~~~
+{% endraw %}
+
+In your templates, that could lead to an XSS vulnerability. There are very few use cases for `raw`, so if you can avoid using it completely you should.
 
 ### Misusing render arrays
 Render and form arrays in Drupal can also be misused to allow XSS. For example, you may know that HTML like this executes arbitrary Javascript on click:
-```
-<a href=”javascript:alert()”>Click me!</a>
-```
+~~~html
+<a href="javascript:alert()">Click me!</a>
+~~~
 And if you’re using url or link objects or render elements, this will be rendered as:
-```
-<a href=”alert()”>Click me!</a>
-```
+~~~html
+<a href="alert()">Click me!</a>
+~~~
 Which is safe. However, if you’re not using the url or link APIs, Drupal doesn’t have the context to know that the “href” attribute could be unsafe, and will render it without escaping. For example, this code:
-```
+~~~php
 $build = ['#type' => 'html_tag', '#tag' => 'a', 'Hello'];
 $build['#attributes']['href'] = $user_input;
-```
+~~~
 When provided this user input:
-```
+~~~php
 $user_input = 'javascript:alert("foo")';
-```
+~~~
 Will render:
-```
+~~~html
 <a href="javascript:alert(\"foo\")">Hello</a>
-```
+~~~
 Like the Twig attribute issue, this is a result of Drupal not being aware that untrusted data is being passed to potentially dangerous APIs. Here are some more examples of render arrays that allow XSS:
-```
+~~~php
 $build['#markup'] = $user_input;
 $build['#allowed_tags'] = ['script'];
-```
-```
+~~~
+~~~php
 $build['#children'] = $user_input;
-```
-```
+~~~
+~~~php
 $build['#markup'] = t($user_input);
-```
-```
+~~~
+~~~php
 $build = ['#type' => 'inline_template', '#template' => $user_input];
-```
+~~~
 
 ### Not filtering in Javascript
 While the examples so far have been about backend code, XSS is commonly triggered from Javascript. Take this example, where the value of an input is passed to jQuery’s `html` function to display an error:
-```
+
+~~~javascript
 var value = $('input.title').val();
 $('.error').html('<p>Invalid title "' + value + '"</p>');
-```
+~~~
 Since the `html` function assumes the data you pass is safe, this could trigger XSS. A better way of approaching this is to use the `text` function, which escapes special characters:
-```
+
+~~~javascript
 var value = $('input.title').val();
 $('.error').text('Invalid title "' + value + '"');
-```
+~~~
 The most Drupal-y way to accomplish this would be to use the `Drupal.t` function, which accepts placeholders that are automatically escaped, and translates text:
-```
+
+~~~javascript
 var value = $('input.title').val();
 $('.error').html(Drupal.t('<p>Invalid title "@title"</p>', {'@title': value});
-```
+~~~
 
 ### Sniffing out XSS problems
 In general, a good way to spot XSS is to question complexity wherever you see it. Look into your biggest forms and controllers and see if there’s anything odd using user input, and if so make an effort to exploit it. Also, if there’s any opportunity to use Twig instead of concatenating HTML in the backend, use Twig!  
@@ -135,73 +145,74 @@ The API is normally safe to use, but can be used unsafely in ways that aren’t 
 
 ### Not using placeholders
 There are cases where you need to write a query by-hand, which is fine unless that query uses user input, in which case you need to use placeholders. For example, this code has user input (`$name`) in the query string:
-```
+
+~~~sql
 \Drupal::database()
   ->query("DELETE FROM people WHERE name = \"$name\"")
   ->execute();
-```
+~~~
 If `$name` is set to a malicious value, like:
-```
+~~~php
 $name = 'myname" OR "" = "';
-```
+~~~
 The final query ends up being:
-```
+~~~sql
 DELETE FROM people WHERE name = "myname" OR "" = ""
-```
+~~~
 Which in this example would delete everyone from the `people` table. The proper way to do this would be to use placeholders in your query string, and pass the user input as an argument:
-```
+~~~php
 \Drupal::database()
   ->query('DELETE FROM people WHERE name = :name', [
     ':name' => $name,
   ])
   ->execute();
-```
+~~~
 
 ### Not escaping LIKE
 Typically when using the database API, using the `condition` method and passing user input as the value is safe. However, if you are using the `LIKE` condition, you need to escape user input that may contain the wildcard character (`%`). For example, this code has user input (`$name`) in a `LIKE` condition:
-```
+~~~php
 $result = \Drupal::database()
   ->delete('people')
   ->condition('name', '%_' . $name, 'LIKE')
   ->execute();
-```
+~~~
 If `$name` is set to a malicious value, like:
-```
+~~~php
 $name = '%';
-```
+~~~
 The final query ends up being:
-```
+~~~sql
 DELETE FROM people WHERE name LIKE "%_%"
-```
+~~~
 Which would delete every row in the `people` table where the name included an underscore. The proper way to do this is to escape the user input using the `escapeLike` method, like so:
-```
+~~~php
 $database = \Drupal::database();
 $result = $database
   ->delete('people')
   ->condition('name', '%_' . $database->escapeLike($name), 'LIKE')
   ->execute();
-```
+~~~
 
 ### Trusting user operators
 Passing user input as a condition value is generally safe, but passing it to other parts of the API like table names, column names, or condition operators is dangerous. For example, this code has user input (`$operator`) as a condition operator:
-```
+~~~php
 $result = \Drupal::database()
   ->select('people')
   ->condition('name', $name, $operator)
   ->execute();
-```
+~~~
 If `$operator` is set to a malicious value, like:
-```
+~~~php
 $operator = 'IS NOT NULL)
 UNION ALL SELECT SID,SSID FROM SESSIONS
 JOIN USERS WHERE ("foo" <>';
-```
+~~~
 The final query ends up being:
-```
+~~~sql
 SELECT FROM people WHERE (name IS NOT NULL)
 UNION ALL SELECT SID,SSID FROM SESSIONS
 JOIN USERS WHERE ("foo" <> :name)
-```
+~~~
 Which would query all session IDs from the `sessions` table, allowing user sessions to be hijacked.
 
 To address this, compare the user input to a list of known valid SQL operators before using it in the query.  
@@ -217,22 +228,22 @@ RCE occurs when a malicious user identifies an exploit that allows user input to
 PHP, historically, has allowed for RCE in a lot of different ways, so there’s no golden rule to follow. Instead, watch out for some of the RCE classics:
 
 Using user input to execute shell commands:
-```
+~~~bash
 `magick convert $user_input output.png`;
 shell_exec("magick convert $user_input output.png");
-```
+~~~
 You could use the `escapeshellarg` function here to escape user input, but that isn’t foolproof as options (`--foo=bar`) are just wrapped in quotes, which in some command line applications is treated as a valid option. Validating the user input against a small set of allowed characters may be the best bet here, in addition to using `escapeshellarg`.
 
 Using `eval` to execute dynamic PHP expressions:
-```
+~~~bash
 eval("is_null($user_input)");
-```
+~~~
 This allows arbitrary PHP to be executed and should not be used.
 
 Using `unserialize` on data that could be entered by the user:
-```
+~~~bash
 unserialize($user_input);
-```
+~~~
 This allows for object injection, a vulnerability that can lead to RCE, and should be avoided if possible. Consider storing complex data as JSON instead, which is safe to use.
 
 Without a deep experience in how RCE exploits are performed it’s hard to spot vulnerabilities, but you should review any code that has dynamic shell commands, eval, or unserialize with a high level of scrutiny.  
