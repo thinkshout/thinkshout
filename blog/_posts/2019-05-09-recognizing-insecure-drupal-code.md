@@ -19,11 +19,9 @@ tags:
   - "SQL tips"
   - "Drupal APIs"
 date: 2019-05-09 12:00:00
-image: https://thinkshout.com/assets/images/blog/insecure-drupal-code-header.jpg
-image-alt: "Stormtrooper on a mousepad"
+header-image: https://thinkshout.com/assets/images/blog/insecure-drupal-code-header.jpg
+header-image-alt: "Stormtrooper on a mousepad"
 ---
-# Recognizing insecure Drupal code
-
 Within the Drupal community, it seems like many developers are interested in ensuring their modules and themes are secure, but don’t really know what insecure code looks like. I’ve personally found a lot of resources that tell you about security best practices, but don’t dive deeper into common missteps and their consequences.  
 
 Drupal 8 is the most modern and secure release of Drupal yet, which leads developers to expect that all Drupal 8 APIs are perfectly safe to use. While it’s great that Drupal has earned that reputation, there are still plenty of ways to leave your site vulnerable.
