@@ -31,7 +31,7 @@ In this blog I’ll go through examples of insecure code that I’ve seen doing 
 ## So you want to render HTML…
 Outputting HTML is Drupal’s bread and butter, but if you’re rendering user input you may be vulnerable to cross site scripting, otherwise known as XSS.
 
-XSS occurs when a malicious user identifies an exploit that allows user input to be executed as Javascript. Then, typically, an attacker leads someone without higher privileges (an administrator) to trigger the exploit. At that point, an attacker can do anything the administrator can do - add more administrator accounts, delete content, download sensitive data, and potentially use a chained exploit to execute server-side code.  
+XSS occurs when a malicious user identifies an exploit that allows user input to be executed as Javascript. Then, typically, an attacker leads someone with higher privileges (an administrator) to trigger the exploit. At that point, an attacker can do anything the administrator can do - add more administrator accounts, delete content, download sensitive data, and potentially use a chained exploit to execute server-side code.  
 
 ### Twig has your back
 With Drupal 8’s implementation of Twig, all variables rendered normally (within curly braces) are automatically filtered. The attributes object, which is often used in Twig, is also generally safe. For example, trying to add a malicious attribute with code like:
@@ -213,7 +213,7 @@ SELECT FROM people WHERE (name IS NOT NULL)
 UNION ALL SELECT SID,SSID FROM SESSIONS
 JOIN USERS WHERE ("foo" <> :name)
 ~~~
-Which would query all session IDs from the `sessions` table, allowing user sessions to be hijacked.
+Which would query all session IDs from the `sessions` table, which in Drupal 8 is less scary than 7 since session IDs are hashed.
 
 To address this, compare the user input to a list of known valid SQL operators before using it in the query.  
 
@@ -221,7 +221,7 @@ To address this, compare the user input to a list of known valid SQL operators b
 If you use the database API in a typical, non-complex way, you’ll probably be fine. Just remember to use placeholders, escape user input when used in a `LIKE` statement or as an operator, and try to never write queries by hand.  
 
 ## So you want to write some code…
-Beyond Drupal specific APIs, a lot of your code is just plain PHP, which comes with its own set of security issues. One last kind of exploit I’ll briefly cover is remote code execute, otherwise known as RCE.
+Beyond Drupal specific APIs, a lot of your code is just plain PHP, which comes with its own set of security issues. One last kind of exploit I’ll briefly cover is remote code execution, otherwise known as RCE.
 
 RCE occurs when a malicious user identifies an exploit that allows user input to be executed as server-side code, most commonly by your runtime language (PHP) or the shell. RCE allows an attacker to do anything your web user can do, which could be everything from reading sensitive data, setting up a persistent backdoor, or using the compromised server to reach more servers on your network.
 
