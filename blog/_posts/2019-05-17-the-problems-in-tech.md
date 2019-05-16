@@ -14,7 +14,10 @@ tags:
   - Security
   - Tinder
   - hacking
-date: 2019-05-16 12:00:00
+  - Bots
+  - We're Hiring
+  - Tinder Hacker
+date: 2019-05-17 12:00:00
 image: https://thinkshout.com/assets/images/ts_icon.jpg
 ---
 Earlier this week, [_The Cut_ ran a piece about a “Tinder Hacker”](https://www.thecut.com/2019/05/the-tinder-hacker.html) who created a fake profile with his roommate’s photos, then hooked a piece of code up to the Tinder API and did some very simple string substitutions so that men who messaged “her”--after “she” swiped right on _them_--were tricked into actually talking to other men who did the same. In brief, he put strangers in contact with each other under false pretenses, rerouted and surveilled their communications without consent, and proceeded to use this as a bragging point on dates and in interviews.
