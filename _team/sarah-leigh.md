@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Sarah
 last_name: Leigh
-position: Web Designer
+position: Designer
 leadin: |
  Sarah has always been intrigued by the web, but she considers herself an art student, first and foremost.
 social:
