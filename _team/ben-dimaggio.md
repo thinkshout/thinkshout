@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Ben
 last_name: Di Maggio
-position: Engineering Manager
+position: Technical Architect
 leadin: |
   Would you move to a country without knowing next to nothing about it? Ben did, when he taught English in Japan for a year. It’s that open-mindedness and willingness to tackle anything that makes him a great at utilizing technology to solve problems for our clients.
 social:
