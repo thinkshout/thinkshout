@@ -22,12 +22,12 @@ cs-preview:
   image: /assets/images/case-studies/demos-case-study-hero.jpg
   type: Responsive Drupal Site
   client: "Dēmos"
-  description: "How We Helped Advance a Multiracial Democratic Movement"
+  description: "Helping Dēmos Advance a Multiracial Democratic Movement"
 
 cs-header:
   header-image: /assets/images/case-studies/demos-case-study-hero.jpg
   client: "Dēmos"
-  title: "How We Helped Advance a Multiracial Democratic Movement"
+  title: "Helping Dēmos Advance a Multiracial Democratic Movement"
 
 
 cs-intro:
