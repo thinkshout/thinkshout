@@ -44,7 +44,7 @@ cs-intro:
 
   - intro-title: Results
     intro-text: |
-      Dēmos staff, board, and site visitors consistently report an overwhelmingly positive reaction to the new site. We have heard things like, *_“not only does it look great, but I now actually understand what Dēmos does.”_*
+      Dēmos staff, board, and site visitors consistently report an overwhelmingly positive reaction to the new site. We have heard things like, _*“not only does it look great, but I now actually understand what Dēmos does.”*_
 
 
 cs-sections:
