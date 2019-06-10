@@ -77,6 +77,15 @@ cs-sections:
   - section-image: "/assets/images/case-studies/demos-large-blog.jpg"
     section-image-alt: "Dēmos blog on a desktop computer"
 
+  - section-title:
+    section-description: |
+      >“Throughout our redesign, Thinkshout kept us grounded in our goals as an organization, in the needs and perspectives of our audiences, and in the practical realities of our budget and timeline. We are thrilled with the final redesign of Demos.org, but the true benefit of our collaboration with Thinkshout goes well beyond the new site.”
+
+      >Gwyn Ellsworth  
+      >Digital Communications Manager  
+      >Dēmos  
+      {:.attrib}
+
   - section-title: "A website built on an organization’s “Essential Truths” is a website built to last."
     section-description: |
       Progressive organizations are always working in an extraordinary number of ways to advance the cause they care about, and Dēmos is no different. But regardless of what comes and goes in the media spotlight, or public narrative, a website that is founded upon an organization’s “essential truths” holds steady through it all. You become better positioned to not just weather whatever comes, but harness the momentum and use it to your mission’s and brand’s advantage. With a [new cutting-edge website](https://www.demos.org/) founded upon the fundamental reasons why the organization exists, we can’t wait to see what Dēmos does next.
