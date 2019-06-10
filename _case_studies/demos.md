@@ -77,14 +77,10 @@ cs-sections:
   - section-image: "/assets/images/case-studies/demos-large-blog.jpg"
     section-image-alt: "Dēmos blog on a desktop computer"
 
-  - section-title:
-    section-description: |
-      >“Throughout our redesign, ThinkShout kept us grounded in our goals as an organization, in the needs and perspectives of our audiences, and in the practical realities of our budget and timeline. We are thrilled with the final redesign of Demos.org, but the true benefit of our collaboration with ThinkShout goes well beyond the new site.”
-
-      >Gwyn Ellsworth  
-      >Digital Communications Manager  
-      >Dēmos  
-      {:.attrib}
+    - section-type: quote
+      section-quote: |
+        “Throughout our redesign, ThinkShout kept us grounded in our goals as an organization, in the needs and perspectives of our audiences, and in the practical realities of our budget and timeline. We are thrilled with the final redesign of Demos.org, but the true benefit of our collaboration with ThinkShout goes well beyond the new site.”
+      section-attribution: "~ Gwyn Ellsworth, Dēmos Digital Communications Manager"
 
   - section-title: "A website built on an organization’s “Essential Truths” is a website built to last."
     section-description: |
