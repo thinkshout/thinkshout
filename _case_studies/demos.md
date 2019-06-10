@@ -4,7 +4,7 @@ layout: case_study
 body-class: case-study demos
 active: false
 homepage: false
-published: false
+published: true
 related: demos
 order: 4
 image: https://thinkshout.com/assets/images/case-studies/demos-case-study-hero.jpg
