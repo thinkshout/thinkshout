@@ -79,7 +79,7 @@ cs-sections:
 
   - section-title:
     section-description: |
-      >“Throughout our redesign, Thinkshout kept us grounded in our goals as an organization, in the needs and perspectives of our audiences, and in the practical realities of our budget and timeline. We are thrilled with the final redesign of Demos.org, but the true benefit of our collaboration with Thinkshout goes well beyond the new site.”
+      >“Throughout our redesign, ThinkShout kept us grounded in our goals as an organization, in the needs and perspectives of our audiences, and in the practical realities of our budget and timeline. We are thrilled with the final redesign of Demos.org, but the true benefit of our collaboration with ThinkShout goes well beyond the new site.”
 
       >Gwyn Ellsworth  
       >Digital Communications Manager  
