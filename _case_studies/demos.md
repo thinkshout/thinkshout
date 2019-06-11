@@ -22,12 +22,12 @@ cs-preview:
   image: /assets/images/case-studies/demos-case-study-hero.jpg
   type: Responsive Drupal Site
   client: "Dēmos"
-  description: "Helping Dēmos Advance a Multiracial Democratic Movement"
+  description: "Helping Dēmos Advance a Multiracial Democratic Movement & Economy"
 
 cs-header:
   header-image: /assets/images/case-studies/demos-case-study-hero.jpg
   client: "Dēmos"
-  title: "Helping Dēmos Advance a Multiracial Democratic Movement"
+  title: "Helping Dēmos Advance a Multiracial Democratic Movement & Economy"
 
 
 cs-intro:
@@ -65,7 +65,7 @@ cs-sections:
 
   - section-title: "We created new and improved content types that better advance their efforts, including cases and publications."
     section-description: |
-      Publications and cases are at the heart of Dēmos’s work. However, publications on the old Dēmos.org were overly academic, lengthy, and difficult to understand — and cases didn’t exist on the site at all. We created new content types that give visibility to these efforts and allow users to navigate the rich information they contain in an easier, more efficient way.
+      Publications and cases are at the heart of Dēmos’s work. However, publications on the old Dēmos.org were difficult to navigate — and some cases were scattered throughout the site, rather than centrally located. We created new content types that give visibility to these efforts and allow users to navigate the rich information they contain in an easier, more efficient way.
 
   - section-image: "/assets/images/case-studies/demos-large-resource.jpg"
     section-image-alt: "Dēmos resources and cases viewed on a laptop."
