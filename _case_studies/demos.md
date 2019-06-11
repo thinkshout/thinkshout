@@ -4,7 +4,7 @@ layout: case_study
 body-class: case-study demos
 active: false
 homepage: false
-published: false
+published: true
 related: demos
 order: 4
 image: https://thinkshout.com/assets/images/case-studies/demos-case-study-hero.jpg
@@ -22,12 +22,12 @@ cs-preview:
   image: /assets/images/case-studies/demos-case-study-hero.jpg
   type: Responsive Drupal Site
   client: "Dēmos"
-  description: "Helping Dēmos Advance a Multiracial Democratic Movement"
+  description: "Helping Dēmos Advance a Multiracial Democratic Movement & Economy"
 
 cs-header:
   header-image: /assets/images/case-studies/demos-case-study-hero.jpg
   client: "Dēmos"
-  title: "Helping Dēmos Advance a Multiracial Democratic Movement"
+  title: "Helping Dēmos Advance a Multiracial Democratic Movement & Economy"
 
 
 cs-intro:
@@ -65,7 +65,7 @@ cs-sections:
 
   - section-title: "We created new and improved content types that better advance their efforts, including cases and publications."
     section-description: |
-      Publications and cases are at the heart of Dēmos’s work. However, publications on the old Dēmos.org were overly academic, lengthy, and difficult to understand — and cases didn’t exist on the site at all. We created new content types that give visibility to these efforts and allow users to navigate the rich information they contain in an easier, more efficient way.
+      Publications and cases are at the heart of Dēmos’s work. However, publications on the old Dēmos.org were difficult to navigate — and some cases were scattered throughout the site, rather than centrally located. We created new content types that give visibility to these efforts and allow users to navigate the rich information they contain in an easier, more efficient way.
 
   - section-image: "/assets/images/case-studies/demos-large-resource.jpg"
     section-image-alt: "Dēmos resources and cases viewed on a laptop."
@@ -76,6 +76,11 @@ cs-sections:
 
   - section-image: "/assets/images/case-studies/demos-large-blog.jpg"
     section-image-alt: "Dēmos blog on a desktop computer"
+
+  - section-type: quote
+    section-quote: |
+      “Throughout our redesign, ThinkShout kept us grounded in our goals as an organization, in the needs and perspectives of our audiences, and in the practical realities of our budget and timeline. We are thrilled with the final redesign of Dēmos.org, but the true benefit of our collaboration with ThinkShout goes well beyond the new site.”
+    section-attribution: "~ Gwyn Ellsworth, Dēmos Digital Communications Manager"
 
   - section-title: "A website built on an organization’s “Essential Truths” is a website built to last."
     section-description: |
