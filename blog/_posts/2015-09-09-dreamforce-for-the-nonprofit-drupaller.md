@@ -28,9 +28,9 @@ Dave Grohl fans, rejoice: The Foo Fighters will be playing Dreamforce! Every yea
 
 ### The Unveiling of the "Lightning Experience"
 
-Not a Justin Bieber reference (though you never know with Dreamforce…), the *Lightning Experience* is one of the slickest and most useful product announcements we’ve seen from Salesforce in a long time. 
+Not a Justin Bieber reference (though you never know with Dreamforce…), the *Lightning Experience* is one of the slickest and most useful product announcements we’ve seen from Salesforce in a long time.
 
-As part of Salesforce’s ["Winter 2016 release"](http://www.salesforce.com/customer-resources/releases/winter16/), Salesforce is rolling out huge user interface enhancements under the marketing banner of *The Lightning Experience.* From the few screenshots that have been released of the new UI, it looks like Salesforce is borrowing from Google’s embrace of [“material design.”](https://www.google.com/design/spec/material-design/introduction.html) Even more significant, the Lightning Experience includes drag-and-drop templating tools that will allow non-developers to construct robust Salesforce applications, dashboards, and mobile interfaces from within their web browser.
+As part of Salesforce’s ["Winter 2016 release"](https://www.salesforce.com/blog/2016/09/get-ready-for-the-winter-17-release.html), Salesforce is rolling out huge user interface enhancements under the marketing banner of *The Lightning Experience.* From the few screenshots that have been released of the new UI, it looks like Salesforce is borrowing from Google’s embrace of [“material design.”](https://www.google.com/design/spec/material-design/introduction.html) Even more significant, the Lightning Experience includes drag-and-drop templating tools that will allow non-developers to construct robust Salesforce applications, dashboards, and mobile interfaces from within their web browser.
 
 ### The New Salesforce Wave App - Free for Nonprofits
 
