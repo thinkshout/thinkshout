@@ -24,9 +24,9 @@ tags:
   - Javascript
   - Content Editors
 date: 2019-07-26 11:00:00
-image: https://thinkshout.com/assets/images/marquee/Jules-at-computer.jpg
-header-image: /assets/images/marquee/Jules-at-computer.jpg
-header-image-alt: "You know how important accessibility is, but now what?"
+image: https://thinkshout.com/assets/images/marquee/brailfail.jpg
+header-image: /assets/images/marquee/brailfail.jpg
+header-image-alt: "A printed piece of paper that says Welcome in braille"
 ---
 [You know how important accessibility is](https://thinkshout.com/blog/2018/05/Space-for-Empathy/), but now what?
 
