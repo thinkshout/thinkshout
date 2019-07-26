@@ -28,9 +28,9 @@ image: https://thinkshout.com/assets/images/marquee/brailfail.jpg
 header-image: /assets/images/blog/brailfail.jpg
 header-image-alt: "A printed piece of paper that says Welcome in braille"
 ---
-[You know how important accessibility is](https://thinkshout.com/blog/2018/05/Space-for-Empathy/), but now what?
+[You know how important accessibility is](https://thinkshout.com/blog/2018/05/Space-for-Empathy/), but now what? There are a lot of well intentioned sites on the internet that aren't accessible.
 
-_Is_ your website accessible?
+_Is your_ website accessible?
 
 How do you find out?
 
