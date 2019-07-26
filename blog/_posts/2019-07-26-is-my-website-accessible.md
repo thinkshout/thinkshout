@@ -56,10 +56,11 @@ Visit [https://web.dev/measure](https://web.dev/measure) and paste the URL of th
 4. Click “Run Audits.”
 5. A report will pop up in the inspect window with your overall score with information about your score results. Scores are out of 100, and 100 does not mean that a site is completely accessible--it means that it passed all automated tests.
 ![Lighthouse score display](/assets/images/blog/a11y.3.png)
-
+6. Below the score are details about accessibility errors. Toggle open these errors to see what element is failing and how to make fixes. 
+![Lighthouse error details](/assets/images/blog/lighthouse-error.png)
 
 ### WAVE: Firefox and Chrome Extension
-WAVE is a browser extension that allows you to run an automated accessibility test on a page of your website.
+WAVE is a browser extension that allows you to run an automated accessibility test on a page of your website. It's very thorough and one of our favorites for testing and fixing accessibility bugs.
 
 **To use WAVE:**
 1. Install the WAVE Extension
