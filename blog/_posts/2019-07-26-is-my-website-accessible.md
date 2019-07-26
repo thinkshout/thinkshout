@@ -34,14 +34,14 @@ Is your website accessible?
 
 How do you find out?
 
-Well, it’s not as hard as it seems - and we’re here to help! Here are a few quick ways to measure the accessibility of your website.
+Well, it’s not as hard as it seems&mdash;and we’re here to help! Here are a few quick ways to measure the accessibility of your website.
 
 ## 1. Automated tests
 
 While automated tools will only catch about 30% of accessibility bugs, they will give you a good idea of where your site stands.
 
 ### Lighthouse: Chrome’s Accessibility Reporting Tool
-Lighthouse is a free tool available right in Chrome. You can use it by simply opening your website in your browser, or by visiting any page you want to test in the Chrome browser. Keep in mind that manual testing is also required to get a full picture of accessibility - we’ll cover this as well in this blog post.
+Lighthouse is a free tool available right in Chrome. You can use it by simply using chrome's testing website, or with you development tools by visiting any page you want to test in the Chrome browser. Keep in mind that manual testing is also required to get a full picture of accessibility&mdash;we’ll cover this as well in this blog post.
 
 **To use the tool by going to the website:**
 Visit [https://web.dev/measure](https://web.dev/measure) and paste the URL of the page you want tested into the form field, then click “Run Audit” to see results.
