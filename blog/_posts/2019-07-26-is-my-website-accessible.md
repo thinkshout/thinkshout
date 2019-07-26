@@ -115,4 +115,4 @@ You can also turn on VoiceOver and tab through the page again to see if icon but
 
 ### To sum it up:
 
-Learning about different testing methods can help inform and add clarity to the process of making your site accessible. This is one of the most critical steps in your journey to making a website that everyone can experience. If you want to know how to transform these errors into a site that reads and navigates smoothly for all users, ThinkShout is here to help! Contact us to learn more about how we can partner to make your website more accessible - progress starts now!
+Learning about different testing methods can help inform and add clarity to the process of making your site accessible. This is one of the most critical steps in your journey to making a website that everyone can experience. If you want to know how to transform these errors into a site that reads and navigates smoothly for all users, ThinkShout is here to help! Contact us to learn more about how we can partner to make your website more accessible.
