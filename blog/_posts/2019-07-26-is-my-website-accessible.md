@@ -106,7 +106,7 @@ Now that you’ve increased the screen to 400%, browse the page. As you browse a
 4. Is there key functionality on desktop that's no longer available on the mobile version?
 
 ## 4. Testing with a Screen Reader
-Using a screen reader is a more advanced testing approach, and very helpful in identifying accessibility bugs on a site. If you use a mac, VoiceOver is the built in screen reader. Here’s a quick video tutorial on how to test your page using VoiceOver. The video description includes the full text of the captions as a quick reference.<br><br>
+Using a screen reader is a more advanced testing approach, and very helpful in identifying accessibility bugs on a site. If you use a mac, VoiceOver is the built in screen reader. To turn VoiceOver on or off, press `command f5`. Here’s a quick video tutorial on how to test your page using VoiceOver. The video description includes the full text of the captions as a quick reference. <br><br>
 
 <iframe title="Mac screenreader 101 for QA and Development" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="https://www.youtube.com/embed/gXp3MLYOWb0?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0"></iframe><br>
 
