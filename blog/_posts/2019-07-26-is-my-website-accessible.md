@@ -30,7 +30,7 @@ header-image-alt: "A printed piece of paper that says Welcome in braille"
 ---
 [You know how important accessibility is](https://thinkshout.com/blog/2018/05/Space-for-Empathy/), but now what?
 
-Is your website accessible?
+_Is_ your website accessible?
 
 How do you find out?
 
@@ -38,17 +38,17 @@ Well, it’s not as hard as it seems&mdash;and we’re here to help! Here are a 
 
 ## 1. Automated tests
 
-While automated tools will only catch about 30% of accessibility bugs, they will give you a good idea of where your site stands.
+While automated tools will only catch about 30% of accessibility bugs, they will give you a general idea of your site's accessibility and show you some ways to make improvements.
 
 ### Lighthouse: Chrome’s Accessibility Reporting Tool
-Lighthouse is a free tool available right in Chrome. You can use it by simply using chrome's testing website, or with you development tools by visiting any page you want to test in the Chrome browser. Keep in mind that manual testing is also required to get a full picture of accessibility&mdash;we’ll cover this as well in this blog post.
+Lighthouse is a free tool available right in Chrome. You can use it by simply using chrome's testing website, in your development tools when you inspect a page, or with a browser plugin. Keep in mind that manual testing is also required to get a full picture of accessibility&mdash;we’ll cover that in just a moment.
 
-**To use the tool by going to the website:**
+**To use the tool by going to a URL:**
 Visit [https://web.dev/measure](https://web.dev/measure) and paste the URL of the page you want tested into the form field, then click “Run Audit” to see results.
 
 **To use the tool through inspect**
 
-1. Right click on the webpage you want to test, and select “Inspect” from the dropdown<br><br>
+1. Right click on the webpage you want to test, and select “Inspect” from the dropdown or from your keyboard press `command + option + I`. This will open the inspect tool and bring up the last tool you used, so if the last thing you did was run an audit, it will bring you back to the audits panel.<br><br>
 ![Dropdown menu: Inspect](/assets/images/blog/a11y.1.png)<br><br>
 2. In the inspection window at the top right, click on the button with a double arrow, or expand the window until you see “Audits.” Select “Audits.”
 ![Dropdown menu: Audits selected](/assets/images/blog/a11y.2.png)<br><br>
