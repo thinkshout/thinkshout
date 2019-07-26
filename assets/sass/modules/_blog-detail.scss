@@ -139,6 +139,13 @@
       padding: 0;
     }
 
+    ol li li {
+      list-style-type: lower-alpha;
+      &:before {
+        content: "";
+      }
+    }
+
     h2 {
       color: $midgray;
       font-size: rem(24);
@@ -254,6 +261,14 @@
 
     .clear {
       clear: both;
+    }
+
+    iframe {
+      height: calc(56vw - 24px);
+      max-height: 448px;
+      @include mq(lt) { height: calc(56vw - 60px); }
+      @include mq(md) { height: calc(56vw - 120px); max-height: 491px; }
+      @include mq(l)  { height: calc(56vw - 200px); max-height: 448px; }
     }
 
 

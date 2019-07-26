@@ -3066,6 +3066,12 @@ a:visited {
   line-height: 1.5;
   margin-left: -0.375rem;
   padding: 0; }
+.blog-post .body ol li li,
+.blog-post .intro ol li li {
+  list-style-type: lower-alpha; }
+  .blog-post .body ol li li:before,
+  .blog-post .intro ol li li:before {
+    content: ""; }
 .blog-post .body h2,
 .blog-post .intro h2 {
   color: #626262;
@@ -3229,6 +3235,24 @@ a:visited {
 .blog-post .body .clear,
 .blog-post .intro .clear {
   clear: both; }
+.blog-post .body iframe,
+.blog-post .intro iframe {
+  height: calc(56vw - 24px);
+  max-height: 448px; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .blog-post .body iframe,
+    .blog-post .intro iframe {
+      height: calc(56vw - 60px); } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .blog-post .body iframe,
+    .blog-post .intro iframe {
+      height: calc(56vw - 120px);
+      max-height: 491px; } }
+  @media (min-width: 1200px) {
+    .blog-post .body iframe,
+    .blog-post .intro iframe {
+      height: calc(56vw - 200px);
+      max-height: 448px; } }
 .blog-post .intro p {
   color: #626262;
   font-size: 1.125rem;
