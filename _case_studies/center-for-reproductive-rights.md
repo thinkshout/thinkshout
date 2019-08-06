@@ -5,7 +5,7 @@ body-class: case-study cfrr
 active: false
 homepage: false
 published: true
-order: 6
+order: 7
 image: https://thinkshout.com/assets/images/case-studies/cfrr-case-study-main-hero-imageA.jpg
 image-alt: "Photo of protest sign that says Fight Like a Girl...For My Rights"
 description: "Using interactive global data visualization tools to illustrate the legal status of abortion laws -- worldwide."
