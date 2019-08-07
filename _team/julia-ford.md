@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Julia
 last_name: Ford
-position: Project Manager
+position: Client Experience Manager
 leadin: |
   Julia’s transition from case management to project management was chock full of adventure. Her attention to big details, aptitude for managing people, and her organizational skills position her well to lead our project teams.
 social:
