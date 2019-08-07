@@ -32,19 +32,18 @@ cs-intro:
     intro-text: |
       Move an interactive global data visualization map from Flash to Drupal 8 in just 6 weeks, including key user experience changes and strategic design updates.
 
-
   - intro-title: Solutions
     intro-text: |
       With a tight timeline and set budget, we focused on developing responsive tools and elevating access to the Center’s most valuable resources for priority audiences—tweaking what we could and planning for a potential Phase 2 with expanded functionality.
 
 cs-sections:
-- section-title: "Sometimes, it’s not about the flashy stuff."
-  section-description: |
-    Though there is much to be excited about from a user perspective—including some very strategic user experience and design updates—most of our partnership with The Center for Reproductive Rights focused on what you can’t see: The World Abortion Laws Map was originally built on Flash, and with the Center moving its entire website from Drupal 6 to Drupal 8, they needed to lift the map from Flash and rebuild it in Drupal 8. The library we used for the map was D3.js. Beyond that, the map was previously unavailable for viewing on mobile devices. We knew it was crucial to improve access to key information and hone core functionalities for the Center’s primary audiences.
+  - section-title: "Sometimes, it’s not about the flashy stuff."
+    section-description: |
+      Though there is much to be excited about from a user perspective—including some very strategic user experience and design updates—most of our partnership with The Center for Reproductive Rights focused on what you can’t see: The World Abortion Laws Map was originally built on Flash, and with the Center moving its entire website from Drupal 6 to Drupal 8, they needed to lift the map from Flash and rebuild it in Drupal 8. The library we used for the map was D3.js. Beyond that, the map was previously unavailable for viewing on mobile devices. We knew it was crucial to improve access to key information and hone core functionalities for the Center’s primary audiences.
 
-    One of the specific reasons for rebuilding the map using modern web technologies was so that it could be accessed on mobile devices. The map was not available full-stop on any iPhone or iPad until we built this new one.
+      One of the specific reasons for rebuilding the map using modern web technologies was so that it could be accessed on mobile devices. The map was not available full-stop on any iPhone or iPad until we built this new one.
 
-    The Center now has a global interactive data visualization tool that no longer requires its own URL or Flash to launch. The map itself is also responsive, a huge improvement from its former iteration, and offers a clearer hierarchy of information, from resource-driven investigation to engagement-level calls to action.
+      The Center now has a global interactive data visualization tool that no longer requires its own URL or Flash to launch. The map itself is also responsive, a huge improvement from its former iteration, and offers a clearer hierarchy of information, from resource-driven investigation to engagement-level calls to action.
 
   - section-image: "/assets/images/case-studies/CFRR_image1.jpg"
     section-image-alt: "World Abortion Laws map on desktop and mobile phone"
