@@ -32,7 +32,7 @@ cs-intro:
       Since 1998, the Center for Reproductive Rights, a US-based global organization that uses the power of law to advance reproductive rights as fundamental human rights, has offered the World Abortion Laws Map as a central tool to compare the legal status of abortion globally.
 
       If you need to know the legal status of abortion anywhere in the world, in Ireland, or Mexico, or Algeria, for example, the World Abortion Laws map is a thorough resource. Not only does it allow users to compare abortion laws across countries, it also provides the full text of nearly 50 countries laws and other in-depth information.
-       
+
   - intro-title: Challenge
     intro-text: |
       Move an interactive global data visualization map from Flash to Drupal 8 in just 6 weeks, including key user experience changes and strategic design updates.
@@ -62,12 +62,12 @@ cs-sections:
       “Thinkshout was incredible at ensuring this project stayed on track, given the very short turnaround time. They were diligent in their project management and were able to anticipate the types of delays that often hold projects up, so that we could tackle them ahead of time.  We felt confident throughout the project that we would make it to launch on time – and indeed, we did!”
     section-attribution: "~ Jeanne McCabe, Senior Digital Producer"
 
-  - section-image: "/assets/images/case-studies/CFRR_image2.jpg"
-    section-image-alt: "World Abortion Laws map on a desktop screen"
-
   - section-title: "From print to digital"
     section-description: |
       The design focused on maintaining consistency with the updated print version of the map and leveraging the existing brand while providing a clean and user-friendly experience at all screen sizes. The foundation of the map was rooted in an established color coding system to identify various countries’ laws. Through this, we found opportunities to incorporate those vibrant and highly identifiable colors to highlight meaningful content through bold dropdowns.
+
+  - section-image: "/assets/images/case-studies/CFRR_image2.jpg"
+    section-image-alt: "World Abortion Laws map on a desktop screen"
 
   - section-title: "A partnership rooted in mutual respect"
     section-description: |
