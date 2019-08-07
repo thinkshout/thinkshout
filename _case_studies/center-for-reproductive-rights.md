@@ -29,7 +29,7 @@ cs-header:
 
 cs-intro:
   - intro-paragraph: |
-      Since 1998, the Center for Reproductive Rights, a US-based global organization that uses the power of law to advance reproductive rights as fundamental human rights, has offered the World Abortion Laws Map as a central tool to compare the legal status of abortion globally.
+      Since 1998, the Center for Reproductive Rights, a US-based global organization that uses the power of law to advance reproductive rights as fundamental human rights, has offered the [World Abortion Laws Map](https://reproductiverights.org/worldabortionlaws) as a central tool to compare the legal status of abortion globally.
 
       If you need to know the legal status of abortion anywhere in the world, in Ireland, or Mexico, or Algeria, for example, the World Abortion Laws map is a thorough resource. Not only does it allow users to compare abortion laws across countries, it also provides the full text of nearly 50 countries laws and other in-depth information.
 
@@ -48,7 +48,7 @@ cs-sections:
 
       One of the specific reasons for rebuilding the map using modern web technologies was so that it could be accessed on mobile devices. The map was not available full-stop on any iPhone or iPad until we built this new one.
 
-      The Center now has a global interactive data visualization tool that no longer requires its own URL or Flash to launch. The map itself is also responsive, a huge improvement from its former iteration, and offers a clearer hierarchy of information, from resource-driven investigation to engagement-level calls to action.
+      The Center now has a global interactive data visualization tool that no longer requires its own URL or Flash to launch. [The map itself is also responsive](https://reproductiverights.org/worldabortionlaws), a huge improvement from its former iteration, and offers a clearer hierarchy of information, from resource-driven investigation to engagement-level calls to action.
 
   - section-image: "/assets/images/case-studies/CFRR_image1.jpg"
     section-image-alt: "World Abortion Laws map on desktop and mobile phone"
@@ -71,7 +71,7 @@ cs-sections:
 
   - section-title: "A partnership rooted in mutual respect"
     section-description: |
-      These kinds of projects, with many stakeholders involved, an enormous amount of content, and a hard deadline, are only possible with extraordinary client partnerships—which is exactly what we found in the Center’s team. ThinkShout was and continues to recognize what a privilege it is to work with organizations like The Center for Reproductive Rights, especially now, when access to abortion here in the United States is brutally under attack. We’re proud of the move from Flash to Drupal 8, glad to have implemented improved functionality and design for core audiences, and encouraged by the post-launch analytics we’re seeing so far, but most importantly, we’re thankful for The Center’s work and humbled by our partnership.
+      These kinds of projects, with many stakeholders involved, an enormous amount of content, and a hard deadline, are only possible with extraordinary client partnerships—which is exactly what we found in the Center’s team. ThinkShout was and continues to recognize what a privilege it is to work with organizations like [The Center for Reproductive Rights](https://reproductiverights.org/worldabortionlaws), especially now, when access to abortion here in the United States is brutally under attack. We’re proud of the move from Flash to Drupal 8, glad to have implemented improved functionality and design for core audiences, and encouraged by the post-launch analytics we’re seeing so far, but most importantly, we’re thankful for The Center’s work and humbled by our partnership.
 
 
 cs-cta-text: Launch Site
