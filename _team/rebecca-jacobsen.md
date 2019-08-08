@@ -15,7 +15,7 @@ team-image:
   medium: team/medium/Rebecca.jpg
   large: team/large/Rebecca.jpg
 published: true
-current-employee: true
+current-employee: false
 name: rebecca
 bio: |
   When Rebecca was starting out, she felt successful in her computer science classes, seeing results from concept to working software. Moreover, she wanted to make things and serve people. She remembers thinking computers would change the world; and that they have!
