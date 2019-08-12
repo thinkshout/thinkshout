@@ -31,7 +31,7 @@ cs-intro:
   - intro-paragraph: |
       Since 1998, the Center for Reproductive Rights, a US-based global organization that uses the power of law to advance reproductive rights as fundamental human rights, has offered the [World Abortion Laws Map](https://reproductiverights.org/worldabortionlaws) as a central tool to compare the legal status of abortion globally.
 
-      If you need to know the legal status of abortion anywhere in the world, in Ireland, or Mexico, or Algeria, for example, the World Abortion Laws map is a thorough resource. Not only does it allow users to compare abortion laws across countries, it also provides the full text of nearly 50 countries laws and other in-depth information.
+      If you need to know the legal status of abortion anywhere in the world, in Ireland, or Mexico, or Algeria, for example, the World Abortion Laws map is a thorough resource. Not only does it allow users to compare abortion laws across countries, it also provides the full text of nearly 50 countries' laws and other in-depth information.
 
   - intro-title: Challenge
     intro-text: |
