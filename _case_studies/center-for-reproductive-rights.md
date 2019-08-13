@@ -60,7 +60,7 @@ cs-sections:
   - section-type: quote
     section-quote: |
       “Thinkshout was incredible at ensuring this project stayed on track, given the very short turnaround time. They were diligent in their project management and were able to anticipate the types of delays that often hold projects up, so that we could tackle them ahead of time.  We felt confident throughout the project that we would make it to launch on time – and indeed, we did!”
-    section-attribution: "~ Jeanne McCabe, Senior Digital Producer"
+    section-attribution: "~ Katy Mayall, Director of Capacity Building"
 
   - section-title: "From print to digital"
     section-description: |
