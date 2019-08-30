@@ -9,9 +9,9 @@ social:
   linkedin: http://www.linkedin.com/lekevinle
   instagram: http://www.instagram.com/craycrayle
 team-image:
-  small: team/small/Kevin-small.jpeg
+  small: team/small/Kevin-small.jpg
   medium:
-  large: team/large/Kevin-large.jpeg
+  large: team/large/Kevin-large.jpg
 published: true
 current-employee: true
 name: kevin
