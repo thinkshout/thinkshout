@@ -9,7 +9,7 @@ social:
   linkedin: http://www.linkedin.com/lekevinle
   instagram: http://www.instagram.com/craycrayle
 team-image:
-  small: team/small/Kevin-sm1.jpeg
+  small: team/small/Kevin-1.jpg
   medium:
   large: team/large/Kevin-large.jpg
 published: true

@@ -9,7 +9,7 @@ social:
   github:
   linkedin:
 team-image:
-  small: team/small/Maria-3.jpg
+  small: team/small/Maria-2.jpg
   medium:
   large: team/large/Maria-lg.jpg
 published: true
