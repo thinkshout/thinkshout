@@ -1,7 +1,7 @@
 ---
 layout: teammember
 first_name: Britt
-last_name: Stetson
+last_name: Szynal
 position: Project Manager
 leadin: |
   Britt finds true enjoyment in helping others navigate the world’s complexities in order to put inspiration into action. And if anyone can put things into action, it’s someone who can squat 230lbs...which incidentally, is something Britt can do.
