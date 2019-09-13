@@ -4,7 +4,7 @@ first_name: Julia
 last_name: Ford
 position: Client Experience Manager
 leadin: |
-  Julia’s transition from case management to project management was chock full of adventure. Her attention to big details, aptitude for managing people, and her organizational skills position her well to lead our project teams.
+  Julia has practically done it all; and it shows in her ability to take on any project or opportunity that comes our way with grace and aplomb.
 social:
   github:
   twitter:
@@ -18,7 +18,9 @@ published: true
 current-employee: true
 name: julia
 bio: |
-  Julia saw in ThinkShout an opportunity to blend her experience in the program side of the nonprofit world with her history of managing large scale events. She loves the A to Z process that big projects require to be successful, and she’s not afraid of  the challenges that may arise on the way - in fact, she welcomes them. She once picked up her entire life and moved to South America to volunteer. If that’s not fearless, then we don’t know what is. Now she’s in her element, managing large budgets, navigating around moving targets, and working to ensure our project deliverables are up to the ThinkShout standard. When she’s not project managing, she’s baking, reading, and traveling.
+  Julia is the rare person who loves the process and much as she loves what’s possible. By that, of course, we mean that Julia is equally a thought partner in visioning and a project manager in execution—the perfect balance for client experience management. Surprising? Not to us! But maybe that’s because before she stepped into her current role at ThinkShout, Julia wrangled visions, timelines, and budgets as a project manager for 2 years, where she led some of our most complicated projects from kickoff to launch to the great satisfaction of our clients.
+  <p>Before she joined our team, Julia did everything faster and somewhat more randomly than everyone else: After graduating from college a year early (she says it’s because it was so expensive—and we’ll give her that—but we think it’s just because she’s smart), she served the Portland community as a case manager at Central City Concern, delighted customers as a lead pastry chef, started her own catering and event management company (it still exists, and her cookies are supreme), and worked as a development director at a local school, leveraging relationship management systems and major gifts work to bring education to life.
+  <p>When Julia’s not busy (which is never), she can be found baking, swimming, traveling, and practicing her Spanish.
 
 slug: julia
 ---
