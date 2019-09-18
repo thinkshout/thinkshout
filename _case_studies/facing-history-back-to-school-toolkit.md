@@ -2,7 +2,7 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study fhao
-active: false
+active: true
 homepage: false
 published: true
 order: 6
@@ -14,17 +14,17 @@ description: "Leveraging innovative design and interactive user experiences to p
 title: Leveraging innovative design and interactive user experiences to provide teachers with impactful back to school lessons and activities.
 cs-class: "fhao"
 featured_impact_text: "Back to School Toolkit"
-featured_client_name: "Facing History and Ourselves"
+featured_client_name: "Facing History: Back to School Toolkit"
 
 cs-preview:
   image: /assets/images/case-studies/FHAO_toolkit_hero.jpg
-  type: "Facing History and Ourselves"
-  client: "Facing History and Ourselves"
+  type: "Facing History: Back to School Toolkit"
+  client: "Facing History: Back to School Toolkit"
   description: "Leveraging innovative design and interactive user experiences to provide teachers with impactful back to school lessons and activities."
 
 cs-header:
   header-image: /assets/images/case-studies/FHAO_toolkit_hero.jpg
-  client: "Facing History and Ourselves"
+  client: "Facing History: Back to School Toolkit"
   title: "Leveraging innovative design and interactive user experiences to provide teachers with impactful back to school lessons and activities."
 
 cs-intro:
