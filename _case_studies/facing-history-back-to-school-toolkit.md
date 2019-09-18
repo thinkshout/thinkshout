@@ -55,7 +55,8 @@ cs-sections:
   - section-type: quote
     section-quote: |
         “It was incredibly fun working with, and alongside the development team at ThinkShout. They were great about incorporating me into their project process and I felt supported but also autonomous in maximizing our team's budget and resources with my time, using them to keep me unblocked and be a collective brain to troubleshoot more complex issues.”
-      section-attribution: "~ Paige Eaton, Associate Director, Web Development"
+        
+    section-attribution: "~ Paige Eaton, Associate Director, Web Development"
 
   - section-image1: "/assets/images/case-studies/FHAO_toolkit_small1.jpg"
     section-image-alt1: "Back to School Toolkit on a tablet, landscape mode."
