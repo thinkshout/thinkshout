@@ -5,7 +5,7 @@ body-class: case-study fhao
 active: true
 homepage: false
 published: true
-order: 6
+order: 7
 image: https://thinkshout.com/assets/images/case-studies/FHAO_toolkit_hero.jpg
 image-alt: "Photo of students and teachers in the classroom"
 description: "Leveraging innovative design and interactive user experiences to provide teachers with impactful back to school lessons and activities."
