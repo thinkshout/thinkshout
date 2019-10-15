@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Kevin
 last_name: Le
-position: Office & Events Coordinator
+position: Community and Events Manager
 leadin: |
   Kevin is the magic behind the curtain. He loves orchestrating multiple pieces at once to create the perfect workshop, conference, or office celebration; which makes him the perfect fit as our Office & Events Coordinator.
 social:
