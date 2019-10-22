@@ -16,7 +16,7 @@ tags:
   - Themes
   - Webpack
   - "Drupal APIs"
-date: 2019-10-21 11:00:00
+date: 2019-10-22 10:00:00
 header-image: /assets/images/blog/webpack-car.jpg
 header-image-alt: "A restored classic Mustang."
 ---
@@ -198,7 +198,7 @@ Finally we define the output directory, plugins, and configuration for our build
 
 The plugins enable CSS minification and our local dev server, which proxies the local Drupal site.
 
-You’ll notice that the destination directory is changed depending on the mode - since we expect the `dist` directory to be committed to the repository, we want to avoid developers running a development build and pushing that to production, which is almost guaranteed to happen if your development build can be committed. `dist_dev` is ignored by Git, so there’s no-chance of making a mistake here. That said, this does require developers to run `npm run build` when they’re ready to commit if they were previously running `npm run start:dev`, which is a bit awkward.
+You’ll notice that the destination directory changes depending on the mode - since we expect the `dist` directory to be committed to the repository, we want to avoid developers running a development build and pushing that to production, which is almost guaranteed to happen if your development build can be committed. `dist_dev` is ignored by Git, so there’s no-chance of making a mistake here. That said, this does require developers to run `npm run build` when they’re ready to commit if they were previously running `npm run start:dev`, which is a bit awkward. This works for now but we're looking to find a better solution.
 
 To get `dist_dev` to show up in Drupal instead of `dist`, I wrote this hook:
 
@@ -212,9 +212,11 @@ function webpack_example_page_attachments_alter(array &$attachments) {
 }
 ```
 
-in combination with a new library definition to swap the files for this theme. Since `dist_dev` can never exist on production, this seems like a low-risk addition.
+which uses a separate development library definition that uses `dist_dev` files. Since `dist_dev` can never exist on production, this seems like a low-risk addition.
 
-That’s basically everything - in the end, we now have a way to use modern build tools with a traditional Drupal theme, and hope that it leads to us adopting more ambitious JavaScript tools for more complex interactions. If you want to check out the complete example theme, you can do so at [https://github.com/thinkshout/webpack_example].
+That’s basically everything - in the end, we now have a way to use modern build tools with a traditional Drupal theme, and hope that it leads to us writing more ambitious JavaScript for more complex interactions. If you want to check out the complete example theme, you can do so at [https://github.com/thinkshout/webpack_example].
+
+If you want to see the starter themes we're using Webpack on, check out [thinkshout/ts_grid] and [thinkshout/thinkwp]. ts_grid in particular has some great Sass tooling for working with CSS grid, which PostCSS helps with. Credit to Amy Swan and Jaymz Rhime for making our Webpack dreams real.
 
 P.S. If you’re a Webpack expert and have any suggestions for us, please open a PR or issue in the repo. I’m especially looking for ways we can make use of code splitting in the context of defining lots of Drupal behaviors.
 
@@ -229,3 +231,5 @@ P.S. If you’re a Webpack expert and have any suggestions for us, please open a
 [https://github.com/thinkshout/webpack_example]: https://github.com/thinkshout/webpack_example
 [package.json]: https://github.com/thinkshout/webpack_example/blob/master/package.json
 [webpack.config.js]: https://github.com/thinkshout/webpack_example/blob/master/webpack.config.js
+[thinkshout/ts_grid]: https://github.com/thinkshout/ts_grid
+[thinkshout/thinkwp]: https://github.com/thinkshout/thinkwp
