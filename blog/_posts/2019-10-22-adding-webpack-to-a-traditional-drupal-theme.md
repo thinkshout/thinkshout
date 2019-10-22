@@ -17,6 +17,7 @@ tags:
   - Webpack
   - "Drupal APIs"
 date: 2019-10-22 10:00:00
+image: https://thinkshout.com/assets/images/blog/webpack-car.jpg
 header-image: /assets/images/blog/webpack-car.jpg
 header-image-alt: "A restored classic Mustang."
 ---
