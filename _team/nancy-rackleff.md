@@ -14,7 +14,7 @@ team-image:
   small: team/small/Nancy1.jpg
   medium:
   large: team/large/Nancy.jpg
-published: true
+published: false
 current-employee: true
 name: nancy
 bio: |
