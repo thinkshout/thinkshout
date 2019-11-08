@@ -166,6 +166,10 @@
       @include mq(t) { min-height: 50vw; padding: 4.5rem 2rem; }
       @include mq(d) { min-height: 600px; }
       @include mq(l) { min-height: 800px; }
+
+      strong {
+        color: $orange;
+      }
     }
 
     h4, p {
