@@ -15,7 +15,7 @@ team-image:
   medium: team/medium/SarahJ.jpg
   large: team/large/SarahJ.jpg
 published: true
-current-employee: true
+current-employee: false
 name: sarahj
 bio: |
   Sarah comes from a long line of NTEN alumni (two other ThinkShouters were previously at NTEN). It was in her role there that she not only fell in love with nonprofit strategy but also with the community itself and the idea of leveraging technology to help the greater good. After fully embracing the role of nonprofit accidental techie, Sarah moved to Austin, TX where she spent five years as an analyst and senior digital strategy consultant with Pricewaterhouse Cooper’s Digital Experience Center.
