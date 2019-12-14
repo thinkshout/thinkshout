@@ -4,7 +4,7 @@ layout: case_study
 body-class: case-study lvhn
 active: false
 homepage: false
-published: true
+published: false
 order: 6
 image: /assets/images/case-studies/LVHN-Hero.jpg
 image-alt: "@todo"
