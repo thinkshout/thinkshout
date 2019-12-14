@@ -4342,6 +4342,8 @@ a:visited {
   @media (min-width: 1200px) {
     .case-study .body .case-wrapper {
       min-height: 800px; } }
+  .case-study .body .case-wrapper strong {
+    color: #F06D2F; }
 .case-study .body h4, .case-study .body p {
   margin-left: 0;
   margin-right: 0;
