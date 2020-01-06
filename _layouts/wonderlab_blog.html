@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="wonderlab-header">
+  <h1 class="post-title">{{ page.title }}</h1>
+</div>
+
+{% if page.header-image %}
+<div class="wonderlab-header-image">
+  <img src="{{ site.baseurl }}{{ page.header-image }}" alt="{{ page.header-image-alt }}">
+</div>
+{% endif %}
+
+<section class="body">
+  {{ content }}
+</section>

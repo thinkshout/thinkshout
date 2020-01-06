@@ -1,7 +1,9 @@
 ---
+index: 0
 layout: wonderlab_blog
 body-class: wonderlab-blog-post
-topic: consent-based-calibration
+categories:
+  consent-based-calibration
 title: "Business title"
 author: sam
 published: true

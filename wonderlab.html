@@ -1,0 +1,24 @@
+---
+layout: default
+body-class: our-work work-archive
+permalink: work/
+title: Work
+---
+
+<div class="intro">
+  <div class="work-hero container">
+    <h2>Work</h2>
+    <h1>Our strategies, designs, and digital products enable progressive organizations to achieve greater impact.</h1>
+  </div>
+
+  <div class="case-study-previews container">
+    {% assign case-studies = site.case_studies | where: "published", "true" %}
+    {% for preview in case-studies %}
+    {% include case_study_preview.html %}
+    {% endfor %}
+  </div>
+</div>
+
+{% include work-with-us.html %}
+
+{% include select-clients.html %}
