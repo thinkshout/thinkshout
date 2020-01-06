@@ -1,24 +1,29 @@
 ---
 layout: default
-body-class: our-work work-archive
-permalink: work/
-title: Work
+body-class: wonderlab-landing wonderlab-page
+permalink: wonderlab/
+title: WonderLab
 ---
+{% include wonderlab-header.html %}
 
-<div class="intro">
-  <div class="work-hero container">
-    <h2>Work</h2>
-    <h1>Our strategies, designs, and digital products enable progressive organizations to achieve greater impact.</h1>
+<div class="container wl-landing">
+  <div class="wonderlab-intro">
+    <strong>Curiosity + Impact + Big Ideas</strong><br/>
+    <p>Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Etiam porta sem malesuada magna mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
   </div>
 
-  <div class="case-study-previews container">
-    {% assign case-studies = site.case_studies | where: "published", "true" %}
-    {% for preview in case-studies %}
-    {% include case_study_preview.html %}
+  {% comment %} This ensures that CBC content comes first, but in the future can be updated to show all blogs. {% endcomment %}
+  {% assign cbc_blogs = site.wonderlab | where: "category", "consent-based-calibration" | sort: "index" %}
+  <div class="wl-blog-first">
+    {% assign blog = cbc_blogs | first %}
+    {% include wonderlab-blog-card.html %}
+  </div>
+  <div class="wl-blogs">
+    {% for blog in cbc_blogs %}
+      {% if blog.index == 0 %}
+        {% continue %}
+      {% endif %}
+      {% include wonderlab-blog-card.html %}
     {% endfor %}
   </div>
 </div>
-
-{% include work-with-us.html %}
-
-{% include select-clients.html %}

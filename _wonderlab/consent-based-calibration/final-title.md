@@ -1,10 +1,10 @@
 ---
-index: 1
+index: 3
 layout: wonderlab_blog
 body-class: wonderlab-blog-post wonderlab-page
 category: consent-based-calibration
-title: "Technical title"
-card_subheader: Technical lens
+title: "Final title"
+card_subheader: Final lens
 author: sam
 published: true
 short: "@todo"

@@ -90,7 +90,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
   <!-- Footer -->
-  {% include footer.html %}
+  {% if page.url contains "/wonderlab/" %}
+    {% include wonderlab_footer.html %}
+  {% else %}
+    {% include footer.html %}
+  {% endif %}
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
 	<script src="{{ site.baseurl }}/assets/js/jquery.waypoints.min.js"></script>

@@ -5322,7 +5322,7 @@ form.contact {
         .careers-cta .text:last-child {
           margin-right: 0; } }
 
-footer {
+.footer {
   background: url("../images/falcon-view.jpg") center center/cover;
   clear: both;
   height: 532px;
@@ -5330,7 +5330,7 @@ footer {
   padding-top: 4.625rem;
   position: relative;
   width: 100%; }
-  footer::before {
+  .footer::before {
     content: "";
     position: absolute;
     left: 0;
@@ -5339,52 +5339,52 @@ footer {
     bottom: 0;
     background-color: rgba(62, 62, 62, 0.83);
     z-index: 1; }
-  footer .container {
+  .footer .container {
     position: relative;
     z-index: 2; }
-  footer a:hover {
+  .footer a:hover {
     color: #fff;
     text-decoration: underline; }
   @media (max-width: 480px) {
-    footer {
+    .footer {
       height: auto;
       padding-bottom: 7rem;
       padding-top: 2rem; } }
   @media (min-width: 481px) and (max-width: 979px) {
-    footer {
+    .footer {
       height: auto;
       padding-bottom: 7rem;
       padding-top: 2rem; } }
-  footer .footer-menu {
+  .footer .footer-menu {
     display: block; }
     @media (min-width: 980px) {
-      footer .footer-menu {
+      .footer .footer-menu {
         float: left;
         display: block;
         margin-right: 2.35765%;
         width: 91.4702%; }
-        footer .footer-menu:last-child {
+        .footer .footer-menu:last-child {
           margin-right: 0; } }
-  footer ul {
+  .footer ul {
     padding-left: 0; }
-  footer .footer-newsletter {
+  .footer .footer-newsletter {
     text-align: center; }
     @media (min-width: 671px) and (max-width: 979px) {
-      footer .footer-newsletter {
+      .footer .footer-newsletter {
         text-align: left; } }
     @media (min-width: 980px) {
-      footer .footer-newsletter {
+      .footer .footer-newsletter {
         text-align: left; } }
-    footer .footer-newsletter h4 {
+    .footer .footer-newsletter h4 {
       color: #fff;
       font-weight: 500;
       margin-bottom: 4px;
       margin-top: 0;
       font-size: 0.8125rem;
       line-height: calc(32/16); }
-    footer .footer-newsletter textarea,
-    footer .footer-newsletter input[type=email],
-    footer .footer-newsletter input[type=text] {
+    .footer .footer-newsletter textarea,
+    .footer .footer-newsletter input[type=email],
+    .footer .footer-newsletter input[type=text] {
       border: none;
       box-shadow: none;
       display: inline-block;
@@ -5398,27 +5398,27 @@ footer {
       -moz-transition: box-shadow 0.2s;
       transition: box-shadow 0.2s; }
       @media (min-width: 481px) and (max-width: 979px) {
-        footer .footer-newsletter textarea,
-        footer .footer-newsletter input[type=email],
-        footer .footer-newsletter input[type=text] {
+        .footer .footer-newsletter textarea,
+        .footer .footer-newsletter input[type=email],
+        .footer .footer-newsletter input[type=text] {
           width: 250px;
           padding: 0.75rem 1rem; } }
       @media (min-width: 980px) {
-        footer .footer-newsletter textarea,
-        footer .footer-newsletter input[type=email],
-        footer .footer-newsletter input[type=text] {
+        .footer .footer-newsletter textarea,
+        .footer .footer-newsletter input[type=email],
+        .footer .footer-newsletter input[type=text] {
           width: 250px;
           padding: 0.75rem 1rem; } }
-      footer .footer-newsletter textarea:focus,
-      footer .footer-newsletter input[type=email]:focus,
-      footer .footer-newsletter input[type=text]:focus {
+      .footer .footer-newsletter textarea:focus,
+      .footer .footer-newsletter input[type=email]:focus,
+      .footer .footer-newsletter input[type=text]:focus {
         background: #fff;
         box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.2);
         outline: none;
         -webkit-transition: box-shadow 0.2s;
         -moz-transition: box-shadow 0.2s;
         transition: box-shadow 0.2s; }
-    footer .footer-newsletter .button.solid {
+    .footer .footer-newsletter .button.solid {
       display: inline-block;
       padding: 0.75rem 0.5rem;
       font-size: 0.75rem;
@@ -5427,90 +5427,90 @@ footer {
       letter-spacing: 0.5px;
       height: 45px; }
       @media (min-width: 481px) and (max-width: 979px) {
-        footer .footer-newsletter .button.solid {
+        .footer .footer-newsletter .button.solid {
           padding: 0.75rem 1rem; } }
       @media (min-width: 980px) {
-        footer .footer-newsletter .button.solid {
+        .footer .footer-newsletter .button.solid {
           padding: 0.75rem 1rem; } }
   @media (max-width: 480px) {
-    footer .main-menu-footer {
+    .footer .main-menu-footer {
       text-align: center; } }
   @media (min-width: 481px) and (max-width: 670px) {
-    footer .main-menu-footer {
+    .footer .main-menu-footer {
       text-align: center; } }
   @media (min-width: 980px) and (max-width: 1199px) {
-    footer .main-menu-footer {
+    .footer .main-menu-footer {
       margin-right: 0; } }
-  footer .main-menu-footer > li {
+  .footer .main-menu-footer > li {
     display: block;
     font-size: 1.25rem;
     line-height: 1.75; }
     @media (min-width: 671px) and (max-width: 979px) {
-      footer .main-menu-footer > li {
+      .footer .main-menu-footer > li {
         display: inline-table;
         font-size: 0.875rem; } }
     @media (min-width: 980px) {
-      footer .main-menu-footer > li {
+      .footer .main-menu-footer > li {
         display: inline-table;
         font-size: 0.875rem; } }
-  footer .main-menu-footer > li > a {
+  .footer .main-menu-footer > li > a {
     color: #fff; }
     @media (min-width: 671px) and (max-width: 979px) {
-      footer .main-menu-footer > li > a {
+      .footer .main-menu-footer > li > a {
         margin-right: 1.5rem; } }
     @media (min-width: 980px) {
-      footer .main-menu-footer > li > a {
+      .footer .main-menu-footer > li > a {
         margin-right: 2rem; } }
-  footer .main-menu-footer li:last-of-type a {
+  .footer .main-menu-footer li:last-of-type a {
     font-weight: bold; }
-  footer .main-menu-footer .footer-submenu {
+  .footer .main-menu-footer .footer-submenu {
     margin-top: 0.5rem; }
     @media (max-width: 480px) {
-      footer .main-menu-footer .footer-submenu {
+      .footer .main-menu-footer .footer-submenu {
         font-size: .75em;
         margin-top: 0; } }
     @media (min-width: 481px) and (max-width: 670px) {
-      footer .main-menu-footer .footer-submenu {
+      .footer .main-menu-footer .footer-submenu {
         font-size: .75em;
         margin-top: 0; } }
-    footer .main-menu-footer .footer-submenu a {
+    .footer .main-menu-footer .footer-submenu a {
       color: #fff; }
-  footer .secondary-menu-footer li a {
+  .footer .secondary-menu-footer li a {
     color: #f78c50; }
-  footer .bcorp-logo {
+  .footer .bcorp-logo {
     text-align: center;
     padding-top: 0.5rem; }
-    footer .bcorp-logo img {
+    .footer .bcorp-logo img {
       max-width: 4rem; }
     @media (min-width: 671px) and (max-width: 979px) {
-      footer .bcorp-logo {
+      .footer .bcorp-logo {
         position: absolute;
         right: 3rem;
         text-align: right;
         top: 0; } }
     @media (min-width: 980px) {
-      footer .bcorp-logo {
+      .footer .bcorp-logo {
         position: absolute;
         right: 7rem;
         text-align: right;
         top: 0; } }
-  footer .footer-bottom {
+  .footer .footer-bottom {
     position: relative;
     text-align: center;
     top: 5rem; }
     @media (min-width: 980px) {
-      footer .footer-bottom {
+      .footer .footer-bottom {
         text-align: inherit;
         top: 11.625rem; } }
-  footer .social-media li {
+  .footer .social-media li {
     display: inline;
     margin-right: 0.5rem; }
-  footer .social-media img {
+  .footer .social-media img {
     max-width: 1.5rem; }
-  footer .social-media a:hover {
+  .footer .social-media a:hover {
     text-decoration: none; }
   @media (min-width: 671px) and (max-width: 979px) {
-    footer .social-media {
+    .footer .social-media {
       float: left;
       display: block;
       margin-right: 2.35765%;
@@ -5518,46 +5518,46 @@ footer {
       float: left;
       position: relative;
       text-align: left; }
-      footer .social-media:last-child {
+      .footer .social-media:last-child {
         margin-right: 0; }
-      footer .social-media ul {
+      .footer .social-media ul {
         margin: 0; } }
   @media (min-width: 980px) {
-    footer .social-media {
+    .footer .social-media {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 57.35098%;
       float: left;
       position: relative; }
-      footer .social-media:last-child {
+      .footer .social-media:last-child {
         margin-right: 0; }
-      footer .social-media ul {
+      .footer .social-media ul {
         margin: 0; } }
-  footer .copyright {
+  .footer .copyright {
     color: #ececec;
     float: right;
     font-size: 0.75rem;
     position: relative;
     width: 100%; }
-    footer .copyright a {
+    .footer .copyright a {
       color: #ececec;
       font-weight: bold; }
-      footer .copyright a:hover {
+      .footer .copyright a:hover {
         cursor: pointer;
         text-decoration: underline; }
     @media (min-width: 671px) and (max-width: 979px) {
-      footer .copyright {
+      .footer .copyright {
         float: left;
         display: block;
         margin-right: 2.35765%;
         width: 40.29137%;
         text-align: right;
         float: right; }
-        footer .copyright:last-child {
+        .footer .copyright:last-child {
           margin-right: 0; } }
     @media (min-width: 980px) {
-      footer .copyright {
+      .footer .copyright {
         float: left;
         display: block;
         margin-right: 2.35765%;
@@ -5565,7 +5565,7 @@ footer {
         text-align: right;
         float: right;
         max-width: 400px; }
-        footer .copyright:last-child {
+        .footer .copyright:last-child {
           margin-right: 0; } }
 
 header {
@@ -8596,5 +8596,9 @@ h4.lets-chat {
 
 .team-listing {
   clear: both; }
+
+.wl-header__logo img {
+  width: 300px;
+  height: auto; }
 
 /*# sourceMappingURL=style.css.map */

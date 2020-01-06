@@ -1,0 +1,15 @@
+<div class="wl-blog-card">
+  {% if blog.index == 0 %}
+  <div class="wl-blog-card__date">{{ blog.date | date: '%m.%d.%Y' }}</div>
+  {% endif %}
+  <div class="wl-blog-card__subheader">{{ blog.wl_subheader }}</div>
+  <h3 class="wl-blog-card__title">{{ blog.title }}</h3>
+  <div class="wl-blog-card__teaser">{{ blog.short }}</div>
+  <div class="wl-blog-card__bottom">
+    <div class="wl-blog-card__author">
+      {% assign author = site.team | where: "name", blog.author | first %}
+      <span>By </span>{{ author.first_name }}
+    </div>
+    <div class="wl-blog-card__medium-link">{{ blog.medium_link }}</div>
+  </div>
+</div>

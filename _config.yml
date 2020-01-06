@@ -61,5 +61,4 @@ collections:
     permalink: /blog/topic/:slug/
   wonderlab:
     output: true
-    sort_by: index
     permalink: /wonderlab/:categories/:slug/
