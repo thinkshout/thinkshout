@@ -4,7 +4,7 @@ layout: wonderlab_blog
 body-class: wonderlab-blog-post wonderlab-page
 category: consent-based-calibration
 title: "Strategy title"
-card_subheader: Strategic lens
+card-subheader: Strategic lens
 author: sam
 published: true
 short: "@todo"

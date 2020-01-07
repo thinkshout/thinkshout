@@ -4,7 +4,7 @@ layout: wonderlab_blog
 body-class: wonderlab-blog-post wonderlab-page
 category: consent-based-calibration
 title: "Technical title"
-card_subheader: Technical lens
+card-subheader: Technical lens
 author: sam
 published: true
 short: "@todo"

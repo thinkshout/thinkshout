@@ -1,11 +1,11 @@
 <footer class="wl-footer">
   <div class="container">
     <div class="wl-footer__left">
-      <h4>About ThinkShout.</h4>
+      <strong>About ThinkShout.</strong>
       <p>ThinkShout is Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod.</p>
     </div>
     <div class="wl-footer__right">
-      <div class="bcorp-logo">
+      <div class="wl-footer__bcorp">
         {% assign items = site.data.menu.external %}
         {% for item in items %}
         {% if item.title == 'bcorp'%}
@@ -16,7 +16,7 @@
         {% endfor %}
       </div>
 
-      <div class="copyright">
+      <div class="wl-footer__copyright">
         &copy;{{ site.time | date: '%Y' }} ThinkShout, Inc. ThinkShout and the ThinkShout logos are registered trademarks of ThinkShout, Inc.
         {% assign items = site.data.menu.copyright %}
         {% for item in items %}

@@ -9,6 +9,16 @@
     &.fixed {
       background: #011D2B;
     }
+    .header-logo {
+      margin-top: 10px;
+    }
+  }
+  .main-menu a {
+    color: $wl-ltblue;
+    &.active,
+    &:hover {
+      border-top-color: $wl-ltblue !important;
+    }
   }
 }
 
@@ -20,8 +30,8 @@
   height: 800px;
   background:
     linear-gradient(
-                    rgba(1, 29, 43, 0.80),
-                    rgba(1, 29, 43, 0.80)
+      rgba(1, 29, 43, 0.80),
+      rgba(1, 29, 43, 0.80)
     ),
     url('/assets/images/wonderlab/header_bg.jpg');
   z-index: -1;
@@ -33,6 +43,52 @@
   &__logo img {
     width: 200px;
     height: auto;
+  }
+}
+
+.wl-footer {
+  background: $wl-black;
+  color: $wl-white;
+  padding: 60px 0;
+  strong {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+  p {
+    color: $wl-ltgray;
+    font-size: 16px;
+    line-height: 29px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__left {
+    max-width: 500px;
+    margin-right: 50px;
+  }
+  &__right {
+    max-width: 400px;
+    text-align: right;
+  }
+  &__bcorp {
+    margin-bottom: 50px;
+    img {
+      width: 66px;
+    }
+  }
+  &__copyright {
+    color: $wl-ltgray;
+    font-size: 12px;
+    line-height: 19px;
+    a {
+      color: $wl-ltgray;
+      font-weight: bold;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 
@@ -58,11 +114,14 @@
   }
   &__blogs {
     display: grid;
+    grid-row-gap: 75px;
     grid-column-gap: 50px;
     .wl-blog-card:first-child {
+      display: block;
       grid-column: span 2;
       .wl-blog-card__image {
         margin-bottom: 30px;
+        margin-right: 0;
       }
       .wl-blog-card__title a {
         font-size: 42px;
@@ -72,13 +131,24 @@
         font-size: 18px;
         line-height: 29px;
       }
+      .wl-blog-card__author {
+        margin-right: 50px;
+      }
+      .wl-blog-card__subheader {
+        display: none;
+      }
     }
   }
 }
 
 .wl-blog-card {
+  display: flex;
+  color: $wl-black;
   img {
-    width: 100%;
+    max-width: 100%;
+  }
+  &__image {
+    margin-right: 50px;
   }
   &__date {
     font-size: 12px;
@@ -88,6 +158,8 @@
     margin-top: 10px;
     a {
       color: $wl-black;
+      font-size: 28px;
+      line-height: 35px;
       &:hover {
         text-decoration: underline;
       }
@@ -102,7 +174,7 @@
   }
   &__author {
     font-size: 13px;
-    margin-right: 50px;
+    margin-right: 25px;
   }
   &__medium-link {
     font-size: 13px;
@@ -123,6 +195,11 @@
         margin-left: 10px;
       }
     }
+  }
+  &__subheader {
+    color: $wl-pink;
+    font-size: 12px;
+    text-transform: uppercase;
   }
 }
 

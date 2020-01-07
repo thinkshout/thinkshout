@@ -4,7 +4,7 @@ layout: wonderlab_blog
 body-class: wonderlab-blog-post wonderlab-page
 category: consent-based-calibration
 title: "Business title"
-card_subheader: Business lens
+card-subheader: Business lens
 author: sam
 published: true
 short: "@todo"

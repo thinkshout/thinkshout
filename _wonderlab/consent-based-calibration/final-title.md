@@ -4,7 +4,7 @@ layout: wonderlab_blog
 body-class: wonderlab-blog-post wonderlab-page
 category: consent-based-calibration
 title: "Final title"
-card_subheader: Final lens
+card-subheader: Final lens
 author: sam
 published: true
 short: "@todo"
