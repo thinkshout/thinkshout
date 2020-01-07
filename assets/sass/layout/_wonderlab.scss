@@ -4,13 +4,18 @@
 
 .wonderlab-page {
   header {
-    background: none;
+    background: #011D2B;
+    @include mq(d) {
+      background: none;
+    }
     transition: .2s background;
     &.fixed {
       background: #011D2B;
     }
     .header-logo {
-      margin-top: 10px;
+      @include mq(d) {
+        margin-top: 10px;
+      }
     }
   }
   .main-menu a {
@@ -27,7 +32,10 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 800px;
+  height: 600px;
+  @include mq(d) {
+    height: 800px;
+  }
   background:
     linear-gradient(
       rgba(1, 29, 43, 0.80),
@@ -61,16 +69,21 @@
     line-height: 29px;
   }
   .container {
-    display: flex;
-    justify-content: space-between;
+    @include mq(d) {
+      display: flex;
+      justify-content: space-between;
+    }
   }
   &__left {
     max-width: 500px;
     margin-right: 50px;
+    margin-bottom: 50px;
   }
   &__right {
     max-width: 400px;
-    text-align: right;
+    @include mq(d) {
+      text-align: right;
+    }
   }
   &__bcorp {
     margin-bottom: 50px;
@@ -114,11 +127,16 @@
   }
   &__blogs {
     display: grid;
-    grid-row-gap: 75px;
+    grid-row-gap: 50px;
+    @include mq(d) {
+      grid-row-gap: 75px;
+    }
     grid-column-gap: 50px;
     .wl-blog-card:first-child {
       display: block;
-      grid-column: span 2;
+      @include mq(d) {
+        grid-column: span 2;
+      }
       .wl-blog-card__image {
         margin-bottom: 30px;
         margin-right: 0;
@@ -142,7 +160,9 @@
 }
 
 .wl-blog-card {
-  display: flex;
+  @include mq(d) {
+    display: flex;
+  }
   color: $wl-black;
   img {
     max-width: 100%;
