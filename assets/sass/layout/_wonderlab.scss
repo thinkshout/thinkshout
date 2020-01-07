@@ -30,6 +30,39 @@
   }
 }
 
+@keyframes wl-background-gradient {
+  0% {
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
+    //background: radial-gradient(red 0%, red 10%, blue 20%, blue 100%);
+    background-position: 0 0;
+  }
+  20% {
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
+    //background: radial-gradient(red 0%, red 10%, blue 20%, blue 100%);
+    background-position: 500px 250px;
+  }
+  40% {
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
+    //background: radial-gradient(red 0%, red 10%, blue 20%, blue 100%);
+    background-position: 500px -250px;
+  }
+  60% {
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
+    //background: radial-gradient(red 0%, red 10%, blue 20%, blue 100%);
+    background-position: -500px -250px;
+  }
+  80% {
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
+    //background: radial-gradient(red 0%, red 10%, blue 20%, blue 100%);
+    background-position: -500px 250px;
+  }
+  100% {
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
+    //background: radial-gradient(red 0%, red 10%, blue 20%, blue 100%);
+    background-position: 0 0;
+  }
+}
+
 .wl-background {
   position: absolute;
   top: 0;
@@ -39,13 +72,18 @@
   @include mq(d) {
     height: 800px;
   }
-  background:
-    linear-gradient(
-      rgba(1, 29, 43, 0.80),
-      rgba(1, 29, 43, 0.80)
-    ),
-    url('/assets/images/wonderlab/header_bg.jpg');
+  background: black;
+  background: url('/assets/images/wonderlab/header_bg.jpg');
   z-index: -1;
+  &::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 29, 43, 0.8);
+    animation: wl-background-gradient 20s infinite;
+    animation-delay: 2s;
+  }
 }
 
 .wl-header {
@@ -131,12 +169,14 @@
   &__date {
     font-size: 12px;
     color: $wl-pink;
+    font-weight: bold;
   }
   &__title {
     margin-top: $wl-spacer-1;
     a {
       color: $wl-black;
       font-size: 28px;
+      font-weight: 800;
       line-height: 35px;
       &:hover {
         text-decoration: underline;
@@ -144,6 +184,7 @@
     }
   }
   &__teaser {
+    font-family: $wl-body-font;
     margin: $wl-spacer-2 0;
   }
   &__bottom {
@@ -176,6 +217,7 @@
   }
   &__subheader {
     color: $wl-pink;
+    font-weight: bold;
     font-size: 12px;
     text-transform: uppercase;
   }
@@ -243,12 +285,14 @@
   &__date {
     text-align: center;
     color: $wl-pink;
+    font-weight: bold;
     font-size: 14px;
     margin-top: $wl-spacer-2;
   }
   &__title {
     text-align: center;
     color: $wl-black;
+    font-weight: 800;
     font-size: 56px;
     line-height: 67px;
     margin-top: $wl-spacer-1;
@@ -288,6 +332,7 @@
     }
   }
   &__body {
+    font-family: $wl-body-font;
     margin-top: $wl-spacer-4;
     margin-left: auto;
     margin-right: auto;
@@ -298,6 +343,8 @@
     font-size: 18px;
     line-height: 29px;
     blockquote {
+      font-family: $primary-font;
+      font-weight: bold;
       border-left: 5px solid $wl-grayborder;
       padding-left: $wl-spacer-2;
       font-size: 24px;
@@ -336,7 +383,7 @@
   &__title {
     color: $black;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 800;
     text-transform: uppercase;
   }
   &__blogs {

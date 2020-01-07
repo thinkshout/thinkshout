@@ -8615,17 +8615,45 @@ h4.lets-chat {
   .wonderlab-page .main-menu a.active, .wonderlab-page .main-menu a:hover {
     border-top-color: #67889E !important; }
 
+@keyframes wl-background-gradient {
+  0% {
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
+    background-position: 0 0; }
+  20% {
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
+    background-position: 500px 250px; }
+  40% {
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
+    background-position: 500px -250px; }
+  60% {
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
+    background-position: -500px -250px; }
+  80% {
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
+    background-position: -500px 250px; }
+  100% {
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
+    background-position: 0 0; } }
 .wl-background {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 600px;
-  background: linear-gradient(rgba(1, 29, 43, 0.8), rgba(1, 29, 43, 0.8)), url("/assets/images/wonderlab/header_bg.jpg");
+  background: black;
+  background: url("/assets/images/wonderlab/header_bg.jpg");
   z-index: -1; }
   @media (min-width: 980px) {
     .wl-background {
       height: 800px; } }
+  .wl-background::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 29, 43, 0.8);
+    animation: wl-background-gradient 20s infinite;
+    animation-delay: 2s; }
 
 .wl-header {
   display: flex;
@@ -8693,16 +8721,19 @@ h4.lets-chat {
     margin-right: 50px; }
   .wl-blog-card__date {
     font-size: 12px;
-    color: #7C0081; }
+    color: #7C0081;
+    font-weight: bold; }
   .wl-blog-card__title {
     margin-top: 10px; }
     .wl-blog-card__title a {
       color: #252526;
       font-size: 28px;
+      font-weight: 800;
       line-height: 35px; }
       .wl-blog-card__title a:hover {
         text-decoration: underline; }
   .wl-blog-card__teaser {
+    font-family: "Chronicle Text G1 A", "Chronicle Text G1 B", Times, "Times New Roman", serif;
     margin: 25px 0; }
   .wl-blog-card__bottom {
     display: flex;
@@ -8728,6 +8759,7 @@ h4.lets-chat {
         margin-left: 10px; }
   .wl-blog-card__subheader {
     color: #7C0081;
+    font-weight: bold;
     font-size: 12px;
     text-transform: uppercase; }
 
@@ -8774,11 +8806,13 @@ h4.lets-chat {
   .wl-blog__date {
     text-align: center;
     color: #7C0081;
+    font-weight: bold;
     font-size: 14px;
     margin-top: 25px; }
   .wl-blog__title {
     text-align: center;
     color: #252526;
+    font-weight: 800;
     font-size: 56px;
     line-height: 67px;
     margin-top: 10px; }
@@ -8811,6 +8845,7 @@ h4.lets-chat {
         background-size: cover;
         margin-left: 10px; }
   .wl-blog__body {
+    font-family: "Chronicle Text G1 A", "Chronicle Text G1 B", Times, "Times New Roman", serif;
     margin-top: 75px;
     margin-left: auto;
     margin-right: auto;
@@ -8821,6 +8856,8 @@ h4.lets-chat {
     font-size: 18px;
     line-height: 29px; }
     .wl-blog__body blockquote {
+      font-family: "Gotham SSm A", "Gotham SSm B", Arial, "Helvetica Neue", Helvetica, sans-serif;
+      font-weight: bold;
       border-left: 5px solid #DCDCDC;
       padding-left: 25px;
       font-size: 24px;
@@ -8849,7 +8886,7 @@ h4.lets-chat {
 .wl-read-more__title {
   color: #000;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 800;
   text-transform: uppercase; }
 .wl-read-more__blogs {
   margin-top: 50px; }

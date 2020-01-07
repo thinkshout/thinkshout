@@ -7,7 +7,7 @@ title: "Technical title"
 card-subheader: Technical lens
 author: sam
 published: true
-short: "@todo"
+short: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 tags:
   - todo
 date: 2019-01-06 10:00:00
