@@ -1,19 +1,23 @@
 ---
 layout: default
 ---
+{% include wonderlab-header.html %}
+
 <div class="wl-blog container">
   <div class="wl-blog__header-image">
     <img src="{{ site.baseurl }}{{ page.header-image }}" alt="{{ page.header-image-alt }}">
   </div>
-  <div class="wl-blog__date">{{ page.date | date: '%m.%d.%Y' }}</div>
+  <div class="wl-blog__date">{{ page.date | date: '%B %d, %Y' }}</div>
   <h1 class="wl-blog__title">{{ page.title }}</h1>
   <div class="wl-blog__byline">
     {% assign author = site.team | where: "name", page.author | first %}
-    <div class="wl-blog__author">by {{ author.first_name }} {{ author.last_name }}</div>
-    <div class="wl-blog__medium-link">{{ page.medium_link }}</div>
+    <div class="wl-blog__author">by <strong>{{ author.first_name }} {{ author.last_name }}</strong></div>
+    <div class="wl-blog__medium-link">
+      <a href="{{ blog.medium-link }}">Read on Medium</a>
+    </div>
     <div class="wl-blog__share-link">Share</div>
   </div>
-  <section class="wl-blog__body body">
+  <section class="wl-blog__body">
     {{ content }}
   </section>
   {% assign next_index = page.index | plus: 1 %}
@@ -26,7 +30,7 @@ layout: default
   <div class="wl-blog__read-more wl-read-more">
     {% assign category = site.data.wonderlab.categories | where: "id", page.category | first %}
     <div class="wl-read-more__title">Read more on {{ category.title }}</div>
-    <div class="wl-read-more__blogs">
+    <div class="wl-read-more__blogs wl-blogs">
       {% assign blogs = site.wonderlab | where: "category", page.category | sort: "index" %}
       {% for blog in blogs %}
         {% if blog.index == page.index %}

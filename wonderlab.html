@@ -16,7 +16,7 @@ title: WonderLab
   {% for category in site.data.wonderlab.categories %}
     <div class="wl-landing__category">
       {% assign blogs = site.wonderlab | where: "category", category.id | sort: "index" %}
-      <div class="wl-landing__blogs">
+      <div class="wl-landing__blogs wl-blogs">
         {% for blog in blogs %}
           {% include wonderlab-blog-card.html %}
         {% endfor %}
