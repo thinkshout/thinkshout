@@ -53,3 +53,6 @@ $wl-spacer-1: 10px;
 $wl-spacer-2: 25px;
 $wl-spacer-3: 50px;
 $wl-spacer-4: 75px;
+// Use this when debugging animation.
+//$wl-spotlight: radial-gradient(red 0%, red 10%, blue 20%, blue 100%);
+$wl-spotlight: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 20%, rgba(1, 29, 43, 0.8) 50%, rgba(1, 29, 43, 0.8) 100%);

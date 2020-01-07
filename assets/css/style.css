@@ -8617,22 +8617,22 @@ h4.lets-chat {
 
 @keyframes wl-background-gradient {
   0% {
-    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 20%, rgba(1, 29, 43, 0.8) 50%, rgba(1, 29, 43, 0.8) 100%);
     background-position: 0 0; }
   20% {
-    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 20%, rgba(1, 29, 43, 0.8) 50%, rgba(1, 29, 43, 0.8) 100%);
     background-position: 500px 250px; }
   40% {
-    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 20%, rgba(1, 29, 43, 0.8) 50%, rgba(1, 29, 43, 0.8) 100%);
     background-position: 500px -250px; }
   60% {
-    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 20%, rgba(1, 29, 43, 0.8) 50%, rgba(1, 29, 43, 0.8) 100%);
     background-position: -500px -250px; }
   80% {
-    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 20%, rgba(1, 29, 43, 0.8) 50%, rgba(1, 29, 43, 0.8) 100%);
     background-position: -500px 250px; }
   100% {
-    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 20%, rgba(1, 29, 43, 0.8) 50%, rgba(1, 29, 43, 0.8) 100%);
     background-position: 0 0; } }
 .wl-background {
   position: absolute;
@@ -8642,6 +8642,8 @@ h4.lets-chat {
   height: 600px;
   background: black;
   background: url("/assets/images/wonderlab/header_bg.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
   z-index: -1; }
   @media (min-width: 980px) {
     .wl-background {
@@ -8651,8 +8653,9 @@ h4.lets-chat {
     display: block;
     width: 100%;
     height: 100%;
-    background: rgba(1, 29, 43, 0.8);
+    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 20%, rgba(1, 29, 43, 0.8) 50%, rgba(1, 29, 43, 0.8) 100%);
     animation: wl-background-gradient 20s infinite;
+    animation-timing-function: linear;
     animation-delay: 2s; }
 
 .wl-header {
@@ -8719,6 +8722,8 @@ h4.lets-chat {
       display: flex; } }
   .wl-blog-card__image {
     margin-right: 50px; }
+    .wl-blog-card__image img {
+      min-width: 165px; }
   .wl-blog-card__date {
     font-size: 12px;
     color: #7C0081;
@@ -8756,6 +8761,8 @@ h4.lets-chat {
         height: 22px;
         background: url("/assets/images/wonderlab/medium_icon.jpg");
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         margin-left: 10px; }
   .wl-blog-card__subheader {
     color: #7C0081;

@@ -32,33 +32,27 @@
 
 @keyframes wl-background-gradient {
   0% {
-    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
-    //background: radial-gradient(red 0%, red 10%, blue 20%, blue 100%);
+    background: $wl-spotlight;
     background-position: 0 0;
   }
   20% {
-    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
-    //background: radial-gradient(red 0%, red 10%, blue 20%, blue 100%);
+    background: $wl-spotlight;
     background-position: 500px 250px;
   }
   40% {
-    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
-    //background: radial-gradient(red 0%, red 10%, blue 20%, blue 100%);
+    background: $wl-spotlight;
     background-position: 500px -250px;
   }
   60% {
-    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
-    //background: radial-gradient(red 0%, red 10%, blue 20%, blue 100%);
+    background: $wl-spotlight;
     background-position: -500px -250px;
   }
   80% {
-    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
-    //background: radial-gradient(red 0%, red 10%, blue 20%, blue 100%);
+    background: $wl-spotlight;
     background-position: -500px 250px;
   }
   100% {
-    background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 10%, rgba(1, 29, 43, 0.8) 20%, rgba(1, 29, 43, 0.8) 100%);
-    //background: radial-gradient(red 0%, red 10%, blue 20%, blue 100%);
+    background: $wl-spotlight;
     background-position: 0 0;
   }
 }
@@ -74,14 +68,17 @@
   }
   background: black;
   background: url('/assets/images/wonderlab/header_bg.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
   z-index: -1;
   &::after {
     content: " ";
     display: block;
     width: 100%;
     height: 100%;
-    background: rgba(1, 29, 43, 0.8);
+    background: $wl-spotlight;
     animation: wl-background-gradient 20s infinite;
+    animation-timing-function: linear;
     animation-delay: 2s;
   }
 }
@@ -165,6 +162,9 @@
   color: $wl-black;
   &__image {
     margin-right: $wl-spacer-3;
+    img {
+      min-width: 165px;
+    }
   }
   &__date {
     font-size: 12px;
@@ -211,6 +211,8 @@
         height: 22px;
         background: url('/assets/images/wonderlab/medium_icon.jpg');
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         margin-left: $wl-spacer-1;
       }
     }
