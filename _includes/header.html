@@ -1,8 +1,12 @@
-<header {% if page.url contains '/wonderlab' %} class="wonderlab-header" {% endif %}>
+<header>
   <div class="container">
     <div class="header-logo">
       <a href="{{ site.baseurl }}/">
-        <img src="{{ site.baseurl }}/assets/images/ts_redesign/thinkshout-workmark.svg" alt="ThinkShout logo" />
+        {% if page.url contains '/wonderlab/' %}
+          <img src="{{ site.baseurl }}/assets/images/wonderlab/thinkshout_logo.svg" alt="ThinkShout logo" />
+        {% else %}
+          <img src="{{ site.baseurl }}/assets/images/ts_redesign/thinkshout-workmark.svg" alt="ThinkShout logo" />
+        {% endif %}
       </a>
     </div>
 

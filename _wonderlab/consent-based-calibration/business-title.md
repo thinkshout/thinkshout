@@ -12,8 +12,11 @@ tags:
   - todo
 date: 2019-01-06 10:00:00
 image: https://thinkshout.com/assets/images/blog/webpack-car.jpg
-header-image: /assets/images/blog/webpack-car.jpg
+header-image: /assets/images/wonderlab/cbc_hero.jpg
 header-image-alt: "@todo"
+card-image: /assets/images/wonderlab/cbc_square.png
+card-image-alt: "@todo"
+medium-link: https://medium.com
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra vehicula odio, a luctus diam scelerisque nec. Nulla facilisi. Vivamus vestibulum odio eget quam dapibus, sit amet mattis tortor molestie. Quisque congue luctus arcu, sit amet fringilla nulla ornare in. Nam et ullamcorper massa. Nullam at erat feugiat diam convallis dictum. Pellentesque mi nunc, tempor eu velit vitae, volutpat convallis nibh. Praesent quis leo hendrerit, vestibulum lacus eu, mollis tortor.
 
