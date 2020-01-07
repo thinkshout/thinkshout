@@ -13,17 +13,21 @@ title: WonderLab
   </div>
 
   {% comment %} This ensures that CBC content comes first, but in the future can be updated to show all blogs. {% endcomment %}
-  {% assign cbc_blogs = site.wonderlab | where: "category", "consent-based-calibration" | sort: "index" %}
-  <div class="wl-landing__blog-first">
-    {% assign blog = cbc_blogs | first %}
-    {% include wonderlab-blog-card.html %}
-  </div>
-  <div class="wl-landing__blogs">
-    {% for blog in cbc_blogs %}
-      {% if blog.index == 0 %}
-        {% continue %}
-      {% endif %}
-      {% include wonderlab-blog-card.html %}
-    {% endfor %}
-  </div>
+  {% for category in site.data.wonderlab.categories %}
+    <div class="wl-landing__category">
+      {% assign blogs = site.wonderlab | where: "category", category.id | sort: "index" %}
+      <div class="wl-landing__blog-first">
+        {% assign blog = blogs | first %}
+        {% include wonderlab-blog-card.html %}
+      </div>
+      <div class="wl-landing__blogs">
+        {% for blog in blogs %}
+          {% if blog.index == 0 %}
+            {% continue %}
+          {% endif %}
+          {% include wonderlab-blog-card.html %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
 </div>

@@ -24,8 +24,8 @@ layout: default
     </div>
   {% endif %}
   <div class="wl-blog__read-more wl-read-more">
-    {% comment %}@todo - determine where to store topic metadata like the title{% endcomment %}
-    <div class="wl-read-more__title">Read more on consent-based calibration</div>
+    {% assign category = site.data.wonderlab.categories | where: "id", page.category | first %}
+    <div class="wl-read-more__title">Read more on {{ category.title }}</div>
     <div class="wl-read-more__blogs">
       {% assign blogs = site.wonderlab | where: "category", page.category | sort: "index" %}
       {% for blog in blogs %}
