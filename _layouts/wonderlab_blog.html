@@ -1,16 +1,39 @@
 ---
 layout: default
 ---
-<div class="wonderlab-header">
-  <h1 class="post-title">{{ page.title }}</h1>
+<div class="wl-blog container">
+  <div class="wl-blog__header-image">
+    <img src="{{ site.baseurl }}{{ page.header-image }}" alt="{{ page.header-image-alt }}">
+  </div>
+  <div class="wl-blog__date">{{ page.date | date: '%m.%d.%Y' }}</div>
+  <h1 class="wl-blog__title">{{ page.title }}</h1>
+  <div class="wl-blog__byline">
+    {% assign author = site.team | where: "name", page.author | first %}
+    <div class="wl-blog__author">by {{ author.first_name }} {{ author.last_name }}</div>
+    <div class="wl-blog__medium-link">{{ page.medium_link }}</div>
+    <div class="wl-blog__share-link">Share</div>
+  </div>
+  <section class="wl-blog__body body">
+    {{ content }}
+  </section>
+  {% assign next_index = page.index | plus: 1 %}
+  {% assign next = site.wonderlab | where: "category", page.category | where: "index", next_index | first %}
+  {% if next %}
+    <div class="wl-blog__next">
+      <span>Next Article: </span><a href="{{ site.baseurl }}{{ next.url }}">{{ next.title }}</a>
+    </div>
+  {% endif %}
+  <div class="wl-blog__read-more wl-read-more">
+    {% comment %}@todo - determine where to store topic metadata like the title{% endcomment %}
+    <div class="wl-read-more__title">Read more on consent-based calibration</div>
+    <div class="wl-read-more__blogs">
+      {% assign blogs = site.wonderlab | where: "category", page.category | sort: "index" %}
+      {% for blog in blogs %}
+        {% if blog.index == page.index %}
+          {% continue %}
+        {% endif %}
+        {% include wonderlab-blog-card.html %}
+      {% endfor %}
+    </div>
+  </div>
 </div>
-
-{% if page.header-image %}
-<div class="wonderlab-header-image">
-  <img src="{{ site.baseurl }}{{ page.header-image }}" alt="{{ page.header-image-alt }}">
-</div>
-{% endif %}
-
-<section class="body">
-  {{ content }}
-</section>

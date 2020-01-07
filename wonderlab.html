@@ -7,18 +7,18 @@ title: WonderLab
 {% include wonderlab-header.html %}
 
 <div class="container wl-landing">
-  <div class="wonderlab-intro">
+  <div class="wl-landing__intro">
     <strong>Curiosity + Impact + Big Ideas</strong><br/>
     <p>Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Etiam porta sem malesuada magna mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
   </div>
 
   {% comment %} This ensures that CBC content comes first, but in the future can be updated to show all blogs. {% endcomment %}
   {% assign cbc_blogs = site.wonderlab | where: "category", "consent-based-calibration" | sort: "index" %}
-  <div class="wl-blog-first">
+  <div class="wl-landing__blog-first">
     {% assign blog = cbc_blogs | first %}
     {% include wonderlab-blog-card.html %}
   </div>
-  <div class="wl-blogs">
+  <div class="wl-landing__blogs">
     {% for blog in cbc_blogs %}
       {% if blog.index == 0 %}
         {% continue %}

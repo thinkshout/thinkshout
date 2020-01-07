@@ -3,7 +3,7 @@
   <div class="wl-blog-card__date">{{ blog.date | date: '%m.%d.%Y' }}</div>
   {% endif %}
   <div class="wl-blog-card__subheader">{{ blog.wl_subheader }}</div>
-  <h3 class="wl-blog-card__title">{{ blog.title }}</h3>
+  <h3 class="wl-blog-card__title"><a href="{{ site.baseurl }}{{ blog.url }}">{{ blog.title }}</a></h3>
   <div class="wl-blog-card__teaser">{{ blog.short }}</div>
   <div class="wl-blog-card__bottom">
     <div class="wl-blog-card__author">
