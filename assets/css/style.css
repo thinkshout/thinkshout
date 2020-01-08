@@ -8638,8 +8638,8 @@ h4.lets-chat {
   left: 0;
   width: 100%;
   height: 600px;
-  background: black;
-  background: url("/assets/images/wonderlab/header_bg.jpg");
+  background-color: black;
+  background-image: url("/assets/images/wonderlab/header_bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1; }

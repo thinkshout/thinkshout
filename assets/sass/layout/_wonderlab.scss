@@ -63,8 +63,8 @@
   @include mq(d) {
     height: 800px;
   }
-  background: black;
-  background: url('/assets/images/wonderlab/header_bg.jpg');
+  background-color: black;
+  background-image: url('/assets/images/wonderlab/header_bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
