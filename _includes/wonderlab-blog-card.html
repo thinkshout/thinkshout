@@ -12,7 +12,7 @@
     <div class="wl-blog-card__bottom">
       <div class="wl-blog-card__author">
         {% assign author = site.team | where: "name", blog.author | first %}
-        <span>by </span><strong>{{ author.first_name }}</strong>
+        <span>by </span><a href="{{ site.baseurl }}{{ author.url }}">{{ author.first_name }} {{ author.last_name }}</a>
       </div>
       <div class="wl-blog-card__medium-link">
         <a href="{{ blog.medium-link }}">Read on Medium</a>

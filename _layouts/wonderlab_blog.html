@@ -11,11 +11,11 @@ layout: default
   <h1 class="wl-blog__title">{{ page.title }}</h1>
   <div class="wl-blog__byline">
     {% assign author = site.team | where: "name", page.author | first %}
-    <div class="wl-blog__author">by <strong>{{ author.first_name }} {{ author.last_name }}</strong></div>
+    <div class="wl-blog__author"><span>by </span><a href="{{ site.baseurl }}{{ author.url }}">{{ author.first_name }} {{ author.last_name }}</a></div>
     <div class="wl-blog__medium-link">
       <a href="{{ blog.medium-link }}">Read on Medium</a>
     </div>
-    <div class="wl-blog__share-link">Share</div>
+    <div class="wl-blog__share-link"><a href="#">Share</a></div>
   </div>
   <section class="wl-blog__body">
     {{ content }}

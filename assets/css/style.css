@@ -8597,21 +8597,28 @@ h4.lets-chat {
 .team-listing {
   clear: both; }
 
-.wonderlab-page header {
-  background: #011D2B;
-  transition: .2s background; }
-  @media (min-width: 980px) {
-    .wonderlab-page header {
-      background: none; } }
-  .wonderlab-page header.fixed {
-    background: #011D2B; }
-  @media (min-width: 980px) {
-    .wonderlab-page header .header-logo {
-      margin-top: 10px; } }
-.wonderlab-page .main-menu a {
-  color: #67889E; }
-  .wonderlab-page .main-menu a.active, .wonderlab-page .main-menu a:hover {
-    border-top-color: #67889E !important; }
+.wonderlab-page {
+  color: #252526; }
+  .wonderlab-page header {
+    background: #011D2B;
+    transition: .2s background; }
+    @media (min-width: 980px) {
+      .wonderlab-page header {
+        background: none; } }
+    .wonderlab-page header.fixed {
+      background: #011D2B; }
+    @media (min-width: 980px) {
+      .wonderlab-page header .header-logo {
+        margin-top: 10px; } }
+  .wonderlab-page a {
+    color: #252526;
+    font-weight: bold; }
+    .wonderlab-page a:hover, .wonderlab-page a:focus {
+      text-decoration: underline; }
+  .wonderlab-page .main-menu a {
+    color: #67889E; }
+    .wonderlab-page .main-menu a.active, .wonderlab-page .main-menu a:hover {
+      border-top-color: #67889E !important; }
 
 @keyframes wl-background-gradient {
   0% {
@@ -8668,13 +8675,13 @@ h4.lets-chat {
   color: #ECECEC;
   padding: 60px 0; }
   .wl-footer strong {
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 1.25rem;
+    line-height: 2rem;
     margin-bottom: 25px; }
   .wl-footer p {
     color: #ADADAD;
-    font-size: 16px;
-    line-height: 29px; }
+    font-size: 1rem;
+    line-height: 1.8125rem; }
   @media (min-width: 980px) {
     .wl-footer .container {
       display: flex;
@@ -8694,13 +8701,10 @@ h4.lets-chat {
       width: 66px; }
   .wl-footer__copyright {
     color: #ADADAD;
-    font-size: 12px;
-    line-height: 19px; }
+    font-size: 0.75rem;
+    line-height: 1.1875rem; }
     .wl-footer__copyright a {
-      color: #ADADAD;
-      font-weight: bold; }
-      .wl-footer__copyright a:hover {
-        text-decoration: underline; }
+      color: #ADADAD; }
 
 .wl-blogs {
   display: grid;
@@ -8727,7 +8731,7 @@ h4.lets-chat {
         .wl-blog-card__image img {
           width: 165px; } }
   .wl-blog-card__date {
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #7C0081;
     font-weight: bold; }
   .wl-blog-card__title {
@@ -8737,31 +8741,32 @@ h4.lets-chat {
       .wl-blog-card__title {
         margin-bottom: 25px; } }
     .wl-blog-card__title a {
-      color: #252526;
-      font-size: 28px;
+      font-size: 1.75rem;
       font-weight: 800;
-      line-height: 35px; }
-      .wl-blog-card__title a:hover {
-        text-decoration: underline; }
+      line-height: 2.1875rem; }
   .wl-blog-card__teaser {
     font-family: "Chronicle Text G1 A", "Chronicle Text G1 B", Times, "Times New Roman", serif;
-    margin: 25px 0; }
+    margin: 10px 0; }
+    @media (min-width: 980px) {
+      .wl-blog-card__teaser {
+        margin: 25px 0; } }
   @media (min-width: 980px) {
     .wl-blog-card__bottom {
       display: flex;
       align-items: center; } }
   .wl-blog-card__author {
-    font-size: 13px;
+    font-size: 0.8125rem;
     margin-right: 25px;
     margin-bottom: 5px; }
+    @media (min-width: 980px) {
+      .wl-blog-card__author {
+        margin-bottom: 0; } }
   .wl-blog-card__medium-link {
-    font-size: 13px; }
+    font-size: 0.8125rem; }
     .wl-blog-card__medium-link a {
       display: flex;
       align-items: center;
-      color: #252526; }
-      .wl-blog-card__medium-link a:hover {
-        text-decoration: underline; }
+      font-weight: normal; }
       .wl-blog-card__medium-link a:after {
         content: " ";
         display: inline-block;
@@ -8775,7 +8780,7 @@ h4.lets-chat {
   .wl-blog-card__subheader {
     color: #7C0081;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 0.75rem;
     text-transform: uppercase; }
 
 .wl-landing__intro {
@@ -8785,10 +8790,10 @@ h4.lets-chat {
   margin: 0 auto;
   margin-top: 50px; }
   .wl-landing__intro strong {
-    font-size: 16px; }
+    font-size: 1rem; }
   .wl-landing__intro p {
-    font-size: 14px;
-    line-height: 23px; }
+    font-size: 0.875rem;
+    line-height: 1.4375rem; }
 .wl-landing__category {
   margin: 50px 0; }
 .wl-landing .wl-blog-card:first-child {
@@ -8803,11 +8808,11 @@ h4.lets-chat {
     margin-bottom: 25px;
     margin-right: 0; }
   .wl-landing .wl-blog-card:first-child .wl-blog-card__title a {
-    font-size: 42px;
-    line-height: 50px; }
+    font-size: 2.625rem;
+    line-height: 3.125rem; }
   .wl-landing .wl-blog-card:first-child .wl-blog-card__teaser {
-    font-size: 18px;
-    line-height: 29px; }
+    font-size: 1.125rem;
+    line-height: 1.8125rem; }
   .wl-landing .wl-blog-card:first-child .wl-blog-card__author {
     margin-right: 50px; }
   .wl-landing .wl-blog-card:first-child .wl-blog-card__subheader {
@@ -8829,25 +8834,26 @@ h4.lets-chat {
     text-align: center;
     color: #7C0081;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-top: 25px; }
   .wl-blog__title {
     text-align: center;
     color: #252526;
     font-weight: 800;
-    font-size: 36px;
-    line-height: 43px;
+    font-size: 2.25rem;
+    line-height: 2.6875rem;
     margin-top: 10px; }
     @media (min-width: 980px) {
       .wl-blog__title {
-        font-size: 56px;
-        line-height: 67px; } }
+        font-size: 3.5rem;
+        line-height: 4.1875rem; } }
   .wl-blog__byline {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap; }
   .wl-blog__author {
+    font-size: 0.875rem;
     margin-right: 25px; }
     @media (max-width: 480px) {
       .wl-blog__author {
@@ -8864,9 +8870,8 @@ h4.lets-chat {
     .wl-blog__medium-link a {
       display: flex;
       align-items: center;
-      color: #252526; }
-      .wl-blog__medium-link a:hover {
-        text-decoration: underline; }
+      font-weight: normal;
+      font-size: 0.875rem; }
       .wl-blog__medium-link a:after {
         content: " ";
         display: inline-block;
@@ -8875,6 +8880,17 @@ h4.lets-chat {
         background: url("/assets/images/wonderlab/medium_icon.jpg");
         background-size: cover;
         margin-left: 10px; }
+  .wl-blog__share-link a {
+    font-weight: normal;
+    font-size: 0.875rem; }
+    .wl-blog__share-link a:after {
+      content: " ";
+      display: inline-block;
+      width: 22px;
+      height: 18px;
+      background: url("/assets/images/wonderlab/twitter_icon.svg");
+      background-size: cover;
+      margin-left: 10px; }
   .wl-blog__body {
     font-family: "Chronicle Text G1 A", "Chronicle Text G1 B", Times, "Times New Roman", serif;
     margin-top: 75px;
@@ -8884,44 +8900,35 @@ h4.lets-chat {
     border-bottom: 5px solid #DCDCDC;
     padding-bottom: 50px;
     margin-bottom: 25px;
-    font-size: 18px;
-    line-height: 29px; }
+    font-size: 1.125rem;
+    line-height: 1.8125rem; }
     .wl-blog__body blockquote {
       font-family: "Gotham SSm A", "Gotham SSm B", Arial, "Helvetica Neue", Helvetica, sans-serif;
       font-weight: bold;
       border-left: 5px solid #DCDCDC;
       padding-left: 25px;
-      font-size: 24px;
-      line-height: 36px;
-      color: #000; }
-    .wl-blog__body a {
-      color: #000;
-      font-weight: bold; }
-      .wl-blog__body a:hover {
-        text-decoration: underline; }
+      font-size: 1.5rem;
+      line-height: 2.25rem;
+      color: #252526;
+      margin: 50px 0; }
   .wl-blog__next {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     text-align: right;
-    font-size: 14px;
-    color: #000; }
-    .wl-blog__next a {
-      color: #000;
-      font-weight: bold; }
-      .wl-blog__next a:hover {
-        text-decoration: underline; }
+    font-size: 0.875rem;
+    color: #252526; }
   .wl-blog__read-more {
     margin-top: 75px; }
 
 .wl-read-more__title {
-  color: #000;
-  font-size: 12px;
+  color: #252526;
+  font-size: 0.75rem;
   font-weight: 800;
   text-transform: uppercase; }
   @media (min-width: 980px) {
     .wl-read-more__title {
-      font-size: 14px; } }
+      font-size: 0.875rem; } }
 .wl-read-more__blogs {
   margin-top: 50px; }
 

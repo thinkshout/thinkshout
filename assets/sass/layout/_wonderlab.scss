@@ -3,6 +3,7 @@
 // Shared styles
 
 .wonderlab-page {
+  color: $wl-black;
   header {
     background: #011D2B;
     @include mq(d) {
@@ -16,6 +17,14 @@
       @include mq(d) {
         margin-top: $wl-spacer-1;
       }
+    }
+  }
+  a {
+    color: $wl-black;
+    font-weight: bold;
+    &:hover,
+    &:focus {
+      text-decoration: underline;
     }
   }
   .main-menu a {
@@ -94,14 +103,14 @@
   color: $wl-white;
   padding: 60px 0;
   strong {
-    font-size: 20px;
-    line-height: 32px;
+    font-size: rem(20px);
+    line-height: rem(32px);
     margin-bottom: $wl-spacer-2;
   }
   p {
     color: $wl-ltgray;
-    font-size: 16px;
-    line-height: 29px;
+    font-size: rem(16px);
+    line-height: rem(29px);
   }
   .container {
     @include mq(d) {
@@ -128,14 +137,10 @@
   }
   &__copyright {
     color: $wl-ltgray;
-    font-size: 12px;
-    line-height: 19px;
+    font-size: rem(12px);
+    line-height: rem(19px);
     a {
       color: $wl-ltgray;
-      font-weight: bold;
-      &:hover {
-        text-decoration: underline;
-      }
     }
   }
 }
@@ -168,7 +173,7 @@
     }
   }
   &__date {
-    font-size: 12px;
+    font-size: rem(12px);
     color: $wl-pink;
     font-weight: bold;
   }
@@ -179,18 +184,17 @@
       margin-bottom: $wl-spacer-2;
     }
     a {
-      color: $wl-black;
-      font-size: 28px;
+      font-size: rem(28px);
       font-weight: 800;
-      line-height: 35px;
-      &:hover {
-        text-decoration: underline;
-      }
+      line-height: rem(35px);
     }
   }
   &__teaser {
     font-family: $wl-body-font;
-    margin: $wl-spacer-2 0;
+    margin: $wl-spacer-1 0;
+    @include mq(d) {
+      margin: $wl-spacer-2 0;
+    }
   }
   &__bottom {
     @include mq(d) {
@@ -199,19 +203,19 @@
     }
   }
   &__author {
-    font-size: 13px;
+    font-size: rem(13px);
     margin-right: $wl-spacer-2;
     margin-bottom: 5px;
+    @include mq(d) {
+      margin-bottom: 0;
+    }
   }
   &__medium-link {
-    font-size: 13px;
+    font-size: rem(13px);
     a {
       display: flex;
       align-items: center;
-      color: $wl-black;
-      &:hover {
-        text-decoration: underline;
-      }
+      font-weight: normal;
       &:after {
         content: " ";
         display: inline-block;
@@ -228,7 +232,7 @@
   &__subheader {
     color: $wl-pink;
     font-weight: bold;
-    font-size: 12px;
+    font-size: rem(12px);
     text-transform: uppercase;
   }
 }
@@ -243,11 +247,11 @@
     margin: 0 auto;
     margin-top: $wl-spacer-3;
     strong {
-      font-size: 16px;
+      font-size: rem(16px);
     }
     p {
-      font-size: 14px;
-      line-height: 23px;
+      font-size: rem(14px);
+      line-height: rem(23px);
     }
   }
   &__category {
@@ -267,12 +271,12 @@
       margin-right: 0;
     }
     .wl-blog-card__title a {
-      font-size: 42px;
-      line-height: 50px;
+      font-size: rem(42px);
+      line-height: rem(50px);
     }
     .wl-blog-card__teaser {
-      font-size: 18px;
-      line-height: 29px;
+      font-size: rem(18px);
+      line-height: rem(29px);
     }
     .wl-blog-card__author {
       margin-right: $wl-spacer-3;
@@ -308,19 +312,19 @@
     text-align: center;
     color: $wl-pink;
     font-weight: bold;
-    font-size: 14px;
+    font-size: rem(14px);
     margin-top: $wl-spacer-2;
   }
   &__title {
     text-align: center;
     color: $wl-black;
     font-weight: 800;
-    font-size: 36px;
-    line-height: 43px;
+    font-size: rem(36px);
+    line-height: rem(43px);
     margin-top: $wl-spacer-1;
     @include mq(d) {
-      font-size: 56px;
-      line-height: 67px;
+      font-size: rem(56px);
+      line-height: rem(67px);
     }
   }
   &__byline {
@@ -330,6 +334,7 @@
     flex-wrap: wrap;
   }
   &__author {
+    font-size: rem(14px);
     margin-right: $wl-spacer-2;
     @include mq(m) {
       margin-right: 0;
@@ -347,16 +352,29 @@
     a {
       display: flex;
       align-items: center;
-      color: $wl-black;
-      &:hover {
-        text-decoration: underline;
-      }
+      font-weight: normal;
+      font-size: rem(14px);
       &:after {
         content: " ";
         display: inline-block;
         width: 22px;
         height: 22px;
         background: url('/assets/images/wonderlab/medium_icon.jpg');
+        background-size: cover;
+        margin-left: $wl-spacer-1;
+      }
+    }
+  }
+  &__share-link {
+    a {
+      font-weight: normal;
+      font-size: rem(14px);
+      &:after {
+        content: " ";
+        display: inline-block;
+        width: 22px;
+        height: 18px;
+        background: url('/assets/images/wonderlab/twitter_icon.svg');
         background-size: cover;
         margin-left: $wl-spacer-1;
       }
@@ -371,23 +389,17 @@
     border-bottom: 5px solid $wl-grayborder;
     padding-bottom: $wl-spacer-3;
     margin-bottom: $wl-spacer-2;
-    font-size: 18px;
-    line-height: 29px;
+    font-size: rem(18px);
+    line-height: rem(29px);
     blockquote {
       font-family: $primary-font;
       font-weight: bold;
       border-left: 5px solid $wl-grayborder;
       padding-left: $wl-spacer-2;
-      font-size: 24px;
-      line-height: 36px;
-      color: $black;
-    }
-    a {
-      color: $black;
-      font-weight: bold;
-      &:hover {
-        text-decoration: underline;
-      }
+      font-size: rem(24px);
+      line-height: rem(36px);
+      color: $wl-black;
+      margin: $wl-spacer-3 0;
     }
   }
   &__next {
@@ -395,15 +407,8 @@
     margin-left: auto;
     margin-right: auto;
     text-align: right;
-    font-size: 14px;
-    color: $black;
-    a {
-      color: $black;
-      font-weight: bold;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
+    font-size: rem(14px);
+    color: $wl-black;
   }
   &__read-more {
     margin-top: $wl-spacer-4;
@@ -412,12 +417,12 @@
 
 .wl-read-more {
   &__title {
-    color: $black;
-    font-size: 12px;
+    color: $wl-black;
+    font-size: rem(12px);
     font-weight: 800;
     text-transform: uppercase;
     @include mq(d) {
-      font-size: 14px;
+      font-size: rem(14px);
     }
   }
   &__blogs {
