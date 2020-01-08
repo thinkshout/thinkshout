@@ -296,8 +296,8 @@
 .wonderlab-blog-post {
   .wl-background {
     height: 450px;
-    @include mq(d) {
-      height: 800px;
+    @include mq(l) {
+      height: 700px;
     }
   }
   .wl-header__logo img {

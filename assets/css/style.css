@@ -8824,9 +8824,9 @@ h4.lets-chat {
 
 .wonderlab-blog-post .wl-background {
   height: 450px; }
-  @media (min-width: 980px) {
+  @media (min-width: 1200px) {
     .wonderlab-blog-post .wl-background {
-      height: 800px; } }
+      height: 700px; } }
 .wonderlab-blog-post .wl-header__logo img {
   width: 177px; }
 
