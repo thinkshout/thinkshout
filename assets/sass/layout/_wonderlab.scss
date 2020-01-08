@@ -3,9 +3,6 @@
 // Shared styles
 
 .wonderlab-page {
-  img {
-    max-width: 100%;
-  }
   header {
     background: #011D2B;
     @include mq(d) {
@@ -68,7 +65,7 @@
   }
   background: black;
   background: url('/assets/images/wonderlab/header_bg.jpg');
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
   &::after {
@@ -156,14 +153,18 @@
 }
 
 .wl-blog-card {
-  @include mq(d) {
-    display: flex;
-  }
+  display: flex;
   color: $wl-black;
   &__image {
-    margin-right: $wl-spacer-3;
+    margin-right: $wl-spacer-2;
+    @include mq(d) {
+      margin-right: $wl-spacer-3;
+    }
     img {
-      min-width: 165px;
+      width: 100px;
+      @include mq(d) {
+        width: 165px;
+      }
     }
   }
   &__date {
@@ -173,6 +174,10 @@
   }
   &__title {
     margin-top: $wl-spacer-1;
+    margin-bottom: $wl-spacer-1;
+    @include mq(d) {
+      margin-bottom: $wl-spacer-2;
+    }
     a {
       color: $wl-black;
       font-size: 28px;
@@ -188,12 +193,15 @@
     margin: $wl-spacer-2 0;
   }
   &__bottom {
-    display: flex;
-    align-items: center;
+    @include mq(d) {
+      display: flex;
+      align-items: center;
+    }
   }
   &__author {
     font-size: 13px;
     margin-right: $wl-spacer-2;
+    margin-bottom: 5px;
   }
   &__medium-link {
     font-size: 13px;
@@ -250,6 +258,10 @@
     @include mq(d) {
       grid-column: span 2;
     }
+    img {
+      max-width: 100%;
+      width: auto;
+    }
     .wl-blog-card__image {
       margin-bottom: $wl-spacer-2;
       margin-right: 0;
@@ -275,15 +287,23 @@
 
 .wonderlab-blog-post {
   .wl-background {
-    height: 500px;
+    height: 450px;
     @include mq(d) {
       height: 800px;
     }
+  }
+  .wl-header__logo img {
+    width: 177px;
   }
 }
 
 .wl-blog {
   margin: $wl-spacer-3 auto;
+  &__header-image {
+    img {
+      max-width: 100%;
+    }
+  }
   &__date {
     text-align: center;
     color: $wl-pink;
@@ -295,17 +315,26 @@
     text-align: center;
     color: $wl-black;
     font-weight: 800;
-    font-size: 56px;
-    line-height: 67px;
+    font-size: 36px;
+    line-height: 43px;
     margin-top: $wl-spacer-1;
+    @include mq(d) {
+      font-size: 56px;
+      line-height: 67px;
+    }
   }
   &__byline {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
   &__author {
     margin-right: $wl-spacer-2;
+    @include mq(m) {
+      margin-right: 0;
+      margin-bottom: $wl-spacer-2;
+    }
     @include mq(d) {
       margin-right: $wl-spacer-3;
     }
@@ -384,9 +413,12 @@
 .wl-read-more {
   &__title {
     color: $black;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 800;
     text-transform: uppercase;
+    @include mq(d) {
+      font-size: 14px;
+    }
   }
   &__blogs {
     margin-top: $wl-spacer-3;
