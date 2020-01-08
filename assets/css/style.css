@@ -8616,7 +8616,8 @@ h4.lets-chat {
     .wonderlab-page a:hover, .wonderlab-page a:focus {
       text-decoration: underline; }
   .wonderlab-page .main-menu a {
-    color: #67889E; }
+    color: #67889E;
+    font-weight: normal; }
     .wonderlab-page .main-menu a.active, .wonderlab-page .main-menu a:hover {
       border-top-color: #67889E !important; }
 
@@ -8629,10 +8630,10 @@ h4.lets-chat {
     background-position: 500px 250px; }
   40% {
     background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 20%, rgba(1, 29, 43, 0.8) 50%, rgba(1, 29, 43, 0.8) 100%);
-    background-position: 500px -250px; }
+    background-position: -500px -250px; }
   60% {
     background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 20%, rgba(1, 29, 43, 0.8) 50%, rgba(1, 29, 43, 0.8) 100%);
-    background-position: -500px -250px; }
+    background-position: 500px -250px; }
   80% {
     background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 20%, rgba(1, 29, 43, 0.8) 50%, rgba(1, 29, 43, 0.8) 100%);
     background-position: -500px 250px; }

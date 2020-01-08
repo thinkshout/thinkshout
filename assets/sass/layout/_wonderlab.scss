@@ -29,6 +29,7 @@
   }
   .main-menu a {
     color: $wl-ltblue;
+    font-weight: normal;
     &.active,
     &:hover {
       border-top-color: $wl-ltblue !important;
@@ -47,11 +48,11 @@
   }
   40% {
     background: $wl-spotlight;
-    background-position: 500px -250px;
+    background-position: -500px -250px;
   }
   60% {
     background: $wl-spotlight;
-    background-position: -500px -250px;
+    background-position: 500px -250px;
   }
   80% {
     background: $wl-spotlight;

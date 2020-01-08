@@ -8,10 +8,12 @@ card-subheader: Strategic lens
 author: sam
 published: true
 short: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+description: "@todo for SEO"
 tags:
   - todo
 date: 2019-01-06 10:00:00
 image: https://thinkshout.com/assets/images/blog/webpack-car.jpg
+image-alt: "@todo"
 header-image: /assets/images/wonderlab/cbc_hero.jpg
 header-image-alt: "@todo"
 card-image: /assets/images/wonderlab/cbc_square.png
