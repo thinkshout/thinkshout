@@ -8670,6 +8670,9 @@ h4.lets-chat {
   .wl-header__logo img {
     width: 200px;
     height: auto; }
+    @media (max-width: 480px) {
+      .wl-header__logo img {
+        width: 177px; } }
 
 .wl-footer {
   background: #252526;
@@ -8859,7 +8862,9 @@ h4.lets-chat {
     @media (max-width: 480px) {
       .wl-blog__author {
         margin-right: 0;
-        margin-bottom: 25px; } }
+        margin-bottom: 25px;
+        flex-basis: 100%;
+        text-align: center; } }
     @media (min-width: 980px) {
       .wl-blog__author {
         margin-right: 50px; } }

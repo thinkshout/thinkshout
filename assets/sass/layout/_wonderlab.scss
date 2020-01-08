@@ -96,6 +96,9 @@
   &__logo img {
     width: 200px;
     height: auto;
+    @include mq(m) {
+      width: 177px;
+    }
   }
 }
 
@@ -340,6 +343,8 @@
     @include mq(m) {
       margin-right: 0;
       margin-bottom: $wl-spacer-2;
+      flex-basis: 100%;
+      text-align: center;
     }
     @include mq(d) {
       margin-right: $wl-spacer-3;

@@ -7,7 +7,7 @@ layout: default
   <div class="wl-blog__header-image">
     <img src="{{ site.baseurl }}{{ page.header-image }}" alt="{{ page.header-image-alt }}">
   </div>
-  <div class="wl-blog__date">{{ page.date | date: '%B %d, %Y' }}</div>
+  <div class="wl-blog__date">{{ page.date | date: '%B %e, %Y' }}</div>
   <h1 class="wl-blog__title">{{ page.title }}</h1>
   <div class="wl-blog__byline">
     {% assign author = site.team | where: "name", page.author | first %}
@@ -15,7 +15,7 @@ layout: default
     <div class="wl-blog__medium-link">
       <a href="{{ blog.medium-link }}">Engage on Medium</a>
     </div>
-    <div class="wl-blog__share-link"><a href="#">Share</a></div>
+    <div class="wl-blog__share-link"><a href="https://twitter.com/intent/tweet?text={{ page.title }} {{ site.baseurl }}{{ page.url }}" target="_blank">Share</a></div>
   </div>
   <section class="wl-blog__body">
     {{ content }}
