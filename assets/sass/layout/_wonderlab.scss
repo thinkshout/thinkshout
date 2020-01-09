@@ -201,7 +201,7 @@
     }
   }
   &__bottom {
-    @include mq(d) {
+    @include mq(l) {
       display: flex;
       align-items: center;
     }

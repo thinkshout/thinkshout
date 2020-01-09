@@ -8754,7 +8754,7 @@ h4.lets-chat {
     @media (min-width: 980px) {
       .wl-blog-card__teaser {
         margin: 25px 0; } }
-  @media (min-width: 980px) {
+  @media (min-width: 1200px) {
     .wl-blog-card__bottom {
       display: flex;
       align-items: center; } }
