@@ -8610,6 +8610,10 @@ h4.lets-chat {
     @media (min-width: 980px) {
       .wonderlab-page header .header-logo {
         margin-top: 10px; } }
+    .wonderlab-page header .mobile-menu-icon div span, .wonderlab-page header .mobile-menu-icon div span:before, .wonderlab-page header .mobile-menu-icon div span:after {
+      background-color: #67889E; }
+    .wonderlab-page header .mobile-menu-icon.active div span {
+      background-color: transparent; }
   .wonderlab-page a {
     color: #252526;
     font-weight: bold; }
@@ -8667,6 +8671,9 @@ h4.lets-chat {
 .wl-header {
   display: flex;
   padding-top: 40px; }
+  @media (max-width: 480px) {
+    .wl-header {
+      padding-top: 20px; } }
   .wl-header__logo img {
     width: 200px;
     height: auto; }
@@ -8741,6 +8748,9 @@ h4.lets-chat {
   .wl-blog-card__title {
     margin-top: 10px;
     margin-bottom: 10px; }
+    @media (max-width: 480px) {
+      .wl-blog-card__title {
+        margin-top: 5px; } }
     @media (min-width: 980px) {
       .wl-blog-card__title {
         margin-bottom: 25px; } }
@@ -8749,7 +8759,7 @@ h4.lets-chat {
       font-weight: 800;
       line-height: 2.1875rem; }
   .wl-blog-card__teaser {
-    font-family: "Chronicle Text G1 A", "Chronicle Text G1 B", Times, "Times New Roman", serif;
+    font-family: "EB Garamond", serif;
     margin: 10px 0; }
     @media (min-width: 980px) {
       .wl-blog-card__teaser {
@@ -8760,11 +8770,7 @@ h4.lets-chat {
       align-items: center; } }
   .wl-blog-card__author {
     font-size: 0.8125rem;
-    margin-right: 25px;
-    margin-bottom: 5px; }
-    @media (min-width: 980px) {
-      .wl-blog-card__author {
-        margin-bottom: 0; } }
+    margin-right: 25px; }
   .wl-blog-card__medium-link {
     font-size: 0.8125rem; }
     .wl-blog-card__medium-link a {
@@ -8776,7 +8782,7 @@ h4.lets-chat {
         display: inline-block;
         width: 22px;
         height: 22px;
-        background: url("/assets/images/wonderlab/medium_icon.jpg");
+        background: url("/assets/images/wonderlab/medium_icon.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -8808,6 +8814,10 @@ h4.lets-chat {
   .wl-landing .wl-blog-card:first-child img {
     max-width: 100%;
     width: auto; }
+    @media (max-width: 480px) {
+      .wl-landing .wl-blog-card:first-child img {
+        height: 200px;
+        object-fit: cover; } }
   .wl-landing .wl-blog-card:first-child .wl-blog-card__image {
     margin-bottom: 25px;
     margin-right: 0; }
@@ -8815,7 +8825,7 @@ h4.lets-chat {
     font-size: 2.625rem;
     line-height: 3.125rem; }
   .wl-landing .wl-blog-card:first-child .wl-blog-card__teaser {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     line-height: 1.8125rem; }
   .wl-landing .wl-blog-card:first-child .wl-blog-card__author {
     margin-right: 50px; }
@@ -8834,6 +8844,10 @@ h4.lets-chat {
   margin: 50px auto; }
   .wl-blog__header-image img {
     max-width: 100%; }
+    @media (max-width: 480px) {
+      .wl-blog__header-image img {
+        height: 200px;
+        object-fit: cover; } }
   .wl-blog__date {
     text-align: center;
     color: #7C0081;
@@ -8862,7 +8876,7 @@ h4.lets-chat {
     @media (max-width: 480px) {
       .wl-blog__author {
         margin-right: 0;
-        margin-bottom: 25px;
+        margin-bottom: 10px;
         flex-basis: 100%;
         text-align: center; } }
     @media (min-width: 980px) {
@@ -8883,7 +8897,7 @@ h4.lets-chat {
         display: inline-block;
         width: 22px;
         height: 22px;
-        background: url("/assets/images/wonderlab/medium_icon.jpg");
+        background: url("/assets/images/wonderlab/medium_icon.svg");
         background-size: cover;
         margin-left: 10px; }
   .wl-blog__share-link a {
@@ -8898,7 +8912,7 @@ h4.lets-chat {
       background-size: cover;
       margin-left: 10px; }
   .wl-blog__body {
-    font-family: "Chronicle Text G1 A", "Chronicle Text G1 B", Times, "Times New Roman", serif;
+    font-family: "EB Garamond", serif;
     margin-top: 75px;
     margin-left: auto;
     margin-right: auto;
@@ -8906,17 +8920,33 @@ h4.lets-chat {
     border-bottom: 5px solid #DCDCDC;
     padding-bottom: 50px;
     margin-bottom: 25px;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     line-height: 1.8125rem; }
+    @media (max-width: 480px) {
+      .wl-blog__body {
+        margin-top: 50px; } }
     .wl-blog__body blockquote {
       font-family: "Gotham SSm A", "Gotham SSm B", Arial, "Helvetica Neue", Helvetica, sans-serif;
       font-weight: bold;
       border-left: 5px solid #DCDCDC;
       padding-left: 25px;
       font-size: 1.5rem;
-      line-height: 2.25rem;
-      color: #252526;
+      line-height: 2.125rem;
+      color: #5B005F;
       margin: 50px 0; }
+      @media (max-width: 480px) {
+        .wl-blog__body blockquote {
+          font-size: 1.25rem;
+          line-height: 1.875rem;
+          margin: 25px 0; } }
+    .wl-blog__body h1, .wl-blog__body h2, .wl-blog__body h3, .wl-blog__body h4, .wl-blog__body h5 {
+      font-family: "Gotham SSm A", "Gotham SSm B", Arial, "Helvetica Neue", Helvetica, sans-serif; }
+    .wl-blog__body h2 {
+      font-size: 1.5rem;
+      line-height: 2.25rem; }
+    .wl-blog__body h3 {
+      font-size: 1.25rem;
+      line-height: 1.625rem; }
   .wl-blog__next {
     max-width: 800px;
     margin-left: auto;

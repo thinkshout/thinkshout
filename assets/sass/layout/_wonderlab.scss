@@ -18,6 +18,16 @@
         margin-top: $wl-spacer-1;
       }
     }
+    .mobile-menu-icon div span {
+      &,
+      &:before,
+      &:after {
+        background-color: $wl-ltblue;
+      }
+    }
+    .mobile-menu-icon.active div span {
+      background-color: transparent;
+    }
   }
   a {
     color: $wl-black;
@@ -93,6 +103,9 @@
 .wl-header {
   display: flex;
   padding-top: 40px;
+  @include mq(m) {
+    padding-top: 20px;
+  }
   &__logo img {
     width: 200px;
     height: auto;
@@ -184,6 +197,9 @@
   &__title {
     margin-top: $wl-spacer-1;
     margin-bottom: $wl-spacer-1;
+    @include mq(m) {
+      margin-top: 5px;
+    }
     @include mq(d) {
       margin-bottom: $wl-spacer-2;
     }
@@ -209,10 +225,6 @@
   &__author {
     font-size: rem(13px);
     margin-right: $wl-spacer-2;
-    margin-bottom: 5px;
-    @include mq(d) {
-      margin-bottom: 0;
-    }
   }
   &__medium-link {
     font-size: rem(13px);
@@ -225,7 +237,7 @@
         display: inline-block;
         width: 22px;
         height: 22px;
-        background: url('/assets/images/wonderlab/medium_icon.jpg');
+        background: url('/assets/images/wonderlab/medium_icon.svg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -269,6 +281,10 @@
     img {
       max-width: 100%;
       width: auto;
+      @include mq(m) {
+        height: 200px;
+        object-fit: cover;
+      }
     }
     .wl-blog-card__image {
       margin-bottom: $wl-spacer-2;
@@ -279,7 +295,7 @@
       line-height: rem(50px);
     }
     .wl-blog-card__teaser {
-      font-size: rem(18px);
+      font-size: rem(20px);
       line-height: rem(29px);
     }
     .wl-blog-card__author {
@@ -310,6 +326,10 @@
   &__header-image {
     img {
       max-width: 100%;
+      @include mq(m) {
+        height: 200px;
+        object-fit: cover;
+      }
     }
   }
   &__date {
@@ -342,7 +362,7 @@
     margin-right: $wl-spacer-2;
     @include mq(m) {
       margin-right: 0;
-      margin-bottom: $wl-spacer-2;
+      margin-bottom: $wl-spacer-1;
       flex-basis: 100%;
       text-align: center;
     }
@@ -365,7 +385,7 @@
         display: inline-block;
         width: 22px;
         height: 22px;
-        background: url('/assets/images/wonderlab/medium_icon.jpg');
+        background: url('/assets/images/wonderlab/medium_icon.svg');
         background-size: cover;
         margin-left: $wl-spacer-1;
       }
@@ -395,17 +415,36 @@
     border-bottom: 5px solid $wl-grayborder;
     padding-bottom: $wl-spacer-3;
     margin-bottom: $wl-spacer-2;
-    font-size: rem(18px);
+    font-size: rem(20px);
     line-height: rem(29px);
+    @include mq(m) {
+      margin-top: $wl-spacer-3;
+    }
     blockquote {
       font-family: $primary-font;
       font-weight: bold;
       border-left: 5px solid $wl-grayborder;
       padding-left: $wl-spacer-2;
       font-size: rem(24px);
-      line-height: rem(36px);
-      color: $wl-black;
+      line-height: rem(34px);
+      color: $wl-purple;
       margin: $wl-spacer-3 0;
+      @include mq(m) {
+        font-size: rem(20px);
+        line-height: rem(30px);
+        margin: $wl-spacer-2 0;
+      }
+    }
+    h1,h2,h3,h4,h5 {
+      font-family: $primary-font;
+    }
+    h2 {
+      font-size: rem(24px);
+      line-height: rem(36px);
+    }
+    h3 {
+      font-size: rem(20px);
+      line-height: rem(26px);
     }
   }
   &__next {
