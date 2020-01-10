@@ -1,5 +1,5 @@
 ---
-index: 1
+index: 3
 layout: wonderlab_blog
 body-class: wonderlab-blog-post wonderlab-page
 category: consent-based-calibration
