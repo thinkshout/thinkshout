@@ -8665,7 +8665,7 @@ h4.lets-chat {
     height: 100%;
     background: radial-gradient(rgba(1, 29, 43, 0.5) 0%, rgba(1, 29, 43, 0.5) 20%, rgba(1, 29, 43, 0.8) 50%, rgba(1, 29, 43, 0.8) 100%);
     animation: wl-background-gradient 20s infinite;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
     animation-delay: 2s; }
 
 .wl-header {
@@ -8760,7 +8760,9 @@ h4.lets-chat {
       line-height: 2.1875rem; }
   .wl-blog-card__teaser {
     font-family: "EB Garamond", serif;
-    margin: 10px 0; }
+    margin: 10px 0;
+    font-size: 1.125rem;
+    line-height: 1.625rem; }
     @media (min-width: 980px) {
       .wl-blog-card__teaser {
         margin: 25px 0; } }

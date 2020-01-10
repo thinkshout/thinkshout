@@ -95,7 +95,7 @@
     height: 100%;
     background: $wl-spotlight;
     animation: wl-background-gradient 20s infinite;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
     animation-delay: 2s;
   }
 }
@@ -212,6 +212,8 @@
   &__teaser {
     font-family: $wl-body-font;
     margin: $wl-spacer-1 0;
+    font-size: rem(18px);
+    line-height: rem(26px);
     @include mq(d) {
       margin: $wl-spacer-2 0;
     }
