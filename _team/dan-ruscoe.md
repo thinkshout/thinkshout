@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Dan
 last_name: Ruscoe
-position: Senior Software Engineer
+position: Senior Software Developer
 leadin: |
   Dan is an enthusiastic proponent of open source software and maintains a number of open source projects. After four years writing software for social games and ad platforms in Los Angeles, he got tired of the constant sunshine and joined ThinkShout in Portland to see what all this rain is about.
 social:

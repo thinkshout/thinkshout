@@ -2,7 +2,7 @@
 layout: teammember
 first_name: David
 last_name: Lanier
-position: Software Engineer
+position: Software Developer
 leadin: |
   David was very active in the Colorado Drupal community. We recruited him for his expertise in open source software development and his commitment to the nonprofit sector. David leads many of our site building efforts. He also throws a mean boomerang, so we try not to make him mad.
 social:

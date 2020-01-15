@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Jeff
 last_name: Shinrock
-position: Senior Software Engineer
+position: Senior Software Developer
 leadin: |
   When Jeff was growing up, he would tell people he was going to be an artist. He didn’t know what _kind_ of art, but knew that he wanted to create.
 social:

@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Rebecca
 last_name: Jacobsen
-position: Software Engineer
+position: Software Developer
 leadin: |
  Passionate about mitigating climate change and making the world a kinder place, it’s no surprise Rebecca has made ThinkShout her new home!
 social:
