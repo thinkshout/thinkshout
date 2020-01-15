@@ -31,7 +31,7 @@ We partnered with three organizations that we've long admired about their involv
 
 We knew we needed to offer more than just food and drinks to draw a crowd. As is often the case with most of our projects, the full team started to collaborate on ideas and the party started to take shape.
 
-We hit up local businesses and community contacts to get items donated for silent auction packages ranging from a weekend in Hood River to Yoga classes. Our teammate Olivier (owner of [Twin Pines Country Club](http://twinpinescountryclub.com/)) assembled a mini golf course to entertain party goers of all ages. And the partner of one of our software engineers created the set design for the golf course by hand!   
+We hit up local businesses and community contacts to get items donated for silent auction packages ranging from a weekend in Hood River to Yoga classes. Our teammate Olivier (owner of [Twin Pines Country Club](http://twinpinescountryclub.com/)) assembled a mini golf course to entertain party goers of all ages. And the partner of one of our software developers created the set design for the golf course by hand!   
 
 ![Mini golf players at capacity!](/assets/images/blog/DSC_0071.jpg)
 {:.center}

@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Nancy
 last_name: Rackleff
-position: Senior Software Engineer
+position: Senior Software Developer
 leadin: |
   Nancy helped restore the Spruce Goose. She’s also flown in a B-17 bomber. Did we mention she writes code? I don’t know what else we could tell you about Nancy that would better illustrate how cool she is. Seriously.
 social:

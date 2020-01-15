@@ -2,9 +2,9 @@
 layout: teammember
 first_name: Jami
 last_name: Dwyer
-position: Software Engineer
+position: Software Developer
 leadin: |
-  Once, Jami was paid to build an Internet-enabled machine that blew bubbles in response to specific tweets. We don’t have her working on anything nearly as world-changing as that project, but as a software engineer at ThinkShout, Jami specializes in helping nonprofits turn large datasets into information.
+  Once, Jami was paid to build an Internet-enabled machine that blew bubbles in response to specific tweets. We don’t have her working on anything nearly as world-changing as that project, but as a software developer at ThinkShout, Jami specializes in helping nonprofits turn large datasets into information.
 social:
   github: https://github.com/jamidwyer
   twitter: https://twitter.com/jamidwyer

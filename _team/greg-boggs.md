@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Greg
 last_name: Boggs
-position: Senior Software Engineer
+position: Senior Software Developer
 leadin: |
   Greg is the only member of our team (maybe the only person we know) who doesn’t own a smartphone. Oddly enough, he’s still on the cutting edge of open source technology.
 social:

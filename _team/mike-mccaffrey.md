@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Mike
 last_name: McCaffrey
-position: Senior Software Engineer
+position: Senior Software Developer
 leadin: |
   Mike’s first instinct with new technology is to take it apart to see how it works. While that doesn’t necessarily bode well for the future of our new coffee maker, it does mean that Mike won’t rest until he knows a new website framework inside and out.
 social:

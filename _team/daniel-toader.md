@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Daniel
 last_name: Toader
-position: Software Engineer
+position: Software Developer
 leadin: |
  Daniel was one of the very first ThinkShout interns! Now he’s back as a full-time member of our team, helping us solve complex technical problems for our clients.
 social:

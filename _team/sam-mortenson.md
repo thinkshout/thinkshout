@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Sam
 last_name: Mortenson
-position: Senior Software Engineer
+position: Senior Software Developer
 leadin: |
   Sam’s passion for rebuilding things started early with Legos. To this day he’ll see something intriguing online and will tinker with it until he can figure out how it works.
 social:
@@ -14,7 +14,7 @@ team-image:
   medium:
   large: team/large/Sam.jpg
 published: true
-current-employee: true
+current-employee: false
 name: sam
 bio: |
   Sam started out in IT, working in a stereotypical basement fixing computers to pay his way through a Medieval English degree. Eventually he realized that he had a knack for programming and started making websites, which led him into a career in tech.
