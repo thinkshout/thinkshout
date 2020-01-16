@@ -3,7 +3,7 @@ index: 0
 layout: wonderlab_blog
 body-class: wonderlab-blog-post wonderlab-page
 category: consent-based-calibration
-title: "Introducing Consent-Based Calibration"
+title: "Introducing Consent-Based Calibration, a Counterpoint to Personalization"
 card-subheader:
 author: kate
 published: true
@@ -12,12 +12,12 @@ description: "@todo for SEO"
 tags:
   - todo
 date: 2019-01-15 09:00:00
-image: https://thinkshout.com/assets/images/blog/webpack-car.jpg
-image-alt: "@todo"
-header-image: /assets/images/wonderlab/cbc_hero.jpg
-header-image-alt: "@todo"
-card-image: /assets/images/wonderlab/cbc_square.png
-card-image-alt: "@todo"
+image: https://thinkshout.com/assets/images/wonderlab/consent-based-collaboration/card/cbc-intro-card.jpg
+image-alt: "Mirrored profile of a women"
+header-image: /assets/images/wonderlab/consent-based-collaboration/hero/cbc-intro.jpg
+header-image-alt: "Mirrored profile of a women"
+card-image: /assets/images/wonderlab/consent-based-collaboration/card/cbc-intro-card.jpg
+card-image-alt: "Mirrored profile of a women"
 medium-link: https://medium.com
 ---
 > Collecting and maintaining user data just got a lot more risky, and potentially, a lot more expensive.

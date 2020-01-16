@@ -8,7 +8,7 @@ body-class: wonderlab-blog-post wonderlab-page
 # Used for querying WL blogs, and for the slug (see _config.yml).
 category: consent-based-calibration
 # The blog title.
-title: "Consent-Based Calibration: What’s in it for your business model?"
+title: "Questioning Personalization Is Good For Your Engagement Model"
 # The blog subheader - only shown on cards.
 card-subheader: Business lens
 # The author, same reference to _team as normal blogs.
@@ -25,14 +25,12 @@ tags:
 # The date - not used for ordering blogs.
 date: 2019-01-15 10:00:00
 # The social share image/alt.
-image: https://thinkshout.com/assets/images/blog/webpack-car.jpg
-image-alt: "@todo"
-# The header image/alt.
-header-image: /assets/images/wonderlab/cbc_hero.jpg
-header-image-alt: "@todo"
-# The square card image/alt.
-card-image: /assets/images/wonderlab/cbc_square.png
-card-image-alt: "@todo"
+image: https://thinkshout.com/assets/images/wonderlab/consent-based-collaboration/card/cbc-business-card.jpg
+image-alt: "Collection of images connected by angled lines."
+header-image: /assets/images/wonderlab/consent-based-collaboration/hero/cbc-business.jpg
+header-image-alt: "Collection of images connected by angled lines."
+card-image: /assets/images/wonderlab/consent-based-collaboration/card/cbc-business-card.jpg
+card-image-alt: "Collection of images connected by angled lines."
 # The Medium URL.
 medium-link: https://medium.com
 ---

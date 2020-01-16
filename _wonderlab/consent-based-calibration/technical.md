@@ -3,7 +3,7 @@ index: 3
 layout: wonderlab_blog
 body-class: wonderlab-blog-post wonderlab-page
 category: consent-based-calibration
-title: "The Technical Lens: Consent-Based Calibration"
+title: "The Technical Benefits of Consent-Based Calibration"
 card-subheader: Technical lens
 author: sam
 published: true
@@ -12,12 +12,13 @@ description: "@todo for SEO"
 tags:
   - todo
 date: 2019-01-15 09:00:00
-image: https://thinkshout.com/assets/images/blog/webpack-car.jpg
-image-alt: "@todo"
-header-image: /assets/images/wonderlab/cbc_hero.jpg
-header-image-alt: "@todo"
-card-image: /assets/images/wonderlab/cbc_square.png
-card-image-alt: "@todo"
+image: https://thinkshout.com/assets/images/wonderlab/consent-based-collaboration/card/cbc-tech-card.jpg
+image-alt: "Person of color in background with textured circles"
+header-image: /assets/images/wonderlab/consent-based-collaboration/hero/cbc-tech.jpg
+header-image-alt: "Person of color in background with textured circles"
+card-image: /assets/images/wonderlab/consent-based-collaboration/card/cbc-tech-card.jpg
+card-image-alt: "Person of color in background with textured circles"
+
 medium-link: https://medium.com
 ---
 There’s no question that accurate content personalization is a large technical feat, combining client side behavior tracking, data analytics, machine learning, and hand-built segmentation to deliver valuable experiences to end users. As a result of this complexity, most organizations turn to vendors for personalization, but even turn-key solutions require custom implementations to make sure the right data is being collected and that personalized content is displayed seamlessly, invisibly, to users.
