@@ -21,6 +21,7 @@ card-image-alt: "Person of color in background with textured circles"
 
 medium-link: https://medium.com
 ---
+
 There’s no question that accurate content personalization is a large technical feat, combining client side behavior tracking, data analytics, machine learning, and hand-built segmentation to deliver valuable experiences to end users. As a result of this complexity, most organizations turn to vendors for personalization, but even turn-key solutions require custom implementations to make sure the right data is being collected and that personalized content is displayed seamlessly, invisibly, to users.
 
 >Consent-based calibration bypasses many of these technical challenges—no user data needs to be stored, no user profiles need to be merged, and no automatic or manual segmentation is required.

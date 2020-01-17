@@ -20,6 +20,7 @@ card-image: /assets/images/wonderlab/consent-based-collaboration/card/cbc-intro-
 card-image-alt: "Mirrored profile of a women"
 medium-link: https://medium.com
 ---
+
 > Collecting and maintaining user data just got a lot more risky, and potentially, a lot more expensive.
 
 This month’s implementation of California’s Consumer Privacy Act (CCPA) has a lot of organizations hustling to comply with the most rigorous data privacy regulation enacted in the U.S. to date. The CCPA demands a wide swath of participation, requiring companies and organizations (serving California residents) that meet one or all of the following criteria comply:
