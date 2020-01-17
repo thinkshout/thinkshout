@@ -55,6 +55,6 @@ We’ve worked with hundreds of clients, and across all of them, one rule tends 
 
 Applying consent-based calibration would address many of the ethical and practical issues organizations and individual users face regarding data, content, and user experience. It refuses to accept that personalization means a more personal experience, and instead, calls it out for what it is: A commodification engine.
 
-> blockquote Organizations doing good in the world,  the kinds of clients that ThinkShout serves, don’t need to leverage tools developed for extraction in order to deliver experiences meant for action. 
+<blockquote>Organizations doing good in the world,  the kinds of clients that ThinkShout serves, don’t need to leverage tools developed for extraction in order to deliver experiences meant for action.<blockquote> 
 
 Consent-based calibration is the simple, obvious solution to the question: How might we create an experience of feeling understood and mutually respected in the digital experience?
