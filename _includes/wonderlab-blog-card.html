@@ -1,6 +1,6 @@
 <div class="wl-blog-card">
   {% if blog.index == 0 and page.url == "/wonderlab/" %}
-    <div class="wl-blog-card__image"><img alt="{{ blog.header-image-alt }}" src="{{ site.baseurl }}{{ blog.header-image }}"></div>
+    <div class="wl-blog-card__image"><img alt="{{ blog.header-image-alt }}" src="{{ site.baseurl }}{{ blog.header-image }}"><figcaption>{{ blog.caption }}</figcaption></div>
     <div class="wl-blog-card__date">{{ blog.date | date: '%B %e, %Y' }}</div>
   {% else %}
     <div class="wl-blog-card__image"><img alt="{{ blog.card-image-alt }}" src="{{ site.baseurl }}{{ blog.card-image }}"></div>
