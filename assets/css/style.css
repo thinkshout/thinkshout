@@ -8624,6 +8624,10 @@ h4.lets-chat {
     font-weight: normal; }
     .wonderlab-page .main-menu a.active, .wonderlab-page .main-menu a:hover {
       border-top-color: #67889E !important; }
+  .wonderlab-page figcaption {
+    float: right;
+    font-style: italic;
+    font-size: 11px; }
 
 @keyframes wl-background-gradient {
   0% {

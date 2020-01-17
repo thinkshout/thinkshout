@@ -45,6 +45,11 @@
       border-top-color: $wl-ltblue !important;
     }
   }
+  figcaption {
+    float: right;
+    font-style: italic;
+    font-size: 11px;
+  }  
 }
 
 @keyframes wl-background-gradient {
