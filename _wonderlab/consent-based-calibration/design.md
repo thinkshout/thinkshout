@@ -29,6 +29,7 @@ image: https://thinkshout.com/assets/images/wonderlab/consent-based-collaboratio
 image-alt: "4 different glasses filled with dairy."
 header-image: /assets/images/wonderlab/consent-based-collaboration/hero/cbc-design.jpg
 header-image-alt: "4 different glasses filled with dairy."
+caption: "Illustration by Sarah Leigh"
 card-image: /assets/images/wonderlab/consent-based-collaboration/card/cbc-design-card.jpg
 card-image-alt: "4 different glasses filled with dairy."
 # The Medium URL.

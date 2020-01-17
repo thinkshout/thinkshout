@@ -16,6 +16,7 @@ image: https://thinkshout.com/assets/images/wonderlab/consent-based-collaboratio
 image-alt: "Mirrored profile of a women"
 header-image: /assets/images/wonderlab/consent-based-collaboration/hero/cbc-intro.jpg
 header-image-alt: "Mirrored profile of a women"
+caption: "Illustration by Sarah Leigh"
 card-image: /assets/images/wonderlab/consent-based-collaboration/card/cbc-intro-card.jpg
 card-image-alt: "Mirrored profile of a women"
 medium-link: https://medium.com

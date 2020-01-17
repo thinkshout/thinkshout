@@ -29,6 +29,7 @@ image: https://thinkshout.com/assets/images/wonderlab/consent-based-collaboratio
 image-alt: "Collection of images connected by angled lines."
 header-image: /assets/images/wonderlab/consent-based-collaboration/hero/cbc-ethics.jpg
 header-image-alt: "Collection of images connected by angled lines."
+caption: "Illustration by Sarah Leigh"
 card-image: /assets/images/wonderlab/consent-based-collaboration/card/cbc-ethics-card.jpg
 card-image-alt: "Collection of images connected by angled lines."
 # The Medium URL.

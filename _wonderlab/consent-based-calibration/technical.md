@@ -16,6 +16,7 @@ image: https://thinkshout.com/assets/images/wonderlab/consent-based-collaboratio
 image-alt: "Person of color in background with textured circles"
 header-image: /assets/images/wonderlab/consent-based-collaboration/hero/cbc-tech.jpg
 header-image-alt: "Person of color in background with textured circles"
+caption: "Illustration by Sarah Leigh"
 card-image: /assets/images/wonderlab/consent-based-collaboration/card/cbc-tech-card.jpg
 card-image-alt: "Person of color in background with textured circles"
 
