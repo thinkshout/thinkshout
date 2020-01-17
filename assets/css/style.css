@@ -8628,6 +8628,14 @@ h4.lets-chat {
     float: right;
     font-style: italic;
     font-size: 11px; }
+  .wonderlab-page ul li {
+    list-style-type: disc; }
+  .wonderlab-page ol li {
+    list-style-type: decimal; }
+  .wonderlab-page li {
+    line-height: 29px; }
+  .wonderlab-page ol li:before, .wonderlab-page ul li:before {
+    color: #5B005F; }
 
 @keyframes wl-background-gradient {
   0% {

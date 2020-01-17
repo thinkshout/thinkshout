@@ -49,7 +49,19 @@
     float: right;
     font-style: italic;
     font-size: 11px;
-  }  
+  }
+  ul li {
+    list-style-type: disc;
+  }
+  ol li {
+    list-style-type: decimal;
+  }
+  li {
+    line-height: 29px;
+  }
+  ol li:before, ul li:before {
+    color: #5B005F;
+  }
 }
 
 @keyframes wl-background-gradient {
