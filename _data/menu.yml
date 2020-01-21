@@ -11,6 +11,9 @@ main-menu:
   - title: Blog
     url: /blog/
 
+  - title: Wonderlab
+    url: /wonderlab/
+
   - title: Careers
     url: /careers/
     header-nav: false

@@ -1,0 +1,495 @@
+// Styles for /wonderlab pages.
+
+// Shared styles
+
+.wonderlab-page {
+  color: $wl-black;
+  header {
+    background: #011D2B;
+    @include mq(d) {
+      background: none;
+    }
+    transition: .2s background;
+    &.fixed {
+      background: #011D2B;
+    }
+    .header-logo {
+      @include mq(d) {
+        margin-top: $wl-spacer-1;
+      }
+    }
+    .mobile-menu-icon div span {
+      &,
+      &:before,
+      &:after {
+        background-color: $wl-ltblue;
+      }
+    }
+    .mobile-menu-icon.active div span {
+      background-color: transparent;
+    }
+  }
+  a {
+    color: $wl-black;
+    font-weight: bold;
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+  .main-menu a {
+    color: $wl-ltblue;
+    font-weight: normal;
+    &.active,
+    &:hover {
+      border-top-color: $wl-ltblue !important;
+    }
+  }
+  figcaption {
+    float: right;
+    font-style: italic;
+    font-size: 11px;
+  }
+  ul li {
+    list-style-type: disc;
+  }
+  ol li {
+    list-style-type: decimal;
+  }
+  li {
+    line-height: 29px;
+  }
+  ol li:before, ul li:before {
+    color: #5B005F;
+  }
+}
+
+@keyframes wl-background-gradient {
+  0% {
+    background: $wl-spotlight;
+    background-position: 0 0;
+  }
+  20% {
+    background: $wl-spotlight;
+    background-position: 500px 250px;
+  }
+  40% {
+    background: $wl-spotlight;
+    background-position: -500px -250px;
+  }
+  60% {
+    background: $wl-spotlight;
+    background-position: 500px -250px;
+  }
+  80% {
+    background: $wl-spotlight;
+    background-position: -500px 250px;
+  }
+  100% {
+    background: $wl-spotlight;
+    background-position: 0 0;
+  }
+}
+
+.wl-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  @include mq(d) {
+    height: 800px;
+  }
+  background-color: black;
+  background-image: url('/assets/images/wonderlab/header_bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  &::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: $wl-spotlight;
+    animation: wl-background-gradient 20s infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+  }
+}
+
+.wl-header {
+  display: flex;
+  padding-top: 40px;
+  @include mq(m) {
+    padding-top: 20px;
+  }
+  &__logo img {
+    width: 200px;
+    height: auto;
+    @include mq(m) {
+      width: 177px;
+    }
+  }
+}
+
+.wl-footer {
+  background: $wl-black;
+  color: $wl-white;
+  padding: 60px 0;
+  strong {
+    font-size: rem(20px);
+    line-height: rem(32px);
+    margin-bottom: $wl-spacer-2;
+  }
+  p {
+    color: $wl-ltgray;
+    font-size: rem(16px);
+    line-height: rem(29px);
+  }
+  .container {
+    @include mq(d) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  &__left {
+    max-width: 500px;
+    margin-right: $wl-spacer-3;
+    margin-bottom: $wl-spacer-3;
+  }
+  &__right {
+    max-width: 400px;
+    @include mq(d) {
+      text-align: right;
+    }
+  }
+  &__bcorp {
+    margin-bottom: $wl-spacer-3;
+    img {
+      width: 66px;
+    }
+  }
+  &__copyright {
+    color: $wl-ltgray;
+    font-size: rem(12px);
+    line-height: rem(19px);
+    a {
+      color: $wl-ltgray;
+    }
+  }
+}
+
+.wl-blogs {
+  display: grid;
+  grid-row-gap: $wl-spacer-3;
+  @include mq(d) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @include mq(d) {
+    grid-row-gap: $wl-spacer-4;
+  }
+  grid-column-gap: $wl-spacer-3;
+}
+
+.wl-blog-card {
+  display: flex;
+  color: $wl-black;
+  &__image {
+    margin-right: $wl-spacer-2;
+    @include mq(d) {
+      margin-right: $wl-spacer-3;
+    }
+    img {
+      width: 100px;
+      @include mq(d) {
+        width: 165px;
+      }
+    }
+  }
+  &__date {
+    font-size: rem(12px);
+    color: $wl-pink;
+    font-weight: bold;
+  }
+  &__title {
+    margin-top: $wl-spacer-1;
+    margin-bottom: $wl-spacer-1;
+    @include mq(m) {
+      margin-top: 5px;
+    }
+    @include mq(d) {
+      margin-bottom: $wl-spacer-2;
+    }
+    a {
+      font-size: rem(28px);
+      font-weight: 800;
+      line-height: rem(35px);
+    }
+  }
+  &__teaser {
+    font-family: $wl-body-font;
+    margin: $wl-spacer-1 0;
+    font-size: rem(18px);
+    line-height: rem(26px);
+    @include mq(d) {
+      margin: $wl-spacer-2 0;
+    }
+  }
+  &__bottom {
+    @include mq(l) {
+      display: flex;
+      align-items: center;
+    }
+  }
+  &__author {
+    font-size: rem(13px);
+    margin-right: $wl-spacer-2;
+  }
+  &__medium-link {
+    font-size: rem(13px);
+    a {
+      display: flex;
+      align-items: center;
+      font-weight: normal;
+      &:after {
+        content: " ";
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        background: url('/assets/images/wonderlab/medium_icon.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: $wl-spacer-1;
+      }
+    }
+  }
+  &__subheader {
+    color: $wl-pink;
+    font-weight: bold;
+    font-size: rem(12px);
+    text-transform: uppercase;
+  }
+}
+
+// Landing page styles.
+
+.wl-landing {
+  &__intro {
+    color: white;
+    max-width: 520px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: $wl-spacer-3;
+    strong {
+      font-size: rem(16px);
+    }
+    p {
+      font-size: rem(14px);
+      line-height: rem(23px);
+    }
+  }
+  &__category {
+    margin: $wl-spacer-3 0;
+  }
+  .wl-blog-card:first-child {
+    display: block;
+    @include mq(d) {
+      grid-column: span 2;
+    }
+    img {
+      max-width: 100%;
+      width: auto;
+      @include mq(m) {
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+    .wl-blog-card__image {
+      margin-bottom: $wl-spacer-2;
+      margin-right: 0;
+    }
+    .wl-blog-card__title a {
+      font-size: rem(42px);
+      line-height: rem(50px);
+    }
+    .wl-blog-card__teaser {
+      font-size: rem(20px);
+      line-height: rem(29px);
+    }
+    .wl-blog-card__author {
+      margin-right: $wl-spacer-3;
+    }
+    .wl-blog-card__subheader {
+      display: none;
+    }
+  }
+}
+
+// Blog styles.
+
+.wonderlab-blog-post {
+  .wl-background {
+    height: 450px;
+    @include mq(l) {
+      height: 700px;
+    }
+  }
+  .wl-header__logo img {
+    width: 177px;
+  }
+}
+
+.wl-blog {
+  margin: $wl-spacer-3 auto;
+  &__header-image {
+    img {
+      max-width: 100%;
+      @include mq(m) {
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+  }
+  &__date {
+    text-align: center;
+    color: $wl-pink;
+    font-weight: bold;
+    font-size: rem(14px);
+    margin-top: $wl-spacer-2;
+  }
+  &__title {
+    text-align: center;
+    color: $wl-black;
+    font-weight: 800;
+    font-size: rem(36px);
+    line-height: rem(43px);
+    margin-top: $wl-spacer-1;
+    @include mq(d) {
+      font-size: rem(56px);
+      line-height: rem(67px);
+    }
+  }
+  &__byline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  &__author {
+    font-size: rem(14px);
+    margin-right: $wl-spacer-2;
+    @include mq(m) {
+      margin-right: 0;
+      margin-bottom: $wl-spacer-1;
+      flex-basis: 100%;
+      text-align: center;
+    }
+    @include mq(d) {
+      margin-right: $wl-spacer-3;
+    }
+  }
+  &__medium-link {
+    margin-right: $wl-spacer-2;
+    @include mq(d) {
+      margin-right: $wl-spacer-3;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      font-weight: normal;
+      font-size: rem(14px);
+      &:after {
+        content: " ";
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        background: url('/assets/images/wonderlab/medium_icon.svg');
+        background-size: cover;
+        margin-left: $wl-spacer-1;
+      }
+    }
+  }
+  &__share-link {
+    a {
+      font-weight: normal;
+      font-size: rem(14px);
+      &:after {
+        content: " ";
+        display: inline-block;
+        width: 22px;
+        height: 18px;
+        background: url('/assets/images/wonderlab/twitter_icon.svg');
+        background-size: cover;
+        margin-left: $wl-spacer-1;
+      }
+    }
+  }
+  &__body {
+    font-family: $wl-body-font;
+    margin-top: $wl-spacer-4;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    border-bottom: 5px solid $wl-grayborder;
+    padding-bottom: $wl-spacer-3;
+    margin-bottom: $wl-spacer-2;
+    font-size: rem(20px);
+    line-height: rem(29px);
+    @include mq(m) {
+      margin-top: $wl-spacer-3;
+    }
+    blockquote {
+      font-family: $primary-font;
+      font-weight: bold;
+      border-left: 5px solid $wl-grayborder;
+      padding-left: $wl-spacer-2;
+      font-size: rem(24px);
+      line-height: rem(34px);
+      color: $wl-purple;
+      margin: $wl-spacer-3 0;
+      @include mq(m) {
+        font-size: rem(20px);
+        line-height: rem(30px);
+        margin: $wl-spacer-2 0;
+      }
+    }
+    h1,h2,h3,h4,h5 {
+      font-family: $primary-font;
+    }
+    h2 {
+      font-size: rem(24px);
+      line-height: rem(36px);
+    }
+    h3 {
+      font-size: rem(20px);
+      line-height: rem(26px);
+    }
+  }
+  &__next {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    font-size: rem(14px);
+    color: $wl-black;
+  }
+  &__read-more {
+    margin-top: $wl-spacer-4;
+  }
+}
+
+.wl-read-more {
+  &__title {
+    color: $wl-black;
+    font-size: rem(12px);
+    font-weight: 800;
+    text-transform: uppercase;
+    @include mq(d) {
+      font-size: rem(14px);
+    }
+  }
+  &__blogs {
+    margin-top: $wl-spacer-3;
+  }
+}

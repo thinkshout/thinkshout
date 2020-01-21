@@ -60,6 +60,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!-- Fonts -->
   <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6630094/7238952/css/fonts.css" />
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/fonts/MyFontsWebfontsKit.css" />
+  <link href="//fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
 
   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/assets/favicon.ico" type="image/vnd.microsoft.icon" />
 
@@ -90,7 +91,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
   <!-- Footer -->
-  {% include footer.html %}
+  {% if page.url contains "/wonderlab/" %}
+    {% include wonderlab-footer.html %}
+  {% else %}
+    {% include footer.html %}
+  {% endif %}
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
 	<script src="{{ site.baseurl }}/assets/js/jquery.waypoints.min.js"></script>
