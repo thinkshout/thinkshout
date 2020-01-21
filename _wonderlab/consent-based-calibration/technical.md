@@ -11,7 +11,7 @@ short: Accurate content personalization is a large technical feat, combining cli
 description: "@todo for SEO"
 tags:
   - todo
-date: 2019-01-15 09:00:00
+date: 2019-01-22 09:00:00
 image: https://thinkshout.com/assets/images/wonderlab/consent-based-collaboration/card/cbc-tech-card.jpg
 image-alt: "Person of color in background with textured circles"
 header-image: /assets/images/wonderlab/consent-based-collaboration/hero/cbc-tech.jpg

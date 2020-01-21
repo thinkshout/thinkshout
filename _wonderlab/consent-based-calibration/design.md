@@ -23,7 +23,7 @@ description: "@todo for SEO"
 tags:
   - todo
 # The date - not used for ordering blogs.
-date: 2019-01-15 10:00:00
+date: 2019-01-22 10:00:00
 # The social share image/alt.
 image: https://thinkshout.com/assets/images/wonderlab/consent-based-collaboration/card/cbc-design-card.jpg
 image-alt: "4 different glasses filled with dairy."

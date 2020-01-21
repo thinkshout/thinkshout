@@ -11,7 +11,7 @@ short: Shifting from “protecting user data” to “respecting your privacy”
 description: "@todo for SEO"
 tags:
   - todo
-date: 2019-01-15 09:00:00
+date: 2019-01-22 09:00:00
 image: https://thinkshout.com/assets/images/wonderlab/consent-based-collaboration/card/cbc-intro-card.jpg
 image-alt: "Mirrored profile of a women"
 header-image: /assets/images/wonderlab/consent-based-collaboration/hero/cbc-intro.jpg
@@ -32,7 +32,7 @@ This month’s implementation of California’s Consumer Privacy Act (CCPA) has 
 
 But here’s the thing: As a digital agency responsible for presenting the best possible set of solutions, our first question in response to CCPA isn’t just How can we help our clients comply? It’s _What is the best way to balance consumer privacy with content or product delivery?_
 
-That’s where Consent-Based Calibration comes in, a new approach that addresses concerns about data privacy, unwieldy personalization software, and content-dense websites—and delights users at the same time. Consent-based calibration shifts our main concern from collecting and protecting user data to actually respecting your privacy. 
+That’s where Consent-Based Calibration comes in, a new approach that addresses concerns about data privacy, unwieldy personalization software, and content-dense websites—and delights users at the same time. Consent-based calibration shifts our main concern from collecting and protecting user data to actually respecting your privacy.
 
 Consent-based calibration is built on one simple idea and two core concepts:
 
@@ -42,16 +42,16 @@ Organizations don’t need to know exactly who you are on a personal level in or
 
 ## Concept 1: Replacing personal experiences with optional personas isn’t just ethical, it’s effective.
 
-Instead of entering a digital platform and consenting to GDPR data collection, a user would enter the same digital platform and be offered a choice of experiences: How would you like to experience our site? We can offer a choice of experiences to you, and you can shift between them at any time. Instead of collecting data on the user specifically to tailor every next step, consent based calibration suggests next steps based on the persona rather than the person, and at key checkpoints, you can opt into a different persona, or a different experience. 
+Instead of entering a digital platform and consenting to GDPR data collection, a user would enter the same digital platform and be offered a choice of experiences: How would you like to experience our site? We can offer a choice of experiences to you, and you can shift between them at any time. Instead of collecting data on the user specifically to tailor every next step, consent based calibration suggests next steps based on the persona rather than the person, and at key checkpoints, you can opt into a different persona, or a different experience.
 
-One of the most widely agreed upon issues with personalization—and with AI in general—is that [it lacks the ability to understand that a user may want to radically change their course or interests](https://medium.com/inclusive-software/describing-personas-af992e3fc527): It fails to introduce us to the parts of ourselves that are unknown. Consent based calibration assumes that a person would like to actively participate in creating their own experience. It fosters respect by offering the choice to change that experience at any time. 
-And ultimately, it shifts the now-ubiquitous single prompt of  “Do you consent to us collecting your data to provide you with an experience that we define for you behind the scenes?” to an ongoing conversation of “Are you interested in interacting with our site in one of these typical user patterns? How about now?” 
+One of the most widely agreed upon issues with personalization—and with AI in general—is that [it lacks the ability to understand that a user may want to radically change their course or interests](https://medium.com/inclusive-software/describing-personas-af992e3fc527): It fails to introduce us to the parts of ourselves that are unknown. Consent based calibration assumes that a person would like to actively participate in creating their own experience. It fosters respect by offering the choice to change that experience at any time.
+And ultimately, it shifts the now-ubiquitous single prompt of  “Do you consent to us collecting your data to provide you with an experience that we define for you behind the scenes?” to an ongoing conversation of “Are you interested in interacting with our site in one of these typical user patterns? How about now?”
 
 This shift from single ask—which gives the organization all of the decision-making power moving forward—to an ongoing consent-based calibration process—sows respect between organization and user. “We don’t need to know exactly who you are in order to share with you what you might be looking for” is the kind of consent-based mutuality that could only be developed by an organization that isn’t driven by commodification.
 
-## Concept 2: Massive content management systems should be replaced with lightweight, interactive experiences that rely on browser-side data storage. 
+## Concept 2: Massive content management systems should be replaced with lightweight, interactive experiences that rely on browser-side data storage.
 
-We’ve worked with hundreds of clients, and across all of them, one rule tends to be true: Less than half (at most) of an organization’s content drives 99 percent of its website’s meaningful engagement. Having run hundreds of analytics audits and discovery workshops with leaders across industries, we can say that everyone shares a similar burden: too much content, not enough meaning, not enough engagement. Critically, the data collection required for personalization only doubles down on that burden: Massive amounts of content generate massive amounts of data—and massive amounts of data make both organizations increasingly vulnerable to data breaches and users vulnerable to repetitive personalization experiences. 
+We’ve worked with hundreds of clients, and across all of them, one rule tends to be true: Less than half (at most) of an organization’s content drives 99 percent of its website’s meaningful engagement. Having run hundreds of analytics audits and discovery workshops with leaders across industries, we can say that everyone shares a similar burden: too much content, not enough meaning, not enough engagement. Critically, the data collection required for personalization only doubles down on that burden: Massive amounts of content generate massive amounts of data—and massive amounts of data make both organizations increasingly vulnerable to data breaches and users vulnerable to repetitive personalization experiences.
 
 Applying consent-based calibration would address many of the ethical and practical issues organizations and individual users face regarding data, content, and user experience. It refuses to accept that personalization means a more personal experience, and instead, calls it out for what it is: A commodification engine.
 
