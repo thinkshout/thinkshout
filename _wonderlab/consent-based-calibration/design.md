@@ -44,9 +44,7 @@ Too much choice often leads to added stress and discontent with the choices we d
 
 Too much unfiltered choice causes us to [lower our expectations and have a negative emotional response](https://www.theguardian.com/lifeandstyle/2015/oct/21/choice-stressing-us-out-dating-partners-monopolies). Anything else you can think of that might be eliciting a negative emotional response right now? (Hint: It’s our digital environment.)  
 
-There are ways to mitigate the tension between abundance and decision-making. In real life, companies have started figuring this out and offering smaller selections. The makers of the internet—including our team at ThinkShout—could take a lesson from common, [everyday experiences that we’ve adjusted to the abundance that exists in the modern reality] (https://www.customercontactweekdigital.com/customer-experience/articles/paradox-of-choice-trader-joes).
-
-That’s exactly what [consent-based calibration](/wonderlab/consent-based-collaboration) is all about.
+There are ways to mitigate the tension between abundance and decision-making: That’s exactly what [consent-based calibration](/wonderlab/consent-based-collaboration) is all about.
 
 While curated options are the foundation of consent-based calibration, clarity and transparency are next in line. Consent-based calibration gives the designer a unique opportunity to visually define a number of directions, and be up front with the end user from the onset of their browsing experience about what they will “get” when they opt into a pre-defined pathway. This allows us, as designers, to give decision making power to the user, while still [carefully thinking through what information we offer, and why](https://deardesignstudent.com/a-designers-code-of-ethics-f4a88aca9e95).
 
