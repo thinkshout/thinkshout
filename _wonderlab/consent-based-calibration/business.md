@@ -18,10 +18,9 @@ published: true
 # The teaser text for the card and other listings.
 short: Imagine a world where you get online and are greeted, not by a now ubiquitous banner asking you to consent to allowing your cookies to be tracked, but by a clear and visually dynamic set of options, each one offering a different website browsing experience.
 # The meta description for the page, used for sharing.
-description: "@todo for SEO"
+description: From personalization to consent-based calibration: An alternative approach to developing your organization's engagement model.
 # Tags used for SEO keywords.
-tags:
-  - todo
+tags: Ethical Personalization, Ethical Personas, User Journey Mapping, Design-Driven Optimization, Engagement Model
 # The date - not used for ordering blogs.
 date: 2019-01-22 10:00:00
 # The social share image/alt.
@@ -46,7 +45,7 @@ Basically no one ever does it. As an untested rule, maintaining evergreen conten
 
 We often ask people to offer up data without truly telling or showing them what we are going to do with the information they give us. It’s a “no need to tell us about you, we’ll just track your every move and decide what you should do next” situation. For the organizations that ThinkShout works with, in real life, that kind of one-sided experiential control would never fly. So why does it work in digital? Especially when the writing's on the wall with everything from healthcare to junk food being calibrated and marketed to us based on our own personal data in ways which are [inequitable, ethically compromised, and socially disturbing](https://slate.com/technology/2019/05/data-exchanges-streamr-ubdi-ocean-protocol-privacy.html)?
 
-> Imagine a world where social good organizations have a clear pathway to build great user experiences that reflect their organizational values in digital.
+Imagine a world where social good organizations have a clear pathway to build great user experiences that reflect their organizational values in digital.
 
 Users arrive on your site and are greeted, not by a banner asking you to consent to allowing your [cookies to be tracked](https://www.vox.com/recode/2019/12/10/18656519/what-are-cookies-website-tracking-gdpr-privacy) (with a link that you will never click on to read about what the heck cookies are, regardless of how conversational the tone is) but by a clear and visually dynamic set of options, each one offering a different website browsing experience.
 
@@ -54,9 +53,11 @@ The options aren’t some [movie star’s name followed by a high level descript
 
 What makes this idea so interesting and different? It’s not actually the technical build, though the details on how to create an experience that doesn’t exploit user data with Google looking over everyone’s shoulder is actually relatively complicated. The answer is mutual respect and consent. Ongoing, clear, enthusiastic consent.
 
-Which brings me back to every RFP we receive. Organizations and individuals are so bombarded by personalization and data collection—the pressure to build a site that can leverage personalization software—that it’s become an unquestioned expectation, rather than a feature to be determined based on need and outcomes. Instead of asking what we might do differently from the start, as is the case with data collection, we most often hear organizations struggling to comply with regulations and seeking to develop complex solutions to protect data that they can’t even actually leverage effectively.
+Which brings me back to every RFP we receive. Organizations and individuals are so bombarded by personalization and data collection—as well as the pressure to build a site that can actually leverage personalization software—that it’s become an unquestioned expectation, rather than a feature to be determined based on need and outcomes. Instead of asking what we might do differently from the start, as is the case with data collection, we most often hear organizations struggling to comply with regulations and seeking to develop complex solutions to protect data that they can’t even actually leverage effectively.
 
-> Consent Based Calibration is an opportunity for organizations to redefine the digital browsing experience and work with critical core audiences in a transparent way to give them what they need while clearly defining what the organization needs at the same time.
+<blockquote>Organizations and individuals are so bombarded by personalization and data collection—as well as the pressure to build a site that can actually leverage personalization software—that it’s become an unquestioned expectation, rather than a feature to be determined based on need and outcomes.</blockquote>
+
+Consent Based Calibration is an opportunity for organizations to redefine the digital browsing experience and work with critical core audiences in a transparent way to give them what they need while clearly defining what the organization needs at the same time.
 
 What does this mean for your organization?
 
