@@ -1,6 +1,6 @@
 ---
 # The index for ordering Wonderlab blogs within a topic.
-index: 1
+index: 2
 # The _layouts file to use.
 layout: wonderlab_blog
 # Classes for the body.
