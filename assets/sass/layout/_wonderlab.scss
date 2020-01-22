@@ -32,9 +32,10 @@
   a {
     color: $wl-black;
     font-weight: bold;
+    text-decoration: underline;
     &:hover,
     &:focus {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
   .main-menu a {
@@ -364,7 +365,7 @@
     font-weight: 800;
     font-size: rem(36px);
     line-height: rem(43px);
-    margin-top: $wl-spacer-1;
+    margin-top: 20px;
     @include mq(d) {
       font-size: rem(56px);
       line-height: rem(67px);
