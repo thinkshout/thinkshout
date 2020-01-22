@@ -7,7 +7,7 @@ title: "Introducing Consent-Based Calibration"
 card-subheader:
 author: kate
 published: true
-short: "Collecting and maintaining user data just got a lot more risky and a lot more expensive. It's time to shift the conversation from protecting user data to respecting your privacy. That's where consent-based calibration comes in."
+short: "Maintaining sensitive user data sets just got a lot more risky and a lot more expensive. It's time to shift the conversation from collecting and protecting user data to respecting user autonomy and privacy. That's where consent-based calibration comes in."
 description: "What is consent-based calibration? An alternative approach to personalization for nonprofits and social-change organizations."
 tags:
 - Consent-Based Calibration
@@ -27,9 +27,7 @@ card-image-alt: "Mirrored profile of a women"
 medium-link: https://medium.com
 ---
 
-Collecting and maintaining user data just got a lot more risky, and potentially, a lot more expensive.
-
-This month’s implementation of California’s Consumer Privacy Act (CCPA) has a lot of organizations hustling to comply with the most rigorous data privacy regulation enacted in the U.S. to date. The CCPA demands a wide swath of participation, requiring companies and organizations (serving California residents) that meet one or all of the following criteria comply:
+Collecting and maintaining user data just got a lot more risky, and potentially, a lot more expensive. This month’s implementation of California’s Consumer Privacy Act (CCPA) has a lot of organizations hustling to comply with the most rigorous data privacy regulation enacted in the U.S. to date. The CCPA demands a wide swath of participation, requiring companies and organizations (serving California residents) that meet one or all of the following criteria comply:
 
 (1) Companies and organizations that have annual revenues of $25 million or (2) that have collected 50,000 or more personal data records or (3) that earn more than 50 percent of their income from the sale of personal data.
 
