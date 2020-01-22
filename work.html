@@ -14,7 +14,7 @@ title: Work
   <div class="case-study-previews container">
     {% assign case-studies = site.case_studies | where: "published", "true" %}
     {% for preview in case-studies %}
-      {% include case_study_preview.html %}
+    {% include case_study_preview.html %}
     {% endfor %}
   </div>
 </div>

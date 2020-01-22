@@ -40,6 +40,7 @@ sitemap:
         - "/blog/index.html"
         - "/work/index.html"
         - "/careers/index.html"
+        - "/wonderlab/index.html"
 
 # Collections
 collections:
@@ -58,3 +59,6 @@ collections:
   topic:
     output: true
     permalink: /blog/topic/:slug/
+  wonderlab:
+    output: true
+    permalink: /wonderlab/:categories/:slug/

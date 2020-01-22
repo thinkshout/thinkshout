@@ -1,0 +1,22 @@
+<div class="wl-blog-card">
+  {% if blog.index == 0 and page.url == "/wonderlab/" %}
+    <div class="wl-blog-card__image"><img alt="{{ blog.header-image-alt }}" src="{{ site.baseurl }}{{ blog.header-image }}"><figcaption>{{ blog.caption }}</figcaption></div>
+    <div class="wl-blog-card__date">{{ blog.date | date: '%B %e, %Y' }}</div>
+  {% else %}
+    <div class="wl-blog-card__image"><img alt="{{ blog.card-image-alt }}" src="{{ site.baseurl }}{{ blog.card-image }}"></div>
+  {% endif %}
+  <div class="wl-blog-card__content">
+    <div class="wl-blog-card__subheader">{{ blog.card-subheader }}</div>
+    <h3 class="wl-blog-card__title"><a href="{{ site.baseurl }}{{ blog.url }}">{{ blog.title }}</a></h3>
+    <div class="wl-blog-card__teaser">{{ blog.short }}</div>
+    <div class="wl-blog-card__bottom">
+      <div class="wl-blog-card__author">
+        {% assign author = site.team | where: "name", blog.author | first %}
+        <span>by </span><a href="{{ site.baseurl }}{{ author.url }}">{{ author.first_name }} {{ author.last_name }}</a>
+      </div>
+      <div class="wl-blog-card__medium-link">
+        <a href="{{ blog.medium-link }}">Engage on Medium</a>
+      </div>
+    </div>
+  </div>
+</div>

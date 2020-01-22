@@ -1,0 +1,30 @@
+<footer class="wl-footer">
+  <div class="container">
+    <div class="wl-footer__left">
+      <strong>About ThinkShout.</strong>
+      <p>We employ creative strategies and digital solutions to help progressive organizations change the world.</p>
+    </div>
+    <div class="wl-footer__right">
+      <div class="wl-footer__bcorp">
+        {% assign items = site.data.menu.external %}
+        {% for item in items %}
+        {% if item.title == 'bcorp'%}
+        <a href="{{ item.url }}" target="_blank">
+          <img src="{{ site.baseurl }}/assets/images/ts_redesign/{{ item.title }}.png" alt="{{ item.title }} logo" />
+        </a>
+        {% endif %}
+        {% endfor %}
+      </div>
+
+      <div class="wl-footer__copyright">
+        &copy;{{ site.time | date: '%Y' }} ThinkShout, Inc. ThinkShout and the ThinkShout logos are registered trademarks of ThinkShout, Inc.
+        {% assign items = site.data.menu.copyright %}
+        {% for item in items %}
+        {% if item.title == 'Privacy Policy' %}
+        <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</footer>

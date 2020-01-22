@@ -66,3 +66,20 @@ Sites you might be interested in looking at:
 - local: http://localhost:4000/
 - stage: https://stage.thinkshout.com/
 - live: https://thinkshout.com/
+
+## Wonderlab sub-site
+
+The /wonderlab sub-site is generated using the following components:
+
+- A `wonderlab.html` landing page that lists wonderlab blogs
+- A `wonderlab` collection defined in `config.yml`
+- Blog posts nested under `_wonderlab/*`
+- Metadata for categories in `_data/wonderlab.yml`
+
+Most of the post fields are standard for Jekyll, with the exception of the
+"index" field, which is used for manually ordering posts within a
+Wonderlab category.
+
+The code is set up to work for multiple categories, so hypothetically if you
+wanted to launch a new topic, you would just add a new entry to
+`_data/wonderlab.yml` (at the top of the array).
