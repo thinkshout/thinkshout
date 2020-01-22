@@ -47,7 +47,9 @@ Consent-based calibration is built on one simple idea and two core concepts:
 
 Organizations don’t need to know exactly who you are on a personal level in order to engage you in a meaningful way. And in fact, the basic tenets of personalization fail in ways that [make the benefits unworthy of the risks](https://www.nytimes.com/2019/11/05/opinion/personalization-privacy.html). Consent-based calibration asserts that it’s more respectful, impactful, and impressive if an organization actually doesn’t know your every click and can still serve up a deeply meaningful experience. Out of this idea come consent based calibration’s two central concepts:
 
-## Concept 1: _Replacing personal experiences with optional personas isn’t just ethical, it’s effective._
+## Concept 1:
+
+### Replacing personal experiences with optional personas isn’t just ethical, it’s effective.
 
 Instead of entering a digital platform and consenting to GDPR data collection, a user would enter the same digital platform and be offered a choice of experiences: How would you like to experience our site? We can offer a choice of experiences to you, and you can shift between them at any time. Instead of collecting data on the user specifically to tailor every next step, consent based calibration suggests next steps based on the persona rather than the person, and at key checkpoints, you can opt into a different persona, or a different experience.
 
@@ -58,7 +60,9 @@ This shift from single ask—which gives the organization all of the decision-ma
 
 >Applying consent-based calibration would address many of the ethical and practical issues organizations and individual users face regarding data, content, and user experience. It refuses to accept that personalization means a more personal experience, and instead, calls it out for what it is: A commodification engine.
 
-## Concept 2: _Massive content management systems should be replaced with lightweight, interactive experiences that rely on browser-side data storage._
+## Concept 2:
+
+### Massive content management systems should be replaced with lightweight, interactive experiences that rely on browser-side data storage.
 
 We’ve worked with hundreds of clients, and across all of them, one rule tends to be true: Less than half (at most) of an organization’s content drives 99 percent of its website’s meaningful engagement. Having run hundreds of analytics audits and discovery workshops with leaders across industries, we can say that everyone shares a similar burden: too much content, not enough meaning, not enough engagement. Critically, the data collection required for personalization only doubles down on that burden: Massive amounts of content generate massive amounts of data—and massive amounts of data make both organizations increasingly vulnerable to data breaches and users vulnerable to repetitive personalization experiences.
 
