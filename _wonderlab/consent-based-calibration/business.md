@@ -38,6 +38,7 @@ card-image: /assets/images/wonderlab/consent-based-collaboration/card/cbc-busine
 card-image-alt: "Collection of images connected by angled lines."
 # The Medium URL.
 medium-link: https://medium.com
+slug: questioning-personalization-good-for-engagement-model
 ---
 
 Stick with me here: It’s 9am on a Monday morning. I’m responding to an RFP for a website redesign while I’m writing this, answering the big, overarching question that every RFP includes:

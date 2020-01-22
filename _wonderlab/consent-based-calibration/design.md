@@ -37,6 +37,7 @@ card-image: /assets/images/wonderlab/consent-based-collaboration/card/cbc-design
 card-image-alt: "4 different glasses filled with dairy."
 # The Medium URL.
 medium-link: https://medium.com
+slug: case-designing-digital-platforms-respect-privacy
 ---
 
 Our job as designers, digital or otherwise, is to make tough decisions and offer clear and engaging pathways for people to find what they’re looking for. Figuring out how to present those choices didn’t used to be so difficult, mostly because there were fewer choices. When selecting an airline you chose TWA or American. When grabbing milk it was 2% or whole. To complete the metaphor, a well laid out grocery store helps you make a more specific choice about what you already knew you needed in a series of binaries. You come in knowing what you need, you find the product based on straightforward options: You need milk, here’s what we can offer you.
