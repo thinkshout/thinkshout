@@ -24,7 +24,7 @@ header-image-alt: "Mirrored profile of a women"
 caption: "Illustration by Sarah Leigh"
 card-image: /assets/images/wonderlab/consent-based-collaboration/card/cbc-intro-card.jpg
 card-image-alt: "Mirrored profile of a women"
-medium-link: https://medium.com
+medium-link: https://medium.com/wonder-lab/introducing-consent-based-calibration-72e26d9c84ca
 slug: introducing-consent-based-calibration
 ---
 
