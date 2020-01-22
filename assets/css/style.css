@@ -8623,7 +8623,8 @@ h4.lets-chat {
     color: #67889E;
     font-weight: normal; }
     .wonderlab-page .main-menu a.active, .wonderlab-page .main-menu a:hover {
-      border-top-color: #67889E !important; }
+      border-top-color: #67889E !important;
+      text-decoration: none; }
   .wonderlab-page figcaption {
     float: right;
     font-size: 11px; }

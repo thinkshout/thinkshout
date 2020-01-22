@@ -43,6 +43,7 @@
     &.active,
     &:hover {
       border-top-color: $wl-ltblue !important;
+      text-decoration: none;
     }
   }
   figcaption {
