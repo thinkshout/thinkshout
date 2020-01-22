@@ -43,7 +43,9 @@ That’s where Consent-Based Calibration comes in, a new approach that addresses
 
 Consent-based calibration is built on one simple idea and two core concepts:
 
-## The Idea: _We don’t need to know exactly who you are to serve your needs—or ours._
+## The Idea:
+
+### We don’t need to know exactly who you are to serve your needs—or ours.
 
 Organizations don’t need to know exactly who you are on a personal level in order to engage you in a meaningful way. And in fact, the basic tenets of personalization fail in ways that [make the benefits unworthy of the risks](https://www.nytimes.com/2019/11/05/opinion/personalization-privacy.html). Consent-based calibration asserts that it’s more respectful, impactful, and impressive if an organization actually doesn’t know your every click and can still serve up a deeply meaningful experience. Out of this idea come consent based calibration’s two central concepts:
 
