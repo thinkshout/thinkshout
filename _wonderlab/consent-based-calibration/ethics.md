@@ -16,11 +16,15 @@ author: lev
 # Whether or not this post is published.
 published: true
 # The teaser text for the card and other listings.
-short: Imagine a world where you get online and are greeted, not by a now ubiquitous banner asking you to consent to allowing your cookies to be tracked, but by a clear and visually dynamic set of options, each one offering a different website browsing experience.
+short: "Imagine a world where you get online and are greeted, not by a now ubiquitous banner asking you to consent to allowing your cookies to be tracked, but by a clear and visually dynamic set of options, each one offering a different website browsing experience."
 # The meta description for the page, used for sharing.
-description: Consent-based calibration shifts control of the data that defines who we are online back to users.
+description: "Consent-based calibration shifts control of the data that defines who we are online back to users."
 # Tags used for SEO keywords.
-tags: Consent-Based Calibration, Personalization for Non-profits, User-Centered Content Strategy, Ethical Data Policy, Optimization
+tags:
+- Consent-Based Calibration
+- Personalization for Non-profits
+- User-Centered Content Strategy
+- Ethical Data Policy, Optimization
 # The date - not used for ordering blogs.
 date: 2019-01-22 10:00:00
 # The social share image/alt.
@@ -35,7 +39,7 @@ card-image-alt: "Collection of images connected by angled lines."
 medium-link: https://medium.com
 ---
 
-I got my start in the relatively early days of the Internet: The late 90’s and early aughts were littered with exciting .com’s, with barely a one having a viable business model. One of my favorites at the time was [Kozmo.com](https://en.wikipedia.org/wiki/Kozmo.com), which pioneered the technical delivery model which is ubiquitous today with the likes of Uber Eats, Dash, and Amazon. Back then, though, the actual manifestation of Kozmo was nuts! You could browse the website, which was essentially a visual convenience store, order your Ben & Jerry’s and a DVD (because streaming was still a distant dream), and have it all delivered within an hour by someone on a scooter. They even threw in a branded bottle opener for kicks! I don’t know how much Kozmo lost on every order, but it was significant, and, unsurprisingly, they went out of business in short order in the spring of 2001, along with so many others in the dotcom crash. Kozmo so defined the first dotcom boom and bust cycle that it’s story was told in a [2001 documentary titled e-dreams](https://www.imdb.com/title/tt0262021/). 
+I got my start in the relatively early days of the Internet: The late 90’s and early aughts were littered with exciting .com’s, with barely a one having a viable business model. One of my favorites at the time was [Kozmo.com](https://en.wikipedia.org/wiki/Kozmo.com), which pioneered the technical delivery model which is ubiquitous today with the likes of Uber Eats, Dash, and Amazon. Back then, though, the actual manifestation of Kozmo was nuts! You could browse the website, which was essentially a visual convenience store, order your Ben & Jerry’s and a DVD (because streaming was still a distant dream), and have it all delivered within an hour by someone on a scooter. They even threw in a branded bottle opener for kicks! I don’t know how much Kozmo lost on every order, but it was significant, and, unsurprisingly, they went out of business in short order in the spring of 2001, along with so many others in the dotcom crash. Kozmo so defined the first dotcom boom and bust cycle that it’s story was told in a [2001 documentary titled e-dreams](https://www.imdb.com/title/tt0262021/).
 
 Before Kozmo crashed, though, [investors](https://www.nytimes.com/2000/03/21/business/company-news-amazoncom-invests-60-million-in-kozmocom.html) and the [popular press](https://www.wired.com/2000/02/kozmos-high-hopes/) fully bought into the vision of the company. Why? Well, part of it was blind exuberance, but another big factor was the promise of the data collected and the personalized experience not far behind. Kozmo learned where you live, your movie and ice cream preferences, and when you like to relax. Just imagine the possibilities those insights presented in an age when telephone surveys and census data counted for cutting edge insights. I was sold on the idea. When my “old economy” friends would naively inquire how these .com’s made money, I would scoff and brag about the big data future. [Oops](https://www.bloomberg.com/news/articles/2001-04-15/what-led-to-kozmos-final-delivery).
 
@@ -43,7 +47,7 @@ But now that technology and culture have caught up to those early ideas, and our
 
 But all is not lost! The Internet _is_ still free and open, and we have the power to create experiences that respect our audiences individuality without eroding their identities.
 
-<blockquote>Our digital experiences should reflect how we engage with the real world. They should allow us to choose our own personas during an experience, maybe even change them half way through. Consent based calibration builds the foundational trust that is needed to deepen engagement, and, ultimately increase the impact of whatever KPIs dictate the health of an organization in our digital environments.</blockquote>
+>Our digital experiences should reflect how we engage with the real world. They should allow us to choose our own personas during an experience, maybe even change them half way through. Consent based calibration builds the foundational trust that is needed to deepen engagement, and, ultimately increase the impact of whatever KPIs dictate the health of an organization in our digital environments.
 
 Rather than gathering every possible piece of information without a user’s consent, just ask a user what type of journey they would like to take. This is not a radical concept. When you walk into a store, you are, typically, not secretly tracked and presented with items to purchase based on your “profile”. A person simply *asks* what you are looking for and, if they can help, begins to guide your shopping experience. When you meet people at a party, depending on your mood that night, you get to control how you define yourself, and it’s ok if you’re outgoing and owning the dance floor one night, and relaxing in the corner and talking with a friend another. Our digital experiences should reflect how we engage with the real world. They should allow us to choose our own personas during an experience, maybe even change them half way through.
 

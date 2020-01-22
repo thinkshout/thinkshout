@@ -16,11 +16,16 @@ author: julia
 # Whether or not this post is published.
 published: true
 # The teaser text for the card and other listings.
-short: Imagine a world where you get online and are greeted, not by a now ubiquitous banner asking you to consent to allowing your cookies to be tracked, but by a clear and visually dynamic set of options, each one offering a different website browsing experience.
+short: "Imagine a world where you get online and are greeted, not by a now ubiquitous banner asking you to consent to allowing your cookies to be tracked, but by a clear and visually dynamic set of options, each one offering a different website browsing experience."
 # The meta description for the page, used for sharing.
-description: From personalization to consent-based calibration: An alternative approach to developing your organization's engagement model.
+description: "From personalization to consent-based calibration: An alternative approach to developing your organization's engagement model."
 # Tags used for SEO keywords.
-tags: Ethical Personalization, Ethical Personas, User Journey Mapping, Design-Driven Optimization, Engagement Model
+tags:
+- Ethical Personalization
+- Ethical Personas
+- User Journey Mapping
+- Design-Driven Optimization
+- Engagement Model
 # The date - not used for ordering blogs.
 date: 2019-01-22 10:00:00
 # The social share image/alt.
@@ -55,7 +60,7 @@ What makes this idea so interesting and different? It’s not actually the techn
 
 Which brings me back to every RFP we receive. Organizations and individuals are so bombarded by personalization and data collection—as well as the pressure to build a site that can actually leverage personalization software—that it’s become an unquestioned expectation, rather than a feature to be determined based on need and outcomes. Instead of asking what we might do differently from the start, as is the case with data collection, we most often hear organizations struggling to comply with regulations and seeking to develop complex solutions to protect data that they can’t even actually leverage effectively.
 
-<blockquote>Organizations and individuals are so bombarded by personalization and data collection—as well as the pressure to build a site that can actually leverage personalization software—that it’s become an unquestioned expectation, rather than a feature to be determined based on need and outcomes.</blockquote>
+>Organizations and individuals are so bombarded by personalization and data collection—as well as the pressure to build a site that can actually leverage personalization software—that it’s become an unquestioned expectation, rather than a feature to be determined based on need and outcomes.
 
 Consent Based Calibration is an opportunity for organizations to redefine the digital browsing experience and work with critical core audiences in a transparent way to give them what they need while clearly defining what the organization needs at the same time.
 

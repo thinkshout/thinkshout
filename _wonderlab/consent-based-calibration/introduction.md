@@ -7,10 +7,15 @@ title: "Introducing Consent-Based Calibration"
 card-subheader:
 author: kate
 published: true
-short: Collecting and maintaining user data just got a lot more risky and a lot more expensive. It's time to shift the conversation from protecting user data to respecting your privacy. That's where consent-based calibration comes in.
-description: What is consent-based calibration? An alternative approach to personalization for nonprofits and social-change organizations.
-tags: Consent-Based Calibration, Personalization for Non-profits, User-Centered Content Strategy, Ethical Data Policy, Optimization, Engagement Model
-  - todo
+short: "Collecting and maintaining user data just got a lot more risky and a lot more expensive. It's time to shift the conversation from protecting user data to respecting your privacy. That's where consent-based calibration comes in."
+description: "What is consent-based calibration? An alternative approach to personalization for nonprofits and social-change organizations."
+tags:
+- Consent-Based Calibration
+- Personalization for Non-profits
+- User-Centered Content Strategy
+- Ethical Data Policy
+- Optimization
+- Engagement Model
 date: 2019-01-22 09:00:00
 image: https://thinkshout.com/assets/images/wonderlab/consent-based-collaboration/card/cbc-intro-card.jpg
 image-alt: "Mirrored profile of a women"
@@ -34,7 +39,7 @@ But here’s the thing: As a digital agency responsible for presenting the best 
 
 That’s where Consent-Based Calibration comes in, a new approach that addresses concerns about data privacy, unwieldy personalization software, and content-dense websites—and delights users at the same time. Consent-based calibration shifts our main concern from collecting and protecting user data to actually respecting your privacy.
 
-<blockquote>Consent-based calibration shifts our main concern from collecting and protecting user data to actually respecting your privacy.</blockquote>
+>Consent-based calibration shifts our main concern from collecting and protecting user data to actually respecting your privacy.
 
 Consent-based calibration is built on one simple idea and two core concepts:
 
@@ -51,7 +56,7 @@ And ultimately, it shifts the now-ubiquitous single prompt of  “Do you consent
 
 This shift from single ask—which gives the organization all of the decision-making power moving forward—to an ongoing consent-based calibration process—sows respect between organization and user. “We don’t need to know exactly who you are in order to share with you what you might be looking for” is the kind of consent-based mutuality that could only be developed by an organization that isn’t driven by commodification.
 
-<blockquote>Applying consent-based calibration would address many of the ethical and practical issues organizations and individual users face regarding data, content, and user experience. It refuses to accept that personalization means a more personal experience, and instead, calls it out for what it is: A commodification engine.</blockquote>
+>Applying consent-based calibration would address many of the ethical and practical issues organizations and individual users face regarding data, content, and user experience. It refuses to accept that personalization means a more personal experience, and instead, calls it out for what it is: A commodification engine.
 
 ## Concept 2: _Massive content management systems should be replaced with lightweight, interactive experiences that rely on browser-side data storage._
 

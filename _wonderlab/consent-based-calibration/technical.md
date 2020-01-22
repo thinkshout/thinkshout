@@ -7,9 +7,15 @@ title: "The Technical Benefits of Consent-Based Calibration"
 card-subheader: Technical lens
 author: sam
 published: true
-short: Accurate content personalization is a large technical feat, combining client side behavior tracking, data analytics, machine learning, and hand-built segmentation to deliver valuable experiences to end users. Consent-based calibration bypasses many of these technical challenges.
-description: Consent-based calibration bypasses many of the technical challenge and privacy risks of personalization.
-tags: Personalization Alternatives, Personalization for Non-profits, Ethical Personalization, Ethical Data Storage, Browser-side Data Storage, Optimization
+short: "Accurate content personalization is a large technical feat, combining client side behavior tracking, data analytics, machine learning, and hand-built segmentation to deliver valuable experiences to end users. Consent-based calibration bypasses many of these technical challenges."
+description: "Consent-based calibration bypasses many of the technical challenge and privacy risks of personalization."
+tags:
+- Personalization Alternatives
+- Personalization for Non-profits
+- Ethical Personalization
+- Ethical Data Storage
+- Browser-side Data Storage
+- Optimization
 date: 2019-01-22 09:00:00
 image: https://thinkshout.com/assets/images/wonderlab/consent-based-collaboration/card/cbc-tech-card.jpg
 image-alt: "Person of color in background with textured circles"
@@ -28,7 +34,7 @@ Consent-based calibration bypasses many of these technical challenges—no user 
 
 A key part of consent-based calibration is explicitly collecting information from users to put them in charge of their own experience. This may be done with a prompt for new users visiting the site that asks them a series of questions about what they’re interested in, or a way to switch between different personas the site is designed for. Regardless of how the data is collected, we need to decide how to store it. With personalization this would almost always be on a server, and would be tied to some unique identifier like a user ID. With consent-based calibration there’s not a compelling reason to store this data anywhere other than in the user’s browser, especially if the majority of your users are anonymous. Once stored in the browser, data could then be queried using IndexedDB to perform lightweight segmentation.
 
-<blockquote>Don't expect to build a profile for a user that spans weeks or months of site visits: This may seem like a major issue  if you’re coming from traditional personalization, but highlights what makes consent-based calibration different—you have to stop feeling ownership over your user’s data and start letting them make their own decisions.</blockquote>
+>Don't expect to build a profile for a user that spans weeks or months of site visits: This may seem like a major issue  if you’re coming from traditional personalization, but highlights what makes consent-based calibration different—you have to stop feeling ownership over your user’s data and start letting them make their own decisions.
 
 Using browser storage, client side code can change the look and feel of a site, which is similar to how JavaScript based personalization tools work today. A common complaint about personalization is the “pop in” moment where a homepage loads, where elements wait to render until AJAX calls to personalization services are made. Browser storage can sidestep this limitation as no AJAX calls are required to determine what to show users. For example, if you’ve identified three personas on your site, you could send the HTML for three call to actions to the client, but only display one based on their preferences. This will increase the size of the response, so at some point you may still need to make AJAX calls, which would be to your own servers without any complex personalization decisions.
 
