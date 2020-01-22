@@ -14,7 +14,7 @@ tags:
   - Drupal
   - Drupal Planet
 date: 2016-12-16 15:00:00
-image: https://thinkshout.com/assets/images/ts_icon.jpg
+image: https://thinkshout.com/assets/images/thinkshout-logo1.jpg
 ---
 
 We mention [iATS Payments](http://home.iatspayments.com/) quite frequently on our blog. Why? Well we *did* partner with them to create [Commerce iATS for Drupal](https://www.drupal.org/project/commerce_iats). It also happens to be one of our preferred online payment processors, due in no small part to its incredibly reasonable processing fees and the excellent support it offers nonprofits. It made sense for us to invest the time in making iATS Drupal compatible, given the ever-increasing number of nonprofits using Drupal to host their sites and fundraising efforts. 

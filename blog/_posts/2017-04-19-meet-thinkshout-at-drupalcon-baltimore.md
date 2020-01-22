@@ -15,7 +15,7 @@ tags:
   - Twig
   - Nonprofit tech
 date: 2017-04-19 16:00:00
-image: https://thinkshout.com/assets/images/ts_icon.jpg
+image: https://thinkshout.com/assets/images/thinkshout-logo1.jpg
 ---
 
 We’re packing our bags for Baltimore and polishing up our slide decks for DrupalCon! We’re so excited to join the Drupal community for a full week of Drupal-y things. We’ve got some great content planned for this year’s conference, and we’re very excited to share it with you all - here’s what you need to know:

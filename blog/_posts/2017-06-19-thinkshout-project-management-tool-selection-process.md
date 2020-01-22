@@ -12,7 +12,7 @@ tags:
   - Project management
   - Tools
 date: 2017-06-19 13:00:00
-image: https://thinkshout.com/assets/images/ts_icon.jpg
+image: https://thinkshout.com/assets/images/thinkshout-logo1.jpg
 ---
 
 Project management in the digital world is an ever-changing arena. New tools are constantly being created, updates to current software are always on deck, and team members have specific predilections and preferences that must be assessed and accommodated. Project managers walk the line of being flexible and change-aware, while also taking a hard line on internal processes that streamline and codify success. 

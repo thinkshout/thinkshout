@@ -14,7 +14,7 @@ tags:
   - Design
   - Drupal Planet
 date: 2017-05-15 13:30:00
-image: https://thinkshout.com/assets/images/ts_icon.jpg
+image: https://thinkshout.com/assets/images/thinkshout-logo1.jpg
 ---
 
 Websites, like most things, have a lifespan. At first, they are new and shiny and aligned with both your organization’s goals and current web trends and best practices. As time goes on, however, technology continues to progress, and your organizational goals will probably evolve as well.

@@ -19,7 +19,7 @@ tags:
   - Salesforce
   - Development
 date: 2016-02-23 15:00:00
-image: /assets/images/ts_icon.jpg
+image: /assets/images/thinkshout-logo1.jpg
 topic: technology
 header-image: /assets/images/ts_redesign/blog/up-and-theming1.jpg
 header-image-alt: "Image: Model Thinkshout Employees"

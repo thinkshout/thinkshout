@@ -14,7 +14,7 @@ tags:
   - Drupal Planet
   - Strategy
 date: 2016-10-14 15:00:00
-image: https://thinkshout.com/assets/images/ts_icon.jpg
+image: https://thinkshout.com/assets/images/thinkshout-logo1.jpg
 ---
 
 *Originally published Sept. 25, 2016 on [GregBoggs.com.](http://www.gregboggs.com/drupal-8-content-modeling/)*

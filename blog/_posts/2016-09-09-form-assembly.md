@@ -14,7 +14,7 @@ tags:
   - FormAssembly
   - CSS
 date: 2016-09-09 11:00:00
-image: https://thinkshout.com/assets/images/ts_icon.jpg
+image: https://thinkshout.com/assets/images/thinkshout-logo1.jpg
 ---
 In a recent project here at ThinkShout, I needed to create a form for an existing site. Creating a form isn’t hard, but I had two problems I needed to solve that made things a little more complicated: 1) The form needed to adopt the style of the existing site and, 2) I had no backend to process the form.
 

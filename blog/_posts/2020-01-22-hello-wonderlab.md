@@ -29,3 +29,5 @@ That’s why we’re proud to announce [The WonderLab](/wonderlab/): a space and
 * Likewise, we are not beholden to profitability in the name of impact.
 
 The WonderLab will routinely bring forward a new challenge, framed by one of eight core challenges faced by our clients and our industry. More importantly, we’ll present a brand-new solution—a rethinking of an everyday experience, a reimagining of a foundational stance—and threaded through each of our possibilities for the future, a deep questioning of how we might better balance the relationship between digital and decency.
+
+Check out [our first series on Consent Based Calibration](https://thinkshout.com/wonderlab/) and join the discussion. We can’t wait to hear what you think! 

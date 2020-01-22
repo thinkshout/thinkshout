@@ -15,7 +15,7 @@ tags:
   - Peer-to-peer fundraising
   - Drupal fundraising
 date: 2016-01-18
-image: /assets/images/ts_icon.jpg
+image: /assets/images/thinkshout-logo1.jpg
 topic: technology
 ---
 

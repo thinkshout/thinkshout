@@ -13,7 +13,7 @@ tags:
   - Drush
   - Development
 date: 2015-11-18 13:00:00
-image: /assets/images/ts_icon.jpg
+image: /assets/images/thinkshout-logo1.jpg
 topic: technology
 ---
 

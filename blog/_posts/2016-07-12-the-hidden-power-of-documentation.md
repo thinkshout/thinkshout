@@ -15,7 +15,7 @@ tags:
   - Drupal 8
   - Documentation
 date: 2016-07-12 12:00:00
-image: /assets/images/ts_icon.jpg
+image: /assets/images/thinkshout-logo1.jpg
 header-image: /assets/images/blog/documentation-blog-header.jpg
 header-image-alt: "The Hidden Power of Documentation"
 ---

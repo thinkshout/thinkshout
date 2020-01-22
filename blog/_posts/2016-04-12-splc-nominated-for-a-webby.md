@@ -16,7 +16,7 @@ tags:
   - Webbys
   - Design
 date: 2016-04-12 12:00:00
-image: /assets/images/ts_icon.jpg
+image: /assets/images/thinkshout-logo1.jpg
 topic: culture
 header-image: /assets/images/blog/trump1.jpg
 header-image-alt: "Image: SPLC Header"

@@ -13,7 +13,7 @@ tags:
   - process
   - Onsite
 date: 2017-09-27
-image: https://thinkshout.com/assets/images/ts_icon.jpg
+image: https://thinkshout.com/assets/images/thinkshout-logo1.jpg
 ---
 
 Goals. We've all got them, and your website should too. That's why we kick off all of our redesign projects with a series of deep-diving, goal-seeking workshops hat we collectively call "The Onsite."

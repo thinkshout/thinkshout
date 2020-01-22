@@ -14,7 +14,7 @@ tags:
   - Front end
   - Angular
 date: 2016-07-14 12:00:00
-image: /assets/images/ts_icon.jpg
+image: /assets/images/thinkshout-logo1.jpg
 ---
 
 [TypeScript](https://www.typescriptlang.org/) was released in 2012. When I first encountered it, I didn’t want to learn another version of a language I was already working with. My interest was renewed with the release of Angular 2, which is written in TypeScript. 
