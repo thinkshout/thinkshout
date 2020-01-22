@@ -37,7 +37,7 @@ caption: "Illustration by Sarah Leigh"
 card-image: /assets/images/wonderlab/consent-based-collaboration/card/cbc-business-card.jpg
 card-image-alt: "Collection of images connected by angled lines."
 # The Medium URL.
-medium-link: https://medium.com
+medium-link: https://medium.com/wonder-lab/questioning-personalization-is-good-for-your-engagement-model-23bc6bbce00c
 slug: questioning-personalization-good-for-engagement-model
 ---
 
