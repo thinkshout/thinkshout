@@ -8616,10 +8616,9 @@ h4.lets-chat {
       background-color: transparent; }
   .wonderlab-page a {
     color: #252526;
-    font-weight: bold;
-    text-decoration: underline; }
+    font-weight: bold; }
     .wonderlab-page a:hover, .wonderlab-page a:focus {
-      text-decoration: none; }
+      text-decoration: underline; }
   .wonderlab-page .main-menu a {
     color: #67889E;
     font-weight: normal; }
@@ -8627,7 +8626,6 @@ h4.lets-chat {
       border-top-color: #67889E !important; }
   .wonderlab-page figcaption {
     float: right;
-    font-style: italic;
     font-size: 11px; }
   .wonderlab-page ul li {
     list-style-type: disc; }
@@ -8766,7 +8764,7 @@ h4.lets-chat {
         margin-top: 5px; } }
     @media (min-width: 980px) {
       .wl-blog-card__title {
-        margin-bottom: 25px; } }
+        margin-bottom: 10px; } }
     .wl-blog-card__title a {
       font-size: 1.75rem;
       font-weight: 800;
@@ -8962,6 +8960,10 @@ h4.lets-chat {
     .wl-blog__body h3 {
       font-size: 1.25rem;
       line-height: 1.625rem; }
+    .wl-blog__body a {
+      text-decoration: underline; }
+      .wl-blog__body a:hover, .wl-blog__body a:focus {
+        text-decoration: none; }
   .wl-blog__next {
     max-width: 800px;
     margin-left: auto;

@@ -32,10 +32,9 @@
   a {
     color: $wl-black;
     font-weight: bold;
-    text-decoration: underline;
     &:hover,
     &:focus {
-      text-decoration: none;
+      text-decoration: underline;
     }
   }
   .main-menu a {
@@ -48,7 +47,6 @@
   }
   figcaption {
     float: right;
-    font-style: italic;
     font-size: 11px;
   }
   ul li {
@@ -219,7 +217,7 @@
       margin-top: 5px;
     }
     @include mq(d) {
-      margin-bottom: $wl-spacer-2;
+      margin-bottom: $wl-spacer-1;
     }
     a {
       font-size: rem(28px);
@@ -466,6 +464,14 @@
       font-size: rem(20px);
       line-height: rem(26px);
     }
+    a {
+      text-decoration: underline;
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+
   }
   &__next {
     max-width: 800px;
