@@ -37,6 +37,7 @@ card-image: /assets/images/wonderlab/consent-based-collaboration/card/cbc-ethics
 card-image-alt: "Collection of images connected by angled lines."
 # The Medium URL.
 medium-link: https://medium.com
+slug: restoring-trust-tech-starts-new-boundaries-user-consent
 ---
 
 I got my start in the relatively early days of the Internet: The late 90’s and early aughts were littered with exciting .com’s, with barely a one having a viable business model. One of my favorites at the time was [Kozmo.com](https://en.wikipedia.org/wiki/Kozmo.com), which pioneered the technical delivery model which is ubiquitous today with the likes of Uber Eats, Dash, and Amazon. Back then, though, the actual manifestation of Kozmo was nuts! You could browse the website, which was essentially a visual convenience store, order your Ben & Jerry’s and a DVD (because streaming was still a distant dream), and have it all delivered within an hour by someone on a scooter. They even threw in a branded bottle opener for kicks! I don’t know how much Kozmo lost on every order, but it was significant, and, unsurprisingly, they went out of business in short order in the spring of 2001, along with so many others in the dotcom crash. Kozmo so defined the first dotcom boom and bust cycle that it’s story was told in a [2001 documentary titled e-dreams](https://www.imdb.com/title/tt0262021/).
