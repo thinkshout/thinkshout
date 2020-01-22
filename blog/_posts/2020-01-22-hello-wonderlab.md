@@ -2,12 +2,12 @@
 layout: blog
 body-class: blog-post
 topic: strategy
-title: "Introducing ThinkShout's Wonderlab"
+title: "Introducing ThinkShout's WonderLab"
 homepage: true
 author: lev
 published: true
 featured: true
-short: "Introducing the Wonderlab, emerging digital strategies built on curiosity, driven by optimism, and focused on impact."
+short: "Introducing the WonderLab, emerging digital strategies built on curiosity, driven by optimism, and focused on impact."
 tags:
 
 date: 2019-10-22 10:00:00
@@ -22,10 +22,10 @@ It’s true, ThinkShout is technically part of a culture that has moved fast and
 
 To do that, our charge is to live our values of Optimism, Curiosity, Transparency, Impact, Compassion, and Inclusivity through every deliverable, project, and client. We spend our days engaged with problems that range from complex interactive data visualizations to routine podcast distributions. We’re here to serve the immediate needs and the future visions of some of the most powerful change agents in the country. Regardless of the output, if it ships from our shop, it aligns with our values. But in order to do that, we, too, have to dream beyond a single project or performance indicator.
 
-That’s why we’re proud to announce [The Wonder Lab](/wonderlab/): a space and a structure for our team to answer some of the thorniest issues facing our clients—and by extension, our world. A space where our team can apply curiosity, optimism, and impact to offer solutions that hinge on what’s possible, not just what’s probable. We’ll pursue emerging strategies, but not at all costs:
+That’s why we’re proud to announce [The WonderLab](/wonderlab/): a space and a structure for our team to answer some of the thorniest issues facing our clients—and by extension, our world. A space where our team can apply curiosity, optimism, and impact to offer solutions that hinge on what’s possible, not just what’s probable. We’ll pursue emerging strategies, but not at all costs:
 
 * We refuse to sacrifice a culture of belonging in the name of exponential progress.
 * We believe that impact and profitability are not synonymous: They are complimentary.
 * Likewise, we are not beholden to profitability in the name of impact.
 
-The Wonder Lab will routinely bring forward a new challenge, framed by one of eight core challenges faced by our clients and our industry. More importantly, we’ll present a brand-new solution—a rethinking of an everyday experience, a reimagining of a foundational stance—and threaded through each of our possibilities for the future, a deep questioning of how we might better balance the relationship between digital and decency.
+The WonderLab will routinely bring forward a new challenge, framed by one of eight core challenges faced by our clients and our industry. More importantly, we’ll present a brand-new solution—a rethinking of an everyday experience, a reimagining of a foundational stance—and threaded through each of our possibilities for the future, a deep questioning of how we might better balance the relationship between digital and decency.
