@@ -24,7 +24,8 @@ tags:
 - Consent-Based Calibration
 - Personalization for Non-profits
 - User-Centered Content Strategy
-- Ethical Data Policy, Optimization
+- Ethical Data Policy
+- Optimization
 # The date - not used for ordering blogs.
 date: 2019-01-22 10:00:00
 # The social share image/alt.
