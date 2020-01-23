@@ -10,7 +10,7 @@ featured: true
 short: "Introducing the WonderLab, emerging digital strategies built on curiosity, driven by optimism, and focused on impact."
 tags:
 
-date: 2019-10-22 10:00:00
+date: 2020-01-22 10:00:00
 image: https://thinkshout.com/assets/images/blog/Wonderlab_intro.jpg
 header-image: /assets/images/blog/Wonderlab_intro.jpg
 header-image-alt: "Wonderlab Intro."
@@ -30,4 +30,4 @@ That’s why we’re proud to announce [The WonderLab](/wonderlab/): a space and
 
 The WonderLab will routinely bring forward a new challenge, framed by one of eight core challenges faced by our clients and our industry. More importantly, we’ll present a brand-new solution—a rethinking of an everyday experience, a reimagining of a foundational stance—and threaded through each of our possibilities for the future, a deep questioning of how we might better balance the relationship between digital and decency.
 
-Check out [our first series on Consent Based Calibration](https://thinkshout.com/wonderlab/) and join the discussion. We can’t wait to hear what you think! 
+Check out [our first series on Consent Based Calibration](https://thinkshout.com/wonderlab/) and join the discussion. We can’t wait to hear what you think!

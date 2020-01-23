@@ -16,7 +16,7 @@ author: lev
 # Whether or not this post is published.
 published: true
 # The teaser text for the card and other listings.
-short: "Imagine a world where you get online and are greeted, not by a now ubiquitous banner asking you to consent to allowing your cookies to be tracked, but by a clear and visually dynamic set of options, each one offering a different website browsing experience."
+short: "Consent-based calibration shifts control of the data that defines who we are online back to users."
 # The meta description for the page, used for sharing.
 description: "Consent-based calibration shifts control of the data that defines who we are online back to users."
 # Tags used for SEO keywords.

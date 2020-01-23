@@ -14,7 +14,7 @@ layout: default
     {% assign author = site.team | where: "name", page.author | first %}
     <div class="wl-blog__author"><span>by </span><a href="{{ site.baseurl }}{{ author.url }}">{{ author.first_name }} {{ author.last_name }}</a></div>
     <div class="wl-blog__medium-link">
-      <a href="{{ blog.medium-link }}">Engage on Medium</a>
+      <a href="{{ page.medium-link }}">Engage on Medium</a>
     </div>
     <div class="wl-blog__share-link"><a href="https://twitter.com/intent/tweet?text={{ page.description }}&url=https://thinkshout.com{{ site.baseurl }}{{ page.url }}" target="_blank">Share</a></div>
   </div>
