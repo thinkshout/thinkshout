@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Gabe
 last_name: Carleton-Barnes
-position: Director of Technology
+position: Managing Director of Technology
 leadin: |
   In addition to being a semi-professional actor, a borderline-professional Magic: The Gathering player, and a far-from-professional travel blogger, Gabe spent 10 years as an actual professional at nonprofits before joining ThinkShout.
 social:
