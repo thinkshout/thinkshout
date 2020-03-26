@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Kate
 last_name: Lesniak
-position: Senior Strategy Director
+position: Chief Strategy Officer
 leadin: |
   Digital strategy isn’t just about what we do on our phones. It offers us all a million chances to be more than what we already are—it changes us IRL. I love being someone who shapes those opportunities and opens those doors.
 social:
