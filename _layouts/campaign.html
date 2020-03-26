@@ -1,0 +1,67 @@
+---
+layout: default
+---
+<div class="blog-header">
+  <h1 class="post-title">{{ page.title }}</h1>
+</div>
+
+{% if page.header-image %}
+<div class="blog-header-image">
+  <img src="{{ site.baseurl }}{{ page.header-image }}" alt="{{ page.header-image-alt }}">
+</div>
+{% endif %}
+
+{% if page.intro %}
+<section class="intro">
+  {{ page.intro | markdownify }}
+</section>
+{% endif %}
+
+<section class="body">
+  {{ content | markdownify }}
+
+  {% for cta in site.data.blog-cta %}
+    {% if page.cta-id %}
+      {% if cta.id == page.cta-id %}
+      <div class="blog-cta">
+        <div class="text">
+          <h3>{{ cta.title }}</h3>
+          <p>{{ cta.description | markdownify }}</p>
+          <a href="{{ site.baseurl }}{{ cta.link }}" class="uppercase-link">Learn More<i class="fa fa-caret-right"></i></a>
+        </div>
+
+        {% if cta.image %}
+        <div class="image">
+          <img src="{{ site.baseurl }}{{ cta.image }}" alt="{{ cta.title }}">
+        </div>
+        {% else %}
+        <div class="image">
+          <img src="{{ site.baseurl }}/assets/images/ts_redesign/cta/portland-waterfront-cta.jpg" alt="{{ cta.title }}">
+        </div>
+        {% endif %}
+      </div>
+      {% break %}
+      {% endif %}
+    {% else %}
+      <div class="blog-cta">
+        <div class="text">
+          <h3>{{ cta.title }}</h3>
+          <p>{{ cta.description | markdownify }}</p>
+          <a href="{{ site.baseurl }}{{ cta.link }}" class="uppercase-link">Learn More<i class="fa fa-caret-right"></i></a>
+        </div>
+
+        {% if cta.image %}
+        <div class="image">
+          <img src="{{ site.baseurl }}{{ cta.image }}" alt="{{ cta.title }}">
+        </div>
+        {% else %}
+        <div class="image">
+          <img src="{{ site.baseurl }}/assets/images/ts_redesign/cta/portland-waterfront-cta.jpg" alt="{{ cta.title }}">
+        </div>
+        {% endif %}
+      </div>
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+</section>
