@@ -140,10 +140,12 @@
 
     h3 {
       font-size: 2rem;
+      color: $white !important;
     }
 
     p {
       @include mq(d) { max-width: 75%; }
+      color: $white !important;
     }
 
     #more-about-us-bold {
@@ -159,10 +161,12 @@
     }
 
     li {
+      color: $white !important;
       line-height: $line-height;
 
       &:before {
         content: '•';
+        color: $white !important;
         padding-right: 0.5rem;
       }
     }

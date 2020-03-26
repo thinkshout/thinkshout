@@ -3909,10 +3909,13 @@ a:visited {
       .careers .more-about-us {
         padding: 8rem 0; } }
     .careers .more-about-us h3 {
-      font-size: 2rem; }
-    @media (min-width: 980px) {
-      .careers .more-about-us p {
-        max-width: 75%; } }
+      font-size: 2rem;
+      color: #fff !important; }
+    .careers .more-about-us p {
+      color: #fff !important; }
+      @media (min-width: 980px) {
+        .careers .more-about-us p {
+          max-width: 75%; } }
     .careers .more-about-us #more-about-us-bold {
       font-weight: bold;
       margin-bottom: 0;
@@ -3922,9 +3925,11 @@ a:visited {
       margin-top: 0;
       padding-left: 0; }
     .careers .more-about-us li {
+      color: #fff !important;
       line-height: 1.75; }
       .careers .more-about-us li:before {
         content: '•';
+        color: #fff !important;
         padding-right: 0.5rem; }
     .careers .more-about-us a {
       color: #fff;
