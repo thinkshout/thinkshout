@@ -3902,34 +3902,29 @@ a:visited {
     .careers .keep-me-in-mind a {
       color: #F06D2F; }
   .careers section.more-about-us {
-    background: url("../images/ts_redesign/more-about-us.jpg") center center no-repeat;
-    background-size: cover;
+    background: url("../images/ts_redesign/more-about-us.jpg") center center no-repeat/cover;
     color: #fff;
-    padding: 2rem 0 3rem;
-    margin-top: 3rem; }
+    margin-top: 3rem;
+    padding: 2rem 0 3rem; }
     @media (min-width: 980px) {
       .careers section.more-about-us {
         padding: 5rem 0 6rem;
         margin-top: 6rem; } }
     .careers section.more-about-us h3 {
+      color: #fff;
       font-size: 2rem;
-      color: #fff; }
+      font-weight: 700; }
     .careers section.more-about-us p,
     .careers section.more-about-us ul,
     .careers section.more-about-us h3 {
       color: #fff;
       padding: 0; }
-      @media (min-width: 671px) and (max-width: 979px) {
-        .careers section.more-about-us p,
-        .careers section.more-about-us ul,
-        .careers section.more-about-us h3 {
-          width: 90%;
-          padding: 0 2.5rem; } }
       @media (min-width: 980px) {
         .careers section.more-about-us p,
         .careers section.more-about-us ul,
         .careers section.more-about-us h3 {
-          padding: 0 6.25rem; } }
+          margin-left: 0;
+          max-width: 75%; } }
     .careers section.more-about-us #more-about-us-bold {
       font-weight: bold;
       margin-bottom: 0;
@@ -3937,12 +3932,18 @@ a:visited {
     .careers section.more-about-us ul {
       margin-bottom: 2rem;
       margin-top: 0; }
-    .careers section.more-about-us li {
+    .careers section.more-about-us ul li {
       color: #fff;
-      line-height: 1.75; }
-      .careers section.more-about-us li:before {
-        content: '•';
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.75;
+      margin-bottom: 0;
+      margin-left: 0;
+      padding: 0;
+      text-indent: 0; }
+      .careers section.more-about-us ul li:before {
         color: #fff;
+        content: '•';
         padding-right: 0.5rem; }
     .careers section.more-about-us a,
     .careers section.more-about-us a.uppercase-link {
@@ -3973,7 +3974,7 @@ a:visited {
     padding-top: 75px; }
 
 .edc-accessibility.blog-post .body .blog-cta {
-  background-color: #fff; }
+  display: none; }
 
 @media (max-width: 480px) {
   .bene .main-content {

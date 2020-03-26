@@ -131,11 +131,10 @@
   }
 
   section.more-about-us {
-    background: url('../images/ts_redesign/more-about-us.jpg') center center no-repeat;
-    background-size: cover;
+    background: url('../images/ts_redesign/more-about-us.jpg') center center no-repeat /cover;
     color: $white;
-    padding: 2rem 0 3rem;
     margin-top: 3rem;
+    padding: 2rem 0 3rem;
 
     @include mq(d) {
       padding: 5rem 0 6rem;
@@ -143,8 +142,9 @@
     }
 
     h3 {
-      font-size: 2rem;
       color: $white;
+      font-size: 2rem;
+      font-weight: 700;
     }
 
     p,
@@ -152,8 +152,10 @@
     h3 {
       color: $white;
       padding: 0;
-      @include mq(lt) { width: 90%; padding: 0 rem(40); }
-      @include mq(d) { padding: 0 6.25rem; }
+      @include mq(d) {
+        margin-left: 0;
+        max-width: 75%;
+      }
     }
 
     #more-about-us-bold {
@@ -167,13 +169,19 @@
       margin-top: 0;
     }
 
-    li {
+    ul li {
       color: $white;
+      font-size: rem(16);
+      font-weight: 400;
       line-height: $line-height;
+      margin-bottom: 0;
+      margin-left: 0;
+      padding: 0;
+      text-indent: 0;
 
       &:before {
-        content: '•';
         color: $white;
+        content: '•';
         padding-right: 0.5rem;
       }
     }
@@ -220,5 +228,5 @@
   }
 }
 .edc-accessibility.blog-post .body .blog-cta {
-  background-color: $white;
+  display: none;
 }
