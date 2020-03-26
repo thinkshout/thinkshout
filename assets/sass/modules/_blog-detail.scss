@@ -316,7 +316,8 @@
     line-height: 0;
     overflow: hidden;
     padding: 0;
-    margin-top: rem(48);
+    margin-bottom: rem(64);
+    margin-top: rem(64);
 
     .text {
       @include span-columns(7);

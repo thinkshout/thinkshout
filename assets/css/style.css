@@ -3295,7 +3295,8 @@ a:visited {
   line-height: 0;
   overflow: hidden;
   padding: 0;
-  margin-top: 3rem; }
+  margin-bottom: 4rem;
+  margin-top: 4rem; }
   .blog-post .body .blog-cta .text {
     float: left;
     display: block;
@@ -3803,7 +3804,7 @@ a:visited {
 .careers {
   color: #525255; }
   .careers .careers-header h2 {
-    font-size: 2.8125rem !important; }
+    font-size: 2.8125rem; }
   .careers #careers-blurb {
     font-size: 1.25rem;
     font-style: italic;
@@ -3900,38 +3901,51 @@ a:visited {
       margin-top: 2rem; }
     .careers .keep-me-in-mind a {
       color: #F06D2F; }
-  .careers .more-about-us {
+  .careers section.more-about-us {
     background: url("../images/ts_redesign/more-about-us.jpg") center center no-repeat;
     background-size: cover;
     color: #fff;
-    padding: 4rem 0; }
+    padding: 2rem 0 3rem;
+    margin-top: 3rem; }
     @media (min-width: 980px) {
-      .careers .more-about-us {
-        padding: 8rem 0; } }
-    .careers .more-about-us h3 {
+      .careers section.more-about-us {
+        padding: 5rem 0 6rem;
+        margin-top: 6rem; } }
+    .careers section.more-about-us h3 {
       font-size: 2rem;
-      color: #fff !important; }
-    .careers .more-about-us p {
-      color: #fff !important; }
+      color: #fff; }
+    .careers section.more-about-us p,
+    .careers section.more-about-us ul,
+    .careers section.more-about-us h3 {
+      color: #fff;
+      padding: 0; }
+      @media (min-width: 671px) and (max-width: 979px) {
+        .careers section.more-about-us p,
+        .careers section.more-about-us ul,
+        .careers section.more-about-us h3 {
+          width: 90%;
+          padding: 0 2.5rem; } }
       @media (min-width: 980px) {
-        .careers .more-about-us p {
-          max-width: 75%; } }
-    .careers .more-about-us #more-about-us-bold {
+        .careers section.more-about-us p,
+        .careers section.more-about-us ul,
+        .careers section.more-about-us h3 {
+          padding: 0 6.25rem; } }
+    .careers section.more-about-us #more-about-us-bold {
       font-weight: bold;
       margin-bottom: 0;
       margin-top: 2rem; }
-    .careers .more-about-us ul {
+    .careers section.more-about-us ul {
       margin-bottom: 2rem;
-      margin-top: 0;
-      padding-left: 0; }
-    .careers .more-about-us li {
-      color: #fff !important;
+      margin-top: 0; }
+    .careers section.more-about-us li {
+      color: #fff;
       line-height: 1.75; }
-      .careers .more-about-us li:before {
+      .careers section.more-about-us li:before {
         content: '•';
-        color: #fff !important;
+        color: #fff;
         padding-right: 0.5rem; }
-    .careers .more-about-us a {
+    .careers section.more-about-us a,
+    .careers section.more-about-us a.uppercase-link {
       color: #fff;
       text-transform: uppercase;
       font-weight: bold; }
@@ -3957,6 +3971,9 @@ a:visited {
     text-align: left;
     padding-bottom: 20px;
     padding-top: 75px; }
+
+.edc-accessibility.blog-post .body .blog-cta {
+  background-color: #fff; }
 
 @media (max-width: 480px) {
   .bene .main-content {

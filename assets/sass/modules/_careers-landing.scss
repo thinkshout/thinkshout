@@ -2,7 +2,7 @@
   color: $darkgray;
 
   .careers-header h2 {
-    font-size: rem(45) !important;
+    font-size: rem(45);
   }
 
   #careers-blurb {
@@ -130,22 +130,30 @@
     }
   }
 
-  .more-about-us {
+  section.more-about-us {
     background: url('../images/ts_redesign/more-about-us.jpg') center center no-repeat;
     background-size: cover;
     color: $white;
-    padding: 4rem 0;
+    padding: 2rem 0 3rem;
+    margin-top: 3rem;
 
-    @include mq(d) { padding: 8rem 0; }
+    @include mq(d) {
+      padding: 5rem 0 6rem;
+      margin-top: 6rem;
+    }
 
     h3 {
       font-size: 2rem;
-      color: $white !important;
+      color: $white;
     }
 
-    p {
-      @include mq(d) { max-width: 75%; }
-      color: $white !important;
+    p,
+    ul,
+    h3 {
+      color: $white;
+      padding: 0;
+      @include mq(lt) { width: 90%; padding: 0 rem(40); }
+      @include mq(d) { padding: 0 6.25rem; }
     }
 
     #more-about-us-bold {
@@ -157,21 +165,21 @@
     ul {
       margin-bottom: 2rem;
       margin-top: 0;
-      padding-left: 0;
     }
 
     li {
-      color: $white !important;
+      color: $white;
       line-height: $line-height;
 
       &:before {
         content: '•';
-        color: $white !important;
+        color: $white;
         padding-right: 0.5rem;
       }
     }
 
-    a {
+    a,
+    a.uppercase-link {
       color: $white;
       text-transform: uppercase;
       font-weight: bold;
@@ -204,10 +212,13 @@
 
     .eventbrite {
       background-color: #F8F8FA;
-      width:100%;
-      text-align:left;
+      width: 100%;
+      text-align: left;
       padding-bottom: 20px;
       padding-top: 75px;
     }
   }
+}
+.edc-accessibility.blog-post .body .blog-cta {
+  background-color: $white;
 }
