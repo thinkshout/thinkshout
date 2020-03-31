@@ -14,7 +14,7 @@ tags:
   - Accessibility
   - Digital engagement
   - Crisis response
-date: 2020-03-21 13:00:00
+date: 2020-03-31 13:00:00
 image: https://thinkshout.com/assets/images/blog/four-ways-stabilize-digital-platform.jpg
 header-image: /assets/images/blog/four-ways-stabilize-digital-platform.jpg
 header-image-alt: "digital connections"
