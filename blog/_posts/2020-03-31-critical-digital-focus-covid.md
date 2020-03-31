@@ -53,4 +53,4 @@ ThinkShout is investing deeply across four critical areas that all of our partne
 * **Full-Stack Content Strategy:** When it comes to a platform that’s optimized for search and social, the little things are the big things. If you haven’t already, now is the time to audit and update your platform’s URL structures, metadata, keywords, and page titles for social and search.
 
 
-Social distancing does not imply a lack of social connection. To the contrary, it makes the latter more essential than ever. People crave connection. A sense of belonging — and purpose. You can provide that to all of us as we sit, isolated, searching for meaning in the chaos and, most of all, a way to help. Let us know if we can help /you/ make those connections that our society so urgently needs.
+Social distancing does not imply a lack of social connection. To the contrary, it makes the latter more essential than ever. People crave connection. A sense of belonging — and purpose. You can provide that to all of us as we sit, isolated, searching for meaning in the chaos and, most of all, a way to help. Let us know if we can help _you_ make those connections that our society so urgently needs.
