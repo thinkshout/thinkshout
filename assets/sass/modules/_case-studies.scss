@@ -52,6 +52,7 @@
     z-index: 1;
 
     @include mq(t) { padding: 12rem 0; }
+    @include mq(md) { padding: 15rem 0; }
     @include mq(l) { padding: 18rem 0; }
   }
 
