@@ -122,7 +122,7 @@ That might seem like a lot of testing, but we’ve discovered broken forms, dona
 5. Manual and Automated tests should be used to measure the accessibility of your site.
 6. Bring testing into your process and build in redundancies to make sure your site is accessible.
 
-[What’s next? Check out our post on Color Contrast >]()
+[What’s next? Check out our post on Color Contrast >](/blog/2020/04/accessibility-color-contrast/)
 
 ### Resources
 - [Accessibility Impacts all of Us](https://www.cdc.gov/ncbddd/disabilityandhealth/infographic-disability-impacts-all.html)  
