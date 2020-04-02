@@ -3034,6 +3034,12 @@ a:visited {
   .blog-post .intro .tags img,
   .blog-post .intro table img {
     max-width: 100%; }
+.blog-post .body ol.floated, .blog-post .body ul.floated,
+.blog-post .intro ol.floated,
+.blog-post .intro ul.floated {
+  width: auto;
+  overflow: hidden;
+  padding-left: 0px; }
 .blog-post .body ul li,
 .blog-post .intro ul li {
   letter-spacing: 0;
@@ -3060,6 +3066,9 @@ a:visited {
 .blog-post .intro ol ul {
   padding-left: 0;
   margin-bottom: 0; }
+.blog-post .body ul ul li:before,
+.blog-post .intro ul ul li:before {
+  content: "○"; }
 .blog-post .body ul ul li:last-of-type,
 .blog-post .intro ul ul li:last-of-type {
   padding-bottom: 0; }

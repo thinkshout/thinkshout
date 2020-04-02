@@ -29,7 +29,7 @@ tags:
 date: 2020-04-02 11:00:00
 image: https://thinkshout.com/assets/images/marquee/ntc2020_post2_hero.jpg
 header-image: /assets/images/marquee/ntc2020_post2_hero.jpg
-header-image-alt: ""
+header-image-alt: "Diagonal closeup of blue and red colored pencils on contrasting backgrounds"
 ---
 Making accessible design decisions starts by establishing an accessible color palette. Defining a color palette can be really exciting as it sets the tone of the experience, yet it’s a fragile part of the process. People attach a lot of emotion to color. If you combine that with branding considerations, this part of the process must be handled with care and can often take time to get right.
 

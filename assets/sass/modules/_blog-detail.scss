@@ -94,6 +94,12 @@
       }
     }
 
+    ol.floated, ul.floated {
+      width: auto;
+      overflow: hidden;
+      padding-left: 0px;
+    }
+
     ul li {
       letter-spacing: 0;
       line-height: 1.5;
@@ -119,6 +125,9 @@
       margin-bottom: 0;
     }
 
+    ul ul li:before {
+      content: "○";
+    }
     ul ul li:last-of-type {
       padding-bottom: 0;
     }
