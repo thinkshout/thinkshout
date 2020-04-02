@@ -6,7 +6,7 @@ title: "Accessibility for Teams in a Hurry: Laying a Foundation"
 homepage: false
 author: jules
 published: true
-permalink: /2020/04/accessibility-foundations/
+permalink: /blog/2020/04/accessibility-foundations/
 featured: true
 short: "Accessibility is a complex topic and can feel overwhelming when you’re getting started."
 tags:
