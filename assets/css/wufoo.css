@@ -18,7 +18,13 @@ html.embed {
     font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
     font-size: 16px !important;
     border: none;
-    padding: 6px 12px; }
+    padding: 6px 12px;
+    width: 216px; }
+  html.embed .wufoo input.text.fn,
+  html.embed .wufoo input.text.ln {
+    width: 100px; }
+  html.embed .wufoo input.text.medium {
+    width: 228px; }
   html.embed .wufoo input.submit {
     font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
     -webkit-appearance: button;
