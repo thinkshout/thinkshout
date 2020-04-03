@@ -2,6 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: technology
+campaign-topic: accessibility
 title: "Accessibility for Teams in a Hurry: Laying a Foundation"
 homepage: false
 author: jules

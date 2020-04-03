@@ -3,6 +3,7 @@ layout: default
 ---
 <div class="blog-header">
   <h1 class="post-title">{{ page.title }}</h1>
+  <h2 class="post-subtitle">{{ page.subtitle }}</h2>
 </div>
 
 {% if page.header-image %}
@@ -19,49 +20,25 @@ layout: default
 
 <section class="body">
   {{ content | markdownify }}
-
-  {% for cta in site.data.blog-cta %}
-    {% if page.cta-id %}
-      {% if cta.id == page.cta-id %}
-      <div class="blog-cta">
-        <div class="text">
-          <h3>{{ cta.title }}</h3>
-          <p>{{ cta.description | markdownify }}</p>
-          <a href="{{ site.baseurl }}{{ cta.link }}" class="uppercase-link">Learn More<i class="fa fa-caret-right"></i></a>
-        </div>
-
-        {% if cta.image %}
-        <div class="image">
-          <img src="{{ site.baseurl }}{{ cta.image }}" alt="{{ cta.title }}">
-        </div>
-        {% else %}
-        <div class="image">
-          <img src="{{ site.baseurl }}/assets/images/ts_redesign/cta/portland-waterfront-cta.jpg" alt="{{ cta.title }}">
-        </div>
-        {% endif %}
-      </div>
-      {% break %}
-      {% endif %}
-    {% else %}
-      <div class="blog-cta">
-        <div class="text">
-          <h3>{{ cta.title }}</h3>
-          <p>{{ cta.description | markdownify }}</p>
-          <a href="{{ site.baseurl }}{{ cta.link }}" class="uppercase-link">Learn More<i class="fa fa-caret-right"></i></a>
-        </div>
-
-        {% if cta.image %}
-        <div class="image">
-          <img src="{{ site.baseurl }}{{ cta.image }}" alt="{{ cta.title }}">
-        </div>
-        {% else %}
-        <div class="image">
-          <img src="{{ site.baseurl }}/assets/images/ts_redesign/cta/portland-waterfront-cta.jpg" alt="{{ cta.title }}">
-        </div>
-        {% endif %}
-      </div>
-      {% break %}
-    {% endif %}
-  {% endfor %}
-
 </section>
+
+{% assign topics = site.posts | map: 'campaign-topic' %}
+{% if topics contains page.campaign-topic %}
+  <div class="team-member-blog">
+    <div class="container">
+      <h4>Related Blog Posts</h4>
+      <div class="row posts">
+        {% assign tsloop = 1 %}
+        {% for post in site.posts %}
+        {% if post.layout == 'blog' and post.campaign-topic == page.campaign-topic and post.title != page.title %}
+          {% include blogs_related.html %}
+          {% assign tsloop = tsloop | plus: 1 %}
+          {% if tsloop > 3 %}
+            {% break %}
+          {% endif %}
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endif %}

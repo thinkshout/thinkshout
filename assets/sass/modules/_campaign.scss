@@ -1,0 +1,40 @@
+.campaign {
+  .careers-header {
+    padding: 0;
+    height: 49.9vw;
+  }
+  .main-content .intro {
+    font-size: rem(18);
+    font-style: italic;
+    text-align: center;
+
+    @include mq(d) {
+      font-size: rem(24);
+      max-width: 75%;
+      margin: rem(75) auto;
+    }
+  }
+  .main-content .intro ul {
+    padding: rem(16);
+  }
+  .main-content .intro ul li {
+    line-height: 1.6;
+  }
+
+  .eventbrite {
+    background-color: #F8F8FA;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 75px;
+  }
+
+  h2.post-subtitle {
+    max-width: 95%;
+    margin: 0 auto 20px;
+    font-size: rem(18);
+    @include mq(lt) { font-size: rem(20); margin-bottom: 30px; max-width: 90%; }
+    @include mq(md) { font-size: rem(22); margin-bottom: 40px; max-width: 80%; }
+    @include mq(l)  { font-size: rem(28); margin-bottom: 50px; max-width: 70%; }
+  }
+}

@@ -2,13 +2,14 @@
 layout: blog
 body-class: blog-post
 topic: technology
+campaign-topic: accessibility
 title: "Accessibility for Teams in a Hurry: Steps for Getting Started"
 homepage: false
 author: jules
 published: true
 permalink: /blog/2020/04/getting-started-accessibility/
 featured: true
-short: ""
+short: "Set goals that are both ambitious and reasonable."
 tags:
   - strategy
   - accessibility
