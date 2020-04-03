@@ -29,9 +29,15 @@ html.embed {
   .wufoo input.text.fn,
   .wufoo input.text.ln {
     width: 100px;
+    @include mq(lt) { width: 150px; }
+    @include mq(md) { width: 200px; }
+    @include mq(l)  { width: 300px; }
   }
   .wufoo input.text.medium {
     width: 228px;
+    @include mq(lt) { width: 278px; }
+    @include mq(md) { width: 428px; }
+    @include mq(l)  { width: 628px; }
   }
   .wufoo input.submit {
     font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
