@@ -29,15 +29,15 @@ html.embed {
   .wufoo input.text.fn,
   .wufoo input.text.ln {
     width: 100px;
-    @include mq(lt) { width: 150px; }
-    @include mq(md) { width: 200px; }
-    @include mq(l)  { width: 300px; }
+    @media (min-width: 671px) and (max-width: 979px) { width: 150px; }
+    @media (min-width: 980px) and (max-width: 1199px) { width: 200px; }
+    @media (min-width: 1200px) { width: 300px; }
   }
   .wufoo input.text.medium {
     width: 228px;
-    @include mq(lt) { width: 278px; }
-    @include mq(md) { width: 428px; }
-    @include mq(l)  { width: 628px; }
+    @media (min-width: 671px) and (max-width: 979px) { width: 278px; }
+    @media (min-width: 980px) and (max-width: 1199px) { width: 428px; }
+    @media (min-width: 1200px) { width: 628px; }
   }
   .wufoo input.submit {
     font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
