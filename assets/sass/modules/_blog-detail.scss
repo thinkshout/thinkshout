@@ -75,7 +75,8 @@
     .blog-cta,
     .comments,
     .gist,
-    .tags {
+    .tags,
+    table {
       color: $darkgray;
       display: block;
       margin: 1em auto;
@@ -91,6 +92,12 @@
       img {
         max-width: 100%;
       }
+    }
+
+    ol.floated, ul.floated {
+      width: auto;
+      overflow: hidden;
+      padding-left: 0px;
     }
 
     ul li {
@@ -118,6 +125,9 @@
       margin-bottom: 0;
     }
 
+    ul ul li:before {
+      content: "○";
+    }
     ul ul li:last-of-type {
       padding-bottom: 0;
     }
@@ -269,6 +279,77 @@
       @include mq(lt) { height: calc(56vw - 60px); }
       @include mq(md) { height: calc(56vw - 120px); max-height: 491px; }
       @include mq(l)  { height: calc(56vw - 200px); max-height: 448px; }
+    }
+
+    table {
+      background-color: $white;
+      border-collapse: separate;
+      border-spacing: 2px;
+      border: none;
+      table-layout: auto;
+      text-align: left;
+      white-space: normal;
+      padding: 0;
+      width: calc(94% - 24px);
+      max-width: 796px;
+      @include mq(lt) { width: calc(90% - 60px); border-spacing: 3px; }
+      @include mq(md) { width: calc(90% - 120px); border-spacing: 4px; }
+      @include mq(l)  { width: calc(90% - 200px); border-spacing: 4px; }
+    }
+    th {
+      background-color: $white;
+      border: 1px solid $bgblack;
+      color: $black;
+      font-size: rem(13);
+      line-height: 1.2;
+      padding: 6px 12px;
+      width: inherit;
+      @include mq(lt) {
+        font-size: rem(14);
+        padding: 12px 18px;
+      }
+      @include mq(d) {
+        font-size: rem(15);
+        padding: 15px 24px;
+      }
+    }
+    td {
+      background-color: $white;
+      border: 1px solid $bgblack;
+      color: $black;
+      font-size: rem(13);
+      line-height: 1.2;
+      padding: 6px 12px;
+      width: inherit;
+      @include mq(lt) {
+        font-size: rem(14);
+        padding: 12px 18px;
+      }
+      @include mq(d) {
+        font-size: rem(15);
+        padding: 15px 24px;
+      }
+    }
+    td * {
+      color: $black;
+      font-size: rem(13);
+      line-height: 1.2;
+      @include mq(lt) {
+        font-size: rem(14);
+      }
+      @include mq(d) {
+        font-size: rem(15);
+      }
+    }
+    tr:nth-child(even) td {
+      background-color: $ltgray;
+    }
+    td ol,
+    td ol li,
+    td ul,
+    td ul li {
+      line-height: 1.2;
+      padding-left: 5px;
     }
 
 
