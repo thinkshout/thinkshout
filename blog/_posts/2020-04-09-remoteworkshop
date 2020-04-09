@@ -1,0 +1,25 @@
+---
+layout: blog
+body-class: blog-post
+topic: culture
+campaign-topic: workshops
+title: "Lessons From a Remote Workshop"
+homepage: false
+author: vicki
+published: true
+featured: true
+short: "As people’s lives have come to an abrupt halt, we are still trying to keep as much moving as we possibly can. For many of us, this includes having lots and lots of virtual meetings."
+tags:
+  - strategy
+  - accessibility
+  - "remote work"
+  - workshops
+  - virtual
+  - "virtual meetings"
+  - communications
+  - marketing
+  - "digital marketing"
+date: 2020-04-13 11:00:00
+image: https://thinkshout.com/assets/images/blog/remote-workshop.jpg
+header-image: /assets/images/blog/remote-workshop.jpg
+header-image-alt: "Screenshot of folks having a virtual meeting"
