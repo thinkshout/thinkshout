@@ -47,4 +47,16 @@ When we participate or present during an in-person workshop, we’re able to lea
 ## 4. Keep moving: Support each other.
 What was so apparent about our workshop was that despite everything, we all wanted to be there. **This work matters and doing it together feels good.** It gives us a purpose and focus, and best of all, it means that eventually it will turn into something we can be proud of in the future, when things are a bit brighter. Until then, we can leverage these virtual tools to stay present, engage with one another, and celebrate our collective work.
 
-### Here are some tools we’re using or looking at for virtual workshops.                                                                                                                                                                                                                       
+### Here are some tools we’re using or looking at for virtual workshops. 
+
+In this workshop we used:
+- [Zoom](https://zoom.us/)
+- [Google Suite](https://gsuite.google.com/)
+- [Menti](https://www.mentimeter.com/)
+- [Excalidraw](https://excalidraw.com/) (A new open source drawing tool.)
+
+Other tools we’ve used or are considering are:
+- [Google Hangouts](https://hangouts.google.com/)
+- [Invision Freehand](https://www.invisionapp.com/feature/freehand)
+- [Mural](https://mural.co/)
+---
