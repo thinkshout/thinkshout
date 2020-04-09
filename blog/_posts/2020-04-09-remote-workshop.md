@@ -3,7 +3,7 @@ layout: blog
 body-class: blog-post
 topic: culture
 campaign-topic: workshops
-title: "Lessons From a Remote Workshop"
+title: "Lessons From a Remote Workshop During A Pandemic"
 homepage: false
 author: vicki
 published: true
