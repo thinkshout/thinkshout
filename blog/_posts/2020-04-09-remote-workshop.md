@@ -29,7 +29,7 @@ Recently, a few members of our team were supposed to be doing just that in Alaba
 
 Instead, like everyone, everywhere right now, we pivoted everything to digital. We feel so lucky that we **can** pivot, that we live in a time and do the kind of work that can still be done remotely. But with that comes necessary foresight, planning and anticipation of what an already ambitious day will look like when it’s entirely on a screen.
 
-Here are 4 lessons fresh off our 7 hour remote workshop.
+**Here are 4 lessons fresh off our 7 hour remote workshop.**
 
 ## 1. Be Flexible: Take advantage of fewer time constraints.
 Another benefit of working virtually is an increased ability to **embrace flexibility**. As much as you try to make participants feel engaged with fun backgrounds, jokes or memes— don’t get us wrong, we love Grumpy Cat as much as the next person— virtual meetings are just more taxing when they go longer than 2 hours. We speak from experience. In this recent workshop we kept our originally planned time slots the same, but in retrospect, we wished we had spaced the workshop out over a couple of sessions. To combat the multiple hour virtual meeting blues, **break up your sessions** over several days if you can. Added benefit? You’ll be able to connect with folks over multiple days, reinforcing the relationship as well as making space for thoughtful reflection on previous activities.
@@ -60,4 +60,4 @@ Other tools we’ve used or are considering are:
 - [Invision Freehand](https://www.invisionapp.com/feature/freehand)
 - [Mural](https://mural.co/)
 
-
+---
