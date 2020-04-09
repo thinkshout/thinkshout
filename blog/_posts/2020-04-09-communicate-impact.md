@@ -10,8 +10,8 @@ published: true
 featured: true
 short: "There’s nothing quite like an annual gala or event to bring your community together and communicate the year’s impact to funders."
 tags:
-  - strategy
   - communications
+  - strategy
   - marketing
   - "digital marketing"
 date: 2020-04-09 11:00:00
