@@ -12,8 +12,8 @@ short: "As people’s lives have come to an abrupt halt, we are still trying to 
 tags:
   - strategy
   - accessibility
-  - "remote work"
   - workshops
+  - "remote work"
   - virtual
   - communications
   - marketing
