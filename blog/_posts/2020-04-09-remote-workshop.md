@@ -6,7 +6,7 @@ campaign-topic: workshops
 title: "Lessons From a Remote Workshop"
 homepage: false
 author: vicki
-published: false
+published: true
 featured: true
 short: "As people’s lives have come to an abrupt halt, we are still trying to keep as much moving as we possibly can. For many of us, this includes having lots and lots of virtual meetings."
 tags:
