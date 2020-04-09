@@ -37,7 +37,7 @@ Here’s our list:
 1. Feel seen and communicate commitment.  
 Hosting a Google Hangout or Zoom event (with a custom background for attendees to choose from!), combined with interactive tools like Menti that allow for real-time idea-sharing, can really bring out the community feeling of a digital event. Asking folks to participate by sharing their thoughts and feelings is fun and as importantly, the results can be easily customized to communicate the look and feel of your organization’s mission.
 
-2.Connect over a predictable, pleasurable experience.  
+2. Connect over a predictable, pleasurable experience.  
 Phased online events where food and drink packages are promoted, delivered, and then enjoyed simultaneously—you could even text folks with the appetizer and cocktail menu and let staff respond in real time using platforms like [Hustle](https://www.hustle.com/) or [SimpleTexting](https://simpletexting.com/). Coupled with online games that are collaborative and generative of both creativity using platforms like [Kahoot](https://kahoot.com/) or [FlipGrid](https://info.flipgrid.com/), and positive energy, for the cause, these experiences are simple and impactful.
 
 3. Revel in the collective power of giving.  
