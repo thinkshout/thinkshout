@@ -6,46 +6,34 @@
 
 - sector: Culture
   clients:
-    - name: American Public Media
+    - name: Downtown Portland Clean and Safe District
+    - name: Institute of Contemporary Art Boston
     - name: LA Theatre Works
-    - name: Los Angeles Conservancy
-    - name: New Day Films
-    - name: Oregon Metro
-    - name: Portland Opera
     - name: Travel Oregon
     - name: Travel Portland
 
 - sector: Education
   clients:
-    - name: Center for Strategic and International Studies
-    - name: Cornell University
     - name: Facing History and Ourselves
-    - name: GrantStation
     - name: Learning to Give
     - name: Lemelson MIT Center for Innovation
-    - name: Pacific Council on International Policy
+    - name: Match Education
     - name: RedesignU
     - name: Stanford University
-    - name: University of California
+    - name: Teaching Tolerance
     - name: University of Chicago
 
 - sector: Environment
   clients:
     - name: 1000 Friends of Oregon
-    - name: Baltimore Harborkeeper
     - name: Columbia Riverkeeper
     - name: Ecotrust
     - name: Energy Trust of Oregon
     - name: Environmental Defense Fund
-    - name: The Intertwine Alliance
-    - name: Mohonk Preserve
-    - name: North Saskatchewan Riverkeeper
+    - name: Kaiser + Path
     - name: Ocean Outcomes
-    - name: The Salmon Project
-    - name: Save Our Gulf
-    - name: Scenic Hudson
-    - name: Tree People
     - name: Trust for Conservation Innovation
+    - name: Vote Solar
     - name: Wild Salmon Center
     - name: Willamette River Initiative
 
@@ -53,13 +41,15 @@
   clients:
     - name: American Tinnitus Association
     - name: Cascade Bicycle Club
+    - name: Center for Reproductive Rights
     - name: ChangeLab Solutions
     - name: Families USA
     - name: Lehigh Valley Health Network
     - name: NASTAD
     - name: National Council on Family Relations
     - name: National Kidney Foundation
-    - name: Portland Design Works
+    - name: Rewire.news
+    - name: Quest Center for Intergrative Health
     - name: Shatterproof
     - name: Young Survival Coalition
 
@@ -67,9 +57,14 @@
   clients:
     - name: Capital Area Food Bank of DC
     - name: Capital Area Food Bank of Texas
+    - name: Equal Exchange
+    - name: Feeding America
     - name: Feeding Texas
     - name: Mercy Corps
+    - name: National Center for Youth Law
     - name: Relief International
+    - name: Share our Strength
+    - name: Transition Projects
     - name: Women for Women International
 
 - sector: Philanthropy
@@ -82,24 +77,26 @@
     - name: Nike Foundation
     - name: Philanthropy Northwest
     - name: Robert Wood Johnson Foundation
-    - name: Schusterman Foundation
     - name: The Tides Center
+
+- sector: Research
+  clients:
+    - name: Center for Strategic and International Studies
+    - name: Freedom House
+    - name: Pacific Council on International Policy
+    - name: The World Resources Institute
 
 - sector: Social Justice and Human Rights
   clients:
     - name: Campaign Legal Center
     - name: Demos
     - name: Mobility International USA
-    - name: National Center for Youth Law
+    - name: National Organization for Working Americans
     - name: Open Technology Fund
-    - name: Public Health Law Research
+    - name: Partners in Diversity
     - name: Rebuilding Together
     - name: Southern Poverty Law Center
-
-- sector: Technology
-  clients:
-    - name: iATS Payments
-    - name: MailChimp
+    - name: Urban League of Portland
 
 # Clients without sectors:
 # - name: National Parks Service
