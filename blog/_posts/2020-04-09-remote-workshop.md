@@ -19,8 +19,8 @@ tags:
   - marketing
   - "digital marketing"
 date: 2020-04-09 11:00:00
-image: https://thinkshout.com/assets/images/blog/remote-workshop.jpg
-header-image: /assets/images/blog/remote-workshop.jpg
+image: https://thinkshout.com/assets/images/blog/remote_workshop-hero.jpg
+header-image: /assets/images/blog/remote_workshop-hero.jpg
 header-image-alt: "Screenshot of folks having a virtual meeting"
 ---
 As people’s lives have come to an abrupt halt, we are still trying to keep as much moving as we possibly can. For our jobs, for our sanity, for some semblance of normalcy. For many of us, this includes having lots and lots of virtual meetings. At ThinkShout, we regularly host our check-ins, internal meetings, client meetings, and presentations virtually anyway—our clients are all over the world. Over the years, there’s been just one outlier in digital processes stepping in for in-person connections: Discovery workshops. Discovery workshops aren’t just about understanding goals, challenges, and definitions of success. They’re also about team dynamics and relationship building, and anyone who has managed at least one major project knows that a clear understanding of an organization’s goals are as important as clear understanding of its team dynamics.
