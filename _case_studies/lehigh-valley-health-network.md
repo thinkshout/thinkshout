@@ -3,7 +3,7 @@
 layout: case_study
 body-class: case-study lvhn
 active: true
-homepage: false
+homepage: true
 published: true
 order: 6
 image: /assets/images/case-studies/LVHN-Hero.jpg
