@@ -8,10 +8,10 @@ leadin: |
 social:
   twitter: www.twitter.com/itrebecca
 team-image:
-  small: team/small/rebecca.jpg
-  medium: team/medium/rebecca.jpg
-  large: team/large/rebecca.jpg
-published: true
+  small: team/small/rebecca-negron.jpg
+  medium: team/medium/rebecca-negron.jpg
+  large: team/large/rebecca-negron.jpg
+published: false
 current-employee: true
 name: rebecca
 bio: |
