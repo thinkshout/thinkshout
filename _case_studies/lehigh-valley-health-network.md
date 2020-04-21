@@ -2,9 +2,9 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study lvhn
-active: false
+active: true
 homepage: false
-published: false
+published: true
 order: 6
 image: /assets/images/case-studies/LVHN-Hero.jpg
 image-alt: "@todo"
