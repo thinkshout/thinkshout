@@ -73,7 +73,7 @@ cs-sections:
 
   # @todo Missing image from design
   - section-image: "/assets/images/case-studies/search.jpg"
-    section-image-alt: "LVHN doctor search viewed on phone and location search viewed on laptop"
+    section-image-alt: "LVHN search for a doctor on phone and search for a location on laptop"
 
   - section-image: "/assets/images/case-studies/services-3up.jpg"
     section-image-alt: "LVHN services pages viewed on three phones."
