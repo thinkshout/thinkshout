@@ -6,7 +6,7 @@ active: true
 homepage: true
 published: true
 order: 6
-image: /assets/images/case-studies/LVHN-Hero.jpg
+image: /assets/images/case-studies/LVHN-hero-1.jpg
 image-alt: "@todo"
 description: "The Lehigh Valley Health Network heals, comforts, and cares for the communities of Eastern Pennsylvania. To realize its vision of providing superior care within its region, LVHN has to relate to each patient on an individual level, providing personalized services within the context of a vast organization."
 # END LAYOUT DATA
@@ -17,13 +17,13 @@ featured_impact_text: "@todo"
 featured_client_name: "Lehigh Valley Health Network"
 
 cs-preview:
-  image: /assets/images/case-studies/LVHN-Hero.jpg
+  image: /assets/images/case-studies/LVHN-hero-1.jpg
   type: "Lehigh Valley Health Network"
   client: "Lehigh Valley Health Network"
   description: "Applying concepts grounded in simplicity to help consumers navigate healthcare’s complexities."
 
 cs-header:
-  header-image: /assets/images/case-studies/LVHN-Hero.jpg
+  header-image: /assets/images/case-studies/LVHN-hero-1.jpg
   client: "Lehigh Valley Health Network"
   title: "Applying concepts grounded in simplicity to help consumers navigate healthcare’s complexities."
 
