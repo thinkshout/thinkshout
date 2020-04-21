@@ -5,9 +5,10 @@ body-class: case-study lvhn
 active: true
 homepage: false
 published: true
+related: lvhn
 order: 6
 image: /assets/images/case-studies/LVHN-hero-1.jpg
-image-alt: "@todo"
+image-alt: "A happy child sitting in a doctor's office designed for children"
 description: "The Lehigh Valley Health Network heals, comforts, and cares for the communities of Eastern Pennsylvania. To realize its vision of providing superior care within its region, LVHN has to relate to each patient on an individual level, providing personalized services within the context of a vast organization."
 # END LAYOUT DATA
 
@@ -55,11 +56,11 @@ cs-sections:
   - section-image: "/assets/images/case-studies/home.jpg"
     section-image-alt: "LVHN homepage viewed on a desktop."
 
-  - section-image1: "/assets/images/case-studies/location_ipad.jpg"
+  - section-image1: "/assets/images/case-studies/LVHN-location-ipad-sm.jpg"
     section-image-alt1: "LVHN find a location viewed on a tablet."
 
     # @todo This needs to be the same height as the first image.
-    section-image2: "/assets/images/case-studies/location-detail.jpg"
+    section-image2: "/assets/images/case-studies/LVHN-location-detail-sm.jpg"
     section-image-alt2: "LVHN location detail viewed on a laptop."
 
   - section-description: |
