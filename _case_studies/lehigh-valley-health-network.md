@@ -3,7 +3,7 @@
 layout: case_study
 body-class: case-study lvhn
 active: true
-homepage: false
+homepage: true
 published: true
 related: lvhn
 order: 6
@@ -53,14 +53,14 @@ cs-sections:
         
       From this starting point, we drastically simplified the sites overarching information architecture and focused it on Doctors, Locations, and Services. 
 
-  - section-image: "/assets/images/case-studies/home.jpg"
+  - section-image: "/assets/images/case-studies/LVHN-1.jpg"
     section-image-alt: "LVHN homepage viewed on a desktop."
 
-  - section-image1: "/assets/images/case-studies/LVHN-location-ipad-sm.jpg"
+  - section-image1: "/assets/images/case-studies/LVHN-2.jpg"
     section-image-alt1: "LVHN find a location viewed on a tablet."
 
     # @todo This needs to be the same height as the first image.
-    section-image2: "/assets/images/case-studies/LVHN-location-detail-sm.jpg"
+    section-image2: "/assets/images/case-studies/LVHN-3.jpg"
     section-image-alt2: "LVHN location detail viewed on a laptop."
 
   - section-description: |
@@ -73,10 +73,10 @@ cs-sections:
       By focusing on the informational needs of the end user instead of organizational priorities and structures, we actually made it easier for LVHN to meet its mission.
 
   # @todo Missing image from design
-  - section-image: "/assets/images/case-studies/search.jpg"
-    section-image-alt: "LVHN search for a doctor on phone and search for a location on laptop"
+  - section-image: "/assets/images/case-studies/LVHN-4.jpg"
+    section-image-alt: "LVHN search for a doctor on laptop and search for a location on phone"
 
-  - section-image: "/assets/images/case-studies/services-3up.jpg"
+  - section-image: "/assets/images/case-studies/LVHN-5.jpg"
     section-image-alt: "LVHN services pages viewed on three phones."
 
   - section-description: |
@@ -88,8 +88,8 @@ cs-sections:
     
       Creating the perception of simplicity required careful planning, with our design and technical leads in constant communication. The underlying content structures and relationships, taxonomies, and integrations with third-party systems all work behind the scenes to create a user experience that reinforces the brand promise of LVHN: superior care within your own community.
 
-  - section-image: "/assets/images/case-studies/FAD.jpg"
-    section-image-alt: "LVHN find a doctor page viewed on a laptop."
+  - section-image: "/assets/images/case-studies/LVHN-6.jpg"
+    section-image-alt: "LVHN location viewed on a laptop and doctor search viewed on phone."
 
   - section-type: result
     section-data-number1: "25%"
