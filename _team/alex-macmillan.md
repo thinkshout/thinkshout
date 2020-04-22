@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Alex
 last_name: MacMillan
-position: Executive Advisor
+position: Chief Operating Officer
 leadin: |
   Alex’s passion for creative problem solving drew her to ThinkShout, where she leads our operational systems and professional services team, all while supporting our clients. She also really likes food, and since the ThinkShout team really likes food, she figured she’d be a great fit.
 social:
