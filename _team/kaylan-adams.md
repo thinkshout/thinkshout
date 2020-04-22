@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Kaylan
 last_name: Adams
-position: Chief Operating Officer
+position: Managing Director of Operations
 leadin: |
   Kaylan has always been really gratified by a well executed plan and a completed to-do list. Add some strategic communications, creative problem solving, and team leadership and project management is really a perfect fit - so much so that Kaylan earned her PMP (Project Management Professional) certification a few years back.
 social:
