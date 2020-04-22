@@ -95,7 +95,7 @@ cs-sections:
     section-data-number1: "25%"
     section-data-text1: "Increased Page Engagement"
     section-data-number2: "20%"
-    section-data-text2: "Increased Load Time"
+    section-data-text2: "Decreased Load Time"
     section-data-number3: "10%"
     section-data-text3: "Increased Fundraising"
     section-description: |
