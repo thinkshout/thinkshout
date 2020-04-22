@@ -34,7 +34,7 @@ cs-intro:
 
   - intro-title: Challenge
     intro-text: |
-      With over 18,000 employees, offering comprehensive care in 95 clinical specialties across eight campuses and dozens of other facilities, complemented by clinical research and education, LVHN’s complexities threatened to overwhelm the needs of its patients.
+      With over 18,000 employees, 95 clinical specialties, eight campuses, dozens of facilities, and expansive clinical research and education, the complexities of LVHN’s digital platform threatened to overwhelm the needs of its patients.
 
   - intro-title: Solutions
     intro-text: |
