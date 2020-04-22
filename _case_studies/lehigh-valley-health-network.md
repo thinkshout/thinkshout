@@ -2,12 +2,13 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study lvhn
-active: false
-homepage: false
-published: false
+active: true
+homepage: true
+published: true
+related: lvhn
 order: 6
-image: /assets/images/case-studies/LVHN-Hero.jpg
-image-alt: "@todo"
+image: /assets/images/case-studies/LVHN-hero-1.jpg
+image-alt: "A happy child sitting in a doctor's office designed for children"
 description: "The Lehigh Valley Health Network heals, comforts, and cares for the communities of Eastern Pennsylvania. To realize its vision of providing superior care within its region, LVHN has to relate to each patient on an individual level, providing personalized services within the context of a vast organization."
 # END LAYOUT DATA
 
@@ -17,13 +18,13 @@ featured_impact_text: "@todo"
 featured_client_name: "Lehigh Valley Health Network"
 
 cs-preview:
-  image: /assets/images/case-studies/LVHN-Hero.jpg
+  image: /assets/images/case-studies/LVHN-hero-1.jpg
   type: "Lehigh Valley Health Network"
   client: "Lehigh Valley Health Network"
   description: "Applying concepts grounded in simplicity to help consumers navigate healthcare’s complexities."
 
 cs-header:
-  header-image: /assets/images/case-studies/LVHN-Hero.jpg
+  header-image: /assets/images/case-studies/LVHN-hero-1.jpg
   client: "Lehigh Valley Health Network"
   title: "Applying concepts grounded in simplicity to help consumers navigate healthcare’s complexities."
 
@@ -33,7 +34,7 @@ cs-intro:
 
   - intro-title: Challenge
     intro-text: |
-      With over 18,000 employees, offering comprehensive care in 95 clinical specialties across eight campuses and dozens of other facilities, complemented by clinical research and education, LVHN’s complexities threatened to overwhelm the needs of its patients.
+      With over 18,000 employees, 95 clinical specialties, eight campuses, dozens of facilities, and expansive clinical research and education, the complexities of LVHN’s digital platform threatened to overwhelm the needs of its patients.
 
   - intro-title: Solutions
     intro-text: |
@@ -52,14 +53,14 @@ cs-sections:
         
       From this starting point, we drastically simplified the sites overarching information architecture and focused it on Doctors, Locations, and Services. 
 
-  - section-image: "/assets/images/case-studies/LVHN-hero.jpg"
+  - section-image: "/assets/images/case-studies/LVHN-1.jpg"
     section-image-alt: "LVHN homepage viewed on a desktop."
 
-  - section-image1: "/assets/images/case-studies/LVHN-location-ipad.jpg"
-    section-image-alt1: "LVHN homepage viewed on a tablet."
+  - section-image1: "/assets/images/case-studies/LVHN-2.jpg"
+    section-image-alt1: "LVHN find a location viewed on a tablet."
 
     # @todo This needs to be the same height as the first image.
-    section-image2: "/assets/images/case-studies/LVHN-location-detail.jpg"
+    section-image2: "/assets/images/case-studies/LVHN-3.jpg"
     section-image-alt2: "LVHN location detail viewed on a laptop."
 
   - section-description: |
@@ -72,10 +73,10 @@ cs-sections:
       By focusing on the informational needs of the end user instead of organizational priorities and structures, we actually made it easier for LVHN to meet its mission.
 
   # @todo Missing image from design
-  - section-image: "/assets/images/case-studies/LVHN-search.jpg"
-    section-image-alt: "@todo"
+  - section-image: "/assets/images/case-studies/LVHN-4.jpg"
+    section-image-alt: "LVHN search for a doctor on laptop and search for a location on phone"
 
-  - section-image: "/assets/images/case-studies/LVHN-services-3up.jpg"
+  - section-image: "/assets/images/case-studies/LVHN-5.jpg"
     section-image-alt: "LVHN services pages viewed on three phones."
 
   - section-description: |
@@ -87,8 +88,8 @@ cs-sections:
     
       Creating the perception of simplicity required careful planning, with our design and technical leads in constant communication. The underlying content structures and relationships, taxonomies, and integrations with third-party systems all work behind the scenes to create a user experience that reinforces the brand promise of LVHN: superior care within your own community.
 
-  - section-image: "/assets/images/case-studies/LVHN-search.jpg"
-    section-image-alt: "LVHN search page viewed on a laptop and phone."
+  - section-image: "/assets/images/case-studies/LVHN-6.jpg"
+    section-image-alt: "LVHN location viewed on a laptop and doctor search viewed on phone."
 
   - section-type: result
     section-data-number1: "25%"
