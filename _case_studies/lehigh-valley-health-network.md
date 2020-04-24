@@ -99,7 +99,7 @@ cs-sections:
     section-data-number3: "10%"
     section-data-text3: "Increased Fundraising"
     section-description: |
-      LVHN.org’s redesign was a team effort between ThinkShout and LVHN. It involved 20 designers, developers, and project managers on our end interacting with dozens of stakeholders and decision-makers at LVHN over the course of two years. In the end, we launched a site that stayed true to the initial vision of creating a simple, intuitive website that focused on the needs of patients.
+      LVHN.org’s redesign was a team effort between ThinkShout and LVHN. It involved 20 designers, developers, and project managers on our end interacting with dozens of stakeholders and decision-makers at LVHN over the course of two years. In the end, we launched a site that stayed true to the initial vision of creating an intuitive website that focused on the needs of patients.
         
       But the launch is just the start. We continue to work with LVHN’s team to design tests against daily human interactions to continue to improve the online experience and ensure that it lives up to the world-class care patients receive from the Lehigh Valley Health Network.
 
