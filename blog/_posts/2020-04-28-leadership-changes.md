@@ -46,7 +46,3 @@ In addition to their skills on the job, both Kaylan and Kate are already strong 
 ThinkShout began planning for these transitions long before the world was turned upside down fighting a global pandemic. I never imagined a scenario where the very first week that Kaylan and Kate joined Tauno and me on the executive team, we would spend countless hours and untold energy working through scenarios on how to support the team and plan for a viable future amidst so much uncertainty. I’m not making any predictions, but I’ll take my chances with this group anytime.
 
 #### Congratulations Kate and Kaylan, and thank you, Alex, for everything.
-
-
-
----
