@@ -22,13 +22,14 @@ header-image: /assets/images/blog/leadership-changes-hero.jpg
 header-image-alt: "Group photo of the ThinkShout team laughing"
 ---
 ## The world has changed dramatically over the past month, and so too has our little corner of the world. 
+
 ### Today, we have both bittersweet and exciting news to share about leadership changes here at ThinkShout. 
 
-#### We’ll start with the bittersweet:
+**We’ll start with the bittersweet:
 
 After six years, our longtime Chief Operating Officer, Alex MacMillan, is moving on from ThinkShout. During her tenure, Alex has touched every aspect of the organization—from sales to finances and project management to account management—and she has improved every single one. By creating systems that make success repeatable and scalable, Alex has laid a very strong foundation, one that ensures ThinkShout’s relative stability through these uncertain times. Beyond those contributions, her dedication, drive, and compassion have been guiding lights over the years. I know that all of us at ThinkShout have been touched by Alex’s care and kindness, and we will miss her expert insights, razor-sharp instincts, and of course, the perfectly-timed pastries she was famous for bringing to the office. Alex has made ThinkShout a place of warmth, celebration, and community. It’s bittersweet to see Alex move on: We know her next venture will be incredible, and we’ll miss her all the same! 
 
-#### Now for the news we’re unequivocally excited to share: 
+**Now for the news we’re unequivocally excited to share: 
 
 Digital strategy, and all of its connotations, has steadily grown as a core need of our mission-driven clients, and we have long been evolving to best meet that need. Our strategy and creative teams are constantly innovating to ensure that we create compelling, industry-leading digital experiences that help organizations deliver undeniable impact. Each of these platforms are designed to ensure a high level of audience engagement, and are complemented by a vigorous measurement and testing strategy. In other words, we love to feel like we’re making an impact for our clients, but we love even more when our clients have the tools to measure and optimize that impact post-launch. Now more than ever in our digital-only world, these services are in ever higher demand.
 
@@ -45,5 +46,7 @@ In addition to their skills on the job, both Kaylan and Kate are already strong 
 ThinkShout began planning for these transitions long before the world was turned upside down fighting a global pandemic. I never imagined a scenario where the very first week that Kaylan and Kate joined Tauno and me on the executive team, we would spend countless hours and untold energy working through scenarios on how to support the team and plan for a viable future amidst so much uncertainty. I’m not making any predictions, but I’ll take my chances with this group anytime.
 
 #### Congratulations Kate and Kaylan, and thank you, Alex, for everything.
+
+
 
 ---
