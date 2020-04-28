@@ -72,7 +72,7 @@ When you put barriers in the way of your users, in the form of content they’re
 ![desire-paths-ii-venn-diagram.png]({{ site.baseurl }}/assets/images/blog/desire-paths-ii-venn-diagram.png)
 
 
-If you need to run a full inventory, you might want to look into a tool like [Screaming Frog](http://www.screamingfrog.co.uk/seo-spider/) or [CAT (Content Analysis Tool)](http://www.content-insight.com/). Or you can [export reports from Google Analytics and combine it](http://www.ripenn.com/blog/create-data-driven-content-inventory/) with data from social channels.
+If you need to run a full inventory, you might want to look into a tool like [Screaming Frog](http://www.screamingfrog.co.uk/seo-spider/) or [ContentWRX Audit](http://www.content-insight.com/). Or you can [export reports from Google Analytics and combine it](http://www.ripenn.com/blog/create-data-driven-content-inventory/) with data from social channels.
 
 But you don’t need to care about everything. We suggest you:
 
