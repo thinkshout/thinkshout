@@ -2,9 +2,9 @@
 layout: teammember
 first_name: Kaylan
 last_name: Adams
-position: Managing Director of Operations
+position: Chief Operating Officer
 leadin: |
-  Kaylan has always been really gratified by a well executed plan and a completed to-do list. Add some strategic communications, creative problem solving, and team leadership and project management is really a perfect fit - so much so that Kaylan earned her PMP (Project Management Professional) certification a few years back.
+  Kaylan has spent the last decade-plus in the world of EdTech, SaaS, and digital agencies wearing many hats, but the ones that suit her best are organizational development and project management. That’s of course not counting the fabulous hat she wears for her annual Kentucky Derby party. 
 social:
   github:
   twitter:
@@ -18,6 +18,7 @@ published: true
 current-employee: true
 name: kaylan
 bio: |
-  Kaylan has spent the last decade in the world of EdTech, SaaS, and digital organizations, working on program/project implementations and client success initiatives - including training and process improvement. She has a Master's degree in English literature and is a self-proclaimed research nut. Kaylan’s past volunteer efforts have run the gamut of supporting early literacy to serving as a whale watch naturalist and tour guide. These days she volunteers as an activist with Family Forward Oregon, lobbying on issues that impact women’s economic security such as paid family leave and affordable, quality childcare. But when it’s time to relax, there’s nothing Kaylan enjoys more than exploring family-friendly wineries throughout the Willamette Valley with her husband and toddler.
+  Throughout Kaylan’s career, her passion and curiosity have often revolved around how to help both people and processes be more effective: from her start as a recruiter for a staffing agency, to her work as an executive coach for college students, as a PMP-certified project manager, and most recently as our Director of Operations, leading improvements and initiatives within HR and business development. Kaylan is a self-proclaimed research nut and lover of words with a Master’s in English literature to show for it.
+  <p>Kaylan’s past volunteer efforts have run the gamut of supporting early literacy to serving as a whale watch naturalist and tour guide. These days she volunteers as an activist with Family Forward Oregon, lobbying on issues that impact women’s economic security such as paid family leave and affordable, quality childcare. But when it’s time to relax, there’s nothing Kaylan enjoys more than taking a family walk with her husband, preschooler, and dog.
 slug: kaylan
 ---

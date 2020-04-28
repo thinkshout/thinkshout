@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Jessica
 last_name: Tate
-position: Art Director
+position: Senior Art Director
 leadin: |
   Jessica crafts beautiful digital experiences that inspire change. As a designer, she draws upon a life-long interest in art history, calligraphy, and technology. She is also a competitive ballroom dancer. We remain hopeful that she will someday teach us all to waltz.
 social:
