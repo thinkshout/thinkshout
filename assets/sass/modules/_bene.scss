@@ -330,7 +330,8 @@
   }
 }
 
-.bene-oss-cta.container {
+.bene-oss-cta.container,
+.edc-oss-cta.container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -340,12 +341,14 @@
   @include mq(p) { flex-direction: column; }
   @include mq(t) { padding: 4.5rem 1rem; }
 
-  .bene-cta {
+  .bene-cta,
+  .edc-cta {
     @include mq(m) { padding-bottom: 3rem; }
     @include mq(p) { padding-bottom: 3rem; }
   }
 
   .bene-cta,
+  .edc-cta,
   .oss-cta {
     display: flex;
     flex-direction: row;
@@ -361,21 +364,26 @@
     }
 
     .bene-text,
+    .edc-text,
     .oss-text {
       flex: 0 1 75%;
     }
 
     img {
-      max-width: 75px;
+      max-width: 70px;
       height: auto;
-      padding-top: 5px;
-      padding-right: 10px;
-      @include mq(lt) { max-width: 100px; }
-      @include mq(d) { max-width: 115px; }
+      margin-top: 5px;
+      margin-right: 10px;
+      @include mq(lt) { max-width: 90px; }
+      @include mq(d) { max-width: 110px; }
+    }
+    img.edc-logo {
+      border-radius: 8px;
     }
   }
 
   .bene-text,
+  .edc-text,
   .oss-text {
     h3, h4 {
       color: $darkgray;
@@ -422,7 +430,8 @@
       margin-right: 0;
     }
   }
-  .bene-text h3 {
+  .bene-text h3,
+  .edc-text h3 {
     color: $bene-orange;
   }
 
