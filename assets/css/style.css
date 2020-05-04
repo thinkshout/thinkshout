@@ -2904,11 +2904,6 @@ a:visited {
   .edc-oss-cta.container .edc-text a:last-of-type .arrow-right,
   .edc-oss-cta.container .oss-text a:last-of-type .arrow-right {
     margin-right: 0; }
-  .bene-oss-cta.container .bene-text h3,
-  .bene-oss-cta.container .edc-text h3,
-  .edc-oss-cta.container .bene-text h3,
-  .edc-oss-cta.container .edc-text h3 {
-    color: #FF9015; }
 
 @media (max-width: 480px) {
   .blog-post .main-content {
