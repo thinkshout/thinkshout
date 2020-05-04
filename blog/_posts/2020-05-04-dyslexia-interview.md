@@ -14,7 +14,7 @@ tags:
   - Accessibility
   - Dyslexia
 date: 2020-05-04 12:00:00
-image: https://thinkshout.com/assets/images/blog/dyslexia-hero.jpg
+image: /assets/images/blog/dyslexia-hero.jpg
 header-image: /assets/images/blog/dyslexia-hero.jpg
 header-image-alt: "screenshot of rebecca and jules laughing during a zoom interview"
 ---
