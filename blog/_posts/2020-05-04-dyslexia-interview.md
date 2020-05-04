@@ -18,14 +18,15 @@ header-image: /assets/images/blog/dyslexia-hero.jpg
 header-image-alt: "screenshot of rebecca and jules laughing during a zoom interview"
 ---
 
-Dyslexia is a common learning condition (it impacts 15-20% of the population) that makes word recognition, spelling, and word decoding more challenging. Symptoms of dyslexia may look different person by person, but the two most common variants of dyslexia are phonological dyslexia and surface dyslexia. Phonological dyslexia is linked to auditory processing, making it harder to distinguish individual word sounds and syllables, and blending those sounds into words. Surface dyslexia is visual in nature, causing difficulty with recognition and spelling; this is intensified with words that aren’t spelled phonetically. 
+### Dyslexia is a common learning condition (it impacts 15-20% of the population) that makes word recognition, spelling, and word decoding more challenging.
+Symptoms of dyslexia may look different person by person, but the two most common variants of dyslexia are phonological dyslexia and surface dyslexia. Phonological dyslexia is linked to auditory processing, making it harder to distinguish individual word sounds and syllables, and blending those sounds into words. Surface dyslexia is visual in nature, causing difficulty with recognition and spelling; this is intensified with words that aren’t spelled phonetically. 
 
 
 ![gif of how text may look with dyslexia](/assets/images/blog/dyslexia.gif)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Here's a look at how text may look with people who experience dyslexia.</span>
 
-Websites that aren’t thoughtfully made can be much harder to navigate for folks with dyslexia. In this interview, our team member, Rebecca, lends insight to how you can make your website more accessible and easier for everyone to use.
+### Websites that aren’t thoughtfully made can be much harder to navigate for folks with dyslexia. In this interview, our team member, Rebecca, lends insight to how you can make your website more accessible and easier for everyone to use.
 
 #### Q: When did you find out you had dyslexia?
 A:  I found out I had dyslexia later in life, I was already in high school. I have mild dyslexia, it was harder to diagnose at a younger age. I always felt I had a learning disability, but I blamed it on growing up in a household with dual languages. I would mix letters and numbers up frequently, and I had a hard time memorizing and reading for school assignments. In high school one of my teachers noticed I would mix my letters and numbers often, she asked me if I was ever diagnosed with dyslexia. Since then I have been learning to live a life with dyslexia. 
@@ -70,4 +71,4 @@ A: Pay close attention to fonts and spacing. Backgrounds and text should have go
 #### Q: If you could get designers and/or developers to make one change to make sites more accessible, what would it be?
 A: Do not use serif fonts or italics! Breakup content with images. Avoid white backgrounds with black text, too much contrast is hard to read. 
 
-#### Website design is not an ‘or’, but an ‘and’.#### You don’t need to pick aesthetics or usability. If you prioritize accessibility when designing, you can make a beautiful website that is usable, informative, and that has the ability to be accessible to, literally, millions of more people. Keep thought and intention at the forefront of your process and, always, prioritize compassion in design.
+**Website design is not an ‘or’, but an ‘and’** You don’t need to pick aesthetics or usability. If you prioritize accessibility when designing, you can make a beautiful website that is usable, informative, and that has the ability to be accessible to, literally, millions of more people. Keep thought and intention at the forefront of your process and, always, prioritize compassion in design.
