@@ -4,7 +4,7 @@ body-class: blog-post
 topic: "strategy and design"
 title: "Accessibility Interview: Dyslexia"
 campaign-topic: accessibility
-homepage: false
+homepage: true
 author: jules
 published: true
 featured: false
