@@ -17,14 +17,13 @@ tags:
   - "digital marketing"
   - nonprofit
 date: 2020-05-05 11:00:00
-image: https://thinkshout.com/assets/images/blog/consumption-covid-hero.jpg
-header-image: /assets/images/blog/consumption-covid-hero.jpg.jpg
+image: https://thinkshout.com/assets/images/blog/strategy-hero.jpg
+header-image: /assets/images/blog/strategy-hero.jpg
 header-image-alt: "Person pouring coffee into a cup that's spilling over."
 ---
-## What is happening in the world right now is unpredictable and confusing. It’s hard to fully wrap your head around. Each day, week, and month, that pass can feel either endless or like time is giving you whiplash.  
+### What is happening in the world right now is unpredictable and confusing. It’s hard to fully wrap your head around. Each day, week, and month, that pass can feel either endless or like time is giving you whiplash.  
 
-### Crises on a massive scale are, unfortunately, not uncommon. 
-Whether it be drought, famine, widespread illness, or war, countless people around the world are afflicted with immeasurable hardship. The impact of COVID-19 is different in the sense that it’s felt on a global scale; no matter who you are or where you live, the effects of this pandemic are impossible to hide from. Even the most ardent protestors are impacted by closures and general disorganization and inaction from the Federal government. [That said, it is necessary to acknowledge that the impact of COVID is not distributed equally, as race and class play a larger part in the systemic inequities that have, for too long, limited access to healthcare and resources.](https://www.nytimes.com/2020/04/29/magazine/racial-disparities-covid-19.html)  
+Crises on a massive scale are, unfortunately, not uncommon. Whether it be drought, famine, widespread illness, or war, countless people around the world are afflicted with immeasurable hardship. The impact of COVID-19 is different in the sense that it’s felt on a global scale; no matter who you are or where you live, the effects of this pandemic are impossible to hide from. Even the most ardent protestors are impacted by closures and general disorganization and inaction from the Federal government. [That said, it is necessary to acknowledge that the impact of COVID is not distributed equally, as race and class play a larger part in the systemic inequities that have, for too long, limited access to healthcare and resources.](https://www.nytimes.com/2020/04/29/magazine/racial-disparities-covid-19.html)  
 
 [On that note, many folks working minimum wage jobs have been deemed essential, even without adequate compensation or hazard pay.](https://www.brookings.edu/research/covid-19s-essential-workers-deserve-hazard-pay-heres-why-and-how-it-should-work/) And these essential workers, in hospitals, healthcare facilitates, food production roles etc., are showing up for the rest of us in big ways. Concurrently, some nonprofits have become beacons and the focus of [global “from home” concerts](https://www.globalcitizen.org/en/connect/togetherathome/) and national fundraising efforts. Others are hard hit, crossing their fingers that their bank has the bandwidth to process their [Payment Protection Program](https://www.sba.gov/funding-programs/loans/coronavirus-relief-options/paycheck-protection-program) application and that they will be able to keep their doors open. Right now, there are more questions than answers when trying to put a fine point on “industry trends” in terms of fundraising and financial forecasting.  
 ### It’s hard to navigate real, tangible ways to assess what is happening in the world of philanthropy and what it means for your organization beyond today, let alone next week or next month. 
