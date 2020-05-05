@@ -5,7 +5,7 @@ topic: strategy
 campaign-topic: covid
 title: "Show up. Strategy and Consumption During COVID-19."
 homepage: false
-author: julia 
+author: "julia and mike"
 published: true
 featured: false
 short: "We wish we could provide definitive answers, but we can’t. What we can do is highlight some things we are seeing that work and support you and your teams in thinking through strategic approaches to use what you have in new and different ways."
@@ -17,7 +17,7 @@ tags:
   - "digital marketing"
   - nonprofit
 date: 2020-05-05 11:00:00
-image: https://thinkshout.com/assets/images/blog/consumption-covid-hero.jpg.jpg
+image: https://thinkshout.com/assets/images/blog/consumption-covid-hero.jpg
 header-image: /assets/images/blog/consumption-covid-hero.jpg.jpg
 header-image-alt: "Person pouring coffee into a cup that's spilling over."
 ---
