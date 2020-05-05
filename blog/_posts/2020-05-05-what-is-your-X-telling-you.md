@@ -16,7 +16,7 @@ tags:
   - marketing
   - "digital marketing"
   - nonprofit
-date: 2020-04-28 11:00:00
+date: 2020-05-05 11:00:00
 image: https://thinkshout.com/assets/images/blog/consumption-covid-hero.jpg.jpg
 header-image: /assets/images/blog/consumption-covid-hero.jpg.jpg
 header-image-alt: "Person pouring coffee into a cup that's spilling over."
