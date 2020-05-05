@@ -19,7 +19,7 @@ header-image: /assets/images/blog/dyslexia-hero.jpg
 header-image-alt: "screenshot of rebecca and jules laughing during a zoom interview"
 ---
 
-### Dyslexia is a common learning condition (it impacts 15-20% of the population) that makes word recognition, spelling, and word decoding more challenging.
+## Dyslexia is a common learning condition (it impacts 15-20% of the population) that makes word recognition, spelling, and word decoding more challenging.
 Symptoms of dyslexia may look different person by person, but the two most common variants of dyslexia are phonological dyslexia and surface dyslexia. Phonological dyslexia is linked to auditory processing, making it harder to distinguish individual word sounds and syllables, and blending those sounds into words. Surface dyslexia is visual in nature, causing difficulty with recognition and spelling; this is intensified with words that aren’t spelled phonetically. 
 
 
@@ -73,10 +73,13 @@ A: Pay close attention to fonts and spacing. Backgrounds and text should have go
 #### Q: If you could get designers and/or developers to make one change to make sites more accessible, what would it be?
 A: Do not use serif fonts or italics! Breakup content with images. Avoid white backgrounds with black text, too much contrast is hard to read. 
 
+<div class="paragraph"><p><br>
+<br></p></div>
+<div class="paragraph"><p><br>
+<br></p></div>
 
-
-### Website design is not an ‘or’, but an ‘and'. You don’t need to pick aesthetics or usability.
-If you prioritize accessibility when designing, you can make a beautiful website that is usable, informative, and that has the ability to be accessible to, literally, millions of more people. Keep thought and intention at the forefront of your process and, always, prioritize compassion in design.
+## Website design is not an ‘or’, but an ‘and'. 
+You don’t need to pick aesthetics **or** usability.If you prioritize accessibility when designing, you can make a beautiful website that is usable, informative, **and** that has the ability to be accessible to, literally, millions of more people. Keep thought and intention at the forefront of your process and, always, prioritize compassion in design.
 <div class="paragraph"><p><br>
 <br></p></div>
 <div class="paragraph"><p><br>
