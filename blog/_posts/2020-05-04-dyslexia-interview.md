@@ -7,7 +7,7 @@ title: "Accessibility Interview: Dyslexia"
 homepage: false
 author: jules
 published: true
-featured: true
+featured: false
 short: Websites that aren’t thoughtfully made can be much harder to navigate for folks with dyslexia.
 tags:
   - Design
