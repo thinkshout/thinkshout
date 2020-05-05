@@ -8,7 +8,7 @@ homepage: false
 author: jules
 published: true
 featured: false
-short: Websites that aren’t thoughtfully made can be much harder to navigate for folks with dyslexia.
+short: "Websites that aren’t thoughtfully made can be much harder to navigate for folks with dyslexia."
 tags:
   - Design
   - Accessibility
