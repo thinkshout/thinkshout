@@ -2,8 +2,8 @@
 layout: blog
 body-class: blog-post
 topic: "strategy and design"
-title: "Accessibility Interview: Dyslexia"
 campaign-topic: accessibility
+title: "Accessibility Interview: Dyslexia"
 homepage: false
 author: jules
 published: true
