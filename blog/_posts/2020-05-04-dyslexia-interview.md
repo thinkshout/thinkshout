@@ -72,7 +72,6 @@ A: Pay close attention to fonts and spacing. Backgrounds and text should have go
 
 #### Q: If you could get designers and/or developers to make one change to make sites more accessible, what would it be?
 A: Do not use serif fonts or italics! Breakup content with images. Avoid white backgrounds with black text, too much contrast is hard to read. 
-
 <div class="paragraph"><p><br>
 <br></p></div>
 
