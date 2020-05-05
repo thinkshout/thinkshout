@@ -19,7 +19,7 @@ tags:
 date: 2020-05-05 11:00:00
 image: https://thinkshout.com/assets/images/blog/strategy-hero.jpg
 header-image: /assets/images/blog/strategy-hero.jpg
-header-image-alt: "Person pouring coffee into a cup that's spilling over."
+header-image-alt: "Game of chess."
 ---
 ### What is happening in the world right now is unpredictable and confusing. It’s hard to fully wrap your head around. Each day, week, and month, that pass can feel either endless or like time is giving you whiplash.  
 
