@@ -6,7 +6,7 @@ title: "Accessibility Interview: Dyslexia"
 campaign-topic: accessibility
 homepage: false
 author: jules
-published: false
+published: true
 featured: false
 short: Websites that aren’t thoughtfully made can be much harder to navigate for folks with dyslexia.
 tags:
@@ -27,7 +27,7 @@ Symptoms of dyslexia may look different person by person, but the two most commo
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Here's how text may look for people who experience dyslexia.</span>
 
-### Websites that aren’t thoughtfully made can be much harder to navigate for folks with dyslexia. In this interview, our team member, Rebecca, lends insight to how you can make your website more accessible and easier for everyone to use.
+### Websites that aren’t thoughtfully made can be much harder to navigate for folks with dyslexia. In this interview, our team member, [Rebecca](https://thinkshout.com/team/rebeccan/), lends insight to how you can make your website more accessible and easier for everyone to use.
 
 #### Q: When did you find out you had dyslexia?
 A:  I found out I had dyslexia later in life, I was already in high school. I have mild dyslexia, it was harder to diagnose at a younger age. I always felt I had a learning disability, but I blamed it on growing up in a household with dual languages. I would mix letters and numbers up frequently, and I had a hard time memorizing and reading for school assignments. In high school one of my teachers noticed I would mix my letters and numbers often, she asked me if I was ever diagnosed with dyslexia. Since then I have been learning to live a life with dyslexia. 
@@ -61,9 +61,9 @@ Easier to read:
 <span class="caption"><i class="fa fa-caret-up"></i>Grey, sabs serif text on off-white background that is easier to read for folks with dyslexia.</span>
 
 #### Q: Are there things you do in your settings and preferences to make websites more accessible?
-A: I use a chrome extension called dyslexia friendly, it changes the font to be heavier on the bottom, it also highlights each line. This helps to separate text. For sites with heavy text, like news sites, I use a reader. 
+A: I use a chrome extension called [dyslexia friendly](https://chrome.google.com/webstore/detail/dyslexia-friendly/miepjgfkkommhllbbjaedffcpkncboeo?hl=en), it changes the font to be heavier on the bottom, it also highlights each line. This helps to separate text. For sites with heavy text, like news sites, I use a reader. 
 
-![wikipedia page without dyslexia plug in](/assets/images/blog/dyslexia-05-1.jpg) ![wikipedia page without dyslexia plug in](/assets/images/blog/dyslexia-04-1.jpg)
+![wikipedia page without dyslexia plug in](/assets/images/blog/dyslexia-05-02.jpg) ![wikipedia page without dyslexia plug in](/assets/images/blog/dyslexia-04-1.jpg)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Left: Wikipedia page without dyslexia friendly plug in. Right: Wikipedia page with dyslexia friendly plug in. </span>
 
@@ -77,3 +77,15 @@ A: Do not use serif fonts or italics! Breakup content with images. Avoid white b
 
 ### Website design is not an ‘or’, but an ‘and'. You don’t need to pick aesthetics or usability.
 If you prioritize accessibility when designing, you can make a beautiful website that is usable, informative, and that has the ability to be accessible to, literally, millions of more people. Keep thought and intention at the forefront of your process and, always, prioritize compassion in design.
+<div class="paragraph"><p><br>
+<br></p></div>
+<div class="paragraph"><p><br>
+<br></p></div>
+<div class="paragraph"><p><br>
+<br></p></div>
+
+#### References:
+
+“Dyslexia FAQ.” Yale Dyslexia, dyslexia.yale.edu/dyslexia/dyslexia-faq/.
+
+Friedmann, Naama, and Max Coltheart. “35 .Types of Developmental Dyslexia.” Handbook of Communication Disorders, 2018, pp. 721–752., doi:10.1515/9781614514909-036.
