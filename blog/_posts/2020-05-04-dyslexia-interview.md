@@ -25,7 +25,7 @@ Symptoms of dyslexia may look different person by person, but the two most commo
 
 ![gif of how text may look with dyslexia](/assets/images/blog/dyslexia.gif)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>Here's a look at how text may look with people who experience dyslexia.</span>
+<span class="caption"><i class="fa fa-caret-up"></i>Here's how text may look for people who experience dyslexia.</span>
 
 ### Websites that aren’t thoughtfully made can be much harder to navigate for folks with dyslexia. In this interview, our team member, Rebecca, lends insight to how you can make your website more accessible and easier for everyone to use.
 
