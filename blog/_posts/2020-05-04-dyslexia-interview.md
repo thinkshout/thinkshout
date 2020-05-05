@@ -58,7 +58,7 @@ Easier to read:
 
 ![Easier to read text](/assets/images/blog/dyslexia-easy-01.jpg)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>Grey, sabs serif text on off-white background that is easier to read for folks with dyslexia.</span>
+<span class="caption"><i class="fa fa-caret-up"></i>Grey, sans serif text on off-white background that is easier to read for folks with dyslexia.</span>
 
 #### Q: Are there things you do in your settings and preferences to make websites more accessible?
 A: I use a chrome extension called [dyslexia friendly](https://chrome.google.com/webstore/detail/dyslexia-friendly/miepjgfkkommhllbbjaedffcpkncboeo?hl=en), it changes the font to be heavier on the bottom, it also highlights each line. This helps to separate text. For sites with heavy text, like news sites, I use a reader. 
