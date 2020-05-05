@@ -52,11 +52,11 @@ You can’t lose here. **There are plenty of tools that are free that you can ea
 This can be labor intensive. We know. But by closely monitoring who is signing up for your lists, following up with both existing and new file members and segmenting your communication as much as possible, you could see a huge impact.
 
 [Colombia Riverkeeper](https://www.columbiariverkeeper.org/) in Hood River, OR has been using their [Drupal 8](https://www.drupal.org/8) site, [Salsa Engage](https://www.salsalabs.com/sign-in) forms, and hands on staff to send email surveys to different subsets of their mailing list. This has resulted in:
--Prioritized programming needs and in the field organizing;
--More targeted fundraising campaigns; 
--Personal phone calls from appropriate staff members to key donors;
--A virtual event series based on expressed interest;
--And ultimately a clear uptick in list building and donation conversion.  
+* Prioritized programming needs and in the field organizing;
+* More targeted fundraising campaigns; 
+* Personal phone calls from appropriate staff members to key donors;
+* A virtual event series based on expressed interest;
+* And ultimately a clear uptick in list building and donation conversion.  
 
 Your survey doesn’t have to be complicated. If you have time to ask three key questions, or even just one, it will get you more insights and information than if you skipped it altogether. [Asking questions never hurts!](https://thinkshout.com/blog/2019/01/ask-more-questions/)
 
