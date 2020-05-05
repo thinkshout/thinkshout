@@ -47,7 +47,7 @@ A: Hard to read:
 
 ![Hard to read text](/assets/images/blog/dyslexia-01.jpg)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>Black text on white background that reads hard to read, in serif font and harder to read in italic serif font.</span>
+<span class="caption"><i class="fa fa-caret-up"></i>Black, serif text on white background that is harder to read for folks with dyslexia.</span>
 
 Easier to read:
 1. Sans Serif fonts.
@@ -58,13 +58,14 @@ Easier to read:
 
 ![Easier to read text](/assets/images/blog/dyslexia-02.jpg)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>grey text on off-white background that reads easier to read in sans serif font.</span>
+<span class="caption"><i class="fa fa-caret-up"></i>Grey, sabs serif text on off-white background that is easier to read for folks with dyslexia.</span>
 
 #### Q: Are there things you do in your settings and preferences to make websites more accessible?
 A: I use a chrome extension called dyslexia friendly, it changes the font to be heavier on the bottom, it also highlights each line. This helps to separate text. For sites with heavy text, like news sites, I use a reader. 
 
-![wikipedia page without dyslexia plug in](/assets/images/blog/dyslexia-05.jpg) ![wikipedia page without dyslexia plug in](/assets/images/blog/dyslexia-04.jpg)
+![wikipedia page without dyslexia plug in](/assets/images/blog/dyslexia-05-1.jpg) ![wikipedia page without dyslexia plug in](/assets/images/blog/dyslexia-04-1.jpg)
 {:.center}
+<span class="caption"><i class="fa fa-caret-up"></i>Left: Wikipedia page without dyslexia friendly plug in. Right: Wikipedia page with dyslexia friendly plug in. </span>
 
 #### Q: What advice would you give to designers and developers who want to make their sites more accessible to people with dyslexia?
 A: Pay close attention to fonts and spacing. Backgrounds and text should have good contrast. These two are very important. 
