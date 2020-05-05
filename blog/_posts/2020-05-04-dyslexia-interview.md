@@ -6,7 +6,7 @@ title: "Accessibility Interview: Dyslexia"
 campaign-topic: accessibility
 homepage: false
 author: jules
-published: true
+published: false
 featured: false
 short: Websites that aren’t thoughtfully made can be much harder to navigate for folks with dyslexia.
 tags:
