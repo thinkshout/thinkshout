@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: "strategy and design"
+topic: strategy
 campaign-topic: accessibility
 title: "Accessibility Interview: Dyslexia"
 homepage: false
