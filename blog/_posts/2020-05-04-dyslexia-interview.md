@@ -45,7 +45,7 @@ A: Hard to read:
 3. Italic fonts are nearly impossible to read.
 4. Text centered on a page.
 
-![Hard to read text](/assets/images/blog/dyslexia-hard-2-01.jpg)
+![Hard to read text](/assets/images/blog/dyslexia-hard-4.jpg)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Black, serif text on white background that is harder to read for folks with dyslexia.</span>
 
