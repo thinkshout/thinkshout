@@ -382,7 +382,9 @@
       border-bottom: 1px solid $midgray;
       color: $midgray;
       margin-right: .3em;
-      &:hover {
+      &:hover,
+      &:focus,
+      &:active {
         border-bottom: 1px solid $orange;
         color: $orange;
       }
@@ -467,7 +469,9 @@
   a {
     @include transition(color,0.3s,linear);
     color: $darkgray;
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
       color: $orange;
     }
   }

@@ -32,7 +32,9 @@
     z-index: 1;
     @include mq(m) { min-height: 285px; width: 100%; }
 
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
       border: rem(6) solid $orange;
       @include transition(border 0.2s);
     }
@@ -94,7 +96,9 @@
     position: relative;
     width: 100%;
 
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
       @include transition(border 0.2s);
       border: rem(6) solid $orange;
     }

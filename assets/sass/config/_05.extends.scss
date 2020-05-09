@@ -26,7 +26,9 @@
     vertical-align: sub;
   }
 
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active {
     text-decoration: underline;
   }
 
@@ -102,7 +104,9 @@
     font-size: rem(15);
     font-weight: 700;
     padding-top: rem(6);
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
       color: $orange;
     }
   }

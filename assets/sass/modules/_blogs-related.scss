@@ -88,7 +88,9 @@
     display: none;
   }
 
-  h3:hover {
+  h3:hover,
+  h3:focus,
+  h3:active {
     text-decoration: underline;
   }
 
@@ -101,7 +103,9 @@
   }
 
   .blogs-toggle {
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
       cursor: pointer;
     }
   }
@@ -155,7 +159,9 @@
         display: inline-block;
         padding-top: rem(8);
 
-        &:hover {
+        &:hover,
+        &:focus,
+        &:active {
           color: $orange;
         }
       }

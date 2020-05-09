@@ -62,7 +62,9 @@
     color: $darkgray;
     text-decoration: underline;
 
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
       color: $ltorange;
     }
   }
@@ -78,7 +80,9 @@
       text-decoration: none;
       text-transform: uppercase;
 
-      &:hover {
+      &:hover,
+      &:focus,
+      &:active {
         background: $orange;
         color: $white;
       }

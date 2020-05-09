@@ -5,7 +5,9 @@
   width: 25%;
   text-align: center;
 
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active {
     img {
       opacity: 0.7;
     }

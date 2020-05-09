@@ -33,7 +33,8 @@
     color: $wl-black;
     font-weight: bold;
     &:hover,
-    &:focus {
+    &:focus,
+    &:active {
       text-decoration: underline;
     }
   }
@@ -41,7 +42,9 @@
     color: $wl-ltblue;
     font-weight: normal;
     &.active,
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
       border-top-color: $wl-ltblue !important;
       text-decoration: none;
     }
@@ -468,7 +471,8 @@
     a {
       text-decoration: underline;
       &:hover,
-      &:focus {
+      &:focus,
+      &:active {
         text-decoration: none;
       }
     }

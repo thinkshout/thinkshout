@@ -109,7 +109,8 @@
     }
 
     a:hover,
-    a:focus {
+    a:focus,
+    a:active {
       &::before {
         background-color: rgba(0,0,0,0.8);
       }
@@ -136,7 +137,9 @@ h4.lets-chat {
 
     // @include mq(m) { display: block; }
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus,
+    &:active {
       text-decoration: underline;
     }
   }

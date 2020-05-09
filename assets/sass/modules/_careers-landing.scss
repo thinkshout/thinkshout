@@ -78,7 +78,9 @@
         padding: 1rem 2rem;
         text-transform: uppercase;
 
-        &:hover {
+        &:hover,
+        &:focus,
+        &:active {
           background: $orange;
           color: $white;
         }

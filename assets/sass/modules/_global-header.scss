@@ -139,7 +139,9 @@ header {
     $child: 1;
     @each $color in $colors {
       li:nth-child(#{$child}) a.active,
-      li:nth-child(#{$child}) a:hover {
+      li:nth-child(#{$child}) a:hover,
+      li:nth-child(#{$child}) a:focus,
+      li:nth-child(#{$child}) a:active {
         @include mq(d) {
           border-top: 4px solid $color;
           $child: $child + 1;
