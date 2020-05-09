@@ -5,13 +5,16 @@
   @include mq(t) { margin-top: rem(90); }
 
   .home-hero {
-    margin-top: 60px;
+    margin-top: 20px;
+    padding-top: 40px;
 
     @include mq(lt) {
-      margin-top: 123px
+      margin-top: 63px;
+      padding-top: 60px;
     }
     @include mq(d) {
-      margin-top: 243px;
+      margin-top: 183px;
+      padding-top: 60px;
     }
     h1 {
       color: $herogray;

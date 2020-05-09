@@ -34,3 +34,27 @@ a:visited {
   color: $orange;
   text-decoration: none;
 }
+
+a.visually-hidden {
+  clip: rect(1px,1px,1px,1px);
+  color: $darkgray;
+  height: 1px;
+  left: 5px;
+  overflow: hidden;
+  position: absolute;
+  top: 5px;
+  width: 1px;
+  word-wrap: normal;
+  z-index: 0;
+}
+.wonderlab-page a.visually-hidden {
+  color: $white;
+}
+a.visually-hidden.focusable:active,
+a.visually-hidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  overflow: visible;
+  width: auto;
+  z-index: 300;
+}
