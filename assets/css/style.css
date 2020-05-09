@@ -4042,22 +4042,28 @@ a.visually-hidden.focusable:focus {
   background: transparent;
   border: 1px solid #F06D2F;
   color: #F06D2F;
+  font-weight: 500;
   padding: 1rem 2rem;
   text-transform: uppercase;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
   transition: 0.5s all; }
-  .button:hover {
-    background: #F06D2F;
+  .button:hover, .button:focus, .button:active {
+    background: #F38958;
     box-shadow: 0 0 0.1875rem rgba(0, 0, 0, 0.3);
-    color: #fff;
+    color: #242424;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     transition: 0.5s all; }
 
 .button.solid {
   background: #F06D2F;
-  color: #fff; }
+  color: #242424; }
+  .button.solid:hover, .button.solid:focus, .button.solid:active {
+    background: #F38958;
+    -webkit-transition: 0.5s background-color;
+    -moz-transition: 0.5s background-color;
+    transition: 0.5s background-color; }
 
 .campaign .careers-header {
   padding: 0;
@@ -4440,7 +4446,7 @@ iframe#wufoo1 {
     -moz-transition: background-color 0.3s linear;
     transition: background-color 0.3s linear;
     background-color: #F06D2F;
-    color: #fff;
+    color: #242424;
     display: inline-block;
     font-size: 0.9rem;
     font-weight: 400;
@@ -4448,8 +4454,8 @@ iframe#wufoo1 {
     margin: 0;
     padding: 0.75rem 4rem;
     text-transform: uppercase; }
-    .bene .cta a:hover {
-      background-color: #f58546; }
+    .bene .cta a:hover, .bene .cta a:active, .bene .cta a:focus {
+      background-color: #F38958; }
   @media (min-width: 671px) and (max-width: 979px) {
     .bene .cta {
       margin: 3em auto; } }
@@ -4884,16 +4890,16 @@ iframe#wufoo1 {
     -moz-transition: background-color 0.3s linear;
     transition: background-color 0.3s linear;
     background-color: #F06D2F;
-    color: #fff;
+    color: #242424;
     display: inline-block;
     font-size: 0.9rem;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 0.5px;
     margin: 0;
     padding: 0.75rem 4rem;
     text-transform: uppercase; }
-    .case-study .cta a:hover {
-      background-color: #f58546; }
+    .case-study .cta a:hover, .case-study .cta a:active, .case-study .cta a:focus {
+      background-color: #F38958; }
 .case-study .related-case-studies {
   padding-bottom: 5.3125rem;
   padding-top: 5.3125rem; }
@@ -5717,8 +5723,12 @@ form.contact {
         .footer .footer-newsletter input[type=text] {
           width: 250px;
           padding: 0.75rem 1rem; } }
-      .footer .footer-newsletter textarea:focus,
+      .footer .footer-newsletter textarea:hover, .footer .footer-newsletter textarea:active, .footer .footer-newsletter textarea:focus,
+      .footer .footer-newsletter input[type=email]:hover,
+      .footer .footer-newsletter input[type=email]:active,
       .footer .footer-newsletter input[type=email]:focus,
+      .footer .footer-newsletter input[type=text]:hover,
+      .footer .footer-newsletter input[type=text]:active,
       .footer .footer-newsletter input[type=text]:focus {
         background: #fff;
         box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.2);
@@ -5730,7 +5740,7 @@ form.contact {
       display: inline-block;
       padding: 0.75rem 0.5rem;
       font-size: 0.75rem;
-      font-weight: 300;
+      font-weight: 500;
       margin-left: -5px;
       letter-spacing: 0.5px;
       height: 45px; }
@@ -7223,18 +7233,22 @@ h4.lets-chat {
     -moz-transition: background-color 0.3s linear;
     transition: background-color 0.3s linear;
     background-color: #F06D2F;
-    color: #fff;
+    color: #242424;
     display: inline-block;
     font-size: 0.9rem;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 0.5px;
     margin: 0;
     padding: 0.75rem 4rem;
     text-transform: uppercase; }
-    .page-not-found .cta a:hover,
+    .page-not-found .cta a:hover, .page-not-found .cta a:active, .page-not-found .cta a:focus,
     .careers .cta a:hover,
-    .services .cta a:hover {
-      background-color: #f58546; }
+    .careers .cta a:active,
+    .careers .cta a:focus,
+    .services .cta a:hover,
+    .services .cta a:active,
+    .services .cta a:focus {
+      background-color: #F38958; }
   @media (min-width: 671px) and (max-width: 979px) {
     .page-not-found .cta,
     .careers .cta,

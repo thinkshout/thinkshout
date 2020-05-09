@@ -425,16 +425,18 @@
     a {
       @include transition(background-color 0.3s linear);
       background-color: $orange;
-      color: $white;
+      color: $bgblack;
       display: inline-block;
       font-size: 0.9rem;
-      font-weight: 400;
+      font-weight: 500;
       letter-spacing: 0.5px;
       margin: 0;
       padding: rem(12) rem(64);
       text-transform: uppercase;
-      &:hover {
-        background-color: $midorange;
+      &:hover,
+      &:active,
+      &:focus {
+        background-color: $pale-orange;
       }
     }
   }
