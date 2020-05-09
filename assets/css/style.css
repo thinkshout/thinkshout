@@ -5965,6 +5965,7 @@ header {
     -moz-appearance: none;
     -webkit-appearance: none;
     border: 0;
+    background-color: transparent;
     font-family: inherit;
     font-size: 100%;
     font-weight: 400;
@@ -9014,10 +9015,7 @@ h4.lets-chat {
         background: none; } }
     .wonderlab-page header.fixed {
       background: #011D2B; }
-    @media (min-width: 980px) {
-      .wonderlab-page header .header-logo {
-        margin-top: 10px; } }
-    .wonderlab-page header .mobile-menu-icon div span, .wonderlab-page header .mobile-menu-icon div span:before, .wonderlab-page header .mobile-menu-icon div span:after {
+    .wonderlab-page header .mobile-menu-icon div span:before, .wonderlab-page header .mobile-menu-icon div span:after {
       background-color: #67889E; }
     .wonderlab-page header .mobile-menu-icon.active div span {
       background-color: transparent; }
@@ -9031,6 +9029,7 @@ h4.lets-chat {
     font-weight: normal; }
     .wonderlab-page .main-menu a.active, .wonderlab-page .main-menu a:hover, .wonderlab-page .main-menu a:focus, .wonderlab-page .main-menu a:active {
       border-top-color: #67889E !important;
+      color: #fff !important;
       text-decoration: none; }
   .wonderlab-page figcaption {
     float: right;
@@ -9043,6 +9042,14 @@ h4.lets-chat {
     line-height: 29px; }
   .wonderlab-page ol li:before, .wonderlab-page ul li:before {
     color: #5B005F; }
+  .wonderlab-page .mobile-menu-icon {
+    color: #67889E; }
+    .wonderlab-page .mobile-menu-icon div span {
+      background-color: #67889E; }
+      .wonderlab-page .mobile-menu-icon div span:before, .wonderlab-page .mobile-menu-icon div span:after {
+        background: #67889E; }
+    .wonderlab-page .mobile-menu-icon.active div span:before, .wonderlab-page .mobile-menu-icon.active div span:after {
+      background: #67889E; }
 
 @keyframes wl-background-gradient {
   0% {
@@ -9156,7 +9163,10 @@ h4.lets-chat {
       .wl-blog-card__image {
         margin-right: 50px; } }
     .wl-blog-card__image img {
-      width: 100px; }
+      width: 80px; }
+      @media (min-width: 481px) and (max-width: 670px) {
+        .wl-blog-card__image img {
+          width: 100px; } }
       @media (min-width: 980px) {
         .wl-blog-card__image img {
           width: 165px; } }
@@ -9174,9 +9184,12 @@ h4.lets-chat {
       .wl-blog-card__title {
         margin-bottom: 10px; } }
     .wl-blog-card__title a {
-      font-size: 1.75rem;
+      font-size: 1.375rem;
       font-weight: 800;
-      line-height: 2.1875rem; }
+      line-height: 1.25; }
+      @media (min-width: 481px) and (max-width: 670px) {
+        .wl-blog-card__title a {
+          font-size: 1.75rem; } }
   .wl-blog-card__teaser {
     font-family: "EB Garamond", serif;
     margin: 10px 0;
