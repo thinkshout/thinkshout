@@ -38,18 +38,20 @@
     if (direction == 'down') {
       $('header').animate({"padding":"0"}, 50);
       $('header').addClass('fixed');
-      $('header .header-logo img').animate({"width":"10rem", "margin-top": "6px"}, 600);
-      $('.main-menu li a').animate({"padding": "1.1rem 5px"}, 600);
+      if (windowSize > 979) {
+        $('header .header-logo img').animate({"width":"8.125rem", "margin-top": "18px"}, 600);
+      } else {
+        $('header .header-logo img').animate({"width":"8.125rem", "margin-top": "12px"}, 600);
+      }
     } else {
       if (windowSize > 979) {
         $('header').removeClass('fixed');
         $('header').animate({"padding":"2rem 0"}, 50);
         $('header .header-logo img').animate({"width":"11.625rem", "margin-top": "0"}, 600);
-        $('.main-menu li a').animate({"padding": "3.125rem 5px"}, 600);
       } else {
         $('header').removeClass('fixed');
         $('header').animate({"padding":"1rem 0"}, 50);
-        $('header .header-logo img').animate({"width":"11.625rem", "margin-top": "0.5rem"}, 600);
+        $('header .header-logo img').animate({"width":"8.125rem", "margin-top": "12px"}, 600);
       }
     }
   }, { offset: 100 });
