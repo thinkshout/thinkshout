@@ -3844,7 +3844,7 @@ a.visually-hidden.focusable:focus {
         .blog-landing .blog-list li .date {
           display: inline; } }
     .blog-landing .blog-list li a.topic {
-      color: #f1b332;
+      color: #626262;
       font-size: 0.875rem;
       font-weight: 700;
       display: block; }
@@ -3858,7 +3858,7 @@ a.visually-hidden.focusable:focus {
         .blog-landing .blog-list li a.topic {
           display: inline; } }
     .blog-landing .blog-list li h3 a {
-      color: #626262;
+      color: #F06D2F;
       font-size: 1.2rem;
       font-weight: 700;
       margin: 1rem auto;
@@ -3926,6 +3926,12 @@ a.visually-hidden.focusable:focus {
         float: left;
         max-width: 75%;
         white-space: normal; }
+      .blog-landing .blog-list li .byline a:hover,
+      .blog-landing .blog-list li .byline a:focus,
+      .blog-landing .blog-list li .byline a:active {
+        color: #525255;
+        text-decoration: underline;
+        outline: none; }
 
 .team-member-blog {
   background: #f1b332;

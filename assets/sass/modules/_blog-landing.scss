@@ -132,7 +132,7 @@
       }
 
       a.topic {
-        color: $yellow;
+        color: $midgray;
         font-size: rem(14);
         font-weight: 700;
         display: block;
@@ -142,7 +142,7 @@
       }
 
       h3 a {
-        color: $midgray;
+        color: $orange;
         font-size: 1.2rem;
         font-weight: 700;
         margin: 1rem auto;
@@ -191,6 +191,13 @@
           float: left;
           max-width: 75%;
           white-space: normal;
+        }
+        a:hover,
+        a:focus,
+        a:active {
+          color: $darkgray;
+          text-decoration: underline;
+          outline: none;
         }
       }
     }
