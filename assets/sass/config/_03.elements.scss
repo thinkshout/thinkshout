@@ -35,17 +35,20 @@ a:visited {
   text-decoration: none;
 }
 
+.visually-hidden,
 a.visually-hidden {
   clip: rect(1px,1px,1px,1px);
-  color: $darkgray;
   height: 1px;
-  left: 5px;
   overflow: hidden;
   position: absolute;
-  top: 5px;
   width: 1px;
   word-wrap: normal;
   z-index: 0;
+}
+a.visually-hidden {
+  color: $darkgray;
+  left: 5px;
+  top: 5px;
 }
 .wonderlab-page a.visually-hidden {
   color: $white;

@@ -13,7 +13,7 @@
     width: 100%;
 
     .gradient {
-      background-image: linear-gradient( to right, rgba(40,40,40,0.8), rgba(40,40,40,0.5) );
+      background-image: linear-gradient( to right, rgba(40,40,40,0.9), rgba(40,40,40,0.6) );
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
       height: 100%;
       left: 0;
@@ -58,17 +58,18 @@
       @include mq(md) { max-width: 70%; }
       @include mq(l)  { max-width: 55%; }
       a {
-        color: $yellow;
+        color: $white;
         font-weight: 800;
       }
       a:hover,
       a:focus,
       a:active {
         text-decoration: underline;
+        outline: none;
       }
     }
     h2 {
-      color: $yellow;
+      color: $white;
       font-size: rem(22);
       @include mq(lt) { font-size: rem(28); }
       @include mq(md) { font-size: rem(32); }
@@ -114,7 +115,7 @@
     padding: 0;
     li {
       border-bottom: 1px solid $ltgray;
-      display: inline-block; 
+      display: inline-block;
       padding: 1rem 1rem;
       width: 100%;
       @include mq(lt) { padding: 2rem 2rem; }
@@ -155,6 +156,7 @@
       a:focus,
       a:active {
         text-decoration: underline;
+        outline: none;
       }
 
 

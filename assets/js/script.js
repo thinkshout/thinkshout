@@ -108,7 +108,7 @@
     });
 
   if ($(window).width() >= 960) {
-    $('#blog-filter').chosen({disable_search: true});
+    $('#blog-filter').niceSelect();
   }
 
   $('.case-study a, .blog-post a').each(function() {

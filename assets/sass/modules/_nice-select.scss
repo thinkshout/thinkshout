@@ -1,0 +1,344 @@
+// Default variables
+$ns-font_size: rem(12) !default;
+$ns-font_size_small: rem(12) !default;
+
+$ns-input_border_radius: 0 !default;
+$ns-input_height: 46px !default;
+$ns-input_height_small: 32px !default;
+$ns-dropdown_padding: 8px !default;
+
+$ns-gray_dark: $bgblack !default;
+$ns-gray: $darkgray !default;
+$ns-gray_light: $darkgray !default;
+$ns-gray_lighter: $ltgray !default;
+$ns-primary_light: $ns-gray !default;
+$ns-arrow_color: $ns-gray !default;
+
+// Style the dropdown
+.nice-select {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: $orange;
+  border-radius: $ns-input_border_radius;
+  box-sizing: border-box;
+  clear: both;
+  cursor: pointer;
+  display: block;
+  float: none;
+  height: $ns-input_height;
+  line-height: $ns-input_height + 2;
+  margin-bottom: 10px;
+  outline: none;
+  padding-left: 14px;
+  padding-right: $ns-dropdown_padding + 12;
+  position: relative;
+  text-align: left !important;
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+  white-space: nowrap;
+  width: 100%;
+  border: none;
+  color: $ns-gray_dark;
+  font-size: rem(12);
+  font-weight: 500;
+  transition: all 0.3s;
+  outline: 1px solid transparent;
+  @include mq(p)  {
+    margin-bottom: 0;
+  }
+
+    // Arrow
+    &:after {
+      transition: all 0.3s;
+      content: "";
+      height: 8px;
+      display: inline-block;
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      width: 9px;
+      margin-top: -4px;
+      z-index: 100;
+      background: transparent url('../images/svgs/arrow-black.svg') no-repeat center center/cover;
+    }
+
+    &:focus, &:active {
+      background-color: $pale-orange;
+    }
+
+    &.open {
+      &:after {
+        transform: rotate(-180deg);
+      }
+      .list {
+        opacity: 1;
+        pointer-events: auto;
+        transform: scale(1) translateY(0);
+        z-index: 12;
+        &:after {
+          background-color: $white;
+          content: "";
+          height: 100%;
+          margin-left: 0;
+          margin-top: 0;
+          padding: 22px 22px 62px 22px;
+          position: absolute;
+          top: 0;
+          width: 100%;
+          z-index: -1;
+          border: 1px solid $ns-gray_light;
+        }
+      }
+    }
+    &.disabled {
+      border-color: lighten($ns-gray_light, 2%);
+      color: $white;
+      pointer-events: none;
+      &:after {
+        border-color: lighten($ns-arrow_color, 20%);
+      }
+    }
+
+    // Modifiers
+    &.wide {
+      width: 100%;
+      .list {
+          left: 0 !important;
+          right: 0 !important;
+        }
+    }
+    &.right {
+      float: right;
+        .list {
+          left: auto;
+          right: 0;
+        }
+    }
+    &.small {
+      font-size: $ns-font_size_small;
+      height: $ns-input_height_small;
+      line-height: $ns-input_height_small - 2;
+        &:after {
+          height: 4px;
+          width: 4px;
+        }
+        .option {  line-height: $ns-input_height_small - 2;
+          min-height: $ns-input_height_small - 2;
+        }
+    }
+
+    // List and options
+    .list {
+      background-color: #fff;  border-radius: $ns-input_border_radius;
+      box-shadow: 0 0 0 1px rgba($ns-gray_dark, .11);
+      box-sizing: border-box;
+      font-size: $ns-font_size_small;
+      left: 0;
+      margin-left: 0;
+      margin-top: 1px;
+      opacity: 0;
+      padding: 0;
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      transform-origin: 50% 0;
+      transform: translateY(- $ns-input_height / 2);
+      transition: all .2s cubic-bezier(0.5, 0, 0, 1.25), opacity .15s ease-out;
+      width: 100%;
+      z-index: 8;
+        &:hover .option:not(:hover) {
+          background-color: transparent !important;
+        }
+    }
+
+    .option {
+      cursor: pointer;
+      line-height: $ns-input_height + 2;
+      list-style: none;
+      margin-bottom: 0;
+      height: $ns-input_height;
+      outline: none;
+      padding: 0 14px;
+      text-align: left;
+      transition: all 0.2s;
+      width: 100%;
+        &:hover,
+        &.focus {
+          background-color: $pale-orange;
+          color: $ns-gray;
+        }
+        &.disabled {
+          background-color: transparent;
+          color: $ns-gray;
+          cursor: default;
+        }
+        &.selected {
+          background-color: $pale-orange;
+        }
+    }
+}
+.nice-select.has-multiple {
+  height: auto;
+  line-height: 22px;
+  min-height: 36px;
+  padding: 7px 12px;
+  white-space: inherit;
+}
+
+.nice-select.has-multiple span.current {
+  display: inline-block;
+  padding: 0 10px 0 0;
+}
+
+.nice-select.has-multiple .multiple-options {
+  display: block;
+  line-height: 24px;
+  padding: 0;
+}
+.views-exposed-form .form-type-select .nice-select.has-multiple .multiple-options .current {
+  width: auto;
+}
+
+
+// Use display instead of opacity for IE <= 10
+.no-csspointerevents .nice-select {
+  .list {
+    display: none;
+  }
+  &.open {
+    .list {
+      display: block;
+    }
+  }
+}
+
+// Drupal Overrides.
+.views-exposed-form {
+
+  .form--inline {
+    .form-item, .form-actions {
+      display: block;
+      float: none;
+      position: relative;
+    }
+
+    .form-actions input {
+      margin-bottom: 7px;
+    }
+
+    @include mq(p)  {
+      align-items: flex-end;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .form-item, .form-actions {
+        width: 48%;
+      }
+    }
+
+    @include mq(t)  {
+      .form-item, .form-actions {
+        width: 35%;
+      }
+    }
+
+    @include mq(d) {
+      justify-content: flex-start;
+      .form-item, .form-actions {
+        width: 28%;
+        margin-right: 4%;
+      }
+    }
+  }
+
+  label {
+    background-color: $orange;
+    display: inline-block;
+    font-size: rem(16);
+    margin-top: 0;
+    padding-right: 32px;
+    position: relative;
+    text-transform: uppercase;
+    top: 32px;
+    z-index: 8;
+    &.active {
+      background-color: transparent;
+      font-size: rem(14);
+      top: 0;
+      z-index: 13 !important;
+    }
+  }
+
+  .form-type-select {
+    margin-bottom: 16px;
+    margin-top: 0;
+    min-width: 30%;
+    @include mq(d) {
+      min-width: 25%;
+    }
+    .nice-select {
+      border-bottom: 1px solid $ns-gray_dark;
+      height: 36px;
+      .current {
+        color: transparent;
+        display: inline-block;
+        font-size: rem(16);
+        position: relative;
+        width: 100%;
+        z-index: 10;
+        &.opened {
+          color: $ns-gray_dark;
+        }
+      }
+      &:after {
+        background: transparent url('../images/svgs/arrow-black.svg') no-repeat center center/cover;
+      }
+      &.open {
+        background-color: $white;
+      }
+      .option {
+        color: $ns-gray_dark;
+        font-size: rem(16);
+        line-height: 23px;
+        min-height: 23px;
+        padding-left: 0;
+        padding-right: 22px;
+        width: 94%;
+      }
+    }
+  }
+
+  .datetime-wrapper > div {
+    display: block;
+    margin-right: 12px;
+    div {
+      margin-right: 0;
+    }
+    input {
+      border: none;
+      color: $ns-gray_dark;
+      font-size: rem(16);
+      height: 60px;
+      line-height: 58px;
+      outline: none;
+      padding: 30px 20px;
+    }
+  }
+}
+
+.views-exposed-form .form--inline .form-item.js-form-type-select {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    order: 1;
+  }
+
+  .nice-select {
+    order: 2;
+  }
+
+  .nice-select:not(.open) + label.active {
+    z-index: 8 !important;
+  }
+}
