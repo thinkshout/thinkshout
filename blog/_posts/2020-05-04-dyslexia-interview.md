@@ -5,7 +5,7 @@ topic: strategy
 campaign-topic: accessibility
 title: "Accessibility and Dyslexia: An Interview"
 homepage: true
-author: rebeccan
+author: rebecca
 published: true
 featured: true
 short: "Websites that aren’t thoughtfully made can be much harder to navigate for folks with dyslexia."
@@ -13,7 +13,7 @@ tags:
   - Design
   - Accessibility
   - Dyslexia
-date: 2020-05-04 12:00:00
+date: 2020-05-11 12:00:00
 image: https://thinkshout.com/assets/images/blog/dyslexia-hero.jpg
 header-image: /assets/images/blog/dyslexia-hero.jpg
 header-image-alt: "screenshot of rebecca and jules laughing during a zoom interview"
