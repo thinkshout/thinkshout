@@ -27,6 +27,7 @@ Symptoms of dyslexia may look different person by person, but the two most commo
 <span class="caption"><i class="fa fa-caret-up"></i>Here's how text may look for people who experience dyslexia.</span>
 
 ### Websites that aren’t thoughtfully made can be much harder to navigate for folks with dyslexia. In this interview, our team member, [Rebecca](https://thinkshout.com/team/rebeccan/), lends insight to how you can make your website more accessible and easier for everyone to use.
+<br/><br/>
 
 #### Q: When did you find out you had dyslexia?
 A:  I found out I had dyslexia later in life, I was already in high school. I have mild dyslexia, it was harder to diagnose at a younger age. I always felt I had a learning disability, but I blamed it on growing up in a household with dual languages. I would mix letters and numbers up frequently, and I had a hard time memorizing and reading for school assignments. In high school one of my teachers noticed I would mix my letters and numbers often, she asked me if I was ever diagnosed with dyslexia. Since then I have been learning to live a life with dyslexia. 
