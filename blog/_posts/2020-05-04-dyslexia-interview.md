@@ -5,7 +5,7 @@ topic: strategy
 campaign-topic: accessibility
 title: "Accessibility and Dyslexia: An Interview"
 homepage: true
-author: rebecca
+author: rebeccan
 published: true
 featured: true
 short: "Websites that aren’t thoughtfully made can be much harder to navigate for folks with dyslexia."
