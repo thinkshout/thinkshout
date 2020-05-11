@@ -46,13 +46,14 @@ A: Sites cluttered with content and not a lot of white space. Designs that do no
 <br></p></div>
 
 #### Q: Are there fonts or color combinations that you’ve found to be easier or harder to read?
-A: **Hard to read:**
+A:
+**Hard to read:**
 1. Serif fonts. 
 2. White backgrounds with black text.
 3. Italic fonts are nearly impossible to read.
 4. Text centered on a page.
 
-    **Easier to read:**
+**Easier to read:**
 1. Sans Serif fonts.
 2. Text sizes between 12 and 14, the larger the font the more jumbled they become.
 3. Left justified is easier to read.
@@ -71,6 +72,8 @@ A: **Hard to read:**
 
 #### Q: Are there things you do in your settings and preferences to make websites more accessible?
 A: I use a chrome extension called [dyslexia friendly](https://chrome.google.com/webstore/detail/dyslexia-friendly/miepjgfkkommhllbbjaedffcpkncboeo?hl=en), it changes the font to be heavier on the bottom, it also highlights each line. This helps to separate text. For sites with heavy text, like news sites, I use a reader. 
+<div class="paragraph"><p><br>
+<br></p></div>
 
 ![wikipedia page without dyslexia plug in](/assets/images/blog/dyslexia-05-02.jpg) ![wikipedia page without dyslexia plug in](/assets/images/blog/dyslexia-04-1.jpg)
 {:.center}
@@ -92,6 +95,8 @@ A: Do not use serif fonts or italics! Breakup content with images. Avoid white b
 You don’t need to pick aesthetics **or** usability. If you prioritize accessibility when designing, you can make a beautiful website that is usable, informative, **and** that has the ability to be accessible to, literally, millions of more people. Keep thought and intention at the forefront of your process and, always, prioritize compassion in design.  
 
 
+<div class="paragraph"><p><br>
+<br></p></div>
 <div class="paragraph"><p><br>
 <br></p></div>
 <div class="paragraph"><p><br>
