@@ -3,11 +3,11 @@ layout: blog
 body-class: blog-post
 topic: strategy
 campaign-topic: accessibility
-title: "Accessibility Interview: Dyslexia"
+title: "Equitable Digital Connections: What the Internet Looks Like with Dyslexia"
 homepage: false
 author: jules
-published: false
-featured: false
+published: true
+featured: true
 short: "Websites that aren’t thoughtfully made can be much harder to navigate for folks with dyslexia."
 tags:
   - Design
