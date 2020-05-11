@@ -3,7 +3,7 @@ layout: blog
 body-class: blog-post
 topic: strategy
 campaign-topic: covid
-title: "Show up. Strategy and Consumption During COVID-19."
+title: "Show Up. Strategy and Consumption During COVID-19."
 homepage: false
 author: julia
 published: true
