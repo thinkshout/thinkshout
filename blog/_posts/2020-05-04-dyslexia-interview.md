@@ -3,7 +3,7 @@ layout: blog
 body-class: blog-post
 topic: strategy
 campaign-topic: accessibility
-title: "What the Internet Looks Like with Dyslexia"
+title: "Accessibility and Dyslexia: An Interview"
 homepage: true
 author: jules
 published: true
