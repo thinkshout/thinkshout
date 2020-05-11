@@ -16,7 +16,7 @@ tags:
   - marketing
   - "digital marketing"
   - nonprofit
-date: 2020-05-05 11:00:00
+date: 2020-05-11 11:00:00
 image: https://thinkshout.com/assets/images/blog/strategy-hero.jpg
 header-image: /assets/images/blog/strategy-hero.jpg
 header-image-alt: "Game of chess."
