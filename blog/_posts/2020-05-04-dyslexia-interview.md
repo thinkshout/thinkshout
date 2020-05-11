@@ -3,8 +3,8 @@ layout: blog
 body-class: blog-post
 topic: strategy
 campaign-topic: accessibility
-title: "Equitable Digital Connections: What the Internet Looks Like with Dyslexia"
-homepage: false
+title: "What the Internet Looks Like with Dyslexia"
+homepage: true
 author: jules
 published: true
 featured: true
