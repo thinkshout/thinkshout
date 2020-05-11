@@ -81,7 +81,8 @@ A: Do not use serif fonts or italics! Breakup content with images. Avoid white b
 
 ## Website design is not an ‘or’, but an ‘and'. 
 You don’t need to pick aesthetics **or** usability. If you prioritize accessibility when designing, you can make a beautiful website that is usable, informative, **and** that has the ability to be accessible to, literally, millions of more people. Keep thought and intention at the forefront of your process and, always, prioritize compassion in design.
-<br/><br/><br/><br/>
+<br/><br/>
+<br/><br/>
 
 #### References:
 
