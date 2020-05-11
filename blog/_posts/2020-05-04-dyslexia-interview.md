@@ -47,17 +47,19 @@ A: Hard to read:
 2. White backgrounds with black text.
 3. Italic fonts are nearly impossible to read.
 4. Text centered on a page.
+<br/>
 
 ![Hard to read text](/assets/images/blog/dyslexia-hard-4.jpg)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Black, serif text on white background that is harder to read for folks with dyslexia.</span>
-  
+
 Easier to read:
 1. Sans Serif fonts.
 2. Text sizes between 12 and 14, the larger the font the more jumbled they become.
 3. Left justified is easier to read.
 4. A background that is not pure white or black, for text only. 
 5. The more space around a letter, the easier it is to read.
+<br/>
 
 ![Easier to read text](/assets/images/blog/dyslexia-easy-01.jpg)
 {:.center}
@@ -66,6 +68,7 @@ Easier to read:
   
 #### Q: Are there things you do in your settings and preferences to make websites more accessible?
 A: I use a chrome extension called [dyslexia friendly](https://chrome.google.com/webstore/detail/dyslexia-friendly/miepjgfkkommhllbbjaedffcpkncboeo?hl=en), it changes the font to be heavier on the bottom, it also highlights each line. This helps to separate text. For sites with heavy text, like news sites, I use a reader. 
+<br/>
 
 ![wikipedia page without dyslexia plug in](/assets/images/blog/dyslexia-05-02.jpg) ![wikipedia page without dyslexia plug in](/assets/images/blog/dyslexia-04-1.jpg)
 {:.center}
