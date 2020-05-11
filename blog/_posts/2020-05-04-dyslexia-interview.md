@@ -19,14 +19,15 @@ header-image: /assets/images/blog/dyslexia-hero.jpg
 header-image-alt: "screenshot of rebecca and jules laughing during a zoom interview"
 ---
 
-## Dyslexia is a common learning condition (it impacts 15-20% of the population) that makes word recognition, spelling, and word decoding more challenging.
-Symptoms of dyslexia may look different person by person, but the two most common variants of dyslexia are phonological dyslexia and surface dyslexia. Phonological dyslexia is linked to auditory processing, making it harder to distinguish individual word sounds and syllables, and blending those sounds into words. Surface dyslexia is visual in nature, causing difficulty with recognition and spelling; this is intensified with words that aren’t spelled phonetically. 
+## Dyslexia is more common than you might think.
+Dyslexia is a common learning condition that impacts 15-20% of the population. It makes word recognition, spelling, and word decoding more challenging. Symptoms of dyslexia may look different person by person, but the two most common variants of dyslexia are phonological dyslexia and surface dyslexia. Phonological dyslexia is linked to auditory processing, making it harder to distinguish individual word sounds and syllables, and blending those sounds into words. Surface dyslexia is visual in nature, causing difficulty with recognition and spelling; this is intensified with words that aren’t spelled phonetically. 
 
 ![gif of how text may look with dyslexia](/assets/images/blog/dyslexia.gif)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Here's how text may look for people who experience dyslexia.</span>
 
-### Websites that aren’t thoughtfully made can be much harder to navigate for folks with dyslexia. In this interview, our team member, [Rebecca](https://thinkshout.com/team/rebeccan/), lends insight to how you can make your website more accessible and easier for everyone to use.  
+### Websites that don’t take dyslexia into consideration can be much harder to navigate
+In this interview, our team member, [Rebecca](https://thinkshout.com/team/rebeccan/), lends insight to how you can make your website more accessible and easier for everyone to use.  
 <div class="paragraph"><p><br>
 <br></p></div>
     
