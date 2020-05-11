@@ -50,7 +50,6 @@ A: Hard to read:
 ![Hard to read text](/assets/images/blog/dyslexia-hard-4.jpg)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Black, serif text on white background that is harder to read for folks with dyslexia.</span>
-<br/><br/>
   
 Easier to read:
 1. Sans Serif fonts.
