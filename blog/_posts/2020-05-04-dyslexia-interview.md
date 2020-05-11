@@ -59,6 +59,8 @@ A:
 4. A background that is not pure white or black, for text only. 
 5. The more space around a letter, the easier it is to read.
 
+[Test your colors for accessible contrast](https://webaim.org/resources/contrastchecker/). A contrast ratio of 4.5:1 is great. If the contrast is too great (black text on a white background is 25:1), it creates a challenge for people with dyslexia. Find a nice balance somewhere in the middle.
+
 ![Easier to read text](/assets/images/blog/dyslexia-easy-01.jpg)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Grey, sans serif text on off-white background that is easier to read for folks with dyslexia.</span>  
