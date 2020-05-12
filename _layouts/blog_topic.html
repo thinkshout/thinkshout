@@ -15,7 +15,11 @@ layout: default
       {% endif %}
         <div class="wrapper">
           <div class="header-down-caret">
-            <h4>Featured blog post</h4>
+            {% if post.type %}
+              <h4>{{ post.type }}</h4>
+            {% else %}
+              <h4>Featured blog post</h4>
+            {% endif %}
             <i class="fa fa-caret-down"></i>
           </div>
           <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -47,7 +51,11 @@ layout: default
       {% endif %}
         <div class="wrapper">
           <div class="header-down-caret">
-            <h4>Featured blog post</h4>
+            {% if post.type %}
+              <h4>{{ post.type }}</h4>
+            {% else %}
+              <h4>Featured blog post</h4>
+            {% endif %}
             <i class="fa fa-caret-down"></i>
           </div>
           <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>

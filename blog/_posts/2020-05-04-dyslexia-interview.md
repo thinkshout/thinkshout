@@ -4,8 +4,9 @@ body-class: blog-post
 topic: strategy
 campaign-topic: accessibility
 title: "Accessibility and Dyslexia: An Interview"
+type: "Equitable Digital Connections: Featured Post"
 homepage: true
-author: rebecca
+author: rebeccan
 published: true
 featured: true
 short: "Websites that aren’t thoughtfully made can be much harder to navigate for folks with dyslexia."
@@ -20,7 +21,7 @@ header-image-alt: "screenshot of rebecca and jules laughing during a zoom interv
 ---
 
 ## Dyslexia is more common than you might think.
-Dyslexia is a common learning condition that impacts 15-20% of the population. It makes word recognition, spelling, and word decoding more challenging. The two most common variants of dyslexia are phonological dyslexia and surface dyslexia (though symptoms of dyslexia may present differently on an individual basis). Phonological dyslexia is linked to auditory processing, making it harder to distinguish individual word sounds and syllables, and blending those sounds into words. Surface dyslexia is visual in nature, causing difficulty with recognition and spelling; this is intensified with words that aren’t spelled phonetically. 
+Dyslexia is a common learning condition that impacts 15-20% of the population. It makes word recognition, spelling, and word decoding more challenging. The two most common variants of dyslexia are phonological dyslexia and surface dyslexia (though symptoms of dyslexia may present differently on an individual basis). Phonological dyslexia is linked to auditory processing, making it harder to distinguish individual word sounds and syllables, and blending those sounds into words. Surface dyslexia is visual in nature, causing difficulty with recognition and spelling; this is intensified with words that aren’t spelled phonetically.
 
 ![gif of how text may look with dyslexia](/assets/images/blog/dyslexia.gif)
 {:.center}
