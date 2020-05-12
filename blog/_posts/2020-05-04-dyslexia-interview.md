@@ -9,7 +9,7 @@ homepage: true
 author: rebeccan
 published: true
 featured: true
-short: "Websites that aren’t thoughtfully made can be much harder to navigate for folks with dyslexia."
+short: "Websites that don’t take dyslexia into consideration can be much harder to navigate."
 tags:
   - Design
   - Accessibility
@@ -27,7 +27,7 @@ Dyslexia is a common learning condition that impacts 15-20% of the population. I
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Here's how text may look for people who experience dyslexia.</span>
 
-### Websites that don’t take dyslexia into consideration can be much harder to navigate
+### Websites that don’t take dyslexia into consideration can be much harder to navigate.
 In this interview, [Jules](https://thinkshout.com/team/jules/) and [Rebecca](https://thinkshout.com/team/rebeccan/) talk about how you can make your website more accessible and easier for everyone to use.  
 <div class="paragraph"><p><br>
 <br></p></div>
