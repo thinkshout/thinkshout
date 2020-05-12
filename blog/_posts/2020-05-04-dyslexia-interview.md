@@ -9,7 +9,7 @@ homepage: true
 author: rebeccan
 published: true
 featured: true
-short: "Websites that don’t take dyslexia into consideration can be much harder to navigate."
+short: "Websites that don’t take dyslexia into consideration can be much harder to navigate. In this interview, Jules and Rebecca talk about how you can make your website more accessible and easier for everyone to use."
 tags:
   - Design
   - Accessibility
