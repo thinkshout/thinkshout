@@ -54,7 +54,7 @@ You can’t lose here. **There are plenty of tools that are free that you can ea
 
 This can be labor intensive. We know. But by closely monitoring who is signing up for your lists, following up with both existing and new file members and segmenting your communication as much as possible, you could see a huge impact.
 
-[Colombia Riverkeeper](https://www.columbiariverkeeper.org/) in Hood River, OR has been using their [Drupal 8](https://www.drupal.org/8) site, [Salsa Engage](https://www.salsalabs.com/sign-in) forms, and hands on staff to send email surveys to different subsets of their mailing list. This has resulted in:
+[Columbia Riverkeeper](https://www.columbiariverkeeper.org/) in Hood River, OR has been using their [Drupal 8](https://www.drupal.org/8) site, [Salsa Engage](https://www.salsalabs.com/sign-in) forms, and hands on staff to send email surveys to different subsets of their mailing list. This has resulted in:
 * Prioritized programming needs and in the field organizing;
 * More targeted fundraising campaigns; 
 * Personal phone calls from appropriate staff members to key donors;
