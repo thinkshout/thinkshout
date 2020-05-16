@@ -131,43 +131,4 @@
     window.open(this.href, '_blank');
   });
 
-
-  var isIE9OrBelow = function() {
-     return /MSIE\s/.test(navigator.userAgent) && parseFloat(navigator.appVersion.split("MSIE")[1]) < 10;
-  }
-
-  // placeholders for forms (IE9)
-  $(document).ready(function() {
-  if(isIE9OrBelow){
-    $("input").each(
-    function(){
-      var inputField = $(this);
-      if(inputField.val()=="" && inputField.attr("placeholder")!=""){
-
-        inputField.val(inputField.attr("placeholder"));
-
-        inputField.focus(function(){
-          if(inputField.val()==inputField.attr("placeholder")){ inputField.val(""); }
-        });
-
-        inputField.blur(function(){
-          if(inputField.val()==""){ inputField.val(inputField.attr("placeholder")); }
-        });
-
-        $(inputField).closest('form').submit(function(){
-          var form = $(this);
-          if(!form.hasClass('placeholderPending')){
-            $('input',this).each(function(){
-              var clearInput = $(this);
-              if(clearInput.val()==clearInput.attr("placeholder")){ clearInput.val(""); }
-            });
-            form.addClass('placeholderPending');
-          }
-        });
-      }
-    });
-  }
-  });
-
-
 })(jQuery);
