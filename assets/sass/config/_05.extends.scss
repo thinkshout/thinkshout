@@ -107,7 +107,8 @@
     &:hover,
     &:focus,
     &:active {
-      color: $orange;
+      outline: none;
+      text-decoration: underline;
     }
   }
   img {

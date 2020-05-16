@@ -2182,7 +2182,8 @@ a.visually-hidden.focusable:focus {
     font-weight: 700;
     padding-top: 0.375rem; }
     .byline a:hover, .byline a:focus, .byline a:active {
-      color: #F06D2F; }
+      outline: none;
+      text-decoration: underline; }
   .byline img {
     width: 3.375rem;
     height: auto;
@@ -2967,7 +2968,7 @@ a.visually-hidden.focusable:focus {
       .blog-post .blog-header .date {
         display: inline; } }
   .blog-post .blog-header a.topic {
-    color: #f1b332;
+    color: #000;
     font-size: 0.9375rem;
     font-weight: 700;
     display: block; }
@@ -2980,6 +2981,9 @@ a.visually-hidden.focusable:focus {
     @media (min-width: 1200px) {
       .blog-post .blog-header a.topic {
         display: inline; } }
+    .blog-post .blog-header a.topic:hover, .blog-post .blog-header a.topic:focus, .blog-post .blog-header a.topic:active {
+      outline: none;
+      text-decoration: underline; }
   .blog-post .blog-header h1 {
     color: #626262;
     font-size: 1.6rem;
@@ -3001,7 +3005,8 @@ a.visually-hidden.focusable:focus {
   .blog-post .blog-header .byline {
     margin-bottom: 2rem; }
 .blog-post .blog-header-image {
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 8px; }
   .blog-post .blog-header-image img {
     height: auto;
     width: 100%; }
@@ -3014,10 +3019,6 @@ a.visually-hidden.focusable:focus {
 .blog-post .body ol,
 .blog-post .body div.highlighter-rouge,
 .blog-post .body iframe,
-.blog-post .body .blog-cta,
-.blog-post .body .comments,
-.blog-post .body .gist,
-.blog-post .body .tags,
 .blog-post .body table,
 .blog-post .intro h2,
 .blog-post .intro h3,
@@ -3028,10 +3029,6 @@ a.visually-hidden.focusable:focus {
 .blog-post .intro ol,
 .blog-post .intro div.highlighter-rouge,
 .blog-post .intro iframe,
-.blog-post .intro .blog-cta,
-.blog-post .intro .comments,
-.blog-post .intro .gist,
-.blog-post .intro .tags,
 .blog-post .intro table {
   color: #525255;
   display: block;
@@ -3049,10 +3046,6 @@ a.visually-hidden.focusable:focus {
     .blog-post .body ol,
     .blog-post .body div.highlighter-rouge,
     .blog-post .body iframe,
-    .blog-post .body .blog-cta,
-    .blog-post .body .comments,
-    .blog-post .body .gist,
-    .blog-post .body .tags,
     .blog-post .body table,
     .blog-post .intro h2,
     .blog-post .intro h3,
@@ -3063,10 +3056,6 @@ a.visually-hidden.focusable:focus {
     .blog-post .intro ol,
     .blog-post .intro div.highlighter-rouge,
     .blog-post .intro iframe,
-    .blog-post .intro .blog-cta,
-    .blog-post .intro .comments,
-    .blog-post .intro .gist,
-    .blog-post .intro .tags,
     .blog-post .intro table {
       width: 90%;
       padding: 0 1.875rem; } }
@@ -3080,10 +3069,6 @@ a.visually-hidden.focusable:focus {
     .blog-post .body ol,
     .blog-post .body div.highlighter-rouge,
     .blog-post .body iframe,
-    .blog-post .body .blog-cta,
-    .blog-post .body .comments,
-    .blog-post .body .gist,
-    .blog-post .body .tags,
     .blog-post .body table,
     .blog-post .intro h2,
     .blog-post .intro h3,
@@ -3094,10 +3079,6 @@ a.visually-hidden.focusable:focus {
     .blog-post .intro ol,
     .blog-post .intro div.highlighter-rouge,
     .blog-post .intro iframe,
-    .blog-post .intro .blog-cta,
-    .blog-post .intro .comments,
-    .blog-post .intro .gist,
-    .blog-post .intro .tags,
     .blog-post .intro table {
       width: 90%;
       padding: 0 3.75rem; } }
@@ -3111,10 +3092,6 @@ a.visually-hidden.focusable:focus {
     .blog-post .body ol,
     .blog-post .body div.highlighter-rouge,
     .blog-post .body iframe,
-    .blog-post .body .blog-cta,
-    .blog-post .body .comments,
-    .blog-post .body .gist,
-    .blog-post .body .tags,
     .blog-post .body table,
     .blog-post .intro h2,
     .blog-post .intro h3,
@@ -3125,10 +3102,6 @@ a.visually-hidden.focusable:focus {
     .blog-post .intro ol,
     .blog-post .intro div.highlighter-rouge,
     .blog-post .intro iframe,
-    .blog-post .intro .blog-cta,
-    .blog-post .intro .comments,
-    .blog-post .intro .gist,
-    .blog-post .intro .tags,
     .blog-post .intro table {
       width: 100%;
       padding: 0 6.25rem; } }
@@ -3141,10 +3114,6 @@ a.visually-hidden.focusable:focus {
   .blog-post .body ol a,
   .blog-post .body div.highlighter-rouge a,
   .blog-post .body iframe a,
-  .blog-post .body .blog-cta a,
-  .blog-post .body .comments a,
-  .blog-post .body .gist a,
-  .blog-post .body .tags a,
   .blog-post .body table a,
   .blog-post .intro h2 a,
   .blog-post .intro h3 a,
@@ -3155,12 +3124,69 @@ a.visually-hidden.focusable:focus {
   .blog-post .intro ol a,
   .blog-post .intro div.highlighter-rouge a,
   .blog-post .intro iframe a,
-  .blog-post .intro .blog-cta a,
-  .blog-post .intro .comments a,
-  .blog-post .intro .gist a,
-  .blog-post .intro .tags a,
   .blog-post .intro table a {
-    color: #F06D2F; }
+    color: #BF450D;
+    text-decoration: underline; }
+    .blog-post .body h2 a:hover, .blog-post .body h2 a:focus, .blog-post .body h2 a:active,
+    .blog-post .body h3 a:hover,
+    .blog-post .body h3 a:focus,
+    .blog-post .body h3 a:active,
+    .blog-post .body h4 a:hover,
+    .blog-post .body h4 a:focus,
+    .blog-post .body h4 a:active,
+    .blog-post .body p a:hover,
+    .blog-post .body p a:focus,
+    .blog-post .body p a:active,
+    .blog-post .body blockquote a:hover,
+    .blog-post .body blockquote a:focus,
+    .blog-post .body blockquote a:active,
+    .blog-post .body ul a:hover,
+    .blog-post .body ul a:focus,
+    .blog-post .body ul a:active,
+    .blog-post .body ol a:hover,
+    .blog-post .body ol a:focus,
+    .blog-post .body ol a:active,
+    .blog-post .body div.highlighter-rouge a:hover,
+    .blog-post .body div.highlighter-rouge a:focus,
+    .blog-post .body div.highlighter-rouge a:active,
+    .blog-post .body iframe a:hover,
+    .blog-post .body iframe a:focus,
+    .blog-post .body iframe a:active,
+    .blog-post .body table a:hover,
+    .blog-post .body table a:focus,
+    .blog-post .body table a:active,
+    .blog-post .intro h2 a:hover,
+    .blog-post .intro h2 a:focus,
+    .blog-post .intro h2 a:active,
+    .blog-post .intro h3 a:hover,
+    .blog-post .intro h3 a:focus,
+    .blog-post .intro h3 a:active,
+    .blog-post .intro h4 a:hover,
+    .blog-post .intro h4 a:focus,
+    .blog-post .intro h4 a:active,
+    .blog-post .intro p a:hover,
+    .blog-post .intro p a:focus,
+    .blog-post .intro p a:active,
+    .blog-post .intro blockquote a:hover,
+    .blog-post .intro blockquote a:focus,
+    .blog-post .intro blockquote a:active,
+    .blog-post .intro ul a:hover,
+    .blog-post .intro ul a:focus,
+    .blog-post .intro ul a:active,
+    .blog-post .intro ol a:hover,
+    .blog-post .intro ol a:focus,
+    .blog-post .intro ol a:active,
+    .blog-post .intro div.highlighter-rouge a:hover,
+    .blog-post .intro div.highlighter-rouge a:focus,
+    .blog-post .intro div.highlighter-rouge a:active,
+    .blog-post .intro iframe a:hover,
+    .blog-post .intro iframe a:focus,
+    .blog-post .intro iframe a:active,
+    .blog-post .intro table a:hover,
+    .blog-post .intro table a:focus,
+    .blog-post .intro table a:active {
+      outline: none;
+      color: #242424; }
   .blog-post .body h2 img,
   .blog-post .body h3 img,
   .blog-post .body h4 img,
@@ -3170,10 +3196,6 @@ a.visually-hidden.focusable:focus {
   .blog-post .body ol img,
   .blog-post .body div.highlighter-rouge img,
   .blog-post .body iframe img,
-  .blog-post .body .blog-cta img,
-  .blog-post .body .comments img,
-  .blog-post .body .gist img,
-  .blog-post .body .tags img,
   .blog-post .body table img,
   .blog-post .intro h2 img,
   .blog-post .intro h3 img,
@@ -3184,11 +3206,96 @@ a.visually-hidden.focusable:focus {
   .blog-post .intro ol img,
   .blog-post .intro div.highlighter-rouge img,
   .blog-post .intro iframe img,
+  .blog-post .intro table img {
+    max-width: 100%; }
+.blog-post .body .blog-cta,
+.blog-post .body .comments,
+.blog-post .body .gist,
+.blog-post .body .tags,
+.blog-post .intro .blog-cta,
+.blog-post .intro .comments,
+.blog-post .intro .gist,
+.blog-post .intro .tags {
+  color: #525255;
+  display: block;
+  margin: 1em auto;
+  max-width: 996px;
+  padding: 0 0.75rem;
+  width: 94%; }
+  @media (min-width: 671px) and (max-width: 979px) {
+    .blog-post .body .blog-cta,
+    .blog-post .body .comments,
+    .blog-post .body .gist,
+    .blog-post .body .tags,
+    .blog-post .intro .blog-cta,
+    .blog-post .intro .comments,
+    .blog-post .intro .gist,
+    .blog-post .intro .tags {
+      width: 90%;
+      padding: 0 1.875rem; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    .blog-post .body .blog-cta,
+    .blog-post .body .comments,
+    .blog-post .body .gist,
+    .blog-post .body .tags,
+    .blog-post .intro .blog-cta,
+    .blog-post .intro .comments,
+    .blog-post .intro .gist,
+    .blog-post .intro .tags {
+      width: 90%;
+      padding: 0 3.75rem; } }
+  @media (min-width: 1200px) {
+    .blog-post .body .blog-cta,
+    .blog-post .body .comments,
+    .blog-post .body .gist,
+    .blog-post .body .tags,
+    .blog-post .intro .blog-cta,
+    .blog-post .intro .comments,
+    .blog-post .intro .gist,
+    .blog-post .intro .tags {
+      width: 100%;
+      padding: 0 6.25rem; } }
+  .blog-post .body .blog-cta a,
+  .blog-post .body .comments a,
+  .blog-post .body .gist a,
+  .blog-post .body .tags a,
+  .blog-post .intro .blog-cta a,
+  .blog-post .intro .comments a,
+  .blog-post .intro .gist a,
+  .blog-post .intro .tags a {
+    color: #BF450D; }
+    .blog-post .body .blog-cta a:hover, .blog-post .body .blog-cta a:focus, .blog-post .body .blog-cta a:active,
+    .blog-post .body .comments a:hover,
+    .blog-post .body .comments a:focus,
+    .blog-post .body .comments a:active,
+    .blog-post .body .gist a:hover,
+    .blog-post .body .gist a:focus,
+    .blog-post .body .gist a:active,
+    .blog-post .body .tags a:hover,
+    .blog-post .body .tags a:focus,
+    .blog-post .body .tags a:active,
+    .blog-post .intro .blog-cta a:hover,
+    .blog-post .intro .blog-cta a:focus,
+    .blog-post .intro .blog-cta a:active,
+    .blog-post .intro .comments a:hover,
+    .blog-post .intro .comments a:focus,
+    .blog-post .intro .comments a:active,
+    .blog-post .intro .gist a:hover,
+    .blog-post .intro .gist a:focus,
+    .blog-post .intro .gist a:active,
+    .blog-post .intro .tags a:hover,
+    .blog-post .intro .tags a:focus,
+    .blog-post .intro .tags a:active {
+      outline: none;
+      color: #242424; }
+  .blog-post .body .blog-cta img,
+  .blog-post .body .comments img,
+  .blog-post .body .gist img,
+  .blog-post .body .tags img,
   .blog-post .intro .blog-cta img,
   .blog-post .intro .comments img,
   .blog-post .intro .gist img,
-  .blog-post .intro .tags img,
-  .blog-post .intro table img {
+  .blog-post .intro .tags img {
     max-width: 100%; }
 .blog-post .body ol.floated, .blog-post .body ul.floated,
 .blog-post .intro ol.floated,
@@ -3554,8 +3661,8 @@ a.visually-hidden.focusable:focus {
     color: #626262;
     margin-right: .3em; }
     .blog-post .body .tags a:hover, .blog-post .body .tags a:focus, .blog-post .body .tags a:active {
-      border-bottom: 1px solid #F06D2F;
-      color: #F06D2F; }
+      border-bottom: 1px solid #000;
+      color: #000; }
 .blog-post .body .leadin {
   color: #f1f1f1; }
 .blog-post .body .blog-cta {
@@ -3658,7 +3765,7 @@ a.visually-hidden.focusable:focus {
     transition: color, 0.3s, linear;
     color: #525255; }
     .pagination a:hover, .pagination a:focus, .pagination a:active {
-      color: #F06D2F; }
+      color: #000; }
   .pagination .previous,
   .pagination .next,
   .pagination .page_number {
