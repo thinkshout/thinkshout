@@ -32,11 +32,19 @@
     z-index: 1;
     @include mq(m) { min-height: 285px; width: 100%; }
 
+    h2 {
+      @include transition(color 0.2s);
+    }
+
     &:hover,
     &:focus,
     &:active {
       border: rem(6) solid $orange;
       @include transition(border 0.2s);
+
+      h2 {
+        color: $orange;
+      }
     }
 
     .wrapper {
