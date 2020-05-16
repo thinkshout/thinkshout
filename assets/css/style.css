@@ -8400,12 +8400,12 @@ h4.lets-chat {
     width: 100%; }
   .team .team-member h2 {
     color: #525255;
-    font-size: 1rem;
-    margin: 0.5rem 0;
+    font-size: 1.25rem;
+    margin: 10px 0 5px;
     text-transform: uppercase; }
   .team .team-member p {
     color: #626262;
-    font-size: 0.75rem;
+    font-size: 1rem;
     margin: 0; }
 
 @media (max-width: 480px) {
