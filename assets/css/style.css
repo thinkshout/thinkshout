@@ -3844,7 +3844,7 @@ a.visually-hidden.focusable:focus {
         .blog-landing .blog-list li .date {
           display: inline; } }
     .blog-landing .blog-list li a.topic {
-      color: #626262;
+      color: #000;
       font-size: 0.875rem;
       font-weight: 700;
       display: block; }
@@ -6443,7 +6443,7 @@ h4.lets-chat {
     transform: scale(1) translateY(0);
     z-index: 12; }
     .nice-select.open .list:after {
-      background-color: #fff;
+      background-color: #626262;
       content: "";
       height: 100%;
       margin-left: 0;
@@ -6456,7 +6456,7 @@ h4.lets-chat {
       border: 1px solid #525255; }
   .nice-select.disabled {
     border-color: #57575a;
-    color: #fff;
+    color: #626262;
     pointer-events: none; }
     .nice-select.disabled:after {
       border-color: #848489; }
@@ -6481,7 +6481,7 @@ h4.lets-chat {
       line-height: 30px;
       min-height: 30px; }
   .nice-select .list {
-    background-color: #fff;
+    background-color: #626262;
     border-radius: 0;
     box-shadow: 0 0 0 1px rgba(36, 36, 36, 0.11);
     box-sizing: border-box;
@@ -6493,15 +6493,17 @@ h4.lets-chat {
     padding: 0;
     pointer-events: none;
     position: absolute;
-    top: 0;
+    top: -1px;
     transform-origin: 50% 0;
     transform: translateY(-23px);
     transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
     width: 100%;
     z-index: 8; }
     .nice-select .list:hover .option:not(:hover) {
-      background-color: transparent !important; }
+      background-color: transparent !important;
+      color: #fff !important; }
   .nice-select .option {
+    color: #fff;
     cursor: pointer;
     line-height: 48px;
     list-style: none;
@@ -6514,13 +6516,14 @@ h4.lets-chat {
     width: 100%; }
     .nice-select .option:hover, .nice-select .option.focus {
       background-color: #F38958;
-      color: #525255; }
+      color: #292929; }
     .nice-select .option.disabled {
       background-color: transparent;
-      color: #525255;
+      color: #fff;
       cursor: default; }
     .nice-select .option.selected {
-      background-color: #F38958; }
+      background-color: #F06D2F;
+      color: #292929; }
 
 .nice-select.has-multiple {
   height: auto;
@@ -6606,7 +6609,7 @@ h4.lets-chat {
     .views-exposed-form .form-type-select .nice-select:after {
       background: transparent url("../images/svgs/arrow-black.svg") no-repeat center center/cover; }
     .views-exposed-form .form-type-select .nice-select.open {
-      background-color: #fff; }
+      background-color: #626262; }
     .views-exposed-form .form-type-select .nice-select .option {
       color: #242424;
       font-size: 1rem;

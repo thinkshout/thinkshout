@@ -75,7 +75,7 @@ $ns-arrow_color: $ns-gray !default;
         transform: scale(1) translateY(0);
         z-index: 12;
         &:after {
-          background-color: $white;
+          background-color: $midgray;
           content: "";
           height: 100%;
           margin-left: 0;
@@ -91,7 +91,7 @@ $ns-arrow_color: $ns-gray !default;
     }
     &.disabled {
       border-color: lighten($ns-gray_light, 2%);
-      color: $white;
+      color: $midgray;
       pointer-events: none;
       &:after {
         border-color: lighten($ns-arrow_color, 20%);
@@ -128,7 +128,7 @@ $ns-arrow_color: $ns-gray !default;
 
     // List and options
     .list {
-      background-color: #fff;  border-radius: $ns-input_border_radius;
+      background-color: $midgray;  border-radius: $ns-input_border_radius;
       box-shadow: 0 0 0 1px rgba($ns-gray_dark, .11);
       box-sizing: border-box;
       font-size: $ns-font_size_small;
@@ -139,7 +139,7 @@ $ns-arrow_color: $ns-gray !default;
       padding: 0;
       pointer-events: none;
       position: absolute;
-      top: 0;
+      top: -1px;
       transform-origin: 50% 0;
       transform: translateY(- $ns-input_height / 2);
       transition: all .2s cubic-bezier(0.5, 0, 0, 1.25), opacity .15s ease-out;
@@ -147,10 +147,12 @@ $ns-arrow_color: $ns-gray !default;
       z-index: 8;
         &:hover .option:not(:hover) {
           background-color: transparent !important;
+          color: $white !important;
         }
     }
 
     .option {
+      color: $white;
       cursor: pointer;
       line-height: $ns-input_height + 2;
       list-style: none;
@@ -164,15 +166,16 @@ $ns-arrow_color: $ns-gray !default;
         &:hover,
         &.focus {
           background-color: $pale-orange;
-          color: $ns-gray;
+          color: $darkergray;
         }
         &.disabled {
           background-color: transparent;
-          color: $ns-gray;
+          color: $white;
           cursor: default;
         }
         &.selected {
-          background-color: $pale-orange;
+          background-color: $orange;
+          color: $darkergray;
         }
     }
 }
@@ -294,7 +297,7 @@ $ns-arrow_color: $ns-gray !default;
         background: transparent url('../images/svgs/arrow-black.svg') no-repeat center center/cover;
       }
       &.open {
-        background-color: $white;
+        background-color: $midgray;
       }
       .option {
         color: $ns-gray_dark;
