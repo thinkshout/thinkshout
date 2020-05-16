@@ -8,9 +8,8 @@
           {% for tag in post.tags %}
             {% if tag | downcase == include.related %}
               <div class="post">
-                <a href="{{ site.baseurl }}{{ post.url }}">
                   <p class="post-date">{{ post.date | date: "%m.%d.%Y" }}</p>
-                  <h3 class="post-title">{{ post.title}}</h3>
+                  <h3 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h3>
                   <p class="post-short">{{ post.short }}</p>
                   <p class="byline">
                     {% assign person = site.team | where:"name",post.author %}
@@ -25,7 +24,6 @@
                       {% endif %}
                     </span>
                   </p>
-                </a>
               </div>
 
               {% assign tsloop = tsloop | plus: 1 %}
