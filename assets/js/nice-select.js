@@ -121,7 +121,7 @@ Accessibility tweaks by jkomenda
         $( document ).ajaxComplete(function() {
           $('.nice-select').each(function(){
             var el = $(this);
-            if ( el.find('span').hasClass('current') && el.find('.current').text() != '- Any -' ) {
+            if ( el.find('span').hasClass('current') && el.find('.current').text() != 'All' ) {
                 $(this).parent().find('label').addClass('active').css('z-index', 11);
                 $(this).find('.current').addClass('opened');
             }

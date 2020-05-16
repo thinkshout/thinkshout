@@ -84,10 +84,10 @@ layout: default
   <div class="filter-wrapper" id="filter-wrapper">
     <form>
     <select id="blog-filter" class="blog-filter">
-      <option value="all">All</option>
+      <option value="{{ site.baseurl }}/blog/">All</option>
       {% assign topics = site.topic | sort: "order" %}
       {% for posttopic in topics %}
-      <option value="{{ site.baseurl }}/blog/topic/{{ posttopic.topic }}">{{ posttopic.title }}</option>
+      <option value="{{ site.baseurl }}/blog/topic/{{ posttopic.topic }}/">{{ posttopic.title }}</option>
       {% endfor %}
     </select>
     </form>

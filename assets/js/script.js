@@ -88,9 +88,9 @@
   // Blog Type selector
   var blogType = window.location.pathname.replace(/^\/|\/$/g, '').split('/').pop();
   if (blogType == 'blog') {
-    blogType = 'all';
+    blogType = '/blog/';
   } else {
-    blogType = '/blog/topic/' + blogType;
+    blogType = '/blog/topic/' + blogType + '/';
   }
 
   $('#blog-filter')
