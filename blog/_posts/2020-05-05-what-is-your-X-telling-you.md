@@ -3,10 +3,10 @@ layout: blog
 body-class: blog-post
 topic: strategy
 campaign-topic: covid
-title: "Show up. Strategy and Consumption During COVID-19."
+title: "Show Up. Strategy and Consumption During COVID-19."
 homepage: false
 author: julia
-published: false
+published: true
 featured: false
 short: "We wish we could provide definitive answers, but we can’t. What we can do is highlight some things we are seeing that work and support you and your teams in thinking through strategic approaches to use what you have in new and different ways."
 tags:
@@ -16,16 +16,18 @@ tags:
   - marketing
   - "digital marketing"
   - nonprofit
-date: 2020-05-05 11:00:00
+date: 2020-05-11 11:00:00
 image: https://thinkshout.com/assets/images/blog/strategy-hero.jpg
 header-image: /assets/images/blog/strategy-hero.jpg
 header-image-alt: "Game of chess."
 ---
-### What is happening in the world right now is unpredictable and confusing. It’s hard to fully wrap your head around. Each day, week, and month, that pass can feel either endless or like time is giving you whiplash.  
+## What is happening in the world right now is unpredictable and confusing. 
+It’s hard to fully wrap your head around. Each day, week, and month, that pass can feel either endless or like time is giving you whiplash. 
 
 Crises on a massive scale are, unfortunately, not uncommon. Whether it be drought, famine, widespread illness, or war, countless people around the world are afflicted with immeasurable hardship. The impact of COVID-19 is different in the sense that it’s felt on a global scale; no matter who you are or where you live, the effects of this pandemic are impossible to hide from. Even the most ardent protestors are impacted by closures and general disorganization and inaction from the Federal government. [That said, it is necessary to acknowledge that the impact of COVID is not distributed equally, as race and class play a larger part in the systemic inequities that have, for too long, limited access to healthcare and resources.](https://www.nytimes.com/2020/04/29/magazine/racial-disparities-covid-19.html)  
 
 [On that note, many folks working minimum wage jobs have been deemed essential, even without adequate compensation or hazard pay.](https://www.brookings.edu/research/covid-19s-essential-workers-deserve-hazard-pay-heres-why-and-how-it-should-work/) And these essential workers, in hospitals, healthcare facilitates, food production roles etc., are showing up for the rest of us in big ways. Concurrently, some nonprofits have become beacons and the focus of [global “from home” concerts](https://www.globalcitizen.org/en/connect/togetherathome/) and national fundraising efforts. Others are hard hit, crossing their fingers that their bank has the bandwidth to process their [Payment Protection Program](https://www.sba.gov/funding-programs/loans/coronavirus-relief-options/paycheck-protection-program) application and that they will be able to keep their doors open. Right now, there are more questions than answers when trying to put a fine point on “industry trends” in terms of fundraising and financial forecasting.  
+
 ### It’s hard to navigate real, tangible ways to assess what is happening in the world of philanthropy and what it means for your organization beyond today, let alone next week or next month. 
 
 ThinkShout has been sprinting to keep up, providing routine support, stable hosting for websites as traffic spikes (depending on the daily news), and supporting your teams in [finding creative ways to stand out](https://freedomhouse.org/issues/democracy-during-pandemic) from the crowd. We hear many questions across nonprofit sectors related to analytics and leveraging existing functionality to elevate key messages and core needs. 
@@ -52,7 +54,7 @@ You can’t lose here. **There are plenty of tools that are free that you can ea
 
 This can be labor intensive. We know. But by closely monitoring who is signing up for your lists, following up with both existing and new file members and segmenting your communication as much as possible, you could see a huge impact.
 
-[Colombia Riverkeeper](https://www.columbiariverkeeper.org/) in Hood River, OR has been using their [Drupal 8](https://www.drupal.org/8) site, [Salsa Engage](https://www.salsalabs.com/sign-in) forms, and hands on staff to send email surveys to different subsets of their mailing list. This has resulted in:
+[Columbia Riverkeeper](https://www.columbiariverkeeper.org/) in Hood River, OR has been using their [Drupal 8](https://www.drupal.org/8) site, [Salsa Engage](https://www.salsalabs.com/sign-in) forms, and hands on staff to send email surveys to different subsets of their mailing list. This has resulted in:
 * Prioritized programming needs and in the field organizing;
 * More targeted fundraising campaigns; 
 * Personal phone calls from appropriate staff members to key donors;
