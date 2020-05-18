@@ -90,7 +90,7 @@ Rebecca: Do not use serif fonts or italics! Breakup content with images. Avoid w
 <br></p></div>
 
 ## Website design is not an ‘or’, but an ‘and'. 
-You don't need to pick aesthetics or usability. If you prioritize accessibility when designing, you can make a beautiful website that is usable, informative, and accessible to the 43.5 millions people -- in the US alone -- with dyslexia.`  
+You don't need to pick aesthetics or usability. If you prioritize accessibility when designing, you can make a beautiful website that is usable, informative, and accessible to the 43.5 million people -- in the US alone -- with dyslexia.`  
 
 
 <div class="paragraph"><p><br>
