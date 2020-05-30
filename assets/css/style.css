@@ -5830,6 +5830,9 @@ form.contact {
         width: 100%; }
         .careers-cta .text:last-child {
           margin-right: 0; } }
+  .careers-cta a {
+    color: #fff;
+    text-decoration: underline; }
 
 .footer {
   background: url("../images/falcon-view.jpg") center center/cover;
@@ -8440,31 +8443,37 @@ h4.lets-chat {
 
 .team .team-member {
   display: block;
-  float: left;
   margin-bottom: 3.2rem;
-  width: 25%;
+  flex: 0 1 25%;
   text-align: center; }
   .team .team-member:hover img, .team .team-member:focus img, .team .team-member:active img {
     opacity: 0.7; }
   .team .team-member:hover .name-title, .team .team-member:focus .name-title, .team .team-member:active .name-title {
-    color: #F06D2F; }
+    color: #D24C0F; }
+  @media (min-width: 1600px) {
+    .team .team-member {
+      flex: 0 1 20%; } }
   @media (min-width: 481px) and (max-width: 979px) {
     .team .team-member {
-      width: 50%; } }
+      flex: 0 1 33.333%; } }
+  @media (min-width: 481px) and (max-width: 670px) {
+    .team .team-member {
+      flex: 0 1 50%; } }
   @media (max-width: 480px) {
     .team .team-member {
-      width: 100%; } }
+      flex: 0 1 100%; } }
   .team .team-member img {
     width: 100%; }
   .team .team-member h2 {
     color: #525255;
-    font-size: 1.25rem;
-    margin: 10px 0 5px;
+    font-size: 1.0625rem;
+    margin: 18px 0 5px;
     text-transform: uppercase; }
   .team .team-member p {
     color: #626262;
-    font-size: 1rem;
-    margin: 0; }
+    font-size: 0.875rem;
+    margin: 4px 0 0 0;
+    line-height: 1.05; }
 
 @media (max-width: 480px) {
   .body-class .main-content {
@@ -9433,7 +9442,8 @@ h4.lets-chat {
     margin-top: 0; }
 
 .team-listing {
-  clear: both; }
+  display: flex;
+  flex-wrap: wrap; }
 
 .wonderlab-page {
   color: #252526; }
