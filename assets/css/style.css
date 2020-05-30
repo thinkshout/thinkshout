@@ -8411,9 +8411,9 @@ h4.lets-chat {
       .team-member-side h1 {
         font-size: 2rem; } }
   .team-member-side .position {
-    color: #f58546;
+    color: #D24C0F;
     margin-top: 0;
-    text-transform: uppercase; }
+    text-transform: capitalize; }
   .team-member-side h5 {
     font-size: 1.25rem;
     font-weight: normal;
