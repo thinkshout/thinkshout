@@ -94,12 +94,12 @@
   }
 
   a {
-    color: $a11y-orange;
+    color: $herogray;
+    text-decoration: underline;
     &:hover,
     &:focus,
     &:active {
-      outline: none;
-      text-decoration: underline;
+      color: $black;
     }
   }
 }
@@ -116,6 +116,7 @@ form.contact {
     display: block;
     margin-bottom: 0.5rem;
     font-size: rem(14);
+    font-weight: 500;
   }
 
   textarea,
@@ -164,10 +165,7 @@ form.contact {
   }
   .form-actions {
     display: flex;
-
-    @include mq(f) {
-      flex-direction: column;
-    }
+    flex-direction: column;
 
     .button.solid {
       max-height: rem(53);
@@ -190,7 +188,7 @@ form.contact {
       display: inline-block;
       font-size: 36px;
       height: 24px;
-      left: -16px;
+      left: -32px;
       line-height: 0.4;
       position: absolute;
       text-indent: 0;
@@ -213,18 +211,13 @@ form.contact {
       color: $darkgray;
       font-size: rem(12);
       line-height: 1.4;
-      margin-bottom: 0;
-      margin-left: rem(48);
-      max-width: 75%;
-      padding-top: rem(4);
-      padding-left: 16px;
+      padding-top: rem(2);
       position: relative;
       text-transform: none;
-      @include mq(f) {
-        margin-top: 10px;
-        margin-left: rem(16);
-        max-width: none;
-      }
+      margin-bottom: rem(24);
+      margin-left: rem(32);
+      margin-right: 0;
+      margin-top: 0;
     }
   }
 }
