@@ -168,7 +168,21 @@ form.contact {
     flex-direction: column;
 
     .button.solid {
-      max-height: rem(53);
+      @include transition(background-color 0.3s linear);
+      background-color: $orange;
+      color: $bgblack;
+      display: inline-block;
+      font-size: 0.9rem;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      margin: 0;
+      padding: rem(12) rem(64);
+      text-transform: uppercase;
+      &:hover,
+      &:active,
+      &:focus {
+        background-color: $pale-orange;
+      }
     }
     .newsletter-confirm {
       position: absolute;

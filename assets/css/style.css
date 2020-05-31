@@ -5769,7 +5769,20 @@ form.contact {
     display: flex;
     flex-direction: column; }
     form.contact .form-actions .button.solid {
-      max-height: 3.3125rem; }
+      -webkit-transition: background-color 0.3s linear;
+      -moz-transition: background-color 0.3s linear;
+      transition: background-color 0.3s linear;
+      background-color: #F06D2F;
+      color: #242424;
+      display: inline-block;
+      font-size: 0.9rem;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      margin: 0;
+      padding: 0.75rem 4rem;
+      text-transform: uppercase; }
+      form.contact .form-actions .button.solid:hover, form.contact .form-actions .button.solid:active, form.contact .form-actions .button.solid:focus {
+        background-color: #F38958; }
     form.contact .form-actions .newsletter-confirm {
       position: absolute;
       left: -9999px; }
@@ -8436,6 +8449,7 @@ h4.lets-chat {
         font-size: 2rem; } }
   .team-member-side .position {
     color: #D24C0F;
+    font-weight: 500;
     margin-top: 0;
     text-transform: capitalize; }
   .team-member-side h5 {
