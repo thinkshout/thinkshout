@@ -18,13 +18,14 @@
 
   $(document).mouseup(function(e) {
     var windowSize = $(window).width();
+    
     if (windowSize < 980) {
-      var el = $(".main-menu");
+      var el = $(".mobile-menu-icon");
       if (!el.is(e.target) && el.has(e.target).length === 0) {
         if ($('.mobile-menu-icon').attr('aria-label') == 'Close mobile menu') {
           $('.mobile-menu-icon').attr('aria-label', 'Open mobile menu');
           $('.mobile-menu-icon').toggleClass('active')
-          el.slideToggle(500);
+          $('header nav .main-menu').slideToggle(500);
         };
       };
     };

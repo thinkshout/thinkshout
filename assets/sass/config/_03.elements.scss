@@ -35,6 +35,12 @@ a:visited {
   text-decoration: none;
 }
 
+p a,
+p a:visited {
+  color: $a11y-orange;
+  text-decoration: none;
+}
+
 .visually-hidden,
 a.visually-hidden {
   clip: rect(1px,1px,1px,1px);

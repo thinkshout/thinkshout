@@ -2059,6 +2059,11 @@ a:visited {
   color: #F06D2F;
   text-decoration: none; }
 
+p a,
+p a:visited {
+  color: #BF450D;
+  text-decoration: none; }
+
 .visually-hidden,
 a.visually-hidden {
   clip: rect(1px, 1px, 1px, 1px);
@@ -5844,7 +5849,7 @@ form.contact {
     text-decoration: underline; }
 
 .footer {
-  background: url("../images/falcon-view.jpg") center center/cover;
+  background: #242424 url("../images/falcon-view.jpg") no-repeat center center/cover;
   clear: both;
   height: 532px;
   margin: 0 auto;
@@ -6229,6 +6234,7 @@ header {
         header .main-menu li {
           display: inline;
           font-size: 0.9375rem;
+          line-height: 2;
           padding: 3.125rem 0; } }
     header .main-menu li:last-of-type a {
       font-weight: bold; }

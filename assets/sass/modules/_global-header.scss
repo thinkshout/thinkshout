@@ -139,6 +139,7 @@ header {
       @include mq(d) {
         display: inline;
         font-size: rem(15);
+        line-height: 2;
         padding: rem(50) 0;
       }
     }
