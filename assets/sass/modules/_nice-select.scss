@@ -61,7 +61,7 @@ $ns-arrow_color: $ns-gray !default;
       background: transparent url('../images/svgs/arrow-black.svg') no-repeat center center/cover;
     }
 
-    &:focus, &:active {
+    &:focus, &:active, &.active {
       background-color: $pale-orange;
     }
 

@@ -3916,6 +3916,12 @@ a.visually-hidden.focusable:focus {
       margin-top: 5rem;
       max-width: 68.75rem;
       padding-left: 0; } }
+  .blog-landing .filter-wrapper label {
+    bottom: 4px;
+    color: #525255;
+    font-size: 0.875rem;
+    font-weight: 400;
+    position: relative; }
 .blog-landing .blog-filter {
   width: 24.375rem;
   max-width: 100%; }
@@ -6595,7 +6601,7 @@ h4.lets-chat {
     margin-top: -4px;
     z-index: 100;
     background: transparent url("../images/svgs/arrow-black.svg") no-repeat center center/cover; }
-  .nice-select:focus, .nice-select:active {
+  .nice-select:focus, .nice-select:active, .nice-select.active {
     background-color: #F38958; }
   .nice-select.open:after {
     transform: rotate(-180deg); }

@@ -71,7 +71,7 @@ Accessibility tweaks by jkomenda
                 .addClass($select.attr('class') || '')
                 .addClass($select.attr('disabled') ? 'disabled' : '')
                 .addClass($select.attr('multiple') ? 'has-multiple' : '')
-                .attr('tabindex', $select.attr('disabled') ? null : '0')
+                .attr('tabindex', $select.attr('disabled') ? null : '-1')
                 .html($select.attr('multiple') ? '<span class="multiple-options"></span><ul class="list"></ul>' : '<span class="current"></span><ul class="list"></ul>')
             );
 

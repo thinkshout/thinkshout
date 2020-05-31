@@ -94,6 +94,12 @@
   }
 
   $('#blog-filter')
+    .on('focus', function(){
+      $('.nice-select.blog-filter').addClass('active');
+    })
+    .on('blur', function(){
+      $('.nice-select.blog-filter').removeClass('active');
+    })
     .val(blogType)
     .change(function(evt, params) {
       if (params === undefined || params.selected === undefined) {

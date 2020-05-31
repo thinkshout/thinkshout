@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="page-container blog">
-
+<h1 class="visually-hidden">ThinkShout Blog</h1>
 {% if page.topic %}
   {% for post in site.categories.blog %}
     {% if post.featured and post.topic == page.topic %}
@@ -83,13 +83,14 @@ layout: default
 
   <div class="filter-wrapper" id="filter-wrapper">
     <form>
-    <select id="blog-filter" class="blog-filter">
-      <option value="{{ site.baseurl }}/blog/">All</option>
-      {% assign topics = site.topic | sort: "order" %}
-      {% for posttopic in topics %}
-      <option value="{{ site.baseurl }}/blog/topic/{{ posttopic.topic }}/">{{ posttopic.title }}</option>
-      {% endfor %}
-    </select>
+      <label for="blog-filter">Filter by topic</label>
+      <select id="blog-filter" class="blog-filter">
+        <option value="{{ site.baseurl }}/blog/">All posts</option>
+        {% assign topics = site.topic | sort: "order" %}
+        {% for posttopic in topics %}
+        <option value="{{ site.baseurl }}/blog/topic/{{ posttopic.topic }}/">{{ posttopic.title }}</option>
+        {% endfor %}
+      </select>
     </form>
   </div>
 

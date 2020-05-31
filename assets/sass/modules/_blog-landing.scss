@@ -103,6 +103,14 @@
     @include mq(lt) { margin-top: 2rem; padding-left: 1rem; }
     @include mq(md) { margin-top: 4rem; padding-left: 1rem; }
     @include mq(l)  { margin-top: 5rem; max-width: rem(1100); padding-left: 0; }
+
+    label {
+      bottom: 4px;
+      color: $darkgray;
+      font-size: rem(14);
+      font-weight: 400;
+      position: relative;
+    }
   }
   .blog-filter {
     width: rem(390);
