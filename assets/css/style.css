@@ -2165,7 +2165,7 @@ a.visually-hidden.focusable:focus {
     text-align: center; }
 
 .byline {
-  color: #7c7c7c;
+  color: #3e3e3e;
   text-align: left;
   display: inline-block;
   line-height: 1.4;
@@ -4111,6 +4111,15 @@ a.visually-hidden.focusable:focus {
       margin-left: 25.58941%; } }
   .team-member-blog .post.reveal {
     display: none; }
+  .team-member-blog h2 {
+    clear: both;
+    color: #292929;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1.33em;
+    margin-top: 1.33em;
+    text-align: center;
+    text-transform: uppercase; }
   .team-member-blog h3:hover,
   .team-member-blog h3:focus,
   .team-member-blog h3:active {

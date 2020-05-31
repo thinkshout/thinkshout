@@ -75,6 +75,17 @@
     display: none;
   }
 
+  h2 {
+    clear: both;
+    color: $darkergray;
+    font-size: rem(16);
+    font-weight: 700;
+    margin-bottom: 1.33em;
+    margin-top: 1.33em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
   h3:hover,
   h3:focus,
   h3:active {
