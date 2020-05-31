@@ -6032,12 +6032,18 @@ form.contact {
   .footer .social-media li {
     display: inline;
     margin-right: 0.5rem; }
-  .footer .social-media img {
+  .footer .social-media svg {
     max-width: 1.5rem; }
   .footer .social-media a:hover,
   .footer .social-media a:focus,
   .footer .social-media a:active {
-    text-decoration: none; }
+    text-decoration: none;
+    outline: none; }
+    .footer .social-media a:hover .icon,
+    .footer .social-media a:focus .icon,
+    .footer .social-media a:active .icon {
+      fill: #F06D2F;
+      transition: fill .3s; }
   @media (min-width: 671px) and (max-width: 979px) {
     .footer .social-media {
       float: left;
@@ -6100,7 +6106,9 @@ form.contact {
 header {
   background-color: #fff;
   left: 0;
+  max-height: 100%;
   opacity: 1;
+  overflow-y: scroll;
   padding: 1rem 0;
   position: fixed;
   top: 0;
@@ -6216,7 +6224,7 @@ header {
       cursor: pointer;
       display: list-item;
       font-size: 1.125rem;
-      line-height: 2; }
+      line-height: 3; }
       @media (min-width: 980px) {
         header .main-menu li {
           display: inline;
@@ -6273,16 +6281,14 @@ header {
         outline: none;
         color: #BF450D; } }
     header .main-menu a {
-      color: #525255;
+      color: #242424;
       display: inline; }
       @media (min-width: 980px) and (max-width: 1199px) {
         header .main-menu a {
-          color: #525255;
           margin: 0 0.7rem;
           padding: 3.125rem 0.3125rem; } }
       @media (min-width: 1200px) {
         header .main-menu a {
-          color: #525255;
           margin: 0 0.7rem;
           padding: 3.25rem 0.3125rem; } }
   @media (min-width: 1200px) and (max-width: 1282px) {

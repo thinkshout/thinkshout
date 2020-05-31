@@ -5,8 +5,29 @@
 
   // Mobile Menu
   $('.mobile-menu-icon').click(function() {
-    $(this).toggleClass('active');
+    var el = $(this),
+        label = el.attr('aria-label');
+    if (label == 'Open mobile menu') {
+      el.attr('aria-label', 'Close mobile menu');
+    } else {
+      el.attr('aria-label', 'Open mobile menu');
+    };
+    el.toggleClass('active')
     $('header nav .main-menu').slideToggle(500);
+  });
+
+  $(document).mouseup(function(e) {
+    var windowSize = $(window).width();
+    if (windowSize < 980) {
+      var el = $(".main-menu");
+      if (!el.is(e.target) && el.has(e.target).length === 0) {
+        if ($('.mobile-menu-icon').attr('aria-label') == 'Close mobile menu') {
+          $('.mobile-menu-icon').attr('aria-label', 'Open mobile menu');
+          $('.mobile-menu-icon').toggleClass('active')
+          el.slideToggle(500);
+        };
+      };
+    };
   });
 
   // Set active states for the Main Menu items and their subitems

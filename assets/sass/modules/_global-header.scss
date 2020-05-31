@@ -1,7 +1,9 @@
 header {
   background-color: $white;
   left: 0;
+  max-height: 100%;
   opacity: 1;
+  overflow-y: scroll;
   padding: 1rem 0;
   position: fixed;
   top: 0;
@@ -132,7 +134,7 @@ header {
       cursor: pointer;
       display: list-item;
       font-size: rem(18);
-      line-height: 2;
+      line-height: 3;
 
       @include mq(d) {
         display: inline;
@@ -163,17 +165,15 @@ header {
     }
 
     a {
-      color: $darkgray;
+      color: $bgblack;
       display: inline;
 
       @include mq(md) {
-        color: $darkgray;
         margin: 0 0.7rem;
         padding: rem(50) rem(5);
       }
 
       @include mq(l) {
-        color: $darkgray;
         margin: 0 0.7rem;
         padding: rem(52) rem(5);
       }

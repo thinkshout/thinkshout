@@ -210,13 +210,18 @@
       display: inline;
       margin-right: 0.5rem;
     }
-    img {
+    svg {
       max-width: 1.5rem;
     }
     a:hover,
     a:focus,
     a:active {
       text-decoration: none;
+      outline: none;
+      .icon {
+        fill: $orange;
+        transition: fill .3s;
+      }
     }
 
     @include mq(lt) {
