@@ -11,9 +11,9 @@ short: "ThinkShout stands in solidarity with Black and brown communities in call
 tags:
   -
 date: 2020-06-01 10:00:00
-image:
-header-image:
-header-image-alt:
+image: https://thinkshout.com/assets/images/blog/blm-hero.jpg
+header-image: /assets/images/blog/blm-hero.jpg
+header-image-alt: "Black Lives Matter"
 ---
 Black Lives Matter. We’ll say it again. **Black. Lives. Matter.**
 
