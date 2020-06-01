@@ -4,104 +4,90 @@ layout: case_study
 body-class: case-study realizing-democracy
 active: true
 homepage: false
-published: false
+published: true
 related: realizing-democracy
 order: 6
-image: /assets/images/case-studies/LVHN-hero-1.jpg
-image-alt: "A happy child sitting in a doctor's office designed for children"
-description: "The Lehigh Valley Health Network heals, comforts, and cares for the communities of Eastern Pennsylvania. To realize its vision of providing superior care within its region, LVHN has to relate to each patient on an individual level, providing personalized services within the context of a vast organization."
+image: /assets/images/case-studies/realizing-democracy-hero.jpg
+image-alt: "building in washington DC with american flags hanging."
+description: "not filled in"
 # END LAYOUT DATA
 
 title: "Applying concepts grounded in simplicity to help consumers navigate healthcare’s complexities."
-cs-class: "lvhn"
+cs-class: "realizing democracy"
 featured_impact_text: "@todo"
-featured_client_name: "Lehigh Valley Health Network"
+featured_client_name: "Dēmos, The Ford Foundation, Open Society Foundations, Community Change, and Center on Democracy and Organizing"
 
 cs-preview:
-  image: /assets/images/case-studies/LVHN-hero-1.jpg
-  type: "Lehigh Valley Health Network"
-  client: "Lehigh Valley Health Network"
+  image: /assets/images/case-studies/realizing-democracy-hero.jpg
+  type: "Realizing Democracy"
+  client: "Dēmos, The Ford Foundation, Open Society Foundations, Community Change, and Center on Democracy and Organizing"
   description: "This field not used"
 
 cs-header:
-  header-image: /assets/images/case-studies/LVHN-hero-1.jpg
-  client: "Lehigh Valley Health Network"
-  title: "Applying concepts grounded in simplicity to help consumers navigate healthcare’s complexities."
+  header-image: /assets/images/case-studies/realizing-democracy-hero.jpg
+  client: "Dēmos, The Ford Foundation, Open Society Foundations, Community Change, and Center on Democracy and Organizing"
+  title: "An Iterative Website in Support of Coalition Movement Building."
 
 cs-intro:
   - intro-paragraph: |
-      The Lehigh Valley Health Network heals, comforts, and cares for the communities of Eastern Pennsylvania. To realize its vision of providing superior care within its region, LVHN has to relate to each patient on an individual level, providing personalized services within the context of a vast organization.
+      Democracy is premised on the idea that equality of voice can overcome inequality of resources. Yet in recent decades, democracy in the United States has seen a shift that favors the power of private ownership at the expense of the power of public citizenship. The Ford Foundation Center for Social Justice, Community Change, the Center on Democracy and Organizing, Dēmos, the Open Society Foundations, and the Ford Foundation launched a new learning series called Realizing Democracy to bring people power and resources to correcting for that shift.
 
   - intro-title: Challenge
     intro-text: |
-      With over 18,000 employees, 95 clinical specialties, eight campuses, dozens of facilities, and expansive clinical research and education, the complexities of LVHN’s digital platform threatened to overwhelm the needs of its patients.
-
+      Building a website for a single event, with an audience of about 200 key players and stakeholders.
+      
   - intro-title: Solutions
     intro-text: |
-      The new LVHN.org focuses on the needs of individual patients and simplifies the basic experience of finding critical information. By layering the intricacies of healthcare over this base, each user journey is customized to their individual needs and interests.
+      We created a digital home for the project in tandem with a communications plan that was designed to go deep with a specific audience. We needed to make sure that people knew the site was there, and bookmarked it as a reference to return to.
 
   - intro-title: Results
     intro-text: |
-      After one month of the site being live, the number of people showing intent to make an appointment (“click to call”) is double the number for the entire FY19 currently being reported.
+      Key players engaged with the site and the content surrounding the event. There was a lot of activity the weeks before and after the flagship event on Twitter, Facebook and via email. 
 
 cs-sections:
   - section-description: |
-      #### A website built on an organization’s “Essential Truths” is a website built to last.
+      #### Understanding that this project was centered around one event, we designed a thoughtful and intentional website that would be useful in disseminating information to attendees, and that left them feeling prepared and excited.
         
-      Every organization has a foundation that will remain immutable over time. In the case of LVHN, it is that they will always have _facilities_ where _providers_ render _services_ to _patients_. This physical infrastructure dedicated to caring for patients will remain true for LVHN for decades, regardless of advances in technology, like “Video Visits”.
-      When we dug into the data of how the old LVHN.org was being used, we found correspondence to how consumers used the site: the vast majority of site traffic was concentrated in areas related to finding a doctor, a location, or a service. Despite an information architecture that gave nearly equal weight to things like detailed information about conditions, wellness resources, and information about LVHN’s research and education initiatives, site visitors worked around most of the content provided to find what they needed: in-person healthcare.
+      We prioritized ease of access to needed information for those attending this event. A multimedia filled homepage let users land in an engaging place where they could find contextual and shareable information. This included timely articles, a featured art series, and tweetable quotes to help build connection before the event date. An easily navigable menu provided users with the ability to further their understanding of the goals of this summit, find sponsors, and find information on past events.
         
-      From this starting point, we drastically simplified the sites overarching information architecture and focused it on Doctors, Locations, and Services. 
 
-  - section-image: "/assets/images/case-studies/LVHN-1.jpg"
-    section-image-alt: "LVHN homepage viewed on a desktop."
+  - section-image: "/assets/images/case-studies/realizing-democracy-2.jpg"
+    section-image-alt: "realizing democracy past events page viewed on a desktop and art page viewed on a mobile device."
 
-  - section-image1: "/assets/images/case-studies/LVHN-2.jpg"
-    section-image-alt1: "LVHN find a location viewed on a tablet."
+  - section-image1: "/assets/images/case-studies/realizing-democracy-.jpg"
+    section-image-alt1: "realizing democracy past events page viewed on a desktop and art page viewed on a mobile device."
 
-    section-image2: "/assets/images/case-studies/LVHN-3.jpg"
-    section-image-alt2: "LVHN location detail viewed on a laptop."
+    section-image2: "/assets/images/case-studies/realizing-democracy-3.jpg"
+    section-image-alt2: "realizing democracy footer page with quote viewed on a tablet."
 
   - section-description: |
-      #### Knowing that most visitors landed deep in the site after a search rather than going through the home page, we designed every page to serve as a potential landing page, consolidating vital information related to the expressed interest of the user.
+      #### Simultaneous with our website build out, we developed an in-depth communications plan in order to build, and maintain, a sense of community-- even after the kickoff event was over. 
       
-      Instead of expecting a potential patient to traverse the website from section to section, we brought all the information straight to the patient, wherever they happened to be.
-      
-      Every foundational component – doctor profile, practice information, location detail, or overview of a service – layers in the other components right where the user lands. If the starting point is [a service page about cancer surgery](https://www.lvhn.org/medical-services/cancer-surgery), the doctors who provide that service and the locations the service is offered are front and center. If instead, the user lands on [a health center down the road from their home](https://www.lvhn.org/locations/lvpg-ear-nose-and-throat-muhlenberg), the doctors who work there and the services provided are right there, too. And once the user gets to [a list of doctors](https://www.lvhn.org/locations/lvpg-ear-nose-and-throat-muhlenberg/doctors#scroll), all of the essential information and the ability to make an appointment can be accessed immediately.
-      
-      By focusing on the informational needs of the end user instead of organizational priorities and structures, we actually made it easier for LVHN to meet its mission.
+    Prioritizing engagement was key in developing a successful plan. The result was an in-depth social media toolkit filled with handles, hashtags, an asset library, drafted posts for various social channels, and a posting schedule. This allowed attendees to easily find content related to this event and to keep communication going post-event. 
 
   # @todo Missing image from design
-  - section-image: "/assets/images/case-studies/LVHN-4.jpg"
-    section-image-alt: "LVHN search for a doctor on laptop and search for a location on phone"
+  - section-image: "/assets/images/case-studies/realizing-democracy-4.jpg"
+    section-image-alt: "realizind democracy navigation pages viewed on three phones."
 
-  - section-image: "/assets/images/case-studies/LVHN-5.jpg"
-    section-image-alt: "LVHN services pages viewed on three phones."
+  - section-image: "/assets/images/case-studies/realizing-democracy-6.jpg"
+    section-image-alt: "realizind democracy accessibility page viewed on a mobile device."
 
   - section-description: |
-      #### The principles of simplicity and meeting the needs of the end user extend to every interface design
+      #### “If you build it, they won’t come.”
     
-      The [Find a Doctor](https://www.lvhn.org/find-a-doctor) tool allows visitors to enter any term into a single search box – be it a condition, a service, a location, or a doctor’s name – and get a result, rather than overwhelming with multiple options and filters right off the bat. Subtle personalization reorders search results to bring up suggestions closer to a user’s location (when it’s known). Data-informed hierarchical layering highlights the information most likely to be needed while still providing access to greater detail.
-    
-      Our engineering team also made it incredibly fast, with a Site Speed index of just 1.6 seconds, in spite of the complex data structures driving the site.
-    
-      Creating the perception of simplicity required careful planning, with our design and technical leads in constant communication. The underlying content structures and relationships, taxonomies, and integrations with third-party systems all work behind the scenes to create a user experience that reinforces the brand promise of LVHN: superior care within your own community.
+      We prioritized making a succinct communications plan in line with the website in order to ensure all attendees had access to the information they needed. Focusing on depth, rather than reach, helped streamline this process to successfully engage with our target audience. It also allowed the organizers of this event to create a new strategy that they’ll be able to implement for future events.
 
   - section-image: "/assets/images/case-studies/LVHN-6.jpg"
     section-image-alt: "LVHN location viewed on a laptop and doctor search viewed on phone."
 
-  - section-type: result
-    section-data-number1: "25%"
-    section-data-text1: "Increased Page Engagement"
-    section-data-number2: "20%"
-    section-data-text2: "Decreased Load Time"
-    section-data-number3: "10%"
-    section-data-text3: "Increased Fundraising"
-    section-description: |
-      LVHN.org’s redesign was a team effort between ThinkShout and LVHN. It involved 20 designers, developers, and project managers on our end interacting with dozens of stakeholders and decision-makers at LVHN over the course of two years. In the end, we launched a site that stayed true to the initial vision of creating an intuitive website that focused on the needs of patients.
-        
-      But the launch is just the start. We continue to work with LVHN’s team to design tests against daily human interactions to continue to improve the online experience and ensure that it lives up to the world-class care patients receive from the Lehigh Valley Health Network.
+   - section-type: quote
+    section-quote: |
+      “Working with ThinkShout was a dream. From our first conversation, they were committed to understanding the short-term needs of our project as well as the long-term intent and impact, setting us up for success down the road while checking every single box we needed to hit a series of intense, hair-on-fire deadlines. On top of all that, every person on their team comes to conversations with energy and kindness, totally prepared to do their best work to help bring our ideas to life. Couldn’t imagine building a project without them.” 
+    section-attribution: "~  Kevin Simowitz, Organizer and Political Consultant for the Ford Foundation"
+    
+      
+     
 
 cs-cta-text: Launch Site
-cs-cta-url: https://www.lvhn.org/
+cs-cta-url: https://realizingdemocracy.org/
 ---
