@@ -1,11 +1,11 @@
 ---
 # LAYOUT DATA
 layout: case_study
-body-class: case-study lvhn
+body-class: case-study realizing-democracy
 active: true
-homepage: true
+homepage: false
 published: true
-related: lvhn
+related: realizing-democracy
 order: 6
 image: /assets/images/case-studies/LVHN-hero-1.jpg
 image-alt: "A happy child sitting in a doctor's office designed for children"
@@ -21,7 +21,7 @@ cs-preview:
   image: /assets/images/case-studies/LVHN-hero-1.jpg
   type: "Lehigh Valley Health Network"
   client: "Lehigh Valley Health Network"
-  description: "Applying concepts grounded in simplicity to help consumers navigate healthcare’s complexities."
+  description: "This field not used"
 
 cs-header:
   header-image: /assets/images/case-studies/LVHN-hero-1.jpg
@@ -59,7 +59,6 @@ cs-sections:
   - section-image1: "/assets/images/case-studies/LVHN-2.jpg"
     section-image-alt1: "LVHN find a location viewed on a tablet."
 
-    # @todo This needs to be the same height as the first image.
     section-image2: "/assets/images/case-studies/LVHN-3.jpg"
     section-image-alt2: "LVHN location detail viewed on a laptop."
 
