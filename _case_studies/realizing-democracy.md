@@ -1,7 +1,7 @@
 ---
 # LAYOUT DATA
 layout: case_study
-body-class: case-study realizing-democracy
+body-class: case-study realizing democracy
 active: true
 homepage: false
 published: true
@@ -9,10 +9,10 @@ related: realizing-democracy
 order: 6
 image: /assets/images/case-studies/realizing-democracy-hero.jpg
 image-alt: "building in washington DC with american flags hanging."
-description: "not filled in"
+description: "Democracy is premised on the idea that equality of voice can overcome inequality of resources. Yet in recent decades, democracy in the United States has seen a shift that favors the power of private ownership at the expense of the power of public citizenship. The Ford Foundation Center for Social Justice, Community Change, the Center on Democracy and Organizing, Dēmos, the Open Society Foundations, and the Ford Foundation launched a new learning series called Realizing Democracy to bring people power and resources to correcting for that shift."
 # END LAYOUT DATA
 
-title: "Applying concepts grounded in simplicity to help consumers navigate healthcare’s complexities."
+title: "An Iterative Website in Support of Coalition Movement Building."
 cs-class: "realizing democracy"
 featured_impact_text: "@todo"
 featured_client_name: "Dēmos, The Ford Foundation, Open Society Foundations, Community Change, and Center on Democracy and Organizing"
@@ -50,7 +50,6 @@ cs-sections:
         
       We prioritized ease of access to needed information for those attending this event. A multimedia filled homepage let users land in an engaging place where they could find contextual and shareable information. This included timely articles, a featured art series, and tweetable quotes to help build connection before the event date. An easily navigable menu provided users with the ability to further their understanding of the goals of this summit, find sponsors, and find information on past events.
         
-
   - section-image: "/assets/images/case-studies/realizing-democracy-2.jpg"
     section-image-alt: "realizing democracy past events page viewed on a desktop and art page viewed on a mobile device."
 
@@ -65,7 +64,6 @@ cs-sections:
       
     Prioritizing engagement was key in developing a successful plan. The result was an in-depth social media toolkit filled with handles, hashtags, an asset library, drafted posts for various social channels, and a posting schedule. This allowed attendees to easily find content related to this event and to keep communication going post-event. 
 
-  # @todo Missing image from design
   - section-image: "/assets/images/case-studies/realizing-democracy-4.jpg"
     section-image-alt: "realizind democracy navigation pages viewed on three phones."
 
@@ -73,7 +71,7 @@ cs-sections:
     section-image-alt: "realizind democracy accessibility page viewed on a mobile device."
 
   - section-description: |
-      #### “If you build it, they won’t come.”
+      #### If you build it, they won’t come.
     
       We prioritized making a succinct communications plan in line with the website in order to ensure all attendees had access to the information they needed. Focusing on depth, rather than reach, helped streamline this process to successfully engage with our target audience. It also allowed the organizers of this event to create a new strategy that they’ll be able to implement for future events.
 
