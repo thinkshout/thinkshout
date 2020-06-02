@@ -1,10 +1,10 @@
 ---
 # LAYOUT DATA
 layout: case_study
-body-class: case-study realizing democracy
+body-class: case-study realizing-democracy
 active: true
 homepage: false
-published: true
+published: false
 related: realizing-democracy
 order: 6
 image: /assets/images/case-studies/realizing-democracy-hero.jpg
