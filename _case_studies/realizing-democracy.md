@@ -4,7 +4,7 @@ layout: case_study
 body-class: case-study realizing-democracy
 active: false
 homepage: false
-published: false
+published: true
 related: realizing-democracy
 order: 6
 image: /assets/images/case-studies/realizing-democracy-hero.jpg
@@ -53,30 +53,27 @@ cs-sections:
   - section-image: "/assets/images/case-studies/realizing-democracy-2.jpg"
     section-image-alt: "realizing democracy past events page viewed on a desktop and art page viewed on a mobile device."
 
-  - section-image1: "/assets/images/case-studies/realizing-democracy-1.jpg"
-    section-image-alt1: "realizing democracy past events page viewed on a desktop and art page viewed on a mobile device."
+  - section-image1: "/assets/images/case-studies/realizing-democracy-3.jpg"
+    section-image-alt1: "realizing democracy footer page with quote viewed on a tablet."
 
-    section-image2: "/assets/images/case-studies/realizing-democracy-3.jpg"
-    section-image-alt2: "realizing democracy footer page with quote viewed on a tablet."
+    section-image2: "/assets/images/case-studies/realizing-democracy-4.jpg"
+    section-image-alt2: "realizing democracy navigation pages viewed on three phones."
 
   - section-description: |
       #### Simultaneous with our website build out, we developed an in-depth communications plan in order to build, and maintain, a sense of community-- even after the kickoff event was over.
 
       Prioritizing engagement was key in developing a successful plan. The result was an in-depth social media toolkit filled with handles, hashtags, an asset library, drafted posts for various social channels, and a posting schedule. This allowed attendees to easily find content related to this event and to keep communication going post-event.
 
-  - section-image: "/assets/images/case-studies/realizing-democracy-4.jpg"
-    section-image-alt: "realizind democracy navigation pages viewed on three phones."
-
-  - section-image: "/assets/images/case-studies/realizing-democracy-6.jpg"
-    section-image-alt: "realizind democracy accessibility page viewed on a mobile device."
+  - section-image: "/assets/images/case-studies/realizing-democracy-5.jpg"
+    section-image-alt: "realizing democracy past events navigation page viewed on laptop."
 
   - section-description: |
       #### If you build it, they won’t come.
 
       We prioritized making a succinct communications plan in line with the website in order to ensure all attendees had access to the information they needed. Focusing on depth, rather than reach, helped streamline this process to successfully engage with our target audience. It also allowed the organizers of this event to create a new strategy that they’ll be able to implement for future events.
 
-  - section-image: "/assets/images/case-studies/LVHN-6.jpg"
-    section-image-alt: "LVHN location viewed on a laptop and doctor search viewed on phone."
+  - section-image: "/assets/images/case-studies/realizing-democracy-6.jpg"
+    section-image-alt: "realizing democracy accessibility page viewed on a mobile device."
 
   - section-type: quote
     section-quote: |
