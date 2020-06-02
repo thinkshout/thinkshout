@@ -35,34 +35,34 @@ cs-intro:
   - intro-title: Challenge
     intro-text: |
       Building a website for a single event, with an audience of about 200 key players and stakeholders.
-      
+
   - intro-title: Solutions
     intro-text: |
       We created a digital home for the project in tandem with a communications plan that was designed to go deep with a specific audience. We needed to make sure that people knew the site was there, and bookmarked it as a reference to return to.
 
   - intro-title: Results
     intro-text: |
-      Key players engaged with the site and the content surrounding the event. There was a lot of activity the weeks before and after the flagship event on Twitter, Facebook and via email. 
+      Key players engaged with the site and the content surrounding the event. There was a lot of activity the weeks before and after the flagship event on Twitter, Facebook and via email.
 
 cs-sections:
   - section-description: |
       #### Understanding that this project was centered around one event, we designed a thoughtful and intentional website that would be useful in disseminating information to attendees, and that left them feeling prepared and excited.
-        
+
       We prioritized ease of access to needed information for those attending this event. A multimedia filled homepage let users land in an engaging place where they could find contextual and shareable information. This included timely articles, a featured art series, and tweetable quotes to help build connection before the event date. An easily navigable menu provided users with the ability to further their understanding of the goals of this summit, find sponsors, and find information on past events.
-        
+
   - section-image: "/assets/images/case-studies/realizing-democracy-2.jpg"
     section-image-alt: "realizing democracy past events page viewed on a desktop and art page viewed on a mobile device."
 
-  - section-image1: "/assets/images/case-studies/realizing-democracy-.jpg"
+  - section-image1: "/assets/images/case-studies/realizing-democracy-1.jpg"
     section-image-alt1: "realizing democracy past events page viewed on a desktop and art page viewed on a mobile device."
 
     section-image2: "/assets/images/case-studies/realizing-democracy-3.jpg"
     section-image-alt2: "realizing democracy footer page with quote viewed on a tablet."
 
   - section-description: |
-      #### Simultaneous with our website build out, we developed an in-depth communications plan in order to build, and maintain, a sense of community-- even after the kickoff event was over. 
-      
-      Prioritizing engagement was key in developing a successful plan. The result was an in-depth social media toolkit filled with handles, hashtags, an asset library, drafted posts for various social channels, and a posting schedule. This allowed attendees to easily find content related to this event and to keep communication going post-event. 
+      #### Simultaneous with our website build out, we developed an in-depth communications plan in order to build, and maintain, a sense of community-- even after the kickoff event was over.
+
+      Prioritizing engagement was key in developing a successful plan. The result was an in-depth social media toolkit filled with handles, hashtags, an asset library, drafted posts for various social channels, and a posting schedule. This allowed attendees to easily find content related to this event and to keep communication going post-event.
 
   - section-image: "/assets/images/case-studies/realizing-democracy-4.jpg"
     section-image-alt: "realizind democracy navigation pages viewed on three phones."
@@ -72,7 +72,7 @@ cs-sections:
 
   - section-description: |
       #### If you build it, they won’t come.
-    
+
       We prioritized making a succinct communications plan in line with the website in order to ensure all attendees had access to the information they needed. Focusing on depth, rather than reach, helped streamline this process to successfully engage with our target audience. It also allowed the organizers of this event to create a new strategy that they’ll be able to implement for future events.
 
   - section-image: "/assets/images/case-studies/LVHN-6.jpg"
@@ -80,7 +80,7 @@ cs-sections:
 
   - section-type: quote
     section-quote: |
-      “Working with ThinkShout was a dream. From our first conversation, they were committed to understanding the short-term needs of our project as well as the long-term intent and impact, setting us up for success down the road while checking every single box we needed to hit a series of intense, hair-on-fire deadlines. On top of all that, every person on their team comes to conversations with energy and kindness, totally prepared to do their best work to help bring our ideas to life. Couldn’t imagine building a project without them.” 
+      “Working with ThinkShout was a dream. From our first conversation, they were committed to understanding the short-term needs of our project as well as the long-term intent and impact, setting us up for success down the road while checking every single box we needed to hit a series of intense, hair-on-fire deadlines. On top of all that, every person on their team comes to conversations with energy and kindness, totally prepared to do their best work to help bring our ideas to life. Couldn’t imagine building a project without them.”
     section-attribution: "~  Kevin Simowitz, Organizer and Political Consultant for the Ford Foundation"
 
 cs-cta-text: Launch Site
