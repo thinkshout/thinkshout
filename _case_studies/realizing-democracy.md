@@ -15,12 +15,12 @@ description: "Democracy is premised on the idea that equality of voice can overc
 title: "An Iterative Website in Support of Coalition Movement Building."
 cs-class: "realizing democracy"
 featured_impact_text: "@todo"
-featured_client_name: "Dēmos, The Ford Foundation, Open Society Foundations, Community Change, and Center on Democracy and Organizing"
+featured_client_name: "Dēmos, The Ford Foundation, Open Society Foundations, Community Change, Center on Democracy and Organizing"
 
 cs-preview:
   image: /assets/images/case-studies/realizing-democracy-hero.jpg
   type: "Realizing Democracy"
-  client: "Dēmos, The Ford Foundation, Open Society Foundations, Community Change, and Center on Democracy and Organizing"
+  client: "Dēmos, The Ford Foundation, Open Society Foundations, Community Change, Center on Democracy and Organizing"
   description: "This field not used"
 
 cs-header:
@@ -30,7 +30,7 @@ cs-header:
 
 cs-intro:
   - intro-paragraph: |
-      Democracy is premised on the idea that equality of voice can overcome inequality of resources. Yet in recent decades, democracy in the United States has seen a shift that favors the power of private ownership at the expense of the power of public citizenship. The Ford Foundation Center for Social Justice, Community Change, the Center on Democracy and Organizing, Dēmos, the Open Society Foundations, and the Ford Foundation launched a new learning series called Realizing Democracy to bring people power and resources to correcting for that shift.
+      Democracy is premised on the idea that equality of voice can overcome inequality of resources. Yet in recent decades, democracy in the United States has seen a shift that favors the power of private ownership at the expense of the power of public citizenship. The Ford Foundation Center for Social Justice, Community Change, the Center on Democracy and Organizing, Dēmos, the Open Society Foundations, and the Ford Foundation launched a new learning series called Realizing Democracy to bring people power and resources to correct for that shift.
 
   - intro-title: Challenge
     intro-text: |
@@ -42,7 +42,7 @@ cs-intro:
 
   - intro-title: Results
     intro-text: |
-      Key players engaged with the site and the content surrounding the event. There was a lot of activity the weeks before and after the flagship event on Twitter, Facebook and via email.
+      Key players engaged with the site and the content surrounding the event. The activity that was happening before the flagship event was sustained afterwards through Twitter, Facebook, and email.
 
 cs-sections:
   - section-description: |
