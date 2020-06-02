@@ -1,14 +1,14 @@
 <section class="select-clients">
   <div class="container">
     <div class="header-down-caret">
-      <h4>Select Clients</h4>
+      <h2>Select Clients</h2>
       <i class="fa fa-caret-down"></i>
     </div>
     <p></p>
     <div class="multi-column">
-      <ul class="client-list">
+      <div class="client-list">
       {% for sector in site.data.clients %}
-        <li class="client-sector">{{ sector.sector }}</li>
+        <h3 class="client-sector">{{ sector.sector }}</h3>
         <ul class="clients-by-sector">
           {% assign clientList = sector.clients | sort: "name" %}
           {% for client in clientList %}
@@ -16,7 +16,7 @@
           {% endfor %}
         </ul>
       {% endfor %}
-      </ul>
+      </div>
     </div>
   </div>
 </section>

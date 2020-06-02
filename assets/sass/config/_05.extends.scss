@@ -30,6 +30,7 @@
   &:focus,
   &:active {
     text-decoration: underline;
+    outline: none;
   }
 
   &:visited {
@@ -39,7 +40,7 @@
 
 // Upper header text with the down facing arrow
 .header-down-caret {
-  h4 {
+  h2, h4 {
     font-size: rem(13);
     margin-bottom: 0;
     padding-bottom: 1rem;

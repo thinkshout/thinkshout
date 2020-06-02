@@ -59,7 +59,7 @@
     @include mq(lt) { text-align: left; }
     @include mq(d) { text-align: left; }
 
-    h4 {
+    h3 {
       color: $white;
       font-weight: 500;
       margin-bottom: 4px;
