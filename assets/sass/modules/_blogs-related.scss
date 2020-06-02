@@ -158,6 +158,13 @@
         padding-top: rem(8);
       }
 
+      a:hover strong,
+      a:focus strong,
+      a:active strong {
+        color: #333;
+        text-decoration: underline;
+      }
+
       .position {
         white-space: normal;
       }

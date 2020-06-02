@@ -4178,6 +4178,14 @@ a.visually-hidden.focusable:focus {
     color: #000;
     display: inline-block;
     padding-top: 0.5rem; }
+  .blog-post .team-member-blog .byline a:hover strong,
+  .blog-post .team-member-blog .byline a:focus strong,
+  .blog-post .team-member-blog .byline a:active strong,
+  .services .team-member-blog .byline a:hover strong,
+  .services .team-member-blog .byline a:focus strong,
+  .services .team-member-blog .byline a:active strong {
+    color: #333;
+    text-decoration: underline; }
   .blog-post .team-member-blog .byline .position,
   .services .team-member-blog .byline .position {
     white-space: normal; }
@@ -6192,7 +6200,6 @@ header {
       header .mobile-menu-icon div span {
         background-color: #242424;
         display: block;
-        font-size: 0px;
         height: 4px;
         left: 25%;
         position: absolute;
@@ -8481,9 +8488,9 @@ h4.lets-chat {
   margin-bottom: 3.2rem;
   flex: 0 1 25%;
   text-align: center; }
-  .team .team-member:hover img, .team .team-member:focus img, .team .team-member:active img {
+  .team .team-member a:hover img, .team .team-member a:focus img, .team .team-member a:active img {
     opacity: 0.7; }
-  .team .team-member:hover .name-title, .team .team-member:focus .name-title, .team .team-member:active .name-title {
+  .team .team-member a:hover .name-title, .team .team-member a:focus .name-title, .team .team-member a:active .name-title {
     color: #D24C0F; }
   @media (min-width: 1600px) {
     .team .team-member {

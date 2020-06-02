@@ -4,9 +4,9 @@
   flex: 0 1 25%;
   text-align: center;
 
-  &:hover,
-  &:focus,
-  &:active {
+  & a:hover,
+  & a:focus,
+  & a:active {
     img {
       opacity: 0.7;
     }
