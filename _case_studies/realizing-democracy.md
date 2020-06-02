@@ -78,13 +78,10 @@ cs-sections:
   - section-image: "/assets/images/case-studies/LVHN-6.jpg"
     section-image-alt: "LVHN location viewed on a laptop and doctor search viewed on phone."
 
-   - section-type: quote
+  - section-type: quote
     section-quote: |
       “Working with ThinkShout was a dream. From our first conversation, they were committed to understanding the short-term needs of our project as well as the long-term intent and impact, setting us up for success down the road while checking every single box we needed to hit a series of intense, hair-on-fire deadlines. On top of all that, every person on their team comes to conversations with energy and kindness, totally prepared to do their best work to help bring our ideas to life. Couldn’t imagine building a project without them.” 
     section-attribution: "~  Kevin Simowitz, Organizer and Political Consultant for the Ford Foundation"
-    
-      
-     
 
 cs-cta-text: Launch Site
 cs-cta-url: https://realizingdemocracy.org/
