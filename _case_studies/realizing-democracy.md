@@ -62,7 +62,7 @@ cs-sections:
   - section-description: |
       #### Simultaneous with our website build out, we developed an in-depth communications plan in order to build, and maintain, a sense of community-- even after the kickoff event was over. 
       
-    Prioritizing engagement was key in developing a successful plan. The result was an in-depth social media toolkit filled with handles, hashtags, an asset library, drafted posts for various social channels, and a posting schedule. This allowed attendees to easily find content related to this event and to keep communication going post-event. 
+      Prioritizing engagement was key in developing a successful plan. The result was an in-depth social media toolkit filled with handles, hashtags, an asset library, drafted posts for various social channels, and a posting schedule. This allowed attendees to easily find content related to this event and to keep communication going post-event. 
 
   - section-image: "/assets/images/case-studies/realizing-democracy-4.jpg"
     section-image-alt: "realizind democracy navigation pages viewed on three phones."
