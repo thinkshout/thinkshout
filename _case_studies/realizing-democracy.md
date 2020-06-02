@@ -2,7 +2,7 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study realizing-democracy
-active: true
+active: false
 homepage: false
 published: true
 related: realizing-democracy
