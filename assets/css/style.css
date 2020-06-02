@@ -4268,12 +4268,13 @@ iframe#wufoo1 {
   .careers .careers-header h2 {
     font-size: 2.8125rem; }
   .careers #careers-blurb {
-    font-size: 1.25rem;
-    font-style: italic;
-    text-align: center; }
+    font-size: 1.125rem;
+    font-style: normal;
+    color: #525255;
+    text-align: center;
+    line-height: 1.75; }
     @media (min-width: 980px) {
       .careers #careers-blurb {
-        font-size: 1.5rem;
         max-width: 75%;
         margin: 4rem auto; } }
   .careers .job-list .job-teaser {
@@ -4283,7 +4284,8 @@ iframe#wufoo1 {
     .careers .job-list .job-teaser h3 {
       color: #F06D2F;
       font-size: 1.625rem;
-      line-height: 1.25; }
+      line-height: 1.25;
+      margin-bottom: 6px; }
       @media (min-width: 481px) and (max-width: 979px) {
         .careers .job-list .job-teaser h3 {
           line-height: 1.5; } }
@@ -4292,6 +4294,11 @@ iframe#wufoo1 {
           line-height: 1.75; } }
     .careers .job-list .job-teaser ul.whr-items {
       padding-left: 0; }
+      .careers .job-list .job-teaser ul.whr-items a:hover,
+      .careers .job-list .job-teaser ul.whr-items a:focus,
+      .careers .job-list .job-teaser ul.whr-items a:active {
+        text-decoration: underline;
+        outline: none; }
     @media (min-width: 980px) {
       .careers .job-list .job-teaser p {
         max-width: 50%;
@@ -4344,11 +4351,12 @@ iframe#wufoo1 {
     .careers .job-list #whr_embed_hook ul li {
       line-height: 1.75; }
     .careers .job-list #whr_embed_hook h3 {
-      font-size: 1.625rem; }
+      font-size: 1.625rem;
+      margin-bottom: 6px; }
     .careers .job-list #whr_embed_hook .whr-date {
       display: none; }
   .careers .keep-me-in-mind {
-    background: #dbdcde;
+    background: #F0F0F0;
     color: #525255;
     margin: 3.5rem 0;
     padding: 1rem 1rem;
@@ -4362,7 +4370,10 @@ iframe#wufoo1 {
     .careers .keep-me-in-mind #ts-email {
       margin-top: 2rem; }
     .careers .keep-me-in-mind a {
-      color: #F06D2F; }
+      color: #BF450D; }
+      .careers .keep-me-in-mind a:hover, .careers .keep-me-in-mind a:focus, .careers .keep-me-in-mind a:active {
+        text-decoration: underline;
+        outline: none; }
   .careers section.more-about-us {
     background: url("../images/ts_redesign/more-about-us.jpg") no-repeat center center/cover;
     color: #fff;
@@ -7231,11 +7242,11 @@ h4.lets-chat {
 .services .page-not-found-header,
 .services .careers-header,
 .services .services-header {
-  background-position: left top;
+  background-position: center 60%;
   background-size: cover;
   color: #fff;
   height: 100%;
-  padding: 6rem 0;
+  padding: 7rem 0;
   position: relative;
   text-align: center;
   width: 100%;
@@ -7313,7 +7324,8 @@ h4.lets-chat {
     .services .page-not-found-header,
     .services .careers-header,
     .services .services-header {
-      padding: 8rem 0; }
+      padding: 10rem 0;
+      background-position: center 50%; }
       .page-not-found .page-not-found-header .wrapper,
       .page-not-found .careers-header .wrapper,
       .page-not-found .services-header .wrapper,
@@ -7367,7 +7379,8 @@ h4.lets-chat {
     .services .page-not-found-header,
     .services .careers-header,
     .services .services-header {
-      padding: 12rem 0; }
+      padding: 12rem 0;
+      background-position: center 50%; }
       .page-not-found .page-not-found-header .wrapper,
       .page-not-found .careers-header .wrapper,
       .page-not-found .services-header .wrapper,
@@ -7421,7 +7434,8 @@ h4.lets-chat {
     .services .page-not-found-header,
     .services .careers-header,
     .services .services-header {
-      padding: 18rem 0; }
+      padding: 18rem 0;
+      background-position: center 50%; }
       .page-not-found .page-not-found-header .wrapper,
       .page-not-found .careers-header .wrapper,
       .page-not-found .services-header .wrapper,
