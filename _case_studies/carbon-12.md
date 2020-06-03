@@ -59,7 +59,7 @@ cs-sections:
     section-image2: "/assets/images/case-studies/Carbon12-2.jpg"
     section-image-alt2: "Screenshot of Carbon 12 cross laminated timber page."
     
-    section-image2: "/assets/images/case-studies/Carbon12-3.jpg"
+  - section-image3: "/assets/images/case-studies/Carbon12-3.jpg"
     section-image-alt2: "Screenshot of Carbon 12 construction page."
 
   - section-description: |
