@@ -5997,6 +5997,9 @@ form.contact {
       @media (min-width: 980px) {
         .footer .footer-newsletter .button.solid {
           padding: 0.75rem 1rem; } }
+    .footer .footer-newsletter .mc-embedded-subscribe-form label {
+      color: #FFFFFF;
+      background-color: #000000; }
   @media (max-width: 480px) {
     .footer .main-menu-footer {
       text-align: center; } }

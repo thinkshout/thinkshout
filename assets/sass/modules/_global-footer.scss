@@ -104,6 +104,10 @@
       @include mq(t) { padding: 0.75rem 1rem; }
       @include mq(d) { padding: 0.75rem 1rem; }
     }
+    .mc-embedded-subscribe-form label {
+      color: #FFFFFF;
+      background-color: #000000;
+    }
 
   }
 
