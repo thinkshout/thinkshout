@@ -56,16 +56,16 @@ cs-sections:
   - section-image1: "/assets/images/case-studies/realizing-democracy-3.jpg"
     section-image-alt1: "realizing democracy footer page with quote viewed on a tablet."
 
-    section-image2: "/assets/images/case-studies/realizing-democracy-4.jpg"
-    section-image-alt2: "realizing democracy navigation pages viewed on three phones."
+    section-image2: "/assets/images/case-studies/realizing-democracy-5.jpg"
+    section-image-alt2: "realizing democracy a path forward navigation page viewed on laptop."
 
   - section-description: |
       #### Simultaneous with our website build out, we developed an in-depth communications plan in order to build, and maintain, a sense of community-- even after the kickoff event was over.
 
       Prioritizing engagement was key in developing a successful plan. The result was an in-depth social media toolkit filled with handles, hashtags, an asset library, drafted posts for various social channels, and a posting schedule. This allowed attendees to easily find content related to this event and to keep communication going post-event.
 
-  - section-image: "/assets/images/case-studies/realizing-democracy-5.jpg"
-    section-image-alt: "realizing democracy past events navigation page viewed on laptop."
+  - section-image: "/assets/images/case-studies/realizing-democracy-4.jpg"
+    section-image-alt: "realizing democracy navigation pages viewed on three phones."
 
   - section-description: |
       #### If you build it, they won’t come.
