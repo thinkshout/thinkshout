@@ -17,8 +17,8 @@ tags:
   - "digital marketing"
   - nonprofit
 date: 2020-06-03 11:00:00
-image: https://thinkshout.com/assets/images/blog/(hero).jpg
-header-image: /assets/images/blog/(hero).jpg
+image: https://thinkshout.com/assets/images/blog/accessibility-statement-hero.jpg
+header-image: /assets/images/blog/accessibility-statement-hero.jpg
 header-image-alt: "."
 ---
 ## Your accessibility statement is not just another contact form on your website. 
