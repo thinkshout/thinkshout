@@ -59,7 +59,7 @@ cs-sections:
     section-image2: "/assets/images/case-studies/Carbon12-2.jpg"
     section-image-alt2: "Screenshot of Carbon 12 cross laminated timber page."
     
-  - section-image3: "/assets/images/case-studies/Carbon12-3.jpg"
+  - section-image: "/assets/images/case-studies/Carbon12-3.jpg"
     section-image-alt2: "Screenshot of Carbon 12 construction page."
 
   - section-description: |
@@ -82,7 +82,7 @@ cs-sections:
 
       The Carbon12 case study website is the central product of a year-long public relations push to encourage building with mass timber. The USDA Forest Service and Kaiser + Path are working closely to spark development in 2020 and beyond, including the development of two webinars during the annual Mass Timber Conference in Portland, Oregon. The site immediately won the praise of industry leaders, one of whom called it "the seminal piece on mass timber building" when it launched in January. Over the coming months, the site will be leveraged to secure investment in future CLT projects and by architectural firms across the US as they undertake their first mass timber projects.
 
-  - section-image: "/assets/images/case-studies/Carbon12-3up.jpg"
+  - section-image: "/assets/images/case-studies/Carbon-3up.jpg"
     section-image-alt: "Carbon12 design and approval page viewed on 3 mobile devices."
 
   - section-type: quote
