@@ -4,7 +4,7 @@ body-class: blog-post
 topic: "culture community and business"
 campaign-topic: accessibility
 title: "Four Questions Your Website Accessibility Statement Should Answer"
-homepage: false
+homepage: true
 author: jules
 published: true
 featured: false
