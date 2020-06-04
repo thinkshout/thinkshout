@@ -2,7 +2,7 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study carbon-12
-active: true
+active: false
 homepage: false
 published: false
 related: sustainability
