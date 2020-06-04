@@ -60,7 +60,7 @@ The time to fix things will vary. That’s OK. As long as you’re committed to 
 
 ## Accessibility is a team effort
 
-There is no one-size-fits-all answer for this; organizations need to create a process that makes the most sense for their size, structure, and workflow. The important thing is to make sure your process is clear, so resolving accessibility issues is streamlined for your team.
+Organizations need to create a process that makes the most sense for their size, structure, and workflow. The important thing is to make sure your process is clear, so resolving accessibility issues is streamlined for your team.
 
 **Here’s an example process:**
 - **Follow up quickly (within 3 business days)** so your site visitors feel heard, and let them know that you’ll be addressing the issue.
