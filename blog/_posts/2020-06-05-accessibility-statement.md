@@ -23,7 +23,7 @@ header-image-alt: "."
 ---
 ## Your accessibility statement is not just another contact form on your website. 
  
-So you put an accessibility statement up on your website, and now you’re done, right? Not exactly. It won’t magically protect you from litigation if feedback from users disappears into a virtual black hole. Your accessibility statement should be a living document that is most effective when you also make a few key changes to your organization’s regular processes. Here are five things to consider as you launch your accessibility statement. 
+So you [put an accessibility statement](https://www.w3.org/WAI/planning/statements/) up on your website, and now you’re done, right? Not exactly. It won’t magically protect you from litigation if feedback from users disappears into a virtual black hole. Your accessibility statement should be a living document that is most effective when you also make a few key changes to your organization’s regular processes. Here are five things to consider as you launch your accessibility statement. 
 
  **A well-crafted accessibility statement answers several questions:** 
 1. What standard is your organization using to measure accessibility?
@@ -34,9 +34,9 @@ So you put an accessibility statement up on your website, and now you’re done,
 
 ## 1. What standard is your organization using to measure accessibility?
 
-Is your site far from being WCAG 2.1 AA compliant? That’s ok. It’s necessary to have a bold vision for accessibility, and in order to get there, start by setting realistic and achievable goals. Begin by reviewing and improving new content and key user experiences. Include a statement about the accessibility of older articles, or other known issues, so people know what to expect. If you need time to work through accessibility issues, that’s fine. Start with progress over perfection.
+Is your site far from being [WCAG 2.1 AA](https://www.w3.org/TR/WCAG21/) compliant? That’s ok. It’s necessary to have a bold vision for accessibility, and in order to get there, start by setting realistic and achievable goals. Begin by reviewing and improving new content and key user experiences. Include a statement about the accessibility of older articles, or other known issues, so people know what to expect. If you need time to work through accessibility issues, that’s fine. Start with progress over perfection.
 
-**Don’t know where to start? Contact us to talk accessibility strategy. We can help with an Accessibility Review, implement key accessibility improvements, and quickly turn needed changes into spec’d tickets for developers.** 
+**Don’t know where to start? [Contact us](https://thinkshout.com/contact/) to talk accessibility strategy. We can help with an Accessibility Review, implement key accessibility improvements, and quickly turn needed changes into spec’d tickets for developers.** 
 
 ## 2. How do you get feedback about the accessibility of your site?
 
@@ -52,7 +52,7 @@ For a lot of our partners, we recommend having a dedicated person or team to mai
 
 ## 4. And how does your organization handle accessibility fixes?
 
-Accessibility issues need to be prioritized and added to the queue. Here at ThinkShout we use GitHub to track issue progress. Next, delegate this task to an accessibility team or point person, identifying that this task is urgent and high priority.  
+Accessibility issues need to be prioritized and added to the queue. Here at ThinkShout we use [GitHub](https://github.com/) to track issue progress. Next, delegate this task to an accessibility team or point person, identifying that this task is urgent and high priority.  
 
 Depending on the issue, the time it takes to fix could vary.  It’s good practice to reach out to the person who documented this issue with an estimated, realistic timespan of when your team will be able to fix the issue. If something is too large to fix immediately, see if there’s another way you can provide access to the person who submitted the request, and update your site making the alternative broadly available until you’re able to resolve the issue. (For example, this would be a work around for a third-party job application form that’s not accessible, but at the top there’s an accessible link to an email application process that accomplishes the same user goal.) Once the fix has gone live, reach out to that person for the last time letting them know the issue has been fixed, and let them know you’d love feedback if they decide to test it out. 
 
@@ -65,14 +65,14 @@ There is no one-size-fits-all answer for this; organizations need to create a pr
 **Here’s an example process:**
 - **Follow up quickly (within 3 business days)** so your site visitors feel heard, and let them know that you’ll be addressing the issue.
 - **Update the accessibility policy page** with known issues so other visitors don’t reach out to document the same bug. 
-- **Get the issue into the queue.** For our partners, we use GitHub to add tickets and tag them with ‘high priority’ and ‘accessibility’ so they can be delegated and addressed in a timely way.
+- **Get the issue into the queue.** For our partners, we use [GitHub](https://github.com/) to add tickets and tag them with ‘high priority’ and ‘accessibility’ so they can be delegated and addressed in a timely way.
 - **Follow up** with the person who submitted the issue once it’s resolved. This will build trust, close the loop, and allow for user testing. Ask if they’d be willing to take a look and share any additional feedback.
 
-In Accessibility for Teams in a Hurry, we talk about how accessibility is not one person’s job--everyone has a role to play. You can have one person dedicated to moving accessibility issues forward, but if you dedicate one person to accessibility while another team is creating designs, code or content elsewhere you’re going to continue to create a steady stream of new accessibility issues, and you’ll find yourself taking two steps forward and one step back with each new update. 
+In [Accessibility for Teams in a Hurry](https://thinkshout.com/equitable-digital-connections), we talk about how accessibility is not one person’s job--everyone has a role to play. You can have one person dedicated to moving accessibility issues forward, but if you dedicate one person to accessibility while another team is creating designs, code or content elsewhere you’re going to continue to create a steady stream of new accessibility issues, and you’ll find yourself taking two steps forward and one step back with each new update. 
 
 Incorporating accessibility into your existing process with your broader team is the best long-term solution. If you have developers on staff, they should be testing their code for accessibility before it goes live. Anyone adding content to the site should be reviewing their contributions for accessibility. 
 
    
 If you’re interested in making your website more accessible, or looking to work with a team where accessibility is woven into strategy, design and development, we’re here to help! 
 
-Get the conversation started. 
+[Get the conversation started.](https://thinkshout.com/contact/) 
