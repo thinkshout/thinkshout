@@ -58,14 +58,14 @@
     }
   }
 
-  a {
+  a, p a {
     color: $darkgray;
     text-decoration: underline;
 
     &:hover,
     &:focus,
     &:active {
-      color: $ltorange;
+      color: $dark-orange;
     }
   }
 

@@ -1,6 +1,6 @@
 ---
 title: Accessibility Statement
-layout: privacy
+layout: accessibility
 permalink: accessibility/
 intro: 
 ---

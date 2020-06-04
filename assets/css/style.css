@@ -2391,11 +2391,11 @@ a.visually-hidden.focusable:focus {
       .basic-page li ul li:before {
         content: '';
         padding-right: 1.5rem; }
-  .basic-page a {
+  .basic-page a, .basic-page p a {
     color: #525255;
     text-decoration: underline; }
-    .basic-page a:hover, .basic-page a:focus, .basic-page a:active {
-      color: #f78c50; }
+    .basic-page a:hover, .basic-page a:focus, .basic-page a:active, .basic-page p a:hover, .basic-page p a:focus, .basic-page p a:active {
+      color: #D24C0F; }
   .basic-page .apply {
     margin: 3rem 0;
     text-align: center; }
