@@ -2,7 +2,7 @@
 title: Accessibility Statement
 layout: accessibility
 permalink: accessibility/
-intro: [ThinkShout.com](https://thinkshout.com/) is committed to inclusivity and accessibility. We strive to provide a website experience that functions for all users regardless of ability, network speed, or device. And as we continually improve the user experience for everyone and apply the relevant accessibility standards, we know we are not perfect. There is always room for improvement, and we enthusiastically welcome feedback if you have issues accessing any part of our website. 
+intro: ThinkShout.com is committed to inclusivity and accessibility. We strive to provide a website experience that functions for all users regardless of ability, network speed, or device. And as we continually improve the user experience for everyone and apply the relevant accessibility standards, we know we are not perfect. There is always room for improvement, and we enthusiastically welcome feedback if you have issues accessing any part of our website. 
 --- 
 ## Site features
 - Each page on the site has a “skip to content” link that allows users to move quickly past navigation and into main content. 
