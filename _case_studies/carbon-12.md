@@ -44,10 +44,10 @@ cs-intro:
     intro-text: |
       The Carbon12 case study has been called the “seminal piece on mass timber building” and is the centerpiece of a year-long influence campaign at conferences and webinars. It was also presented to dozens of homebuilders and architects during The Mass Timber Conference, and was nominated for a Webby in 2020.
 
+cs-sections:
   - section-image: "/assets/images/case-studies/Carbon12-homepage.jpg"
     section-image-alt: "Carbon12 homepage displayed on a laptop"
-
-cs-sections:
+    
   - section-description: |
       #### A Sustainable Building Alternative
 
