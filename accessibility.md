@@ -15,13 +15,8 @@ intro: [ThinkShout.com](https://thinkshout.com/) is committed to inclusivity and
 [The Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) define requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA. [ThinkShout.com](https://thinkshout.com/) is partially conformant with WCAG 2.1 level AA, as some parts of the content do not fully conform to the accessibility standard, and we are working towards full conformance. We are in the process of reviewing commonly used pages on our site, and implementing updates to improve the usability for all.
 
 If you encounter something that is not accessible, please reach out to us with the issue and we will fix it as soon as we can. It is our goal to prioritize transparency and maintain clear communication through this process, so we will get back to you within 5 business days once an issue is documented, and inform you when the site is live with the appropriate fix.
-
-<div class="intro">
-  <div class="contact-hero container">
-      <h2>Feedback</h2>
-  </div>
-</div>
-
+     
+##Feedback
 <div class="contact-form">
   <div class="container">
     <div class="inquiry-text">
