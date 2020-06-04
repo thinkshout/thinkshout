@@ -17,36 +17,3 @@ intro: [ThinkShout.com](https://thinkshout.com/) is committed to inclusivity and
 If you encounter something that is not accessible, please reach out to us with the issue and we will fix it as soon as we can. It is our goal to prioritize transparency and maintain clear communication through this process, so we will get back to you within 5 business days once an issue is documented, and inform you when the site is live with the appropriate fix.
      
 ## Feedback
-<div class="contact-form">
-  <div class="container">
-    <div class="inquiry-text">
-      <h4>We welcome your feedback on the accessibility of ThinkShout.com.</h4>
-      <p>If you have any questions about this policy, or if you encounter accessibility barriers, please contact us by filling out this form, or [reach out by email](mailto:olivia.oldach@thinkshout.com). We try to respond to feedback within 5 business days.</p>
-      <p><strong>Reach out by email</strong><br>
-        <a href="mailto:olivia.oldach@thinkshout.com">olivia.oldach@thinkshout.com</a></p>
-    </div>
-    <form id="form1" name="form1" class="wufoo topLabel page contact" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" action="https://thinkshout.wufoo.com/forms/z76jm1g03ubu9b/#public">
-      <div class="form-row">
-        <div class="form-group half">
-          <label for="Field1">First Name</label>
-          <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" required="true"  placeholder="Enter your first name"/>
-        </div>
-        <div class="form-group half">
-          <label for="Field2">Last Name</label>
-          <input id="Field2" name="Field2" type="text" class="field text ln" value="" size="14" required placeholder="Enter your last name" />
-        </div>
-      </div>
-      <div class="form-group">
-          <label for="Field3">Email (required)</label>
-        <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" placeholder="Enter your email address" />
-      </div>
-      <div class="form-group">
-          <label for="Field4">Notes</label>
-        <textarea id="Field4"
-        name="Field4"
-        class="field textarea medium message"
-        spellcheck="true"
-        rows="10" cols="50"
-        placeholder="Let us know how we can help."
-        onkeyup="" required></textarea>
-      </div>
