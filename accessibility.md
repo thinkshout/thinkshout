@@ -51,7 +51,10 @@ If you encounter something that is not accessible, please reach out to us with t
         placeholder="Let us know how we can help."
         onkeyup="" required></textarea>
       </div>
-      
-If you have any questions about this policy, or ThinkShout, you can [email us here](mailto:olivia.oldach@thinkshout).
+
+  </div>
+</div>
+--- 
+If you have any questions about this policy, or ThinkShout, you can [email us here](mailto:olivia.oldach@thinkshout.com).
 
 This statement was created on June 4, 2020.
