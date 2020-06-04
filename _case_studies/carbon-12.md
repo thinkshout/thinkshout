@@ -43,8 +43,6 @@ cs-intro:
   - intro-title: Results
     intro-text: |
       The Carbon12 case study has been called the “seminal piece on mass timber building” and is the centerpiece of a year-long influence campaign at conferences and webinars. It was also presented to dozens of homebuilders and architects during The Mass Timber Conference, and was nominated for a Webby in 2020.
-      
-  - section-image: <iframe src="https://player.vimeo.com/video/425993898" width="1500" height="855" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
   - section-image: "/assets/images/case-studies/Carbon12-homepage.jpg"
     section-image-alt: "Carbon12 homepage displayed on a laptop"
@@ -55,6 +53,8 @@ cs-sections:
 
       Building with mass timber products, and specifically cross-laminated timber (CLT), could play a major role in reducing carbon emissions from construction in the United States, yet we are well behind many European countries in our knowledge, policy, and planning. In partnership with the design/build firm responsible for the tallest CLT building in the US, ThinkShout developed an interactive website to "open source" the process in a way that other builders could easily adopt, and which will help build a groundswell of support from residential and financial audiences as well.
 
+  - section-image: <iframe src="https://player.vimeo.com/video/425993898" width="1500" height="855" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+ 
   - section-image1up: "/assets/images/case-studies/Carbon12-1.jpg"
     section-image-alt1: "Screenshot of Carbon 12 wood page."
 
