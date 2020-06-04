@@ -18,8 +18,6 @@ tags:
 - Javascript
 ---
 
-# 
-
 The [Views Infinite Scroll module](https://drupal.org/project/views_infinite_scroll) provides a way to apply infinite scroll to the output of a view, but if you want to apply infinite scroll to custom block content, you're out of luck. I found myself in this position while developing a recently-launched site for [The Salmon Project](http://www.salmonlove.com), which I'll use as a loose reference point as I walk you through my solution to applying both Masonry and Infinite Scroll to custom block content.
 
 ## Overview

@@ -21,7 +21,7 @@ author: lev
 
 I quickly faced a challenge many contributors encounter as their modules grow in terms of usage and complexity. These challenges include finding the time to maintain and support the module and adding new features when there is no support from a client or employer. In this case, [MailChimp](http://mailchimp.com) came to the rescue and partnered with ThinkShout in late 2010 to sponsor the module. We agreed to maintain and support the current Drupal 6 version and rewrite the module for Drupal 7, for which we have just completed a [release candidate](http://drupal.org/node/1204522).
 <!-- break -->
-# Why a rewrite
+## Why a rewrite
 * Nearly 4 years of technical debt, time to start clean.
 * Initial architectural decisions could have been better. It was my first module!
 * Take full advantage of changes in the MailChimp API.
@@ -33,8 +33,8 @@ I quickly faced a challenge many contributors encounter as their modules grow in
   5. Mail interface
   6. Custom cache bins
   
-# What's new
-## Modular architecture
+## What's new
+### Modular architecture
 The origin module had all of the features crammed into a single module, with a focus on meeting the needs of a very specific feature set. The result was features that were difficult to extend / alter, and almost no API interfaces for developers to interact with the MailChimp API outside of the fairly narrow use case the module handled. For 2.0, we split out the module into a fairly minimalist API module, with a submodule for each primary use case. In addition to providing much needed flexibility, this makes the module much more lightweight as submodules can be enabled/disabled as needed, or just the API module can be used for custom development. The module is currently bundled with the following:
 
 1. mailchimp.module: Core API integration and general settings.
@@ -80,7 +80,7 @@ Aside from the mentioned improvements, the major new feature included with this 
 Drupal 7 has an elegant mechanism allowing sites to alter how emails are sent by implementing an instance of the [MailSystemInterface](http://api.drupal.org/api/drupal/includes--mail.inc/interface/MailSystemInterface/7) and setting a global variable indicating that it should be used. The module does this, passing the mail key as a tag to the STS send method so that site owners can view detailed reports for each type of email sent on their site. Report segments are hourly and include tag, number sent, bounces, rejects, complaints, opens, and clicks.
 
 <a href="/sites/default/files/mailchimp_sts_reports.png"><img src="/sites/default/files/mailchimp_sts_reports.png" width="700"/></a>
-# Roadmap
+## Roadmap
 While this is a major milestone for integration between MailChimp and Drupal, we have lots of exciting additional features planned, in addition to what I'm sure will be plenty of refinement and issue resolution as usage of the new version grows. Pending feedback from the community, we're going to work on:
 
 1. Campaign creation from within Drupal.

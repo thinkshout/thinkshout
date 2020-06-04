@@ -5,7 +5,7 @@ body-class: case-study carbon-12
 active: true
 homepage: false
 published: true
-related: carbon-12
+related: sustainability
 order: 6
 image: /assets/images/case-studies/Carbon12-hero.jpg
 image-alt: "Interior of the Carbon12 building."
