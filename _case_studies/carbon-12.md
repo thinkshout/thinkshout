@@ -43,6 +43,8 @@ cs-intro:
   - intro-title: Results
     intro-text: |
       The Carbon12 case study has been called the “seminal piece on mass timber building” and is the centerpiece of a year-long influence campaign at conferences and webinars. It was also presented to dozens of homebuilders and architects during The Mass Timber Conference, and was nominated for a Webby in 2020.
+      
+      <iframe src="https://player.vimeo.com/video/425993898" width="640" height="365" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
   - section-image: "/assets/images/case-studies/Carbon12-homepage.jpg"
     section-image-alt: "Carbon12 homepage displayed on a laptop"
@@ -65,7 +67,7 @@ cs-sections:
   - section-description: |
       #### From Proprietary Process to Shared Knowledge
 
-      (BuildingCarbon12.com)[https://buildingcarbon12.com/] is a multi-chapter interactive story that unfolds around video, animations, pockets of deep information, and an arc that carries visitors from a basic understanding of mass timber products to a bold vision for the future of our cities. By sharing every proprietary detail of their process, our partners at Kaiser + Path have put shared knowledge above business advantage. In fact, their goal is not to corner the market on CLT, but rather to show how feasible — and indeed, necessary — it is to build with sustainable wood products instead of concrete and steel.
+      [BuildingCarbon12.com](https://buildingcarbon12.com/) is a multi-chapter interactive story that unfolds around video, animations, pockets of deep information, and an arc that carries visitors from a basic understanding of mass timber products to a bold vision for the future of our cities. By sharing every proprietary detail of their process, our partners at Kaiser + Path have put shared knowledge above business advantage. In fact, their goal is not to corner the market on CLT, but rather to show how feasible — and indeed, necessary — it is to build with sustainable wood products instead of concrete and steel.
 
   - section-image1: "/assets/images/case-studies/Carbon12-dual.jpg"
     section-image-alt1: "Carbon12 wood page viewed on a laptop and cross laminated timber page viewed on mobile."
