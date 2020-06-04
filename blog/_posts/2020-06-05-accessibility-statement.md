@@ -7,7 +7,7 @@ title: "Four Questions Your Website Accessibility Statement Should Answer"
 homepage: true
 author: jules
 published: true
-featured: true
+featured: false
 short: "Your accessibility statement is not just another contact form on your website."
 tags:
   - accessibility
