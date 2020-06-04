@@ -51,9 +51,8 @@ cs-sections:
   - section-description: |
       #### A Sustainable Building Alternative
 
-      Building with mass timber products, and specifically cross-laminated timber (CLT), could play a major role in reducing carbon emissions from construction in the United States, yet we are well behind many European countries in our knowledge, policy, and planning. In partnership with the design/build firm responsible for the tallest CLT building in the US, ThinkShout developed an interactive website to "open source" the process in a way that other builders could easily adopt, and which will help build a groundswell of support from residential and financial audiences as well.
-      <iframe src="https://player.vimeo.com/video/425993898" width="640" height="365" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
+      Building with mass timber products, and specifically cross-laminated timber (CLT), could play a major role in reducing carbon emissions from construction in the United States, yet we are well behind many European countries in our knowledge, policy, and planning. In partnership with the design/build firm responsible for the tallest CLT building in the US, ThinkShout developed an interactive website to "open source" the process in a way that other builders could easily adopt, and which will help build a groundswell of support from residential and financial audiences as well.     
+  
   - section-image1up: "/assets/images/case-studies/Carbon12-1.jpg"
     section-image-alt1: "Screenshot of Carbon 12 wood page."
 
