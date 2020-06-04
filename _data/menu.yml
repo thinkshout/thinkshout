@@ -18,6 +18,10 @@ main-menu:
     url: /careers/
     header-nav: false
 
+  - title: Accessibility
+    url: /accessibility/
+    header-nav: false
+
   - title: Contact
     url: /contact/
 
