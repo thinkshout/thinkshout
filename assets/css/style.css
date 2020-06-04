@@ -2366,7 +2366,6 @@ a.visually-hidden.focusable:focus {
     text-align: center; }
   .basic-page .intro {
     font-size: 1.25rem;
-    font-style: italic;
     line-height: 1.75;
     margin: 0 auto;
     text-align: center;
