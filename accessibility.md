@@ -30,16 +30,16 @@ If you encounter something that is not accessible, please reach out to us with t
       <div class="form-row">
         <div class="form-group half">
           <label for="Field1">First Name</label>
-          <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" required="true"  placeholder="Enter your first name"/>
+          <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" required="true"  placeholder="First name"/>
         </div>
         <div class="form-group half">
           <label for="Field2">Last Name</label>
-          <input id="Field2" name="Field2" type="text" class="field text ln" value="" size="14" required placeholder="Enter your last name" />
+          <input id="Field2" name="Field2" type="text" class="field text ln" value="" size="14" required placeholder="Last name" />
         </div>
       </div>
       <div class="form-group">
           <label for="Field3">Email (required)</label>
-        <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" placeholder="Enter your email address" />
+        <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" placeholder="Email address" />
       </div>
       <div class="form-group">
           <label for="Field4">Notes</label>
