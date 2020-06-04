@@ -4,7 +4,7 @@ body-class: blog-post
 topic: "culture community and business"
 campaign-topic: accessibility
 title: "Four Questions Your Website Accessibility Statement Should Answer"
-homepage: true
+homepage: false
 author: jules
 published: true
 featured: false
@@ -19,7 +19,7 @@ tags:
 date: 2020-06-03 11:00:00
 image: https://thinkshout.com/assets/images/blog/accessibility-statement-hero.jpg
 header-image: /assets/images/blog/accessibility-statement-hero.jpg
-header-image-alt: "."
+header-image-alt: "digital illustration of people holding hands up."
 ---
 ## Your accessibility statement is not just another contact form on your website. 
  
