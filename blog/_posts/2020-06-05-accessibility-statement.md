@@ -70,9 +70,9 @@ Organizations need to create a process that makes the most sense for their size,
 
 In [Accessibility for Teams in a Hurry](https://thinkshout.com/equitable-digital-connections), we talk about how accessibility is not one person’s job--everyone has a role to play. You can have one person dedicated to moving accessibility issues forward, but if you dedicate one person to accessibility while another team is creating designs, code or content elsewhere you’re going to continue to create a steady stream of new accessibility issues, and you’ll find yourself taking two steps forward and one step back with each new update. 
 
-Incorporating accessibility into your existing process with your broader team is the best long-term solution. If you have developers on staff, they should be testing their code for accessibility before it goes live. Anyone adding content to the site should be reviewing their contributions for accessibility. 
+Incorporating accessibility into your existing process with your broader team is the best long-term solution. If you have developers on staff, they should be testing their code for accessibility before it goes live. Anyone adding content to the site should be reviewing their contributions for accessibility, as well. 
 
    
-If you’re interested in making your website more accessible, or looking to work with a team where accessibility is woven into strategy, design and development, we’re here to help! 
+**If you’re interested in making your website more accessible, or looking to work with a team where accessibility is woven into strategy, design and development, we’re here to help!** 
 
 ### [Get the conversation started.](https://thinkshout.com/contact/) 
