@@ -3,11 +3,6 @@
 layout: case_study
 body-class: case-study carbon-12
 active: true
-homepage: false---
-# LAYOUT DATA
-layout: case_study
-body-class: case-study carbon-12
-active: true
 homepage: false
 published: true
 related: carbon-12
