@@ -42,7 +42,7 @@ Is your site far from being [WCAG 2.1 AA](https://www.w3.org/TR/WCAG21/) complia
 
 Make sure your website has an accessibility page that includes an email address or a contact form. It should be clear to your visitors how they can submit feedback, and when they can expect follow-up. 
 
-The goal of an accessibility page is to create an open, transparent dialogue about where your organization is in the accessibility process and to ask for feedback about ways to improve. If people submit feedback and never see an improvement on the issue, they might use litigation to inspire action. If they submit an issue and never hear back at all, you’ve lost trust with your audience and created a negative user experience. On top of that, you’ll continue fielding emails or phone calls about the issue until it’s resolved. A good feedback process can save you time, boost user confidence, and proactively fix accessibility issues.
+The goal of an accessibility page is to create an open, transparent dialogue about where your organization is in the accessibility process and to ask for feedback about ways to improve. If people submit feedback and never see an improvement on the issue, they might use litigation to inspire action. If they submit an issue and never hear back at all, you’ve lost trust with your audience and created a negative user experience. On top of that, you’ll continue fielding emails or phone calls about the issue until it’s resolved. A good feedback process saves you time, boosts user confidence, and proactively fixes accessibility issues.
 
 ## 3. Who is responsible for responding to accessibility issues found by users?
 
