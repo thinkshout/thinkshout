@@ -163,7 +163,7 @@
     a {
       @include transition(background-color 0.3s linear);
       background-color: $orange;
-      color: $white;
+      color: $bgblack;
       display: inline-block;
       font-size: 0.9rem;
       font-weight: 400;
@@ -171,8 +171,10 @@
       margin: 0;
       padding: rem(12) rem(64);
       text-transform: uppercase;
-      &:hover {
-        background-color: $midorange;
+      &:hover,
+      &:active,
+      &:focus {
+        background-color: $pale-orange;
       }
     }
     @include mq(lt) { margin: 3em auto; }

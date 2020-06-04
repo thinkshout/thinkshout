@@ -26,8 +26,11 @@
     vertical-align: sub;
   }
 
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active {
     text-decoration: underline;
+    outline: none;
   }
 
   &:visited {
@@ -37,7 +40,7 @@
 
 // Upper header text with the down facing arrow
 .header-down-caret {
-  h4 {
+  h2, h4 {
     font-size: rem(13);
     margin-bottom: 0;
     padding-bottom: 1rem;
@@ -88,7 +91,7 @@
 
 .byline,
 %byline {
-  color: lighten($midgray,10%);
+  color: $casegray;
   text-align: left;
   display: inline-block;
   line-height: 1.4;
@@ -102,8 +105,11 @@
     font-size: rem(15);
     font-weight: 700;
     padding-top: rem(6);
-    &:hover {
-      color: $orange;
+    &:hover,
+    &:focus,
+    &:active {
+      outline: none;
+      text-decoration: underline;
     }
   }
   img {

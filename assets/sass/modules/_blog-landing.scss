@@ -13,7 +13,7 @@
     width: 100%;
 
     .gradient {
-      background-image: linear-gradient( to right, rgba(40,40,40,0.8), rgba(40,40,40,0.5) );
+      background-image: linear-gradient( to right, rgba(40,40,40,0.9), rgba(40,40,40,0.6) );
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
       height: 100%;
       left: 0;
@@ -58,15 +58,18 @@
       @include mq(md) { max-width: 70%; }
       @include mq(l)  { max-width: 55%; }
       a {
-        color: $yellow;
+        color: $white;
         font-weight: 800;
       }
-      a:hover {
+      a:hover,
+      a:focus,
+      a:active {
         text-decoration: underline;
+        outline: none;
       }
     }
     h2 {
-      color: $yellow;
+      color: $white;
       font-size: rem(22);
       @include mq(lt) { font-size: rem(28); }
       @include mq(md) { font-size: rem(32); }
@@ -100,6 +103,14 @@
     @include mq(lt) { margin-top: 2rem; padding-left: 1rem; }
     @include mq(md) { margin-top: 4rem; padding-left: 1rem; }
     @include mq(l)  { margin-top: 5rem; max-width: rem(1100); padding-left: 0; }
+
+    label {
+      bottom: 4px;
+      color: $darkgray;
+      font-size: rem(14);
+      font-weight: 400;
+      position: relative;
+    }
   }
   .blog-filter {
     width: rem(390);
@@ -112,7 +123,7 @@
     padding: 0;
     li {
       border-bottom: 1px solid $ltgray;
-      display: inline-block; 
+      display: inline-block;
       padding: 1rem 1rem;
       width: 100%;
       @include mq(lt) { padding: 2rem 2rem; }
@@ -129,7 +140,7 @@
       }
 
       a.topic {
-        color: $yellow;
+        color: $black;
         font-size: rem(14);
         font-weight: 700;
         display: block;
@@ -139,7 +150,7 @@
       }
 
       h3 a {
-        color: $midgray;
+        color: $orange;
         font-size: 1.2rem;
         font-weight: 700;
         margin: 1rem auto;
@@ -149,8 +160,11 @@
         @include mq(l)  { font-size: 1.5rem; max-width: 60%; }
       }
 
-      a:hover {
+      a:hover,
+      a:focus,
+      a:active {
         text-decoration: underline;
+        outline: none;
       }
 
 
@@ -185,6 +199,13 @@
           float: left;
           max-width: 75%;
           white-space: normal;
+        }
+        a:hover,
+        a:focus,
+        a:active {
+          color: $darkgray;
+          text-decoration: underline;
+          outline: none;
         }
       }
     }

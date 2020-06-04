@@ -44,7 +44,9 @@
     color: $orange;
     font-size: 1.5rem;
 
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
       text-decoration: underline;
     }
   }
@@ -55,7 +57,9 @@
     a {
       color: $orange;
 
-      &:hover {
+      &:hover,
+      &:focus,
+      &:active {
         text-decoration: underline;
       }
     }

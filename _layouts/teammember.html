@@ -23,22 +23,22 @@ layout: default
 <ul class="social">
   {% if page.social.github %}
   <li>
-    <a href="{{ page.social.github }}" target="_blank"><span class="icon-github"></span></a>
+    <a href="{{ page.social.github }}" target="_blank"><span class="icon-github"></span><span class="visually-hidden">{{ page.first_name }}'s Github Account</span></a>
   </li>
   {% endif %}
   {% if page.social.twitter %}
   <li>
-    <a href="{{ page.social.twitter }}" target="_blank"><span class="icon-twitter"></span></a>
+    <a href="{{ page.social.twitter }}" target="_blank"><span class="icon-twitter"></span><span class="visually-hidden">{{ page.first_name }}'s Twitter Feed</span></a>
   </li>
   {% endif %}
   {% if page.social.linkedin %}
   <li>
-    <a href="{{ page.social.linkedin }}" target="_blank"><span class="icon-linkedin"></span></a>
+    <a href="{{ page.social.linkedin }}" target="_blank"><span class="icon-linkedin"></span><span class="visually-hidden">{{ page.first_name }}'s LinkedIn Page</span></a>
   </li>
   {% endif %}
   {% if page.social.drupal %}
   <li>
-    <a href="{{ page.social.drupal }}" target="_blank"><span class="icon-tint"></span></a>
+    <a href="{{ page.social.drupal }}" target="_blank"><span class="icon-tint"></span><span class="visually-hidden">{{ page.first_name }}'s Drupal Account</span></a>
   </li>
   {% endif %}
 </ul>
@@ -59,11 +59,9 @@ layout: default
           {% for post in author_posts %}
           {% if post.published == nil or post.published == true %}
               <div class="post">
-                <a href="{{ site.baseurl }}{{ post.url }}">
-                  <p class="post-date">{{ post.date | date: "%m.%d.%Y" }}</p>
-                  <h3 class="post-title">{{ post.title}}</h3>
-                  <p class="post-short">{{ post.short }}</p>
-                </a>
+                <p class="post-date">{{ post.date | date: "%m.%d.%Y" }}</p>
+                <h3 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h3>
+                <p class="post-short">{{ post.short }}</p>
               </div>
           {% endif %}
           {% endfor %}

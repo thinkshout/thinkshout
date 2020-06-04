@@ -3,7 +3,7 @@
   padding: 3rem 0;
 
   .header-down-caret {
-    h4 {
+    h2 {
       color: $midgray;
       &:after { background-color: $ltgray; }
     }
@@ -16,14 +16,16 @@
     @include mq(m) { @include columns(1); }
   }
 
-  ul.client-list {
+  div.client-list {
     margin: 0;
     font-size: rem(13);
     line-height: 1.3;
     width: 100%;
 
     .client-sector {
-      color: $orange-yellow2;
+      color: $a11y-orange;
+    font-size: rem(13);
+    line-height: 1.3;
       font-weight: bold;
       text-transform: uppercase;
     }

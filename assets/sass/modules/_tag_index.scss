@@ -40,7 +40,9 @@
     a {
       @include transition(color,0.3s,linear);
       text-decoration: none;
-      &:hover {
+      &:hover,
+      &:focus,
+      &:active {
         color: $orange;
       }
     }

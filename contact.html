@@ -14,43 +14,45 @@ title: Contact Us
 <div class="contact-form">
   <div class="container">
     <div class="inquiry-text">
-      <p><strong>Our clients are making the world a better place across issues and industries.</strong></p>
+      <h4>Our clients are making the world a better place across issues and industries.</h4>
 
       <p>We support incredible work in social justice, education, environment, health and wellness, human rights, animal welfare, arts and culture, destination management, philanthropy, and technology.</p>
 
-      <p><strong>Reach out by phone or email</strong></p>
-
-      <p>(503) 847-9216<br>
-      <a href="mailto:hello@thinkshout.com">hello@thinkshout.com</a></p>
+      <p><strong>Reach out by phone or email</strong><br>
+        <a href="tel:503-847-9216">(503) 847-9216</a><br>
+        <a href="mailto:hello@thinkshout.com">hello@thinkshout.com</a></p>
     </div>
 
     <form id="form1" name="form1" class="wufoo topLabel page contact" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" action="https://thinkshout.wufoo.com/forms/z76jm1g03ubu9b/#public">
       <div class="form-row">
         <div class="form-group half">
-          <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1" required="true"  placeholder="First Name"/>
+          <label for="Field1">First Name</label>
+          <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" required="true"  placeholder="Enter your first name"/>
         </div>
         <div class="form-group half">
-          <input id="Field2" name="Field2" type="text" class="field text ln" value="" size="14" tabindex="2" required placeholder="Last Name" />
+          <label for="Field2">Last Name</label>
+          <input id="Field2" name="Field2" type="text" class="field text ln" value="" size="14" required placeholder="Enter your last name" />
         </div>
       </div>
       <div class="form-group">
-        <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3" placeholder="Email (required)" />
+          <label for="Field3">Email (required)</label>
+        <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" placeholder="Enter your email address" />
       </div>
       <div class="form-group">
+          <label for="Field4">Notes</label>
         <textarea id="Field4"
         name="Field4"
         class="field textarea medium message"
         spellcheck="true"
         rows="10" cols="50"
-        tabindex="4"
         placeholder="How can we work together?"
         onkeyup="" required></textarea>
       </div>
 
       <div class="form-actions">
-        <input id="saveForm" name="saveForm" class="btTxt submit button solid" type="submit" value="Let’s chat"/>
         <input id="Field10" name="Field10" class="newsletter-confirm" type='checkbox' />
         <label for="Field10" class="signup-notification">I would like to subscribe to the ThinkShout newsletter for the latest on strategy, design, and tech for good.</label>
+        <span><input id="saveForm" name="saveForm" class="btTxt submit button solid" type="submit" value="Let’s chat"/></span>
       </div>
 
       <div class="hidden">

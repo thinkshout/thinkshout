@@ -1,12 +1,14 @@
 .our-work {
   .work-hero {
-    margin-top: 55px;
+    padding-top: 55px;
 
     @include mq(lt) {
-      margin-top: 113px
+      margin-top: 53px;
+      padding-top: 60px;
     }
     @include mq(d) {
-      margin-top: 223px;
+      margin-top: 163px;
+      padding-top: 60px;
     }
     h1 {
       color: $herogray;

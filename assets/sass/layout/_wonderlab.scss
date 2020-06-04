@@ -13,13 +13,7 @@
     &.fixed {
       background: #011D2B;
     }
-    .header-logo {
-      @include mq(d) {
-        margin-top: $wl-spacer-1;
-      }
-    }
     .mobile-menu-icon div span {
-      &,
       &:before,
       &:after {
         background-color: $wl-ltblue;
@@ -33,7 +27,8 @@
     color: $wl-black;
     font-weight: bold;
     &:hover,
-    &:focus {
+    &:focus,
+    &:active {
       text-decoration: underline;
     }
   }
@@ -41,8 +36,11 @@
     color: $wl-ltblue;
     font-weight: normal;
     &.active,
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
       border-top-color: $wl-ltblue !important;
+      color: $white !important;
       text-decoration: none;
     }
   }
@@ -61,6 +59,22 @@
   }
   ol li:before, ul li:before {
     color: #5B005F;
+  }
+  .mobile-menu-icon {
+    color: $wl-ltblue;
+    div span {
+      background-color: $wl-ltblue;
+      &:before,
+      &:after {
+        background: $wl-ltblue;
+      }
+    }
+    &.active div span {
+      &:before,
+      &:after {
+        background: $wl-ltblue;
+      }
+    }
   }
 }
 
@@ -200,7 +214,10 @@
       margin-right: $wl-spacer-3;
     }
     img {
-      width: 100px;
+      width: 80px;
+      @include mq(p) {
+        width: 100px;
+      }
       @include mq(d) {
         width: 165px;
       }
@@ -221,9 +238,12 @@
       margin-bottom: $wl-spacer-1;
     }
     a {
-      font-size: rem(28px);
+      font-size: rem(22px);
       font-weight: 800;
-      line-height: rem(35px);
+      line-height: 1.25;
+      @include mq(p) {
+      font-size: rem(28px);
+      }
     }
   }
   &__teaser {
@@ -468,7 +488,8 @@
     a {
       text-decoration: underline;
       &:hover,
-      &:focus {
+      &:focus,
+      &:active {
         text-decoration: none;
       }
     }

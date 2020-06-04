@@ -1,5 +1,5 @@
 .footer {
-  background: url('../images/falcon-view.jpg') center center /cover;
+  background: $bgblack url('../images/falcon-view.jpg') no-repeat center center /cover;
   clear: both;
   height: 532px;
   margin: 0 auto;
@@ -23,7 +23,9 @@
     z-index: 2;
   }
 
-  a:hover {
+  a:hover,
+  a:focus,
+  a:active {
     color: $white;
     text-decoration: underline;
   }
@@ -57,7 +59,7 @@
     @include mq(lt) { text-align: left; }
     @include mq(d) { text-align: left; }
 
-    h4 {
+    h3 {
       color: $white;
       font-weight: 500;
       margin-bottom: 4px;
@@ -82,7 +84,9 @@
       @include mq(t) { width: 250px; padding: 0.75rem 1rem; }
       @include mq(d) { width: 250px; padding: 0.75rem 1rem; }
 
-      &:focus {
+      &:hover,
+      &:focus,
+      &:active {
         background: $white;
         box-shadow: 0 0 rem(5) rgba($black, 0.2);
         outline: none;
@@ -93,12 +97,16 @@
       display: inline-block;
       padding: 0.75rem 0.5rem;
       font-size: rem(12);
-      font-weight: 300;
+      font-weight: 500;
       margin-left: -5px;
       letter-spacing: 0.5px;
       height: 45px;
       @include mq(t) { padding: 0.75rem 1rem; }
       @include mq(d) { padding: 0.75rem 1rem; }
+    }
+    .mc-embedded-subscribe-form label {
+      color: #FFFFFF;
+      background-color: #000000;
     }
 
   }
@@ -206,11 +214,18 @@
       display: inline;
       margin-right: 0.5rem;
     }
-    img {
+    svg {
       max-width: 1.5rem;
     }
-    a:hover {
+    a:hover,
+    a:focus,
+    a:active {
       text-decoration: none;
+      outline: none;
+      .icon {
+        fill: $orange;
+        transition: fill .3s;
+      }
     }
 
     @include mq(lt) {
@@ -239,7 +254,9 @@
       color: $bggray;
       font-weight: bold;
 
-      &:hover {
+      &:hover,
+      &:focus,
+      &:active {
         cursor: pointer;
         text-decoration: underline;
       }

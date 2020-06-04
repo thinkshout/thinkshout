@@ -1,26 +1,32 @@
 .team .team-member {
   display: block;
-  float: left;
   margin-bottom: 3.2rem;
-  width: 25%;
+  flex: 0 1 25%;
   text-align: center;
 
-  &:hover {
+  & a:hover,
+  & a:focus,
+  & a:active {
     img {
       opacity: 0.7;
     }
 
     .name-title {
-      color: $orange;
+      color: $dark-orange;
     }
   }
 
-  @include mq(t) {
-    width: 50%;
+  @media (min-width: 1600px) {
+    flex: 0 1 20%;
   }
-
+  @include mq(t) {
+    flex: 0 1 33.333%;
+  }
+  @include mq(p) {
+    flex: 0 1 50%;
+  }
   @include mq(m) {
-    width: 100%;
+    flex: 0 1 100%;
   }
 
   img {
@@ -29,14 +35,15 @@
 
   h2 {
     color: $darkgray;
-    font-size: rem(16);
-    margin: 0.5rem 0;
+    font-size: rem(17);
+    margin: 18px 0 5px;
     text-transform: uppercase;
   }
 
   p {
     color: $midgray;
-    font-size: rem(12);
-    margin: 0;
+    font-size: rem(14);
+    margin: 4px 0 0 0;
+    line-height: 1.05;
   }
 }
