@@ -16,7 +16,6 @@ intro: [ThinkShout.com](https://thinkshout.com/) is committed to inclusivity and
 
 If you encounter something that is not accessible, please reach out to us with the issue and we will fix it as soon as we can. It is our goal to prioritize transparency and maintain clear communication through this process, so we will get back to you within 5 business days once an issue is documented, and inform you when the site is live with the appropriate fix.
 
-## Feedback
 <div class="intro">
   <div class="contact-hero container">
       <h2>Feedback</h2>
