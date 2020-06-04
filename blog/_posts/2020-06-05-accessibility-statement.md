@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: "culture community and business"
+topic: technology
 campaign-topic: accessibility
 title: "Four Questions Your Website Accessibility Statement Should Answer"
 homepage: false
