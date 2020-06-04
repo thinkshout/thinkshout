@@ -2,7 +2,7 @@
 title: Accessibility Statement
 layout: accessibility
 permalink: accessibility/
-intro: "[ThinkShout.com](https://thinkshout.com/) is committed to inclusivity and accessibility. We strive to provide a website experience that functions for all users regardless of ability, network speed, or device. And as we continually improve the user experience for everyone and apply the relevant accessibility standards, we know we are not perfect. There is always room for improvement, and we enthusiastically welcome feedback if you have issues accessing any part of our website."
+intro: ThinkShout.com is committed to inclusivity and accessibility. We strive to provide a website experience that functions for all users regardless of ability, network speed, or device. And as we continually improve the user experience for everyone and apply the relevant accessibility standards, we know we are not perfect. There is always room for improvement, and we enthusiastically welcome feedback if you have issues accessing any part of our website.
 ---
 
 ## Site features
@@ -26,26 +26,26 @@ If you encounter something that is not accessible, please reach out to us with t
     <div class="inquiry-text">
       <h4>We welcome your feedback on the accessibility of ThinkShout.com.</h4>
       <p>Please let us know if you encounter accessibility barriers. We try to respond to feedback within 5 business days.</p>
-      <p><strong>Reach out by email</strong><br>
+      <p><strong>Reach out by email, or fill out your information in the spaces provided.</strong><br>
         <a href="mailto:olivia.oldach@thinkshout.com">olivia.oldach@thinkshout.com</a></p>
     </div>
     <form id="form1" name="form1" class="wufoo topLabel page contact" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" action="https://thinkshout.wufoo.com/forms/z76jm1g03ubu9b/#public">
       <div class="form-row">
         <div class="form-group half">
           <label for="Field1">First Name</label>
-          <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" required="true"  placeholder="Enter your first name"/>
+          <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" required="true"  placeholder="First name"/>
         </div>
         <div class="form-group half">
           <label for="Field2">Last Name</label>
-          <input id="Field2" name="Field2" type="text" class="field text ln" value="" size="14" required placeholder="Enter your last name" />
+          <input id="Field2" name="Field2" type="text" class="field text ln" value="" size="14" required placeholder="Last name" />
         </div>
       </div>
       <div class="form-group">
           <label for="Field3">Email (required)</label>
-        <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" placeholder="Enter your email address" />
+        <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" placeholder="Email address" />
       </div>
       <div class="form-group">
-          <label for="Field4">Notes</label>
+        <label for="Field4">Notes</label>
         <textarea id="Field4"
         name="Field4"
         class="field textarea medium message"
@@ -58,6 +58,6 @@ If you encounter something that is not accessible, please reach out to us with t
   </div>
 </div>
 
-If you have any questions about this policy, or ThinkShout, you can [email us here](mailto:olivia.oldach@thinkshout).
+If you have any questions about this policy, or ThinkShout, you can [email us here](mailto:olivia.oldach@thinkshout.com).
 
 This statement was created on June 4, 2020.

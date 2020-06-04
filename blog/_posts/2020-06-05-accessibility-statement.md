@@ -1,13 +1,13 @@
 ---
 layout: blog
 body-class: blog-post
-topic: "culture community and business"
+topic: technology
 campaign-topic: accessibility
 title: "Four Questions Your Website Accessibility Statement Should Answer"
 homepage: false
 author: jules
 published: true
-featured: false
+featured: true
 short: "Your accessibility statement is not just another contact form on your website."
 tags:
   - accessibility
@@ -42,7 +42,7 @@ Is your site far from being [WCAG 2.1 AA](https://www.w3.org/TR/WCAG21/) complia
 
 Make sure your website has an accessibility page that includes an email address or a contact form. It should be clear to your visitors how they can submit feedback, and when they can expect follow-up. 
 
-The goal of an accessibility page is to create an open, transparent dialogue about where your organization is in the accessibility process and to ask for feedback about ways to improve. If people submit feedback and never see an improvement on the issue, they might use litigation to inspire action. If they submit an issue and never hear back at all, you’ve lost trust with your audience and created a negative user experience. On top of that, you’ll continue fielding emails or phone calls about the issue until it’s resolved. A good feedback process can save you time, boost user confidence, and proactively fix accessibility issues.
+The goal of an accessibility page is to create an open, transparent dialogue about where your organization is in the accessibility process and to ask for feedback about ways to improve. If people submit feedback and never see an improvement on the issue, they might use litigation to inspire action. If they submit an issue and never hear back at all, you’ve lost trust with your audience and created a negative user experience. On top of that, you’ll continue fielding emails or phone calls about the issue until it’s resolved. A good feedback process saves you time, boosts user confidence, and proactively fixes accessibility issues.
 
 ## 3. Who is responsible for responding to accessibility issues found by users?
 
@@ -60,7 +60,7 @@ The time to fix things will vary. That’s OK. As long as you’re committed to 
 
 ## Accessibility is a team effort
 
-There is no one-size-fits-all answer for this; organizations need to create a process that makes the most sense for their size, structure, and workflow. The important thing is to make sure your process is clear, so resolving accessibility issues is streamlined for your team.
+Organizations need to create a process that makes the most sense for their size, structure, and workflow. The important thing is to make sure your process is clear, so resolving accessibility issues is streamlined for your team.
 
 **Here’s an example process:**
 - **Follow up quickly (within 3 business days)** so your site visitors feel heard, and let them know that you’ll be addressing the issue.
@@ -70,9 +70,9 @@ There is no one-size-fits-all answer for this; organizations need to create a pr
 
 In [Accessibility for Teams in a Hurry](https://thinkshout.com/equitable-digital-connections), we talk about how accessibility is not one person’s job--everyone has a role to play. You can have one person dedicated to moving accessibility issues forward, but if you dedicate one person to accessibility while another team is creating designs, code or content elsewhere you’re going to continue to create a steady stream of new accessibility issues, and you’ll find yourself taking two steps forward and one step back with each new update. 
 
-Incorporating accessibility into your existing process with your broader team is the best long-term solution. If you have developers on staff, they should be testing their code for accessibility before it goes live. Anyone adding content to the site should be reviewing their contributions for accessibility. 
+Incorporating accessibility into your existing process with your broader team is the best long-term solution. If you have developers on staff, they should be testing their code for accessibility before it goes live. Anyone adding content to the site should be reviewing their contributions for accessibility, as well. 
 
    
-If you’re interested in making your website more accessible, or looking to work with a team where accessibility is woven into strategy, design and development, we’re here to help! 
+**If you’re interested in making your website more accessible, or looking to work with a team where accessibility is woven into strategy, design and development, we’re here to help!** 
 
-[Get the conversation started.](https://thinkshout.com/contact/) 
+### [Get the conversation started.](https://thinkshout.com/contact/) 
