@@ -6,8 +6,8 @@ campaign-topic: accessibility
 title: "Four Questions Your Website Accessibility Statement Should Answer"
 homepage: true
 author: jules
-published: false
-featured: false
+published: true
+featured: true
 short: "Your accessibility statement is not just another contact form on your website."
 tags:
   - accessibility
