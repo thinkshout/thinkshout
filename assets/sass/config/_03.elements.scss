@@ -39,6 +39,12 @@ p a,
 p a:visited {
   color: $a11y-orange;
   text-decoration: none;
+  &:hover,
+  &:focus,
+  &:active {
+    outline: none;
+    text-decoration: underline;
+  }
 }
 
 .visually-hidden,

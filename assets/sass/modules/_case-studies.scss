@@ -218,6 +218,16 @@
         @include mq(m) { width: 100%; }
         @include mq(t) { width: 90%; }
       }
+      p a {
+        color: $casegray;
+        text-decoration: underline;
+        &:hover,
+        &:focus,
+        &:active {
+          outline: none;
+          color: $dark-orange;
+        }
+      }
     }
 
     .black-bg {
@@ -370,6 +380,24 @@
       @include mq(lt) { width: 250px; margin-right: 5rem;  }
       @include mq(md) { width: 280px; margin-right: 10rem; }
       @include mq(l)  { width: 300px; margin-right: 17rem; }
+    }
+
+    .three-up {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: row;
+      .img-wrapper {
+        flex: 0 1 32%;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+        @include mq(m)  { flex: 0 1 100%; flex-wrap: wrap; }
+        @include mq(p)  { flex: 0 1 100%; flex-wrap: wrap; }
+      }
+      .caption {
+        margin: .5rem 0 0 0;
+      }
     }
 
     .four-up {

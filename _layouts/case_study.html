@@ -137,6 +137,39 @@ layout: default
             </div>
         {% endif %}
 
+        {% if section.section-image1up %}
+          <div class="inline three-up">
+            <div class="img-wrapper">
+              <img src="{{ site.baseurl }}{{ section.section-image1up }}" alt="{{ section.section-image-alt1 }}">
+              {% if section.section-image-caption1 %}
+                <span class="caption">{{ section.section-image-caption1 }}</span>
+              {% endif %}
+            </div>
+            <div class="img-wrapper">
+              <img src="{{ site.baseurl }}{{ section.section-image2up }}" alt="{{ section.section-image-alt2 }}">
+              {% if section.section-image-caption2 %}
+                <span class="caption">{{ section.section-image-caption2 }}</span>
+              {% endif %}
+            </div>
+            {% if section.section-image3up %}
+              <div class="img-wrapper">
+                <img src="{{ site.baseurl }}{{ section.section-image3up }}" alt="{{ section.section-image-alt3 }}">
+                {% if section.section-image-caption3 %}
+                  <span class="caption">{{ section.section-image-caption3 }}</span>
+                {% endif %}
+              </div>
+            {% endif %}
+            {% if section.section-image4up %}
+              <div class="img-wrapper">
+                <img src="{{ site.baseurl }}{{ section.section-image4up }}" alt="{{ section.section-image-alt4 }}">
+                {% if section.section-image-caption4 %}
+                  <span class="caption">{{ section.section-image-caption4 }}</span>
+                {% endif %}
+              </div>
+            {% endif %}
+          </div>
+        {% endif %}
+
         {% if section.section-image1 %}
           <div class="inline four-up">
             <div class="img-wrapper">

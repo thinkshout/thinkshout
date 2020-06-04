@@ -13,7 +13,7 @@ description: "Democracy is premised on the idea that equality of voice can overc
 # END LAYOUT DATA
 
 title: "An Iterative Website in Support of Coalition Movement Building."
-cs-class: "realizing democracy"
+cs-class: "realizing-democracy"
 featured_impact_text: "@todo"
 featured_client_name: "Dēmos, The Ford Foundation, Open Society Foundations, Community Change, and Center on Democracy and Organizing"
 
