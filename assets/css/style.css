@@ -2368,7 +2368,6 @@ a.visually-hidden.focusable:focus {
     font-size: 1.25rem;
     line-height: 1.75;
     margin: 0 auto;
-    text-align: center;
     width: 85%; }
   .basic-page h2 {
     font-size: 2rem; }
