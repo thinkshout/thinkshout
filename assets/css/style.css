@@ -2401,7 +2401,7 @@ a.visually-hidden.focusable:focus {
   .basic-page ul {
     padding-left: 0; }
   .basic-page li {
-    margin-left: 1rem;
+    margin-left: 1.5rem;
     padding-bottom: 0.75rem;
     text-indent: -1.3em; }
     .basic-page li:before {
