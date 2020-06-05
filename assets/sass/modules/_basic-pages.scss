@@ -8,18 +8,27 @@
   .job-details,
   .privacy-content {
     padding: 1rem 0;
+    width: 100%;
+    margin: 0 auto;
+    @include mq(t) { max-width: 90%; }
+    @include mq(d) { max-width: 85%; }
   }
 
   h1 {
     font-size: 2.5rem;
-    text-align: center;
+    width: 100%;
+    margin: 24px auto;
+    @include mq(t) { margin: 12px auto; max-width: 90%; }
+    @include mq(d) { margin: 24px auto; max-width: 85%; }
   }
 
   .intro {
     font-size: 1.25rem;
     line-height: $line-height;
     margin: 0 auto;
-    width: 85%;
+    width: 100%;
+    @include mq(t) { max-width: 90%; }
+    @include mq(d) { max-width: 85%; }
   }
 
   h2 {

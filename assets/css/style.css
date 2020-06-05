@@ -2360,15 +2360,40 @@ a.visually-hidden.focusable:focus {
       margin: 0 auto; } }
   .basic-page .job-details,
   .basic-page .privacy-content {
-    padding: 1rem 0; }
+    padding: 1rem 0;
+    width: 100%;
+    margin: 0 auto; }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .basic-page .job-details,
+      .basic-page .privacy-content {
+        max-width: 90%; } }
+    @media (min-width: 980px) {
+      .basic-page .job-details,
+      .basic-page .privacy-content {
+        max-width: 85%; } }
   .basic-page h1 {
     font-size: 2.5rem;
-    text-align: center; }
+    width: 100%;
+    margin: 24px auto; }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .basic-page h1 {
+        margin: 12px auto;
+        max-width: 90%; } }
+    @media (min-width: 980px) {
+      .basic-page h1 {
+        margin: 24px auto;
+        max-width: 85%; } }
   .basic-page .intro {
     font-size: 1.25rem;
     line-height: 1.75;
     margin: 0 auto;
-    width: 85%; }
+    width: 100%; }
+    @media (min-width: 481px) and (max-width: 979px) {
+      .basic-page .intro {
+        max-width: 90%; } }
+    @media (min-width: 980px) {
+      .basic-page .intro {
+        max-width: 85%; } }
   .basic-page h2 {
     font-size: 2rem; }
   .basic-page h3 {
@@ -5852,7 +5877,8 @@ form.contact {
       letter-spacing: 0.5px;
       margin: 0;
       padding: 0.75rem 4rem;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      max-width: 100%; }
       form.contact .form-actions .button.solid:hover, form.contact .form-actions .button.solid:active, form.contact .form-actions .button.solid:focus {
         background-color: #F38958; }
     form.contact .form-actions .newsletter-confirm {
