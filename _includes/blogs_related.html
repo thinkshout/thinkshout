@@ -1,13 +1,12 @@
 <div class="post">
-  <a href="{{ site.baseurl }}{{ post.url }}">
     <p class="post-date">{{ post.date | date: "%m.%d.%Y" }}</p>
-    <h3 class="post-title">{{ post.title}}</h3>
+    <h3 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></h3>
     <p class="post-short">{{ post.short }}</p>
     <p class="byline">
       {% assign person = site.team | where:"name",post.author %}
       <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person[0].team-image.small }}" alt="{{ person[0].first_name }} {{ person[0].last_name }}">
       <span class="byline-text">
-        <strong>{{ person[0].first_name }} {{ person[0].last_name }}</strong><br>
+        <a class="team-name" href="{{ site.baseurl }}{{ person[0].url }}"><strong>{{ person[0].first_name }} {{ person[0].last_name }}</strong></a><br>
         {% if person[0].current-employee %}
         <span class="position">{{ person[0].position }}</span>
         {% else %}

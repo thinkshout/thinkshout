@@ -5,13 +5,16 @@
   @include mq(t) { margin-top: rem(90); }
 
   .home-hero {
-    margin-top: 60px;
+    margin-top: 20px;
+    padding-top: 40px;
 
     @include mq(lt) {
-      margin-top: 123px
+      margin-top: 63px;
+      padding-top: 60px;
     }
     @include mq(d) {
-      margin-top: 243px;
+      margin-top: 183px;
+      padding-top: 60px;
     }
     h1 {
       color: $herogray;
@@ -106,7 +109,8 @@
     }
 
     a:hover,
-    a:focus {
+    a:focus,
+    a:active {
       &::before {
         background-color: rgba(0,0,0,0.8);
       }
@@ -133,7 +137,9 @@ h4.lets-chat {
 
     // @include mq(m) { display: block; }
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus,
+    &:active {
       text-decoration: underline;
     }
   }

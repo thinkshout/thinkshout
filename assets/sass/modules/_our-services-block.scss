@@ -55,7 +55,9 @@
       @include mq(d) { font-size: rem(18); }
     }
 
-    a:hover, a:focus {
+    a:hover,
+    a:focus,
+    a:active {
       text-decoration: underline;
     }
 

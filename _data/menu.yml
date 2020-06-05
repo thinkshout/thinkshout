@@ -18,6 +18,10 @@ main-menu:
     url: /careers/
     header-nav: false
 
+  - title: Accessibility
+    url: /accessibility/
+    header-nav: false
+
   - title: Contact
     url: /contact/
 
@@ -27,10 +31,10 @@ copyright:
 
 social-media:
   - title: facebook
-    url: http://www.facebook.com/ThinkShout
+    url: https://www.facebook.com/ThinkShout
 
   - title: twitter
-    url: http://www.twitter.com/ThinkShout
+    url: https://www.twitter.com/ThinkShout
 
 external:
   - title: bcorp

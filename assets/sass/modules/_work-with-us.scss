@@ -5,7 +5,7 @@
   padding: 4rem 0;
   h2 {
     color: $white;
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: 1px;
     @include mq(lt) { font-size: 1.4rem; }
@@ -15,9 +15,11 @@
 
   a.uppercase-link {
     color: $white;
-    font-size: rem(13);
+    font-size: rem(18);
     i {
       color: $yellow;
+      vertical-align: middle;
+      margin-top: -2px;
     }
   }
 }

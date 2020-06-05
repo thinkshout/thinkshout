@@ -27,13 +27,20 @@
     }
 
     a.topic {
-      color: $yellow;
+      color: $black;
       font-size: rem(15);
       font-weight: 700;
       display: block;
       @include mq(lt) { display: inline; }
       @include mq(md) { display: inline; }
       @include mq(l)  { display: inline; }
+
+      &:hover,
+      &:focus,
+      &:active {
+        outline: none;
+        text-decoration: underline;
+      }
     }
 
     h1 {
@@ -55,6 +62,7 @@
 
   .blog-header-image {
     width: 100%;
+    padding-bottom: 8px;
     img {
       height: auto;
       width: 100%;
@@ -72,10 +80,6 @@
     ol,
     div.highlighter-rouge,
     iframe,
-    .blog-cta,
-    .comments,
-    .gist,
-    .tags,
     table {
       color: $darkgray;
       display: block;
@@ -87,7 +91,41 @@
       @include mq(md) { width: 90%; padding: 0 rem(60); }
       @include mq(l)  { width: 100%; padding: 0 rem(100); }
       a {
-        color: $orange;
+        color: $a11y-orange;
+        text-decoration: underline;
+        &:hover,
+        &:focus,
+        &:active {
+          outline: none;
+          color: $bgblack;
+        }
+      }
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .blog-cta,
+    .comments,
+    .gist,
+    .tags {
+      color: $darkgray;
+      display: block;
+      margin: 1em auto;
+      max-width: 996px;
+      padding: 0 rem(12);
+      width: 94%;
+      @include mq(lt) { width: 90%; padding: 0 rem(30); }
+      @include mq(md) { width: 90%; padding: 0 rem(60); }
+      @include mq(l)  { width: 100%; padding: 0 rem(100); }
+      a {
+        color: $a11y-orange;
+        &:hover,
+        &:focus,
+        &:active {
+          outline: none;
+          color: $bgblack;
+        }
       }
       img {
         max-width: 100%;
@@ -382,9 +420,11 @@
       border-bottom: 1px solid $midgray;
       color: $midgray;
       margin-right: .3em;
-      &:hover {
-        border-bottom: 1px solid $orange;
-        color: $orange;
+      &:hover,
+      &:focus,
+      &:active {
+        border-bottom: 1px solid $black;
+        color: $black;
       }
     }
   }
@@ -467,8 +507,10 @@
   a {
     @include transition(color,0.3s,linear);
     color: $darkgray;
-    &:hover {
-      color: $orange;
+    &:hover,
+    &:focus,
+    &:active {
+      color: $black;
     }
   }
   .previous,

@@ -1,7 +1,9 @@
 header {
   background-color: $white;
   left: 0;
-  opacity: 0.95;
+  max-height: 100%;
+  opacity: 1;
+  overflow-y: scroll;
   padding: 1rem 0;
   position: fixed;
   top: 0;
@@ -13,10 +15,10 @@ header {
   }
 
   .header-logo {
-    margin-top: 4px;
+    margin-top: 0;
     img {
-      width: rem(186);
-      margin-top: rem(8);
+      width: rem(130);
+      margin-top: rem(12);
 
       @include mq(m) {
         float: left;
@@ -27,9 +29,6 @@ header {
       @include span-columns(3);
       @include omega;
       width: auto;
-      img {
-        margin-top: rem(8);
-      }
     }
 
     @include mq(d) {
@@ -37,15 +36,27 @@ header {
       @include omega;
       img {
         margin-top: 0;
+        width: rem(186);
       }
     }
   }
 
   .mobile-menu-icon {
-    color: $ltgray;
+    color: $bgblack;
     float: right;
     height: 50px;
     width: 60px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: 0;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 1.15;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
 
     @include mq(d) { display: none; }
 
@@ -55,19 +66,18 @@ header {
         width: 100%;
         z-index: 9999;
         span {
-          background-color: $ltgray;
+          background-color: $bgblack;
           display: block;
-          font-size: 0px;
           height: 4px;
           left: 25%;
           position: absolute;
-          top: 50%;
+          top: calc(50% - 2px);
           transition: background-color 0.3s;
           width: 50%;
           z-index: 9999;
           &:before,
           &:after {
-            background: $ltgray;
+            background: $bgblack;
             content: '';
             height: 100%;
             left: 0;
@@ -87,7 +97,7 @@ header {
           background-color: transparent;
           &:before,
           &:after {
-            background: $ltgray;
+            background: $bgblack;
             transition: transform 0.3s;
             transform: rotate(45deg) translateY(0);
           }
@@ -107,25 +117,28 @@ header {
       clear: left;
       display: none;
       float: none;
-      padding-top: 1rem;
-      margin-bottom: 0;
+      padding-top: rem(16);
+      margin-bottom: rem(8);
     }
 
     @include mq(t) {
       clear: left;
       display: none;
       float: none;
+      padding-top: rem(8);
+      margin-bottom: 0;
     }
 
     li {
       cursor: pointer;
       display: list-item;
-      font-size: 1.5rem;
-      line-height: $line-height;
+      font-size: rem(18);
+      line-height: 3;
 
       @include mq(d) {
         display: inline;
         font-size: rem(15);
+        line-height: 2;
         padding: rem(50) 0;
       }
     }
@@ -139,28 +152,30 @@ header {
     $child: 1;
     @each $color in $colors {
       li:nth-child(#{$child}) a.active,
-      li:nth-child(#{$child}) a:hover {
+      li:nth-child(#{$child}) a:hover,
+      li:nth-child(#{$child}) a:focus,
+      li:nth-child(#{$child}) a:active {
         @include mq(d) {
           border-top: 4px solid $color;
           $child: $child + 1;
+          outline: none;
+          color: $a11y-orange;
         }
       }
     }
 
     a {
-      color: $orange;
+      color: $bgblack;
       display: inline;
 
       @include mq(md) {
-        color: $darkgray;
         margin: 0 0.7rem;
         padding: rem(50) rem(5);
       }
 
       @include mq(l) {
-        color: $darkgray;
         margin: 0 0.7rem;
-        padding: rem(50) rem(5);
+        padding: rem(52) rem(5);
       }
     }
   }

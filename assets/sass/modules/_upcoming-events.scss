@@ -24,7 +24,9 @@
     a {
       color: $orange;
 
-      &:hover {
+      &:hover,
+      &:focus,
+      &:active {
         text-decoration: underline;
       }
     }

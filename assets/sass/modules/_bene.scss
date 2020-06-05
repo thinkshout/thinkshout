@@ -276,7 +276,9 @@
         position: absolute;
         left: -9999px;
       }
-      .signup-notification:hover {
+      .signup-notification:hover,
+      .signup-notification:focus,
+      .signup-notification:active {
         cursor: pointer;
       }
       .signup-notification::before {
@@ -416,7 +418,7 @@
       @include mq(lt) { font-size: rem(14); }
       @include mq(d) { font-size: rem(15); }
 
-      &:hover, &:focus {
+      &:hover, &:focus, &:active {
         text-decoration: underline;
       }
 

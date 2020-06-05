@@ -34,3 +34,42 @@ a:visited {
   color: $orange;
   text-decoration: none;
 }
+
+p a,
+p a:visited {
+  color: $a11y-orange;
+  text-decoration: none;
+  &:hover,
+  &:focus,
+  &:active {
+    outline: none;
+    text-decoration: underline;
+  }
+}
+
+.visually-hidden,
+a.visually-hidden {
+  clip: rect(1px,1px,1px,1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal;
+  z-index: 0;
+}
+a.visually-hidden {
+  color: $darkgray;
+  left: 5px;
+  top: 5px;
+}
+.wonderlab-page a.visually-hidden {
+  color: $white;
+}
+a.visually-hidden.focusable:active,
+a.visually-hidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  overflow: visible;
+  width: auto;
+  z-index: 300;
+}

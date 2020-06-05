@@ -2,19 +2,29 @@
   background: transparent;
   border: 1px solid $orange;
   color: $orange;
+  font-weight: 500;
   padding: 1rem 2rem;
   text-transform: uppercase;
   @include transition(0.5s all);
 
-  &:hover {
-    background: $orange;
+  &:hover,
+  &:focus,
+  &:active {
+    background: $pale-orange;
     box-shadow: 0 0 rem(3) rgba($black, 0.3);
-    color: $white;
+    color: $bgblack;
     @include transition(0.5s all);
   }
 }
 
 .button.solid {
   background: $orange;
-  color: $white;
+  color: $bgblack;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: $pale-orange;
+    @include transition(0.5s background-color);
+  }
 }

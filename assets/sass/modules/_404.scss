@@ -13,7 +13,9 @@
       color: $darkgray;
       text-decoration: underline;
 
-      &:hover {
+      &:hover,
+      &:focus,
+      &:active {
         color: $orange;
       }
     }

@@ -2,9 +2,9 @@
   <div class="container">
 
     <div class="footer-newsletter">
-      <h4>New ideas about strategy, design, and tech for good.</h4>
+      <h3>New ideas about strategy, design, and tech for good.</h3>
       <form id="mc-embedded-subscribe-form" action="//thinkshout.us1.list-manage.com/subscribe/post?u=2ec82d6db8eeef3d5b33b762e&amp;id=e85720354e" method="post"  name="mc-embedded-subscribe-form" class="validate" target="_blank">
-        <label for="mce-EMAIL" class="hidden">Email address</label>
+        <label for="mce-EMAIL" class="visually-hidden">Email address</label>
         <input type="email" placeholder="Enter your email address" name="EMAIL" id="mce-EMAIL" required>
         <button type="submit" class="solid button">Subscribe</button>
       </form>
@@ -43,13 +43,22 @@
     <div class="footer-bottom">
       <div class="social-media">
         <ul>
-          {% for item in site.data.menu.social-media %}
-            <li>
-              <a href="{{ item.url }}" target="_blank">
-                <img src="{{ site.baseurl }}/assets/images/ts_redesign/{{ item.title }}.svg" alt="{{ item.title }}" />
-              </a>
-            </li>
-          {% endfor %}
+          <li>
+            <a aria-label="Visit ThinkShout's Facebook Page" class="facebook" href="https://www.facebook.com/ThinkShout" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 24 24" role="img">
+                <title>Visit ThinkShout's Facebook Page</title>
+                <path class="icon" d="M9 8H6v4h3v12h5V12h3.6l.4-4h-4V6.3c0-1 .2-1.3 1.1-1.3H18V0h-3.8C10.6 0 9 1.6 9 4.6V8z" fill="#fff"/>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a aria-label="Visit ThinkShout's Twitter Feed" class="twitter" href="https://www.twitter.com/ThinkShout" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 24 24" role="img">
+                <title>Visit ThinkShout's Twitter Feed</title>
+                <path class="icon" d="M24 4.6c-.9.4-1.8.7-2.8.8 1-.6 1.8-1.6 2.2-2.7-1 .6-2 1-3.1 1.2-.9-1-2.2-1.6-3.6-1.6-3.2 0-5.5 3-4.8 6-4.2-.2-7.8-2.2-10.2-5.2C.4 5.4 1 8.3 3.2 9.7c-.8 0-1.6-.2-2.2-.6-.1 2.3 1.6 4.4 3.9 4.9-.7.2-1.5.2-2.2.1.6 2 2.4 3.4 4.6 3.4-2.1 1.6-4.7 2.3-7.3 2 2.2 1.4 4.8 2.2 7.5 2.2 9.1 0 14.3-7.7 14-14.6 1-.7 1.8-1.6 2.5-2.5z" fill="#fff"/>
+              </svg>
+            </a>
+          </li>
         </ul>
       </div>
       <div class="copyright">

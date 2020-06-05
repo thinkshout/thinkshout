@@ -1,13 +1,15 @@
 .case-study {
 
   .case-study-hero {
-    margin-top: 55px;
+    padding-top: 55px;
 
     @include mq(lt) {
-      margin-top: 113px
+      margin-top: 53px;
+      padding-top: 60px;
     }
     @include mq(d) {
-      margin-top: 223px;
+      margin-top: 163px;
+      padding-top: 60px;
     }
     h1 {
       color: $orange;
@@ -138,6 +140,20 @@
       @include mq(t) { padding: 0 1rem; }
     }
 
+    div.video {
+      max-width: 1440px;
+      padding: 0 7rem;
+      @include mq(m)  { padding: 0; }
+      @include mq(p)  { padding: 0; }
+    }
+
+    div.video iframe {
+      max-width: 100%;
+      max-height: 53vw;
+      padding: 0;
+      margin: 0;
+    }
+
     ul li {
       font-size: rem(18);
       font-weight: bold;
@@ -180,7 +196,7 @@
       padding-right: 0;
     }
     h4 {
-      color: $orange;
+      color: $dark-orange;
       font-size: rem(20);
       font-weight: 900;
       line-height: calc(30/26);
@@ -215,6 +231,16 @@
         width: 75%;
         @include mq(m) { width: 100%; }
         @include mq(t) { width: 90%; }
+      }
+      p a {
+        color: $casegray;
+        text-decoration: underline;
+        &:hover,
+        &:focus,
+        &:active {
+          outline: none;
+          color: $dark-orange;
+        }
       }
     }
 
@@ -370,6 +396,26 @@
       @include mq(l)  { width: 300px; margin-right: 17rem; }
     }
 
+    .three-up {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: row;
+      @include mq(m)  { flex-wrap: wrap; }
+      @include mq(p)  {  flex-wrap: wrap; }
+      .img-wrapper {
+        flex: 0 1 32%;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+        @include mq(m)  { flex: 0 1 100%; }
+        @include mq(p)  { flex: 0 1 100%; }
+      }
+      .caption {
+        margin: .5rem 0 0 0;
+      }
+    }
+
     .four-up {
       display: flex;
       flex-wrap: wrap;
@@ -423,16 +469,18 @@
     a {
       @include transition(background-color 0.3s linear);
       background-color: $orange;
-      color: $white;
+      color: $bgblack;
       display: inline-block;
       font-size: 0.9rem;
-      font-weight: 400;
+      font-weight: 500;
       letter-spacing: 0.5px;
       margin: 0;
       padding: rem(12) rem(64);
       text-transform: uppercase;
-      &:hover {
-        background-color: $midorange;
+      &:hover,
+      &:active,
+      &:focus {
+        background-color: $pale-orange;
       }
     }
   }
@@ -492,7 +540,9 @@
 
       @include mq(m) { height: 285px; width: 100%; }
 
-      &:hover {
+      &:hover,
+      &:focus,
+      &:active {
         border: rem(6) solid $orange;
         @include transition(border 0.2s);
       }

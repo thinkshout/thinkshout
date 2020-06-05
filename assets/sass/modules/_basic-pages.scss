@@ -17,10 +17,8 @@
 
   .intro {
     font-size: 1.25rem;
-    font-style: italic;
     line-height: $line-height;
     margin: 0 auto;
-    text-align: center;
     width: 85%;
   }
 
@@ -58,12 +56,14 @@
     }
   }
 
-  a {
+  a, p a {
     color: $darkgray;
     text-decoration: underline;
 
-    &:hover {
-      color: $ltorange;
+    &:hover,
+    &:focus,
+    &:active {
+      color: $dark-orange;
     }
   }
 
@@ -78,7 +78,9 @@
       text-decoration: none;
       text-transform: uppercase;
 
-      &:hover {
+      &:hover,
+      &:focus,
+      &:active {
         background: $orange;
         color: $white;
       }

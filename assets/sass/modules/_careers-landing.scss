@@ -6,12 +6,13 @@
   }
 
   #careers-blurb {
-    font-size: rem(20);
-    font-style: italic;
+    font-size: rem(18);
+    font-style: normal;
+    color: #525255;
     text-align: center;
+    line-height: 1.75;
 
     @include mq(d) {
-      font-size: 1.5rem;
       max-width: 75%;
       margin: 4rem auto;
     }
@@ -29,6 +30,7 @@
         color: $orange;
         font-size: rem(26);
         line-height: 1.25;
+        margin-bottom: 6px;
         @include mq(t) {
           line-height: 1.5;
         }
@@ -38,6 +40,13 @@
       }
       ul.whr-items {
         padding-left: 0;
+
+        a:hover,
+        a:focus,
+        a:active {
+          text-decoration: underline;
+          outline: none;
+        }
       }
 
       @include mq(d) {
@@ -78,7 +87,9 @@
         padding: 1rem 2rem;
         text-transform: uppercase;
 
-        &:hover {
+        &:hover,
+        &:focus,
+        &:active {
           background: $orange;
           color: $white;
         }
@@ -99,6 +110,7 @@
       }
       h3 {
         font-size: rem(26);
+        margin-bottom: 6px;
       }
       .whr-date {
         display: none;
@@ -107,7 +119,7 @@
   }
 
   .keep-me-in-mind {
-    background: $ltgray;
+    background: #F0F0F0;
     color: $darkgray;
     margin: 3.5rem 0;
     padding: 1rem 1rem;
@@ -126,7 +138,13 @@
     }
 
     a {
-      color: $orange;
+      color: $a11y-orange;
+      &:hover,
+      &:focus,
+      &:active {
+        text-decoration: underline;
+        outline: none;
+      }
     }
   }
 

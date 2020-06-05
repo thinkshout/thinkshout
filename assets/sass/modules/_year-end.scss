@@ -325,7 +325,9 @@
         position: absolute;
         left: -9999px;
       }
-      .signup-notification:hover {
+      .signup-notification:hover,
+      .signup-notification:focus,
+      .signup-notification:active {
         cursor: pointer;
       }
       .signup-notification::before {

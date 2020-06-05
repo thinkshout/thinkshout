@@ -5,8 +5,30 @@
 
   // Mobile Menu
   $('.mobile-menu-icon').click(function() {
-    $(this).toggleClass('active');
+    var el = $(this),
+        label = el.attr('aria-label');
+    if (label == 'Open mobile menu') {
+      el.attr('aria-label', 'Close mobile menu');
+    } else {
+      el.attr('aria-label', 'Open mobile menu');
+    };
+    el.toggleClass('active')
     $('header nav .main-menu').slideToggle(500);
+  });
+
+  $(document).mouseup(function(e) {
+    var windowSize = $(window).width();
+    
+    if (windowSize < 980) {
+      var el = $(".mobile-menu-icon");
+      if (!el.is(e.target) && el.has(e.target).length === 0) {
+        if ($('.mobile-menu-icon').attr('aria-label') == 'Close mobile menu') {
+          $('.mobile-menu-icon').attr('aria-label', 'Open mobile menu');
+          $('.mobile-menu-icon').toggleClass('active')
+          $('header nav .main-menu').slideToggle(500);
+        };
+      };
+    };
   });
 
   // Set active states for the Main Menu items and their subitems
@@ -38,18 +60,20 @@
     if (direction == 'down') {
       $('header').animate({"padding":"0"}, 50);
       $('header').addClass('fixed');
-      $('header .header-logo img').animate({"width":"10rem", "margin-top": "6px"}, 600);
-      $('.main-menu li a').animate({"padding": "1.1rem 5px"}, 600);
+      if (windowSize > 979) {
+        $('header .header-logo img').animate({"width":"8.125rem", "margin-top": "18px"}, 600);
+      } else {
+        $('header .header-logo img').animate({"width":"8.125rem", "margin-top": "12px"}, 600);
+      }
     } else {
       if (windowSize > 979) {
         $('header').removeClass('fixed');
         $('header').animate({"padding":"2rem 0"}, 50);
         $('header .header-logo img').animate({"width":"11.625rem", "margin-top": "0"}, 600);
-        $('.main-menu li a').animate({"padding": "3.125rem 5px"}, 600);
       } else {
         $('header').removeClass('fixed');
         $('header').animate({"padding":"1rem 0"}, 50);
-        $('header .header-logo img').animate({"width":"11.625rem", "margin-top": "0.5rem"}, 600);
+        $('header .header-logo img').animate({"width":"8.125rem", "margin-top": "12px"}, 600);
       }
     }
   }, { offset: 100 });
@@ -86,12 +110,18 @@
   // Blog Type selector
   var blogType = window.location.pathname.replace(/^\/|\/$/g, '').split('/').pop();
   if (blogType == 'blog') {
-    blogType = 'all';
+    blogType = '/blog/';
   } else {
-    blogType = '/blog/topic/' + blogType;
+    blogType = '/blog/topic/' + blogType + '/';
   }
 
   $('#blog-filter')
+    .on('focus', function(){
+      $('.nice-select.blog-filter').addClass('active');
+    })
+    .on('blur', function(){
+      $('.nice-select.blog-filter').removeClass('active');
+    })
     .val(blogType)
     .change(function(evt, params) {
       if (params === undefined || params.selected === undefined) {
@@ -106,7 +136,7 @@
     });
 
   if ($(window).width() >= 960) {
-    $('#blog-filter').chosen({disable_search: true});
+    $('#blog-filter').niceSelect();
   }
 
   $('.case-study a, .blog-post a').each(function() {
@@ -128,44 +158,5 @@
     e.preventDefault();
     window.open(this.href, '_blank');
   });
-
-
-  var isIE9OrBelow = function() {
-     return /MSIE\s/.test(navigator.userAgent) && parseFloat(navigator.appVersion.split("MSIE")[1]) < 10;
-  }
-
-  // placeholders for forms (IE9)
-  $(document).ready(function() {
-  if(isIE9OrBelow){
-    $("input").each(
-    function(){
-      var inputField = $(this);
-      if(inputField.val()=="" && inputField.attr("placeholder")!=""){
-
-        inputField.val(inputField.attr("placeholder"));
-
-        inputField.focus(function(){
-          if(inputField.val()==inputField.attr("placeholder")){ inputField.val(""); }
-        });
-
-        inputField.blur(function(){
-          if(inputField.val()==""){ inputField.val(inputField.attr("placeholder")); }
-        });
-
-        $(inputField).closest('form').submit(function(){
-          var form = $(this);
-          if(!form.hasClass('placeholderPending')){
-            $('input',this).each(function(){
-              var clearInput = $(this);
-              if(clearInput.val()==clearInput.attr("placeholder")){ clearInput.val(""); }
-            });
-            form.addClass('placeholderPending');
-          }
-        });
-      }
-    });
-  }
-  });
-
 
 })(jQuery);

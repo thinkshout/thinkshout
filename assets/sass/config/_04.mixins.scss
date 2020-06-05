@@ -4,6 +4,10 @@
   @if $screen == m {
     @media (max-width: 480px) { @content; }
   }
+  // Form
+  @if $screen == f {
+    @media (max-width: 768px) { @content; }
+  }
 
   // Phablet *tweaks
   @if $screen == p {

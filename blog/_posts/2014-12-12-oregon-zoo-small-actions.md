@@ -24,7 +24,7 @@ tags:
 date: 2014-12-12 16:00:00
 ---
 
-# Oregon Zoo: Small Actions
+## Oregon Zoo: Small Actions
 
 The Oregon Zoo in Portland approached us to develop an action portal component for their Drupal web site. The action portal is a tool that suggests real-world actions that anyone can take to help wildlife survive and flourish. A social sharing component is important for spreading these tips organically. Pun intended. Like wildflowers.
 

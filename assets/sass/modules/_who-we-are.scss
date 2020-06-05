@@ -141,7 +141,9 @@
     color: $yellow;
   }
 
-  a:hover {
+  a:hover,
+  a:focus,
+  a:active {
     color: $yellow;
   }
 }
@@ -159,7 +161,9 @@
     color: $darkgray;
     margin: 0;
 
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
       text-decoration: underline;
     }
   }

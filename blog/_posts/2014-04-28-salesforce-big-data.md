@@ -106,7 +106,7 @@ By analyzing queries using [New Relic](http://newrelic.com/) during Salesforce d
 
 Additionally, we found that EFQ always checks for node grants by joining on the node_grants table even when we are not dealing with nodes, in our case contacts. Elimination this join also resulted in improved query performance, although not as great an impact as the issue described above.
 
-# Conclusion
+## Conclusion
 
 After we completed a test run of the import in Pantheon's test environment, we were ready to import data into the production instance of the new site. We decided to set cron to "never run" to again limit the amount of processes running at the time of the import. We also did not want to recreate the parallel issues we discovered during the our tests with our scripted solution.  After our first production test run of a few thousand records over 3 hours, we noticed that we were still getting deadlocks. Upon investigation, we discovered that Pantheon runs cron against their production instances using drush, which does not respect the "never run" configuration. Pantheon had documentation about this which lead us to [Elysia Cron](https://drupal.org/project/elysia_cron). This module does prevent cron from running by setting the "Globally Disable" flag. This module gives itself the highest system weight so that its `hook_cron` is the first to run. And if that flag is set, Elysia Cron stops the process.
 

@@ -16,65 +16,61 @@
     max-width: 2000px;
   }
 
-  .case-study-previews a .case-study-header {
-    @include transition(border 0.2s);
-    background-position: center center;
-    background-size: cover;
-    color: $darkgray;
-    display: inline-block;
-    height: 100%;
-    margin-bottom: 1.5rem;
-    min-height: 330px;
-    padding: 2rem 0;
-    position: relative;
-    text-align: center;
-    width: 48%;
-    z-index: 1;
-    @include mq(m) { min-height: 285px; width: 100%; }
-
-    &:hover {
-      border: rem(6) solid $orange;
+  .case-study-previews a {
+    &:hover,
+    &:focus,
+    &:active {
+      outline: none;
+    }
+    .case-study-header {
       @include transition(border 0.2s);
-    }
-
-    .wrapper {
-      background: $white;
-      bottom: rem(-8);
-      left: 0;
-      margin: 0 auto;
-      padding: 1rem;
-      position: absolute;
-      right: 0;
+      background-position: center center;
+      background-size: cover;
+      color: $darkgray;
+      display: inline-block;
+      height: 100%;
+      margin-bottom: 1.5rem;
+      min-height: 330px;
+      padding: 2rem 0;
+      position: relative;
       text-align: center;
-      width: 74%;
-    }
+      width: 48%;
+      z-index: 1;
+      @include mq(m) { min-height: 285px; width: 100%; }
 
-    h2 {
-      font-size: 1.25rem;
-      line-height: rem(24);
-      margin-bottom: rem(5);
-      margin-top: rem(3);
+      .wrapper {
+        background: $white;
+        bottom: rem(-8);
+        left: 0;
+        margin: 0 auto;
+        padding: 1rem;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        width: 74%;
+      }
 
-      @include mq(m) {
-        font-size: 1.1rem;
-        margin-top: 0;
+      h3 {
+        font-size: 1.25rem;
+        line-height: rem(24);
+        margin-bottom: rem(5);
+        margin-top: rem(3);
+        @include transition(color 0.2s);
+
+        @include mq(m) {
+          font-size: 1.1rem;
+          margin-top: 0;
+        }
       }
     }
+    &:hover .case-study-header,
+    &:focus .case-study-header,
+    &:active .case-study-header {
+      border: rem(6) solid $orange;
+      @include transition(border 0.2s);
 
-    p {
-      color: $darkgray;
-      font-size: rem(13);
-      font-weight: 300;
-      line-height: 1.7;
-      margin: 0 auto 1rem;
-      max-width: 90%;
-      opacity: 0.9;
-    }
-
-    a.uppercase-link {
-      font-size: rem(13);
-      i {
-        color: $yellow;
+      h3 {
+        color: $orange;
       }
     }
   }
@@ -94,7 +90,9 @@
     position: relative;
     width: 100%;
 
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
       @include transition(border 0.2s);
       border: rem(6) solid $orange;
     }

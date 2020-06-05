@@ -19,6 +19,7 @@
   }
 
   h1 {
+    color: $dark-orange;
     font-size: rem(45);
     margin-bottom: 0.5rem;
     margin-top: 0;
@@ -28,9 +29,10 @@
   }
 
   .position {
-    color: $midorange;
+    color: $dark-orange;
+    font-weight: 500;
     margin-top: 0;
-    text-transform: uppercase;
+    text-transform: capitalize;
   }
 
   h5 {
@@ -60,7 +62,12 @@
   }
 
   li a {
-    color: $midorange;
+    color: $orange;
     padding: 0 1rem;
+    &:hover,
+    &:focus,
+    &:active {
+      color: $pale-orange;
+    }
   }
 }
