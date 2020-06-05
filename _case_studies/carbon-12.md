@@ -65,7 +65,7 @@ cs-sections:
     section-image3: "/assets/images/case-studies/Carbon12-3.jpg"
     section-image-alt1: "Screenshot of Carbon 12 construction page."
 
-    section-image4: "/assets/images/case-studies/Carbon12-5.jpg"
+    section-image4: "/assets/images/case-studies/Carbon12-4.jpg"
     section-image-alt2: "Screenshot of Carbon 12 the future of our city skylines page."
 
   - section-description: |
