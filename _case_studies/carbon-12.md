@@ -56,14 +56,17 @@ cs-sections:
   - section-video: |
       <iframe src="https://player.vimeo.com/video/425993898" width="1500" height="855" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-  - section-image1up: "/assets/images/case-studies/Carbon12-1.jpg"
+  - section-image1: "/assets/images/case-studies/Carbon12-1.jpg"
     section-image-alt1: "Screenshot of Carbon 12 wood page."
 
-    section-image2up: "/assets/images/case-studies/Carbon12-2.jpg"
+    section-image2: "/assets/images/case-studies/Carbon12-2.jpg"
     section-image-alt2: "Screenshot of Carbon 12 cross laminated timber page."
 
-    section-image3up: "/assets/images/case-studies/Carbon12-3.jpg"
-    section-image-alt3: "Screenshot of Carbon 12 construction page."
+    section-image3: "/assets/images/case-studies/Carbon12-3.jpg"
+    section-image-alt1: "Screenshot of Carbon 12 construction page."
+
+    section-image4: "/assets/images/case-studies/Carbon12-5.jpg"
+    section-image-alt2: "Screenshot of Carbon 12 the future of our city skylines page."
 
   - section-description: |
       #### From Proprietary Process to Shared Knowledge
