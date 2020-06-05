@@ -26,7 +26,7 @@ If you encounter something that is not accessible, please reach out to us with t
     <div class="inquiry-text">
       <h4>We welcome your feedback on the accessibility of ThinkShout.com.</h4>
       <p>Please let us know if you encounter accessibility barriers. We try to respond to feedback within 5 business days.</p>
-      <p><strong>Use the form to submit feedback, or contact us by email at:</strong><br>
+      <p><strong>Use the form to submit feedback, or contact us by email at.</strong><br>
         <a href="mailto:hello@thinkshout.com">hello@thinkshout.com</a></p>
     </div>
     <form id="form1" name="form1" class="wufoo topLabel page contact" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" action="https://thinkshout.wufoo.com/forms/z76jm1g03ubu9b/#public">
