@@ -58,7 +58,7 @@ Depending on the issue, the time it takes to fix could vary.  It’s good practi
 
 The time to fix things will vary. That’s OK. As long as you’re committed to fixing the issue, and keeping a clear line of communication with the person who documented it, you’re doing well. 
 
-## Accessibility is a team effort
+## Accessibility is a team effort.
 
 Organizations need to create a process that makes the most sense for their size, structure, and workflow. The important thing is to make sure your process is clear, so resolving accessibility issues is streamlined for your team.
 
