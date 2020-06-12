@@ -16,7 +16,7 @@ tags:
   - marketing
   - "digital marketing"
   - nonprofit
-date: 2020-06-03 11:00:00
+date: 2020-06-12 11:00:00
 image: https://thinkshout.com/assets/images/blog/accessibility-statement-hero.jpg
 header-image: /assets/images/blog/accessibility-statement-hero.jpg
 header-image-alt: "digital illustration of people holding hands up."
