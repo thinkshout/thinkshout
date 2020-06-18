@@ -4,7 +4,7 @@ layout: case_study
 body-class: case-study carbon-12
 active: false
 homepage: false
-published: false
+published: true
 related: sustainability
 order: 6
 image: /assets/images/case-studies/Carbon12-hero.jpg
