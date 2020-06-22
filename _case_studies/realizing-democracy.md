@@ -9,7 +9,8 @@ related: realizing-democracy
 order: 6
 image: /assets/images/case-studies/realizing-democracy-hero.jpg
 image-alt: "building in washington DC with american flags hanging."
-description: "Democracy is premised on the idea that equality of voice can overcome inequality of resources. Yet in recent decades, democracy in the United States has seen a shift that favors the power of private ownership at the expense of the power of public citizenship. The Ford Foundation Center for Social Justice, Community Change, the Center on Democracy and Organizing, Dēmos, the Open Society Foundations, and the Ford Foundation launched a new learning series called Realizing Democracy to bring people power and resources to correcting for that shift."
+description: "Democracy is premised on the idea that equality of voice can overcome inequality of resources. Yet in recent decades, democracy in the United States has seen a shift that favors the power of private ownership at the expense of the power of public citizenship. The Ford Foundation, Community Change, the Center on Democracy and Organizing, Dēmos, and the Open Society Foundations, launched a new learning series called Realizing Democracy to bring people power and resources to correct for that shift.
+"
 # END LAYOUT DATA
 
 title: "An Iterative Website in Support of Coalition Movement Building."
