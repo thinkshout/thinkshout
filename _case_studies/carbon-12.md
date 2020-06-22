@@ -26,7 +26,7 @@ cs-preview:
 cs-header:
   header-image: /assets/images/case-studies/Carbon12-hero.jpg
   client: "Building Carbon12"
-  title: "Leading the Movement to Build with Cross-Laminated Timber."
+  title: "Leading the Movement to Build with Cross-Laminated Timber"
 
 cs-intro:
   - intro-paragraph: |
