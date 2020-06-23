@@ -28,7 +28,7 @@ cs-preview:
 cs-header:
   header-image: /assets/images/case-studies/realizing-democracy-hero.jpg
   client: "Dēmos, The Ford Foundation, Open Society Foundations, Community Change, and Center on Democracy and Organizing"
-  title: "An Iterative Website in Support of Coalition Movement Building."
+  title: "An Iterative Website in Support of Coalition Movement Building"
 
 cs-intro:
   - intro-paragraph: |
