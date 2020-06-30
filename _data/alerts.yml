@@ -1,0 +1,7 @@
+- active: TRUE
+  link: /blog/2020/06/black-lives-matter/
+  link_text: "Black Lives Matter."
+  message: "Read our response."
+  background_color: "#000000"
+  text_color: "#FFFFFF"
+  can_dismiss: FALSE

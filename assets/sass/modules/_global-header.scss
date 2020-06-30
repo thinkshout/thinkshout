@@ -10,6 +10,14 @@ header {
   width: 100%;
   z-index: 200;
 
+  &.alert-active {
+    top: 50px;
+
+    @media (min-width: 600px) {
+      top: 60px;
+    }
+  }
+
   @include mq(d) {
     padding: 2rem 0;
   }

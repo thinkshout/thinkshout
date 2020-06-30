@@ -2039,7 +2039,13 @@ body {
   -moz-osx-font-smoothing: grayscale; }
 
 .main-content {
-  margin-top: 8.5rem; }
+  margin-top: 136px; }
+
+.main-content.alert-active {
+  margin-top: 186px; }
+  @media (min-width: 600px) {
+    .main-content.alert-active {
+      margin-top: 196px; } }
 
 h1 {
   font-size: 2.625rem; }
@@ -2350,6 +2356,86 @@ a.visually-hidden.focusable:focus {
     @media (min-width: 980px) {
       .about .value p {
         max-width: 55%; } }
+
+.alert {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 210;
+  font-size: 14px; }
+  @media (min-width: 600px) {
+    .alert {
+      height: 60px;
+      font-size: 16px;
+      flex-direction: row; } }
+  .alert a {
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    margin-bottom: 4px; }
+    @media (min-width: 600px) {
+      .alert a {
+        margin-right: 10px;
+        margin-bottom: 0; } }
+  .alert a:hover,
+  .alert a:active,
+  .alert a:focus {
+    border-bottom: 1px solid transparent;
+    outline: none; }
+  .alert .dismiss {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 0;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: 400;
+    height: 26px;
+    line-height: 1.15;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 10px;
+    text-indent: -9999px;
+    width: 26px; }
+    .alert .dismiss:before {
+      align-items: center;
+      border-radius: 50%;
+      box-shadow: 0 0 0 1.5px;
+      color: inherit;
+      content: "×";
+      display: flex;
+      font-size: 25px;
+      height: 22px;
+      justify-content: center;
+      left: 2px;
+      opacity: 0.6;
+      position: absolute;
+      text-indent: 0;
+      top: 2px;
+      transition: opacity 0.3s;
+      width: 22px; }
+  .alert .dismiss:hover,
+  .alert .dismiss:active,
+  .alert .dismiss:focus {
+    outline: none; }
+  .alert .dismiss:hover::before,
+  .alert .dismiss:active::before,
+  .alert .dismiss:focus::before {
+    opacity: 1;
+    font-size: 27px;
+    outline: none; }
+  .alert.hidden {
+    display: none; }
 
 .basic-page {
   color: #525255;
@@ -6233,6 +6319,11 @@ header {
   top: 0;
   width: 100%;
   z-index: 200; }
+  header.alert-active {
+    top: 50px; }
+    @media (min-width: 600px) {
+      header.alert-active {
+        top: 60px; } }
   @media (min-width: 980px) {
     header {
       padding: 2rem 0; } }

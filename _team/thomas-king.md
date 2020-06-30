@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Thomas
 last_name: King
-position: Managing Director of Strategy
+position: Senior Strategy Director
 leadin: |
  Thomas brings a wealth of digital strategy experience to ThinkShout. He’s been a champion of open source technology in the Portland community for years and has worked with local and national organizations to help maximize their digital potential.
 social:

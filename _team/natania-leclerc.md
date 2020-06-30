@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Natania
 last_name: LeClerc
-position: Senior Strategist
+position: Senior Strategy Director
 leadin: |
   After graduating with a BA in political science from Loyola Chicago in 2004, Natania realized she didn't want to be a lawyer, lobbyist, or politician. Naturally, the nonprofit sector was calling her name.
 social:

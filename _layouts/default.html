@@ -84,11 +84,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- Header -->
   <a class="visually-hidden focusable" href="#main-content">Skip to main content</a>
+  {% for item in site.data.alerts %}
+    {% if item.active != false %}
+      <div class="alert hidden" style="background-color: {{ item.background_color }}; color: {{ item.text_color }};"><a href="{{ site.baseurl }}{{ item.link }}" style="color: {{ item.text_color }};">{{ item.link_text }}</a>{{ item.message }}
+        {% if item.can_dismiss != false %}
+          <button class="dismiss">Close</button>
+        {% endif %}
+      </div>
+    {% endif %}
+  {% endfor %}
+
   {% include header.html %}
 
   <!-- Main Content -->
   <main id="main-content" class="main-content">
-      {{ content }}
+    {{ content }}
   </main>
 
   <!-- Footer -->
