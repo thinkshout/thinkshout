@@ -86,7 +86,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a class="visually-hidden focusable" href="#main-content">Skip to main content</a>
   {% for item in site.data.alerts %}
     {% if item.active != false %}
-      <div class="alert" style="background-color: {{ item.background_color }}; color: {{ item.text_color }};"><a href="{{ site.baseurl }}{{ item.link }}" style="color: {{ item.text_color }};">{{ item.link_text }}</a>{{ item.message }}
+      <div class="alert hidden" style="background-color: {{ item.background_color }}; color: {{ item.text_color }};"><a href="{{ site.baseurl }}{{ item.link }}" style="color: {{ item.text_color }};">{{ item.link_text }}</a>{{ item.message }}
         {% if item.can_dismiss != false %}
           <button class="dismiss">Close</button>
         {% endif %}
@@ -97,13 +97,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   {% include header.html %}
 
   <!-- Main Content -->
-  {% for item in site.data.alerts %}
-    {% if item.active != false %}
-      <main id="main-content" class="main-content alert-active">
-    {% else %}
-      <main id="main-content" class="main-content">
-    {% endif %}
-  {% endfor %}
+  <main id="main-content" class="main-content">
     {{ content }}
   </main>
 

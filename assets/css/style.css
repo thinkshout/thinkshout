@@ -2043,7 +2043,7 @@ body {
 
 .main-content.alert-active {
   margin-top: 186px; }
-  @media (min-width: 980px) {
+  @media (min-width: 600px) {
     .main-content.alert-active {
       margin-top: 196px; } }
 
@@ -2434,6 +2434,8 @@ a.visually-hidden.focusable:focus {
     opacity: 1;
     font-size: 27px;
     outline: none; }
+  .alert.hidden {
+    display: none; }
 
 .basic-page {
   color: #525255;

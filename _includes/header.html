@@ -1,10 +1,4 @@
-{% for item in site.data.alerts %}
-  {% if item.active != false %}
-<header class="alert-active">
-  {% else %}
 <header>
-  {% endif %}
-{% endfor %}
   <div class="container">
     <div class="header-logo">
       <a href="{{ site.baseurl }}/">

@@ -159,4 +159,40 @@
     window.open(this.href, '_blank');
   });
 
+
+  function setCookie(key, value, expiry) {
+    var expires = new Date();
+    expires.setTime(expires.getTime() + (expiry * 24 * 60 * 60 * 1000));
+    document.cookie = key + '=' + value + ';path=/' + ';expires=' + expires.toUTCString();
+  }
+
+  function getCookie(key) {
+    var keyValue = document.cookie.match('(^|;) ?' + key + '=([^;]*)(;|$)');
+    return keyValue ? keyValue[2] : null;
+  }
+
+  function eraseCookie(key) {
+    var keyValue = getCookie(key);
+    setCookie(key, keyValue, '-1');
+  }
+
+
+  // Alert show/hide check.
+  // eraseCookie('ts-alert')
+  if (getCookie('ts-alert') == null) {
+    $('.alert').removeClass('hidden');
+    $('#main-content, header').addClass('alert-active');
+  }
+
+
+  // Alert banner 'dismiss' code.
+  $('.alert .dismiss').click(function() {
+    $(this).parent().remove();
+    $('#main-content, header').removeClass('alert-active');
+    setCookie('ts-alert','1','30');
+  });
+
+
+
+
 })(jQuery);
