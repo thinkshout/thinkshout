@@ -18,7 +18,7 @@
 
   $(document).mouseup(function(e) {
     var windowSize = $(window).width();
-    
+
     if (windowSize < 980) {
       var el = $(".mobile-menu-icon");
       if (!el.is(e.target) && el.has(e.target).length === 0) {

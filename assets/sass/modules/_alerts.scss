@@ -1,0 +1,90 @@
+.alert {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 210;
+  font-size: 14px;
+
+  @media (min-width: 600px) {
+    height: 60px;
+    font-size: 16px;
+    flex-direction: row;
+  }
+
+  a {
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    margin-bottom: 4px;
+
+    @media (min-width: 600px) {
+      margin-right: 10px;
+      margin-bottom: 0;
+    }
+  }
+
+  a:hover,
+  a:active,
+  a:focus {
+    border-bottom: 1px solid transparent;
+    outline: none;
+  }
+
+  .dismiss {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 0;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: 400;
+    height: 26px;
+    line-height: 1.15;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 10px;
+    text-indent: -9999px;
+    width: 26px;
+    &:before {
+      align-items: center;
+      border-radius: 50%;
+      box-shadow: 0 0 0 1.5px;
+      color: inherit;
+      content: "×";
+      display: flex;
+      font-size: 25px;
+      height: 22px;
+      justify-content: center;
+      left: 2px;
+      opacity: 0.6;
+      position: absolute;
+      text-indent: 0;
+      top: 2px;
+      transition: opacity 0.3s;
+      width: 22px;
+    }
+  }
+  .dismiss:hover,
+  .dismiss:active,
+  .dismiss:focus {
+    outline: none;
+  }
+  .dismiss:hover::before,
+  .dismiss:active::before,
+  .dismiss:focus::before {
+    opacity: 1;
+    font-size: 27px;
+    outline: none;
+  }
+
+}
