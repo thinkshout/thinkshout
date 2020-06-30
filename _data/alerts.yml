@@ -4,4 +4,4 @@
   message: "Read our response."
   background_color: "#000000"
   text_color: "#FFFFFF"
-  can_dismiss: TRUE
+  can_dismiss: FALSE
