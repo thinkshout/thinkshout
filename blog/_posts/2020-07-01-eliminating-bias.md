@@ -21,7 +21,7 @@ image: https://thinkshout.com/assets/images/blog/bias-hero.jpg
 header-image: /assets/images/blog/bias-hero.jpg
 header-image-alt: "overhead view of a very crowded city crosswalk."
 ---
-# “Don’t find customers for your products, find products for your customers.” - Seth Godin
+## “Don’t find customers for your products, find products for your customers.” - Seth Godin
 
 Some of the phrases we hear with some regularity from our clients are, “we want to expand and diversify our audiences,” and “we want to deliver a personalized experience.” And that’s great; you should make every effort to expand your supporter base and cultivate them in meaningful ways that make an impact. 
 
@@ -35,7 +35,7 @@ When we tell our clients that the best way to achieve this goal is to start with
 
 User research, when done well, provides a deeper understanding of users’ needs. It surfaces new solutions and opportunities, and can often save you from investing money in the wrong solutions or features for your web project. 
 
-# If you have money to do a thing, you have money to make sure it’s the right thing.” - Erika Hall, *Let’s All Do Design Research Right!*
+## If you have money to do a thing, you have money to make sure it’s the right thing.” - Erika Hall, *Let’s All Do Design Research Right!*
 
 Incorporating user research into your digital projects ensures that you will invest in the best decisions-- all while centering the needs of your audience throughout the process.
 
