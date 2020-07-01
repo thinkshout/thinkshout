@@ -100,7 +100,7 @@ Let’s use an example of me traveling: my needs when traveling for business are
 
 Or let’s make this more applicable and say we’re making personas for educators. One year a classroom may have six ESL (English as a Second Language) students, requiring a teacher to shift much of how they prep and deliver their lessons. The next year, they may have zero ESL students, enabling them to scale back their prep time slightly. 
 
-## That’s why it’s important to narrow down the context to a certain situation and [focus the scope on people’s thinking](https://medium.com/inclusive-software/describing-personas-af992e3fc527) as they move toward a particular intent or purpose.
+### That’s why it’s important to narrow down the context to a certain situation and [focus the scope on people’s thinking](https://medium.com/inclusive-software/describing-personas-af992e3fc527) as they move toward a particular intent or purpose.
 
 When you start designing for behaviors instead of demographics, you’re creating better products that are **focused on those user intentions and motivations, rather than unhelpful assumptions or stereotypes**. Here’s an example from a recent project we executed on behalf of a think tank:
 
