@@ -4,7 +4,7 @@ body-class: blog-post
 topic: strategy
 campaign-topic: "user research"
 title: "Eliminating Bias in User Research"
-homepage: false
+homepage: true
 author: natania
 published: true
 featured: false
