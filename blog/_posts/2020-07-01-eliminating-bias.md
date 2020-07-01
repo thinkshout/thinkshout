@@ -4,10 +4,10 @@ body-class: blog-post
 topic: strategy
 campaign-topic: "user research"
 title: "Eliminating Bias in User Research"
-homepage: true
+homepage: false
 author: natania
 published: true
-featured: false
+featured: true
 short: "User research, when done well, provides a deeper understanding of users’ needs. It surfaces new solutions and opportunities, and can often save you from investing money in the wrong solutions or features for your web project. "
 tags:
   - bias
