@@ -21,21 +21,21 @@ image: https://thinkshout.com/assets/images/blog/bias-hero.jpg
 header-image: /assets/images/blog/bias-hero.jpg
 header-image-alt: "overhead view of a very crowded city crosswalk."
 ---
-## “Don’t find customers for your products, find products for your customers.” - Seth Godin
+>“Don’t find customers for your products, find products for your customers.” - Seth Godin
 
 Some of the phrases we hear with some regularity from our clients are, “we want to expand and diversify our audiences,” and “we want to deliver a personalized experience.” And that’s great; you should make every effort to expand your supporter base and cultivate them in meaningful ways that make an impact. 
 
 When we tell our clients that the best way to achieve this goal is to start with user research, it’s often met with hesitation, and we get it. We’re selling a strategy that is meant to challenge assumptions of stakeholders and team members who think they already know their audiences. Or maybe you think you’ve already done enough research. 
 
-### But what if that research was biased or had a narrow audience? 
+**But what if that research was biased or had a narrow audience?** 
 
-### What if you asked questions in a way that yielded the answers you wanted to hear?
+**What if you asked questions in a way that yielded the answers you wanted to hear?**
 
-### What if your respondents weren’t diverse and were only recruited based on your established circles of influence?
+**What if your respondents weren’t diverse and were only recruited based on your established circles of influence?**
 
 User research, when done well, provides a deeper understanding of users’ needs. It surfaces new solutions and opportunities, and can often save you from investing money in the wrong solutions or features for your web project. 
 
-## If you have money to do a thing, you have money to make sure it’s the right thing.” - Erika Hall, *Let’s All Do Design Research Right!*
+>"If you have money to do a thing, you have money to make sure it’s the right thing.” - Erika Hall, *Let’s All Do Design Research Right!*
 
 Incorporating user research into your digital projects ensures that you will invest in the best decisions-- all while centering the needs of your audience throughout the process.
 
@@ -69,13 +69,13 @@ Our recommendation is that you name your persona based on their dominant behavio
 
 Kim Goodwin said it best, “Photos are badly done at least half the time...but the right set of photos can help the (often very male and very white) team remember that the whole user base doesn’t look like what they expect.”
 
-We’ve created persona deliverables that include photos when the goal of our research was to highlight and address the needs of a marginalized population. But we’ve also created deliverables with zero photos, and it did not negatively impact the reception of the information. Both can be effective, it just depends on the goals of your research.
+We’ve created persona deliverables that include photos when the goal of our research was to highlight and address the needs of a marginalized audience. But we’ve also created deliverables with zero photos, and it did not negatively impact the reception of the information. Both can be effective, it just depends on the goals of your research and the needs of your audience.
 
 ### Accessibility
 
 If you’ve been following ThinkShout for a while, you know our commitment to web accessibility. In this instance I’m referring to the inclusion and representation of individuals with a range of abilities **in addition to** those with limited access to power and privilege and how that impacts their experience.
 
-Does your audience only access the internet on a mobile phone? You should call that out, especially if in prototyping and testing you’re all using laptops. What about internet access more broadly? Do you need to address ways for people to print materials at a library (or other location) so they can then consume it at home where they don’t have wifi? How does your content look then? Accessibility means equal access to all.
+Does your audience only access the internet on a mobile phone? You should call that out, especially if in prototyping and testing your team defaults to using laptops. What about internet access more broadly? Do you need to address ways for people to print materials at a library (or other location) so they can then consume it at home where they don’t have wifi? How does your content look then? Accessibility means equal access to all.
 
 ### Age, Gender, Race and Ethnicity
 
@@ -104,12 +104,10 @@ Or let’s make this more applicable and say we’re making personas for educato
 
 When you start designing for behaviors instead of demographics, you’re creating better products that are **focused on those user intentions and motivations, rather than unhelpful assumptions or stereotypes**. Here’s an example from a recent project we executed on behalf of a think tank:
 
-User Behavior Segment 1 (priority audiences):
 ![This user is in a high-pressure situation and needs to obtain information quickly and/or identify if a longer resource will be useful with minimal time to spend. They need to inform critical decisions with utmost precision and accuracy, and do so without wasting time on content that doesn’t actually answer their motivating questions/need.](/assets/images/blog/bias-2.jpg)
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>User Behavior Segment 1</span>
+<span class="caption"><i class="fa fa-caret-up"></i>User Behavior Segment 1: Priority Audiences</span>
 
-User Behavior Segment 2:
 ![This user has ample latitude for consuming content. They could be casually interested in a topic, may have heard about it on a podcast or read about it in the NYT, or they are simply starting to gain an understanding of an issue with no strict timeline attached. They may eventually want to use this information to influence policy or share more broadly to inform the general public on complex issues in an easily digestible way.](/assets/images/blog/bias-3.jpg)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>User Behavior Segment 2</span>
@@ -118,13 +116,13 @@ What’s important to note here is a user can shift from one segment to another,
 
 ## Where to start?
 
-So you want to get a fresh take on your organization’s audiences and take a stab at building personas without bias - great! This empathy mapping exercise is a great place to start with your team: 
+So you want to get a fresh take on your organization’s audiences and take a stab at building personas without bias - great! [This empathy mapping exercise](https://gamestorming.com/empathy-mapping/) is a great place to start with your team: 
 
 ![Empathy mapping exercise](/assets/images/blog/bias-4.jpg)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>By David Gray, XPLANE</span>
 
-From here you can start to map out what users are going through prior to and after they discover your organization. If you’re low on resources, you can very well leave your research at this point and call it good. Or, based on these outcomes you can start to form questions that you may want to ask in a survey or in interviews to confirm/deny your assumptions. 
+From here you can start to map out what users are going through prior to and after they discover your organization. If you’re short on time/staff support, you can very well leave your research at this point and call it good. Or, based on these outcomes you can start to form questions that you may want to ask in a survey or in interviews to confirm/deny your assumptions. 
 
 **What I will say is that if the team putting together these empathy maps does not reflect the diversity of the audience you are trying to attract, then you should make the time and set aside the resources to actually talk to some people that are more representative.**
 
