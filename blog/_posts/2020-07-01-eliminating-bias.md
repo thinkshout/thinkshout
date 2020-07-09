@@ -47,7 +47,7 @@ Personas are meant to create realistic representations of your users to enable s
 
 You may be familiar with personas, and they’ve probably looked a little like this:
 
-![Example of a stereotypical persona template](/assets/images/blog/bias-9.jpg)
+![Example of a stereotypical persona template](/assets/images/blog/bias-9.jpg){:height="50%" width="50%"}
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Stereotypical persona template of someone named John Rockefeller.</span>
 
@@ -104,7 +104,7 @@ Or let’s make this more applicable and say we’re making personas for educato
 
 When you start designing for behaviors instead of demographics, you’re creating better products that are **focused on those user intentions and motivations, rather than unhelpful assumptions or stereotypes**. Here’s an example from a recent project we executed on behalf of a think tank:
 
-![This user is in a high-pressure situation and needs to obtain information quickly and/or identify if a longer resource will be useful with minimal time to spend. They need to inform critical decisions with utmost precision and accuracy, and do so without wasting time on content that doesn’t actually answer their motivating questions/need.](/assets/images/blog/Bias-6.jpg)
+![This user is in a high-pressure situation and needs to obtain information quickly and/or identify if a longer resource will be useful with minimal time to spend. They need to inform critical decisions with utmost precision and accuracy, and do so without wasting time on content that doesn’t actually answer their motivating questions/need.](/assets/images/blog/Bias-6.jpg){:height="50%" width="50%"}
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>User Behavior Segment 1: Priority Audiences</span>
 
@@ -118,7 +118,7 @@ What’s important to note here is a user can shift from one segment to another,
 
 So you want to get a fresh take on your organization’s audiences and take a stab at building personas without bias - great! [This empathy mapping exercise](https://gamestorming.com/empathy-mapping/) is a great place to start with your team: 
 
-![Empathy mapping exercise](/assets/images/blog/bias-8.jpg)
+![Empathy mapping exercise](/assets/images/blog/bias-8.jpg){:height="50%" width="50%"}
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>By David Gray, XPLANE</span>
 
