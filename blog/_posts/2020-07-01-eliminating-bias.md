@@ -47,7 +47,7 @@ Personas are meant to create realistic representations of your users to enable s
 
 You may be familiar with personas, and they’ve probably looked a little like this:
 
-![Example of a stereotypical persona template](/assets/images/blog/bias-1.jpg)
+![Example of a stereotypical persona template](/assets/images/blog/bias-9.jpg)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Stereotypical persona template of someone named John Rockefeller.</span>
 
@@ -118,7 +118,7 @@ What’s important to note here is a user can shift from one segment to another,
 
 So you want to get a fresh take on your organization’s audiences and take a stab at building personas without bias - great! [This empathy mapping exercise](https://gamestorming.com/empathy-mapping/) is a great place to start with your team: 
 
-![Empathy mapping exercise](/assets/images/blog/bias-4.jpg)
+![Empathy mapping exercise](/assets/images/blog/bias-8.jpg)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>By David Gray, XPLANE</span>
 
