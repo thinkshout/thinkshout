@@ -104,11 +104,11 @@ Or let’s make this more applicable and say we’re making personas for educato
 
 When you start designing for behaviors instead of demographics, you’re creating better products that are **focused on those user intentions and motivations, rather than unhelpful assumptions or stereotypes**. Here’s an example from a recent project we executed on behalf of a think tank:
 
-![This user is in a high-pressure situation and needs to obtain information quickly and/or identify if a longer resource will be useful with minimal time to spend. They need to inform critical decisions with utmost precision and accuracy, and do so without wasting time on content that doesn’t actually answer their motivating questions/need.](/assets/images/blog/bias-2.jpg)
+![This user is in a high-pressure situation and needs to obtain information quickly and/or identify if a longer resource will be useful with minimal time to spend. They need to inform critical decisions with utmost precision and accuracy, and do so without wasting time on content that doesn’t actually answer their motivating questions/need.](/assets/images/blog/Bias-6.jpg)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>User Behavior Segment 1: Priority Audiences</span>
 
-![This user has ample latitude for consuming content. They could be casually interested in a topic, may have heard about it on a podcast or read about it in the NYT, or they are simply starting to gain an understanding of an issue with no strict timeline attached. They may eventually want to use this information to influence policy or share more broadly to inform the general public on complex issues in an easily digestible way.](/assets/images/blog/bias-3.jpg)
+![This user has ample latitude for consuming content. They could be casually interested in a topic, may have heard about it on a podcast or read about it in the NYT, or they are simply starting to gain an understanding of an issue with no strict timeline attached. They may eventually want to use this information to influence policy or share more broadly to inform the general public on complex issues in an easily digestible way.](/assets/images/blog/bias-7.jpg)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>User Behavior Segment 2</span>
 
