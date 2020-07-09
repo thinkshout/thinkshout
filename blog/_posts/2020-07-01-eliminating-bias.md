@@ -124,8 +124,6 @@ So you want to get a fresh take on your organization’s audiences and take a st
 
 From here you can start to map out what users are going through prior to and after they discover your organization. If you’re short on time/staff support, you can very well leave your research at this point and call it good. Or, based on these outcomes you can start to form questions that you may want to ask in a survey or in interviews to confirm/deny your assumptions. 
 
-**What I will say is that if the team putting together these empathy maps does not reflect the diversity of the audience you are trying to attract, then you should make the time and set aside the resources to actually talk to some people that are more representative.**
-
 The biggest take away from all of this is: **never assume you know everything about your audience. People are complex.** It’s in your organization’s best interest to understand your audience so that you can create digital products and experiences that they want. Not so you can build what you think they want and then try to find an audience to fit. 
 
 A bonus? If your research is presented in a way to eliminate bias, you’ll have an easier time getting the buy-in you need, because you’ll be focused on the behaviors that matter, instead of the fact that Chad’s hobbies are yachting.
