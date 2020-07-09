@@ -108,7 +108,7 @@ When you start designing for behaviors instead of demographics, you’re creatin
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>User Behavior Segment 1: Priority Audiences</span>
 
-![This user has ample latitude for consuming content. They could be casually interested in a topic, may have heard about it on a podcast or read about it in the NYT, or they are simply starting to gain an understanding of an issue with no strict timeline attached. They may eventually want to use this information to influence policy or share more broadly to inform the general public on complex issues in an easily digestible way.](/assets/images/blog/bias-7.jpg)
+![This user has ample latitude for consuming content. They could be casually interested in a topic, may have heard about it on a podcast or read about it in the NYT, or they are simply starting to gain an understanding of an issue with no strict timeline attached. They may eventually want to use this information to influence policy or share more broadly to inform the general public on complex issues in an easily digestible way.](/assets/images/blog/bias-7.jpg){:height="70%" width="70%"}
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>User Behavior Segment 2</span>
 
