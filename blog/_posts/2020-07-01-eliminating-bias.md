@@ -49,7 +49,7 @@ You may be familiar with personas, and they’ve probably looked a little like t
 
 ![Example of a stereotypical persona template](/assets/images/blog/bias-9.jpg){:height="70%" width="70%"}
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>Stereotypical persona template of someone named John Rockefeller.</span>
+<span class="caption"><i class="fa fa-caret-up"></i>Photo from [“Make Your Personas Great Again in 7 Simple Steps.”](https://uxdesign.cc/personas-e60c1c06ead1)</span>
 
 While this is a nicely designed template, there’s a lot here that isn’t helpful in building your digital product. And there are other things that (depending on who you’re presenting to) could lead to more unproductive assumptions. Now I’ll be real, I’ve produced persona templates that are not far off from this - but it’s problematic. Let’s talk about why.
 
