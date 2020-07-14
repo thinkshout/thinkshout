@@ -73,7 +73,7 @@ We’ve created persona deliverables that include photos when the goal of our re
 
 ### Accessibility
 
-If you’ve been following ThinkShout for a while, you know our commitment to web accessibility. In this instance I’m referring to the inclusion and representation of individuals with a range of abilities **in addition to** those with limited access to power and privilege and how that impacts their experience.
+If you’ve been following ThinkShout for a while, [you know our commitment to web accessibility](https://thinkshout.com/accessibility/). In this instance I’m referring to the inclusion and representation of individuals with a range of abilities **in addition to** those with limited access to power and privilege and how that impacts their experience.
 
 Does your audience only access the internet on a mobile phone? You should call that out, especially if in prototyping and testing your team defaults to using laptops. What about internet access more broadly? Do you need to address ways for people to print materials at a library (or other location) so they can then consume it at home where they don’t have wifi? How does your content look then? Accessibility means equal access to all.
 
