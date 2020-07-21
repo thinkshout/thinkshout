@@ -4,10 +4,10 @@ body-class: blog-post
 topic: "project management"
 campaign-topic: "managing large projects"
 title: "A PM's Guide to Managing Large Projects"
-homepage: true
+homepage: false
 author: rose
 published: true
-featured: false
+featured: true
 short: "While there are some core PM skills that will be useful regardless of project size, there’s a specific approach and set of skills that can benefit you when managing large projects and long-term client engagements."
 tags:
   - "project management"
