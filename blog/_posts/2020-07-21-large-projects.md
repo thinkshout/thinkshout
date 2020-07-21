@@ -4,7 +4,7 @@ body-class: blog-post
 topic: "project management"
 campaign-topic: "managing large projects"
 title: "A PM's Guide to Managing Large Projects"
-homepage: false
+homepage: true
 author: rose
 published: true
 featured: true
