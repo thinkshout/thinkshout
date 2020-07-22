@@ -13,16 +13,16 @@
   {% if post.author == person.name %}
   <div class="byline">
     <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}" alt="{{ person.first_name }} {{ person.last_name }}">
-    <div class="byline-wrapper">
+    <span class="byline-wrapper">
       {% if person.current-employee %}
-        <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a><br>
-        {{ person.position }}
+        <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a>
+        <span class="position">{{ person.position }}</span>
       {% else %}
-        <strong>{{ person.first_name }} {{ person.last_name }}</strong><br>
-        {{ person.position }}<br>
+        <strong>{{ person.first_name }} {{ person.last_name }}</strong>
+        <span class="position">{{ person.position }}</span>
         <small>ThinkShout Alumnus</small>
       {% endif %}
-    </div>
+    </span>
   </div>
   {% endif %}
   {% endfor %}

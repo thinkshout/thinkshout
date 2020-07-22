@@ -145,7 +145,7 @@
     }
     .byline {
       position: absolute;
-      bottom: -1rem;
+      bottom: 0;
 
       @supports(display: flex) {
         display: flex;
@@ -155,7 +155,6 @@
       strong {
         color: #000;
         display: inline-block;
-        padding-top: rem(8);
       }
 
       a:hover strong,
@@ -163,10 +162,6 @@
       a:active strong {
         color: #333;
         text-decoration: underline;
-      }
-
-      .position {
-        white-space: normal;
       }
     }
   }

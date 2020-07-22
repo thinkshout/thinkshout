@@ -195,11 +195,6 @@
         @include mq(lt) { width: 30%; }
         @include mq(md) { width: 30%; margin-top: 4rem; float: right; }
         @include mq(l)  { width: 30%; margin-top: 4rem; float: right; }
-        .byline-wrapper {
-          float: left;
-          max-width: 75%;
-          white-space: normal;
-        }
         a:hover,
         a:focus,
         a:active {
