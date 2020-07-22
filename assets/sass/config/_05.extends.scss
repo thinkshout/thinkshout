@@ -93,18 +93,18 @@
 %byline {
   color: $casegray;
   text-align: left;
-  display: inline-block;
+  display: flex;
+  align-items: center;
   line-height: 1.4;
   font-size: rem(14);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   padding-right: 0;
   a {
     @include transition(color,0.3s,linear);
     color: #000;
-    display: inline-block;
+    display: flex;
     font-size: rem(15);
     font-weight: 700;
-    padding-top: rem(6);
     &:hover,
     &:focus,
     &:active {
@@ -115,9 +115,16 @@
   img {
     width: rem(54);
     height: auto;
-    float: left;
     margin-right: rem(16);
     border-radius: 50%;
+  }
+  .byline-wrapper {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+  .position {
+    display: inline-flex;
   }
 }
 
