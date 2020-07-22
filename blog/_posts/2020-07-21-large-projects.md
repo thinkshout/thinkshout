@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: "project management"
+topic:process
 campaign-topic: "managing large projects"
 title: "A PM's Guide to Managing Large Projects"
 homepage: false
