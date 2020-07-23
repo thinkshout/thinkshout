@@ -6,15 +6,15 @@ active: true
 homepage: true
 published: true
 related: splc
-order: 4
+order: 3
 image: https://thinkshout.com/assets/images/case-studies/tt-hero-20.jpg
 image-alt: "A diverse montage of small children, with inspirational leaders of equality and civil rights movements in the background."
 description: "Enabling educators to foster a kind and inclusive school climate."
 # END LAYOUT DATA
 
 title: "Teaching Tolerance: 21st Century Content Management Tools."
-featured_impact_text: Social Justice
-featured_client_name: "Teaching Tolerance: 21st Century Content Management Tools"
+featured_impact_text: Education
+featured_client_name: "Teaching Tolerance"
 
 cs-class: "teaching-tolerance"
 

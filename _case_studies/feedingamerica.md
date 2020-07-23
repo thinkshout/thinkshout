@@ -3,9 +3,9 @@
 layout: case_study
 body-class: case-study feeding-america
 active: false
-homepage: false
+homepage: true
 published: true
-order: 10
+order: 1
 related: feeding-america
 image: https://thinkshout.com/assets/images/case-studies/rosa_m.jpg
 image-alt: "Photo of family receiving assistance"
@@ -14,7 +14,7 @@ description: "How site speed and Drupal 8 increased donation conversions to help
 
 title: Working to end hunger
 cs-class: "feam"
-featured_impact_text: "Working to end hunger once and for all"
+featured_impact_text: "People"
 featured_client_name: "Feeding America"
 
 cs-preview:

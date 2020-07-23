@@ -3,10 +3,10 @@
 layout: case_study
 body-class: case-study cori
 active: true
-homepage: true
+homepage: false
 published: true
 related: bene
-order: 2
+order: 5
 image: https://thinkshout.com/assets/images/case-studies/CORI-case-study-header.jpg
 image-alt: "View of the Comumbia River valley."
 description: "Columbia Riverkeeper’s mission is to protect and restore the water quality of the Columbia River and all life connected to it. Their previous website lacked intuitive navigation, and no longer reflected the organization’s brand. They desperately needed a site that told a compelling story, allowed visitors to easily find important information, and increase conversion for donation and newsletter subscriptions."
