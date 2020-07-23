@@ -15,7 +15,7 @@ description: "How site speed and Drupal 8 increased donation conversions to help
 title: Working to end hunger
 cs-class: "feam"
 featured_impact_text: "People"
-featured_client_name: "Feeding America"
+featured_client_name: "Feeding America: Lightening Fast Load Time to Increase Conversion"
 
 cs-preview:
   image: /assets/images/case-studies/rosa_m.jpg

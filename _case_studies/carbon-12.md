@@ -15,7 +15,7 @@ description: "Kasier + Path and the USDA Forest Service have joined forces to en
 title: "Leading the Movement to Build with Cross-Laminated Timber"
 cs-class: "carbon-12"
 featured_impact_text: "Planet"
-featured_client_name: "Carbon12"
+featured_client_name: "Carbon12: An Interactive Case Study for Use by Experts Across Industries"
 
 cs-preview:
   image: /assets/images/case-studies/Carbon12-hero.jpg

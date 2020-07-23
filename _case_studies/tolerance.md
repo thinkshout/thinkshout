@@ -14,7 +14,7 @@ description: "Enabling educators to foster a kind and inclusive school climate."
 
 title: "Teaching Tolerance: 21st Century Content Management Tools."
 featured_impact_text: Education
-featured_client_name: "Teaching Tolerance"
+featured_client_name: "Teaching Tolerance: Custom Lesson Plans for a Diverse Democracy"
 
 cs-class: "teaching-tolerance"
 
