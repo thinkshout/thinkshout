@@ -69,7 +69,7 @@ cs-sections:
 
   - section-type: result
     section-description: |
-      The updated site has performed where it matters most for the University and students alike: increased interest in online enrollment. Additionally, the design and content strategy has been so successful that other Colleges across the University system are beginning to adopt everything from the Graham School’s approach to it very content structures.
+      The updated site has performed where it matters most for the University and students alike: increased interest in online enrollment. Additionally, the design and content strategy has been so successful that other Colleges across the University system are beginning to adopt everything from the Graham School’s approach to its very content structures.
 
 
 cs-cta-text: Launch Site
