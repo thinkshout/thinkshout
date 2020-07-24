@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Eric
 last_name: Paxton
-position: Senior Software Developer
+position: Director of Software Development
 leadin: |
   Eric doesn’t shy away from large scale technical undertakings. His experience as a designer and front end developer, as well as his love of open source, make him a great asset to the team. He’s also a self-proclaimed music nerd with a pretty serious vinyl record collection.
 social:
