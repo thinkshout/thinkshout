@@ -3,13 +3,13 @@
 layout: case_study
 body-class: case-study hsus
 active: true
-homepage: true
+homepage: false
 published: true
 related: hsus
 image: https://thinkshout.com/assets/images/case-studies/HSUS-Hero.jpg
 image-alt: "Woman holding small dog who appears comforted"
 description: "The Humane Society of the United States isn’t your local humane society or pet adoption center. Their mission is to end all forms of animal cruelty. From puppy mills to animal testing, and from trophy hunting to horse slaughter, they take on powerful forces like multibillion dollar industries and systemic governmental policies to bring about a more humane society for us all."
-order: 3
+order: 6
 # END LAYOUT DATA
 
 title: Turning passion into action with the nation’s most effective animal protection organization.

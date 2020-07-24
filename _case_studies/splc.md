@@ -3,10 +3,10 @@
 layout: case_study
 body-class: case-study splc
 active: true
-homepage: true
+homepage: false
 published: true
 related: splc
-order: 1
+order: 4
 image: https://thinkshout.com/assets/images/case-studies/splc-hero2.jpg
 image-alt: "A laptop showing the redesigned SPLC website."
 description: "The Southern Poverty Law Center (SPLC) fights hatred and bigotry, seeking justice for the most vulnerable members of society. They maintain an annual list of hate groups, expose incidents across the country, and provide critical intelligence for journalists and the public alike."
