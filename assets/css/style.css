@@ -1204,9 +1204,6 @@
 .fa-stack-overflow:before {
   content: ""; }
 
-.fa-instagram:before {
-  content: ""; }
-
 .fa-flickr:before {
   content: ""; }
 
@@ -8659,6 +8656,10 @@ h4.lets-chat {
     padding: 0 1rem; }
     .social li a:hover, .social li a:focus, .social li a:active {
       color: #F38958; }
+  .social li a svg {
+    fill: #F06D2F; }
+  .social li a:hover svg, .social li a:focus svg, .social li a:active svg {
+    fill: #F38958; }
 
 .team .team-member {
   display: block;
@@ -9568,6 +9569,15 @@ h4.lets-chat {
 
 .icon-tint:before {
   content: "\e603"; }
+
+.icon-instagram {
+  max-width: 30px;
+  max-height: 30px;
+  position: relative;
+  top: 3px; }
+  .icon-instagram svg {
+    max-width: 30px;
+    max-height: 30px; }
 
 .icon-reorder:before {
   content: "\e604"; }

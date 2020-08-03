@@ -35,6 +35,16 @@
 .icon-tint:before {
 	content: "\e603";
 }
+.icon-instagram {
+	max-width: 30px;
+	max-height: 30px;
+	position: relative;
+	top: 3px;
+	svg {
+		max-width: 30px;
+		max-height: 30px;
+	}
+}
 .icon-reorder:before {
 	content: "\e604";
 }
