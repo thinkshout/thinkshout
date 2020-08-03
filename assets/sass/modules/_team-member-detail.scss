@@ -70,4 +70,14 @@
       color: $pale-orange;
     }
   }
+  li a svg {
+    fill: $orange;
+  }
+  li a  {
+    &:hover svg,
+    &:focus svg,
+    &:active svg {
+      fill: $pale-orange;
+    }
+  }
 }
