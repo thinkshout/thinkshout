@@ -6,7 +6,7 @@ position: Community and Events Manager
 leadin: |
   Kevin is the magic behind the curtain. He loves orchestrating multiple pieces at once to create the perfect workshop, conference, or office celebration; which makes him the perfect fit as our Office & Events Coordinator.
 social:
-  linkedin: http://www.linkedin.com/lekevinle
+  linkedin: https://www.linkedin.com/in/lekevin
   instagram: http://www.instagram.com/craycrayle
 team-image:
   small: team/small/Kevin-1.jpg
