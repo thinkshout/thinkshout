@@ -13,7 +13,7 @@ social:
 team-image:
   small: team/small/Nancy1.jpg
   medium:
-  large: team/large/Nancy.jpg
+  large: team/large/nancy.jpg
 published: true
 current-employee: false
 name: nancy
