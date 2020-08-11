@@ -66,11 +66,11 @@ cs-sections:
       #### Above and beyond predetermined goals.
 
       Through cross team collaboration we worked with Enterprise to identify project goals and target audiences to determine specific metrics that would help them measure short and long-term success. We configured google analytics to reflect these goals prior to the website launch. After only 2 weeks, Enterprise hit or exceeded all of their target KPIs, which included:
-- 22,000 pageviews from 7,300 users
-- A 25% conversion rate
-- 37% of visitors clicked through to apply to the challenge
-- Average time on page was 00:03:01
-
+ - 22,000 pageviews from 7,300 users
+ - A 25% conversion rate
+ - 37% of visitors clicked through to apply to the challenge
+ - Average time on page was 00:03:01
+ 
 In the end, the site generated over 600 applications — doubling the original target of 300 (275 of those applications were submitted in the first 2 weeks).
 
   - section-image: "/assets/images/case-studies/enterprise-3.jpg"
@@ -83,14 +83,15 @@ In the end, the site generated over 600 applications — doubling the original t
       #### A website built to change.
 
       The initial build out of this website focused on the application period and well exceeded the short-term goals of the Enterprise team. Long term, this site was built with an information architecture and design convention that will allow the content to change and evolve over three-years to follow the grant period through the selection of awardees and project implementation process. 
-      
+
   - section-image: "/assets/images/case-studies/enterprise-3up.jpg"
     section-image-alt: "Enterprise about the competition, what's next, and FAQ pages displayed on 3 mobile devices side by side."
-
+    
   - section-type: quote
     section-quote: |
       “ThinkShout worked with us to identify and understand our measurement goals for this project; all of which were exceeded in the first few weeks of the site launch. The clean and clutter-free site that they designed helped guide applicants through a seamless process. The number of submitted applications nearly tripled our goals. We are excited to see our website grow with the evolution of this national innovation challenge.”
     section-attribution: "~ Enterprise Community Partners"
+
 
 cs-cta-text: Launch Site
 cs-cta-url: https://www.enterprisecommunity.org/
