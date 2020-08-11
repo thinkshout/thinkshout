@@ -4845,6 +4845,16 @@ iframe#wufoo1 {
   font-size: 1rem;
   font-weight: 300;
   line-height: calc(29/16); }
+.case-study .case-intro .titles ul {
+  margin: 0;
+  padding-left: 20px; }
+.case-study .case-intro .titles ul li {
+  color: #3e3e3e;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: calc(22/16);
+  list-style: disc;
+  margin-bottom: 8px; }
 @media (min-width: 481px) and (max-width: 979px) {
   .case-study .case-intro .text {
     flex: 0 0 48%; } }

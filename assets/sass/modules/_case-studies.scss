@@ -102,6 +102,18 @@
     font-weight: 300;
     line-height: calc(29/16);
   }
+  .case-intro .titles ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+  .case-intro .titles ul li {
+    color: $casegray;
+    font-size: rem(16);
+    font-weight: 300;
+    line-height: calc(22/16);
+    list-style: disc;
+    margin-bottom: 8px;
+  }
 
   .case-intro .text {
     @include mq(t) { flex: 0 0 48%; }
