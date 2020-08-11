@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Chelsea
 last_name: Maricle
-position: Content Strategist
+position: Senior Strategist
 leadin: |
   If you’re afraid of heights would you climb a mountain? That’s exactly what Chelsea did!
 social:
