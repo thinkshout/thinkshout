@@ -74,7 +74,7 @@ cs-sections:
   - section-image1: "/assets/images/case-studies/enterprise-3.jpg"
     section-image-alt: "Enterprise why innovation matters page viewed on a desktop."
     
-  - section-image2: "/assets/images/case-studies/enterprise-2.jpg"
+    section-image2: "/assets/images/case-studies/enterprise-2.jpg"
     section-image-alt1: "Enterprise FAQ page viewed on a tablet."
 
   - section-description: |
