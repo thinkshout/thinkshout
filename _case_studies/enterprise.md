@@ -15,17 +15,17 @@ description: "As a proven and powerful far-reaching nonprofit, Enterprise brings
 title: "Establishing a Long Term Foundation While Promising Short-Term Success."
 cs-class: "enterprise"
 featured_impact_text: "@todo"
-featured_client_name: "Enterprise Community Partners"
+featured_client_name: "Enterprise Community Partners: Breakthrough Challenge"
 
 cs-preview:
   image: /assets/images/case-studies/Enterprise-hero2.jpg
   type: "Enterprise"
-  client: "Enterprise Community Partners"
+  client: "Enterprise Community Partners: Breakthrough Challenge"
   description: "This field not used"
 
 cs-header:
   header-image: /assets/images/case-studies/Enterprise-hero2.jpg
-  client: "Enterprise Community Partners"
+  client: "Enterprise Community Partners: Breakthrough Challenge"
   title: "Establishing a Long Term Foundation While Promising Short-Term Success"
 
 cs-intro:
