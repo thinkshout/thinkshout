@@ -57,9 +57,6 @@ cs-sections:
   - section-image: "/assets/images/case-studies/enterprise-1.jpg"
     section-image-alt: "Enterprise about the challenge page viewed on a laptop."
 
-  - section-image1: "/assets/images/case-studies/enterprise-2.jpg"
-    section-image-alt1: "Enterprise FAQ page viewed on a tablet."
-
   - section-description: |
       #### Above and beyond predetermined goals.
 
@@ -71,10 +68,13 @@ cs-sections:
 
       In the end, the site generated over 600 applications — doubling the original target of 300 (275 of those applications were submitted in the first 2 weeks).
 
-  - section-image: "/assets/images/case-studies/enterprise-3.jpg"
+  - section-image: "/assets/images/case-studies/enterprise-4.jpg"
+    section-image-alt1: "Enterprise 3 pillars page viewed on a laptop and mobile."
+    
+  - section-image1: "/assets/images/case-studies/enterprise-3.jpg"
     section-image-alt: "Enterprise why innovation matters page viewed on a desktop."
-
-  - section-image1: "/assets/images/case-studies/enterprise-4.jpg"
+    
+  - section-image2: "/assets/images/case-studies/enterprise-2.jpg"
     section-image-alt1: "Enterprise FAQ page viewed on a tablet."
 
   - section-description: |
