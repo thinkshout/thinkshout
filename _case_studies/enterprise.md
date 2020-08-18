@@ -4,7 +4,7 @@ layout: case_study
 body-class: case-study enterprise
 active: false
 homepage: false
-published: false
+published: true
 related: enterprise
 order: 6
 image: /assets/images/case-studies/Enterprise-hero2.jpg
