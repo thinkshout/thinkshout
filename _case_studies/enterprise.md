@@ -60,7 +60,7 @@ cs-sections:
   - section-description: |
       #### Above and beyond predetermined goals.
 
-      Through cross team collaboration we worked with Enterprise to identify project goals and target audiences to determine specific metrics that would help them measure short and long-term success. We configured google analytics to reflect these goals prior to the website launch. After only 2 weeks, Enterprise hit or exceeded all of their target KPIs, which included:
+      Through cross team collaboration we worked with Enterprise to identify project goals and target audiences to determine specific metrics that would help them measure short and long-term success. We configured Google Analytics to reflect these goals prior to the website launch. After only 2 weeks, Enterprise hit or exceeded all of their target KPIs, which included:
       - 22,000 pageviews from 7,300 users
       - A 25% conversion rate
       - 37% of visitors clicked through to apply to the challenge
