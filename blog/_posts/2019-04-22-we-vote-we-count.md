@@ -11,7 +11,7 @@ short: "The launch of WeVoteWeCount.org and its importance today."
 tags:
   - Culture
   - Community
-  - "Recial Equity Anchor Collective"
+  - "Recial Equity Anchor Collaborative"
   - "voter suppression"
   - Demos
   - "we vote we count"
@@ -27,7 +27,7 @@ header-image-alt: "WeVoteWeCount.org"
 
 The United States prides itself as a country that champions freedom and democracy, a place where civic participation determines our representation, and, by extension, the policies that define our everyday lives. A significant part of that civic participation is the act of voting, and though voter suppression is as much a part of our history as voting itself, attacks on access to the polls are worse than ever. Driven by disenfranchisement through deliberate misinformation campaigns and outright discriminatory policies, not everyone who lives in this country has the opportunity to leverage their voice by casting their vote.
 
-That’s why the Racial Equity Anchor Collective got together to create [WeVoteWeCount.org](https://wevotewecount.org/), a microsite that focuses on one goal: Collecting and amplifying the stories of those who have been impacted by the 2013 Supreme Court decision in the case of Shelby County v. Holder, which reinforced decades of restrictive voting laws.
+That’s why the Racial Equity Anchor Collaborative got together to create [WeVoteWeCount.org](https://wevotewecount.org/), a microsite that focuses on one goal: Collecting and amplifying the stories of those who have been impacted by the 2013 Supreme Court decision in the case of Shelby County v. Holder, which reinforced decades of restrictive voting laws.
 
 ### About WeVoteWeCount.org
 
@@ -51,4 +51,4 @@ It's about time.
 
 ### About the Collective
 
-The Racial Equity Anchor Collective is made up of representatives from the [Advancement Project](https://advancementproject.org/), [Asian & Pacific Islander American Health Forum](https://www.apiahf.org/), [Dēmos](https://www.demos.org/), [Faith in Action](https://faithinaction.org/), [National Association for the Advancement of Colored People](https://www.naacp.org/), [National Congress of American Indians](http://www.ncai.org/), [National Urban League](https://www.nuljobsnetwork.com/), [Race Forward](https://www.raceforward.org/press/releases/race-forward-and-center-social-inclusion-uniting-one-organization), and [UnidosUS](https://www.unidosus.org/). This collaborative of nine leading national racial equity anchor organizations (Anchors) is supported by the [W.K. Kellogg Foundation](https://www.wkkf.org/). Together they work to promote racial equity, advance racial healing, and ensure that all children, families, and communities have opportunities to reach their full potential.
+The Racial Equity Anchor Collaborative is made up of representatives from the [Advancement Project](https://advancementproject.org/), [Asian & Pacific Islander American Health Forum](https://www.apiahf.org/), [Dēmos](https://www.demos.org/), [Faith in Action](https://faithinaction.org/), [National Association for the Advancement of Colored People](https://www.naacp.org/), [National Congress of American Indians](http://www.ncai.org/), [National Urban League](https://www.nuljobsnetwork.com/), [Race Forward](https://www.raceforward.org/press/releases/race-forward-and-center-social-inclusion-uniting-one-organization), and [UnidosUS](https://www.unidosus.org/). This collaborative of nine leading national racial equity anchor organizations (Anchors) is supported by the [W.K. Kellogg Foundation](https://www.wkkf.org/). Together they work to promote racial equity, advance racial healing, and ensure that all children, families, and communities have opportunities to reach their full potential.
