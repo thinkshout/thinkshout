@@ -38,7 +38,7 @@ cs-intro:
 
   - intro-title: Solutions
     intro-text: |
-      We prioritized accessible language and easy to navigate application materials. The Enterprise team found alignment and created concrete measurement goals for the site; allowing a synchronous planning and post launch process.
+      We prioritized clean design and easy to navigate application materials. The Enterprise team found alignment and created concrete measurement goals for the site; allowing a synchronous planning and post launch process.
 
   - intro-title: Results
     intro-text: |
@@ -46,13 +46,13 @@ cs-intro:
       - A 25% conversion rate
       - 37% of visitors clicked through to apply to the challenge
       - Average time on page was 00:03:01
-      - 600 grant applications
+      - 885 grant applications
 
 cs-sections:
   - section-description: |
       #### We focused on making the housing application process accessible to new audiences through content, copy, and design.
 
-      One of our main goals throughout this project was to make sure the grant applications had the ability to not only reach a wide audience- but also be understood. We strayed from using jargon familiar to big players in housing development, and focused on building out content using language that could connect to grant applicants, banks, foundations, media, and other actors in the affordable housing sector. We designed the site based around it’s content, leading the end user through each application step with an interactive experience that allowed them to understand application eligibility, find the right application to fill out, and identify easy answers to FAQs throughout the process.
+      One of our main goals throughout this project was to make sure the grant applications had the ability to not only reach a wide audience- but also be understood. We strayed from using jargon familiar to big players in housing development, and focused on designing the site based around its content, leading the end user through each application step with an interactive experience that allowed them to understand application eligibility, find the right application to fill out, and identify easy answers to FAQs throughout the process.
 
   - section-image: "/assets/images/case-studies/enterprise-1.jpg"
     section-image-alt: "Enterprise about the challenge page viewed on a laptop."
@@ -66,7 +66,7 @@ cs-sections:
       - 37% of visitors clicked through to apply to the challenge
       - Average time on page was 00:03:01
 
-      In the end, the site generated over 600 applications — doubling the original target of 300 (275 of those applications were submitted in the first 2 weeks).
+      In the end, the site generated over 800 applications — nearly tripling the original target of 300 (275 of those applications were submitted in the first 2 weeks).
 
   - section-image: "/assets/images/case-studies/enterprise-4.jpg"
     section-image-alt1: "Enterprise 3 pillars page viewed on a laptop and mobile."
