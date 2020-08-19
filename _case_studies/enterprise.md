@@ -52,7 +52,7 @@ cs-sections:
   - section-description: |
       #### We focused on making the housing application process accessible to new audiences through content, copy, and design.
 
-      One of our main goals throughout this project was to make sure the grant applications had the ability to not only reach a wide audience- but also be understood. We strayed from using jargon familiar to big players in housing development, and focused on designing the site based around its content, leading the end user through each application step with an interactive experience that allowed them to understand application eligibility, find the right application to fill out, and identify easy answers to FAQs throughout the process.
+      One of our main goals throughout this project was to make sure the grant applications had the ability to not only reach a wide audience-- but also be understood. We strayed from using jargon familiar to big players in housing development, and focused on designing the site based around its content. This led the end user through each application step with an interactive experience that allowed them to understand application eligibility, find the right application to fill out, and identify easy answers to FAQs throughout the process.
 
   - section-image: "/assets/images/case-studies/enterprise-1.jpg"
     section-image-alt: "Enterprise about the challenge page viewed on a laptop."
