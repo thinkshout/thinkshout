@@ -45,6 +45,11 @@
   .featured-post {
     display: flex;
 
+    .featured-img,
+    .featured-txt {
+      flex: 1;
+    }
+
     .featured-img img{
       width: 100%;
       height: rem(333);
@@ -76,6 +81,10 @@
       &:hover, &:focus, &:active {
         color: $dark-orange;
       }
+    }
+
+    p.short {
+      color: $casegray;
     }
 
   }
