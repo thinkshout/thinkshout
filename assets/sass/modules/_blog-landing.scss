@@ -44,7 +44,11 @@
 
   .featured-post {
     display: flex;
+    flex-direction: column;
 
+    @include mq(d) {
+      flex-direction: row;
+    }
     .featured-img,
     .featured-txt {
       flex: 1;
@@ -57,7 +61,10 @@
     }
 
     .featured-txt{
-      padding-left: rem(62);
+      padding-left: 0;
+      @include mq(d) {
+        padding-left: rem(62);
+      }
     }
 
     .featured-title {
@@ -87,5 +94,21 @@
       color: $casegray;
     }
 
+  }
+
+  .blog-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+
+    @include mq(d) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    li {
+      flex-basis: 33%
+    }
   }
 }
