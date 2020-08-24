@@ -4,7 +4,7 @@ body-class: blog-landing
 title: The Weekly Spark
 topic: spark
 description: "The Weekly Spark."
-order: 2
+order: 7
 keywords:
   - nonprofit technology
   - drupal

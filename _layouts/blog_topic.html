@@ -17,22 +17,18 @@ layout: default
   {% for post in site.categories.blog %}
     {% if post.featured and post.topic == page.topic %}
       {% if post.header-image %}
-        <div class="featured-post" style="background-image: url('{{ site.baseurl }}{{ post.header-image }}');">
-        <div class="gradient"></div>
-      {% else %}
-        <div class="featured-post" style="background-image: url('{{ site.baseurl }}/assets/images/ts_redesign/blog/up-and-theming1.jpg');">
-        <div class="gradient"></div>
-      {% endif %}
-        <div class="wrapper">
-          <div class="header-down-caret">
-            {% if post.type %}
-              <h4>{{ post.type }}</h4>
-            {% else %}
-              <h4>Featured blog post</h4>
-            {% endif %}
-            <i class="fa fa-caret-down"></i>
+        <div class="featured-post">
+          <div class="featured-img">
+            <img src="{{ site.baseurl }}{{ post.header-image }}" alt="Featured Image">
           </div>
-          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      {% else %}
+        <div class="featured-post">
+          <div class="featured-img">
+            <img src="{{ site.baseurl }}/assets/images/ts_redesign/blog/up-and-theming1.jpg" alt="Featured Image">
+          </div>
+      {% endif %}
+        <div class="featured-txt">
+          <h2 class="featured-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
           {% if post.short %}
           <p class="short">{{ post.short }}</p>
@@ -64,19 +60,13 @@ layout: default
   {% for post in site.categories.blog %}
     {% if post.homepage %}
       {% if post.header-image %}
-        <div class="featured-post" style="background-image: url('{{ site.baseurl }}{{ post.header-image }}');">
-        <div class="gradient"></div>
-      {% endif %}
-        <div class="wrapper">
-          <div class="header-down-caret">
-            {% if post.type %}
-              <h4>{{ post.type }}</h4>
-            {% else %}
-              <h4>Featured blog post</h4>
-            {% endif %}
-            <i class="fa fa-caret-down"></i>
+        <div class="featured-post">
+          <div class="featured-img">
+            <img src="{{ site.baseurl }}{{ post.header-image }}" alt="Featured Image">
           </div>
-          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      {% endif %}
+        <div class="featured-txt">
+          <h2 class="featured-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
           {% if post.short %}
           <p class="short">{{ post.short }}</p>

@@ -22,7 +22,7 @@
   }
 
   .blog-categories{
-    margin-top: rem(10);
+    margin-top: rem(15);
     margin-bottom: rem(50);
     padding: 0;
 
@@ -40,5 +40,43 @@
         color: $dark-orange;
       }
     }
+  }
+
+  .featured-post {
+    display: flex;
+
+    .featured-img img{
+      width: 100%;
+      height: rem(333);
+      object-fit: cover;
+    }
+
+    .featured-txt{
+      padding-left: rem(62);
+    }
+
+    .featured-title {
+      margin-top: 0;
+      margin-bottom: rem(15);
+    }
+
+    .featured-title  a {
+      color: $darkgray;
+      font-size: rem(36);
+      line-height: rem(42);
+
+      &:hover, &:focus, &:active {
+        color: $dark-orange;
+      }
+    }
+
+    a.team-name {
+      color: $orange;
+
+      &:hover, &:focus, &:active {
+        color: $dark-orange;
+      }
+    }
+
   }
 }
