@@ -1,4 +1,4 @@
-.main-content {
+.main-content .blog  {
   @include outer-container(1440px);
   padding: 0 7rem;
 
@@ -12,5 +12,11 @@
 
   @include mq(md) {
     padding: 0 3rem;
+  }
+
+  .ts-blog-title{
+    font-size: rem(56);
+    line-height: rem(73);
+    color: $lightgray;
   }
 }

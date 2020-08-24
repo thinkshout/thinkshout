@@ -3919,24 +3919,28 @@ a.visually-hidden.focusable:focus {
   .pagination .page_number {
     text-align: center; }
 
-.main-content {
+.main-content .blog {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 7rem; }
-  .main-content::after {
+  .main-content .blog::after {
     clear: both;
     content: "";
     display: table; }
   @media (max-width: 480px) {
-    .main-content {
+    .main-content .blog {
       padding: 0 1rem; } }
   @media (min-width: 481px) and (max-width: 979px) {
-    .main-content {
+    .main-content .blog {
       padding: 0 1rem; } }
   @media (min-width: 980px) and (max-width: 1199px) {
-    .main-content {
+    .main-content .blog {
       padding: 0 3rem; } }
+  .main-content .blog .ts-blog-title {
+    font-size: 3.5rem;
+    line-height: 4.5625rem;
+    color: #707070; }
 
 .team-member-blog {
   background: #ececec;
