@@ -3940,7 +3940,21 @@ a.visually-hidden.focusable:focus {
   .main-content .blog .ts-blog-title {
     font-size: 3.5rem;
     line-height: 4.5625rem;
-    color: #707070; }
+    color: #707070;
+    margin-bottom: 0; }
+  .main-content .blog .blog-categories {
+    margin-top: 0.625rem;
+    margin-bottom: 3.125rem;
+    padding: 0; }
+    .main-content .blog .blog-categories li {
+      display: inline-block;
+      margin-right: 1.5625rem; }
+    .main-content .blog .blog-categories a {
+      color: #656565;
+      font-size: 1rem;
+      line-height: 0.625rem; }
+      .main-content .blog .blog-categories a:hover, .main-content .blog .blog-categories a:focus, .main-content .blog .blog-categories a:active {
+        color: #D24C0F; }
 
 .team-member-blog {
   background: #ececec;

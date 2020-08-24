@@ -18,5 +18,27 @@
     font-size: rem(56);
     line-height: rem(73);
     color: $lightgray;
+    margin-bottom: 0;
+  }
+
+  .blog-categories{
+    margin-top: rem(10);
+    margin-bottom: rem(50);
+    padding: 0;
+
+    li{
+      display: inline-block;
+      margin-right: rem(25);
+    }
+
+    a{
+      color: $herogray;
+      font-size: rem(16);
+      line-height: rem(10);
+
+      &:hover, &:focus, &:active {
+        color: $dark-orange;
+      }
+    }
   }
 }

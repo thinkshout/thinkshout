@@ -1,10 +1,10 @@
 ---
 layout: blog_topic
 body-class: blog-landing
-title: Culture & Community
-topic: culture
-description: "Our thoughts on Culture, Community, and Business from the ThinkShout blog."
-order: 6
+title: Accessibility
+topic: accessibility
+description: "Our thoughts on accessibility"
+order: 1
 keywords:
   - nonprofit technology
   - drupal
