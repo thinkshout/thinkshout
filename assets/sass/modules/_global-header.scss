@@ -147,7 +147,7 @@ header {
         display: inline;
         font-size: rem(15);
         line-height: 2;
-        // padding: rem(50) 0;
+        padding: rem(50) 0;
       }
     }
 
@@ -178,12 +178,28 @@ header {
 
       @include mq(md) {
         margin: 0 0.7rem;
-        padding: 0 rem(5);
+        padding: rem(52) rem(5);
       }
 
       @include mq(l) {
         margin: 0 0.7rem;
-        padding: 0 rem(5);
+        padding: rem(52) rem(5);
+      }
+    }
+  }
+
+  &.fixed {
+    .main-menu li {
+      @include mq(d) {
+        padding: 0;
+      }
+    }
+    .main-menu a {
+      @include mq(md) {
+        padding: rem(20) rem(5) 0;
+      }
+      @include mq(l) {
+        padding: rem(20) rem(5) 0;
       }
     }
   }

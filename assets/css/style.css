@@ -6444,7 +6444,8 @@ header {
         header .main-menu li {
           display: inline;
           font-size: 0.9375rem;
-          line-height: 2; } }
+          line-height: 2;
+          padding: 3.125rem 0; } }
     header .main-menu li:last-of-type a {
       font-weight: bold; }
     @media (min-width: 980px) {
@@ -6501,11 +6502,20 @@ header {
       @media (min-width: 980px) and (max-width: 1199px) {
         header .main-menu a {
           margin: 0 0.7rem;
-          padding: 0 0.3125rem; } }
+          padding: 3.25rem 0.3125rem; } }
       @media (min-width: 1200px) {
         header .main-menu a {
           margin: 0 0.7rem;
-          padding: 0 0.3125rem; } }
+          padding: 3.25rem 0.3125rem; } }
+  @media (min-width: 980px) {
+    header.fixed .main-menu li {
+      padding: 0; } }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    header.fixed .main-menu a {
+      padding: 1.25rem 0.3125rem 0; } }
+  @media (min-width: 1200px) {
+    header.fixed .main-menu a {
+      padding: 1.25rem 0.3125rem 0; } }
   @media (min-width: 1200px) and (max-width: 1282px) {
     header .container {
       padding: 0 3rem 0 5.8rem; } }
