@@ -3,8 +3,6 @@
     <img src="{{ site.baseurl }}{{ post.header-image }}" alt="Featured Image">
   </div>
   <div class="info">
-    <p><span class="date">{{ post.date | date: '%m.%d.%Y' }}</span> <a class="topic" href="{{ site.baseurl }}/blog/topic/{{ post.topic }}">{{ include.title }}</a></p>
-
     <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 
     {% if post.short %}
