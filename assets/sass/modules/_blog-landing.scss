@@ -15,20 +15,25 @@
   }
 
   .ts-blog-title {
+    color: $lightgray;
     font-size: rem(56);
     line-height: rem(73);
-    color: $lightgray;
     margin-bottom: 0;
   }
 
   .blog-categories {
-    margin-top: rem(15);
     margin-bottom: rem(50);
+    margin-top: rem(15);
     padding: 0;
 
     li {
       display: inline-block;
       margin-right: rem(25);
+
+      @include mq(f) {
+        display: block;
+        line-height: 1.6;
+      }
     }
 
     a {
@@ -55,9 +60,10 @@
     }
 
     .featured-img img {
-      width: 100%;
-      height: rem(333);
+      height: 42vw;
+      max-height: rem(333);
       object-fit: cover;
+      width: 100%;
     }
 
     .featured-txt {
@@ -68,14 +74,25 @@
     }
 
     .featured-title {
-      margin-top: 0;
+      line-height: rem(32);
       margin-bottom: rem(15);
+      margin-top: 0;
+
+      @include mq(d) {
+        font-size: rem(36);
+        line-height: rem(42);
+      }
     }
 
     .featured-title a {
       color: $darkgray;
-      font-size: rem(36);
-      line-height: rem(42);
+      font-size: rem(28);
+      line-height: rem(32);
+
+      @include mq(d) {
+        font-size: rem(36);
+        line-height: rem(42);
+      }
 
       &:hover, &:focus, &:active {
         color: $dark-orange;
@@ -100,8 +117,8 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 0;
     margin-top: 36px;
+    padding: 0;
 
     @include mq(d) {
       flex-direction: row;
@@ -119,33 +136,33 @@
       @include mq(d) {
         flex-basis: 100%;
         .blog-teaser {
-          position: relative;
           display: flex;
           flex-direction: column;
+          height: 490px;
           justify-content: flex-end;
           padding: 45px;
-          height: 490px;
+          position: relative;
           &:before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
             background-color: rgba(62,62,62,0.41);
+            bottom: 0;
+            content: "";
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
             z-index: 2;
           }
           .blog-img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
             bottom: 0;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
           }
           .blog-img img {
-            position: relative;
-            max-width: none;
             height: 100%;
+            max-width: none;
+            position: relative;
             z-index: 1;
           }
           .info {
@@ -221,8 +238,8 @@
     }
     .byline {
       img {
-        width: 50px;
         height: 50px;
+        width: 50px;
       }
       a.team-name {
         color: $orange;

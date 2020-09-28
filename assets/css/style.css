@@ -3938,17 +3938,21 @@ a.visually-hidden.focusable:focus {
     .main-content .blog {
       padding: 0 3rem; } }
   .main-content .blog .ts-blog-title {
+    color: #707070;
     font-size: 3.5rem;
     line-height: 4.5625rem;
-    color: #707070;
     margin-bottom: 0; }
   .main-content .blog .blog-categories {
-    margin-top: 0.9375rem;
     margin-bottom: 3.125rem;
+    margin-top: 0.9375rem;
     padding: 0; }
     .main-content .blog .blog-categories li {
       display: inline-block;
       margin-right: 1.5625rem; }
+      @media (max-width: 768px) {
+        .main-content .blog .blog-categories li {
+          display: block;
+          line-height: 1.6; } }
     .main-content .blog .blog-categories a {
       color: #656565;
       font-size: 1rem;
@@ -3965,21 +3969,31 @@ a.visually-hidden.focusable:focus {
     .main-content .blog .featured-post .featured-txt {
       flex: 1; }
     .main-content .blog .featured-post .featured-img img {
-      width: 100%;
-      height: 20.8125rem;
-      object-fit: cover; }
+      height: 42vw;
+      max-height: 20.8125rem;
+      object-fit: cover;
+      width: 100%; }
     .main-content .blog .featured-post .featured-txt {
       padding-left: 0; }
       @media (min-width: 980px) {
         .main-content .blog .featured-post .featured-txt {
           padding-left: 3.875rem; } }
     .main-content .blog .featured-post .featured-title {
-      margin-top: 0;
-      margin-bottom: 0.9375rem; }
+      line-height: 2rem;
+      margin-bottom: 0.9375rem;
+      margin-top: 0; }
+      @media (min-width: 980px) {
+        .main-content .blog .featured-post .featured-title {
+          font-size: 2.25rem;
+          line-height: 2.625rem; } }
     .main-content .blog .featured-post .featured-title a {
       color: #525255;
-      font-size: 2.25rem;
-      line-height: 2.625rem; }
+      font-size: 1.75rem;
+      line-height: 2rem; }
+      @media (min-width: 980px) {
+        .main-content .blog .featured-post .featured-title a {
+          font-size: 2.25rem;
+          line-height: 2.625rem; } }
       .main-content .blog .featured-post .featured-title a:hover, .main-content .blog .featured-post .featured-title a:focus, .main-content .blog .featured-post .featured-title a:active {
         color: #D24C0F; }
     .main-content .blog .featured-post a.team-name {
@@ -3992,8 +4006,8 @@ a.visually-hidden.focusable:focus {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 0;
-    margin-top: 36px; }
+    margin-top: 36px;
+    padding: 0; }
     @media (min-width: 980px) {
       .main-content .blog .blog-list {
         flex-direction: row;
@@ -4007,31 +4021,31 @@ a.visually-hidden.focusable:focus {
       .main-content .blog .blog-list li:nth-child(4) {
         flex-basis: 100%; }
         .main-content .blog .blog-list li:nth-child(4) .blog-teaser {
-          position: relative;
           display: flex;
           flex-direction: column;
+          height: 490px;
           justify-content: flex-end;
           padding: 45px;
-          height: 490px; }
+          position: relative; }
           .main-content .blog .blog-list li:nth-child(4) .blog-teaser:before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
             background-color: rgba(62, 62, 62, 0.41);
+            bottom: 0;
+            content: "";
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
             z-index: 2; }
           .main-content .blog .blog-list li:nth-child(4) .blog-teaser .blog-img {
-            position: absolute;
-            top: 0;
+            bottom: 0;
             left: 0;
+            position: absolute;
             right: 0;
-            bottom: 0; }
+            top: 0; }
           .main-content .blog .blog-list li:nth-child(4) .blog-teaser .blog-img img {
-            position: relative;
-            max-width: none;
             height: 100%;
+            max-width: none;
+            position: relative;
             z-index: 1; }
           .main-content .blog .blog-list li:nth-child(4) .blog-teaser .info {
             position: relative;
@@ -4083,8 +4097,8 @@ a.visually-hidden.focusable:focus {
     line-height: 1.8125rem;
     margin: 25px 0; }
   .main-content .blog .blog-teaser .byline img {
-    width: 50px;
-    height: 50px; }
+    height: 50px;
+    width: 50px; }
   .main-content .blog .blog-teaser .byline a.team-name {
     color: #F06D2F;
     font-size: 0.8125rem;
