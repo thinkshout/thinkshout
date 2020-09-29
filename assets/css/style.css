@@ -3940,6 +3940,7 @@ a.visually-hidden.focusable:focus {
   .main-content .blog .ts-blog-title {
     color: #707070;
     font-size: 3.5rem;
+    font-weight: 800;
     line-height: 4.5625rem;
     margin-bottom: 0; }
   .main-content .blog .blog-categories {
