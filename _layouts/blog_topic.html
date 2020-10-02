@@ -59,7 +59,7 @@ layout: default
 {% if page.topic %}
   <ul class="blog-list topic">
     {% for post in site.categories.blog %}
-      {% if post.topic == page.topic %}
+      {% if post.topic contains page.topic %}
         <li>{% include blog_teaser.html class=class header="h2" short=true title=page.title %}</li>
       {% endif %}
     {% endfor %}

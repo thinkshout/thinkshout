@@ -1,7 +1,9 @@
 ---
 layout: blog
 body-class: blog-post
-topic: strategy
+topic:
+  - strategy
+  - accessibility
 campaign-topic: "user research"
 title: "Eliminating Bias in User Research"
 homepage: false

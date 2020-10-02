@@ -1,7 +1,9 @@
 ---
 layout: blog
 body-class: blog-post
-topic: technology
+topic:
+  - technology
+  - accessibility
 header-image:
 header-image-alt:
 

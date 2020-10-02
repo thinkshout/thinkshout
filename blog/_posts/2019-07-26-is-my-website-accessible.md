@@ -1,7 +1,9 @@
 ---
 layout: blog
 body-class: blog-post
-topic: technology
+topic:
+  - accessibility
+  - technology
 title: "Is My Website Accessible?"
 homepage: true
 author: jules
