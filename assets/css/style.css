@@ -3953,13 +3953,30 @@ a.visually-hidden.focusable:focus {
       @media (max-width: 768px) {
         .main-content .blog .blog-categories li {
           display: block;
-          line-height: 1.6; } }
+          line-height: 1.6;
+          position: relative;
+          display: none;
+          background-color: white;
+          z-index: 1; } }
     .main-content .blog .blog-categories a {
       color: #656565;
       font-size: 1rem;
       line-height: 0.625rem; }
-      .main-content .blog .blog-categories a:hover, .main-content .blog .blog-categories a:focus, .main-content .blog .blog-categories a:active {
-        color: #D24C0F; }
+    .main-content .blog .blog-categories li:hover a, .main-content .blog .blog-categories li:focus a, .main-content .blog .blog-categories li:active a, .main-content .blog .blog-categories li.active a {
+      color: #D24C0F; }
+    .main-content .blog .blog-categories .mobile-only {
+      display: none; }
+      @media (max-width: 768px) {
+        .main-content .blog .blog-categories .mobile-only {
+          display: block;
+          position: relative;
+          top: 0;
+          background-color: white;
+          z-index: 2; } }
+    .main-content .blog .blog-categories li:hover a.mobile-only, .main-content .blog .blog-categories li:focus a.mobile-only {
+      color: #D24C0F; }
+    .main-content .blog .blog-categories li:active a.mobile-only, .main-content .blog .blog-categories li.active a.mobile-only {
+      color: #656565; }
   .main-content .blog .featured-post {
     display: flex;
     flex-direction: column; }
@@ -4014,21 +4031,22 @@ a.visually-hidden.focusable:focus {
         flex-direction: row;
         justify-content: space-between; } }
     .main-content .blog .blog-list li {
-      margin-bottom: 60px; }
+      margin-bottom: 60px;
+      max-width: 100%; }
       @media (min-width: 980px) {
         .main-content .blog .blog-list li {
           flex-basis: calc(33.3333% - 30px); } }
     @media (min-width: 980px) {
-      .main-content .blog .blog-list li:nth-child(4) {
+      .main-content .blog .blog-list.home li:nth-child(4) {
         flex-basis: 100%; }
-        .main-content .blog .blog-list li:nth-child(4) .blog-teaser {
+        .main-content .blog .blog-list.home li:nth-child(4) .blog-teaser {
           display: flex;
           flex-direction: column;
           height: 490px;
           justify-content: flex-end;
           padding: 45px;
           position: relative; }
-          .main-content .blog .blog-list li:nth-child(4) .blog-teaser:before {
+          .main-content .blog .blog-list.home li:nth-child(4) .blog-teaser:before {
             background-color: rgba(62, 62, 62, 0.41);
             bottom: 0;
             content: "";
@@ -4037,54 +4055,51 @@ a.visually-hidden.focusable:focus {
             right: 0;
             top: 0;
             z-index: 2; }
-          .main-content .blog .blog-list li:nth-child(4) .blog-teaser .blog-img {
+          .main-content .blog .blog-list.home li:nth-child(4) .blog-teaser .blog-img {
             bottom: 0;
             left: 0;
             position: absolute;
             right: 0;
             top: 0; }
-          .main-content .blog .blog-list li:nth-child(4) .blog-teaser .blog-img img {
+          .main-content .blog .blog-list.home li:nth-child(4) .blog-teaser .blog-img img {
             height: 100%;
             max-width: none;
             position: relative;
             z-index: 1; }
-          .main-content .blog .blog-list li:nth-child(4) .blog-teaser .info {
+          .main-content .blog .blog-list.home li:nth-child(4) .blog-teaser .info {
             position: relative;
             z-index: 3; }
-          .main-content .blog .blog-list li:nth-child(4) .blog-teaser h3 {
+          .main-content .blog .blog-list.home li:nth-child(4) .blog-teaser h3 {
             margin: 35px 0 25px;
             max-width: 500px; }
-          .main-content .blog .blog-list li:nth-child(4) .blog-teaser h3 a {
+          .main-content .blog .blog-list.home li:nth-child(4) .blog-teaser h3 a {
             color: #fff;
             font-size: 2.25rem;
             font-weight: 700;
             line-height: 2.625rem; }
-          .main-content .blog .blog-list li:nth-child(4) .blog-teaser .info p {
+          .main-content .blog .blog-list.home li:nth-child(4) .blog-teaser .info p {
             color: #fff;
             max-width: 280px; }
-          .main-content .blog .blog-list li:nth-child(4) .blog-teaser .byline {
+          .main-content .blog .blog-list.home li:nth-child(4) .blog-teaser .byline {
             position: relative;
             margin-bottom: 0;
             z-index: 3; }
-            .main-content .blog .blog-list li:nth-child(4) .blog-teaser .byline a.team-name,
-            .main-content .blog .blog-list li:nth-child(4) .blog-teaser .byline .position {
+            .main-content .blog .blog-list.home li:nth-child(4) .blog-teaser .byline a.team-name,
+            .main-content .blog .blog-list.home li:nth-child(4) .blog-teaser .byline .position {
               color: #fff; } }
     @media (min-width: 980px) {
-      .main-content .blog .blog-list li:nth-child(11),
-      .main-content .blog .blog-list li:nth-child(12) {
+      .main-content .blog .blog-list.home li:nth-child(11), .main-content .blog .blog-list.home li:nth-child(12) {
         flex-basis: calc(50% - 22.5px); }
-        .main-content .blog .blog-list li:nth-child(11) .blog-teaser .blog-img img,
-        .main-content .blog .blog-list li:nth-child(12) .blog-teaser .blog-img img {
+        .main-content .blog .blog-list.home li:nth-child(11) .blog-teaser .blog-img img, .main-content .blog .blog-list.home li:nth-child(12) .blog-teaser .blog-img img {
           height: 420px; }
-        .main-content .blog .blog-list li:nth-child(11) .info,
-        .main-content .blog .blog-list li:nth-child(12) .info {
+        .main-content .blog .blog-list.home li:nth-child(11) .info, .main-content .blog .blog-list.home li:nth-child(12) .info {
           padding-right: 15%; } }
   .main-content .blog .blog-teaser .blog-img img {
     width: 100%;
     max-width: none;
     object-fit: cover; }
   .main-content .blog .blog-teaser h3 {
-    margin: 30px 0 25px; }
+    margin: 16px 0 13px; }
   .main-content .blog .blog-teaser h3 a {
     color: #525255;
     font-size: 1.5rem;
@@ -4096,7 +4111,7 @@ a.visually-hidden.focusable:focus {
     color: #3e3e3e;
     font-size: 1rem;
     line-height: 1.8125rem;
-    margin: 25px 0; }
+    margin: 13px 0; }
   .main-content .blog .blog-teaser .byline img {
     height: 50px;
     width: 50px; }

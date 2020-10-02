@@ -1,6 +1,10 @@
 <article class="blog-teaser">
   <div class="blog-img">
-    <img src="{{ site.baseurl }}{{ post.header-image }}" alt="Featured Image">
+    {% if post.header-image %}
+      <img loading="lazy" src="{{ site.baseurl }}{{ post.header-image }}" alt="Featured Image">
+    {% else %}
+       <img loading="lazy" src="{{ site.baseurl }}/assets/images/ts_redesign/blog/up-and-theming1.jpg" alt="Featured Image">
+    {% endif %}
   </div>
   <div class="info">
     <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>

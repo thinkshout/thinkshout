@@ -6,6 +6,7 @@ layout: default
 
 <div class="filter-wrapper" id="filter-wrapper">
   <ul class="blog-categories">
+    <li class="mobile-only"><a href="#" aria-label="Click to Explore by Topic"><strong>Explore by Topic <span>+</span></strong></a></li>
     {% assign topics = site.topic | sort: "order" %}
     {% for posttopic in topics %}
       <li><a href="{{ site.baseurl }}/blog/topic/{{ posttopic.topic }}/">{{ posttopic.title }}</a></li>
@@ -13,50 +14,8 @@ layout: default
   </ul>
 </div>
 
-{% if page.topic %}
-  {% for post in site.categories.blog %}
-    {% if post.featured and post.topic == page.topic %}
-      {% if post.header-image %}
-        <div class="featured-post">
-          <div class="featured-img">
-            <img src="{{ site.baseurl }}{{ post.header-image }}" alt="Featured Image">
-          </div>
-      {% else %}
-        <div class="featured-post">
-          <div class="featured-img">
-            <img src="{{ site.baseurl }}/assets/images/ts_redesign/blog/up-and-theming1.jpg" alt="Featured Image">
-          </div>
-      {% endif %}
-        <div class="featured-txt">
-          <h2 class="featured-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
-          {% if post.short %}
-          <p class="short">{{ post.short }}</p>
-          {% endif %}
-
-          <p class="byline">
-            {% for person in site.team %}
-              {% if post.author == person.name %}
-                <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}" alt="{{ person.first_name }} {{ person.last_name }}">
-                <span class="byline-wrapper">
-                  {% if person.current-employee %}
-                    <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a>
-                    <span class="position">{{ person.position }}</span>
-                  {% else %}
-                    <strong>{{ person.first_name }} {{ person.last_name }}</strong>
-                    <span class="position">{{ person.position }}</span>
-                    <small>ThinkShout Alumnus</small>
-                  {% endif %}
-                </span>
-              {% endif %}
-            {% endfor %}
-          </p>
-        </div>
-      </div>
-      {% break %}
-    {% endif %}
-  {% endfor %}
-{% else %}
+{% unless page.topic %}
   {% for post in site.categories.blog %}
     {% if post.homepage %}
       {% if post.header-image %}
@@ -94,16 +53,13 @@ layout: default
       {% break %}
     {% endif %}
   {% endfor %}
-{% endif %}
+{% endunless %}
 
+<!-- Remaining posts. -->
 {% if page.topic %}
-  <ul class="blog-list">
+  <ul class="blog-list topic">
     {% for post in site.categories.blog %}
       {% if post.topic == page.topic %}
-        {% if post.featured and feature != 'filtered' %}
-          {% assign feature = 'filtered' %}
-          {% continue %}
-        {% endif %}
         <li>{% include blog_teaser.html class=class header="h2" short=true title=page.title %}</li>
       {% endif %}
     {% endfor %}
@@ -112,7 +68,7 @@ layout: default
   {% if page.paginator %}
   {% assign paginator = page.paginator %}
   {% endif %}
-  <ul class="blog-list">
+  <ul class="blog-list home">
     {% for post in paginator.posts %}
       {% if post.homepage and allFeature != 'filtered' %}
         {% assign allFeature = 'filtered' %}

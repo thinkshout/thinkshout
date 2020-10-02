@@ -34,6 +34,10 @@
       @include mq(f) {
         display: block;
         line-height: 1.6;
+        position: relative;
+        display: none;
+        background-color: white;
+        z-index: 1;
       }
     }
 
@@ -41,10 +45,25 @@
       color: $herogray;
       font-size: rem(16);
       line-height: rem(10);
-
-      &:hover, &:focus, &:active {
-        color: $dark-orange;
+    }
+    li:hover a, li:focus a, li:active a, li.active a {
+      color: $dark-orange;
+    }
+    .mobile-only {
+      display: none;
+      @include mq(f) {
+        display: block;
+        position: relative;
+        top: 0;
+        background-color: white;
+        z-index: 2;
       }
+    }
+    li:hover a.mobile-only, li:focus a.mobile-only {
+      color: $dark-orange;
+    }
+    li:active a.mobile-only, li.active a.mobile-only {
+      color: $herogray;
     }
   }
 
@@ -128,12 +147,13 @@
 
     li {
       margin-bottom: 60px;
+      max-width: 100%;
       @include mq(d) {
         flex-basis: calc(33.3333% - 30px);
       }
     }
     // Full-width post.
-    li:nth-child(4) {
+    &.home li:nth-child(4) {
       @include mq(d) {
         flex-basis: 100%;
         .blog-teaser {
@@ -197,8 +217,8 @@
       }
     }
     // 50% posts
-    li:nth-child(11),
-    li:nth-child(12) {
+    &.home li:nth-child(11),
+    &.home li:nth-child(12) {
       @include mq(d) {
         flex-basis: calc(50% - 22.5px);
         .blog-teaser .blog-img img {
@@ -218,7 +238,7 @@
       object-fit: cover;
     }
     h3 {
-      margin: 30px 0 25px;
+      margin: 16px 0 13px;
     }
     h3 a {
       color: $darkgray;
@@ -235,7 +255,7 @@
       color: $casegray;
       font-size: rem(16);
       line-height: rem(29);
-      margin: 25px 0;
+      margin: 13px 0;
     }
     .byline {
       img {
