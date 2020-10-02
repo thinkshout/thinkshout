@@ -4106,7 +4106,7 @@ a.visually-hidden.focusable:focus {
     font-weight: 900;
     line-height: 2rem; }
     .main-content .blog .blog-teaser h3 a:hover, .main-content .blog .blog-teaser h3 a:active, .main-content .blog .blog-teaser h3 a:focus {
-      text-decoration: underline; }
+      color: #D24C0F; }
   .main-content .blog .blog-teaser .info p {
     color: #3e3e3e;
     font-size: 1rem;
