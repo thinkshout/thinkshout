@@ -8,7 +8,7 @@ layout: default
   {% if page.topic %}
     {% for hastopic in site.topic %}
       {% if hastopic.topic == page.topic %}
-        <a class="topic" href="{{ site.baseurl }}/blog/topic/{{ page.topic }}">{{ hastopic.title }}</a>
+        <a class="topic" href="{{ site.baseurl }}/blog/topic/{{ page.topic }}/">{{ hastopic.title }}</a>
       {% endif %}
     {% endfor %}
   {% endif %}
