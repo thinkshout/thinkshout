@@ -4,7 +4,7 @@ first_name: Rose
 last_name: Hart
 position: Senior Project Manager
 leadin: |
-  Rose is a geek for problem solving; she loves taking concepts and turning them into plans of action. She’s an even bigger geek for Harry Potter, and claims to have actually found a Harry Potter-themed bar in Toronto. We hope it's easier to find than Platform Nine and Three-Quarters.
+  Rose is a geek for problem solving; she loves taking concepts and turning them into plans of action. 
 social:
   github:
   twitter:
