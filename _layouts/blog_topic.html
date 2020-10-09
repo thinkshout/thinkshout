@@ -75,12 +75,6 @@ layout: default
         {% continue %}
       {% endif %}
       {% if post.topic %}
-        {% for hastopic in site.topic %}
-        {% if hastopic.topic == post.topic %}
-          <li>{% include blog_teaser.html class=class header="h2" short=true title=hastopic.title %}</li>
-        {% endif %}
-        {% endfor %}
-      {% else %}
         <li>{% include blog_teaser.html class=class header="h2" short=true %}</li>
       {% endif %}
     {% endfor %}

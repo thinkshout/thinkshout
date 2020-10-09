@@ -21,7 +21,7 @@ tag_dir: 'blog/category'
 
 # Blog pagination.
 plugins: [jekyll-paginate]
-paginate: 16
+paginate: 13
 paginate_path: "blog/page:num"
 
 category_dir: "blog"
