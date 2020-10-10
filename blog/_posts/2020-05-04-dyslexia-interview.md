@@ -4,6 +4,7 @@ body-class: blog-post
 topic:
   - accessibility
   - strategy
+  - design
 campaign-topic: accessibility
 title: "Accessibility and Dyslexia: An Interview"
 type: "Equitable Digital Connections: Featured Post"

@@ -2,7 +2,7 @@
 title: The Technology Behind the New ThinkShout.com
 layout: blog
 body-class: blog-post
-topic:
+topic: archive
 header-image:
 header-image-alt:
 

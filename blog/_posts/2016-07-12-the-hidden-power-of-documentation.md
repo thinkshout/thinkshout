@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: technology
+topic: archive
 title: The Hidden Power of Documentation
 homepage: false
 author: joe

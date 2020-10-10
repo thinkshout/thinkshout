@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: strategy
+topic: archive
 title: Your Year-End Plan - It's Never Too Early to Start
 homepage: false
 author: natania

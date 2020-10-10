@@ -2,7 +2,7 @@
 title: Deploying a Jekyll Site on GitHub, Travis CI, and Amazon S3
 layout: blog
 body-class: blog-post
-topic:
+topic: technology
 header-image:
 header-image-alt:
 

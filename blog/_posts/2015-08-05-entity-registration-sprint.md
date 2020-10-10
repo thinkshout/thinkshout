@@ -2,7 +2,7 @@
 title: "Sprinting on Entity Registration"
 layout: blog
 body-class: blog-post
-topic: process
+topic: archive
 header-image:
 header-image-alt:
 

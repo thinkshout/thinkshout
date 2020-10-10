@@ -11,7 +11,7 @@ tags:
   - Drupal Planet
 date: 2016-01-14 13:00:00
 image: /assets/images/blog/ernie_sean.jpg
-topic: culture
+topic: archive
 ---
 
 As most of my friends and colleagues in the Drupal and nonprofit technology communities know, I joyously became a dad about a year and a half ago. Stepping into fatherhood involved a move to Denver, away from our Portland-based team at ThinkShout. Since then, I’ve flown over 100,000 miles, juggling my responsibilities as CEO at ThinkShout with those as a parent in Colorado. It’s been tricky to say the least. I am incredibly thankful for the support of my team, especially that of my thoughtful and always encouraging business partner, Lev Tsypin.

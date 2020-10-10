@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: strategy
+topic: archive
 title: What to Think About When You're Thinking About a Redesign
 homepage: false
 author: mimi

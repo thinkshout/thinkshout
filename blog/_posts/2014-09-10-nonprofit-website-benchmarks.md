@@ -3,6 +3,8 @@ title: Nonprofit Website Benchmarks
 layout: blog
 body-class: blog-post
 topic:
+ - technology
+ - strategy
 header-image:
 header-image-alt:
 

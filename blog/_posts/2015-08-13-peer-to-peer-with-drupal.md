@@ -1,7 +1,9 @@
 ---
 layout: blog
 body-class: blog-post
-topic: technology
+topic:
+ - technology
+ - strategy
 header-image:
 header-image-alt:
 

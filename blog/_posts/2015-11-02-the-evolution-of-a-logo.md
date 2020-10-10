@@ -1,7 +1,9 @@
 ---
 layout: blog
 body-class: blog-post
-topic: strategy
+topic:
+ - strategy
+ - design
 header-image:
 header-image-alt:
 title: The Evolution of a Logo

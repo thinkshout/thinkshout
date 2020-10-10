@@ -2,6 +2,8 @@
 layout: blog
 body-class: blog-post
 topic:
+ - technology
+ - process
 header-image:
 header-image-alt:
 

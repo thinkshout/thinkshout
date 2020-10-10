@@ -4,6 +4,7 @@ body-class: blog-post
 topic:
   - technology
   - accessibility
+  - design
 campaign-topic: accessibility
 title: "Four Questions Your Website Accessibility Statement Should Answer"
 homepage: false

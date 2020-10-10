@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: culture
+topic: archive
 title: My First BADCamp
 homepage: true
 author: natania

@@ -2,7 +2,7 @@
 title: "Four Things You Can Learn About Content Strategy...from Mad Max"
 layout: blog
 body-class: blog-post
-topic:
+topic: archive
 header-image:
 header-image-alt:
 

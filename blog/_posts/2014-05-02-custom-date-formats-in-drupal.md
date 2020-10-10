@@ -2,7 +2,7 @@
 title: "Exporting Custom Date Formats in Drupal"
 layout: blog
 body-class: blog-post
-topic:
+topic: technology
 header-image:
 header-image-alt:
 
