@@ -8,7 +8,7 @@ layout: default
   {% if page.topic %}
     {% for hastopic in site.topic %}
       {% if hastopic.topic == page.topic %}
-        <a class="topic" href="{{ site.baseurl }}/blog/topic/{{ page.topic }}">{{ hastopic.title }}</a>
+        <a class="topic" href="{{ site.baseurl }}/blog/topic/{{ page.topic }}/">{{ hastopic.title }}</a>
       {% endif %}
     {% endfor %}
   {% endif %}
@@ -118,14 +118,14 @@ layout: default
 
 
 {% assign topics = site.posts | map: 'topic' %}
-{% if topics contains page.topic %}
+{% if topics contains page.topic or topics contains page.topic[0] or topics contains page.topic[1] or topics contains page.topic[2] or topics contains page.topic[3] or topics contains page.topic[4] %}
   <div class="team-member-blog">
     <div class="container">
       <h2>Related Blog Posts</h2>
       <div class="row posts">
         {% assign tsloop = 1 %}
         {% for post in site.posts %}
-        {% if post.layout == 'blog' and post.topic == page.topic and post.title != page.title %}
+        {% if post.layout == 'blog' and post.topic contains page.topic[0] and post.title != page.title %}
           {% include blogs_related.html %}
           {% assign tsloop = tsloop | plus: 1 %}
           {% if tsloop > 3 %}

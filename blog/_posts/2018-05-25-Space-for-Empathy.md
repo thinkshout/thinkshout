@@ -1,7 +1,9 @@
 ---
 layout: blog
 body-class: blog-post
-topic: technology
+topic:
+  - technology
+  - accessibility
 title: Space for Empathy
 homepage: false
 author: jules

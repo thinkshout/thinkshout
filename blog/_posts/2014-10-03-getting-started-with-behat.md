@@ -2,7 +2,7 @@
 title: Getting Started with Behat
 layout: blog
 body-class: blog-post
-topic:
+topic: technology
 header-image:
 header-image-alt:
 

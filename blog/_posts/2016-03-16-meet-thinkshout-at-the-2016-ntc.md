@@ -15,7 +15,7 @@ tags:
   - hsus
 date: 2016-03-16 14:00:00
 image: /assets/images/thinkshout-logo1.jpg
-topic: culture
+topic: archive
 ---
 It’s that [Nonprofit Technology Conference](http://www.nten.org/ntc/) time of year. The NTC is one of our favorite conferences, as it’s an amazing place for us to learn more about the exciting work being done in the nonprofit world. It’s also a great time to for us to share what we’ve been doing, and make connections. So if you’re curious about a job opening we’ve posted, or have a project you’d like to talk to us about, the NTC is a great place to have those conversations! 
 

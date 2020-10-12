@@ -2,7 +2,7 @@
 title: Committing to D8 Core - A Little Bit Goes a Long Way
 layout: blog
 body-class: blog-post
-topic:
+topic: archive
 header-image:
 header-image-alt:
 

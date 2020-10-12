@@ -2,7 +2,7 @@
 title: Adding Encrypted USB Card Reader Support to Commerce iATS
 layout: blog
 body-class: blog-post
-topic:
+topic: archive
 header-image:
 header-image-alt:
 

@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: technology
+topic: archive
 title: Upgrading MailChimp eCommerce and an Introduction to Drupal 8's Event System
 homepage: false
 author: dan

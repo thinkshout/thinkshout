@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: culture
+topic: archive
 title: Meet the ThinkShout Team at DrupalCon Baltimore
 homepage: false
 author: stephanie

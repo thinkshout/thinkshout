@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: culture
+topic: archive
 title: Wrapping up ThinkShout Cares
 homepage: false
 author: lev

@@ -41,6 +41,13 @@
     }
   });
 
+  $(".blog-categories li a").each(function() {
+    var href = $(this).attr('href');
+    if (path.substring(0, href.length) === href) {
+      $(this).closest('a').parent().addClass('active').show();
+    }
+  });
+
   // Waypoints
   $('.case-study').each(function() {
     var current_item = $(this);
@@ -77,6 +84,19 @@
       }
     }
   }, { offset: 100 });
+
+  // Blog topics filter (mobile only)
+  if ($(window).width() <= 768) {
+    $('.blog-categories li.mobile-only').click(function(e) {
+      e.preventDefault();
+      if ($(this).find('span').text() == "+") {
+        $(this).find('span').text('-');
+      } else {
+        $(this).find('span').text('+');
+      }
+      $('.blog-categories li:not(.mobile-only,.active)').slideToggle();
+    });
+  }
 
   // Blog posts
   $('.post').matchHeight();
@@ -115,25 +135,25 @@
     blogType = '/blog/topic/' + blogType + '/';
   }
 
-  $('#blog-filter')
-    .on('focus', function(){
-      $('.nice-select.blog-filter').addClass('active');
-    })
-    .on('blur', function(){
-      $('.nice-select.blog-filter').removeClass('active');
-    })
-    .val(blogType)
-    .change(function(evt, params) {
-      if (params === undefined || params.selected === undefined) {
-         window.location.replace($(this).val())
-      } else {
-        if (params.selected != 'all') {
-          window.location.replace(params.selected);
-        } else {
-          window.location.replace('/blog/');
-        }
-      }
-    });
+  // $('#blog-filter')
+  //   .on('focus', function(){
+  //     $('.nice-select.blog-filter').addClass('active');
+  //   })
+  //   .on('blur', function(){
+  //     $('.nice-select.blog-filter').removeClass('active');
+  //   })
+  //   .val(blogType)
+  //   .change(function(evt, params) {
+  //     if (params === undefined || params.selected === undefined) {
+  //        window.location.replace($(this).val())
+  //     } else {
+  //       if (params.selected != 'all') {
+  //         window.location.replace(params.selected);
+  //       } else {
+  //         window.location.replace('/blog/');
+  //       }
+  //     }
+  //   });
 
   if ($(window).width() >= 960) {
     $('#blog-filter').niceSelect();

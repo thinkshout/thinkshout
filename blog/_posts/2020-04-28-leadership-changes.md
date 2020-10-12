@@ -1,7 +1,9 @@
 ---
 layout: blog
 body-class: blog-post
-topic: culture
+topic:
+ - culture
+ - process
 campaign-topic: leadership
 title: "Finding Stability and Excitement in Times of Change"
 homepage: false

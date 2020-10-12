@@ -1,7 +1,9 @@
 ---
 layout: blog
 body-class: blog-post
-topic: technology
+topic:
+ - technology
+ - design
 title: 'Pixel Perfect Project Foundations: Part One of a Series'
 homepage: false
 author: amy

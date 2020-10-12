@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: strategy
+topic: archive
 title: Is November 2016 an Outlier or the New Normal?
 homepage: false
 author: natania  

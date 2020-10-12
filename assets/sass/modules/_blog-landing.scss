@@ -1,212 +1,278 @@
-.blog-landing {
+.main-content .blog  {
+  @include outer-container(1440px);
+  padding: 0 7rem;
 
-  .main-content {
-    @include mq(m) { margin-top: rem(90); }
-    @include mq(t) { margin-top: rem(90); }
+  @include mq(m) {
+    padding: 0 1rem;
+  }
+
+  @include mq(t) {
+    padding: 0 1rem;
+  }
+
+  @include mq(md) {
+    padding: 0 3rem;
+  }
+
+  .ts-blog-title {
+    color: $lightgray;
+    font-size: rem(56);
+    font-weight: 800;
+    line-height: rem(73);
+    margin-bottom: 0;
+  }
+
+  .blog-categories {
+    margin-bottom: rem(50);
+    margin-top: rem(15);
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin-right: rem(25);
+
+      @include mq(f) {
+        display: block;
+        line-height: 1.6;
+        position: relative;
+        display: none;
+        background-color: white;
+        z-index: 1;
+      }
+    }
+
+    a {
+      color: $herogray;
+      font-size: rem(16);
+      line-height: rem(10);
+    }
+    li:hover a, li:focus a, li:active a, li.active a {
+      color: $dark-orange;
+    }
+    .mobile-only {
+      display: none;
+      @include mq(f) {
+        display: block;
+        position: relative;
+        top: 0;
+        background-color: white;
+        z-index: 2;
+      }
+    }
+    li:hover a.mobile-only, li:focus a.mobile-only {
+      color: $dark-orange;
+    }
+    li:active a.mobile-only, li.active a.mobile-only {
+      color: $herogray;
+    }
   }
 
   .featured-post {
-    background-position: center center;
-    background-size: cover;
-    padding: 0;
-    position: relative;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
 
-    .gradient {
-      background-image: linear-gradient( to right, rgba(40,40,40,0.9), rgba(40,40,40,0.6) );
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFFFFF', endColorstr='#dd000000',GradientType=1 );
-      height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
+    @include mq(d) {
+      flex-direction: row;
+    }
+    .featured-img,
+    .featured-txt {
+      flex: 1;
+    }
+
+    .featured-img img {
+      height: 42vw;
+      max-height: rem(333);
+      object-fit: cover;
       width: 100%;
-      z-index: 1;
     }
 
-    .wrapper {
-      max-width: 100%;
-      margin: 0 auto;
-      padding: 2rem 1rem 1rem;
-      position: relative;
-      z-index: 2;
-      @include mq(lt) {
-        padding: 4rem 1rem 2rem 2rem;
-      }
-      @include mq(md) {
-        padding: 8rem 1rem 3rem 2rem;
-      }
-      @include mq(l)  {
-        padding: 10rem 0 2rem 0;
-        background-image: none;
-        max-width: rem(1100);
+    .featured-txt {
+      padding-left: 0;
+      @include mq(d) {
+        padding-left: rem(62);
       }
     }
 
-    .header-down-caret {
-      margin-bottom: 1rem;
-
-      h4 {
-        color: $white;
-      }
-    }
-
-    h2,p {
-      color: $white;
-      max-width: 95%;
-      margin: 0 0 1rem;
-      @include mq(lt) { max-width: 60%; }
-      @include mq(md) { max-width: 70%; }
-      @include mq(l)  { max-width: 55%; }
-      a {
-        color: $white;
-        font-weight: 800;
-      }
-      a:hover,
-      a:focus,
-      a:active {
-        text-decoration: underline;
-        outline: none;
-      }
-    }
-    h2 {
-      color: $white;
-      font-size: rem(22);
-      @include mq(lt) { font-size: rem(28); }
-      @include mq(md) { font-size: rem(32); }
-      @include mq(l)  { font-size: rem(40); }
-    }
-    .featured {
-      font-size: rem(13);
-      font-weight: 700;
-      margin-bottom: 0.5rem;
-      text-transform: uppercase;
-    }
-    .short {
-      font-size: rem(16);
-      @include mq(lt) { font-size: rem(16); }
-      @include mq(md) { font-size: rem(18); }
-      @include mq(l)  { font-size: rem(20); }
-    }
-    .byline {
+    .featured-title {
+      line-height: rem(32);
+      margin-bottom: rem(15);
       margin-top: 0;
-      @include mq(lt) { margin-top: 1rem;  }
-      @include mq(md) { margin-top: 1.5rem;  }
-      @include mq(l)  { margin-top: 2rem;  }
+
+      @include mq(d) {
+        font-size: rem(36);
+        line-height: rem(42);
+      }
     }
-  }
 
-  .filter-wrapper {
-    max-width: 98%;
-    margin: 1rem auto 0;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    @include mq(lt) { margin-top: 2rem; padding-left: 1rem; }
-    @include mq(md) { margin-top: 4rem; padding-left: 1rem; }
-    @include mq(l)  { margin-top: 5rem; max-width: rem(1100); padding-left: 0; }
-
-    label {
-      bottom: 4px;
+    .featured-title a {
       color: $darkgray;
-      font-size: rem(14);
-      font-weight: 400;
-      position: relative;
-    }
-  }
-  .blog-filter {
-    width: rem(390);
-    max-width: 100%;
-  }
+      font-size: rem(28);
+      line-height: rem(32);
 
+      @include mq(d) {
+        font-size: rem(36);
+        line-height: rem(42);
+      }
+
+      &:hover, &:focus, &:active {
+        color: $dark-orange;
+      }
+    }
+
+    a.team-name {
+      color: $orange;
+
+      &:hover, &:focus, &:active {
+        color: $dark-orange;
+      }
+    }
+
+    p.short {
+      color: $casegray;
+    }
+
+  }
 
   .blog-list {
-    margin: 0 auto 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 36px;
     padding: 0;
+
+    @include mq(d) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
     li {
-      border-bottom: 1px solid $ltgray;
-      display: inline-block;
-      padding: 1rem 1rem;
-      width: 100%;
-      @include mq(lt) { padding: 2rem 2rem; }
-      @include mq(md) { padding: 3rem 2rem; }
-      @include mq(l)  { padding: 4rem 8rem; }
-      .date {
-        color: $darkgray;
-        margin-right: rem(8);
-        font-size: rem(14);
-        display: block;
-        @include mq(lt) { display: inline; }
-        @include mq(md) { display: inline; }
-        @include mq(l)  { display: inline; }
+      margin-bottom: 60px;
+      max-width: 100%;
+      @include mq(d) {
+        flex-basis: calc(33.3333% - 30px);
       }
-
-      a.topic {
-        color: $black;
-        font-size: rem(14);
-        font-weight: 700;
-        display: block;
-        @include mq(lt) { display: inline; }
-        @include mq(md) { display: inline; }
-        @include mq(l)  { display: inline; }
+    }
+    // Full-width post.
+    &.home li:nth-child(4) {
+      @include mq(d) {
+        flex-basis: 100%;
+        .blog-teaser {
+          display: flex;
+          flex-direction: column;
+          height: 490px;
+          justify-content: flex-end;
+          padding: 45px;
+          position: relative;
+          &:before {
+            background-color: rgba(62,62,62,0.41);
+            bottom: 0;
+            content: "";
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 2;
+          }
+          .blog-img {
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+          .blog-img img {
+            height: 100%;
+            max-width: none;
+            position: relative;
+            z-index: 1;
+          }
+          .info {
+            position: relative;
+            z-index: 3;
+            margin-bottom: 10px;
+          }
+          h3 {
+            margin: 35px 0 25px;
+            max-width: 60%;
+          }
+          h3 a {
+            color: $white;
+            font-size: rem(36);
+            font-weight: 700;
+            line-height: rem(42);
+          }
+          .info p {
+            color: $white;
+            max-width: 45%;
+          }
+          .byline {
+            position: relative;
+            margin-bottom: 0;
+            z-index: 3;
+            a.team-name,
+            .position {
+              color: $white;
+            }
+          }
+        }
       }
-
-      h3 a {
-        color: $orange;
-        font-size: 1.2rem;
-        font-weight: 700;
-        margin: 1rem auto;
-        max-width: 94%;
-        @include mq(lt) { font-size: 1.2rem; max-width: 80%; }
-        @include mq(md) { font-size: 1.2rem; max-width: 70%; }
-        @include mq(l)  { font-size: 1.5rem; max-width: 60%; }
-      }
-
-      a:hover,
-      a:focus,
-      a:active {
-        text-decoration: underline;
-        outline: none;
-      }
-
-
-      .short {
-        font-size: rem(15);
-        color: $darkgray;
-        @include mq(lt) { font-size: rem(16); }
-        @include mq(md) { font-size: rem(18); }
-        @include mq(l)  { font-size: rem(18); }
-      }
-
-      .blog-teaser {
-        max-width: rem(1100);
-        margin: 0 auto;
-      }
-
-      .info {
-        width: 100%;
-        @include mq(lt) {  }
-        @include mq(md) { width: 68%; float: left; }
-        @include mq(l)  { width: 68%; float: left; }
-      }
-
-      .byline {
-        margin-top: 0;
-        width: 100%;
-        padding-right: 0;
-        @include mq(lt) { width: 30%; }
-        @include mq(md) { width: 30%; margin-top: 4rem; float: right; }
-        @include mq(l)  { width: 30%; margin-top: 4rem; float: right; }
-        a:hover,
-        a:focus,
-        a:active {
-          color: $darkgray;
-          text-decoration: underline;
-          outline: none;
+    }
+    // 50% posts
+    &.home li:nth-child(11),
+    &.home li:nth-child(12) {
+      @include mq(d) {
+        flex-basis: calc(50% - 22.5px);
+        .blog-teaser .blog-img img {
+          height: 420px;
+        }
+        .info {
+          padding-right: 15%;
         }
       }
     }
   }
-}
 
-  // @include mq(lt) {  }
-  // @include mq(md) {  }
-  // @include mq(l)  {  }
+  .blog-teaser {
+    .blog-img img {
+      width: 100%;
+      max-width: none;
+      object-fit: cover;
+    }
+    h3 {
+      margin: 16px 0 13px;
+    }
+    h3 a {
+      color: $darkgray;
+      font-size: rem(24);
+      font-weight: 900;
+      line-height: rem(32);
+      &:hover,
+      &:active,
+      &:focus {
+        color: $dark-orange;
+      }
+    }
+    .info p {
+      color: $casegray;
+      font-size: rem(16);
+      line-height: rem(29);
+      margin: 13px 0;
+    }
+    .byline {
+      img {
+        height: 50px;
+        width: 50px;
+      }
+      a.team-name {
+        color: $orange;
+        font-size: rem(13);
+        line-height: rem(22);
+      }
+      .position {
+        color: $casegray;
+        font-size: rem(12);
+        line-height: rem(14);
+      }
+    }
+  }
+}

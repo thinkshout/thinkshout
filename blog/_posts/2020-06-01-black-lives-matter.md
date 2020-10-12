@@ -1,7 +1,9 @@
 ---
 layout: blog
 body-class: blog-post
-topic: culture
+topic:
+ - culture
+ - process
 title: "Black Lives Matter"
 homepage: false
 author: lev

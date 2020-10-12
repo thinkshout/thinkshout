@@ -2,7 +2,7 @@
 title: A Tale of Two Devsigners
 layout: blog
 body-class: blog-post
-topic: strategy
+topic: archive
 header-image:
 header-image-alt:
 

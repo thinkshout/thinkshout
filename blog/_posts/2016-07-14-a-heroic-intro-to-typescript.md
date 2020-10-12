@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: technology
+topic: archive
 title: A Heroic Introduction to TypeScript
 homepage: false
 author: eric

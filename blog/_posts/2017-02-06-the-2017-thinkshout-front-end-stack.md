@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: technology
+topic: archive
 title: The 2017 ThinkShout Front-End Stack
 homepage: false
 author: joe
