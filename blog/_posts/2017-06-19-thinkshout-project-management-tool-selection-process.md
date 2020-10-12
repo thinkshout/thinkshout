@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: process
+topic: archive
 title: The ThinkShout Project Management Tool Selection Process
 homepage: false
 author: julia

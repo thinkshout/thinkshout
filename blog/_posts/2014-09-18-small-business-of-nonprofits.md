@@ -2,7 +2,7 @@
 title: The Small Business of Open Source
 layout: blog
 body-class: blog-post
-topic:
+topic: archive
 header-image:
 header-image-alt:
 

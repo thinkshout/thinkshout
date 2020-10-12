@@ -1,10 +1,10 @@
 ---
 layout: blog_topic
 body-class: blog-landing
-title: Process & Leadership
-topic: process
-description: "Our thoughts on Process and Leadership from the ThinkShout blog."
-order: 5
+title: U/X & Design
+topic: design
+description: "Our thoughts on Used Experience and Design from the ThinkShout blog."
+order: 7
 keywords:
   - nonprofit technology
   - drupal

@@ -2,71 +2,30 @@
 layout: default
 ---
 <div class="page-container blog">
-<h1 class="visually-hidden">ThinkShout Blog</h1>
-{% if page.topic %}
-  {% for post in site.categories.blog %}
-    {% if post.featured and post.topic == page.topic %}
-      {% if post.header-image %}
-        <div class="featured-post" style="background-image: url('{{ site.baseurl }}{{ post.header-image }}');">
-        <div class="gradient"></div>
-      {% else %}
-        <div class="featured-post" style="background-image: url('{{ site.baseurl }}/assets/images/ts_redesign/blog/up-and-theming1.jpg');">
-        <div class="gradient"></div>
-      {% endif %}
-        <div class="wrapper">
-          <div class="header-down-caret">
-            {% if post.type %}
-              <h4>{{ post.type }}</h4>
-            {% else %}
-              <h4>Featured blog post</h4>
-            {% endif %}
-            <i class="fa fa-caret-down"></i>
-          </div>
-          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+<h1 class="ts-blog-title">Blog</h1>
 
-          {% if post.short %}
-          <p class="short">{{ post.short }}</p>
-          {% endif %}
+<div class="filter-wrapper" id="filter-wrapper">
+  <ul class="blog-categories">
+    <li class="mobile-only"><a href="#" aria-label="Click to Explore by Topic"><strong>Explore by Topic <span>+</span></strong></a></li>
+    {% assign topics = site.topic | sort: "order" %}
+    {% for posttopic in topics %}
+      <li><a href="{{ site.baseurl }}/blog/topic/{{ posttopic.topic }}/">{{ posttopic.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
 
-          <p class="byline">
-            {% for person in site.team %}
-              {% if post.author == person.name %}
-                <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}" alt="{{ person.first_name }} {{ person.last_name }}">
-                <span class="byline-wrapper">
-                  {% if person.current-employee %}
-                    <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a>
-                    <span class="position">{{ person.position }}</span>
-                  {% else %}
-                    <strong>{{ person.first_name }} {{ person.last_name }}</strong>
-                    <span class="position">{{ person.position }}</span>
-                    <small>ThinkShout Alumnus</small>
-                  {% endif %}
-                </span>
-              {% endif %}
-            {% endfor %}
-          </p>
-        </div>
-      </div>
-      {% break %}
-    {% endif %}
-  {% endfor %}
-{% else %}
+
+{% unless page.topic %}
   {% for post in site.categories.blog %}
     {% if post.homepage %}
       {% if post.header-image %}
-        <div class="featured-post" style="background-image: url('{{ site.baseurl }}{{ post.header-image }}');">
-        <div class="gradient"></div>
-      {% endif %}
-        <div class="wrapper">
-          <div class="header-down-caret">
-            {% if post.type %}
-              <h4>{{ post.type }}</h4>
-            {% else %}
-              <h4>Featured blog post</h4>
-            {% endif %}
-            <i class="fa fa-caret-down"></i>
+        <div class="featured-post">
+          <div class="featured-img">
+            <img src="{{ site.baseurl }}{{ post.header-image }}" alt="Featured Image">
           </div>
-          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      {% endif %}
+        <div class="featured-txt">
+          <h2 class="featured-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
           {% if post.short %}
           <p class="short">{{ post.short }}</p>
@@ -94,30 +53,13 @@ layout: default
       {% break %}
     {% endif %}
   {% endfor %}
-{% endif %}
+{% endunless %}
 
-
-  <div class="filter-wrapper" id="filter-wrapper">
-    <form>
-      <label for="blog-filter">Filter by topic</label>
-      <select id="blog-filter" class="blog-filter">
-        <option value="{{ site.baseurl }}/blog/">All posts</option>
-        {% assign topics = site.topic | sort: "order" %}
-        {% for posttopic in topics %}
-        <option value="{{ site.baseurl }}/blog/topic/{{ posttopic.topic }}/">{{ posttopic.title }}</option>
-        {% endfor %}
-      </select>
-    </form>
-  </div>
-
+<!-- Remaining posts. -->
 {% if page.topic %}
-  <ul class="blog-list">
+  <ul class="blog-list topic">
     {% for post in site.categories.blog %}
-      {% if post.topic == page.topic %}
-        {% if post.featured and feature != 'filtered' %}
-          {% assign feature = 'filtered' %}
-          {% continue %}
-        {% endif %}
+      {% if post.topic contains page.topic %}
         <li>{% include blog_teaser.html class=class header="h2" short=true title=page.title %}</li>
       {% endif %}
     {% endfor %}
@@ -126,19 +68,13 @@ layout: default
   {% if page.paginator %}
   {% assign paginator = page.paginator %}
   {% endif %}
-  <ul class="blog-list">
+  <ul class="blog-list home">
     {% for post in paginator.posts %}
       {% if post.homepage and allFeature != 'filtered' %}
         {% assign allFeature = 'filtered' %}
         {% continue %}
       {% endif %}
       {% if post.topic %}
-        {% for hastopic in site.topic %}
-        {% if hastopic.topic == post.topic %}
-          <li>{% include blog_teaser.html class=class header="h2" short=true title=hastopic.title %}</li>
-        {% endif %}
-        {% endfor %}
-      {% else %}
         <li>{% include blog_teaser.html class=class header="h2" short=true %}</li>
       {% endif %}
     {% endfor %}

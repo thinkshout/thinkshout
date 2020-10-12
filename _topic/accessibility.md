@@ -1,10 +1,10 @@
 ---
 layout: blog_topic
 body-class: blog-landing
-title: The Weekly Spark
-topic: spark
-description: "The Weekly Spark."
-order: 2
+title: Accessibility
+topic: accessibility
+description: "Our thoughts on accessibility from the ThinkShout blog"
+order: 1
 keywords:
   - nonprofit technology
   - drupal

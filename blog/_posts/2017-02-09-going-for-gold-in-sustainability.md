@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: culture
+topic: archive
 title: Going for Gold in Sustainability
 homepage: false
 author: rose

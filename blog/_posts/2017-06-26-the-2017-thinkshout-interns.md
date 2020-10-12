@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: culture
+topic: archive
 title: The 2017 ThinkShout Summer Interns
 homepage: false
 author: stephanie

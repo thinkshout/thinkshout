@@ -1,7 +1,9 @@
 ---
 layout: blog
 body-class: blog-post
-topic: culture
+topic:
+  - culture
+  - accessibility
 campaign-topic: workshops
 title: "Lessons From a Remote Workshop During A Pandemic"
 homepage: false

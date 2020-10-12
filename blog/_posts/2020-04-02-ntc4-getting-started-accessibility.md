@@ -1,7 +1,9 @@
 ---
 layout: blog
 body-class: blog-post
-topic: technology
+topic:
+  - technology
+  - accessibility
 campaign-topic: accessibility
 title: "Accessibility for Teams in a Hurry: Steps for Getting Started"
 homepage: false

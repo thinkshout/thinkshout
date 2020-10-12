@@ -1,10 +1,10 @@
 ---
 layout: blog_topic
 body-class: blog-landing
-title: Technology and Innovation
+title: Technical Innovation
 topic: technology
 description: "Our thoughts on Technology and Innovation from the ThinkShout blog."
-order: 1
+order: 2
 keywords:
   - nonprofit technology
   - drupal

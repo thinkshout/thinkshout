@@ -1,7 +1,9 @@
 ---
 layout: blog
 body-class: blog-post
-topic: strategy
+topic:
+  - strategy
+  - accessibility
 title: "ThinkShout’s COVID Commitment: Four Ways to Stabilize Your Digital Platform"
 homepage: true
 author: lev

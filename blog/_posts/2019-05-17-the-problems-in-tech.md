@@ -1,7 +1,10 @@
 ---
 layout: blog
 body-class: blog-post
-topic: culture
+topic:
+  - culture
+  - technology
+  - accessibility
 title: The Problems In Tech Go Deeper Than ‘Hacking’
 homepage: false
 author: brendan

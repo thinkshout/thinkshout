@@ -1,7 +1,10 @@
 ---
 layout: blog
 body-class: blog-post
-topic: strategy
+topic:
+  - accessibility
+  - strategy
+  - design
 campaign-topic: accessibility
 title: "Accessibility and Dyslexia: An Interview"
 type: "Equitable Digital Connections: Featured Post"
