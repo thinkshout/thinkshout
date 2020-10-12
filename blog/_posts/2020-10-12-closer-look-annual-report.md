@@ -45,6 +45,7 @@ In order to weave this human-centered approach into the annual report in an effe
 ### 1. Energy Call-Outs
 One of our favorite innovations was creating “energy call-outs” — squares that identify energy saving sources and bring visibility to the technology that is otherwise so easy to miss if you were just looking at a photograph. These were designed to feel like an energy grid or blueprint, to reinforce the Energy Trust brand behind the work.
 
+
 ![Energy square callouts.](/assets/images/blog/ET-blog-energycallouts-01.jpg){:height="50%" width="50%"}
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>4 sqaures that capture the energy square call outs. One is a roof, one is an air conditioning unit, one is a and two are solar grids</span>
@@ -53,6 +54,7 @@ One of our favorite innovations was creating “energy call-outs” — squares 
 ### 2. An Infographic Based on Social Math
 We created a colorful infographic that displayed the variety of ways Energy Trust’s work showed up in local, Oregon communities, filled with copy to inform the work they’ve done throughout the state. We leveraged the concept of [“social math”](https://uxpamagazine.org/social-math/#:~:text=Social%20math%20is%20a%20way,that%20people%20find%20more%20familiar.) to make sure the copy was relatable and easy to understand. For example, rather than saying “Energy Trust helps to save and generate 914 average megawatts of electricity since 2002” we say, “Energy Trust’s work is saving and generating enough electricity to power half of all homes in Oregon.” This also made it easier for anyone who is a homeowner or renter to grasp, as opposed to the amount of megawatts saved, which would be intangible for most readers. 
 
+
 ![Colorful infographic that was drawn on illustrator. The drawing is of Oregon, with farmland, industrial centers, and coastal areas. Text boxes are overlayed on it that call out how much energy Energy Trust has saved people from all of these varying parts of Oregon.](/assets/images/blog/ET-blog-infohraphic.png){:height="70%" width="70%"}
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Infographic that was featured in both digital and print.</span>
@@ -60,6 +62,7 @@ We created a colorful infographic that displayed the variety of ways Energy Trus
 
 ### 3. The Highlight Reels
 A highlight section sheds light on the humanity and success stories within this work, composed of pictures of the clients of Energy Trust and filled with intentional language that builds personal connection. When viewing this online, you can click to read a personal story about how people’s lives were affected. In print, this translates to short, magazine-esq stories.
+
 
 ![Box that has a success story shown in it. There is an image of the person in from of their buliding, with text underneath that has the story.](/assets/images/blog/AR-blug-human-01.jpg){:height="70%" width="70%"}
 {:.center}
