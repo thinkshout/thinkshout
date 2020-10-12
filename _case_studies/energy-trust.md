@@ -69,7 +69,7 @@ cs-sections:
     section-image-alt1: "Screenshot of an individual success story from Energy Trust viewed on a laptop. This is of a garden nursery the used Energy Trust to save energy, with a photo of the main garden facility, and two employees below."
 
   - section-description: |
-      #### A personalized website experience.
+      #### A Personalized Website Experience.
 
       Energy Trust is a unique, valuable resource for the people they serve,and our job is to make sure folks understand how they can take advantage of the many incentives and opportunities available to them. Solving this communications challenge in a time of increased demands on time and attention takes a strategic focus on what stories to tell, what channels to use, and how to measure success. 
       <br/> Our partnership is a blend of the above, and we continuously improve the communication platform to help our partners at Energy Trust serve every single energy customer in the region. The result is a website that not only highlights facts and figures (like important energy savings goals and economic impact numbers), but also lets people know what Energy Trust can do for them in a way that is personalized and achievable.
