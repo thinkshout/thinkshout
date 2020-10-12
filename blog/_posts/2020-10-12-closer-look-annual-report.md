@@ -50,7 +50,7 @@ One of our favorite innovations was creating “energy call-outs” — squares 
 <span class="caption"><i class="fa fa-caret-up"></i>4 sqaures that capture the energy square call outs. One is a roof, one is an air conditioning unit, one is a and two are solar grids</span>
 
 
-### An Oregonian Infographic
+### 2. An Infographic Based on Social Math
 We created a colorful infographic that displayed the variety of ways Energy Trust’s work showed up in local, Oregon communities, filled with copy to inform the work they’ve done throughout the state. We leveraged the concept of [“social math”](https://uxpamagazine.org/social-math/#:~:text=Social%20math%20is%20a%20way,that%20people%20find%20more%20familiar.) to make sure the copy was relatable and easy to understand. For example, rather than saying “Energy Trust helps to save and generate 914 average megawatts of electricity since 2002” we say, “Energy Trust’s work is saving and generating enough electricity to power half of all homes in Oregon.” This also made it easier for anyone who is a homeowner or renter to grasp, as opposed to the amount of megawatts saved, which would be intangible for most readers. 
 
 ![Colorful infographic that was drawn on illustrator. The drawing is of Oregon, with farmland, industrial centers, and coastal areas. Text boxes are overlayed on it that call out how much energy Energy Trust has saved people from all of these varying parts of Oregon.](/assets/images/blog/ET-blog-infohraphic.png){:height="70%" width="70%"}
