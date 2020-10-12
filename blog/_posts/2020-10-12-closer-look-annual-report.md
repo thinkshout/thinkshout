@@ -36,9 +36,9 @@ After taking a deep dive into the work and impact of Energy Trust, we have seen 
 
 In order to weave this human-centered approach into the annual report in an effective way, Energy Trust needed to communicate their organizational impact while simultaneously connecting to readers emotionally. We knew that jargon, statistics, and technical language wasn’t the path forward-- especially if you aren’t someone with know-how in the sustainable energy sector. Instead, we focused on pairing accessible, relatable, and compelling copy with person-focused visuals and graphics that could build a connection and be understood by anyone- not just industry experts. This pairing would translate across mediums, from digital to print, with a motif based on improvement (what changed in people’s everyday lives) and relatability (building a connection based on identity and sector; homeowners, grocery workers, manufacturers, etc.). 
 
-![First page of the annual report.](/assets/images/blog/ET-blog-print.png){:height="70%" width="70%"}
+![Screen shot of the annual report in print, grid of squares on a page with people's faces alternating with text calling out what energy trust does.](/assets/images/blog/ET-blog-print.png){:height="70%" width="70%"}
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>Screen shot of the annual report in print, grid of squares on a page with people's faces alternating with text calling out what energy trust does.</span> 
+<span class="caption"><i class="fa fa-caret-up"></i>First page of the annual report.</span> 
 
 ## Here are 3 places where human-centered strategy showed up in this work.
 
@@ -46,9 +46,9 @@ In order to weave this human-centered approach into the annual report in an effe
 One of our favorite innovations was creating “energy call-outs” — squares that identify energy saving sources and bring visibility to the technology that is otherwise so easy to miss if you were just looking at a photograph. These were designed to feel like an energy grid or blueprint, to reinforce the Energy Trust brand behind the work.
 
 
-![Energy square callouts.](/assets/images/blog/ET-blog-energycallouts-01.png){:height="50%" width="50%"}
+![4 sqaures that capture the energy square call outs. One is a roof, one is an air conditioning unit, one is a and two are solar grids](/assets/images/blog/ET-blog-energycallouts-01.png){:height="50%" width="50%"}
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>4 sqaures that capture the energy square call outs. One is a roof, one is an air conditioning unit, one is a and two are solar grids</span>
+<span class="caption"><i class="fa fa-caret-up"></i>Energy square call-outs.</span>
 
 
 ### 2. An Infographic Based on Social Math
@@ -60,7 +60,7 @@ We created a colorful infographic that displayed the variety of ways Energy Trus
 <span class="caption"><i class="fa fa-caret-up"></i>Infographic that was featured in both digital and print.</span>
 
 
-### 3. The Highlight Reels
+### 3. Highlight Reels
 A highlight section sheds light on the humanity and success stories within this work, composed of pictures of the clients of Energy Trust and filled with intentional language that builds personal connection. When viewing this online, you can click to read a personal story about how people’s lives were affected. In print, this translates to short, magazine-esq stories.
 
 
