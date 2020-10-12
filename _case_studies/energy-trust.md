@@ -2,9 +2,9 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study energy-trust
-active: true
+active: false
 homepage: false
-published: true
+published: false
 related: energy-trust
 order: 6
 image: /assets/images/case-studies/solarhero.jpg
