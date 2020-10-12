@@ -5,8 +5,8 @@ topic:
   - process
   - strategy
   - design
-campaign-topic: accessibility
-title: "Accessibility and Dyslexia: An Interview"
+campaign-topic: process
+title: "A Closer Look: Producing Annual Reports Digitally and in Print"
 homepage: false
 author: chelsea
 published: true
