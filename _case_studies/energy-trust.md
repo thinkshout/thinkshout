@@ -60,10 +60,10 @@ cs-sections:
       
       Energy Trust wants people to think of energy in a completely new way —  not as some generic expense you face once per billing cycle, but as a critical resource and unique opportunity for every individual across the region to lead. <br/> However, Energy Trust’s communication platform wasn’t always clear or resonant with its three large audience segments: residential, small business, and large-scale corporations. Energy-insider jargon was common, while individual impact — and the potential of that — was often missing. We helped overcome this challenge time and again by guiding content development through the lens of audience identities that Energy Trust serves, and  weaving success stories into the site. <br/> With personalized stories and user pathways depending on how a visitor identifies — which might be as renter, homeowner, grocery store owner, apartment developer, manufacturer, or large scale agriculture — we helped make it possible for more people to understand, utilize, and benefit from Energy Trust’s work, and jumpstart them on their own energy saving journey. 
       
-  - section-image: "/assets/images/case-studies/energytrust1.jpg"
+  - section-image1: "/assets/images/case-studies/energytrust1.jpg"
     section-image-alt: "Screenshot of a webpage that shows success stories of an Energy Trust customer on a laptop, and the 'which business are you?' page viewd on a mobile device."
     
-  - section-image1: "/assets/images/case-studies/energytrust2.jpg"
+    section-image2: "/assets/images/case-studies/energytrust2.jpg"
     section-image-alt1: "Screenshot of an individual success story from Energy Trust viewed on a laptop. This is of a garden nursery the used Energy Trust to save energy, with a photo of the main garden facility, and two employees below."
 
   - section-description: |
