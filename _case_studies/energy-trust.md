@@ -59,8 +59,10 @@ cs-sections:
       #### A Human-Centered Approach.
       
       Energy Trust wants people to think of energy in a completely new way —  not as some generic expense you face once per billing cycle, but as a critical resource and unique opportunity for every individual across the region to lead. 
-      <br/> However, Energy Trust’s communication platform wasn’t always clear or resonant with its three large audience segments: residential, small business, and large-scale corporations. Energy-insider jargon was common, while individual impact — and the potential of that — was often missing. We helped overcome this challenge time and again by guiding content development through the lens of audience identities that Energy Trust serves, and  weaving success stories into the site. 
-      <br/> With personalized stories and user pathways depending on how a visitor identifies — which might be as renter, homeowner, grocery store owner, apartment developer, manufacturer, or large scale agriculture — we helped make it possible for more people to understand, utilize, and benefit from Energy Trust’s work, and jumpstart them on their own energy saving journey. 
+      
+      However, Energy Trust’s communication platform wasn’t always clear or resonant with its three large audience segments: residential, small business, and large-scale corporations. Energy-insider jargon was common, while individual impact — and the potential of that — was often missing. We helped overcome this challenge time and again by guiding content development through the lens of audience identities that Energy Trust serves, and  weaving success stories into the site.
+      
+      With personalized stories and user pathways depending on how a visitor identifies — which might be as renter, homeowner, grocery store owner, apartment developer, manufacturer, or large scale agriculture — we helped make it possible for more people to understand, utilize, and benefit from Energy Trust’s work, and jumpstart them on their own energy saving journey. 
       
   - section-image1: "/assets/images/case-studies/energytrust1.jpg"
     section-image-alt: "Screenshot of a webpage that shows success stories of an Energy Trust customer on a laptop, and the 'which business are you?' page viewd on a mobile device."
@@ -72,7 +74,8 @@ cs-sections:
       #### A Personalized Website Experience.
 
       Energy Trust is a unique, valuable resource for the people they serve,and our job is to make sure folks understand how they can take advantage of the many incentives and opportunities available to them. Solving this communications challenge in a time of increased demands on time and attention takes a strategic focus on what stories to tell, what channels to use, and how to measure success. 
-      <br/> Our partnership is a blend of the above, and we continuously improve the communication platform to help our partners at Energy Trust serve every single energy customer in the region. The result is a website that not only highlights facts and figures (like important energy savings goals and economic impact numbers), but also lets people know what Energy Trust can do for them in a way that is personalized and achievable.
+      
+      Our partnership is a blend of the above, and we continuously improve the communication platform to help our partners at Energy Trust serve every single energy customer in the region. The result is a website that not only highlights facts and figures (like important energy savings goals and economic impact numbers), but also lets people know what Energy Trust can do for them in a way that is personalized and achievable.
 
   - section-type: quote
     section-quote: |
