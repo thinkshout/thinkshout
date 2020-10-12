@@ -66,4 +66,4 @@ In order to weave this human-centered approach into the annual report in an effe
 
 Insert quote:
 
-Interested to learn more about the processes behind the projects? [Get in touch.](https://thinkshout.com/contact/) 
+### Interested to learn more about the processes behind the projects? [Get in touch.](https://thinkshout.com/contact/) 
