@@ -6,7 +6,7 @@ topic:
   - strategy
   - design
 campaign-topic: process
-title: "A Closer Look: Producing Annual Reports Digitally and in Print"
+title: "A Closer Look: Producing Annual Reports, Both Digitally and in Print"
 homepage: false
 author: chelsea
 published: true
