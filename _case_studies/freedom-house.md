@@ -12,7 +12,7 @@ image-alt: "people protesting with signs. "
 description: "Highlighting threats to democracy around the globe through data analysis, powerful visualizations, and impactful storytelling."
 # END LAYOUT DATA
 
-title: "Highlighting threats to democracy around the globe through data analysis, powerful visualizations, and impactful storytelling."
+title: "Highlighting threats to democracy around the globe through data analysis, powerful visualizations, and impactful storytelling"
 cs-class: "freedom-house"
 featured_impact_text: "@todo"
 featured_client_name: "Freedom House"
@@ -21,12 +21,12 @@ cs-preview:
   image: /assets/images/case-studies/freedom-house-hero.jpg
   type: "Freedom House"
   client: "Freedom House"
-  description: "Highlighting threats to democracy around the globe through data analysis, powerful visualizations, and impactful storytelling."
+  description: "Highlighting threats to democracy around the globe through data analysis, powerful visualizations, and impactful storytelling"
 
 cs-header:
   header-image: /assets/images/case-studies/freedom-house-hero.jpg
-  client: "Lehigh Valley Health Network"
-  title: "Highlighting threats to democracy around the globe through data analysis, powerful visualizations, and impactful storytelling."
+  client: "Freedom House"
+  title: "Highlighting threats to democracy around the globe through data analysis, powerful visualizations, and impactful storytelling"
 
 cs-intro:
   - intro-paragraph: |
