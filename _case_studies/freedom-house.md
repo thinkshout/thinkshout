@@ -31,10 +31,6 @@ cs-header:
 cs-intro:
   - intro-paragraph: |
       [Freedom House](https://freedomhouse.org/) is a nonprofit founded on the core conviction that freedom flourishes in democratic nations where governments are accountable to their people; the rule of law prevails; and freedoms of expression, association, and belief, as well as respect for the rights of women, minorities, and historically marginalized groups, are guaranteed.
-
-cs-sections:
-  - section-image: "/assets/images/case-studies/freedom-house-desktop-1.jpg"
-    section-image-alt: "LVHN search for a doctor on laptop and search for a location on phone"
     
 cs-sections:
   - section-description: |
@@ -42,6 +38,9 @@ cs-sections:
         
       Freedom House’s research team compiles data that has the potential to shine a spotlight on nations with eroding democracies and protect freedom, but their aging website lacked the capacity and flexibility to leverage that data to tell the powerful stories needed to make change. 
 
+  - section-image: "/assets/images/case-studies/freedom-house-desktop-1.jpg"
+    section-image-alt: "LVHN search for a doctor on laptop and search for a location on phone"
+    
   - section-image1: "/assets/images/case-studies/freedom-house-desktop-mobile.jpg"
     section-image-alt1: "LVHN homepage viewed on a desktop."
 
@@ -67,9 +66,6 @@ cs-sections:
       #### Results
     
       The new freedomhouse.org combines a set of distinct annual reports into a powerful narrative about the state of freedom in the world. It informs policy makers and the media, and drives users to take action. The research teams have the tools to publish compelling reports which, taken together, tell the story of what happens when freedoms erode, helping to hold governments to account.
-
-  - section-image: "/assets/images/case-studies/Freedom-house-laptop-1.jpg"
-    section-image-alt: "LVHN location viewed on a laptop and doctor search viewed on phone."
 
 cs-cta-text: Launch Site
 cs-cta-url: https://freedomhouse.org/
