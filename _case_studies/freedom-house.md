@@ -32,6 +32,7 @@ cs-intro:
   - intro-paragraph: |
       [Freedom House](https://freedomhouse.org/) is a nonprofit founded on the core conviction that freedom flourishes in democratic nations where governments are accountable to their people; the rule of law prevails; and freedoms of expression, association, and belief, as well as respect for the rights of women, minorities, and historically marginalized groups, are guaranteed.
 
+cs-sections:
   - section-image: "/assets/images/case-studies/freedom-house-desktop-1.jpg"
     section-image-alt: "LVHN search for a doctor on laptop and search for a location on phone"
     
