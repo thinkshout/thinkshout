@@ -38,11 +38,11 @@ cs-sections:
         
       Freedom House’s research team compiles data that has the potential to shine a spotlight on nations with eroding democracies and protect freedom, but their aging website lacked the capacity and flexibility to leverage that data to tell the powerful stories needed to make change. 
 
-  - section-image: "/assets/images/case-studies/freedom-house-desktop-mobile.jpg"
-    section-image-alt: "LVHN homepage viewed on a desktop."
+  - section-image1: "/assets/images/case-studies/freedom-house-desktop-mobile.jpg"
+    section-image-alt1: "LVHN homepage viewed on a desktop."
 
-  - section-image: "/assets/images/case-studies/Freedom-House-Tablet.jpg"
-    section-image-alt: "LVHN find a location viewed on a tablet."
+    section-image2: "/assets/images/case-studies/Freedom-House-Tablet.jpg"
+    section-image-alt2: "LVHN find a location viewed on a tablet."
 
   - section-description: |
       #### Solutions
@@ -57,8 +57,11 @@ cs-sections:
   - section-image: "/assets/images/case-studies/freedom-house-desktop-1.jpg"
     section-image-alt: "LVHN search for a doctor on laptop and search for a location on phone"
 
-  - section-image: "/assets/images/case-studies/Freedom-house-mobile-1.jpg"
-    section-image-alt: "LVHN services pages viewed on three phones."
+  - section-image1: "/assets/images/case-studies/Freedom-house-mobile-1.jpg"
+    section-image-alt1: "LVHN services pages viewed on three phones."
+    
+    section-image2: "/assets/images/case-studies/Freedom-house-laptop-1.jpg"
+    section-image-alt2: "LVHN location viewed on a laptop and doctor search viewed on phone."
 
   - section-description: |
       #### Results
