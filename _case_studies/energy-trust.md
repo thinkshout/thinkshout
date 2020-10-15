@@ -32,11 +32,11 @@ cs-header:
 
 cs-intro:
   - intro-paragraph: |
-      The Energy Trust of Oregon is dedicated to helping 1.7 million people in Oregon and Southwest Washington save energy and generate renewable power. Whether it’s a home improvement project for residents, a modest upgrade to a small business, or a large capital investment for a corporation, Energy Trust makes cleaner energy accessible to everyone and helps to grow the clean energy economy.
+      Energy Trust of Oregon is dedicated to helping 1.7 million people in Oregon and Southwest Washington save energy and generate renewable power. Whether it’s a home improvement project for residents, a modest upgrade to a small business, or a large capital investment for a corporation, Energy Trust makes cleaner energy accessible to everyone and helps to grow the clean energy economy.
 
   - intro-title: Goals
     intro-text: |
-      We set out to better connect Energy Trust’s diverse audiences with a critical but overwhelming amount of information- including incentives, and content about energy-saving opportunities.
+      To connect Energy Trust’s diverse audiences with critical information — including incentives and content about energy-saving opportunities.
 
   - intro-title: Solutions
     intro-text: |
@@ -44,13 +44,13 @@ cs-intro:
 
   - intro-title: Results
     intro-text: |
-      Energy Trust saw increased page views, engagement, and conversions across all of their audience segments.
+      Energy Trust saw increased page views, engagement, and conversions across all audience segments.
 
 cs-sections:
   - section-description: |
       #### Clear Communication in Times of Change
 
-      The relationship between ThinkShout and Energy Trust began in a maintenance capacity, originally focused on technical support for their existing site. The partnership grew over time to include robust strategic services. ThinkShout has now had the opportunity to work with Energy Trust on almost every element of their digital communications — from redesigning the 2019 annual report (digital and print), to building integrated campaigns and email templates, to testing and optimizing various content updates.
+      The relationship between ThinkShout and Energy Trust began in a maintenance capacity, originally focused on technical support for their existing site. The partnership grew over time to include robust strategic services. ThinkShout has now had the opportunity to work with Energy Trust on almost every element of their digital communications — from redesigning their annual reports (digital and print), to building integrated campaigns and email templates, to testing and optimizing various content updates.
 
   - section-image: "/assets/images/case-studies/energytrust3.jpg"
     section-image-alt: "screenshot of the annual report mocked up on a tablet. The screenshot is a grid of altering images of people, and text call outs."
@@ -75,7 +75,7 @@ cs-sections:
 
       Energy Trust is a unique, valuable resource for the people they serve. Our job is to make sure folks understand how they can take advantage of the many incentives and opportunities available to them. Solving this communications challenge in a time of increased demands on time and attention takes a strategic focus on what stories to tell, what channels to use, and how to measure success. 
       
-      Our partnership is a blend of the above, and we continuously work with the energy Trust team to improve their communication platforms. The result is a website that not only highlights facts and figures (like important energy savings goals and economic impact numbers), but also lets people know what Energy Trust can do for them in a way that is personalized and achievable.
+      Our partnership is a blend of the above, and we continuously work with the Energy Trust team to improve their communication platforms. The result is a website that not only highlights facts and figures (like important energy savings goals and economic impact numbers), but also lets people know what Energy Trust can do for them in a way that is personalized and achievable.
 
   - section-type: quote
     section-quote: |
