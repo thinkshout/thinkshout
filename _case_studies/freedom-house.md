@@ -53,7 +53,7 @@ cs-sections:
   - section-image: "/assets/images/case-studies/freedom-house-desktop-1.jpg"
     section-image-alt: "LVHN search for a doctor on laptop and search for a location on phone"
     
-  - section-image1: "/assets/images/case-studies/freedom-house-desktop-mobile.jpg"
+  - section-image1: "/assets/images/case-studies/Freedom-house-laptop-1.jpg"
     section-image-alt1: "LVHN homepage viewed on a desktop."
 
     section-image2: "/assets/images/case-studies/Freedom-House-Tablet.jpg"
@@ -67,7 +67,7 @@ cs-sections:
   - section-image1: "/assets/images/case-studies/Freedom-house-mobile-1.jpg"
     section-image-alt1: "LVHN services pages viewed on three phones."
     
-    section-image2: "/assets/images/case-studies/Freedom-house-laptop-1.jpg"
+    section-image2: "/assets/images/case-studies/freedom-house-desktop-mobile.jpg"
     section-image-alt2: "LVHN location viewed on a laptop and doctor search viewed on phone."
 
   - section-description: |
