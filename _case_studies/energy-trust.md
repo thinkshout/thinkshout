@@ -79,8 +79,8 @@ cs-sections:
 
   - section-type: quote
     section-quote: |
-      “tbd”
-    section-attribution: "tbd"
+      “ThinkShout’s project management, attention to detail and strategic thinking have not only helped us reach more customers in a meaningful way, but have also helped us streamline our internal web operations.”
+    section-attribution: "Sloan Schang, Sr. Web Manager at Energy Trust "
 
 cs-cta-text: Launch Site
 cs-cta-url: https://energytrust.org/
