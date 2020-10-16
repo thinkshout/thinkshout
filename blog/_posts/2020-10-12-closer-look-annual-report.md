@@ -66,7 +66,6 @@ A highlight section focuses on the success stories within this work. In centers 
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>These stories take a closer look at the different success stories from Energy Trust.</span>   
 
-
-Insert quote:
+>"ThinkShout’s project management, attention to detail and strategic thinking have not only helped us reach more customers in a meaningful way, but have also helped us streamline our internal web operations.” - Sloan Schang, *Sr. Web Manager at Energy Trust*
 
 ### Interested to learn more about the processes behind the projects? [Get in touch.](https://thinkshout.com/contact/) 
