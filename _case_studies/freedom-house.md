@@ -2,9 +2,9 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study 
-active: true
+active: false
 homepage: false
-published: true
+published: false
 related: "freedom house"
 order: 4
 image: https://thinkshout.com/assets/images/case-studies/freedom-house-hero.jpg
