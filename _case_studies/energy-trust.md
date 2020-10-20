@@ -50,7 +50,7 @@ cs-sections:
   - section-description: |
       #### Clear Communication in Times of Change
 
-      The relationship between ThinkShout and Energy Trust began in a maintenance capacity, originally focused on technical support for their existing site. The partnership grew over time to include robust strategic services. ThinkShout has now had the opportunity to work with Energy Trust on almost every element of their digital communications — from redesigning their annual reports (digital and print), to building integrated campaigns and email templates, to testing and optimizing various content updates.
+      The relationship between ThinkShout and Energy Trust began in a maintenance capacity, originally focused on technical support for their existing site. The partnership grew over time to include robust strategic services. ThinkShout has now had the opportunity to work with Energy Trust on almost every element of their digital communications — [from redesigning their annual reports (digital and print)](https://thinkshout.com/blog/2020/10/closer-look-annual-report/), to building integrated campaigns and email templates, to testing and optimizing various content updates.
 
   - section-image: "/assets/images/case-studies/energytrust3.jpg"
     section-image-alt: "screenshot of the annual report mocked up on a tablet. The screenshot is a grid of altering images of people, and text call outs."
