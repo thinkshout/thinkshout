@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Vicki
 last_name: Brown
-position: Senior Art Director
+position: Director of Design
 leadin: |
  Vicki has always felt a calling toward progressive causes, and she strives to use her skills to help people and organizations that work to better the world. She believes that having a strong visual presence is one of the best ways to reach your audience these days, and we couldn’t agree more.
 social:
