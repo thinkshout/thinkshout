@@ -1,9 +1,13 @@
 [build]
   publish = "_site/"
-  command = "rake build"
 
 [build.environment]
   JEKYLL_ENV = "production"
+
+[context.production]
+  command = "rake build"
+[context.branch-deploy]
+  command = "rake build && cp _scripts/noindex_headers _site/_headers"
 
 [[redirects]]
 from = "/expertise"
