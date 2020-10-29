@@ -34,7 +34,7 @@ cs-intro:
 
   - intro-title: Challenge
     intro-text: |
-      The school serves a diverse group of students, so the University of Chicago needed a site that was both attractive and navigable for their varied needs. It couldn’t just be a pretty site, though - it needed to tell a story that encourages lifelong learning.
+      The school serves a diverse group of students, so the University of Chicago needed a site that was both attractive and navigable for varied needs. It couldn’t just be a pretty site, though - it needed to tell a story that encourages lifelong learning.
 
   - intro-title: Solutions
     intro-text: |
@@ -47,7 +47,7 @@ cs-intro:
 
 cs-sections:
   - section-description: |
-      For years, UChicago’s Graham School suffered from a site architecture that made it difficult for staff to update content as their needs changed and course offerings expanded. A messy admin interface and excess content types further cluttered the content creation experience. The University of Chicago needed to simplify this process while also improving the user experience by making the site easier for students to navigate and search for content.
+      For years, UChicago’s Graham School suffered from a site architecture that made it difficult for staff to update content as their needs changed and course offerings expanded. A messy admin interface and excess content types further cluttered the content creation experience. The University of Chicago needed to simplify this process while improving the user experience by making the site easier for students to navigate and search for content.
 
   - section-image: "/assets/images/case-studies/uchi-large1.jpg"
     section-image-alt: "University of Chicago Graham School Home page on mobile and laptop screens"
@@ -55,7 +55,7 @@ cs-sections:
   - section-description: |
       University of Chicago’s Graham School now puts the most important content front and center. Current and prospective students can browse and register for courses via Destiny One, a lifecycle management tool designed specifically for institutions like the Graham School that serve nontraditional students.
 
-      Since content management was a major pain point for the University of Chicago team, we also developed a solution that combined Google Sheets and Drupal Migrate to populate content on their site. Our engineers then trained the University of Chicago web team to use this system, which was uniquely tailored to their needs. (See Engineering Manager Maria Fisher’s process in this [two-part blog series](https://thinkshout.com/blog/2017/01/using-google-docs-and-migrate-to-populate-your-drupal-site-part-1/).)
+      Since content management was a major pain point for the University of Chicago team, we developed a solution that combined Google Sheets and Drupal Migrate to populate content on their site. Our engineers trained the University of Chicago web team to use this system, which was uniquely tailored to their needs. (See Engineering Manager Maria Fisher’s process in this [two-part blog series](https://thinkshout.com/blog/2017/01/using-google-docs-and-migrate-to-populate-your-drupal-site-part-1/).)
 
   - section-image: "/assets/images/case-studies/uchi-large3.jpg"
     section-image-alt: "Mobile view of program screens"
@@ -69,7 +69,7 @@ cs-sections:
 
   - section-type: result
     section-description: |
-      The updated site has performed where it matters most for the University and students alike: increased interest in online enrollment. Additionally, the design and content strategy has been so successful that other Colleges across the University system are beginning to adopt everything from the Graham School’s approach to its very content structures.
+      The updated site has performed where it matters most for the University and students alike: increased interest in online enrollment. Additionally, the design and content strategy has been so successful that other Colleges across the University system are beginning to adopt everything from the Graham School’s approach to its content structures.
 
 
 cs-cta-text: Launch Site

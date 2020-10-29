@@ -49,6 +49,7 @@ layout: default
 <section class="body">
   {{ content }}
 
+  {% if page.contact-cta != 'exclude' %}
   {% for cta in site.data.blog-cta %}
     {% if page.cta-id %}
       {% if cta.id == page.cta-id %}
@@ -92,6 +93,7 @@ layout: default
       {% break %}
     {% endif %}
   {% endfor %}
+  {% endif %}
 
   {% if page.tags.size > 0 %}
     <div class="tags">
