@@ -9,7 +9,7 @@ related: sustainability
 order: 2
 image: /assets/images/case-studies/Carbon12-hero.jpg
 image-alt: "Interior of the Carbon12 building."
-description: "Kasier + Path and the USDA Forest Service have joined forces to encourage US builders to use CLT in commercial building. Kaiser + Path is the design/build team behind Carbon12, the tallest CLT building in the United States, and their dedicated team of architects, designers, and project managers made this project possible in spite of daunting odds."
+description: "Kaiser + Path and the USDA Forest Service have joined forces to encourage US builders to use CLT in commercial building. Kaiser + Path is the design/build team behind Carbon12, the tallest CLT building in the United States, and their dedicated team of architects, designers, and project managers made this project possible in spite of daunting odds."
 # END LAYOUT DATA
 
 title: "Leading the Movement to Build with Cross-Laminated Timber"
@@ -30,7 +30,7 @@ cs-header:
 
 cs-intro:
   - intro-paragraph: |
-      Kasier + Path and the USDA Forest Service have joined forces to encourage US builders to use CLT in commercial building. Kaiser + Path is the design/build team behind Carbon12, the tallest CLT building in the United States, and their dedicated team of architects, designers, and project managers made this project possible in spite of daunting odds.
+      Kaiser + Path and the USDA Forest Service have joined forces to encourage US builders to use CLT in commercial building. Kaiser + Path is the design/build team behind Carbon12, the tallest CLT building in the United States, and their dedicated team of architects, designers, and project managers made this project possible in spite of daunting odds.
 
   - intro-title: Challenge
     intro-text: |
