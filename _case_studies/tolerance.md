@@ -51,7 +51,8 @@ cs-intro:
 cs-sections:
   - section-title:
     section-description: |
-      Our approach to design was to provide an experience without barriers. Regardless of whether a user is on their phone while taking the train to work or on their desktop at home, they should be able to easily access all resources and use them to build learning plans using the step-by-step process. We wanted a streamlined experience, with everything from magazine articles, lessons, texts, and professional development materials to be easily digestible, searchable, and most importantly offer the ability for users to build a plan off of them as they discovered valuable resources.
+      Our approach to design was to provide an experience without barriers. Regardless of whether a user is on their phone while taking the train to work or on their desktop at home, they should be able to easily access all of Teaching Tolerance’s resources. We wanted a streamlined experience, with everything from magazine articles, lessons, texts, and professional development materials to be easily digestible, searchable, and offer the ability to be built into a learning plan using the step-by-step process. 
+
 
   - section-image: "/assets/images/case-studies/Tolerance-large1.jpg"
     section-image-alt: "Image: Tolerance.org Tablet"
@@ -74,9 +75,9 @@ cs-sections:
 
   - section-title:
     section-description: |
-      A website is only as successful as the engagement it sparks. Educators are in a constant struggle to keep up with the pace of the world in which we live, all the while ensuring that they meet the standards of their local school districts.
+      A website is only as successful as the engagement it sparks. Educators are in a constant struggle to keep up with the pace of the world in which we live while ensuring that they meet the standards of local school districts.
 
-      That’s what lead to the creation of “The Moment,” a branded publishing platform that surfaces the most important content in response to cultural events. Whether the content is from five years ago or five hours ago, users get the best that Teaching Tolerance has to offer. And, by linking this content up to the organization’s email communication strategy, we ensure that teachers get the materials in their inbox before they know they need it.
+      That’s what led to the creation of “The Moment,” a branded publishing platform that surfaces the most important content in response to cultural events. Whether the content is from five years ago or five hours ago, users get the best that Teaching Tolerance has to offer. And by linking this content up to the organization’s email communication strategy, we ensure that teachers get the materials in their inbox before they know they need it.
 
   - section-image: "/assets/images/case-studies/Tolerance-large4.jpg"
     section-image-alt: "Final view of site on a tablet"
@@ -92,7 +93,7 @@ cs-sections:
     section-data-number3: "+27%"
     section-data-text3: "increased session duration"
     section-description: |  
-      Now users can craft unique learning plans and share them with peers in their own schools or across the country. Over time, as the online community grows, we hope to build more social tools for teachers to share, comment on, and learn from each other’s work; work that ultimately fosters a more inclusive and kind environment in our schools.
+      Now users can craft unique learning plans and share them with peers in their own schools or across the country. As the online community grows, we hope to build more social tools for teachers to share, comment on, and learn from each other’s work; work that ultimately fosters a more inclusive and kind environment in our schools.
 
 cs-cta-text: Launch Site
 cs-cta-url: https://www.tolerance.org/
