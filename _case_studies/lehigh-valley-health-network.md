@@ -80,11 +80,11 @@ cs-sections:
     section-image-alt: "LVHN services pages viewed on three phones."
 
   - section-description: |
-      #### The principles of simplicity and meeting the needs of the end user extend to every interface design
+      #### The principles of simplicity and meeting the needs of the end user extend to every interface design.
     
       The [Find a Doctor](https://www.lvhn.org/find-a-doctor) tool allows visitors to enter any term into a single search box – be it a condition, a service, a location, or a doctor’s name – and get a result, rather than overwhelming with multiple options and filters right off the bat. Subtle personalization reorders search results to bring up suggestions closer to a user’s location (when it’s known). Data-informed hierarchical layering highlights the information most likely to be needed while still providing access to greater detail.
     
-      Our engineering team also made it incredibly fast, with a Site Speed index of just 1.6 seconds, in spite of the complex data structures driving the site.
+      Our engineering team also made it incredibly fast, with a Site Speed Index of just 1.6 seconds, in spite of the complex data structures driving the site.
     
       Creating the perception of simplicity required careful planning, with our design and technical leads in constant communication. The underlying content structures and relationships, taxonomies, and integrations with third-party systems all work behind the scenes to create a user experience that reinforces the brand promise of LVHN: superior care within your own community.
 
@@ -99,7 +99,7 @@ cs-sections:
     section-data-number3: "10%"
     section-data-text3: "Increased Fundraising"
     section-description: |
-      LVHN.org’s redesign was a team effort between ThinkShout and LVHN. It involved 20 designers, developers, and project managers on our end interacting with dozens of stakeholders and decision-makers at LVHN over the course of two years. In the end, we launched a site that stayed true to the initial vision of creating an intuitive website that focused on the needs of patients.
+      LVHN.org’s redesign was a team effort. It involved 20 designers, developers, and project managers on our end interacting with dozens of stakeholders and decision-makers at LVHN over the course of two years. In the end, we launched a site that stayed true to the initial vision of creating an intuitive website that focused on the needs of patients.
         
       But the launch is just the start. We continue to work with LVHN’s team to design tests against daily human interactions to continue to improve the online experience and ensure that it lives up to the world-class care patients receive from the Lehigh Valley Health Network.
 
