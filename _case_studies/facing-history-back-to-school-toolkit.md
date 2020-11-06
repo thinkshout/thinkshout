@@ -33,21 +33,21 @@ cs-intro:
 
   - intro-title: Challenge
     intro-text: |
-      Could Facing History design and produce a deeply engaging, teacher-centered-resource for new teachers that could not only transform their own approach to teaching, but—by extension—the disposition and effectiveness of their classrooms themselves? The biggest challenge wouldn’t simply be the long-term metrics related to student outcomes, but the initial expansion of a new audience and subsequent engagement.
+      Facing History needed to design and produce a deeply engaging, teacher-centered-resource for new teachers that could not only transform their own approach to teaching, but—by extension—the disposition and effectiveness of their classrooms themselves. The biggest challenge wouldn’t simply be the long-term metrics related to student outcomes, but the initial expansion of a new audience and subsequent engagement.
 
 
   - intro-title: Solutions
     intro-text: |
-      Beyond strategy, design, and development of the core toolkit introduced by Facing History’s team, in order to meet the engagement goals of program and marketing teams, we also designed an engagement model that integrated automated SMS and email strategies. This balanced the need for quick, accessible tools for teachers during back to school week with key data acquisition requirements for Facing History.
+      Beyond strategy, design, and development of the core toolkit introduced by Facing History’s team, we also designed an engagement model that integrated automated SMS and email strategies in order to meet the engagement goals of their program and marketing teams. This balanced the need for quick, accessible tools for teachers during back to school week with key data acquisition requirements for Facing History.
 
   - intro-title: Results
     intro-text: |
-      Facing History has state-level partners, and during the prototype period, the toolkit performed better than other Facing History content in 9 of 12 states (75%), ranking significantly higher in traffic allocation. As importantly, those who used the toolkit skewed considerably younger than Facing History’s typical audience, with the largest group of users between the ages of 35-44. Finally, the toolkit itself garnered nearly **10 percent of the sites pageviews**, with the engagement model garnering the second-largest proportion of pageviews for toolkit’s new visitors.
+      Facing History has state-level partners, and during the prototype period the toolkit performed better than other Facing History content in 9 of 12 states (75%), ranking significantly higher in traffic allocation. As importantly, those who used the toolkit skewed considerably younger than Facing History’s typical audience, with the largest group of users between the ages of 35-44. Finally, the toolkit itself garnered nearly **10 percent of the sites pageviews**, with the engagement model garnering the second-largest proportion of pageviews for toolkit’s new visitors.
 
 
 cs-sections:
   - section-description: |
-      The Back-to-School Toolkit was designed to stretch the Facing History and Ourselves brand to reflect the unique offerings of the product itself. The design leveraged a focused and warm color application, clean typography and engaging iconography, keeping in mind the goal of creating an end-product that was incredibly warm, engaging, and user-friendly. Using temperate colors and a clear hierarchy meant that users could navigate through an enormous amount of content without feeling overwhelmed. Creating custom icons to distinguish sections of content allowed users to identify sections and skip between them at any screen size. Meanwhile, the UX allowed users to truly customize their experience, with anchor links and a sticky menu to move around a lesson at all times, and the ability to move between lessons at all screen sizes.
+      The Back-to-School Toolkit was designed to stretch the Facing History and Ourselves brand to reflect the unique offerings of the product itself. The design leveraged a focused and warm color application, clean typography and engaging iconography, keeping in mind the goal of creating an end-product that was incredibly welcoming, engaging, and user-friendly. Using temperate colors and a clear hierarchy meant that users could navigate through an enormous amount of content without feeling overwhelmed. Creating custom icons to distinguish sections of content allowed users to identify sections and skip between them at any screen size. Meanwhile, the UX allowed users to truly customize their experience, with anchor links and a sticky menu to move around a lesson at all times, and the ability to move between lessons at all screen sizes.
 
   - section-image: "/assets/images/case-studies/FHAO_toolkit_large.jpg"
     section-image-alt: "Back to School Toolkit viewed on a laptop"
@@ -66,9 +66,9 @@ cs-sections:
 
   - section-type: result
     section-description: |
-      The toolkit performed better than other Facing History content in 9 of 12 states where the organization operates. It also kept users on Facing History's site for 2 times as long as other content, and 30% of users who interacted with it downloaded a resource  (as opposed to  3.3 percent of those who did not interact with the toolkit).
+      The toolkit performed better than other Facing History content in 9 of 12 states where the organization operates. It also kept users on Facing History's site twice as long as other content, and 30% of users who interacted with it downloaded a resource (as opposed to 3.3% of those who did _not_ interact with the toolkit).
 
-      All in all, the collaboration didn’t just test a new product concept for Facing History, but ThinkShout’s ability to collaborate  effectively and efficiently within the organization’s established teams. So far, from qualitative feedback from their team, to these initial metrics, all signs point towards a resounding success.
+      All in all, the collaboration didn’t just test a new product concept for Facing History, but ThinkShout’s ability to collaborate effectively and efficiently within the organization’s established teams. So far, from qualitative feedback from their team, to these initial metrics, all signs point towards a resounding success.
 
 
 
