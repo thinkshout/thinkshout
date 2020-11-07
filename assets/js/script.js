@@ -199,18 +199,18 @@
 
   // Alert show/hide check.
   // eraseCookie('ts-alert')
-  if (getCookie('ts-alert') == null) {
-    $('.alert').removeClass('hidden');
-    $('#main-content, header').addClass('alert-active');
-  }
+  // if (getCookie('ts-alert') == null) {
+  //   $('.alert').removeClass('hidden');
+  //   $('#main-content, header').addClass('alert-active');
+  // }
 
 
   // Alert banner 'dismiss' code.
-  $('.alert .dismiss').click(function() {
-    $(this).parent().remove();
-    $('#main-content, header').removeClass('alert-active');
-    setCookie('ts-alert','1','30');
-  });
+  // $('.alert .dismiss').click(function() {
+  //   $(this).parent().remove();
+  //   $('#main-content, header').removeClass('alert-active');
+  //   setCookie('ts-alert','1','30');
+  // });
 
 
 
