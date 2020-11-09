@@ -35,11 +35,11 @@ cs-intro:
 
   - intro-title: Challenge
     intro-text: |
-      Columbia Riverkeeper needed more than just a platform, they needed the strategic expertise and ongoing support to craft compelling calls to action and tell their story.
+      Columbia Riverkeeper needed more than just a platform-- they needed strategic expertise and ongoing support to help tell their story and craft compelling calls to action.
 
   - intro-title: Solutions
     intro-text: |
-      Bene offered the security and room to grow that they were looking for in a platform, coupled with the strategic and design support from a team ready to spring into action.
+      We coupled strategy and design support with a new Bene site, offering much more security and room for growth.
 
   - intro-title: Results
     intro-text: |
@@ -50,13 +50,13 @@ cs-intro:
 
 cs-sections:
   - section-description: |
-      The challenges Columbia Riverkeeper faced were by no means unique to nonprofits (big or small), however, content strategy and design support doesn’t just come with the wiki or FAQs of an out of the box solution. They required the discovery process, strategic direction, and design skills that comes with a high budget website redesign, but they needed it for a fraction of the cost.
+      The challenges Columbia Riverkeeper faced were by no means unique to nonprofits, and content strategy and design support doesn’t come with the wiki or FAQs of an out of the box solution. They required the discovery process, strategic direction, and design skills that come with a high budget website redesign, but they needed it for a fraction of the cost.
 
   - section-image: "/assets/images/case-studies/CORI-large-1.jpg"
     section-image-alt: "Columbia Riverkeeper Home Page Screens"
 
   - section-description: |
-      Our experienced staff worked with Columbia Riverkeeper to define and prioritize their target audiences, their motivations, and how to structure content on their site to keep those audiences coming back and engaged.
+      Our staff worked with Columbia Riverkeeper to define and prioritize their target audiences and their motivations. This audience research allowed us to develop user pathways that would not only keep users coming back to the site, but that would keep them engaged during each session. 
 
 
   - section-type: quote
@@ -67,7 +67,8 @@ cs-sections:
   - section-description: |
       Next was the application of the Bene base build, followed by the implementation of Columbia Riverkeeper’s design. We also provided template theming for Salsa, (their CRM system and Email Service Provider) to ensure continuity for the end user when they completed petitions or other actions on their site.
 
-      After some training sessions to ensure Columbia Riverkeeper’s staff was set up for success in using and administering the tool, we then handed over the keys to the team to import and stage their own content in the system. It truly was an intuitive, clean, and simple process.
+      After some training sessions to ensure Columbia Riverkeeper’s staff was set up for success in using the tool, we handed over the keys to the team to import and stage their own content in the system. It was an intuitive, clean, and simple process.
+
 
   - section-image: "/assets/images/case-studies/CORI-large-2.jpg"
     section-image-alt: "Website homepage displayed on a smartphone"
@@ -87,7 +88,7 @@ cs-sections:
     section-data-number3: "+45%"
     section-data-text3: "increase in pageviews"
     section-description: |
-      Since launch, our relationship with Columbia Riverkeeper has evolved into one of our most valued partnerships, with quarterly strategy meetings where we cover their upcoming campaigns and fundraising goals, as well as provide them with an analysis of their site performance to identify future areas for improvement. We’re excited to see where they go as they embark on this new chapter in their digital identity.
+      Since launch, our relationship with Columbia Riverkeeper has evolved into one of our most valued partnerships, with quarterly strategy meetings where we cover upcoming campaigns and fundraising goals, as well as provide an analysis of their site performance to identify future areas for improvement. We’re excited to see where they go as they embark on this new chapter in their digital identity.
 
 cs-cta-text: Launch Site
 cs-cta-url: https://www.columbiariverkeeper.org
