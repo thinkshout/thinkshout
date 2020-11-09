@@ -35,11 +35,11 @@ cs-intro:
 
   - intro-title: Challenge
     intro-text: |
-      AnitaB.org hosts one of the most powerful conferences for Women in Tech in the world. But the energy wasn’t sustained after women went home. They wanted to know: could we provide an equally-powerful experience 365 days a year, in an already-saturated marketplace of social networks and online communities?
+      AnitaB.org hosts one of the most powerful conferences for Women in Tech in the world. But the energy from the conference wasn’t sustained after attendees went home. They wanted to know: could we provide an equally-powerful experience 365 days a year, in an already-saturated marketplace of social networks and online communities?
 
   - intro-title: Solutions
     intro-text: |
-      ThinkShout was selected to do exploratory research: learn exactly what it is that women technologists need to be successful on a daily basis, and confirm the market viability for such an online community.
+      Do exploratory research to learn exactly what it is that women technologists need to be successful on a daily basis, and confirm the market viability for such an online community.
 
   - intro-title: Results
     intro-text: |
@@ -49,9 +49,9 @@ cs-intro:
 cs-sections:
   - section-title: Our user research was both in-depth and broad-based.
     section-description: |
-      We [began our work](https://thinkshout.com/blog/2018/07/user-research/) by conducting one-on-one interviews of 17 women and three male allies, and distributing a broad-based survey to over 40,000 contacts on the AnitaB.org email list. The individual conversations surfaced invaluable qualitative insights and powerfully candid quotes, while the survey confirmed those insights with solid quantitative data.
+      We [began our work](https://thinkshout.com/blog/2018/07/user-research/) by conducting one-on-one interviews with 20 individuals, and distributing a broad-based survey to over 40,000 contacts on the AnitaB.org email list. The individual conversations surfaced invaluable qualitative insights and powerfully candid quotes, while the survey confirmed those insights with solid quantitative data.
 
-      From this research, we developed six unique personas across life and career stages — including two that AnitaB.org had never before considered. We outlined the nuanced needs, motivations, challenges, and success states from our interview and survey findings. And as we looked for patterns and commonalities across all six personas, three core needs soon became apparent.
+      From this research, we developed six unique personas across life and career stages — including two that AnitaB.org had never before considered. We outlined the nuanced needs, motivations, challenges, and success states from our interview and survey findings. As we looked for patterns and commonalities across all six personas, three core needs became apparent.
 
   - section-image1: "/assets/images/case-studies/AnitaB-Small-2.jpg"
     section-image-alt1: "Smiling woman with bright red hair"
@@ -82,9 +82,9 @@ cs-sections:
     section-attribution: "~ Genie Gratto, Senior Director, Marketing Communications & PR"
 
 
-  - section-title: "Envisioning a new platform: features, functionality, and UX"
+  - section-title: "Envisioning a new platform: features, functionality, and UX."
     section-description: |
-      Having confirmed market opportunity, the final phase of our exploratory research was to develop a set of requirements for a minimal viable product to launch. We also mapped out user journeys for all six of the personas we had identified, indicating opportunities for AnitaB.org to engage with their audiences not just on this platform, but at GHC and via other core programmatic offerings.
+      Having confirmed market opportunity, the final phase of our exploratory research was to develop a set of requirements for a minimal viable product to launch. We mapped out user journeys for all six of the personas we had identified, identifying opportunities for AnitaB.org to engage with their audiences on this platform, at their events, and through other core programmatic offerings..
 
   - section-image1: "/assets/images/case-studies/AnitaB-Small-1.jpg"
     section-image-alt1: "Serious busineswoman whiteboarding a flowchart"

@@ -75,7 +75,7 @@ cs-sections:
 
       Energy Trust is a unique, valuable resource for the people they serve. Our job is to make sure folks understand how they can take advantage of the many incentives and opportunities available to them. Solving this communications challenge in a time of increased demands on time and attention takes a strategic focus on what stories to tell, what channels to use, and how to measure success. 
       
-      Our partnership is a blend of the above, and we continuously work with the Energy Trust team to improve their communication platforms. The result is a website that not only highlights facts and figures (like important energy savings goals and economic impact numbers), but also lets people know what Energy Trust can do for them in a way that is personalized and achievable.
+      Our partnership is a blend of the above, and we continuously work with the Energy Trust team to improve their communication platforms. The result is a website that not only highlights facts and figures (like important energy saving goals and economic impact numbers), but also lets people know what Energy Trust can do for them in a way that is personalized and achievable.
 
   - section-type: quote
     section-quote: |

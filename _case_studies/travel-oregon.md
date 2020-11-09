@@ -9,8 +9,8 @@ order: 4
 related: tror
 image: https://thinkshout.com/assets/images/case-studies/travel-oregon-hero.jpg
 image-alt: "A couple flying a kite at the Bandon Beach, Oregon"
-description: "Travel Oregon is the official tourism marketing organization for the State of Oregon. They work to enhance visitors’ experiences by providing information, resources, and trip planning tools for just about any activity available in our state.
-"
+description: "Travel Oregon is the official tourism marketing organization for the State of Oregon. They work to enhance visitors’ experiences by providing information, resources, and trip planning tools for just about any activity available in our state."
+
 # END LAYOUT DATA
 
 title: To Delight and Inspire.
@@ -32,11 +32,11 @@ cs-header:
 
 cs-intro:
   - intro-paragraph: |
-      Travel Oregon is the official destination marketing organization for the State of Oregon. They work to enhance visitors’ experiences by providing information, resources, and trip planning tools for just about any activity available in our state. Most importantly, they inspire the public to visit, and consistently convey the magic and whimsy of Oregon.
+      Travel Oregon is the official destination marketing organization for the State of Oregon. They work to enhance visitors’ experiences by providing information, resources, and trip planning tools for just about every activity available in our state. Whether they inspire the public to take a short visit or a permanent vacation, they consistently convey the magic, whimsy, and sheer beauty of Oregon.
 
   - intro-title: Challenge
     intro-text: |
-      Creating natural pathways for people to discover more of what is available in Oregon, and truly picture themselves here.
+      Creating natural pathways for people to discover more of what is available in Oregon, so they can truly picture themselves here.
 
   - intro-title: Solutions
     intro-text: |
@@ -53,7 +53,7 @@ cs-sections:
     section-image-alt: "A smartphone view of the Travel Oregon website"
 
   - section-description: |
-      We crafted a stunning new design leveraging an abundance of beautiful imagery with an information architecture that intuitively drives people to the content they need to plan their visit. But it’s not all good looks. The site, built on WordPress, integrates numerous backend systems including a content repository designed for Destination Management Organizations throughout the state. The new site is blazing fast, with performance wins all around. In fact, page load times decreased from just over eight seconds to five under our watch.
+      We crafted a stunning new design leveraging an abundance of beautiful imagery with an information architecture that intuitively drives people to the content they need to plan their visit. But it’s not all good looks. The site, built on WordPress, integrates numerous backend systems including a content repository designed for Destination Management Organizations throughout the state. The new site is blazing fast, with performance wins all around. In fact, page load times decreased from over eight seconds to only five.
 
 
   - section-image: "/assets/images/case-studies/TROR-Large-2.jpg"
@@ -61,7 +61,7 @@ cs-sections:
 
 
   - section-description: |
-      One of the things we felt strongly about in taking on this project was the concept of giving site visitors a sense of “place.” It’s that feeling you get when you see an image of a location so breathtaking that you want to go see it for yourself. And Oregon has no shortage of impressive vistas.
+      One of the things we felt strongly about in taking on this project was the concept of giving site visitors a sense of “place.” It’s that feeling you get when you see an image of a location so breathtaking that you long to see it for yourself; a sort of nostalgia for a place you've never been. Lucky for us, Oregon has no shortage of impressive vistas.
 
   - section-image: "/assets/images/case-studies/TROR-Large-3.jpg"
     section-image-alt: "Three smartphones showing images of the Travel Oregon website"
@@ -76,7 +76,7 @@ cs-sections:
     section-image-alt2: "A smartphone view of the Travel Oregon website"
 
   - section-description: |
-      We wanted people to truly picture themselves here; and we achieved this through a feature we implemented on the homepage hero. Visit TravelOregon.com at various times of day from other time zones, and you’ll be served up a scenic image from somewhere in Oregon at the local time here, in Oregon.
+      We wanted people to picture themselves here, and we achieved this through a feature we implemented on the homepage hero. Visit [TravelOregon.com](https://traveloregon.com/) and you’ll be served up a scenic image from somewhere in Oregon at the local time here-- even if you're visiting from a different timezone.
 
 
   - section-type: quote
@@ -96,10 +96,11 @@ cs-sections:
     section-data-text2: "faster load time"
     section-data-number3: "-33%"
     section-data-text3: "bounce rate"
+    
     section-description: |
-      Overall, ThinkShout maintained a strong UX narrative throughout the project lifecycle – this was really more about how Travel Oregon could serve their audiences and tell an attractive, content-rich story of Oregon and all that it has to offer. Additionally, we built an infrastructure that is easy for administrators to maintain and manage — saving time and costs for staff.
+      ThinkShout maintained a strong UX narrative throughout the whole project lifecycle – focusing on how Travel Oregon could best serve their audiences and tell an attractive, content-rich story of Oregon and all that it has to offer. Additionally, we built an infrastructure that is easy for administrators to maintain and manage, saving time and costs for staff.
 
-      The result was a site that welcomes hours of exploration and information for those considering a visit as well as resident Oregonians themselves.
+      The result was a site that welcomes hours of exploration and information for those considering a visit, as well as resident Oregonians themselves.
 
       In short, we like it here, and we think you will too.
 

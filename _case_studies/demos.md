@@ -32,7 +32,7 @@ cs-header:
 
 cs-intro:
   - intro-paragraph: |
-      Every day, it can feel like our democracy is threatened. We desperately need organizations [like the dynamic “think-and-do” tank—Dēmos](https://www.demos.org/)—to lead us toward a just, inclusive, multiracial democracy.
+      Every day, it can feel like our democracy is threatened. We desperately need organizations [like the dynamic “think-and-do” tank, Dēmos,](https://www.demos.org/)to lead us toward a just, inclusive, multiracial democracy.
 
   - intro-title: Challenge
     intro-text: |
@@ -50,9 +50,9 @@ cs-intro:
 cs-sections:
   - section-title: "We established a strong website strategy from the start, 100% aligned with their mission and branding goals."
     section-description: |
-      Our Discovery was broad and comprehensive, including a full-day onsite workshop, and review of internal stakeholder research and user personas. It became clear that Dēmos’s work is complex, nuanced, and often driven by current events, media coverage, and public attention. As such, the old site was a difficult-to-navigate index of overly-parsed content.
+      Our discovery was broad and comprehensive, including a full-day onsite workshop, and review of internal stakeholder research and user personas. It became clear that Dēmos’s work is complex and nuanced-- often driven by current events, media coverage, and public attention. As such, the old site was a difficult-to-navigate index of overly parsed content.
 
-      One thing was incredibly clear however: at their core, Dēmos is all about advancing democratic reform and economic justice through a race-forward lens. By building the new website around these essential truths about their organization, we not only set a foundation upon which the rest of the site was constructed, but upon which they could organize their great library of content for users to easily find and quickly grasp.
+      One thing was incredibly clear however: at their core, Dēmos is all about advancing democratic reform and economic justice through a race-forward lens. By building the new website around these essential truths, we not only set a foundation upon which the rest of the site was constructed, but upon which they could organize their great library of content for users to easily find and quickly grasp.
 
   - section-image: "/assets/images/case-studies/demos-large-homepage.jpg"
     section-image-alt: "A woman uses the Dēmos site on a laptop"
@@ -65,14 +65,14 @@ cs-sections:
 
   - section-title: "We created new and improved content types that better advance their efforts, including cases and publications."
     section-description: |
-      Publications and cases are at the heart of Dēmos’s work. However, publications on the old Dēmos.org were difficult to navigate — and some cases were scattered throughout the site, rather than centrally located. We created new content types that give visibility to these efforts and allow users to navigate the rich information they contain in an easier, more efficient way.
+      Publications and cases are at the heart of Dēmos’s work. However, on the old Dēmos.org these were difficult to navigate and sometimes scattered throughout the site, rather than centrally located. We created new content types that give visibility to these efforts and allow users to navigate the rich information they contain in an easier, more efficient way.
 
   - section-image: "/assets/images/case-studies/demos-large-resource.jpg"
     section-image-alt: "Dēmos resources and cases viewed on a laptop."
 
   - section-title: "We developed stunning and distinct designs to help Dēmos further establish its brand identity."
     section-description: |
-      While Dēmos was undertaking holistic brand identity work, we partnered with them to design a website with a refreshed visual identity that elevated their brand from a simple color palette and wordmark to a whole new level of branding. With Dēmos’s essential truths around democratic reform and economic justice in hand, we created a content-first design system that places people-centered photography and bold typography front and center. Together, these elements more powerfully tell the story of Dēmos’s critical initiatives across the country.
+      While Dēmos was undertaking holistic brand identity work, we partnered with them to design a website with a refreshed visual identity that elevated their brand from a simple color palette and wordmark to a whole new level. With Dēmos’s essential truths around democratic reform and economic justice in hand, we created a content-first design system that places people-centered photography and bold typography front and center. Together, these elements more powerfully tell the story of Dēmos’s critical initiatives across the country.
 
   - section-image: "/assets/images/case-studies/demos-large-blog.jpg"
     section-image-alt: "Dēmos blog on a desktop computer"
@@ -84,7 +84,7 @@ cs-sections:
 
   - section-title: "A website built on an organization’s “Essential Truths” is a website built to last."
     section-description: |
-      Progressive organizations are always working in an extraordinary number of ways to advance the cause they care about, and Dēmos is no different. But regardless of what comes and goes in the media spotlight, or public narrative, a website that is founded upon an organization’s “essential truths” holds steady through it all. You become better positioned to not just weather whatever comes, but harness the momentum and use it to your mission’s and brand’s advantage. With a [new cutting-edge website](https://www.demos.org/) founded upon the fundamental reasons why the organization exists, we can’t wait to see what Dēmos does next.
+      Progressive organizations are always working in an extraordinary number of ways to advance the cause they care about, and Dēmos is no different. Regardless of what comes and goes in the media spotlight, or public narrative, a website that is founded upon an organization’s “essential truths” holds steady through it all. You become better positioned to not just weather whatever comes, but harness the momentum and use it to your mission’s and brand’s advantage. With a [new cutting-edge website](https://www.demos.org/) founded upon the fundamental reasons why the organization exists, we can’t wait to see what Dēmos does next.
 
 
 cs-cta-text: Launch Site

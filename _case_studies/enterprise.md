@@ -9,7 +9,7 @@ related: enterprise
 order: 6
 image: /assets/images/case-studies/Enterprise-hero2.jpg
 image-alt: "Family moving into a house, child is playing in one of the moving boxes."
-description: "As a proven and powerful far-reaching nonprofit, Enterprise brings together nationwide know-how, partners, policy leadership and investment to multiply the impact of local affordable housing development. Their mission is to create opportunity for low and moderate-income people through housing in diverse, thriving communities. To date, Enterprise has created 662,000 homes, invested nearly $53 billion and touched millions of lives. And there’s more work to be done."
+description: "As a proven and powerful far-reaching nonprofit, Enterprise brings together nationwide know-how, partners, policy leadership and investment to multiply the impact of local, affordable housing development. Their mission is to create opportunity for low and moderate-income people through housing in diverse, thriving communities. To date, Enterprise has created 662,000 homes, invested nearly $53 billion and positively impacted millions of lives. And there’s more work to be done."
 # END LAYOUT DATA
 
 title: "Establishing a Long Term Foundation While Promising Short-Term Success."
@@ -30,7 +30,7 @@ cs-header:
 
 cs-intro:
   - intro-paragraph: |
-      As a proven and powerful far-reaching nonprofit, Enterprise brings together nationwide know-how, partners, policy leadership and investment to multiply the impact of local affordable housing development. Their mission is to create opportunity for low and moderate-income people through housing in diverse, thriving communities. To date, Enterprise has created 662,000 homes, invested nearly $53 billion and touched millions of lives. And there’s more work to be done.
+      As a proven and powerful far-reaching nonprofit, Enterprise brings together nationwide know-how, partners, policy leadership and investment to multiply the impact of local, affordable housing development. Their mission is to create opportunity for low and moderate-income people through housing in diverse, thriving communities. To date, Enterprise has created 662,000 homes, invested nearly $53 billion and positively impacted millions of lives. And there’s more work to be done.
 
   - intro-title: Challenge
     intro-text: |
