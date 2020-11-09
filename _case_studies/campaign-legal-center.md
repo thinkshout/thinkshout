@@ -38,7 +38,7 @@ cs-intro:
 
   - intro-title: Solutions
     intro-text: |
-      We focused on elevating their four main issue areas and created timely, rich media that is responsive to issues and stories of the day. Along those same lines, we designed content-specific calls to action tied to traffic spikes from news stories aimed at converting that traffic into larger and more diverse constituency.
+      We focused on elevating their four main issue areas and created timely, rich media that is responsive to issues and stories of the day. Along those same lines, we designed content-specific calls to action tied to traffic spikes from news stories aimed at converting that traffic into a larger and more diverse constituency.
 
   - intro-title: Results
     intro-text: |
@@ -96,7 +96,7 @@ cs-sections:
     section-data-number2: "+94%"
     section-data-text2: "growth in mobile traffic"
     section-description: |
-      The recent increase in polarization and extreme partisanship has made CLC’s work more relevant than ever. Work that as recently as a few years ago might have remained the specialized focus of researchers and legal minds is now must-read content for people on any side of the aisle. The launch of their beautiful, engaging new site has paid immediate dividends with increased time on site and pages per visit, which is a trend we expect to see increase as their newsworthy stories — on everything from Supreme Court gerrymandering cases to government ethics and campaign finance — reach a broader audience across every channel.
+      The recent increase in polarization and extreme partisanship has made CLC’s work more relevant than ever. Work that might have remained the specialized focus of researchers and legal minds is now must-read content for people on any side of the aisle. The launch of their beautiful, engaging new site has paid immediate dividends with increased time on site and pages per visit, which is a trend we expect to see increase as their newsworthy stories — on everything from Supreme Court gerrymandering cases to government ethics and campaign finance — reach a broader audience across every channel.
 
 
 cs-cta-text: Launch Site
