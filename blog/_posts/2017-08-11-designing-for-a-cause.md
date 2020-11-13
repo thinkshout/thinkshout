@@ -2,6 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: archive
+hidden: true
 title: Designing for a Cause
 homepage: false
 author: alejandro

@@ -21,6 +21,7 @@ tags:
 date: 2016-02-23 15:00:00
 image: /assets/images/thinkshout-logo1.jpg
 topic: archive
+hidden: true
 header-image: /assets/images/ts_redesign/blog/up-and-theming1.jpg
 header-image-alt: "Image: Model Thinkshout Employees"
 ---

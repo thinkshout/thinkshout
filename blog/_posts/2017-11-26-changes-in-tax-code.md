@@ -2,6 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: archive
+hidden: true
 title: What the proposed changes in the tax code mean for your organization
 homepage: false
 author: natania

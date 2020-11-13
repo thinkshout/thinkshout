@@ -4,7 +4,7 @@ body-class: blog-post
 topic: technology
 title: The Secrets of Keeping Your Content Editors Happy
 homepage: false
-author: rebecca
+author: rebeccaj
 published: true
 featured: false
 short: With contributions from Tracey Whitney and Joe Komenda

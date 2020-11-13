@@ -2,9 +2,10 @@
 layout: blog
 body-class: blog-post
 topic: archive
+hidden: true
 title: Upgrading MailChimp eCommerce and an Introduction to Drupal 8's Event System
 homepage: false
-author: dan
+author: danruscoe
 published: true
 featured: true
 short: Get your hooks out of Drupal with Drupal 8's event system.

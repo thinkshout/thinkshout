@@ -14,6 +14,7 @@ tags:
 date: 2016-01-28 13:00:00
 image: /assets/images/thinkshout-logo1.jpg
 topic: archive
+hidden: true
 
 intro: |  
   These two global Drupal events offer something for Drupal folks of all skill levels, helping us to tap into Portland’s strong Drupal community. I hope you’ll join us for either (or both!) of these great events.

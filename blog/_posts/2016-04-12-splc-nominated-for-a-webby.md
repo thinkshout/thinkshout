@@ -18,6 +18,7 @@ tags:
 date: 2016-04-12 12:00:00
 image: /assets/images/thinkshout-logo1.jpg
 topic: archive
+hidden: true
 header-image: /assets/images/blog/trump1.jpg
 header-image-alt: "Image: SPLC Header"
 ---

@@ -5,6 +5,7 @@ author: brandon
 layout: blog
 body-class: blog-post
 topic: archive
+hidden: true
 header-image:
 header-image-alt:
 

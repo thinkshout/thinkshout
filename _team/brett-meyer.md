@@ -20,5 +20,5 @@ name: brett-meyer
 bio: |
   Brett is a natural storyteller. He always thought he was going to be a writer, but he began his career as a dot-com software developer after discovering there is little market for essays about Thomas Pynchon. After years of building applications for the financial industry, he and his wife sold most of their worldly possessions and spent two years in Mali with the Peace Corps, where he trained grassroots organizations in technology and media. Following this experience, Brett served as Communications Director at the Nonprofit Technology Network for six years, helping grow NTEN’s community from a few thousand to over 50,000 engaged participants before joining ThinkShout in 2013.<p>
   Brett has a deep understanding of the communications and fundraising challenges our clients face and is uniquely positioned to help them build comprehensive digital strategies. He's also the only person in the office to have worked at a radio station in West Africa, where he may or may not have produced a rap about the joys of eating beans. You can follow everything he cooks on <a href="https://www.instagram.com/madousamake/">Instagram.</a>
-slug: brett
+slug: brett-meyer
 ---

@@ -2,6 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: archive
+hidden: true
 title: Roadmap to Retention
 homepage: false
 author: natania

@@ -4,7 +4,7 @@ body-class: blog-post
 topic: technology
 title: Skipping a Version - Migrating from Drupal 6 to Drupal 8 with Drupal Migrate
 homepage: false
-author: dan
+author: danruscoe
 published: true
 featured: false
 short: The differences between Drupal 6 and Drupal 8 are pretty major, but thankfully, making the jump is singificantly easier with Drupal Migrate.

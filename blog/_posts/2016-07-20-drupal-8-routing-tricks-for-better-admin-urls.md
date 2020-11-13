@@ -4,7 +4,7 @@ body-class: blog-post
 topic: technology
 title: Drupal 8 Routing Tricks for Better Admin URLs
 homepage: false
-author: dan
+author: danruscoe
 published: true
 featured: false
 short: Utilize Drupal 8's routing system for a better admin experience.

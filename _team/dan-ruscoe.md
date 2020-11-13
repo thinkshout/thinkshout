@@ -15,8 +15,8 @@ team-image:
   large: team/large/dan.jpg
 published: true
 current-employee: false
-name: dan
+name: danruscoe
 bio: |
   Given his expertise in building social gaming platforms, he has a strong sense for how web technologies can be used to promote web engagement. Dan left California in search of an opportunity to contribute regularly to the open source community and put those contributions to good use for nonprofits. He studied Computing, Electronics and Physics at Bolton Sixth Form College in Bolton, England. When he isn’t writing code, he’s normally hacking away at an electronics project or engrossed in a point-and-click adventure game. While he loves new technology, he still keeps a couple of long-obsolete computers around as a reminder of where he started programming.
-slug: dan
+slug: danruscoe
 ---

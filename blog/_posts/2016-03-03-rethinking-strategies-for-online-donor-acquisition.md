@@ -15,6 +15,7 @@ tags:
 date: 2016-03-03 13:00:00
 image: /assets/images/thinkshout-logo1.jpg
 topic: archive
+hidden: true
 ---
 
 File attrition is (unfortunately) a completely normal part of nonprofit life, and list churn – aka attrition or loss of subscribers/donors – happens to even the most seasoned cultivation programs. On average, organizations see a monthly churn rate of <a href="http://www.mrbenchmarks.com/" target="_blank">1.7%</a>. That’s why you must create additional opportunities to grow your file and bring more supporters on board. 

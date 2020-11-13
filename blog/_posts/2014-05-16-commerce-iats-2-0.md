@@ -2,13 +2,14 @@
 layout: blog
 body-class: blog-post
 topic: archive
+hidden: true
 header-image:
 header-image-alt:
 
 title: Commerce iATS 2.0
 published: true
 featured: false
-author: dan
+author: danruscoe
 short: Our latest release of Commerce iATS brings ACH/EFT and Direct Debit payments.
 date: 2014-05-16 15:00:00
 tags:

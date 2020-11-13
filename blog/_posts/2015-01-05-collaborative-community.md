@@ -3,6 +3,7 @@ title: The Power of a Collaborative Community
 layout: blog
 body-class: blog-post
 topic: archive
+hidden: true
 header-image:
 header-image-alt:
 
