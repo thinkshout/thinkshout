@@ -7,7 +7,9 @@ topic:
 campaign-topic: accessibility
 title: "Accessibility for Teams in a Hurry: Laying a Foundation"
 homepage: false
-author: jules
+author:
+ - vicki
+ - jules
 published: true
 permalink: /blog/2020/04/accessibility-foundations/
 featured: true

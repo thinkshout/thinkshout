@@ -7,7 +7,9 @@ topic:
 campaign-topic: accessibility
 title: "Accessibility for Teams in a Hurry: Steps for Getting Started"
 homepage: false
-author: jules
+author:
+ - jules
+ - vicki
 published: true
 permalink: /blog/2020/04/getting-started-accessibility/
 featured: true

@@ -8,7 +8,9 @@ topic:
 campaign-topic: accessibility
 title: "Accessibility for Teams in a Hurry: Navigation"
 homepage: false
-author: jules
+author:
+ - vicki
+ - jules
 published: true
 permalink: /blog/2020/04/accessible-navigation/
 featured: true

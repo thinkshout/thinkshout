@@ -8,7 +8,9 @@ topic:
 campaign-topic: accessibility
 title: "Accessibility for Teams in a Hurry: Links & Buttons"
 homepage: false
-author: jules
+author:
+ - jules
+ - vicki
 published: true
 permalink: /blog/2020/04/accessible-links-buttons/
 featured: true
