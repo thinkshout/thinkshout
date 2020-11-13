@@ -8,7 +8,9 @@ topic:
 campaign-topic: accessibility
 title: "Accessibility for Teams in a Hurry: Color Contrast"
 homepage: false
-author: vicki
+author:
+ - vicki
+ - jules
 published: true
 permalink: /blog/2020/04/accessibility-color-contrast/
 featured: true
