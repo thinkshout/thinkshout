@@ -58,8 +58,25 @@
 
     .byline {
       margin-bottom: 2rem;
+      flex-wrap: wrap;
     }
 
+    .author {
+      @media (max-width: 768px) {
+        margin-left: 1rem;
+      }
+    }
+
+    .author ~ .author {
+      margin-left: 1rem;
+    }
+    span.author {
+      display: flex;
+      align-items: center;
+      @media (max-width: 768px) {
+        margin-bottom: 1rem;
+      }
+    }
   }
 
   .blog-header-image {

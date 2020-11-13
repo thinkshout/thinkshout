@@ -2,6 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: archive
+hidden: true
 title: Civic Engagement at ThinkShout
 homepage: false
 author: lev  

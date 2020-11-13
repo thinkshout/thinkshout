@@ -2,6 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: archive
+hidden: true
 title: The Next Chapter for Mandrill
 author: mike
 published: true

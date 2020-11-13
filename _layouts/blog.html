@@ -17,17 +17,19 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <p class="byline">
     {% for person in site.team %}
-      {% if page.author == person.name %}
-        <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}" alt="{{ person.first_name }} {{ person.last_name }}">
-        <span class="byline-wrapper">
-          {% if person.current-employee %}
-            <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a>
-            <span class="position">{{ person.position }}</span>
-          {% else %}
-            <strong>{{ person.first_name }} {{ person.last_name }}</strong>
-            <span class="position">{{ person.position }}</span>
-            <small>ThinkShout Alumnus</small>
-          {% endif %}
+      {% if page.author contains person.name %}
+        <span class="author">
+          <img class="team-photo" src="{{ site.baseurl }}/assets/images/{{ person.team-image.small }}" alt="{{ person.first_name }} {{ person.last_name }}">
+          <span class="byline-wrapper">
+            {% if person.current-employee %}
+              <a class="team-name" href="{{ site.baseurl }}{{ person.url }}">{{ person.first_name }} {{ person.last_name }}</a>
+              <span class="position">{{ person.position }}</span>
+            {% else %}
+              <strong>{{ person.first_name }} {{ person.last_name }}</strong>
+              <span class="position">{{ person.position }}</span>
+              <small>ThinkShout Alumnus</small>
+            {% endif %}
+          </span>
         </span>
       {% endif %}
     {% endfor %}

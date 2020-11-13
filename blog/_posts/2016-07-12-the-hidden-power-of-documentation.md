@@ -2,6 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: archive
+hidden: true
 title: The Hidden Power of Documentation
 homepage: false
 author: joe

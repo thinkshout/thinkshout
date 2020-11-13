@@ -9,7 +9,9 @@ campaign-topic: accessibility
 title: "Accessibility and Dyslexia: An Interview"
 type: "Equitable Digital Connections: Featured Post"
 homepage: true
-author: rebeccan
+author:
+ - rebeccan
+ - jules
 published: true
 featured: true
 short: "Websites that don’t take dyslexia into consideration can be much harder to navigate. In this interview, Jules and Rebecca talk about how you can make your website more accessible and easier for everyone to use."

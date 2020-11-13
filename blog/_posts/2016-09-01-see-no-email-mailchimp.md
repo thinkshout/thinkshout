@@ -2,6 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: archive
+hidden: true
 title: See No Email, Hear No Email, Speak No Email
 homepage: false
 author: amy

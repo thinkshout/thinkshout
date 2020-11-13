@@ -2,6 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: archive
+hidden: true
 title: See You in the Big Easy
 homepage: false
 author: stephanie

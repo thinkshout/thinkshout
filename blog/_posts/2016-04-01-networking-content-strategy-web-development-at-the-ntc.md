@@ -16,6 +16,7 @@ tags:
 date: 2016-04-01 11:00:00
 image: /assets/images/thinkshout-logo1.jpg
 topic: archive
+hidden: true
 ---
 While many of you were on spring break, working on your tans… we spent our spring break in San Jose. We weren’t catching rays, we were surfing... surfing through oodles of great content and meeting many amazing people working for worthy causes at the [Nonprofit Technology Conference](http://www.nten.org/ntc/) (NTC). 
 

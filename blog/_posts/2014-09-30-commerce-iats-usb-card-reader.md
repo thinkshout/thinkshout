@@ -3,10 +3,11 @@ title: Adding Encrypted USB Card Reader Support to Commerce iATS
 layout: blog
 body-class: blog-post
 topic: archive
+hidden: true
 header-image:
 header-image-alt:
 
-author: dan
+author: danruscoe
 published: true
 featured: false
 short: Process credit card payments quickly and securely using an encrypted USB card reader.

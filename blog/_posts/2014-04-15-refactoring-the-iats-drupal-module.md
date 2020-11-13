@@ -2,13 +2,14 @@
 layout: blog
 body-class: blog-post
 topic: archive
+hidden: true
 header-image:
 header-image-alt:
 
 title: Refactoring The iATS Drupal Commerce Module
 published: true
 featured: false
-author: dan
+author: danruscoe
 short: Refactoring the Commerce iATS module.
 tags:
   - Drupal Planet

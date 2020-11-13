@@ -2,6 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: archive
+hidden: true
 header-image:
 header-image-alt:
 
@@ -9,7 +10,7 @@ published: true
 featured: false
 title: |
   The New ThinkShout.com: The Cobbler’s Kids Get Fancy New Shoes
-author: brett
+author: brett-heckman
 short: We are proud to unveil our new website.
 ---
 

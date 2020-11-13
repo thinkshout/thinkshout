@@ -3128,7 +3128,19 @@ a.visually-hidden.focusable:focus {
         font-size: 2.5rem;
         max-width: 60%; } }
   .blog-post .blog-header .byline {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    flex-wrap: wrap; }
+  @media (max-width: 768px) {
+    .blog-post .blog-header .author {
+      margin-left: 1rem; } }
+  .blog-post .blog-header .author ~ .author {
+    margin-left: 1rem; }
+  .blog-post .blog-header span.author {
+    display: flex;
+    align-items: center; }
+    @media (max-width: 768px) {
+      .blog-post .blog-header span.author {
+        margin-bottom: 1rem; } }
 .blog-post .blog-header-image {
   width: 100%;
   padding-bottom: 8px; }
