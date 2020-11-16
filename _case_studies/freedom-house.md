@@ -62,7 +62,7 @@ cs-sections:
   - section-description: |
       #### Longform reports made easy
 
-      Freedom House has source material that is often in the form of longform reports, so we prioritized balancing the need between flexible structures and easy to use administrative tools enabling the editorial team to create compelling and easy to read long form reports. Due to the complex editorial workflows, we needed a way to import the reports into the CMS from the team’s collaboration tools, and created an innovative importer that first imports the reports into a Google Doc, and then into the CMS, including all needed headings, visual assets, and block styles.
+      Freedom House has source material that is often in the form of longform reports, so we prioritized balancing the need between flexible structures and easy-to-use administrative tools enabling the editorial team to create compelling long form reports. Due to the complex editorial workflows, we needed a way to import the reports into the CMS from the team’s collaboration tools. We created an innovative importer that first imports the reports into a Google Doc, and then into the CMS—including all needed headings, visual assets, and block styles.
 
   - section-image1: "/assets/images/case-studies/Freedom-house-mobile-1.jpg"
     section-image-alt1: "LVHN services pages viewed on three phones."
@@ -73,11 +73,11 @@ cs-sections:
   - section-description: |
       #### A narrative for all of us
 
-      The new freedomhouse.org combines a set of distinct annual reports into a powerful narrative about the state of freedom in the world. It informs policy makers and the media, and drives users to take action. The research teams have the tools to publish compelling reports which, taken together, tell the story of what happens when freedoms erode, helping to hold governments to account.
+      The new freedomhouse.org combines a set of distinct annual reports into a powerful narrative about the state of freedom in the world. It informs policy makers and the media— all while driving users to take action. The research teams have the tools to publish compelling reports which, taken together, tell the story of what happens when freedoms erode, helping to hold governments to account.
       
   - section-type: quote
     section-quote: |
-      “With our new site, we are able to leverage our vast library of content and resources to more accurately our findings, insights and policy recommendations. Rather than a jumbled collection of discreet resources, our new website reveals a more coherent picture about the decline of freedom around the world and the state of global democracy. Nowhere is that more evident than on our new interactive map that seamlessly highlights different research indicators that tell the story of freedom around the world.”
+      “With our new site, we are able to leverage our vast library of content and resources to more accurately convey our findings, insights and policy recommendations. Rather than a jumbled collection of discreet resources, our new website reveals a more coherent picture about the decline of freedom around the world and the state of global democracy. Nowhere is that more evident than on our new interactive map that seamlessly highlights different research indicators that tell the story of freedom around the world.”
     section-attribution: "~  Ana Cosma, Digital Communications Manager"
 
 cs-cta-text: Launch Site
