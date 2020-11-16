@@ -74,6 +74,11 @@ cs-sections:
       #### A narrative for all of us
 
       The new freedomhouse.org combines a set of distinct annual reports into a powerful narrative about the state of freedom in the world. It informs policy makers and the media, and drives users to take action. The research teams have the tools to publish compelling reports which, taken together, tell the story of what happens when freedoms erode, helping to hold governments to account.
+      
+  - section-type: quote
+    section-quote: |
+      “With our new site, we are able to leverage our vast library of content and resources to more accurately our findings, insights and policy recommendations. Rather than a jumbled collection of discreet resources, our new website reveals a more coherent picture about the decline of freedom around the world and the state of global democracy. Nowhere is that more evident than on our new interactive map that seamlessly highlights different research indicators that tell the story of freedom around the world.”
+    section-attribution: "~  Ana Cosma, Digital Communications Manager"
 
 cs-cta-text: Launch Site
 cs-cta-url: https://freedomhouse.org/
