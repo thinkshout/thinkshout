@@ -48,7 +48,7 @@ cs-intro:
 
 cs-sections:
   - section-description: |
-      Feeding America approached ThinkShout with the goal of increasing site speed and conversions with the very tight timeline. ThinkShout’s mission was to study their current site, figure out how to break it down into structured components, and then put the puzzle back together again in Drupal-- all in time for the key fundraising season.
+      Feeding America approached ThinkShout with the goal of increasing site speed and conversions with the very tight timeline. ThinkShout’s mission was to study their current site, figure out how to break it down into structured components, and then put the puzzle back together again in Drupal -- all in time for the key fundraising season.
 
   - section-image: "/assets/images/case-studies/FA_Charleston.jpg"
     section-image-alt: "Feeding America client"
