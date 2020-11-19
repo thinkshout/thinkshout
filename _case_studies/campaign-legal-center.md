@@ -88,7 +88,7 @@ cs-sections:
 
 
   - section-description: |
-      Knowing this, we made tweaks to make pages load faster through asynchronous loading of some items, using every caching option available to us–including Pantheon’s advanced page cache. We also made sure all images were scaled to a reasonable size. Conducting basic load testing ensured that CLC can handle a large amount of traffic, which is vital when they’re mentioned in the news or receive national coverage.
+      Knowing this, we made tweaks to make pages load faster through asynchronous loading of some items, using every caching option available to us– including Pantheon’s advanced page cache. We also made sure all images were scaled to a reasonable size. Conducting basic load testing ensured that CLC can handle a large amount of traffic, which is vital when they’re mentioned in the news or receive national coverage.
 
   - section-type: result
     section-data-number1: "+14%"
