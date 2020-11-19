@@ -61,7 +61,7 @@ cs-sections:
     section-image-alt: "SPLC Mobile"
 
   - section-description: |
-      The SPLC’s Hate Map has deep cultural impact, and it was due for a redesign to make the content more actionable and interconnected. ThinkShout worked with the team at the SPLC to rebuild the digital Hate Map from the ground up. By showing all of the hate groups in the United States in a single interface, the Hate Map tells a powerful, and troubling, story. The latest map, featuring updated reporting for 2018, is more engaging than ever with fully realized state pages and deeper connections into the SPLC’s investigative journalism.
+      The SPLC’s Hate Map has deep cultural impact, and it was due for a redesign to make the content more actionable and interconnected. ThinkShout worked with the team at the SPLC to rebuild the digital Hate Map from the ground up. By showing all of the hate groups in the United States in a single interface, the Hate Map tells a powerful, and troubling, story.  The 2018 map was more engaging than ever, with fully realized state pages and deeper connections into the SPLC’s investigative journalism.
 
   - section-image: "/assets/images/case-studies/splc_large3.jpg"
     section-image-alt: "SPLC Hate Map on a laptop and a smartphone"
@@ -80,7 +80,7 @@ cs-sections:
     section-data-number2: "+22%"
     section-data-text2: "Increase in return visits"
     section-description: |
-      In the end, the new SPLC flagship site is not simply streamlined, beautiful, and performant; it’s also effective in furthering the mission of the SPLC by helping them tell the powerful stories we all need to hear. Since the site launched, traffic has increased more than 370%. Visitors are staying longer and becoming more deeply engaged with the SPLC, supporting a mission that only continues to grow in importance.
+      In the end, the new SPLC flagship site is not simply streamlined, beautiful, and performant; it’s also effective in furthering the mission of the SPLC by helping them tell the powerful stories we all need to hear. Post site launch, traffic increased more than 370%. Visitors are staying longer and becoming more deeply engaged with the SPLC, supporting a mission that only continues to grow in importance.
 
 cs-cta-text: Launch Site
 cs-cta-url: https://www.splcenter.org/

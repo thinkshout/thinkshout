@@ -62,7 +62,7 @@ cs-sections:
 
   - section-title:
     section-description: |
-      We took the current Tolerance brand and refreshed it to accommodate a modern, content-rich site. While sticking with their current brand’s foundation, we explored colors and typography treatments that would allow for a design that supports (rather than overshadows) the robust content offered. Tolerance also has a beautiful, vast library of photography, and are continually creating timely and engaging illustrations. Those elements drive the core visuals of the site.
+      We took the current Tolerance brand and refreshed it to accommodate a modern, content-rich site. While sticking with their current brand’s foundation, we explored colors and typography treatments that would allow for a design that supports (rather than overshadows) the robust content offered. Tolerance also has a beautiful, vast library of photography, and they continually create timely and engaging illustrations. Those elements drive the core visuals of the site.
 
   - section-image: "/assets/images/case-studies/Tolerance-large3.jpg"
     section-image-alt: "Exploring rich colors on a tablet, portrait mode."

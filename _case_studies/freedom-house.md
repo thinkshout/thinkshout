@@ -62,7 +62,7 @@ cs-sections:
   - section-description: |
       #### Longform reports made easy
 
-      Freedom House has source material that is often in the form of longform reports, so we prioritized balancing the need between flexible structures and easy-to-use administrative tools enabling the editorial team to create compelling long form reports. Due to the complex editorial workflows, we needed a way to import the reports into the CMS from the team’s collaboration tools. We created an innovative importer that first imports the reports into a Google Doc, and then into the CMS—including all needed headings, visual assets, and block styles.
+      Freedom House has source material that is often in the form of longform reports, so we prioritized balancing the need between flexible structures and easy-to-use administrative tools enabling the editorial team to create compelling long form reports. Due to the complex editorial workflows, we needed a way to import the reports into the CMS from the team’s collaboration tools. We created an innovative importer that first imports the reports into a Google Doc, and then into the CMS —including all needed headings, visual assets, and block styles.
 
   - section-image1: "/assets/images/case-studies/Freedom-house-mobile-1.jpg"
     section-image-alt1: "Freedom on the net page viewed on a phones."

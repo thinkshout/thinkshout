@@ -33,7 +33,7 @@ cs-intro:
 
   - intro-title: Challenge
     intro-text: |
-      Facing History needed to design and produce a deeply engaging, teacher-centered-resource for new teachers that could not only transform their own approach to teaching, but—by extension—the disposition and effectiveness of their classrooms themselves. The biggest challenge wouldn’t simply be the long-term metrics related to student outcomes, but the initial expansion of a new audience and subsequent engagement.
+      Facing History needed to design and produce a deeply engaging, teacher-centered-resource for new teachers that could not only transform their own approach to teaching, but — by extension — the disposition and effectiveness of their classrooms themselves. The biggest challenge wouldn’t simply be the long-term metrics related to student outcomes, but the initial expansion of a new audience and subsequent engagement.
 
 
   - intro-title: Solutions

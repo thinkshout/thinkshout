@@ -76,8 +76,7 @@ cs-sections:
     section-image-alt2: "A smartphone view of the Travel Oregon website"
 
   - section-description: |
-      We wanted people to picture themselves here, and we achieved this through a feature we implemented on the homepage hero. Visit [TravelOregon.com](https://traveloregon.com/) and you’ll be served up a scenic image from somewhere in Oregon at the local time here-- even if you're visiting from a different timezone.
-
+      We wanted people to picture themselves here, and we achieved this through a feature we implemented on the homepage hero. The feature showed visitors a scenic image from somewhere in Oregon at the local time here, no matter what time zone you were visiting from.
 
   - section-type: quote
     section-quote: |

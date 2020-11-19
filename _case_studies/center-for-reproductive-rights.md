@@ -64,14 +64,14 @@ cs-sections:
 
   - section-title: "From print to digital."
     section-description: |
-      The design focused on maintaining consistency with the updated print version of the map and leveraging the existing brand. We found opportunities to incorporate their branded vibrant and highly identifiable colors to highlight meaningful content through bold dropdowns.The final result provides a clean and user-friendly experience at all screen sizes, with a foundation of the map rooted in an established color coding system. 
+      The design focused on maintaining consistency with the updated print version of the map and leveraging the existing brand. We found opportunities to incorporate their branded vibrant and highly identifiable colors to highlight meaningful content through bold dropdowns. The final result provides a clean and user-friendly experience at all screen sizes, with the foundation of the map rooted in an established color coding system. 
 
   - section-image: "/assets/images/case-studies/CFRR_image2.jpg"
     section-image-alt: "World Abortion Laws map on a desktop screen"
 
   - section-title: "A partnership rooted in mutual respect."
     section-description: |
-      Projects with many stakeholders involved, an enormous amount of content, and a hard deadline are only possible with extraordinary client partnerships— which is exactly what we found in the Center’s team.  ThinkShout was and continues to recognize what a privilege it is to work with organizations like [The Center for Reproductive Rights](https://reproductiverights.org/worldabortionlaws), especially now, when access to abortion here in the United States is brutally under attack. We’re proud of the move from Flash to Drupal 8, glad to have implemented improved functionality and design for core audiences, and encouraged by the post-launch analytics we’re seeing so far, but most importantly, we’re thankful for The Center’s work and humbled by our partnership.
+      Projects with many stakeholders involved, an enormous amount of content, and a hard deadline are only possible with extraordinary client partnerships— which is exactly what we found in the Center’s team.  ThinkShout recognizes what a privilege it is to work with organizations like [The Center for Reproductive Rights](https://reproductiverights.org/worldabortionlaws), especially now, when access to abortion here in the United States is brutally under attack. We’re proud of the move from Flash to Drupal 8, glad to have implemented improved functionality and design for core audiences, and encouraged by the post-launch analytics. Most importantly, we’re thankful for The Center’s work and humbled by our partnership.
 
 
 cs-cta-text: Launch Site

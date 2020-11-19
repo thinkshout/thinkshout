@@ -43,8 +43,8 @@ cs-intro:
 
   - intro-title: Results
     intro-text: |
-      Reduced bounce rate by 21%;<br>
-      Increased conversion rate by 179%;<br>
+      Reduced bounce rate by 21%<br>
+      Increased conversion rate by 179%<br>
       Decreased abandonment rate by 8%
 
 
