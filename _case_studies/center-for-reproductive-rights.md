@@ -64,7 +64,7 @@ cs-sections:
 
   - section-title: "From print to digital."
     section-description: |
-      The design focused on maintaining consistency with the updated print version of the map and leveraging the existing brand. We found opportunities to incorporate their branded vibrant and highly identifiable colors to highlight meaningful content through bold dropdowns. The final result provides a clean and user-friendly experience at all screen sizes, with a foundation of the map rooted in an established color coding system. 
+      The design focused on maintaining consistency with the updated print version of the map and leveraging the existing brand. We found opportunities to incorporate their branded vibrant and highly identifiable colors to highlight meaningful content through bold dropdowns. The final result provides a clean and user-friendly experience at all screen sizes, with the foundation of the map rooted in an established color coding system. 
 
   - section-image: "/assets/images/case-studies/CFRR_image2.jpg"
     section-image-alt: "World Abortion Laws map on a desktop screen"
