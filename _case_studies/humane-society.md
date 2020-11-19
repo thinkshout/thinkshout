@@ -48,7 +48,7 @@ cs-intro:
 cs-sections:
   - section-title: "Our audience research included comprehensive interviews and surveys of thousands of stakeholders — internal and external, current and lapsed."
     section-description: |
-      From this research, we uncovered a common desire across audiences to be invited into the larger story of the Humane Society of the United States (HSUS). People wanted a richer understanding of their daily work and its impact, but they weren’t finding the stories they wanted; they were buried amid outdated or unrelated content. To address this, we capitalized on the organization’s decision to emphasize their “big fights.” We outlined a strategy that brought every site visit within a single click of action, so that no matter whether a visitor came from search, email, or banner ad, they would have an immediate way to understand the work of HSUS, and join the fight to end animal cruelty.
+      From this research, we uncovered a common desire across audiences to be invited into the larger story of the Humane Society of the United States (HSUS). People wanted a richer understanding of their daily work and its impact, but they weren’t finding the stories they wanted; they were buried amid outdated or unrelated content. To address this, we capitalized on the organization’s decision to emphasize their “big fights.” We outlined a strategy that brought every site visit within a single click of action, so that no matter whether a visitor came from search, email, or banner ad, they would have an immediate way to understand the work of HSUS and join the fight to end animal cruelty.
 
 
   - section-image: "/assets/images/case-studies/HSUS-Large-3.jpg"
@@ -63,7 +63,7 @@ cs-sections:
 
   - section-title: "Our designers executed the updated Humane Society of the United States brand — and did it mobile-first."
     section-description: |
-      While we were working on the redesign of the website, HSUS was going through a comprehensive rebranding that required a bold new design. We introduced powerful visual storytelling tools-- from videos and photos to strategic uses of typography and color.
+      While we were working on the redesign of the website, HSUS was going through a comprehensive rebranding that required a bold new design. We introduced powerful visual storytelling tools -- from videos and photos to strategic uses of typography and color.
 
       The new site united two separate sites for desktop and mobile as one fully-responsive site. The old mobile site was outdated in mobile-first technology, and caused problems with site maintenance and performance reporting. Content on the new humanesociety.org was designed for mobile interaction from the ground up. We focused on defining clear goals for every interface, and designing user experiences that encouraged and fostered deeper user engagement into and across the site.
 
@@ -92,7 +92,7 @@ cs-sections:
     section-description: |
       <h4>Branding efforts deserve nothing less than the best website.</h4>
 
-      An organization’s website is its single-most important brand touchpoint. When a brand is refreshed or redesigned, a website can make or break the realization of that new brand, and ThinkShout is committed to aligning every single website strategy to our clients’ brand strategy. For HSUS, we figured out how to take a beautiful brand concept and design a cohesive digital execution. In strategy and technical functionality, we identified and built the structures needed for that brand to thrive. In these critical first months, the brand has been received with great excitement. We know that will only continue to increase as it is adopted by more established and new audiences.
+      An organization’s website is its single-most important brand touchpoint. When a brand is refreshed or redesigned, a website can make or break the realization of that new brand, and ThinkShout is committed to aligning every single website strategy to our clients’ brand strategy. For HSUS, we figured out how to take a beautiful brand concept and design a cohesive digital execution. In strategy and technical functionality, we identified and built the structures needed for that brand to thrive. 
 
 
 cs-cta-text: Launch Site
