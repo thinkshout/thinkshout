@@ -32,7 +32,7 @@ cs-header:
 
 cs-intro:
   - intro-paragraph: |
-      Every day, it can feel like our democracy is threatened. We desperately need organizations [like the dynamic “think-and-do” tank, Dēmos,](https://www.demos.org/)to lead us toward a just, inclusive, multiracial democracy.
+      Every day, it can feel like our democracy is threatened. We desperately need organizations [like the dynamic “think-and-do” tank, Dēmos,](https://www.demos.org/) to lead us toward a just, inclusive, multiracial democracy.
 
   - intro-title: Challenge
     intro-text: |
