@@ -84,7 +84,7 @@ cs-sections:
 
   - section-title: "Envisioning a new platform: features, functionality, and UX."
     section-description: |
-      Having confirmed market opportunity, the final phase of our exploratory research was to develop a set of requirements for a minimal viable product to launch. We mapped out user journeys for all six of the personas we had identified, identifying opportunities for AnitaB.org to engage with their audiences on this platform, at their events, and through other core programmatic offerings..
+      Having confirmed market opportunity, the final phase of our exploratory research was to develop a set of requirements for a minimal viable product to launch. We mapped out user journeys for all six of the personas we had identified, identifying opportunities for AnitaB.org to engage with their audiences on this platform, at their events, and through other core programmatic offerings.
 
   - section-image1: "/assets/images/case-studies/AnitaB-Small-1.jpg"
     section-image-alt1: "Serious busineswoman whiteboarding a flowchart"
