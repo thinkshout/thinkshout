@@ -71,7 +71,7 @@ cs-sections:
 
   - section-title: "A partnership rooted in mutual respect."
     section-description: |
-      Projects with many stakeholders involved, an enormous amount of content, and a hard deadline are only possible with extraordinary client partnerships— which is exactly what we found in the Center’s team.  ThinkShout recognizes what a privilege it is to work with organizations like [The Center for Reproductive Rights](https://reproductiverights.org/worldabortionlaws), especially now, when access to abortion here in the United States is brutally under attack. We’re proud of the move from Flash to Drupal 8, glad to have implemented improved functionality and design for core audiences, and encouraged by the post-launch analytics we’re seeing so far, but most importantly, we’re thankful for The Center’s work and humbled by our partnership.
+      Projects with many stakeholders involved, an enormous amount of content, and a hard deadline are only possible with extraordinary client partnerships— which is exactly what we found in the Center’s team.  ThinkShout recognizes what a privilege it is to work with organizations like [The Center for Reproductive Rights](https://reproductiverights.org/worldabortionlaws), especially now, when access to abortion here in the United States is brutally under attack. We’re proud of the move from Flash to Drupal 8, glad to have implemented improved functionality and design for core audiences, and encouraged by the post-launch analytics. Most importantly, we’re thankful for The Center’s work and humbled by our partnership.
 
 
 cs-cta-text: Launch Site
