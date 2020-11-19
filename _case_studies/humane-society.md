@@ -48,7 +48,7 @@ cs-intro:
 cs-sections:
   - section-title: "Our audience research included comprehensive interviews and surveys of thousands of stakeholders — internal and external, current and lapsed."
     section-description: |
-      From this research, we uncovered a common desire across audiences to be invited into the larger story of the Humane Society of the United States (HSUS). People wanted a richer understanding of their daily work and it's impact, but they weren’t finding the stories they wanted; they were buried amid outdated or unrelated content. To address this, we capitalized on the organization’s decision to emphasize their “big fights.” We outlined a strategy that brought every site visit within a single click of action, so that no matter whether a visitor came from search, email, or banner ad, they would have an immediate way to understand the work of HSUS, and join the fight to end animal cruelty.
+      From this research, we uncovered a common desire across audiences to be invited into the larger story of the Humane Society of the United States (HSUS). People wanted a richer understanding of their daily work and its impact, but they weren’t finding the stories they wanted; they were buried amid outdated or unrelated content. To address this, we capitalized on the organization’s decision to emphasize their “big fights.” We outlined a strategy that brought every site visit within a single click of action, so that no matter whether a visitor came from search, email, or banner ad, they would have an immediate way to understand the work of HSUS, and join the fight to end animal cruelty.
 
 
   - section-image: "/assets/images/case-studies/HSUS-Large-3.jpg"
