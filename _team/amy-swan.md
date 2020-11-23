@@ -12,8 +12,8 @@ team-image:
   small: team/small/Amy-sm.jpg
   medium: team/medium/amy.jpg
   large: team/large/amy.jpg
-published: true
-current-employee: true
+published: false
+current-employee: false
 name: amy
 bio: |
   A professional-musician-turned-developer, Amy came to ThinkShout in search of an opportunity to apply her coding skills to organizations working for positive change in the world, and she feels right at home here. Before joining our team, Amy worked as an IT support rep for several different online music tech companies. She also dabbled as a light and sound engineer and worked on events for artists and individuals like Björk, Paul Simon and the Dalai Lama.
