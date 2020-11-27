@@ -186,7 +186,7 @@ The deployment ought to go smoothly now--the new fields are added as expected, a
 ​
 It *is* technically possible to add the fields and also populate them within our hook_update_N function, skipping the post_update hook altogether. Although the documentation for exactly what sort of work should be done in [one](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Extension%21module.api.php/function/hook_update_N/8.9.x) versus [the other](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Extension%21module.api.php/function/hook_post_update_NAME/8.9.x) can be confusing, the hook_update_N docs are clear that in these functions,
 ​
-> Loading, saving, or performing any other CRUD operation on an entity is never safe to do (they always involve hooks and services).
+Loading, saving, or performing any other CRUD operation on an entity is never safe to do (they always involve hooks and services).
 ​
 Instead: make your field changes in hook_update_N, then make your content changes in post_update hooks.
 ​
