@@ -6,20 +6,19 @@ topic: technology
 campaign-topic: drupal
 title: "Programmatically Adding and Populating New Fields in Drupal 8"
 homepage: true
-author: gabe
+author: ben
 published: true
 featured: false
-short: "There are already lots of articles out there if you want to get excited about Drupal 9, so we’re going to focus on the more practical questions with an AFAQ (Anticipated Fearfully Asked Questions)."
+short: "When working on our longer-term clients’ sites, we’re often asked to add a new field (or fields) to some kind of content, and in the same batch of code to add values to those new fields. This shouldn’t be a problem -- and mostly, it isn’t."
 tags:
   - drupal
-  - "digital strategy"
   - "web development"
   - technology
-  - "drupal 9"
-date: 2020-06-12 11:00:00
-image: https://thinkshout.com/assets/images/blog/drupal-9-hero.jpg
-header-image: /assets/images/blog/drupal-9-hero.jpg
-header-image-alt: "photograph of an old computer under violet and blue lighting."
+  - "drupal 8"
+date: 2020-11-27 11:00:00
+image: https://thinkshout.com/assets/images/blog/field-1.jpg
+header-image: /assets/images/blog/field-1.jpg
+header-image-alt: "photograph of fields from above."
 ---
 # Programmatically Adding and Populating New Fields in Drupal 8
 ​
