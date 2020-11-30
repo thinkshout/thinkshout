@@ -22,10 +22,10 @@ image: https://thinkshout.com/assets/images/blog/open.jpg
 header-image: /assets/images/blog/open.jpg
 header-image-alt: "neon open sign."
 ---
-# ARIA-live and Drupal.announce() 
-## a11y-friendly JS in Drupal Core
+# ARIA-live and Drupal.announce(), a11y-friendly JS in Drupal Core.
 
 ## Drupal.announce is a method built into Drupal core that can make writing accessible code easier.
+
 
 ### Why you need it.
 If content changes on your site and there’s a visual change to let users know, you also need to make that change clear to folks who can’t see the visual cues -- Drupal.announce allows you to do just that. 
@@ -40,11 +40,12 @@ If content changes on your site and there’s a visual change to let users know,
 #### Add it as a dependency.
 In your project’s theme directory, go to the theme.libraries.yml file and add Announce as a dependency. 
 
-'8[theme].libraries.yml*
+*8[theme].libraries.yml*
 ```
 dependencies:
    - core/drupal.announce
 ```
+
 #### Drupal.announce()
 Drupal makes this easy. Use the announce function right in your javascript file at the moment the content or context changes. The screen reader will read the message you pass in, communicating the change and creating a better experience for the user. 
 
@@ -57,12 +58,14 @@ If nothing is passed in, the default setting of “polite” is used, which will
 For updates that should be read immediately, use "assertive". 
 
 **Drupal.announce with translations**
+
 *In your .js file*
 ```
 Drupal.announce(
   Drupal.t("Why, hello there!")
 );
 ```
+
 
 ### How it works
 
@@ -81,6 +84,7 @@ aria-busy="false">Tray orientation changed to vertical.</div>
 
 The aria-live div must first be present (and usually empty), so that the browser and assistive technologies(AT) are aware of it. Any subsequent changes are then announced to the user. When Drupal. announce() runs, it updates the contents of the div with the new message, triggering an announcement. 
 
+
 ### Using ARIA-live without Drupal
 
 This functionality can be added to non-Drupal sites by just adding a div with the aria-live property, hiding it, and using javascript to update the content in the div when you need to communicate a message to the user.
@@ -93,11 +97,11 @@ This functionality can be added to non-Drupal sites by just adding a div with th
 You can also add `aria-live="polite"` to content on your page that is updated by the user. You can see this on the [SPLC hate map](https://www.splcenter.org/hate-map). If you select a different state, the number of hate groups changes. This change is announced to the screen reader because the heading has an aria-live property on it.  
 
 ```
-<h1 id="hate-map-title" aria-live="polite">In 2019, we tracked 940 hate groups across the U.S.</h1>
+<h1 id="hate-map-title" aria-live="polite">In 2019, we tracked 940
+hate groups across the U.S.</h1>
 ```
 
 ![hate map announcement using aria-live](/assets/images/blog/access.1.png)
-{:.center}{:height="70%" width="70%"}
 
 
 
@@ -105,6 +109,7 @@ You can also add `aria-live="polite"` to content on your page that is updated by
 
 ## Resources
 
-[W3.org](https://www.w3.org/TR/WCAG20-TECHS/ARIA19.html)
-[Drupal.org](https://www.drupal.org/docs/8/api/javascript-api/accessibility-tools-for-javascript-in-drupal-8)
+- [W3.org](https://www.w3.org/TR/WCAG20-TECHS/ARIA19.html)
+- [Drupal.org](https://www.drupal.org/docs/8/api/javascript-api/accessibility-tools-for-javascript-in-drupal-8)
+
 ---
