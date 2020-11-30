@@ -34,6 +34,7 @@ If content changes on your site and there’s a visual change to let users know,
 - An error has happened and you need to let the user know.
 - An infographic shows new data points when you select different values from a dropdown. 
 - Tabbing is constrained. 
+<br /> 
 
 ### Here’s how to use it:
 
@@ -44,8 +45,8 @@ In your project’s theme directory, go to the theme.libraries.yml file and add 
 ```
 dependencies:
    - core/drupal.announce
-```
-
+```  
+ 
 #### Drupal.announce()
 Drupal makes this easy. Use the announce function right in your javascript file at the moment the content or context changes. The screen reader will read the message you pass in, communicating the change and creating a better experience for the user. 
 
@@ -65,7 +66,7 @@ Drupal.announce(
   Drupal.t("Why, hello there!")
 );
 ```
-
+<br /> 
 
 ### How it works
 
@@ -83,7 +84,7 @@ aria-busy="false">Tray orientation changed to vertical.</div>
 ```
 
 The aria-live div must first be present (and usually empty), so that the browser and assistive technologies(AT) are aware of it. Any subsequent changes are then announced to the user. When Drupal. announce() runs, it updates the contents of the div with the new message, triggering an announcement. 
-
+<br /> 
 
 ### Using ARIA-live without Drupal
 
@@ -103,13 +104,16 @@ hate groups across the U.S.</h1>
 
 ![hate map announcement using aria-live](/assets/images/blog/access.1.png)
 
-
-
+<br /> 
+<br /> 
+<br /> 
 
 
 ## Resources
 
 - [W3.org](https://www.w3.org/TR/WCAG20-TECHS/ARIA19.html)
 - [Drupal.org](https://www.drupal.org/docs/8/api/javascript-api/accessibility-tools-for-javascript-in-drupal-8)
+<br /> 
+<br /> 
 
 ---
