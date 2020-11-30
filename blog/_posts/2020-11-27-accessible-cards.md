@@ -9,7 +9,7 @@ homepage: true
 author: jules
 published: true
 featured: false
-short: "Card elements are all over the internet and so are “Duplicate Link” errors. These common errors are not hard to fix. Here are a few ways to fix those bugs while tidying up your code in the process."
+short: "Card elements are all over the internet -- and so are “Duplicate Link” errors. Here are a few ways to fix these common bugs while tidying up your code at the same time."
 tags:
   - accessibility
   - "web development"
@@ -20,33 +20,36 @@ header-image: /assets/images/blog/cactus.jpg
 header-image-alt: "minimalist plants in a row."
 ---
 # Accessible Cards + Duplicate Links
-​
+
 Duplicate link errors are common whenever you have multiple links on one element that go to the same place. This accessibility issue not only creates a messy list of links for your page, but it isn’t great for SEO either.
-​
+
 In this card example, the image and the headline text “Trout stocking maps” are both links. If a person clicks on the image or the title text, they are taken to the new page. 
-​
+
 I refer to these as a “card” because we usually see multiple in a row all laid out like, well, cards. 
-​
+
 ![screenshout from a website of an image with multplie links](/assets/images/blog/trout-1.png)
-{:.center}
-​
+{:.center}{:height="70%" width="70%"}
+
 ## Why it’s a problem
 ​
-*The alt text has nothing to do with the link destination.* If I’m using a screen reader and get to that element, I can tab to the image link and if the image has good alt text I hear it read to me. In this case it says “Link: Marion Lake”. But this link takes me to the Trout stocking map.
-​
-*The extra link creates a confusing experience for the user and adds extra stops along the way.* If I tab again, I land on “Link: Trout stocking maps.” This is a good label for this link, but now I’ve encountered it twice. *And* I have to tab through two links on every card, doubling the time it takes to get through the page. 
-​
+***The alt text has nothing to do with the link destination.*** 
+If I’m using a screen reader and get to that element, I can tab to the image link and if the image has good alt text I hear it read to me. In this case it says “Link: Marion Lake”. But this link takes me to the Trout stocking map.
+
+***The extra link creates a confusing experience for the user and adds extra stops along the way.***
+If I tab again, I land on “Link: Trout stocking maps.” This is a good label for this link, but now I’ve encountered it twice. *And* I have to tab through two links on every card, doubling the time it takes to get through the page. 
+
 Our end goal is for the user to be able to get to the article if they click on the image or title, but without the error. This means it shouldn’t conflict with other links that might exist on the card. Here are a few ways we can approach this. 
-​
-## Option #1: Wrap the whole thing in an anchor, and give it a clear label
-​
+
+## Option #1: Wrap the whole thing in an anchor, and give it a clear label.
+
 Wrapping multiple fields in a single anchor tag minimizes duplicates and allows the links to behave as expected. 
-​
+
+
 ![Food bank website logo](/assets/images/blog/foodbank1.png)
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Example: "Find a Foodbank" cards</span>
 ​
-*Here the logo and the link text are wrapped in an anchor tag that has an aria-label.* 
+Here, the logo and the link text are wrapped in an anchor tag that has an aria-label. 
 
 ***Without the aria-label, the link would be read by screen readers as:*** 
 *“Link: Foodbank of Alaska logo Foodbank of Alaska, Inc”*
@@ -63,6 +66,7 @@ Example of an anchor tag wrapped around multiple fields:
 </a>
 ```
 
+
 **Pros:**
 When a user clicks on the logo or the text, the link is triggered.
 There are no duplicate link errors when I run the WAVE tool.
@@ -71,10 +75,10 @@ There are no duplicate link errors when I run the WAVE tool.
 This solution requires the duplicate links to exist side-by-side. 
 If another link is between them, it doesn’t work. (Although, this is a good reason to reach out to your designer to see if that can be changed.)
 
-## Option #2: A Simple Fix for Clicks
+## Option #2: A Simple Fix for Clicks.
 
 ![screenshot of a trout stocking webpage](/assets/images/blog/trout-1.png)
-{:.center}
+{:.center}{:height="70%" width="70%"}
 <span class="caption"><i class="fa fa-caret-up"></i>Example: Trout stocking image and title</span>
 
 In this example, I have an image and a green title that should both be links. But because they have content between them, wrapping them in a link isn’t a great option. Drupal can also get a bit grumpy about wrapping multiple fields in an anchor tag -- it’ll wrap each field in its own anchor, which often makes your duplicate link issue worse. 
@@ -84,12 +88,14 @@ I stumbled across a solution for this on [bbc.co.uk](https://www.bbc.co.uk) that
 ### What to do
 
 1. Make the title text a semantic link.
+
 ```
 // Semantic link in the tab index, available for keyboard navigation with a clear label
 <a href=“/trout-stocking-maps”><h3>Where to fish</h3></a>
 ```
 
 2. Add an invisible anchor tag and position it over the image (or the entire card) you want to become the link. 
+
 ```
 // Invisible link, available to click on, but not to screen readers and keyboard navigation
 <a href="/trout-stocking-maps" style=“position:absolute; left: 0; top: 0; width: 100%; height: 
@@ -97,6 +103,7 @@ I stumbled across a solution for this on [bbc.co.uk](https://www.bbc.co.uk) that
 ```
 
 3. Tell assistive technology to ignore your invisible link by giving it the properties *aria-hidden=“true”* and *tabindex=“-1”*. (This is only a good idea when the content is available elsewhere on the page.) In this case, we’re hiding a duplicate of semantic, accessible code. 
+
 ```
 <div class="card" style=“position: relative”>
   // Invisible link, available to click on
@@ -127,7 +134,8 @@ I stumbled across a solution for this on [bbc.co.uk](https://www.bbc.co.uk) that
 
 If you put the invisible anchor at the beginning of your markup, you can still use SASS to set your hover and focus styles for the card.
 
-Be sure to add hover styles for both links, and focus for the semantic title link
+Be sure to add hover styles for both links, and focus for the semantic title link.
+
 ```
 .invisible-link:focus,
 .invisible-link:hover {
