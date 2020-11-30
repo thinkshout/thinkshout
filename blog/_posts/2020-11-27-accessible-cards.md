@@ -79,7 +79,7 @@ If another link is between them, it doesn’t work. (Although, this is a good re
 
 In this example, I have an image and a green title that should both be links. But because they have content between them, wrapping them in a link isn’t a great option. Drupal can also get a bit grumpy about wrapping multiple fields in an anchor tag -- it’ll wrap each field in its own anchor, which often makes your duplicate link issue worse. 
 
-I stumbled across a solution for this on (bbc.co.uk)[https://www.bbc.co.uk] that allows the user to tab through the article headings, or click on any article element to get to the full story. Here’s how it works. 
+I stumbled across a solution for this on [bbc.co.uk](https://www.bbc.co.uk) that allows the user to tab through the article headings, or click on any article element to get to the full story. Here’s how it works. 
 
 ### What to do
 
@@ -146,7 +146,7 @@ The last thing to consider is: *does this need to be a link?* Sometimes as devs,
 ![screenshot of an education webpage](/assets/images/blog/education1.png)
 {:.center}
 
-On this element, there’s a link around the icon as well as around the title next to it. It’s not very intuitive to click on the icon as a link, and it triggers a (Duplicate Error warning in WAVE)[https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh].
+On this element, there’s a link around the icon as well as around the title next to it. It’s not very intuitive to click on the icon as a link, and it triggers a [Duplicate Error warning in WAVE](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh).
 
 ![A WAVE tool error shows a redundant link error](/assets/images/blog/link1.png)
 {:.center}
@@ -157,12 +157,12 @@ Rather than finding a workaround for this error, I’d recommend just removing t
 ## Summary
 
 ### Wrap the whole element in a link if you can.
-And give it an (aria-label)[https://www.w3.org/TR/WCAG20-TECHS/ARIA14.html] or (aria-labelledby)[https://www.w3.org/TR/WCAG20-TECHS/ARIA7.html] so the screen reader doesn’t read the entire contents of the card as the label.
+And give it an [aria-label](https://www.w3.org/TR/WCAG20-TECHS/ARIA14.html) or [aria-labelledby](https://www.w3.org/TR/WCAG20-TECHS/ARIA7.html) so the screen reader doesn’t read the entire contents of the card as the label.
 
 ### Think about the ways people are going to use your links.
 1. Is this a nice, clear experience :
 - using a keyboard?
-- Using a screen reader, like (VoiceOver?)[https://youtu.be/gXp3MLYOWb0]
+- Using a screen reader, like [VoiceOver?](https://youtu.be/gXp3MLYOWb0)
 - Clicking on the elements that appear to be links?
 2. Does it have visible hover and focus states?
 
@@ -174,8 +174,8 @@ Sometimes the most clever workaround is writing clear semantic code. If I find m
 
 ## Resources
 
-(ARIA Techniques: Using the ARIA-hidden attribute)[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-hidden_attribute]
-(WAVE tool)[https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh]
-(WebAIM introduction to Links)[https://webaim.org/techniques/hypertext/]
-(MDN Web Docs: Tab Index)[https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex]
+[ARIA Techniques: Using the ARIA-hidden attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-hidden_attribute)
+[WAVE tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
+[WebAIM introduction to Links](https://webaim.org/techniques/hypertext/)
+[MDN Web Docs: Tab Index](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex)
 ---
