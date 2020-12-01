@@ -5,9 +5,9 @@ body-class: blog-post
 topic: accessibility
 campaign-topic: accessibility
 title: "Accessible Cards + Duplicate Links"
-homepage: true
+homepage: false
 author: jules
-published: true
+published: false
 featured: false
 short: "Card elements are all over the internet -- and so are “Duplicate Link” errors. Here are a few ways to fix these common bugs while tidying up your code at the same time."
 tags:
