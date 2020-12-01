@@ -5,9 +5,9 @@ body-class: blog-post
 topic: technology
 campaign-topic: drupal
 title: "Programmatically Adding and Populating New Fields in Drupal 8"
-homepage: true
+homepage: false
 author: ben
-published: true
+published: false
 featured: false
 short: "When working on our longer-term clients’ sites, we’re often asked to add a new field (or fields) to some kind of content, and in the same batch of code to add values to those new fields. This shouldn’t be a problem -- and mostly, it isn’t."
 tags:
