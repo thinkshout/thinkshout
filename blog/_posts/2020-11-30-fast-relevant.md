@@ -49,8 +49,7 @@ As sites have become more complex over the years, so too has the size of the ave
 
 The good news is that there are [a ton](https://csswizardry.com/archive/) of [great resources](https://css-tricks.com/tag/performance/) available to help [performance-tune](https://developers.google.com/speed/pagespeed/insights/) your website, with Google’s [Lighthouse](https://developers.google.com/web/tools/lighthouse) being the easiest tool you can use to get started. It does a great job of showing you site metrics (that is, how they score your site),  as well as opportunities to improve performance:
 
-![low performing site review](/assets/images/blog/FRE.png)!{:height="70%" width="70%"}
-{:.center}
+![low performing site review](/assets/images/blog/FRE.png)
 <span class="caption"><i class="fa fa-caret-up"></i>Site name withheld to protect the potentially embarrassed.</span>
 
 ## SEO, or, would you buy a used car from this consultant? 
@@ -61,8 +60,7 @@ Lucky for us, Google’s done a good job in being clear about [what helps improv
 
 Google’s Lighthouse displays SEO in the same standard format as the other sections: the automated tests that indicate technical issues that directly impact page rank, and a link to the Google documentation regarding [best practices](https://support.google.com/webmasters/answer/35769):
 
-![google lighthouse display SEO](/assets/images/blog/FRE1.png)!{:height="70%" width="70%"}
-{:.center}
+![google lighthouse display SEO](/assets/images/blog/FRE1.png)
 
 This is one of the few parts of site development where you need to make sure the content strategy team, marketing, and/or sales (whoever is in charge of the site copy) is on the same page as the development team. Educating the people who develop and maintain site content at the beginning of a project will make your life easier as a developer, because the content almost always gets added to a site *after* it’s built. Having all players understand the goals and structure of content best practices will make implementation much smoother. 
 
@@ -72,8 +70,8 @@ An area of site development that has been severely overlooked in the evolving co
 
 But today’s web sites have become much more complex, and this has meant that developers need to take extra steps to ensure that they are machine readable. To do this, developers need to stay savvy and use best practices -- such as [semantic markup](https://www.w3.org/TR/WCAG20-TECHS/G115.html), [metatags](https://moz.com/blog/the-ultimate-guide-to-seo-meta-tags), [ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) labels, and regular audits of your work using tools like [WAVE](https://wave.webaim.org/), native [screen readers](https://help.apple.com/voiceover/mac/10.15/), and of course, Lighthouse: 
 
-![google lighthouse displaying a good accessibility score](/assets/images/blog/FRE2.png)!{:height="70%" width="70%"}
-{:.center} <span class="caption"><i class="fa fa-caret-up"></i>A good start.</span>
+![google lighthouse displaying a good accessibility score](/assets/images/blog/FRE2.png)
+<span class="caption"><i class="fa fa-caret-up"></i>A good start.</span>
 
 As mentioned in the Lighthouse result, only *some* of the potential issues with accessibility can be automatically detected, so understanding the concepts that make a page accessible and regularly auditing your work as you build a site is the best approach. Discovering that you need to restructure your HTML at the end of a project when you’re out of budget will make everyone sad. And it will [expose your client to liability](https://arstechnica.com/uncategorized/2008/08/target-to-pay-6-million-to-settle-site-accessibility-suit/), which is extra-sad. More importantly, the web needs to be useful for everyone, so making accessibility part of your normal workflow shouldn’t be optional or viewed as an extra step. It should be integrated into your workflow as a mandatory practice -- just like any other part of the web design process.
 
@@ -83,5 +81,8 @@ Building a site today is more complex than ever. Front-end developers need to ba
 
 Google Lighthouse provides a set of tools to help you ensure you’re on the right track, and by thinking of these disparate requirements in terms of *speed*, 
 *relevance*, and *readability*, you can have a clear frame of reference for your work to guide you through a project.
+
+<br>
+<br>
 
 ---

@@ -19,16 +19,14 @@ image: https://thinkshout.com/assets/images/blog/cactus.jpg
 header-image: /assets/images/blog/cactus.jpg
 header-image-alt: "minimalist plants in a row."
 ---
-# Accessible Cards + Duplicate Links
+## Accessible Cards + Duplicate Links
 
-Duplicate link errors are common whenever you have multiple links on one element that go to the same place. This accessibility issue not only creates a messy list of links for your page, but it isn’t great for SEO either.
+
+![screenshout from a website of an image with multplie links](/assets/images/blog/trout-1.png){:.right .thirty} Duplicate link errors are common whenever you have multiple links on one element that go to the same place. This accessibility issue not only creates a messy list of links for your page, but it isn’t great for SEO either.
 
 In this card example, the image and the headline text “Trout stocking maps” are both links. If a person clicks on the image or the title text, they are taken to the new page. 
 
-I refer to these as a “card” because we usually see multiple in a row all laid out like, well, cards. 
-
-![screenshout from a website of an image with multplie links](/assets/images/blog/trout-1.png)
-{:.center}{:height="70%" width="70%"}
+I refer to these as a “card” because we usually see multiple in a row all laid out like, well, cards.<br clear="all">
 
 ## Why it’s a problem
 ​
@@ -42,29 +40,26 @@ Our end goal is for the user to be able to get to the article if they click on t
 
 ## Option #1: Wrap the whole thing in an anchor, and give it a clear label.
 
-Wrapping multiple fields in a single anchor tag minimizes duplicates and allows the links to behave as expected. 
 
+![Food bank website logo](/assets/images/blog/foodbank1.png){:.left .thirty}
+<span class="caption left thirty"><i class="fa fa-caret-up"></i>Example: "Find a Foodbank" cards</span> Wrapping multiple fields in a single anchor tag minimizes duplicates and allows the links to behave as expected. 
 
-![Food bank website logo](/assets/images/blog/foodbank1.png)
-{:.center}
-<span class="caption"><i class="fa fa-caret-up"></i>Example: "Find a Foodbank" cards</span>
-​
 Here, the logo and the link text are wrapped in an anchor tag that has an aria-label. 
 
 ***Without the aria-label, the link would be read by screen readers as:*** 
 *“Link: Foodbank of Alaska logo Foodbank of Alaska, Inc”*
 
 ***With the aria-label, the link is read as:***
-*“Link: Foodbank of Alaska”*
+*“Link: Foodbank of Alaska”*<br clear="all">
 
 Example of an anchor tag wrapped around multiple fields:
 
-```
+~~~html
 <a aria-label="Food Bank of Alaska, Inc." href="/find-your-local-foodbank/food-bank-of-alaska-inc.html">
   <img border="0" alt="Food Bank of Alaska, Inc. logo” src="FoodBankLogo_3_275w.jpg">
   <p class="name">Food Bank of Alaska, Inc.</p>
 </a>
-```
+~~~
 
 
 **Pros:**
@@ -77,40 +72,38 @@ If another link is between them, it doesn’t work. (Although, this is a good re
 
 ## Option #2: A Simple Fix for Clicks.
 
-![screenshot of a trout stocking webpage](/assets/images/blog/trout-1.png)
-{:.center}{:height="70%" width="70%"}
-<span class="caption"><i class="fa fa-caret-up"></i>Example: Trout stocking image and title</span>
+![screenshot of a trout stocking webpage](/assets/images/blog/trout-1.png){:.left .thirty}
+<span class="caption left thirty"><i class="fa fa-caret-up"></i>Example: Trout stocking image and title</span>
 
 In this example, I have an image and a green title that should both be links. But because they have content between them, wrapping them in a link isn’t a great option. Drupal can also get a bit grumpy about wrapping multiple fields in an anchor tag -- it’ll wrap each field in its own anchor, which often makes your duplicate link issue worse. 
 
-I stumbled across a solution for this on [bbc.co.uk](https://www.bbc.co.uk) that allows the user to tab through the article headings, or click on any article element to get to the full story. Here’s how it works. 
+I stumbled across a solution for this on [bbc.co.uk](https://www.bbc.co.uk) that allows the user to tab through the article headings, or click on any article element to get to the full story. Here’s how it works.<br clear="all">
 
 ### What to do
 
 1. Make the title text a semantic link.
 
-```
+~~~html
 // Semantic link in the tab index, available for keyboard navigation with a clear label
 <a href=“/trout-stocking-maps”><h3>Where to fish</h3></a>
-```
+~~~
 
 2. Add an invisible anchor tag and position it over the image (or the entire card) you want to become the link. 
 
-```
+~~~html
 // Invisible link, available to click on, but not to screen readers and keyboard navigation
-<a href="/trout-stocking-maps" style=“position:absolute; left: 0; top: 0; width: 100%; height: 
- 100%”></a>
-```
+<a href="/trout-stocking-maps" style=“position:absolute; left: 0; top: 0; width: 100%; height: 100%”></a>
+~~~
 
 3. Tell assistive technology to ignore your invisible link by giving it the properties *aria-hidden=“true”* and *tabindex=“-1”*. (This is only a good idea when the content is available elsewhere on the page.) In this case, we’re hiding a duplicate of semantic, accessible code. 
 
-```
+~~~html
 <div class="card" style=“position: relative”>
   // Invisible link, available to click on
-  <a aria-hidden="true" tabindex=“-1” href="/trout-stocking-maps" style=“     
-  position:absolute; left: 0; top: 0; width: 100%; height: 100%”></a>
-  
-  <div class="card-image">        
+  <a aria-hidden="true" tabindex=“-1” href="/trout-stocking-maps" style="
+    position:absolute; left: 0; top: 0; width: 100%; height: 100%"></a>
+
+  <div class="card-image">
     <img src="009_marion_lake_bader_odfw.jpg" alt="Marion Lake">
   </div>
 
@@ -120,7 +113,7 @@ I stumbled across a solution for this on [bbc.co.uk](https://www.bbc.co.uk) that
     ...
   </h3>
 </div>
-```
+~~~
 
 ### This approach makes all of these desired interactions true: 
 
@@ -136,7 +129,7 @@ If you put the invisible anchor at the beginning of your markup, you can still u
 
 Be sure to add hover styles for both links, and focus for the semantic title link.
 
-```
+~~~css
 .invisible-link:focus,
 .invisible-link:hover {
    & + .h3 {
@@ -144,20 +137,17 @@ Be sure to add hover styles for both links, and focus for the semantic title lin
      text-decoration: underline;
   }
 }
-```
+~~~
 
 ## Option #3: Get Minimal
 
-The last thing to consider is: *does this need to be a link?* Sometimes as devs, we like to insert extra functionality that’s actually not that useful for folks using our sites. 
-
+The last thing to consider is: *does this need to be a link?* Sometimes as devs, we like to insert extra functionality that’s actually not that useful for folks using our sites.
 
 ![screenshot of an education webpage](/assets/images/blog/education1.png)
-{:.center}
 
 On this element, there’s a link around the icon as well as around the title next to it. It’s not very intuitive to click on the icon as a link, and it triggers a [Duplicate Error warning in WAVE](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh).
 
 ![A WAVE tool error shows a redundant link error](/assets/images/blog/link1.png)
-{:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>A WAVE tool error shows a redundant link error.</span>
 
 Rather than finding a workaround for this error, I’d recommend just removing the link from the icon. It allows folks to access the information with any extra clutter while using known patterns. Plus, deleting code is my favorite kind of fix.
@@ -175,9 +165,7 @@ And give it an [aria-label](https://www.w3.org/TR/WCAG20-TECHS/ARIA14.html) or [
 2. Does it have visible hover and focus states?
 
 ### Get minimal.
-Sometimes the most clever workaround is writing clear semantic code. If I find myself getting tricky, my code is probably going to be tricky to maintain as well. 
-
-
+Sometimes the most clever workaround is writing clear semantic code. If I find myself getting tricky, my code is probably going to be tricky to maintain as well.
 
 
 ## Resources

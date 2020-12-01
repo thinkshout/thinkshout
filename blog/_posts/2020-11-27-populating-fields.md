@@ -16,11 +16,11 @@ tags:
   - technology
   - "drupal 8"
 date: 2020-11-27 11:00:00
-image: https://thinkshout.com/assets/images/blog/field-1.jpg
-header-image: /assets/images/blog/field-1.jpg
+image: https://thinkshout.com/assets/images/blog/field-2.jpg
+header-image: /assets/images/blog/field-2.jpg
 header-image-alt: "photograph of fields from above."
 ---
-# Programmatically Adding and Populating New Fields in Drupal 8
+## Programmatically Adding and Populating New Fields in Drupal 8
 ​
 When working on our longer-term clients’ sites, we’re often asked to add a new field (or fields) to some kind of content, and in the same batch of code to add values to those new fields. This shouldn’t be a problem -- and mostly, it isn’t. The developer who’s assigned the ticket adds the fields via the Drupal GUI, the configuration for which is automatically exported via [Config Suite](https://www.drupal.org/project/config_suite) to a folder in the git repository. Then, they write a [post_update](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Extension%21module.api.php/function/hook_post_update_NAME/8.9.x) hook to add values to it. They test-run the hook (generally via `drush updb`), see that it works, and happily commit this new code along with the exported configuration that describes the new fields.
 ​
@@ -28,14 +28,15 @@ Sometimes, though, a problem arises when this code is deployed. Our deployment m
 ​
 1. On GitHub, merge the development code into a production branch.
 2. This merge kicks off a deployment script on CircleCI that runs PHPCS and visual regression tests.
-3. Circle merges the incoming code into Pantheon's git repo for this site, and then uses Terminus to get into the site's "dev" environment and run 
+3. Circle merges the incoming code into Pantheon's git repo for this site, and then uses Terminus to get into the site's "dev" environment and run:
 ​
-```
+~~~bash
 drush cr
 drush -y updb		# short for updatedb
 drush -y cim		# short for config:import
-```
+~~~
 ​
+
 *So, what's the problem?*
 ​
 ## The Problem
@@ -49,7 +50,7 @@ The following code lays out one way to address this problem. Assuming we're doin
 ​
 **`modules/custom/test/test.install`**
 ​
-```
+~~~php
 <?php
 ​
 use Drupal\Core\Config\FileStorage;
@@ -102,7 +103,7 @@ function _ensure_fields(array $entitytypes_fields) {
     }
   }
 }
-```
+~~~
 ​
 `_ensure_fields()` is a custom function I wrote to address this situation. Here are some things to remember: 
 ​
@@ -110,9 +111,10 @@ function _ensure_fields(array $entitytypes_fields) {
 2. Include this function in the `.install` file of your module.
 3. Use it in your `hook_update_N()` function per its documentation.
 ​
+
 Here's `_ensure_fields()` in action, a little further down the `test.install` file. We're adding `field_external_id` to two node types, and, just for good measure, adding a `field_second_image` field to a paragraph type at the same time.
 ​
-```
+~~~php
 /**
  * Adds "External ID" field to articles and "Second image" to two-col CTAs.
  */
@@ -135,14 +137,14 @@ function test_update_8101(&$sandbox) {
 ​
   _ensure_fields($entitytypes_fields);
 }
-```
+~~~
 ​
 Finally, we'd add new values to the fields in that post-update hook like so:
 ​
 ​
 **`modules/custom/test/test.post_update.php`**
 ​
-```
+~~~php
 <?php
 ​
 /**
@@ -178,7 +180,7 @@ function test_post_update_populate_id_field(&$sandbox) {
     $node->save();
   }
 }
-```
+~~~
 ​
 The deployment ought to go smoothly now--the new fields are added as expected, and then their values get populated.
 ​

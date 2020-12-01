@@ -295,11 +295,17 @@
       float: left;
       margin-bottom: 1rem;
       margin-right: 1rem;
+      @include mq(d) {
+        margin-right: 1rem;
+      }
     }
     .right {
       float: right;
       margin-bottom: 1rem;
       margin-left: 1rem;
+      @include mq(d) {
+        margin-left: 2rem;
+      }
     }
     .full {
       margin-left: 0;
