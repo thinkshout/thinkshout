@@ -3606,11 +3606,19 @@ a.visually-hidden.focusable:focus {
   float: left;
   margin-bottom: 1rem;
   margin-right: 1rem; }
+  @media (min-width: 980px) {
+    .blog-post .body .left,
+    .blog-post .intro .left {
+      margin-right: 1rem; } }
 .blog-post .body .right,
 .blog-post .intro .right {
   float: right;
   margin-bottom: 1rem;
   margin-left: 1rem; }
+  @media (min-width: 980px) {
+    .blog-post .body .right,
+    .blog-post .intro .right {
+      margin-left: 2rem; } }
 .blog-post .body .full,
 .blog-post .intro .full {
   margin-left: 0;
