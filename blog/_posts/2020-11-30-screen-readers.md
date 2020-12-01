@@ -7,9 +7,9 @@ topic:
 - "Technological Innovation"
 campaign-topic: accessibility
 title: "Talking to Screen readers with ARIA-live and Drupal.announce()"
-homepage: true
+homepage: false
 author: jules
-published: true
+published: false
 featured: false
 short: "If content changes on your site and there’s a visual change to let users know, you need to make that change clear to folks who can’t see the visual cues. Drupal.announce is a JS method built into Drupal core that can make this easy."
 tags:
