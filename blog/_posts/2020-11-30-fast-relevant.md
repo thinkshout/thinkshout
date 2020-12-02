@@ -7,9 +7,9 @@ topic:
 - "Technological Innovation"
 campaign-topic: "technological innovation"
 title: "Fast, Relevant, and Easy to Read"
-homepage: false
+homepage: true
 author: joe
-published: false
+published: true
 featured: false
 short: Building a site today is more complex than ever. Front-End developers need to balance the requirements of a design, the tools best suited for implementation, the long-term maintainability of the site by non-developers, and the ever-growing legal risks that can be part of a high-profile client site."
 tags:
