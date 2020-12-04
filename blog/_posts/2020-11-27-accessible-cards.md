@@ -81,21 +81,21 @@ I stumbled across a solution for this on [bbc.co.uk](https://www.bbc.co.uk) that
 
 ### What to do
 
-&nbsp;&nbsp;&nbsp;1\. Make the title text a semantic link.
+1\. Make the title text a semantic link.
 
 ~~~html
 // Semantic link in the tab index, available for keyboard navigation with a clear label
 <a href=“/trout-stocking-maps”><h3>Where to fish</h3></a>
 ~~~
 
-&nbsp;&nbsp;&nbsp;&nbsp;2\. Add an invisible anchor tag and position it over the image (or the entire card) you want to become the link. 
+2\. Add an invisible anchor tag and position it over the image (or the entire card) you want to become the link. 
 
 ~~~html
 // Invisible link, available to click on, but not to screen readers and keyboard navigation
 <a href="/trout-stocking-maps" style=“position:absolute; left: 0; top: 0; width: 100%; height: 100%”></a>
 ~~~
 
-&nbsp;&nbsp;&nbsp;&nbsp;3\. Tell assistive technology to ignore your invisible link by giving it the properties *aria-hidden=“true”* and *tabindex=“-1”*. (This is only a good idea when the content is available elsewhere on the page.) In this case, we’re hiding a duplicate of semantic, accessible code. 
+3\. Tell assistive technology to ignore your invisible link by giving it the properties *aria-hidden=“true”* and *tabindex=“-1”*. (This is only a good idea when the content is available elsewhere on the page.) In this case, we’re hiding a duplicate of semantic, accessible code. 
  
 ~~~html
 <div class="card" style=“position: relative”>
