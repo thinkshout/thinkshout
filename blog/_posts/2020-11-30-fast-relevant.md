@@ -25,7 +25,7 @@ image: https://thinkshout.com/assets/images/blog/dawnlights.jpg
 header-image: /assets/images/blog/dawnlights.jpg
 header-image-alt: "The Cape Hatteras Lighthouse at dawn."
 ---
-## *First, a little history.*
+## First, a little history.
 
 Once upon a time, front-end development was fairly simple - you wrote HTML and CSS, tried to use as few images as possible, and your only goal was to try and get the site to look as much like the design as possible -- browsers and technology permitting. 
 
@@ -39,7 +39,7 @@ Back in those early days, you could ‘game’ the search engines in a variety o
 
 Google’s goal is to make pages as fast, well-structured, and as easy to read as possible. Why? So they can serve more ads! Here’s the breakdown: if you look at 60 pages an hour vs 50 pages, Google serves more ads, and thus, makes more money. It just so happens that what Google wants and what’s good for the people using your website are complementary. For example, when you have a fast donation page, you get more donations. 
 
-When Google can understand what’s on your page, someone searching for that content can find it more easily. And when you prioritize making it easy for a web crawler like Googlebot to understand everything on your site, people who use assistive technologies (such as braille or speech readers) won’t have to go through the trouble of [taking you to court](https://www.cnbc.com/2019/10/07/dominos-supreme-court.html) just to order a pizza. 
+When Google can understand what’s on your page, someone searching for that content can find it more easily. And when you prioritize making it easy for a web crawler like Googlebot to understand everything on your site, people who use assistive technologies (such as braille or screen readers) won’t have to go through the trouble of [taking you to court](https://www.cnbc.com/2019/10/07/dominos-supreme-court.html) just to order a pizza. 
 
 So how do we prioritize this ease of navigation? We’ll break it down into three distinct goals: Performance, SEO, and Accessibility. 
 
