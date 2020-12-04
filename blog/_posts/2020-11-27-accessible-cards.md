@@ -5,9 +5,9 @@ body-class: blog-post
 topic: accessibility
 campaign-topic: accessibility
 title: "Accessible Cards + Duplicate Links"
-homepage: false
+homepage: true
 author: jules
-published: false
+published: true
 featured: false
 short: "Card elements are all over the internet -- and so are “Duplicate Link” errors. Here are a few ways to fix these common bugs while tidying up your code at the same time."
 tags:
@@ -81,22 +81,22 @@ I stumbled across a solution for this on [bbc.co.uk](https://www.bbc.co.uk) that
 
 ### What to do
 
-1. Make the title text a semantic link.
+1\. Make the title text a semantic link.
 
 ~~~html
 // Semantic link in the tab index, available for keyboard navigation with a clear label
 <a href=“/trout-stocking-maps”><h3>Where to fish</h3></a>
 ~~~
 
-2. Add an invisible anchor tag and position it over the image (or the entire card) you want to become the link. 
+2\. Add an invisible anchor tag and position it over the image (or the entire card) you want to become the link. 
 
 ~~~html
 // Invisible link, available to click on, but not to screen readers and keyboard navigation
 <a href="/trout-stocking-maps" style=“position:absolute; left: 0; top: 0; width: 100%; height: 100%”></a>
 ~~~
 
-3. Tell assistive technology to ignore your invisible link by giving it the properties *aria-hidden=“true”* and *tabindex=“-1”*. (This is only a good idea when the content is available elsewhere on the page.) In this case, we’re hiding a duplicate of semantic, accessible code. 
-
+3\. Tell assistive technology to ignore your invisible link by giving it the properties *aria-hidden=“true”* and *tabindex=“-1”*. (This is only a good idea when the content is available elsewhere on the page.) In this case, we’re hiding a duplicate of semantic, accessible code. 
+ 
 ~~~html
 <div class="card" style=“position: relative”>
   // Invisible link, available to click on
@@ -105,7 +105,7 @@ I stumbled across a solution for this on [bbc.co.uk](https://www.bbc.co.uk) that
 
   <div class="card-image">
     <img src="009_marion_lake_bader_odfw.jpg" alt="Marion Lake">
-  </div>
+  </div> 
 
   <div class="card-body">
     // Semantic link in the tab index, available for keyboard navigation
