@@ -41,7 +41,7 @@ drush -y cim		# short for config:import
 ​
 ## The Problem
 ​
-​The order of this operation[^1]. `drush updb` updates the database and runs a post-update hook where the developer populates the new field. Afterward, with `drush cim`, we're trying to import the configuration that tells Drupal to *create* the new field. The database update fails, and although the configuration import does run, the new values never get put into it.
+​The order of this operation<sup>1</sup>. `drush updb` updates the database and runs a post-update hook where the developer populates the new field. Afterward, with `drush cim`, we're trying to import the configuration that tells Drupal to *create* the new field. The database update fails, and although the configuration import does run, the new values never get put into it.
 ​
 ​
 ## The Solution
@@ -188,7 +188,7 @@ The deployment ought to go smoothly now--the new fields are added as expected, a
 ​
 It *is* technically possible to add the fields and also populate them within our hook_update_N function, skipping the post_update hook altogether. Although the documentation for exactly what sort of work should be done in [one](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Extension%21module.api.php/function/hook_update_N/8.9.x) versus [the other](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Extension%21module.api.php/function/hook_post_update_NAME/8.9.x) can be confusing, the hook_update_N docs are clear that in these functions, loading, saving, or performing any other CRUD operation on an entity is never safe to do (they always involve hooks and services).  
 
-Instead: make your field changes in hook_update_N, then make your content changes in post_update hooks.  
-​
-​
-[^1]: Which is standard for this kind of deployment. See, for instance, [the drush deploy command](https://www.drush.org/deploycommand/), which effectively does the same thing, and [this useful StackExchange discussion](https://drupal.stackexchange.com/a/254411) on the matter.
+Instead: make your field changes in hook_update_N, then make your content changes in post_update hooks.     
+​  
+​  
+<sup>1</sup>: Which is standard for this kind of deployment. See, for instance, [the drush deploy command](https://www.drush.org/deploycommand/), which effectively does the same thing, and [this useful StackExchange discussion](https://drupal.stackexchange.com/a/254411) on the matter.
