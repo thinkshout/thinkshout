@@ -22,9 +22,9 @@ header-image-alt: "photograph of fields from above."
 ---
 ## Programmatically Adding and Populating New Fields in Drupal 8
 ​
-When working on our longer-term clients’ sites, we’re often asked to add a new field (or fields) to some kind of content, and in the same batch of code to add values to those new fields. This shouldn’t be a problem -- and mostly, it isn’t. The developer who’s assigned the ticket adds the fields via the Drupal GUI, the configuration for which is automatically exported via [Config Suite](https://www.drupal.org/project/config_suite) to a folder in the git repository. Then, they write a [post_update](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Extension%21module.api.php/function/hook_post_update_NAME/8.9.x) hook to add values to it. They test-run the hook (generally via `drush updb`), see that it works, and happily commit this new code along with the exported configuration that describes the new fields.
-​
-Sometimes, though, a problem arises when this code is deployed. Our deployment method for Drupal 8 is fairly standard:​
+When working on our longer-term clients’ sites, we’re often asked to add a new field (or fields) to some kind of content, and in the same batch of code to add values to those new fields. This shouldn’t be a problem -- and mostly, it isn’t. The developer who’s assigned the ticket adds the fields via the Drupal GUI, the configuration for which is automatically exported via [Config Suite](https://www.drupal.org/project/config_suite) to a folder in the git repository. Then, they write a [post_update](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Extension%21module.api.php/function/hook_post_update_NAME/8.9.x) hook to add values to it. They test-run the hook (generally via `drush updb`), see that it works, and happily commit this new code along with the exported configuration that describes the new fields.  
+
+Sometimes, though, a problem arises when this code is deployed. Our deployment method for Drupal 8 is fairly standard:  
 ​
 1. On GitHub, merge the development code into a production branch.
 2. This merge kicks off a deployment script on CircleCI that runs PHPCS and visual regression tests.
@@ -186,11 +186,9 @@ The deployment ought to go smoothly now--the new fields are added as expected, a
 ​
 ## Last note: Why the post_update hook?
 ​
-It *is* technically possible to add the fields and also populate them within our hook_update_N function, skipping the post_update hook altogether. Although the documentation for exactly what sort of work should be done in [one](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Extension%21module.api.php/function/hook_update_N/8.9.x) versus [the other](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Extension%21module.api.php/function/hook_post_update_NAME/8.9.x) can be confusing, the hook_update_N docs are clear that in these functions,
-​
-Loading, saving, or performing any other CRUD operation on an entity is never safe to do (they always involve hooks and services).
-​
-Instead: make your field changes in hook_update_N, then make your content changes in post_update hooks.
+It *is* technically possible to add the fields and also populate them within our hook_update_N function, skipping the post_update hook altogether. Although the documentation for exactly what sort of work should be done in [one](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Extension%21module.api.php/function/hook_update_N/8.9.x) versus [the other](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Extension%21module.api.php/function/hook_post_update_NAME/8.9.x) can be confusing, the hook_update_N docs are clear that in these functions, loading, saving, or performing any other CRUD operation on an entity is never safe to do (they always involve hooks and services).  
+
+Instead: make your field changes in hook_update_N, then make your content changes in post_update hooks.  
 ​
 ​
 [^1]: Which is standard for this kind of deployment. See, for instance, [the drush deploy command](https://www.drush.org/deploycommand/), which effectively does the same thing, and [this useful StackExchange discussion](https://drupal.stackexchange.com/a/254411) on the matter.
