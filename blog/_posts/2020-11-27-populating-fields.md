@@ -41,7 +41,7 @@ drush -y cim		# short for config:import
 ​
 ## The Problem
 ​
-​The order of this operation<sup>1</sup>. `drush updb` updates the database and runs a post-update hook where the developer populates the new field. Afterward, with `drush cim`, we're trying to import the configuration that tells Drupal to *create* the new field. The database update fails, and although the configuration import does run, the new values never get put into it.
+The order of this operation[<sup>1</sup>](#referenced). `drush updb` updates the database and runs a post-update hook where the developer populates the new field. Afterward, with `drush cim`, we're trying to import the configuration that tells Drupal to *create* the new field. The database update fails, and although the configuration import does run, the new values never get put into it.
 ​
 ​
 ## The Solution
@@ -191,4 +191,5 @@ It *is* technically possible to add the fields and also populate them within our
 Instead: make your field changes in hook_update_N, then make your content changes in post_update hooks.     
 ​  
 ​  
-<sup>1</sup>: Which is standard for this kind of deployment. See, for instance, [the drush deploy command](https://www.drush.org/deploycommand/), which effectively does the same thing, and [this useful StackExchange discussion](https://drupal.stackexchange.com/a/254411) on the matter.
+### Referenced
+[1](#the-problem). Which is standard for this kind of deployment. See, for instance, [the drush deploy command](https://www.drush.org/deploycommand/), which effectively does the same thing, and [this useful StackExchange discussion](https://drupal.stackexchange.com/a/254411) on the matter.
