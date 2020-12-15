@@ -45,7 +45,7 @@ Just this summer, the Salesforce Foundation hired its first Open Source Manager,
 
 As a result, the [nonprofit track](http://www.salesforcefoundation.org/dreamforce-15/) at Dreamforce is where you will see the majority of conference sessions around open source integrations and development workflows. We are particularly excited about the following sessions:
 
-* [Open Source Development of Managed Packages](https://success.salesforce.com/Ev_Sessions?eventId=a1Q30000000DHQlEAO#/session/a2q300000019kJjAAI) - For open source developers, this might be one of the most useful sessions at the entire conference, as it will talk about how you can leverage GitHub and Jenkins workflows in the development of Salesforce products.
+* Open Source Development of Managed Packages - For open source developers, this might be one of the most useful sessions at the entire conference, as it will talk about how you can leverage GitHub and Jenkins workflows in the development of Salesforce products.
 
 * [Integrating Salesforce with an Open Source Content Management System (Drupal)](https://success.salesforce.com/Ev_Sessions?eventId=a1Q30000000DHQlEAO#/session/a2q30000001CIenAAG) - As the maintainers of the [Salesforce Suite for Drupal](https://www.drupal.org/project/salesforce), we are excited to see how our colleagues at Confluence are integrating Drupal and WordPress with their nonprofit Salesforce customers.
 
