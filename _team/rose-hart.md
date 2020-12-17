@@ -2,7 +2,7 @@
 layout: teammember
 first_name: Rose
 last_name: Hart
-position: Senior Project Manager
+position: Senior Project Director
 leadin: |
   Rose is a geek for problem solving; she loves taking concepts and turning them into plans of action. 
 social:
