@@ -24,7 +24,7 @@ header-image-alt: "Person of color in background with textured circles"
 caption: "Illustration by Sarah Leigh"
 card-image: /assets/images/wonderlab/consent-based-collaboration/card/cbc-tech-card.jpg
 card-image-alt: "Person of color in background with textured circles"
-medium-link: https://medium.com
+medium-link: https://medium.com/thinkshout/the-technical-benefits-of-consent-based-calibration-465909fd6ab7
 slug: technical-benefits-consent-based-calibration
 ---
 
