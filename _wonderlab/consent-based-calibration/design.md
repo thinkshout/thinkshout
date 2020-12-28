@@ -36,7 +36,7 @@ caption: "Illustration by Sarah Leigh"
 card-image: /assets/images/wonderlab/consent-based-collaboration/card/cbc-design-card.jpg
 card-image-alt: "4 different glasses filled with dairy."
 # The Medium URL.
-medium-link: https://medium.com/wonder-lab/the-case-for-designing-digital-platforms-that-respect-our-privacy-64aa20057611
+medium-link: https://medium.com/thinkshout/the-case-for-designing-digital-platforms-that-respect-our-privacy-133f5c312c55
 slug: case-designing-digital-platforms-respect-privacy
 ---
 

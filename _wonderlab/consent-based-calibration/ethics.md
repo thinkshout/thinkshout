@@ -37,7 +37,7 @@ caption: "Illustration by Sarah Leigh"
 card-image: /assets/images/wonderlab/consent-based-collaboration/card/cbc-ethics-card.jpg
 card-image-alt: "Collection of images connected by angled lines."
 # The Medium URL.
-medium-link: https://medium.com/wonder-lab/restoring-trust-in-tech-starts-with-new-boundaries-for-user-consent-f7d675957cf4
+medium-link: https://medium.com/thinkshout/restoring-trust-in-tech-starts-with-new-boundaries-for-user-consent-4670c7f0ebdf
 slug: restoring-trust-tech-starts-new-boundaries-user-consent
 ---
 
