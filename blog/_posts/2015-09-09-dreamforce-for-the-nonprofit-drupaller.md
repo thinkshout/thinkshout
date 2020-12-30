@@ -31,7 +31,7 @@ Dave Grohl fans, rejoice: The Foo Fighters will be playing Dreamforce! Every yea
 
 Not a Justin Bieber reference (though you never know with Dreamforce…), the *Lightning Experience* is one of the slickest and most useful product announcements we’ve seen from Salesforce in a long time.
 
-As part of Salesforce’s ["Winter 2016 release"](https://www.salesforce.com/blog/2016/09/get-ready-for-the-winter-17-release.html), Salesforce is rolling out huge user interface enhancements under the marketing banner of *The Lightning Experience.* From the few screenshots that have been released of the new UI, it looks like Salesforce is borrowing from Google’s embrace of [“material design.”](https://www.google.com/design/spec/material-design/introduction.html) Even more significant, the Lightning Experience includes drag-and-drop templating tools that will allow non-developers to construct robust Salesforce applications, dashboards, and mobile interfaces from within their web browser.
+As part of Salesforce’s ["Winter 2016 release"](https://www.salesforce.com/blog/sales-management-dashboards/), Salesforce is rolling out huge user interface enhancements under the marketing banner of *The Lightning Experience.* From the few screenshots that have been released of the new UI, it looks like Salesforce is borrowing from Google’s embrace of “material design." Even more significant, the Lightning Experience includes drag-and-drop templating tools that will allow non-developers to construct robust Salesforce applications, dashboards, and mobile interfaces from within their web browser.
 
 ### The New Salesforce Wave App - Free for Nonprofits
 
@@ -43,17 +43,17 @@ What’s also neat about the Wave App is that the Salesforce Foundation is expec
 
 Just this summer, the Salesforce Foundation hired its first Open Source Manager, our good friend and long-time nonprofit tech advocate, Judi Sohn. One of Judi’s first tasks in this new role has been to put together an [open source advisory board for the Foundation](http://www.salesforcefoundation.org/join-the-new-nonprofit-starter-pack-advisory-board/), focused on promoting open source contributions and collaboration around its [Nonprofit Starter Pack](http://www.salesforcefoundation.org/help/nonprofitstarterpack/).
 
-As a result, the [nonprofit track](http://www.salesforcefoundation.org/dreamforce-15/) at Dreamforce is where you will see the majority of conference sessions around open source integrations and development workflows. We are particularly excited about the following sessions:
+As a result, the nonprofit track at Dreamforce is where you will see the majority of conference sessions around open source integrations and development workflows. We are particularly excited about the following sessions:
 
 * Open Source Development of Managed Packages - For open source developers, this might be one of the most useful sessions at the entire conference, as it will talk about how you can leverage GitHub and Jenkins workflows in the development of Salesforce products.
 
-* [Integrating Salesforce with an Open Source Content Management System (Drupal)](https://success.salesforce.com/Ev_Sessions?eventId=a1Q30000000DHQlEAO#/session/a2q30000001CIenAAG) - As the maintainers of the [Salesforce Suite for Drupal](https://www.drupal.org/project/salesforce), we are excited to see how our colleagues at Confluence are integrating Drupal and WordPress with their nonprofit Salesforce customers.
+* Integrating Salesforce with an Open Source Content Management System (Drupal) - As the maintainers of the [Salesforce Suite for Drupal](https://www.drupal.org/project/salesforce), we are excited to see how our colleagues at Confluence are integrating Drupal and WordPress with their nonprofit Salesforce customers.
 
-* [Salesforce Open Source for Fun and Everyone’s Profit](https://success.salesforce.com/Ev_Sessions?eventId=a1Q30000000DHQlEAO#/session/a2q30000001BWXrAAO) - This session will focus on contributing to open source projects that leverage [Salesforce1](http://www.salesforce.com/mobile/overview/), Salesforce’s mobile application platform.
+* Salesforce Open Source for Fun and Everyone’s Profit - This session will focus on contributing to open source projects that leverage [Salesforce1](http://www.salesforce.com/mobile/overview/), Salesforce’s mobile application platform.
 
-* [Write/Speak/Code: Open Source Workshop for Developers](https://success.salesforce.com/Ev_Sessions?eventId=a1Q30000000DHQlEAO#/session/a2q30000001CYS7AAO) - This will be a hands-on workshop for developers interested in contributing to open source Salesforce applications.
+* Write/Speak/Code: Open Source Workshop for Developers - This will be a hands-on workshop for developers interested in contributing to open source Salesforce applications.
 
-* [Getting Started with the Nonprofit Starter Pack 3.0](https://success.salesforce.com/Ev_Sessions?eventId=a1Q30000000DHQlEAO#/session/a2q30000001BTlUAAW) - The 3.0 release of the Nonprofit Starter Pack (NPSP) this year was a huge step forward for this free tool for nonprofits. We are excited to participate in this session to see the NPSP through the lense of the nonprofits we serve who are just getting acquainted with the platform’s features.
+* Getting Started with the Nonprofit Starter Pack 3.0 - The 3.0 release of the Nonprofit Starter Pack (NPSP) this year was a huge step forward for this free tool for nonprofits. We are excited to participate in this session to see the NPSP through the lense of the nonprofits we serve who are just getting acquainted with the platform’s features.
 
 ### See You There!
 
