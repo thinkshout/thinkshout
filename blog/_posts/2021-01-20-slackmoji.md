@@ -88,7 +88,7 @@ Requirements for this picture? It’s got to be a clear shot of their face and i
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Save as a PNG.</span>
 
-Step 7: Upload to [Slack](https://slack.com/).
+### Step 7: Upload to [Slack](https://slack.com/).
 1. Hit the emoji panel in Slack, and in the bottom left corner there’s an option to Add Emoji. Click it!
 2. A panel will come up, and you can upload your PNG and name your emoji. 
 
