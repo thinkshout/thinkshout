@@ -24,7 +24,7 @@ header-image-alt: "two pugs standing in the forest"
 ---
 > “Turning my dog into a Slackmoji was the best decision of my life!” - Anonymous ThinkShout Employee
 
-Do you ever wish you could bring your dog (or cat) to work? Has working from home fulfilled that desire, but you still have an insatiable urge to brag about *just how cute your little cutie<sup>1</sup> really is?*
+Do you ever wish you could bring your dog (or cat) to work? Has working from home fulfilled that desire, but still, you have an insatiable urge to brag about *just how cute your little cutie<sup>1</sup> really is?*
 
 Well look no further. This step-by-step guide will show you how to use [Photoshop](https://www.adobe.com/products/photoshop.html) to turn your furry friend into a Slackmoji, which, honestly, is just the right amount of obnoxious.
 
