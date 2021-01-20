@@ -34,7 +34,7 @@ Well look no further. This step-by-step guide will show you how to use [Photosho
 
 Requirements for this picture? It’s got to be a clear shot of their face and it’s got to be cute.
 
-![Picture of Oats the pug](/assets/images/blog/slack-1.jpeg){:.center width="70" height="70"}
+![Picture of Oats the pug](/assets/images/blog/slack-1.jpeg){:.center} {width="70" height="70"}
 <span class="caption"><i class="fa fa-caret-up"></i>This is my Pug Oats. Note that this photo is both clear and cute.</span>
 
 ### Step 2: Create a Photoshop file and open the picture of your friend. 
