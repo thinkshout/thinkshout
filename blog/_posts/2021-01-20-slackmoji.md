@@ -103,7 +103,7 @@ But be prepared. Coworkers will probably get jealous *real quick* and want THEIR
 
 ![Slack dog emoji](/assets/images/blog/slack-8.png){:width="30%" height="30%"}
 {:.center}
-<span class="caption"><i class="fa fa-caret-up"></i></span>
+
 
 ![Slack dog emojis](/assets/images/blog/slacks-1.png){:width="70%" height="70%"}
 {:.center}
