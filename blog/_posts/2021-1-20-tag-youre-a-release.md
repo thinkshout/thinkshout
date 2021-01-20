@@ -43,7 +43,7 @@ Git quickly came to be *the* version control software for the free, open-source,
 
 ## Enter GitHub.
 
-![GitHub's mascot, Octocat](/assets/images/blog/original.png){:align="center" height="70%" width="70%"}
+![GitHub's mascot, Octocat](/assets/images/blog/original.png){:.center .sixty}
 <span class="caption"><i class="fa fa-caret-up"></i>GitHub's mascot, Octocat.</span>
 
 There were a number of websites that aimed to leverage Git, but GitHub had the advantage of being well-funded and early—and it has held the advantage by being the largest Git hosting service. Basic services are free, you can see (and work in) all of your repositories on the web, and you can search for, follow, and [fork](https://en.wikipedia.org/wiki/Fork_(software_development)) over 140 million repositories. It also provides a place for documentation, discussion, and task management. Plus, it lets you define a *release*.
