@@ -99,7 +99,7 @@ Requirements for this picture? It’s got to be a clear shot of their face and i
 ### Now you can use it! 
 Just click the emoji panel and search for the name. 
 
-![Slack dog emoji](/assets/images/blog/slack-8.png){:width="50%" height="50%"}
+![Slack dog emoji](/assets/images/blog/slack-8.png){:width="30%" height="30%"}
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Oats' emoji in use.</span>
 
