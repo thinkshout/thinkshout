@@ -43,7 +43,8 @@ Requirements for this picture? It’s got to be a clear shot of their face and i
 2. Select, “Custom” and set the size to 1080 pixels by 1080 pixels.
 3. Drag your pet pic onto the art board.
 
-![Picture of new file screen](/assets/images/blog/slack-2.png){:.center width="80%" height="80%"}
+![Picture of new file screen](/assets/images/blog/slack-2.png){:width="80%" height="80%"}
+{:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>New custom file.</span>
 
 ### Step 3: Rasterize
@@ -51,7 +52,8 @@ Requirements for this picture? It’s got to be a clear shot of their face and i
 
 1. Right click the layer with the little cutie on it, and select "Rasterize" from the drop down menu.
 
-![Picture of rasterize screen](/assets/images/blog/slack-3.png){:.center width="80%" height="80%"}
+![Picture of rasterize screen](/assets/images/blog/slack-3.png){:width="80%" height="80%"}
+{:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Just rasterize it!</span>
 
 ### Step 4: Cut out your pet’s head. 
@@ -61,7 +63,8 @@ Requirements for this picture? It’s got to be a clear shot of their face and i
 2. Find the “Select” option in the top toolbar. Choose “Select Inverse” from the drop down menu. 
 3. Press “Delete” on your keyboard. This should leave your dog’s head with no background.
 
-![Picture of your dogs floating head](/assets/images/blog/slack-4.png){:.center width="80%" height="80%"}
+![Picture of your dogs floating head](/assets/images/blog/slack-4.png){:width="80%" height="80%"}
+{:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Oats' head.</span>
 
 ### Step 5: Polish. 
@@ -71,7 +74,8 @@ Requirements for this picture? It’s got to be a clear shot of their face and i
 2. Go to the toolbar and hit “Select”. From the dropdown menu, hit “Modify” then “Feather”. You’ll see a dialogue box prompting you to select the number of pixels. Choose 3 pixels. 
 3. Now, go back to the toolbar and hit “Select” “Inverse” (Similar to our previous step.) Once you’ve done this, hit delete. Your pet’s head should be a little less “in your face”. 
 
-![Picture of your dogs floating head](/assets/images/blog/slack-5.png){:.center width="80%" height="80%"}
+![Picture of your dogs floating head](/assets/images/blog/slack-5.png){:width="80%" height="80%"}
+{:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Oats' head, but *feathered*.</span>
 
 ### Step 6: Make it big, and save as a PNG. 
@@ -80,23 +84,27 @@ Requirements for this picture? It’s got to be a clear shot of their face and i
 3. Go to “File”, “Export”, “Quick Export of PNG”. Name it whatever you want. 
 
 
-![the save screen](/assets/images/blog/slack-6.png){:.center width="80%" height="80%"}
+![the save screen](/assets/images/blog/slack-6.png){:width="80%" height="80%"}
+{:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Save as a PNG.</span>
 
 Step 7: Upload to [Slack](https://slack.com/).
 1. Hit the emoji panel in Slack, and in the bottom left corner there’s an option to Add Emoji. Click it!
 2. A panel will come up, and you can upload your PNG and name your emoji. 
 
-![Slack "add emoji" Panel](/assets/images/blog/slack-7.png){:.center width="80%" height="80%"}
+![Slack "add emoji" Panel](/assets/images/blog/slack-7.png){:width="80%" height="80%"}
+{:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Slack "Add Emoji" panel.</span>
 
 Now you can use it! Just click the emoji panel and search for the name. 
 
-![Slack dog emoji](/assets/images/blog/slack-8.png){:.center width="50%" height="50%"}
+![Slack dog emoji](/assets/images/blog/slack-8.png){:width="50%" height="50%"}
+{:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Oats' emoji in use.</span>
 
 Be prepared, coworkers will probably get jealous *real quick* and want THEIR little cuties turned into Slackmojis. (A good way to become popular in the office!) Luckily, this whole process takes less than 5 minutes once you get your flow down.
 <br>
 
-![Slack dog emojis](/assets/images/blog/slacks-1.png){:.center}
+![Slack dog emojis](/assets/images/blog/slacks-1.png){:width="80%" height="80%"}
+{:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>An example of how many emojis you'll have to make with this new skill.</span>
