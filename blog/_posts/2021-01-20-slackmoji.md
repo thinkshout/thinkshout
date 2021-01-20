@@ -101,7 +101,8 @@ Just click the emoji panel and search for the name.
 
 ![Slack dog emoji](/assets/images/blog/slack-8.png){:width="30%" height="30%"}
 {:.center}
-<br/>
+<span class="caption"><i class="fa fa-caret-up"></i></span>
+
 But be prepared. Coworkers will probably get jealous *real quick* and want THEIR little cuties turned into Slackmojis. (A good way to become popular in the office!) Luckily, this whole process takes less than 5 minutes once you get your flow down.  
 <br/>
 ![Slack dog emojis](/assets/images/blog/slacks-1.png){:width="70%" height="70%"}
