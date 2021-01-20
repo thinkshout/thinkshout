@@ -42,7 +42,7 @@ Requirements for this picture? It’s got to be a clear shot of their face and i
 2. Select, “Custom” and set the size to 1080 pixels by 1080 pixels.
 3. Drag your pet pic onto the art board.
 
-![Picture of new file screen](/assets/images/blog/slack-2.png){.center height="70%" width="70%"}
+![Picture of new file screen](/assets/images/blog/slack-2.png){:.center .eighty}
 <span class="caption"><i class="fa fa-caret-up"></i>New custom file.</span>
 
 ### Step 3: Rasterize
