@@ -96,15 +96,17 @@ Requirements for this picture? It’s got to be a clear shot of their face and i
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Slack "Add Emoji" panel.</span>
 
-Now you can use it! Just click the emoji panel and search for the name. 
+### Now you can use it! 
+Just click the emoji panel and search for the name. 
 
 ![Slack dog emoji](/assets/images/blog/slack-8.png){:width="50%" height="50%"}
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>Oats' emoji in use.</span>
 
-Be prepared, coworkers will probably get jealous *real quick* and want THEIR little cuties turned into Slackmojis. (A good way to become popular in the office!) Luckily, this whole process takes less than 5 minutes once you get your flow down.
-<br>
+### One more thing. 
+Be prepared, coworkers will probably get jealous *real quick* and want THEIR little cuties turned into Slackmojis. (A good way to become popular in the office!) Luckily, this whole process takes less than 5 minutes once you get your flow down.  
 
-![Slack dog emojis](/assets/images/blog/slacks-1.png){:width="80%" height="80%"}
+
+![Slack dog emojis](/assets/images/blog/slacks-1.png){:width="70%" height="70%"}
 {:.center}
 <span class="caption"><i class="fa fa-caret-up"></i>An example of how many emojis you'll have to make with this new skill.</span>
