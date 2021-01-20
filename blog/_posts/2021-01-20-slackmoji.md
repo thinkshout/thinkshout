@@ -70,7 +70,8 @@ Requirements for this picture? It’s got to be a clear shot of their face and i
 2. Go to the toolbar and hit “Select”. From the dropdown menu, hit “Modify” then “Feather”. You’ll see a dialogue box prompting you to select the number of pixels. Choose 3 pixels. 
 3. Now, go back to the toolbar and hit “Select” “Inverse” (Similar to our previous step.) Once you’ve done this, hit delete. Your pet’s head should be a little less “in your face”. 
 
-![Picture of your dogs floating head](/assets/images/blog/slack-5.png){.center height="80%" width="80%"}
+![Picture of your dogs floating head](/assets/images/blog/slack-5.png){.center}
+{height="80%" width="80%"}
 <span class="caption"><i class="fa fa-caret-up"></i>Oats' head, but *feathered*.</span>
 
 ### Step 6: Make it big, and save as a PNG. 
