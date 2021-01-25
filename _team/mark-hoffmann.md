@@ -14,8 +14,8 @@ team-image:
   small: team/small/Mark.jpg
   medium: team/medium/Mark.jpg
   large: team/large/Mark.jpg
-published: true
-current-employee: true
+published: false
+current-employee: false
 name: mark
 bio: |
  Mark’s dad introduced him to a fun time-waster called the “World Wide Web” in the early 90s when dial-up modems were all the rage [insert modem sound clip here]. He pretty much hasn’t stopped building websites & applications since.
