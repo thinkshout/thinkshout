@@ -14,8 +14,8 @@ team-image:
   small: team/small/amina-small.jpg
   medium: team/medium/amina-medium.jpg
   large: team/large/amina-large.jpg
-published: true
-current-employee: true
+published: false
+current-employee: false
 name: amina
 bio: |
   From a very young age Amina has had a passion for art and writing, but was encouraged to pursue a career in science. She eventually discovered the potential in merging creativity with science and technology in order to create meaningful change-- and that discovery is precisely what drove her to her role at ThinkShout.  
