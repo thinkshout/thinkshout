@@ -32,7 +32,7 @@ cs-header:
 
 cs-intro:
   - intro-paragraph: |
-      Teaching Tolerance -- a program of the Southern Poverty Law Center -- is dedicated to educating young people to be active participants in a diverse democracy. Educators often have to respond to issues of intolerance at a speed and scale that can be incredibly challenging. News travels quickly, students form opinions and harbor fears, and teachers can feel isolated when trying to make sense of these issues for themselves and their students.
+      Teaching Tolerance -- a program of the Southern Poverty Law Center now known as Learning for Justice -- is dedicated to educating young people to be active participants in a diverse democracy. Educators often have to respond to issues of intolerance at a speed and scale that can be incredibly challenging. News travels quickly, students form opinions and harbor fears, and teachers can feel isolated when trying to make sense of these issues for themselves and their students.
 
   - intro-title: Challenge
     intro-text: |
