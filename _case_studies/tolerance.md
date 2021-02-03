@@ -96,6 +96,6 @@ cs-sections:
       Now users can craft unique learning plans and share them with peers in their own schools or across the country. As the online community grows, we hope to build more social tools for teachers to share, comment on, and learn from each other’s work; work that ultimately fosters a more inclusive and kind environment in our schools.
 
 cs-cta-text: Launch Site
-cs-cta-url: https://www.tolerance.org/
+cs-cta-url: https://www.learningforjustice.org/
 
 ---
