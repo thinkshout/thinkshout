@@ -10,8 +10,8 @@
   command = "rake build && cp _scripts/noindex_headers _site/_headers"
 
 [[redirects]]
-from = "/tolerance"
-to = "/justice/"
+from = "/work/tolerance"
+to = "/work/justice/"
 status = 301
 force = true
 
