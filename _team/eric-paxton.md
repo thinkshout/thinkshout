@@ -13,8 +13,8 @@ team-image:
   small:  team/small/Eric.jpg
   medium:  team/medium/Eric.jpg
   large:  team/large/eric.jpg
-published: true
-current-employee: true
+published: false
+current-employee: false
 name: eric
 bio: |
   Eric joined us because he wanted to be part of a team that valued open source contributions and meaningful projects as much as he does. From discovery to implementation, he remains committed to delivering technical work of the highest caliber. His background in web and mobile application development gave him the foundation needed for a major undertaking with the State of Oregon, where he led the design and front end development of the relaunch of Oregon.gov. In his spare time, he geeks out over music and hunts down new additions to his record collection. He also ran the St. Jude Marathon...once. Once was enough.
