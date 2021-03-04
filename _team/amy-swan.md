@@ -12,7 +12,7 @@ team-image:
   small: team/small/Amy-sm.jpg
   medium: team/medium/amy.jpg
   large: team/large/amy.jpg
-published: false
+published: true
 current-employee: false
 name: amy
 bio: |
