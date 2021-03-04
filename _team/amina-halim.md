@@ -14,7 +14,7 @@ team-image:
   small: team/small/amina-small.jpg
   medium: team/medium/amina-medium.jpg
   large: team/large/amina-large.jpg
-published: false
+published: true
 current-employee: false
 name: amina
 bio: |

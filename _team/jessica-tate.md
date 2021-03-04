@@ -12,7 +12,7 @@ team-image:
   small: team/small/jessica.jpg
   medium: team/medium/jessica.jpg
   large: team/large/jessica.jpg
-published: false
+published: true
 current-employee: false
 name: jessica
 bio: |

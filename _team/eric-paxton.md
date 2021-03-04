@@ -13,7 +13,7 @@ team-image:
   small:  team/small/Eric.jpg
   medium:  team/medium/Eric.jpg
   large:  team/large/eric.jpg
-published: false
+published: true
 current-employee: false
 name: eric
 bio: |

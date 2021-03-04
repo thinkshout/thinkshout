@@ -14,7 +14,7 @@ team-image:
   small: team/small/Mark.jpg
   medium: team/medium/Mark.jpg
   large: team/large/Mark.jpg
-published: false
+published: true
 current-employee: false
 name: mark
 bio: |
