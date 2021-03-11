@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Deanna Dsouza is a Senior Project Manager specializing in process management at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Deanna
 last_name: Dsouza
 position: Senior Project Manager

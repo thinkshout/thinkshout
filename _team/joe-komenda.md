@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Joe Komenda is a Senior Full-Stack Developer specializing in open source development at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Joe
 last_name: Komenda
 position: Senior Full-Stack Developer

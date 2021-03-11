@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Aneta Molenda is a Senior Strategy Director specializing in digital engagement strategy at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Aneta
 last_name: Molenda
 position: Senior Strategy Director

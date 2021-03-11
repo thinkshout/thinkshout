@@ -1,5 +1,4 @@
 ---
-
 layout: blog
 body-class: blog-post
 topic: 

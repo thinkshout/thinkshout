@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Kate Lesniak is Chief Strategy Officer specializing in digital engagement strategy at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Kate
 last_name: Lesniak
 position: Chief Strategy Officer

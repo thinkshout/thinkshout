@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Katie Escoto is a Client Services Developer specializing in tech support at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Katie
 last_name: Escoto
 position: Client Services Developer

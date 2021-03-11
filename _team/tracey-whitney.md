@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Tracey Whitney is a Managing Director of Project Management specializing in process management at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work. "
 first_name: Tracey
 last_name: Whitney
 position: Managing Director of Project Management

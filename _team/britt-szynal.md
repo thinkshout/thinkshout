@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Britt Szynal is a Project Manager specializing in process management at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Britt
 last_name: Szynal
 position: Project Manager

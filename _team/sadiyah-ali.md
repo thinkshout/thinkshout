@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Sadiyah Ali is a Software Developer specializing in open source development at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Sadiyah
 last_name: Ali
 position: Software Developer

@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Richard Pastenes is a Senior Software Developer specializing in open source development at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Richard
 last_name: Pastenes
 position: Senior Software Developer

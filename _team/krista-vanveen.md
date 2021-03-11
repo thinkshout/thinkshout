@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Krista Van Veen is a Business Operations Manager specializing in process and event management at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Krista
 last_name: Van Veen
 position: Business Operations Manager

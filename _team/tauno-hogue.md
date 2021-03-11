@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Tauno Hogue is Chief Technology Officer at ThinkShout, a full service digital agency and b corps that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Tauno
 last_name: Hogue
 position: Chief Technology Officer

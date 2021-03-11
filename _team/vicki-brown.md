@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Vicki Brown is a Director of Design specializing in accessible user experience at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Vicki
 last_name: Brown
 position: Director of Design
