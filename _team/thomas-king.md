@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Thomas King is a Senior Strategy Director specializing in digital engagement strategy at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Thomas
 last_name: King
 position: Senior Strategy Director

@@ -2,6 +2,7 @@
 title: Accessibility Statement
 layout: accessibility
 permalink: accessibility/
+description: "ThinkShout is committed to an accessible user experience for all of our web development projects, be it ours or one of our nonprofit partners. See our accessibility statement or provide feedback here."
 intro: ThinkShout is committed to inclusivity and accessibility. We strive to provide a website experience that functions for all users regardless of ability, network speed, or device. And as we continually improve the user experience for everyone and apply the relevant accessibility standards, we know we are not perfect. There is always room for improvement, and we enthusiastically welcome feedback if you have issues accessing any part of our website.
 ---
 

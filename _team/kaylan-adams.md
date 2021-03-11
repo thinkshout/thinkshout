@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Kaylan Adams is Chief Operating Officer specializing in process and event management at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Kaylan
 last_name: Adams
 position: Chief Operating Officer

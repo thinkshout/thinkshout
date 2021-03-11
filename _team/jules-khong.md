@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Jules Khong is an Accessibility Architect specializing in digital accessibility at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Jules
 last_name: Khong
 position: Accessibility Architect

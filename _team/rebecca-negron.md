@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Rebecca Negron is a Software Developer specializing in open source development at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Rebecca
 last_name: Negron
 position: Software Developer

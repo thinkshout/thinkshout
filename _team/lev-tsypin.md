@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Lev Tsypin is Chief Executive Officer specializing in open source technology at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Lev
 last_name: Tsypin
 position: Founder, CEO

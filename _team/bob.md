@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Bob Potter is a Senior Client Support Developer specializing in tech support at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Bob
 last_name: Potter
 position: Senior Client Support Developer

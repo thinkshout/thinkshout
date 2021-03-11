@@ -1,5 +1,6 @@
 ---
 layout: teammember
+description: "Andy Price is a Technical Architect specializing in open source development at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Andy
 last_name: Price
 position: Technical Architect
