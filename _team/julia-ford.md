@@ -15,7 +15,7 @@ team-image:
   medium:
   large: team/large/julia.jpg
 published: true
-current-employee: true
+current-employee: false
 name: julia
 bio: |
   Julia is the rare person who loves the process and much as she loves what’s possible. By that, of course, we mean that Julia is equally a thought partner in visioning and a project manager in execution—the perfect balance for directing our sales and marketing efforts. Surprising? Not to us! But maybe that’s because before she stepped into her current role at ThinkShout, Julia wrangled visions, timelines, and budgets as first a project manager, and then a client experience manager for 3 years, where she led some of our most complicated projects from kickoff to launch to the great satisfaction of our clients.
