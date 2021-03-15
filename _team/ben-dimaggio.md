@@ -3,7 +3,7 @@ layout: teammember
 description: "Ben DiMaggio is a Technical Architect specializing in open source development at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Ben
 last_name: Di Maggio
-position: Technical Architect
+position: Director of Software Development
 leadin: |
   Would you move to a country without knowing next to nothing about it? Ben did, when he taught English in Japan for a year. It’s that open-mindedness and willingness to tackle anything that makes him a great at utilizing technology to solve problems for our clients.
 social:

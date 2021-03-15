@@ -3,7 +3,7 @@ layout: teammember
 description: "Gabe Carleton-Barnes is a Director of Technical Services specializing in open source development at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Gabe
 last_name: Carleton-Barnes
-position: Director of Technical Services
+position: Technical Architect
 leadin: |
   In addition to being a semi-professional actor, a borderline-professional Magic: The Gathering player, and a far-from-professional travel blogger, Gabe spent 10 years as an actual professional at nonprofits before joining ThinkShout.
 social:
