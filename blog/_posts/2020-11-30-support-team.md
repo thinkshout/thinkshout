@@ -44,7 +44,7 @@ Moving forward, **all** ThinkShout Support clients will:
 ### We know you might have a million questions - and we’re here to answer them all! 
 The biggest thing we want you to know is we are in your corner, rooting for your success. We are excited to offer a new way to support you, your team, and your website. 
 
-[Here’s more information](https://drive.google.com/file/d/12jJ-f0v8azLhLwsyK3AEpzuqi7wfN751/view?usp=sharing), and feel free to reach out to [kaylan@thinkshout.com](mailto:kaylan@thinkshout.com) to learn more!
+[Here’s more information](https://drive.google.com/file/d/1j6FnuS2tYRRjtXqjLW6eM0rBS1jx2Hvs/view?usp=sharing), and feel free to reach out to [kaylan@thinkshout.com](mailto:kaylan@thinkshout.com) to learn more!
 
 <div style="page-break-after: always;"></div>
 <div style="page-break-after: always;"></div>
