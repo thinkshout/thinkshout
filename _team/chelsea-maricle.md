@@ -3,7 +3,7 @@ layout: teammember
 description: "Chelsea Maricle is a Senior Strategist specializing in digital engagement strategy at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Chelsea
 last_name: Maricle
-position: Senior Strategist
+position: Strategy Director
 leadin: |
   If you’re afraid of heights would you climb a mountain? That’s exactly what Chelsea did!
 social:
