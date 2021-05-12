@@ -1,11 +1,11 @@
 ---
 layout: teammember
-description: "James knows how to bring a vision to life—using his breadth of coding expertise, he’s a pro at translating stories into tangible experiences."
+description: "James knows how to bring a vision to life—using his breadth of coding expertise, he translates stories into tangible experiences like a pro."
 first_name: James
 last_name: Macon
 position: Technical Architect
 leadin: |
-  James knows how to bring a vision to life—using his breadth of coding expertise, he’s a pro at translating stories into tangible experiences.  
+  James knows how to bring a vision to life—using his breadth of coding expertise, he translates stories into tangible experiences like a pro.  
 social:
   github:
   twitter:
