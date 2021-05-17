@@ -3,7 +3,7 @@ layout: teammember
 description: "Sarah Leigh is a Senior Designer specializing in accessible user experience at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Sarah
 last_name: Leigh
-position: Senior Designer
+position: Art Director
 leadin: |
  Sarah has always been intrigued by the web, but she considers herself an art student, first and foremost.
 social:
