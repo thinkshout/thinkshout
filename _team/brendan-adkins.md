@@ -1,6 +1,6 @@
 ---
 layout: teammember
-description: "Brendan Adkins is a Senior Software Developer specializing in open source development at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
+description: "Brendan Adkins is a Technical Architect specializing in open source development at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Brendan
 last_name: Adkins
 position: Technical Architect
