@@ -15,7 +15,7 @@ team-image:
   medium: team/medium/vicki.jpg
   large: team/large/vicki.jpg
 published: true
-current-employee: true
+current-employee: false
 name: vicki
 bio: |
   Vicki comes to ThinkShout with an extensive background in print, branding, and advertising for national organizations. She’s since changed gears to focus on nonprofit work - most recently, the International Association of Physicians in AIDS care and the Washington DC Department of Health. When she’s not busy designing websites, she’s out traveling the world. With 21 countries under her belt, she’s making pretty good progress toward eventually conquering the globe. Vicki also enjoys ceramics, photography, and the company of her cats.
