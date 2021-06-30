@@ -77,5 +77,5 @@ Don’t plan on any subject line testing or send time optimization. The data wil
 Email isn’t dead. But this is certainly a pivotal moment that is, in part, leading us to a long-overdo conversation about how we can most effectively – and ethically – approach email strategy (within a history of consultants and campaigners sometimes using [deceptive tactics](https://www.nytimes.com/2021/06/26/us/politics/recurring-donations-seniors.html)). We can and we need to adopt. This can be an opportunity to think about how to *engage* the people on our lists more deeply rather than just talking at them.
 
 <br>
-<br>
+
 ---
