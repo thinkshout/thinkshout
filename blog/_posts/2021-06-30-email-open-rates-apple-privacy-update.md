@@ -42,7 +42,7 @@ Many email strategists and teams track open rates on each email blast for insigh
  
 What does this actually mean? It means no more A/B subject line testing. It means it will become harder to monitor email deliverability health. It means rethinking how you suppress inactives on your list. Some organizations make income from sponsored emails to specific segments – now it may become more difficult.
 
-### Privacy is good… right?
+### Privacy is good…right?
 
 The new privacy feature will likely have unintended consequences for those of us who use open rate data to get critical information about our movements, campaigns, and issues in front of more people. One of the most important ways that open rates are used is list hygiene. Many teams use suppression segments based on 6- or 12-month inactives (depending on how conservative you want to be, every email program and every audience is different) to ensure that only people who want to receive emails are getting them by suppressing the email blast from people who haven’t opened at least one email from your organization within that time frame.
  
