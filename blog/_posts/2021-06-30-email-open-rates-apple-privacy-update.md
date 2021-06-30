@@ -66,7 +66,7 @@ This may be your last chance to use open rates to convert inactive customers wit
 If you have any segment or targeting set up in your CRM based on the last email open date, it will soon be useless. Audit your segmentation and talk with your team about how you want to define “inactives” moving forward.
 
 **4. Review your automated email user journeys.** 
-If you have an automated user flow based on someone opening an email, you should adjust the triggers to use a different metric – such as a set number of days elapsing, a conversion, or a click.
+If you have an automated user flow based on someone opening an email, you should adjust the triggers to use a different metric—such as a set number of days elapsing, a conversion, or a click.
 
 **5. Prepare your team.**
 Don’t plan on any subject line testing or send time optimization. The data will be inaccurate. 
