@@ -54,7 +54,7 @@ cs-sections:
 
       One of our main goals throughout this project was to make sure the grant applications had the ability to not only reach a wide audience-- but also be understood. We strayed from using jargon familiar to big players in housing development, and focused on designing the site based around its content. This led the end user through each application step with an interactive experience that allowed them to understand application eligibility, find the right application to fill out, and identify easy answers to FAQs throughout the process.
 
-  - section-image: "/assets/images/case-studies/CStrial.jpg"
+  - section-image: "/assets/images/case-studies/WRIhome.jpg"
     section-image-alt: "Enterprise about the challenge page viewed on a laptop."
 
   - section-description: |
@@ -68,13 +68,13 @@ cs-sections:
 
       In the end, the site generated over 800 applications — nearly tripling the original target of 300 (275 of those applications were submitted in the first 2 weeks).
 
-  - section-image: "/assets/images/case-studies/enterprise-4.jpg"
+  - section-image: "/assets/images/case-studies/WRI3up.jpg"
     section-image-alt1: "Enterprise 3 pillars page viewed on a laptop and mobile."
     
-  - section-image1: "/assets/images/case-studies/enterprise-3.jpg"
+  - section-image1: "/assets/images/case-studies/WRImap.jpg"
     section-image-alt: "Enterprise why innovation matters page viewed on a desktop."
     
-    section-image2: "/assets/images/case-studies/enterprise-2.jpg"
+    section-image2: "/assets/images/case-studies/WRIfilter.jpg"
     section-image-alt1: "Enterprise FAQ page viewed on a tablet."
 
   - section-description: |
@@ -82,7 +82,7 @@ cs-sections:
 
       The initial build out of this website focused on the application period and well exceeded the short-term goals of the Enterprise team. Long term, this site was built with an information architecture and design convention that will allow the content to change and evolve over three-years to follow the grant period through the selection of awardees and project implementation process.
 
-  - section-image: "/assets/images/case-studies/enterprise-3up.jpg"
+  - section-image: "/assets/images/case-studies/WRIMENU.jpg"
     section-image-alt: "Enterprise about the competition, what's next, and FAQ pages displayed on 3 mobile devices side by side."
 
   - section-type: quote
