@@ -5,7 +5,7 @@ first_name: Kristen
 last_name: Grauer
 position: Project Manager
 leadin: |
- Kristen—who’s refined her project management skills as a nonprofit fundraiser, event planner, and website manager—is passionate about helping organizations with social missions do good *better*.
+ Kristen—who’s refined her project management skills as a nonprofit fundraiser, event planner, and website manager—is passionate about helping organizations with social missions do good, better.
 social:
   github:
   twitter: 
