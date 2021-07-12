@@ -4,7 +4,7 @@ description: "Spncr Berry is a Client Services Developer specializing in tech su
 first_name: Spncr
 last_name: Berry
 position: Client Services Developer
-leadin:leadin: | 
+leadin: | 
     Spncr thrives at the intersection of creativity and innovation, and leverages technology to simplify and enrich the human experience. 
 social:
   github: https://github.com/spencerberry
