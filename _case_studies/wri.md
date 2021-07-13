@@ -34,8 +34,8 @@ cs-intro:
 
   - intro-title: Goals
     intro-text: |
-      1. Design and build a dynamic distribution platform that puts the best of WRI’s research, data, and analysis at the fingertips of the world’s government, business, and climate justice leaders. 
-      2. Gain maintenance efficiencies, brand consistency, and controlled content sharing across sites. Engage a host of complex stakeholders spanning teams and levels, including global locations.
+      - Design and build a dynamic distribution platform that puts the best of WRI’s research, data, and analysis at the fingertips of the world’s government, business, and climate justice leaders. 
+      - Gain maintenance efficiencies, brand consistency, and controlled content sharing across sites. Engage a host of complex stakeholders spanning teams and levels, including global locations.
 
   - intro-title: Solutions
     intro-text: |
@@ -112,7 +112,7 @@ cs-sections:
 
   - section-type: quote
     section-quote: |
-      “ThinkShout was our partner in every sense of the word on the redesign of [WRI.org](http://wri.org/). Considering the scale and complexity of that effort, we couldn’t have asked for a better team to see us through that process.”
+      “ThinkShout was our partner in every sense of the word on the redesign of WRI.org. Considering the scale and complexity of that effort, we couldn’t have asked for a better team to see us through that process.”
     section-attribution: "~ Kevin Powers, Director of Digital Communications, WRI"
 
   - section-type: result
