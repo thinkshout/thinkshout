@@ -2,7 +2,7 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study WRI
-active: false
+active: true
 homepage: false
 published: true
 related: World Resources Institute
