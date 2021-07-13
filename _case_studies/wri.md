@@ -115,6 +115,9 @@ cs-sections:
       “ThinkShout was our partner in every sense of the word on the redesign of [WRI.org](http://wri.org/). Considering the scale and complexity of that effort, we couldn’t have asked for a better team to see us through that process.”
     section-attribution: "~ Kevin Powers, Director of Digital Communications, WRI"
 
+  - section-type: result
+    section-description: |
+      What an accomplishment! Together, ThinkShout and WRI partnered to bring a new distribution, refreshed brand, tight design system, powerful user experience, and beautiful new WRI.org together in just 15 months. Bravo, WRI. The world needs your enormous impact, and we’re glad we could partner with you at such a critical moment in your journey.
 
 cs-cta-text: Launch Site
 cs-cta-url: http://wri.org/
