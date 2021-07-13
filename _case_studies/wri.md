@@ -18,7 +18,7 @@ featured_impact_text: "@todo"
 featured_client_name: "World Resources Institute"
 
 cs-preview:
-  image: /assets/images/case-studies/Enterprise-hero2.jpg
+  image: /assets/images/case-studies/WRIhero.jpg
   type: "World Resources Institute"
   client: "World Resources Institute"
   description: "This field not used"
