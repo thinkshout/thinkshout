@@ -5,7 +5,7 @@ first_name: Rose
 last_name: Hart
 position: Lead Project Manager
 leadin: |
-  Rose is a geek for problem solving; she loves taking concepts and turning them into plans of action. 
+  Rose believes that the foundation of successful project management is all about relationships and communication: learning about each other’s needs, building alignment around goals, and having honest conversations.
 social:
   github:
   twitter:
@@ -19,7 +19,8 @@ published: true
 current-employee: true
 name: rose
 bio: |
-  Rose came to ThinkShout with an extensive background in nonprofit communications. Having been on the client side of the table, she cares deeply about supporting and empowering our clients to do their best work. She’s worked with a variety of organizations, including Facing History and Ourselves, Lehigh Valley Health Network, Humane Society of the United States, and the Oregon Department of Fish and Wildlife. She’s worked with nonprofits outside of work too, including co-founding the Bi Brigade, a local LGBTQ support organization.
-  <p>When she’s not ensuring that we’re meeting deadlines, she’s listening to history podcasts, re-reading her favorite books, or watching the latest episode of RuPaul’s Drag Race. 
+  Rose, a graduate of Washington State University, came to ThinkShout with an extensive background in nonprofit communications, working at organizations like YWCA Clark County and United Way of the Columbia-Willamette. All of this experience has led her to care deeply about supporting and empowering our clients to do their best work—which she does on the daily. 
+  <p>Now a seasoned ThinkShouter, Rose has worked on projects of all sizes and of all complexities. A few projects that Rose is especially proud of are the launch of Lehigh Valley Health Network and their healthcare-driven mission (especially during a pandemic), and supporting Facing History and Ourselves in bringing their seminars for teachers from in-person to offline.
+  <p>When she’s not managing projects or working on team support and process improvements, she’s learning about LGBTQIA+ history, re-reading her favorite books, or exploring the beautiful Pacific NW that she calls home.
 slug: rose
 ---
