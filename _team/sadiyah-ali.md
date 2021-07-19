@@ -16,7 +16,7 @@ team-image:
   medium: team/medium/sadiyah-md.jpg
   large: team/large/sadiyah-lg.jpg
 published: true
-current-employee: true
+current-employee: false
 name: sadiyah
 bio: |
   Sadiyah first became interested in tech when she was in middle school and wanted to start a blog. As a picky child, she didn’t like any of the free themes that the platform offered. So she started researching how to customize the themes to her liking and stumbled onto the world of web development. It was love at first sight. Programming allows her to learn how to approach large and complex problems, grow, and seek innovative solutions.
