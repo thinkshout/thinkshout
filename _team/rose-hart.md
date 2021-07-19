@@ -1,9 +1,9 @@
 ---
 layout: teammember
-description: "Rose Hart is a Senior Project Director specializing in process management at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
+description: "Rose Hart is a Lead Project Manager specializing in process management at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Rose
 last_name: Hart
-position: Senior Project Director
+position: Lead Project Manager
 leadin: |
   Rose is a geek for problem solving; she loves taking concepts and turning them into plans of action. 
 social:
@@ -12,9 +12,9 @@ social:
   linkedin: https://www.linkedin.com/in/rosalynhart
   drupal:
 team-image:
-  small: team/small/rose.jpg
-  medium: team/medium/rose.jpg
-  large: team/large/rose.jpg
+  small: team/small/rosesmall.jpg
+  medium: team/medium/rosemedium.jpg
+  large: team/large/roselarge.jpg
 published: true
 current-employee: true
 name: rose
