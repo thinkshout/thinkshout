@@ -3,7 +3,7 @@
 layout: case_study
 body-class: case-study WRI
 active: true
-homepage: false
+homepage: true
 published: true
 related: World Resources Institute
 order: 6
