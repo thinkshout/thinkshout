@@ -79,11 +79,8 @@ cs-sections:
       
       Still, we had to plan for another critical measure of success: In order to execute our new content strategy, we’d need to archive thousands of pages of old content, and at the same time, maintain the site’s impressive performance in Search. Most traffic came in from the site’s blog, a place where a skilled editorial team makes WRI’s impressive research, data, and tools accessible to journalists, corporate strategists, policymakers, and high-level change-agents around the world. To maintain search dominance, we decided to simplify the sitemap, clarify the site’s folding structure, and critically, rename internal-facing nomenclature to be clearer to users—humans and bots alike. Publications became Research. Blog became Insights. Data broke itself out of the more general Publications and stepped into its full keyword SEO power. Did it work? You know it. Since launch, the site’s search traffic is up by 16 percent! 
 
-  - section-image1: "/assets/images/case-studies/WRIresources3.jpg"
-    section-image-alt: "WRI resources page showed on desktop"
-    
-    section-image2: "/assets/images/case-studies/WRIresources4.jpg"
-    section-image-alt1: "WRI blog filter shown on mobile."
+  - section-image: "/assets/images/case-studies/WRIresources7.jpg"
+    section-image-alt: "WRI resources page showed on desktop and filter on a mobile."
     
   - section-description: |
       #### Also a central focus in user testing and design: WRI.org’s new homepage.  
