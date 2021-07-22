@@ -5,7 +5,7 @@ body-class: case-study WRI
 active: true
 homepage: true
 published: true
-related: World Resources Institute
+related: "World Resources Institute"
 order: 6
 image: /assets/images/case-studies/WRIhero.jpg
 image-alt: "Landscape of a rainforest with light shining on the mountains in the background."
@@ -13,13 +13,13 @@ description: "WRI is a global nonprofit organization that works with leaders in 
 # END LAYOUT DATA
 
 title: "A Sleek, User-Centered Platform for Complex World-Renowned Institute"
-cs-class: "World Resources Institute"
+cs-class: WRI
 featured_impact_text: "@todo"
 featured_client_name: "World Resources Institute"
 
 cs-preview:
   image: /assets/images/case-studies/WRIhero.jpg
-  type: "World Resources Institute"
+  type: WRI
   client: "World Resources Institute"
   description: "This field not used"
 
