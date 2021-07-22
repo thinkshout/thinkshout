@@ -34,20 +34,20 @@ cs-intro:
 
   - intro-title: Goals
     intro-text: |
-      - Design and build a dynamic distribution platform that puts the best of WRI’s research, data, and analysis at the fingertips of the world’s government, business, and climate justice leaders. 
-      - Gain maintenance efficiencies, brand consistency, and controlled content sharing across sites. Engage a host of complex stakeholders spanning teams and levels, including global locations.
+      Design and build a dynamic distribution platform that puts the best of WRI’s research, data, and analysis at the fingertips of the world’s government, business, and climate justice leaders.  
+      Gain maintenance efficiencies, brand consistency, and controlled content sharing across sites. Engage a host of complex stakeholders spanning teams and levels, including global locations.
 
   - intro-title: Solutions
     intro-text: |
-      - A refreshed user experience and content strategy allows users to understand what WRI can offer by their needs rather than the Institute’s program siloes.
-      - An innovative engagement model underlies the entire platform’s technical functionality, including a sitewide filter, narrative taxonomy, and search strategy.  
+      A refreshed user experience and content strategy allows users to understand what WRI can offer by their needs rather than the Institute’s program siloes.  
+      An innovative engagement model underlies the entire platform’s technical functionality, including a sitewide filter, narrative taxonomy, and search strategy.  
 
   - intro-title: Results
     intro-text: |
-      - +16% increase in Search Traffic
-      - +24% in new users
-      - +19% in email list conversions
-      - +22% increase in research downloaded
+      +16% increase in Search Traffic  
+      +24% in new users  
+      +19% in email list conversions  
+      +22% increase in research downloaded
 
 cs-sections:
   - section-description: |
@@ -57,8 +57,8 @@ cs-sections:
 
       This project, made possible by a close working partnership with WRI’s expert team, showcases a sitewide issue filter, responsive navigation as a user moves deeper into their exploration, a user-centered narrative taxonomy system, and a refreshed, robust, and tightly managed design system. What’s more? The platform itself is built as a distribution, meaning that WRI’s team can spin up a new site with the same exciting functionality from WRI.org’s codebase—a feature that was a must-have going into this project. 
 
-  - section-image: "/assets/images/case-studies/WRItaxonomy1.jpg"
-    section-image-alt: "WRI taxonomy naming system viewed on a desktop. Taxonomy links are highlighted green."
+  - section-image: "/assets/images/case-studies/WRIhomepage5.jpg"
+    section-image-alt: "WRI homepage shown on desktop."
     
   - section-description: |
       #### Stakeholder interviews and cross-team discovery led us to remarkable insights and a clear path forward. 
@@ -87,8 +87,8 @@ cs-sections:
 
       The Institute is a prolific publisher, from analysis to research to data to tools—and the old homepage reflected just how much content was available. Our path forward required alignment across the organization—we’d be making enormous change. Thanks to a laser focus from WRI’s project teams and iterative design, we were able to craft a bold new homepage. Now, users experience the homepage as directed and depthful. The powerful impact of WRI is immediately understood through use of bold imagery and featured blocks. This clarity is made possible by an overlay menu system and sitewide filter that can organize and make all content available at the appropriate moment, rather than every moment.   
 
-  - section-image: "/assets/images/case-studies/WRIhomepage5.jpg"
-    section-image-alt: "WRI homepage shown on desktop."
+  - section-image: "/assets/images/case-studies/WRItaxonomy1.jpg"
+    section-image-alt: "WRI taxonomy naming system viewed on a desktop. Taxonomy links are highlighted green."
  
   - section-description: |
       #### Building a distribution with filterable blocks with single file components isn’t easy, but it is really, really sustainable. 
