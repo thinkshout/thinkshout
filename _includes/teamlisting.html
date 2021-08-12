@@ -1,5 +1,5 @@
 <div class="team-listing">
-  {% assign team = (site.team | where: "current-employee", "true") | sort: "first_name" %}
+  {% assign team = (site.team | where: "current-employee", "true") | sort: "slug" %}
   {% for person in team %}
     <div class="team-member">
       <a href="{{ site.baseurl }}{{ person.url }}" aria-label="{{ person.first_name }} {{ person.last_name }}, {{ person.position }}">
