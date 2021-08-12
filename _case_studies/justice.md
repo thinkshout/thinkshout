@@ -12,21 +12,21 @@ image-alt: "A diverse montage of small children, with inspirational leaders of e
 description: "Enabling educators to foster a kind and inclusive school climate."
 # END LAYOUT DATA
 
-title: "Teaching Tolerance: 21st Century Content Management Tools."
+title: "Learning for Justice: 21st Century Content Management Tools."
 featured_impact_text: Education
-featured_client_name: "Teaching Tolerance: Custom Lesson Plans for a Diverse Democracy"
+featured_client_name: "Learning for Justice: Custom Lesson Plans for a Diverse Democracy"
 
 cs-class: "teaching-tolerance"
 
 cs-preview:
   image: /assets/images/case-studies/tt-hero-20.jpg
   type: Responsive Drupal Site
-  client: "Teaching Tolerance"
+  client: "Learning for Justice"
   description: "Enabling educators to foster a kind and inclusive school climate."
 
 cs-header:
   header-image: /assets/images/case-studies/tt-hero-20.jpg
-  client: "Teaching Tolerance"
+  client: "Learning for Justice"
   title: "Enabling educators to foster a kind and inclusive school climate."
 
 
@@ -36,22 +36,22 @@ cs-intro:
 
   - intro-title: Challenge
     intro-text: |
-      Teaching Tolerance needed their site to enable rapid generation and dissemination of new materials, while also surfacing valuable content from the past that has renewed importance in today’s news cycle.
+      Learning for Justice needed their site to enable rapid generation and dissemination of new materials, while also surfacing valuable content from the past that has renewed importance in today’s news cycle.
 
 
   - intro-title: Solutions
     intro-text: |
-      ThinkShout integrated two previously isolated sites into custom lesson plans, a deep content library, and a guided Learning Plan Builder that makes all of Teaching Tolerance’s content classroom-ready.
+      ThinkShout integrated two previously isolated sites into custom lesson plans, a deep content library, and a guided Learning Plan Builder that makes all of Learning for Justice’s content classroom-ready.
 
   - intro-title: Results
     intro-text: |
-      Tolerance.org has experienced huge gains in registrations, return visits, and sessions. The site was also a Webby Award Finalist.
+      Tolerance.org—now learningforjustice.org—has experienced huge gains in registrations, return visits, and sessions. The site was also a Webby Award Finalist.
 
 
 cs-sections:
   - section-title:
     section-description: |
-      Our approach to design was to provide an experience without barriers. Regardless of whether a user is on their phone while taking the train to work or on their desktop at home, they should be able to easily access all of Teaching Tolerance’s resources. We wanted a streamlined experience, with everything from magazine articles, lessons, texts, and professional development materials to be easily digestible, searchable, and offer the ability to be built into a learning plan using the step-by-step process. 
+      Our approach to design was to provide an experience without barriers. Regardless of whether a user is on their phone while taking the train to work or on their desktop at home, they should be able to easily access all of Learning for Justice’s resources. We wanted a streamlined experience, with everything from magazine articles, lessons, texts, and professional development materials to be easily digestible, searchable, and offer the ability to be built into a learning plan using the step-by-step process. 
 
 
   - section-image: "/assets/images/case-studies/Tolerance-large1.jpg"
@@ -62,7 +62,7 @@ cs-sections:
 
   - section-title:
     section-description: |
-      We took the current Tolerance brand and refreshed it to accommodate a modern, content-rich site. While sticking with their current brand’s foundation, we explored colors and typography treatments that would allow for a design that supports (rather than overshadows) the robust content offered. Tolerance also has a beautiful, vast library of photography, and they continually create timely and engaging illustrations. Those elements drive the core visuals of the site.
+      We took the Tolerance brand and refreshed it to accommodate a modern, content-rich site. While sticking with their brand’s foundation, we explored colors and typography treatments that would allow for a design that supports (rather than overshadows) the robust content offered. Tolerance [Learning for Justice] also has a beautiful, vast library of photography, and they continually create timely and engaging illustrations. Those elements drive the core visuals of the site.
 
   - section-image: "/assets/images/case-studies/Tolerance-large3.jpg"
     section-image-alt: "Exploring rich colors on a tablet, portrait mode."
@@ -77,7 +77,7 @@ cs-sections:
     section-description: |
       A website is only as successful as the engagement it sparks. Educators are in a constant struggle to keep up with the pace of the world in which we live while ensuring that they meet the standards of local school districts.
 
-      That’s what led to the creation of “The Moment,” a branded publishing platform that surfaces the most important content in response to cultural events. Whether the content is from five years ago or five hours ago, users get the best that Teaching Tolerance has to offer. And by linking this content up to the organization’s email communication strategy, we ensure that teachers get the materials in their inbox before they know they need it.
+      That’s what led to the creation of “The Moment,” a branded publishing platform that surfaces the most important content in response to cultural events. Whether the content is from five years ago or five hours ago, users get the best that Learning for Justice has to offer. And by linking this content up to the organization’s email communication strategy, we ensure that teachers get the materials in their inbox before they know they need it.
 
   - section-image: "/assets/images/case-studies/Tolerance-large4.jpg"
     section-image-alt: "Final view of site on a tablet"
