@@ -4,7 +4,7 @@ layout: case_study
 body-class: case-study uchi
 active: true
 homepage: false
-published: true
+published: false
 related: "uchi"
 order: 10
 image: https://thinkshout.com/assets/images/case-studies/uchi-hero.jpg
