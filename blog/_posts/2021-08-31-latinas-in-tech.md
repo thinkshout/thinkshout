@@ -9,7 +9,7 @@ type:
 homepage: true
 author:
  - rebeccan
- - maria
+ - mariav
  - katie
 published: true
 featured: true
@@ -44,24 +44,24 @@ All these questions have complex answers, but in one way or another, they tie ba
 
 **Place Image**
 
-**Name:** Maria Vargas 
-**Pronouns:** She/Her
-**Background:** Mexicana 
-**Role:** Project Manager/ Associate Strategist 
-**Favorite Consejo (Piece of advice):** Echale ganas.  I remember hearing this throughout my entire life.  It grounds me and reminds me that I belong and wherever I put in effort fruition will come.
+**Name:** Maria Vargas   
+**Pronouns:** She/Her  
+**Background:** Mexicana   
+**Role:** Project Manager/ Associate Strategist   
+**Favorite Consejo (Piece of advice):** Echale ganas.  I remember hearing this throughout my entire life.  It grounds me and reminds me that I belong and wherever I put in effort fruition will come.  
 
 **Place Image**
 
-**Name:** Rebecca Negron
-**Pronouns:** She/Her
-**Background:** Puerto Rican
-**Role:** Software Developer
-**Favorite Consejo (Piece of advice):** TBD
+**Name:** Rebecca Negron  
+**Pronouns:** She/Her  
+**Background:** Puerto Rican  
+**Role:** Software Developer  
+**Favorite Consejo (Piece of advice):** TBD  
 
 **Place Image**
 
-**Name:** Katie Escoto
-**Pronouns:** She/Her
-**Background:** Tejana 
-**Role:** Client Support Developer
-**Favorite Consejo (Piece of advice):** It wasn’t necessarily spoken advice, but I got to see how my mom moved through the world. She started her career during the Savings and Loan crisis in Texas and at one point was the youngest Latina manager at the Resolution Trust Corporation, traveling around rural Texas to close or restructure failing S&Ls mostly managed by what she (wryly) called the ‘good ol’ boys club’. Nothing and no one intimidated her professionally or personally. I grew up trying to be as fearless as she is.
+**Name:** Katie Escoto  
+**Pronouns:** She/Her  
+**Background:** Tejana   
+**Role:** Client Support Developer  
+**Favorite Consejo (Piece of advice):** It wasn’t necessarily spoken advice, but I got to see how my mom moved through the world. She started her career during the Savings and Loan crisis in Texas and at one point was the youngest Latina manager at the Resolution Trust Corporation, traveling around rural Texas to close or restructure failing S&Ls mostly managed by what she (wryly) called the ‘good ol’ boys club’. Nothing and no one intimidated her professionally or personally. I grew up trying to be as fearless as she is.  
