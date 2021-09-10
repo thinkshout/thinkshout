@@ -24,7 +24,7 @@ cs-preview:
   description: "This field not used"
 
 cs-header:
-  header-image: /assets/images/case-studies/WRIhero.jpg
+  header-image: /assets/images/case-studies/TNRhero.jpg
   client: "Freedom House: Transnational Repression"
   title: "Amplifying a Dangerous Authoritarian Trend Through a Dynamic Single Page Experience"
 
