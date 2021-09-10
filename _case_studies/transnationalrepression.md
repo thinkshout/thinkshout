@@ -7,8 +7,8 @@ homepage: true
 published: true
 related: "Freedom House: Transnational Repression"
 order: 6
-image: /assets/images/case-studies/TNRhero.jpg
-image-alt: "Landscape of a rainforest with light shining on the mountains in the background."
+image: /assets/images/case-studies/TNRherocard.jpg
+image-alt: "Black and white image of a person covering their face while tear gas is released in the background."
 description: "Freedom House is founded on the core conviction that freedom flourishes in democratic nations where governments are accountable to their people. Best known for their comprehensive annual Freedom in the World report and interactive global map, the organization publishes groundbreaking work on the status of democratic practices and principles worldwide."
 # END LAYOUT DATA
 
@@ -18,7 +18,7 @@ featured_impact_text: "@todo"
 featured_client_name: "Freedom House: Transnational Repression"
 
 cs-preview:
-  image: /assets/images/case-studies/TNRhero.jpg
+  image: /assets/images/case-studies/TNRherocard.jpg
   type: "Freedom House"
   client: "Freedom House: Transnational Repression"
   description: "This field not used"
