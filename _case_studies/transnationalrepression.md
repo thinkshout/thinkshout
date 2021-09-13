@@ -4,7 +4,7 @@ layout: case_study
 body-class: case-study 
 active: true
 homepage: true
-published: true
+published: false
 related: "Freedom House: Transnational Repression"
 order: 6
 image: /assets/images/case-studies/TNRherocard.jpg
