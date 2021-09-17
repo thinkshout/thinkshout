@@ -44,30 +44,24 @@ All these questions have complex answers, but in one way or another, they tie ba
 
 ### Meet Rebecca, Katie, and Maria. 
 
-![Maria Vargas](/assets/images/blog/LITmaria.png){: style="float: left"}
-<span class="caption left thirty"><i class="fa fa-caret-up"></i></span> 
-
-**Name:** Maria Vargas  
+![Maria Vargas](/assets/images/blog/LITmaria.png){:.left .thirty}
+<span class="caption left thirty"><i class="fa fa-caret-up"></i></span> **Name:** Maria Vargas  
 **Pronouns:** She/Her  
 **Background:** Mexicana   
 **Role:** Project Manager/ Associate Strategist   
 **Favorite Consejo (Piece of advice):** Echale ganas.  I remember hearing this throughout my entire life.  It grounds me and reminds me that I belong and wherever I put in effort fruition will come.  
-  
-  
-![Rebecca Negron](/assets/images/blog/LITrebecca.png){: style="float: left"}
-<span class="caption left thirty"><i class="fa fa-caret-up"></i></span> 
-  
-**Name:** Rebecca Negron  
+   
+    
+![Rebecca Negron](/assets/images/blog/LITrebecca.png){:.left .thirty}
+<span class="caption left thirty"><i class="fa fa-caret-up"></i></span> **Name:** Rebecca Negron  
 **Pronouns:** She/Her  
 **Background:** Puerto Rican  
 **Role:** Software Developer  
 **Favorite Consejo (Piece of advice):** TBD  
       
-       
-![Katie Escoto](/assets/images/blog/LITkatie.png){: style="float: left"}
-<span class="caption left thirty"><i class="fa fa-caret-up"></i></span> 
-
-**Name:** Katie Escoto  
+         
+![Katie Escoto](/assets/images/blog/LITkatie.png){:.left .thirty}
+<span class="caption left thirty"><i class="fa fa-caret-up"></i></span> **Name:** Katie Escoto  
 **Pronouns:** She/Her  
 **Background:** Tejana   
 **Role:** Client Support Developer  
