@@ -52,9 +52,8 @@ All these questions have complex answers, but in one way or another, they tie ba
 **Role:** Project Manager/ Associate Strategist   
 
 **Favorite Consejo (Piece of advice):** Echale ganas.  I remember hearing this throughout my entire life.  It grounds me and reminds me that I belong and wherever I put in effort fruition will come.  
-</p>
-</p> 
-</p>
+  
+  
 ![Rebecca Negron](/assets/images/blog/LITrebecca.png){:.left .thirty}
 <span class="caption left thirty"><i class="fa fa-caret-up"></i></span> **Name:** Rebecca Negron  
 
@@ -65,9 +64,8 @@ All these questions have complex answers, but in one way or another, they tie ba
 **Role:** Software Developer  
 
 **Favorite Consejo (Piece of advice):** TBD  
-</p>
-</p> 
-</p> 
+  
+   
 ![Katie Escoto](/assets/images/blog/LITkatie.png){:.left .thirty}
 <span class="caption left thirty"><i class="fa fa-caret-up"></i></span> **Name:** Katie Escoto  
 
