@@ -23,6 +23,7 @@ header-image: /assets/images/blog/LIThero.png
 header-image-alt: A mural of Latina Icons, Yolanda Black Navarro, Angela Morales, Norma Zenteno, Graciela Saenz, and Nelly Moyano Fraga.
 ---
 
+  
 Comunidad is everything.  We learn from each other, we grow together, we don’t leave others behind.  Comunidad inspires us every day. Comunidad is storytelling. 
 
 Technology has completely reshaped the world and it will continue to change and affect how we live our lives, how we share information, and how we communicate with others.  
@@ -42,29 +43,25 @@ How do we increase representation? How do we pave the way for more Latinas to ha
 All these questions have complex answers, but in one way or another, they tie back to comunidad.  In this blog series, three ThinkShout employees who have very distinct backgrounds—but share the curiosity to learn, to grow, and the commitment to pave the way for more Latinas into tech—will share their journeys into tech, and their outlook for the future of Latinx representation. Meet Rebecca, Katie, and Maria. 
 
 ![Maria Vargas](/assets/images/blog/LITmaria.png){:.left .thirty}
-<span class="caption left thirty"><i class="fa fa-caret-up"></i></span>  
-
-**Name:** Maria Vargas   
+<span class="caption left thirty"><i class="fa fa-caret-up"></i></span> **Name:** Maria Vargas  
 **Pronouns:** She/Her  
 **Background:** Mexicana   
 **Role:** Project Manager/ Associate Strategist   
 **Favorite Consejo (Piece of advice):** Echale ganas.  I remember hearing this throughout my entire life.  It grounds me and reminds me that I belong and wherever I put in effort fruition will come.  
 
+  
+  
 ![Rebecca Negron](/assets/images/blog/LITrebecca.png){:.left .thirty}
-<span class="caption left thirty"><i class="fa fa-caret-up"></i></span>   
-
-
-**Name:** Rebecca Negron  
+<span class="caption left thirty"><i class="fa fa-caret-up"></i></span> **Name:** Rebecca Negron  
 **Pronouns:** She/Her  
 **Background:** Puerto Rican  
 **Role:** Software Developer  
 **Favorite Consejo (Piece of advice):** TBD  
 
-
+  
+   
 ![Katie Escoto](/assets/images/blog/LITkatie.png){:.left .thirty}
-<span class="caption left thirty"><i class="fa fa-caret-up"></i></span>  
-
-**Name:** Katie Escoto  
+<span class="caption left thirty"><i class="fa fa-caret-up"></i></span> **Name:** Katie Escoto  
 **Pronouns:** She/Her  
 **Background:** Tejana   
 **Role:** Client Support Developer  
