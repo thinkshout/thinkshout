@@ -44,25 +44,37 @@ All these questions have complex answers, but in one way or another, they tie ba
 
 ![Maria Vargas](/assets/images/blog/LITmaria.png){:.left .thirty}
 <span class="caption left thirty"><i class="fa fa-caret-up"></i></span> **Name:** Maria Vargas  
+
 **Pronouns:** She/Her  
+
 **Background:** Mexicana   
+
 **Role:** Project Manager/ Associate Strategist   
+
 **Favorite Consejo (Piece of advice):** Echale ganas.  I remember hearing this throughout my entire life.  It grounds me and reminds me that I belong and wherever I put in effort fruition will come.  
 </p>
 </p> 
 </p>
 ![Rebecca Negron](/assets/images/blog/LITrebecca.png){:.left .thirty}
 <span class="caption left thirty"><i class="fa fa-caret-up"></i></span> **Name:** Rebecca Negron  
+
 **Pronouns:** She/Her  
+
 **Background:** Puerto Rican  
+
 **Role:** Software Developer  
+
 **Favorite Consejo (Piece of advice):** TBD  
 </p>
 </p> 
 </p> 
 ![Katie Escoto](/assets/images/blog/LITkatie.png){:.left .thirty}
 <span class="caption left thirty"><i class="fa fa-caret-up"></i></span> **Name:** Katie Escoto  
+
 **Pronouns:** She/Her  
+
 **Background:** Tejana   
+
 **Role:** Client Support Developer  
+
 **Favorite Consejo (Piece of advice):** It wasn’t necessarily spoken advice, but I got to see how my mom moved through the world. She started her career during the Savings and Loan crisis in Texas and at one point was the youngest Latina manager at the Resolution Trust Corporation, traveling around rural Texas to close or restructure failing S&Ls mostly managed by what she (wryly) called the ‘good ol’ boys club’. Nothing and no one intimidated her professionally or personally. I grew up trying to be as fearless as she is.  
