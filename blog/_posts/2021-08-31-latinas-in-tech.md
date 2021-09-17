@@ -40,7 +40,9 @@ The stats go on, but in short, there is a lack of representation and support for
 
 How do we increase representation? How do we pave the way for more Latinas to have access to tech?  How do we ensure support systems are in place so we can retain valuable talent?  
 
-All these questions have complex answers, but in one way or another, they tie back to comunidad.  In this blog series, three ThinkShout employees who have very distinct backgrounds—but share the curiosity to learn, to grow, and the commitment to pave the way for more Latinas into tech—will share their journeys into tech, and their outlook for the future of Latinx representation. Meet Rebecca, Katie, and Maria. 
+All these questions have complex answers, but in one way or another, they tie back to comunidad.  In this blog series, three ThinkShout employees who have very distinct backgrounds—but share the curiosity to learn, to grow, and the commitment to pave the way for more Latinas into tech—will share their journeys into tech, and their outlook for the future of Latinx representation. 
+
+### Meet Rebecca, Katie, and Maria. 
 
 ![Maria Vargas](/assets/images/blog/LITmaria.png){: style="float: left"}
 <span class="caption left thirty"><i class="fa fa-caret-up"></i></span> 
@@ -52,25 +54,21 @@ All these questions have complex answers, but in one way or another, they tie ba
 **Favorite Consejo (Piece of advice):** Echale ganas.  I remember hearing this throughout my entire life.  It grounds me and reminds me that I belong and wherever I put in effort fruition will come.  
   
   
-![Rebecca Negron](/assets/images/blog/LITrebecca.png){:.left .thirty}
-<span class="caption left thirty"><i class="fa fa-caret-up"></i></span> **Name:** Rebecca Negron  
-
-**Pronouns:** She/Her  
-
-**Background:** Puerto Rican  
-
-**Role:** Software Developer  
-
-**Favorite Consejo (Piece of advice):** TBD  
+![Rebecca Negron](/assets/images/blog/LITrebecca.png){: style="float: left"}
+<span class="caption left thirty"><i class="fa fa-caret-up"></i></span> 
   
-   
-![Katie Escoto](/assets/images/blog/LITkatie.png){:.left .thirty}
-<span class="caption left thirty"><i class="fa fa-caret-up"></i></span> **Name:** Katie Escoto  
-
+**Name:** Rebecca Negron  
 **Pronouns:** She/Her  
+**Background:** Puerto Rican  
+**Role:** Software Developer  
+**Favorite Consejo (Piece of advice):** TBD  
+      
+       
+![Katie Escoto](/assets/images/blog/LITkatie.png){: style="float: left"}
+<span class="caption left thirty"><i class="fa fa-caret-up"></i></span> 
 
+**Name:** Katie Escoto  
+**Pronouns:** She/Her  
 **Background:** Tejana   
-
 **Role:** Client Support Developer  
-
 **Favorite Consejo (Piece of advice):** It wasn’t necessarily spoken advice, but I got to see how my mom moved through the world. She started her career during the Savings and Loan crisis in Texas and at one point was the youngest Latina manager at the Resolution Trust Corporation, traveling around rural Texas to close or restructure failing S&Ls mostly managed by what she (wryly) called the ‘good ol’ boys club’. Nothing and no one intimidated her professionally or personally. I grew up trying to be as fearless as she is.  
