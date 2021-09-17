@@ -1,7 +1,7 @@
 ---
 layout: blog
 body-class: blog-post
-topic: "culture & community"
+topic: culture
 campaign-topic: equity
 title: "Latinas in Tech"
 type: 
