@@ -17,7 +17,7 @@ tags:
   - Equity
   - Culture
   - Technology
-date: 2020-05-11 12:00:00
+date: 2021-09-17 12:00:00
 image: https://thinkshout.com/assets/images/blog/LIThero.png
 header-image: /assets/images/blog/LIThero.png
 header-image-alt: A mural of Latina Icons, Yolanda Black Navarro, Angela Morales, Norma Zenteno, Graciela Saenz, and Nelly Moyano Fraga.
