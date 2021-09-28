@@ -6,7 +6,7 @@ last_name: Vargas
 position: Associate Strategist
 leadin: |
   Maria believes that good strategy work is based on listening, connection building, and trusting what users say they need. 
-  social:
+social:
   github:
   linkedin:
 team-image:
