@@ -10,7 +10,7 @@ author:
  - rebeccan
  - mariav
  - katie
-published: false
+published: true
 featured: false
 short: "Comunidad is everything.  We learn from each other, we grow together, we don’t leave others behind.  Comunidad inspires us every day. Comunidad is storytelling."
 tags:
