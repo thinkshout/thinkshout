@@ -12,7 +12,7 @@ team-image:
   small: team/small/rebecca-negron-sm.jpg
   medium: team/medium/rebecca-negron-med.jpg
   large: team/large/rebecca-negron.jpg
-published: false
+published: true
 current-employee: true
 name: rebeccan
 bio: |
