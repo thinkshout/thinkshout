@@ -3664,6 +3664,9 @@ a.visually-hidden.focusable:focus {
 .blog-post .body .clear,
 .blog-post .intro .clear {
   clear: both; }
+.blog-post .body .nocaret,
+.blog-post .intro .nocaret {
+  display: none; }
 .blog-post .body iframe,
 .blog-post .intro iframe {
   height: calc(56vw - 24px);
