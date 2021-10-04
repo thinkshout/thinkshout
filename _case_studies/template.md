@@ -15,7 +15,7 @@ description: "Description paragraph here. The inro Paragraph ususally works well
 title:
 featured_impact_text:
 featured_client_name:
-cs-class: ""
+cs-class: "" #lowercase, no spaces please
 
 cs-preview:
   image: /assets/images/

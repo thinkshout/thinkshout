@@ -13,7 +13,7 @@ description: "Freedom House is founded on the core conviction that freedom flour
 # END LAYOUT DATA
 
 title: "Amplifying a Dangerous Authoritarian Trend Through a Dynamic Single Page Experience"
-cs-class: "Freedom House"
+cs-class: "fh-tnr"
 featured_impact_text: "@todo"
 featured_client_name: "Freedom House: Transnational Repression"
 
