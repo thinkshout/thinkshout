@@ -58,7 +58,7 @@ All these questions have complex answers, but in one way or another, they tie ba
 **Pronouns:** She/Her  
 **Background:** Puerto Rican  
 **Role:** Software Developer  
-**Favorite Consejo (Piece of advice):** TBD  
+**Favorite Consejo (Piece of advice):** Solos llegamos más rápido, juntos llegamos más lejos.  
 <br class="clear">
       
          
