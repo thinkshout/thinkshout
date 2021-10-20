@@ -2,9 +2,9 @@
 # LAYOUT DATA
 layout: case_study
 body-class: case-study WRI
-active: false
+active: true
 homepage: true
-published: false
+published: true
 related: "World Resources Institute"
 order: 6
 image: /assets/images/case-studies/WRIhero.jpg
