@@ -30,15 +30,18 @@ cs-header:
 
 cs-intro:
   - intro-paragraph: |
-      Introduce the concept of Transnational Repression—the practice of tracking, threatening, and suppressing citizens seeking amnesty in other countries—into the global spotlight. Ensure that journalists, policymakers, and everyday citizens understand the depth, breadth, and scope of Transnational Repression worldwide.   
+      Freedom House is founded on the core conviction that freedom flourishes in democratic nations where governments are accountable to their people. Best known for their comprehensive annual Freedom in the World report and interactive global map, the organization publishes groundbreaking work on the status of democratic practices and principles worldwide.   
 
   - intro-title: Goals
     intro-text: |
-      Introduce the concept of Transnational Repression—the practice of tracking, threatening, and suppressing citizens seeking amnesty in other countries—into the global spotlight. Ensure that journalists, policymakers, and everyday citizens understand the depth, breadth, and scope of Transnational Repression worldwide. 
+      - Introduce the concept of Transnational Repression—the practice of tracking, threatening, and suppressing citizens seeking amnesty in other countries—into the global spotlight.
+      - Ensure that journalists, policymakers, and everyday citizens understand the depth, breadth, and scope of Transnational Repression worldwide. 
 
   - intro-title: Solutions
     intro-text: |
-      Create a powerful single unique page experience that tells a clear and compelling story of human suffering and government abuse. Explain Transnational Repression in terms everyone can understand, and expose the magnitude of the problem. Integrate the single page experience with the depth of research, information, and expertise available on FreedomHouse.org’s existing platform.   
+      - Create a powerful single unique page experience that tells a clear and compelling story of human suffering and government abuse.
+      - Explain Transnational Repression in terms everyone can understand, and expose the magnitude of the problem.
+      - Integrate the single page experience with the depth of research, information, and expertise available on FreedomHouse.org’s existing platform.   
 
   - intro-title: Results
     intro-text: |
