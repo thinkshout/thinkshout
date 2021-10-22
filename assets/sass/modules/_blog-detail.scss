@@ -336,6 +336,10 @@
       clear: both;
     }
 
+    .nocaret {
+      display: none;
+    }
+
     iframe {
       height: calc(56vw - 24px);
       max-height: 448px;
