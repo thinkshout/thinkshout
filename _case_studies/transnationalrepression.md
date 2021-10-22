@@ -54,7 +54,7 @@ cs-sections:
 
       While just about anyone can hear the name Jamal Khashoggi and know that the famous *Washington Post* journalist was assassinated while at the Saudi consulate in Turkey, in October 2018, just about no one would have been able to tell you exactly what happened to him: a terrifying act of Transnational Repression. Freedom House set out to change that. 
       
-      It turns out that what happened to Jamal Khashoggi wasn’t an isolated incident—nearly 3.5 million people are at risk of transnational repression, with nearly 80 countries involved. For Freedom House, the first step in combating transnational repression and the spread of authoritarian reach was conducting rigorous research on the victims and perpetrators of this global phenomenon. Our work together? To make the first-ever report on Transnational Repression as compelling and clear as possible so that policy makers, journalists and governments might take notice and urge a change in course.    
+      It turns out that what happened to Jamal Khashoggi wasn’t an isolated incident—nearly 3.5 million people are at risk of transnational repression, with nearly 80 countries involved. For Freedom House, the first step in combating Transnational Repression and the spread of authoritarian reach was conducting rigorous research on the victims and perpetrators of this global phenomenon. Our work together? To make the first-ever report on Transnational Repression as compelling and clear as possible so that policy makers, journalists and governments might take notice and urge a change in course.    
 
   - section-image: "/assets/images/case-studies/TNRhomepage.jpg"
     section-image-alt: "Transnational Repression homepage shown on desktop."
@@ -72,7 +72,7 @@ cs-sections:
   - section-description: |
       #### Weaving a unique experience into an existing information architecture.   
 
-      Instead of focusing on all report components, ThinkShout decided to focus entirely on a single unique page that would tell the story of Transnational Repression and be incredibly shareable. Media outlets would be able to send deeply concerned readers. Those readers would be able to share the report knowing that the concept would be immediately understood and alarming. And, through a strategic integration of freedomhouse.org’s existing content types, policy experts and government representatives could still dive into the details and tailor new approaches to address the scope of the problem.    
+      Instead of focusing on all report components, ThinkShout decided to focus entirely on a single unique page that would tell the story of Transnational Repression and be incredibly shareable. Media outlets would be able to send deeply concerned readers to the report. Those readers would be able to share the report knowing that the concept would be immediately understood and alarming. And, through a strategic integration of freedomhouse.org’s existing content types, policy experts and government representatives could still dive into the details and tailor new approaches to address the scope of the problem.    
 
   - section-image: "/assets/images/case-studies/TNR-duo.jpg"
     section-image-alt: "TNR country pages and map showed on desktop and mobile."
