@@ -35,7 +35,8 @@ cs-intro:
   - intro-title: Goals
     intro-text: |
       - Design and build a dynamic distribution platform that puts the best of WRI’s research, data, and analysis at the fingertips of the world’s government, business, and climate justice leaders.  
-      - Gain maintenance efficiencies, brand consistency, and controlled content sharing across sites. Engage a host of complex stakeholders spanning teams and levels, including global locations.
+      - Gain maintenance efficiencies, brand consistency, and controlled content sharing across sites. 
+      - Engage a host of complex stakeholders spanning teams and levels, including global locations.
 
   - intro-title: Solutions
     intro-text: |
