@@ -16,7 +16,7 @@ team-image:
   medium: team/medium/ryanmedium.jpg
   large: team/large/ryanlarge.jpg
 published: true
-current-employee: true
+current-employee: false
 name: ryan
 bio: |
   As a Design System creator, librarian, curator, and senior front-end developer, Ryan values creating tools that make others' lives a little easier. This passion for community-based technology helps us understand why Ryan is a seasoned contributor to open-source—contributing to projects like the Components Drupal module, a Tailwind plugin to handle SVG files, and more.  
