@@ -15,7 +15,7 @@ team-image:
   medium: team/medium/brimed.jpg
   large: team/large/brilarge.jpg
 published: true
-current-employee: true
+current-employee: false
 name: Bri
 bio: |
   <p>From helping organize Tri-State Opioid Addiction Symposiums, creating training programs for folks who were previously incarcerated, and advocating for LGBTQIA+ rights, doing work that matters is intrinsically important to Bri. At her core, she believes everything is rooted in building authentic relationships. She credits being an active listener and building trust as essential skills for developing both internal and external partnerships.
