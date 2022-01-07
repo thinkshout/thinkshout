@@ -16,7 +16,7 @@ team-image:
   medium: team/medium/kaylan.jpg
   large: team/large/kaylan.jpg
 published: true
-current-employee: true
+current-employee: false
 name: kaylan
 bio: |
   Throughout Kaylan’s career, her passion and curiosity have often revolved around how to help both people and processes be more effective: from her start as a recruiter for a staffing agency, to her work as an executive coach for college students, as a PMP-certified project manager, and most recently as our Director of Operations, leading improvements and initiatives within HR and business development. Kaylan is a self-proclaimed research nut and lover of words with a Master’s in English literature to show for it.
