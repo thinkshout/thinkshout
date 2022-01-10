@@ -16,7 +16,7 @@ team-image:
   medium: team/medium/averymedium.jpg
   large: team/large/averylarge.jpg
 published: true
-current-employee: true
+current-employee: false
 name: avery
 bio: |
   <p>As a descendant of Louisiana sharecroppers and Southern horsemen, avery's work continues a legacy of leading from the land and the herd. Raised in Des Moines, Iowa as a grandchild of the Great Migration, avery holds sacred the preservation of storytelling methodology as a cultural technology. avery has an academic research background in the state-sanctioned and economic violence of the American judicial system and the cultural responses it generates.
