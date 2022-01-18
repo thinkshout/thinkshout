@@ -16,7 +16,7 @@ team-image:
   medium: team/medium/deanna.jpg
   large: team/large/deanna.jpg
 published: true
-current-employee: true
+current-employee: false
 name: deanna
 bio: |
   Deanna loves helping organizations achieve maximum productivity, and finds deep satisfaction in working with talented colleagues to find those unique solutions that will create tangible change. She’s managed complex projects and implemented project management systems that streamline processes and help teams make better-informed decisions. Deanna also worked in the public sector for NW Regional Education Service District and for non-profits such as Education Northwest, Broad Institute, and Network for Excellence in Health Innovation.
