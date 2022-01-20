@@ -3,9 +3,9 @@ layout: teammember
 description: "Maria Vargas is a Project Manager specializing in process management at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Maria
 last_name: Vargas
-position: Associate Strategist
+position: Project Manager
 leadin: |
-  Maria believes that good strategy work is based on listening, connection building, and trusting what users say they need. 
+  Maria grounds her work in listening, connection building, and trusting what users say they need. 
 social:
   github:
   linkedin:

@@ -1,9 +1,9 @@
 ---
 layout: teammember
-description: "Erika Bridges a Director of Strategic Services specializing in digital engagement strategy at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
+description: "Erika Bridges Vice President of Product Design specializing in digital engagement strategy at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Erika
 last_name: Bridges
-position: Director of Strategic Services
+position: Vice President of Product Design
 leadin: |
   Erika believes that strategy is the perfect mix of right and left brain—a seamless balance of her need for equal parts order and chaos. 
 social:
