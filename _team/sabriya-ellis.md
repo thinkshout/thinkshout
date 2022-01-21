@@ -1,9 +1,9 @@
 ---
 layout: teammember
-description: "Sabriya Ellis is a Strategy Director who possesses an appreciation for diversity and a curiosity for life's big questions"
+description: "Sabriya Ellis is Strategy Director, Management Lead who possesses an appreciation for diversity and a curiosity for life's big questions"
 first_name: Sabriya
 last_name: Ellis
-position: Strategy Director
+position: Strategy Director, Management Lead
 leadin: |
   Sabriya’s personal brand is always "becoming"; she possesses an appreciation for diversity and a curiosity for life's big questions.
 team-image:
