@@ -1,9 +1,9 @@
 ---
 layout: teammember
-description: "Mike Shaver is a Senior Technical Project Manager specializing in process management at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
+description: "Mike Shaver is a Technical Project Director specializing in process management at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Mike
 last_name: Shaver
-position: Senior Technical Project Manager
+position: Technical Project Director
 leadin: |
   Mike’s got a strong knack for the technical details and is accomplished at spearheading digital initiatives for large nonprofits. He has all the traits of an expert cat-herder. And he's apparently never tweeted a day in his life. Too busy managing the nitty-gritty, we assume.
 social:
