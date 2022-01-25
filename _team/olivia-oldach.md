@@ -1,9 +1,9 @@
 ---
 layout: teammember
-description: "Olivia Oldach is a Sales and Marketing Coordinator specializing in social media management at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
+description: "Olivia Oldach is a Sales and Marketing Manager specializing in social media management at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Olivia
 last_name: Oldach
-position: Sales and Marketing Coordinator
+position: Sales and Marketing Manager
 leadin: |
   Olivia thinks fostering community, connection, and understanding through storytelling is crucial for any organization to thrive, and she sees marketing as a way to do just that.
 social:
