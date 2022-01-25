@@ -16,7 +16,7 @@ team-image:
   medium: team/medium/rosemedium.jpg
   large: team/large/roselarge.jpg
 published: true
-current-employee: true
+current-employee: false
 name: rose
 bio: |
   Rose, a graduate of Washington State University, came to ThinkShout with an extensive background in nonprofit communications, working at organizations like YWCA Clark County and United Way of the Columbia-Willamette. All of this experience has led her to care deeply about supporting and empowering our clients to do their best work—which she does on the daily. 
