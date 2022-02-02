@@ -30,7 +30,7 @@ Like many good ideas, this one was born over a round of beers at a conference la
 
 This last piece of the puzzle fell into place when we brought on our incredible class of interns, two of them from the [Emerging Leaders Internship program](http://emergingleadersinternship.org/). The ThinkShout Cares Campaign gave them experience in all aspects of a project, from designing the shirts to fulfilling orders. We chose [p:ear](http://pearmentor.org/), an incredible organization right in our neighborhood who creatively mentors homeless youth, as our partner and beneficiary.
 
-We like to say that ThinkShout is a platform for good. It's why we exclusively partner with mission-driven organizations. It's why we're a [B-Corp](https://www.bcorporation.net/community/thinkshout-inc) and signatories to the [Tech Town Diversity Pledge](http://techtownportland.com/pledge/). It's a driving force behind our growth. The ThinkShout Cares campaign is one example of how a business can do good that we're all proud of. Our interns gained valuable experience and p:ear received a modest donation.
+We like to say that ThinkShout is a platform for good. It's why we exclusively partner with mission-driven organizations. It's why we're a [B-Corp](https://www.bcorporation.net/en-us/find-a-b-corp/company/thinkshout-inc/) and signatories to the [Tech Town Diversity Pledge](http://techtownportland.com/pledge/). It's a driving force behind our growth. The ThinkShout Cares campaign is one example of how a business can do good that we're all proud of. Our interns gained valuable experience and p:ear received a modest donation.
 
 ![TS Cares Group](/assets/images/blog/ts-cares-group.jpg)
 {:.center}
