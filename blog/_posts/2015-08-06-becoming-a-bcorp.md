@@ -70,7 +70,7 @@ Circling back to our original Mission Statement at our founding, you’ll notice
 
 ### Becoming a Certified B Corp###
 
-In addition to fleshing out our vision for the company, we worked hard this year to achieve [B Corp certification](https://www.bcorporation.net/community/thinkshout-inc). [B Corp](https://www.bcorporation.net/what-are-b-corps/the-non-profit-behind-b-corps) represents both a framework and certification from the nonprofit B Lab, as well as a legal status in select states, with the goal of holding corporations accountable to society as well as shareholders.
+In addition to fleshing out our vision for the company, we worked hard this year to achieve [B Corp certification](https://www.bcorporation.net/en-us/find-a-b-corp/company/thinkshout-inc/). [B Corp](https://www.bcorporation.net/what-are-b-corps/the-non-profit-behind-b-corps) represents both a framework and certification from the nonprofit B Lab, as well as a legal status in select states, with the goal of holding corporations accountable to society as well as shareholders.
 
 First, we made adjustments to the company’s articles of incorporation to ensure that "benefits to society" can be prioritized over increasing shareholder wealth in making financial decisions for ThinkShout. Technically speaking, without this change, as executives of a corporation, we are legally required to prioritize shareholder value over commitment to community and the environment.
 

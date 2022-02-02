@@ -18,7 +18,7 @@ image: https://thinkshout.com/assets/images/blog/civic-engagement-header.jpg
 header-image: /assets/images/blog/civic-engagement-header.jpg
 header-image-alt: "The Giving Team"
 ---
-One of the defining characteristics of the ThinkShout team is our desire to use business as a force for good. It's what inspires the team, drives our [B Corp status](https://www.bcorporation.net/community/thinkshout-inc), and draws clients and partners who share our values.
+One of the defining characteristics of the ThinkShout team is our desire to use business as a force for good. It's what inspires the team, drives our [B Corp status](https://www.bcorporation.net/en-us/find-a-b-corp/company/thinkshout-inc/), and draws clients and partners who share our values.
 
 This fall, there are many events taking place around the world that demand our attention and efforts, from the war in Syria to the drumbeat of concerns about climate change. But none, perhaps, combines the urgency and importance of the upcoming United States election, which will have a major impact on those issues and much, much, more. Luckily, unlike many of those other concerns, this one is easy to get involved in and have a direct impact.
 
