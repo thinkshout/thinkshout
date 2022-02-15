@@ -1,11 +1,11 @@
 ---
 layout: teammember
-description: "Kevin Le is Community and Events Manager specializing in process and event management at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
+description: "Kevin Le is Operations Specialist specializing in process and event management at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Kevin
 last_name: Le
-position: Community and Events Manager
+position: Operations Specialist
 leadin: |
-  Kevin is the magic behind the curtain. He loves orchestrating multiple pieces at once to create the perfect workshop, conference, or office celebration; which makes him the perfect fit as our Office & Events Coordinator.
+  Kevin is the magic behind the curtain. He loves orchestrating multiple pieces at once to create the perfect workshop, conference, or office celebration; which makes him the perfect fit as our Operations Specialist.
 social:
   linkedin: https://www.linkedin.com/in/lekevin
   instagram: http://www.instagram.com/craycrayle
