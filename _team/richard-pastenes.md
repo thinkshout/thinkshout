@@ -16,7 +16,7 @@ team-image:
   medium: team/medium/Richard-Pastenes-med.jpg
   large: team/large/Richard-Pastenes-lg.jpg
 published: true
-current-employee: true
+current-employee: false
 name: richard
 bio: |
   Richard didn’t just happen to fall upon coding- he has been obsessed with figuring out how things work from a young age. From tinkering with his toys to getting in trouble for taking apart (and putting back together) his dad’s car stereo, Richard was driven to pursue the analytical, yet creative, field of Electronic Engineering. On top of having an Associates degree in Web design and Bachelors in Electronic Engineering, Richard has co-owned a computer repair shop (which doubled as an internet cafe), managed the IT department of a mining company, and even had a stint as a graphic designer for a local magazine.
