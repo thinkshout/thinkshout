@@ -45,8 +45,9 @@ cs-intro:
 
   - intro-title: Results
     intro-text: |
-      +3:30 minutes time on page compared to 1:57 sitewide 
-      +Backlink traction from all major media outlets: NPR, New Yorker, New York Times, Washington Post, Atlantic, Foreign Affairs  
+      - +3:30 minutes time on page compared to 1:57 sitewide 
+      - +Backlink traction from all major media outlets: NPR, New Yorker, New York Times, Washington Post, Atlantic, Foreign Affairs
+      - Webby Award Honoree
 
 cs-sections:
   - section-description: |
