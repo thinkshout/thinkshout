@@ -1,8 +1,8 @@
 ---
 layout: teammember
-description: "Brendan Adkins is a Technical Architect specializing in open source development at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
+description: "Brendan Jercich is a Technical Architect specializing in open source development at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Brendan
-last_name: Adkins
+last_name: Jercich
 position: Technical Architect
 leadin: |
   Brendan learned BASIC on his Dad’s work computer when he was five. He pursued this path, because unlike homework assignments, compilers allowed him to make mistakes as often as he needed to, until he got it right.
