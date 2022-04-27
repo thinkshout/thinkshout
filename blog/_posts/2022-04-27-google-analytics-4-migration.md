@@ -25,8 +25,8 @@ header-image-alt: "image of a Google analytics dashboard"
 
 Shout out to all my analytics users! Some of you may have seen the below alert message in Universal Analytics:  
  
-"On March 14, 2021, Google announced Universal Analytics will no longer process new data in standard properties ( Universal Analytics)  beginning July 1, 2023. Google is advising users to prepare now by setting up and switching over to a Google Analytics 4 property.
-360 Universal Analytics properties will stop processing new hits on October 1, 2023. After that, you’ll be able to access your previously processed data in Universal Analytics for at least six months." 
+*"On March 14, 2021, Google announced Universal Analytics will no longer process new data in standard properties ( Universal Analytics)  beginning July 1, 2023. Google is advising users to prepare now by setting up and switching over to a Google Analytics 4 property.
+360 Universal Analytics properties will stop processing new hits on October 1, 2023. After that, you’ll be able to access your previously processed data in Universal Analytics for at least six months."* 
  
 While this news is overwhelming, there’s a lot of perks to it as well. It’s sort of like when you have guests come over and you finally get your act together and clean up that one area of the living room that you’ve been meaning to clean for months… or years even. This is that, but for your analytics. 
 
