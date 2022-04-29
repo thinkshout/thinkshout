@@ -8,7 +8,7 @@ title: "The Wind Beneath Your... Tail?"
 homepage: true
 author: joe
 published: true
-featured: false
+featured: true
 short: "Jumping into Tailwind CSS - The 2022 TS Front-end Stack, pt I"
 tags:
   - frontend
