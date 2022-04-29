@@ -3,7 +3,7 @@ layout: blog
 body-class: blog-post
 topic: 
 - accessibility
-- "Technological Innovation"
+- technology
 campaign-topic: accessibility
 title: "Talking to Screen readers with ARIA-live and Drupal.announce()"
 homepage: true

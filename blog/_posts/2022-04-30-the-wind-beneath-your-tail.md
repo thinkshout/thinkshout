@@ -2,14 +2,14 @@
 layout: blog
 body-class: blog-post
 topic: 
-- "Technological Innovation"
+- technology
 campaign-topic: "technological innovation"
 title: "The Wind Beneath Your... Tail?"
 homepage: true
 author: joe
 published: true
 featured: true
-short: "Jumping into Tailwind CSS - The 2022 TS Front-end Stack, pt I"
+short: "Jumping into Tailwind CSS - The 2022 ThinkShout Front-end Stack, part I"
 tags:
   - frontend
   - "Tailwind CSS"
@@ -20,10 +20,10 @@ tags:
   - SMACSS
   - BEM
   - "History of the Web"
-date: 2021-01-20 11:00:00
-image: https://thinkshout.com/assets/images/blog/tag-hero.jpg
-header-image: /assets/images/blog/tag-hero.jpg
-header-image-alt: "Balloons being released"
+date: 2022-03-30 11:00:00
+image: /assets/images/ts_redesign/blog/up-and-theming1.jpg
+header-image: /assets/images/ts_redesign/blog/up-and-theming1.jpg
+header-image-alt: "Lego minifigs with the TS logo"
 ---
 ## Jumping into Tailwind CSS
 ### The 2022 TS Front-end Stack, pt I

@@ -3,7 +3,7 @@ layout: blog
 body-class: blog-post
 topic: 
 - process
-- "Technological Innovation"
+- technology
 campaign-topic: accessibility
 title: "Meet Our New Support Team"
 homepage: true
