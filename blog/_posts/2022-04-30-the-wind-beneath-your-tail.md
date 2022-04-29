@@ -32,7 +32,7 @@ Back in early 2017, in an effort to more fully understand the technology stack t
 
 However! Time passes, tools improve, and ThinkShout is retiring our 2017 starter theme. No more Ruby/Rake/Node handlers or Sass/Bourbon/Neat CSS toolset! A more detailed look at the technology stack will be forthcoming, as will a post discussing the design-to-theming process. This post is focusing on the centerpiece of the 2022 front-end stack, [Tailwind CSS](https://tailwindcss.com/). 
 
-## Shifting our Thinking, or How I Learned to Stop Worrying and Love Design Tokens
+### Shifting our Thinking, or How I Learned to Stop Worrying and Love Design Tokens
 
 One of the things that ThinkShout has been trying to do over the last few years is make the handoff from design to development easier for everyone involved. Gone are the days when a designer would throw a .psd over the fence at the dev team and scamper off to the next project, leaving the devs to figure out what the 'standard' margins and padding on a project might be. 
 
@@ -85,11 +85,11 @@ If those look familiar, it's because they're using CSS variables syntax. In addi
 
 Pro tip: if you use any programmatically generated classes, put all of the potential classes in your Tailwind styleguide file - that way they all get added to the generated CSS.
 
-## Use a little or use a lot. It's your CSS. 
+### Use a little or use a lot. It's your CSS. 
 
 The other thing that the docs imply is that you need to use the Tailwind-defined classes for _everything_. Nothing could be farther from the truth - Tailwind uses `.css` files and you can just write the kind of CSS in them that you've been using for years, which is perfectly reasonable in a world of CMS-generated markup. Having `article.css` and `pages.css` files that set up your individual field theming in one place is fine. The Tailwind police are not coming to revoke your vim license. 
 
-## Less Sass, more class.
+### Less Sass, more class.
 
 The loss of a preprocessor such as Sass or Less may seem like a setback (Variables! Nesting! Beloved mixins!) but Tailwind does a great job of removing the need for those things. The `$variables` you always set up at the start of a project get replaced with [native CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) (aka, CSS variables) with postcss-generated fallbacks for older browsers. And it puts all of them in a file for your reference, based on those design token `.json` files we set up earlier: `/assets/base/css/_generated-variables.css` 
 
@@ -111,13 +111,13 @@ You can also override the default breakpoints in your style dictionary using ([W
  
 Finally, in place of Sass's [dubious @extend](https://www.google.com/search?q=reasons+not+to+use+sass+%40extend), Tailwind has [@apply](https://tailwindcss.com/docs/reusing-styles#extracting-classes-with-apply), which seems the same (just apply any existing class to the new class you're defining), but instead of adding tons of new selectors and bloating your CSS, it just generates the `property: value;` pairs for the new class - and again, _only_ if that class is being used. 
 
-## The Big Payoff - why Tailwind is Awesome
+### The Big Payoff - why Tailwind is Awesome
 
 All of the things I've discussed so far seem practical for a modern front-end build system. Using utility classes and keeping CSS minimal keeps code DRY. Getting to use advanced CSS without worrying about browser support is fun. Setting up a style dictionary of all of the vars/tokens using .json files is a really clean way of organizing the setup. 
 
 But what's the big payoff? Why go to the trouble to learn all of the default classes (`pb-sm` for `padding-bottom: var(--font-size-sm)`, for example)? 
 
-Here it is: _*You only have to learn Tailwind's namespace once*_. Just like with any site build, after you've been doing the theming for a few days, you get to know what the `gray-dk` and `gray-lt` are. But when you set up a base style dictionary, it means the next Tailwind site 
+Here it is: ***You only have to learn Tailwind's namespace once***. Just like with any site build, after you've been doing the theming for a few days, you get to know what the `gray-dk` and `gray-lt` are. But when you set up a base style dictionary, it means the next Tailwind site 
 your team builds _will use the same tokens, even when the values are different_. Here's the light gray from the last five non-Tailwind sites I've worked on:
 
 ~~~ css
