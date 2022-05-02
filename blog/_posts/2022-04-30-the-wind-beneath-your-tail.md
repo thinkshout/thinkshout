@@ -7,7 +7,7 @@ campaign-topic: "technological innovation"
 title: "The Wind Beneath Your... Tail?"
 homepage: true
 author: joe
-published: true
+published: false
 featured: true
 short: "Jumping into Tailwind CSS - The 2022 ThinkShout Front-end Stack, part I"
 tags:
