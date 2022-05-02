@@ -3,7 +3,7 @@ layout: blog
 body-class: blog-post
 topic: 
 - accessibility
-- "Technological Innovation"
+- technology
 campaign-topic: "technological innovation"
 title: "Fast, Relevant, and Easy to Read"
 homepage: true

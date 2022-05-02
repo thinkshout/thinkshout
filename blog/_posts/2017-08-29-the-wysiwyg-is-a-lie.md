@@ -16,7 +16,7 @@ tags:
   - CKEditor
   - WYSIWYG
 date: 2017-08-29 08:20:00
-image: https://thinkshout/assets/images/marquee/expertise.jpg
+image: https://thinkshout.com/assets/images/marquee/expertise.jpg
 ---
 
 If you've ever implemented a WYSIWYG editor in Drupal, one thing that becomes apparent quickly is that the term (What You See Is What You Get) is a complete lie. None of the default theme styles appear in the editor, because the editor shows up in the admin theme. This obviously diminishes its value, and makes custom element styles useless. The good news is that it's fairly simple to fix - once you know how.

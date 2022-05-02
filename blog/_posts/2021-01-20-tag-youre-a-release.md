@@ -2,7 +2,7 @@
 layout: blog
 body-class: blog-post
 topic: 
-- "Technological Innovation"
+- technology
 campaign-topic: "technological innovation"
 title: "Tag! You're a Release!"
 homepage: true
