@@ -25,10 +25,10 @@ header-image-alt: "image of a Google analytics dashboard"
 
 Shout out to all my analytics users! Some of you may have seen the below alert message in Universal Analytics:  
  
-*"On March 14, 2021, Google announced Universal Analytics will no longer process new data in standard properties ( Universal Analytics)  beginning July 1, 2023. Google is advising users to prepare now by setting up and switching over to a Google Analytics 4 property.
+*"On March 14, 2021, Google announced Universal Analytics will no longer process new data in standard properties (Universal Analytics)  beginning July 1, 2023. Google is advising users to prepare now by setting up and switching over to a Google Analytics 4 property.
 360 Universal Analytics properties will stop processing new hits on October 1, 2023. After that, you’ll be able to access your previously processed data in Universal Analytics for at least six months."* 
  
-While this news is overwhelming, there’s a lot of perks to it as well. It’s sort of like when you have guests come over and you finally get your act together and clean up that one area of the living room that you’ve been meaning to clean for months… or years even. This is that, but for your analytics. 
+While this news is overwhelming, there’s a lot of perks to it as well. It’s sort of like when you have guests come over and you finally get your act together and clean up that one area of the living room that you’ve been meaning to clean for months…or years even. This is that, but for your analytics. 
 
 ## So what's new?
 
@@ -42,7 +42,7 @@ The good news is, Google has shared that all these changes will provide some gre
 - Anonymous IP address options to provide users more privacy
 - GDPR settings per geographic region
 
-The next twelve months will be fluid since GA4 is still in beta, and we are all actively learning the software while it's still under development. As more clients configure their GA4 accounts, Google will be sculpting the software, much like they did with Universal Analytics. As they say, they’re building the plane as they fly, and any consultant claiming to understand the scope of this technology shift or its full implications is likely pushing a bit of snake oil.
+The next twelve months will be fluid since GA4 is still in beta, and we are all actively learning the software while it's still under development. As more clients configure their GA4 accounts, Google will be sculpting the software, much like they did with Universal Analytics. As they say, they’re building the plane as they fly—and any consultant claiming to understand the scope of this technology shift or its full implications is likely pushing a bit of snake oil.
 
 We are committed to keeping it 100% real and transparent with you all. You can check back here where we will proactively communicate our learnings as we go through this test and learn phase. 
 
@@ -60,7 +60,7 @@ All of Google’s communications state that GA4 is a free service.
 
 **3. When should I migrate my account, and why now?** 
 
-We advise configuring your new GA4 account by June 2022, allowing you to have at least 12 months of data in the new environment. And it will enable Thinkshout time to test the setups are correctly configured, and the data streams are working. If you fail to migrate and set up an account this year in 2023, when Universal Analytics sunsets, you won’t have any historical data to measure your site’s performance. 
+We advise configuring your new GA4 account by June 2022, allowing you to have at least 12 months of data in the new environment. Plus, it will enable Thinkshout time to test that setups are correctly configured and that data streams are working. If you fail to migrate and set up an account this year in 2023, when Universal Analytics sunsets you won’t have any historical data to measure your site’s performance. 
 
 **4. What’s the most significant benefit of GA4?**
 
