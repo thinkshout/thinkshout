@@ -4,7 +4,7 @@ description: "Sol Dougherty is a Software Developer specializing in Drupal and W
 first_name: Sol
 last_name: Dougherty
 position: Software Developer
-leadin:leadin: |
+leadin: |
   Sol believes that in solving complex problems, there’s always something new to learn.
 social:
   github:
