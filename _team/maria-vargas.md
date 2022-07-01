@@ -14,7 +14,7 @@ team-image:
   medium:
   large: team/large/Maria-lg.jpg
 published: true
-current-employee: true
+current-employee: false
 name: mariav
 bio: |
   Maria’s path to ThinkShout is impressive: She studied Criminal Justice and Spanish as an undergrad at Western Oregon University, then went on to grad school at the University of Southern California to study Social Entrepreneurship. Her learning didn’t end there; she did extensive service-learning in Panama, Honduras, Nicaragua; worked in youth development and leadership programming; specifically targeting at-risk youth increasing academic success and building bridges between schools, communities, and families. She’s also worked with women empowerment programming focused on building safe and motivating spaces for women of color. As a strategist, Maria believes digital experiences need to be representative of their users—built by listening, understanding, and diving deep into the individual stories and experiences of the whole. 
