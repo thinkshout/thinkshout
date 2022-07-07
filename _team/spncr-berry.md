@@ -16,7 +16,7 @@ team-image:
   medium: team/medium/spncr-med.jpg
   large: team/large/spncr-large.jpg
 published: true
-current-employee: true
+current-employee: false
 name: Spncr
 bio: |
   Spncr had been intimidated by the complexity of development from a young age, so they set out to build the skills they needed little by little—from practicing by route of video game development and WordPress site support, to years of intense self study. Eventually, Spncr’s technical knowledge along with their drive to align their daily work with organizations that bring about positive change landed them here at ThinkShout. 

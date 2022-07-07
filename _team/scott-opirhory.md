@@ -15,7 +15,7 @@ team-image:
   medium: team/medium/scottmedium.jpg
   large: team/large/scottlarge.jpg
 published: true
-current-employee: true
+current-employee: false
 name: Scott
 bio: |
   <p>Though Scott began his love of art and design at the age of 10, he was formally introduced to the digital era when he enrolled in 'Designing Information Tools' while studying Industrial design at RISD. Quickly hooked to the world of web design, Scott began his career freelancing as a designer and art director for small businesses, artists, musicians, and record labels. 
