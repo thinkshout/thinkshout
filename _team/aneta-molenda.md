@@ -16,7 +16,7 @@ team-image:
   medium: team/medium/Aneta-medium.jpg
   large: team/large/Aneta-large.jpg
 published: true
-current-employee: true
+current-employee: false
 name: Aneta
 bio: |
   Aneta is a multi-talented strategist, ceramicist, and neonatal kitten foster whose love for organizing started in the labor movement as an organizer for the New York Taxi Workers Alliance on a campaign pressuring the city to start a health care fund for drivers. She continued this work with Working America, where she organized hair stylists and massage therapists in Oregon, Minnesota, and Illinois. Aneta then transitioned into the digital realm, where she spent several years at M+R consulting on digital organizing strategy. She’s worked with a variety of impressive organizations, including the Fight for $15, Planned Parenthood, and the Leukemia & Lymphoma Society. 
