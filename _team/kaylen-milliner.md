@@ -14,7 +14,7 @@ team-image:
   small: team/small/kaylen-small.jpg
   medium: team/medium/kaylen-medium.jpg
   large: team/large/kaylen-large.jpg
-published: true
+published: false
 current-employee: true
 name: Kaylen
 bio: |
