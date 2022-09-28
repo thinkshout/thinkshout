@@ -5,7 +5,7 @@ first_name: Jordan
 last_name: Kaiser
 position: Senior Front End Developer
 leadin: |
-  Development encourages Jordan to blend creativity with his propensity for problem solving, allowing him to find ingenious solutions to complex technical problems.
+  Development encourages Jordan to blend creativity with his propensity for problem solving–allowing him to find ingenious solutions to complex technical problems.
 social:
   github:
   twitter:
