@@ -1,9 +1,9 @@
 ---
 layout: teammember
-description: "Maria Fisher is a Technical Architect specializing in open source development at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
+description: "Maria Fisher is a DevOps Architect specializing in open source development at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Maria
 last_name: Fisher
-position: Technical Architect
+position: DevOps Architect
 leadin: |
  Maria’s always had a knack for solving puzzles, and we think websites are basically puzzles, so she's good at those, too. She’s also pretty excited about all things open source. Who doesn't love free technology?
 social:
