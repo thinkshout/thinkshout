@@ -13,7 +13,7 @@ team-image:
   medium: team/medium/rebecca-negron-med.jpg
   large: team/large/rebecca-negron.jpg
 published: true
-current-employee: true
+current-employee: false
 name: rebeccan
 bio: |
   Rebecca is constantly hungry for knowledge, and feels most fulfilled when she’s not only able to learn, but when she’s able to use her extensive tech expertise to teach others and form meaningful, human connections. It makes sense, then, why Rebecca chose to combine her passion for coding with her love of the nonprofit world-- focusing not only on web development, but the communities these organizations serve. Her passion for nonprofit work was fueled by the first thing Rebecca built with code: a website for a non-profit that tutored LatinX children to help them learn English. Ever since, Rebecca landed developing jobs with mission driven organizations; from redesigning websites in higher education, to a web development role with Food & Water Watch (an environmental non-profit).
