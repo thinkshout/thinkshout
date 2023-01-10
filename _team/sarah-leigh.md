@@ -15,7 +15,7 @@ team-image:
   medium: team/medium/SarahL.jpg
   large: team/large/SarahL.jpg
 published: true
-current-employee: true
+current-employee: false
 name: Sarah
 bio: |
   Sarah has been an art student for much of her life, but there is a definite distinction between art and design. To put it in her own words, "design needs to communicate." She finds the union of visual and written communication in graphic design to be a powerful force. It's a mindset we welcome here at ThinkShout, where the work of mission-driven organizations needs to be conveyed to potential supporters in a succinct but evocative manner.
