@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.4.10'
+ruby '2.6.5'
 
 gem 'jekyll', '>= 3.6.3'
 gem 'sass', '~> 3.4.22'
