@@ -1,9 +1,9 @@
 ---
 layout: teammember
-description: "Kevin Le is Operations Specialist specializing in process and event management at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
+description: "Kevin Le is Benefits and Administration Manager specializing in process and event management at ThinkShout, a full service digital agency and B-Corp that specializes in nonprofit tech, digital strategy, website development, accessible design, and brand work."
 first_name: Kevin
 last_name: Le
-position: Operations Specialist
+position: Benefits and Administration Manager
 leadin: |
   Kevin is the magic behind the curtain. He loves orchestrating multiple pieces at once to create the perfect workshop, conference, or office celebration; which makes him the perfect fit as our Operations Specialist.
 social:
