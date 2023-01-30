@@ -5,7 +5,7 @@ first_name: Kevin
 last_name: Le
 position: Benefits and Administration Manager
 leadin: |
-  Kevin is the magic behind the curtain. He loves orchestrating multiple pieces at once to create the perfect workshop, conference, or office celebration; which makes him the perfect fit as our Operations Specialist.
+  Kevin is the magic behind the curtain. He loves orchestrating multiple pieces at once to create the perfect workshop, conference, or office celebration.
 social:
   linkedin: https://www.linkedin.com/in/lekevin
   instagram: http://www.instagram.com/craycrayle
