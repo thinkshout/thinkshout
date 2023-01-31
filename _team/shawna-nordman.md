@@ -15,7 +15,7 @@ team-image:
   medium: team/medium/shawna-medium.jpg
   large: team/large/shawna-large.jpg
 published: true
-current-employee: true
+current-employee: false
 name: Shawna
 bio: |
   <p>Shawna has been an actor since she was 10 years old, so it makes sense that she eventually  received her BA in Theater Performance from Whitworth University. After graduation, Shawna worked as an actor and Marketing/PR Director for a small ensemble company before moving on to jobs in customer service, internal communications, order fulfillment, and project management. 
