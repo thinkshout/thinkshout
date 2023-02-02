@@ -10,7 +10,7 @@ team-image:
   small: team/small/monicasmall.jpg
   medium: team/medium/monicamedium.jpg
   large: team/large/monicalarge.jpg
-published: true
+published: false
 current-employee: true
 name: Monica
 bio: |
