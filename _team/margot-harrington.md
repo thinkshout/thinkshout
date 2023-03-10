@@ -14,7 +14,7 @@ team-image:
   medium: team/medium/margotmedium.jpg
   large: team/large/margotlarge.jpg
 published: true
-current-employee: true
+current-employee: false
 name: margot
 bio: |
   Margot got their start as a brand and packaging designer in 2008. Since then, their path has criss-crossed through a variety of spaces in and out of the tech world—content strategy, art direction, ecommerce design, retail merchandising, interior design, and art with non-profits, mission-based businesses, and creative organizations. Margot has even gained experience in higher ed as an Adjunct Professor in the web design department at DePaul University in Chicago.  
